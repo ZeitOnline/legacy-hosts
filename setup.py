@@ -22,8 +22,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'pyramid',
-        'waitress',
-        'lxml'],
+        'waitress'],
     entry_points={
         'paste.app_factory': [
             'factory = legacy_hosts.application:factory',
