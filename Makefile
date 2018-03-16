@@ -8,6 +8,7 @@ test:
 .PHONY: develop
 develop:
 	docker build --quiet --target develop --tag legacy-hosts-develop .
+	docker run -it --volume ${PWD}/src:/legacy_hosts/src --entrypoint pip legacy-hosts-develop install -e /legacy_hosts
 	docker run -it --publish 8080:8080 --volume ${PWD}/content:/content --volume ${PWD}/src:/legacy_hosts/src legacy-hosts-develop --reload
 
 
