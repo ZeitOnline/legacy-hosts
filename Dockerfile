@@ -1,20 +1,24 @@
 FROM python:3 AS base
 
-COPY . .
-RUN pip3 install --trusted-host devpi.zeit.de -i http://devpi.zeit.de:4040/zeit/default/ -r /requirements.txt
+WORKDIR legacy_hosts
+COPY requirements.txt requirements.txt
+RUN pip3 install --trusted-host devpi.zeit.de -i http://devpi.zeit.de:4040/zeit/default/ -r requirements.txt
+COPY setup.py setup.py
+COPY src src
+COPY app.ini app.ini
+COPY content content
 
 # --- testing ---
 FROM base AS testing
 RUN pip install pytest pytest-pep8 mock
-WORKDIR /test
-COPY pytest.ini .
+COPY pytest.ini pytest-ini
 ENTRYPOINT ["pytest"]
 
 # --- develop ---
 FROM base AS develop
 WORKDIR /
-RUN pip install -e .
-ENTRYPOINT ["pserve", "app.ini"]
+RUN pip install -e legacy_hosts
+ENTRYPOINT ["pserve", "legacy_hosts/app.ini"]
 
 # --- sdist ---
 FROM base AS sdist
