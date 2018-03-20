@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: legacy-hosts-deployment
   labels:
-    app: zuender
+    app: legacy-hosts
 spec:
   replicas: 5
   selector:
