@@ -1,3 +1,5 @@
+REGISTRY := registry.k8s.zeit.de
+REV := $(shell git describe)
 
 .PHONY: test
 test:
@@ -17,4 +19,9 @@ serve:
 	docker build --quiet --tag legacy-hosts .
 	docker run -it --publish 8080:8080 legacy-hosts
 
-
+.PHONY: k8s
+k8s:
+	docker build --quiet --target production --tag ${REGISTRY}/legacy-hosts:${REV} .
+	docker push ${REGISTRY}/legacy-hosts:${REV}
+	sed 's#${REGISTRY}/legacy-hosts:.*#${REGISTRY}/legacy-hosts:${REV}#' k8s/zuender.yml | kubectl apply -f -
+	kubectl rollout status deployment/zuender-deployment

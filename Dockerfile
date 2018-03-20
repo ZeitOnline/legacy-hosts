@@ -23,7 +23,8 @@ ENTRYPOINT ["pserve", "legacy_hosts/app.ini"]
 # --- sdist ---
 FROM base AS sdist
 WORKDIR /build
-COPY . .
+COPY setup.py setup.py
+COPY src src
 RUN python setup.py sdist
 
 # --- production ---
