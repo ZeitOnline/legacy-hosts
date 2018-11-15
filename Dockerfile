@@ -2,7 +2,7 @@ FROM python:3 AS base
 
 WORKDIR legacy_hosts
 COPY requirements.txt requirements.txt
-RUN pip3 install --trusted-host devpi.zeit.de -i http://devpi.zeit.de:4040/zeit/default/ -r requirements.txt
+RUN pip3 install -i https://devpi.zeit.de/zeit/default/ -r requirements.txt
 COPY setup.py setup.py
 COPY src src
 COPY app.ini app.ini
