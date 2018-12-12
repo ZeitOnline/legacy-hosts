@@ -1,11 +1,11 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: legacy-hosts-deployment
   labels:
     app: legacy-hosts
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: legacy-hosts
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: legacy-hosts
-        image: registry.k8s.zeit.de/legacy-hosts:v0.1
+        image: registry.zeit.de/legacy-hosts:v0.1
         volumeMounts:
         - mountPath: /content
           name: legacy-hosts-content
