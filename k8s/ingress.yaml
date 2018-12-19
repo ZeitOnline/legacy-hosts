@@ -4,6 +4,7 @@ metadata:
   name: legacy-hosts
   annotations:
     kubernetes.io/ingress.class: nginx
+    certmanager.k8s.io/cluster-issuer: letsencrypt
 spec:
   rules:
   - host: "images.zeit.de"
@@ -18,3 +19,8 @@ spec:
       - backend:
           serviceName: legacy-hosts-service
           servicePort: 80
+  tls:
+  - hosts:
+    - images.zeit.de
+    - zeus.zeit.de
+    secretName: tls-cert
