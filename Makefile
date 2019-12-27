@@ -23,5 +23,5 @@ serve:
 k8s:
 	docker build --quiet --target production --tag ${REGISTRY}/legacy-hosts:${REV} .
 	docker push ${REGISTRY}/legacy-hosts:${REV}
-	sed 's#${REGISTRY}/legacy-hosts:.*#${REGISTRY}/legacy-hosts:${REV}#' k8s/deployment.yml | kubectl apply -f -
+	sed 's#${REGISTRY}/legacy-hosts:.*#${REGISTRY}/legacy-hosts:${REV}#' k8s/deployment.yml | kubectl -n legacy-hosts apply -f -
 	kubectl rollout status deployment/legacy-hosts-deployment
