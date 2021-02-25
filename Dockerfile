@@ -1,4 +1,4 @@
-FROM python:3 AS base
+FROM python:3.7-slim AS base
 
 WORKDIR legacy_hosts
 COPY requirements.txt requirements.txt
