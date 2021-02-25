@@ -17,13 +17,5 @@ spec:
       containers:
       - name: legacy-hosts
         image: registry.zeit.de/legacy-hosts:v0.1
-        volumeMounts:
-        - mountPath: /content
-          name: legacy-hosts-content
         ports:
         - containerPort: 8080
-      volumes:
-      - name: legacy-hosts-content
-        nfs:
-          server: ha-nfs.zeit.de
-          path: "/cmscontent/legacy-hosts"
