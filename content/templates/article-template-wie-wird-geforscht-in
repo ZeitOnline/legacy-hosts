@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-09-25T08:10:49.486625+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-09-25T08:11:49.194979+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-09-25T08:11:49.194979+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-09-25T08:10:40.613185+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.jaeger</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">wie-wird-geforscht-in</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f2b85103-0f61-44ef-92db-8731a21a7d3a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">39</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="" cp:__name__="id-cbe6856e-ea5d-4cdc-9720-7a95baaea01b"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-0da727b3-4bc0-4beb-947c-cb3639d14baa">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/link_zurueck_zur_startseite" year="2012" issue="39" ressort="Angebote" publication-date="" expires="" ns0:href="http://zip6.zeit.de/preview/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/index" ns0:target="_blank" date-last-modified="2012-09-20T13:20:07+00:00" date-first-released="2012-09-20T13:21:07.428138+00:00" date-last-published="2012-09-20T13:21:07.428138+00:00" last-semantic-change="2012-09-20T13:19:54.718853+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-94edecab-f19f-49cb-b651-cc458a27e37d">
+          <block href="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/advertorial_wie_wird_geforscht_in" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-09-18T14:36:06+00:00" date-first-released="2012-09-18T14:36:44.174855+00:00" date-last-published="2012-09-18T14:36:56.850873+00:00" last-semantic-change="2012-09-18T14:32:47.113604+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wie wird geforscht in Bremen und Niedersachsen?</title>
+            <text py:pytype="str">Mit Weitsicht in die Zukunft - Im Nord-Westen blüht der Forschergeist auf</text>
+            <description py:pytype="str">Mit Weitsicht in die Zukunft - Im Nord-Westen blüht der Forschergeist auf</description>
+            <byline py:pytype="str">Spezial: Dies ist ein Angebot des Zeitverlags.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/bilder/Landkarte_Niedersachsen1/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f3aed550-2610-4975-b275-239a24c421c9">
+          <block href="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/lernen_aus_dem_meer" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-09-18T13:08:38+00:00" date-first-released="" date-last-published="" last-semantic-change="2012-09-18T13:08:17.124057+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Lernen aus dem Meer</title>
+            <text py:pytype="str">Der Klimawandel wird nicht nur durch Naturkatastrophen sichtbar. Auch das Leben in Ozeanen verändert sich. Einige Pflanzen- und Tierarten siedeln sogar neu in der Arktis.</text>
+            <description py:pytype="str">Der Klimawandel wird nicht nur durch Naturkatastrophen sichtbar. Auch das Leben in Ozeanen verändert sich. Einige Pflanzen- und Tierarten siedeln sogar neu in der Arktis.</description>
+            <byline py:pytype="str">Spezial: Dies ist ein Angebot des Zeitverlags.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/bilder/wwgi_bakterien/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-3af2bef9-a86e-45f6-bc70-e0f612ac3ad1">
+          <block href="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/studieren_mit_profis" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-09-18T12:59:31+00:00" date-first-released="" date-last-published="" last-semantic-change="2012-09-18T12:59:28.060135+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Studieren mit dem direkten Draht zu den Profis aus der Praxis</title>
+            <text py:pytype="str">In Niedersachsen &amp; Bremen geizen Experten nicht mit ihrem Wissen. Prominente Lehrende wie der Star-Architekt Daniel Libeskind inspirieren Studierende mit ihrer Erfahrung.</text>
+            <description py:pytype="str">In Niedersachsen &amp; Bremen geizen Experten nicht mit ihrem Wissen. Prominente Lehrende wie der Star-Architekt Daniel Libeskind inspirieren Studierende mit ihrer Erfahrung.</description>
+            <byline py:pytype="str">Spezial: Dies ist ein Angebot des Zeitverlags.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/bilder/wwgi_crystal/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-93cf0cd3-42e3-479c-be59-15abaa943f33">
+          <block href="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/spitzenforschung" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-09-18T13:24:36+00:00" date-first-released="" date-last-published="" last-semantic-change="2012-09-18T13:24:33.178856+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Spitzenforschung bei steifer Brise</title>
+            <text py:pytype="str">Im kühlen Norden reifen zukunftsträchtige Ideen: Vom All bis zum Meeresgrund – in Deutschlands Nordwesten forschen Wissenschaftler aller Fachrichtungen.</text>
+            <description py:pytype="str">Im kühlen Norden reifen zukunftsträchtige Ideen: Vom All bis zum Meeresgrund – in Deutschlands Nordwesten forschen Wissenschaftler aller Fachrichtungen.</description>
+            <byline py:pytype="str">Spezial: Dies ist ein Angebot des Zeitverlags.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/bilder/Galileo_View/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-4143ad9f-7bc3-4f55-b66f-e04d881abced">
+          <block href="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/stimmen_im_kopf" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-09-18T13:18:54+00:00" date-first-released="" date-last-published="" last-semantic-change="2012-09-18T13:17:39.575930+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Hilfe für Kranke</title>
+            <text py:pytype="str">Wenn die Stimmen im Kopf nicht schweigen - oder alles still ist</text>
+            <description py:pytype="str">Wenn die Stimmen im Kopf nicht schweigen - oder alles still ist</description>
+            <byline py:pytype="str">Spezial: Dies ist ein Angebot des Zeitverlags.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dannysspielwiese/advertorial_wie_wird_geforscht_in/bilder/wwgi_hoerwellen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-c54fee75-1476-4110-84b1-00a2030d38a7">
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-e55dcbfc-9040-44aa-b962-b64cc850612f"/>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-2706c515-c7a5-4324-b103-5fefaaa45946"/>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-d0206f0a-a49e-4b8c-ac0a-c3c765ce0844"/>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-093d459c-4ae6-4a1f-955d-972823cb1dd2"/>
+      </region>
+    </cluster>
+    <title>Artikel Rahmen Wie wird geforscht in?</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Wie wird geforscht in?</title>
+  </teaser>
+</centerpage>

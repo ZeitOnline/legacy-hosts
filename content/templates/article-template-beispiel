@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-03-11T16:45:16.048681+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-12-03T16:53:23.575124+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-03-11T16:46:15.954888+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-03-11T16:44:55.212408+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">beispiel</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e96d8164-ac97-44b8-b5d3-41e5e5138054}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">49</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="b56e2a7c-5f9c-4169-aaac-2fffbf0cdbc3">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="8a63049f-2935-4f0f-a889-31c7609a9e39" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/beispiel/links/startseite" year="2009" issue="49" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/beispiel/index" date-last-modified="2010-03-01T15:24:04+00:00" date-first-released="2009-12-03T16:51:41.338151+00:00" date-last-published="2009-12-03T16:51:41.338151+00:00" last-semantic-change="2010-03-01T15:24:03.857267+00:00" ressort="Angebote">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text py:pytype="str">Hier klicken</text>
+            <description py:pytype="str">Hier klicken</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-ca4577ba-82db-4f1c-be4f-282350e01371" layout="368x110">
+          <block type="intern" href="http://xml.zeit.de/angebote/beispiel/index" year="2009" issue="49" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-03-11T16:43:49+00:00" date-first-released="2009-12-03T16:50:52.900458+00:00" date-last-published="2013-03-11T16:43:29.582267+00:00" last-semantic-change="2013-03-11T16:42:59.126733+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Anzeige</title>
+            <text py:pytype="str">Beispiel für ein Standard-Advertorial</text>
+            <description py:pytype="str">Beispiel für ein Standard-Advertorial</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/beispiel/bilder/beispielbild/beispielbild-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="bec7f540-5522-47f3-8224-f00c281e6a3b" hide-dupes="True">
+          <block href="http://xml.zeit.de/angebote/beispiel/bildergalerie" year="2009" issue="49" publication-date="" expires="" date-last-modified="2013-03-11T16:37:20+00:00" date-first-released="2009-12-03T16:52:34.231461+00:00" date-last-published="2013-03-11T16:38:20.534578+00:00" last-semantic-change="2013-03-11T16:37:12.956511+00:00" ressort="Angebote">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Inline Bildergalerie auf Artikelseiten</title>
+            <text py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ven</text>
+            <description py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ven</description>
+            <byline py:pytype="str">Beispieladvertorial: Dies ist ein Angebot des ZEIT-Verlags. Für den Inhalt ist der ZEIT-Verlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/beispiel/bilder/erde/" type="jpg" publication-date="" expires="">
+              <bu>Bildunterschrift</bu>
+              <copyright py:pytype="str">© Copyrightvermerk</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="ba04aaf3-38f3-4f6c-a9de-694e64264b26" hide-dupes="True">
+          <block href="http://xml.zeit.de/angebote/beispiel/infobox" year="2009" publication-date="" expires="" date-last-modified="2013-03-11T16:37:48+00:00" date-first-released="2009-12-03T16:52:10.353890+00:00" date-last-published="2013-03-11T16:38:48.551320+00:00" last-semantic-change="2013-03-11T16:37:35.013208+00:00" ressort="Angebote">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Infobox auf Artikelebene</title>
+            <text py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ven</text>
+            <description py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ven</description>
+            <byline py:pytype="str">Beispieladvertorial: Dies ist ein Angebot des ZEIT-Verlags. Für den Inhalt ist der ZEIT-Verlag verantwortlich</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/beispiel/bilder/beispielbild/" type="jpg" publication-date="" expires="">
+              <bu>Das ist ein Beispielbild - Beschreibungstext</bu>
+              <copyright py:pytype="str">© Copyrightvermerk</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-35067d45-cdd2-47e7-b5d4-5940ddfcb4b9">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="http://www.youtube-nocookie.com/v/4ePdNVAi0YU?hl=de_DE&amp;version=3"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="http://www.youtube-nocookie.com/v/4ePdNVAi0YU?hl=de_DE&amp;version=3" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-e5ebcddd-75a4-47c7-a5a6-8ac9eff87566">
+          <block href="http://xml.zeit.de/angebote/beispiel/video" year="2009" issue="49" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-03-11T16:38:09+00:00" date-first-released="2009-12-03T16:51:58.257226+00:00" date-last-published="2013-03-11T16:39:08.711873+00:00" last-semantic-change="2013-03-11T16:37:56.162837+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Artikelseite mit Videoeinbindung</title>
+            <text py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ...</text>
+            <description py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ...</description>
+            <byline py:pytype="str">Beispieladvertorial: Dies ist ein Angebot des ZEIT-Verlags. Für den Inhalt ist der ZEIT-Verlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/beispiel/bilder/blume3/" type="jpg" publication-date="" expires="">
+              <bu>Bildunterschrift</bu>
+              <copyright py:pytype="str">© Copyrightvermerk</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/beispiel/artikel" year="2009" issue="49" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-03-11T16:39:56+00:00" date-first-released="2009-12-03T16:52:47.837054+00:00" date-last-published="2013-03-11T16:40:56.265895+00:00" last-semantic-change="2013-03-11T16:39:45.645296+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Artikelseite mit Bildern</title>
+            <text py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ven</text>
+            <description py:pytype="str">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ven</description>
+            <byline py:pytype="str">Beispieladvertorial: Dies ist ein Angebot des ZEIT-Verlags. Für den Inhalt ist der ZEIT-Verlag verantwortlich.</byline>
+            <image align="left" title="steine.jpg" base-id="http://xml.zeit.de/angebote/beispiel/bilder/steine.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Beispiel</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Beispiel</title>
+  </teaser>
+</centerpage>

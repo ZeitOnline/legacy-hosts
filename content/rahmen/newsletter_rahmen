@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:xi="http://www.w3.org/2001/XInclude">
+  <head>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="corrected">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2008-09-30T14:24:34.242896+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2008-09-30T11:00:47.246434+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2008-09-30T14:25:34.023832+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="edited">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="images_added">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.bruenjes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="refined">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="urgent">yes</attribute>
+  </head>
+  <body>
+    <column layout="right">
+  
+  </column>
+    <column layout="left">
+      <container style="r07">
+        <container layout="box" label="exklusiv" type="box">
+          <title>Exklusiv</title>
+          <xi:include href="/var/cms/work/hp_channels/channel-exklusiv" parse="xml" xpointer="xpointer(/channel/container/block[position()&lt;=9])">
+            <xi:fallback>Box 'Exclusiv' nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="box" label="spielen" type="box" href="http://www.zeit.de/spiele">
+          <xi:include href="/var/cms/work/leben/spielen/box_spiele" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Box 'Spiele' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Alle Spiele</title>
+        </container>
+        <container layout="box" type="box" label="themen Hochschulranking" id="" priority="">
+          <xi:include href="/var/cms/work/campus/channel_ranking" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=5])">
+            <xi:fallback>Themen nicht da</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="box" label="bildergalerien" type="tab" href="http://www.zeit.de/bildergalerien/index">
+          <xi:include href="/var/cms/work/bildergalerien/channel_bigas" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+            <xi:fallback>Box 'Bildergalerien' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Alle Galerien</title>
+        </container>
+        <container layout="box" label="Bildungskanon" type="box" href="http://www.zeit.de/bildungskanon/index" format="box-bordered">
+          <xi:include href="/var/cms/work/hp_channels/box_bildungskanon" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Box 'Themenuebersicht' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Zur Startseite des ZEIT-Bildungskanons</title>
+        </container>
+        <container layout="box" label="bildungshappen" type="box" href="http://www.zeit.de/bildungshappen">
+          <title>Bildungshappen abonnieren</title>
+          <block>
+            <feed id="bildungshappen-new" mode="homepage"/>
+          </block>
+        </container>
+        <container layout="box" label="Themen" type="box" href="http://www.zeit.de/themen/index" format="box-bordered">
+          <xi:include href="/var/cms/work/hp_channels/box_themenuebersicht" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Box 'Themenuebersicht' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Ãœbersicht aller Themen</title>
+        </container>
+      </container>
+      <!-- ende haupt-container -->
+    </column>
+  </body>
+</centerpage>

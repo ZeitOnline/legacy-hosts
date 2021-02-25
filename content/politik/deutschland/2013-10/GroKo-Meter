@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="arena">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <image align="left" base-id="http://xml.zeit.de/politik/deutschland/2013-10/koalometer_meter.jpg/" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+    </image>
+    <badges>
+      <badge>infographic</badge>
+    </badges>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-05-20T09:40:10.044303+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-10-24T12:56:41.218940+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-05-20T09:41:25.398115+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-05-20T09:40:23.661623+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-24</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-11-20T11:26:51.457791+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2014-01-02</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.venohr</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="mobile_alternative">http://www.zeit.de/politik/deutschland/2013-10/GroKo-Meter</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Deutschland</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">6000</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">arena</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:9bae8d5c-c060-4e83-a137-dff088b6464a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">42</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="xml" module="xml" cp:__name__="id-05be14da-f40e-4de5-bd6c-a40482174bb6">
+          <raw>
+            <link rel="stylesheet" href="http://www.zeit.de/static/projekte/koalitiongraph/koalitionsgraph.css"/>
+            <script src="http://www.zeit.de/static/projekte/koalitiongraph/vendor-modernizr.js"/>
+            <script src="http://live0.zeit.de/koalitionen2013/koalitiondata.js"/>
+            <script src="http://www.zeit.de/static/projekte/koalitiongraph/koalitionsgraph.js"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-75d8f8b0-ebf1-44c4-aecb-e1ec7d7363c0">
+          <raw>
+            <div id="koalition-story">
+              <div class="wrapper">
+                <div class="oldbrowser-fallback">
+                  <div class="oldbrowser-notice">
+                    <p>Diese interaktive Grafik kann leider nicht in ihrem Browser dargestellt werden. Bitte rufen Sie diese Seite mit einem modernen Browser wie Mozilla Firefox, Google Chrome oder Apple Safari auf und aktivieren Sie JavaScript.</p>
+                  </div>
+                </div>
+                <div id="koalitionvis"/>
+                <div class="zeit-footer">
+                  <div class="zeit-footer-left">Quelle: ZEIT ONLINE / Grafik: <a href="http://twitter.com/christiangross" target="_blank">Christian Groß</a></div>
+                  <div class="zeit-footer-right">© ZEIT ONLINE</div>
+                </div>
+              </div>
+            </div>
+          </raw>
+        </container>
+      </region>
+      <region area="informatives"/>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Das GroKo-Meter</title>
+    <subtitle>Wie laufen die Koalitionsverhandlungen? Wo sind Union und SPD aufeinander zugegangen, wo verharren sie in ihren ursprünglichen Wahlkampf-Positionen? Wo besteht weiter Redebedarf? Unser GroKo-Meter zeigt, wie sich die Standpunkte der Parteien während der Koalitionsgespräche entwickeln. Die schwarzen und roten Linien symbolisieren die jeweilige Annäherung an den potenziellen Koalitionspartner, die obere sowie untere Linie steht dabei für die Position im Wahlprogramm. Treffen beide Linien zusammen, wurde eine Einigung im jeweiligen Themenbereich erzielt. An den schwarzen und roten Punkten sind Äußerungen aus den Parteien hinterlegt. Mithilfe des grauen Balkens lässt sich auf einer Zeitleiste die Entwicklung der Themen zurückverfolgen.</subtitle>
+    <supertitle>Koalitionsverhandlungen</supertitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Das GroKo-Meter</title>
+    <text>Wie steht es in den Verhandlungen zur Großen Koalition? Unser GroKo-Meter zeigt, in welchen Themen Union und SPD aufeinander zugehen und wo weiter Redebedarf besteht.</text>
+  </teaser>
+</centerpage>

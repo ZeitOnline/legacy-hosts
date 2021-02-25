@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="arena">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <og_meta>
+      <og_title py:pytype="str">Infografik: Wo das Jobwunder stattfindet – und wo nicht</og_title>
+      <og_description py:pytype="str">Wir zeigen die Entwicklung der Arbeitslosenquoten in allen Landkreisen und kreisfreien Städten: erstmals nicht in Form einer Karte, sondern als Grafikteppich, in dem Sie selbst recherchieren können.</og_description>
+      <og_image py:pytype="str">http://www.zeit.de/administratives/2012-11/arbeitslosigkeit_teppich.jpg</og_image>
+    </og_meta>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="channels"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-09-03T15:31:48.915300+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-11-29T14:33:25.240291+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-09-03T15:31:54.064885+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-09-03T15:32:53.968829+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-06-30T13:04:13.336757+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-09-03T15:28:00.134060+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-06-30T13:03:50.726161+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.Nuijen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wirtschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">arena</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e9ba525c-3a31-437b-9dac-684c79af7e20}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">47</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead" automatic="False">
+        <container cp:type="xml" module="xml" cp:__name__="id-fec7db4c-97ed-48cb-8116-f8320c5c6eba">
+          <raw>
+            <link rel="stylesheet" type="text/css" href="http://scripts.zeit.de/static/js/projekte/tapete/alo.css"/>
+            <link rel="stylesheet" type="text/css" href="http://scripts.zeit.de/static/js/projekte/tapete/guiders.css"/>
+            <link rel="stylesheet" type="text/css" href="http://scripts.zeit.de/static/js/projekte/tapete/inline.css"/>
+            <script type="text/javascript" src="http://scripts.zeit.de/static/js/projekte/tapete/d3.v2.min.js"/>
+            <script type="text/javascript" src="http://scripts.zeit.de/static/js/projekte/tapete/waypoints.min.js"/>
+            <script type="text/javascript" src="http://scripts.zeit.de/static/js/projekte/tapete/guiders-1.2.8.js"/>
+            <script type="text/javascript" src="http://scripts.zeit.de/static/js/projekte/tapete/plz.js"/>
+            <script type="text/javascript" src="http://scripts.zeit.de/static/js/projekte/tapete/modernizr.js"/>
+            <div id="nonvis-wrapper">Wird die Grafik nicht angezeigt? Bitte rufen Sie diese Seite mit einem modernen Browser wie Mozilla Firefox, Google Chrome oder Apple Safari auf und aktivieren Sie JavaScript.</div>
+            <div id="vis-wrapper" class="dspl-n">
+              <div id="tour"/>
+              <div id="main-nav-holder">
+                <nav id="main-nav">
+                  <div class="nav-row">
+                    <form name="plzForm" class="flt-left" action="javascript:handlePlz()">
+  					Geben Sie eine Postleitzahl ein, um die entsprechende Region hervorzuheben:
+  					<input id="plzTextfield" name="plzTextfield" type="text" size="5" maxlength="5" placeholder="PLZ" onfocus="if (this.className=='plzHint') { this.className = ''; this.value = ''; }" onblur="if (this.value == '') { this.className = 'plzHint'; this.value = 'PLZ'; }"/>
+</form>
+                    <ul id="tour-btn" class="flt-right">
+                      <li id="tourBtn" class="leftRounded rightRounded">Tour erneut starten</li>
+                    </ul>
+                  </div>
+                  <div class="nav-row">
+                    <ul id="highlighters" class="flt-left">
+                      <strong>Bundesland hervorheben</strong>
+                      <li id="08" class="landBtn leftRounded" alt="Baden-Württemberg">BW</li>
+                      <li id="09" class="landBtn" alt="Bayern">BY</li>
+                      <li id="11" class="landBtn" alt="Berlin">BE</li>
+                      <li id="12" class="landBtn" alt="Brandenburg">BB</li>
+                      <li id="04" class="landBtn" alt="Bremen">HB</li>
+                      <li id="02" class="landBtn" alt="Hamburg">HH</li>
+                      <li id="06" class="landBtn" alt="Hessen">HE</li>
+                      <li id="13" class="landBtn" alt="Mecklenburg-Vorpommern">MV</li>
+                      <li id="03" class="landBtn" alt="Niedersachsen">NI</li>
+                      <li id="05" class="landBtn" alt="Nordrhein-Westfalen">NW</li>
+                      <li id="07" class="landBtn" alt="Rheinland-Pfalz">RP</li>
+                      <li id="10" class="landBtn" alt="Saarland">SL</li>
+                      <li id="14" class="landBtn" alt="Sachsen">SN</li>
+                      <li id="15" class="landBtn" alt="Sachsen-Anhalt">ST</li>
+                      <li id="01" class="landBtn" alt="Schleswig-Holstein">SH</li>
+                      <li id="16" class="landBtn rightRounded" alt="Thüringen">TH</li>
+                    </ul>
+                    <ul class="flt-right">
+                      <li id="backtotop" class="leftRounded rightRounded dspl-n">Nach oben</li>
+                    </ul>
+                  </div>
+                  <div class="nav-row">
+                    <ul id="sorters" class="flt-left">
+                      <strong>Sortieren</strong>
+                      <li id="lastMonth" class="sortBtn leftRounded desc">Arbeitslosenquote</li>
+                      <li id="state" class="sortBtn rightRounded">Bundesland</li>
+                    </ul>
+                    <div id="wheel" class="style-wheel"/>
+                    <ul id="filters" class="flt-right">
+                      <strong>Filtern</strong>
+                      <li id="all" class="filterBtn leftRounded pressed" alt="&lt;strong&gt;Alle&lt;/strong&gt;: Alle 417 Landkreise und kreisfreien Städte werden eingeblendet (u.U. tritt eine Verzögerung auf).">Alle</li>
+                      <li id="populated" class="filterBtn" alt="&lt;strong&gt;Großstädte&lt;/strong&gt;: Die Stadt hat mehr als 200.000 Einwohner.">Großstädte</li>
+                      <li id="crisis" class="filterBtn rightRounded" alt="&lt;strong&gt;Finanzkrisenverlierer&lt;/strong&gt;: Der Wert im August 2008 ist mindestens 2,5 Prozent höher als der Vorjahreswert.">Finanzkrisenverlierer</li>
+                    </ul>
+                  </div>
+                  <div class="nav-row">
+                    <ul id="colorfuldata" class="flt-left">
+                      <strong>Einfärben</strong>
+                      <li id="abs" class="colorBtn leftRounded pressed">Nach Arbeitslosenquote</li>
+                      <li id="rel" class="colorBtn rightRounded">Nach Abweichung vom bundesweiten Durchschnitt</li>
+                    </ul>
+                    <div class="flt-right">
+                      <table id="key">
+                        <tbody>
+                          <tr id="key-cells"/>
+                          <tr id="key-values"/>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div id="info" class="nav-row">
+                    <div id="hint">Fahren Sie mit dem Cursor über eines der Felder oder tippen Sie es an, um Details zu erfahren.</div>
+                    <table id="infotable" class="dspl-n">
+                      <tbody>
+                        <tr>
+                          <td class="td-style">
+                            <span id="info-land"/>
+                            <br/>
+                            <span id="info-country"/>
+                          </td>
+                          <td class="w-11">
+                            <span id="info-month"/>
+                          </td>
+                          <td class="w-17"><span id="info-abs"/><br/>Arbeitslosenquote</td>
+                          <td class="w-21"><span id="info-avg"/><br/>Deutscher Durchschnitt</td>
+                          <td class="w-13"><span id="info-rel"/><br/>Abweichung</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <table id="timeline-table">
+                    <tbody>
+                      <tr>
+                        <td>2005</td>
+                        <td>2006</td>
+                        <td>2007</td>
+                        <td>2008</td>
+                        <td>2009</td>
+                        <td>2010</td>
+                        <td>2011</td>
+                        <td>2012</td>
+                        <td>2013</td>
+                        <td>2014</td>
+                        <td class="td-style-year">2015</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </nav>
+              </div>
+              <script type="text/javascript" src="/static/js/projekte/tapete/alo.js?1507-2"/>
+              <script type="text/javascript">
+		jQuery(document).ready(function($) {
+
+			if( Modernizr.svg &amp;&amp; Modernizr.inlinesvg ) {
+
+				$('#nonvis-wrapper').css('display', 'none');
+				$('#vis-wrapper').css('display', 'block');
+
+				if(getUrlVars()["plz"]) {
+					try { highlightRow(plzToKrs(getUrlVars()["plz"])); } catch(err) {}
+				} else startIntro();
+
+				$('#main-nav').waypoint(function(event, direction) {
+					if (direction === 'down') {
+						$(this).parent().toggleClass('sticky', true);
+						$('#backtotop').css('display', 'inline')
+					} else {
+						$(this).parent().toggleClass('sticky', false);
+						$('#backtotop').css('display', 'none');
+					}
+					guiders.reposition();
+					event.stopPropagation();
+				});
+				$('#vis-end').waypoint(function(event, direction){
+					if (direction === 'down') {
+						$('#main-nav').css('display', 'none');
+					} else {
+						$('#main-nav').css('display', 'block');
+					}
+					event.stopPropagation();
+				}, { offset: 225 });
+				$('#backtotop').click(function() {
+					$('html,body').animate( { scrollTop: $("#svg").offset().top - 221}, 500, 'swing');
+					d3.selectAll(".landBtn").classed("pressed", false);
+					d3.selectAll(".bg").classed("highlighted", false);
+				});
+				$('#tourBtn').click(function() { startIntro(); });
+			} else {
+				$('#nonvis-wrapper').css('display', 'block');
+			}
+		});
+	</script>
+              <script type="text/javascript" src="/static/js/projekte/tapete/intro.js"/>
+              <section id="container">
+                <svg id="svg" width="940"/>
+              </section>
+              <div id="vis-end"/>
+              <div class="zon-frameend">
+                <div class="zon-copyright">© ZEIT ONLINE</div>
+                <div class="zon-footnote">
+                  <p id="ft1">Quelle: Bundesagentur für Arbeit | <a href="https://docs.google.com/spreadsheet/ccc?key=0Aq_8fKCw925zdGtmLUJFbTNHcS1fSDNxMXhpckNUemc" target="_blank">Alle Daten als Google Tabelle</a></p>
+                </div>
+              </div>
+            </div>
+          </raw>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-9d49ef09-b3ec-4f4e-be6e-4f52c73c28ec">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-0d3f1d98-5c3b-4558-b5d9-dd479e5394f8">
+          <cp_extra id="mostcommented"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-1ce5c599-98d3-4e9b-8dbd-c7cb7aa59753">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-a8ed5e08-fa60-4d5d-922c-a56f249e2297" visible="True">
+          <block href="http://xml.zeit.de/wirtschaft/2012-11/uckermark-arbeitslosigkeit" year="2012" issue="49" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2013-12-02T23:25:55+00:00" date-first-released="2012-11-29T14:45:12.843181+00:00" date-last-published="2013-12-03T00:28:55+00:00" last-semantic-change="2012-11-29T15:59:58.823556+00:00" contenttype="article" uniqueId="http://xml.zeit.de/wirtschaft/2012-11/uckermark-arbeitslosigkeit" author="Alexandra Endres">
+            <supertitle py:pytype="str">Arbeitslosigkeit</supertitle>
+            <title py:pytype="str">Die Uckermark kämpft</title>
+            <text py:pytype="str">Kaum Industrie, kaum Jobs, dafür viel Hoffnung: Wie die Uckermark daran arbeitet, nicht mehr das Schlusslicht in der Arbeitslosenstatistik zu sein. Von Alexandra Endres</text>
+            <description py:pytype="str">Kaum Industrie, kaum Jobs, dafür viel Hoffnung: Wie die Uckermark daran arbeitet, nicht mehr das Schlusslicht in der Arbeitslosenstatistik zu sein. Von Alexandra Endres</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2012-11/uckermark-schalmeienkapelle/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Schalmeienkapelle &amp;quot;Zur Bismarckeiche&amp;quot; aus Geesow, einem Dorf in der Uckermark </bu>
+              <copyright py:pytype="str" link="http://schalmeienkapelle-geesow.de/">© privat</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/E/Alexandra_Endres/index.xml">
+              <display_name>Alexandra Endres</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-b0ee6c21-1b24-4d94-a4e4-5b191bbcbca3" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wirtschaft/2012-09/teuerung-datenanalyse" year="2012" issue="38" ressort="Wirtschaft" publication-date="" expires="" ns0:href="http://blog.zeit.de/open-data/2012/09/17/lebenshaltungskosten-preissteigerungen-inflationsrate/" date-last-modified="2015-09-03T15:22:02+00:00" date-first-released="2012-09-17T12:03:36.159656+00:00" date-last-published="2015-09-03T15:23:02.130025+00:00" last-semantic-change="2012-09-17T12:02:22.553414+00:00" contenttype="link" uniqueId="http://xml.zeit.de/wirtschaft/2012-09/teuerung-datenanalyse">
+            <supertitle py:pytype="str">Inflation</supertitle>
+            <title py:pytype="str">Was unser Leben teurer macht</title>
+            <text py:pytype="str">Die EZB druckt Geld und Deutschland fürchtet die Inflation. Wir haben im Data-Blog nachgerechnet, was die Preise in den vergangenen Jahren  getrieben hat.</text>
+            <description py:pytype="str">Die EZB druckt Geld und Deutschland fürchtet die Inflation. Wir haben im Data-Blog nachgerechnet, was die Preise in den vergangenen Jahren  getrieben hat.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2012-09/teaserbild-inflation/" type="jpg" title="inflation" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-8082b2b9-8774-4b46-9079-de2f945b33ec" visible="True">
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wissen/2012-02/geboren-2012-altersstruktur-infografik" year="2012" issue="8" ressort="Wissen" publication-date="" expires="" ns2:href="http://www.zeit.de/wissen/altersstruktur" date-last-modified="2012-04-25T08:16:07+00:00" date-first-released="2012-02-22T08:39:53.621160+00:00" date-last-published="2012-04-25T08:17:07.686195+00:00" last-semantic-change="2012-02-21T15:41:43.443785+00:00" contenttype="link" serie="Geboren 2012" uniqueId="http://xml.zeit.de/wissen/2012-02/geboren-2012-altersstruktur-infografik">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Geboren 2012</supertitle>
+            <title py:pytype="str">Wo stehen Sie im Gruppenbild unserer Gesellschaft?</title>
+            <text py:pytype="str">Die Altersstruktur der Menschen in Deutschland wird sich bis 2060 radikal verändern. Altern Sie mit unserem interaktiven Demografie-Rechner.</text>
+            <description py:pytype="str">Die Altersstruktur der Menschen in Deutschland wird sich bis 2060 radikal verändern. Altern Sie mit unserem interaktiven Demografie-Rechner.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/administratives/2012-02/demografierechner-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-1337a111-e017-4abf-a6a7-70d66771d2ab" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/digital/internet/2012-11/data-blog-rechtsextremismus-wahlen" year="2012" issue="47" ressort="Digital" publication-date="" expires="" ns0:href="http://blog.zeit.de/open-data/2012/11/16/rechtsextreme-parteien-bundestagswahl-zweitstimmen/" date-last-modified="2015-09-03T15:16:26+00:00" date-first-released="2012-11-16T10:07:03.843179+00:00" date-last-published="2015-09-03T15:17:26.007518+00:00" last-semantic-change="2012-11-16T10:05:54.245186+00:00" contenttype="link" uniqueId="http://xml.zeit.de/digital/internet/2012-11/data-blog-rechtsextremismus-wahlen">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Visualisierung</supertitle>
+            <title py:pytype="str">Wo wird in Deutschland rechtsextrem gewählt?</title>
+            <text py:pytype="str">Rechtsextreme Ansichten breiten sich vor allem in Ostdeutschland aus, besagt eine Studie. Spiegelt die Stimmenverteilung für NPD, DVU und Republikaner das wider?</text>
+            <description py:pytype="str">Rechtsextreme Ansichten breiten sich vor allem in Ostdeutschland aus, besagt eine Studie. Spiegelt die Stimmenverteilung für NPD, DVU und Republikaner das wider?</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2012-11/rechtsextreme-waehler/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Regionale Arbeitsmärkte</title>
+    <supertitle py:pytype="str">Arbeitslosigkeit</supertitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Arbeitslosigkeit</title>
+  </teaser>
+</centerpage>

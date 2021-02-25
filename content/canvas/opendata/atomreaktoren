@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="frame">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-04-07T07:39:04.176124+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-04-04T14:44:10.033025+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-04-07T07:40:03.938734+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Momentan sind 65 Atomkraftwerke (mit 104 Reaktoren) in den USA in Betrieb. Wie viele Menschen leben im direkten Umkreis von Atomkraftwerken? Eine interaktive Karte von ZEIT ONLINE.</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Wie viele Menschen leben im direkten Umkreis von Atomkraftwerken? | Wissen | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-04-07T07:38:30.517067+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.bruenjes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">frame</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:bab79896-abdd-4172-9931-406decc6c547}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">14</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives"/>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="07efdbb6-8512-45d7-a333-ea351b162558">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="116325f0-a842-45a2-bc94-12b756028d8f" title="Daten-Visualisierung">
+          <block href="http://xml.zeit.de/digital/datenschutz/2011-02/vorratsdaten-malte-spitz" year="2011" issue="8" ressort="Digital" publication-date="" expires="" date-last-modified="2011-04-01T16:07:50+00:00" date-first-released="2011-02-24T10:01:53.110375+00:00" date-last-published="2011-04-01T16:08:49.948988+00:00" last-semantic-change="2011-02-24T11:18:14.884837+00:00">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Datenschutz</supertitle>
+            <title py:pytype="str">Was Vorratsdaten über uns verraten</title>
+            <text py:pytype="str">Der Chaos Computer Club nennt Handys "Ortungswanzen". Zu Recht, wie unsere interaktive Grafik zeigt: Die Vorratsdaten des Politikers Malte Spitz enthüllen sein Leben.</text>
+            <description py:pytype="str">Der Chaos Computer Club nennt Handys "Ortungswanzen". Zu Recht, wie unsere interaktive Grafik zeigt: Die Vorratsdaten des Politikers Malte Spitz enthüllen sein Leben.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Bewegungsprofil von Malte Spitz, basierend auf den Vorratsdaten seines Handys" align="left" title="vorratsdatenspeicherung" base-id="http://xml.zeit.de/politik/deutschland/2011-02/vorratsdatenspeicherung/" type="jpg" publication-date="" expires="">
+              <bu>A visualization of data collected by Malte Spitz's mobile phone</bu>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="f2385414-bc89-448e-a4c5-f5675b32395c" title="Wohlstandsvergleich">
+          <block href="http://xml.zeit.de/gesellschaft/2011-03/opendata-pisa-wohlstandsvergleich" year="2011" issue="10" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2011-03-31T10:09:25+00:00" date-first-released="2011-03-03T14:06:05.336488+00:00" date-last-published="2011-03-03T14:11:19.757146+00:00" last-semantic-change="2011-03-03T14:10:04.909913+00:00">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Ländervergleich </supertitle>
+            <title py:pytype="str">So unterschiedlich leben Familien in aller Welt</title>
+            <text py:pytype="str">Im Rahmen des jüngsten Pisa-Tests haben die 15-jährigen Teilnehmer Fragen über ihre Lebenssituation beantwortet. ZEIT ONLINE hat diese Daten ausgewertet und aufbereitet.</text>
+            <description py:pytype="str">Im Rahmen des jüngsten Pisa-Tests haben die 15-jährigen Teilnehmer Fragen über ihre Lebenssituation beantwortet. ZEIT ONLINE hat diese Daten ausgewertet und aufbereitet.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Interaktive Grafik" base-id="http://xml.zeit.de/politik/2011-03/wohlstandsgrafik-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="69e419d1-1731-4251-8f47-dd00f93c6b02">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/canvas/opendata/atomreaktoren#3b65ceef-7459-4151-9bb4-c59b9d5f027e" year="2011" issue="14" ressort="Administratives" publication-date="" expires="" ns0:href="http://xml.zeit.de/administratives/2011-04/akw-karte_eng" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">Interaktive Karte</supertitle>
+            <title py:pytype="str">Das AKW von nebenan</title>
+            <text py:pytype="str">Wie viele Menschen leben im direkten Umkreis von deutschen Atomkraftwerken?</text>
+            <description py:pytype="str">Wie viele Menschen leben im direkten Umkreis von deutschen Atomkraftwerken?</description>
+            <byline xsi:nil="true"/>
+            <image alt="AKW Deutschland Karte Japan Atomkraftwerk Unfall Gau " align="left" title="AKW Deutschland Karte" src="http://xml.zeit.de/wissen/2011-03/akw-deutschland/akw-deutschland-368x220.jpg" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="4b7e3096-7c2c-4588-b5b7-50fcf2e3165b">
+          <block href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2011-04/fs-fukushima1-air" year="2011" issue="14" ressort="Wissen" publication-date="" expires="" date-last-modified="2011-04-06T07:14:51+00:00" date-first-released="2011-04-04T14:57:03.997748+00:00" date-last-published="2011-04-06T07:15:50.819587+00:00" last-semantic-change="2011-04-04T13:58:13.674206+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Nuklearunfall</supertitle>
+            <title py:pytype="str">Blick auf die Atomruinen von Fukushima</title>
+            <text py:pytype="str">Der Anblick des havarierten Atomkraftwerks an Japans Ostküste erschüttert. Fotos der radioaktiv verstrahlten Überreste der Anlage zeigen das Ausmaß der Zerstörung.</text>
+            <description py:pytype="str">Der Anblick des havarierten Atomkraftwerks an Japans Ostküste erschüttert. Fotos der radioaktiv verstrahlten Überreste der Anlage zeigen das Ausmaß der Zerstörung.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Luftaufnahmen der Reaktorgebäude von Fukushima-1 zeigen das Ausmaß der Zerstörung in der Atomanlage" href="http://www.zeit.de/gesellschaft/zeitgeschehen/2011-04/fs-fukushima1-air" align="left" title="Fotos der Ruinen" base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2011-04/fs-fukushima1-air-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Luftaufnahmen der Reaktorgebäude von Fukushima-1 zeigen das Ausmaß der Zerstörung in der Atomanlage</bu>
+              <copyright py:pytype="str">© Air Photo Service/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Wie viele Menschen leben im direkten Umkreis von US-Atomkraftwerken?</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Wie viele Menschen leben im direkten Umkreis von US-Atomkraftwerken?</title>
+  </teaser>
+</centerpage>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">angebote/suedaustralien</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-06-01T12:10:42.706147+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-05-24T13:07:45.311371+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-06-01T12:11:42.474798+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-06-01T12:10:18.756395+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">suedaustralien-mit-singapore-airlines</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:aaae38a3-78d1-4e48-a4c3-70623778f9f6}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="f931fa51-466c-4a27-b054-affad4cf52da">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="9381a7e4-ebe1-4ac1-b312-add02b0d318a" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/link_south_australia" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.southaustralia.com/de" ns0:target="_blank" date-last-modified="2012-05-30T09:06:33+00:00" date-first-released="2012-05-24T10:29:59.338235+00:00" date-last-published="2012-05-30T09:07:33.787940+00:00" last-semantic-change="2012-05-30T09:06:21.454771+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link South Australia</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/South_Australia_Logo/" type="" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/sa_logo_neu/sa_logo_neu-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="77d19d76-9787-46d3-a13d-76f1d56f178a" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/link_singapore_Airlines" year="2012" issue="22" ressort="Angebote" publication-date="" expires="" ns0:href="http://clk.atdmt.com/ERP/go/401422696/direct/01/" ns0:target="_blank" date-last-modified="2012-06-01T12:08:06+00:00" date-first-released="2012-05-24T09:35:15.213472+00:00" date-last-published="2012-06-01T12:09:06.617551+00:00" last-semantic-change="2012-06-01T12:07:50.616827+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Singapore Airlines </title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/Singapore_Airlines_Logo/Singapore_Airlines_Logo-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="e91e7f62-bff8-48a3-b04c-a491a6720529">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/einleitung-gewinnspiel/link_gewinnspiel" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://services.zeit.de/angebote/suedaustralien-entdecken/" ns0:target="_blank" date-last-modified="2012-05-29T14:42:15+00:00" date-first-released="2012-05-24T09:03:40.010777+00:00" date-last-published="2012-05-29T14:43:14.871706+00:00" last-semantic-change="2012-05-29T14:42:05.927551+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Südaustralien entdecken und gewinnen</title>
+            <text py:pytype="str">Entdecken Sie das faszinierende Land am anderen Ende der Welt. Wenn Sie unsere Artikel aufmerksam lesen, können Sie hier alle Gewinnspiel-Fragen mühelos beantworten.</text>
+            <description py:pytype="str">Entdecken Sie das faszinierende Land am anderen Ende der Welt. Wenn Sie unsere Artikel aufmerksam lesen, können Sie hier alle Gewinnspiel-Fragen mühelos beantworten.</description>
+            <byline py:pytype="str">Reiseziel Südaustralien: ist ein Angebot der South Australian Tourism Commission und von Singapore Airlines, die für den Inhalt verantwortlich sind.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/einleitung-gewinnspiel/sa_aufmacher/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="f9c30fcb-75d2-47bf-8075-7f3f974d8c28">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/link_newsletter" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://clk.atdmt.com/ERP/go/401664998/direct/01/" date-last-modified="2012-06-01T12:02:04+00:00" date-first-released="2012-05-24T16:10:37.267898+00:00" date-last-published="2012-06-01T12:03:03.880150+00:00" last-semantic-change="2012-06-01T12:01:43.159878+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Mehr Informationen!</title>
+            <text py:pytype="str">Melden Sie sich hier für den Singapore Airlines eNewsletter an, damit erhalten Sie jederzeit die neuesten Angebote</text>
+            <description py:pytype="str">Melden Sie sich hier für den Singapore Airlines eNewsletter an, damit erhalten Sie jederzeit die neuesten Angebote</description>
+            <byline xsi:nil="true"/>
+            <image alt="lehrernewsletter" href="http://www.zeit.de/newsletter/index" align="left" title="lehrernewsletter" base-id="http://xml.zeit.de/angebote/schule/Bilder/lehrer_newsletter_bb/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="f99cf400-41a6-4606-944e-e43f9eaffb43">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/suedaustralien-mit-singapore-airlines/link_uebersicht" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/suedaustralien-mit-singapore-airlines/" ns0:target="_blank" date-last-modified="2012-05-29T10:25:48+00:00" date-first-released="2012-04-23T14:12:11.107558+00:00" date-last-published="2012-05-29T10:26:48.359673+00:00" last-semantic-change="2012-05-29T10:25:39.092162+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Südaustralien mit Singapore Airlines</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Südaustralien mit Singapore Airlines</title>
+  </teaser>
+</centerpage>

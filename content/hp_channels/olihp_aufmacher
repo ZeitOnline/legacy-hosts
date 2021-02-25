@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<container style="homepage_01_06">
+  <row layout="headline">
+    <container layout="" id="" label="" priority="">
+      <block href="cms:/cms/work/online/2006/37/terrorismus-islam-roy" id="" layout="aufmacherbild" priority="">
+        <image expires="2006-09-19" src="/cms/work/bilder/2006/37/aktuell/aufmacher/9-11-atta-220.jpg" width="220" align="right"><copyright>© U.S. Navy/Getty Images</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="aufmacher" label="" priority="">
+      <block layout="aufmacher" priority="" href="cms:/cms/work/online/2006/37/terrorismus-islam-roy" id="">
+        <title>Terror aus dem Westen</title>
+        <text>Viele Islamisten sind erst in Europa radikalisiert worden. Ein bessere Integrationspolitik würde diesem Prozess die soziale Basis entziehen, schreibt der französische Islamexperte</text>
+        <byline>Olivier Roy</byline>
+        <related>
+          <block priority="" href="cms:/cms/work/2005/30/Islamismus">
+            <title>Islamismus</title>
+            <text>...ist eine&#13;
+höchst moderne Glaubensrichtung.</text>
+          </block>
+          <block priority="" href="cms:/cms/work/2006/37/Essay_NineEleven">
+            <title>USA</title>
+            <text>Nur noch Anti-Terror-Krieg</text>
+          </block>
+        </related>
+      </block>
+    </container>
+<!--<container>
+      <feed id="dpa">
+        <block layout="knopf" priority="" href="cms:/cms/work/online/2006/27/Gaza-Ultimatum" id="">
+          <title>Bangen um Schalit</title>
+          <text>Das Ultimatum der palästinensischen Entführer des israelischen Soldaten ist am frühen Morgen abgelaufen - ohne dass Israel Gefangene freiließ und ohne Nachricht über das Schicksal von Gilad Schalit</text>
+          <byline/>
+          <related>
+            <block priority="" href="cms:/cms/work/online/2006/27/israel-gaza-kommentar-klingst">
+              <title>Offensive in Gaza</title>
+              <text>Wer löst den Konflikt?</text>
+            </block>
+          </related>
+        </block>
+      </feed>
+    </container> -->
+    <container priority="1" id="LetzteMeldung" label="LetzteMeldungen">
+      <block>
+        <feed id="ts-feed">
+          <rss_feed id="meldungen" max_items="5" mode="news"/>
+        </feed>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="knopf-links" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/37/Niedersachsen">
+        <supertitle>Kommunalwahlen</supertitle>
+        <title>CDU behauptet sich</title>
+        <text>Bei den Kommunalwahlen in Niedersachsen ist die CDU stärkste Kraft geworden, musste allerdings Verluste hinnehmen. </text>
+        <byline/>
+        <related>
+          <block priority="" href="cms:/cms/work/2006/37/Rechtsextreme">
+            <title>Rechte</title>
+            <text>Die NPD biedert sich in Mecklenburg-Vorpommern zum Erfolg</text>
+          </block>
+        </related>
+        <image expires="2006-09-19" src="/cms/work/bilder/2006/37/aktuell/knoepfe/niedersachsen-72.gif" align="right"><copyright>© Zeit online</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-mitte" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/37/Montagskolumne">
+        <supertitle>Hoher Besuch</supertitle>
+        <title>Wir sind mal wieder Papst</title>
+        <text>Feste sind schön! Und Massenerlebnisse? Braucht der Mensch gar das Kollektive?, fragt sich <em>Robert Leicht.</em></text>
+        <byline/>
+        <image expires="2006-09-19" src="/cms/work/bilder/2006/37/aktuell/knoepfe/papst-72.jpg" align="right"><copyright>© Zeit online</copyright> BILD </image>
+        <related>
+          <block priority="" href="cms:/cms/work/2006/37/Alt-tting">
+            <title>Die Kreuzfahrer</title>
+            <text>Der Papst besucht Altötting.</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container id="knopf-rechts" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/37/Iran-Montag">
+        <supertitle>Atomstreit</supertitle>
+        <title>"Konstruktiver Dialog"</title>
+        <text>Iran hält die Aussetzung der Urananreicherung für "denkbar", allerdings&#13;
+nur für zwei Monate. </text>
+        <byline/>
+        <image expires="2006-09-19" src="/cms/work/bilder/2006/standards/knoepfe/atomiran_72.gif" align="right"><copyright>© Zeit online</copyright> BILD </image>
+        <related>
+          <block priority="" href="cms:/cms/work/online/2006/37/Khatami-in-den-USA">
+            <title>Der milde Mullah</title>
+            <text>Irans Ex-Präsident Chatami in den Vereinigten Staaten </text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </row>
+  <row layout="onecol">
+    <container>
+      <ad place="3"/>
+    </container>
+    <container>
+      <ad place="5"/>
+    </container>
+  </row>
+<!-- 
+  <row layout="onecol">
+    <container>
+      <ad place="13"/>
+      <ad place="14"/>
+      <ad place="15"/>
+    </container>
+  </row>
+  -->
+  <row layout="threecol">
+    <container id="tagesbild">
+      <block href="javascript:void(window.open('http://www.zeit.de/bild_des_tages','bilddestages','height=900,width=701,directories=no,location=no,menubar=no,resizable=yes,status=no,toolbar=no'));" priority="1" layout="tagesbild">
+        <text><br/><strong>Was ist das?</strong> Ein Monster?</text>
+        <image expires="2006-09-18" src="/cms/work/bilder/2006/37/aktuell/tagesbilder/tabi-so-210.jpg" align="right"><copyright>© Zeit online</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-mitte" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/2006/37/wikipedia">
+        <supertitle>Internet</supertitle>
+        <title>Die Wiki-Welt</title>
+        <text>Kann aus Online-Enzyklopädie ein seriöses Lexikon entstehen?</text>
+        <byline>Von Kerstin Kohlenberg</byline>
+        <image expires="2006-09-19" src="/cms/work/bilder/2006/37/aktuell/knoepfe/wikipedia-72.jpg" align="right"><copyright>© Zeit online</copyright> BILD </image>
+        <related>
+          <block priority="" href="http://www.zeit.de/computer/index" id="" layout="">
+            <title>Virtuelles und Reales</title>
+            <text>Analysen, Neuigkeiten und Spiele auf der Computer-Seite von ZEIT online. </text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container id="2knopf-rechts" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/37/RunderTisch">
+        <supertitle>100 Fragen</supertitle>
+        <title>Gutmenschen antworten</title>
+        <text>In Berlin haben Intellektuelle und Promis einen Tag lang die hundert&#13;
+wichtigsten Fragen der Welt beantwortet. <em>Juliette Guttmann </em>war dabei.</text>
+        <byline/>
+        <image expires="2006-09-18" src="/cms/work/bilder/2006/37/aktuell/knoepfe/runder-tisch-72.jpg" align="right"><copyright>© Zeit online</copyright> BILD </image>
+        <related>
+          <block priority="" href="cms:/cms/work/2005/29/Edinbourogh_29">
+            <title>Vorsicht, Kamera</title>
+            <text>Eine Attac-Aktivistin unterwegs zum G8-Gipfel</text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="3knopf-links" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/37/Schumacher">
+        <supertitle>Karriere-Ende</supertitle>
+        <title>Schumacher hört auf</title>
+        <text>Die Entscheidung ist gefallen: Rekordweltmeister Michael Schumacher beendet nach der laufenden WM-Saison seine Karriere.</text>
+        <byline/>
+        <related>
+          <block layout="" priority="" href="http://www.zeit.de/auto/index">
+            <title>Auf vier Rädern</title>
+            <text>Die Auto-Seite von ZEIT online</text>
+          </block>
+        </related>
+        <image expires="2006-09-19" src="/cms/work/bilder/2006/37/aktuell/knoepfe/schumacher-72.jpg" align="right"><copyright>© Zeit online</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="3knopf-mitte" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/37/bildergalerie-nachsaison">
+        <supertitle>Fotografie</supertitle>
+        <title>Sommer ade</title>
+        <text>Der italienische Badeort Viareggio in der Nachsaison. Bilder von &#13;
+herbstlicher Ruhe und den Spuren eines bewegten Sommers. </text>
+        <byline/>
+        <image expires="2006-09-18" src="/cms/work/bilder/2006/37/aktuell/knoepfe/galerie-nachsaison-72.jpg" align="right"><copyright>© Zeit online</copyright> BILD </image>
+        <related>
+          <block priority="" href="http://www.zeit.de/bildergalerien">
+            <title>Sehenswertes</title>
+            <text>Alle Bildergalerien von ZEIT online im Überblick</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container id="3knopf-rechts" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/2006/37/50-Jaehrige-Putz">
+        <supertitle>Generationsfragen</supertitle>
+        <title>Gedanken an den Tod</title>
+        <text>Was bewegt Menschen gleichen Alters? Zum Beispiel die 50-Jährigen? Im zweiten Teil der ZEIT-Serie antwortet die Dokumentaristin Christine Putz.</text>
+        <byline/>
+        <image expires="2006-09-18" src="/cms/work/bilder/2006/37/aktuell/knoepfe/christine-putz-72.jpg" align="right"><copyright>© Zeit online</copyright> BILD </image>
+        <related>
+          <block priority="" href="cms:/cms/work/leben/index">
+            <title>Ressort Leben</title>
+            <text>Interviews, Reportagen, Porträts</text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </row>
+</container>

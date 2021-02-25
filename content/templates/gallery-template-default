@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-01-31T13:08:44.987953+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-10-20T07:57:07.095744+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-01-31T13:08:51.618892+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-01-31T13:09:51.553404+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-11-20T17:29:15.948856+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-10-20</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-01-31T13:08:33.726742+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-10-20</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.bayer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">1552618452</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2013-05-06T16:39:40+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">27</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:dbb8c621-4efd-4cc4-b6af-0e1c71dd468b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="dbe75226-1ebc-4e02-b4a5-ba2ba8d296fd">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-662163f8-4c9d-4287-b09d-dfe29dbba483" layout="368x110" title="Themenwoche: Fotografie">
+          <block type="intern" href="http://xml.zeit.de/themen/kultur/das-ist-fotografie/index" year="2013" issue="18" ressort="Kultur" contenttype="centerpage-2009" publication-date="2013-05-10T09:06:00+00:00" expires="" date-last-modified="2013-05-10T19:43:09+00:00" date-first-released="2013-05-06T13:21:54.354075+00:00" date-last-published="2013-05-10T19:44:07.725750+00:00" last-semantic-change="2013-05-10T19:42:39.718208+00:00" uniqueId="http://xml.zeit.de/themen/kultur/das-ist-fotografie/index">
+            <supertitle py:pytype="str">Thema</supertitle>
+            <title py:pytype="str">Das ist Fotografie</title>
+            <text py:pytype="str">ZEIT ONLINE widmet sich in einer Themenwoche dem aktuellen Stand der Fotografie.</text>
+            <description py:pytype="str">ZEIT ONLINE widmet sich in einer Themenwoche dem aktuellen Stand der Fotografie.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/themen/kultur/das-ist-fotografie/teaser-themenwoche-fotografie/" type="jpg" alt="Das ist Fotografie Digital Analog" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Vincenzo Pinto/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/themen/kultur/das-ist-fotografie/teaser-themenwoche-fotografie/teaser-themenwoche-fotografie-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="0d828a4e-b03a-425a-ad6c-3a3ce2aab3e5">
+          <cp_extra id="mostcommented"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="34970964-d644-472d-9f4c-2e31fb77cd00">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-e083ce20-faff-4ad0-9075-7f869880b0fc">
+          <block href="http://xml.zeit.de/reisen/2015-01/vollmond-landschaft-fotografie-fs" uniqueId="http://xml.zeit.de/reisen/2015-01/vollmond-landschaft-fotografie-fs" year="2015" issue="2" ressort="Reisen" contenttype="gallery" publication-date="" expires="" date-last-modified="2015-01-19T08:26:21+00:00" date-first-released="2015-01-17T11:21:14.403664+00:00" date-last-published="2015-01-19T08:27:20.692845+00:00" last-semantic-change="2015-01-17T12:19:22.901671+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Landschaftsfotografie</supertitle>
+            <title py:pytype="str">Nur der Mond scheint zu</title>
+            <text py:pytype="str">Neue Romantik? Die Landschaftsporträts von Darren Almond kommen ohne Sonnenlicht aus. Dass sie dennoch taghell sind, macht ihren besonderen Reiz aus.</text>
+            <description py:pytype="str">Neue Romantik? Die Landschaftsporträts von Darren Almond kommen ohne Sonnenlicht aus. Dass sie dennoch taghell sind, macht ihren besonderen Reiz aus.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2015-01/vollmond-landschaft-fotografie-fs-teaser/" type="jpg" title="Fullmoon Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Darren Almond</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-bcd84e34-8548-46f5-b335-0c5178859cbf">
+          <block href="http://xml.zeit.de/digital/2014-05/fs-genial-einfach-apple-design-arnoldsche-art-publishers" uniqueId="http://xml.zeit.de/digital/2014-05/fs-genial-einfach-apple-design-arnoldsche-art-publishers" year="2014" issue="19" ressort="Digital" contenttype="gallery" publication-date="" expires="" date-last-modified="2014-05-21T14:11:05+00:00" date-first-released="2014-05-21T08:10:30.374995+00:00" date-last-published="2014-05-21T14:12:05.096794+00:00" last-semantic-change="2014-05-12T09:31:55.138316+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Design</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Apple-Computer, wie sie nie gebaut wurden</title>
+            <text py:pytype="str">Der Erfolg von Apple liegt auch im Design. Verantwortlich dafür war in den achtziger Jahren Hartmut Esslinger. Wir zeigen seine Entwürfe für Apple.</text>
+            <description py:pytype="str">Der Erfolg von Apple liegt auch im Design. Verantwortlich dafür war in den achtziger Jahren Hartmut Esslinger. Wir zeigen seine Entwürfe für Apple.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/2014-05/fs-genial-einfach-apple-design-teaser/" type="jpg" title="Fotostrecke: Die frühen Design-Jahre von Apple" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Bashful: Modulares Touch-Konzept, 1983</bu>
+              <copyright py:pytype="str" link="http://www.arnoldsche.com/Neue-Buecher/GENIAL-EINFACH.html">© Hartmut Esslinger und frog team/Arnoldsche Art Publishers</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-5df36574-547a-43c1-9484-e5a1ad86bf0c">
+          <block href="http://xml.zeit.de/kultur/2014-07/fs-pina-bausch-backstage-tanztheater" uniqueId="http://xml.zeit.de/kultur/2014-07/fs-pina-bausch-backstage-tanztheater" year="2014" issue="29" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2014-07-24T15:27:40+00:00" date-first-released="2014-07-24T15:17:52.718544+00:00" date-last-published="2014-07-24T15:28:40.266810+00:00" last-semantic-change="2014-07-24T15:16:04.389877+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotos Tanztheater Wuppertal</supertitle>
+            <title py:pytype="str">Wer braucht schon ein Tutu?</title>
+            <text py:pytype="str">Neu entdeckte Fotos zeigen die große Choreografin und Tänzerin Pina Bausch während der Proben. Ein Blick hinter die Kulissen, auf die Geburtsstunde des Tanztheaters</text>
+            <description py:pytype="str">Neu entdeckte Fotos zeigen die große Choreografin und Tänzerin Pina Bausch während der Proben. Ein Blick hinter die Kulissen, auf die Geburtsstunde des Tanztheaters</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2014-07/fs-pina-bausch-backstage-tanztheater-teaser/" type="jpg" title="Fotostrecke: Pina Bausch backstage Tanztheater" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.nimbusbooks.ch/buch/pina-bausch-backstage">© KH. W. Steckelings/Nimbus Verlag</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-6c6a4b0e-e0da-4385-affa-d58827ab525b">
+          <block href="http://xml.zeit.de/kultur/kunst/2014-09/fs-hilla-becher-bernd-becher-basic-forms-grundformen" uniqueId="http://xml.zeit.de/kultur/kunst/2014-09/fs-hilla-becher-bernd-becher-basic-forms-grundformen" year="2014" issue="37" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2014-09-06T12:43:34+00:00" date-first-released="2014-09-06T12:44:34.297576+00:00" date-last-published="2014-09-06T12:44:34.297576+00:00" last-semantic-change="2014-09-06T12:43:07.733734+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Bernd und Hilla Becher</supertitle>
+            <title py:pytype="str">Die Eleganz der Gasometer</title>
+            <text py:pytype="str">Bernd und Hilla Becher haben in 40 Jahren unzählige Industriebauten fotografiert. Immer wieder fanden sie dieselben geometrischen Grundformen: Form folgt Funktion.</text>
+            <description py:pytype="str">Bernd und Hilla Becher haben in 40 Jahren unzählige Industriebauten fotografiert. Immer wieder fanden sie dieselben geometrischen Grundformen: Form folgt Funktion.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/kunst/2014-09/fs-hilla-becher-bernd-becher-basic-forms-grundformen-teaser/" type="jpg" title="Fotostrecke: Bernd &amp; Hilla Becher Basic Forms / Grundformen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Bernd &amp; Hilla Becher
+Basic Forms / Grundformen
+Neuauflage Deutsch/englische Ausgabe Mit einem Text von Susanne Lange 160 Seiten, 61 Duotone-Tafeln ISBN 978-3-8296-0694-3 Ladenpreis € 29.80, € (A) 30.70, CHF 40.90 
+http://schirmer-mosel.com/ </bu>
+              <copyright py:pytype="str" link="http://schirmer-mosel.com/">© 2014 Bernd und Hilla Becher / courtesy Schirmer/Mosel</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Biga-Rahmen Default</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Biga-Rahmen Default</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Biga-Rahmen Default</text>
+  </indexteaser>
+</centerpage>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-06-20T07:38:58.315129+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-06-11T11:43:32.084614+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-06-20T07:39:57.934285+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-06-20T07:38:19.199303+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">dpd</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:168a7915-9bbb-45b8-bf5d-18affdccb28e}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="" cp:__name__="id-fb6425a4-d7fe-4100-aca4-80b7db024920"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-2ed887b9-67f8-4a1a-ab02-c4b4f27bac88">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dpd/link_logo_dpd" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.dpd.com/de/Home/Verantwortung/Umwelt/Total-Zero" date-last-modified="2012-06-11T14:12:20+00:00" date-first-released="2012-06-11T10:39:42.375663+00:00" date-last-published="2012-06-11T14:13:20.161160+00:00" last-semantic-change="2012-06-11T14:12:09.671315+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">  </title>
+            <text py:pytype="str">Zu schön, um wahr zu sein? Prüfen Sie den CO2-neutralen Paket-Versand von DPD auf Herz und Nieren! </text>
+            <description py:pytype="str">Zu schön, um wahr zu sein? Prüfen Sie den CO2-neutralen Paket-Versand von DPD auf Herz und Nieren! </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dpd/logo_total_zero/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-4b44dfec-fd16-4e66-9721-ac7b3a93a015">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dpd/link_video" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.dpd.com/de/Home/Verantwortung/Umwelt/Total-Zero" date-last-modified="2012-06-14T08:06:46+00:00" date-first-released="2012-06-11T11:41:16.215166+00:00" date-last-published="2012-06-14T08:07:46.369474+00:00" last-semantic-change="2012-06-14T08:06:36.034402+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Total Zero – so geht’s!</title>
+            <text py:pytype="str">Jetzt Video ansehen! </text>
+            <description py:pytype="str">Jetzt Video ansehen! </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dpd/film_context/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-4e1616e7-8fe9-4fbc-9fb9-f251c048df6f">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dpd/link_co2bilanz_verbessern" year="2012" ressort="Angebote" publication-date="" expires="" ns1:href="http://www.whyflyparcels.com/default.aspx" date-last-modified="2012-06-11T11:40:04+00:00" date-first-released="2012-06-11T10:41:38.544969+00:00" date-last-published="2012-06-11T11:41:04.749847+00:00" last-semantic-change="2012-06-11T11:39:55.861416+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Verbessern Sie Ihre CO2-Bilanz!</title>
+            <text py:pytype="str">DPD transportiert innerhalb Europas fast alle Pakete über die Straße statt per Luftfracht, somit ist der Transport deutlich klimafreundlicher. Hier erfahren Sie, warum! </text>
+            <description py:pytype="str">DPD transportiert innerhalb Europas fast alle Pakete über die Straße statt per Luftfracht, somit ist der Transport deutlich klimafreundlicher. Hier erfahren Sie, warum! </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dpd/co2-bilanz_verbessern/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-2ca95346-4d6e-40d3-ade2-09d666ab0112">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dpd/link_uebersicht" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/dpd/index" ns0:target="_blank" date-last-modified="2012-06-11T11:40:26+00:00" date-first-released="2012-03-21T14:03:19.932255+00:00" date-last-published="2012-06-11T11:41:26.109406+00:00" last-semantic-change="2012-06-11T11:26:25.684434+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen DPD</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen DPD</title>
+  </teaser>
+</centerpage>

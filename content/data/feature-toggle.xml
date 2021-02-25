@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<features>
+  <access_status_ivw>false</access_status_ivw>
+  <access_status_webtrekk>true</access_status_webtrekk>
+  <amp_advertising>true</amp_advertising>
+  <arbeit_quote_sharing>true</arbeit_quote_sharing>
+  <article_lineage>true</article_lineage>
+  <campus_jobs_flyout_menu>true</campus_jobs_flyout_menu>
+  <campus_toolbox>true</campus_toolbox>
+  <comment_thread_via_esi>true</comment_thread_via_esi>
+  <dtag_navigation>true</dtag_navigation>
+  <enable_intext_links>false</enable_intext_links>
+  <fbia_advertising>true</fbia_advertising>
+  <framebuilder_loginstatus_disabled>false</framebuilder_loginstatus_disabled>
+  <hp_overlay>true</hp_overlay>
+  <!-- Produce https link, when set to true (only for certain domains, when
+  'transform_to_secure_links_for[cs-list_with_fqdn]` is configured in web.ini) -->
+  <https>false</https>
+  <iqd>true</iqd>
+  <iqd_tablet_transformation>true</iqd_tablet_transformation>
+  <iqd_touchpoint>true</iqd_touchpoint>
+  <keywords_from_tms>true</keywords_from_tms>
+  <podlove_button>true</podlove_button>
+  <rawr_iframe>true</rawr_iframe>
+  <reader_revenue>true</reader_revenue>
+  <reader_revenue_handle_celeraone_login_inconsistency>true</reader_revenue_handle_celeraone_login_inconsistency>
+  <reader_revenue_registered_with_comments>false</reader_revenue_registered_with_comments>
+  <render_404>true</render_404>
+  <responsive_image_leadteaser>true</responsive_image_leadteaser>
+  <share_blocks_via_screenshot>true</share_blocks_via_screenshot>
+  <tag_logos>true</tag_logos>
+  <third_party_modules>true</third_party_modules>
+  <topicpages_tms>true</topicpages_tms>
+  <tracking>true</tracking>
+  <track_gate_visibility>true</track_gate_visibility>
+  <update_signals>true</update_signals>
+  <volume_teaser>true</volume_teaser>
+  <zon_1000px>true</zon_1000px>
+  <zon_admark>false</zon_admark>
+  <zon_inline_video_via_html5>true</zon_inline_video_via_html5>
+  <zon_videosinglepage_via_html5>true</zon_videosinglepage_via_html5>
+  <zplus_badge_gray>true</zplus_badge_gray>
+  <zplus_badge_on_registration_paywall>true</zplus_badge_on_registration_paywall>
+  <!-- zoca launch toggle is the other way round, facepalm. set to false to launch -->
+  <zoca_moderation_launch>false</zoca_moderation_launch>
+</features>

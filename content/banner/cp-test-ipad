@@ -1,0 +1,995 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEITVerlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">cp-bannertest</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-01-17T15:45:33.964035+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-11-04T14:14:05.353113+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-01-17T15:46:33.646975+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-11-12</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-01-13T16:39:41.004239+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2011-01-15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.bruenjes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">ZEIT-Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">5737</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:278ffdbd-dca4-4266-b3b6-f501fffd7405}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="fdb0db0d-abf7-4372-998a-2615e22af76d">
+          <block href="http://xml.zeit.de/kultur/2010-04/barenboim-netrebko-romanzen" year="2010" ressort="Kultur" publication-date="" expires="" date-last-modified="2010-04-16T13:02:38+00:00" date-first-released="2010-04-15T22:00:00+00:00" date-last-published="2010-04-16T13:03:37.908107+00:00" last-semantic-change="2010-04-16T12:54:19.629172+00:00">
+            <supertitle py:pytype="str">Netrebko &amp; Barenboim</supertitle>
+            <title py:pytype="str">"Wer zu sehr auf seine Stimme achtet, wird verrückt"</title>
+            <text py:pytype="str">Der Zauber russischer Romanzen: ein Gespräch mit Anna Netrebko und Daniel Barenboim über Champagner auf der Opernbühne, Villazons Rückkehr und Tschaikowskys Traurigkeit.</text>
+            <description py:pytype="str">Der Zauber russischer Romanzen: ein Gespräch mit Anna Netrebko und Daniel Barenboim über Champagner auf der Opernbühne, Villazons Rückkehr und Tschaikowskys Traurigkeit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Anna Netrebko und Daniel Barenboim im Konzert" base-id="http://xml.zeit.de/kultur/musik/2010-04/netrebko-barenboim-konzert/" type="jpg" publication-date="" expires="">
+              <bu>Jugenderinnerungen: Daniel Barenboim und Anna Netrebko in der Berliner Philharmonie</bu>
+              <copyright py:pytype="str">© Thomas Bartilla</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2008/46/Portraet-Netrebko" year="2008" issue="46" ressort="Kultur" publication-date="" expires="" date-last-modified="2009-09-06T09:38:35+00:00" date-first-released="2008-11-05T14:43:05.085649+00:00" date-last-published="2009-09-06T09:38:52.742719+00:00" last-semantic-change="2008-11-05T14:42:05.482498+00:00">
+            <supertitle py:pytype="str">Anna Netrebko</supertitle>
+            <title py:pytype="str">Das Babypauseninterview</title>
+            <text py:pytype="str">Gerade ist die Sopranistin Mutter geworden und hat eine neue CD aufgenommen. Deshalb empfängt sie Journalisten und sagt – nichts.</text>
+            <description py:pytype="str">Gerade ist die Sopranistin Mutter geworden und hat eine neue CD aufgenommen. Deshalb empfängt sie Journalisten und sagt – nichts.</description>
+            <byline py:pytype="str">Von Petra Reski</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2008/46/kultur/musik/anna-netrebko/" type="jpg" publication-date="" expires="">
+              <bu>Anna Netrebko – im September hat sie einen Sohn geboren. Im Januar will sie wieder singen</bu>
+              <copyright py:pytype="str">© Esther Haase/Deutsche Grammophon</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/2010-04/mozart-leben-studie" year="2010" ressort="Kultur" publication-date="" expires="" date-last-modified="2010-04-07T07:21:57+00:00" date-first-released="2010-04-06T22:00:00+00:00" date-last-published="2010-04-07T07:22:57.305620+00:00" last-semantic-change="2010-04-07T07:19:09.769668+00:00">
+            <supertitle py:pytype="str">Musikgeschichte</supertitle>
+            <title py:pytype="str">Champagner für Mozart</title>
+            <text py:pytype="str">Das Wolferl, ein hungerndes, frierendes Genie? Von wegen: Mozart verdiente umgerechnet 150.000 Euro im Jahr und gab 17 Prozent davon für Gaumenfreuden aus.</text>
+            <description py:pytype="str">Das Wolferl, ein hungerndes, frierendes Genie? Von wegen: Mozart verdiente umgerechnet 150.000 Euro im Jahr und gab 17 Prozent davon für Gaumenfreuden aus.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Wolfgang Amadeus Mozart auf einem Gemälde von Johann Georg Edlinger" base-id="http://xml.zeit.de/kultur/musik/2010-04/mozart/" type="jpg" publication-date="" expires="">
+              <bu>Wolfgang Amadeus Mozart auf einem Gemälde seines Zeitgenossen Johann Georg Edlinger. Das Bild entstand ungefähr 1790, ein Jahr vor Mozarts Tod</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="529d8c16-c072-4f8c-8f5c-d332d429f5d1">
+          <block href="http://xml.zeit.de/2010/15/Autotest-Mercedes" year="2010" issue="15" ressort="Auto" publication-date="" expires="" date-last-modified="2010-04-09T05:23:05+00:00" date-first-released="2010-04-08T06:00:00+00:00" date-last-published="2010-04-09T05:24:04.674855+00:00" last-semantic-change="2010-04-09T04:41:17.490355+00:00">
+            <supertitle py:pytype="str">ZEITmagazin Autotest  </supertitle>
+            <title py:pytype="str">Ein Auto  fürs Klavier</title>
+            <text py:pytype="str">Wolfram Siebeck fährt den Mercedes E 350 CGI Kombi. Der Gastro-Kritiker und Kolumnist des ZEITmagazins genießt das Fahrgefühl, kämpft aber mit dem komplizierten Navi.</text>
+            <description py:pytype="str">Wolfram Siebeck fährt den Mercedes E 350 CGI Kombi. Der Gastro-Kritiker und Kolumnist des ZEITmagazins genießt das Fahrgefühl, kämpft aber mit dem komplizierten Navi.</description>
+            <byline py:pytype="str">Von Wolfram Siebeck</byline>
+            <image alt="Der Mercedes E 350 CGI bietet viel Nützliches, aber auch überflüssige Extras." align="left" title="Mercedes E 350 CGI" base-id="http://xml.zeit.de/wirtschaft/2010-04/mercedes-e-350-cgi/" type="jpg" publication-date="" expires="">
+              <bu>Der Mercedes E 350 CGI bietet viel Nützliches, aber auch überflüssige Extras</bu>
+              <copyright py:pytype="str">© PR: Daimler</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/04/Autotest-04" year="2010" issue="4" ressort="Auto" publication-date="" expires="" date-last-modified="2010-02-11T18:11:49+00:00" date-first-released="2010-01-21T06:00:00+00:00" date-last-published="2010-02-11T18:12:49.423375+00:00" last-semantic-change="2010-01-19T19:08:28.799495+00:00">
+            <supertitle py:pytype="str">ZEITmagazin Autotest</supertitle>
+            <title py:pytype="str">Die Fahrerin lenkt, aber der Wagen denkt</title>
+            <text py:pytype="str">ZEITmagazin-Redakteurin Ilka Piepgras bringt den Mercedes-Benz GL 350 BlueTEC zum Kochen. Und sie ist erstaunt, wie wenig Macht sie selbst in Händen hält.</text>
+            <description py:pytype="str">ZEITmagazin-Redakteurin Ilka Piepgras bringt den Mercedes-Benz GL 350 BlueTEC zum Kochen. Und sie ist erstaunt, wie wenig Macht sie selbst in Händen hält.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der Mercedes GL 350 Bluetec" align="left" title="Mercedes GL 350 Bluetec" base-id="http://xml.zeit.de/auto/2010-01/auto-gl-bluetec/" type="jpg" publication-date="" expires="">
+              <bu>Der Mercedes GL 350 Bluetec steht wuchtig im Wind. Beliebt ist das Modell vor allem bei Kunden in den USA.</bu>
+              <copyright py:pytype="str">© Daimler</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/39/Auto-39" year="2009" issue="39" ressort="Auto" publication-date="" expires="" date-last-modified="2009-09-23T14:00:39+00:00" date-first-released="2009-09-17T06:00:00+00:00" date-last-published="2009-09-18T12:33:41.172044+00:00" last-semantic-change="2009-09-23T14:00:38.545931+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">ZEITmagazin Autotest</supertitle>
+            <title py:pytype="str">Sparsam ist Luxus</title>
+            <text py:pytype="str">Dietmar H. Lamparter fährt den Mercedes-Benz S 400 Hybrid. Im High-Tech-Wohnzimmer sitzt er mit widersprüchlichen Gefühlen.</text>
+            <description py:pytype="str">Dietmar H. Lamparter fährt den Mercedes-Benz S 400 Hybrid. Im High-Tech-Wohnzimmer sitzt er mit widersprüchlichen Gefühlen.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der Mercedes S400 Hybrid" align="left" title="S400 Hybrid" base-id="http://xml.zeit.de/auto/2009-09/auto-sklasse-hybrid/" type="jpg" publication-date="" expires="">
+              <bu>Der erste Mercedes mit Hybridantrieb: Im S400 hilft ein Elektromotor beim Beschleunigen</bu>
+              <copyright py:pytype="str">© Daimler</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/31/Auto-31" year="2009" issue="31" ressort="Auto" publication-date="" expires="" date-last-modified="2009-09-06T13:50:10+00:00" date-first-released="2009-07-23T06:00:00+00:00" date-last-published="2009-09-06T13:51:10.160193+00:00" last-semantic-change="2009-09-04T17:16:17.577351+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Autotest</supertitle>
+            <title py:pytype="str">Nie mehr allein</title>
+            <text py:pytype="str">Unser Autor fährt Mercedes' neue E-Klasse. Er freut sich über die vielen Helfer und findet, der Wagen könnte einem das Fahren ruhig auch noch abnehmen.</text>
+            <description py:pytype="str">Unser Autor fährt Mercedes' neue E-Klasse. Er freut sich über die vielen Helfer und findet, der Wagen könnte einem das Fahren ruhig auch noch abnehmen.</description>
+            <byline py:pytype="str">Von Mark Spörrle</byline>
+            <image alt="Die neue Mercedes-E-Klasse von vorn" align="left" title="auto-mercedes" base-id="http://xml.zeit.de/bilder/2009/31/auto/auto-mercedes/" type="jpg" publication-date="" expires="">
+              <bu>Markant: Nicht zuletzt das Scheinwerfer-Design der neuen Mercedes-E-Klasse polarisiert</bu>
+              <copyright py:pytype="str">© Daimler</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="71cccd52-e305-4aa1-bd34-45f8f4b77c6c">
+          <block href="http://xml.zeit.de/2009/45/Traum-Buble" year="2009" issue="45" publication-date="" expires="" date-last-modified="2010-01-20T11:06:38+00:00" date-first-released="2009-10-29T06:00:00+00:00" date-last-published="2009-11-10T10:22:40.431393+00:00" last-semantic-change="2009-10-29T13:34:33.378059+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Ich habe einen Traum</supertitle>
+            <title py:pytype="str">"Meine Mutter hat mir ihre Träume vererbt"</title>
+            <text py:pytype="str">Der kanadische Swingsänger Michael Bublé träumt vom Fliegen - kontrolliert und langsam.</text>
+            <description py:pytype="str">Der kanadische Swingsänger Michael Bublé träumt vom Fliegen - kontrolliert und langsam.</description>
+            <byline py:pytype="str">Von Elisabeth Raether</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-11/michael-buble/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Warner Music</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2008/39/jazz-goes-pop" year="2008" issue="39" publication-date="" expires="" date-last-modified="2010-07-15T08:48:16+00:00" date-first-released="2008-09-23T15:50:30.135243+00:00" date-last-published="2009-10-29T09:04:53.278354+00:00" last-semantic-change="2008-09-26T13:58:29.211876+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Jazz wird Pop</supertitle>
+            <title py:pytype="str">So viel sexier</title>
+            <text py:pytype="str">Sie sind jung und spielen zwischen den Genres: Musiker wie Torsten Goods, Peter Cincotti, Jamie Cullum oder Michael Bublé haben keine Angst vor dem Pop. Sollten sie aber!</text>
+            <description py:pytype="str">Sie sind jung und spielen zwischen den Genres: Musiker wie Torsten Goods, Peter Cincotti, Jamie Cullum oder Michael Bublé haben keine Angst vor dem Pop. Sollten sie aber!</description>
+            <byline py:pytype="str">Von Volker Schmidt</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2008/39/kultur/musik/jazz-pop-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Torsten Goods</bu>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2005/13/buble" year="2005" issue="13" publication-date="" expires="" date-last-modified="2009-10-26T21:00:35+00:00" date-first-released="2005-03-23T12:00:00+00:00" date-last-published="2009-10-26T21:01:35.050731+00:00" last-semantic-change="2005-03-23T12:00:00+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Swing</supertitle>
+            <title py:pytype="str">Der Hochzeitssänger</title>
+            <text py:pytype="str">Auch das zweite Album des Kanadiers Michael Bublé besticht durch gelungene Rundumerneuerung alter Swinghits.</text>
+            <description py:pytype="str">Auch das zweite Album des Kanadiers Michael Bublé besticht durch gelungene Rundumerneuerung alter Swinghits.</description>
+            <byline py:pytype="str">Von Clara Ott für ZEIT.de</byline>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="9d7e5702-c96d-48e6-bcff-fbf5d36cf94a">
+          <block href="http://xml.zeit.de/wissen/umwelt/2011-01/Dioxin-FAQs" year="2010" issue="52" ressort="Wissen" publication-date="" expires="" date-last-modified="2011-01-12T15:06:31+00:00" date-first-released="2011-01-04T19:01:24.354236+00:00" date-last-published="2011-01-12T15:07:30.799492+00:00" last-semantic-change="2011-01-12T12:10:19.339296+00:00">
+            <supertitle py:pytype="str">Fragen und Antworten</supertitle>
+            <title py:pytype="str">Das Gift ist im Umlauf. Was nun?</title>
+            <text py:pytype="str">Wieder einmal wurden Dioxine in Lebensmitteln gefunden. Woher stammt das Gift? Haben Kontrollen versagt? Und was kann man noch essen? Antworten auf die wichtigsten Fragen</text>
+            <description py:pytype="str">Wieder einmal wurden Dioxine in Lebensmitteln gefunden. Woher stammt das Gift? Haben Kontrollen versagt? Und was kann man noch essen? Antworten auf die wichtigsten Fragen</description>
+            <byline xsi:nil="true"/>
+            <image alt="Dioxin Lebensmittel Eier Fleisch Verbraucher Ratgeber" align="left" title="Dioxin Lebensmittel Eier Fleisch Verbraucher" base-id="http://xml.zeit.de/wissen/umwelt/2011-01/eier-dioxin/" type="jpg" publication-date="" expires="">
+              <bu>Bio-Eier in einem deutschen Supermarkt</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/15/C-ESA-Astronautin" year="2010" issue="15" ressort="Karriere" publication-date="" expires="" date-last-modified="2010-04-08T04:52:52+00:00" date-first-released="2010-04-08T06:00:00+00:00" date-last-published="2010-04-08T04:53:52.425094+00:00" last-semantic-change="2010-04-08T04:47:11.610428+00:00">
+            <supertitle py:pytype="str">Raumfahrt</supertitle>
+            <title py:pytype="str">Üben fürs All</title>
+            <text py:pytype="str">Die Italienerin Samantha Cristoforetti wird Astronautin.  Als einzige Frau trainiert sie bei der Esa in Köln für ihren ersten Weltraumeinsatz. Von Katrin Hörnlein</text>
+            <description py:pytype="str">Die Italienerin Samantha Cristoforetti wird Astronautin.  Als einzige Frau trainiert sie bei der Esa in Köln für ihren ersten Weltraumeinsatz. Von Katrin Hörnlein</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die ESA-Austronauten" align="left" title="astronauten" base-id="http://xml.zeit.de/karriere/beruf/2010-04/astronauten/" type="jpg" publication-date="2010-04-07T09:09:52+00:00" expires="2010-07-07T09:09:54+00:00">
+              <bu>Samantha Cristoforetti ist die einzige Frau im Team der ESA-Austronauten</bu>
+              <copyright py:pytype="str">©  epa Horacio Villalobos/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wissen/2010-04/exoplaneten-unlaufbahn" year="2010" issue="15" ressort="Wissen" publication-date="" expires="" date-last-modified="2010-08-26T17:48:38+00:00" date-first-released="2010-04-14T09:26:16.831082+00:00" date-last-published="2010-04-14T09:50:05.435086+00:00" last-semantic-change="2010-04-14T09:20:15.817494+00:00">
+            <supertitle py:pytype="str">Exoplaneten</supertitle>
+            <title py:pytype="str">Geisterfahrer im Orbit</title>
+            <text py:pytype="str">Erstmals haben Astronomen ferne Planeten entdeckt, die ihr Gestirn falsch herum umkreisen. Das stellt die bisherige Planetenforschung auf den Kopf.</text>
+            <description py:pytype="str">Erstmals haben Astronomen ferne Planeten entdeckt, die ihr Gestirn falsch herum umkreisen. Das stellt die bisherige Planetenforschung auf den Kopf.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Exoplanet Planetenforschung Umlaufbahn" align="left" base-id="http://xml.zeit.de/wissen/2010-04/exoplanet-geisterfahrer/" type="jpg" publication-date="" expires="2010-08-14T09:14:33+00:00">
+              <bu>Seit der ersten Entdeckung eines Exoplaneten 1995 finden Forscher immer mehr Himmelskörper, die – wie unsere Erde um die Sonne – um ein Zentralgestirn kreisen</bu>
+              <copyright py:pytype="str">© Eso/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2010-04/apollo-13-raumfahrt" year="2010" issue="16" ressort="Wissen" publication-date="" expires="" date-last-modified="2010-05-17T15:12:22+00:00" date-first-released="2010-04-16T04:31:10.703178+00:00" date-last-published="2010-05-17T15:13:22.320567+00:00" last-semantic-change="2010-04-16T04:29:39.594631+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Mondmission Apollo 13 </supertitle>
+            <title py:pytype="str">"Houston, wir haben ein Problem"</title>
+            <text py:pytype="str">Vor 40 Jahren scheiterte die Mondmission Apollo 13. Bis heute sind James Lovell, John Swigert und Fred Haise die Menschen, die am weitesten von der Erde entfernt waren.</text>
+            <description py:pytype="str">Vor 40 Jahren scheiterte die Mondmission Apollo 13. Bis heute sind James Lovell, John Swigert und Fred Haise die Menschen, die am weitesten von der Erde entfernt waren.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Apollo 13 Mond Astronauten 1970" align="left" base-id="http://xml.zeit.de/wissen/geschichte/2010-04/apollo-13-test/" type="jpg" publication-date="" expires="">
+              <bu>Test vor der Mondfahrt 1970: Auf der Erde probieren zwei der Apollo-13-Astronauten ihre Raumanzüge</bu>
+              <copyright py:pytype="str">© Nasa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="37316cd6-76ce-470b-a532-e323a31b24f4">
+          <block href="http://xml.zeit.de/kultur/film/2010-04/klick-und-film" year="2010" issue="17" ressort="Kultur" publication-date="" expires="" date-last-modified="2010-04-27T13:57:59+00:00" date-first-released="2010-04-26T16:54:33.598516+00:00" date-last-published="2010-04-27T13:58:59.643094+00:00" last-semantic-change="2010-04-27T07:40:51.802664+00:00">
+            <supertitle py:pytype="str">Zukunft des Kinos</supertitle>
+            <title py:pytype="str">Vom Klick zum Film</title>
+            <text py:pytype="str">Das Internet wird die Kinos verändern. Heute entscheiden die Zuschauer im Netz über das Programm in ihrer Stadt. Morgen vielleicht schon über das Drehbuch neuer Filme. </text>
+            <description py:pytype="str">Das Internet wird die Kinos verändern. Heute entscheiden die Zuschauer im Netz über das Programm in ihrer Stadt. Morgen vielleicht schon über das Drehbuch neuer Filme. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Kino Zukunft Leer" base-id="http://xml.zeit.de/kultur/film/2010-04/kino-zukunft-leer/" type="jpg" publication-date="" expires="">
+              <bu>Stirbt das Kino? Zumindest wird es in Zukunft ein anderes sein</bu>
+              <copyright py:pytype="str">© saphiree / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2010-04/filmpreis-lola" year="2010" issue="17" ressort="Kultur" publication-date="" expires="" date-last-modified="2010-04-24T07:50:47+00:00" date-first-released="2010-04-24T06:35:09.123716+00:00" date-last-published="2010-04-24T07:51:47.081349+00:00" last-semantic-change="2010-04-24T06:48:32.072933+00:00">
+            <supertitle py:pytype="str">Lola</supertitle>
+            <title py:pytype="str">"Das weiße Band" dominiert den Deutschen Filmpreis</title>
+            <text py:pytype="str">Michael Hanekes "Das  weiße Band" ist der überragende Sieger des Deutschen Filmpreises. Zehn Lolas gingen an ihn, darunter auch bester Schauspieler.</text>
+            <description py:pytype="str">Michael Hanekes "Das  weiße Band" ist der überragende Sieger des Deutschen Filmpreises. Zehn Lolas gingen an ihn, darunter auch bester Schauspieler.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Burghart Klaußner" base-id="http://xml.zeit.de/kultur/film/2010-04/burghart-klaussner-lola/" type="jpg" publication-date="" expires="">
+              <bu>Burghart Klaußner erhält die Lola für den besten Hauptdarsteller</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/15/Kino-Tom-Ford" year="2010" issue="15" ressort="Kultur" publication-date="" expires="" date-last-modified="2010-04-07T10:45:46+00:00" date-first-released="2010-04-08T06:00:00+00:00" date-last-published="2010-04-07T10:46:46.087991+00:00" last-semantic-change="2010-04-07T10:42:30.592586+00:00">
+            <supertitle py:pytype="str">Film "A Single Man"</supertitle>
+            <title py:pytype="str">Die schmerzliche Schönheit der Liebe</title>
+            <text py:pytype="str">Für seinen ersten Film, "A Single Man", hat der Designer Tom Ford einen Roman aus den sechziger Jahren verfilmt – ein ebenso schönes wie gelungenes Regiedebüt. </text>
+            <description py:pytype="str">Für seinen ersten Film, "A Single Man", hat der Designer Tom Ford einen Roman aus den sechziger Jahren verfilmt – ein ebenso schönes wie gelungenes Regiedebüt. </description>
+            <byline py:pytype="str">von Anke Leweke</byline>
+            <image align="left" title="Single Man Firth" base-id="http://xml.zeit.de/kultur/film/2010-04/single-man-firth/" type="jpg" publication-date="" expires="">
+              <bu>In klassischer Konstellation: Der schwule Ästhet (Colin Firth) und seine beste Freundin (Julianne Moore)</bu>
+              <copyright py:pytype="str">© Senator Film Verleih</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="267ecb15-a206-4696-a7b8-8f2fe53495f7">
+          <block href="http://xml.zeit.de/wirtschaft/2010-04/zuendende-ideen" year="2010" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2010-05-03T08:07:01+00:00" date-first-released="2010-04-17T22:00:00+00:00" date-last-published="2010-05-03T08:08:01.320582+00:00" last-semantic-change="2010-04-18T13:04:32.297531+00:00">
+            <supertitle py:pytype="str">Elektroautos</supertitle>
+            <title py:pytype="str">Zündende Ideen</title>
+            <text py:pytype="str">Der Wettbewerb um das batteriebetriebene Auto verwirrt, und Konzerne und Politik verlieren den Überblick. Nun lädt Angela Merkel zu einem Autogipfel.</text>
+            <description py:pytype="str">Der Wettbewerb um das batteriebetriebene Auto verwirrt, und Konzerne und Politik verlieren den Überblick. Nun lädt Angela Merkel zu einem Autogipfel.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Elektromobilität Elektroauto" align="left" title="Elektromobilität Elektroauto" base-id="http://xml.zeit.de/auto/2010-04/elektroauto-Smart/" type="jpg" publication-date="" expires="">
+              <bu>Elektromobilität gewinnt immer mehr an Bedeutung: Ein Elektro-Smart beim Aufladen </bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2010-03/entwicklung-elektroauto-GM" year="2010" issue="13" ressort="Auto" publication-date="" expires="" date-last-modified="2010-11-26T06:11:06+00:00" date-first-released="2010-03-26T08:52:32.834326+00:00" date-last-published="2010-11-09T14:54:36.423183+00:00" last-semantic-change="2010-06-03T08:47:48.640920+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">EN-V</supertitle>
+            <title py:pytype="str">Das Überraschungsei der Zukunft</title>
+            <text py:pytype="str">GM hat eine Zukunftsvision für das Jahr 2030: Eiförmige Elektro-Zweisitzer sollen Umweltprobleme und Parkplatznot lösen. Der EN-V fährt automatisch und ist vernetzt.</text>
+            <description py:pytype="str">GM hat eine Zukunftsvision für das Jahr 2030: Eiförmige Elektro-Zweisitzer sollen Umweltprobleme und Parkplatznot lösen. Der EN-V fährt automatisch und ist vernetzt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Das Zukunftsmodell von General Motors: der EN-V" align="left" title="Das Zukunftsmodell von General Motors: der EN-V" base-id="http://xml.zeit.de/auto/2010-03/general-motors-studie-2/" type="jpg" publication-date="" expires="">
+              <bu>Das Zukunftsmodell von General Motors: der EN-V</bu>
+              <copyright py:pytype="str">© press-inform</copyright>
+            </image>
+            <gallery type="intern" href="http://xml.zeit.de/auto/2010-03/bg-elektroauto-zukunft" year="2010" issue="13" ressort="Auto" publication-date="" expires="">
+              <supertitle py:pytype="str">Mobilität der Zukunft</supertitle>
+              <title py:pytype="str">Fortbewegung im Überraschungsei</title>
+              <text py:pytype="str">GM hat eine Zukunftsvision für das Jahr 2030: Eiförmige Elektro-Zweisitzer sollen Umweltprobleme und Parkplatznot lösen. Der EN-V fährt automatisch und ist vernetzt.</text>
+              <description py:pytype="str">GM hat eine Zukunftsvision für das Jahr 2030: Eiförmige Elektro-Zweisitzer sollen Umweltprobleme und Parkplatznot lösen. Der EN-V fährt automatisch und ist vernetzt.</description>
+              <byline xsi:nil="true"/>
+              <image alt="Der Elektro-Zweisitzer EN-V soll 2030 auf dem Markt sein und könnte das Modellauto der Zukunft sein" align="left" title="en-v" base-id="http://xml.zeit.de/auto/2010-03/en-v/" type="jpg" publication-date="" expires="">
+                <bu>Der Elektro-Zweisitzer EN-V soll 2030 auf dem Markt sein und könnte das Modellauto der Zukunft sein</bu>
+                <copyright py:pytype="str">© press-inform</copyright>
+              </image>
+            </gallery>
+          </block>
+          <block href="http://xml.zeit.de/wirtschaft/unternehmen/2010-04/autohersteller-elektromobilitaet" year="2010" issue="16" ressort="Auto" publication-date="" expires="" date-last-modified="2010-12-01T11:28:27+00:00" date-first-released="2010-04-16T10:01:02.814330+00:00" date-last-published="2010-05-03T08:08:02.098221+00:00" last-semantic-change="2010-04-16T12:58:25.466843+00:00">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">Autohersteller erhöhen Druck auf Merkel</title>
+            <text py:pytype="str">Die Autobranche fordert von der Kanzlerin staatliche Förderung für Elektroautos. Sonst würden die deutschen Unternehmen von der asiatischen Konkurrenz abgehängt.</text>
+            <description py:pytype="str">Die Autobranche fordert von der Kanzlerin staatliche Förderung für Elektroautos. Sonst würden die deutschen Unternehmen von der asiatischen Konkurrenz abgehängt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Elektroauto in Berlin, bisher aber nur als Versuchsprojekt" align="left" title="Elektroauto" base-id="http://xml.zeit.de/auto/2010-04/elektroauto/" type="jpg" publication-date="" expires="">
+              <bu>Elektroauto in Berlin, bisher aber nur als Versuchsprojekt</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="bdc41ecd-ca31-46d7-82fd-43a83456fae8">
+          <block href="http://xml.zeit.de/kultur/literatur/2009-11/prix-goncourt-marie-ndiaye" year="2009" issue="45" publication-date="" expires="" date-last-modified="2009-11-02T16:10:10+00:00" date-first-released="2009-11-02T15:57:11.487736+00:00" date-last-published="2009-11-02T16:11:10.385468+00:00" last-semantic-change="2009-11-02T16:09:57.725851+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Literaturpreis</supertitle>
+            <title py:pytype="str">Marie NDiaye erhält Prix Goncourt</title>
+            <text py:pytype="str">Hohe Auszeichnung für Marie NDiaye und ihren Roman "Trois femmes puissantes": Die in Berlin lebende Autorin bekommt in diesem Jahr den französischen Literaturpreis.</text>
+            <description py:pytype="str">Hohe Auszeichnung für Marie NDiaye und ihren Roman "Trois femmes puissantes": Die in Berlin lebende Autorin bekommt in diesem Jahr den französischen Literaturpreis.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Prix Goncourt für das &quot;Wunderkind&quot; der französischen Gegenwartsliteratur: Marie NDiaye mit Akademie-Mitglied Didier Decoin" align="left" title="Marie Ndiaye Prix Goncourt" base-id="http://xml.zeit.de/kultur/literatur/2009-11/maria-ndiaye-021109/" type="jpg" publication-date="" expires="">
+              <bu>Prix Goncourt für das "Wunderkind" der französischen Gegenwartsliteratur: Marie NDiaye mit Akademie-Mitglied Didier Decoin</bu>
+              <copyright py:pytype="str">© Martin Bureau/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/44/Gesellschaft-44" year="2009" issue="44" publication-date="2009-10-22T06:30:06+00:00" expires="" date-last-modified="2009-10-22T06:38:28+00:00" date-first-released="2009-10-22T06:00:00+00:00" date-last-published="2009-10-22T06:39:28.305381+00:00" last-semantic-change="2009-10-21T15:57:27.011945+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Gesellschaftskritik</supertitle>
+            <title py:pytype="str">Über die Prominenz der Herta M.</title>
+            <text py:pytype="str">Einmal im Jahr müssen die erschrockenen Medien mit einem Literaturnobelpreisträger umgehen. Im Fall von Herta Müller führte das zu preisverdächtiger Zeitungsprosa.</text>
+            <description py:pytype="str">Einmal im Jahr müssen die erschrockenen Medien mit einem Literaturnobelpreisträger umgehen. Im Fall von Herta Müller führte das zu preisverdächtiger Zeitungsprosa.</description>
+            <byline py:pytype="str">Von Jens Jessen</byline>
+            <image align="left" base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2009-10/herta_mueller/" type="" publication-date="" expires="">
+              <bu>Und plötzlich klingeln Boulevardreporter: Die Nobelpreisträgerin Herta Müller</bu>
+              <copyright py:pytype="str">© Thomas Lohnes/ ddp</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/45/L-B-Houellebecq" year="2009" issue="45" publication-date="" expires="" date-last-modified="2009-10-30T10:35:43+00:00" date-first-released="2009-10-29T06:00:00+00:00" date-last-published="2009-10-30T10:36:42.985090+00:00" last-semantic-change="2009-10-30T08:56:26.029096+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Briefwechsel</supertitle>
+            <title py:pytype="str">Ein schöner Fall von Philotainment</title>
+            <text py:pytype="str">Die französischen Stars Bernard-Henri Lévy und Michel Houellebecq liefern sich ein unterhaltsames Brief-Match. Von Martina Meister</text>
+            <description py:pytype="str">Die französischen Stars Bernard-Henri Lévy und Michel Houellebecq liefern sich ein unterhaltsames Brief-Match. Von Martina Meister</description>
+            <byline py:pytype="str">Von Martina Meister</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/literatur/2009-10/levy-houellebecq/" type="jpg" publication-date="" expires="">
+              <bu>Wie die Schöne und das Biest: der Philosoph Bernard-Henri Lévy (hinten) und der Schriftsteller Michel Houellebecq</bu>
+              <copyright py:pytype="str">© Olivier Laban-Mattei/AFP</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="c5f91b64-f54c-45ca-b14e-06e3b1fcb615">
+          <block href="http://xml.zeit.de/kultur/2009-11/nachruf-levi-strauss" year="2009" issue="45" publication-date="" expires="" date-last-modified="2009-11-03T20:30:32+00:00" date-first-released="2009-11-03T20:31:32.229340+00:00" date-last-published="2009-11-03T20:31:32.229340+00:00" last-semantic-change="2009-11-03T20:29:19.518684+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Claude Lévi-Strauss</supertitle>
+            <title py:pytype="str">In der Wildnis der Zivilisation</title>
+            <text py:pytype="str">Das Leben und seine Struktur: Zum Tod des großen französischen Ethnologen Claude Lévi-Strauss. Von Constantin von Barloewen 
+</text>
+            <description py:pytype="str">Das Leben und seine Struktur: Zum Tod des großen französischen Ethnologen Claude Lévi-Strauss. Von Constantin von Barloewen 
+</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2009-11/levi-strauss-2/" type="jpg" publication-date="" expires="">
+              <bu>Claude Lévi-Strauss im Jahr 2005</bu>
+              <copyright py:pytype="str">© Pascal Pavani/AFP</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/gesellschaft/2009-11/levi-strauss-philosoph-tot" year="2009" issue="45" publication-date="" expires="" date-last-modified="2009-11-03T17:57:40+00:00" date-first-released="2009-11-03T17:00:47.200954+00:00" date-last-published="2009-11-03T17:58:39.787514+00:00" last-semantic-change="2009-11-03T17:57:21.641104+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Frankreich</supertitle>
+            <title py:pytype="str">Philosoph Claude Lévi-Strauss ist tot</title>
+            <text py:pytype="str">Der weltberühmte französische Völkerkundler und Anthropologe ist in der Nacht von Samstag auf Sonntag gestorben. Er wäre am 28. November 101 Jahre alt geworden.</text>
+            <description py:pytype="str">Der weltberühmte französische Völkerkundler und Anthropologe ist in der Nacht von Samstag auf Sonntag gestorben. Er wäre am 28. November 101 Jahre alt geworden.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Claude Lévi-Strauss " align="left" title="Claude Levi-Strauss" base-id="http://xml.zeit.de/kultur/2009-11/claude-levi-strauss-031109/" type="jpg" publication-date="" expires="">
+              <bu>Claude Lévi-Strauss wäre bald 101 Jahre alt geworden</bu>
+              <copyright py:pytype="str">© Pascal Pavani/AFP/Getty</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2008/48/Levi-Strauss-100" year="2008" issue="48" publication-date="2008-11-28T03:00:00+00:00" expires="" date-last-modified="2009-10-01T08:10:19+00:00" date-first-released="2008-11-20T06:00:00+00:00" date-last-published="2008-11-28T09:10:01.314834+00:00" last-semantic-change="2009-05-04T08:55:34.200153+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Ethnologie</supertitle>
+            <title py:pytype="str">Wir Barbaren</title>
+            <text py:pytype="str">Claude Lévi-Strauss wird heute 100. Sein Denken ist aktuell wie nie. Kein anderer hat die zerstörerische Macht unserer Zivilisation so hellsichtig beschrieben wie er</text>
+            <description py:pytype="str">Claude Lévi-Strauss wird heute 100. Sein Denken ist aktuell wie nie. Kein anderer hat die zerstörerische Macht unserer Zivilisation so hellsichtig beschrieben wie er</description>
+            <byline py:pytype="str">Von Thomas Assheuer</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2008/48/kultur/feuilleton/65-levi-strauss/" type="jpg" publication-date="" expires="">
+              <bu>Claude Lévi-Strauss, eine Aufnahme aus dem Jahr 2005</bu>
+              <copyright py:pytype="str">© Foto [M]: Pascal Pavani/AFP/gettyimages</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2008/38/OdE47-Volk" year="2008" issue="38" publication-date="2008-09-11T02:00:00+00:00" expires="" date-last-modified="2009-11-16T13:39:46+00:00" date-first-released="2008-09-11T02:01:12.463071+00:00" date-last-published="2009-11-16T13:40:46.033104+00:00" last-semantic-change="2008-11-28T10:19:07.763106+00:00" ressort="Wissen">
+            <supertitle py:pytype="str">Volk</supertitle>
+            <title py:pytype="str">Wir Eingeborenen</title>
+            <text py:pytype="str">Der Völkerkundler Claude Lévi-Strauss wollte in  der Begegnung mit dem Stamm der Nambikwara die eigene Kultur besser verstehen. Eine Spurensuche im Herzen Brasiliens.</text>
+            <description py:pytype="str">Der Völkerkundler Claude Lévi-Strauss wollte in  der Begegnung mit dem Stamm der Nambikwara die eigene Kultur besser verstehen. Eine Spurensuche im Herzen Brasiliens.</description>
+            <byline py:pytype="str">Von Bartholomäus Grill</byline>
+            <image alt="Das Wissen dieser Welt - Volk" href="javascript:void(openme('http://www.zeit.de/popups/bildungskanon/popup-volk',810,578,'middle','illu_popup_01'))" align="left" base-id="http://xml.zeit.de/bilder/2008/standards/wissen/bildungskanon/47/eingeborene/" type="jpg" publication-date="" expires="">
+              <bu>Klicken Sie auf das Bild und sehen Sie alle Illustrationen!</bu>
+              <copyright py:pytype="str" link="http://www.drushbapankow.de">© Alexandra Kardinar und Volker Schlecht</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="c65d200b-d520-4d1d-980e-66b7a1f0ba7f">
+          <block href="http://xml.zeit.de/2009/42/M-KK-Horowitz" year="2009" issue="42" publication-date="" expires="" date-last-modified="2009-11-03T16:24:38+00:00" date-first-released="2009-10-08T06:00:00+00:00" date-last-published="2009-11-03T16:25:38.116843+00:00" last-semantic-change="2009-11-03T16:24:20.243589+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Wladimir Horowitz</supertitle>
+            <title py:pytype="str">Am Ende der Suche</title>
+            <text py:pytype="str">Im Jahr 1986 gab der Pianist Wladimir Horowitz ein legendäres Konzert in Berlin. Jetzt ist der Radiomitschnitt mit allen Moderationen auf CD erschienen.</text>
+            <description py:pytype="str">Im Jahr 1986 gab der Pianist Wladimir Horowitz ein legendäres Konzert in Berlin. Jetzt ist der Radiomitschnitt mit allen Moderationen auf CD erschienen.</description>
+            <byline py:pytype="str">Von Oswald Beaujean</byline>
+            <image align="left" title="Der Pianist Wladimir Horowitz" base-id="http://xml.zeit.de/kultur/musik/2009-11/wladimir-horowitz/" type="jpg" publication-date="" expires="">
+              <bu>Der 82-jährige Horowitz erklärte Virtuosität endgültig zur Nebensache</bu>
+              <copyright py:pytype="str">© Klemens Beitlich/Sony Music</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/40/Diskothek-40" year="2009" issue="40" publication-date="" expires="" date-last-modified="2009-09-28T07:04:28+00:00" date-first-released="2009-09-24T06:00:00+00:00" date-last-published="2009-09-28T07:05:28.413546+00:00" last-semantic-change="2009-09-28T07:04:16.485874+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Die Klassik-Platte</supertitle>
+            <title py:pytype="str">Demokratischer Zweiklang</title>
+            <text py:pytype="str">Dem Pianisten Alexander Melnikov und der Geigerin Isabelle Faust ist das Große und Einmalige gelungen: die Entdeckung Beethovens Sonaten aus dem Geist der Partnerschaft.</text>
+            <description py:pytype="str">Dem Pianisten Alexander Melnikov und der Geigerin Isabelle Faust ist das Große und Einmalige gelungen: die Entdeckung Beethovens Sonaten aus dem Geist der Partnerschaft.</description>
+            <byline py:pytype="str">Von Wolfram Goertz</byline>
+            <image align="left" title="Beethoven Faust Melnikov" base-id="http://xml.zeit.de/kultur/musik/2009-09/beethoven-faust-melnikov/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Harmonia Mundi</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/musik/2009-10/xavier-de-maistre" year="2009" issue="43" publication-date="" expires="" date-last-modified="2009-10-19T07:21:30+00:00" date-first-released="2009-10-18T12:18:02.777878+00:00" date-last-published="2009-10-19T07:22:30.408786+00:00" last-semantic-change="2009-10-18T12:16:35.450395+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Echo Klassik</supertitle>
+            <title py:pytype="str">Popstar im Geheimen</title>
+            <text py:pytype="str">Der Franzose Xavier de Maistre spielt Soloharfe – so hervorragend, dass er mit dem Echo Klassik als "Instrumentalist des Jahres" ausgezeichnet wird. Ein Porträt</text>
+            <description py:pytype="str">Der Franzose Xavier de Maistre spielt Soloharfe – so hervorragend, dass er mit dem Echo Klassik als "Instrumentalist des Jahres" ausgezeichnet wird. Ein Porträt</description>
+            <byline py:pytype="str">Von Verena Fischer-Zernin</byline>
+            <image align="left" title="Echo Klassik für Xavier de Maistre" base-id="http://xml.zeit.de/kultur/musik/2009-10/echo-xavier-de-maistre/" type="jpg" publication-date="" expires="">
+              <bu>Warum ihn die Echo-Jurymitglieder auszeichnen? "Ich nehme an, die Platte hat ihnen gefallen", sagt Xavier de Maistre</bu>
+              <copyright py:pytype="str">© Udo Titz/Sony</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="bfeceba9-c46e-4f52-99ce-8aab2bd77e1e">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/kultur/musik/2009-11/blog-tontraeger-can-you-dig-it" year="2009" issue="45" publication-date="" expires="" ns0:href="http://blog.zeit.de/tontraeger/2009/11/02/can-you-dig-it-shaft_3957" date-last-modified="2009-11-02T15:30:04+00:00" date-first-released="2009-11-02T15:31:04.396640+00:00" date-last-published="2009-11-02T15:31:04.396640+00:00" last-semantic-change="2009-11-02T15:29:20.663555+00:00" ressort="Kultur">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Funk  &amp; Soul</supertitle>
+            <title py:pytype="str">Shäääft! Kapiert?</title>
+            <text py:pytype="str">Im schwarzen Actionfilm der Siebziger spielte die Musik eine wichtige Rolle. Eine Kompilation erinnert an die Helden des Soundtracks wie Isaac Hayes oder Quincy Jones.</text>
+            <description py:pytype="str">Im schwarzen Actionfilm der Siebziger spielte die Musik eine wichtige Rolle. Eine Kompilation erinnert an die Helden des Soundtracks wie Isaac Hayes oder Quincy Jones.</description>
+            <byline py:pytype="str">Von Jan Kühnemund</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-11/shaft/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© MGM Studios/Hulton Archive </copyright>
+            </image>
+          </block>
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/kultur/musik/2009-09/blog-tontraeger-lee-fields" year="2009" issue="38" publication-date="" expires="" ns1:href="http://blog.zeit.de/tontraeger/2009/09/23/komm-honigtaubchen_3547" date-last-modified="2010-07-26T13:26:59+00:00" date-first-released="2009-09-23T09:51:48.840145+00:00" date-last-published="2010-07-26T13:27:59.338639+00:00" last-semantic-change="2009-09-23T08:07:20.786471+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Soul von Lee Fields</supertitle>
+            <title py:pytype="str">Komm, Honigtäubchen!</title>
+            <text py:pytype="str">Darf nur die Jugend von Sex singen? Schon James Brown und Marvin Gaye stimmten dagegen. Nun bekräftigt Lee Fields, wie viel Soul ein 50-Jähriger haben kann.</text>
+            <description py:pytype="str">Darf nur die Jugend von Sex singen? Schon James Brown und Marvin Gaye stimmten dagegen. Nun bekräftigt Lee Fields, wie viel Soul ein 50-Jähriger haben kann.</description>
+            <byline py:pytype="str">Von Jan Kühnemund</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-09/lee-fields-tontraeger/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/musik/2009-09/soul-train-youtube" year="2009" issue="37" publication-date="" expires="" date-last-modified="2011-01-12T09:48:09+00:00" date-first-released="2009-09-05T15:29:41.947478+00:00" date-last-published="2010-07-26T13:28:01.499918+00:00" last-semantic-change="2009-09-05T11:13:33.751874+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">"Soul Train" auf YouTube</supertitle>
+            <title py:pytype="str">Was taugt der Groove?</title>
+            <text py:pytype="str">"Soul Train" war Amerikas populärste Musiksendung im Fernsehen. Hier traten Aretha Franklin, Michael Jackson oder David Bowie auf. Nun fährt der Zug auf YouTube.</text>
+            <description py:pytype="str">"Soul Train" war Amerikas populärste Musiksendung im Fernsehen. Hier traten Aretha Franklin, Michael Jackson oder David Bowie auf. Nun fährt der Zug auf YouTube.</description>
+            <byline py:pytype="str">Von Matthias Schönebäumer</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/37/kultur/soul-train/" type="jpg" publication-date="" expires="">
+              <bu>Mode, Frisuren und raffinierte Tanzschritte: Der "Soul Train" brachte afro-amerikanische Popkultur ins Fernsehen</bu>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2008/30/bg-soul" year="2008" issue="30" publication-date="" expires="" date-last-modified="2010-10-11T04:04:51+00:00" date-first-released="2008-07-18T12:00:00+00:00" date-last-published="2010-10-11T04:05:50.148679+00:00" last-semantic-change="2009-09-06T10:30:00.535414+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Soul</supertitle>
+            <title py:pytype="str">Groove am Hofe</title>
+            <text py:pytype="str">Wer ist der König des Soul, wer die Königin, und welche Ritter und Junker tanzen in ihrem Gefolge? Eine Genreübersicht als klingende Bildergalerie</text>
+            <description py:pytype="str">Wer ist der König des Soul, wer die Königin, und welche Ritter und Junker tanzen in ihrem Gefolge? Eine Genreübersicht als klingende Bildergalerie</description>
+            <byline py:pytype="str">Von Matthias Schönebäumer</byline>
+            <image base-id="http://xml.zeit.de/bilder/2008/30/bildergalerien/teaser/bg-soul/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="aef2bb06-4496-4982-becb-487960bbb9b2">
+          <block href="http://xml.zeit.de/2009/45/Turntable-Festival" year="2009" issue="45" publication-date="" expires="" date-last-modified="2009-11-02T17:58:23+00:00" date-first-released="2009-10-29T06:00:00+00:00" date-last-published="2009-11-02T17:59:23.663437+00:00" last-semantic-change="2009-11-02T17:09:41.841578+00:00" ressort="Kultur">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Vinyl-Artisten</supertitle>
+            <title py:pytype="str">Allerlei Gebrumm</title>
+            <text py:pytype="str">Der Plattenspieler ist befreit von seiner ursprünglichen Funktion und darf nun Instrument sein. Ein Bericht aus Berlin, wo sich "Turntablisten" aus aller Welt trafen.</text>
+            <description py:pytype="str">Der Plattenspieler ist befreit von seiner ursprünglichen Funktion und darf nun Instrument sein. Ein Bericht aus Berlin, wo sich "Turntablisten" aus aller Welt trafen.</description>
+            <byline py:pytype="str">Von Ulrich Stock</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-10/turntable-orchestra/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Gianmarco Bresadola</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/45/WOS-Plattenspieler" year="2009" issue="45" publication-date="" expires="" date-last-modified="2009-10-30T15:11:30+00:00" date-first-released="2009-10-29T06:00:00+00:00" date-last-published="2009-10-30T15:12:30.607014+00:00" last-semantic-change="2009-10-30T15:11:19.059458+00:00" ressort="Kultur">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Musikgeschäfte</supertitle>
+            <title py:pytype="str">Die Kraft des Durcheinanders</title>
+            <text py:pytype="str">Tonträgerhändler in siebzig deutschen Städten wollen in der kommenden Woche daran erinnern,  dass es ihre Branche noch gibt. Sebastian Reier hat ein Geschäft besucht.</text>
+            <description py:pytype="str">Tonträgerhändler in siebzig deutschen Städten wollen in der kommenden Woche daran erinnern,  dass es ihre Branche noch gibt. Sebastian Reier hat ein Geschäft besucht.</description>
+            <byline py:pytype="str">Von Sebastian Reier</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-10/plattenladen-freiheit/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Freiheit &amp; Roosen</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/34/Stil-34" year="2009" issue="34" publication-date="" expires="" date-last-modified="2009-10-02T11:10:40+00:00" date-first-released="2009-08-13T06:00:00+00:00" date-last-published="2009-10-02T11:11:40.046252+00:00" last-semantic-change="2009-09-08T08:43:50.343577+00:00" ressort="Lebensart">
+            <supertitle py:pytype="str">Stilkolumne</supertitle>
+            <title py:pytype="str">Der Porsche unter den Plattenspielern</title>
+            <text py:pytype="str">Unser Kolumnist fragt sich: Wie wird man des DJs Liebling? </text>
+            <description py:pytype="str">Unser Kolumnist fragt sich: Wie wird man des DJs Liebling? </description>
+            <byline py:pytype="str">Von Tillmann Prüfer</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/34/lebensart/ZEIT-magazin/stil/" type="jpg" publication-date="" expires="">
+              <bu>Ein tragbarer Plattenspieler: der legendäre Technics SL-1200 MK2 als Ring. Von Thomas Sabo</bu>
+              <copyright py:pytype="str" link="http://www.peter-langer.com">© Peter Langer</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/11/ignaz-schick-portrait" year="2009" issue="11" publication-date="" expires="" date-last-modified="2009-11-02T17:10:19+00:00" date-first-released="2009-03-10T15:57:08.307990+00:00" date-last-published="2009-11-02T17:11:19.365130+00:00" last-semantic-change="2009-03-11T17:23:58.128660+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Kunst auf dem Plattenteller</supertitle>
+            <title py:pytype="str">Von Gummi und Filz gefesselt</title>
+            <text py:pytype="str">Plattenspieler sind nicht nur zum Auflegen da. Welche Geräusche man aus ihnen herausholen kann, erforscht der Berliner Klangimprovisator Ignaz Schick. Ein Studiobesuch.</text>
+            <description py:pytype="str">Plattenspieler sind nicht nur zum Auflegen da. Welche Geräusche man aus ihnen herausholen kann, erforscht der Berliner Klangimprovisator Ignaz Schick. Ein Studiobesuch.</description>
+            <byline py:pytype="str">Von Maxi Sickert</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/11/kultur/musik/ignaz-schick-2/" type="jpg" publication-date="" expires="">
+              <bu>Ignaz Schick bringt die Elektronik zum Knistern</bu>
+              <copyright py:pytype="str">© Ignaz Schick</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="0cdf8661-1cb0-4542-9ed9-36dac077ac11">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="cb719ae4-f5e5-47ce-aec0-48e459376226">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="e5726fac-5bdb-4763-9bb6-651c1a14c7e4">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="85dea6e2-3a96-4472-a1be-2882e9f4d4e1">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/banner/link-hp" year="2010" issue="17" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/banner/hp-test" date-last-modified="2010-04-28T15:58:12+00:00" date-first-released="2010-04-28T15:59:12.114504+00:00" date-last-published="2010-04-28T15:59:12.114504+00:00" last-semantic-change="2010-04-28T15:53:23.750392+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Hier geht es zur Banner-HP-Testseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="cpextra" module="stocks" cp:__name__="bc289a23-53a7-49f5-9a10-f5ebdf69ef5c">
+          <cp_extra id="stocks"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="081711b5-5bdf-408d-a72b-5af0121316a5" title="Erfahren Sie mehr zum Thema Hybridtechnologie" publisher_url="http://www.zeit.de/angebote/honda/index">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/honda/links/advertorial" year="2010" issue="17" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/honda/index">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zum Adertorial</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/honda/bilder/hybrid/hybrid-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="56f0d378-a348-4d57-a376-de38a5785b08" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/kultur/musik/2010-04/tontraeger-love-is-all" year="2010" issue="16" ressort="Kultur" publication-date="" expires="" ns0:href="http://blog.zeit.de/tontraeger/2010/04/21/love-is-all_5251" date-last-modified="2010-05-31T15:20:37+00:00" date-first-released="2010-04-21T09:01:40.234700+00:00" date-last-published="2010-04-21T09:01:40.234700+00:00" last-semantic-change="2010-04-21T09:05:53.219081+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Love Is All</supertitle>
+            <title py:pytype="str">Schwedenpop + Saxofon = Punk</title>
+            <text py:pytype="str">Love Is All nennt sich ein schräges Quintett aus Göteborg. In seinem Kosmos werden schiefe Töne zu Kunst und Trashpop zum Labsal geschundener Großstadtseelen.</text>
+            <description py:pytype="str">Love Is All nennt sich ein schräges Quintett aus Göteborg. In seinem Kosmos werden schiefe Töne zu Kunst und Trashpop zum Labsal geschundener Großstadtseelen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Die schwedische Band Love Is All" base-id="http://xml.zeit.de/kultur/musik/2010-04/love-is-all/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Fredrick Johnson</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/28/Nachruf-Pina-Bausch" year="2009" issue="28" publication-date="2009-07-02T03:41:13+00:00" expires="" date-last-modified="2009-07-02T03:40:56+00:00" date-first-released="2009-07-02T06:00:00+00:00" date-last-published="2009-07-02T03:42:15.743529+00:00" last-semantic-change="2009-07-01T13:40:55.771459+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Tanztheater</supertitle>
+            <title py:pytype="str">Pina Bausch</title>
+            <text py:pytype="str">Sie umfasste die Welt: Die Erfinderin des German Tanztheater war eine rastlose Reisende und eine unermüdliche Verteidigerin der Schönheit.</text>
+            <description py:pytype="str">Sie umfasste die Welt: Die Erfinderin des German Tanztheater war eine rastlose Reisende und eine unermüdliche Verteidigerin der Schönheit.</description>
+            <byline py:pytype="str">Von Evelyn Finger</byline>
+            <gallery type="intern" href="http://xml.zeit.de/online/2009/27/bg-pina-bausch" year="2009" issue="27" ressort="Kultur" publication-date="" expires="2009-10-01T08:32:32+00:00">
+              <supertitle py:pytype="str">Pina Bausch</supertitle>
+              <title py:pytype="str">Ein Leben dem Tanz</title>
+              <text py:pytype="str">Zum Tode der großen Choreografin: ein Rückblick auf ihre wunderbaren Inszenierungen.</text>
+              <description py:pytype="str">Zum Tode der großen Choreografin: ein Rückblick auf ihre wunderbaren Inszenierungen.</description>
+              <byline xsi:nil="true"/>
+              <image base-id="http://xml.zeit.de/bilder/2009/27/bildergalerien/teaser/bg-pina-bausch/" type="jpg" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">©</copyright>
+              </image>
+            </gallery>
+          </block>
+        </container>
+        <container cp:type="cpextra" module="weather" cp:__name__="5a6bcc15-955c-4eb6-9a65-ac79720a3213">
+          <cp_extra id="weather"/>
+        </container>
+        <container cp:type="cpextra" module="dpa-news" cp:__name__="04254bdb-9475-44f5-924a-a774987ccc05">
+          <cp_extra id="dpa-news"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="2a54f792-7699-433b-bae7-8e984256cc5a"/>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="0191b3dc-bcf5-46ef-8b90-9fb4b3efd0e9">
+        <container cp:type="teaser" module="ressort" cp:__name__="731f12d7-916e-4c74-bd0b-3b73c5c10924" hide-dupes="True">
+          <block href="http://xml.zeit.de/reisen/2010-03/ferien-auf-immenhof" year="2010" issue="13" ressort="Reisen" publication-date="" expires="" date-last-modified="2010-03-30T13:59:08+00:00" date-first-released="2010-03-28T13:39:42.575692+00:00" date-last-published="2010-03-30T14:00:06.365935+00:00" last-semantic-change="2010-03-26T17:19:55.819891+00:00">
+            <supertitle py:pytype="str">Urlaub in der Filmkulisse</supertitle>
+            <title py:pytype="str">Ferien für Backfische</title>
+            <text py:pytype="str">In den fünfziger Jahren war das Gut Rothensande Kulisse für die "Immenhof"-Filme. Jetzt wird das verlassene Gehöft in der Holsteinischen Schweiz zum Ponyhof umgebaut.</text>
+            <description py:pytype="str">In den fünfziger Jahren war das Gut Rothensande Kulisse für die "Immenhof"-Filme. Jetzt wird das verlassene Gehöft in der Holsteinischen Schweiz zum Ponyhof umgebaut.</description>
+            <byline py:pytype="str">von Wiebke Brauer</byline>
+            <image alt="Nächstes Jahr sollen hier wieder Mädchen auf Ponys um die Wette reiten" align="left" title="Immenhof" base-id="http://xml.zeit.de/reisen/2010-03/bg-immenhof/" type="jpg" publication-date="" expires="">
+              <bu>Nächstes Jahr sollen hier wieder Mädchen auf Ponys um die Wette reiten</bu>
+              <copyright py:pytype="str">© Wiebke Brauer</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="2ebed250-ba65-4a0c-b68c-f1b5acc4198b" hide-dupes="True" title="ZEIT REISEN" publisher="Verlagsangebot" publisher_url="http://www.zeit.de/reisen/index" supertitle_url="http://www.zeit.de/reisen/index">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links/ZEIT_REISEN_3" year="2010" ressort="Angebote" publication-date="" expires="" ns0:href="http://zeitreisen.zeit.de/" date-last-modified="2010-08-13T14:38:40+00:00" date-first-released="2010-02-08T16:53:38.683164+00:00" date-last-published="2010-02-08T17:07:16.011139+00:00" last-semantic-change="2010-08-11T12:26:51.118909+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">ZEIT REISEN</title>
+            <text py:pytype="str">Unsere Reisen sind ebenso faszinierend wie unterschiedlich. Entdecken Sie Urlaub in einer Gemeinschaft interessanter Menschen – Reisen Sie mit der ZEIT!</text>
+            <description py:pytype="str">Unsere Reisen sind ebenso faszinierend wie unterschiedlich. Entdecken Sie Urlaub in einer Gemeinschaft interessanter Menschen – Reisen Sie mit der ZEIT!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://zeitreisen.zeit.de/" title="Reisen_3" src="http://xml.zeit.de/angebote/Links/Bilder/zr3.jpg-220x124.jpg" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="749ef2f6-e3a9-404a-9f04-61a2f7de13de" hide-dupes="True">
+          <block href="http://xml.zeit.de/gesellschaft/generationen/2009-10/porno-feministisch" year="2009" issue="43" publication-date="" expires="" date-last-modified="2010-10-23T10:47:57+00:00" date-first-released="2009-10-16T10:49:42.186977+00:00" date-last-published="2010-10-23T10:48:56.655856+00:00" last-semantic-change="2009-10-16T10:48:12.624855+00:00" ressort="Gesellschaft">
+            <supertitle py:pytype="str">Pornografie </supertitle>
+            <title py:pytype="str">PorYes, das Biosiegel für Sex-Filme</title>
+            <text py:pytype="str">Am Wochenende werden in Berlin feministische Pornos prämiert. Sex-Filme von Frauen sind keineswegs nur Softpornos. Sie wollen unsere Sehgewohnheiten verändern.</text>
+            <description py:pytype="str">Am Wochenende werden in Berlin feministische Pornos prämiert. Sex-Filme von Frauen sind keineswegs nur Softpornos. Sie wollen unsere Sehgewohnheiten verändern.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Preis PorYes" base-id="http://xml.zeit.de/gesellschaft/generationen/2009-10/poryes-preis/" type="jpg" publication-date="" expires="">
+              <bu>Der Preis für den besten feministischen Pornofilm: eine Auster</bu>
+              <copyright py:pytype="str" link="http://www.poryes.de">© PorYes</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="9e81bf00-91fc-4e23-9b14-5be521534d6e" hide-dupes="True">
+          <block href="http://xml.zeit.de/online/2009/09/generation-internet" year="2009" issue="9" publication-date="" expires="" date-last-modified="2009-10-01T07:41:48+00:00" date-first-released="2009-02-26T09:04:44.513566+00:00" date-last-published="2009-10-01T07:42:48.603660+00:00" last-semantic-change="2009-10-01T07:41:38.643464+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Internet und Jugend</supertitle>
+            <title py:pytype="str">Sternzeichen Google</title>
+            <text py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</text>
+            <description py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</description>
+            <byline py:pytype="str">Von David Hugendick</byline>
+            <image alt="Generation Internet Cover" align="left" title="John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten" base-id="http://xml.zeit.de/kultur/literatur/2009-09/generation-internet/" type="jpg" publication-date="" expires="">
+              <bu>John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten</bu>
+              <copyright py:pytype="str">© Hanser-Verlag</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="580fa0b6-d41f-434c-8a24-a269565244c4">
+        <container cp:type="teaser" module="ressort" cp:__name__="186d8809-bf2a-4f09-859f-b9f0a7c5832b" hide-dupes="True">
+          <block href="http://xml.zeit.de/2009/45/Kulturszene-Belgrad" year="2009" issue="45" publication-date="" expires="" date-last-modified="2009-10-31T16:32:44+00:00" date-first-released="2009-10-29T06:00:00+00:00" date-last-published="2009-10-31T16:33:44.276803+00:00" last-semantic-change="2009-10-30T15:12:49.820054+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Serbien</supertitle>
+            <title py:pytype="str">Sie wissen nicht, wer sie sind</title>
+            <text py:pytype="str">Ein Streifzug mit der serbischen Choreografin Sandra Mitrovic durch die Kulturszene von Belgrad. Von Andrea Hünniger</text>
+            <description py:pytype="str">Ein Streifzug mit der serbischen Choreografin Sandra Mitrovic durch die Kulturszene von Belgrad. Von Andrea Hünniger</description>
+            <byline py:pytype="str">Von Andrea Hünniger</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2009-10/belgrad/" type="jpg" publication-date="" expires="">
+              <bu>Das Kulturzentrum ist eine Art kleiner Bauernhof mitten in Belgrad</bu>
+              <copyright py:pytype="str">© Andrea Hünniger für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="dba21260-e23f-4fb0-89a8-83d5b10a8e54" hide-dupes="True">
+          <block href="http://xml.zeit.de/reisen/2010-03/bahamas-powerboat" year="2010" issue="13" ressort="Reisen" publication-date="" expires="" date-last-modified="2010-05-25T14:52:27+00:00" date-first-released="2010-03-30T12:31:16.131270+00:00" date-last-published="2010-03-30T12:37:00.878944+00:00" last-semantic-change="2010-03-30T10:28:02.176769+00:00">
+            <supertitle py:pytype="str">Bahamas</supertitle>
+            <title py:pytype="str">Wie man eine Insel erobert</title>
+            <text py:pytype="str">Beim Bootstrip von Nassau zum äußeren Rand der Bahamas fühlt man sich wie ein Abenteurer. Paul Stänner berichtet über die Begegnung mit Haien, Hunden und Schweinen. </text>
+            <description py:pytype="str">Beim Bootstrip von Nassau zum äußeren Rand der Bahamas fühlt man sich wie ein Abenteurer. Paul Stänner berichtet über die Begegnung mit Haien, Hunden und Schweinen. </description>
+            <byline py:pytype="str">Paul Stänner</byline>
+            <image alt="Das flache Wasser zwischen den Inseln verhalf den Bahamas zu ihrem Namen" align="left" title="Bootsausflug Bahamas" base-id="http://xml.zeit.de/reisen/2010-03/bg-bahamas-ausflug/" type="jpg" publication-date="" expires="">
+              <bu>Das flache Wasser zwischen den Inseln verhalf den Bahamas zu ihrem Namen</bu>
+              <copyright py:pytype="str">© Bahamas Tourist Ofice</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="80e28fcb-e828-4b97-9a9b-62d0c44d5e25" hide-dupes="True">
+          <block href="http://xml.zeit.de/2009/43/L-B-Strauss" year="2009" issue="43" publication-date="" expires="" date-last-modified="2009-10-21T10:03:52+00:00" date-first-released="2009-10-15T06:00:00+00:00" date-last-published="2009-10-21T10:04:52.324991+00:00" last-semantic-change="2009-10-21T09:56:28.285912+00:00" ressort="Kultur">
+            <supertitle py:pytype="str">Neues Buch von Botho Strauß</supertitle>
+            <title py:pytype="str">Der Mönch am Meer</title>
+            <text py:pytype="str">Haben wir uns von Botho Strauß oder hat er sich von uns entfernt? In seinem neuen Buch erzählt er vom Altern und von wachsender Vereinsamung. Von Ulrich Greiner</text>
+            <description py:pytype="str">Haben wir uns von Botho Strauß oder hat er sich von uns entfernt? In seinem neuen Buch erzählt er vom Altern und von wachsender Vereinsamung. Von Ulrich Greiner</description>
+            <byline py:pytype="str">Von Ulrich Greiner</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/literatur/2009-10/botho-strauss-cover/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Hanser Verlag</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="d06c5790-0069-42e7-9c88-461c5a0a15b5" hide-dupes="True">
+          <block href="http://xml.zeit.de/2009/43/Traum-Furtado-43" year="2009" issue="43" publication-date="2009-10-15T06:38:54+00:00" expires="" date-last-modified="2010-05-12T08:45:49+00:00" date-first-released="2009-10-15T06:00:00+00:00" date-last-published="2009-10-19T13:33:17.876056+00:00" last-semantic-change="2009-10-19T08:08:03.933998+00:00" ressort="Kultur">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Ich habe einen Traum</supertitle>
+            <title py:pytype="str">"Ich suche nach Leben und Liebe"</title>
+            <text py:pytype="str">Die Popsängerin Nelly Furtado träumt von blaueren Ozeanen und höheren Bergen. Diese Bilder stärken ihren Glauben an das wahre Schöne. </text>
+            <description py:pytype="str">Die Popsängerin Nelly Furtado träumt von blaueren Ozeanen und höheren Bergen. Diese Bilder stärken ihren Glauben an das wahre Schöne. </description>
+            <byline py:pytype="str">Von Ralph Geisenhanslüke</byline>
+            <image align="left" title="Nelly Furtado" base-id="http://xml.zeit.de/kultur/musik/2009-10/nelly-furtado/" type="jpg" publication-date="" expires="2010-10-22T22:00:00+00:00">
+              <bu>Nelly Furtado, 30, wurde im Jahr 200 mit dem Song »I'm Like A Bird« bekannt. 18 Millionen CDs hat sie seither verkauft, in Deutschland stand sie 2007 monatelang auf Platz eins der Album-Charts. Soeben erschien ihre spanischsprachige Platte »Mi Plan«</bu>
+              <copyright py:pytype="str">© Nathan Beck für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="mr" area="teaser-row-full" cp:__name__="34925c50-69ee-4523-b628-3888a39253a5">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="daafb9ab-fcd5-4f78-a895-70edad58b573" title="ZEIT SHOP" publisher="VERLAGSANGEBOT" publisher_url=" http://shop.zeit.de/category/841-Helmut-Schmidt-Einmischungen?et_cid=63&amp;et_lid=87&amp;et_sub=HS_TM" supertitle_url=" http://shop.zeit.de/category/841-Helmut-Schmidt-Einmischungen?et_cid=63&amp;et_lid=87&amp;et_sub=HS_TM">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links/schmidtbuch" year="2010" issue="44" ressort="Angebote" publication-date="" expires="" ns0:href="http://shop.zeit.de/category/841-Helmut-Schmidt-Einmischungen?et_cid=63&amp;et_lid=87&amp;et_sub=HS_TM" date-last-modified="2010-12-09T10:31:36+00:00" date-first-released="2010-11-02T10:35:57.375082+00:00" date-last-published="2010-12-03T09:54:38.928377+00:00" last-semantic-change="2010-12-09T10:31:11.404273+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Helmut Schmidt "Einmischungen" – exklusive Sonderedition</title>
+            <text py:pytype="str">DIE ZEIT präsentiert jetzt Helmut Schmidts beste ZEIT-Beiträge von 1983 bis heute in einer exklusiven Sonderausgabe. Edel geprägter Leineneinband mit Schmuckschuber.
+
+</text>
+            <description py:pytype="str">DIE ZEIT präsentiert jetzt Helmut Schmidts beste ZEIT-Beiträge von 1983 bis heute in einer exklusiven Sonderausgabe. Edel geprägter Leineneinband mit Schmuckschuber.
+
+</description>
+            <byline xsi:nil="true"/>
+            <image align="left" src="http://xml.zeit.de/angebote/Links/schmidtbuch.jpg" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="4c797180-37de-470b-868a-9127b3a008b9" title="ZEIT AUKTION" publisher="VERLAGSANGEBOT" publisher_url="http://www.das-bietet-zeitreiseauktion.de/cgi-bin/index.cgi" supertitle_url="http://www.das-bietet-zeitreiseauktion.de/cgi-bin/index.cgi">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links/zeitreisen_auktion" year="2010" issue="48" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.das-bietet-zeitreiseauktion.de/cgi-bin/index.cgi" date-last-modified="2010-11-30T15:40:51+00:00" date-first-released="" date-last-published="" last-semantic-change="2010-11-30T15:40:35.372334+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">TraumReisen zu TraumPreisen</title>
+            <text py:pytype="str">Ersteigern Sie eine Reise an ein Urlaubsziel Ihrer Träume. Traumreisen ab 50 % unter Listenpreis! Jetzt mitbieten!</text>
+            <description py:pytype="str">Ersteigern Sie eine Reise an ein Urlaubsziel Ihrer Träume. Traumreisen ab 50 % unter Listenpreis! Jetzt mitbieten!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" src="http://xml.zeit.de/angebote/Links/zeitreisenauktion.jpg" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <supertitle py:pytype="str">IQ-Testing</supertitle>
+    <byline py:pytype="str">tp</byline>
+    <title>cp-test</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/wissen/umwelt/2011-01/Dioxin-FAQs" year="2010" issue="52" ressort="Wissen" publication-date="" expires="">
+      <supertitle py:pytype="str">Fragen und Antworten</supertitle>
+      <title py:pytype="str">Das Gift ist im Umlauf. Was nun?</title>
+      <text py:pytype="str">Wieder einmal wurden Dioxine in Lebensmitteln gefunden. Woher stammt das Gift? Haben Kontrollen versagt? Und was kann man noch essen? Antworten auf die wichtigsten Fragen</text>
+      <description py:pytype="str">Wieder einmal wurden Dioxine in Lebensmitteln gefunden. Woher stammt das Gift? Haben Kontrollen versagt? Und was kann man noch essen? Antworten auf die wichtigsten Fragen</description>
+      <byline xsi:nil="true"/>
+      <image alt="Dioxin Lebensmittel Eier Fleisch Verbraucher Ratgeber" align="left" title="Dioxin Lebensmittel Eier Fleisch Verbraucher" base-id="http://xml.zeit.de/wissen/umwelt/2011-01/eier-dioxin/" type="jpg" publication-date="" expires="">
+        <bu>Bio-Eier in einem deutschen Supermarkt</bu>
+        <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2010-04/zuendende-ideen" year="2010" ressort="Wirtschaft" publication-date="" expires="">
+      <supertitle py:pytype="str">Elektroautos</supertitle>
+      <title py:pytype="str">Zündende Ideen</title>
+      <text py:pytype="str">Der Wettbewerb um das batteriebetriebene Auto verwirrt, und Konzerne und Politik verlieren den Überblick. Nun lädt Angela Merkel zu einem Autogipfel.</text>
+      <description py:pytype="str">Der Wettbewerb um das batteriebetriebene Auto verwirrt, und Konzerne und Politik verlieren den Überblick. Nun lädt Angela Merkel zu einem Autogipfel.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Elektromobilität Elektroauto" align="left" title="Elektromobilität Elektroauto" base-id="http://xml.zeit.de/auto/2010-04/elektroauto-Smart/" type="jpg" publication-date="" expires="">
+        <bu>Elektromobilität gewinnt immer mehr an Bedeutung: Ein Elektro-Smart beim Aufladen </bu>
+        <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2010-04/klick-und-film" year="2010" issue="17" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Zukunft des Kinos</supertitle>
+      <title py:pytype="str">Vom Klick zum Film</title>
+      <text py:pytype="str">Das Internet wird die Kinos verändern. Heute entscheiden die Zuschauer im Netz über das Programm in ihrer Stadt. Morgen vielleicht schon über das Drehbuch neuer Filme. </text>
+      <description py:pytype="str">Das Internet wird die Kinos verändern. Heute entscheiden die Zuschauer im Netz über das Programm in ihrer Stadt. Morgen vielleicht schon über das Drehbuch neuer Filme. </description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Kino Zukunft Leer" base-id="http://xml.zeit.de/kultur/film/2010-04/kino-zukunft-leer/" type="jpg" publication-date="" expires="">
+        <bu>Stirbt das Kino? Zumindest wird es in Zukunft ein anderes sein</bu>
+        <copyright py:pytype="str">© saphiree / photocase.com</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/15/C-ESA-Astronautin" year="2010" issue="15" ressort="Karriere" publication-date="" expires="">
+      <supertitle py:pytype="str">Raumfahrt</supertitle>
+      <title py:pytype="str">Üben fürs All</title>
+      <text py:pytype="str">Die Italienerin Samantha Cristoforetti wird Astronautin.  Als einzige Frau trainiert sie bei der Esa in Köln für ihren ersten Weltraumeinsatz. Von Katrin Hörnlein</text>
+      <description py:pytype="str">Die Italienerin Samantha Cristoforetti wird Astronautin.  Als einzige Frau trainiert sie bei der Esa in Köln für ihren ersten Weltraumeinsatz. Von Katrin Hörnlein</description>
+      <byline xsi:nil="true"/>
+      <image alt="Die ESA-Austronauten" align="left" title="astronauten" base-id="http://xml.zeit.de/karriere/beruf/2010-04/astronauten/" type="jpg" publication-date="2010-04-07T09:09:52+00:00" expires="2010-07-07T09:09:54+00:00">
+        <bu>Samantha Cristoforetti ist die einzige Frau im Team der ESA-Austronauten</bu>
+        <copyright py:pytype="str">©  epa Horacio Villalobos/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2010-04/barenboim-netrebko-romanzen" year="2010" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Netrebko &amp; Barenboim</supertitle>
+      <title py:pytype="str">"Wer zu sehr auf seine Stimme achtet, wird verrückt"</title>
+      <text py:pytype="str">Der Zauber russischer Romanzen: ein Gespräch mit Anna Netrebko und Daniel Barenboim über Champagner auf der Opernbühne, Villazons Rückkehr und Tschaikowskys Traurigkeit.</text>
+      <description py:pytype="str">Der Zauber russischer Romanzen: ein Gespräch mit Anna Netrebko und Daniel Barenboim über Champagner auf der Opernbühne, Villazons Rückkehr und Tschaikowskys Traurigkeit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Anna Netrebko und Daniel Barenboim im Konzert" base-id="http://xml.zeit.de/kultur/musik/2010-04/netrebko-barenboim-konzert/" type="jpg" publication-date="" expires="">
+        <bu>Jugenderinnerungen: Daniel Barenboim und Anna Netrebko in der Berliner Philharmonie</bu>
+        <copyright py:pytype="str">© Thomas Bartilla</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/16/01-Europa-Griechenland" year="2010" issue="16" ressort="Wirtschaft" publication-date="" expires="">
+      <supertitle py:pytype="str">EU-Notfallplan</supertitle>
+      <title py:pytype="str">Es gibt keine echte Alternative</title>
+      <text py:pytype="str">Natürlich könnte man es auch lassen, Griechenland zu helfen. Aber diese Rechnung käme noch teurer zu stehen. Von Marc Schieritz</text>
+      <description py:pytype="str">Natürlich könnte man es auch lassen, Griechenland zu helfen. Aber diese Rechnung käme noch teurer zu stehen. Von Marc Schieritz</description>
+      <byline py:pytype="str">Von Mark Schieritz</byline>
+      <image alt="Der Sitz der griechischen Zentralbank in Athen" align="left" title="Mann vor der griechischen Zentralbank" base-id="http://xml.zeit.de/wirtschaft/2010-04/griechenland-zentralbank/" type="jpg" publication-date="" expires="">
+        <bu>Der Sitz der griechischen Zentralbank in Athen</bu>
+        <copyright py:pytype="str">© ARIS MESSINIS/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/15/Abruestung" year="2010" issue="15" ressort="Politik" publication-date="" expires="">
+      <supertitle py:pytype="str">Weltweite Abrüstung</supertitle>
+      <title py:pytype="str">Der große Traum</title>
+      <text py:pytype="str">In Washington treffen sich 47 Staats- und Regierungschefs, um über die Sicherheit von nuklearem Material zu sprechen. Aber es geht dort auch um eine Welt ohne Atomwaffen.</text>
+      <description py:pytype="str">In Washington treffen sich 47 Staats- und Regierungschefs, um über die Sicherheit von nuklearem Material zu sprechen. Aber es geht dort auch um eine Welt ohne Atomwaffen.</description>
+      <byline py:pytype="str">Von Martin Klingst und Ulrich Ladurner</byline>
+      <image alt="Start einer Atomraktete" align="left" title="Start einer Atomraktete" base-id="http://xml.zeit.de/politik/ausland/2010-04/atom-rakete-start/" type="jpg" publication-date="" expires="">
+        <bu>Umfangreiche nukleare Arsenale bedrohen bis heute die Menschheit</bu>
+        <copyright py:pytype="str">© REUTERS/India's Ministry of Defence</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/15/Autotest-Mercedes" year="2010" issue="15" ressort="Auto" publication-date="" expires="">
+      <supertitle py:pytype="str">ZEITmagazin Autotest  </supertitle>
+      <title py:pytype="str">Ein Auto  fürs Klavier</title>
+      <text py:pytype="str">Wolfram Siebeck fährt den Mercedes E 350 CGI Kombi. Der Gastro-Kritiker und Kolumnist des ZEITmagazins genießt das Fahrgefühl, kämpft aber mit dem komplizierten Navi.</text>
+      <description py:pytype="str">Wolfram Siebeck fährt den Mercedes E 350 CGI Kombi. Der Gastro-Kritiker und Kolumnist des ZEITmagazins genießt das Fahrgefühl, kämpft aber mit dem komplizierten Navi.</description>
+      <byline py:pytype="str">Von Wolfram Siebeck</byline>
+      <image alt="Der Mercedes E 350 CGI bietet viel Nützliches, aber auch überflüssige Extras." align="left" title="Mercedes E 350 CGI" base-id="http://xml.zeit.de/wirtschaft/2010-04/mercedes-e-350-cgi/" type="jpg" publication-date="" expires="">
+        <bu>Der Mercedes E 350 CGI bietet viel Nützliches, aber auch überflüssige Extras</bu>
+        <copyright py:pytype="str">© PR: Daimler</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2009-11/warhol-gemaelde-auktion" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">New York</supertitle>
+      <title py:pytype="str">Warhol-Porträt 40 Jahre versteckt</title>
+      <text py:pytype="str">Mehr als vier Jahrzehnte lang hatte eine frühere Sekretärin von Andy Warhol ein Selbstporträt des Künstlers in ihrem Schrank versteckt. Jetzt soll es versteigert werden.</text>
+      <description py:pytype="str">Mehr als vier Jahrzehnte lang hatte eine frühere Sekretärin von Andy Warhol ein Selbstporträt des Künstlers in ihrem Schrank versteckt. Jetzt soll es versteigert werden.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Warhol Gemälde Auktion" base-id="http://xml.zeit.de/kultur/kunst/2009-11/warhol-gemaelde-auktion-2/" type="jpg" publication-date="" expires="">
+        <bu>Eine Besucherin betrachtet ein Selbstporträt Andy Warhols während einer Ausstellung des Auktionshauses Sotheby's in New York</bu>
+        <copyright py:pytype="str">© AFP/Emmanuel Dunand/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/45/Traum-Buble" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Ich habe einen Traum</supertitle>
+      <title py:pytype="str">"Meine Mutter hat mir ihre Träume vererbt"</title>
+      <text py:pytype="str">Der kanadische Swingsänger Michael Bublé träumt vom Fliegen - kontrolliert und langsam.</text>
+      <description py:pytype="str">Der kanadische Swingsänger Michael Bublé träumt vom Fliegen - kontrolliert und langsam.</description>
+      <byline py:pytype="str">Von Elisabeth Raether</byline>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-11/michael-buble/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Warner Music</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/45/Frankfurter-Schule" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Frankfurter Schule</supertitle>
+      <title py:pytype="str">Adorno und Horkheimer auf unheimlichem Boden</title>
+      <text py:pytype="str">Das eigentliche Wunder der deutschen Geistesgeschichte: Zwei Ausstellungen widmen sich den Rückkehrern aus dem Exil – Adorno, Horkheimer und Golo Mann.</text>
+      <description py:pytype="str">Das eigentliche Wunder der deutschen Geistesgeschichte: Zwei Ausstellungen widmen sich den Rückkehrern aus dem Exil – Adorno, Horkheimer und Golo Mann.</description>
+      <byline py:pytype="str">Von Alexander Cammann</byline>
+      <image align="left" title="Ausstellung Frankfurter Schule" base-id="http://xml.zeit.de/kultur/kunst/2009-10/53-adorno/" type="jpg" publication-date="" expires="2010-01-10T11:15:07+00:00">
+        <bu>Theodor W. Adorno auf einer Faschingsfeier, im Arm zwei unbekannte Schönheiten</bu>
+        <copyright py:pytype="str">© Theodor W. Adorno Archiv</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/themen/kultur/musik/michael-jackson/index" year="2009" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Alles zum Thema</supertitle>
+      <title py:pytype="str">Michael Jackson - eine Archivseite</title>
+      <text py:pytype="str">Am 25. Juni 2009 starb Michael Jackson im Alter von 50 Jahren. Auf dieser Seite sammelt ZEIT ONLINE Texte und Bildergalerien und Rezensionen über ihn</text>
+      <description py:pytype="str">Am 25. Juni 2009 starb Michael Jackson im Alter von 50 Jahren. Auf dieser Seite sammelt ZEIT ONLINE Texte und Bildergalerien und Rezensionen über ihn</description>
+      <byline xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/literatur/2009-11/giwi-margwelaschwili" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Belletristik</supertitle>
+      <title py:pytype="str">Ein Mann, drei Pünktchen</title>
+      <text py:pytype="str">Hier kommt ein hellwacher Weltgeist: Das Gesamtwerk des Autors Giwi Margwelaschwili wird endlich veröffentlicht. Eine verlegerische Heldentat. Von Insa Wilke</text>
+      <description py:pytype="str">Hier kommt ein hellwacher Weltgeist: Das Gesamtwerk des Autors Giwi Margwelaschwili wird endlich veröffentlicht. Eine verlegerische Heldentat. Von Insa Wilke</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/literatur/2009-11/margwelaschwili/" type="jpg" publication-date="" expires="">
+        <bu>Giwi Margwelaschwili, Jahrgang 1927</bu>
+        <copyright py:pytype="str">© Alexander Janetzko</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/45/Turntable-Festival" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Vinyl-Artisten</supertitle>
+      <title py:pytype="str">Allerlei Gebrumm</title>
+      <text py:pytype="str">Der Plattenspieler ist befreit von seiner ursprünglichen Funktion und darf nun Instrument sein. Ein Bericht aus Berlin, wo sich "Turntablisten" aus aller Welt trafen.</text>
+      <description py:pytype="str">Der Plattenspieler ist befreit von seiner ursprünglichen Funktion und darf nun Instrument sein. Ein Bericht aus Berlin, wo sich "Turntablisten" aus aller Welt trafen.</description>
+      <byline py:pytype="str">Von Ulrich Stock</byline>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-10/turntable-orchestra/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Gianmarco Bresadola</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/45/Museumsfuehrer-45" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">ZEIT-Museumsführer</supertitle>
+      <title py:pytype="str">Wuchernde Dingfülle</title>
+      <text py:pytype="str">Saurierknochen, ausgestopftes Wild, Moorleichen - den Weg zu den Höhepunkten des Landesmuseums Hannover weist Kinderjohlen. Dabei zeigt es auch Spitzweg und Botticelli.</text>
+      <description py:pytype="str">Saurierknochen, ausgestopftes Wild, Moorleichen - den Weg zu den Höhepunkten des Landesmuseums Hannover weist Kinderjohlen. Dabei zeigt es auch Spitzweg und Botticelli.</description>
+      <byline py:pytype="str">Von Johanna Di Blasi</byline>
+      <image align="left" title="Landesmuseum Hannover" base-id="http://xml.zeit.de/kultur/kunst/2009-11/landesmuseum-hannover/" type="" publication-date="" expires="">
+        <bu>Den roten Franz, so nennen Museumsangestellte und Stammgäste die Moorleiche mit den rotblonden Haaren. Franz war vor rund 1700 Jahren im Moor versunken, vor 100 Jahren dort gefunden worden und ist seitdem eine der Attraktionen des Landesmuseums</bu>
+        <copyright py:pytype="str">© Jochen Luebke/ ddp</copyright>
+      </image>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/kultur/musik/2009-11/blog-tontraeger-can-you-dig-it" year="2009" issue="45" ressort="Kultur" publication-date="" expires="" ns0:href="http://blog.zeit.de/tontraeger/2009/11/02/can-you-dig-it-shaft_3957">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Funk  &amp; Soul</supertitle>
+      <title py:pytype="str">Shäääft! Kapiert?</title>
+      <text py:pytype="str">Im schwarzen Actionfilm der Siebziger spielte die Musik eine wichtige Rolle. Eine Kompilation erinnert an die Helden des Soundtracks wie Isaac Hayes oder Quincy Jones.</text>
+      <description py:pytype="str">Im schwarzen Actionfilm der Siebziger spielte die Musik eine wichtige Rolle. Eine Kompilation erinnert an die Helden des Soundtracks wie Isaac Hayes oder Quincy Jones.</description>
+      <byline py:pytype="str">Von Jan Kühnemund</byline>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-11/shaft/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© MGM Studios/Hulton Archive </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/literatur/2009-11/prix-goncourt-marie-ndiaye" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Literaturpreis</supertitle>
+      <title py:pytype="str">Marie NDiaye erhält Prix Goncourt</title>
+      <text py:pytype="str">Hohe Auszeichnung für Marie NDiaye und ihren Roman "Trois femmes puissantes": Die in Berlin lebende Autorin bekommt in diesem Jahr den französischen Literaturpreis.</text>
+      <description py:pytype="str">Hohe Auszeichnung für Marie NDiaye und ihren Roman "Trois femmes puissantes": Die in Berlin lebende Autorin bekommt in diesem Jahr den französischen Literaturpreis.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Prix Goncourt für das &quot;Wunderkind&quot; der französischen Gegenwartsliteratur: Marie NDiaye mit Akademie-Mitglied Didier Decoin" align="left" title="Marie Ndiaye Prix Goncourt" base-id="http://xml.zeit.de/kultur/literatur/2009-11/maria-ndiaye-021109/" type="jpg" publication-date="" expires="">
+        <bu>Prix Goncourt für das "Wunderkind" der französischen Gegenwartsliteratur: Marie NDiaye mit Akademie-Mitglied Didier Decoin</bu>
+        <copyright py:pytype="str">© Martin Bureau/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/45/L-B-Stapel-45" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Charlotte Link</supertitle>
+      <title py:pytype="str">Trivialliteratur sieht anders aus</title>
+      <text py:pytype="str">Charlotte Link bringt Bewegung in die Bestseller-Liga. Vom Sportlichen abgesehen: Auch schriftstellerisch ist sie ernst zu nehmen. Von Ursula März</text>
+      <description py:pytype="str">Charlotte Link bringt Bewegung in die Bestseller-Liga. Vom Sportlichen abgesehen: Auch schriftstellerisch ist sie ernst zu nehmen. Von Ursula März</description>
+      <byline py:pytype="str">von Ursula März</byline>
+      <image align="left" base-id="http://xml.zeit.de/kultur/literatur/2009-11/charlotte-link/" type="jpg" publication-date="" expires="2010-02-03T11:42:30+00:00">
+        <bu>Charlotte Link während der Verleihung der Goldenen Feder 2007</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/42/M-KK-Horowitz" year="2009" issue="42" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Wladimir Horowitz</supertitle>
+      <title py:pytype="str">Am Ende der Suche</title>
+      <text py:pytype="str">Im Jahr 1986 gab der Pianist Wladimir Horowitz ein legendäres Konzert in Berlin. Jetzt ist der Radiomitschnitt mit allen Moderationen auf CD erschienen.</text>
+      <description py:pytype="str">Im Jahr 1986 gab der Pianist Wladimir Horowitz ein legendäres Konzert in Berlin. Jetzt ist der Radiomitschnitt mit allen Moderationen auf CD erschienen.</description>
+      <byline py:pytype="str">Von Oswald Beaujean</byline>
+      <image align="left" title="Der Pianist Wladimir Horowitz" base-id="http://xml.zeit.de/kultur/musik/2009-11/wladimir-horowitz/" type="jpg" publication-date="" expires="">
+        <bu>Der 82-jährige Horowitz erklärte Virtuosität endgültig zur Nebensache</bu>
+        <copyright py:pytype="str">© Klemens Beitlich/Sony Music</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/literatur/2009-11/ayala-tod" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Literatur</supertitle>
+      <title py:pytype="str">Spanischer Schriftsteller Francisco Ayala ist tot</title>
+      <text py:pytype="str">Er war einer der bedeutendsten spanischen Literaten und Denker der Gegenwart: Der Schriftsteller Francisco Ayala ist im Alter von 103 Jahren gestorben.</text>
+      <description py:pytype="str">Er war einer der bedeutendsten spanischen Literaten und Denker der Gegenwart: Der Schriftsteller Francisco Ayala ist im Alter von 103 Jahren gestorben.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Francisco Ayala" base-id="http://xml.zeit.de/kultur/literatur/2009-11/francisco-ayala-031109/" type="jpg" publication-date="" expires="">
+        <bu>Granada, SPAIN: Spanish Prime Minister Jose Luis Rodriguez Zapatero congratulates Spanish writer Francisco Ayala after he was decorated with the Granada?s Honorary Citizen medal during a ceremony held in Granada, Southern Spain, 03 February 2006. AFP PHOTO/ JOSE LUIS ROCA (Photo credit should read JOSE LUIS ROCA/AFP/Getty Images)</bu>
+        <copyright py:pytype="str">© Jose Luis Roca/AFP/Getty Images </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/42/SM-Neuenfels" year="2009" issue="42" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Regisseur Hans Neuenfels</supertitle>
+      <title py:pytype="str">Lust am Leben mit Musik</title>
+      <text py:pytype="str">Verdi biegt um die Ecke, Mozart flüstert vor sich hin, und Wagner trifft man – in Bayreuth natürlich: Der Regisseur Hans Neuenfels hat ein klangtrunkenes Buch geschrieben</text>
+      <description py:pytype="str">Verdi biegt um die Ecke, Mozart flüstert vor sich hin, und Wagner trifft man – in Bayreuth natürlich: Der Regisseur Hans Neuenfels hat ein klangtrunkenes Buch geschrieben</description>
+      <byline py:pytype="str">Von Hanns-Josef Ortheil</byline>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-11/buch-neuenfels/" type="jpg" publication-date="" expires="">
+        <bu>Der Opernregisseur Hans Neuenfels</bu>
+        <copyright py:pytype="str">© Monika Rittershaus</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2009-11/nachruf-levi-strauss" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Claude Lévi-Strauss</supertitle>
+      <title py:pytype="str">In der Wildnis der Zivilisation</title>
+      <text py:pytype="str">Das Leben und seine Struktur: Zum Tod des großen französischen Ethnologen Claude Lévi-Strauss. Von Constantin von Barloewen 
+</text>
+      <description py:pytype="str">Das Leben und seine Struktur: Zum Tod des großen französischen Ethnologen Claude Lévi-Strauss. Von Constantin von Barloewen 
+</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/2009-11/levi-strauss-2/" type="jpg" publication-date="" expires="">
+        <bu>Claude Lévi-Strauss im Jahr 2005</bu>
+        <copyright py:pytype="str">© Pascal Pavani/AFP</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/literatur/2009-11/nachruf-francisco-ayala" year="2009" issue="45" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Francisco Ayala</supertitle>
+      <title py:pytype="str">Zwei Whisky und ein Apfel</title>
+      <text py:pytype="str">Fast ein gesamtes Jahrhundert lang hat er sein Land literarisch begleitet: Zum Tod von Francisco Ayala, Spaniens hellsichtigem Autor, Soziologen und Übersetzer.</text>
+      <description py:pytype="str">Fast ein gesamtes Jahrhundert lang hat er sein Land literarisch begleitet: Zum Tod von Francisco Ayala, Spaniens hellsichtigem Autor, Soziologen und Übersetzer.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/literatur/2009-11/francisco-ayala/" type="jpg" publication-date="" expires="2010-02-04T09:11:04+00:00">
+        <bu>Francisco Ayala im Jahr 1984</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">cp-test</title>
+  </teaser>
+</centerpage>

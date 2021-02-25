@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<templates>
+  <!-- Die Werte fuer `name` bei <header> muessen zum Code in zeit.web passen! Weitere Details siehe https://github.com/ZeitOnline/zeit.content.article/blob/master/README.rst -->
+  <!--
+    ZON-Templates
+  -->
+  <template name="zon-article" available="zeit.cms.section.interfaces.IZONContent">
+    <title>Artikel</title>
+    <header name="default" default_for="zeit.cms.section.interfaces.IZONContent">
+      <title>Standard</title>
+    </header>
+    <header name="embed" allow_header_module="true">
+      <title>Header-Modul oben</title>
+    </header>
+    <header name="podcast" allow_header_module="true">
+      <title>Podcast</title>
+    </header>
+    <header name="narrow">
+      <title>Spiele</title>
+    </header>
+  </template>
+  <template name="zon-article-column" available="zeit.cms.section.interfaces.IZONContent">
+    <title>Kolumne</title>
+  </template>
+  <template name="zon-liveblog" available="zeit.cms.section.interfaces.IZONContent">
+    <title>Liveblog</title>
+    <header name="liveblog">
+      <title>Standard (rot blinkend)</title>
+    </header>
+    <header name="liveblog-closed">
+      <title>grau</title>
+    </header>
+  </template>
+  <!--
+    ZCO-Templates
+  -->
+  <template name="zco-article" available="zeit.campus.interfaces.IZCOContent">
+    <title>Artikel</title>
+    <header name="default" default_for="zeit.campus.interfaces.IZCOContent">
+      <title>Standard</title>
+    </header>
+    <header name="embed" allow_header_module="true">
+      <title>Header-Modul oben</title>
+    </header>
+  </template>
+  <!--
+    (future) Multi-Purpose-Templates - has to be changed once /feature gets a dedicated config
+  -->
+  <template name="longform" available="zeit.magazin.interfaces.IZMOContent">
+    <title>Longform</title>
+  </template>
+  <!--
+    ZMO-Templates
+  -->
+  <template name="article" available="zeit.magazin.interfaces.IZMOContent">
+    <title>Artikel</title>
+    <header name="default" default_for="zeit.magazin.interfaces.IZMOContent">
+      <title>Standard</title>
+    </header>
+    <header name="text-only">
+      <title>Bild unten</title>
+    </header>
+    <header name="leinwand">
+      <title>Bild oben</title>
+    </header>
+    <header name="mode">
+      <title>Hochkant links</title>
+    </header>
+    <header name="briefmarke">
+      <title>Hochkant rechts</title>
+    </header>
+    <header name="traum">
+      <title>Traum</title>
+    </header>
+    <header name="column">
+      <title>Kolumne</title>
+    </header>
+  </template>
+  <template name="photocluster" available="zeit.magazin.interfaces.IZMOContent">
+    <title>Photo-Cluster</title>
+    <header name="default">
+      <title>Standard</title>
+    </header>
+    <header name="text-only">
+      <title>Bild unten</title>
+    </header>
+    <header name="leinwand">
+      <title>Bild oben</title>
+    </header>
+    <header name="mode">
+      <title>Hochkant links</title>
+    </header>
+    <header name="briefmarke">
+      <title>Hochkant rechts</title>
+    </header>
+    <header name="traum">
+      <title>Traum</title>
+    </header>
+  </template>
+  <!--
+    ZAR-Templates
+  -->
+  <template name="zar-article" available="zeit.arbeit.interfaces.IZARContent">
+    <title>Artikel</title>
+    <header name="default" default_for="zeit.arbeit.interfaces.IZARContent">
+      <title>Standard</title>
+    </header>
+    <header name="centered">
+      <title>Protokoll (zentriert)</title>
+    </header>
+    <header name="dark">
+      <title>Dunkel</title>
+    </header>
+    <header name="podcast" allow_header_module="true">
+      <title>Podcast</title>
+    </header>
+  </template>
+  <!-- legacy -->
+  <template name="short" available="zeit.web.core.interfaces.IInternalUse">
+    <title>Kurzformat</title>
+  </template>
+  <template name="column" available="zeit.web.core.interfaces.IInternalUse">
+    <title>Kolumne</title>
+  </template>
+</templates>

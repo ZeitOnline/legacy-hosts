@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-05-06T08:16:25.718477+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-10-27T15:20:05.564139+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-05-06T08:16:55.966001+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-05-06T08:17:55.878101+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-02-04T11:13:21.293159+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-05-06T08:16:20.741057+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">173923487</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2010-12-24T15:14:00+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Kultur</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:df3876fc-dd62-46b8-9d6f-825d844acaf4}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="3c1eaab5-96ac-46e4-9c7a-66667b6c8beb">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="858261ad-5ab0-4447-8bbe-102e2a67ad33">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="e1d5cfc5-ea22-4abb-8774-e472367d67d7">
+          <video videoID="36539714001" player="pls" format="large" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="newsletter_kultur" cp:__name__="id-60693d75-dc60-4e63-8564-3d9f423ba169">
+          <cp_extra id="newsletter_kultur"/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="5b66c755-7c7e-40e7-a6a4-7d496b1d7d40">
+          <cp_extra id="linkatory"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="cc486144-5ab9-4acb-9875-89cf8917cc0e">
+        <container cp:type="teaser" module="ressort" cp:__name__="b9752938-99eb-43a0-a5dc-b112edd49c87" title="Literatur" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/kultur/literatur/index</referenced_cp>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/kultur/literatur/index">
+            <xi:fallback>Ziel http://xml.zeit.de/kultur/literatur/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <autopilot py:pytype="bool">true</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="7fb3a0a0-2ed1-4e7c-a81a-3010d7506acf" title="Film &amp; TV" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/kultur/film/index</referenced_cp>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/kultur/film/index">
+            <xi:fallback>Ziel http://xml.zeit.de/kultur/film/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <autopilot py:pytype="bool">true</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="fa71650f-fcdd-45e7-8e98-d65c175368f1" title="Musik" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/kultur/musik/index</referenced_cp>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/kultur/musik/index">
+            <xi:fallback>Ziel http://xml.zeit.de/kultur/musik/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <autopilot py:pytype="bool">true</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="215d31e8-8378-431f-a151-8950b6be4ab2" title="Kunst" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/kultur/kunst/index</referenced_cp>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/kultur/kunst/index">
+            <xi:fallback>Ziel http://xml.zeit.de/kultur/kunst/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <autopilot py:pytype="bool">true</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Kultur</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Kultur</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Kultur</text>
+  </indexteaser>
+</centerpage>

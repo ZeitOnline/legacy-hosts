@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-07-03T15:26:37.916636+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-07-01T15:19:08.561103+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-07-03T15:27:46.037870+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-07-02T12:46:48.812042+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-07-03T15:26:29.185610+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">hausarbeiten</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:45299c35-0b72-4c0b-ad81-8841226650c2}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-5fa02bb9-c678-479e-bbd4-803f479482e5">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-a5b1e2ab-7885-423f-a01a-f27693400914">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/hausarbeiten/link_startseite" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/hausarbeiten" date-last-modified="2013-07-01T15:17:25+00:00" date-first-released="2013-07-01T15:18:11.854424+00:00" date-last-published="2013-07-01T15:18:25.445646+00:00" last-semantic-change="2013-07-01T15:17:01.826271+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c74a4df5-7013-4d8d-9599-21a143115ce2" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/hausarbeiten/link_grin" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.grin.com/de/" ns0:target="_blank" date-last-modified="2013-06-28T08:49:25+00:00" date-first-released="2013-06-28T08:50:24.839792+00:00" date-last-published="2013-06-28T08:50:24.839792+00:00" last-semantic-change="2013-06-28T08:49:14.242043+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">GRIN Verlag</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/hausarbeiten/bilder/GRIN-Logo/GRIN-Logo-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-b4e74e2a-9668-42e1-a6a7-b9fcf922949f">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/hausarbeiten/teaser_autor_werden" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.grin.com/de/upload" ns0:target="_blank" date-last-modified="2013-07-03T15:25:03+00:00" date-first-released="2013-06-28T08:52:33.562954+00:00" date-last-published="2013-07-03T15:26:03.570871+00:00" last-semantic-change="2013-07-03T15:24:46.902114+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Arbeiten hochladen - Autor werden</title>
+            <text py:pytype="str">Ihre Masterarbeit, Hausarbeit, Dissertation, Bachelorarbeit oder Essay als E-Book und Buch veröffentlichen - ohne Kosten.</text>
+            <description py:pytype="str">Ihre Masterarbeit, Hausarbeit, Dissertation, Bachelorarbeit oder Essay als E-Book und Buch veröffentlichen - ohne Kosten.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/hausarbeiten/bilder/Arbeit-hochladen2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-bea10826-4bcc-4453-af77-2dbcea5668f8">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="//www.youtube-nocookie.com/v/1zmj5ua-IMQ?version=3&amp;hl=de_DE"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="//www.youtube-nocookie.com/v/1zmj5ua-IMQ?version=3&amp;hl=de_DE" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artike Rahmen Hausarbeiten</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artike Rahmen Hausarbeiten</title>
+  </teaser>
+</centerpage>

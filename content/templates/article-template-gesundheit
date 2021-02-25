@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-06-18T06:46:25.798949+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-11-12T17:00:47.510724+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-06-18T06:46:31.880916+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-06-18T06:47:31.814210+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-04-15T15:30:49.647198+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-06-18T06:42:17.185746+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.stockrahm</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Gesundheit</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:4d4f3ad3-1e9b-43fa-8b21-70d6e0fbc14a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="b73ef042-a9c5-46a3-b3ac-624a1bd68935">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="226b6dbe-6bce-4869-8c1c-8f7333693f07">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-1926bb6b-1756-495c-aeb9-2ce53963a458">
+          <block href="http://xml.zeit.de/feature/global-drug-survey-2015-drogen-in-deutschland" uniqueId="http://xml.zeit.de/feature/global-drug-survey-2015-drogen-in-deutschland" year="2015" issue="22" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-12T10:32:06+00:00" date-first-released="2015-06-08T10:20:11.380329+00:00" date-last-published="2015-06-12T10:33:05.619063+00:00" last-semantic-change="2015-06-08T13:47:42.142083+00:00" author="Sven Stockrahm">
+            <supertitle py:pytype="str">ZEIT-ONLINE-Drogenbericht 2015</supertitle>
+            <title py:pytype="str">(K)eine Anleitung zum Drogennehmen</title>
+            <text py:pytype="str">Sie lieben das High, unterschätzen aber die Gefahr: 32.000 Menschen haben ZEIT ONLINE gesagt, welche Drogen sie nehmen. Wir helfen Ihnen, sicherer damit umzugehen.</text>
+            <description py:pytype="str">Sie lieben das High, unterschätzen aber die Gefahr: 32.000 Menschen haben ZEIT ONLINE gesagt, welche Drogen sie nehmen. Wir helfen Ihnen, sicherer damit umzugehen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2015-06/global-drug-survey-2015-deutschland/" type="jpg" title="Global Drug Survey 2015 Deutschland" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://quickhoney.com/#home">© Quickhoney für ZEIT ONLINE</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Stockrahm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/feature/drogen-kaufen-preis-internationaler-vergleich" uniqueId="http://xml.zeit.de/feature/drogen-kaufen-preis-internationaler-vergleich" year="2015" issue="23" ressort="Wissen" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-16T09:28:03+00:00" date-first-released="2015-06-12T09:28:39.664434+00:00" date-last-published="2015-06-12T13:32:33.773958+00:00" last-semantic-change="2015-06-12T09:34:35.132046+00:00" author="Saskia Gerhard;Jasper Riemann">
+            <supertitle py:pytype="str">Drogen</supertitle>
+            <title py:pytype="str">Ein Trip um die Welt</title>
+            <text py:pytype="str">Neuseeländer zahlen für 1 Gramm Koks 200 Euro, Briten bestellen Drogen oft im Darknet. Wie Menschen in welchem Land konsumieren, zeigt die weltweit größte Drogenumfrage. </text>
+            <description py:pytype="str">Neuseeländer zahlen für 1 Gramm Koks 200 Euro, Briten bestellen Drogen oft im Darknet. Wie Menschen in welchem Land konsumieren, zeigt die weltweit größte Drogenumfrage. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2015-06/global-drug-survey-2015-international/" type="jpg" title="Global Drug Survey 2015 International" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://quickhoney.com">© Quickhoney für ZEIT ONLINE</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Saskia_Gerhard/index" publication-date="" expires="">
+              <display_name py:pytype="str">Saskia Gerhard</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/R/Jasper_Riemann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jasper Riemann</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="bebdd294-9d05-431a-8145-3d2c0ad2d624">
+          <video videoID="2399721950001" player="pls" format="small"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="a01cbd23-d47f-4a87-8ad9-701f69e8398c">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="0c78445e-8ccb-41ec-b517-672b63b7ccd6">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="c24bf688-2050-41c5-8bca-bed2b96fcb67" title="Thema: Test im Mutterleib" visible="True">
+          <block href="http://xml.zeit.de/2013/29/gentests-erfolgschance-kuenstliche-befruchtung-connor-levy" year="2013" issue="29" ressort="Wissen" contenttype="article" publication-date="2013-07-18T01:37:02+00:00" expires="" date-last-modified="2014-03-04T22:05:54+00:00" date-first-released="2013-07-11T06:00:00+00:00" date-last-published="2014-03-04T22:06:53.777983+00:00" last-semantic-change="2013-07-23T06:44:55.881036+00:00" uniqueId="http://xml.zeit.de/2013/29/gentests-erfolgschance-kuenstliche-befruchtung-connor-levy" author="Ulrich Bahnsen">
+            <supertitle py:pytype="str">Gentests am Embryo</supertitle>
+            <title py:pytype="str">Erst entschlüsselt, dann der Mama verpflanzt</title>
+            <text py:pytype="str">Er wurde im Labor gezeugt, sein Erbgut vollständig durchleuchtet. Erst dann durfte Connor Levy in den Bauch seiner Mutter. Ist das die Zukunft?</text>
+            <description py:pytype="str">Er wurde im Labor gezeugt, sein Erbgut vollständig durchleuchtet. Erst dann durfte Connor Levy in den Bauch seiner Mutter. Ist das die Zukunft?</description>
+            <byline py:pytype="str">von Ulrich Bahnsen</byline>
+            <image base-id="http://xml.zeit.de/wissen/2013-07/s33-baby/" type="jpg" title="Baby" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/293185-stock-photo-mensch-blau-nackt-leben-grau-klein">© Katharina Levy/photocase.com</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Gentests am Embryo</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Ulrich_Bahnsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrich Bahnsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-07/pid-baby-geboren" year="2013" issue="28" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:38:38+00:00" date-first-released="2013-07-08T08:26:34.707850+00:00" date-last-published="2013-12-02T18:39:21+00:00" last-semantic-change="2013-07-08T08:30:35.097631+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2013-07/pid-baby-geboren" author="Ulrich Bahnsen">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Künstliche Befruchtung</supertitle>
+            <title py:pytype="str">Retortenbaby nach komplettem Erbgut-Check geboren</title>
+            <text py:pytype="str">Erstmals ist nach künstlicher Befruchtung ein Baby geboren, dessen Genom bekannt war. Wäre der Embryo krank gewesen, wäre er aussortiert worden. Von U. Bahnsen, London</text>
+            <description py:pytype="str">Erstmals ist nach künstlicher Befruchtung ein Baby geboren, dessen Genom bekannt war. Wäre der Embryo krank gewesen, wäre er aussortiert worden. Von U. Bahnsen, London</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-07/blastozyste-biopsie/" type="jpg" title="Blastozyste Biopsie" alt="Blastozyste Embryo künstliche Befruchtung" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Embryo im Blastozysten-Stadium, wenige Tage nach der künstlichen Befruchtung. Zur Analyse des Erbguts werden Zellen entnommen.</bu>
+              <copyright py:pytype="str" link="http://www.ivf-bbn.de">© ivf bbn</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Künstliche Befruchtung</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Ulrich_Bahnsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrich Bahnsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-06/gentest-schwangerschaft-downsyndrom-praenataldiagnostik" year="2013" issue="23" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-23T09:26:03+00:00" date-first-released="2013-06-13T14:14:59.196387+00:00" date-last-published="2015-01-23T09:27:02.824606+00:00" last-semantic-change="2013-06-13T14:13:54.662303+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2013-06/gentest-schwangerschaft-downsyndrom-praenataldiagnostik" author="Ulrich Bahnsen">
+            <supertitle py:pytype="str">Pränataldiagnostik</supertitle>
+            <title py:pytype="str">Gentests für Föten werden selbstverständlich</title>
+            <text py:pytype="str">Nur in Ausnahmen prüfen Ärzte Gene von Ungeborenen etwa aufs Downsyndrom. Nun gilt der Test als so zuverlässig, dass er wohl für alle Schwangeren kommt. Von U. Bahnsen</text>
+            <description py:pytype="str">Nur in Ausnahmen prüfen Ärzte Gene von Ungeborenen etwa aufs Downsyndrom. Nun gilt der Test als so zuverlässig, dass er wohl für alle Schwangeren kommt. Von U. Bahnsen</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-06/foetus-mutterleib/" type="jpg" title="Gentest Fötus Embryo Bluttest Praena" alt="Aufnahme eines sieben Wochen alten Fötus in der Fruchtblase im Mutterleib" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Werdendes Leben: Aufnahme eines sieben Wochen alten Fötus in der Fruchtblase</bu>
+              <copyright py:pytype="str">© Peter Endig/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Pränataldiagnostik</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Ulrich_Bahnsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrich Bahnsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2011-10/pid-gentest" year="2011" issue="43" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-12T07:07:30+00:00" date-first-released="2011-10-20T13:11:19.943729+00:00" date-last-published="2014-07-12T09:12:14+00:00" last-semantic-change="2011-10-20T12:57:32.429689+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2011-10/pid-gentest" author="Adelheid Müller-Lissner">
+            <supertitle py:pytype="str">ZEIT-Forum zu PID</supertitle>
+            <title py:pytype="str">Bessere Gentests setzen Eltern unter Druck</title>
+            <text py:pytype="str">Per Gentest zum Wunschkind? Experten streiten auch nach der Bundestagsentscheidung über die Folgen der Präimplantationsdiagnostik. Von Adelheid Müller-Lissner</text>
+            <description py:pytype="str">Per Gentest zum Wunschkind? Experten streiten auch nach der Bundestagsentscheidung über die Folgen der Präimplantationsdiagnostik. Von Adelheid Müller-Lissner</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2011-10/pid/" type="jpg" title="Embryo PID" alt="Abbildung eines fünf Tage alten Embryos" align="left" publication-date="" expires="2012-01-20T10:41:03+00:00">
+              <bu py:pytype="str">Abbildung eines fünf Tage alten Embryos</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Adelheid_Mueller-Lissner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Adelheid Müller-Lissner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/21/Trisomie-21-Test" year="2012" issue="21" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-23T09:42:26+00:00" date-first-released="2012-05-16T06:00:00+00:00" date-last-published="2015-01-23T09:43:25.639098+00:00" last-semantic-change="2012-05-21T10:06:18.710796+00:00" uniqueId="http://xml.zeit.de/2012/21/Trisomie-21-Test" author="Ulrich Bahnsen">
+            <supertitle py:pytype="str">Erbgutanalyse</supertitle>
+            <title py:pytype="str">Was ein einfacherer Downsyndrom-Test für Eltern bedeutet</title>
+            <text py:pytype="str">Ein neuer Test erleichtert die Früherkennung von genetischen Schäden bei Föten. Wird die Erbgutanalyse bei Ungeborenen zur Routine? Von Ulrich Bahnsen</text>
+            <description py:pytype="str">Ein neuer Test erleichtert die Früherkennung von genetischen Schäden bei Föten. Wird die Erbgutanalyse bei Ungeborenen zur Routine? Von Ulrich Bahnsen</description>
+            <byline py:pytype="str">VON ULRICH BAHNSEN</byline>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2012-05/down-syndrom-test/" type="jpg" title="Down Syndrom Schwangerschaft Pränataldiagnostik" alt="Downsyndrom Schwangerschaft Pränataldiagnostik" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Dieses Mädchen aus Moskau wurde mit Down-Syndrom geboren.</bu>
+              <copyright py:pytype="str">© Natalia Kolesinikova/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Ulrich_Bahnsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrich Bahnsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-04/ethikrat-gentests-beratung" year="2013" issue="18" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-29T13:40:10+00:00" date-first-released="2013-04-30T15:26:19.895807+00:00" date-last-published="2014-07-07T07:32:16+00:00" last-semantic-change="2013-04-30T15:24:50.458253+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2013-04/ethikrat-gentests-beratung" author="AFP;dpa  ">
+            <supertitle py:pytype="str">Patientenrechte</supertitle>
+            <title py:pytype="str">Ethikrat verlangt bessere Aufklärung über Gentests</title>
+            <text py:pytype="str">Gentests werden häufig eingesetzt und sind leicht verfügbar. Damit steigt das Risiko für Patienten, sagt der Ethikrat. Die Forscher verlangen bessere Beratung.</text>
+            <description py:pytype="str">Gentests werden häufig eingesetzt und sind leicht verfügbar. Damit steigt das Risiko für Patienten, sagt der Ethikrat. Die Forscher verlangen bessere Beratung.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-04/dna-test-2/" type="jpg" align="left" publication-date="" expires="2013-07-30T13:35:02+00:00">
+              <bu py:pytype="str">Speichelproben für einen DNA-Test</bu>
+              <copyright py:pytype="str">© Jörg Carstensen/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Patientenrechte</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/afp">
+              <display_name>afp</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/dpa">
+              <display_name>dpa</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2012-06/embryo-dna-erbgut-analyse" year="2012" issue="24" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T04:52:05+00:00" date-first-released="2012-06-07T05:14:10.639092+00:00" date-last-published="2013-12-03T05:53:09+00:00" last-semantic-change="2012-06-07T07:42:15.820799+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2012-06/embryo-dna-erbgut-analyse" author="dpa  ">
+            <supertitle py:pytype="str">Genetik</supertitle>
+            <title py:pytype="str">Forscher entziffern Embryo-Erbgut anhand mütterlichen Blutes</title>
+            <text py:pytype="str">Nur mit dem Blut der Mutter und dem Speichel des Vaters haben Forscher einen Embryo auf Genschäden untersucht. Bisher war hierfür ein riskanter Eingriff erforderlich.</text>
+            <description py:pytype="str">Nur mit dem Blut der Mutter und dem Speichel des Vaters haben Forscher einen Embryo auf Genschäden untersucht. Bisher war hierfür ein riskanter Eingriff erforderlich.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2012-06/embryo-erbgut/" type="jpg" title="Embryo Erbgut" align="left" publication-date="" expires="2012-09-07T04:57:38+00:00">
+              <bu py:pytype="str">Eine hochschwangere Frau fasst sich mit beiden Händen an ihren Bauch (Archivfoto).</bu>
+              <copyright py:pytype="str">© Felix Heyder/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/dpa">
+              <display_name>dpa</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2012-06/kommentar-praenataldiagnostik" year="2012" issue="24" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-09T19:58:08+00:00" date-first-released="2012-06-07T17:57:31.790335+00:00" date-last-published="2014-07-09T22:13:48+00:00" last-semantic-change="2012-06-07T18:03:30.143100+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2012-06/kommentar-praenataldiagnostik" author="Ulrich Bahnsen">
+            <supertitle py:pytype="str">Gentest im Mutterleib</supertitle>
+            <title py:pytype="str">Neue ethische Debatten braucht es nicht</title>
+            <text py:pytype="str">Gendefekte Ungeborener sind immer rascher zu erkennen. Ethisch ist das Problem noch gering, die meisten Abtreibungen haben keinen medizinischen Grund, meint U. Bahnsen.</text>
+            <description py:pytype="str">Gendefekte Ungeborener sind immer rascher zu erkennen. Ethisch ist das Problem noch gering, die meisten Abtreibungen haben keinen medizinischen Grund, meint U. Bahnsen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2012-06/gendiagnostik-embryo/" type="jpg" title="Gendiagnostik Empryo" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/five">© five/photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Ulrich_Bahnsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrich Bahnsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2012-07/bluttest-down-syndrom-frueherkennung" year="2012" issue="28" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-23T09:31:59+00:00" date-first-released="2012-07-05T13:30:14.985704+00:00" date-last-published="2015-01-23T09:32:59.449356+00:00" last-semantic-change="2012-07-05T13:28:52.538519+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2012-07/bluttest-down-syndrom-frueherkennung" author="AFP;dpa  ">
+            <supertitle py:pytype="str">Früherkennung</supertitle>
+            <title py:pytype="str">Behindertenbeauftragter fordert Verbot von Down-Syndrom-Bluttest</title>
+            <text py:pytype="str">Der Behindertenbeauftragter der Bundesregierung hält die Früherkennung von Trisomie 21 durch eine Blutprobe für illegal. Er befürchtet eine Diskriminierung Behinderter.</text>
+            <description py:pytype="str">Der Behindertenbeauftragter der Bundesregierung hält die Früherkennung von Trisomie 21 durch eine Blutprobe für illegal. Er befürchtet eine Diskriminierung Behinderter.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2012-07/bluttest/" type="jpg" title="Bluttest" align="left" publication-date="" expires="2012-10-05T11:36:12+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Oliver Killig dpa/lsn/lsw</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/afp" publication-date="" expires="">
+              <display_name py:pytype="str">AFP</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/dpa" publication-date="" expires="">
+              <display_name py:pytype="str">dpa  </display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2012-08/trisomie-frueherkennung-bluttest" year="2012" issue="34" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-23T09:18:37+00:00" date-first-released="2012-08-20T17:07:08.007939+00:00" date-last-published="2015-01-23T09:19:36.924452+00:00" last-semantic-change="2012-08-20T16:53:36.555468+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2012-08/trisomie-frueherkennung-bluttest" author="dpa  ">
+            <supertitle py:pytype="str">Früherkennung</supertitle>
+            <title py:pytype="str">Down-Syndrom-Test ist auf dem Markt</title>
+            <text py:pytype="str">Der umstrittene Bluttest ist für den Markt freigegeben worden und wird Schwangeren angeboten. Kritiker befürchten Diskriminierung und hoffen auf eine neue Debatte.</text>
+            <description py:pytype="str">Der umstrittene Bluttest ist für den Markt freigegeben worden und wird Schwangeren angeboten. Kritiker befürchten Diskriminierung und hoffen auf eine neue Debatte.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2012-08/down-syndrom/" type="jpg" title="Schwanger: Down Syndrom" align="left" publication-date="" expires="2012-11-20T17:28:00+00:00">
+              <bu py:pytype="str">Eine im achten Monat schwangere Frau</bu>
+              <copyright py:pytype="str">© Patrick Pleul/dpa/lbn</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/dpa" publication-date="" expires="">
+              <display_name py:pytype="str">dpa  </display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2012-08/trisomie-studie" year="2012" issue="34" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-23T09:40:13+00:00" date-first-released="2012-08-23T08:05:40.161814+00:00" date-last-published="2015-01-23T09:41:11.155252+00:00" last-semantic-change="2012-08-23T08:04:23.019490+00:00" uniqueId="http://xml.zeit.de/wissen/gesundheit/2012-08/trisomie-studie" author="Adelheid Müller-Lissner">
+            <supertitle py:pytype="str">Chromosomen-Schäden</supertitle>
+            <title py:pytype="str">Ein Leben mit Trisomie ist härter und schöner als viele denken</title>
+            <text py:pytype="str">Wenn Eltern erfahren, dass ihr Baby eine Trisomie hat, ist das ein Schock. Diejenigen, die das schon hinter sich haben, berichten von Lebensglück und harten Wahrheiten.</text>
+            <description py:pytype="str">Wenn Eltern erfahren, dass ihr Baby eine Trisomie hat, ist das ein Schock. Diejenigen, die das schon hinter sich haben, berichten von Lebensglück und harten Wahrheiten.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2012-08/trisomie-down-syndrom/" type="jpg" title="Down-Syndrom Trisomie 21 Praenatest PID Bluttest" alt="Down-Syndrom Trisomie 21 Praenatest PID Bluttest " align="left" publication-date="" expires="2012-11-22T08:47:01+00:00">
+              <bu py:pytype="str">Ein Junge, der mit dem Down-Syndrom lebt.</bu>
+              <copyright py:pytype="str">© epa/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Adelheid_Mueller-Lissner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Adelheid Müller-Lissner</display_name>
+            </author>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="3348bdd7-829c-4f3b-95aa-95c3441149a2" title="Thema: Drogen" visible="True">
+          <block href="http://xml.zeit.de/wissen/gesundheit/2014-04/drogenkonsum-warum-drogen-nehmen" uniqueId="http://xml.zeit.de/wissen/gesundheit/2014-04/drogenkonsum-warum-drogen-nehmen" year="2014" issue="17" ressort="Wissen" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-06-10T15:04:28+00:00" date-first-released="2014-04-22T08:11:48.854844+00:00" date-last-published="2015-06-10T15:05:28.345044+00:00" last-semantic-change="2014-04-22T08:10:45.463640+00:00" author="Kathrin Zinkant">
+            <supertitle py:pytype="str">Drogenkonsum</supertitle>
+            <title py:pytype="str">"Alle Drogen sind schädlich, aber nicht alle sind gleich schädlich"</title>
+            <text py:pytype="str">Ein Krieg den Drogen bringt nichts, sagt David Nutt. Der Pharmakologe fordert Aufklärung statt Kriminalisierung. Und er gibt Tipps, was Eltern ihren Kindern raten können.</text>
+            <description py:pytype="str">Ein Krieg den Drogen bringt nichts, sagt David Nutt. Der Pharmakologe fordert Aufklärung statt Kriminalisierung. Und er gibt Tipps, was Eltern ihren Kindern raten können.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2014-04/drogenkonsum-cannabis-drogenpolitik/" type="jpg" title="Drogenkonsum Cannabis Drogenpolitik " alt="Drogenkonsum Cannabis Drogenpolitik " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Cannabisbefürworter tanzen im Golden Gate Park in San Francisco.</bu>
+              <copyright py:pytype="str">© Robert Galbraith/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/Z/Kathrin_Zinkant/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Kathrin Zinkant</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/2014-10/marihuana-kiffen-fuehrerscheinentzug" uniqueId="http://xml.zeit.de/wissen/2014-10/marihuana-kiffen-fuehrerscheinentzug" year="2014" issue="41" ressort="Wissen" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-10T15:23:29+00:00" date-first-released="2014-10-10T05:17:05.973043+00:00" date-last-published="2015-02-06T12:15:19.804723+00:00" last-semantic-change="2014-10-10T05:16:01.457608+00:00" author="Rainer Schmidt">
+            <supertitle py:pytype="str">Marihuana</supertitle>
+            <title py:pytype="str">Die seltsame Verfolgung der nüchternen Kiffer</title>
+            <text py:pytype="str">Wer kifft, gefährdet den Straßenverkehr. Auch ohne Rausch, jederzeit. Das glauben zumindest Behörden. Sie entziehen selbst nüchternen Taxikunden den Führerschein.</text>
+            <description py:pytype="str">Wer kifft, gefährdet den Straßenverkehr. Auch ohne Rausch, jederzeit. Das glauben zumindest Behörden. Sie entziehen selbst nüchternen Taxikunden den Führerschein.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2014-10/marihuana-kiffen-fuehrerscheinentzug-2/" type="jpg" title="Marihuana: Die seltsame Verfolgung der nüchternen Kiffer" alt="Marihuana: Die seltsame Verfolgung der nüchternen Kiffer" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Marihuana: Die getrockneten Blüten und Blätter der Cannabispflanze sind Grundlage für Joints.</bu>
+              <copyright py:pytype="str">© Jason Redmond/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Rainer_Schmidt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Rainer Schmidt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/campus/2014/06/alkoholismus-studium-anonyme-alkoholiker" uniqueId="http://xml.zeit.de/campus/2014/06/alkoholismus-studium-anonyme-alkoholiker" year="2014" issue="6" ressort="Studium" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-10T15:11:44+00:00" date-first-released="2014-11-18T05:55:00.007871+00:00" date-last-published="2015-06-10T15:12:43.838491+00:00" last-semantic-change="2014-11-21T13:56:54.947190+00:00" author="Jan Guldner">
+            <supertitle py:pytype="str">Alkoholismus</supertitle>
+            <title py:pytype="str">"Vor dem Examen einen Sekt"</title>
+            <text py:pytype="str">Vor der Klinik lackierte sie sich die Fingernägel, um nicht wie ein Alki auszusehen. Er trank mit Obdachlosen, die ihn noch akzeptierten. Protokolle junger Alkoholiker</text>
+            <description py:pytype="str">Vor der Klinik lackierte sie sich die Fingernägel, um nicht wie ein Alki auszusehen. Er trank mit Obdachlosen, die ihn noch akzeptierten. Protokolle junger Alkoholiker</description>
+            <byline py:pytype="str">von Jan Guldner</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2014-11/alkoholismus-studenten/" type="jpg" title="Alkoholismus: &quot;Vor dem Referat einen Piccolo, vor dem Examen einen Sekt&quot;" alt="Alkoholismus: &quot;Vor dem Referat einen Piccolo, vor dem Examen einen Sekt&quot;" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Viele Alkoholiker trinken heimlich zu Hause, unbemerkt von Freunden und Kollegen. </bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/185836-stock-photo-erwachsene-erholung-lampe-wohnung-maskulin-haeusliches-leben">© TimToppik/photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Jan_Guldner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jan Guldner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2014-07/drogen-crystal-meth-wirkung" uniqueId="http://xml.zeit.de/wissen/gesundheit/2014-07/drogen-crystal-meth-wirkung" year="2014" issue="28" ressort="Wissen" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-16T09:28:08+00:00" date-first-released="2014-07-03T17:20:13.042033+00:00" date-last-published="2015-06-12T08:14:35.001809+00:00" last-semantic-change="2014-07-03T17:19:09.213614+00:00" author="Philipp Woldin">
+            <supertitle py:pytype="str">Drogen</supertitle>
+            <title py:pytype="str">Crystal Meth, die Zeitgeistdroge</title>
+            <text py:pytype="str">Schneller Spaß, schnelle Abhängigkeit: Crystal Meth ist keine Modedroge, die Menschen nehmen das künstliche Mittel seit über 100 Jahren. Zeit, mit den Mythen aufzuräumen.</text>
+            <description py:pytype="str">Schneller Spaß, schnelle Abhängigkeit: Crystal Meth ist keine Modedroge, die Menschen nehmen das künstliche Mittel seit über 100 Jahren. Zeit, mit den Mythen aufzuräumen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2014-07/crystal-meth/" type="jpg" title="Drogen: Crystal Meth, die Zeitgeistdroge" alt="Drogen: Crystal Meth, die Zeitgeistdroge" align="left" publication-date="" expires="2015-08-03T15:21:00+00:00">
+              <bu py:pytype="str">Crystal Meth hat gewöhnlich die Form grober Kristalle, die an Eis erinnern. Es wird hauptsächlich geraucht.</bu>
+              <copyright py:pytype="str">© Robin Nelson/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Philipp_Woldin/index" publication-date="" expires="">
+              <display_name py:pytype="str">Philipp Woldin</display_name>
+            </author>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-c9d25026-c144-4f1f-b3a6-56e61f7e2c74" read_more_url="http://www.zeit.de/serie/psychisch-krank">
+          <block href="http://xml.zeit.de/2013/46/psychologie-therapie-arbeit" uniqueId="http://xml.zeit.de/2013/46/psychologie-therapie-arbeit" year="2013" issue="46" ressort="Wissen" serie="Psychisch krank" contenttype="article" publication-date="2013-11-14T02:31:57+00:00" expires="" date-last-modified="2014-01-13T16:16:53+00:00" date-first-released="2013-11-07T06:00:00+00:00" date-last-published="2014-01-13T16:17:53.392865+00:00" last-semantic-change="2013-11-16T12:03:05.017577+00:00" author="Stefanie Schramm">
+            <supertitle py:pytype="str">Serie Psychisch krank</supertitle>
+            <title py:pytype="str">Kaum Jobchancen für psychisch Kranke</title>
+            <text py:pytype="str">Sich abzugrenzen ist für psychisch Kranke oft der falsche Weg, Arbeit wäre beste Therapie. Doch weil ihnen kaum jemand bei der Jobsuche hilft, finden viele keinen Beruf.</text>
+            <description py:pytype="str">Sich abzugrenzen ist für psychisch Kranke oft der falsche Weg, Arbeit wäre beste Therapie. Doch weil ihnen kaum jemand bei der Jobsuche hilft, finden viele keinen Beruf.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-11/psyche-arbeit/" type="jpg" title="Psychisch Krank Arbeit Therapie" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© inkje/photocase</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Stefanie_Schramm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Schramm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-10/angst-panik-psychologie-therapie" uniqueId="http://xml.zeit.de/wissen/gesundheit/2013-10/angst-panik-psychologie-therapie" year="2013" issue="41" ressort="Wissen" serie="Psychisch krank" contenttype="article" publication-date="" expires="" genre="bericht" date-last-modified="2014-01-03T11:24:24+00:00" date-first-released="2013-10-11T14:32:43.581834+00:00" date-last-published="2013-10-11T20:22:48.352648+00:00" last-semantic-change="2013-11-14T09:56:56.069591+00:00" author="Julia Völker">
+            <supertitle py:pytype="str">Serie Psychisch krank</supertitle>
+            <title py:pytype="str">Ein Leben, erstarrt vor Todesangst</title>
+            <text py:pytype="str">Fahrstuhlfahren oder Fliegen – das sind banale Dinge? Nicht für Menschen, die dabei echte Panik erleben. Nichts davon ist Einbildung. Die beste Hilfe: Konfrontation.</text>
+            <description py:pytype="str">Fahrstuhlfahren oder Fliegen – das sind banale Dinge? Nicht für Menschen, die dabei echte Panik erleben. Nichts davon ist Einbildung. Die beste Hilfe: Konfrontation.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-10/angst-frau-jalousie/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/448926-stock-photo-mensch-frau-kind-jugendliche-hand-einsamkeit">© C/L / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/V/Julia_Voelker/index" publication-date="" expires="">
+              <display_name py:pytype="str">Julia Völker</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-11/essstoerung-bulimie-magersucht" uniqueId="http://xml.zeit.de/wissen/gesundheit/2013-11/essstoerung-bulimie-magersucht" year="2013" issue="46" ressort="Wissen" serie="Psychisch krank" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-06T14:35:25+00:00" date-first-released="2013-11-13T14:18:41.490419+00:00" date-last-published="2014-05-06T14:36:25.508470+00:00" last-semantic-change="2013-11-13T14:17:36.941629+00:00" author="Julia Völker">
+            <supertitle py:pytype="str">Bulimie</supertitle>
+            <title py:pytype="str">Ekel vor dem eigenen Körper</title>
+            <text py:pytype="str">Seit 20 Jahren hat Amanda Kobler Bulimie. Sie isst stets bis zum Erbrechen. Das Paradoxe: Die Essstörung, die sie körperlich zerstört, gibt ihr gleichzeitig Kraft.</text>
+            <description py:pytype="str">Seit 20 Jahren hat Amanda Kobler Bulimie. Sie isst stets bis zum Erbrechen. Das Paradoxe: Die Essstörung, die sie körperlich zerstört, gibt ihr gleichzeitig Kraft.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-11/spiegelbild-psyche-krank/" type="jpg" alt="Zerbrochener Spiegel" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/juttarotter">© Juttaschnecke/photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/V/Julia_Voelker/index" publication-date="" expires="">
+              <display_name py:pytype="str">Julia Völker</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-09/magersucht-essstoerung-therapie-psyche" uniqueId="http://xml.zeit.de/wissen/gesundheit/2013-09/magersucht-essstoerung-therapie-psyche" year="2013" issue="38" ressort="Wissen" serie="Psychisch krank" contenttype="article" publication-date="" expires="" genre="bericht" date-last-modified="2014-05-06T14:35:25+00:00" date-first-released="2013-09-27T11:27:22.991236+00:00" date-last-published="2014-05-06T14:36:24.293872+00:00" last-semantic-change="2013-09-27T10:07:14.212115+00:00" author="Julia Völker">
+            <supertitle py:pytype="str">Serie Psychisch krank</supertitle>
+            <title py:pytype="str">Zu perfekt, um gesund zu sein</title>
+            <text py:pytype="str">Disziplin, Fleiß und Selbstkontrolle sind Tugenden, die unsere Gesellschaft mit Anerkennung und Erfolg belohnt. Im Extremfall führen sie in die Magersucht.</text>
+            <description py:pytype="str">Disziplin, Fleiß und Selbstkontrolle sind Tugenden, die unsere Gesellschaft mit Anerkennung und Erfolg belohnt. Im Extremfall führen sie in die Magersucht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-09/yoga-entspannung-seele/" type="jpg" title="Magersucht Psychologie Yoga Sport Esstörung Entspannung" alt="Magersucht Psychologie Yoga Sport Esstörung Entspannung" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/cpapke">© jameek/Photocase</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/V/Julia_Voelker/index" publication-date="" expires="">
+              <display_name py:pytype="str">Julia Völker</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="0107d0a2-320e-42fd-994e-35513a3dc04a">
+          <block type="intern" href="http://xml.zeit.de/wissen/2010-05/quiz-ernaehrung" year="2009" issue="20" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-04-19T07:39:28+00:00" date-first-released="2010-05-31T15:05:45.823849+00:00" date-last-published="2011-07-14T14:58:09.675819+00:00" last-semantic-change="2012-04-19T07:32:54.784690+00:00" contenttype="quiz" uniqueId="http://xml.zeit.de/wissen/2010-05/quiz-ernaehrung">
+            <supertitle py:pytype="str">Ernährungs-Quiz</supertitle>
+            <title py:pytype="str">Von Kalorien und Ernährungsmythen</title>
+            <text py:pytype="str">Kalorien, Fette, Eiweiße und Kohlenhydrate – Was sorgt wirklich für die kleinen Speckröllchen? Wie gut kennen Sie sich mit gesunder Ernährung aus? Testen Sie Ihr Wissen.</text>
+            <description py:pytype="str">Kalorien, Fette, Eiweiße und Kohlenhydrate – Was sorgt wirklich für die kleinen Speckröllchen? Wie gut kennen Sie sich mit gesunder Ernährung aus? Testen Sie Ihr Wissen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/bilder/2009/20/wissen/quiz-ernaehrung/09/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=152871">© farfalla/Photocase</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Gesundheit</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Gesundheit</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Gesundheit</text>
+  </indexteaser>
+</centerpage>

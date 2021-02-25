@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <image align="left" base-id="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-teaser/" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str" link="http://www.photocase.de/foto/185892-stock-photo-mensch-kind-wasser-maedchen-sommer-freude">© Miriola Dzik/Photocase</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-04-22T09:44:33.389456+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-04-08T08:41:07.551746+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-04-22T09:45:49.435163+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-08</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Zwölf Millionen Deutsche können keinen Nachwuchs bekommen. Wie gehen sie mit der Kinderlosigkeit um? Unsere Serie "UNGEWOLLT KINDERLOS" zeigt es.</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Ungewollt kinderlos | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-04-22T09:43:56.996739+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2014-01-02</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.cruz</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Gesellschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">Ungewollt kinderlos</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">2592</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f25ef8d6-9613-44c3-94fb-cba9d70d4e93}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">14</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-1a85bb94-75d6-430c-8d23-85f0d6ce9331">
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-03/ungewollt-kinderlos-infografiken" year="2013" issue="14" ressort="Wissen" publication-date="" expires="" date-last-modified="2014-04-22T09:44:36+00:00" date-first-released="2013-04-08T08:39:17.818519+00:00" date-last-published="2013-04-09T09:21:27.479573+00:00" last-semantic-change="2013-04-10T12:35:39.385630+00:00" contenttype="article" author="Paul Blickle;Lydia Klöckner">
+            <supertitle py:pytype="str">Fakten zur Unfruchtbarkeit</supertitle>
+            <title py:pytype="str">Wenn das Wunschkind ausbleibt</title>
+            <text py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</text>
+            <description py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-04/rechte-gg-paare/" type="jpg" title="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare - Teaser" alt="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/gesellschaft/2013-04/ungewollt-kinderlos" year="2013" issue="14" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2014-04-22T09:44:30+00:00" date-first-released="2013-04-08T08:41:29.601989+00:00" date-last-published="2014-04-08T13:09:58+00:00" last-semantic-change="2013-04-08T08:38:20.707490+00:00" contenttype="article" author="Karsten Polke-Majewski">
+            <supertitle py:pytype="str">Unfruchtbarkeit</supertitle>
+            <title py:pytype="str">Schicksal ungewollt kinderlos</title>
+            <text py:pytype="str">Wer kein Kind bekommen kann, leidet im Verborgenen. Zwar gilt Zeugungsunfähigkeit als medizinisch behebbar, aber sie ist gesellschaftlich ein Tabu. Von K. Polke-Majewski</text>
+            <description py:pytype="str">Wer kein Kind bekommen kann, leidet im Verborgenen. Zwar gilt Zeugungsunfähigkeit als medizinisch behebbar, aber sie ist gesellschaftlich ein Tabu. Von K. Polke-Majewski</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-paar/" type="jpg" alt="Ungewollt kinderlos" align="left" publication-date="" expires="2013-07-12T10:55:20+00:00">
+              <bu py:pytype="str">Paare, die keine Kinder bekommen können, wollen oft nicht erkannt werden. Warum eigentlich?</bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <teaser_supertitle py:pytype="str">Unfruchtbarkeit</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-02/samenspende-rechte-kind-vater-kommentar" year="2013" issue="7" ressort="Wissen" publication-date="" expires="" date-last-modified="2014-03-24T09:23:54+00:00" date-first-released="2013-02-07T18:04:28.293377+00:00" date-last-published="2014-03-09T23:16:52+00:00" last-semantic-change="2013-02-07T17:48:27.908750+00:00" contenttype="article" author="Sven Stockrahm">
+            <supertitle py:pytype="str">Samenspenden</supertitle>
+            <title py:pytype="str">Moderne Familien vertragen die Wahrheit</title>
+            <text py:pytype="str">Wer Samen spendet, bleibt nicht mehr unbekannt. Nun ist endlich Zeit für offene Gespräche – und eine klare gesetzliche Regelung, kommentiert Sven Stockrahm.</text>
+            <description py:pytype="str">Wer Samen spendet, bleibt nicht mehr unbekannt. Nun ist endlich Zeit für offene Gespräche – und eine klare gesetzliche Regelung, kommentiert Sven Stockrahm.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-02/samenspende-identitaet-2/" type="jpg" title="Samenspende Identität" align="left" publication-date="" expires="2013-05-07T08:42:43+00:00">
+              <bu py:pytype="str">Reportage au Service de Chirurgie Gynécologique de l'hôpital Antoine-Béclère (92). Ponction folliculaire pour une FIV (fécondation in vitro) : recueil du liquide folliculaire contenant les ovocytes.</bu>
+              <copyright py:pytype="str">© BSIP/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Samenspende</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-83f4f83b-9b59-407c-ab7f-5317f7375a0c">
+          <block href="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-leben" year="2013" issue="14" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2014-04-22T09:44:29+00:00" date-first-released="2013-04-14T08:00:13.724619+00:00" date-last-published="2014-04-08T11:34:37+00:00" last-semantic-change="2013-04-14T07:58:35.598025+00:00" contenttype="article" author="Meike Dülffer">
+            <supertitle py:pytype="str">Infertilität</supertitle>
+            <title py:pytype="str">Ist halt so</title>
+            <text py:pytype="str">Was, wenn künstliche Befruchtung nichts bringt? Clara und Peter Riewald haben nach zwei Versuchen aufgegeben und ihren Frieden damit gemacht. Von Meike Dülffer</text>
+            <description py:pytype="str">Was, wenn künstliche Befruchtung nichts bringt? Clara und Peter Riewald haben nach zwei Versuchen aufgegeben und ihren Frieden damit gemacht. Von Meike Dülffer</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-leben/" type="jpg" alt="Infertilität" align="left" publication-date="" expires="2013-06-27T13:22:19+00:00">
+              <bu py:pytype="str">Geht das: Glücklich sein ohne Kinder?</bu>
+              <copyright py:pytype="str">© Karl-Josef Hildenbrand/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Ungewollt kinderlos</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/D/Meike_Duelffer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Meike Dülffer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3cecf548-70cc-4568-970e-f2b17f396d47">
+          <block href="http://xml.zeit.de/gesellschaft/familie/2013-04/leseratikel-medizin-marathon-schwanger" year="2013" issue="16" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2013-12-18T11:02:50+00:00" date-first-released="2013-04-14T12:23:15.705549+00:00" date-last-published="2013-12-02T20:44:49+00:00" last-semantic-change="2013-04-14T12:21:38.744787+00:00" contenttype="article" author="Nicole G.">
+            <supertitle py:pytype="str">Ungewollt kinderlos</supertitle>
+            <title py:pytype="str">Medizinischer Marathon bis zur Schwangerschaft</title>
+            <text py:pytype="str">Ihrem Kinderwunsch können Leserin Nicole G. und ihr Mann nur mithilfe moderner Medizin näherkommen. Auf dem Weg dorthin wechseln sich Enttäuschung und Hoffnung ab.</text>
+            <description py:pytype="str">Ihrem Kinderwunsch können Leserin Nicole G. und ihr Mann nur mithilfe moderner Medizin näherkommen. Auf dem Weg dorthin wechseln sich Enttäuschung und Hoffnung ab.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-04/eizelle/" type="jpg" title="Eizelle" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-8d5740fb-a2ef-46b1-b6eb-adcf53555f53">
+          <block href="http://xml.zeit.de/gesellschaft/familie/2013-04/regenbogenfamilie" year="2013" issue="13" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2014-04-22T09:44:31+00:00" date-first-released="2013-04-13T08:04:42.530282+00:00" date-last-published="2014-04-08T11:49:33+00:00" last-semantic-change="2013-04-13T08:00:57.471264+00:00" contenttype="article" author="Sven Stockrahm">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Schwul-lesbische Eltern</supertitle>
+            <title py:pytype="str">Vater, Vater, Mutter, Mutter, Kind, Kind</title>
+            <text py:pytype="str">Kinder sind für schwul-lesbische Paare nie zufällig. Ihr Nachwuchs ist immer unbedingt gewollt. Das kann von Vorteil sein. Von Sven Stockrahm</text>
+            <description py:pytype="str">Kinder sind für schwul-lesbische Paare nie zufällig. Ihr Nachwuchs ist immer unbedingt gewollt. Das kann von Vorteil sein. Von Sven Stockrahm</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-03/regenbogenfamilie/" type="jpg" title="Regenbogenfamilie" alt="Regenbogenfamilie" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Familie Kreuzer* im März 2013 bei der Eröffnung des Regenbogenfamilienzentrums. Der ersten deutschen Beratungsstelle für lesbische, schwule, bisexuelle und transidente Menschen mit Kindern.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Regenbogenfamilie</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-43587b72-7883-4f20-ade7-9e2d06390613">
+          <block href="http://xml.zeit.de/gesellschaft/familie/2013-04/leserartikel-unfruchtbar-liebe-finden" year="2013" issue="16" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2013-12-02T19:45:11+00:00" date-first-released="2013-04-13T12:36:40.919019+00:00" date-last-published="2013-12-02T20:46:30+00:00" last-semantic-change="2013-04-13T12:35:08.573437+00:00" contenttype="article" author="Ivonne Zimmermann*">
+            <supertitle py:pytype="str">Unfruchtbare Liebe</supertitle>
+            <title py:pytype="str">Traumfrau ohne Eierstöcke</title>
+            <text py:pytype="str">Von Geburt an hat Leserin Ivonne Zimmermann weder Gebärmutter noch Eierstöcke. Dass sie nicht Mutter werden kann, erschwert ihre Suche nach einem Mann fürs Leben.</text>
+            <description py:pytype="str">Von Geburt an hat Leserin Ivonne Zimmermann weder Gebärmutter noch Eierstöcke. Dass sie nicht Mutter werden kann, erschwert ihre Suche nach einem Mann fürs Leben.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-04/liebespaar/" type="jpg" title="Liebespaar" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/photodownload.asp?m=download&amp;dgid=5441459">© Joernemann/Photocase</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-8232c61d-d8a6-4f2b-b3e6-52a35014be4c">
+          <block href="http://xml.zeit.de/gesellschaft/familie/2013-04/leserartikel-kinderlos-drei-schwangerschaften" year="2013" issue="15" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2014-04-22T09:44:31+00:00" date-first-released="2013-04-12T12:14:18.266102+00:00" date-last-published="2013-12-02T20:46:30+00:00" last-semantic-change="2013-04-12T12:11:19.278206+00:00" contenttype="article" author="Anke J.">
+            <supertitle py:pytype="str">Ungewollt Kinderlos</supertitle>
+            <title py:pytype="str">Aus Angst nicht mehr schwanger</title>
+            <text py:pytype="str">Kinderlosigkeit ist nicht nur ein Ergebnis von Unfruchtbarkeit. Diese Erfahrung musste Leserin Anke J. nach drei erfolglosen Schwangerschaften machen.</text>
+            <description py:pytype="str">Kinderlosigkeit ist nicht nur ein Ergebnis von Unfruchtbarkeit. Diese Erfahrung musste Leserin Anke J. nach drei erfolglosen Schwangerschaften machen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-04/schwangerschaftstest/" type="jpg" title="Schwangerschaftstest" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/photodownload.asp?m=download&amp;dgid=5440964">© vandalay/Photocase</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-7b11d3c1-da98-492c-accd-45e809c4e372">
+          <block href="http://xml.zeit.de/wissen/2013-04/ungewollt-kinderlos-giovanni-maio" year="2013" issue="15" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-12-02T19:46:42+00:00" date-first-released="2013-04-12T09:44:05.709396+00:00" date-last-published="2013-12-02T20:48:09+00:00" last-semantic-change="2013-04-12T09:42:41.010431+00:00" contenttype="article" author="Lydia Klöckner">
+            <supertitle py:pytype="str">Medizinethik</supertitle>
+            <title py:pytype="str">"Kinder kann man nicht erzwingen"</title>
+            <text py:pytype="str">Die Reproduktionsmedizin suggeriert absolute Machbarkeit. Das ist falsch, sagt Medizinethiker Giovanni Maio. Manchmal ist es besser, Kinderlosigkeit zu akzeptieren.</text>
+            <description py:pytype="str">Die Reproduktionsmedizin suggeriert absolute Machbarkeit. Das ist falsch, sagt Medizinethiker Giovanni Maio. Manchmal ist es besser, Kinderlosigkeit zu akzeptieren.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-04/Giovanni-Maio/" type="jpg" title="Giovanni Maio" alt="Giovanni Maio" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Giovanni Maio</bu>
+              <copyright py:pytype="str">© privat</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Ungewollt kinderlos</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="d78e7d80-9287-4960-bdee-46efabb36118">
+          <block href="http://xml.zeit.de/wissen/2013-04/kinderlos-samenspender-eltern" year="2013" issue="15" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:35+00:00" date-first-released="2013-04-11T08:29:19.505056+00:00" date-last-published="2014-03-09T11:34:13+00:00" last-semantic-change="2013-04-11T08:50:21.155674+00:00" author="Lydia Klöckner">
+            <supertitle py:pytype="str">Samenspende</supertitle>
+            <title py:pytype="str">Spender Nummer 4.077</title>
+            <text py:pytype="str">Britta Günther wollte nie darüber reden, dass sie ihre Kinder mithilfe einer Samenspende aus den USA bekommen hatte. Bis sie in ihnen Züge eines Fremden entdeckte.</text>
+            <description py:pytype="str">Britta Günther wollte nie darüber reden, dass sie ihre Kinder mithilfe einer Samenspende aus den USA bekommen hatte. Bis sie in ihnen Züge eines Fremden entdeckte.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-03/kinderlos-abstammung/" type="jpg" alt="Samenspende" align="left" publication-date="" expires="2013-07-13T12:53:19+00:00">
+              <bu py:pytype="str">In der Universitätsfrauenklinik in Leipzig geht im Labor des Zentrums für Reproduktionsmedizin die Laboringenieurin Regina Blumrich am 13.10.2010 an Abbildungen von Eizellen nach einer künstlichen Befruchtung vorbei. </bu>
+              <copyright py:pytype="str">© Waltraud Grubitzsch/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Samenbank</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Lydia_Kloeckner" publication-date="" expires="">
+              <display_name py:pytype="str">Lydia Klöckner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="66a5d857-94dc-4ff5-9b4f-22137d3dd0d7">
+          <block href="http://xml.zeit.de/wissen/2013-04/kinderlos-samenspender-kind" year="2013" issue="15" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:35+00:00" date-first-released="2013-04-11T13:08:21.475149+00:00" date-last-published="2014-04-08T12:28:50+00:00" last-semantic-change="2013-04-11T13:06:19.925949+00:00" author="Lydia Klöckner">
+            <supertitle py:pytype="str">Samenspende</supertitle>
+            <title py:pytype="str">"Ich bin froh, nicht mit diesem Mann verwandt zu sein"</title>
+            <text py:pytype="str">Mit 17 erfuhr Paulina, dass sie aus einer Samenspende entstanden ist. Zum Glück, sagt sie heute. Denn die Gene ihres sozialen Vaters möchte sie nicht in sich tragen.</text>
+            <description py:pytype="str">Mit 17 erfuhr Paulina, dass sie aus einer Samenspende entstanden ist. Zum Glück, sagt sie heute. Denn die Gene ihres sozialen Vaters möchte sie nicht in sich tragen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-04/kinderlos-abstammung-3/" type="jpg" title="Frau Park" alt="Eine junge Frau in einem Park in Hamburg " align="left" publication-date="" expires="2013-07-05T13:30:51+00:00">
+              <bu py:pytype="str">Eine junge Frau in einem Park in Hamburg </bu>
+              <copyright py:pytype="str">© Maurizio Gambarini/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Samenspende</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Lydia_Kloeckner" publication-date="" expires="">
+              <display_name py:pytype="str">Lydia Klöckner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="00b070a2-a3c2-4079-b155-00b9b2105dc5">
+          <block href="http://xml.zeit.de/wissen/2013-04/gruende-unfruchtbarkeit" year="2013" issue="14" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:34+00:00" date-first-released="2013-04-08T08:41:04.163491+00:00" date-last-published="2013-12-02T20:55:44+00:00" last-semantic-change="2013-04-05T09:11:37.317328+00:00" author="Stefanie Schuetten">
+            <supertitle py:pytype="str">Unfruchtbarkeit</supertitle>
+            <title py:pytype="str">Was tun bei ungewollter Kinderlosigkeit?</title>
+            <text py:pytype="str">Millionen Menschen wünschen sich Kinder, bekommen aber keine. Welche Gründe gibt es dafür und welche Behandlungen? Fragen und Antworten zur Kinderlosigkeit</text>
+            <description py:pytype="str">Millionen Menschen wünschen sich Kinder, bekommen aber keine. Welche Gründe gibt es dafür und welche Behandlungen? Fragen und Antworten zur Kinderlosigkeit</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-03/kinderlos-faq/" type="jpg" alt="Unfruchtbarkeit" align="left" publication-date="" expires="2013-10-12T09:53:08+00:00">
+              <bu py:pytype="str">Mikroskopische Aufnahme einer menschlichen Eizelle, die in einem Speziallabor in Dresden zu Demonstrationszwecken injiziert wird.</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Unfruchtbarkeit</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Stefanie_Schuetten/index" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Schuetten</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="05b6c398-3364-4c32-b10c-dbe413b7e4ad">
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-04/kinderwunsch-komplementaermedizin" year="2013" issue="13" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:36+00:00" date-first-released="2013-04-10T13:27:44.841563+00:00" date-last-published="2013-12-02T20:51:57+00:00" last-semantic-change="2013-04-10T13:26:23.027299+00:00" author="Adelheid Müller-Lissner">
+            <supertitle py:pytype="str">Kinderwunsch</supertitle>
+            <title py:pytype="str">Für die Männer Vitamine, für die Frauen Yoga</title>
+            <text py:pytype="str">Vitalstoffe, Ayurveda, Homöopathie – viele Paare versuchen alles, um ein Kind zu bekommen. Im schlimmsten Fall verlieren sie wertvolle Zeit, sagen Reproduktionsmediziner.</text>
+            <description py:pytype="str">Vitalstoffe, Ayurveda, Homöopathie – viele Paare versuchen alles, um ein Kind zu bekommen. Im schlimmsten Fall verlieren sie wertvolle Zeit, sagen Reproduktionsmediziner.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-04/kinderlos-therapie-2/" type="jpg" align="left" publication-date="" expires="2013-07-05T12:11:22+00:00">
+              <bu py:pytype="str">Hilft Yoga, Kinder zu bekommen?</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Kinderwunsch</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Adelheid_Mueller-Lissner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Adelheid Müller-Lissner</display_name>
+            </author>
+          </block>
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wirtschaft/2012-12/nestle-chinesische-medizin" year="2012" issue="49" ressort="Wirtschaft" contenttype="link" publication-date="" expires="" ns1:href="http://blog.zeit.de/china/2012/12/03/nestle-will-den-markt-fur-chinesische-medizin-erobern/" date-last-modified="2012-12-03T14:49:12+00:00" date-first-released="2012-12-03T14:48:38.463557+00:00" date-last-published="2012-12-03T14:50:12.514766+00:00" last-semantic-change="2012-12-03T13:58:43.912746+00:00" author="Felix Lee">
+            <supertitle py:pytype="str">Gesundheitsmarkt</supertitle>
+            <title py:pytype="str">Nestlé entdeckt die Akupunktur</title>
+            <text py:pytype="str">Nestlé will den Markt für chinesische Medizin erobern und verbündet sich mit einer Firma aus Hong-Kong. Bald schon soll es erste Medikamente geben. Von Felix Lee, Peking </text>
+            <description py:pytype="str">Nestlé will den Markt für chinesische Medizin erobern und verbündet sich mit einer Firma aus Hong-Kong. Bald schon soll es erste Medikamente geben. Von Felix Lee, Peking </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2012-12/nestle-akupunktur/" type="jpg" title="nestle-akupunktur" align="left" publication-date="" expires="2013-01-03T13:56:32+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="0de0d4e1-0f04-4f82-a2e7-1bc340e7bea4">
+          <block href="http://xml.zeit.de/gesellschaft/2013-04/unfruchtbarkeit-mann" year="2013" issue="14" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:30+00:00" date-first-released="2013-04-09T09:05:44.776124+00:00" date-last-published="2014-04-08T13:09:58+00:00" last-semantic-change="2013-04-09T09:46:26.445975+00:00" author="Karsten Polke-Majewski">
+            <supertitle py:pytype="str">Unfruchtbarkeit beim Mann</supertitle>
+            <title py:pytype="str">Schweißer, Autonarr, unfruchtbar</title>
+            <text py:pytype="str">Michael Jürß wollte immer Kinder haben. Doch es will einfach nicht klappen. Wie lebt ein Mann mit diesem Makel? Von Karsten Polke-Majewski</text>
+            <description py:pytype="str">Michael Jürß wollte immer Kinder haben. Doch es will einfach nicht klappen. Wie lebt ein Mann mit diesem Makel? Von Karsten Polke-Majewski</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-juerss-3/" type="jpeg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Glück auf vier Rädern: Michael Jürß in seinem 72er Oldsmobile Toronado</bu>
+              <copyright py:pytype="str">© Philipp Gülland</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Männer ohne Kinder</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-8970fe2b-468f-478b-8e26-a7b0d7dbabe0">
+          <block href="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-kuenstliche-befruchtung-kosten" year="2013" issue="14" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:29+00:00" date-first-released="2013-04-10T09:24:12.279379+00:00" date-last-published="2014-04-08T12:53:50+00:00" last-semantic-change="2013-04-10T09:19:50.913492+00:00" author="Steffi Fetz">
+            <supertitle py:pytype="str">Künstliche Befruchtung</supertitle>
+            <title py:pytype="str">Zu arm zum Kinderkriegen</title>
+            <text py:pytype="str">Ist Kinderwunschbehandlung nur etwas für Reiche? Paare wie Marie und Sebastian kommen an ihre Grenzen, wenn die Kasse nicht mehr zahlt. Von Steffi Fetz</text>
+            <description py:pytype="str">Ist Kinderwunschbehandlung nur etwas für Reiche? Paare wie Marie und Sebastian kommen an ihre Grenzen, wenn die Kasse nicht mehr zahlt. Von Steffi Fetz</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-arm/" type="jpg" alt="Kosten künstlicher Befruchtung" align="left" publication-date="" expires="2013-07-09T12:29:53+00:00">
+              <bu py:pytype="str">In der Universitaetsfrauenklinik in Leipzig entnehmen bei einer Operation der Leiter des Zentrums fuer Reproduktionsmedizin, gynäkologische Endokrinologie und Sexualmedizin, Ärzte bei einer Patientin Eizellen für eine künstliche Befruchtung, aufgenommen am 13.10.2010.</bu>
+              <copyright py:pytype="str">© Waltraud Grubitzsch/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Künstliche Befruchtung</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Steffi_Fetz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Steffi Fetz</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/45/Eizellenspende" year="2011" issue="45" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-12-03T15:34:20+00:00" date-first-released="2011-11-03T06:00:00+00:00" date-last-published="2013-12-03T16:36:47+00:00" last-semantic-change="2011-11-03T09:41:35.890512+00:00" contenttype="article" author="Martin Spiewak">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Eizellspende</supertitle>
+            <title py:pytype="str">Für ein Baby nach Prag</title>
+            <text py:pytype="str">Eizellspenden bleiben in Österreich verboten und damit auch in Deutschland. Unfruchtbare Paare werden nun weiter ins Ausland fahren müssen, wie das Ehepaar Zieler.</text>
+            <description py:pytype="str">Eizellspenden bleiben in Österreich verboten und damit auch in Deutschland. Unfruchtbare Paare werden nun weiter ins Ausland fahren müssen, wie das Ehepaar Zieler.</description>
+            <byline py:pytype="str">VON MARTIN SPIEWAK</byline>
+            <image base-id="http://xml.zeit.de/wissen/2011-11/s41-eizelle/" type="jpg" title="Eizelle Eizellspende" alt="Eine mikroskopische Aufnahme zeigt eine menschliche Eizelle, die von Spermien umgeben ist (Archivfoto)." align="left" publication-date="" expires="2012-02-02T17:22:39+00:00">
+              <bu py:pytype="str">Eine mikroskopische Aufnahme zeigt eine menschliche Eizelle, die von Spermien umgeben ist (Archivfoto).</bu>
+              <copyright py:pytype="str">© Jan-Peter Kasper/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Martin_Spiewak/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Martin Spiewak</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2011/05/Medizin-Technik-Kinder" year="2011" issue="5" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-12-03T20:39:08+00:00" date-first-released="2011-08-02T06:00:00+00:00" date-last-published="2013-12-03T21:40:05+00:00" last-semantic-change="2011-09-28T08:43:36.813262+00:00" contenttype="article" author="Ute Eberle">
+            <supertitle py:pytype="str">Reproduktionsmedizin</supertitle>
+            <title py:pytype="str">Kinderkriegen mit Hightech-Methoden</title>
+            <text py:pytype="str">Mediziner erfinden immer neue Techniken, Kinder zu zeugen. Jede wirft ethische Fragen auf. Wie weit dürfen wir noch gehen, fragt Autorin Uta Eberle.</text>
+            <description py:pytype="str">Mediziner erfinden immer neue Techniken, Kinder zu zeugen. Jede wirft ethische Fragen auf. Wie weit dürfen wir noch gehen, fragt Autorin Uta Eberle.</description>
+            <byline py:pytype="str">Von Ute Eberle</byline>
+            <image base-id="http://xml.zeit.de/wissen/2011-09/s56-fortpflanzung-ethik/" type="jpg" title="Fortpflantzung Schwangerschaft Ethik Präimplantationsdiagnostik ZEIT WISSEN" alt="Fortpflantzung Schwangerschaft Ethik Präimplantationsdiagnostik ZEIT WISSEN" align="left" publication-date="" expires="2011-12-21T10:38:03+00:00">
+              <bu py:pytype="str">Im Kinderwunschzentrum Leipzig werden Embryonen in eine Kulturflüssigkeit injiziert.</bu>
+              <copyright py:pytype="str">© Waltraud Grubitzsch/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/E/Ute_Eberle/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ute Eberle</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="eb4439b9-27ff-4ace-b7fa-79459bfbc50c">
+          <block href="http://xml.zeit.de/gesellschaft/2013-04/kuenstliche-befruchtung-entscheidung" year="2013" issue="15" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T19:52:53+00:00" date-first-released="2013-04-09T13:03:39.507568+00:00" date-last-published="2013-12-02T20:53:37+00:00" last-semantic-change="2013-04-09T13:13:08.122483+00:00" author="Parvin Sadigh">
+            <supertitle py:pytype="str">Kinderwunsch</supertitle>
+            <title py:pytype="str">Als wäre jemand gestorben</title>
+            <text py:pytype="str">Sie haben sich für Kinder entschieden, aber schwanger werden sie nicht. Ein Schock für Frauen, die ihr Leben sonst erfolgreich planen. Von Parvin Sadigh</text>
+            <description py:pytype="str">Sie haben sich für Kinder entschieden, aber schwanger werden sie nicht. Ein Schock für Frauen, die ihr Leben sonst erfolgreich planen. Von Parvin Sadigh</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-wunsch-4/" type="jpg" align="left" publication-date="" expires="2013-07-05T14:51:41+00:00">
+              <bu py:pytype="str">Eine Praxis für Gynäkologie</bu>
+              <copyright py:pytype="str">© Klaus Rose/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Künstliche Befruchtung</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Parvin_Sadigh/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Parvin Sadigh</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="36666fbd-52b2-4fbc-8d48-de27eb96cda8">
+          <block href="http://xml.zeit.de/gesellschaft/2013-04/ungewollt-kinderlos" year="2013" issue="14" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:30+00:00" date-first-released="2013-04-08T08:41:29.601989+00:00" date-last-published="2014-04-08T13:09:58+00:00" last-semantic-change="2013-04-08T08:38:20.707490+00:00" author="Karsten Polke-Majewski">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Unfruchtbarkeit</supertitle>
+            <title py:pytype="str">Schicksal ungewollt kinderlos</title>
+            <text py:pytype="str">Wer kein Kind bekommen kann, leidet im Verborgenen. Zwar gilt Zeugungsunfähigkeit als medizinisch behebbar, aber sie ist gesellschaftlich ein Tabu. Von K. Polke-Majewski</text>
+            <description py:pytype="str">Wer kein Kind bekommen kann, leidet im Verborgenen. Zwar gilt Zeugungsunfähigkeit als medizinisch behebbar, aber sie ist gesellschaftlich ein Tabu. Von K. Polke-Majewski</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-paar/" type="jpg" alt="Ungewollt kinderlos" align="left" publication-date="" expires="2013-07-12T10:55:20+00:00">
+              <bu py:pytype="str">Paare, die keine Kinder bekommen können, wollen oft nicht erkannt werden. Warum eigentlich?</bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Unfruchtbarkeit</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-03/ungewollt-kinderlos-infografiken" year="2013" issue="14" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:36+00:00" date-first-released="2013-04-08T08:39:17.818519+00:00" date-last-published="2013-04-09T09:21:27.479573+00:00" last-semantic-change="2013-04-10T12:35:39.385630+00:00" author="Paul Blickle;Lydia Klöckner">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Fakten zur Unfruchtbarkeit</supertitle>
+            <title py:pytype="str">Wenn das Wunschkind ausbleibt</title>
+            <text py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</text>
+            <description py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-04/rechte-gg-paare/" type="jpg" title="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare - Teaser" alt="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/themen/gesellschaft/ungewollt-kinderlos/index" year="2013" issue="14" ressort="Gesellschaft" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-04-22T09:44:33+00:00" date-first-released="2013-04-08T08:41:07.551746+00:00" date-last-published="2014-04-22T09:45:49.435163+00:00" last-semantic-change="2014-04-22T09:43:56.996739+00:00">
+            <supertitle py:pytype="str">Thema</supertitle>
+            <title py:pytype="str">Ungewollt kinderlos</title>
+            <text py:pytype="str">Wer Kinder will, hat kein Problem? Sechs Millionen Deutsche können keinen Nachwuchs bekommen. Wie gehen sie mit dieser Lebenskrise um? </text>
+            <description py:pytype="str">Wer Kinder will, hat kein Problem? Sechs Millionen Deutsche können keinen Nachwuchs bekommen. Wie gehen sie mit dieser Lebenskrise um? </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/185892-stock-photo-mensch-kind-wasser-maedchen-sommer-freude">© Miriola Dzik/Photocase</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-a16d8644-e180-4918-b607-d600076076a5">
+          <block href="http://xml.zeit.de/wissen/gesundheit/2011-06/reproduktionszentren-pid-ausland" year="2011" issue="27" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-12-03T22:18:53+00:00" date-first-released="2011-06-30T17:43:43.293592+00:00" date-last-published="2013-12-03T23:22:03+00:00" last-semantic-change="2011-06-30T14:28:12.581270+00:00" contenttype="article" author="Adelheid Müller-Lissner">
+            <supertitle py:pytype="str">Reproduktionsmedizin</supertitle>
+            <title py:pytype="str">Für den Kinderwunsch in die Klinik im Ausland</title>
+            <text py:pytype="str">Nachwuchs dank PID oder Eizellspende: Kinderwunschkliniken in Europa locken mit Methoden, die in Deutschland verboten sind. Für einige Paare sind sie die letzte Hoffnung.</text>
+            <description py:pytype="str">Nachwuchs dank PID oder Eizellspende: Kinderwunschkliniken in Europa locken mit Methoden, die in Deutschland verboten sind. Für einige Paare sind sie die letzte Hoffnung.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2011-06/kuenstliche-befruchtung/" type="jpg" title="Künstliche Befruchtung Reproduktionsmedizin" align="left" publication-date="" expires="2011-09-30T13:41:31+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Ralf Hirschberger/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Adelheid_Mueller-Lissner/index">
+              <display_name>Adelheid Müller-Lissner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/04/PID-Gentest" year="2011" issue="4" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-09-07T20:26:34+00:00" date-first-released="2011-01-20T06:00:00+00:00" date-last-published="2013-09-07T22:27:51+00:00" last-semantic-change="2011-01-21T08:34:09.646928+00:00" contenttype="article" author="Martin Spiewak">
+            <supertitle py:pytype="str">Gendiagnostik</supertitle>
+            <title py:pytype="str">PID – Hoffnung auf Gesundheit, Abscheu vor Selektion</title>
+            <text py:pytype="str">Der Streit um den Gentest am Embryo spaltet Gesellschaft und Politik. Doch auch unter Betroffenen ist die PID umstritten. Zwei Familien, zwei Sichtweisen. Von M. Spiewak</text>
+            <description py:pytype="str">Der Streit um den Gentest am Embryo spaltet Gesellschaft und Politik. Doch auch unter Betroffenen ist die PID umstritten. Zwei Familien, zwei Sichtweisen. Von M. Spiewak</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2011-01/rollstuhl-symbolbild/" type="jpg" title="Rollstuhl Behinderung Symbolbild" alt="Ein Rollstuhl" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Rollstuhl</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=1259">© jala/photocase</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Martin_Spiewak/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Martin Spiewak</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/06/M-Gentest" year="2011" issue="6" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-09-07T19:52:51+00:00" date-first-released="2011-02-03T06:00:00+00:00" date-last-published="2013-09-07T21:53:44+00:00" last-semantic-change="2011-02-04T11:58:54.582682+00:00" contenttype="article" author="Ulrich Bahnsen">
+            <supertitle py:pytype="str">Medizinethik</supertitle>
+            <title py:pytype="str">Wie viel wollen wir über unsere Gen-Defekte wissen?</title>
+            <text py:pytype="str">Neue Gentests sollen Paaren die Angst nehmen, ihre Kinder könnten mit schweren Erbkrankheiten zur Welt kommen. Eine medizinische Revolution, die ethisch umstritten ist.</text>
+            <description py:pytype="str">Neue Gentests sollen Paaren die Angst nehmen, ihre Kinder könnten mit schweren Erbkrankheiten zur Welt kommen. Eine medizinische Revolution, die ethisch umstritten ist.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2011-02/paar-ruecken/" type="jpg" title="Paar Gendiagnostik Erbgut Gendefekte" alt="Paar Gendiagnostik Erbgut Gendefekte" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=233472">© The_poster/photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Ulrich_Bahnsen/index.xml">
+              <display_name>Ulrich Bahnsen</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-5444e944-542d-4e88-9913-b86d11a92700">
+          <block href="http://xml.zeit.de/wissen/2010-10/medizinnobelpreis-2010" year="2010" issue="40" ressort="Wissen" publication-date="" expires="" date-last-modified="2014-04-20T06:40:19+00:00" date-first-released="2010-10-04T09:50:03.598212+00:00" date-last-published="2013-09-08T02:45:23+00:00" last-semantic-change="2010-10-04T10:18:21.812148+00:00" contenttype="article" author="Sven Stockrahm;Sami Skalli">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Auszeichnung</supertitle>
+            <title py:pytype="str">Nobelpreis für den Erfinder der künstlichen Befruchtung</title>
+            <text py:pytype="str">Seine Forschung verhalf Millionen kinderlosen Paaren zu Nachwuchs: Der Brite Robert Edwards erhält den Medizinnobelpreis für die Entwicklung der In-vitro-Fertilisation.</text>
+            <description py:pytype="str">Seine Forschung verhalf Millionen kinderlosen Paaren zu Nachwuchs: Der Brite Robert Edwards erhält den Medizinnobelpreis für die Entwicklung der In-vitro-Fertilisation.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2010-10/robert-edwards/" type="jpg" title="medizinnobelpreis 2010 robert edwards" alt="Nobelpreiträger Robert Edwards mit zwei Babys aus der Retorte" align="left" publication-date="" expires="2011-01-03T12:06:00+00:00">
+              <bu py:pytype="str">Der Vater der Retortenbabies: Der Mediziner Robert Edwards mit zwei Kindern, die dank künstlicher Befruchtung zur Welt kamen. (Archivfoto von 1998)</bu>
+              <copyright py:pytype="str">© Stefan Rousseau/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Stockrahm</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Sami_Skalli/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sami Skalli</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-616f91c3-f394-4676-a1bb-261ec3d09ad5">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-b4100c70-a4fc-48e1-9a64-39b85b3fc592">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="c5219428-a89c-409e-a35d-811bb86595fa" layout="368x220" title="Infografik: Fakten zur Kinderlosigkeit">
+          <block type="intern" href="http://xml.zeit.de/wissen/gesundheit/2013-03/ungewollt-kinderlos-infografiken" year="2013" issue="14" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-22T09:44:36+00:00" date-first-released="2013-04-08T08:39:17.818519+00:00" date-last-published="2013-04-09T09:21:27.479573+00:00" last-semantic-change="2013-04-10T12:35:39.385630+00:00" author="Paul Blickle;Lydia Klöckner">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Fakten zur Unfruchtbarkeit</supertitle>
+            <title py:pytype="str">Wenn das Wunschkind ausbleibt</title>
+            <text py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</text>
+            <description py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-04/rechte-gg-paare/" type="jpg" title="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare - Teaser" alt="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/wissen/2013-04/rechte-gg-paare/rechte-gg-paare-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="9dd1521b-10d1-4f1b-83da-0d57e015403f" visible="True">
+          <block href="http://xml.zeit.de/2013/06/Samenspender-Homosexualitaet-Kinderwunsch" year="2013" issue="6" ressort="Gesellschaft" contenttype="article" publication-date="2013-01-31T08:47:00+00:00" expires="" date-last-modified="2013-12-02T21:44:56+00:00" date-first-released="2013-01-31T06:00:00+00:00" date-last-published="2013-12-02T22:46:02+00:00" last-semantic-change="2013-01-29T12:35:08.032638+00:00" author="J. B. Matto">
+            <supertitle py:pytype="str">Samenspenden</supertitle>
+            <title py:pytype="str">Der ideale Spender</title>
+            <text py:pytype="str">Ein Mann, der nie Kinder wollte, verhilft zwei Frauen zu einem Sohn. Warum er es tat und was die Entscheidung mit einem anstellt, erzählt er hier.</text>
+            <description py:pytype="str">Ein Mann, der nie Kinder wollte, verhilft zwei Frauen zu einem Sohn. Warum er es tat und was die Entscheidung mit einem anstellt, erzählt er hier.</description>
+            <byline py:pytype="str">Von J. B. MATTO</byline>
+            <image base-id="http://xml.zeit.de/2013/Mobile-Kind-Samenspender/" type="jpg" title="Mobile" alt="Ein Mobile mit Kinderspielzeug, Paragraphen und DNA" align="left" publication-date="" expires="2013-04-28T14:16:41+00:00">
+              <bu py:pytype="str">Gesetze, Gefühle, Gesundheit: Was spielt eine Rolle, wenn man seinen Samen spendet?</bu>
+              <copyright py:pytype="str">© Eva Jauss</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="ed14058f-eb15-4108-9325-91dc07d0b814" visible="True">
+          <block href="http://xml.zeit.de/2011/35/Buch-Nichtschwimmer" year="2011" issue="35" ressort="Gesellschaft" publication-date="2011-08-25T05:02:00+00:00" expires="" date-last-modified="2013-12-03T19:27:54+00:00" date-first-released="2011-08-25T06:00:00+00:00" date-last-published="2013-12-03T20:29:31+00:00" last-semantic-change="2011-08-24T12:27:46.434508+00:00" contenttype="article" author="Felix Wegener">
+            <supertitle py:pytype="str">Kinderwunsch</supertitle>
+            <title py:pytype="str">Es liegt an ihm</title>
+            <text py:pytype="str">Ein Mann jenseits der dreißig erzählt, wie er ein Kind zeugen wollte und es nicht konnte. Auszug aus dem Buch "Nichtschwimmer" von Felix Wegener</text>
+            <description py:pytype="str">Ein Mann jenseits der dreißig erzählt, wie er ein Kind zeugen wollte und es nicht konnte. Auszug aus dem Buch "Nichtschwimmer" von Felix Wegener</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/familie/2011-08/mann-bett/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/215091-stock-photo-mensch-mann-hand-ruhig-leben-erholung">© kemai / photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/W/Felix_Wegener">
+              <display_name>Felix Wegener</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/gesellschaft/ungewollt-kinderlos/index#7f01c3d2-edf5-4dae-b763-bb6ae6a621de" year="2011" issue="45" ressort="Lebensart" publication-date="" expires="" ns0:href="http://xml.zeit.de/lebensart/partnerschaft/2011-11/psychische-belastung-kinderwunsch" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wenn die Liebe am Kinderwunsch scheitert</title>
+            <text py:pytype="str">Immer mehr Paare versuchen per künstliche Befruchtung ein Kind zu bekommen. Die Belastung für die Partnerschaft unterschätzen sie oft.</text>
+            <description py:pytype="str">Immer mehr Paare versuchen per künstliche Befruchtung ein Kind zu bekommen. Die Belastung für die Partnerschaft unterschätzen sie oft.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/partnerschaft/2011-11/teaser-kinderwunsch-behandlung/" type="jpg" alt="Für vielen Paare bleibt ein Leben mit Kind trotz künstlicher Befruchtung ein unerfüllter Wunsch." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Für vielen Paare bleibt ein Leben mit Kind trotz künstlicher Befruchtung ein unerfüllter Wunsch.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/krockenmitte">© krockenmitte / photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="ed49c3e5-4c21-498b-9912-3135cdd20a03" visible="True">
+          <block href="http://xml.zeit.de/2010/42/DOS-spenderkinder" year="2010" issue="42" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T00:15:46+00:00" date-first-released="2010-10-14T06:00:00+00:00" date-last-published="2013-09-08T02:17:03+00:00" last-semantic-change="2010-10-18T17:15:07.457966+00:00" author="Henning Sussebach">
+            <supertitle py:pytype="str">Samenspende</supertitle>
+            <title py:pytype="str">Sonja will wissen, wer ihr Vater ist</title>
+            <text py:pytype="str">Sonja ist 18, als sie erfährt, dass sie mithilfe einer anonymen Samenspende gezeugt wurde. Seitdem quält sie eine einzige Frage: Wer ist ihr leiblicher Vater?</text>
+            <description py:pytype="str">Sonja ist 18, als sie erfährt, dass sie mithilfe einer anonymen Samenspende gezeugt wurde. Seitdem quält sie eine einzige Frage: Wer ist ihr leiblicher Vater?</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2010-10/s17-samenspende/" type="jpg" title="Anonyme Samenspende" alt="5000 Samenspenden lagern derzeit im Essener Kinderwunschzentrum. mit Stickstoff tiefgefroren auf minus 196 Grad" align="left" publication-date="" expires="2011-01-14T16:06:01+00:00">
+              <bu py:pytype="str">5000 Samenspenden lagern derzeit im Essener Kinderwunschzentrum. mit Stickstoff tiefgefroren auf minus 196 Grad</bu>
+              <copyright py:pytype="str">© Hartmut Nägele</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Henning_Sussebach/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Henning Sußebach</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="65dd149c-5708-49f5-be69-65c5396c0559" visible="True">
+          <block href="http://xml.zeit.de/zeit-wissen/2011/05/Medizin-Technik-Kinder" year="2011" issue="5" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T20:39:08+00:00" date-first-released="2011-08-02T06:00:00+00:00" date-last-published="2013-12-03T21:40:05+00:00" last-semantic-change="2011-09-28T08:43:36.813262+00:00" author="Ute Eberle">
+            <supertitle py:pytype="str">Reproduktionsmedizin</supertitle>
+            <title py:pytype="str">Kinderkriegen mit Hightech-Methoden</title>
+            <text py:pytype="str">Mediziner erfinden immer neue Techniken, Kinder zu zeugen. Jede wirft ethische Fragen auf. Wie weit dürfen wir noch gehen, fragt Autorin Uta Eberle.</text>
+            <description py:pytype="str">Mediziner erfinden immer neue Techniken, Kinder zu zeugen. Jede wirft ethische Fragen auf. Wie weit dürfen wir noch gehen, fragt Autorin Uta Eberle.</description>
+            <byline py:pytype="str">Von Ute Eberle</byline>
+            <image base-id="http://xml.zeit.de/wissen/2011-09/s56-fortpflanzung-ethik/" type="jpg" title="Fortpflantzung Schwangerschaft Ethik Präimplantationsdiagnostik ZEIT WISSEN" alt="Fortpflantzung Schwangerschaft Ethik Präimplantationsdiagnostik ZEIT WISSEN" align="left" publication-date="" expires="2011-12-21T10:38:03+00:00">
+              <bu py:pytype="str">Im Kinderwunschzentrum Leipzig werden Embryonen in eine Kulturflüssigkeit injiziert.</bu>
+              <copyright py:pytype="str">© Waltraud Grubitzsch/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/E/Ute_Eberle/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ute Eberle</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2008/23/M-Schoepfung" year="2008" issue="23" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-09T06:18:48+00:00" date-first-released="2008-05-29T04:54:00+00:00" date-last-published="2013-09-09T08:20:39+00:00" last-semantic-change="2009-10-01T16:57:47.672338+00:00" author="Ulrich Bahnsen;Martin Spiewak">
+            <supertitle py:pytype="str">Reproduktionsmedizin</supertitle>
+            <title py:pytype="str">Die Zukunftskinder</title>
+            <text py:pytype="str">Die Medizin verhilft nicht nur unfruchtbaren Paaren zu Nachwuchs, sie entwickelt auch Instrumente, um das Kind zu optimieren. Wird der Mensch neu erfunden?</text>
+            <description py:pytype="str">Die Medizin verhilft nicht nur unfruchtbaren Paaren zu Nachwuchs, sie entwickelt auch Instrumente, um das Kind zu optimieren. Wird der Mensch neu erfunden?</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/bilder/2008/23/wissen/wissenschaft/zukunftskinder/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="2c392ad4-51e4-42e8-990f-bc80c4ffd872" visible="True">
+          <block href="http://xml.zeit.de/2010/17/Leihmutterschaft" year="2010" issue="17" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T07:09:56+00:00" date-first-released="2010-04-22T06:00:00+00:00" date-last-published="2013-09-08T09:10:20+00:00" last-semantic-change="2010-04-23T10:30:09.678381+00:00" author="Martin Spiewak">
+            <supertitle py:pytype="str">Leihmutterschaft</supertitle>
+            <title py:pytype="str">Verbotene Kinder</title>
+            <text py:pytype="str">Eine indische Leihmutter will ihre Zwillinge nicht. Die deutschen Eltern, die sie bestellt haben, dürfen sie nicht mitnehmen. Denn Leihmutterschaft ist hier illegal.</text>
+            <description py:pytype="str">Eine indische Leihmutter will ihre Zwillinge nicht. Die deutschen Eltern, die sie bestellt haben, dürfen sie nicht mitnehmen. Denn Leihmutterschaft ist hier illegal.</description>
+            <byline py:pytype="str">Von Martin Spiewak</byline>
+            <image base-id="http://xml.zeit.de/gesellschaft/2010-04/s35-leihmutter-befruchtung/" type="jpg" title="Leihmutter Künstliche Befruchtung" align="left" publication-date="" expires="2010-07-22T11:02:19+00:00">
+              <bu py:pytype="str">Injektion einer Samenzelle in eine Eizelle. Für ihren Kinderwunsch nehmen viele Menschen viel Leid auf sich</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Martin_Spiewak/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Martin Spiewak</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/48/Leihmutterschaft-Gesetzgebung-Standesbeamte" year="2012" issue="48" ressort="Gesellschaft" contenttype="article" publication-date="2012-11-29T08:29:54+00:00" expires="" date-last-modified="2013-06-20T15:05:38+00:00" date-first-released="2012-11-22T06:00:00+00:00" date-last-published="2013-04-11T09:23:23.912225+00:00" last-semantic-change="2012-12-02T15:14:06.905891+00:00" author="Burkhard Straßmann">
+            <supertitle py:pytype="str">Leihmutterschaft</supertitle>
+            <title py:pytype="str">Wer sind die Eltern?</title>
+            <text py:pytype="str">Leihmütter, Ei- und Samenspender stellen Standesbeamte zunehmend vor juristische Probleme. Sie fordern nun die Abschaffung des Leihmutterschaftsverbots in Deutschland.</text>
+            <description py:pytype="str">Leihmütter, Ei- und Samenspender stellen Standesbeamte zunehmend vor juristische Probleme. Sie fordern nun die Abschaffung des Leihmutterschaftsverbots in Deutschland.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/schule/2012-11/Schwangere/" type="jpg" title="Schwangere Frau" alt="Schwangere Frau" align="left" publication-date="" expires="2012-12-30T16:14:40+00:00">
+              <bu py:pytype="str">Schwangere Frau</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Burkhard_Strassmann/index.xml">
+              <display_name>Burkhard Straßmann</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle py:pytype="str">Thema</supertitle>
+    <title>Ungewollt kinderlos</title>
+    <subtitle>Wer Kinder will, hat kein Problem? Sechs Millionen Deutsche können keinen Nachwuchs bekommen. Wie gehen sie mit dieser Lebenskrise um? </subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/familie/2013-04/leseratikel-medizin-marathon-schwanger" year="2013" issue="16" ressort="Gesellschaft" author="Nicole G." contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Ungewollt kinderlos</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Medizinischer Marathon bis zur Schwangerschaft</title>
+      <text py:pytype="str">Ihrem Kinderwunsch können Leserin Nicole G. und ihr Mann nur mithilfe moderner Medizin näherkommen. Auf dem Weg dorthin wechseln sich Enttäuschung und Hoffnung ab.</text>
+      <description py:pytype="str">Ihrem Kinderwunsch können Leserin Nicole G. und ihr Mann nur mithilfe moderner Medizin näherkommen. Auf dem Weg dorthin wechseln sich Enttäuschung und Hoffnung ab.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-04/eizelle/" type="jpg" title="Eizelle" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-leben" year="2013" issue="14" ressort="Gesellschaft" author="Meike Dülffer" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Infertilität</supertitle>
+      <teaser_supertitle py:pytype="str">Ungewollt kinderlos</teaser_supertitle>
+      <title py:pytype="str">Ist halt so</title>
+      <text py:pytype="str">Was, wenn künstliche Befruchtung nichts bringt? Clara und Peter Riewald haben nach zwei Versuchen aufgegeben und ihren Frieden damit gemacht. Von Meike Dülffer</text>
+      <description py:pytype="str">Was, wenn künstliche Befruchtung nichts bringt? Clara und Peter Riewald haben nach zwei Versuchen aufgegeben und ihren Frieden damit gemacht. Von Meike Dülffer</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-leben/" type="jpg" alt="Infertilität" align="left" publication-date="" expires="2013-06-27T13:22:19+00:00">
+        <bu py:pytype="str">Geht das: Glücklich sein ohne Kinder?</bu>
+        <copyright py:pytype="str">© Karl-Josef Hildenbrand/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/D/Meike_Duelffer/index" publication-date="" expires="">
+        <display_name py:pytype="str">Meike Dülffer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/familie/2013-04/leserartikel-unfruchtbar-liebe-finden" year="2013" issue="16" ressort="Gesellschaft" author="Ivonne Zimmermann*" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Unfruchtbare Liebe</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Traumfrau ohne Eierstöcke</title>
+      <text py:pytype="str">Von Geburt an hat Leserin Ivonne Zimmermann weder Gebärmutter noch Eierstöcke. Dass sie nicht Mutter werden kann, erschwert ihre Suche nach einem Mann fürs Leben.</text>
+      <description py:pytype="str">Von Geburt an hat Leserin Ivonne Zimmermann weder Gebärmutter noch Eierstöcke. Dass sie nicht Mutter werden kann, erschwert ihre Suche nach einem Mann fürs Leben.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-04/liebespaar/" type="jpg" title="Liebespaar" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://www.photocase.de/photodownload.asp?m=download&amp;dgid=5441459">© Joernemann/Photocase</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/familie/2013-04/leserartikel-kinderlos-drei-schwangerschaften" year="2013" issue="15" ressort="Gesellschaft" author="Anke J." contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Ungewollt Kinderlos</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Aus Angst nicht mehr schwanger</title>
+      <text py:pytype="str">Kinderlosigkeit ist nicht nur ein Ergebnis von Unfruchtbarkeit. Diese Erfahrung musste Leserin Anke J. nach drei erfolglosen Schwangerschaften machen.</text>
+      <description py:pytype="str">Kinderlosigkeit ist nicht nur ein Ergebnis von Unfruchtbarkeit. Diese Erfahrung musste Leserin Anke J. nach drei erfolglosen Schwangerschaften machen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-04/schwangerschaftstest/" type="jpg" title="Schwangerschaftstest" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://www.photocase.de/photodownload.asp?m=download&amp;dgid=5440964">© vandalay/Photocase</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/familie/2013-04/regenbogenfamilie" year="2013" issue="13" ressort="Gesellschaft" author="Sven Stockrahm" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Schwul-lesbische Eltern</supertitle>
+      <teaser_supertitle py:pytype="str">Regenbogenfamilie</teaser_supertitle>
+      <title py:pytype="str">Vater, Vater, Mutter, Mutter, Kind, Kind</title>
+      <text py:pytype="str">Kinder sind für schwul-lesbische Paare nie zufällig. Ihr Nachwuchs ist immer unbedingt gewollt. Das kann von Vorteil sein. Von Sven Stockrahm</text>
+      <description py:pytype="str">Kinder sind für schwul-lesbische Paare nie zufällig. Ihr Nachwuchs ist immer unbedingt gewollt. Das kann von Vorteil sein. Von Sven Stockrahm</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-03/regenbogenfamilie/" type="jpg" title="Regenbogenfamilie" alt="Regenbogenfamilie" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Familie Kreuzer* im März 2013 bei der Eröffnung des Regenbogenfamilienzentrums. Der ersten deutschen Beratungsstelle für lesbische, schwule, bisexuelle und transidente Menschen mit Kindern.</bu>
+        <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/2013-04/ungewollt-kinderlos-giovanni-maio" year="2013" issue="15" ressort="Wissen" author="Lydia Klöckner" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Medizinethik</supertitle>
+      <teaser_supertitle py:pytype="str">Ungewollt kinderlos</teaser_supertitle>
+      <title py:pytype="str">"Kinder kann man nicht erzwingen"</title>
+      <text py:pytype="str">Die Reproduktionsmedizin suggeriert absolute Machbarkeit. Das ist falsch, sagt Medizinethiker Giovanni Maio. Manchmal ist es besser, Kinderlosigkeit zu akzeptieren.</text>
+      <description py:pytype="str">Die Reproduktionsmedizin suggeriert absolute Machbarkeit. Das ist falsch, sagt Medizinethiker Giovanni Maio. Manchmal ist es besser, Kinderlosigkeit zu akzeptieren.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2013-04/Giovanni-Maio/" type="jpg" title="Giovanni Maio" alt="Giovanni Maio" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Giovanni Maio</bu>
+        <copyright py:pytype="str">© privat</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/2013-04/kinderlos-samenspender-kind" year="2013" issue="15" ressort="Wissen" author="Lydia Klöckner" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Samenspende</supertitle>
+      <teaser_supertitle py:pytype="str">Samenspende</teaser_supertitle>
+      <title py:pytype="str">"Ich bin froh, nicht mit diesem Mann verwandt zu sein"</title>
+      <text py:pytype="str">Mit 17 erfuhr Paulina, dass sie aus einer Samenspende entstanden ist. Zum Glück, sagt sie heute. Denn die Gene ihres sozialen Vaters möchte sie nicht in sich tragen.</text>
+      <description py:pytype="str">Mit 17 erfuhr Paulina, dass sie aus einer Samenspende entstanden ist. Zum Glück, sagt sie heute. Denn die Gene ihres sozialen Vaters möchte sie nicht in sich tragen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2013-04/kinderlos-abstammung-3/" type="jpg" title="Frau Park" alt="Eine junge Frau in einem Park in Hamburg " align="left" publication-date="" expires="2013-07-05T13:30:51+00:00">
+        <bu py:pytype="str">Eine junge Frau in einem Park in Hamburg </bu>
+        <copyright py:pytype="str">© Maurizio Gambarini/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Lydia_Kloeckner" publication-date="" expires="">
+        <display_name py:pytype="str">Lydia Klöckner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/2013-04/kinderlos-samenspender-eltern" year="2013" issue="15" ressort="Wissen" author="Lydia Klöckner" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Samenspende</supertitle>
+      <teaser_supertitle py:pytype="str">Samenbank</teaser_supertitle>
+      <title py:pytype="str">Spender Nummer 4.077</title>
+      <text py:pytype="str">Britta Günther wollte nie darüber reden, dass sie ihre Kinder mithilfe einer Samenspende aus den USA bekommen hatte. Bis sie in ihnen Züge eines Fremden entdeckte.</text>
+      <description py:pytype="str">Britta Günther wollte nie darüber reden, dass sie ihre Kinder mithilfe einer Samenspende aus den USA bekommen hatte. Bis sie in ihnen Züge eines Fremden entdeckte.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2013-03/kinderlos-abstammung/" type="jpg" alt="Samenspende" align="left" publication-date="" expires="2013-07-13T12:53:19+00:00">
+        <bu py:pytype="str">In der Universitätsfrauenklinik in Leipzig geht im Labor des Zentrums für Reproduktionsmedizin die Laboringenieurin Regina Blumrich am 13.10.2010 an Abbildungen von Eizellen nach einer künstlichen Befruchtung vorbei. </bu>
+        <copyright py:pytype="str">© Waltraud Grubitzsch/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Lydia_Kloeckner" publication-date="" expires="">
+        <display_name py:pytype="str">Lydia Klöckner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/gesundheit/2013-04/kinderwunsch-komplementaermedizin" year="2013" issue="13" ressort="Wissen" author="Adelheid Müller-Lissner" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Kinderwunsch</supertitle>
+      <teaser_supertitle py:pytype="str">Kinderwunsch</teaser_supertitle>
+      <title py:pytype="str">Für die Männer Vitamine, für die Frauen Yoga</title>
+      <text py:pytype="str">Vitalstoffe, Ayurveda, Homöopathie – viele Paare versuchen alles, um ein Kind zu bekommen. Im schlimmsten Fall verlieren sie wertvolle Zeit, sagen Reproduktionsmediziner.</text>
+      <description py:pytype="str">Vitalstoffe, Ayurveda, Homöopathie – viele Paare versuchen alles, um ein Kind zu bekommen. Im schlimmsten Fall verlieren sie wertvolle Zeit, sagen Reproduktionsmediziner.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2013-04/kinderlos-therapie-2/" type="jpg" align="left" publication-date="" expires="2013-07-05T12:11:22+00:00">
+        <bu py:pytype="str">Hilft Yoga, Kinder zu bekommen?</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Adelheid_Mueller-Lissner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Adelheid Müller-Lissner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-04/leserartikel-aufruf-themenwoche-kinderlosigkeit" year="2013" issue="15" ressort="Gesellschaft" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Ungewollt kinderlos</supertitle>
+      <teaser_supertitle py:pytype="str">Ungewollt kinderlos</teaser_supertitle>
+      <title py:pytype="str"> Ihre Erfahrungen mit Kinderlosigkeit</title>
+      <text py:pytype="str">Mehr als sechs Millionen Menschen in Deutschland können keine Kinder bekommen. Haben Sie Erfahrungen mit diesem Thema, die Sie aufschreiben möchten?</text>
+      <description py:pytype="str">Mehr als sechs Millionen Menschen in Deutschland können keine Kinder bekommen. Haben Sie Erfahrungen mit diesem Thema, die Sie aufschreiben möchten?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-aufruf/" type="jpg" align="left" publication-date="" expires="2013-07-05T13:48:12+00:00">
+        <bu py:pytype="str">Kinderfreies Café</bu>
+        <copyright py:pytype="str">© Ole Spata/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-kuenstliche-befruchtung-kosten" year="2013" issue="14" ressort="Gesellschaft" author="Steffi Fetz" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Künstliche Befruchtung</supertitle>
+      <teaser_supertitle py:pytype="str">Künstliche Befruchtung</teaser_supertitle>
+      <title py:pytype="str">Zu arm zum Kinderkriegen</title>
+      <text py:pytype="str">Ist Kinderwunschbehandlung nur etwas für Reiche? Paare wie Marie und Sebastian kommen an ihre Grenzen, wenn die Kasse nicht mehr zahlt. Von Steffi Fetz</text>
+      <description py:pytype="str">Ist Kinderwunschbehandlung nur etwas für Reiche? Paare wie Marie und Sebastian kommen an ihre Grenzen, wenn die Kasse nicht mehr zahlt. Von Steffi Fetz</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-arm/" type="jpg" alt="Kosten künstlicher Befruchtung" align="left" publication-date="" expires="2013-07-09T12:29:53+00:00">
+        <bu py:pytype="str">In der Universitaetsfrauenklinik in Leipzig entnehmen bei einer Operation der Leiter des Zentrums fuer Reproduktionsmedizin, gynäkologische Endokrinologie und Sexualmedizin, Ärzte bei einer Patientin Eizellen für eine künstliche Befruchtung, aufgenommen am 13.10.2010.</bu>
+        <copyright py:pytype="str">© Waltraud Grubitzsch/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Steffi_Fetz/index" publication-date="" expires="">
+        <display_name py:pytype="str">Steffi Fetz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-04/kuenstliche-befruchtung-entscheidung" year="2013" issue="15" ressort="Gesellschaft" author="Parvin Sadigh" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Kinderwunsch</supertitle>
+      <teaser_supertitle py:pytype="str">Künstliche Befruchtung</teaser_supertitle>
+      <title py:pytype="str">Als wäre jemand gestorben</title>
+      <text py:pytype="str">Sie haben sich für Kinder entschieden, aber schwanger werden sie nicht. Ein Schock für Frauen, die ihr Leben sonst erfolgreich planen. Von Parvin Sadigh</text>
+      <description py:pytype="str">Sie haben sich für Kinder entschieden, aber schwanger werden sie nicht. Ein Schock für Frauen, die ihr Leben sonst erfolgreich planen. Von Parvin Sadigh</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-04/kinderlos-wunsch-4/" type="jpg" align="left" publication-date="" expires="2013-07-05T14:51:41+00:00">
+        <bu py:pytype="str">Eine Praxis für Gynäkologie</bu>
+        <copyright py:pytype="str">© Klaus Rose/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Parvin_Sadigh/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Parvin Sadigh</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-04/unfruchtbarkeit-mann" year="2013" issue="14" ressort="Gesellschaft" author="Karsten Polke-Majewski" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Unfruchtbarkeit beim Mann</supertitle>
+      <teaser_supertitle py:pytype="str">Männer ohne Kinder</teaser_supertitle>
+      <title py:pytype="str">Schweißer, Autonarr, unfruchtbar</title>
+      <text py:pytype="str">Michael Jürß wollte immer Kinder haben. Doch es will einfach nicht klappen. Wie lebt ein Mann mit diesem Makel? Von Karsten Polke-Majewski</text>
+      <description py:pytype="str">Michael Jürß wollte immer Kinder haben. Doch es will einfach nicht klappen. Wie lebt ein Mann mit diesem Makel? Von Karsten Polke-Majewski</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-juerss-3/" type="jpeg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Glück auf vier Rädern: Michael Jürß in seinem 72er Oldsmobile Toronado</bu>
+        <copyright py:pytype="str">© Philipp Gülland</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/2013-04/gruende-unfruchtbarkeit" year="2013" issue="14" ressort="Wissen" author="Stefanie Schuetten" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Unfruchtbarkeit</supertitle>
+      <teaser_supertitle py:pytype="str">Unfruchtbarkeit</teaser_supertitle>
+      <title py:pytype="str">Was tun bei ungewollter Kinderlosigkeit?</title>
+      <text py:pytype="str">Millionen Menschen wünschen sich Kinder, bekommen aber keine. Welche Gründe gibt es dafür und welche Behandlungen? Fragen und Antworten zur Kinderlosigkeit</text>
+      <description py:pytype="str">Millionen Menschen wünschen sich Kinder, bekommen aber keine. Welche Gründe gibt es dafür und welche Behandlungen? Fragen und Antworten zur Kinderlosigkeit</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2013-03/kinderlos-faq/" type="jpg" alt="Unfruchtbarkeit" align="left" publication-date="" expires="2013-10-12T09:53:08+00:00">
+        <bu py:pytype="str">Mikroskopische Aufnahme einer menschlichen Eizelle, die in einem Speziallabor in Dresden zu Demonstrationszwecken injiziert wird.</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Stefanie_Schuetten/index" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Schuetten</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/gesundheit/2013-03/ungewollt-kinderlos-infografiken" year="2013" issue="14" ressort="Wissen" author="Paul Blickle;Lydia Klöckner" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Fakten zur Unfruchtbarkeit</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Wenn das Wunschkind ausbleibt</title>
+      <text py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</text>
+      <description py:pytype="str">Warum können manche Menschen keinen Nachwuchs bekommen? Wie viel kostet die künstliche Befruchtung? Eine Infografik mit Zahlen und Fakten zur ungewollten Kinderlosigkeit</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2013-04/rechte-gg-paare/" type="jpg" title="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare - Teaser" alt="Ungewollt Kinderlos - Rechte gleichgeschlechtlicher Paare" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2008/23/M-Schoepfung" year="2008" issue="23" ressort="Wissen" author="Ulrich Bahnsen;Martin Spiewak" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Reproduktionsmedizin</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Die Zukunftskinder</title>
+      <text py:pytype="str">Die Medizin verhilft nicht nur unfruchtbaren Paaren zu Nachwuchs, sie entwickelt auch Instrumente, um das Kind zu optimieren. Wird der Mensch neu erfunden?</text>
+      <description py:pytype="str">Die Medizin verhilft nicht nur unfruchtbaren Paaren zu Nachwuchs, sie entwickelt auch Instrumente, um das Kind zu optimieren. Wird der Mensch neu erfunden?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/bilder/2008/23/wissen/wissenschaft/zukunftskinder/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/2010-10/medizinnobelpreis-2010" year="2010" issue="40" ressort="Wissen" author="Sven Stockrahm;Sami Skalli" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Auszeichnung</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Nobelpreis für den Erfinder der künstlichen Befruchtung</title>
+      <text py:pytype="str">Seine Forschung verhalf Millionen kinderlosen Paaren zu Nachwuchs: Der Brite Robert Edwards erhält den Medizinnobelpreis für die Entwicklung der In-vitro-Fertilisation.</text>
+      <description py:pytype="str">Seine Forschung verhalf Millionen kinderlosen Paaren zu Nachwuchs: Der Brite Robert Edwards erhält den Medizinnobelpreis für die Entwicklung der In-vitro-Fertilisation.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/gesundheit/2010-10/robert-edwards/" type="jpg" title="medizinnobelpreis 2010 robert edwards" alt="Nobelpreiträger Robert Edwards mit zwei Babys aus der Retorte" align="left" publication-date="" expires="2011-01-03T12:06:00+00:00">
+        <bu py:pytype="str">Der Vater der Retortenbabies: Der Mediziner Robert Edwards mit zwei Kindern, die dank künstlicher Befruchtung zur Welt kamen. (Archivfoto von 1998)</bu>
+        <copyright py:pytype="str">© Stefan Rousseau/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Sven Stockrahm</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/S/Sami_Skalli/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Sami Skalli</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/gesundheit/2011-06/reproduktionszentren-pid-ausland" year="2011" issue="27" ressort="Wissen" author="Adelheid Müller-Lissner" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Reproduktionsmedizin</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Für den Kinderwunsch in die Klinik im Ausland</title>
+      <text py:pytype="str">Nachwuchs dank PID oder Eizellspende: Kinderwunschkliniken in Europa locken mit Methoden, die in Deutschland verboten sind. Für einige Paare sind sie die letzte Hoffnung.</text>
+      <description py:pytype="str">Nachwuchs dank PID oder Eizellspende: Kinderwunschkliniken in Europa locken mit Methoden, die in Deutschland verboten sind. Für einige Paare sind sie die letzte Hoffnung.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/gesundheit/2011-06/kuenstliche-befruchtung/" type="jpg" title="Künstliche Befruchtung Reproduktionsmedizin" align="left" publication-date="" expires="2011-09-30T13:41:31+00:00">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Ralf Hirschberger/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Adelheid_Mueller-Lissner/index">
+        <display_name>Adelheid Müller-Lissner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/familie/2011-06/kinderlose-befruchtung-adoption" year="2011" issue="23" ressort="Gesellschaft" author="Tanja Dückers" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Kinderlosigkeit</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Ohne Kinder im Abseits</title>
+      <text py:pytype="str">Kinderwünsche sollen nach Ministerin Schröder nicht mehr an Geld und veralteten Bestimmungen scheitern. T.Dückers über das neue Mutterbild und ungewollte Kinderlosigkeit.</text>
+      <description py:pytype="str">Kinderwünsche sollen nach Ministerin Schröder nicht mehr an Geld und veralteten Bestimmungen scheitern. T.Dückers über das neue Mutterbild und ungewollte Kinderlosigkeit.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/familie/2011-06/schroeder-babybauch/" type="jpg" title="Kristina Schröder" alt="Bundesfamilienministerin Kristina Schröder faltet ihre Hände auf ihrem Babybauch." align="left" publication-date="" expires="2011-07-02T08:53:09+00:00">
+        <bu py:pytype="str">Bundesfamilienministerin Kristina Schröder faltet ihre Hände auf ihrem Babybauch.</bu>
+        <copyright py:pytype="str">© Tobias Kleinschmidt / dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/D/Tanja_Dueckers/index.xml">
+        <display_name>Tanja Dückers</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/17/Leihmutterschaft" year="2010" issue="17" ressort="Gesellschaft" author="Martin Spiewak" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Leihmutterschaft</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Verbotene Kinder</title>
+      <text py:pytype="str">Eine indische Leihmutter will ihre Zwillinge nicht. Die deutschen Eltern, die sie bestellt haben, dürfen sie nicht mitnehmen. Denn Leihmutterschaft ist hier illegal.</text>
+      <description py:pytype="str">Eine indische Leihmutter will ihre Zwillinge nicht. Die deutschen Eltern, die sie bestellt haben, dürfen sie nicht mitnehmen. Denn Leihmutterschaft ist hier illegal.</description>
+      <byline py:pytype="str">Von Martin Spiewak</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2010-04/s35-leihmutter-befruchtung/" type="jpg" title="Leihmutter Künstliche Befruchtung" align="left" publication-date="" expires="2010-07-22T11:02:19+00:00">
+        <bu py:pytype="str">Injektion einer Samenzelle in eine Eizelle. Für ihren Kinderwunsch nehmen viele Menschen viel Leid auf sich</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Martin_Spiewak/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Martin Spiewak</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/2011-04/schwangerschaft-stress" year="2011" ressort="Wissen" author="Adelheid Müller-Lissner" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Künstliche Befruchtung</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Die Chancen auf ein Baby sinken nicht durch Stress</title>
+      <text py:pytype="str">Die Prozedur der künstlichen Befruchtung ist auch eine seelische Belastung. Auf den Erfolg der Behandlung hat das keinen Einfluss, zeigt eine Studie. Von A. Müller-Lissne</text>
+      <description py:pytype="str">Die Prozedur der künstlichen Befruchtung ist auch eine seelische Belastung. Auf den Erfolg der Behandlung hat das keinen Einfluss, zeigt eine Studie. Von A. Müller-Lissne</description>
+      <byline py:pytype="str">Von Adelheid Müller-Lissner</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/gesundheit/2011-04/babys-neugeborene/" type="jpg" title="Säuglinge Neugeborene Babys Kinder Schwangerschaft Geburt" alt="Säuglinge Neugeborene Babys Kinder Schwangerschaft Geburt" align="left" publication-date="" expires="2011-05-13T06:27:47+00:00">
+        <bu py:pytype="str">Neugeborene in einer Geburtsklinik in München
+</bu>
+        <copyright py:pytype="str">© Michaela Rehle/Reuters</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Adelheid_Mueller-Lissner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Adelheid Müller-Lissner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/48/Leihmutterschaft-Gesetzgebung-Standesbeamte" year="2012" issue="48" ressort="Gesellschaft" author="Burkhard Straßmann" contenttype="article" publication-date="2012-11-29T08:29:54+00:00" expires="">
+      <supertitle py:pytype="str">Leihmutterschaft</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Wer sind die Eltern?</title>
+      <text py:pytype="str">Leihmütter, Ei- und Samenspender stellen Standesbeamte zunehmend vor juristische Probleme. Sie fordern nun die Abschaffung des Leihmutterschaftsverbots in Deutschland.</text>
+      <description py:pytype="str">Leihmütter, Ei- und Samenspender stellen Standesbeamte zunehmend vor juristische Probleme. Sie fordern nun die Abschaffung des Leihmutterschaftsverbots in Deutschland.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/schule/2012-11/Schwangere/" type="jpg" title="Schwangere Frau" alt="Schwangere Frau" align="left" publication-date="" expires="2012-12-30T16:14:40+00:00">
+        <bu py:pytype="str">Schwangere Frau</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Burkhard_Strassmann/index.xml">
+        <display_name>Burkhard Straßmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-04/ungewollt-kinderlos" year="2013" issue="14" ressort="Gesellschaft" author="Karsten Polke-Majewski" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Unfruchtbarkeit</supertitle>
+      <teaser_supertitle py:pytype="str">Unfruchtbarkeit</teaser_supertitle>
+      <title py:pytype="str">Schicksal ungewollt kinderlos</title>
+      <text py:pytype="str">Wer kein Kind bekommen kann, leidet im Verborgenen. Zwar gilt Zeugungsunfähigkeit als medizinisch behebbar, aber sie ist gesellschaftlich ein Tabu. Von K. Polke-Majewski</text>
+      <description py:pytype="str">Wer kein Kind bekommen kann, leidet im Verborgenen. Zwar gilt Zeugungsunfähigkeit als medizinisch behebbar, aber sie ist gesellschaftlich ein Tabu. Von K. Polke-Majewski</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-03/kinderlos-paar/" type="jpg" alt="Ungewollt kinderlos" align="left" publication-date="" expires="2013-07-12T10:55:20+00:00">
+        <bu py:pytype="str">Paare, die keine Kinder bekommen können, wollen oft nicht erkannt werden. Warum eigentlich?</bu>
+        <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">Ungewollt kinderlos</title>
+    <text py:pytype="str">Wer Kinder will, hat kein Problem? Sechs Millionen Deutsche können keinen Nachwuchs bekommen. Wie gehen sie mit dieser Lebenskrise um? </text>
+  </teaser>
+</centerpage>

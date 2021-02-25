@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-05-07T14:33:22.546665+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-05-03T16:15:57.977200+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-05-07T14:34:22.438856+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-05-07T14:32:57.348265+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">schulzeit</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:010f94ad-4eb0-41ea-ab18-1b4ccc7e0f42}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="a95eda96-48d5-4dee-88cd-b1d45d8d5e6f">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="d023ceff-9ca8-4e42-b221-71065544469a" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/angebote/schulzeit/index" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-05-07T14:23:00+00:00" date-first-released="2012-05-03T16:28:40.738798+00:00" date-last-published="2012-05-07T14:23:59.792725+00:00" last-semantic-change="2012-05-07T14:22:43.841778+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Schulzeit</title>
+            <text py:pytype="str">DIE ZEIT reist an Schulen: Dies ist ein Angebot des ZEIT-Verlags. Für den Inhalt ist der ZEIT-Verlag verantwortlich.</text>
+            <description py:pytype="str">DIE ZEIT reist an Schulen: Dies ist ein Angebot des ZEIT-Verlags. Für den Inhalt ist der ZEIT-Verlag verantwortlich.</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/schulzeit/logo_dz_reist_an_schulen/logo_dz_reist_an_schulen-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="abded082-24b2-4ff9-a7aa-47e918773acd">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/schule/Links/Schuelernewsletter" year="2010" issue="37" ressort="Angebote" publication-date="" expires="" ns0:href="http://landingpage.zeit.gaertner.de/" ns0:target="_blank" date-last-modified="2011-01-03T16:38:33+00:00" date-first-released="2010-09-10T15:38:56.625929+00:00" date-last-published="2011-01-03T16:36:43.684595+00:00" last-semantic-change="2011-01-03T16:35:28.507893+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">ZEIT Schülernewsletter</title>
+            <text py:pytype="str">Wöchentlich stellen zwei Jungredakteure die interessantesten Themen aus der ZEIT und von ZEIT ONLINE zusammen.</text>
+            <description py:pytype="str">Wöchentlich stellen zwei Jungredakteure die interessantesten Themen aus der ZEIT und von ZEIT ONLINE zusammen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://landingpage.zeit.gaertner.de/" title="Schuelernewsletter_header" base-id="http://xml.zeit.de/angebote/schule/Bilder/Schuelernewsletter_header/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/schule/Links/Lernplattform" year="2010" issue="37" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/schule/index" ns0:target="_blank" date-last-modified="2010-10-13T13:43:33+00:00" date-first-released="2010-09-16T09:06:18.702204+00:00" date-last-published="2010-10-13T13:44:32.735799+00:00" last-semantic-change="2010-10-13T13:43:20.200853+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Online-Lernplattform</title>
+            <text py:pytype="str">ZEIT für die Schule bietet Schülern in der Oberstufe mit Texten, Videos und Links für unterschiedliche Fächer eine anspruchsvolle Hilfe im Schulalltag.</text>
+            <description py:pytype="str">ZEIT für die Schule bietet Schülern in der Oberstufe mit Texten, Videos und Links für unterschiedliche Fächer eine anspruchsvolle Hilfe im Schulalltag.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://blog.zeit.de/schueler/" title="lernplattform_neu" base-id="http://xml.zeit.de/angebote/schule/Bilder/lernplattform_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="982a524d-1967-451a-87be-3e0a3f53281b">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/schule/Links/patenschaft" year="2009" ressort="Angebote" publication-date="" expires="" ns1:href="http://www.zeit.divine.de/aktion/patenschaft/" ns1:target="_blank" date-last-modified="2010-10-28T15:08:20+00:00" date-first-released="2009-09-06T06:27:51.273548+00:00" date-last-published="2010-10-28T15:09:19.951000+00:00" last-semantic-change="2010-10-28T15:06:40.611777+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Unterstützen Sie »ZEIT für die Schule«</title>
+            <text py:pytype="str">Schulklasse sucht Paten: Übernehmen Sie die Patenschaft für eine von 11.000 Schulklassen und schenken Sie 3 Wochen »DIE ZEIT für die Schule« im Klassensatz.</text>
+            <description py:pytype="str">Schulklasse sucht Paten: Übernehmen Sie die Patenschaft für eine von 11.000 Schulklassen und schenken Sie 3 Wochen »DIE ZEIT für die Schule« im Klassensatz.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Patenschaft" href="http://www.zeit.divine.de/aktion/patenschaft/" align="left" title="Patenschaft" base-id="http://xml.zeit.de/angebote/schule/Bilder/patenschaft/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="7a1fad82-dee3-4d00-a72d-ee26ed1c616c">
+          <block xmlns:ns3="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/schule/Links/ZEIT" year="2009" ressort="Angebote" publication-date="" expires="" ns3:href="http://zfds.zeit.gaertner.de/DIE-ZEIT-gratis-im-Klassensatz" ns3:target="_blank" date-last-modified="2011-08-24T13:53:42+00:00" date-first-released="2009-09-06T06:33:36.151316+00:00" date-last-published="2011-08-24T13:54:42.311000+00:00" last-semantic-change="2011-08-24T13:53:01.321574+00:00">
+            <supertitle py:pytype="str">Bestellen</supertitle>
+            <title py:pytype="str">DIE ZEIT gratis im Klassensatz</title>
+            <text py:pytype="str">Gestalten Sie Ihren Unterricht mit der ZEIT aktuell und praxisnah! Sie erhalten drei Wochen lang DIE ZEIT kostenlos direkt in die Schule.</text>
+            <description py:pytype="str">Gestalten Sie Ihren Unterricht mit der ZEIT aktuell und praxisnah! Sie erhalten drei Wochen lang DIE ZEIT kostenlos direkt in die Schule.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="ZfdS-DZ-3xDIE-ZEIT.jpg" base-id="http://xml.zeit.de/angebote/schule/Bilder/ZfdS-DZ-3xDIE-ZEIT.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="7d027462-4031-493e-98e2-2d665772bbec">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/schulzeit/link_archiv" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/schulzeit/archiv" ns0:target="_blank" date-last-modified="2012-05-07T14:32:44+00:00" date-first-released="2012-05-07T14:33:43.127563+00:00" date-last-published="2012-05-07T14:33:43.127563+00:00" last-semantic-change="2012-05-07T14:32:32.363043+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">DIE ZEIT reist an Schulen - Archiv</title>
+            <text py:pytype="str">Hier finden Sie alle vergangenen Schubesuche im Überblick.</text>
+            <description py:pytype="str">Hier finden Sie alle vergangenen Schubesuche im Überblick.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/schulzeit/logo_dz_reist_an_schulen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="18e4bbfc-110f-47e0-9b49-8650a9d24844">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/schulzeit/link_uebersicht" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/schulzeit/" ns0:target="_blank" date-last-modified="2012-05-03T16:35:55+00:00" date-first-released="2012-05-03T16:36:54.950703+00:00" date-last-published="2012-05-03T16:36:54.950703+00:00" last-semantic-change="2012-05-03T16:35:42.695708+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Schulzeit</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Schulzeit</title>
+  </teaser>
+</centerpage>

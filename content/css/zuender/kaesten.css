@@ -1,0 +1,414 @@
+	 .kasten_top_left{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+		  padding:0px 0px 0px 0px;
+                  text-transform:uppercase;
+		  line-height: 10px;
+		  letter-spacing:2pt;
+		  border-spacing:0px;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-size: 9px;
+		  width: 212px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_bottom_left{
+		  border-bottom:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  font-size: 1px;
+		  width: 212px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_middle_left{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  border-bottom:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;		  
+                  padding:0px 0px 0px 0px;
+                  margin:0px 0px 0px 0px; 
+		  border-spacing:0px;
+		  width: 212px;  
+		  empty-cells:show;
+                  table-layout:fixed;
+                  vertical-align:top;
+	 }	
+
+
+ .kasten_middle_3x{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  border-bottom:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding:0 0 0 0px;
+          margin:0 0 0 0px;
+		  border-spacing: 0;
+		  width: 228px;  
+		  empty-cells:show;
+		  table-layout:fixed;
+		  height:250px;
+          vertical-align:top;
+	 }	
+	
+	.kasten_middle_3x img.bild_kasten_3xuleft,
+	#zuenders_freunde img {
+		display: block;
+	}
+
+ .kasten_top_3x{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+                  text-transform:uppercase;
+		  background-color: #F2F0EA;
+		  line-height: 10px;
+		  padding: 0px;
+		  border-spacing:0px;
+		  letter-spacing: 2pt;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-size: 9px;
+		  width: 228px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_bottom_3x{
+		  border-bottom:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  font-size: 1px;
+		  width: 228px;
+		  font-weight: normal;
+	 }
+	 
+
+
+ .kasten_top_headline{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+                  text-transform:uppercase;
+		  padding: 0px;
+		  border-spacing:0px;
+		  line-height: 10px;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-size: 9px;
+		  letter-spacing: 2pt;
+		  width: 704px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_bottom_headline{
+		  border-bottom:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  font-size: 1px;
+		  width: 704px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_middle_headline{
+                 table-layout:fixed;
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  border-bottom:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding-left: 0px;
+		  padding-top: 0px;
+                  padding-bottom: 0px;
+                  padding-right: 0px;
+		  height:175px;
+		  border-spacing:0px;
+		  width: 704px;  
+		  empty-cells:show;
+	 }
+	 
+
+
+	 
+	 .kasten_bottom_main{
+		  border-bottom:1px solid black;
+		  border-left:1px solid black;
+		  border-right:2px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  font-size: 1px;
+		  width: 475px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_middle_main{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  border-bottom:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding-left: 0px;
+		  padding-top: 0px;
+		  border-spacing:0px;
+		  width: 474px;  
+		  empty-cells:show;
+	 }
+	 
+	 .kasten_article_main{
+		  background-color: #FFFFFF;
+			font-family: verdana, geneva, arial, helvetica, sans-serif;
+			font-size: 12px;
+			line-height: 18px;
+		  padding: 20px 0px 20px 0px;
+		  border-spacing:0px;
+	 }
+
+	 .kasten_article_top_pic{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:2px solid black;
+		  background-color: #F2F0EA;
+		  line-height: 10px;
+		  padding: 0px;
+                  text-transform:uppercase;
+		  border-spacing:0px;
+		  letter-spacing: 2pt;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-size: 8px;
+		  width: 203px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_article_bottom_pic{
+		  border-bottom:1px solid black;
+		  border-left:1px solid black;
+		  border-right:2px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  font-size: 1px;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  width: 203px;
+	 }
+	 
+	 .kasten_article_middle_pic{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:2px solid black;
+		  border-bottom:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding-left: 0px;
+		  padding-top: 0px;
+		  border-spacing:0px;
+		  width: 203px;  
+		  empty-cells:show;
+		  table-layout:fixed;
+	 }
+	 
+	          	 .kasten_article_top{
+	 		width: 472px;
+	 		height: 16px;
+	 		border-bottom: dotted #E1DCCE 1px;
+	 }
+
+	 .kasten_article_top2{
+	 		clear: both;
+	 		width: 470px;
+	 		height: 22px;
+	 		border-bottom: dotted #E1DCCE 1px;
+	 		margin-top: 0;
+	 		margin-bottom: 1px;
+	 }
+	 
+	 .kasten_article_bottom2{
+	 		width: 472px;
+	 		height: 16px;
+	 		border-top: dotted #E1DCCE 1px;
+	 }
+	 
+	 .kasten_article_bottom{
+ 	 		clear: both;
+	 		width: 472px;
+	 		height: 22px;
+	 		border-top: dotted #E1DCCE 1px;
+	 }
+	 
+	 
+	.kasten_top_main{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right: 1px solid black;
+		  background-color: #F2F0EA;
+		  padding: 0px;
+		  line-height: 10px;
+		  border-spacing:0px;
+                  text-transform:uppercase;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-size: 9px;
+		  letter-spacing: 2pt;
+		  width: 474px;
+		  font-weight: normal;
+	 }
+
+	 
+	 /*.kasten_bottom_main{
+		  border-bottom:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  font-size: 1px;
+		  width: 475px;
+		  font-weight: normal;
+	 }*/
+	 
+	 /*.kasten_middle_main{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  border-bottom:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding-left: 0px;
+		  padding-top: 0px;
+		  border-spacing:0px;
+		  width: 475px;  
+		  empty-cells:show;
+                  table-layout:fixed;
+	 }*/
+	 
+	 
+	 .kasten_top_pic{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:2px solid black;
+		  background-color: #F2F0EA;
+		  line-height: 10px;
+                  text-transform:uppercase;
+		  padding: 0px;
+		  border-spacing:0px;
+		  letter-spacing: 2pt;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-size: 8px;
+		  width: 223px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_bottom_pic{
+		  border-bottom:2px solid black;
+		  border-left:1px solid black;
+		  border-right:2px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  font-size: 1px;
+		  width: 223px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_middle_pic{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:2px solid black;
+		  border-bottom:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding-left: 0px;
+		  padding-top: 0px;
+		  border-spacing:0px;
+		  width: 223px;  
+		  empty-cells:show;
+		  table-layout:fixed;
+		  height:175px;
+	 }
+
+        .kasten_top_cp {
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+		  padding: 0px;
+                  text-transform:uppercase;
+		  line-height: 10px;
+		  letter-spacing:2pt;
+		  border-spacing:0px;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-size: 9px;
+		  width: 212px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_bottom_cp{
+		  border-bottom:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #F2F0EA;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding: 0px;
+		  padding-top: 2px;
+		  border-spacing:0px;
+		  font-size: 1px;
+		  width: 212px;
+		  font-weight: normal;
+	 }
+	 
+	 .kasten_middle_cp{
+		  border-top:1px solid black;
+		  border-left:1px solid black;
+		  border-right:1px solid black;
+		  background-color: #FFFFFF;
+		  font-family: verdana, geneva, arial, helvetica, sans-serif;
+		  font-weight: normal;
+		  padding-left: 0px;
+		  padding-top: 0px;
+		  border-spacing:0px;
+		  width: 212px;  
+		  empty-cells:show;
+	 }
+	

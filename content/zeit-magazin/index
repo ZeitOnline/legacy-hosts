@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="ZMO">
+  <head>
+    <topiclinks>
+      <topiclink>
+        <topiclink_label_1>Beziehungskolumne</topiclink_label_1>
+        <topiclink_url_1>http://www.zeit.de/serie/beziehungen</topiclink_url_1>
+        <topiclink_label_2>Gesellschaftskritik</topiclink_label_2>
+        <topiclink_url_2>http://www.zeit.de/serie/gesellschaftskritik</topiclink_url_2>
+        <topiclink_label_3>Magnum-Fotos</topiclink_label_3>
+        <topiclink_url_3>http://www.zeit.de/serie/magnum</topiclink_url_3>
+      </topiclink>
+    </topiclinks>
+    <header_image xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2018-03-13T08:42:39.017415+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2016-04-12T05:43:00.090162+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2018-03-13T08:42:45.777326+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2018-03-13T08:42:45.712902+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2018-03-08T10:12:24.414131+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2017-08-08T09:44:40.197964+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">ZEITmagazin ONLINE ist die emotionale Seite von ZEIT ONLINE. Hier finden Sie tagesaktuellen Magazinjournalismus zu Mode &amp; Design, Essen &amp; Trinken und Leben.</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">ZEITmagazin ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2018-03-08T10:12:21.990275+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.boeker</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="previous_uniqueIds">http://xml.zeit.de/zeit-magazin/index-neu</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZMLB</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEITmagazin</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">zeit-magazin</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">ZMO</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:4f50f6f5-e0e2-4574-a88c-e08848cdff5f}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2016</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZMOContent" module="zeit.magazin.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>Homepage ZEITmagazin ONLINE</title>
+    <cluster visible="True" visible_mobile="True" area="id-497f3875-b4af-4396-bc18-8449d26b7bac" kind="duo" kind_title="Standard-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-e29a890c-5d03-4f10-88c0-75724a1b5264" kind="major" count="14" automatic="True" automatic_type="channel">
+        <referenced_cp xsi:nil="true"/>
+        <query>
+          <condition type="Channel" py:pytype="str">zeit-magazin</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zmo-square-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9dc508b5-7872-4506-938a-0892e01ba7ea"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2240234d-3d06-4bc8-8aad-053572f99691"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-91942667-e527-4463-bf10-853d94cf1076"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3d41a4ee-7881-4048-ab49-d8e39be856ce"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-12ea023e-029d-4357-9788-ed810e64dc5a"/>
+        <container cp:type="cpextra" module="zmo_follow_us" visible="True" visible_mobile="True" cp:__name__="id-6fc94c29-25f8-4b01-9774-5db70031ecd1">
+          <cp_extra id="zmo_follow_us"/>
+        </container>
+        <container cp:type="auto-teaser" module="zmo-square-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-94185a61-e05f-4168-98ff-9ea2a2877430"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4362fce9-7292-4608-97a8-64d306f1a535"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-aed7a035-f6e7-497a-9677-72b01d8b614e"/>
+        <container cp:type="rawtext" module="rawtext" visible="True" visible_mobile="True" cp:__name__="id-dff254f6-e94c-44f5-9228-289a53c252db">
+          <text_reference type="intern" href="http://xml.zeit.de/administratives/2017-05/was-fuer-ein-tag-zmo-newsletter" publication-date="" expires=""/>
+        </container>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b3772127-cee4-4a6d-832d-a6ab75f6f23e"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-363387aa-7c77-4365-95a7-a2f3a55df689"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-859c4866-3b08-4b48-9964-130b1408270c"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d20276f9-24a5-437a-ab67-95fceb23541d"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-78c3a035-7099-4205-8dc5-3662bc9a7b32" kind="minor" count="8" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">zeit-magazin</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7e7ad7b1-436b-46c3-a82e-bd52d76ac95b"/>
+        <container cp:type="teaser" module="zmo-card-picture" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b672438a-9fc2-48c2-b0a6-c5c120f550ea" background_color="E6EB65" force_mobile_image="False">
+          <block href="http://xml.zeit.de/zeit-magazin/2018/11/harald-martenstein-mode-berufskleidung" uniqueId="http://xml.zeit.de/zeit-magazin/2018/11/harald-martenstein-mode-berufskleidung" year="2018" issue="11" ressort="zeit-magazin" serie="Martenstein" contenttype="article" publication-date="" expires="" author="Harald Martenstein">
+            <supertitle py:pytype="str">Harald Martenstein</supertitle>
+            <title py:pytype="str">Das trage ich für die Ewigkeit</title>
+            <text py:pytype="str">Wer hat den besten Modegeschmack? Wahrscheinlich die Bestatter, denn deren Stil ist zeitlos und elegant. Wer das morbide findet, kennt noch nicht den Anti-Smell-Effekt. </text>
+            <description py:pytype="str">Wer hat den besten Modegeschmack? Wahrscheinlich die Bestatter, denn deren Stil ist zeitlos und elegant. Wer das morbide findet, kennt noch nicht den Anti-Smell-Effekt. </description>
+            <byline py:pytype="str">von Harald Martenstein</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Harald_Martenstein/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Harald Martenstein</display_name>
+            </author>
+            <image base-id="http://xml.zeit.de/zeit-magazin/2018-03/harald-martenstein-mode/" type="png" title="harald-martenstein-mode" alt="Harald Martenstein" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.martinfengel.com/">© Fengel</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-591be177-df8a-4a23-b933-db8476726080"/>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b3bbea27-05cd-4bc6-b3e9-16a8f07e8309"/>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-164d1bb5-6c03-431c-b9c7-f987ae6f48cd"/>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d8c7894b-387d-437f-91ed-ffef77f32fa9"/>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-23778f47-a591-458d-a15a-a85d5d80cd0a"/>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b64933c7-dc3e-4da0-98f4-022730814eb9"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-9ab652b6-ce7d-44b4-86ee-90186d2397f2" kind="solo" kind_title="Buzz-Board">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-e4f30c8e-defc-4246-81ef-1918fef09c93" kind="buzzboard" title="Beliebt und angesagt">
+        <container cp:type="cpextra" module="mostread" visible="True" visible_mobile="True" cp:__name__="id-5320ba0d-fb36-4a68-9654-9da9da44d00c">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostshared" visible="True" visible_mobile="True" cp:__name__="id-a016e265-6cef-4fc7-a853-3ec1389132f7">
+          <cp_extra id="mostshared"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" visible="True" visible_mobile="True" cp:__name__="id-3ed18453-7739-451a-886d-de096ba9f8a1">
+          <cp_extra id="mostcommented"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-120a39ec-f4d3-47ec-b91d-a80b76265068" kind="duo" kind_title="Standard-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-23873f9b-5038-4db0-b274-709695226367" kind="major" count="5" automatic="True" automatic_type="channel">
+        <referenced_cp xsi:nil="true"/>
+        <query>
+          <condition type="Channel" py:pytype="str">zeit-magazin</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zmo-landscape-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c485480c-c75c-49b4-9719-456076539f8e"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c251de6b-1dd3-42da-88c4-6afa85bd2ec1"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-def1e03d-add2-4e17-ab4a-32411bff1d68"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-44695081-5cbc-4c31-9aca-224e66d2e9f0"/>
+        <container cp:type="auto-teaser" module="zmo-landscape-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-39b5265d-7f1b-45a6-a876-fb39e846263d"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-b005c55b-d021-423e-a931-c353e87af5cb" kind="minor" count="3" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">zeit-magazin</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6cade393-6c03-4a11-a2ec-5040856f872f"/>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-09c3195c-b89d-4c63-8203-a54717d5adbf" background_color="A3F791" force_mobile_image="False"/>
+        <container cp:type="auto-teaser" module="zmo-upright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-442a373c-cae6-4315-ad01-3c35971f8bbf"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-7a3526c9-07e8-4111-bb93-eeb63b4d9623" kind="trio" kind_title="Trio">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-2c6d97be-5055-4299-8252-757fc5f90114" kind="trio" title="Unsere besten Geschichten">
+        <container cp:type="teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-500997e7-a205-48d6-b931-1b844c5c4000">
+          <block href="http://xml.zeit.de/zeit-magazin/leben/2018-02/schwangerschaftsabbruch-maenner-frauen-beziehung-hilflosigkeit" uniqueId="http://xml.zeit.de/zeit-magazin/leben/2018-02/schwangerschaftsabbruch-maenner-frauen-beziehung-hilflosigkeit" year="2018" issue="5" ressort="zeit-magazin" contenttype="article" publication-date="" expires="" author="Carmen Böker" genre="interview">
+            <supertitle py:pytype="str">Schwangerschaftsabbruch </supertitle>
+            <title py:pytype="str">"Frauen entscheiden, ob ein Mann Vater wird oder nicht"</title>
+            <text py:pytype="str">Bei nur einem Drittel aller Schwangerschaftskonfliktberatungen sind Männer dabei. Das hat mit Ohnmachtsgefühlen und Scham zu tun, sagt der Sozialpädagoge Sören Bangert.</text>
+            <description py:pytype="str">Bei nur einem Drittel aller Schwangerschaftskonfliktberatungen sind Männer dabei. Das hat mit Ohnmachtsgefühlen und Scham zu tun, sagt der Sozialpädagoge Sören Bangert.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Carmen_Boeker/index" publication-date="" expires="">
+              <image base-id="http://xml.zeit.de/autoren/B/Carmen_Boeker/carmen-boeker/" type="" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">© Michael Heck</copyright>
+              </image>
+              <display_name py:pytype="str">Carmen Böker</display_name>
+            </author>
+            <image base-id="http://xml.zeit.de/zeit-magazin/2018-02/schwangerschaftsabbrueche-maenner-frauen-beziehung/" type="jpg" title="schwangerschaftsabbrueche-maenner-frauen-beziehung" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="https://unsplash.com/@james8152">© [M] James Garcia</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-magazin/mode-design/2018-02/pullover-maennermode-fruehling" uniqueId="http://xml.zeit.de/zeit-magazin/mode-design/2018-02/pullover-maennermode-fruehling" year="2018" issue="5" ressort="zeit-magazin" serie="Jacke wie Hose" contenttype="article" publication-date="" expires="" author="Dirk Peitz">
+            <supertitle py:pytype="str">Pullover</supertitle>
+            <title py:pytype="str">Die neue Masche</title>
+            <text py:pytype="str">Hoffnung hilft gegen den Winter. Und ein guter Pullover. Wenn Männer sich nun auch noch an die richtigen Farben wagen, ist bald schon wieder Frühling. Versprochen. </text>
+            <description py:pytype="str">Hoffnung hilft gegen den Winter. Und ein guter Pullover. Wenn Männer sich nun auch noch an die richtigen Farben wagen, ist bald schon wieder Frühling. Versprochen. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/P/Dirk_Peitz" publication-date="" expires="">
+              <image base-id="http://xml.zeit.de/autoren/autorenbilder/dirk-peitz/" type="" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">© Michael Heck</copyright>
+              </image>
+              <display_name py:pytype="str">Dirk Peitz</display_name>
+            </author>
+            <image base-id="http://xml.zeit.de/zeit-magazin/mode-design/2018-02/pullover-maennermode-aufmacher/" type="jpg" title="pullover-maennermode-aufmacher" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Silke Janovsky für ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a8b4eb66-7614-446e-9d21-a46e6d501421">
+          <block href="http://xml.zeit.de/zeit-magazin/leben/2018-01/hochzeit-frauen-nachname-ehepartner-metoo" uniqueId="http://xml.zeit.de/zeit-magazin/leben/2018-01/hochzeit-frauen-nachname-ehepartner-metoo" year="2018" issue="1" ressort="zeit-magazin" contenttype="article" publication-date="" expires="" author="Mareike Nieberding">
+            <supertitle py:pytype="str">Hochzeit</supertitle>
+            <title py:pytype="str">Behaltet eure Namen</title>
+            <text py:pytype="str">Er gehört zu mir. Das sollte eine Frau bei der Hochzeit nicht nur über ihren Mann sagen. Wenn das Private politisch ist, wieso geben so viele Frauen ihren Nachnamen auf?</text>
+            <description py:pytype="str">Er gehört zu mir. Das sollte eine Frau bei der Hochzeit nicht nur über ihren Mann sagen. Wenn das Private politisch ist, wieso geben so viele Frauen ihren Nachnamen auf?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Mareike_Nieberding" publication-date="" expires="">
+              <image base-id="http://xml.zeit.de/autoren/autorenbilder/mareike-nieberding/" type="" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">© Jakob Börner</copyright>
+              </image>
+              <display_name py:pytype="str">Mareike Nieberding</display_name>
+            </author>
+            <image base-id="http://xml.zeit.de/zeit-magazin/2018-01/metoo-ehe-frauen-nachname-ehepartner-aufmacher/" type="jpg" title="metoo-ehe-frauen-nachname-ehepartner-aufmacher" alt="metoo-ehe-frauen-nachname-ehepartner-aufmacher" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© sweet-ice-cream-photography/Unsplash</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3b01189e-23c9-4743-8c04-94169a0bab82">
+          <block href="http://xml.zeit.de/zeit-magazin/leben/2018-01/intersexualitaet-geschlecht-intergeschlechtlichkeit-identitaet" uniqueId="http://xml.zeit.de/zeit-magazin/leben/2018-01/intersexualitaet-geschlecht-intergeschlechtlichkeit-identitaet" year="2018" issue="1" ressort="zeit-magazin" contenttype="article" publication-date="" expires="" author="Annett Heide">
+            <supertitle py:pytype="str">Intersexualität</supertitle>
+            <title py:pytype="str">Hallo, ich bin die dritte Option</title>
+            <text py:pytype="str">Maxi Bauermeister wurde mit uneindeutigen Geschlechtsmerkmalen geboren und zu einem Mädchen zwangsoperiert. Jetzt lebt er mit der Freiheit, beides zu sein, Mann und Frau.</text>
+            <description py:pytype="str">Maxi Bauermeister wurde mit uneindeutigen Geschlechtsmerkmalen geboren und zu einem Mädchen zwangsoperiert. Jetzt lebt er mit der Freiheit, beides zu sein, Mann und Frau.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/H/Annett_Heide/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Annett Heide</display_name>
+            </author>
+            <image base-id="http://xml.zeit.de/zeit-magazin/2018-01/intersexualitaet-geschlecht-intergeschlechtlichkeit/" type="jpg" title="intersexualitaet-geschlecht-intergeschlechtlichkeit" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Leon Reindl für ZEITmagazin ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-baa2ea9a-e2f6-4931-9c9e-b555968c598c" kind="trio" kind_title="Trio-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-c42d56d2-9d5a-4b93-a28b-c7e8219f7acd" kind="trio" count="6" automatic="True" automatic_type="query" title="ES IST KOMPLIZIERT – WAS ZWEI SINGLEFRAUEN SO ERLEBEN">
+        <raw_query>+published:"published" +serie:"Es ist kompliziert"</raw_query>
+        <container cp:type="auto-teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-136cd0a5-84c3-4010-97d2-bf6a7b4130c4"/>
+        <container cp:type="auto-teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b5c2d03a-2d1e-4fef-ad62-88a2c3ce4970"/>
+        <container cp:type="auto-teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-87c81f4f-ebf0-4c1b-9073-d135346d9240"/>
+        <container cp:type="auto-teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-29aefb64-8263-4f82-9409-0dce3d5c5624"/>
+        <container cp:type="auto-teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f9a053ba-3b96-4bf6-880d-b17c80d9acec"/>
+        <container cp:type="auto-teaser" module="zmo-mtb-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-084ed9a2-d109-43fd-9fc6-0681e216d447"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-3238e5bd-0b06-4a34-a250-58c6917ee263" kind="trio" kind_title="Trio-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="False" area="id-5b2fe2b9-dbf2-4c12-9938-3a046123e51a" kind="trio" count="3" automatic="True" automatic_type="query">
+        <raw_query>+published:"published" +serie:"Martenstein" -access:"abo"</raw_query>
+        <container cp:type="auto-teaser" module="zmo-card-picture" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8edac1e6-7c40-499f-b9eb-259c45d6de08" background_color="A3F791" force_mobile_image="False"/>
+        <container cp:type="auto-teaser" module="zmo-card-picture" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bb06ddf3-ea52-4206-981e-b7f0ee4116fc" background_color="87D6A3" force_mobile_image="False"/>
+        <container cp:type="auto-teaser" module="zmo-card-picture" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-109900c6-7b33-450c-b77c-98e0c93d1fa6" background_color="C3E672" force_mobile_image="False"/>
+      </region>
+    </cluster>
+  </body>
+  <teaser>
+    <title>Homepage ZEITmagazin ONLINE</title>
+  </teaser>
+</centerpage>

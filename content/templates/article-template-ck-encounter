@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-09-17T07:03:14.666886+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-09-06T09:39:20.113770+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-09-17T07:04:14.550588+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-09-17T07:03:02.896628+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.jaeger</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">ck-encounter</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f612b57b-7ce9-4cd2-951d-208b5c9109ae}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-ecf78984-b0e4-4e7b-847d-fb176f829018">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-1a560765-b850-4692-93c3-c60726fff375" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/ck-encounter/link_zu_ck" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.calvinkleininc.com/de_DE/" date-last-modified="2012-09-10T10:09:26+00:00" date-first-released="2012-09-06T09:15:21.975928+00:00" date-last-published="2012-09-10T10:08:05.704229+00:00" last-semantic-change="2012-09-10T10:06:58.003664+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Calvin Klein</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/ck-encounter/encounter_ck_logo/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/ck-encounter/encounter_ck_logo/encounter_ck_logo-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-6ddc8464-e8ed-4495-9372-77c9803bbd66">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/ck-encounter/link_zu_gewinnspiel" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://pubads.g.doubleclick.net/gampad/clk?id=6893485&amp;iu=/183/zeitonline" ns0:target="_blank" date-last-modified="2012-09-17T07:02:13+00:00" date-first-released="2012-09-06T09:55:32.464021+00:00" date-last-published="2012-09-17T07:03:12.695800+00:00" last-semantic-change="2012-09-17T07:02:05.511920+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Gewinnspiel</title>
+            <text py:pytype="str">Gewinnen Sie mit ENCOUNTER, dem Herrenduft von Calvin Klein, eine 5-tägige Reise für 2 Personen nach Los Angeles!</text>
+            <description py:pytype="str">Gewinnen Sie mit ENCOUNTER, dem Herrenduft von Calvin Klein, eine 5-tägige Reise für 2 Personen nach Los Angeles!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/ck-encounter/ck_encounter_deutsch/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen CK Encounter</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen CK Encounter</title>
+  </teaser>
+</centerpage>

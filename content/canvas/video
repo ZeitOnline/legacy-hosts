@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="frame">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">video</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">Video</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-12-18T10:31:09.550941+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-04-14T14:51:32.486447+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-12-18T10:32:09.347628+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2010-04-28</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Hier finden Sie spannende und aktuelle Nachrichten-Videos, Filme und Serien zu allen Themen kostenlos online. Interviews, Serien und News als Video ansehen. </attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Videos - Interviews, Serien und Nachrichten | Video | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-07-12T12:18:32.011852+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2010-08-17</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.brightcove</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Video</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">124683</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">frame</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:3939d55e-6c64-41c3-b158-98ac1ed44a16}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="ebc92a2e-951c-4dbe-b6e1-d1aa085473d1">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="9463a2a7-d85c-46cf-9292-54cca965e0b6">
+          <cp_extra id="mostcommented"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="7f75db30-6ded-44b7-a66f-419dffbe8136">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="aa7894d8-01ac-4e14-a272-260cbf2edd7a">
+          <block href="http://xml.zeit.de/video/2012-03/1502398965001" type="video" year="2012" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-04-03T09:06:37+00:00" date-first-released="2012-03-13T09:38:25+00:00" date-last-published="2012-04-03T09:07:37.216008+00:00" last-semantic-change="2012-04-03T09:00:21+00:00">
+            <supertitle py:pytype="str">Rekorder</supertitle>
+            <title py:pytype="str">Rekorder: Peter Licht spielt "Das Ende der Beschwerde"</title>
+            <text py:pytype="str">Peter Licht verbirgt sein Gesicht stets vor der Öffentlichkeit. Dem Rekorder hat er seinen Klangkörper gezeigt: Eine kopflose Session im Berliner Künstlerhaus Bethanien</text>
+            <description py:pytype="str">Peter Licht verbirgt sein Gesicht stets vor der Öffentlichkeit. Dem Rekorder hat er seinen Klangkörper gezeigt: Eine kopflose Session im Berliner Künstlerhaus Bethanien</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1502336689001_Bildschirmfoto-2012-03-12-um-13-35-32.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1502552154001_Bildschirmfoto-2012-03-12-um-13-35-32.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-11/1298441400001" type="video" year="2011" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-12-01T11:17:00+00:00" date-first-released="2011-12-01T10:29:15+00:00" date-last-published="2011-12-01T11:17:59.838089+00:00" last-semantic-change="2011-12-01T11:12:39+00:00">
+            <supertitle py:pytype="str">Rekorder</supertitle>
+            <title py:pytype="str">Rekorder: Marques Toliver spielt: "Deep In My Heart"</title>
+            <text py:pytype="str">Eine Theaterbühne im vierten Stock. Hoch über dem großen Saal des Berliner Admiralspalastes tritt Marques Toliver mit zwei Begleitsängern auf – und seiner Violine. Eine exklusive Session vor unseren Kameras</text>
+            <description py:pytype="str">Eine Theaterbühne im vierten Stock. Hoch über dem großen Saal des Berliner Admiralspalastes tritt Marques Toliver mit zwei Begleitsängern auf – und seiner Violine. Eine exklusive Session vor unseren Kameras</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1298484515001_Bildschirmfoto-2011-11-28-um-14-32-50.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1298486521001_Bildschirmfoto-2011-11-28-um-14-32-50.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-11/1265723903001" type="video" year="2011" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-03-24T09:35:54+00:00" date-first-released="2011-11-10T11:09:55+00:00" date-last-published="2012-03-24T09:36:54.409303+00:00" last-semantic-change="2011-11-21T18:34:38+00:00">
+            <supertitle py:pytype="str">Rekorder</supertitle>
+            <title py:pytype="str">Rekorder: Kitty, Daisy &amp;amp; Lewis spielen: "I'm Going Back"</title>
+            <text py:pytype="str">Hinter der Bühne der Berliner Columbiahalle spielen die drei Geschwister aus London eine kleine Akustik-Session für ZEIT ONLINE.</text>
+            <description py:pytype="str">Hinter der Bühne der Berliner Columbiahalle spielen die drei Geschwister aus London eine kleine Akustik-Session für ZEIT ONLINE.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1266647445001_Bildschirmfoto-2011-11-09-um-16-34-56.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1266647389001_Bildschirmfoto-2011-11-09-um-16-34-56.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-10/1210023420001" type="video" year="2012" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-02-02T16:13:44+00:00" date-first-released="2011-10-10T10:56:57+00:00" date-last-published="2012-02-02T16:14:44.143493+00:00" last-semantic-change="2012-02-02T15:44:17+00:00">
+            <supertitle py:pytype="str">Rekorder</supertitle>
+            <title py:pytype="str">Rekorder: Oh Land spielt: "Sun Of A Gun"</title>
+            <text py:pytype="str">Elektropop am Spree-Ufer – Oh Land spielt vor dem Berliner Nhow-Hotel eine Rekorder-Session vor vorbeiziehenden Schiffen.</text>
+            <description py:pytype="str">Elektropop am Spree-Ufer – Oh Land spielt vor dem Berliner Nhow-Hotel eine Rekorder-Session vor vorbeiziehenden Schiffen.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d17/unsecured/media/18140073001/18140073001_1210262808001_Bildschirmfoto-2011-10-10-um-12-24-22.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d17/unsecured/media/18140073001/18140073001_1210211218001_Bildschirmfoto-2011-10-10-um-12-24-22.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-09/1167990324001" type="video" year="2011" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-03-24T08:18:59+00:00" date-first-released="2011-09-20T12:59:33+00:00" date-last-published="2012-03-24T08:19:58.916780+00:00" last-semantic-change="2011-11-21T12:47:15+00:00">
+            <supertitle py:pytype="str">Rekorder</supertitle>
+            <title py:pytype="str">Rekorder: Mayer Hawthorne singt: "Dreaming"</title>
+            <text py:pytype="str">Soul im Berliner Hotel Michelberger. Mayer Hawthorne singt in Klavierbegleitung seinen Song "Dreaming".</text>
+            <description py:pytype="str">Soul im Berliner Hotel Michelberger. Mayer Hawthorne singt in Klavierbegleitung seinen Song "Dreaming".</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d17/unsecured/media/18140073001/18140073001_1169071956001_Bildschirmfoto-2011-09-20-um-08-37-36.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d17/unsecured/media/18140073001/18140073001_1169255490001_Bildschirmfoto-2011-09-20-um-08-37-36.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="c1e7f0ca-f3d4-4a1a-bd25-c893052287af" title="Via Satellite">
+          <block href="http://xml.zeit.de/video/2011-12/1350355329001" type="video" year="2012" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-01-03T11:31:24+00:00" date-first-released="2012-01-03T11:07:28+00:00" date-last-published="2012-01-03T11:32:24.755686+00:00" last-semantic-change="2012-01-03T11:27:12+00:00">
+            <supertitle py:pytype="str">Bilder aus dem All</supertitle>
+            <title py:pytype="str">Via Satellite: Vulkane</title>
+            <text py:pytype="str">Die Welt, in der wir leben, aus der Weltraumperspektive: Folge 7 unserer Video-Serie zeigt Vulkane von Lanzarote bis Kamtschatka.</text>
+            <description py:pytype="str">Die Welt, in der wir leben, aus der Weltraumperspektive: Folge 7 unserer Video-Serie zeigt Vulkane von Lanzarote bis Kamtschatka.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d19/unsecured/media/18140073001/18140073001_1350523328001_vulkan.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d19/unsecured/media/18140073001/18140073001_1350376620001_vulkan.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-06/975376147001" type="video" year="2011" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-03-24T06:19:08+00:00" date-first-released="2011-06-07T06:25:05+00:00" date-last-published="2012-03-24T06:20:08.723128+00:00" last-semantic-change="2011-11-21T18:26:04+00:00">
+            <supertitle py:pytype="str">Bilder aus dem All</supertitle>
+            <title py:pytype="str">Via Satellite: Wüste</title>
+            <text py:pytype="str">Die Welt, in der wir leben, aus der Weltraumperspektive: In Folge 4 unserer Video-Serie zeigen wir die Schönheit der Wüsten Afrikas, Asiens und Südamerikas.</text>
+            <description py:pytype="str">Die Welt, in der wir leben, aus der Weltraumperspektive: In Folge 4 unserer Video-Serie zeigen wir die Schönheit der Wüsten Afrikas, Asiens und Südamerikas.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove04.o.brightcove.com/18140073001/18140073001_979999322001_wueste.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove04.o.brightcove.com/18140073001/18140073001_979995297001_wueste.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-06/991916429001" type="video" year="2011" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-03-24T06:34:43+00:00" date-first-released="2011-06-21T10:44:19+00:00" date-last-published="2012-03-24T06:35:43.714207+00:00" last-semantic-change="2011-11-21T13:09:43+00:00">
+            <supertitle py:pytype="str">Bilder aus dem All</supertitle>
+            <title py:pytype="str">Via Satellite: Industrie</title>
+            <text py:pytype="str">Die Welt, in der wir leben, aus der Weltraumperspektive: In Folge 5 unserer Video-Serie zeigen wir große Industrieanlagen, die ihre eigene ästhetische Faszination entfalten.</text>
+            <description py:pytype="str">Die Welt, in der wir leben, aus der Weltraumperspektive: In Folge 5 unserer Video-Serie zeigen wir große Industrieanlagen, die ihre eigene ästhetische Faszination entfalten.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d16/unsecured/media/18140073001/18140073001_991903826001_ari-origin06-arc-135-1308038011917.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d16/unsecured/media/18140073001/18140073001_991903825001_ari-origin06-arc-135-1308038011746.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="8dd6f269-1013-4f39-80b6-25995c7eaebe" title="Momente">
+          <block href="http://xml.zeit.de/video/2011-12/1331294616001" type="video" year="2012" ressort="Reisen" publication-date="" expires="" date-last-modified="2012-01-16T12:52:48+00:00" date-first-released="2011-12-21T09:23:37+00:00" date-last-published="2012-01-16T12:53:48.527286+00:00" last-semantic-change="2012-01-16T12:48:02+00:00">
+            <supertitle py:pytype="str">Momente</supertitle>
+            <title py:pytype="str">Das Biosphärenreservat Schaalsee im Wandel der Jahreszeiten</title>
+            <text py:pytype="str">Im Verlauf eines Jahres zeigt sich die Vielfalt der Natur im westlichen Mecklenburg-Vorpommern. Eine filmische Reise durch die vier Jahreszeiten.</text>
+            <description py:pytype="str">Im Verlauf eines Jahres zeigt sich die Vielfalt der Natur im westlichen Mecklenburg-Vorpommern. Eine filmische Reise durch die vier Jahreszeiten.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d19/unsecured/media/18140073001/18140073001_1331340384001_frosch.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d19/unsecured/media/18140073001/18140073001_1331594605001_frosch.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2012-01/1391679599001" type="video" year="2012" ressort="Reisen" publication-date="" expires="" date-last-modified="2012-01-15T11:19:47+00:00" date-first-released="2012-01-15T11:03:31+00:00" date-last-published="2012-01-15T11:20:47.084016+00:00" last-semantic-change="2012-01-15T11:12:55+00:00">
+            <supertitle py:pytype="str">Momente</supertitle>
+            <title py:pytype="str">Bootsfahrt auf der Spree</title>
+            <text py:pytype="str">An milden Wochenenden reiht sich auf der Spree im Berliner Zentrum Boot an Boot. Wir haben eine der unzähligen Sightseeing-Touren begleitet.</text>
+            <description py:pytype="str">An milden Wochenenden reiht sich auf der Spree im Berliner Zentrum Boot an Boot. Wir haben eine der unzähligen Sightseeing-Touren begleitet.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d20/unsecured/media/18140073001/18140073001_1391844162001_ari-origin05-arc-141-1326625209566.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d20/unsecured/media/18140073001/18140073001_1391844161001_ari-origin05-arc-141-1326625209006.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-11/1298267893001" type="video" year="2011" publication-date="" expires="" date-last-modified="2011-12-02T11:01:16+00:00" date-first-released="2011-12-02T10:40:11+00:00" date-last-published="2011-12-02T11:02:16.106675+00:00" last-semantic-change="2011-12-02T10:59:05+00:00">
+            <supertitle py:pytype="str">Momente</supertitle>
+            <title py:pytype="str">Am Rand des Peak Districts in England</title>
+            <text py:pytype="str">Nahe bei Manchester, im Norden von England, erstreckt sich der Peak District. An Steinmauern entlang läuft man zwischen Schafherden durch eine karge, aber durchaus bunte Hügellandschaft.</text>
+            <description py:pytype="str">Nahe bei Manchester, im Norden von England, erstreckt sich der Peak District. An Steinmauern entlang läuft man zwischen Schafherden durch eine karge, aber durchaus bunte Hügellandschaft.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1298241470001_ari-origin05-arc-168-1322474621216.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1298241469001_ari-origin05-arc-168-1322474620821.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-11/1282869181001" type="video" year="2011" ressort="Reisen" publication-date="" expires="" date-last-modified="2012-03-23T14:40:43+00:00" date-first-released="2011-11-21T11:57:15+00:00" date-last-published="2012-03-23T14:41:43.425633+00:00" last-semantic-change="2011-11-21T20:08:53+00:00">
+            <supertitle py:pytype="str">Momente</supertitle>
+            <title py:pytype="str">Ein Waldspaziergang am Tegernsee</title>
+            <text py:pytype="str">Eine gute Stunde Fußweg von der bayerischen Stadt Tegernsee auf den Berg hinauf, schon stößt man auf dieses ruhige Waldgebiet.</text>
+            <description py:pytype="str">Eine gute Stunde Fußweg von der bayerischen Stadt Tegernsee auf den Berg hinauf, schon stößt man auf dieses ruhige Waldgebiet.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1282540916001_Bildschirmfoto-2011-11-18-um-15-50-30-1.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1282687561001_Bildschirmfoto-2011-11-18-um-15-50-30-1.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="False" cp:__name__="03fea8b8-22d4-4bbd-af07-93d6a537b0b4" title="Fotostrecken">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/foto/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/foto/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/foto/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+    </cluster>
+    <title>Video</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Video</title>
+  </teaser>
+</centerpage>

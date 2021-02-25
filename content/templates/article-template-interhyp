@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">angebote/interhyp</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-06-12T06:48:23.102667+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-06-12T06:49:22.718089+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-06-12T06:48:54.002405+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-06-12T06:49:53.936394+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-06-12T06:48:51.571560+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-06-12T06:48:51.624322+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-06-12T06:48:12.097620+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">interhyp</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:7f520b0c-9144-4f99-83dc-685f4074085c}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">24</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-a25d6e5d-736e-485c-a530-306a57f9e9fa">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-2c687358-3972-402e-9e18-b87f08464501">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/interhyp/links/link_startseite" uniqueId="http://xml.zeit.de/angebote/interhyp/links/link_startseite" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/interhyp/index" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-06-12T06:22:13+00:00" date-first-released="2015-06-12T06:23:12.717267+00:00" date-last-published="2015-06-12T06:23:12.717267+00:00" last-semantic-change="2015-06-12T06:21:40.233633+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-23857bad-8d08-4d33-83c7-fc71b9a3f4db">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/interhyp/links/link_zinsrechner" uniqueId="http://xml.zeit.de/angebote/interhyp/links/link_zinsrechner" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.interhyp.de/persoenlicher-zinsrechner/?adChannel=zeit&amp;adCampaign=ccp&amp;adKeyword=zinsrechner" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-06-11T10:38:29+00:00" date-first-released="2015-06-11T10:01:08.989971+00:00" date-last-published="2015-06-11T10:39:29.741513+00:00" last-semantic-change="2015-06-11T10:38:20.393260+00:00">
+            <supertitle py:pytype="str">Tipps zur Baufinanzierung</supertitle>
+            <title py:pytype="str">Persönlicher Zinsrechner</title>
+            <text py:pytype="str">Der Zinsrechner von Interhyp gibt Ihnen eine erste Einschätzung zu Ihrem individuellen Top-Zins.  </text>
+            <description py:pytype="str">Der Zinsrechner von Interhyp gibt Ihnen eine erste Einschätzung zu Ihrem individuellen Top-Zins.  </description>
+            <byline py:pytype="str">Persönlicher Zinsrechner</byline>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-36d575eb-38bb-49c1-8d87-b615434ddb1f">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/interhyp/links/links_budgetrechner" uniqueId="http://xml.zeit.de/angebote/interhyp/links/links_budgetrechner" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns1:href="http://www.interhyp.de/budgetrechner/?adChannel=zeit&amp;adCampaign=ccp&amp;adKeyword=budgetrechner" ns1:target="_blank" ns1:rel="nofollow" date-last-modified="2015-06-12T06:12:15+00:00" date-first-released="2015-06-11T10:03:56.609821+00:00" date-last-published="2015-06-12T06:13:15.610711+00:00" last-semantic-change="2015-06-12T06:12:06.963401+00:00">
+            <supertitle py:pytype="str">Tipps zur Baufinanzierung</supertitle>
+            <title py:pytype="str">Was kann ich mir leisten? </title>
+            <text py:pytype="str">Das Fundament ist der Kassensturz.</text>
+            <description py:pytype="str">Das Fundament ist der Kassensturz.</description>
+            <byline py:pytype="str">Was kann ich mir leisten? </byline>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-a050e8c4-216d-43df-8e35-baea3a65bf5b">
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/interhyp/links/link_standorte" uniqueId="http://xml.zeit.de/angebote/interhyp/links/link_standorte" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns2:href="http://www.interhyp.de/standorte/?adChannel=zeit&amp;adCampaign=ccp&amp;adKeyword=vorort" ns2:target="_blank" ns2:rel="nofollow" date-last-modified="2015-06-12T06:12:39+00:00" date-first-released="2015-06-11T10:06:40.429390+00:00" date-last-published="2015-06-12T06:13:39.805481+00:00" last-semantic-change="2015-06-12T06:12:26.581830+00:00">
+            <supertitle py:pytype="str">Tipps zur Baufinanzierung</supertitle>
+            <title py:pytype="str">Individuelle Beratung nutzen. </title>
+            <text py:pytype="str">Interhyp ist für Sie an über 80 Standorten vor Ort.</text>
+            <description py:pytype="str">Interhyp ist für Sie an über 80 Standorten vor Ort.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-3fe8d66c-82df-4f2a-afc4-5ceff1cf1357">
+          <block xmlns:ns3="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/interhyp/links/link_baufinanzierungsrechner" uniqueId="http://xml.zeit.de/angebote/interhyp/links/link_baufinanzierungsrechner" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns3:href="http://www.interhyp.de/rechner/?adChannel=zeit&amp;adCampaign=ccp&amp;adKeyword=rechner" ns3:target="_blank" ns3:rel="nofollow" date-last-modified="2015-06-12T06:13:00+00:00" date-first-released="2015-06-11T10:09:44.242825+00:00" date-last-published="2015-06-12T06:14:00.029197+00:00" last-semantic-change="2015-06-12T06:12:52.361712+00:00">
+            <supertitle py:pytype="str">Tipps zur Baufinanzierung</supertitle>
+            <title py:pytype="str">Baufinanzierungsrechner </title>
+            <text py:pytype="str">Die Rechner von Interhyp geben Ihnen Antworten auf viele Fragen rund um Ihre Finanzierung. </text>
+            <description py:pytype="str">Die Rechner von Interhyp geben Ihnen Antworten auf viele Fragen rund um Ihre Finanzierung. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-ca1da5c1-6300-4856-a083-ccb0fad3b24c">
+          <raw>
+            <section>
+              <style type="text/css">
+ #interhyp_socials_buttons {
+ position:relative;
+ height:100px; 
+ width:300px;
+ border:solid 1px #afafaf;
+ padding: 20px;
+ margin-bottom:30px;
+ }
+#interhyp_socials_buttons_header{
+ color:#EE7900;
+ font-size:12px;
+ font-wight:bold;
+ }
+ #interhyp_socials_buttons_facebook{ 
+ position: absolute; 
+ left: 17px; 
+ top: 43px; 
+ }
+ #interhyp_socials_buttons_twitter{ 
+ position: absolute; 
+ left:68px; 
+ top: 43px; 
+ }
+ #interhyp_socials_buttons_youtube{ 
+ position: absolute; 
+ left:118px; 
+ top: 43px; 
+ }
+ #interhyp_socials_buttons_xing { 
+ position: absolute; 
+ left:167px; 
+ top: 41px; 
+ }
+ #interhyp_socials_buttons a:hover {
+ opacity: .5;
+ }
+</style>
+              <div id="interhyp_socials_buttons">
+                <div id="interhyp_socials_buttons_header">
+                  <b>FOLGEN SIE INTERHYP:</b>
+                </div>
+                <a id="interhyp_socials_buttons_facebook" href="https://www.facebook.com/Interhyp" target="_blank">
+                  <img src="http://www.zeit.de/angebote/interhyp/bilder/facebook-button.jpg" alt="Interhyp auf Facebook" title="Interhyp auf Facebook"/>
+                </a>
+                <a id="interhyp_socials_buttons_twitter" href="https://twitter.com/interhyp" target="_blank">
+                  <img src="http://www.zeit.de/angebote/interhyp/bilder/twitter.jpg" alt="Interhyp auf Twitter" title="Interhyp auf Twitter"/>
+                </a>
+                <a id="interhyp_socials_buttons_youtube" href="https://www.youtube.com/user/Interhyp" target="_blank">
+                  <img src="http://www.zeit.de/angebote/interhyp/bilder/youtube.jpg" alt="Interhyp Youtube" title="Interhyp Youtube"/>
+                </a>
+                <a id="interhyp_socials_buttons_xing" href="https://www.xing.com/companies/interhypag" target="_blank">
+                  <img src="http://www.zeit.de/angebote/interhyp/bilder/xing.jpg" alt="Interhyp auf Xing" title="Interhyp auf Xing"/>
+                </a>
+              </div>
+            </section>
+          </raw>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-30e16856-89c0-463a-9cb4-bf7ed2a5d558" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/interhyp/links/link_zins-check" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.interhyp.de/persoenlicher-zinsrechner/?adChannel=zeit&amp;adCampaign=ccp&amp;adKeyword=zinscheck" ns0:target="_blank" ns0:rel="nofollow" uniqueId="http://xml.zeit.de/angebote/interhyp/links/link_zins-check" date-last-modified="2015-06-11T10:11:35+00:00" date-first-released="2015-06-11T10:12:35.077487+00:00" date-last-published="2015-06-11T10:12:35.077487+00:00" last-semantic-change="2015-06-11T10:11:17.761716+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zins-Check</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/interhyp/bilder/zins-check/zins-check-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-bf4ce052-0cf6-477b-a07b-408238fbcef3">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/interhyp/links/link_wohntraum" uniqueId="http://xml.zeit.de/angebote/interhyp/links/link_wohntraum" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.interhyp.de/ueber-interhyp/presse/wohntraumstudie/?adChannel=zeit&amp;adCampaign=ccp&amp;adKeyword=wohntraum" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-06-12T06:07:43+00:00" date-first-released="2015-06-11T10:23:17.521578+00:00" date-last-published="2015-06-12T06:08:43.774431+00:00" last-semantic-change="2015-06-12T06:06:36.229791+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wohnträume der Deutschen</title>
+            <text py:pytype="str">Die Interhyp-Wohntraumstudie zeigt anschaulich, was die Menschen in Deutschland rund um die Immobilie bewegt. Zur Studie...</text>
+            <description py:pytype="str">Die Interhyp-Wohntraumstudie zeigt anschaulich, was die Menschen in Deutschland rund um die Immobilie bewegt. Zur Studie...</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/interhyp/bilder/wohntraum/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-eeb62cca-7cee-4016-acb9-bef5b11a1408">
+          <raw>
+            <iframe width="320" height="180" src="https://www.youtube.com/embed/CcYCqYvFZ2s" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-d18b3d85-622a-4ddc-b182-72a3d69356d8">
+          <raw>
+            <iframe width="320" height="180" src="https://www.youtube.com/embed/R1gMijjo01A" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline>Interhyp-Beratung: ist ein Angebot der Interhyp AG. Für den Inhalt ist die Interhyp AG verantwortlich.</byline>
+    <title>Artikel Rahmen Interhyp</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Interhyp</title>
+  </teaser>
+</centerpage>

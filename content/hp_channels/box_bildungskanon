@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage>
+  <head>
+    <!-- Angaben zum Dokument -->
+    <id>
+      <!-- die eineindeutige ID des Dokuments -->
+      <uniqueid>cms:/cms/work/index</uniqueid>
+    </id>
+    <attribute name="supertitle" ns="http://namespaces.zeit.de/CMS/document">Spiele Box</attribute>
+    <!-- Dachzeile/Spitzmarke -->
+    <!-- ggF. mehrere -->
+    <attribute name="date-last-modified" ns="http://namespaces.zeit.de/CMS/document">25.6.2008 - 15:36</attribute>
+    <!-- Schlagworte -->
+    <!-- manuell vergeben Schlagworte -->
+    <keywordset>
+      <!-- wenn source=='auto', dann automatisch vergebenes Schlagwort -->
+      <keyword intaxo="no" source="auto">DIE ZEIT</keyword>
+      <keyword intaxo="no" source="auto">ZEIT online</keyword>
+      <keyword intaxo="no" source="auto">Spiele</keyword>
+      <keyword source="manual">Onlinespiele</keyword>
+    </keywordset>
+    <!-- Statusausk&#252;nfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">742</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords">Spiele;Onlinespiele</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">new</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">glossner</attribute>
+  </head>
+  <body>
+    <container layout="container" id="themenuebersicht" label="" priority="">
+      <block layout="" priority="" href="cms:/cms/work/bildungskanon/musik" id="" sticky="">
+        <title>Musik</title>
+        <text>Die Freiheit der Töne – Alle Artikel der aktuellen Folge</text>
+        <byline/>
+        <image expires="2100-01-01" src="/cms/work/bilder/2008/standards/wissen/bildungskanon/50/popup-50/popup-50-120x90.jpg" align="right" alt="" border="" href="" layout="" vspace="" width=""><copyright>©</copyright>
+          BILD
+        </image>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/bildungskanon/medien" id="" sticky="">
+            <title>Medien</title>
+          </block>
+          <block layout="" priority="" href="cms:/cms/work/bildungskanon/kind">
+            <title>Kind</title>
+          </block>
+          <block layout="" priority="" href="cms:/cms/work/bildungskanon/volk">
+            <title>Volk</title>
+          </block>
+          <block layout="" priority="" href="cms:/cms/work/bildungskanon/sport" id="" sticky="">
+            <title>Sport</title>
+          </block>
+        </related>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+</centerpage>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-07-01T09:44:14.795844+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-06-28T13:32:09.666188+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-07-01T09:45:24.782727+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-06-28T14:01:51.500588+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-07-01T09:44:02.393658+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">almodovar</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e7d0fc1d-ec9e-45f8-bb6f-0bfaef96544d}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-8ef722fd-bc84-441b-93c0-dfea5f13776f">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-fa7bd6ea-748b-48db-9009-74b08c73c101">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/almodovar/link_startseite" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/almodovar/index" ns0:target="_blank" date-last-modified="2013-06-28T13:59:20+00:00" date-first-released="2013-06-28T14:00:20.557168+00:00" date-last-published="2013-06-28T14:00:20.557168+00:00" last-semantic-change="2013-06-28T13:59:05.737926+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-bcf7853f-ac84-48cb-900b-1d063a89d601" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/almodovar/link_almodovar" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/almodovar/" date-last-modified="2013-07-01T08:54:36+00:00" date-first-released="2013-07-01T08:55:35.875259+00:00" date-last-published="2013-07-01T08:55:35.875259+00:00" last-semantic-change="2013-07-01T08:54:22.633646+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Pedro Almodóvar - FLIEGENDE LIEBENDE</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/almodovar/bilder/fl_logo/fl_logo-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-8a96822f-0032-4b03-9f4c-3cddf866fcc8">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/almodovar/almodovar" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.almodovar.de/" ns0:target="_blank" date-last-modified="2013-07-01T09:19:39+00:00" date-first-released="2013-07-01T09:20:38.711803+00:00" date-last-published="2013-07-01T09:20:38.711803+00:00" last-semantic-change="2013-07-01T09:19:28.669850+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">ALMODÓVAR</title>
+            <text py:pytype="str">Erleben Sie die ganze Welt des spanischen Kultregisseurs Pedro Almodóvar – alle Infos, Filmausschnitte und die Biografien seiner Musen – jetzt auf www.almodovar.de</text>
+            <description py:pytype="str">Erleben Sie die ganze Welt des spanischen Kultregisseurs Pedro Almodóvar – alle Infos, Filmausschnitte und die Biografien seiner Musen – jetzt auf www.almodovar.de</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/almodovar/bilder/FL_1000x600Almo/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-624ccfd5-f6bf-453a-910c-1aee6f19d09c">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/almodovar/trailer" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.youtube.com/playlist?list=PLbqQ3MKuKlIVjXqvKQleNJ1MAY3wzh_GR" ns0:target="_blank" date-last-modified="2013-07-01T09:28:17+00:00" date-first-released="2013-07-01T09:29:16.791453+00:00" date-last-published="2013-07-01T09:29:16.791453+00:00" last-semantic-change="2013-07-01T09:26:53.898953+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">TRAILER</title>
+            <text py:pytype="str">Alle Trailer, Clips und Filmausschnitte zu Pedro Almodóvars neuer Komödie FLIEGENDE LIEBENDE – jetzt im TOBIS Filmclub-Kanal auf Youtube.</text>
+            <description py:pytype="str">Alle Trailer, Clips und Filmausschnitte zu Pedro Almodóvars neuer Komödie FLIEGENDE LIEBENDE – jetzt im TOBIS Filmclub-Kanal auf Youtube.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/almodovar/bilder/FL_1000x600_trailer/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-bc81d057-d40b-43e8-a945-a9a64786f948">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/almodovar/fan" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://www.facebook.com/tobisfilmclub/app_241368579222450" ns0:target="_blank" date-last-modified="2013-07-01T09:34:19+00:00" date-first-released="2013-07-01T09:35:19.485143+00:00" date-last-published="2013-07-01T09:35:19.485143+00:00" last-semantic-change="2013-07-01T09:34:06.081626+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">WERDE FAN</title>
+            <text py:pytype="str">Werden Sie jetzt Fan im TOBIS Filmclub, dem Filmportal für Fans besonderer Filme. </text>
+            <description py:pytype="str">Werden Sie jetzt Fan im TOBIS Filmclub, dem Filmportal für Fans besonderer Filme. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/almodovar/bilder/FL_1000x600_fan/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-aa9b4b02-ccf3-4608-8cf0-01db3d72efa7">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/almodovar/newsletter" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.tobis.de/newsletter" ns0:target="_blank" date-last-modified="2013-07-01T09:39:23+00:00" date-first-released="2013-07-01T09:40:23.463257+00:00" date-last-published="2013-07-01T09:40:23.463257+00:00" last-semantic-change="2013-07-01T09:38:58.929748+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">NEWSLETTER</title>
+            <text py:pytype="str">Mit dem kostenlosen TOBIS Filmclub Newsletter erhalten Sie immer die neuesten News zu interessanten Kinostarts und Gewinnspielen von TOBIS Film.</text>
+            <description py:pytype="str">Mit dem kostenlosen TOBIS Filmclub Newsletter erhalten Sie immer die neuesten News zu interessanten Kinostarts und Gewinnspielen von TOBIS Film.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/almodovar/bilder/FL_1000x600_NL/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Almodovar</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Almodovar</title>
+  </teaser>
+</centerpage>

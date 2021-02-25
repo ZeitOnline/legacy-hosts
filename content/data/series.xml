@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- 
+    VORSICHT
+    
+    Wenn Attribut "serienname" irgendwelche Sonderzeichen oder Leerzeichen enthaelt, 
+    bitte zusaetzliches Attribut "encoded" ausfuellen!!
+    
+  &#220;betragung wie folgt:
+  
+  Leerzeichen - %20
+  &#214;  - %C3%96
+  &#196;  - %C3%84
+  &#220;  - %C3%9C
+  &#246;  - %C3%B6
+  &#228;  - %C3%A4
+  &#252;  - %C3%BC
+  &#223;  - %C3%9F
+  : - %3A
+  & - %26
+  
+  Online Tool zum Escapen von Sonderzeichen oder ganzen Serientiteln:    
+  http://meyerweb.com/eric/tools/dencoder/ 
+  (dort auf "encode" dr&#252;cken)
+
+  Das Attribut fallback_image="yes" sorgt daf&#252;r, dass ein Artikel der Serie, wenn er kein Artikelbild hat, in den Assets der Serienseite guckt, ob dort eins definiert ist und in diesem Falle dieses als Artikelbild nutzt.
+  
+-->
+<allseries>
+  <series title="10 nach 8" serienname="10 nach 8" url="10nach8" encoded="10%20nach%208"/>
+  <series title="1 von 80 Millionen" serienname="1 von 80 Millionen" url="1-von-80-millionen" encoded="1%20von%2080%20Millionen"/>
+  <series title="12 Fragen der Wissenschaft" serienname="12 Fragen der Wissenschaft" url="fragen-der-wissenschaft" encoded="12%20Fragen%20der%20Wissenschaft"/>
+  <series title="30 Tage oben rechts" serienname="30 Tage oben rechts" url="30-tage-oben-rechts" encoded="30%20Tage%20oben%20rechts"/>
+  <series title="50 Jahre Einwanderungsland" serienname="50 Jahre Einwanderungsland" url="fuenfzig-jahre-einwanderungsland" encoded="50%20Jahre%20Einwanderungsland"/>
+  <series title="70 Jahre ZEIT" serienname="70 Jahre ZEIT" url="70-jahre-zeit" encoded="70%20Jahre%20ZEIT"/>
+  <series title="Abi 2009" serienname="Abi 2009" url="abi-2009" encoded="Abi%202009"/>
+  <series title="Abwesenheitsnotizen" serienname="Abwesenheitsnotizen" url="abwesenheitsnotizen"/>
+  <series title="Afrika - 50 Jahre Unabhängigkeit" serienname="Afrika 50" url="afrika-50" encoded="Afrika%2050"/>
+  <series title="Allein unter Menschen" serienname="Allein unter Menschen" url="allein-unter-menschen" encoded="Allein%20unter%20Menschen" format-label="Kolumne"/>
+  <series title="Alles außer Fußball" serienname="Alles außer Fußball" url="alles-ausser-fussball" encoded="Alles%20au%C3%9Fer%20Fu%C3%9Fball"/>
+  <series title="Alles über Fußball" serienname="Alles über Fußball" url="alles-ueber-fussball" encoded="Alles%20%C3%BCber%20Fu%C3%9Fball"/>
+  <series title="alpha-Centauri" serienname="alpha-Centauri" url="alpha-centauri"/>
+  <series title="Amuse Buch" serienname="Amuse Buch" url="amuse-buch" encoded="Amuse%20Buch"/>
+  <series title="An der Basis" serienname="An der Basis" url="an-der-basis" encoded="An%20der%20Basis"/>
+  <series title="Angekommen?" serienname="Angekommen?" url="angekommen" encoded="Angekommen%3F"/>
+  <series title="Ankommen" serienname="Ankommen" url="ankommen"/>
+  <series title="Anti-Mono-Stereo" serienname="Anti-Mono-Stereo" url="anti-mono-stereo"/>
+  <series title="Anruf bei..." serienname="Anruf bei..." url="anruf-bei" encoded="Anruf%20bei..."/>
+  <series title="Apfel an Stamm" serienname="Apfel an Stamm" url="apfel-an-stamm" encoded="Apfel%20an%20"/>
+  <series title="App-Kritik" serienname="App-Kritik" url="app-kritik"/>
+  <series title="Archäologie heute" serienname="Archäologie heute" url="archaeologie-heute" encoded="Arch%C3%A4ologie%20heute"/>
+  <series title="Auch das ist Sport" serienname="Auch das ist Sport" url="auch-das-ist-sport" encoded="Auch%20das%20ist%20Sport"/>
+  <series title="Auf dem Laufenden" serienname="Auf dem Laufenden" url="auf-dem-laufenden" encoded="Auf%20dem%20Laufenden"/>
+  <series title="Auf der Couch mit" serienname="Auf der Couch mit" url="auf-der-couch-mit" encoded="Auf%20der%20Couch%20mit"/>
+  <series title="Auf eine Zigarette mit Helmut Schmidt" serienname="Auf eine Zigarette" url="auf-eine-zigarette" encoded="Auf%20eine%20Zigarette"/>
+  <series title="Auf ein Frühstücksei" serienname="Auf ein Frühstücksei" url="auf-ein-fruehstuecksei" encoded="Auf%20ein%20Fr%C3%BChst%C3%BCcksei"/>
+  <series title="Aus den Kommentaren" serienname="Aus den Kommentaren" url="aus-den-kommentaren" encoded="Aus%20den%20Kommentaren"/>
+  <series title="Aus meinem Handgepäck" serienname="Aus meinem Handgepäck" url="aus-meinem-handgepaeck" encoded="Aus%20meinem%20Handgep%C3%A4ck%0A"/>
+  <series title="Ausprobiert" serienname="Ausprobiert" url="ausprobiert"/>
+  <series title="Aussteigen für Anfänger" serienname="Aussteigen für Anfänger" url="aussteigen-fuer-anfaenger" encoded="Aussteigen%20f%C3%BCr%20Anf%C3%A4nger"/>
+  <series title="Autogeschichte" serienname="Autogeschichte" url="autogeschichte"/>
+  <series title="Autotest" serienname="Autotest" url="zeitmagazin-autotest"/>
+  <series title="Bachelor Tagebuch" serienname="Bachelor Tagebuch" url="bachelor-tagebuch" encoded="Bachelor%20Tagebuch"/>
+  <series title="Berliner Canapés" serienname="Berliner Canapes" url="berliner-canapes" encoded="Beliner%20Canap%C3%A9s"/>
+  <series title="Beruf der Woche" serienname="Beruf der Woche" url="beruf-der-woche" encoded="Beruf%20der%20Woche"/>
+  <series title="Besser wirtschaften" serienname="Besser wirtschaften" url="besser-wirtschaften" encoded="Besser%20wirtschaften"/>
+  <series title="Best of Uni" serienname="Best of Uni" url="best-of-uni" encoded="Best%20of%20Uni"/>
+  <series title="Beziehungen" serienname="Beziehungen" url="beziehungen"/>
+  <series title="Beziehungsweisen" serienname="Beziehungsweisen" url="beziehungsweisen"/>
+  <series title="Bier!" serienname="Bier" url="bier"/>
+  <series title="Bildungskanon" serienname="Bildungskanon" url="bildungskanon"/>
+  <series title="Bildungskolumne" serienname="Bildungskolumne" url="bildungskolumne"/>
+  <series title="Bullshit-Alarm" serienname="Bullshit-Alarm" url="bullshit-alarm"/>
+  <series title="Carsharing" serienname="Carsharing" url="carsharing"/>
+  <series title="Chancen zum Wechsel" serienname="Chancen zum Wechsel" url="chancen-zum-wechsel" encoded="Chancen%20zum%20Wechsel"/>
+  <series title="Chefsache" serienname="Chefsache" url="chefsache"/>
+  <series title="City Guide" serienname="City Guide" url="city-guide" encoded="City%20Guide"/>
+  <series title="Das anonyme Gehaltsprotokoll" serienname="Das anonyme Gehaltsprotokoll" url="das-anonyme-gehaltsprotokoll" encoded="Das%20anonyme%20Gehaltsprotokoll"/>
+  <series title="Das demografische Experiment" serienname="Das demografische Experiment" url="das-demografische-experiment" encoded="Das%20demografische%20Experiment"/>
+  <series title="Das Erbe der Sowjetunion" serienname="Das Erbe der Sowjetunion" url="das-erbe-der-sowjetunion" encoded="Das%20Erbe%20der%20Sowjetunion"/>
+  <series title="Das erste Mal" serienname="Das erste Mal" url="das-erste-mal" encoded="Das%20erste%20Mal"/>
+  <series title="Das gehört nicht ins Feuilleton" serienname="Das gehört nicht ins Feuilleton" url="das-gehoert-nicht-ins-feuilleton" encoded="Das%20geh%C3%B6rt%20nicht%20ins%20Feuilleton"/>
+  <series title="Das ist Fotografie" serienname="Das ist Fotografie" url="das-ist-fotografie" encoded="Das%20ist%20Fotografie"/>
+  <series title="Das ist mir heilig" serienname="Das ist mir heilig" url="das-ist-mir-heilig" encoded="Das%20ist%20mir%20heilig"/>
+  <series title="Das Karrierebuch" serienname="Das Karrierebuch" url="das-karrierebuch" encoded="Das%20Karrierebuch"/>
+  <series title="Das Motiv" serienname="Das Motiv" url="das-motiv" encoded="Das%20Motiv"/>
+  <series title="Das nennst du Arbeit?" serienname="Das nennst du Arbeit?" url="das-nennst-du-arbeit" encoded="Das%20nennst%20du%20Arbeit%3F"/>
+  <series title="Das nervt" serienname="Das nervt" url="das-nervt" encoded="Das%20nervt"/>
+  <series title="Das neue Glück im Osten" serienname="Das neue Glück im Osten" url="das-neue-glueck-im-osten" encoded="Das%20neue%20Gl%C3%BCck%20im%20Osten"/>
+  <series title="Das Österreich-Porträt" serienname="Das Österreich-Porträt" url="das-oesterreich-portraet" encoded="Das%20%C3%96sterreich%20Portrm%C3%A4t"/>
+  <series title="Das Prinzip 50/50" serienname="Das Prinzip 50/50" url="das-prinzip-50-50" encoded="Das%20Prinzip%2050%2F50"/>
+  <series title="Das unterschätzte Tier" serienname="Das unterschätzte Tier" url="das-unterschaetzte-tier" encoded="Das%20untersch%C3%A4tzte%20Tier"/>
+  <series title="Das Vermächtnis" serienname="Das Vermächtnis" url="das-vermaechtnis" encoded="Das%20Verm%C3%A4chtnis"/>
+  <series title="Das Wesentliche" serienname="Das Wesentliche" url="das-wesentliche" encoded="Das%20Wesentliche"/>
+  <series title="Das war meine Rettung" serienname="Das war meine Rettung" url="das-war-meine-rettung" encoded="Das%20war%20meine%20Rettung"/>
+  <series title="Das wird diese Woche wichtig" serienname="Das wird diese Woche wichtig" url="das-wird-diese-woche-wichtig" encoded="Das%20wird%20diese%20Woche%20wichtig"/>
+  <series title="Das Zitat und Ihr Gewinn" serienname="Das Zitat und Ihr Gewinn" url="das-zitat-und-ihr-gewinn" encoded="Das%20Zitat%20und%20Ihr%20Gewinn"/>
+  <series title="Dausend" serienname="Dausend" url="dausend"/>
+  <series title="Der Atheist, der was vermisst" serienname="Der Atheist, der was vermisst" url="der-atheist-der-was-vermisst" encoded="Der%20Atheist,%20der%20was%20vermisst"/>
+  <series title="Der besondere Jahrgang" serienname="Der besondere Jahrgang" url="der-besondere-jahrgang" encoded="Der%20besondere%20Jahrgang"/>
+  <series title="Der bessere Dreh" serienname="Der bessere Dreh" url="der-bessere-dreh" encoded="Der%20bessere%20Dreh"/>
+  <series title="Der neue Mann" serienname="Der neue Mann" url="der-neue-mann" encoded="Der%20neue%20Mann"/>
+  <series title="Der Obduktionsbericht" serienname="Der Obduktionsbericht" url="der-obduktionsbericht" encoded="Der%20Obduktionsbericht"/>
+  <series title="Der Ökonom" serienname="Der Ökonom" url="der-oekonom" encoded="Der%20%C3%96konom"/>
+  <series title="Designer über Schönheit" serienname="Designer über Schönheit" url="designer-ueber-schoenheit" encoded="Designer%20%C3%BCber%20Sch%C3%B6nheit"/>
+  <series title="Deutschland, deine Kanzler" serienname="Deutschland, deine Kanzler" url="deutschland-deine-kanzler" encoded="Deutschland,%20deine%20Kanzler"/>
+  <series title="DeutschlandDuell" serienname="DeutschlandDuell" url="deutschlandduell"/>
+  <series title="Deutschlandkarte" serienname="Deutschlandkarte" url="deutschlandkarte"/>
+  <series title="Diät-Mythen" serienname="Diät-Mythen" url="diaet-mythen" encoded="Di%C3%A4t-Mythen"/>
+  <series title="Die AfD und ich" serienname="Die AfD und ich" url="die-afd-und-ich" encoded="Die%20AfD%20und%20ich"/>
+  <series title="Die Bessermacher" serienname="Die Bessermacher" url="die-bessermacher" encoded="Die%20Bessermacher"/>
+  <series title="Die Einzelkämpfer" serienname="Die Einzelkämpfer" url="die-einzelkaempfer" encoded="Die%20Einzelk%C3%A4mpfer"/>
+  <series title="Die hellsten Köpfe der Schweiz" serienname="Die hellsten Köpfe der Schweiz" url="die-hellsten-koepfe-der-schweiz" encoded="Die%20hellsten%20K%C3%B6pfe%20der%20Schweiz"/>
+  <series title="Die Insel" serienname="Die Insel" url="die-insel" encoded="Die%20Insel"/>
+  <series title="Die kommentierte Ausgabe" serienname="Die kommentierte Ausgabe" url="die-kommentierte-ausgabe" encoded="Die%20kommentierte%20Ausgabe"/>
+  <series title="Die Lewitan-Therapie" serienname="Die Lewitan-Therapie" url="die-lewithan-therapie" encoded="Die%20Lewitan-Therapie" format-label="Kolumne"/>
+  <series title="Die neuen Einwanderer" serienname="Die neuen Einwanderer" url="die-neuen-einwanderer" encoded="Die%20neuen%20Einwanderer"/>
+  <series title="Die Omelettschule" serienname="Die Omelettschule" url="die-omelettschule" encoded="Die%20Omelettschule"/>
+  <series title="Die Tricks der Verkäufer" serienname="Die Tricks der Verkäufer" url="die-tricks-der-verkaeufer" encoded="Die%20Tricks%20der%20Verk%C3%A4ufer"/>
+  <series title="Die Wahlbeobachter" serienname="Die Wahlbeobachter" url="die-wahlbeobachter" encoded="Die%20Wahlbeobachter"/>
+  <series title="Die Wahrheit über Bio" serienname="Die Wahrheit über Bio" url="die-wahrheit-ueber-bio" encoded="Die%20Wahrheit%20%C3%BCber%20Bio"/>
+  <series title="Die Welt auf der Couch" serienname="Die Welt auf der Couch" url="die-welt-auf-der-couch" encoded="Die%20Welt%20auf%20der%20Couch"/>
+  <series title="Die Welt verbessern mit IT" serienname="Die Welt verbessern mit IT" url="die-welt-verbessern-mit-it" encoded="Die%20Welt%20verbessern%20mit%20IT"/>
+  <series title="Die WM und ich als Brasilianerin" serienname="Die WM und ich als Brasilianerin" url="die-wm-und-ich-als-brasilianerin" encoded="Die%20WM%20und%20ich%20als%20Brasilianerin"/>
+  <series title="Die Werkstatt" serienname="Die Werkstatt" url="die-werkstatt" encoded="Die%20Werkstatt"/>
+  <series title="Die Zumutung" serienname="Die Zumutung" url="die-zumutung" encoded="Die%20Zumutung"/>
+  <series title="Diese Wähler" serienname="Diese Wähler" url="diese-waehler" encoded="Diese%20W%C3%A4hler"/>
+  <series title="Diesmal in..." serienname="Diesmal in..." url="diesmal-in" encoded="Diesmal%20in..."/>
+  <series title="Digitale Champions" serienname="Digitale Champions" url="digitale-champions" encoded="Digitale%20Champions"/>
+  <series title="Digitale Defensive" serienname="Digitale Defensive" url="digitale-defensive" encoded="Digitale%20Defensive"/>
+  <series title="Digital Denken" serienname="Digital Denken" url="digital-denken" encoded="Digital%20Denken"/>
+  <series title="Donnerstalk" serienname="Donnerstalk" url="donnerstalk"/>
+  <series title="Drinks für jede Lebenslage" serienname="Drinks für jede Lebenslage" url="drinks-fuer-jede-lebenslage" encoded="Drinks%20fuer%20jede%20Lebenslage"/>
+  <series title="Drohnen-Dokumente" serienname="Drohnen-Dokumente" url="drohnen-dokumente"/>
+  <series title="Duftnoten – Alles über Parfum" serienname="Duftnoten" url="duftnoten"/>
+  <series title="Ehemaligenverein" serienname="Ehemaligenverein" url="ehemaligenverein"/>
+  <series title="Eilenbergers Kabinenpredigt" serienname="Eilenbergers Kabinenpredigt" url="eilenbergers-kabinenpredigt" encoded="Eilenbergers%20Kabinenpredigt" format-label="Kolumne"/>
+  <series title="Elbvertiefung" serienname="Elbvertiefung" url="elbvertiefung"/>
+  <series title="Elternhaus" serienname="Elternhaus" url="elternhaus"/>
+  <series title="E-Mail aus Aleppo" serienname="E-Mail aus Aleppo" url="email-aus-aleppo" encoded="E-Mail%20aus%20Aleppo"/>
+  <series title="E-Mail aus Davos" serienname="E-Mail aus Davos" url="email-aus-davos" encoded="E-Mail%20aus%20Davos"/>
+  <series title="EM-Schnack" serienname="EM-Schnack" url="em-schnack"/>
+  <series title="EM-Teams" serienname="EM-Teams" url="em-teams"/>
+  <series title="EM für Anfänger" serienname="EM für Anfänger" url="em-fuer-anfaenger" encoded="EM%20f%C3%BCr%20Anf%C3%A4nger"/>
+  <series title="Endlich richtig streiten" serienname="Endlich richtig streiten" url="endlich-richtig-streiten" encoded="Endlich%20richtig%20streiten"/>
+  <series title="Energie" serienname="erde/energie" url="erde-energie"/>
+  <series title="Entdeckerquiz" serienname="Entdeckerquiz" url="entdeckerquiz"/>
+  <series title="Es ist HIV" serienname="Es ist HIV" url="es-ist-hiv" encoded="Es%20ist%20hiv"/>
+  <series title="Es ist kompliziert" serienname="Es ist kompliziert" url="es-ist-komliziert" encoded="Es%20ist%20kompliziert"/>
+  <series title="Expertenrat" serienname="Expertenrat" url="expertenrat"/>
+  <series title="Fakt oder Fake" serienname="Fakt oder Fake" url="fakt-oder-fake" encoded="Fakt%20oder%20Fake"/>
+  <series title="Faktomat" serienname="Faktomat" url="faktomat"/>
+  <series title="Fall Mollath" serienname="Fall Mollath" url="fall-mollath" encoded="Fall%20Mollath"/>
+  <series title="Familie Rosenkranz" serienname="Familie Rosenkranz" url="familie-rosenkranz" encoded="Familie%20Rosenkranz"/>
+  <series title="Familienglück" serienname="Familienglück" url="familienglueck" encoded="Familiengl%C3%BCck"/>
+  <series title="Fangfragen" serienname="Fangfragen" url="fangfragen"/>
+  <series title="Fett wie ein Turnschuh" serienname="Fett wie ein Turnschuh" url="fett-wie-ein-turnschuh" encoded="Fett%20wie%20ein%20Turnschuh" format-label="Kolumne"/>
+  <series title="Fehlerlesen" serienname="Fehlerlesen" url="fehlerlesen" format-label="Kolumne"/>
+  <series title="Finis" serienname="Finis" url="Finis"/>
+  <series title="Fischer im Recht" serienname="Fischer im Recht" url="fischer-im-recht" encoded="Fischer%20im%20Recht" format-label="Kolumne"/>
+  <series title="Flopulär" serienname="Flopulär" url="Flopulaer" encoded="Flopul%C3%A4r"/>
+  <series title="Flüchtlingskinder" serienname="Flüchtlingskinder" url="fluechtlingskinder" encoded="Fl%C3%BCchtlingskinder"/>
+  <series title="Flüchtlingsland Libanon" serienname="Flüchtlingsland Libanon" url="fluechtlingsland-libanon" encoded="Fl%C3%BCchtlingsland%20Libanon"/>
+  <series title="Fototagebuch einer Bischöfin" serienname="Fototagebuch einer Bischöfin" url="fototagebuch-einer-bischoefin" encoded="Fototagebuch%20einer%20Bisch%C3%B6fin"/>
+  <series title="Fragen an den Altkanzler" serienname="Fragen an den Altkanzler" url="fragen-an-den-altkanzler" encoded="Fragen%20an%20den%20Altkanzler"/>
+  <series title="Fragen zum Arbeitsrecht" serienname="Fragen zum Arbeitsrecht" url="da-staunt-der-chef" encoded="Fragen%20zum%20Arbeitsrecht"/>
+  <series title="Frankreich bleibt blau" serienname="Frankreich bleibt blau" url="frankreich-bleibt-blau" encoded="Frankreich%20bleibt%20blau"/>
+  <series title="Franz &amp; Friends" serienname="Franz &amp; Friends" url="franz-und-friends" encoded="Franz%20und%20Friends"/>
+  <series title="Fratzschers Verteilungsfragen" serienname="Fratzschers Verteilungsfragen" url="fratzschers-verteilungsfragen" encoded="Fratzschers%20Verteilungsfragen" format-label="Kolumne"/>
+  <series title="Freiheit in Gefahr" serienname="Freiheit in Gefahr" url="freiheit-in-gefahr" encoded="Freiheit%20in%20Gefahr"/>
+  <series title="Freunde von Freunden" serienname="Freunde von Freunden" url="freunde-von-freunden" encoded="Freunde%20von%20Freunden"/>
+  <series title="Freunde von AK" serienname="Freunde von AK" url="freunde-von-ak" encoded="Freunde%20von%20AK" format-label="Kolumne"/>
+  <series title="Frisch an die Arbeit" serienname="Frisch an die Arbeit" url="frisch-an-die-arbeit" encoded="Frisch%20an%20die%20Arbeit" format-label="Podcast" fallback_image="yes"/>
+  <series title="Frisch renoviert" serienname="Frisch renoviert" url="frisch-renoviert" encoded="Frisch%20renoviert"/>
+  <series title="Fünf und der Fisch" serienname="Fünf und der Fisch" url="fuenf-und-der-fisch" encoded="F%C3%BCnf%20und%20der%20Fisch"/>
+  <series title="Fünf vor 8:00" serienname="Fünf vor acht" url="fuenf-vor-acht" encoded="F%C3%BCnf%20vor%20acht" format-label="Kolumne"/>
+  <series title="Fußball-Presseschau" serienname="Fußball-Presseschau" url="fussball-presseschau" encoded="Fu%C3%9Fball-Presseschau"/>
+  <series title="Gartengeschichten" serienname="Gartengeschichten" url="gartengeschichten"/>
+  <series title="Gemischte Gefühle" serienname="Gemischte Gefühle" url="gemischte-gefuehle" encoded="Gemischte%20Gef%C3%BChle"/>
+  <series title="Gemüsegefühle" serienname="Gemüsegefühle" url="gemuesegefuehle" encoded="Gem%C3%BCsegef%C3%BChle"/>
+  <series title="Generation Europe" serienname="Generation Europe" url="generation-europe" encoded="Generation%2020Europe"/>
+  <series title="Generation Z" serienname="Generation Z" url="generation-z" encoded="Generation%20Z"/>
+  <series title="Gestrandet in" serienname="Gestrandet in" url="gestrandet-in" encoded="Gestrandet%20in"/>
+  <series title="Genossen in der Krise" serienname="Genossen in der Krise" url="genossen-in-der-krise" encoded="Genossen%20in%20der%20Krise"/>
+  <series title="Germans Of New York" serienname="Germans Of New York" url="germans-of-new-york" encoded="Germans%20Of%20New%20York"/>
+  <series title="Geschafft!" serienname="Geschafft!" url="geschafft"/>
+  <series title="Gesellschaftskritik" serienname="Gesellschaftskritik" url="gesellschaftskritik"/>
+  <series title="Gesetz der Straße" serienname="Gesetz der Straße" url="gesetz-der-strasse" encoded="Gesetz%20der%20Stra%C3%9Fe"/>
+  <series title="Gestrandet in" serienname="Gestrandet in" url="gestrandet-in" encoded="Gestrandet%20in"/>
+  <series title="Gewalt gegen Flüchtlinge" serienname="Gewalt gegen Flüchtlinge" url="gewalt-gegen-fluechtlinge" encoded="Gewalt%20gegen%20Fl%C3%BCchtlinge"/>
+  <series title="Gewissensbisse" serienname="Gewissensbisse" url="gewissensbisse"/>
+  <series title="Glück und Geld" serienname="Glück und Geld" url="glueck-und-geld" encoded="Glueck%20und%20Geld"/>
+  <series title="Global Drug Survey" serienname="Global Drug Survey" url="global-drug-survey" encoded="Global%20Drug%20Survey"/>
+  <series title="Green New Deal" serienname="Green New Deal" url="green-new-deal" encoded="Green%20New%20Deal"/>
+  <series title="Grills WM-Countdown" serienname="Grills WM-Countdown" url="grills-wm-countdown" encoded="Grills%20WM-Countdown"/>
+  <series title="Große Fragen" serienname="Große Fragen" url="grosse-fragen" encoded="Gro%C3%9Fe%20Fragen"/>
+  <series title="Großstadtärzte" serienname="Großstadtärzte" url="grossstadtaerzte" encoded="Gro%C3%9Fstadt%C3%A4rzte"/>
+  <series title="Grüne Republik Deutschland" serienname="Grüne Republik Deutschland" url="gruene-republik-deutschland" encoded="Gr%C3%BCne%20Republik%20Deutschland"/>
+  <series title="Gute Nachrichten" serienname="Gute Nachrichten" url="gute-nachrichten" encoded="Gute%20Nachrichten"/>
+  <series title="Haas geht aus" serienname="Haas geht aus" url="haas-geht-aus" encoded="haas-geht-aus"/>
+  <series title="Halbwissen" serienname="Halbwissen" url="halbwissen"/>
+  <series title="Hat das Sinn, Frau Rinn?" serienname="Hat das Sinn, Frau Rinn?" url="hat-das-sinn-frau-rinn" encoded="Hat%20das%20Sinn%2C%20Frau%20Rinn?"/>
+  <series title="Heimatreporter" serienname="Heimatreporter" url="heimatreporter"/>
+  <series title="Heimatmysterium" serienname="Heimatmysterium" url="heimatmysterium"/>
+  <series title="heiter bis glücklich" serienname="heiter bis glücklich" url="heiter-bis-gluecklich" encoded="heiter%20bis%20gl%C3%BCcklich"/>
+  <series title="Heute ist leider schlecht" serienname="Heute ist leider schlecht" url="heute-ist-leider-schlecht" encoded="Heute%20ist%20leider%20schlecht" format-label="Kolumne"/>
+  <series title="Hildegard von Binge" serienname="Hildegard von Binge" url="hildegard-von-binge" encoded="Hildegard%20von%20Binge"/>
+  <series title="Hinter der Hecke" serienname="Hinter der Hecke" url="hinter-der-hecke" encoded="Hinter%20der%20Hecke"/>
+  <series title="Hoffnung für Griechenland" serienname="Hoffnung für Griechenland" url="hoffnung-fuer-griechenland" encoded="Hoffnung%20f%C3%BCr%20Griechenland"/>
+  <series title="Hör-Reise" serienname="Hör-Reise" url="hoer-reise" encoded="H%C3%B6r-Reise"/>
+  <series title="Hörsaal" serienname="Hörsaal" url="hoersaal" encoded="H%C3%B6rsaal"/>
+  <series title="Hotels unter 100 Euro" serienname="Hotels unter 100 Euro" url="hotels-unter-100-euro" encoded="Hotels%20unter%20100%20Euro"/>
+  <series title="How to Brexit" serienname="How to Brexit" url="how-to-brexit" encoded="How%20to%20Brexit"/>
+  <series title="Hoteltest" serienname="Hoteltest" url="hoteltest"/>
+  <series title="Ich glotz TV" serienname="Ich glotz TV" url="ich-glotz-tv" encoded="Ich%20glotz%20TV"/>
+  <series title="Ich habe einen Traum" serienname="Ich habe einen Traum" url="ich-habe-einen-traum" encoded="Ich%20habe%20einen%20Traum"/>
+  <series title="Ich packe meinen Koffer" serienname="Ich packe meinen Koffer" url="ich-packe-meinen-Koffer" encoded="Ich%20packe%20meinen%20Koffer"/>
+  <series title="Ich weiß von nichts" serienname="Ich weiß von nichts" url="ich-weiss-von-nichts" encoded="Ich%20wei%C3%9F%20von%20nichts"/>
+  <series title="Idee für die Sozialdemokratie" serienname="Idee für die Sozialdemokratie" url="idee-fuer-die-sozialdemokratie" encoded="Idee%20f%C3%BCr%die%20Sozialdemokratie"/>
+  <series title="Im Griff der Naturgewalten" serienname="Im Griff der Naturgewalten" url="im-griff-der-naturgewalten" encoded="Im%20Griff%20der%20Naturgewalten"/>
+  <series title="Im Urlaub mit" serienname="Im Urlaub mit" url="Im-Urlaub-mit" encoded="Im%20Urlaub%20mit"/>
+  <series title="In 10 Fragen um die Welt" serienname="In 10 Fragen um die Welt" url="in-10-fragen-um-die-welt" encoded="In%2010%20Fragen%20um%20die%20Welt"/>
+  <series title="In der Mensa mit" serienname="In der Mensa mit" url="in-der-mensa-mit" encoded="In%20der%20Mensa%20mit"/>
+  <series title="In der Sprechstunde" serienname="In der Sprechstunde" url="in-der-sprechstunde" encoded="In%20der%20Sprechstunde"/>
+  <series title="Internet woanders" serienname="Internet woanders" url="internet-woanders" encoded="Internet%20woanders"/>
+  <series title="Interview in Zahlen" serienname="Interview in Zahlen" url="interview-in-zahlen" encoded="Interview%20in%20Zahlen"/>
+  <series title="Istanbul'dan" serienname="Istanbuldan" url="istanbuldan" encoded="Istanbuldan" format-label="Kolumne"/>
+  <series title="Italienische Lektionen" serienname="Italienische Lektionen" url="italienische-lektionen" encoded="Italienische%20Lektionen"/>
+  <series title="Irgendwas mit Knack" serienname="Irgendwas mit Knack" url="irgendwas-mit-knack" encoded="Irgendwas%20mit%20Knack"/>
+  <series title="Irrwitz der Woche" serienname="Irrwitz der Woche" url="irrwitz-der-woche" encoded="Irrwitz%20der%20Woche"/>
+  <series title="Islam heute" serienname="Islam heute" url="islam-heute" encoded="Islam%20heute"/>
+  <series title="Ist das normal?" serienname="Ist das normal" url="ist-das-normal" encoded="Ist%20das%20normal?" format-label="Podcast" fallback_image="yes"/>
+  <series title="Jaafar, shu fi?" serienname="Jaafar, shu fi?" url="jaafar-shu-fi" encoded="Jaafar%2C%20shu%20fi?" format-label="Kolumne"/>
+  <series title="Jacke wie Hose" serienname="Jacke wie Hose" url="jacke-wie-hose" encoded="Jacke%20wie%20Hose"/>
+  <series title="Jahresrückblick 2012" serienname="Jahresrückblick 2012" url="jahresrueckblick-2012" encoded="Jahresr%C3%BCckblick%202012"/>
+  <series title="Jahresrückblick 2015" serienname="Jahresrückblick 2015" url="jahresrueckblick-2015" encoded="Jahresr%C3%BCckblick%202015"/>
+  <series title="Jessens Tierleben" serienname="Jessens Tierleben" url="jessens-tierleben" encoded="Jessens%20Tierleben"/>
+  <series title="Jugendbewegung" serienname="Jugendbewegung" url="jugendbewegung"/>
+  <series title="Jungpolitiker" serienname="Jungpolitiker" url="jungpolitiker"/>
+  <series title="Jung und Gott" serienname="Jung und Gott" url="jung-und-gott"/>
+  <series title="Jung und konservativ" serienname="Jung und konservativ" url="jung-und-konservativ" encoded="Jung%20und%20konservativ"/>
+  <series title="Jung und links" serienname="Jung und links" url="jung-und-links"/>
+  <series title="Jurastudium" serienname="Jurastudium" url="jurastudium"/>
+  <series title="Kanon des jungen Jahrhunderts" serienname="Kanon des jungen Jahrhunderts" url="kanon-des-jungen-jahrhunderts" encoded="Kanon%20des%20jungen%20Jahrhunderts"/>
+  <series title="Karriere-Adventskalender" serienname="Karriere-Adventskalender" url="karriere-adventskalender"/>
+  <series title="Kaufen, kaufen, kaufen" serienname="Kaufen, kaufen, kaufen" url="kaufen-kaufen-kaufen"/>
+  <series title="Kein Platz für Flüchtlinge?" serienname="Kein Platz für Flüchtlinge?" url="kein-platz-fuer-fluechtlinge" encoded="Kein%20Platz%20f%C3%BCr%20Fl%C3%BCchtlinge?"/>
+  <series title="Killerspiel-Debatte" serienname="Killerspiel-Debatte" url="killerspiel-debatte"/>
+  <series title="Kinderlieder" serienname="Kinderlieder" url="kinderlieder"/>
+  <series title="Kinnerts Welt" serienname="Kinnerts Welt" url="kinnerts-welt" encoded="Kinnerts%20Welt" format-label="Kolumne"/>
+  <series title="Kiyaks Deutschstunde" serienname="Kiyaks Deutschstunde" url="kiyaks-deutschstunde" encoded="Kiyaks%20Deutschstunde" format-label="Kolumne"/>
+  <series title="Klicken fürs Klima" serienname="Klicken fürs Klima" url="klicken-klima" encoded="Klicken%20f%C3%BCrs%20Klima"/>
+  <series title="Klima" serienname="erde/klima" url="erde-klima"/>
+  <series title="Klima-Countdown" serienname="Klima-Countdown" url="klima-countdown"/>
+  <series title="Klug weiß es" serienname="Klug weiß es" url="klug-weiss-es" encoded="Klug%20wei%C3%9F%20es"/>
+  <series title="Kölümne" serienname="Kölümne" url="koeluemne" encoded="K%C3%B6l%C3%BCmne" format-label="Kolumne"/>
+  <series title="Konjunkturprognose" serienname="Konjunkturprognose" url="konjunkturprognose"/>
+  <series title="Konsumzwang" serienname="Konsumzwang" url="konsumzwang"/>
+  <series title="Kontoauszug" serienname="Kontoauszug" url="kontoauszug"/>
+  <series title="Körperbilder" serienname="Körperbilder" url="koerperbilder" encoded="K%C3%B6rperbilder"/>
+  <series title="Korrekt sparen" serienname="Korrekt sparen" url="korrekt-sparen" encoded="Korrekt%20sparen"/>
+  <series title="Kosmetik-Check" serienname="Kosmetik-Check" url="kosmetik-check"/>
+  <series title="Kosten der Angst" serienname="Kosten der Angst" url="kosten-der-angst" encoded="Kosten%20der%20Angst"/>
+  <series title="KrimiZEIT-Bestenliste" serienname="Krimi-Bestenliste" url="krimizeit-bestenliste"/>
+  <series title="Kriminelle Elemente" serienname="Kriminelle Elemente" url="kriminelle-elemente" encoded="Kriminelle%20Elemente"/>
+  <series title="Kulturquiz" serienname="Kulturquiz" url="kulturquiz"/>
+  <series title="Kumpel seit 91" serienname="Kumpel seit 91" url="kumpel-seit-91" encoded="Kumpel%20seit%2091"/>
+  <series title="Kunst zum Mauerfall" serienname="Kunst zum Mauerfall" url="kunst-zum-mauerfall" encoded="Kunst%20zum%20Mauerfall"/>
+  <series title="Künstler und Urheberrecht" serienname="Künstler und Urheberrecht" url="kuenstler-und-urheberrecht" encoded="K%C3%BCnstler%20und%20Urheberrecht"/>
+  <series title="Lebensgeschichte" serienname="Lebensgeschichte" url="lebensgeschichte"/>
+  <series title="Leben mit Rassismus" serienname="Leben mit Rassismus" url="leben-mit-rassismus" encoded="Leben%20mit%20Rassismus"/>
+  <series title="Leistungssport Leben" serienname="Leistungssport Leben" url="leistungssport-leben" encoded="Leistungssport%20Leben"/>
+  <series title="LEO – ZEIT für Kinder" serienname="LEO – ZEIT für Kinder" url="leo-zeit-fuer-kinder" encoded="LEO%20ZEIT%20f%C3%BCr%20Kinder "/>
+  <series title="Lexikon der Arbeitswelt" serienname="Lexikon der Arbeitswelt" url="lexikon-der-arbeitswelt" encoded="Lexikon%20der%20Arbeitswelt"/>
+  <series title="Liebesbrief" serienname="Liebesbrief" url="liebesbrief"/>
+  <series title="Liebeskolumne" serienname="Liebeskolumne" url="liebeskolumne" format-label="Kolumne"/>
+  <series title="Literaturkanon" serienname="Literaturkanon" url="literaturkanon"/>
+  <series title="LUCHS-Buchpreis" serienname="LUCHS-Buchpreis" url="luchs-buchpreis"/>
+  <series title="Lügendetektor" serienname="Lügendetektor" url="luegendetektor" encoded="L%C3%BCgendetektor"/>
+  <series title="Luft nach oben" serienname="Luft nach oben" url="luft-nach-oben" encoded="Luft%20nach%20oben"/>
+  <series title="Lust auf Stadt" serienname="Lust auf Stadt" url="lust-auf-stadt" encoded="Lust%20auf%20Stadt"/>
+  <series title="Macher und Märkte" serienname="Macher und Märkte" url="macher-und-maerkte" encoded="Macher%20und%20M%C3%A4rkte"/>
+  <series title="Magnum" serienname="Magnum" url="magnum"/>
+  <series title="Mahlzeit" serienname="Mahlzeit" url="mahlzeit"/>
+  <series title="Mahlzeit Hamburg!" serienname="Mahlzeit Hamburg" url="mahlzeit-hamburg" encoded="Mahlzeit%20Hamburg"/>
+  <series title="Mail aus..." serienname="Mail aus..." url="mail-aus" encoded="Mail%20aus..."/>
+  <series title="Mampf" serienname="Mampf" url="mampf"/>
+  <series title="Männer" serienname="Männer Kolumne" url="maenner-kolumne" encoded="M%C3%A4nner%20Kolumne" format-label="Kolumne"/>
+  <series title="Martenstein" serienname="Martenstein" url="martenstein"/>
+  <series title="Maschinenraum" serienname="Maschinenraum" url="maschinenraum"/>
+  <series title="Mein 5. September" serienname="Mein 5. September" url="mein-fuenfter-september" encoded="Mein%205.%20September"/>
+  <series title="Mein Deutschland" serienname="Mein Deutschland" url="mein-deutschland" encoded="Mein%20Deutschland"/>
+  <series title="Mein digitaler Schutzschild" serienname="Mein digitaler Schutzschild" url="mein-digitaler-schutzschild" encoded="Mein%20digitaler%20Schutzschild"/>
+  <series title="Mein Leben mit Musik" serienname="Mein Leben mit Musik" url="mein-leben-mit-musik" encoded="Mein%20Leben%20mit%20Musik"/>
+  <series title="Mein Olympia" serienname="Mein Olympia" url="mein-olympia" encoded="Mein%20Olympia"/>
+  <series title="Mein Wahlkampf" serienname="Mein Wahlkampf" url="mein-wahlkampf" encoded="Mein%20Wahlkampf"/>
+  <series title="Mein WM-Erlebnis" serienname="Mein WM-Erlebnis" url="mein-wm-erlebnis" encoded="Mein%20WM-Erlebnis"/>
+  <series title="Meine Türkei" serienname="Meine Türkei" url="meine-tuerkei" encoded="Meine%20T%C3%BCrkei" format-label="Kolumne"/>
+  <series title="Ministerbilanz" serienname="Ministerbilanz" url="ministerbilanz"/>
+  <series title="Mister Moneypenny" serienname="Mister Moneypenny" url="mister-moneypenny" encoded="Mister%20Moneypenny"/>
+  <series title="Mit viel Liebe" serienname="Mit viel Liebe" url="mit-viel-liebe" encoded="Mit%20viel%20Liebe"/>
+  <series title="Muslimische Momente" serienname="Muslimische Momente" url="muslimische-momente" encoded="Muslimische%20Momente"/>
+  <series title="Morgens halb zehn in Deutschland" serienname="Morgens halb zehn in Deutschland" url="morgens-halb-zehn-in-deutschland" encoded="Morgens%20halb%20zehn%20in%20Deutschland"/>
+  <series title="Nachbarschaftstreffen" serienname="nachbarschaftstreffen" url="nachbarschaftstreffen"/>
+  <series title="Nachhaltigkeit" serienname="erde/nachhaltigkeit" url="erde-nachhaltigkeit"/>
+  <series title="Netz-Knigge für Studenten" serienname="Netz-Knigge für Studenten" url="netz-knigge-fuer-studenten" encoded="Netz-Knigge%20f%C3%BCr%20Studenten"/>
+  <series title="Neu hier" serienname="Neu hier" url="neu-hier" encoded="Neu%20hier"/>
+  <series title="Neue deutsche Konflikte" serienname="Neue deutsche Konflikte" url="neue-deutsche-konflikte" encoded="Neue%20deutsche%20Konflikte"/>
+  <series title="Neue deutsche Nazis" serienname="Neue deutsche Nazis" url="neue-deutsche-nazis" encoded="Neue%20deutsche%20Nazis"/>
+  <series title="Neue Visionäre" serienname="Neue Visionäre" url="neue-visionaere" encoded="Neue%20Vision%C3%A4re"/>
+  <series title="Nord-Süd-Achse" serienname="Nord-Süd-Achse" url="nord-sued-achse" encoded="Nord-S%C3%BCd-Achse"/>
+  <series title="Notiz aus Davos" serienname="Notiz aus Davos" url="notiz-aus-davos" encoded="Notiz%20aus%20Davos"/>
+  <series title="Oh Ohio!" serienname="Oh Ohio!" url="ohohio" encoded="ohohio"/>
+  <series title="Ostblock" serienname="Ostblock" url="ostblock"/>
+  <series title="Ostkurve" serienname="Ostkurve" url="ostkurve"/>
+  <series title="Patchwork" serienname="Patchwork" url="patchwork"/>
+  <series title="Perfektes Leben" serienname="Perfektes Leben" url="perfektes-leben" encoded="Perfektes%20Leben"/>
+  <series title="Pleiten, Pech und Palmen" serienname="Pleiten, Pech und Palmen" url="pleiten-pech-und-palmen" encoded="Pleiten,%20Pech%20und%20Palmen"/>
+  <series title="Political Animals" serienname="Political Animals" url="political-animals" encoded="Political%20Animals"/>
+  <series title="Politik &amp; Lyrik" serienname="Politik und Lyrik" url="politik-und-lyrik" encoded="Politik%20und%20Lyrik"/>
+  <series title="Polizeigewalt" serienname="Polizeigewalt" url="polizeigewalt"/>
+  <series title="Pooh's Corner" serienname="Pooh's Corner" url="poohs-corner" encoded="Pooh%27s%20Corner"/>
+  <series title="Prima Praktika" serienname="Prima Praktika" url="prima-praktika" encoded="Prima%20Praktika"/>
+  <series title="ProContra" serienname="ProContra" url="procontra"/>
+  <series title="Professors Praxis" serienname="Professors Praxis" url="professors-praxis" encoded="Professors%20Praxis" format-label="Kolumne"/>
+  <series title="Prüfers Töchter" serienname="Prüfers Töchter" url="pruefers-toechter" encoded="Pr%C3%BCfers%20T%C3%B6chter"/>
+  <series title="Psychisch krank" serienname="Psychisch krank" url="psychisch-krank" encoded="Psychisch%20krank"/>
+  <series title="Quellennachweis ZEIT Wissen" serienname="Quellennachweis ZEIT Wissen" url="quellennachweis-zeit-wissen" encoded="Quellennachweis%20ZEIT%20Wissen"/>
+  <series title="Querfeldein" serienname="Querfeldein" url="querfeldein"/>
+  <series title="Quengelzone" serienname="Quengelzone" url="quengelzone" format-label="Kolumne"/>
+  <series title="Ratgeber Erkältung" serienname="Ratgeber Erkältung" url="ratgeber-erkaeltung" encoded="Ratgeber%20Erk%C3%A4ltung"/>
+  <series title="Regeln" serienname="Regeln" url="regeln"/>
+  <series title="Reise meines Lebens" serienname="Reise meines Lebens" url="reise-meines-lebens" encoded="Reise%20meines%20Lebens"/>
+  <series title="Reisebilder" serienname="Reisebilder" url="reisebilder"/>
+  <series title="Reisen mit Kind" serienname="Reisen mit Kind" url="reisen-mit-kind" encoded="Reisen%20mit%20Kind"/>
+  <series title="Rekorder B-Seiten" serienname="Rekorder B-Seiten" url="rekorder-b-seiten" encoded="Rekorder%20B-Seiten"/>
+  <series title="Reporter On Ice" serienname="Reporter On Ice" url="reporter-on-ice" encoded="Reporter%20On%20Ice"/>
+  <series title="Roger Willemsen fragt" serienname="Roger Willemsen fragt" url="willemsen" encoded="Roger%20Willemsen%20fragt"/>
+  <series title="Rückkehr nach Hause" serienname="Rückkehr nach Hause" url="rueckkehr-nach-hause" encoded="R%C3%BCckkehr%20nach%20Hause"/>
+  <series title="Ruf des Ostens" serienname="Ruf des Ostens" url="ruf-des-ostens" encoded="Ruf%20des%20Ostens"/>
+  <series title="Rushhour" serienname="Rushhour" url="rushhour"/>
+  <series title="Sachbuch-Bestenliste" serienname="Sachbuch-Bestenliste" url="sachbuch-bestenliste"/>
+  <series title="Sarko oder der andere" serienname="Sarko oder der andere" url="sarko-oder-der-andere" encoded="Sarko%20oder%20der%20andere"/>
+  <series title="Sauber durch die Stadt" serienname="Sauber durch die Stadt" url="sauber-durch-die-stadt" encoded="Sauber%20durch%20die%20Stadt"/>
+  <series title="Scheinselbstständig" serienname="Scheinselbstständig" url="scheinselbststaendig" encoded="Scheinselbstst%C3%A4ndig"/>
+  <series title="Schlaue Weihnachten" serienname="Schlaue Weihnachten" url="schlaue-weihnachten" encoded="Schlaue%20Weihnachten"/>
+  <series title="Schlafzimmerblick" serienname="Schlafzimmerblick" url="schlafzimmerblick"/>
+  <series title="Schönheit in jedem Alter" serienname="Schönheit in jedem Alter" url="schoenheit-in-jedem-alter" encoded="Sch%C3%B6nheit%20in%20jedem%20Alter"/>
+  <series title="Schulfrage" serienname="Schulfrage" url="schulfrage"/>
+  <series title="Schwanger im Studium" serienname="Schwanger im Studium" url="schwanger-im-studium" encoded="Schwanger%20im%20Studium" format-label="Kolumne"/>
+  <series title="Sechs Semester" serienname="Sechs Semester" url="sechs-semester" encoded="Sechs%20Semester"/>
+  <series title="Sehenswert - Wissenswert" serienname="Sehenswert-Wissenswert" url="sehenswert-wissenswert" encoded="Sehenswert-Wissenswert"/>
+  <series title="Selbstkochen" serienname="Selbstkochen" url="selbstkochen" encoded="Selbstkochen"/>
+  <series title="Sergejs Erben" serienname="Sergejs Erben" url="sergejs-erben" encoded="Sergejs%20Erben"/>
+  <series title="Servus Grüezi Hallo" serienname="Servus Grüezi Hallo" url="servus-grueezi-hallo" encoded="Servus%20Gr%C3%BCezi%20Hallo" format-label="Podcast" fallback_image="yes"/>
+  <series title="Sie können jetzt gehen" serienname="Sie können jetzt gehen" url="sie-koennen-jetzt-gehen" encoded="Sie%20k%C3%B6nnen%20jetzt%20gehen"/>
+  <series title="Siebeck" serienname="Siebeck" url="siebeck"/>
+  <series title="Siebecks Sommerseminar" serienname="Siebecks Sommerseminar" url="siebeck-sommerseminar" encoded="Siebecks%20Sommerseminar"/>
+  <series title="Skifahren Utah" serienname="Skifahren Utah" url="skifahren-utah" encoded="Skifahren%20Utah"/>
+  <series title="So denken die Personalchefs" serienname="So denken die Personalchefs" url="so-denken-die-personalchefs" encoded="So%20denken%20die%20Personalchefs"/>
+  <series title="So geht's auch" serienname="So geht's auch" url="so-gehts-auch" encoded="So%20geht%27s%20auch"/>
+  <series title="Sonntagsessen" serienname="Sonntagsessen" url="sonntagsessen"/>
+  <series title="Sportart des Tages" serienname="Sportart des Tages" url="sportart-des-tages" encoded="Sportart%20des%20Tages"/>
+  <series title="St. Pauli Gegengerade" serienname="St. Pauli Gegengerade" url="st-pauli-gegengerade" encoded="St.%20Pauli%20Gegengerade"/>
+  <series title="Stadtporträt" serienname="Stadtporträt" url="stadtportraet" encoded="Stadtportr%C3%A4t"/>
+  <series title="Stars und Sterne" serienname="Stars und Sterne" url="stars-und-sterne" encoded="Stars%20und%20Sterne"/>
+  <series title="Steinbrück - Zur Sache" serienname="Zur Sache" url="steinbrueck-zur-sache" encoded="Zur%20Sache"/>
+  <series title="Stilkolumne" serienname="Stilkolumne" url="stilkolumne"/>
+  <series title="Stilkunde Deutsch" serienname="Stilkunde Deutsch" url="stilkunde-deutsch" encoded="Stilkunde%20Deutsch"/>
+  <series title="Stimmen aus Amerika" serienname="Stimmen aus Amerika" url="stimmen-aus-amerika" encoded="Stimmen%20aus%20Amerika"/>
+  <series title="Stimmen Brasiliens" serienname="Stimmen Brasiliens" url="stimmen-brasiliens" encoded="Stimmen%20Brasiliens"/>
+  <series title="Stimmen Russlands" serienname="Stimmen Russlands" url="stimmen-russlands" encoded="Stimmen%20Russlands"/>
+  <series title="Stimmt's?" serienname="Stimmt's" url="stimmts" encoded="Stimmt%27s" format-label="Kolumne"/>
+  <series title="Stimmt's Audio" serienname="Stimmt's Audio" url="stimmts-audio" encoded="Stimmt%27s%20Audio"/>
+  <series title="Strandreporter" serienname="Strandreporter" url="strandreporter" format-label="Kolumne"/>
+  <series title="Streitfall" serienname="Streitfall" url="streitfall" format-label="Kolumne"/>
+  <series title="Studenten im Bann der Elemente" serienname="Studenten im Bann der Elemente" url="studenten-im-bann-der-elemente" encoded="Studenten%20im%20Bann%20der%20Elemente"/>
+  <series title="Studenten und Eltern" serienname="Studenten und Eltern" url="studenten-und-eltern" encoded="Studenten%20und%20Eltern"/>
+  <series title="Studentenfragen" serienname="Studentenfragen" url="studentenfragen"/>
+  <series title="Studentenwerke" serienname="Studentenwerke" url="studentenwerke"/>
+  <series title="Studium Generale" serienname="Studium Generale" url="studium-generale" encoded="Studium%20Generale"/>
+  <series title="Surren, blinken, leben" serienname="Surren, blinken, leben" url="surren-blinken-leben" encoded="Surren,%20blinken,%20leben" format-label="Kolumne"/>
+  <series title="Tagesquiz" serienname="Tagesquiz" url="tagesquiz"/>
+  <series title="Taktisch klug" serienname="Taktisch klug" url="taktisch-klug" encoded="Taktisch%20klug"/>
+  <series title="Tatort Fernsehen" serienname="Tatort Fernsehen" url="tatort-fernsehen" encoded="Tatort%20Fernsehen"/>
+  <series title="Tatort-Kritikerspiegel" serienname="Tatort-Kritikerspiegel" url="tatort-kritikerspiegel"/>
+  <series title="Technik im Trend" serienname="Technik im Trend" url="technik-im-trend" encoded="Technik%20im%20Trend"/>
+  <series title="Technologie" serienname="erde/technologie" url="erde-technologie"/>
+  <series title="Teevolution" serienname="Teevolution" url="teevolution"/>
+  <series title="The One-Hit Parade" serienname="The One-Hit Parade" url="the-one-hit-parade" encoded="The%20One-Hit%20Parade"/>
+  <series title="Thomas Müller rät" serienname="Thomas Müller rät" url="thomas-mueller-raet" encoded="Thomas%20M%C3%BCller%20r%C3%A4t"/>
+  <series title="Tödliche Keime" serienname="Tödliche Keime" url="toedliche-keime" encoded="T%C3%B6dliche%20Keime"/>
+  <series title="Tonträger" serienname="Tonträger" url="tontraeger" encoded="Tontr%C3%A4ger"/>
+  <series title="Trägt man das jetzt so?" serienname="Trägt man das jetzt so?" url="traegt-man-das-jetzt-so" encoded="Tr%C3%A4gt%20man%20das%20jetzt%20so?"/>
+  <series title="Traumstück" serienname="Traumstück" url="traumstueck" encoded="Traumst%C3%BCck"/>
+  <series title="Türkische Tage" serienname="Türkische Tage" url="tuerkische-tage" encoded="T%C3%BCrkische%20Tage"/>
+  <series title="Typisch Deutsch!" serienname="Typisch Deutsch!" url="typisch-deutsch" encoded="Typisch%20Deutsch%21"/>
+  <series title="Über Geld spricht man (nicht)" serienname="Über Geld spricht man (nicht)" url="ueber-geld-spricht-man-nicht" encoded="%C3%9Cber%20Geld%20spricht%20man%20(nicht)"/>
+  <series title="Überland" serienname="Überland" url="ueberland" encoded="%C3%9Cberland"/>
+  <series title="Umwelt" serienname="erde/umwelt" url="erde-umwelt"/>
+  <series title="UN-Entwicklungsziele" serienname="UN-Entwicklungsziele" url="un-entwicklungsziele"/>
+  <series title="Ungewollt kinderlos" serienname="Ungewollt kinderlos" url="ungewollt-kinderlos" encoded="Ungewollt%20kinderlos"/>
+  <series title="Unigeziefer" serienname="Unigeziefer" url="unigeziefer"/>
+  <series title="Unter Deutschen" serienname="Unter Deutschen" url="unter-deutschen" encoded="Unter%20Deutschen"/>
+  <series title="Universum" serienname="Universum" url="universum"/>
+  <series title="Unterschätzte Stadt" serienname="Unterschätzte Stadt" url="unterschaetzte-stadt" encoded="Untersch%C3%A4tzte%20Stadt"/>
+  <series title="Unter Strom" serienname="Unter Strom" url="unter-strom" encoded="Unter%20Strom"/>
+  <series title="Utopien" serienname="Utopien" url="utopien" encoded="Utopien" video="yes"/>
+  <series title="Veganes Leben" serienname="Veganes Leben" url="veganes-leben" encoded="Veganes%20Leben"/>
+  <series title="Versteckte Klassiker" serienname="Versteckte Klassiker" url="versteckte-klassiker" encoded="Versteckte%20Klassiker"/>
+  <series title="Volkslieder" serienname="Volkslieder" url="volkslieder"/>
+  <series title="Von A nach B" serienname="Von A nach B" url="von-a-nach-b" encoded="Von%20A%20nach%20B"/>
+  <series title="Wahlistik" serienname="Wahlistik" url="wahlistik"/>
+  <series title="Wahlkampfreporter" serienname="Wahlkampfreporter" url="Wahlkampfreporter"/>
+  <series title="Wahlkampfzeiten" serienname="Wahlkampfzeiten" url="wahlkampfzeiten"/>
+  <series title="Waldwoche" serienname="Waldwoche" url="waldwoche"/>
+  <series title="Warum funktioniert das nicht?" serienname="Warum funktioniert das nicht?" url="warum-funktioniert-das-nicht" encoded="Warum%20funktioniert%20das%20nicht?"/>
+  <series title="Warum soll ich das lesen?" serienname="Warum soll ich das lesen?" url="warum-soll-ich-das-lesen" encoded="Warum%20soll%20ich%20das%20lesen?" format-label="Kolumne"/>
+  <series title="Was bewegt..." serienname="Was bewegt" url="was-bewegt" encoded="Was%20bewegt"/>
+  <series title="Was-geben-Sie-aus" serienname="Was geben Sie aus?" url="was-geben-sie-aus" encoded="Was%20geben%20Sie%20aus%3F"/>
+  <series title="Was Hamburg liest" serienname="Was Hamburg liest" url="was-hamburg-liest" encoded="Was%20Hamburg%20liest"/>
+  <series title="Was hat sich verändert?" serienname="Was hat sich verändert?" url="was-hat-sich-veraendert" encoded="Was%20hat%20sich%20ver%C3%A4ndert%3F"/>
+  <series title="Was jetzt?" serienname="Was jetzt?" url="was-jetzt" encoded="Was%20jetzt%3F" format-label="Podcast" fallback_image="yes"/>
+  <series title="Was jetzt, Europa?" serienname="Was jetzt, Europa?" url="was-jetzt-europa" encoded="Was%20jetzt%2C%20Europa%3F"/>
+  <series title="Was studierst Du wirklich?" serienname="Was studierst Du wirklich?" url="was-studierst-du-wirklich" encoded="Was%20studierst%20Du%20wirklich?"/>
+  <series title="We the People" serienname="We the People" url="we-the-people" encoded="We%20the%20people"/>
+  <series title="Weinkolumne" serienname="Weinkolumne" url="weinkolumne" format-label="Kolumne"/>
+  <series title="Wer denkt für morgen" serienname="Wer denkt für morgen" url="wer-denkt-fuer-morgen" encoded="Wer%20denkt%20f%C3%BCr%20morgen"/>
+  <series title="Wer's glaubt" serienname="Wer's glaubt" url="wers-glaubt" encoded="Wer%27s%20glaubt"/>
+  <series title="Wie es wirklich ist" serienname="Wie es wirklich ist" url="wie-es-wirklich-ist" encoded="Wie%20es%20wirklich%20ist"/>
+  <series title="Wie gerecht ist Deutschland?" serienname="Wie gerecht ist Deutschland?" url="wie-gerecht-ist-deutschland" encoded="Wie%20gerecht%20ist%20Deutschland?"/>
+  <series title="Wie wir reden" serienname="Wie wir reden" url="wie-wir-reden" encoded="Wie%20wir%20reden"/>
+  <series title="Wiegenlieder" serienname="Wiegenlieder" url="wiegenlieder"/>
+  <series title="Wien örtlich" serienname="Wien örtlich" url="wien-oertlich" encoded="Wien%20%C3%B6rtlich"/>
+  <series title="Willemsens Jahreszeiten" serienname="Willemsens Jahreszeiten" url="willemsens-jahreszeiten" encoded="Willemsens%20Jahreszeiten"/>
+  <series title="Wir Amis" serienname="Wir Amis" url="wir-amis" encoded="Wir%20Amis" format-label="Kolumne"/>
+  <series title="Wir werden alt" serienname="Wir werden alt" url="wir-werden-alt" encoded="Wir%20werden%20alt"/>
+  <series title="Wirtschaft für Kinder" serienname="Wirtschaft für Kinder" url="wirtschaft-fuer-kinder" encoded="Wirtschaft%20f%C3%BCr%20Kinder"/>
+  <series title="Wissen in Bildern" serienname="Wissen in Bildern" url="wissen-in-bildern" encoded="Wissen%20in%20Bildern"/>
+  <series title="Wlada wird erwachsen" serienname="Wlada wird erwachsen" url="wlada-wird-erwachsen" encoded="Wlada%20wird%20erwachsen" format-label="Kolumne"/>
+  <series title="Wladas neue Arbeitswelt" serienname="Wladas neue Arbeitswelt" url="wladas-neue-arbeitswelt" encoded="Wladas%20neue%20Arbeitswelt" format-label="Kolumne"/>
+  <series title="WM-Austragungsorte" serienname="WM-Austragungsorte" url="wm-austragungsorte"/>
+  <series title="WM-Städte" serienname="WM-Städte" url="wm-staedte" encoded="WM-St%C3%A4dte"/>
+  <series title="WM-Tagebuch" serienname="WM-Tagebuch" url="wm-tagebuch"/>
+  <series title="WM-Teams" serienname="WM-Teams" url="wm-teams"/>
+  <series title="Woher weißt Du das?" serienname="Woher weißt Du das?" url="woher-weisst-du-das" encoded="Woher%20wei%C3%9Ft%20Du%20das%3F" format-label="Podcast" fallback_image="yes"/>
+  <series title="Work-Love-Balance" serienname="Work-Love-Balance" url="work-love-balance"/>
+  <series title="Wo seid ihr Professoren?" serienname="Wo seid ihr Professoren" url="wo-seid-ihr-professoren" encoded="Wo%20seid%20ihr%20Professoren"/>
+  <series title="Wochenmarkt" serienname="Wochenmarkt" url="wochenmarkt"/>
+  <series title="Worte von morgen" serienname="Worte von morgen" url="worte-von-morgen" encoded="Worte%20von%20morgen" format-label="Kolumne"/>
+  <series title="Wundertüte" serienname="Wundertüte" url="wundertuete" encoded="Wundert%C3%BCte"/>
+  <series title="Wünsche der Welt" serienname="Wünsche der Welt" url="wuensche-der-welt" encoded="W%C3%BCnsche%20der%20Welt"/>
+  <series title="Zehn Sätze" serienname="Zehn Sätze" url="zehn-saetze" encoded="Zehn%20S%C3%A4tze"/>
+  <series title="ZEIT-Campus-Abitur" serienname="ZEIT-Campus-Abitur" url="zeit-campus-abitur"/>
+  <series title="ZEIT Kinderheft" serienname="ZEIT Kinderheft" url="ZEIT-Kinderheft" encoded="ZEIT%20Kinderheft"/>
+  <series title="ZEIT-Museumsführer" serienname="ZEIT Museumsführer" url="ZEIT-Museumsfuehrer" encoded="ZEIT%20Museumsf%C3%BChrer"/>
+  <series title="Zeitgeist" serienname="Zeitgeist" url="Zeitgeist"/>
+  <series title="Zeitläufte" serienname="Zeitläufte" url="zeitlaeufte" encoded="Zeitl%C3%A4ufte"/>
+  <series title="ZEIT-Zone" serienname="ZEIT-Zone" url="zeit-zone"/>
+  <series title="Zukunft der Demokratie" serienname="Zukunft der Demokratie" url="zukunft-der-demokratie" encoded="Zukunft%20der%20Demokratie"/>
+  <series title="Zukunft des Staates" serienname="Zukunft des Staates" url="Zukunft-des-Staates" encoded="Zukunft%20des%20Staates"/>
+  <series title="Zukunftsvisionen" serienname="Zukunftsvisionen" url="zukunftsvisionen"/>
+  <series title="Zu Tisch" serienname="Zu Tisch" url="zu-tisch" encoded="Zu%20Tisch"/>
+  <series title="Zwischenfrage" serienname="Zwischenfrage" url="zwischenfrage"/>
+  <videoseries>
+    <!-- 'aktuelle' Serien -->
+    <series title="Lieblingsding" serienname="Lieblingsding" url="lieblingsding" encoded="Lieblingsding" video="yes"/>
+    <series title="ProContra" serienname="ProContra" url="procontra" video="yes"/>
+    <series title="Eine Frage der ZEIT" serienname="Eine Frage der ZEIT" url="eine-frage-der-zeit" encoded="Eine%20Frage%20der%20ZEIT" video="yes"/>
+    <series title="Das Vermächtnis – Kurzfilme" serienname="Das Vermächtnis – Kurzfilme" url="das-vermaechtnis-kurzfilme" encoded="Das%20Verm%C3%A4chtnis%20%E2%80%93%20Kurzfilme" video="yes"/>
+    <series title="Demokratie zum Anfassen" serienname="Demokratie zum Anfassen" url="demokratie-zum-anfassen" encoded="Demokratie%20zum%20Anfassen" video="yes"/>
+    <series title="Gefühlte Wahrheit" serienname="Gefühlte Wahrheit" url="gefuehlte-wahrheit" encoded="Gef%C3%BChlte%20Wahrheit" video="yes"/>
+    <series title="Neue Visionäre" serienname="Neue Visionäre" url="neue-visionaere" encoded="Neue%20Vision%C3%A4re" video="yes"/>
+    <series title="Typisch Deutsch!" serienname="Typisch Deutsch!" url="typisch-deutsch" encoded="Typisch%20Deutsch%21" video="yes"/>
+    <series title="Buchmesse 2016" serienname="Buchmesse 2016" url="buchmesse-2016" encoded="Buchmesse%202016" video="yes"/>
+    <series title="Rekorder" serienname="Rekorder" url="rekorder" encoded="Rekorder" video="yes"/>
+    <series title="Rekorder B-Seiten" serienname="Rekorder B-Seiten" url="rekorder-b-seiten" encoded="Rekorder%20B-Seiten" video="yes"/>
+    <series title="#besserewelt" serienname="#besserewelt" url="besserewelt" encoded="%23besserewelt" video="yes"/>
+    <series title="Kochen" serienname="Kochen" url="kochen" encoded="Kochen" video="yes"/>
+    <series title="Lesetipp" serienname="Lesetipp" url="lesetipp" encoded="Lesetipp" video="yes"/>
+    <series title="Dr. Max" serienname="Dr. Max" url="dr-max" encoded="Dr.%20Max" video="yes" format-label="Kolumne"/>
+    <series title="Wasser" serienname="Wasser" url="wasser" video="yes"/>
+    <series title="Zehnseiten" serienname="Zehnseiten" url="zehnseiten" encoded="Zehnseiten" video="yes"/>
+    <series title="Zeitraffer" serienname="Zeitraffer" url="zeitraffer" encoded="Zeitraffer" video="yes"/>
+    <series title="Zeit-Akademie" serienname="Zeit-Akademie" url="zeit-akademie" encoded="Zeit-Akademie" video="yes"/>
+    <!-- archivierte Serien -->
+  </videoseries>
+</allseries>

@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <image base-id="http://xml.zeit.de/wirtschaft/2014-03/arzt-praxis-patient/" type="jpg" align="left" publication-date="" expires="">
+      <bu py:pytype="str">A doctor speaks to a patient as a sphygmomanometer, or blood pressure meter, lies on his desk on September 5, 2012 in Berlin, Germany. </bu>
+      <copyright py:pytype="str">© Adam Berry/Getty Images</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-04-13T09:10:59.740769+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-04-02T07:34:46.191088+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-04-13T09:12:50.872204+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-04-13T09:13:50.790407+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-04-07T14:51:23.222101+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Großstadtärzte: Wie die Medizin dem Geld folgt | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-04-13T09:12:31.637803+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.polke-majewski</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wirtschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:89eb6434-a791-4f70-bf3a-f4e662dc1ca2}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">14</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-6a4c25a5-ddb0-4157-95dd-3b68d9eb09d3">
+          <block href="http://xml.zeit.de/wirtschaft/2014-04/arzt-facharzt-praxis-verteilung-berlin-hamburg-koeln-muenchen-interaktiv" uniqueId="http://xml.zeit.de/wirtschaft/2014-04/arzt-facharzt-praxis-verteilung-berlin-hamburg-koeln-muenchen-interaktiv" year="2014" issue="14" ressort="Wirtschaft" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2015-01-16T11:09:40+00:00" date-first-released="2014-04-01T13:51:57.524181+00:00" date-last-published="2015-01-16T11:10:39.850549+00:00" last-semantic-change="2014-04-05T08:34:45.385648+00:00">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Gesundheitswesen</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wie die Medizin dem Geld folgt</title>
+            <text py:pytype="str">Unsere interaktive Grafik zeigt: Arztpraxen folgen dem Geld. Wo die Kaufkraft in Großstädten hoch ist, lassen sich auch viele Mediziner nieder.</text>
+            <description py:pytype="str">Unsere interaktive Grafik zeigt: Arztpraxen folgen dem Geld. Wo die Kaufkraft in Großstädten hoch ist, lassen sich auch viele Mediziner nieder.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-04/arzte-koeln-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7170ffea-e04e-4269-9883-d8273f5a3580">
+          <block href="http://xml.zeit.de/wirtschaft/2014-03/arzt-facharzt-praxis-verteilung-berlin-hamburg-koeln-muenchen" uniqueId="http://xml.zeit.de/wirtschaft/2014-03/arzt-facharzt-praxis-verteilung-berlin-hamburg-koeln-muenchen" year="2014" issue="13" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-16T10:32:56+00:00" date-first-released="2014-04-02T07:22:58.556235+00:00" date-last-published="2015-01-16T10:33:55.270417+00:00" last-semantic-change="2014-04-02T07:21:56.310916+00:00" serie="Großstadtärzte" author="Karsten Polke-Majewski;Philip Faigle;Kai Biermann;Sascha Venohr;Paul Blickle">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Gesundheitswesen</supertitle>
+            <teaser_supertitle py:pytype="str">Gesundheitswesen</teaser_supertitle>
+            <title py:pytype="str">Reich ist gesund, arm bleibt krank </title>
+            <text py:pytype="str">Haus- und Facharztpraxen verteilen sich ungleich in Großstädten: Je höher die Kaufkraft, desto mehr Ärzte gibt es. Wer arm ist, muss lange warten oder weit fahren.</text>
+            <description py:pytype="str">Haus- und Facharztpraxen verteilen sich ungleich in Großstädten: Je höher die Kaufkraft, desto mehr Ärzte gibt es. Wer arm ist, muss lange warten oder weit fahren.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-04/aerzte-karte_teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/F/Philip_Faigle/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Philip Faigle</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/B/Kai_Biermann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Kai Biermann</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/V/Sascha_Venohr/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sascha Venohr</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/B/Paul_Blickle" publication-date="" expires="">
+              <display_name py:pytype="str">Paul Blickle</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-afc0ce90-3679-4b16-acdd-5ffc390925e6">
+          <block href="http://xml.zeit.de/wirtschaft/2014-03/gesundheit-arzt-facharzt-praxis-verteilung-kommentar" uniqueId="http://xml.zeit.de/wirtschaft/2014-03/gesundheit-arzt-facharzt-praxis-verteilung-kommentar" year="2014" issue="13" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2015-01-16T10:35:28+00:00" date-first-released="2014-04-02T07:28:15.698960+00:00" date-last-published="2014-12-22T23:15:09.564906+00:00" last-semantic-change="2014-04-02T10:38:48.137092+00:00" serie="Großstadtärzte" author="Karsten Polke-Majewski">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Gesundheitswesen</supertitle>
+            <teaser_supertitle py:pytype="str">Gesundheitswesen</teaser_supertitle>
+            <title py:pytype="str">Geld steuert Ärzte</title>
+            <text py:pytype="str">Kranke werden in Großstädten ungleich behandelt: Wer in armen Stadtteilen wohnt, ist medizinisch schlecht versorgt. Arztpraxen folgen nur dem Geld, wenn man sie lässt.</text>
+            <description py:pytype="str">Kranke werden in Großstädten ungleich behandelt: Wer in armen Stadtteilen wohnt, ist medizinisch schlecht versorgt. Arztpraxen folgen nur dem Geld, wenn man sie lässt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-03/arzt-praxis-wartezimmer-voll/" type="jpg" title="Volles Wartezimmer" alt="Warten bis der Arzt kommt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Warten bis der Arzt kommt</bu>
+              <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d673a9ff-c0ef-44f6-96e5-e777d03b1b9f">
+          <block href="http://xml.zeit.de/wirtschaft/2014-03/aerzte-praxis-berlin-verteilung" uniqueId="http://xml.zeit.de/wirtschaft/2014-03/aerzte-praxis-berlin-verteilung" year="2014" issue="13" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-29T06:42:24+00:00" date-first-released="2014-04-07T11:03:40.158873+00:00" date-last-published="2014-04-07T11:03:40.158873+00:00" last-semantic-change="2014-04-07T11:02:38.113280+00:00" serie="Großstadtärzte" author="Kai Biermann">
+            <supertitle py:pytype="str">Gesundheitssystem</supertitle>
+            <teaser_supertitle py:pytype="str">Gesundheitssystem</teaser_supertitle>
+            <title py:pytype="str">Berlin drängt Ärzte zum Umzug in arme Bezirke</title>
+            <text py:pytype="str">Ärzte verdienen wenig in Berlin. Umso mehr Praxen drängeln sich in reichen Bezirken. Arme Viertel sind unterversorgt. Die Stadt will das ändern. Es wird Jahre dauern.</text>
+            <description py:pytype="str">Ärzte verdienen wenig in Berlin. Umso mehr Praxen drängeln sich in reichen Bezirken. Arme Viertel sind unterversorgt. Die Stadt will das ändern. Es wird Jahre dauern.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-03/hausarzt-berlin/" type="jpg" title="hausarzt-berlin" alt="Hausarztpraxis in Berlin, im Vordergrund ein Blutdruck-Messgerät" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hausarztpraxis in Berlin, im Vordergrund ein Blutdruck-Messgerät</bu>
+              <copyright py:pytype="str">© Adam Berry/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Kai_Biermann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Kai Biermann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-8694ef21-9940-4ead-ae60-feaf7911dbd0">
+          <block href="http://xml.zeit.de/wirtschaft/2014-03/kinderarzt-koeln-muelheim" uniqueId="http://xml.zeit.de/wirtschaft/2014-03/kinderarzt-koeln-muelheim" year="2014" issue="14" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-16T10:35:29+00:00" date-first-released="2014-04-04T08:55:24.838488+00:00" date-last-published="2014-04-04T09:44:33.167897+00:00" last-semantic-change="2014-04-04T07:12:28.093615+00:00" serie="Großstadtärzte" author="Philip Faigle">
+            <supertitle py:pytype="str">Kinderärzte in Köln</supertitle>
+            <teaser_supertitle py:pytype="str">Kinderärzte in Köln</teaser_supertitle>
+            <title py:pytype="str">Auf verlorenem Posten</title>
+            <text py:pytype="str">Im Kölner Stadtteil Mülheim gibt es 6.700 Kinder und zwei Kinderärzte. Taner Uguz ist einer von Ihnen. Wie hält er das aus? </text>
+            <description py:pytype="str">Im Kölner Stadtteil Mülheim gibt es 6.700 Kinder und zwei Kinderärzte. Taner Uguz ist einer von Ihnen. Wie hält er das aus? </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-04/aerzte-taner-uguz/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Kinderarzt Taner Uguz</bu>
+              <copyright py:pytype="str">© Sandra Stein für ZEIT ONLINE</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Philip_Faigle/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Philip Faigle</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-44b0e1b7-3e34-400e-a35f-971a20657df1">
+          <block href="http://xml.zeit.de/hamburg/politik-wirtschaft/2014-04/gesundheit-psychotherapeut-hamburg-verteilung" uniqueId="http://xml.zeit.de/hamburg/politik-wirtschaft/2014-04/gesundheit-psychotherapeut-hamburg-verteilung" year="2014" issue="14" ressort="Hamburg" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-01T09:25:27+00:00" date-first-released="2014-04-03T08:03:29.205827+00:00" date-last-published="2015-04-01T09:26:26.389334+00:00" last-semantic-change="2014-04-03T08:02:25.817581+00:00" serie="Großstadtärzte" author="Karsten Polke-Majewski">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Psychotherapie in Hamburg</supertitle>
+            <teaser_supertitle py:pytype="str">Psychotherapie in Hamburg</teaser_supertitle>
+            <title py:pytype="str">Kein Zutritt zur Wohlfühlzone</title>
+            <text py:pytype="str">In kaum einer Großstadt gibt es so viele Psychotherapeuten wie in Hamburg. Dennoch sind einige arme Stadtteile eklatant unterversorgt. Wie konnte es dazu kommen?</text>
+            <description py:pytype="str">In kaum einer Großstadt gibt es so viele Psychotherapeuten wie in Hamburg. Dennoch sind einige arme Stadtteile eklatant unterversorgt. Wie konnte es dazu kommen?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-03/christian-kokemper-psychotherapeut-hamburg/" type="jpg" title="Christian Kokemper" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Im Spiel behandelt Kinder-Psychotherapeut Christian Kokemper seine jungen Patienten</bu>
+              <copyright py:pytype="str" link="http://www.jakobboerner.com/">© Jakob Börner</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f8192415-7084-4103-9b44-066b5e20322f">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wirtschaft/2014-04/informatuionsfreiheit-gesundheit-arzt-berlin" uniqueId="http://xml.zeit.de/wirtschaft/2014-04/informatuionsfreiheit-gesundheit-arzt-berlin" year="2014" issue="15" ressort="Wirtschaft" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/open-data/2014/04/07/aerzte-berlin-ifg-open-data/" date-last-modified="2014-04-07T09:57:06+00:00" date-first-released="2014-04-07T09:06:04.607901+00:00" date-last-published="2014-04-07T09:58:06.314973+00:00" last-semantic-change="2014-04-07T09:56:47.706552+00:00" serie="Großstadtärzte">
+            <supertitle py:pytype="str">Informationsfreiheit</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Adressen Berliner Arztpraxen sind ein Geheimnis</title>
+            <text py:pytype="str">Wer gründlich sucht, findet im Netz alle Standorte der Berliner Arztpraxen. Doch an Journalisten wollen die Ärzteverbände diese Daten nicht herausgeben. Geht es ums Geld?</text>
+            <description py:pytype="str">Wer gründlich sucht, findet im Netz alle Standorte der Berliner Arztpraxen. Doch an Journalisten wollen die Ärzteverbände diese Daten nicht herausgeben. Geht es ums Geld?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-04/aerzte-arztpraxen-adressen/" type="jpg" title="Ärzte Adressen Arztpraxen" align="left" publication-date="" expires="2014-07-07T08:57:31+00:00">
+              <bu py:pytype="str">Ein Arzt h‰lt in einem Behandlungszimmer in seiner Praxis in Deizisau (Landkreis Esslingen) ein Stethoskop in der Hand, mit der anderen Hand bedient er eine Computertastatur (Archivbild vom 25.05.2010).</bu>
+              <copyright py:pytype="str">© Marijan Murat/dpa</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-a3040b39-ba58-4f90-842d-587defbb8e53">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-380df8b2-f04b-4412-b39a-9ceef9ad5baf">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-03554432-e094-4c28-b935-94ed9df3cc9f">
+          <block href="http://xml.zeit.de/2014/13/psychisch-krank-therapie-umfrage" uniqueId="http://xml.zeit.de/2014/13/psychisch-krank-therapie-umfrage" year="2014" issue="13" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-03-31T11:13:07+00:00" date-first-released="2014-03-20T06:00:00+00:00" date-last-published="2014-03-27T14:02:57.967746+00:00" last-semantic-change="2014-03-31T11:12:59.233681+00:00" serie="Psychisch krank" author="Manfred Lütz">
+            <supertitle py:pytype="str">Psychische Krankheiten</supertitle>
+            <teaser_supertitle py:pytype="str">Psychische Krankheiten</teaser_supertitle>
+            <title py:pytype="str">Wie lange mussten Sie auf einen Therapieplatz warten?</title>
+            <text py:pytype="str">Depression, Schizophrenie, Phobie – wer psychisch krank ist, muss oft auf Hilfe warten. Seit wann geht das Ihnen oder Ihrer Familie so? Schildern Sie uns hier Ihren Fall.</text>
+            <description py:pytype="str">Depression, Schizophrenie, Phobie – wer psychisch krank ist, muss oft auf Hilfe warten. Seit wann geht das Ihnen oder Ihrer Familie so? Schildern Sie uns hier Ihren Fall.</description>
+            <byline py:pytype="str">von Manfred Lütz</byline>
+            <breadcrumb_title py:pytype="str">Psychisch Kranke finden oft keine Therapieplätze</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2014-03/depression-therapie-psyche/" type="jpg" title="Depression Psyche Krankheit Therapie " alt="Depression Psyche Krankheit Therapie " align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/cydonna">© cydonna/photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Manfred_Luetz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Manfred Lütz</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wissen/gesundheit/2013-08/serie-link-psychisch-krank" uniqueId="http://xml.zeit.de/wissen/gesundheit/2013-08/serie-link-psychisch-krank" year="2013" issue="34" ressort="Wissen" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/psychisch-krank" date-last-modified="2014-01-13T16:16:54+00:00" date-first-released="2013-08-27T12:51:07.123289+00:00" date-last-published="2014-01-13T16:17:54.632902+00:00" last-semantic-change="2013-09-18T07:49:42.833793+00:00">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <teaser_supertitle py:pytype="str">Serie</teaser_supertitle>
+            <title py:pytype="str">Psychisch krank</title>
+            <text py:pytype="str">Depression, Sucht, Angststörung: Millionen Deutsche leiden selbst oder als Angehörige an den Folgen psychischer Erkrankungen. ZEIT ONLINE widmet dem Thema eine Serie.</text>
+            <description py:pytype="str">Depression, Sucht, Angststörung: Millionen Deutsche leiden selbst oder als Angehörige an den Folgen psychischer Erkrankungen. ZEIT ONLINE widmet dem Thema eine Serie.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-10/serie-psychisch-krank-teaser/" type="jpg" title="Psychisch krank Serie" alt="Psychisch krank Serie" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-a62267f8-b324-4f15-85e3-6b66fa986620" title="Datenspende - Anonymer Briefkasten" layout="368x110">
+          <block type="intern" href="http://xml.zeit.de/briefkasten/index.html" publication-date="" expires="" date-last-modified="2015-01-16T09:10:04+00:00" date-first-released="2015-01-16T09:11:04.209004+00:00" date-last-published="2015-01-16T09:11:04.209004+00:00" last-semantic-change="" uniqueId="http://xml.zeit.de/briefkasten/index.html"/>
+          <image type="intern" href="http://xml.zeit.de/digital/2012-08/datenspende-teaser/datenspende-teaser-368x110.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle>Gesundheitssystem - Wie die Medizin dem Geld folgt</supertitle>
+    <title>Wie die Medizin dem Geld folgt</title>
+    <subtitle>Ein Schwerpunkt</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2014-03/kinderarzt-koeln-muelheim" year="2014" issue="14" ressort="Wirtschaft" serie="Großstadtärzte" contenttype="article" publication-date="" expires="" author="Philip Faigle">
+      <supertitle py:pytype="str">Kinderärzte in Köln</supertitle>
+      <title py:pytype="str">Auf verlorenem Posten</title>
+      <text py:pytype="str">Im Kölner Stadtteil Mülheim gibt es 6.700 Kinder und zwei Kinderärzte. Taner Uguz ist einer von Ihnen. Wie hält er das aus? </text>
+      <description py:pytype="str">Im Kölner Stadtteil Mülheim gibt es 6.700 Kinder und zwei Kinderärzte. Taner Uguz ist einer von Ihnen. Wie hält er das aus? </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-04/aerzte-taner-uguz/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Kinderarzt Taner Uguz</bu>
+        <copyright py:pytype="str">© Sandra Stein für ZEIT ONLINE</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Philip_Faigle/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Philip Faigle</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2014-03/aerzte-praxis-berlin-verteilung" year="2014" issue="13" ressort="Wirtschaft" serie="Großstadtärzte" contenttype="article" publication-date="" expires="" author="Kai Biermann">
+      <supertitle py:pytype="str">Gesundheitssystem</supertitle>
+      <title py:pytype="str">Berlin drängt Ärzte zum Umzug in arme Bezirke</title>
+      <text py:pytype="str">Ärzte verdienen wenig in Berlin. Umso mehr Praxen drängeln sich in reichen Bezirken. Arme Viertel sind unterversorgt. Die Stadt will das ändern. Es wird Jahre dauern.</text>
+      <description py:pytype="str">Ärzte verdienen wenig in Berlin. Umso mehr Praxen drängeln sich in reichen Bezirken. Arme Viertel sind unterversorgt. Die Stadt will das ändern. Es wird Jahre dauern.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-03/hausarzt-berlin/" type="jpg" title="hausarzt-berlin" alt="Hausarztpraxis in Berlin, im Vordergrund ein Blutdruck-Messgerät" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Hausarztpraxis in Berlin, im Vordergrund ein Blutdruck-Messgerät</bu>
+        <copyright py:pytype="str">© Adam Berry/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Kai_Biermann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Kai Biermann</display_name>
+      </author>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/wirtschaft/2014-04/informatuionsfreiheit-gesundheit-arzt-berlin" year="2014" issue="15" ressort="Wirtschaft" serie="Großstadtärzte" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/open-data/2014/04/07/aerzte-berlin-ifg-open-data/">
+      <supertitle py:pytype="str">Informationsfreiheit</supertitle>
+      <title py:pytype="str">Adressen Berliner Arztpraxen sind ein Geheimnis</title>
+      <text py:pytype="str">Wer gründlich sucht, findet im Netz alle Standorte der Berliner Arztpraxen. Doch an Journalisten wollen die Ärzteverbände diese Daten nicht herausgeben. Geht es ums Geld?</text>
+      <description py:pytype="str">Wer gründlich sucht, findet im Netz alle Standorte der Berliner Arztpraxen. Doch an Journalisten wollen die Ärzteverbände diese Daten nicht herausgeben. Geht es ums Geld?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-04/aerzte-arztpraxen-adressen/" type="jpg" title="Ärzte Adressen Arztpraxen" align="left" publication-date="" expires="2014-07-07T08:57:31+00:00">
+        <bu py:pytype="str">Ein Arzt h‰lt in einem Behandlungszimmer in seiner Praxis in Deizisau (Landkreis Esslingen) ein Stethoskop in der Hand, mit der anderen Hand bedient er eine Computertastatur (Archivbild vom 25.05.2010).</bu>
+        <copyright py:pytype="str">© Marijan Murat/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/hamburg/politik-wirtschaft/2014-04/gesundheit-psychotherapeut-hamburg-verteilung" year="2014" issue="14" ressort="Hamburg" serie="Großstadtärzte" contenttype="article" publication-date="" expires="" author="Karsten Polke-Majewski">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Psychotherapie in Hamburg</supertitle>
+      <title py:pytype="str">Kein Zutritt zur Wohlfühlzone</title>
+      <text py:pytype="str">In kaum einer Großstadt gibt es so viele Psychotherapeuten wie in Hamburg. Dennoch sind einige arme Stadtteile eklatant unterversorgt. Wie konnte es dazu kommen?</text>
+      <description py:pytype="str">In kaum einer Großstadt gibt es so viele Psychotherapeuten wie in Hamburg. Dennoch sind einige arme Stadtteile eklatant unterversorgt. Wie konnte es dazu kommen?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-03/christian-kokemper-psychotherapeut-hamburg/" type="jpg" title="Christian Kokemper" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Im Spiel behandelt Kinder-Psychotherapeut Christian Kokemper seine jungen Patienten</bu>
+        <copyright py:pytype="str" link="http://www.jakobboerner.com/">© Jakob Börner</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2014-04/arzt-facharzt-praxis-verteilung-berlin-hamburg-koeln-muenchen-interaktiv" year="2014" issue="14" ressort="Wirtschaft" contenttype="centerpage-2009" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">Gesundheitswesen</supertitle>
+      <title py:pytype="str">Wie die Medizin dem Geld folgt</title>
+      <text py:pytype="str">Unsere interaktive Grafik zeigt: Arztpraxen folgen dem Geld. Wo die Kaufkraft in Großstädten hoch ist, lassen sich auch viele Mediziner nieder.</text>
+      <description py:pytype="str">Unsere interaktive Grafik zeigt: Arztpraxen folgen dem Geld. Wo die Kaufkraft in Großstädten hoch ist, lassen sich auch viele Mediziner nieder.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-04/arzte-koeln-teaser/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/C-Landarzt" year="2012" issue="7" ressort="Karriere" contenttype="article" publication-date="" expires="" author="Alexandra Werdes">
+      <supertitle py:pytype="str">Ärztemangel</supertitle>
+      <title py:pytype="str">Will denn keiner mehr Arzt werden?</title>
+      <text py:pytype="str">Zu viel Bürokratie, zu hohe Arbeitsbelastung: Die Arbeitsbedingungen machen den Arztberuf unattraktiv. Die Krankenhäuser müssen sich verändern, um junge Ärzte anzulocken.</text>
+      <description py:pytype="str">Zu viel Bürokratie, zu hohe Arbeitsbelastung: Die Arbeitsbedingungen machen den Arztberuf unattraktiv. Die Krankenhäuser müssen sich verändern, um junge Ärzte anzulocken.</description>
+      <byline py:pytype="str">Von Alexandra Werdes</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/karriere/beruf/2012-02/mediziner/" type="jpg" title="mediziner" alt="Junger Arzt" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Junger Arzt</bu>
+        <copyright py:pytype="str" link="http://www.photocase.com/user.asp?u=4692">© fmatte / photocase.com</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/W/Alexandra_Werdes/index.xml">
+        <display_name>Alexandra Werdes</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/01/Aerztemangel-Hausaerzte" year="2013" issue="1" ressort="Wirtschaft" contenttype="article" publication-date="2013-01-03T03:51:48+00:00" expires="">
+      <supertitle py:pytype="str">Ärztemangel</supertitle>
+      <title py:pytype="str">Herr Doktor, wo sind Sie?</title>
+      <text py:pytype="str">Angeblich gibt es bald mehr Hausärzte. Die Frage ist nur, wo?</text>
+      <description py:pytype="str">Angeblich gibt es bald mehr Hausärzte. Die Frage ist nur, wo?</description>
+      <byline py:pytype="str">VON ANNE KUNZE</byline>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2014-01/facharzt-wartezeiten-koalitionsvertrag" year="2014" issue="3" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" author="Anne-Sophie Lang">
+      <supertitle py:pytype="str">Wartezeiten beim Arzt</supertitle>
+      <title py:pytype="str">Dauerpatienten sind wie Goldesel</title>
+      <text py:pytype="str">Die große Koalition will die Wartezeiten bei Fachärzten reduzieren. Damit das klappt, müsste sie erst einmal finanzielle Fehlanreize im Gesundheitswesen ausmerzen. </text>
+      <description py:pytype="str">Die große Koalition will die Wartezeiten bei Fachärzten reduzieren. Damit das klappt, müsste sie erst einmal finanzielle Fehlanreize im Gesundheitswesen ausmerzen. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title py:pytype="str">Arzt-Wartezeiten: Dauerpatienten bringen viel Geld</breadcrumb_title>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-01/wartezimmer-facharzt-wartezeiten/" type="jpg" title="Wartezimmer" align="left" publication-date="" expires="2014-04-09T12:33:32+00:00">
+        <bu py:pytype="str">Patienten im Wartezimmer einer Arztpraxis (Archiv)</bu>
+        <copyright py:pytype="str">© Carsten Rehder/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Anne-Sophie_Lang/index" publication-date="" expires="">
+        <display_name py:pytype="str">Anne-Sophie Lang</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2014-03/gesundheit-arzt-facharzt-praxis-verteilung-kommentar" year="2014" issue="13" ressort="Wirtschaft" serie="Großstadtärzte" contenttype="article" publication-date="" expires="" genre="kommentar" author="Karsten Polke-Majewski">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Gesundheitswesen</supertitle>
+      <title py:pytype="str">Geld steuert Ärzte</title>
+      <text py:pytype="str">Kranke werden in Großstädten ungleich behandelt: Wer in armen Stadtteilen wohnt, ist medizinisch schlecht versorgt. Arztpraxen folgen nur dem Geld, wenn man sie lässt.</text>
+      <description py:pytype="str">Kranke werden in Großstädten ungleich behandelt: Wer in armen Stadtteilen wohnt, ist medizinisch schlecht versorgt. Arztpraxen folgen nur dem Geld, wenn man sie lässt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-03/arzt-praxis-wartezimmer-voll/" type="jpg" title="Volles Wartezimmer" alt="Warten bis der Arzt kommt" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Warten bis der Arzt kommt</bu>
+        <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2014-03/arzt-facharzt-praxis-verteilung-berlin-hamburg-koeln-muenchen" year="2014" issue="13" ressort="Wirtschaft" serie="Großstadtärzte" contenttype="article" publication-date="" expires="" author="Karsten Polke-Majewski;Philip Faigle;Kai Biermann;Sascha Venohr;Paul Blickle">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Gesundheitswesen</supertitle>
+      <title py:pytype="str">Reich ist gesund, arm bleibt krank </title>
+      <text py:pytype="str">Haus- und Facharztpraxen verteilen sich ungleich in Großstädten: Je höher die Kaufkraft, desto mehr Ärzte gibt es. Wer arm ist, muss lange warten oder weit fahren.</text>
+      <description py:pytype="str">Haus- und Facharztpraxen verteilen sich ungleich in Großstädten: Je höher die Kaufkraft, desto mehr Ärzte gibt es. Wer arm ist, muss lange warten oder weit fahren.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-04/aerzte-karte_teaser/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/F/Philip_Faigle/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Philip Faigle</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/B/Kai_Biermann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Kai Biermann</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/V/Sascha_Venohr/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Sascha Venohr</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/B/Paul_Blickle" publication-date="" expires="">
+        <display_name py:pytype="str">Paul Blickle</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Gesundheitssystem - Wie die Medizin dem Geld folgt</title>
+    <text>Ein Schwerpunkt</text>
+  </teaser>
+</centerpage>

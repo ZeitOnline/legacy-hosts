@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz xmlns:py="http://codespeak.net/lxml/objectify/pytype">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="corrected">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-02-27T09:40:06.174524+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-02-27T09:41:05.921069+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2009-02-27T09:41:05.921069+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="edited">no</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="images_added">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.pannen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="refined">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">quiz</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="urgent">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">10</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <supertitle py:pytype="str">sponsored_quiz</supertitle>
+    <title>Wer macht Werbung?</title>
+  </body>
+  <teaser>
+    <title py:pytype="str">Wer macht Werbung?</title>
+  </teaser>
+  <indexteaser>
+    <title py:pytype="str">sponsored_quiz</title>
+    <text py:pytype="str">Wer macht Werbung?</text>
+  </indexteaser>
+  <question name="Welcher Schwanzlurch macht 0 und dann m?">
+    <title py:pytype="str">Welcher Schwanzlurch macht 0 und dann m?</title>
+    <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+      <p>Der Name welches Schwanzlurches beginnt mit O und endet mit m?</p>
+    </text>
+    <answer name="Answer">
+      <correct py:pytype="bool">false</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>Das muss der Salamander sein</p>
+      </text>
+    </answer>
+    <answer name="Answer-2">
+      <correct py:pytype="bool">false</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>Das muss der Brack Obam sein</p>
+      </text>
+    </answer>
+    <answer name="Answer-3">
+      <correct py:pytype="bool">true</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>Na klar, das ist der Olm!</p>
+      </text>
+    </answer>
+    <answer name="Wie heißt meine Mutter wirklich?">
+      <title py:pytype="str">Wie heißt meine Mutter wirklich?</title>
+      <correct py:pytype="bool">false</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>
+          <image src="http://xml.zeit.de/bilder/denker.gif" type="gif" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str">©</copyright>
+          </image>
+        </p>
+        <p>Wie also heißt meine Mutter wirklich?</p>
+      </text>
+    </answer>
+    <answer name="Answer-4">
+      <correct py:pytype="bool">false</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>Heißt Sie Else</p>
+      </text>
+    </answer>
+    <answer name="Answer-5">
+      <correct py:pytype="bool">false</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>Heißt Sie Karla</p>
+      </text>
+    </answer>
+    <answer name="Answer-6">
+      <correct py:pytype="bool">false</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>Oder eben doch Christel</p>
+      </text>
+    </answer>
+    <answer name="Answer-7">
+      <correct py:pytype="bool">false</correct>
+      <text xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" py:pytype="TREE">
+        <p>Betlehem</p>
+      </text>
+    </answer>
+  </question>
+</quiz>

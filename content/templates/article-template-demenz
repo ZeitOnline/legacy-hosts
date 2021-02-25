@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-11-15T17:54:17.243443+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-11-09T16:52:15.713337+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-11-15T17:55:16.945459+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-11-15T17:53:36.171218+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">demenz</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:9bb07d90-e16d-4390-b6d0-362727b16811}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">45</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="a733b2f4-c6bd-480d-97c7-2dbf8ae8463a">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="70cc8ec4-238d-4fa8-9db5-db13a402520d">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Links/zurueck" year="2010" issue="45" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/Zukunftswerkstatt_Demenz/index" date-last-modified="2010-11-09T16:50:19+00:00" date-first-released="2010-11-09T16:42:58.102057+00:00" date-last-published="2010-11-09T16:51:19.382473+00:00" last-semantic-change="2010-11-09T16:50:08.538638+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="8c8e04d3-153f-41a4-9a0f-6e9ae4d127d2">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Links/verlinkung_anmeldeseite" year="2010" issue="45" ressort="Angebote" publication-date="" expires="" ns0:href="http://services.zeit.de/zukunftswerkstatt/index.php">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Anmeldung ZWZW Demenz</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Bilder/2NEUZWZW-Demenz-anmeldung-368x220" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="a69f8b86-ea79-417a-9f6f-0eba665fd6ef">
+          <block href="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/hilfe" year="2010" issue="45" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-11-10T10:16:11+00:00" date-first-released="2010-11-09T16:59:46.789330+00:00" date-last-published="2010-11-10T10:17:10.916070+00:00" last-semantic-change="2010-11-10T10:15:53.496551+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Hilfe für Angehörige und Patienten</title>
+            <text py:pytype="str">Auf den Seiten der Deutschen Alzheimer Gesellschaft e.V. finden Sie zahlreiche Adressen für Patienten und Angehörige.</text>
+            <description py:pytype="str">Auf den Seiten der Deutschen Alzheimer Gesellschaft e.V. finden Sie zahlreiche Adressen für Patienten und Angehörige.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="haende" base-id="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Bilder/haende/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="2aaedd51-0f52-4a90-bd70-02f85e65b33a">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Links/vfa_startseite" year="2010" issue="45" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.vfa.de/" date-last-modified="2010-11-09T16:52:37+00:00" date-first-released="2010-11-09T14:28:15.274498+00:00" date-last-published="2010-11-09T16:53:36.948291+00:00" last-semantic-change="2010-11-09T16:47:24.623879+00:00">
+            <supertitle xsi:nil="true"/>
+            <title xsi:nil="true"/>
+            <text py:pytype="str">Erfahren Sie mehr über vfa. Die forschenden Pharma-Unternehmen</text>
+            <description py:pytype="str">Erfahren Sie mehr über vfa. Die forschenden Pharma-Unternehmen</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.vfa.de/" title="vfa_logo_neu" base-id="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Bilder/vfa_logo_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Links/zeitwissen" year="2010" issue="45" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/wissen/zeit-wissen/index" date-last-modified="2010-11-09T16:52:47+00:00" date-first-released="2010-11-09T15:01:06.943508+00:00" date-last-published="2010-11-09T16:53:47.320938+00:00" last-semantic-change="2010-11-09T16:47:35.994015+00:00">
+            <supertitle xsi:nil="true"/>
+            <title xsi:nil="true"/>
+            <text py:pytype="str">Entdecken Sie das Wissens-Ressort von ZEIT ONLINE</text>
+            <description py:pytype="str">Entdecken Sie das Wissens-Ressort von ZEIT ONLINE</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.zeit.de/wissen/zeit-wissen/index" title="ZW_Logo_neu" base-id="http://xml.zeit.de/angebote/Zukunftswerkstatt_Demenz/Bilder/ZW_Logo_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Zukunftswerkstatt Demenz</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Zukunftswerkstatt Demenz</title>
+  </teaser>
+</centerpage>

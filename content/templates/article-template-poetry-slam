@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-09-28T13:32:32.954528+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-09-13T13:29:25.562775+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-09-28T13:33:32.693410+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-09-28T13:31:55.822351+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">poetry-slam</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:5b5f02a1-0510-4881-a576-1a9b309248af}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="4bb26455-c14c-48cc-8f5e-50f1ee98ce12"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="9732ecb3-4695-4ccc-8cf6-d340ff6b162a">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/poetry-slam/zurueck" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/poetry-slam/" date-last-modified="2011-09-13T13:31:59+00:00" date-first-released="2011-09-13T13:32:59.197296+00:00" date-last-published="2011-09-13T13:32:59.197296+00:00" last-semantic-change="2011-09-13T13:31:43.999523+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="d4ea1a39-983b-484c-ba70-5e3dfe0c7df6">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/poetry-slam/slam2011" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.slam2011.de/">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Slam 2011</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/poetry-slam/bilder/kombilogo-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="231ca8ce-cae7-45d2-948f-21bf8e85df9d">
+          <block href="http://xml.zeit.de/angebote/poetry-slam/zwischen-hoehenflug-und-pfeifkonzert" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:19:46+00:00" date-first-released="2011-09-13T08:58:48.579270+00:00" date-last-published="2011-09-26T07:20:46.501347+00:00" last-semantic-change="2011-09-23T15:26:36.336808+00:00">
+            <supertitle py:pytype="str">Slam 2011</supertitle>
+            <title py:pytype="str">Zwischen Höhenflug und Pfeifkonzert</title>
+            <text py:pytype="str">Raus aus dem Kellerclub, rein in die o2 World: Vom 18. bis 22. Oktober finden die 15. deutschsprachigen Poetry Slam Meisterschaften statt. In Hamburg wollen die ...</text>
+            <description py:pytype="str">Raus aus dem Kellerclub, rein in die o2 World: Vom 18. bis 22. Oktober finden die 15. deutschsprachigen Poetry Slam Meisterschaften statt. In Hamburg wollen die ...</description>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Artikel_1_Teaser.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Artikel_1_Teaser.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">Jan Brandes</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="a5b23410-1c47-43a0-8d73-b26f7732a3ac">
+          <block href="http://xml.zeit.de/angebote/poetry-slam/patrick-salmen" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:18:02+00:00" date-first-released="2011-09-13T14:03:40.395396+00:00" date-last-published="2011-09-26T07:19:01.808191+00:00" last-semantic-change="2011-09-23T15:22:28.507277+00:00">
+            <supertitle py:pytype="str">Patrick Salmen</supertitle>
+            <title py:pytype="str">"Wir erzählen uns zu wenige Geschichten"</title>
+            <text py:pytype="str">Eine sonore Stimme und ein voller Bart sind seine Markenzeichen. Zum amtierenden deutschsprachigen Poetry Slam Meister haben Patrick Salmen aber vor allem seine ...</text>
+            <description py:pytype="str">Eine sonore Stimme und ein voller Bart sind seine Markenzeichen. Zum amtierenden deutschsprachigen Poetry Slam Meister haben Patrick Salmen aber vor allem seine ...</description>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Artikel_2_Teaser_Bild_Patrick_Salmen.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Artikel_2_Teaser_Bild_Patrick_Salmen.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/poetry-slam/berufswunsch-slammer" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:17:48+00:00" date-first-released="2011-09-13T10:44:00.899364+00:00" date-last-published="2011-09-26T07:18:48.356365+00:00" last-semantic-change="2011-09-23T15:21:34.538460+00:00">
+            <supertitle py:pytype="str">Berufswunsch Slammer</supertitle>
+            <title py:pytype="str">Wo bitte geht's zur Bühne?</title>
+            <text py:pytype="str">Wer einen Wegweiser zum erfolgreichen Dasein als Bühnenpoet verfassen will, kann eigentlich nur scheitern. Denn blickt man sich in der Szene um, scheint hier nur ein ...</text>
+            <description py:pytype="str">Wer einen Wegweiser zum erfolgreichen Dasein als Bühnenpoet verfassen will, kann eigentlich nur scheitern. Denn blickt man sich in der Szene um, scheint hier nur ein ...</description>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Team_Slam_Fabrik-25.jpg-540x304.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Team_Slam_Fabrik-25.jpg-540x304.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="63821ebc-682b-46be-9e09-68ef66765464">
+          <block href="http://xml.zeit.de/angebote/poetry-slam/wolf-hogekamp" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:19:31+00:00" date-first-released="2011-09-13T14:04:26.897229+00:00" date-last-published="2011-09-26T07:20:31.204077+00:00" last-semantic-change="2011-09-23T15:26:18.810813+00:00">
+            <supertitle py:pytype="str">Wolf Hogekamp</supertitle>
+            <title py:pytype="str">"Es geht um den lyrischen Augenblick"</title>
+            <text py:pytype="str">Wenn es einen Urvater der deutschen Bühnenliteratur gibt, dann ihn: Wolf Hogekamp organisierte 1997 die ersten nationalen Meisterschaften des Poetry Slam, ist selbst ...</text>
+            <description py:pytype="str">Wenn es einen Urvater der deutschen Bühnenliteratur gibt, dann ihn: Wolf Hogekamp organisierte 1997 die ersten nationalen Meisterschaften des Poetry Slam, ist selbst ...</description>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="foto_miri_jam.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/foto_miri_jam.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/poetry-slam/viele-dichter-ein-ziel" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:19:21+00:00" date-first-released="2011-09-13T14:04:10.929887+00:00" date-last-published="2011-09-26T07:20:21.170153+00:00" last-semantic-change="2011-09-23T15:25:56.028348+00:00">
+            <supertitle py:pytype="str">Viele Dichter, ein Ziel</supertitle>
+            <title py:pytype="str">Sechs Bühnenpoeten zeigen ihren Weg zum Slam 2011</title>
+            <text py:pytype="str">Echte Poetry Slammer testen ihre Pointen an Wildfremden in der U-Bahn, halten streng Diät und ölen ihre beanspruchten Stimmbänder kurz vor dem Auftritt mit einem ...</text>
+            <description py:pytype="str">Echte Poetry Slammer testen ihre Pointen an Wildfremden in der U-Bahn, halten streng Diät und ölen ihre beanspruchten Stimmbänder kurz vor dem Auftritt mit einem ...</description>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Artikel_5_Teaser_Rasmus_Blohm.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Artikel_5_Teaser_Rasmus_Blohm.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="1c3fc672-e086-4d83-a4f7-889eb32eac61">
+          <block href="http://xml.zeit.de/angebote/poetry-slam/portrait-patrick-salmen" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:19:01+00:00" date-first-released="2011-09-13T11:08:26.558033+00:00" date-last-published="2011-09-26T07:20:00.863184+00:00" last-semantic-change="2011-09-23T15:25:16.639901+00:00">
+            <supertitle py:pytype="str">Porträt Patrick Salmen</supertitle>
+            <title py:pytype="str">Bärtiger Typ, stoppeliger Humor</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Artikel_2_Teaser_Bild_Patrick_Salmen.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Artikel_2_Teaser_Bild_Patrick_Salmen.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/poetry-slam/portrait-rasmus-blohm" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:19:10+00:00" date-first-released="2011-09-13T11:08:12.328782+00:00" date-last-published="2011-09-26T07:20:10.028984+00:00" last-semantic-change="2011-09-23T15:25:34.558401+00:00">
+            <supertitle py:pytype="str">Porträt Rasmus Blohm</supertitle>
+            <title py:pytype="str">Aus der Tiefe der Warmduscher-Schublade</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Poetry_Slam_Rasmus_Blohm.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Uwe Lehmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/poetry-slam/portrait-carmen-wegge" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:18:37+00:00" date-first-released="2011-09-13T11:08:35.857571+00:00" date-last-published="2011-09-26T07:19:36.821498+00:00" last-semantic-change="2011-09-23T15:23:51.648501+00:00">
+            <supertitle py:pytype="str">Porträt Carmen Wegge</supertitle>
+            <title py:pytype="str">Frohnatur auf Abwegen</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Poetry_Slam_Carmen_Wegge.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Poetry_Slam_Carmen_Wegge.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/poetry-slam/portrait-bente-varlemann" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:18:24+00:00" date-first-released="2011-09-13T11:08:48.117797+00:00" date-last-published="2011-09-26T07:19:24.531831+00:00" last-semantic-change="2011-09-23T15:23:31.829991+00:00">
+            <supertitle py:pytype="str">Porträt Bente Varlemann</supertitle>
+            <title py:pytype="str">Zarte Stimme, freche Schnauze</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Poetry_Slam_Bente_Varlemann.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Poetry_Slam_Bente_Varlemann.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jan Brandes</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/poetry-slam/portrait-andre-herrmann" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:18:10+00:00" date-first-released="2011-09-13T11:08:58.288170+00:00" date-last-published="2011-09-26T07:19:10.426559+00:00" last-semantic-change="2011-09-23T15:23:09.718163+00:00">
+            <supertitle py:pytype="str">Porträt André Herrmann</supertitle>
+            <title py:pytype="str">Liebe auf den ersten Slam</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Poetry_Slam_TTZ.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Poetry_Slam_TTZ.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/poetry-slam/portrait-julius-fischer" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-26T07:18:47+00:00" date-first-released="2011-09-13T11:09:06.484791+00:00" date-last-published="2011-09-26T07:19:47.721372+00:00" last-semantic-change="2011-09-23T15:24:53.934007+00:00">
+            <supertitle py:pytype="str">Porträt Julius Fischer</supertitle>
+            <title py:pytype="str">Menschenhasser mit Sympathiefaktor</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Poetry Slam: ist ein Angebot von Fisherman's Friend. Für den Inhalt ist ausschließlich Fisherman's Friend verantwortlich.</byline>
+            <image align="left" title="Poetry_Slam_TTZ.jpg" base-id="http://xml.zeit.de/angebote/poetry-slam/bilder/Poetry_Slam_TTZ.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline xsi:nil="true"/>
+    <title>Artikel Rahmen Poetry Slam</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Poetry Slam</title>
+  </teaser>
+</centerpage>

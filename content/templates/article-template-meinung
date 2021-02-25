@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-01-30T15:58:58.700319+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-01-05T14:33:19.056481+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-01-30T16:03:26.224196+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-08-08T19:16:12.890476+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2010-01-06</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-05-24T09:31:36.462247+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2010-01-06</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.brightcove</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Meinung</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:7d849341-1313-42ec-8aa1-bb0a7f5cd0b3}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="33a4788c-50c0-4e46-bdb6-2553d920f0fc">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="b4f0eb71-8102-457c-a25b-1b465ec44bd8">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="rss" module="rss" max_items="10" cp:__name__="ce9fc549-f78f-422a-9f01-b4d7aa62288d" url="http://www.google.com/reader/public/atom/user%2F08183829591864157917%2Flabel%2FZEIT-ONLINE-Politikblogs" title="Blogs und Tweets" show_supertitle="True" time_format="none">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/feed/rss)" href="/var/cms/work/rss/bdbe120989abf60582ce969c2bc97fcd">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/bdbe120989abf60582ce969c2bc97fcd nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="4f41ccc1-d778-4fca-af68-6a0fce83799f">
+          <video videoID="36516804001" player="pls" format="small"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="d225d553-9e47-42b1-9e94-c5a47bb6c547">
+          <cp_extra id="mostcommented"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="dd23fee6-f6d1-4546-9a69-b217765b0937">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="7e98935a-47c4-42b4-96aa-421def4b8913" title="Deutschland" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/politik/deutschland/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/politik/deutschland/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/politik/deutschland/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="6f72a4f5-8f69-49c8-b57d-3aa687e46e98" title="Ausland" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/politik/ausland/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/politik/ausland/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/politik/ausland/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="d98abf60-24b8-471b-bbf0-42be69afe0b7" title="Meinung" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/meinung/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/meinung/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/meinung/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="228d2816-4605-495f-9d4d-3606daad636a" title="Gesellschaft" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/gesellschaft/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/gesellschaft/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/gesellschaft/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <topiclinks>
+            <topiclink href="http://www.zeit.de/schlagworte/themen/nsu-prozess/index" py:pytype="str">NSU-Prozess</topiclink>
+            <topiclink href="http://www.zeit.de/schlagworte/themen/homosexualitaet/index" py:pytype="str">Homosexualität</topiclink>
+            <topiclink href="http://www.zeit.de/schlagworte/themen/sterbehilfe/index" py:pytype="str">Sterbehilfe</topiclink>
+          </topiclinks>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Meinung</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Meinung</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Meinung</text>
+  </indexteaser>
+</centerpage>

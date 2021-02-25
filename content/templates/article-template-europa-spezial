@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-03-21T17:47:02.012444+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-02-06T15:15:06.289452+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-03-21T17:48:07.139637+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-03-21T17:09:42.452054+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-03-21T17:46:54.905828+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">europa-spezial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:cd493005-85ba-4d9e-92ab-f5811e5df288}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">6</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-61cac8a7-4a40-4e76-8db4-a9fb7e63100c">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-040708ec-9555-4f53-916e-af7907bc35d2">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/europa-spezial/link_startseite_europa-spezial" year="2014" issue="7" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/europa-spezial/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-06T15:13:12+00:00" date-first-released="2014-02-06T15:14:11.893529+00:00" date-last-published="2014-02-06T15:14:11.893529+00:00" last-semantic-change="2014-02-06T15:12:55.425750+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-f002ab8a-626e-42ad-8cc6-fa25ca6fc4f5">
+          <raw>
+            <a class="twitter-timeline" href="https://twitter.com/EUinDE" data-widget-id="433189243255402496">Tweets von @EUinDE</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </raw>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-34fa2e0d-b0f2-4e07-98ec-2294edebde92" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/europa-spezial/link_facebook_europa-spezial" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://www.facebook.com/eu.kommission" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-07T12:57:15+00:00" date-first-released="2014-02-06T15:27:58.618703+00:00" date-last-published="2014-02-06T15:27:58.618703+00:00" last-semantic-change="2014-02-07T12:57:12.305786+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Was für ein Europa wollen wir?</title>
+            <text py:pytype="str">Was haben wir davon? Eine zweiteilige Serie zur Europawahl am 25.Mai. Mitdiskutieren via Twitter @EUinDE und facebook.com/eu.kommission!</text>
+            <description py:pytype="str">Was haben wir davon? Eine zweiteilige Serie zur Europawahl am 25.Mai. Mitdiskutieren via Twitter @EUinDE und facebook.com/eu.kommission!</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/europa-spezial/postit_eu-kommission" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-0acd1f29-0223-4a14-841e-3759dbb9a5bf" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/europa-spezial/link_faceeurope" year="2014" issue="13" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://www.faceeurope.de/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-03-21T11:53:22+00:00" date-first-released="2014-03-21T11:54:22.250263+00:00" date-last-published="2014-03-21T11:54:22.250263+00:00" last-semantic-change="2014-03-21T11:53:10.489713+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link Face Europe</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/europa-spezial/faceeurope/faceeurope-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-47c61b2c-e257-490f-9a0e-c9c516fa04c8" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/europa-spezial/link_europa-spezial_eu-kommission" year="2014" issue="7" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://ec.europa.eu/deutschland/index_de.htm" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-07T13:40:29+00:00" date-first-released="2014-02-07T13:41:29.482406+00:00" date-last-published="2014-02-07T13:41:29.482406+00:00" last-semantic-change="2014-02-07T13:40:19.461844+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zur Webseite der Europäischen Kommission</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/europa-spezial/logo-eu-kommission/logo-eu-kommission-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen EU-Kommission</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen EU-Kommission</title>
+  </teaser>
+</centerpage>

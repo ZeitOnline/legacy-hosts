@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-09-17T19:24:17.963681+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-11-12T17:31:52.598302+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-09-19T09:19:10.178593+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-09-04T08:45:37.699375+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2010-06-09</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-09-04T08:44:56.717749+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2010-06-09</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.soschmidt</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Umwelt</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">12</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:a0e5c0d2-ad72-4daa-8602-20d7e176bcdb}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="f2620d0d-b1a2-4c9a-953c-14cacff6d53e">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="ff55d500-6d03-4c94-951d-c880598733e7">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-7c63f3a7-e088-48e0-9e21-101da8637a65" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wirtschaft/2013-07/trockenschimmel-isolation" year="2013" issue="29" ressort="Wirtschaft" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/gruenegeschaefte/2013/07/12/isolieren-mit-pilzen/" date-last-modified="2013-07-12T16:32:20+00:00" date-first-released="2013-07-12T16:00:52.312081+00:00" date-last-published="2013-07-12T16:33:20.649150+00:00" last-semantic-change="2013-07-12T12:56:39.709817+00:00" author="Marlies Uken">
+            <supertitle py:pytype="str">Blog: Grüne Geschäfte</supertitle>
+            <title py:pytype="str">Das Haus isolieren – mit Pilzen!</title>
+            <text py:pytype="str">Das kleine Unternehmen Ecovative aus New York hat einen ungewöhnlichen Dämmstoff entwickelt: Trockenschimmel. Kann das funktionieren? Von Marlies Uken</text>
+            <description py:pytype="str">Das kleine Unternehmen Ecovative aus New York hat einen ungewöhnlichen Dämmstoff entwickelt: Trockenschimmel. Kann das funktionieren? Von Marlies Uken</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2013-07/tinyhouse/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Tiny House mit Pilzdämmung</bu>
+              <copyright py:pytype="str">©mushroomtinyhouse</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/U/Marlies_Uken/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Marlies Uken</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/mobilitaet/2013-08/fahrrad-radhose-blog" year="2013" issue="32" ressort="Mobilitaet" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/fahrrad/2013/08/07/gut-gepolstert-auf-den-sattel/" date-last-modified="2014-07-22T14:58:15+00:00" date-first-released="2013-08-07T11:42:54.404943+00:00" date-last-published="2013-08-07T11:42:54.404943+00:00" last-semantic-change="2013-08-07T08:36:14.553756+00:00">
+            <supertitle py:pytype="str">Blog Velophil</supertitle>
+            <title py:pytype="str">Gut gepolstert auf den Sattel</title>
+            <text py:pytype="str">Vielradler sollten nicht nur Sättel gründlich testen – auch auf die Radhose kommt es an, abhängig vom Einsatzzweck. Der erste Eindruck kann täuschen, bloggt Andrea Reidl.</text>
+            <description py:pytype="str">Vielradler sollten nicht nur Sättel gründlich testen – auch auf die Radhose kommt es an, abhängig vom Einsatzzweck. Der erste Eindruck kann täuschen, bloggt Andrea Reidl.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2013-08/radhosen-polster/" type="jpg" title="Radhosen mit unterschiedlichen Sitzpolstern" alt="Radhosen mit unterschiedlichen Sitzpolstern" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Radhosen mit unterschiedlichen Sitzpolstern</bu>
+              <copyright py:pytype="str">© www.pd-f.de/Kay Tkatzik</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="5ccb84d9-f7fd-4d8a-8ef1-6bbd854f68d2">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="59a3ab1e-1529-4dea-a03b-e1ed992016ea">
+          <video videoID="2399721950001" player="pls" format="small"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-3273949c-0b9c-40d5-b8ad-d915f862c618" layout="368x220" title="Fotos: Australiens Norden">
+          <block type="intern" href="http://xml.zeit.de/wissen/umwelt/2013-08/fs-australien-northern-territory" year="2013" issue="34" ressort="Wissen" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-09-03T05:11:42+00:00" date-first-released="2013-09-03T05:12:42.191844+00:00" date-last-published="2013-09-03T05:12:42.191844+00:00" last-semantic-change="2013-09-03T05:09:34.269758+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Australien von oben</supertitle>
+            <title py:pytype="str">Verletzliche Geisterlandschaft</title>
+            <text py:pytype="str">Aus der Luft zeigt sich die karge Schönheit Nordaustraliens. Die Jagd auf Bodenschätze bedroht das riesige Northern Territory, in dem nur wenige indigene Stämme siedeln.</text>
+            <description py:pytype="str">Aus der Luft zeigt sich die karge Schönheit Nordaustraliens. Die Jagd auf Bodenschätze bedroht das riesige Northern Territory, in dem nur wenige indigene Stämme siedeln.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-08/fs-australien-northern-territory-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©  David Gray/Reuters</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/wissen/umwelt/2013-08/fs-australien-northern-territory-teaser/fs-australien-northern-territory-teaser-368x220.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="ad0694e9-7882-40fc-a9f6-b360bc603f57">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="bfc04428-cfcb-4241-8fec-31a4ac8fc78e" visible="True">
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-09/fukushima-lecks-millionenpaket-tepco" year="2013" issue="36" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-20T06:41:32+00:00" date-first-released="2013-09-03T14:03:05.118337+00:00" date-last-published="2013-12-02T17:52:34+00:00" last-semantic-change="2013-09-03T14:18:01.645692+00:00" author="Sven Stockrahm">
+            <supertitle py:pytype="str">AKW-Katastrophe</supertitle>
+            <title py:pytype="str">Die Mär vom kontrollierbaren Super-GAU</title>
+            <text py:pytype="str">Lecks, hohe Strahlung, Flickschusterei: Am AKW Fukushima ist die Lage ernst. Japans Premier schickt Geld und rügt Betreiberin Tepco. Er versucht, die Atomkraft zu retten.</text>
+            <description py:pytype="str">Lecks, hohe Strahlung, Flickschusterei: Am AKW Fukushima ist die Lage ernst. Japans Premier schickt Geld und rügt Betreiberin Tepco. Er versucht, die Atomkraft zu retten.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-09/fukushima-wasser-tanks-leck/" type="jpg" title="Fukushima AKW Tanks Wasser Lecks" alt="Besuch nahe lecken Tanks: Vergangene Woche informierte sich der japanische Wirtschaftsminister Toshimitsu Motegi (rechts) über die Lage im AKW Fukushima." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Besuch nahe lecken Tanks: Vergangene Woche informierte sich der japanische Wirtschaftsminister Toshimitsu Motegi (rechts) über die Lage im AKW Fukushima.</bu>
+              <copyright py:pytype="str">© Reuters/Kyodo</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Stockrahm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-09/japan-fukushima-atomkraftwerk-erdbeben" year="2013" issue="36" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-29T13:39:32+00:00" date-first-released="2013-09-04T05:16:15.791333+00:00" date-last-published="2013-12-02T17:52:57+00:00" last-semantic-change="2013-09-04T05:15:04.834058+00:00" author="Reuters  ">
+            <supertitle py:pytype="str">Atomkraftwerk</supertitle>
+            <title py:pytype="str">Strahlenbelastung in Fukushima auf neuem Höchstwert</title>
+            <text py:pytype="str">An Tanks mit radioaktiv belastetem Kühlwasser haben Arbeiter am AKW Fukushima extrem hohe Strahlenwerte ermittelt. Zudem erschütterte ein Erdbeben die Region um Tokio.</text>
+            <description py:pytype="str">An Tanks mit radioaktiv belastetem Kühlwasser haben Arbeiter am AKW Fukushima extrem hohe Strahlenwerte ermittelt. Zudem erschütterte ein Erdbeben die Region um Tokio.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-09/fukushima/" type="jpg" align="left" publication-date="" expires="2013-12-04T06:14:09+00:00">
+              <bu py:pytype="str">In den Tanks wird kontaminiertes Wasser aus dem japanischen Atomkraftwerk Fukushima aufgefangen. (Archivbild)</bu>
+              <copyright py:pytype="str">© Japan Nuclear Regulation Authority/EPA/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/reuters">
+              <display_name>reuters</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-08/japan-grosses-kanto-erdbeben-1923" year="2013" issue="36" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T16:53:17+00:00" date-first-released="2013-09-01T05:47:12.262411+00:00" date-last-published="2013-12-02T17:54:21+00:00" last-semantic-change="2013-09-01T05:46:03.273449+00:00" author="Felix Lill">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Kanto-Erdbeben 1923</supertitle>
+            <title py:pytype="str">Japans Jahrhundertbeben geschah lange vor Fukushima</title>
+            <text py:pytype="str">Vor 90 Jahren erschütterte das verheerendste Erdbeben der japanischen Geschichte Tokio. Heute ist die Stadt besser gewappnet. Möglich wäre ein ähnliches Beben jederzeit.</text>
+            <description py:pytype="str">Vor 90 Jahren erschütterte das verheerendste Erdbeben der japanischen Geschichte Tokio. Heute ist die Stadt besser gewappnet. Möglich wäre ein ähnliches Beben jederzeit.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-08/japan-kanto-erdbeben/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">In Flammen stehendes Polizeipräsidium in Tokio nach dem Großen Kanto-Erdbeben 1923</bu>
+              <copyright py:pytype="str" link="http://commons.wikimedia.org/wiki/File:Metropolitan_Police_Office_after_Kanto_Earthquake.jpg">Public Domain</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Felix_Lill" publication-date="" expires="">
+              <display_name py:pytype="str">Felix Lill</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-08/fukushima-wassertanks-lecks-tepco" year="2013" issue="34" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-20T06:41:32+00:00" date-first-released="2013-08-23T14:47:50.197576+00:00" date-last-published="2013-12-02T18:01:43+00:00" last-semantic-change="2013-08-23T14:46:45.937624+00:00" author="Sven Stockrahm">
+            <supertitle py:pytype="str">Folgen des GAUs</supertitle>
+            <title py:pytype="str">Fukushima ersäuft in verstrahltem Wasser </title>
+            <text py:pytype="str">Offene Hähne, volle Tanks und überall leckt radioaktiv belastetes Wasser: Die Atomanlage von Fukushima war seit dem Super-GAU nie unter Kontrolle. Tepco ist überfordert.</text>
+            <description py:pytype="str">Offene Hähne, volle Tanks und überall leckt radioaktiv belastetes Wasser: Die Atomanlage von Fukushima war seit dem Super-GAU nie unter Kontrolle. Tepco ist überfordert.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-08/fukushima-kontaminiertes-wasser-2/" type="jpg" title="Fukushima kontaminiertes Wasser" align="left" publication-date="" expires="2013-09-23T15:08:45+00:00">
+              <bu py:pytype="str">Inspektoren der japanischen Atomkraftbehörde untersuchen auf dem Gelände des AKW Fukushima Tanks mit verstrahltem Wasser.</bu>
+              <copyright py:pytype="str">© Nuclear Regulation Authority/AP/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Stockrahm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wirtschaft/2013-08/fukushima-tepco-shinzo-abe" year="2013" issue="34" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T16:56:47+00:00" date-first-released="2013-08-28T09:45:23.211567+00:00" date-last-published="2013-12-02T17:58:20+00:00" last-semantic-change="2013-08-28T09:42:00.237738+00:00" author="Felix Lill">
+            <supertitle py:pytype="str">Fukushima</supertitle>
+            <title py:pytype="str">Japans Regierung will Tepco demontieren</title>
+            <text py:pytype="str">Premier Abe und seine Minister kritisieren den Betreiber von Fukushima auf ungewöhnlich harsche Weise. Der Zeitpunkt der öffentlichen Demontage ist geschickt gewählt. </text>
+            <description py:pytype="str">Premier Abe und seine Minister kritisieren den Betreiber von Fukushima auf ungewöhnlich harsche Weise. Der Zeitpunkt der öffentlichen Demontage ist geschickt gewählt. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2013-08/japan-minister/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Japans Wirtschaftsminister Toshimitsu Motegi (links) Anfang August während eines Treffens mit Mitgliedern einer Kommission, die entscheiden soll, wie gegen die Lecks in Fukushima vorgegangen wird. </bu>
+              <copyright py:pytype="str">© Issei Kato/Reuters</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Felix_Lill" publication-date="" expires="">
+              <display_name py:pytype="str">Felix Lill</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2013-08/fukushima-schilddruesenkrebs-strahlenfolgen" year="2013" issue="34" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-16T11:13:37+00:00" date-first-released="2013-08-22T15:29:40.644656+00:00" date-last-published="2014-07-16T11:14:37.628199+00:00" last-semantic-change="2013-08-22T13:50:26.016783+00:00" author="Sven Stockrahm">
+            <supertitle py:pytype="str">Fukushima</supertitle>
+            <title py:pytype="str">Die Krebsangst nach dem GAU ist verfrüht</title>
+            <text py:pytype="str">Die Gesundheitsfolgen von Fukushima sind dramatisch. Doch Berichte über Krebs unter Kindern schüren falsche Ängste. Die Erkrankungen stammen nicht von der Strahlung.</text>
+            <description py:pytype="str">Die Gesundheitsfolgen von Fukushima sind dramatisch. Doch Berichte über Krebs unter Kindern schüren falsche Ängste. Die Erkrankungen stammen nicht von der Strahlung.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-08/fukushima-strahlung-gau/" type="jpg" title="Fukushima Strahlung GAU Atomkatastrophe" alt="16. März 2011, fünf Tage nach Beginn der Atomkatastrophe, misst ein Mann der Gesundheitsbehörde die Strahlenbelastung von Menschen in der Präfektur Fukushima." align="left" publication-date="" expires="">
+              <bu py:pytype="str">16. März 2011, fünf Tage nach Beginn der Atomkatastrophe, misst ein Mann der Gesundheitsbehörde die Strahlenbelastung von Menschen in der Präfektur Fukushima.</bu>
+              <copyright py:pytype="str">© Ken Shimzu/AFP/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Stockrahm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-08/fukushima-wasser-tepco" year="2013" issue="34" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:03:23+00:00" date-first-released="2013-08-20T06:48:37.899579+00:00" date-last-published="2013-12-02T18:04:27+00:00" last-semantic-change="2013-08-20T06:47:18.896109+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">AKW in Japan</supertitle>
+            <title py:pytype="str">300 Tonnen radioaktives Wasser in Fukushima versickert</title>
+            <text py:pytype="str">Aus dem zerstörten Atomkraftwerk Fukushima ist erneut hochgradig radioaktiv verseuchtes Wasser ausgelaufen. Noch schweigt das Unternehmen Tepco zur Ursache.</text>
+            <description py:pytype="str">Aus dem zerstörten Atomkraftwerk Fukushima ist erneut hochgradig radioaktiv verseuchtes Wasser ausgelaufen. Noch schweigt das Unternehmen Tepco zur Ursache.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-08/fukushima-tepco/" type="jpg" title="Fukushima Tepco" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das japanische Atomkraftwerk Fukushima (Archivbild vom März 2013)</bu>
+              <copyright py:pytype="str">© Kyodo/Reuters</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-07/fukushima-radioaktivitaet-strahlung" year="2013" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-03-10T18:04:18+00:00" date-first-released="2013-07-24T22:00:00+00:00" date-last-published="2013-12-02T18:26:03+00:00" last-semantic-change="2013-07-25T14:27:29.317812+00:00" author="Inga Höltmann">
+            <supertitle py:pytype="str">Am Rand der Sperrzone</supertitle>
+            <title py:pytype="str">Wehe, wenn es über Fukushima City regnet</title>
+            <text py:pytype="str">Umgraben, Abspülen, Schrubben – der Kampf gegen die Strahlen ist müßig. Jeder Regen spült neue radioaktive Partikel in die japanische Stadt. Von Inga Höltmann, Fukushima</text>
+            <description py:pytype="str">Umgraben, Abspülen, Schrubben – der Kampf gegen die Strahlen ist müßig. Jeder Regen spült neue radioaktive Partikel in die japanische Stadt. Von Inga Höltmann, Fukushima</description>
+            <byline py:pytype="str">Inga Höltmann</byline>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-07/fukushima-strahlung/" type="jpg" title="Fukushima Kinder Geigerzähler Strahlung Atomkraftwerk" alt="Fukushima Kinder Geigerzähler Strahlung Atomkraftwerk" align="left" publication-date="" expires="2013-08-25T13:09:53+00:00">
+              <bu py:pytype="str">Das Bild zeigt die Greenpeace-Aktivistin Iryna Labunska, die im August 2011 die Ardioaktivität an Kinderschuhen in einem Kinderkarten in der Provinz Fukushima misst.</bu>
+              <copyright py:pytype="str">©  Noriko Hayashi/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/H/Inga_Hoeltmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Inga Höltmann</display_name>
+            </author>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="da1be418-a528-4358-b82a-5fc90a1fd04a">
+          <video videoID="1934486627001" player="vid" format="small"/>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="False" cp:__name__="210e6038-57db-48d2-89ac-5c2f7001211e" title="Thema: Biodiversität" visible="True">
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-09/seychellenfroesche-ohren-hoeren-mund" year="2013" issue="36" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-06-20T10:17:58+00:00" date-first-released="2013-09-02T19:21:48.269115+00:00" date-last-published="2013-09-02T19:22:04.249217+00:00" last-semantic-change="2013-09-02T19:20:40.410185+00:00" author="Lydia Klöckner">
+            <supertitle py:pytype="str">Evolution</supertitle>
+            <title py:pytype="str">Manche Seychellenfrösche hören mit dem Mund</title>
+            <text py:pytype="str">Einige Froscharten können hören, obwohl sie keine richtigen Ohren haben. Jetzt haben Forscher untersucht, wie sie das machen: Ihre Ohren sitzen gewissermaßen im Mund.</text>
+            <description py:pytype="str">Einige Froscharten können hören, obwohl sie keine richtigen Ohren haben. Jetzt haben Forscher untersucht, wie sie das machen: Ihre Ohren sitzen gewissermaßen im Mund.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-09/Frosch-ohne-ohren/" type="jpg" title="Seychellenfrosch" alt="Ein männlicher Frosch der Art Sooglossus gardineri." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein männlicher Frosch der Art Sooglossus gardineri.</bu>
+              <copyright py:pytype="str">© R. Boistel/CNRS</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Lydia_Kloeckner" publication-date="" expires="">
+              <display_name py:pytype="str">Lydia Klöckner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/34/stimmts-sex-saeugetier" year="2013" issue="34" ressort="Wissen" contenttype="article" publication-date="2013-08-22T01:00:40+00:00" expires="" date-last-modified="2014-02-05T20:17:29+00:00" date-first-released="2013-08-14T06:00:00+00:00" date-last-published="2013-09-04T11:01:39.674919+00:00" last-semantic-change="2013-08-24T08:31:48.818914+00:00" serie="Stimmt's" author="Christoph Drösser">
+            <supertitle py:pytype="str">Kolumne Stimmt's?</supertitle>
+            <title py:pytype="str">Ventro-ventrales Vergnügen</title>
+            <text py:pytype="str">Hat nur der Mensch Sex in Missionarsstellung?</text>
+            <description py:pytype="str">Hat nur der Mensch Sex in Missionarsstellung?</description>
+            <byline py:pytype="str">von Christoph Drösser</byline>
+            <image base-id="http://xml.zeit.de/wissen/2013-08/Loewen-Paarung/" type="jpg" title="Löwen bei der Paarung" alt="Löwen paaren sich im Amboseli-Nationalpark in Kenya." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Löwen paaren sich im Amboseli-Nationalpark in Kenya.</bu>
+              <copyright py:pytype="str">© Carl de Souza / Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/D/Christoph_Droesser/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph Drösser</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-08/arten-scannen-taxonomie" year="2013" issue="33" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-23T15:51:39+00:00" date-first-released="2013-08-12T15:50:41.449355+00:00" date-last-published="2014-07-10T00:05:04.944545+00:00" last-semantic-change="2013-08-12T15:49:36.284988+00:00" author="Birk Grüling">
+            <supertitle py:pytype="str">Arten bestimmen</supertitle>
+            <title py:pytype="str">Nacktscanner für Ameisen</title>
+            <text py:pytype="str">Abertausende unbekannte Tiere und Pflanzen verstauben in den Schubladen der Museen, weil niemand Zeit hat, sie zu bestimmen. Jetzt soll High-Tech helfen.</text>
+            <description py:pytype="str">Abertausende unbekannte Tiere und Pflanzen verstauben in den Schubladen der Museen, weil niemand Zeit hat, sie zu bestimmen. Jetzt soll High-Tech helfen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-08/ameise-insekten/" type="jpg" title="Ameise Insekten Nacktscanner Zoologie Taxonomie" alt="Ameise Insekten Nacktscanner Zoologie Taxonomie" align="left" publication-date="" expires="2013-12-12T15:16:23+00:00">
+              <bu py:pytype="str">Eine Bulldoggen-Ameise (Gattung: Myrmecia)</bu>
+              <copyright py:pytype="str">© Soeren Stache/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/G/Birk_Grueling/index" publication-date="" expires="">
+              <display_name py:pytype="str">Birk Grüling</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-07/primatenforscherin-julia-fischer-kommunikation" year="2013" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-07-31T09:36:41+00:00" date-first-released="2013-07-09T22:00:00+00:00" date-last-published="2013-07-31T09:37:40.811392+00:00" last-semantic-change="2013-07-11T13:52:04.064840+00:00" author="Ralf Nestler">
+            <supertitle py:pytype="str">Evolution</supertitle>
+            <title py:pytype="str">"Affen haben keine Sprache"</title>
+            <text py:pytype="str">Fehlt den Primaten – außer dem Menschen – einfach das Mitteilungsbedürfnis? Die deutsche Affenforscherin Julia Fischer über den Ursprung der Sprache, wie wir sie kennen.</text>
+            <description py:pytype="str">Fehlt den Primaten – außer dem Menschen – einfach das Mitteilungsbedürfnis? Die deutsche Affenforscherin Julia Fischer über den Ursprung der Sprache, wie wir sie kennen.</description>
+            <byline py:pytype="str">Ralf Nestler</byline>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-07/paviane/" type="jpg" title="Paviane Hagenbeck Hagenbeck Affen Primaten Zoo" alt="Paviane Hagenbeck Hagenbeck Affen Primaten Zoo" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Paviane im Tierpark Hagenbeck in Hamburg</bu>
+              <copyright py:pytype="str">© Christian Charisius/Reuters</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Ralf_Nestler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ralf Nestler</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-07/soziale-monogamie-saeugetiere" year="2013" issue="31" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:19:53+00:00" date-first-released="2013-07-31T09:37:37.899770+00:00" date-last-published="2013-12-02T18:20:41+00:00" last-semantic-change="2013-07-31T09:36:32.413581+00:00" author="Moritz Kohl">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Monogamie im Tierreich</supertitle>
+            <title py:pytype="str">Manchen ist Fremdgehen schlicht zu anstrengend</title>
+            <text py:pytype="str">Warum leben einige Säugetiere treu zu zweit? Biologen sind sich uneins, was die Monogamie eigentlich soll. Es könnte an verstreut lebenden Frauen liegen.</text>
+            <description py:pytype="str">Warum leben einige Säugetiere treu zu zweit? Biologen sind sich uneins, was die Monogamie eigentlich soll. Es könnte an verstreut lebenden Frauen liegen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-07/monogamie-tiere-erdmaennchen-teaser/" type="jpg" title="Erdmaennchen Soziale Monogamie" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Dieter Lukas</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Moritz_Kohl/index" publication-date="" expires="">
+              <display_name py:pytype="str">Moritz Kohl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/2013-07/dinosaurier-entdeckung-titusi" year="2013" issue="29" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:30:26+00:00" date-first-released="2013-07-17T10:27:26.586621+00:00" date-last-published="2013-12-02T18:31:01+00:00" last-semantic-change="2013-07-17T10:26:22.147420+00:00" author="Stefan Schmitt">
+            <supertitle py:pytype="str">Paläontologie</supertitle>
+            <title py:pytype="str">Hässlichkeit überdauert bis in alle Zeit</title>
+            <text py:pytype="str">Forscher haben einen Dinosaurier entdeckt und ihn mit gebotener Neutralität beschrieben. Dabei sieht diese Urzeit-Echse wirklich unsäglich aus, meint Stefan Schmitt.</text>
+            <description py:pytype="str">Forscher haben einen Dinosaurier entdeckt und ihn mit gebotener Neutralität beschrieben. Dabei sieht diese Urzeit-Echse wirklich unsäglich aus, meint Stefan Schmitt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-07/nasutoceratops-titusi/" type="jpg" title="Nasutoceratops titusi Dinosaurier" alt="Nasutoceratops titusi Dinosaurier" align="left" publication-date="" expires="">
+              <bu py:pytype="str">So stellen sich die Entdecker den Dinosaurier Nasutoceratops titusi vor, dessen Überreste sie in Utah fanden. Er zählt zur selben Familie wie der berühmte Triceratops, der allerdings drei Hörner hatte.</bu>
+              <copyright py:pytype="str">© Lukas Panzarin/Utah Museum of Natural History</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Stefan_Schmitt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefan Schmitt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/27/biber-suedamerika" year="2013" issue="27" ressort="Wissen" contenttype="article" publication-date="2013-07-04T01:50:00+00:00" expires="" date-last-modified="2013-07-05T04:51:35+00:00" date-first-released="2013-06-27T06:00:00+00:00" date-last-published="2013-07-05T04:52:34.649027+00:00" last-semantic-change="2013-07-05T04:51:30.367635+00:00" author="Dietrich Richthofen, von">
+            <supertitle py:pytype="str">Südamerika</supertitle>
+            <title py:pytype="str">Feuerland entwirft den Biber-Massenmord </title>
+            <text py:pytype="str">Eingeschleppte Großnager gefährden im südamerikanischen Feuerland das Ökosystem. Chile und Argentinien wollen die Biber ausrotten. Dürfen die das? Von D. von Richthofen</text>
+            <description py:pytype="str">Eingeschleppte Großnager gefährden im südamerikanischen Feuerland das Ökosystem. Chile und Argentinien wollen die Biber ausrotten. Dürfen die das? Von D. von Richthofen</description>
+            <byline py:pytype="str">von Dietrich von Richthofen</byline>
+            <image base-id="http://xml.zeit.de/wissen/2013-07/s35-biber/" type="jpg" title="Biber Feuerland Südamerika Ausrottung" alt="Feindbild an der Südspitze Südamerikas: Der kanadische Biber (&quot;Castor canadensis&quot;)" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Feindbild an der Südspitze Südamerikas: Der kanadische Biber ("Castor canadensis")</bu>
+              <copyright py:pytype="str">© Mathieu Belanger/Reuters </copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/R/Dietrich_von_Richthofen" publication-date="" expires="">
+              <display_name py:pytype="str">Dietrich Richthofen, von</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-07/versauerung-ozeane-simulation-schweden" year="2013" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:43:46+00:00" date-first-released="2013-07-01T22:00:00+00:00" date-last-published="2013-12-02T18:44:43+00:00" last-semantic-change="2013-07-02T11:52:48.845523+00:00" author="Birk Grüling">
+            <supertitle py:pytype="str">Ozeanforschung</supertitle>
+            <title py:pytype="str">Meerestiere in sauer</title>
+            <text py:pytype="str">Mit steigendem CO2-Gehalt in der Atmosphäre versauern auch die Ozeane. Was das für Tiere und Pflanzen im Jahr 2100 hieße, sollen Simulationen zeigen. Von Birk Grüling</text>
+            <description py:pytype="str">Mit steigendem CO2-Gehalt in der Atmosphäre versauern auch die Ozeane. Was das für Tiere und Pflanzen im Jahr 2100 hieße, sollen Simulationen zeigen. Von Birk Grüling</description>
+            <byline py:pytype="str">Birk Grüling</byline>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-07/geomar-experiment-2/" type="jpg" title="Geomar Versauerung Meere" alt="Geomar Versauerung Meere" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mit Mesokomen – Gerätschaften, die das Wasser über Schläuche mit CO2 anreichern – simulieren die Forscher aus Kiel die saureren Lebensbedingungen im Meer.</bu>
+              <copyright py:pytype="str">© IFM Geomar</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/G/Birk_Grueling/index" publication-date="" expires="">
+              <display_name py:pytype="str">Birk Grüling</display_name>
+            </author>
+          </block>
+          <referenced_cp xsi:nil="true"/>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="99144333-114c-4c98-8a64-8e2e1ef61db1" title="Thema: Klimawandel" visible="True">
+          <block href="http://xml.zeit.de/wissen/umwelt/2013-08/super-genmais-monsanto" year="2013" issue="33" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:08:48+00:00" date-first-released="2013-08-13T15:58:16.746802+00:00" date-last-published="2013-12-02T18:10:08+00:00" last-semantic-change="2013-08-13T15:57:11.653603+00:00" author="Dagny Lüdemann">
+            <supertitle py:pytype="str">Monsanto-Mais</supertitle>
+            <title py:pytype="str">"Gentechnik-Mais ist nicht gesundheitsschädlich"</title>
+            <text py:pytype="str">Der genveränderte Mais, den Monsanto bald nach Europa liefert, kann Schädlinge vergiften und Anti-Unkraut-Spray verkraften. Biologe Christoph Tebbe sieht kaum Risiken.</text>
+            <description py:pytype="str">Der genveränderte Mais, den Monsanto bald nach Europa liefert, kann Schädlinge vergiften und Anti-Unkraut-Spray verkraften. Biologe Christoph Tebbe sieht kaum Risiken.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-08/maiskolben-feld/" type="jpg" title="Mais Maiskolben Monsanto Genmais" alt="Mais Maiskolben Monsanto Genmais" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Gentechnisch unveränderter Mais auf einem Feld in Deutschland</bu>
+              <copyright py:pytype="str">© Sean Gallup/AFP/GettyImages</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Dagny_Luedemann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Dagny Lüdemann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/2013-08/kuenstliches-rindfleisch-in-vitro-burger" year="2013" issue="32" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-08-14T11:17:20+00:00" date-first-released="2013-08-05T10:16:51.272343+00:00" date-last-published="2013-08-14T11:18:19.122340+00:00" last-semantic-change="2013-08-05T09:59:09.457926+00:00" author="Alina Schadwinkel">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">In-Vitro-Rindfleisch</supertitle>
+            <title py:pytype="str">Einen Kunstfleisch-Burger für 300.000 Euro, bitte!</title>
+            <text py:pytype="str">Einzigartige Kochshow: Der Forscher Mark Post serviert live in London das erste Hack aus der Petrischale. Eine teure wie zukunftsweisende Fleischkost.</text>
+            <description py:pytype="str">Einzigartige Kochshow: Der Forscher Mark Post serviert live in London das erste Hack aus der Petrischale. Eine teure wie zukunftsweisende Fleischkost.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/umwelt/2013-08/burger-retorte-stammzellen/" type="jpg" title="Burger Hamburger Fleisch Retortenfleisch Stammzeooen Zuchtfleisch Kunstfleisch" alt="Burger Hamburger Fleisch Retortenfleisch Stammzeooen Zuchtfleisch Kunstfleisch Tissue Engineering" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Essbar, aber nicht massentauglich: So sieht der Burger aus, dessen Hackfleisch aus Stammzellen im Labor des Maastrichter Forschers Mark Post entstand.</bu>
+              <copyright py:pytype="str">© David Parry/PA Wire</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Alina_Schadwinkel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Alina Schadwinkel</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2013/05/Nachhaltigkeit-Kompakt-CO2-LT" year="2013" issue="5" author="Susanne Donner" contenttype="article" publication-date="" expires="" date-last-modified="2013-08-12T14:13:15+00:00" date-first-released="2013-08-13T06:00:00+00:00" date-last-published="" last-semantic-change="2013-08-13T06:00:00+00:00">
+            <supertitle py:pytype="str">Umwelt &amp; Gesellschaft Nachhaltigkeit Kompakt</supertitle>
+            <title py:pytype="str">Klimakiller wird Hoffnungsträger</title>
+            <text py:pytype="str">Das Gas Kohlendioxid beginnt sich nützlich zu machen. Doch seine Umwandlung in
+      Treibstoff oder Plastik kostet oft viel Energie – noch.</text>
+            <description py:pytype="str">Das Gas Kohlendioxid beginnt sich nützlich zu machen. Doch seine Umwandlung in
+      Treibstoff oder Plastik kostet oft viel Energie – noch.</description>
+            <byline py:pytype="str">von Susanne Donner</byline>
+          </block>
+          <block href="http://xml.zeit.de/gesellschaft/familie/2013-08/familie-vegan-erziehung" year="2013" issue="33" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:11:58+00:00" date-first-released="2013-08-08T18:03:00.408006+00:00" date-last-published="2013-12-02T18:13:25+00:00" last-semantic-change="2013-08-08T18:01:55.972859+00:00" author="Udo Taubitz">
+            <supertitle py:pytype="str">Veganismus</supertitle>
+            <title py:pytype="str">Familie Pflanzen-Freak </title>
+            <text py:pytype="str">Von wegen Veggie Day. Kein Fleisch, kein Eis, kein Zoo – Udo Taubitz ernährt seine drei Töchter jeden Tag vegan. Das beunruhigt das Umfeld der Familie. </text>
+            <description py:pytype="str">Von wegen Veggie Day. Kein Fleisch, kein Eis, kein Zoo – Udo Taubitz ernährt seine drei Töchter jeden Tag vegan. Das beunruhigt das Umfeld der Familie. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/familie/2013-08/familie-obst/" type="jpg" title="Obst" align="left" publication-date="" expires="2013-09-08T12:04:45+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jan Woitas/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Udo_Taubitz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Udo Taubitz</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wirtschaft/2013-08/fleisch-konsum-ressourcen" year="2013" issue="32" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:14:27+00:00" date-first-released="2013-08-06T16:33:18.876139+00:00" date-last-published="2013-12-02T18:14:58+00:00" last-semantic-change="2013-08-06T16:32:10.821190+00:00" author="Marlies Uken">
+            <supertitle py:pytype="str">Ressourcenverbrauch</supertitle>
+            <title py:pytype="str">Vegetarier sind die besseren Umweltschützer</title>
+            <text py:pytype="str">Wer ein Kilo Rindfleisch verspeist, verbraucht dadurch mehr als 75 Badewannen voller Wasser und enorm viel Fläche. Gemüseesser leben sparsamer. Von Marlies Uken</text>
+            <description py:pytype="str">Wer ein Kilo Rindfleisch verspeist, verbraucht dadurch mehr als 75 Badewannen voller Wasser und enorm viel Fläche. Gemüseesser leben sparsamer. Von Marlies Uken</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2013-08/vegetarier/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Labyrinth in Form einer Kuh wurde 2009 in einem Acker bei Berlin angelegt.</bu>
+              <copyright py:pytype="str">© Thomas Peter/Reuters</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/U/Marlies_Uken/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Marlies Uken</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2013-08/gruene-fleischkonsum-wahlkampf-kantine-veggie-day" year="2013" issue="32" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:15:25+00:00" date-first-released="2013-08-05T15:56:54.771699+00:00" date-last-published="2013-12-02T18:16:40+00:00" last-semantic-change="2013-08-05T15:55:48.287506+00:00" author="Lisa Caspari">
+            <supertitle py:pytype="str">Veggie Day</supertitle>
+            <title py:pytype="str">Fleischlos in den Wahlkampf</title>
+            <text py:pytype="str">Angeblich wollen die Grünen Fleisch in Kantinen verbieten. Die Wahrheit ist weniger dramatisch und hat gleichzeitig das Zeug für einen Wahlkampf-Hit. Von Lisa Caspari</text>
+            <description py:pytype="str">Angeblich wollen die Grünen Fleisch in Kantinen verbieten. Die Wahrheit ist weniger dramatisch und hat gleichzeitig das Zeug für einen Wahlkampf-Hit. Von Lisa Caspari</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2013-08/kuenast-wurst/" type="jpg" alt="Renate Künast schneidet eine Bio-Wurst (Archivbild von 2003)" align="left" publication-date="" expires="2013-11-05T15:33:23+00:00">
+              <bu py:pytype="str">Renate Künast schneidet eine Bio-Wurst (Archivbild von 2003)</bu>
+              <copyright py:pytype="str">© Stephanie Pilick/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Lisa Caspari</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/31/gentechnik-biolandbau-kalifornien" year="2013" issue="31" ressort="Wissen" contenttype="article" publication-date="2013-08-01T01:29:25+00:00" expires="" date-last-modified="2013-08-14T11:19:28+00:00" date-first-released="2013-07-25T06:00:00+00:00" date-last-published="2013-08-14T11:20:27.215744+00:00" last-semantic-change="2013-08-06T08:06:58.353735+00:00" author="Jean-Paul Bertemes">
+            <supertitle py:pytype="str">Grüne Gentechnik</supertitle>
+            <title py:pytype="str">Diese Ökos finden Genfood gut</title>
+            <text py:pytype="str">Gentechnik und Biolandbau – das sind in Deutschland unversöhnliche Gegensätze. Ein Forscherehepaar aus Kalifornien zeigt: Das muss nicht so sein.</text>
+            <description py:pytype="str">Gentechnik und Biolandbau – das sind in Deutschland unversöhnliche Gegensätze. Ein Forscherehepaar aus Kalifornien zeigt: Das muss nicht so sein.</description>
+            <byline py:pytype="str">von Jean-Paul Bertemes</byline>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-08/ronald-adamchak-usa/" type="jpg" title="Pamela Ronald Raoul Adamchak " alt="Pamela Ronald Raoul Adamchak Kalifornien organic farm Grüne Gentschnik" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Forscher und Biobauern Raoul Adamchak und Pamela Ronald auf ihrer Farm in Kalifornien</bu>
+              <copyright py:pytype="str">© Wikimedia Commons/CC-BY-SA 3.0</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Jean-Paul_Bertemes/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jean-Paul Bertemes</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/zeit-geschichte/2013/02/ernaehrungsreform-vegetarismus" year="2013" issue="2" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-08-15T13:00:26+00:00" date-first-released="2013-05-21T06:00:00+00:00" date-last-published="2013-08-15T13:01:25.931097+00:00" last-semantic-change="2013-07-24T15:33:03.001309+00:00" author="Judith Baumgartner">
+            <supertitle py:pytype="str">Vegetarismus</supertitle>
+            <title py:pytype="str">Zwischen Grasfressern und Öko-Pionieren</title>
+            <text py:pytype="str">Die ersten Vegetarier waren zur Jahrhundertwende keine weltabgewandten Rohköstler. Sie stritten für eine nachhaltige Lebensweise – mit mäßigem Erfolg.</text>
+            <description py:pytype="str">Die ersten Vegetarier waren zur Jahrhundertwende keine weltabgewandten Rohköstler. Sie stritten für eine nachhaltige Lebensweise – mit mäßigem Erfolg.</description>
+            <byline py:pytype="str">von Judith Baumgartner</byline>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-07/vegetarier/" type="jpg" title="Vegetarier" align="left" publication-date="" expires="">
+              <bu py:pytype="str">20th October 1913:  Growers display specimens of Mangel Wurzel at the Dairy Show at the Agricultural Hall.  (Photo by Topical Press Agency/Getty Images)</bu>
+              <copyright py:pytype="str">© Topical Press Agency/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Judith_Baumgartner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Judith Baumgartner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2013-06/ernaehrung-diaeten" year="2013" issue="23" ressort="Lebensart" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:46:48+00:00" date-first-released="2013-06-27T12:27:51.515847+00:00" date-last-published="2013-12-02T18:48:46+00:00" last-semantic-change="2013-07-11T12:54:23.243864+00:00" author="Hans Kantereit">
+            <supertitle py:pytype="str">Ernährungstrends</supertitle>
+            <title py:pytype="str">"Der Appetit ist die moderne Erbsünde"</title>
+            <text py:pytype="str">Diäten hält er für Gewalt und essen soll man, worauf man Lust hat. Im Interview zerlegt der Lebensmittelchemiker Udo Pollmer den Glauben an die eine, gesunde Ernährung. </text>
+            <description py:pytype="str">Diäten hält er für Gewalt und essen soll man, worauf man Lust hat. Im Interview zerlegt der Lebensmittelchemiker Udo Pollmer den Glauben an die eine, gesunde Ernährung. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/essen-trinken/2013-06/udo-pollmer-effilee/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hört er Ernährungsratschläge, nimmt Udo Pollmer sofort Reißaus. </bu>
+              <copyright py:pytype="str">© Andrea Thode</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Hans_Kantereit/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hans Kantereit</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2013-08/kantinen-check-deutschland" year="2013" issue="32" ressort="Lebensart" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:13:02+00:00" date-first-released="2013-08-08T07:25:42.076117+00:00" date-last-published="2013-12-02T18:13:18+00:00" last-semantic-change="2013-08-08T07:24:37.333650+00:00" author="Anne-Sophie Balzer;Elisabeth Gamperl">
+            <supertitle py:pytype="str">Kantinen-Check</supertitle>
+            <title py:pytype="str">Einmal vegetarisch, bitte</title>
+            <text py:pytype="str">In Deutschland wird über einen fleischlosen Tag in Kantinen debattiert. ZEIT ONLINE hat nachgefragt: Was steht in großen Betriebskantinen auf dem Speiseplan?</text>
+            <description py:pytype="str">In Deutschland wird über einen fleischlosen Tag in Kantinen debattiert. ZEIT ONLINE hat nachgefragt: Was steht in großen Betriebskantinen auf dem Speiseplan?</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/essen-trinken/2013-08/kantine-check-2/" type="jpg" title="Mittagessen in einer Kantine in Baden Württemberg. " alt="Mittagessen in einer Kantine in Baden Württemberg. " align="left" publication-date="2013-08-07T11:23:44+00:00" expires="2013-11-07T12:23:47+00:00">
+              <bu py:pytype="str">Mittagessen in einer Kantine in Baden Württemberg. </bu>
+              <copyright py:pytype="str">©dpa/ Franziska Kraufmann</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Anne-Sophie_Balzer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anne-Sophie Balzer</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/G/Elisabeth_Gamperl/index" publication-date="" expires="">
+              <display_name py:pytype="str">Elisabeth Gamperl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2013-08/vegetarier-kantine-kuenast" year="2013" issue="32" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:15:49+00:00" date-first-released="2013-08-05T07:52:48.374355+00:00" date-last-published="2013-12-02T18:16:34+00:00" last-semantic-change="2013-08-05T06:09:11.426310+00:00">
+            <supertitle py:pytype="str">Veggie Day</supertitle>
+            <title py:pytype="str">Grüne wollen fleischlosen Tag in Kantinen</title>
+            <text py:pytype="str">Kantinen sollen einmal pro Woche ausschließlich vegetarische und vegane Gerichte anbieten, fordern die Grünen. Der Veggie Day soll nach der Wahl zum Standard werden.</text>
+            <description py:pytype="str">Kantinen sollen einmal pro Woche ausschließlich vegetarische und vegane Gerichte anbieten, fordern die Grünen. Der Veggie Day soll nach der Wahl zum Standard werden.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2013-08/veggie-day/" type="jpg" title="Veggie Day" align="left" publication-date="" expires="2013-11-05T07:44:00+00:00">
+              <bu py:pytype="str">Gemüsestiften mit einem Quark-Dip 
+</bu>
+              <copyright py:pytype="str">© Roland Weihrauch/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <referenced_cp xsi:nil="true"/>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Umwelt</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Umwelt</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Umwelt</text>
+  </indexteaser>
+</centerpage>

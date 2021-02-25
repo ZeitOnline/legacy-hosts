@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <image alt="Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf." align="left" title="Cityguide Prag Teaserbild" base-id="http://xml.zeit.de/reisen/2012-10/cityguide-prag/" type="jpg" publication-date="" expires="">
+      <bu py:pytype="str">Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf.</bu>
+      <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+    </image>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-prag/header-ts-prag" title="Cityguide Prag Headerbild Themenseite" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© Radek Mica/AFP/Getty Images</copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T07:50:49.140030+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-10-24T07:39:12.408984+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T07:51:58.128044+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-07-17T07:50:57.254299+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-08</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Alles zum Thema: City Guide Prag | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T07:49:34.561786+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2013-11-14</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">125</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:28b5e8f1-c0d2-40e0-8c61-7a4dfe375791}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">41</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-d2714672-a150-4ab6-8397-18b586c1505d">
+          <block href="http://xml.zeit.de/2012/42/City-Guide-Prag-Karlsbruecke" uniqueId="http://xml.zeit.de/2012/42/City-Guide-Prag-Karlsbruecke" year="2012" issue="42" ressort="Reisen" contenttype="article" publication-date="2012-10-18T02:31:45+00:00" expires="" date-last-modified="2014-07-17T07:50:16+00:00" date-first-released="2012-10-11T06:00:00+00:00" date-last-published="2014-05-08T02:21:10.582425+00:00" last-semantic-change="2012-11-20T11:34:50.703489+00:00" serie="City Guide" author="Nina Pauer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die Heiligen der Karlsbrücke</title>
+            <text py:pytype="str">Anbetung: Unter der Karlsbrücke mit ihren Heiligenstatuen fließt die Moldau, über sie die Menschenmenge. Wer das Glück sucht, berührt die Figur des Heiligen Nepomuks.</text>
+            <description py:pytype="str">Anbetung: Unter der Karlsbrücke mit ihren Heiligenstatuen fließt die Moldau, über sie die Menschenmenge. Wer das Glück sucht, berührt die Figur des Heiligen Nepomuks.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/Karlsbruecke-Prag-Hradschin/" type="jpg" title="Karlsbrücke Prag Hradschin" alt="Hinter der Karlsbrücke erhebt sich die Prager Burg Hradschin." align="left" publication-date="2012-10-16T22:53:15+00:00" expires="">
+              <bu py:pytype="str">Hinter der Karlsbrücke erhebt sich die Prager Burg Hradschin.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/P/Nina_Pauer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Nina Pauer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-909b1706-323b-40f6-a454-e2feb9800dff">
+          <block href="http://xml.zeit.de/2012/42/City-Guide-Prag-Tramfahrt" year="2012" issue="42" ressort="Reisen" publication-date="2012-10-18T02:59:44+00:00" expires="" date-last-modified="2014-07-17T07:50:19+00:00" date-first-released="2012-10-11T06:00:00+00:00" date-last-published="2014-05-08T02:21:08.130788+00:00" last-semantic-change="2012-10-30T05:46:45.530072+00:00" contenttype="article" serie="City Guide" author="Stefanie Flamm">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">In der Straßenbahn durch das alte und neue Prag</title>
+            <text py:pytype="str">In Prag lauert der Zauber hinter jeder Ecke. Stefanie Flamm ist mit dem Schriftsteller Jaroslav Rudiš mit der Tram vom Hradschin bis in die Bierkaschemme gefahren.</text>
+            <description py:pytype="str">In Prag lauert der Zauber hinter jeder Ecke. Stefanie Flamm ist mit dem Schriftsteller Jaroslav Rudiš mit der Tram vom Hradschin bis in die Bierkaschemme gefahren.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/strassenbahn-prag/" type="jpg" title="Straßenbahn Prag" alt="Straßenbahn in Prag" align="left" publication-date="2012-10-16T22:22:13+00:00" expires="2013-01-17T22:59:28+00:00">
+              <bu py:pytype="str">Straßenbahn in Prag</bu>
+              <copyright py:pytype="str">© Richard Nebes/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-caa5c7bb-5cb9-42d9-9d53-4371a613981c">
+          <block href="http://xml.zeit.de/2012/42/City-Guide-Prag-Kampa-Tomas-Sedlacek" year="2012" issue="42" ressort="Reisen" publication-date="2012-10-18T02:09:13+00:00" expires="" date-last-modified="2014-07-17T07:50:15+00:00" date-first-released="2012-10-11T06:00:00+00:00" date-last-published="2014-05-08T02:21:09.749294+00:00" last-semantic-change="2012-10-26T06:23:09.404372+00:00" contenttype="article" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">Prags gute Insel</title>
+            <text py:pytype="str">Mein Wohnzimmer: Auf der Halbinsel Kampa treffen sich weltoffene, international denkende Prager, sagt der Ökonom Tomáš Sedláček – auch, um die Welt besser zu machen.</text>
+            <description py:pytype="str">Mein Wohnzimmer: Auf der Halbinsel Kampa treffen sich weltoffene, international denkende Prager, sagt der Ökonom Tomáš Sedláček – auch, um die Welt besser zu machen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/kampa-prag/" type="jpg" alt="Ein Herbsttag auf der Halbinsel Kampa" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Herbsttag auf der Halbinsel Kampa</bu>
+              <copyright py:pytype="str">© Reuters / Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3f1f2b4b-ba10-413e-bdb1-1266e4d9e7e3">
+          <block href="http://xml.zeit.de/2012/42/City-Guide-Prag-Restaurant-La-Degustation" year="2012" issue="42" ressort="Reisen" publication-date="2012-10-18T02:37:21+00:00" expires="" date-last-modified="2014-07-17T07:50:17+00:00" date-first-released="2012-10-11T06:00:00+00:00" date-last-published="2014-05-08T02:21:11.393905+00:00" last-semantic-change="2012-11-06T18:29:29.455081+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">In Prag isst man Smaženka</title>
+            <text py:pytype="str">Das Stammgericht: Mit veredeltem Schinkenbrot und einem Kochbuch aus der Zeit der Donaumonarchie erfindet der Meisterkoch Oldřich Sahajdák die böhmische Küche neu.</text>
+            <description py:pytype="str">Das Stammgericht: Mit veredeltem Schinkenbrot und einem Kochbuch aus der Zeit der Donaumonarchie erfindet der Meisterkoch Oldřich Sahajdák die böhmische Küche neu.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/sahajhdak/" type="jpg" title="Cityguide Prag | Oldrich Sahajhdak" alt="Oldřich Sahajdák beim Zubereiten von Smaženka" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Oldřich Sahajdák beim Zubereiten von Smaženka</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com/">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7991830b-a0ef-4a22-a229-4c67d72c68d8">
+          <block href="http://xml.zeit.de/reisen/2012-10/City-Guide-Prag-Restaurants" year="2012" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T00:47:51+00:00" date-first-released="2012-10-23T13:19:40.981705+00:00" date-last-published="2013-12-03T01:48:04+00:00" last-semantic-change="2012-10-16T15:45:54.998258+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">Prager Küche</title>
+            <text py:pytype="str">Vornehm, ohne Schnöseligkeit. Deftig, mit viel Raffinesse. Diese vier Lokale empfiehlt unser Restauranttester Michael Allmaier für einen Besuch in Prag.</text>
+            <description py:pytype="str">Vornehm, ohne Schnöseligkeit. Deftig, mit viel Raffinesse. Diese vier Lokale empfiehlt unser Restauranttester Michael Allmaier für einen Besuch in Prag.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/Vojanuv-Dvur/" type="jpg" title="Vojanův Dvůr" alt="Böhmische Klassiker in frischen und großzügigen Portionen serviert das Vojanův Dvůr." align="left" publication-date="2012-10-16T22:57:25+00:00" expires="">
+              <bu py:pytype="str">Böhmische Klassiker in frischen und großzügigen Portionen serviert das Vojanův Dvůr.</bu>
+              <copyright py:pytype="str">© Vojanuv Dvur/PR</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7567d6c5-05a4-4dbd-9a34-afb0c84f2edc">
+          <block href="http://xml.zeit.de/2012/42/City-Guide-Prag-Nachtleben" year="2012" issue="42" ressort="Reisen" publication-date="2012-10-18T02:24:38+00:00" expires="" date-last-modified="2014-07-17T07:50:16+00:00" date-first-released="2012-10-11T06:00:00+00:00" date-last-published="2014-05-08T02:21:12.037109+00:00" last-semantic-change="2012-11-13T17:05:02.914868+00:00" contenttype="article" serie="City Guide" author="Ulf Lippitz">
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">Prags coole Kellerkinder</title>
+            <text py:pytype="str">Pils, Pop und Fettverbrennung im Prager Nachtleben: Marta Jandová, die Sängerin der Band Die Happy, verrät ihre Tipps für die Clubs und Kneipen der Stadt. Von Ulf Lippitz</text>
+            <description py:pytype="str">Pils, Pop und Fettverbrennung im Prager Nachtleben: Marta Jandová, die Sängerin der Band Die Happy, verrät ihre Tipps für die Clubs und Kneipen der Stadt. Von Ulf Lippitz</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/nachtleben/" type="jpg" title="Cityguide Prag | Prag Nachtleben" alt="Der Nachtclub On in Vinohrady" align="left" publication-date="2012-10-16T22:44:36+00:00" expires="">
+              <bu py:pytype="str">Der Nachtclub On in Vinohrady</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com/">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulf Lippitz</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d42f8d79-53cd-4654-a815-0cdc10280971"/>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-dc0fdf0e-cb0f-496c-a66a-d02059aad91c">
+          <block href="http://xml.zeit.de/2012/42/City-Guide-Prag-Hotel-Paris" year="2012" issue="42" ressort="Reisen" publication-date="2012-10-18T02:47:56+00:00" expires="" date-last-modified="2014-07-17T07:50:14+00:00" date-first-released="2012-10-11T06:00:00+00:00" date-last-published="2014-05-08T02:21:07.441266+00:00" last-semantic-change="2012-10-16T15:42:02.750304+00:00" contenttype="article" serie="City Guide" author="Wolfgang Lechner">
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">Prag, wie es im Buche steht</title>
+            <text py:pytype="str">Wo der Kunde Kaiser war: Im ehrwürdigen Grand Hotel Paris vermischen sich Literatur und Wirklichkeit. Auf den Spuren des Romans "Ich habe den englischen König bedient".</text>
+            <description py:pytype="str">Wo der Kunde Kaiser war: Im ehrwürdigen Grand Hotel Paris vermischen sich Literatur und Wirklichkeit. Auf den Spuren des Romans "Ich habe den englischen König bedient".</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/hotel-paris/" type="jpg" title="Cityguide Prag | Hotel Paris" alt="Auch die Innenausstattung des Hotel Paris stammt noch aus dem Eröffnungsjahr 1904." align="left" publication-date="2012-10-16T22:43:49+00:00" expires="">
+              <bu py:pytype="str">Auch die Innenausstattung des Hotel Paris stammt noch aus dem Eröffnungsjahr 1904.</bu>
+              <copyright py:pytype="str">© Hotel Paris/PR</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Wolfgang_Lechner/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wolfgang Lechner</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-prag/index#28473277-cad4-46e4-bb39-8256a77ee5d3" year="2012" issue="32" ressort="Kultur" publication-date="2012-08-08T23:44:00+00:00" expires="" ns0:href="http://xml.zeit.de/2012/32/L-Hrabal-Ich-habe-den-englischen-Koenig-bedient" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Ich habe den englischen König bedient</title>
+            <text py:pytype="str">Bohumil Hrabal lacht über die absurde Weltgeschichte.</text>
+            <description py:pytype="str">Bohumil Hrabal lacht über die absurde Weltgeschichte.</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c2c335ae-fa70-481a-9cc9-cc5875c54d54">
+          <block href="http://xml.zeit.de/reisen/2012-10/City-Guide-Prag-Hotels" year="2012" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T00:47:44+00:00" date-first-released="2012-10-23T14:12:35.741080+00:00" date-last-published="2013-12-03T01:48:04+00:00" last-semantic-change="2012-10-16T15:40:31.743706+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">Gut schlafen in Prager Betten</title>
+            <text py:pytype="str">Design-Hotel, luxuriöses Haus oder schickes Hostel: Die Redaktion hat Prager Hotels getestet. Hier sind die charmantesten vier Unterkünfte für den Urlaub.</text>
+            <description py:pytype="str">Design-Hotel, luxuriöses Haus oder schickes Hostel: Die Redaktion hat Prager Hotels getestet. Hier sind die charmantesten vier Unterkünfte für den Urlaub.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/czech-inn/" type="jpg" title="Cityguide Prag | Hotel Czech Inn" alt="Haus oder Hostel? Das Czech Inn" align="left" publication-date="2012-10-16T22:37:17+00:00" expires="">
+              <bu py:pytype="str">Haus oder Hostel? Das Czech Inn</bu>
+              <copyright py:pytype="str">© Czech Inn/PR</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-0edef911-701b-468f-8dd0-53e72d4fbbaa">
+          <block href="http://xml.zeit.de/2012/42/City-Guide-Prag-Tipps" year="2012" issue="42" ressort="Reisen" publication-date="2012-10-18T02:57:40+00:00" expires="" date-last-modified="2014-07-17T07:50:18+00:00" date-first-released="2012-10-11T06:00:00+00:00" date-last-published="2014-05-08T02:21:08.950473+00:00" last-semantic-change="2012-12-04T07:13:09.555339+00:00" contenttype="article" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">Honigkuchen und Kubismus</title>
+            <text py:pytype="str">Lobbyistenvillen besichtigen oder im Literaturhaus an Lenka Reinerovás Schreibtisch sitzen: Prag lädt zu Entdeckungen ein. Empfehlungen aus der Redaktion und von Lesern.</text>
+            <description py:pytype="str">Lobbyistenvillen besichtigen oder im Literaturhaus an Lenka Reinerovás Schreibtisch sitzen: Prag lädt zu Entdeckungen ein. Empfehlungen aus der Redaktion und von Lesern.</description>
+            <byline py:pytype="str">Stefanie Flamm</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/Prag/" type="jpg" title="Prag" alt="Prag hat viele Seiten – auch abseits der bekannten Touristenattraktionen." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Prag hat viele Seiten – auch abseits der bekannten Touristenattraktionen.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-cabc438f-5e5e-4749-bf6a-69b103ac4dfd">
+          <block href="http://xml.zeit.de/reisen/2012-10/City-Guide-Prag-Netz" year="2012" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T00:46:33+00:00" date-first-released="2012-10-24T08:46:19.652766+00:00" date-last-published="2013-12-03T01:48:04+00:00" last-semantic-change="2012-10-23T14:26:22.852278+00:00" contenttype="article" serie="City Guide" author="Mareike Nieberding">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Prag</supertitle>
+            <title py:pytype="str">Prags schönste Seiten im Netz</title>
+            <text py:pytype="str">Erst klicken, dann reisen: Im Internet finden sich zahlreiche Seiten mit Reise- und Veranstaltungstipps für Prag. Wir stellen die besten für die Reiseplanung vor.</text>
+            <description py:pytype="str">Erst klicken, dann reisen: Im Internet finden sich zahlreiche Seiten mit Reise- und Veranstaltungstipps für Prag. Wir stellen die besten für die Reiseplanung vor.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/prag/" type="jpg" title="Cityguide Prag | Prag" alt="Die Kampa-Halbinsel ist einer der Prager Rückzugsorte mitten in der Stadt." align="left" publication-date="2012-10-16T22:40:20+00:00" expires="">
+              <bu py:pytype="str">Die Kampa-Halbinsel ist einer der Prager Rückzugsorte mitten in der Stadt.</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com/">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Mareike_Nieberding" publication-date="" expires="">
+              <display_name py:pytype="str">Mareike Nieberding</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-9168c098-f66b-4950-a0af-7abfe352eb5f">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-45678ad6-985f-4225-a5f8-a3d7a95c2045">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-50da2af2-1c72-4f14-8ed2-1e9dbe26d35d" visible="True">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-hamburg/index" year="2012" issue="26" ressort="Reisen" publication-date="2012-08-30T08:10:00+00:00" expires="" date-last-modified="2014-07-17T07:43:37+00:00" date-first-released="2012-08-30T08:11:02.395538+00:00" date-last-published="2013-09-26T09:08:53.563617+00:00" last-semantic-change="2013-09-26T09:07:30.541603+00:00" contenttype="centerpage-2009">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Hamburg</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-istanbul/index" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-02T15:49:10+00:00" date-first-released="2011-11-30T14:31:47.917129+00:00" date-last-published="2013-08-21T08:36:13.360927+00:00" last-semantic-change="2013-08-21T07:33:26.170196+00:00" contenttype="centerpage-2009">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Istanbul</title>
+            <text py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </text>
+            <description py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/moschee-istanbul-city-guide/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-4566b4dd-b6bf-4ade-aafa-7cc7511a205b" layout="368x110" title="Hier geht's zum City Guide Lissabon">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/reisen/2012-05/link-city-guide-lissabon" year="2012" issue="21" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-lissabon/index" date-last-modified="2012-05-22T10:19:57+00:00" date-first-released="2012-05-22T10:20:56.748772+00:00" date-last-published="2012-05-22T10:20:56.748772+00:00" last-semantic-change="2012-05-22T10:19:37.926155+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide</supertitle>
+            <title py:pytype="str">Lissabons schönste Seiten</title>
+            <text py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</text>
+            <description py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-05/lissabon-foto/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2011-12/lissabon-cityguide/lissabon-cityguide-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-b57755a1-2bca-4c9b-902a-cc5a05e6d994" visible="True">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-prag/index#2ac5dd42-cf3e-4348-a6e1-d5ebf380aace" year="2012" ressort="Reisen" publication-date="" expires="" ns1:href="http://xml.zeit.de/themen/reisen/cityguide-zuerich/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Zürich</title>
+            <text py:pytype="str">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </text>
+            <description py:pytype="str">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/zuerich-bild/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Mike Hewitt/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-prag/index#1f7304e0-0501-4d82-bb83-9522d2ac490e" year="2012" issue="25" ressort="Reisen" publication-date="" expires="" ns2:href="http://xml.zeit.de/themen/reisen/cityguide-london/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide London</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-d187d679-ef2a-495d-8d74-1f37ed3e9c45" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-prag/index#37ee358a-ca81-4e02-a248-89b97776f793" year="2011" ressort="Reisen" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-paris/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Paris</title>
+            <text py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </text>
+            <description py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/paris-themenseite/" type="jpg" title="Paris Themenseite" align="left" publication-date="" expires="">
+              <bu py:pytype="str">A picture taken on November 12, 2011 in Paris, shows a youth dancing on the Parvis des droits de l'homme (Human rights Esplanade at the Trocadero) and the Eiffel tower.    AFP PHOTO / LIONEL BONAVENTURE (Photo credit should read LIONEL BONAVENTURE/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Lionel Bonaventure/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-prag/index#125f120e-eaf5-4d2d-9008-2a0019f5f20b" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-barcelona/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Barcelona</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/themenseite-barcelona-city-guide-2/" type="jpg" title="Themenseite Barcelona City Guide 2" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Barcelona, SPAIN:  A view of the front of Catalan architect Antoni Gaudi's unfinished cathedral La Sagrada Familia in Barcelona, 07 June 2006. Religious services will be able to take place in the nave by 2008, the construction committee said Wednesday.   AFP PHOTO/CESAR RANGEL  (Photo credit should read CESAR RANGEL/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Cesar Rangel/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle xsi:nil="true"/>
+    <title>City Guide Prag</title>
+    <subtitle>Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn mit dem Schriftsteller Jaroslav Rudiš, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2012-10/City-Guide-Prag-Netz" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Mareike Nieberding">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Prags schönste Seiten im Netz</title>
+      <text py:pytype="str">Erst klicken, dann reisen: Im Internet finden sich zahlreiche Seiten mit Reise- und Veranstaltungstipps für Prag. Wir stellen die besten für die Reiseplanung vor.</text>
+      <description py:pytype="str">Erst klicken, dann reisen: Im Internet finden sich zahlreiche Seiten mit Reise- und Veranstaltungstipps für Prag. Wir stellen die besten für die Reiseplanung vor.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/prag/" type="jpg" title="Cityguide Prag | Prag" alt="Die Kampa-Halbinsel ist einer der Prager Rückzugsorte mitten in der Stadt." align="left" publication-date="2012-10-16T22:40:20+00:00" expires="">
+        <bu py:pytype="str">Die Kampa-Halbinsel ist einer der Prager Rückzugsorte mitten in der Stadt.</bu>
+        <copyright py:pytype="str" link="http://www.stephanfloss.com/">© Stephan Floss für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Mareike_Nieberding" publication-date="" expires="">
+        <display_name py:pytype="str">Mareike Nieberding</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/42/City-Guide-Prag-Tipps" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2012-10-18T02:57:40+00:00" expires="" author="Stefanie Flamm">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Honigkuchen und Kubismus</title>
+      <text py:pytype="str">Lobbyistenvillen besichtigen oder im Literaturhaus an Lenka Reinerovás Schreibtisch sitzen: Prag lädt zu Entdeckungen ein. Empfehlungen aus der Redaktion und von Lesern.</text>
+      <description py:pytype="str">Lobbyistenvillen besichtigen oder im Literaturhaus an Lenka Reinerovás Schreibtisch sitzen: Prag lädt zu Entdeckungen ein. Empfehlungen aus der Redaktion und von Lesern.</description>
+      <byline py:pytype="str">Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/Prag/" type="jpg" title="Prag" alt="Prag hat viele Seiten – auch abseits der bekannten Touristenattraktionen." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Prag hat viele Seiten – auch abseits der bekannten Touristenattraktionen.</bu>
+        <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2012-10/City-Guide-Prag-Hotels" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Gut schlafen in Prager Betten</title>
+      <text py:pytype="str">Design-Hotel, luxuriöses Haus oder schickes Hostel: Die Redaktion hat Prager Hotels getestet. Hier sind die charmantesten vier Unterkünfte für den Urlaub.</text>
+      <description py:pytype="str">Design-Hotel, luxuriöses Haus oder schickes Hostel: Die Redaktion hat Prager Hotels getestet. Hier sind die charmantesten vier Unterkünfte für den Urlaub.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/czech-inn/" type="jpg" title="Cityguide Prag | Hotel Czech Inn" alt="Haus oder Hostel? Das Czech Inn" align="left" publication-date="2012-10-16T22:37:17+00:00" expires="">
+        <bu py:pytype="str">Haus oder Hostel? Das Czech Inn</bu>
+        <copyright py:pytype="str">© Czech Inn/PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/42/City-Guide-Prag-Hotel-Paris" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2012-10-18T02:47:56+00:00" expires="" author="Wolfgang Lechner">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Prag, wie es im Buche steht</title>
+      <text py:pytype="str">Wo der Kunde Kaiser war: Im ehrwürdigen Grand Hotel Paris vermischen sich Literatur und Wirklichkeit. Auf den Spuren des Romans "Ich habe den englischen König bedient".</text>
+      <description py:pytype="str">Wo der Kunde Kaiser war: Im ehrwürdigen Grand Hotel Paris vermischen sich Literatur und Wirklichkeit. Auf den Spuren des Romans "Ich habe den englischen König bedient".</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/hotel-paris/" type="jpg" title="Cityguide Prag | Hotel Paris" alt="Auch die Innenausstattung des Hotel Paris stammt noch aus dem Eröffnungsjahr 1904." align="left" publication-date="2012-10-16T22:43:49+00:00" expires="">
+        <bu py:pytype="str">Auch die Innenausstattung des Hotel Paris stammt noch aus dem Eröffnungsjahr 1904.</bu>
+        <copyright py:pytype="str">© Hotel Paris/PR</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Wolfgang_Lechner/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wolfgang Lechner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/42/City-Guide-Prag-Karlsbruecke" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2012-10-18T02:31:45+00:00" expires="" author="Nina Pauer">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Die Heiligen der Karlsbrücke</title>
+      <text py:pytype="str">Anbetung: Unter der Karlsbrücke mit ihren Heiligenstatuen fließt die Moldau, über sie die Menschenmenge. Wer das Glück sucht, berührt die Figur des Heiligen Nepomuks.</text>
+      <description py:pytype="str">Anbetung: Unter der Karlsbrücke mit ihren Heiligenstatuen fließt die Moldau, über sie die Menschenmenge. Wer das Glück sucht, berührt die Figur des Heiligen Nepomuks.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/Karlsbruecke-Prag-Hradschin/" type="jpg" title="Karlsbrücke Prag Hradschin" alt="Hinter der Karlsbrücke erhebt sich die Prager Burg Hradschin." align="left" publication-date="2012-10-16T22:53:15+00:00" expires="">
+        <bu py:pytype="str">Hinter der Karlsbrücke erhebt sich die Prager Burg Hradschin.</bu>
+        <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Nina_Pauer/index" publication-date="" expires="">
+        <display_name py:pytype="str">Nina Pauer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/42/City-Guide-Prag-Nachtleben" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2012-10-18T02:24:38+00:00" expires="" author="Ulf Lippitz">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Prags coole Kellerkinder</title>
+      <text py:pytype="str">Pils, Pop und Fettverbrennung im Prager Nachtleben: Marta Jandová, die Sängerin der Band Die Happy, verrät ihre Tipps für die Clubs und Kneipen der Stadt. Von Ulf Lippitz</text>
+      <description py:pytype="str">Pils, Pop und Fettverbrennung im Prager Nachtleben: Marta Jandová, die Sängerin der Band Die Happy, verrät ihre Tipps für die Clubs und Kneipen der Stadt. Von Ulf Lippitz</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/nachtleben/" type="jpg" title="Cityguide Prag | Prag Nachtleben" alt="Der Nachtclub On in Vinohrady" align="left" publication-date="2012-10-16T22:44:36+00:00" expires="">
+        <bu py:pytype="str">Der Nachtclub On in Vinohrady</bu>
+        <copyright py:pytype="str" link="http://www.stephanfloss.com/">© Stephan Floss für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Ulf Lippitz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2012-10/City-Guide-Prag-Restaurants" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Michael Allmaier">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Prager Küche</title>
+      <text py:pytype="str">Vornehm, ohne Schnöseligkeit. Deftig, mit viel Raffinesse. Diese vier Lokale empfiehlt unser Restauranttester Michael Allmaier für einen Besuch in Prag.</text>
+      <description py:pytype="str">Vornehm, ohne Schnöseligkeit. Deftig, mit viel Raffinesse. Diese vier Lokale empfiehlt unser Restauranttester Michael Allmaier für einen Besuch in Prag.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/Vojanuv-Dvur/" type="jpg" title="Vojanův Dvůr" alt="Böhmische Klassiker in frischen und großzügigen Portionen serviert das Vojanův Dvůr." align="left" publication-date="2012-10-16T22:57:25+00:00" expires="">
+        <bu py:pytype="str">Böhmische Klassiker in frischen und großzügigen Portionen serviert das Vojanův Dvůr.</bu>
+        <copyright py:pytype="str">© Vojanuv Dvur/PR</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/42/City-Guide-Prag-Restaurant-La-Degustation" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2012-10-18T02:37:21+00:00" expires="" author="Michael Allmaier">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">In Prag isst man Smaženka</title>
+      <text py:pytype="str">Das Stammgericht: Mit veredeltem Schinkenbrot und einem Kochbuch aus der Zeit der Donaumonarchie erfindet der Meisterkoch Oldřich Sahajdák die böhmische Küche neu.</text>
+      <description py:pytype="str">Das Stammgericht: Mit veredeltem Schinkenbrot und einem Kochbuch aus der Zeit der Donaumonarchie erfindet der Meisterkoch Oldřich Sahajdák die böhmische Küche neu.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/sahajhdak/" type="jpg" title="Cityguide Prag | Oldrich Sahajhdak" alt="Oldřich Sahajdák beim Zubereiten von Smaženka" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Oldřich Sahajdák beim Zubereiten von Smaženka</bu>
+        <copyright py:pytype="str" link="http://www.stephanfloss.com/">© Stephan Floss für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/42/City-Guide-Prag-Kampa-Tomas-Sedlacek" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2012-10-18T02:09:13+00:00" expires="" author="Stefanie Flamm">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">Prags gute Insel</title>
+      <text py:pytype="str">Mein Wohnzimmer: Auf der Halbinsel Kampa treffen sich weltoffene, international denkende Prager, sagt der Ökonom Tomáš Sedláček – auch, um die Welt besser zu machen.</text>
+      <description py:pytype="str">Mein Wohnzimmer: Auf der Halbinsel Kampa treffen sich weltoffene, international denkende Prager, sagt der Ökonom Tomáš Sedláček – auch, um die Welt besser zu machen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/kampa-prag/" type="jpg" alt="Ein Herbsttag auf der Halbinsel Kampa" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ein Herbsttag auf der Halbinsel Kampa</bu>
+        <copyright py:pytype="str">© Reuters / Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/42/City-Guide-Prag-Tramfahrt" year="2012" issue="42" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2012-10-18T02:59:44+00:00" expires="" author="Stefanie Flamm">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Prag</supertitle>
+      <title py:pytype="str">In der Straßenbahn durch das alte und neue Prag</title>
+      <text py:pytype="str">In Prag lauert der Zauber hinter jeder Ecke. Stefanie Flamm ist mit dem Schriftsteller Jaroslav Rudiš mit der Tram vom Hradschin bis in die Bierkaschemme gefahren.</text>
+      <description py:pytype="str">In Prag lauert der Zauber hinter jeder Ecke. Stefanie Flamm ist mit dem Schriftsteller Jaroslav Rudiš mit der Tram vom Hradschin bis in die Bierkaschemme gefahren.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-10/strassenbahn-prag/" type="jpg" title="Straßenbahn Prag" alt="Straßenbahn in Prag" align="left" publication-date="2012-10-16T22:22:13+00:00" expires="2013-01-17T22:59:28+00:00">
+        <bu py:pytype="str">Straßenbahn in Prag</bu>
+        <copyright py:pytype="str">© Richard Nebes/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>City Guide Prag</title>
+    <text py:pytype="str">Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</text>
+  </teaser>
+</centerpage>

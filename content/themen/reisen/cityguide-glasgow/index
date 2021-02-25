@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-glasgow/header-ts-glasgow" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© [M] Andy Buchanan/AFP/Getty Images</copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image base-id="http://xml.zeit.de/reisen/2014-05/city-guide-glasgow/" type="jpg" title="City Guide Glasgow" align="left" publication-date="" expires="">
+      <bu py:pytype="str">A bagpiper plays in central Glasgow May 14, 2007, two days before UEFA Cup final soccer match between Espanyol and Sevilla. REUTERS/Marcelo del Pozo (BRITAIN) - RTR1POTQ</bu>
+      <copyright py:pytype="str">© [M] Marcelo del Pozo/Reuters</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breadcrumb_title">City Guide Glasgow</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-08-11T08:02:38.761551+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-11-06T06:01:48.716588+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-08-11T08:02:46.601215+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-08-11T08:03:46.531588+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-08-11T08:02:32.993026+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-08-11T08:02:44.312943+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Glasgow | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-08-11T08:01:37.593912+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.raab</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">4897841</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="push_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2014-11-06T06:00:46+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:bdc6c360-ba0b-4712-a618-3196dc5026bc}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">44</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead" automatic="False">
+        <container cp:type="teaser" module="leader" cp:__name__="id-bce85c1a-496a-4f5e-a70c-09859e169a98">
+          <block href="http://xml.zeit.de/2014/44/glasgow-schottland-strassenmusik-cityguide" uniqueId="http://xml.zeit.de/2014/44/glasgow-schottland-strassenmusik-cityguide" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:23:13+00:00" expires="" date-last-modified="2014-12-16T19:17:01+00:00" date-first-released="2014-11-06T03:24:13.203005+00:00" date-last-published="2014-11-06T21:49:44.650893+00:00" last-semantic-change="2014-11-06T21:48:40.061609+00:00" author="Karin Ceballos Betancur">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Ich bin eine Band aus Schottland</title>
+            <text py:pytype="str">Primal Scream, Franz Ferdinand, Belle and Sebastian – kaum eine britische Stadt hat so viele große Musiker hervorgebracht wie Glasgow. Ob man da mal mitspielen darf?</text>
+            <description py:pytype="str">Primal Scream, Franz Ferdinand, Belle and Sebastian – kaum eine britische Stadt hat so viele große Musiker hervorgebracht wie Glasgow. Ob man da mal mitspielen darf?</description>
+            <byline py:pytype="str">von Karin Ceballos Betancur</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/glasgow-george-square/" type="jpg" title="Menschen tanzen auf George Square in Glasgow." alt="Menschen tanzen auf George Square in Glasgow." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Punk oder Dudelsack – in Glasgow muss man sich nicht entscheiden.</bu>
+              <copyright py:pytype="str">© eff J Mitchell/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1afdf16c-981c-4a15-97ac-ecaafa168b52">
+          <block href="http://xml.zeit.de/2014/44/glasgow-haggis" uniqueId="http://xml.zeit.de/2014/44/glasgow-haggis" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:53:32+00:00" expires="" date-last-modified="2014-11-15T18:21:25+00:00" date-first-released="2014-11-06T03:54:33.382296+00:00" date-last-published="2014-11-15T18:22:25.254075+00:00" last-semantic-change="2014-11-15T18:21:16.257733+00:00" author="Michael Allmaier">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Essen mit Herz</title>
+            <text py:pytype="str">Wenn man Tiere schon schlachtet, sollte man sie dann nicht auch komplett verarbeiten? Eine Verkostung des alten Gerichts Haggis fördert Schottlands innere Werte zutage.</text>
+            <description py:pytype="str">Wenn man Tiere schon schlachtet, sollte man sie dann nicht auch komplett verarbeiten? Eine Verkostung des alten Gerichts Haggis fördert Schottlands innere Werte zutage.</description>
+            <byline py:pytype="str">von Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/haggis-stravaigin/" type="jpg" title="Haggis" alt="Haggis" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Haggis (vorne rechts) mit Steckrüben- und Kartoffelbrei</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-92e59cdc-4511-4a09-a3ba-8dc690585201">
+          <block href="http://xml.zeit.de/2014/44/glasgow-grasshoppers-hotel" uniqueId="http://xml.zeit.de/2014/44/glasgow-grasshoppers-hotel" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:36:27+00:00" expires="" date-last-modified="2014-11-10T20:29:19+00:00" date-first-released="2014-11-06T03:37:27.697707+00:00" date-last-published="2014-11-10T20:30:19.155755+00:00" last-semantic-change="2014-11-10T20:29:10.357584+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Unter den Wolken</title>
+            <text py:pytype="str">Nicht nur die Coen-Brüder übernachten in einem Bahn-Verwaltungsgebäude, wenn sie in Glasgow sind: Das Grasshoppers ist wie die Stadt – auf den zweiten Blick großartig.</text>
+            <description py:pytype="str">Nicht nur die Coen-Brüder übernachten in einem Bahn-Verwaltungsgebäude, wenn sie in Glasgow sind: Das Grasshoppers ist wie die Stadt – auf den zweiten Blick großartig.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/grasshoppers-glasgow/" type="jpg" title="Zimmer im Grasshoppers Glasgow" alt="Zimmer im Grasshoppers Glasgow" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Einst Bahnarbeiter-Herberge, jetzt schickes Hotel: Zimmer im Grasshoppers</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-951a877f-4adb-47d9-a55d-04180092db55">
+          <block href="http://xml.zeit.de/2014/44/glasgow-botanischer-garten-a-l-kennedy" uniqueId="http://xml.zeit.de/2014/44/glasgow-botanischer-garten-a-l-kennedy" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:36:05+00:00" expires="" date-last-modified="2014-12-16T19:17:00+00:00" date-first-released="2014-11-06T03:37:07.065910+00:00" date-last-published="2014-11-06T03:37:40.363736+00:00" last-semantic-change="2014-10-23T06:00:00+00:00">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Ein bisschen Frieden im grünen Herzen</title>
+            <text py:pytype="str">Verliebt, verzweifelt oder Tourist – der Botanische  Garten in Glasgow macht alle froh. Die Autorin A.L. Kennedy über einen Ort, der sich selbst an nassen Tagen lohnt.</text>
+            <description py:pytype="str">Verliebt, verzweifelt oder Tourist – der Botanische  Garten in Glasgow macht alle froh. Die Autorin A.L. Kennedy über einen Ort, der sich selbst an nassen Tagen lohnt.</description>
+            <byline py:pytype="str">von A.L. Kennedy</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/botanischer-garten-glasgow-2/" type="jpg" title="Die Botanischen Gärten in Glasgow" alt="Die Botanischen Gärten in Glasgow" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Botanischen Gärten in Glasgow</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e45c13b0-27dd-43a4-9a4e-5968b6b9e659">
+          <block href="http://xml.zeit.de/reisen/2014-11/glasgow-restaurant-tipps" uniqueId="http://xml.zeit.de/reisen/2014-11/glasgow-restaurant-tipps" year="2014" issue="45" ressort="Reisen" contenttype="article" publication-date="2014-11-06T05:12:24+00:00" expires="" serie="City Guide" date-last-modified="2014-11-14T10:17:39+00:00" date-first-released="2014-11-06T05:13:26.143900+00:00" date-last-published="2014-11-14T10:18:39.401170+00:00" last-semantic-change="2014-11-03T19:10:54.605645+00:00">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Die Restauranttipps der Redaktion</title>
+            <text py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</text>
+            <description py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/crabbshakk/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Carol Ann Peacock</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-a3404eb5-865d-4c52-9518-9e5cbaecb15d">
+          <block href="http://xml.zeit.de/2014/44/glasgow-nathan-coley-kunst" uniqueId="http://xml.zeit.de/2014/44/glasgow-nathan-coley-kunst" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:14:14+00:00" expires="" genre="interview" date-last-modified="2014-12-16T19:17:00+00:00" date-first-released="2014-11-06T03:15:15.608859+00:00" date-last-published="2014-11-25T19:44:36.721446+00:00" last-semantic-change="2014-11-25T19:37:17.350135+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">"Wir sind hier nicht vom Himmel gefallen!"</title>
+            <text py:pytype="str">Es gilt als "Wunder von Glasgow", dass dort so viele Künstler leben. Nathan Coley baut Sakralbauten nach. Religion ist sein Thema. Aber Wunder? Da wird er ärgerlich.</text>
+            <description py:pytype="str">Es gilt als "Wunder von Glasgow", dass dort so viele Künstler leben. Nathan Coley baut Sakralbauten nach. Religion ist sein Thema. Aber Wunder? Da wird er ärgerlich.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/nathan-coley/" type="jpg" title="Nathan Coley vor seinem Werk &quot;Lamp of Sacrifice&quot;" alt="Nathan Coley vor seinem Werk &quot;Lamp of Sacrifice&quot;" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nathan Coley vor seinem Werk "Lamp of Sacrifice" in der städtischen Galerie GoMa</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-af469d6e-c8d2-496d-92ce-5211772b0518">
+          <block href="http://xml.zeit.de/2014/44/glasgow-architektur-charles-rennie-mackintosh" uniqueId="http://xml.zeit.de/2014/44/glasgow-architektur-charles-rennie-mackintosh" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:22:09+00:00" expires="" date-last-modified="2014-11-24T15:46:02+00:00" date-first-released="2014-11-06T03:23:09.614793+00:00" date-last-published="2014-11-06T03:23:41.385780+00:00" last-semantic-change="2014-10-23T06:00:00+00:00" author="Elsemarie Maletzke">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Big Mack hat Style</title>
+            <text py:pytype="str">Der Architekt Charles R. Mackintosh brachte den Jugendstil nach Glasgow. Heute ist das House for an Art Lover ein märchenhaftes Gesamtkunstwerk.</text>
+            <description py:pytype="str">Der Architekt Charles R. Mackintosh brachte den Jugendstil nach Glasgow. Heute ist das House for an Art Lover ein märchenhaftes Gesamtkunstwerk.</description>
+            <byline py:pytype="str">von Elsemarie Maletzke</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/house-art-lover-glasgow/" type="jpg" title=" Das House for an Art Lover" alt=" Das House for an Art Lover" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Architektur und Design aus einem Guss: Das House for an Art Lover</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Elsemarie_Maletzke/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Elsemarie Maletzke</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-09ce7ec4-04b0-4f6a-9c50-b9634bf42541">
+          <block href="http://xml.zeit.de/reisen/2014-11/glasgow-restaurant-tipps" uniqueId="http://xml.zeit.de/reisen/2014-11/glasgow-restaurant-tipps" year="2014" issue="45" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T05:12:24+00:00" expires="" date-last-modified="2014-11-14T10:17:39+00:00" date-first-released="2014-11-06T05:13:26.143900+00:00" date-last-published="2014-11-14T10:18:39.401170+00:00" last-semantic-change="2014-11-03T19:10:54.605645+00:00">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Die Restauranttipps der Redaktion</title>
+            <text py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</text>
+            <description py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/crabbshakk/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Carol Ann Peacock</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-99ba0b3a-738d-4548-bcbd-1e93852de08e">
+          <block href="http://xml.zeit.de/reisen/2014-03/fs-schottland-natur-glen-coe" uniqueId="http://xml.zeit.de/reisen/2014-03/fs-schottland-natur-glen-coe" year="2014" issue="14" ressort="Reisen" contenttype="gallery" publication-date="" expires="" date-last-modified="2014-03-31T15:47:52+00:00" date-first-released="2014-03-31T15:48:52.320989+00:00" date-last-published="2014-03-31T15:48:52.320989+00:00" last-semantic-change="2014-03-31T12:47:57.287298+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Schottland</supertitle>
+            <title py:pytype="str">Grüne Täler, eisige Gipfel</title>
+            <text py:pytype="str">Bald werden die Schotten über die Unabhängigkeit vom Vereinigten Königreich abstimmen. Wir zeigen Bilder aus den Highlands, der Heimat von "Braveheart".</text>
+            <description py:pytype="str">Bald werden die Schotten über die Unabhängigkeit vom Vereinigten Königreich abstimmen. Wir zeigen Bilder aus den Highlands, der Heimat von "Braveheart".</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-03/fs-schottland-natur-glen-coe-teaser/" type="jpg" title="Schottland Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jeff J Mitchell/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-f92813a5-5597-4a1c-9fcb-3e7231e21fc4">
+          <block href="http://xml.zeit.de/reisen/2010-03/glasgow-reise" uniqueId="http://xml.zeit.de/reisen/2010-03/glasgow-reise" year="2010" issue="11" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-18T20:20:14+00:00" date-first-released="2010-03-15T14:01:17.051721+00:00" date-last-published="2014-07-18T22:23:27+00:00" last-semantic-change="2010-03-15T14:06:31.598418+00:00">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Mächtig viel Stil</title>
+            <text py:pytype="str">Glasgows Niedergang und Auferstehung erinnert in manchem an Berlin. Ein paar Schmutzecken gibt es noch – zum Glück. Von Rüdiger Schaper.</text>
+            <description py:pytype="str">Glasgows Niedergang und Auferstehung erinnert in manchem an Berlin. Ein paar Schmutzecken gibt es noch – zum Glück. Von Rüdiger Schaper.</description>
+            <byline py:pytype="str">von Rüdiger Schaper </byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2010-03/kanal-glasgow/" type="jpg" title="BG Kanal Glasgow" alt="Der Forth- und Clyde-Kanal verbindet die Nordsee mit dem Atlantik" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Forth- und Clyde-Kanal verbindet die Nordsee mit dem Atlantik</bu>
+              <copyright py:pytype="str">© Jeff J Mitchell/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-202082c9-52d9-463d-a8cb-9d5e50720451">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-8ad33703-fc91-47b6-bc88-95205a575e16">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-34c071e0-305c-449b-9ee8-8b291bdf6205" layout="368x220" title="City Guide Kopenhagen">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-kopenhagen/index" year="2014" issue="35" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2014-08-28T05:04:09+00:00" expires="" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-kopenhagen/index" date-last-modified="2014-11-03T09:54:54+00:00" date-first-released="2014-08-28T05:05:12.328814+00:00" date-last-published="2014-09-27T17:26:45.238405+00:00" last-semantic-change="2014-10-30T10:43:52.805857+00:00">
+            <supertitle py:pytype="str">City Guide Kopenhagen</supertitle>
+            <title py:pytype="str">City Guide Kopenhagen</title>
+            <text py:pytype="str">Wir essen das beste Smörrebröd, tanzen in U-Bahn-Schächten, schlafen kunstvoll und klimaschonend und lassen uns von der Hippiekolonie Christiania doch noch verzaubern.</text>
+            <description py:pytype="str">Wir essen das beste Smörrebröd, tanzen in U-Bahn-Schächten, schlafen kunstvoll und klimaschonend und lassen uns von der Hippiekolonie Christiania doch noch verzaubern.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-06/city-guide-kopenhagen/" type="jpg" title="City Guide Kopenhagen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Eric Baradat/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2014-06/city-guide-kopenhagen/city-guide-kopenhagen-368x220.jpg" title="City Guide Kopenhagen" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© Eric Baradat/AFP/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-392094d2-c082-453a-ba1c-40b6ceb6a6c6">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-amsterdam/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-glasgow/index#1642a0f2-32b4-4857-90e3-53042e12bad0" year="2014" issue="24" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2014-07-03T05:18:18+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">City Guide Amsterdam</supertitle>
+            <title py:pytype="str">City Guide Amsterdam</title>
+            <text py:pytype="str">Amsterdam, das ist Lebensfreude aus dem Bilderbuch: Wir essen Kroketten, trinken ein Bier mit dem Nachtbürgermeister und erleben die Heimeligkeit auf zwei Rädern.</text>
+            <description py:pytype="str">Amsterdam, das ist Lebensfreude aus dem Bilderbuch: Wir essen Kroketten, trinken ein Bier mit dem Nachtbürgermeister und erleben die Heimeligkeit auf zwei Rädern.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/city-guide-amsterdam-02/" type="jpg" title="City Guide Amsterdam" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Houses are reflected on January 10, 2013 on the Herengracht, one of the city of Amsterdam's three main canals. 2013 will mark the 400th anniversary since construction began on Amsterdam?s world renowned Canal Ring that was added to the UNESCO World Heritage list.   AFP PHOTO / ANP / JERRY LAMPEN    -- The Netherlands out --        (Photo credit should read JERRY LAMPEN/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Jerry Lampen/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-stockholm/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-stockholm/index" year="2013" issue="23" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-11-11T11:38:17+00:00" date-first-released="2013-06-20T10:37:06.188124+00:00" date-last-published="2014-10-23T02:19:33.247945+00:00" last-semantic-change="2014-07-17T09:33:44.761722+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Stockholm</title>
+            <text py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</text>
+            <description py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm/" type="jpg" title="Stockholm" align="left" publication-date="" expires="">
+              <bu py:pytype="str">STOCKHOLM, SWEDEN - JUNE 07: People enjoy the atmosphere in a city square as preparations for the wedding of Princess Madeleine of Sweden and Christopher O'Neill continues on June 7, 2013 in Stockholm, Sweden. (Photo by Chris Jackson/Getty Images) </bu>
+              <copyright py:pytype="str">© Chris Jackson/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-3fd33214-d74e-4c21-a7e8-f2dd6a1aef15" layout="368x220" title="City Guide London">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-london/index" year="2012" issue="25" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="" expires="" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-london/index" date-last-modified="2014-08-07T01:34:38+00:00" date-first-released="2012-06-29T13:49:19.216795+00:00" date-last-published="2014-08-07T01:35:35.250109+00:00" last-semantic-change="2014-07-17T09:19:08.774131+00:00">
+            <supertitle py:pytype="str">Reisetipps</supertitle>
+            <title py:pytype="str">City Guide London</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2012-06/cityguide-london/cityguide-london-368x220.jpg" title="Cityguide London" align="left" publication-date="" expires="">
+            <bu>LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+            <copyright>© Dan Kitwood/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-2c06f504-4377-4b1f-94d1-3a4ddb96b308">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-mailand/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-glasgow/index#81779368-3259-468c-8288-19966f051c71" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2014-04-17T05:00:08+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <title py:pytype="str">City Guide Mailand</title>
+            <text py:pytype="str">Diese Stadt ist teuer, schick und rätselhaft. Wir treffen die Frau, die Mailand zur Modestadt gemacht hat, essen das beste Risotto und lernen von Da Vincis Vergangenheit.</text>
+            <description py:pytype="str">Diese Stadt ist teuer, schick und rätselhaft. Wir treffen die Frau, die Mailand zur Modestadt gemacht hat, essen das beste Risotto und lernen von Da Vincis Vergangenheit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-01/city-guide-mailand-3/" type="jpg" title="City Guide Mailand" align="left" publication-date="" expires="">
+              <bu py:pytype="str">MILAN, ITALY - JULY 31:  A general view of Galleria Vittorio Emanuele on July 31, 2008 in Milan, Italy.  (Photo by Vittorio Zunino Celotto/Getty Images)</bu>
+              <copyright py:pytype="str">© Vittorio Zunino Celotto/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-rom/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-glasgow/index#100477f3-afbf-444b-bb57-6d4d7769f826" year="2013" issue="40" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2013-10-02T05:35:02+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">City Guide Rom</supertitle>
+            <title py:pytype="str">City Guide Rom</title>
+            <text py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</text>
+            <description py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-rom-teaser-4/" type="jpg" title="City Guide Rom Teaser 4" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Petersdom</bu>
+              <copyright py:pytype="str">© Alessia Pierdomenico/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-1d594fdd-6b7b-46fd-a101-e94417be84d0" layout="368x220" title="City Guide Madrid">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-madrid/index" year="2013" issue="15" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2013-04-18T07:00:36+00:00" expires="" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-madrid/index" date-last-modified="2014-07-17T09:47:11+00:00" date-first-released="2013-04-18T06:59:38.731637+00:00" date-last-published="2014-07-17T09:34:20.937292+00:00" last-semantic-change="2014-07-17T09:30:11.141689+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Madrid</title>
+            <text py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</text>
+            <description py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Königspalast in Madrid</bu>
+              <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2013-04/madrid-palast/madrid-palast-368x220.jpg" align="left" publication-date="" expires="">
+            <bu>Der Königspalast in Madrid</bu>
+            <copyright>© EyesWideOpen/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-0bda34dc-d9ad-4c0c-a931-ec1427878755">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-st-petersburg/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-st-petersburg/index" year="2013" issue="48" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2013-12-12T05:47:23+00:00" expires="" date-last-modified="2014-11-11T11:38:13+00:00" date-first-released="2013-12-12T05:48:25.411043+00:00" date-last-published="2014-07-17T08:00:59.089755+00:00" last-semantic-change="2014-07-17T07:59:37.293838+00:00">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <title py:pytype="str">City Guide St. Petersburg</title>
+            <text py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</text>
+            <description py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-st-petersburg-teaser-3/" type="jpg" title="City Guide St. Petersburg Teaser 3" align="left" publication-date="" expires="">
+              <bu py:pytype="str">The Hermitage is reflected in the River Neva during light snow in St.Petersburg February 9, 2004. The Hermitage, a former palace of Russian Tsars, now houses one of the largest art collections in the world with over three million exhibits stored. NO RIGHTS CLEARANCES OR PERMISSIONS ARE REQUIRED FOR THIS IMAGE   REUTERS/Alexander Demianchuk   WAW/GB - RTRC9Z7</bu>
+              <copyright py:pytype="str">© Alexander Demianchuk/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-muenchen/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-muenchen/index" year="2013" issue="32" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2013-08-15T05:00:00+00:00" expires="" date-last-modified="2014-11-11T11:38:09+00:00" date-first-released="2013-08-15T05:01:05.477022+00:00" date-last-published="2014-09-19T04:01:14.890165+00:00" last-semantic-change="2014-07-17T09:20:12.393582+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide München</title>
+            <text py:pytype="str">München ist viel mehr als Schickeria: anarchisch, familiär und stets zu feiern bereit. Wir lassen die Kruste vom Schweinsbraten krachen und springen nachts in die Isar.</text>
+            <description py:pytype="str">München ist viel mehr als Schickeria: anarchisch, familiär und stets zu feiern bereit. Wir lassen die Kruste vom Schweinsbraten krachen und springen nachts in die Isar.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-muenchen-teaser-3/" type="jpg" title="City Guide München Teaser 3" align="left" publication-date="" expires="">
+              <bu py:pytype="str">The sun sets over Munich's skyline with landmark "Church of our Lady" (Frauenkirche) after Bavaria's state elections on September 28, 2008. The CSU, the Bavarian sister party of German Chancellor Angela Merkel's conservative Christian Democratic Party (CDU) suffered a drubbing in the Bavarian state elections exit polls showed, losing its decades-old absolute majority.   AFP PHOTO   DDP/ JOERG KOCH     GERMANY OUT
+        (Photo credit should read JOERG KOCH/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Jörg Koch/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>City Guide Glasgow</title>
+    <supertitle>Glasgow</supertitle>
+    <subtitle>Glasgow ist verrufen und doch furchtbar herzlich. Wir denken beim Haggis an klirrende Schwerter, lüften das Geheimnis der Kunststadt und singen Karaoke im Pub.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2010-03/glasgow-reise" year="2010" issue="11" ressort="Reisen" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">Mächtig viel Stil</title>
+      <text py:pytype="str">Glasgows Niedergang und Auferstehung erinnert in manchem an Berlin. Ein paar Schmutzecken gibt es noch – zum Glück. Von Rüdiger Schaper.</text>
+      <description py:pytype="str">Glasgows Niedergang und Auferstehung erinnert in manchem an Berlin. Ein paar Schmutzecken gibt es noch – zum Glück. Von Rüdiger Schaper.</description>
+      <byline py:pytype="str">von Rüdiger Schaper </byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2010-03/kanal-glasgow/" type="jpg" title="BG Kanal Glasgow" alt="Der Forth- und Clyde-Kanal verbindet die Nordsee mit dem Atlantik" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Forth- und Clyde-Kanal verbindet die Nordsee mit dem Atlantik</bu>
+        <copyright py:pytype="str">© Jeff J Mitchell/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-03/fs-schottland-natur-glen-coe" year="2014" issue="14" ressort="Reisen" contenttype="gallery" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Schottland</supertitle>
+      <title py:pytype="str">Grüne Täler, eisige Gipfel</title>
+      <text py:pytype="str">Bald werden die Schotten über die Unabhängigkeit vom Vereinigten Königreich abstimmen. Wir zeigen Bilder aus den Highlands, der Heimat von "Braveheart".</text>
+      <description py:pytype="str">Bald werden die Schotten über die Unabhängigkeit vom Vereinigten Königreich abstimmen. Wir zeigen Bilder aus den Highlands, der Heimat von "Braveheart".</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-03/fs-schottland-natur-glen-coe-teaser/" type="jpg" title="Schottland Teaser" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Jeff J Mitchell/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-11/glasgow-restaurant-tipps" year="2014" issue="45" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T05:12:24+00:00" expires="">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">Die Restauranttipps der Redaktion</title>
+      <text py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</text>
+      <description py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-11/crabbshakk/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Carol Ann Peacock</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/44/glasgow-architektur-charles-rennie-mackintosh" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:22:09+00:00" expires="" author="Elsemarie Maletzke">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">Big Mack hat Style</title>
+      <text py:pytype="str">Der Architekt Charles R. Mackintosh brachte den Jugendstil nach Glasgow. Heute ist das House for an Art Lover ein märchenhaftes Gesamtkunstwerk.</text>
+      <description py:pytype="str">Der Architekt Charles R. Mackintosh brachte den Jugendstil nach Glasgow. Heute ist das House for an Art Lover ein märchenhaftes Gesamtkunstwerk.</description>
+      <byline py:pytype="str">von Elsemarie Maletzke</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-11/house-art-lover-glasgow/" type="jpg" title=" Das House for an Art Lover" alt=" Das House for an Art Lover" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Architektur und Design aus einem Guss: Das House for an Art Lover</bu>
+        <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Elsemarie_Maletzke/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Elsemarie Maletzke</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/44/glasgow-nathan-coley-kunst" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:14:14+00:00" expires="" genre="interview" author="Stefanie Flamm">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">"Wir sind hier nicht vom Himmel gefallen!"</title>
+      <text py:pytype="str">Es gilt als "Wunder von Glasgow", dass dort so viele Künstler leben. Nathan Coley baut Sakralbauten nach. Religion ist sein Thema. Aber Wunder? Da wird er ärgerlich.</text>
+      <description py:pytype="str">Es gilt als "Wunder von Glasgow", dass dort so viele Künstler leben. Nathan Coley baut Sakralbauten nach. Religion ist sein Thema. Aber Wunder? Da wird er ärgerlich.</description>
+      <byline py:pytype="str">von Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-11/nathan-coley/" type="jpg" title="Nathan Coley vor seinem Werk &quot;Lamp of Sacrifice&quot;" alt="Nathan Coley vor seinem Werk &quot;Lamp of Sacrifice&quot;" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Nathan Coley vor seinem Werk "Lamp of Sacrifice" in der städtischen Galerie GoMa</bu>
+        <copyright py:pytype="str" link="http://www.martinhunter.co.uk/">© Martin Hunter für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/44/glasgow-botanischer-garten-a-l-kennedy" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:36:05+00:00" expires="">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">Ein bisschen Frieden im grünen Herzen</title>
+      <text py:pytype="str">Verliebt, verzweifelt oder Tourist – der Botanische  Garten in Glasgow macht alle froh. Die Autorin A.L. Kennedy über einen Ort, der sich selbst an nassen Tagen lohnt.</text>
+      <description py:pytype="str">Verliebt, verzweifelt oder Tourist – der Botanische  Garten in Glasgow macht alle froh. Die Autorin A.L. Kennedy über einen Ort, der sich selbst an nassen Tagen lohnt.</description>
+      <byline py:pytype="str">von A.L. Kennedy</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-11/botanischer-garten-glasgow-2/" type="jpg" title="Die Botanischen Gärten in Glasgow" alt="Die Botanischen Gärten in Glasgow" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Botanischen Gärten in Glasgow</bu>
+        <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/44/glasgow-grasshoppers-hotel" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:36:27+00:00" expires="" author="Stefanie Flamm">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">Unter den Wolken</title>
+      <text py:pytype="str">Nicht nur die Coen-Brüder übernachten in einem Bahn-Verwaltungsgebäude, wenn sie in Glasgow sind: Das Grasshoppers ist wie die Stadt – auf den zweiten Blick großartig.</text>
+      <description py:pytype="str">Nicht nur die Coen-Brüder übernachten in einem Bahn-Verwaltungsgebäude, wenn sie in Glasgow sind: Das Grasshoppers ist wie die Stadt – auf den zweiten Blick großartig.</description>
+      <byline py:pytype="str">von Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-11/grasshoppers-glasgow/" type="jpg" title="Zimmer im Grasshoppers Glasgow" alt="Zimmer im Grasshoppers Glasgow" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Einst Bahnarbeiter-Herberge, jetzt schickes Hotel: Zimmer im Grasshoppers</bu>
+        <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/44/glasgow-haggis" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:53:32+00:00" expires="" author="Michael Allmaier">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">Essen mit Herz</title>
+      <text py:pytype="str">Wenn man Tiere schon schlachtet, sollte man sie dann nicht auch komplett verarbeiten? Eine Verkostung des alten Gerichts Haggis fördert Schottlands innere Werte zutage.</text>
+      <description py:pytype="str">Wenn man Tiere schon schlachtet, sollte man sie dann nicht auch komplett verarbeiten? Eine Verkostung des alten Gerichts Haggis fördert Schottlands innere Werte zutage.</description>
+      <byline py:pytype="str">von Michael Allmaier</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-11/haggis-stravaigin/" type="jpg" title="Haggis" alt="Haggis" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Haggis (vorne rechts) mit Steckrüben- und Kartoffelbrei</bu>
+        <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/44/glasgow-schottland-strassenmusik-cityguide" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:23:13+00:00" expires="" author="Karin Ceballos Betancur">
+      <supertitle py:pytype="str">Glasgow</supertitle>
+      <title py:pytype="str">Ich bin eine Band aus Schottland</title>
+      <text py:pytype="str">Primal Scream, Franz Ferdinand, Belle and Sebastian – kaum eine britische Stadt hat so viele große Musiker hervorgebracht wie Glasgow. Ob man da mal mitspielen darf?</text>
+      <description py:pytype="str">Primal Scream, Franz Ferdinand, Belle and Sebastian – kaum eine britische Stadt hat so viele große Musiker hervorgebracht wie Glasgow. Ob man da mal mitspielen darf?</description>
+      <byline py:pytype="str">von Karin Ceballos Betancur</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-11/glasgow-george-square/" type="jpg" title="Menschen tanzen auf George Square in Glasgow." alt="Menschen tanzen auf George Square in Glasgow." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Punk oder Dudelsack – in Glasgow muss man sich nicht entscheiden.</bu>
+        <copyright py:pytype="str">© eff J Mitchell/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+        <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>City Guide Glasgow</title>
+    <text>Glasgow ist verrufen und doch furchtbar herzlich. Wir denken beim Haggis an klirrende Schwerter, lüften das Geheimnis der Kunststadt und singen Karaoke im Pub.</text>
+  </teaser>
+</centerpage>

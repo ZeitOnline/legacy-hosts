@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="apple-itunes-app" content="app-id=448633376">
+		<meta name="description" content="Die 115 stimmberechtigten Kardinäle sind in die Sixtinische Kapelle eingezogen. Unter Ausschluss der Öffentlichkeit werden sie den Nachfolger von Benedikt XVI. bestimmen.">
+<meta name="robots" content="index,follow,noodp,noydir,noarchive">
+<meta name="author" content="ZEIT ONLINE GmbH, Hamburg, Germany">
+<meta name="application-name" content="ZEIT ONLINE">
+<meta name="msapplication-TileImage" content="http://images.zeit.de/static/img/zo-icon-win8-144x144.png">
+<meta name="msapplication-TileColor" content="#e6e6e6">
+<meta name="keywords" content="Gesellschaft, Vatikan, Papst, Vatikan, Wahl, Erzbischof, Nachfolge, Petersdom, Konklave">
+<meta property="og:site_name" content="ZEIT ONLINE">
+<meta property="fb:admins" content="595098294">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://blog.zeit.de/open-data/2013/03/13/die-katholische-weltkarte/">
+<link rel="image_src" href="http://www.zeit.de/gesellschaft/2013-03/katholische_karte.jpg/katholische_karte.jpg-368x220.jpg">
+<meta property="og:title" content="Die Katholische Weltkarte | ZEIT ONLINE">
+<meta property="og:description" content="Diese interaktive Weltkarte zeigt wo die meisten Katholiken leben. Die Farbintensität verdeutlicht wie hoch ihr Anteil an der Landesbevölkerung ist.">
+<meta property="og:image" content="http://www.zeit.de/gesellschaft/2013-03/katholische_karte.jpg/katholische_karte.jpg-368x220.jpg">
+		<title>Katholische Weltkarte</title>
+		<script type="text/javascript" src="http://scripts.zeit.de/static/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+		<style type="text/css">
+			body { font-family: Arial, sans-serif; font-size: 11px; margin:0; padding:20px; width: 840px;}
+			#bubble { opacity: .9; position: absolute; width: 250px; background: #fff; border: 1px solid #ddd; box-shadow: 2px 2px 5px #333;
+				border-radius: 3px; font-size: 11px; display: none; padding-left: 10px;}
+			g { font-size: 11px; cursor:pointer;}
+			#karte { border-bottom: 1px solid #333; padding-bottom: 25px; margin-top:15px;}
+			.footer { font-size: 11px; }
+			h1 { font-size: 2.3em;}
+.supertitle {
+    color: #990000;
+    display: block;
+    font-family: Arial,Helvetica,FreeSans,sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.7;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+		</style>
+	</head>
+	<body style="margin:0; padding:0; width: 840px;">
+<div id="countings" style="display:none;">
+		<!--start: countings-->
+		<!--SZM VERSION="1.5"-->
+		<!--Dieses Online-Angebot unterliegt nicht der IVW-Kontrolle!-->
+		<script type="text/javascript">
+			var IVW="http://zeitonl.ivwbox.de/cgi-bin/ivw/CP/digital;";
+			document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" alt=\"smztag\" width=\"1\" height=\"1\" />");
+		</script>
+		<noscript><img alt="szmtag" src="http://zeitonl.ivwbox.de/cgi-bin/ivw/CP/digital;" height="1" width="1"></noscript>
+		<!--/SZM-->
+		<script type="text/javascript">
+			var Z_IVW_RESSORT = 'digital';
+			var Z_WT_KENNUNG = 'redaktion.digital.....online.2008.26.blogs.ZEIT ONLINE';
+		</script>
+		<!--end: countings-->
+		</div>
+		<script language="JavaScript">
+			$(document).ready(function() {
+				var country, info, compcolor;
+
+				$("#karte > g").mouseover(over);
+				$("#karte > g").mousemove(move);
+				$("#karte > g").mouseout( function() { $("#bubble").hide(); } );
+
+				function over() {
+					country = $(this).find("text").text();
+					compcolor = function(c) {
+						switch(c) {
+							case "+": return "#009900"; break;
+							case "-": return "#990000"; break;
+							default: return "#333"; break;
+						}
+					}
+					info = "<h2>" + $(this).attr("data-name") + "</h2><p>"
+						+ "<strong>Einwohnerzahl 2010:</strong> " + $(this).attr("data-ew") + " Mio.<br /><strong>Katholiken 2010:</strong> "
+						+ $(this).attr("data-kath") + " Mio.<br /><strong>Anteil an der Gesamtbevölkerung:</strong> " + $(this).attr("data-perc")
+						+ " %<br /><strong>Veränderung gegenüber 2000:</strong> ";
+						info += "<span style=\"color:" + compcolor($(this).attr("data-comp")[0]) + ";\">" + $(this).attr("data-comp") + " %</span></p>";
+					$("#bubble").show();
+					$("#bubble > p").html(info);
+				}
+
+				function move(evt) {
+					$("#bubble").css("left", evt.pageX-100+"px");
+					if(evt.pageX < 110) $("#bubble").css("left", "10px");
+					else if(evt.pageX > 750) $("#bubble").css("left", "650px");
+					$("#bubble").css("top", evt.pageY+30+"px");
+				}
+			});
+</script>
+
+		<span style="color:#990000;font-weight:700;">WO DIE MEISTEN KIRCHENMITGLIEDER LEBEN</span>
+		<div><h1 style="float:left; margin-top: 3px;">Die katholische Weltkarte</h1>
+		<svg style="float:right;" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" height="37" width="487">
+				<text x="0" y="9">Anteil der Katholiken</text>
+				<text x="0" y="25">an der Gesamtbevölkerung</text>
+				<text x="150" y="25">unter 20%</text>
+				<text x="220" y="25">20 bis 40%</text>
+				<text x="290" y="25">40 bis 60%</text>
+				<text x="360" y="25">60 bis 80%</text>
+				<text x="430" y="25">über 80%</text>
+				<rect x="150" y="2" fill="#D2DBE6" width="56" height="10"/>
+				<rect x="220" y="2" fill="#A6B7CB" width="55" height="10"/>
+				<rect x="290" y="2" fill="#7B93B2" width="56" height="10"/>
+				<rect x="360" y="2" fill="#4F7098" width="55" height="10"/>
+				<rect x="430" y="2" fill="#284B7F" width="56" height="10"/>
+			</svg>
+		</div>
+		<div id="bubble" style="display: none; ">			<p></p>
+		</div>
+		<div>
+			<svg xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="karte" version="1.1" height="700" width="840">
+				<g data-name="Peru" data-ew="29,1" data-kath="26,8" data-perc="92,2" data-comp="+9"><rect height="89" width="45" y="479" x="87" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 91 564)">Peru</text></g>
+				<g data-name="Kolumbien" data-ew="46,3" data-kath="41,8" data-perc="90,2" data-comp="+13"><rect height="84" width="73" y="393" x="134" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 136 473)">Kolumbien</text></g>
+				<g data-name="Ecuador" data-ew="14,5" data-kath="12,9" data-perc="88,8" data-comp="+11"><rect height="71" width="26" y="406" x="106" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 107 473)">ECU</text></g>
+				<g data-name="Bolivien" data-ew="9,9" data-kath="8,8" data-perc="88,7" data-comp="+21"><rect height="41" width="32" y="570" x="100" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 103 607)">BOL</text></g>
+				<g data-name="Argentinien" data-ew="40,4" data-kath="35,8" data-perc="88,4" data-comp="+6"><rect height="72" width="73" y="618" x="134" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 138 685)">Argentinien</text></g>
+				<g data-name="Paraguay" data-ew="6,5" data-kath="5,7" data-perc="87,5" data-comp="+19"><rect height="28" width="30" y="618" x="209" fill="#1a4d80"/><text fill="#355B91" transform="matrix(1 0 0 1 241 645)">Paraguay</text></g>
+				<g data-name="Venezuela" data-ew="29" data-kath="24,6" data-perc="84,9" data-comp="+14"><rect height="41" width="89" y="436" x="209" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 211 472)">Venezuela</text></g>
+				<g data-name="Brasilien" data-ew="194,9" data-kath="150,3" data-perc="77,1" data-comp="+5"><rect height="137" width="164" y="479" x="134" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 138 610)">Brasilien</text></g>
+				<g data-name="Chile" data-ew="17,1" data-kath="12,4" data-perc="72,2" data-comp="+5"><rect height="62" width="29" y="613" x="103" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 104 672)">Chile</text></g>
+				<g data-name="Uruguay" data-ew="3,4" data-kath="2,3" data-perc="69,3" data-comp="-1"><rect height="13" width="26" y="618" x="241" fill="#487199"/><text fill="#879EBE" transform="matrix(1 0 0 1 269 630)">Uruguay</text></g>
+				<g data-name="Australien" data-ew="22,3" data-kath="5,6" data-perc="25,2" data-comp="+9"><rect height="24" width="70" y="632" x="740" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 741 652)">Australien</text></g>
+				<g data-name="Neuseeland" data-ew="4,4" data-kath="0,5" data-perc="12,1" data-comp="+15"><rect height="6" width="25" y="650" x="812" fill="#d1dbe6"/><text fill="#969696" transform="matrix(1 0 0 1 811 648)">NZL</text></g>
+				<g data-name="Domenikanische Republik" data-ew="9,9" data-kath="8,2" data-perc="82,9" data-comp="+13"><rect height="42" width="29" y="272" x="197" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 198 311)">DOM</text></g>
+				<g data-name="Puerto Rico" data-ew="3,7" data-kath="2,8" data-perc="74" data-comp="+1"><rect height="32" width="13" y="301" x="228" fill="#487199"/><text fill="#728DB3" transform="matrix(1 0 0 1 242 333)">PRI</text></g>
+				<g data-name="Haiti" data-ew="10" data-kath="7,1" data-perc="71" data-comp="+13"><rect height="42" width="24" y="272" x="171" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 172 311)">Haiti</text></g>
+				<g data-name="Kuba" data-ew="11,3" data-kath="5,9" data-perc="52,1" data-comp="+13"><rect height="27" width="32" y="243" x="163" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 164 267)">Kuba</text></g>
+				<g data-name="Mexiko" data-ew="113,4" data-kath="100,4" data-perc="88,4" data-comp="+12"><rect height="125" width="118" y="206" x="5" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 11 324)">Mexiko</text></g>
+				<g data-name="Nicaragua" data-ew="5,8" data-kath="5,1" data-perc="87,8" data-comp="+13"><rect height="24" width="30" y="333" x="93" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 94 354)">NIC</text></g>
+				<g data-name="Guatemala" data-ew="14,4" data-kath="12,4" data-perc="85,8" data-comp="+30"><rect height="33" width="54" y="333" x="37" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 39 362)">GTM</text></g>
+				<g data-name="Costa Rica" data-ew="4,7" data-kath="3,9" data-perc="82,8" data-comp="+7"><rect height="16" width="34" y="359" x="93" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 95 372)">CRI</text></g>
+				<g data-name="El Salvador" data-ew="6,2" data-kath="4,9" data-perc="78,5" data-comp="+1"><rect height="23" width="30" y="368" x="61" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 62 387)">SLV</text></g>
+				<g data-name="Honduras" data-ew="7,6" data-kath="5,9" data-perc="77,4" data-comp="+16"><rect height="27" width="32" y="330" x="125" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 128 354)">HND</text></g>
+				<g data-name="Panama" data-ew="3,5" data-kath="2,6" data-perc="73,4" data-comp="+17"><rect height="17" width="22" y="377" x="105" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 105 391)">PAN</text></g>
+				<g data-name="Reunion" data-ew="0,8" data-kath="0,7" data-perc="80,1" data-comp="+13"><rect height="14" width="16" y="543" x="592" fill="#1a4d80"/><text fill="#5676A3" transform="matrix(1 0 0 1 611 557)">Reunion</text></g>
+				<g data-name="Äquatorial Guinea" data-ew="0,7" data-kath="0,6" data-perc="81,4" data-comp="+33"><rect height="11" width="17" y="461" x="436" fill="#1a4d80"/><text fill="#4F709F" transform="matrix(1 0 0 1 409 471)">GNQ</text></g>
+				<g data-name="Gabun" data-ew="1,5" data-kath="0,8" data-perc="55,3" data-comp="+29"><rect height="10" width="27" y="474" x="426" fill="#7694b3"/><text fill="#E0E0E0" transform="matrix(1 0 0 1 399 483)">GAB</text></g>
+				<g data-name="Äthiopien" data-ew="82,9" data-kath="0,9" data-perc="1" data-comp="+93"><rect height="10" width="27" y="449" x="549" fill="#d1dbe6"/><text fill="#989898" transform="matrix(1 0 0 1 579 457)">ETH</text></g>
+				<g data-name="Burundi" data-ew="8,4" data-kath="5,6" data-perc="66,8" data-comp="+40"><rect height="24" width="32" y="435" x="515" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 517 457)">BDI</text></g>
+				<g data-name="Südsudan" data-ew="10,8" data-kath="5,3" data-perc="49" data-comp="+96"><rect height="23" width="32" y="340" x="515" fill="#7694b3"/><text fill="#9A9A9A" transform="matrix(1 0 0 1 549 362)">Südsudan</text></g>
+				<g data-name="Ruanda" data-ew="10,6" data-kath="4,7" data-perc="44,5" data-comp="+30"><rect height="19" width="34" y="414" x="515" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 517 431)">RWA</text></g>
+				<g data-name="Uganda" data-ew="33,4" data-kath="13,5" data-perc="40,5" data-comp="+34"><rect height="47" width="39" y="365" x="515" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 517 409)">UGA</text></g>
+				<g data-name="Zambia" data-ew="13,1" data-kath="4,6" data-perc="34,8" data-comp="+51"><rect height="38" width="17" y="502" x="496" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(0 -1 1 0 510 537)">ZMB</text></g>
+				<g data-name="Malawi" data-ew="14,9" data-kath="4,7" data-perc="31,4" data-comp="+75"><rect height="19" width="34" y="510" x="515" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 517 526)">MWI</text></g>
+				<g data-name="Tanzania" data-ew="44,8" data-kath="12,8" data-perc="28,6" data-comp="+35"><rect height="47" width="38" y="461" x="515" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 517 505)">TZA</text></g>
+				<g data-name="Madagascar" data-ew="20,7" data-kath="5,2" data-perc="24,9" data-comp="+37"><rect height="31" width="23" y="526" x="567" fill="#a3b8cc"/><text fill="#B5B5B5" transform="matrix(1 0 0 1 592 541)">MDG</text></g>
+				<g data-name="Mozambique" data-ew="23,4" data-kath="5,3" data-perc="22,6" data-comp="+42"><rect height="45" width="16" y="531" x="515" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(0 -1 1 0 528 573)">MOZ</text></g>
+				<g data-name="Kenia" data-ew="40,5" data-kath="9,1" data-perc="22,5" data-comp="+24"><rect height="37" width="34" y="461" x="555" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 556 496)">Kenia</text></g>
+				<g data-name="Zimbabwe" data-ew="12,6" data-kath="1,7" data-perc="13,8" data-comp="+49"><rect height="11" width="22" y="542" x="491" fill="#d1dbe6"/><text fill="#9A9A9A" transform="matrix(1 0 0 1 465 551)">ZWE</text></g>
+				<g data-name="Kongo" data-ew="4" data-kath="2,8" data-perc="68,3" data-comp="+61"><rect height="16" width="23" y="486" x="430" fill="#487199"/><text fill="#8CA2C1" transform="matrix(1 0 0 1 403 502)">COG</text></g>
+				<g data-name="Angola" data-ew="19,1" data-kath="11,3" data-perc="59,3" data-comp="+35"><rect height="37" width="42" y="502" x="452" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 454 535)">Angola</text></g>
+				<g data-name="DR Kongo" data-ew="66" data-kath="35,8" data-perc="54,2" data-comp="+32"><rect height="86" width="58" y="414" x="455" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 456 497)">COD</text></g>
+				<g data-name="Zentralafrikanische Republik" data-ew="4,4" data-kath="1,4" data-perc="31,4" data-comp="+93"><rect height="8" width="21" y="404" x="492" fill="#a3b8cc"/><text fill="#C5C5C5" transform="matrix(1 0 0 1 491 402)">CAF</text></g>
+				<g data-name="Kamerun" data-ew="19,6" data-kath="5" data-perc="25,6" data-comp="+26"><rect height="32" width="22" y="427" x="431" fill="#a3b8cc"/><text fill="#B6B6B6" transform="matrix(1 0 0 1 404 457)">CMR</text></g>
+				<g data-name="Tschad" data-ew="11,2" data-kath="1,7" data-perc="14,7" data-comp="+53"><rect height="11" width="20" y="414" x="433" fill="#d1dbe6"/><text fill="#9C9C9C" transform="matrix(1 0 0 1 409 424)">TCD</text></g>
+				<g data-name="Sudan" data-ew="32,8" data-kath="1,1" data-perc="3,2" data-comp="+2"><rect height="14" width="10" y="324" x="515" fill="#d1dbe6"/><text fill="#808080" transform="matrix(1 0 0 1 526 336)">SDN</text></g>
+				<g data-name="Lesotho" data-ew="2,2" data-kath="1,1" data-perc="48,8" data-comp="+19"><rect height="14" width="11" y="555" x="502" fill="#7694b3"/><text fill="#9A9A9A" transform="matrix(0 -1 1 0 511 593)">LSO</text></g>
+				<g data-name="Südafrika" data-ew="50,1" data-kath="3,5" data-perc="6,9" data-comp="+13"><rect height="19" width="25" y="555" x="475" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 476 570)">ZAF</text></g>
+				<g data-name="Togo" data-ew="6" data-kath="1,7" data-perc="27,7" data-comp="+33"><rect height="20" width="11" y="392" x="420" fill="#a3b8cc"/><text fill="#BBBBBB" transform="matrix(0 -1 1 0 430 391)">TGO</text></g>
+				<g data-name="Benin" data-ew="8,8" data-kath="2,1" data-perc="24" data-comp="+42"><rect height="22" width="13" y="390" x="433" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(0 -1 1 0 443 412)">BEN</text></g>
+				<g data-name="Elfenbeinküste" data-ew="19,7" data-kath="3,5" data-perc="17,5" data-comp="+33"><rect height="19" width="25" y="393" x="372" fill="#d1dbe6"/><text fill="#A3A3A3" transform="matrix(0 -1 1 0 396 392)">Elfenbeinküste</text></g>
+				<g data-name="Burkina Faso" data-ew="16,5" data-kath="2,2" data-perc="13,5" data-comp="+68"><rect height="24" width="12" y="363" x="399" fill="#d1dbe6"/><text fill="#989898" transform="matrix(0 -1 1 0 410 361)">BFA</text></g>
+				<g data-name="Nigeria" data-ew="158,4" data-kath="21,1" data-perc="13,3" data-comp="+37"><rect height="78" width="37" y="334" x="448" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(0 -1 1 0 480 410)">Nigeria</text></g>
+				<g data-name="Ghana" data-ew="24,4" data-kath="3,1" data-perc="12,5" data-comp="+36"><rect height="23" width="19" y="389" x="399" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(0 -1 1 0 411 412)">GHA</text></g>
+				<g data-name="Senegal" data-ew="12,4" data-kath="0,7" data-perc="5,3" data-comp="+38"><rect height="13" width="16" y="399" x="354" fill="#d1dbe6"/><text fill="#858585" transform="matrix(0 -1 1 0 368 398)">SEN</text></g>
+				<g data-name="Japan" data-ew="126,5" data-kath="0,5" data-perc="0,4" data-comp="+4"><rect height="10" width="16" y="206" x="725" fill="#d1dbe6"/><text fill="#797979" transform="matrix(1 0 0 1 741 215)">JPN</text></g>
+				<g data-name="Pakistan" data-ew="173,6" data-kath="1,1" data-perc="0,6" data-comp="-14"><rect height="16" width="23" y="264" x="625" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 625 277)">PAK</text></g>
+				<g data-name="Ost-Timor" data-ew="1,1" data-kath="0,9" data-perc="81,2" data-comp="+37"><rect height="11" width="29" y="356" x="694" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 700 365)">TLS</text></g>
+				<g data-name="Malaysia" data-ew="28,4" data-kath="1,3" data-perc="4,4" data-comp="+19"><rect height="14" width="29" y="299" x="694" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 697 310)">MYS</text></g>
+				<g data-name="China" data-ew="1341,3" data-kath="15" data-perc="1,1" data-comp="+25"><rect height="39" width="54" y="198" x="669" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 692 233)">China</text></g>
+				<g data-name="Südkorea" data-ew="48,2" data-kath="5,1" data-perc="10,6" data-comp="+24"><rect height="19" width="38" y="218" x="725" fill="#d1dbe6"/><text fill="#929292" transform="matrix(1 0 0 1 764 236)">Südkorea</text></g>
+				<g data-name="Sri Lanka" data-ew="20,9" data-kath="1,5" data-perc="6,9" data-comp="+12"><rect height="11" width="18" y="346" x="666" fill="#d1dbe6"/><text fill="#898989" transform="matrix(1 0 0 1 642 356)">LKA</text></g>
+				<g data-name="Indien" data-ew="1224,6" data-kath="18,6" data-perc="1,5" data-comp="+11"><rect height="80" width="33" y="264" x="651" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 652 341)">Indien</text></g>
+				<g data-name="Philippinen" data-ew="93,3" data-kath="72,3" data-perc="77,5" data-comp="+15"><rect height="115" width="90" y="239" x="725" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 726 351)">Philippinen</text></g>
+				<g data-name="Vietnam" data-ew="87,8" data-kath="6,3" data-perc="7,1" data-comp="+18"><rect height="23" width="37" y="239" x="686" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 697 260)">VNM</text></g>
+				<g data-name="Indonesien" data-ew="239,9" data-kath="7,1" data-perc="2,9" data-comp="+13"><rect height="39" width="26" y="315" x="697" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 701 351)">IDN</text></g>
+				<g data-name="Myanmar" data-ew="48" data-kath="0,7" data-perc="1,3" data-comp="+10"><rect height="12" width="16" y="239" x="668" fill="#d1dbe6"/><text fill="#7B7B7B" transform="matrix(1 0 0 1 640 251)">MMR</text></g>
+				<g data-name="Libanon" data-ew="4,2" data-kath="1,2" data-perc="29,3" data-comp="+11"><rect height="32" width="13" y="230" x="599" fill="#a3b8cc"/><text fill="#BFBFBF" transform="matrix(1 0 0 1 614 262)">Libanon</text></g>
+				<g data-name="Vereinigte Arabische Emirate" data-ew="7,5" data-kath="0,8" data-perc="11" data-comp="+177"><rect height="23" width="12" y="281" x="599" fill="#d1dbe6"/><text fill="#939393" transform="matrix(1 0 0 1 612 303)">ARE</text></g>
+				<g data-name="Saudi Arabien" data-ew="27,4" data-kath="1,1" data-perc="3,8" data-comp="+41"><rect height="15" width="23" y="264" x="599" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 599 277)">SAU</text></g>
+				<g data-name="Weißrussland" data-ew="9,6" data-kath="1" data-perc="10,7" data-comp="-3"><rect height="21" width="17" y="83" x="593" fill="#d1dbe6"/><text fill="#929292" transform="matrix(1 0 0 1 611 103)">BLR</text></g>
+				<g data-name="Rumänien" data-ew="21,5" data-kath="1,8" data-perc="8,3" data-comp="-12"><rect height="25" width="24" y="126" x="596" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 595 148)">ROU</text></g>
+				<g data-name="Russland" data-ew="143" data-kath="0,8" data-perc="0,5" data-comp="-1"><rect height="21" width="13" y="23" x="594" fill="#d1dbe6"/><text fill="#797979" transform="matrix(1 0 0 1 608 44)">RUS</text></g>
+				<g data-name="Albanien" data-ew="3,2" data-kath="0,5" data-perc="15,9" data-comp="+6"><rect height="16" width="9" y="169" x="547" fill="#d1dbe6"/><text fill="#A7A7A7" transform="matrix(1 0 0 1 557 184)">ALB</text></g>
+				<g data-name="Irland" data-ew="4,5" data-kath="3,5" data-perc="77,3" data-comp="+9"><rect height="17" width="29" y="106" x="316" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 316 120)">Irland</text></g>
+				<g data-name="Vereinigtes Königreich" data-ew="62" data-kath="5,8" data-perc="9,2" data-comp="+2"><rect height="33" width="26" y="90" x="347" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 347 120)">GBR</text></g>
+				<g data-name="Polen" data-ew="38,3" data-kath="34,6" data-perc="90,3" data-comp="-2"><rect height="81" width="63" y="23" x="528" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 529 100)">Polen</text></g>
+				<g data-name="Slowakei" data-ew="5,5" data-kath="4" data-perc="73,1" data-comp="+9"><rect height="18" width="33" y="106" x="553" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 554 122)">SVK</text></g>
+				<g data-name="Ungarn" data-ew="10" data-kath="6" data-perc="59,9" data-comp="-4"><rect height="21" width="41" y="126" x="553" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 554 144)">HUN</text></g>
+				<g data-name="Tschechische Republik" data-ew="10,5" data-kath="3,3" data-perc="31,3" data-comp="-11"><rect height="21" width="23" y="106" x="528" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 528 124)">CZE</text></g>
+				<g data-name="Ukraine" data-ew="45,4" data-kath="4,8" data-perc="10,4" data-comp="+10"><rect height="18" width="39" y="106" x="588" fill="#d1dbe6"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 589 122)">UKR</text></g>
+				<g data-name="Litauen" data-ew="3,3" data-kath="2,6" data-perc="79" data-comp="-2"><rect height="21" width="19" x="572" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 572 17)">LTU</text></g>
+				<g data-name="Belgien" data-ew="10,7" data-kath="7,8" data-perc="73,2" data-comp="-1"><rect height="28" width="41" y="99" x="414" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 415 124)">Belgien</text></g>
+				<g data-name="Frankreich" data-ew="62,8" data-kath="45,1" data-perc="71,8" data-comp="+2"><rect height="62" width="108" y="129" x="347" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 349 186)">Frankreich</text></g>
+				<g data-name="Österreich" data-ew="8,4" data-kath="5,6" data-perc="66,6" data-comp="-5"><rect height="25" width="33" y="129" x="488" fill="#487199"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 490 152)">AUT</text></g>
+				<g data-name="Schweiz" data-ew="7,7" data-kath="3,4" data-perc="44" data-comp="+6"><rect height="17" width="29" y="129" x="457" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 457 144)">CHE</text></g>
+				<g data-name="Deutschland" data-ew="82,3" data-kath="25,2" data-perc="30,5" data-comp="-7"><rect height="54" width="69" y="73" x="457" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 459 124)">Deutschland</text></g>
+				<g data-name="Niederlande" data-ew="16,6" data-kath="4,6" data-perc="27,8" data-comp="-12"><rect height="33" width="20" y="64" x="435" fill="#a3b8cc"/><text fill="#BDBDBD" transform="matrix(1 0 0 1 412 96)">NLD</text></g>
+				<g data-name="Italien" data-ew="60,6" data-kath="57,3" data-perc="94,6" data-comp="+6"><rect height="109" width="79" y="156" x="457" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 459 262)">Italien</text></g>
+				<g data-name="Spanien" data-ew="46,1" data-kath="42" data-perc="91,2" data-comp="+11"><rect height="81" width="76" y="193" x="347" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 348 271)">Spanien</text></g>
+				<g data-name="Portugal" data-ew="10,7" data-kath="9,2" data-perc="86,4" data-comp="+1"><rect height="49" width="27" y="225" x="318" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 320 271)">PRT</text></g>
+				<g data-name="Kroatien" data-ew="4,4" data-kath="3,6" data-perc="81,9" data-comp="0"><rect height="18" width="29" y="149" x="547" fill="#1a4d80"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 548 163)">HRV</text></g>
+				<g data-name="Slowenien" data-ew="2" data-kath="1,6" data-perc="78,9" data-comp="-1"><rect height="14" width="16" y="129" x="523" fill="#487199"/><text fill="#5B7AA6" transform="matrix(1 0 0 1 522 153)">SVN</text></g>
+				<g data-name="Papua New Guinea" data-ew="6,9" data-kath="1,9" data-perc="27" data-comp="+14"><rect height="19" width="20" y="356" x="725" fill="#a3b8cc"/><text fill="#BABABA" transform="matrix(1 0 0 1 746 374)">PNG</text></g>
+				<g data-name="Kanada" data-ew="34" data-kath="14,7" data-perc="43,1" data-comp="+9"><rect height="27" width="76" y="98" x="5" fill="#7694b3"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 10 121)">Kanada</text></g>
+				<g data-name="USA" data-ew="310,4" data-kath="70,7" data-perc="22,7" data-comp="+12"><rect height="77" width="127" y="127" x="5" fill="#a3b8cc"/><text fill="#FFFFFF" transform="matrix(1 0 0 1 11 198)">USA</text></g>
+			</svg>
+		</div>
+		<div>
+			<p style="float:left;" class="footer">Quelle: The World Christian Database<span style="margin-left:30px">Grafik: Martina Schories, Paul Blickle</span><span style="margin-left:30px;">Redaktion: Sascha Venohr</span><span style="margin-left:30px;"><a href="https://docs.google.com/a/apps.zeit.de/spreadsheet/ccc?key=0AiJrah0nLk5GdDJKaHY1XzNVRGRkZVY5cVZObjRNdUE#gid=0" target="_blank">Alle Daten als Google Doc</a></span></p>
+		</div>
+	</body>
+</html>

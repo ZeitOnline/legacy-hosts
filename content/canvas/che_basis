@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2016-04-08T10:29:57.509518+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-04-27T10:24:01.654872+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2016-04-08T10:30:15.355458+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2016-04-08T10:30:15.196631+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-05-04T11:50:39.179884+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-05-04T11:50:39.234963+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-05-04T11:50:02.195700+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.pannen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">575640871</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2011-05-02T08:57:00+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Studium</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Rankings</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:a6975dd2-cf77-4676-98c5-30254ce87a27}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">17</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead" automatic="False">
+        <container cp:type="xml" module="xml" cp:__name__="28439ac0-5c2e-4cbc-8cfb-246b1b7c5b23">
+          <raw>
+
+
+</raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="d3e546cb-83cb-4fc5-878a-b2d3c7f3472a">
+          <raw>
+
+
+</raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="f7871741-eeda-4146-9799-9d09d9115475">
+          <raw>
+
+
+</raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="0ce03b91-76b8-439a-ad6b-668162917f88">
+          <raw>
+
+
+</raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="65d5dfa4-b9a7-48da-b8de-2a219241bbc1">
+          <raw>
+
+
+</raw>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="b4dc588f-3072-4bc6-8070-2325df7325c8" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/studium/studiengaenge/2015-04/jetztStudienfuehrer" uniqueId="http://xml.zeit.de/studium/studiengaenge/2015-04/jetztStudienfuehrer" year="2015" issue="18" ressort="Studium" contenttype="link" publication-date="" expires="" ns0:href="http://premium.zeit.de/studienfuehrer" ns0:target="_blank" date-last-modified="2015-05-12T12:14:01+00:00" date-first-released="2015-04-30T12:09:06.197285+00:00" date-last-published="2015-05-12T11:10:27.682994+00:00" last-semantic-change="2015-05-12T12:13:24.541891+00:00">
+            <supertitle py:pytype="str">ZEIT Studienführer 2015/16</supertitle>
+            <title py:pytype="str">Studienwahl leicht gemacht</title>
+            <text py:pytype="str">Schnell und einfach das passende Studium finden. Erfahren Sie alles zu den Themen Studienwahl, Studienorte und Finanzierung. Jetzt bestellen!</text>
+            <description py:pytype="str">Schnell und einfach das passende Studium finden. Erfahren Sie alles zu den Themen Studienwahl, Studienorte und Finanzierung. Jetzt bestellen!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/studiengaenge/2015-04/grossteaserstudienfuehrer-220x124/" type="jpg" title="teaserstudienführer-220x124" href="https://premium.zeit.de/studienfuehrer" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">(no value available)</copyright>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="cpextra" module="blindblock" cp:__name__="d2e76c67-e67c-423e-a6ac-adbc4e9b64a2">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="f1f93d64-3a8a-4e27-a93b-6c1478fdbd97">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/canvas/hochschulkompass" year="2010" ressort="Studium" publication-date="" expires="" ns0:href="http://www.hochschulkompass.de/" ns0:target="_blank" date-last-modified="2010-11-02T08:44:09+00:00" date-first-released="2010-11-02T08:44:01.983648+00:00" date-last-published="2010-11-02T08:45:09.564371+00:00" last-semantic-change="2010-11-02T08:42:09.079156+00:00" contenttype="link" uniqueId="http://xml.zeit.de/canvas/hochschulkompass">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Hochschulkompass</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/hochschulkompass.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="8884cb2c-40ef-44fd-87a0-515b39b3f372">
+          <raw>
+
+
+</raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title> </title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str"> </title>
+  </teaser>
+</centerpage>

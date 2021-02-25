@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-07-10T12:26:03.987264+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-14T13:49:25.272126+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-07-10T12:26:17.753687+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-07-10T12:27:17.678225+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-06-29T08:14:15.126743+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-06-29T08:14:15.164036+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-10-15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-07-10T12:26:07.500980+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-10-16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.beuth</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Digital</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">36</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:317a7658-0443-4454-b08a-f9b9774576d2}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="420bbf77-9c59-4ee5-86ea-40b0f8f8b012">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="2f71d4ba-6625-4f73-9e0a-0b3c193ea6ed">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="956daf23-d099-4216-b5f4-1f29e2342442">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-a387153c-e7b3-4541-8d4d-ba0206d063a2" layout="368x220" title="Googles neuronale Netzwerke">
+          <block type="intern" href="http://xml.zeit.de/digital/internet/2015-07/neuronale-netzwerke-google-deepdreams" year="2015" issue="28" ressort="Digital" contenttype="gallery" publication-date="" expires="" uniqueId="http://xml.zeit.de/digital/internet/2015-07/neuronale-netzwerke-google-deepdreams" date-last-modified="2015-07-10T10:24:17+00:00" date-first-released="2015-07-10T07:56:09.295780+00:00" date-last-published="2015-07-10T10:25:04.985590+00:00" last-semantic-change="2015-07-10T10:23:35.745232+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Neuronale Netzwerke</supertitle>
+            <title py:pytype="str">Die Welt aus den Augen einer Künstlichen Intelligenz</title>
+            <text py:pytype="str">Die NSA residiert in der Villa Kunterbunt, Lionel Messi hat den Hundeblick: Wir haben bekannte Fotos durch Googles neuronales Netzwerk geschickt.</text>
+            <description py:pytype="str">Die NSA residiert in der Villa Kunterbunt, Lionel Messi hat den Hundeblick: Wir haben bekannte Fotos durch Googles neuronales Netzwerk geschickt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/internet/2015-07/google-neuronale-netze-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa/ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/digital/internet/2015-07/google-neuronale-netze-teaser/google-neuronale-netze-teaser-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© dpa/ZEIT ONLINE</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c1dd1e9a-9edb-4fec-a56e-f09d45990ede" layout="368x110" title="Alles Wichtige zum NSA-Skandal">
+          <block type="intern" href="http://xml.zeit.de/digital/datenschutz/2013-10/hintergrund-nsa-skandal" year="2013" issue="44" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-02T06:59:33+00:00" date-first-released="2013-10-28T18:41:07.057397+00:00" date-last-published="2015-07-02T07:00:25.595794+00:00" last-semantic-change="2015-07-02T06:59:15.606968+00:00" uniqueId="http://xml.zeit.de/digital/datenschutz/2013-10/hintergrund-nsa-skandal" author="Patrick Beuth">
+            <supertitle py:pytype="str">Snowden-Enthüllungen</supertitle>
+            <title py:pytype="str">Alles Wichtige zum NSA-Skandal</title>
+            <text py:pytype="str">Welche Daten sammelt die NSA, was ist Prism und wie reagieren die Überwachten? Aktuelle Entwicklungen und ein Überblick über die Snowden-Enthüllungen seit Juni 2013</text>
+            <description py:pytype="str">Welche Daten sammelt die NSA, was ist Prism und wie reagieren die Überwachten? Aktuelle Entwicklungen und ein Überblick über die Snowden-Enthüllungen seit Juni 2013</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/internet/2014-02/paglen-nsa/" type="jpg" title="Paglen NSA" alt="National Security Agency, Ft. Meade, Maryland" align="left" publication-date="" expires="">
+              <bu py:pytype="str">National Security Agency, Ft. Meade, Maryland</bu>
+              <copyright py:pytype="str">© Trevor Paglen, Metro Pictures, Altman Siegel Gallery und Galerie Thomas Zander</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Snowden-Enthüllungen</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Patrick_Beuth/index" publication-date="" expires="">
+              <display_name py:pytype="str">Patrick Beuth</display_name>
+            </author>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/digital/internet/2014-02/paglen-nsa/paglen-nsa-368x110.jpg" title="Paglen NSA" alt="National Security Agency, Ft. Meade, Maryland, 2013" align="left" publication-date="" expires="">
+            <bu>National Security Agency, Ft. Meade, Maryland, 2013</bu>
+            <copyright>© Trevor Paglen, Metro Pictures, Altman Siegel Gallery und Galerie Thomas Zander</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-fbcf7642-7d64-4eea-bac3-35183cce88c5" title="NSA-Untersuchungsausschuss" layout="368x110">
+          <block type="intern" href="http://xml.zeit.de/themen/digital/spionage-nsa-untersuchungsausschuss-bundestag/index" year="2014" issue="41" ressort="Digital" contenttype="centerpage-2009" publication-date="" expires="" uniqueId="http://xml.zeit.de/themen/digital/spionage-nsa-untersuchungsausschuss-bundestag/index" date-last-modified="2015-07-08T14:26:46+00:00" date-first-released="2014-10-31T12:15:16.142691+00:00" date-last-published="2015-07-08T14:27:26.456639+00:00" last-semantic-change="2015-07-08T14:25:36.943841+00:00">
+            <supertitle py:pytype="str">Spionage</supertitle>
+            <title py:pytype="str">Die streng geheimen Spionagedeals des BND</title>
+            <text py:pytype="str">Was genau spionierte die NSA in Deutschland aus? Wie viel Hilfe bekam sie dabei vom BND? Was wusste das Kanzleramt? Alle Berichte über die Spionageaffäre.</text>
+            <description py:pytype="str">Was genau spionierte die NSA in Deutschland aus? Wie viel Hilfe bekam sie dabei vom BND? Was wusste das Kanzleramt? Alle Berichte über die Spionageaffäre.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/digital/datenschutz/2014-10/nsa-untersuchungsausschuss-header/nsa-untersuchungsausschuss-header-368x110.jpg" title="Header" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© Christof Stache/AFP/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="104a5236-8e50-40de-b101-7dddcfd362fe" title="Open-Data-Blog">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/digital/internet/2010-10/blogteaser-opendata" year="2010" issue="43" ressort="Digital" publication-date="" expires="" ns0:href="http://blog.zeit.de/open-data/" date-last-modified="2014-07-22T14:59:22+00:00" date-first-released="2010-10-22T09:07:26.557138+00:00" date-last-published="2014-07-22T15:00:22.214862+00:00" last-semantic-change="2010-10-22T09:10:51.788005+00:00" contenttype="link" uniqueId="http://xml.zeit.de/digital/internet/2010-10/blogteaser-opendata">
+            <supertitle py:pytype="str">Transparenz</supertitle>
+            <title py:pytype="str">Offene Daten – offene Gesellschaft</title>
+            <text py:pytype="str">Offene Daten – offene Gesellschaft: Kai Biermann und Sascha Venohr beschreiben, warum der freie Zugang zu Daten aus Forschung und Verwaltung das Land transparenter macht.</text>
+            <description py:pytype="str">Offene Daten – offene Gesellschaft: Kai Biermann und Sascha Venohr beschreiben, warum der freie Zugang zu Daten aus Forschung und Verwaltung das Land transparenter macht.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/weblogs/2010-10/open-data-teaser/" type="jpg" title="Open Data Teaser" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Greenpeace activist makes adjustments while hanging inside giant model of the globe near Konin open mine
+03/12/2008
+System ID: 	
+RTR22827
+Image ID: 	
+GM1E4C406SK01
+Photographer: 	
+REUTERS/Kacper Pempel
+A Greenpeace activist makes adjustments while hanging from the ceiling inside a giant model of the globe near Konin open mine, 70 km from Poznan, western Poland December 3, 2008. Greenpeace established a camp to protest against the damage it says the Konin mine is doing to the climate, regional tourism and farming, and against the planned opening of new sites. REUTERS/Kacper Pempel (POLAND)
+</bu>
+              <copyright py:pytype="str">© Kacper Pempel/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/weblogs/2010-10/open-data-teaser/open-data-teaser-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="69fb1a10-d0cf-4259-94f0-08ce351e8fbd">
+          <cp_extra id="linkatory"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="c7d1d4a7-8955-4997-8f04-2b36f221f52e">
+          <video videoID="36516804001" player="pls" format="large"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="ceeababa-5b04-447d-9f4f-7654194645d0">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="a68c552d-f484-406e-9eaa-1db30edd2268" title="Internet" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/digital/internet/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/digital/internet/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/digital/internet/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="892c76f5-e8ac-4760-8ce1-59f317c86187" title="Datenschutz" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/digital/datenschutz/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/digital/datenschutz/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/digital/datenschutz/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="209e90a3-e0cb-4758-ae74-0edddbae4b51" title="Mobil" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/digital/mobil/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/digital/mobil/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/digital/mobil/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="90a2c820-4a0c-4afd-92c7-bcffe6253379" title="Games" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/digital/games/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/digital/games/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/digital/games/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Digital</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Template Digital</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Template Digital</text>
+  </indexteaser>
+</centerpage>

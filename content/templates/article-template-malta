@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-02-06T10:00:04.274983+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-01-30T12:08:16.320916+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-02-06T10:01:04.109302+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-02-06T09:59:48.116016+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">malta</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:7c112147-6365-4340-8893-39be45a25ee9}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="30f95e96-7f22-4ff9-b692-453bafbc616a">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="2cfa8652-f7b1-4e6d-be4f-b63ef4341a2a">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/malta/link_visitmalta" year="2012" issue="5" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.visitmalta.com/main?l=5" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu visitmalta.com</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/malta/logo_malta_neu/logo_malta_neu-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="ae86e630-84d3-4501-8f10-ebbb3c97c3ce">
+          <block href="http://xml.zeit.de/angebote/malta/malta" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-02-06T08:57:13+00:00" date-first-released="2012-01-30T12:13:33.357580+00:00" date-last-published="2012-02-06T08:58:13.671472+00:00" last-semantic-change="2012-02-06T08:56:58.704619+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Malta – Sonnige Geheimtipps für einen ganz besonderen Urlaub</title>
+            <text py:pytype="str">Nadur, Għarb, Santa Luċija, Isla oder Mellieħa – noch nie gehört? Wer mediterranes Inselleben kennenlernen möchte, ist in diesen fünf maltesischen Orten genau richtig.</text>
+            <description py:pytype="str">Nadur, Għarb, Santa Luċija, Isla oder Mellieħa – noch nie gehört? Wer mediterranes Inselleben kennenlernen möchte, ist in diesen fünf maltesischen Orten genau richtig.</description>
+            <byline py:pytype="str">Reiseziel Malta: ist ein Angebot des Fremdenverkehrsamts Malta. Für den Inhalt ist das Fremdenverkehrsamts Malta verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/malta/gozo_landschaft/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/malta/mellieha" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-02-01T22:33:29+00:00" date-first-released="2012-01-30T12:14:11.405260+00:00" date-last-published="2012-01-30T16:45:40.547216+00:00" last-semantic-change="2012-01-30T16:44:30.345441+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Mellieħa und Manikata
+
+Sonne und Strand, Wandern und Wein
+</title>
+            <text py:pytype="str">Wer Maltas Hauptstadt Valletta in Richtung Nordwesten verläßt, der befindet sich schnell in einer Landschaft, die mediterraner nicht sein könnte. </text>
+            <description py:pytype="str">Wer Maltas Hauptstadt Valletta in Richtung Nordwesten verläßt, der befindet sich schnell in einer Landschaft, die mediterraner nicht sein könnte. </description>
+            <byline py:pytype="str">Reiseziel Malta: Ist ein Angebot des Fremdenverkehsamts Malta. Für den Inhalt ist das Fremdenverkehrsamt Malta verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/malta/malta_kirche_in_mellieha.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©Fremdenverkehrsamt Malta</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="435b56d3-bfe9-4640-961f-1a48946ba6bb">
+          <block href="http://xml.zeit.de/angebote/malta/isla" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-02-01T17:47:20+00:00" date-first-released="2012-01-30T12:12:40.083593+00:00" date-last-published="2012-02-01T17:48:19.712264+00:00" last-semantic-change="2012-02-01T17:46:20.924916+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Isla – Zwischen Booten und Bastionen</title>
+            <text py:pytype="str">Tag für Tag sorgen sie für tausendfaches Klicken von Fotoapparaten aller Urlauber, die von Valletta hinab auf den alten Großhafen schauen – die historischen Three Cities.</text>
+            <description py:pytype="str">Tag für Tag sorgen sie für tausendfaches Klicken von Fotoapparaten aller Urlauber, die von Valletta hinab auf den alten Großhafen schauen – die historischen Three Cities.</description>
+            <byline py:pytype="str">Reiseziel Malta: Ist ein Angebot des Fremdenverkehsamts Malta. Für den Inhalt ist das Fremdenverkehrsamt Malta verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/malta/malta_gardjola.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©Fremdenverkehrsamt Malta</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/malta/gozo" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-02-06T09:58:21+00:00" date-first-released="2012-01-30T11:59:59.800852+00:00" date-last-published="2012-02-06T09:59:20.695209+00:00" last-semantic-change="2012-02-06T09:58:06.753673+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Gozos kleine Schätze - Nadur, Santa Lucija und Għarb</title>
+            <text py:pytype="str">Maltas kleine Schwesterinsel Gozo hat sich auch in der hektischen Welt von heute viel Ruhe und ihren ganz eigenen, entspannt-mediterranen Rhythmus bewahrt. 
+</text>
+            <description py:pytype="str">Maltas kleine Schwesterinsel Gozo hat sich auch in der hektischen Welt von heute viel Ruhe und ihren ganz eigenen, entspannt-mediterranen Rhythmus bewahrt. 
+</description>
+            <byline py:pytype="str">Reiseziel Malta: Ist ein Angebot des Fremdenverkehsamts Malta. Für den Inhalt ist das Fremdenverkehrsamt Malta verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/malta/gozo_salzpfannen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©Fremdenverkehrsamt Malta</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="745abeee-8172-4626-a960-6f631f228943">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/malta/link_uebersicht" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/malta/index" ns0:target="_blank" date-last-modified="2012-01-30T12:09:02+00:00" date-first-released="2012-01-30T12:10:02.033268+00:00" date-last-published="2012-01-30T12:10:02.033268+00:00" last-semantic-change="2012-01-30T12:08:38.410599+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Malta</title>
+    <byline py:pytype="str">Reiseziel Malta: ist ein Angebot des Fremdenverkehrsamts Malta. Für den Inhalt ist das Fremdenverkehrsamts Malta verantwortlich.</byline>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Malta</title>
+  </teaser>
+</centerpage>

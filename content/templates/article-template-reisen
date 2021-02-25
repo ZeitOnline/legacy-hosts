@@ -1,0 +1,1174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-08-13T15:23:24.452417+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-09T12:53:33.372439+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-08-13T15:23:42.965004+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-08-13T15:24:42.879923+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-08-13T15:23:37.362961+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-08-13T15:23:37.400481+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-08-11T08:00:32.622087+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.raab</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e2cdcf0d-2511-40d0-bfc7-b8eac9385c13}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="af954aa6-2bff-415d-8a97-348e7cb12563">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="7649ed33-203a-4eaf-9b87-5adadf6d8406">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-4daee344-9d4a-4ffe-8acc-bb981910f472" title="Serie: Abwesenheitsnotizen" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/reisen/2015-08/serie-abwesenheitsnotizen-link" year="2015" issue="32" ressort="Reisen" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/abwesenheitsnotizen" uniqueId="http://xml.zeit.de/reisen/2015-08/serie-abwesenheitsnotizen-link" date-last-modified="2015-08-11T07:56:47+00:00" date-first-released="2015-08-11T07:57:47.489114+00:00" date-last-published="2015-08-11T07:57:47.489114+00:00" last-semantic-change="2015-08-11T07:56:23.510030+00:00">
+            <supertitle py:pytype="str">Abwesenheitsnotizen</supertitle>
+            <title py:pytype="str">Abwesenheitsnotizen</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2015-07/landpartie-foto/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Landidylle – wer kann da widerstehen?</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/ts-grafik">© ts-grafik.de / photocase.de</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2015-07/landpartie-foto/landpartie-foto-368x220.jpg" align="left" publication-date="" expires="">
+            <bu>Die Landidylle – wer kann da widerstehen?</bu>
+            <copyright link="http://www.photocase.de/ts-grafik">© ts-grafik.de / photocase.de</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-31d03751-c396-4907-bc4f-bf96ed1a8d82" layout="368x220" title="Serie: Flopulär">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/reisen/2015-01/flopulaer-serie-link" year="2015" issue="2" ressort="Reisen" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/Flopulaer" uniqueId="http://xml.zeit.de/reisen/2015-01/flopulaer-serie-link" date-last-modified="2015-05-26T07:42:39+00:00" date-first-released="2015-01-12T13:55:33.823262+00:00" date-last-published="2015-01-12T13:55:33.823262+00:00" last-semantic-change="2015-05-26T07:42:37.905712+00:00">
+            <supertitle py:pytype="str">Flopulär</supertitle>
+            <title py:pytype="str">Unter Wert</title>
+            <text py:pytype="str">Die besten Hotels, Restaurants und Reiseziele kennt jeder, die schlecht bewerteten keiner. Wie unfair! In dieser Serie kümmern wir uns um sie.</text>
+            <description py:pytype="str">Die besten Hotels, Restaurants und Reiseziele kennt jeder, die schlecht bewerteten keiner. Wie unfair! In dieser Serie kümmern wir uns um sie.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-12/flopulaer-aurora/" type="jpg" alt="Hotel-Pension Aurora: Grand Hotel Gruft" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nebenan kostet das Wasserpfeifen-Burger-Menu 12,90 Euro.</bu>
+              <copyright py:pytype="str">© Fabian Hartjes</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2014-12/flopulaer-aurora/flopulaer-aurora-368x220.jpg" alt="Hotel-Pension Aurora: Grand Hotel Gruft" align="left" publication-date="" expires="">
+            <bu>Nebenan kostet das Wasserpfeifen-Burger-Menu 12,90 Euro.</bu>
+            <copyright>© Fabian Hartjes</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-2e4d1827-d65a-4ab7-aae2-8425033cbea0" layout="368x220" title="Tel Aviv: Strand, Hummus, Krieg">
+          <block type="intern" href="http://xml.zeit.de/feature/tel-aviv-israel-reisen" year="2015" issue="2" ressort="Reisen" contenttype="article" publication-date="" expires="" uniqueId="http://xml.zeit.de/feature/tel-aviv-israel-reisen" date-last-modified="2015-07-17T09:51:25+00:00" date-first-released="2015-01-30T10:13:54.260347+00:00" date-last-published="2015-01-30T12:49:34.762150+00:00" last-semantic-change="2015-01-30T10:12:49.425668+00:00" author="Philipp Reinartz">
+            <supertitle py:pytype="str">Tel Aviv</supertitle>
+            <title py:pytype="str">Im Vogelkäfig</title>
+            <text py:pytype="str">Ihr Leben ist Strand, Club, Hummus. Und manchmal Krieg. Die jungen Bewohner von Tel Aviv arbeiten in Start-ups und entstammen selbst einem: dem Staat Israel.</text>
+            <description py:pytype="str">Ihr Leben ist Strand, Club, Hummus. Und manchmal Krieg. Die jungen Bewohner von Tel Aviv arbeiten in Start-ups und entstammen selbst einem: dem Staat Israel.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/feature/tel-aviv-israel-reisen-rakete/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tel Aviv im Juli 2014: Israelis und Touristen beobachten den Himmel während eines palästinensischen Raketenangriffs.</bu>
+              <copyright py:pytype="str">© Lior Mizrahi/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Philipp_Reinartz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Philipp Reinartz</display_name>
+            </author>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/feature/tel-aviv-israel-reisen-rakete/tel-aviv-israel-reisen-rakete-368x220.jpg" align="left" publication-date="" expires="">
+            <bu>Tel Aviv im Juli 2014: Israelis und Touristen beobachten den Himmel während eines palästinensischen Raketenangriffs.</bu>
+            <copyright>© Lior Mizrahi/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="cpextra" module="" cp:__name__="id-85a379f9-7044-440b-adf8-3db1ec829655"/>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="7b7ca968-e259-4f21-808e-a8d706d19bb5">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="66dae459-bc6e-47e0-bcaa-4853bf577a57">
+          <video videoID="36516804001" player="pls" format="small"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="4bb0206f-01b5-48c6-beb4-ec127fddfaf3">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="bec73166-87ff-46ce-9d2d-92a7be59c30e" title="City Guide Brüssel" visible="True" read_more="mehr Ordnung? Flohmarkt!" read_more_url="http://www.zeit.de/themen/reisen/cityguide-bruessel/index">
+          <block href="http://xml.zeit.de/2014/50/bruessel-flohmarkt-belgien" uniqueId="http://xml.zeit.de/2014/50/bruessel-flohmarkt-belgien" year="2014" issue="50" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-12-18T03:05:49+00:00" expires="" date-last-modified="2015-05-28T11:23:49+00:00" date-first-released="2014-12-18T03:06:50.290862+00:00" date-last-published="2014-12-30T10:49:41.142698+00:00" last-semantic-change="2014-12-18T06:33:52.171160+00:00" author="Jessica Braun">
+            <supertitle py:pytype="str">Brüssel</supertitle>
+            <title py:pytype="str">Lass uns trödeln!</title>
+            <text py:pytype="str">Hauptstadt der Ordnung? Ach was. Alle Seiten Brüssels lernt man am besten auf dem Flohmarkt kennen. Eine Expedition in den Marollen auf der Suche nach Einhörnern</text>
+            <description py:pytype="str">Hauptstadt der Ordnung? Ach was. Alle Seiten Brüssels lernt man am besten auf dem Flohmarkt kennen. Eine Expedition in den Marollen auf der Suche nach Einhörnern</description>
+            <byline py:pytype="str">von Jessica Braun</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-12/flohmarkt-bruessel/" type="jpg" title="Den Flohmarkt auf der Place du Jeu de Balle gibt es seit 1873" alt="Den Flohmarkt auf der Place du Jeu de Balle gibt es seit 1873" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Den Flohmarkt auf der Place du Jeu de Balle gibt es seit 1873.</bu>
+              <copyright py:pytype="str">© Milan Szypura/StudioX/Haytham Pictures für Die Zeit</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Jessica_Braun/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Jessica Braun</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/50/david-helbich-kuenstler-bruessel-belgien" uniqueId="http://xml.zeit.de/2014/50/david-helbich-kuenstler-bruessel-belgien" year="2014" issue="50" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-12-18T03:39:38+00:00" expires="" genre="interview" date-last-modified="2015-05-28T11:23:51+00:00" date-first-released="2014-12-18T03:40:39.487234+00:00" date-last-published="2014-12-30T10:49:40.389404+00:00" last-semantic-change="2014-12-30T10:45:33.372973+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">David Helbich</supertitle>
+            <title py:pytype="str">"Perfektion ist keine Kategorie"</title>
+            <text py:pytype="str">In Brüssel macht jeder, was er will. Ein Gespräch mit dem Künstler David Helbich über gezackte Radwege, entflohene Verbrecher und unter der Hand verkauftes Klosterbier</text>
+            <description py:pytype="str">In Brüssel macht jeder, was er will. Ein Gespräch mit dem Künstler David Helbich über gezackte Radwege, entflohene Verbrecher und unter der Hand verkauftes Klosterbier</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-12/david-helbich/" type="jpg" title="David Helbich vor dem Justizpalast in Brüssel" alt="David Helbich vor dem Justizpalast in Brüssel" align="left" publication-date="" expires="">
+              <bu py:pytype="str">David Helbich vor dem Justizpalast in Brüssel</bu>
+              <copyright py:pytype="str">© Milan Szypura/StudioX/Haytham Pictures für Die Zeit</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/50/atomium-wahrzeichen-bruessel-belgien" uniqueId="http://xml.zeit.de/2014/50/atomium-wahrzeichen-bruessel-belgien" year="2014" issue="50" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-12-18T03:46:41+00:00" expires="" date-last-modified="2015-05-28T11:23:48+00:00" date-first-released="2014-12-18T03:47:42.114332+00:00" date-last-published="2014-12-22T20:09:37.822625+00:00" last-semantic-change="2014-12-22T20:08:33.006097+00:00" author="Matthias Krupa">
+            <supertitle py:pytype="str">Atomium</supertitle>
+            <title py:pytype="str">Wie fantastisch ist das denn?</title>
+            <text py:pytype="str">Ein kolossaler Bau am Rande Brüssels: Einst stand das Atomium für einen unbändigen Fortschrittsglauben. Inzwischen darf es einfach nur noch weiterschweben. </text>
+            <description py:pytype="str">Ein kolossaler Bau am Rande Brüssels: Einst stand das Atomium für einen unbändigen Fortschrittsglauben. Inzwischen darf es einfach nur noch weiterschweben. </description>
+            <byline py:pytype="str">von Matthias Krupa</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-12/atomium-bruessel/" type="jpg" title="Das Atomium spiegelt nicht nur die Sonne." alt="Das Atomium spiegelt nicht nur die Sonne." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Atomium spiegelt nicht nur die Sonne.</bu>
+              <copyright py:pytype="str">© Milan Szypura/StudioX/Haytham Pictures für Die Zeit</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Matthias_Krupa/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Matthias Krupa</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-12/bruessel-restaurant-tipps" uniqueId="http://xml.zeit.de/reisen/2014-12/bruessel-restaurant-tipps" year="2014" issue="51" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-12-18T04:40:56+00:00" expires="" date-last-modified="2015-05-28T11:23:53+00:00" date-first-released="2014-12-18T04:41:57.778057+00:00" date-last-published="2014-12-18T04:41:57.778057+00:00" last-semantic-change="2014-12-15T14:46:08.159163+00:00">
+            <supertitle py:pytype="str">Brüssel</supertitle>
+            <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+            <text py:pytype="str">Bambi-Fleisch, krosse Fritten, improvisierte Bio-Gerichte und neo-griechische Küche: In Brüssel wird Multikulti nicht nur gelebt, sondern auch gespeist.</text>
+            <description py:pytype="str">Bambi-Fleisch, krosse Fritten, improvisierte Bio-Gerichte und neo-griechische Küche: In Brüssel wird Multikulti nicht nur gelebt, sondern auch gespeist.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-12/idiot-village/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">L’Idiot du Village</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2014/50/belgische-kueche-bruessel-seeschnecke-caricoles" uniqueId="http://xml.zeit.de/2014/50/belgische-kueche-bruessel-seeschnecke-caricoles" year="2014" issue="50" ressort="Reisen" contenttype="article" publication-date="2014-12-18T02:53:51+00:00" expires="" date-last-modified="2015-05-28T11:23:49+00:00" date-first-released="2014-12-18T02:54:52.874711+00:00" date-last-published="2014-12-20T10:18:18.021478+00:00" last-semantic-change="2014-12-20T10:17:13.809619+00:00">
+            <supertitle py:pytype="str">Belgische Küche</supertitle>
+            <title py:pytype="str">Schnecken, nicht Fritten</title>
+            <text py:pytype="str">Pommes frites, Foie Gras – es fehlt nicht an Spezialitäten in Brüssel. Aber wer den wirklich eigenen Geschmack der Stadt sucht, landet irgendwann bei Schneckenverkäufern.</text>
+            <description py:pytype="str">Pommes frites, Foie Gras – es fehlt nicht an Spezialitäten in Brüssel. Aber wer den wirklich eigenen Geschmack der Stadt sucht, landet irgendwann bei Schneckenverkäufern.</description>
+            <byline py:pytype="str">von Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-12/schnecken-bruessel/" type="jpg" title="Die Schneckenverkäuferin Marie bei der Arbeit. " alt="Die Schneckenverkäuferin Marie bei der Arbeit." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hat schon den belgischen König geküsst: Die Schneckenverkäuferin Marie bei der Arbeit.</bu>
+              <copyright py:pytype="str">© Milan Szypura/StudioX/Haytham Pictures für Die Zeit</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2014/50/hotel-le-berger-bruessel-belgien" uniqueId="http://xml.zeit.de/2014/50/hotel-le-berger-bruessel-belgien" year="2014" issue="50" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-12-18T03:09:25+00:00" expires="" date-last-modified="2015-05-28T11:23:52+00:00" date-first-released="2014-12-18T03:10:25.822990+00:00" date-last-published="2015-01-01T09:37:23.815842+00:00" last-semantic-change="2015-01-01T09:36:17.846794+00:00" author="Merten Worthmann">
+            <supertitle py:pytype="str">Hotel Le Berger</supertitle>
+            <title py:pytype="str">Rendezvous im Zwielicht</title>
+            <text py:pytype="str">Kommt schon, ab ins Bett, macht Liebe, was denn sonst? Das Le Berger in Brüssel war mal ein Stundenhotel – und feiert noch heute die verruchte Atmosphäre von damals.</text>
+            <description py:pytype="str">Kommt schon, ab ins Bett, macht Liebe, was denn sonst? Das Le Berger in Brüssel war mal ein Stundenhotel – und feiert noch heute die verruchte Atmosphäre von damals.</description>
+            <byline py:pytype="str">von Merten Worthmann</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-12/hotel-le-berger/" type="jpg" title="Hotel Le Berger" alt="Hotel Le Berger" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Heller wird’s nicht: Stimmungsbeleuchtung in einem der Zimmer im Hotel Le Berger</bu>
+              <copyright py:pytype="str">© Milan Szypura/StudioX/Haytham Pictures für Die Zeit</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Merten_Worthmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Merten Worthmann</display_name>
+              <location xsi:nil="true"/>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-mode-zona-tortona" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-mode-zona-tortona" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:23:42+00:00" expires="" date-last-modified="2015-05-24T17:48:44+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2015-05-24T17:49:43.761816+00:00" last-semantic-change="2014-04-10T06:00:00+00:00" author="Christian Schüle">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <title py:pytype="str">Mailands geheimer Laufsteg</title>
+            <text py:pytype="str">Die Mailänder Mode entsteht in einem Industriegebiet. In der Zona Tortona liegen die Ateliers von Armani neben der Arbeiterkneipe. Der Hype hat hier niemanden vertrieben.</text>
+            <description py:pytype="str">Die Mailänder Mode entsteht in einem Industriegebiet. In der Zona Tortona liegen die Ateliers von Armani neben der Arbeiterkneipe. Der Hype hat hier niemanden vertrieben.</description>
+            <byline py:pytype="str">von Christian Schüle</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/models-mailand/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Models in der Via Tortona</bu>
+              <copyright py:pytype="str">© Francesco Brigida/contrasto/laif für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Schüle</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-risotto" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-risotto" year="2014" issue="16" ressort="Lebensart" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:25:00+00:00" expires="" date-last-modified="2015-04-25T19:28:27+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2015-04-25T19:29:26.942659+00:00" last-semantic-change="2014-04-14T11:27:29.506892+00:00" author="Martina Bachler">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <title py:pytype="str">Heimat, gesalzen und gerührt</title>
+            <text py:pytype="str">Mailand ist schick, teuer und schnell. Das typische Mailänder Safran-Risotto dagegen ist einfach und bodenständig. Der Sternekoch Davide Oldani bringt beides in Einklang.</text>
+            <description py:pytype="str">Mailand ist schick, teuer und schnell. Das typische Mailänder Safran-Risotto dagegen ist einfach und bodenständig. Der Sternekoch Davide Oldani bringt beides in Einklang.</description>
+            <byline py:pytype="str">von  Martina Bachler</byline>
+            <breadcrumb_title py:pytype="str">Restaurant in Mailand: Das "D’O" von Davide Oldani</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/risotto-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Im Restaurant D’O kommt die Safransoße als Spirale daher.</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Martina_Bachler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Martina Bachler</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-navigli" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-navigli" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:38:37+00:00" expires="" date-last-modified="2014-07-17T07:38:45+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2014-04-17T02:39:37.976605+00:00" last-semantic-change="2014-04-14T10:51:52.997897+00:00">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <title py:pytype="str">Triff mich nachts in Navigli</title>
+            <text py:pytype="str">Einst war Navigli eine arme Gegend, heute ist es ein angesagter internationaler Treffpunkt. Der Autor Andrea De Carlo spricht über sein Viertel – gestern und heute.</text>
+            <description py:pytype="str">Einst war Navigli eine arme Gegend, heute ist es ein angesagter internationaler Treffpunkt. Der Autor Andrea De Carlo spricht über sein Viertel – gestern und heute.</description>
+            <byline py:pytype="str">von  Andrea De Carlo</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/navigli/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Straßenszene in Navigli</bu>
+              <copyright py:pytype="str" link="http://www.annetteschreyer.com">© Annette Schreyer für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-hotels" uniqueId="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-hotels" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T04:28:51+00:00" expires="" date-last-modified="2015-04-25T19:28:25+00:00" date-first-released="2014-04-14T11:03:10.925253+00:00" date-last-published="2015-04-25T19:29:25.215290+00:00" last-semantic-change="2014-04-13T12:24:42.478891+00:00">
+            <supertitle py:pytype="str">City Guide Mailand </supertitle>
+            <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Ob industriell geprägt, mit klösterlicher Vergangenheit oder luxuriös direkt neben der Oper – diese vier charmanten Mailänder Hotels empfiehlt die Redaktion.</text>
+            <description py:pytype="str">Ob industriell geprägt, mit klösterlicher Vergangenheit oder luxuriös direkt neben der Oper – diese vier charmanten Mailänder Hotels empfiehlt die Redaktion.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/hotel-straf/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-hotel-ostello-bello" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-hotel-ostello-bello" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:43:59+00:00" expires="" date-last-modified="2015-04-25T19:28:21+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2015-04-25T19:29:20.791986+00:00" last-semantic-change="2014-04-18T13:43:05.641722+00:00" author="Barbara Baumgartner">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <title py:pytype="str">Lieblingsfarbe bunt</title>
+            <text py:pytype="str">Chinesische Rucksacktouristen, verschlafene Franzosen und ein Restaurator mit Seidenschal – im Ostello Bello ist nicht nur die Einrichtung wild zusammengewürfelt.</text>
+            <description py:pytype="str">Chinesische Rucksacktouristen, verschlafene Franzosen und ein Restaurator mit Seidenschal – im Ostello Bello ist nicht nur die Einrichtung wild zusammengewürfelt.</description>
+            <byline py:pytype="str">von  Barbara Baumgarnter</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/ostello-bello/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Sommer kann kommen: Der Flur führt auf eine der beiden Terrassen des Ostello Bello.</bu>
+              <copyright py:pytype="str" link="http://www.annetteschreyer.com">© Annette Schreyer für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Barbara_Baumgartner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Barbara Baumgartner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-websites-apps" uniqueId="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-websites-apps" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-17T07:38:53+00:00" date-first-released="2014-04-17T11:46:10.843565+00:00" date-last-published="2014-04-17T12:28:13.143150+00:00" last-semantic-change="2014-04-17T11:45:05.305594+00:00" author="Eike Kühl">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <title py:pytype="str">Mailand im Netz</title>
+            <text py:pytype="str">Wo gibt es den besten Aperitif und welche Blogs kennen die geheimen Treffpunkte Mailands? Wir haben einige der besten Websites und Apps für ihre Reise recherchiert.</text>
+            <description py:pytype="str">Wo gibt es den besten Aperitif und welche Blogs kennen die geheimen Treffpunkte Mailands? Wir haben einige der besten Websites und Apps für ihre Reise recherchiert.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/dom-mailand/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Eine Kunstperformance vor dem Mailänder Dom</bu>
+              <copyright py:pytype="str">© Vittorio Zunino Celotto/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-kuenstler-martin-mannig" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-kuenstler-martin-mannig" year="2014" issue="9" ressort="Reisen" contenttype="article" publication-date="2014-02-27T01:49:02+00:00" expires="" date-last-modified="2014-07-17T08:00:44+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-01T16:21:56.610052+00:00" last-semantic-change="2014-02-26T13:53:33.185753+00:00" serie="City Guide" author="Markus Flohr">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Dresden</teaser_supertitle>
+            <title py:pytype="str">Dresden ist auch ohne August stark</title>
+            <text py:pytype="str">Der Dresdner Künstler Martin Mannig verbindet Pop-Art und Folklore. Wer ihm folgt, entdeckt  hinter der barocken Fassade der Stadt noch jede Menge Punk. </text>
+            <description py:pytype="str">Der Dresdner Künstler Martin Mannig verbindet Pop-Art und Folklore. Wer ihm folgt, entdeckt  hinter der barocken Fassade der Stadt noch jede Menge Punk. </description>
+            <byline py:pytype="str">von  Markus Flohr</byline>
+            <breadcrumb_title py:pytype="str">Der Künster Martin Mannig führt durch Dresden</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/dresden-manning/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Martin Mannig am Neustädter Elbufer. Hinter ihm das berühmte Panorama.</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Markus_Flohr/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Markus Flohr</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-karpfen" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-karpfen" year="2014" issue="9" ressort="Lebensart" contenttype="article" publication-date="2014-02-27T05:01:13+00:00" expires="" date-last-modified="2014-07-17T08:00:43+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-02-27T05:02:14.540230+00:00" last-semantic-change="2014-02-20T06:00:00+00:00" serie="City Guide" author="Michael Allmaier">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Dresden</teaser_supertitle>
+            <title py:pytype="str">Ach, du dicker Karpfen!</title>
+            <text py:pytype="str">Die Wurzeln der sächsische Küche liegen begraben unter dem Einfluss von Fürsten und Franzosen. Wer den Geschmack von Dresden sucht, der muss raus ins Umland.</text>
+            <description py:pytype="str">Die Wurzeln der sächsische Küche liegen begraben unter dem Einfluss von Fürsten und Franzosen. Wer den Geschmack von Dresden sucht, der muss raus ins Umland.</description>
+            <byline py:pytype="str">von  Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/ratskeller/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">André Mühlfriedel, der Chef des Ratskellers bei der Arbeit</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-zwinger" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-zwinger" year="2014" issue="9" ressort="Reisen" contenttype="article" publication-date="2014-02-27T03:32:46+00:00" expires="" date-last-modified="2014-07-17T08:00:45+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-10T15:47:00.004633+00:00" last-semantic-change="2014-03-09T15:37:08.553682+00:00" serie="City Guide" author="Stefan Schirmer">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Dresden</teaser_supertitle>
+            <title py:pytype="str">Die Leichtigkeit des Steins</title>
+            <text py:pytype="str">Anbetung: Der Zwinger ist eine barocke Party-Arena und das Herzstück von Dresden. Hier wird die Kunst und das Leben gefeiert – seinem größenwahnsinnigen Erbauer sei Dank.</text>
+            <description py:pytype="str">Anbetung: Der Zwinger ist eine barocke Party-Arena und das Herzstück von Dresden. Hier wird die Kunst und das Leben gefeiert – seinem größenwahnsinnigen Erbauer sei Dank.</description>
+            <byline py:pytype="str">von Stefan Schirmer</byline>
+            <breadcrumb_title py:pytype="str">Zwinger Dresden: Die Leichtigkeit des Steins</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/dresden-zwinger/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Zwinger in Dresden</bu>
+              <copyright py:pytype="str">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Stefan_Schirmer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefan Schirmer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-garnisonkirche" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-garnisonkirche" year="2014" issue="9" ressort="Reisen" contenttype="article" publication-date="2014-02-27T03:03:51+00:00" expires="" date-last-modified="2014-07-17T08:00:41+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-03T07:15:07.755620+00:00" last-semantic-change="2014-03-03T07:14:05.065926+00:00" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Dresden</teaser_supertitle>
+            <title py:pytype="str">Logenplatz vor der Kirche </title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Lea Ruckpaul mag die Garnisonskirche, weil man dort so gut gar nichts tun kann. Hier lässt sie die Stadt passieren. </text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Lea Ruckpaul mag die Garnisonskirche, weil man dort so gut gar nichts tun kann. Hier lässt sie die Stadt passieren. </description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/lea-ruckpaul/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Schauspielerin Lea Ruckpaul</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-nachtleben-clubs" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-nachtleben-clubs" year="2014" issue="9" ressort="Reisen" contenttype="article" publication-date="2014-02-27T03:09:45+00:00" expires="" genre="interview" date-last-modified="2014-07-17T08:00:44+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-07T18:56:44.573364+00:00" last-semantic-change="2014-03-07T18:55:36.749609+00:00" serie="City Guide" author="Cosima Schmitt">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Dresden</teaser_supertitle>
+            <title py:pytype="str">"Schickimicki geht hier nicht"</title>
+            <text py:pytype="str">Junge Bands haben einen leichten Start und Raucher noch eine Kneipe: DJ György de Val über die Szene in der Dresdner Neustadt, dem hippsten Kiez der Stadt.</text>
+            <description py:pytype="str">Junge Bands haben einen leichten Start und Raucher noch eine Kneipe: DJ György de Val über die Szene in der Dresdner Neustadt, dem hippsten Kiez der Stadt.</description>
+            <byline py:pytype="str">von  Cosima Schmitt</byline>
+            <breadcrumb_title py:pytype="str">Clubs in Dresden: Schickimicki geht hier nicht</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/gyorgy-de-val/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">DJ György de Val im Club Sabotage in der Neustadt</bu>
+              <copyright py:pytype="str">© Jannis Chavakis für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Cosima_Schmitt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Cosima Schmitt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-02/dresden-reise-websites-apps-tipps" uniqueId="http://xml.zeit.de/reisen/2014-02/dresden-reise-websites-apps-tipps" year="2014" issue="9" ressort="Reisen" contenttype="article" publication-date="2014-02-27T05:00:17+00:00" expires="" date-last-modified="2014-07-17T08:00:46+00:00" date-first-released="2014-02-27T16:38:47.084463+00:00" date-last-published="2014-02-27T16:38:47.084463+00:00" last-semantic-change="2014-02-27T16:37:26.469686+00:00" serie="City Guide" author="Eike Kühl">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Dresden</teaser_supertitle>
+            <title py:pytype="str">Dresden im Netz</title>
+            <text py:pytype="str">Erst durchklicken, dann durchreisen: Das Internet bietet zahlreiche Reise- und Ausgehtipps für Dresden. Wir stellen einige der besten Apps, Blogs und Websites vor.</text>
+            <description py:pytype="str">Erst durchklicken, dann durchreisen: Das Internet bietet zahlreiche Reise- und Ausgehtipps für Dresden. Wir stellen einige der besten Apps, Blogs und Websites vor.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">Dresden: Reisetipps, Apps und Websites </breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/dresden-panorama/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Silhouette Dresdens</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/147729-stock-photo-himmel-stadt-gelb-herbst-landschaft-turm">© ringo / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2013-10/link-city-guide-rom" year="2013" issue="41" ressort="Reisen" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-rom/index" date-last-modified="2013-10-08T17:16:06+00:00" date-first-released="2013-10-08T17:17:06.003805+00:00" date-last-published="2013-10-08T17:17:06.003805+00:00" last-semantic-change="2013-10-08T17:15:51.061735+00:00" uniqueId="http://xml.zeit.de/reisen/2013-10/link-city-guide-rom">
+            <supertitle py:pytype="str">City Guide Rom</supertitle>
+            <title py:pytype="str">Uralte Stadt in Bewegung </title>
+            <text py:pytype="str">Für unseren CityGuide Rom tanzen wir auf einem Scherbenhaufen, joggen über die Spanische treppe und steigen der Stadt im historischen Fahrstuhl aufs Dach.</text>
+            <description py:pytype="str">Für unseren CityGuide Rom tanzen wir auf einem Scherbenhaufen, joggen über die Spanische treppe und steigen der Stadt im historischen Fahrstuhl aufs Dach.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-rom-teaser-4/" type="jpg" title="City Guide Rom Teaser 4" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Petersdom</bu>
+              <copyright py:pytype="str">© Alessia Pierdomenico/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-muenchen/index" year="2013" issue="32" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-08-15T05:00:00+00:00" expires="" date-last-modified="2014-11-11T11:38:09+00:00" date-first-released="2013-08-15T05:01:05.477022+00:00" date-last-published="2014-09-19T04:01:14.890165+00:00" last-semantic-change="2014-07-17T09:20:12.393582+00:00" serie="City Guide" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-muenchen/index">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide München</title>
+            <text py:pytype="str">München ist viel mehr als Schickeria: anarchisch, familiär und stets zu feiern bereit. Wir lassen die Kruste vom Schweinsbraten krachen und springen nachts in die Isar.</text>
+            <description py:pytype="str">München ist viel mehr als Schickeria: anarchisch, familiär und stets zu feiern bereit. Wir lassen die Kruste vom Schweinsbraten krachen und springen nachts in die Isar.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-muenchen-teaser-3/" type="jpg" title="City Guide München Teaser 3" align="left" publication-date="" expires="">
+              <bu py:pytype="str">The sun sets over Munich's skyline with landmark "Church of our Lady" (Frauenkirche) after Bavaria's state elections on September 28, 2008. The CSU, the Bavarian sister party of German Chancellor Angela Merkel's conservative Christian Democratic Party (CDU) suffered a drubbing in the Bavarian state elections exit polls showed, losing its decades-old absolute majority.   AFP PHOTO   DDP/ JOERG KOCH     GERMANY OUT
+        (Photo credit should read JOERG KOCH/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Jörg Koch/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2013-06/link-cityguide-stockholm" year="2013" issue="23" ressort="Reisen" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-stockholm/index" date-last-modified="2013-07-02T08:02:56+00:00" date-first-released="2013-07-02T08:03:06.869158+00:00" date-last-published="2013-07-02T08:03:55.976988+00:00" last-semantic-change="2013-07-02T08:01:49.613648+00:00" uniqueId="http://xml.zeit.de/reisen/2013-06/link-cityguide-stockholm">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Design, Beats und Salz </title>
+            <text py:pytype="str">Stockholm ist innovativ, supermodern – und schrullig. Wir tanzen bei Tag unter einer Brücke, essen süßen Hering und finden die schwedische Seele im Secondhandladen.
+</text>
+            <description py:pytype="str">Stockholm ist innovativ, supermodern – und schrullig. Wir tanzen bei Tag unter einer Brücke, essen süßen Hering und finden die schwedische Seele im Secondhandladen.
+</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm/" type="jpg" title="Stockholm" align="left" publication-date="" expires="">
+              <bu py:pytype="str">STOCKHOLM, SWEDEN - JUNE 07: People enjoy the atmosphere in a city square as preparations for the wedding of Princess Madeleine of Sweden and Christopher O'Neill continues on June 7, 2013 in Stockholm, Sweden. (Photo by Chris Jackson/Getty Images) </bu>
+              <copyright py:pytype="str">© Chris Jackson/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2013-04/link-city-guide-madrid-themenseite" year="2013" issue="16" ressort="Reisen" contenttype="link" publication-date="2013-04-18T04:39:32+00:00" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-madrid/index" date-last-modified="2013-04-27T14:21:57+00:00" date-first-released="2013-04-18T04:40:34.259032+00:00" date-last-published="2013-04-27T14:22:41.992284+00:00" last-semantic-change="2013-04-16T09:40:23.973572+00:00" serie="City Guide" uniqueId="http://xml.zeit.de/reisen/2013-04/link-city-guide-madrid-themenseite">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Spaniens bunte Hauptstadt</title>
+            <text py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</text>
+            <description py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Königspalast in Madrid</bu>
+              <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2013-03/link-city-guide-wien" year="2013" issue="10" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-wien/index" date-last-modified="2013-03-05T11:30:21+00:00" date-first-released="2013-03-05T11:31:21.442371+00:00" date-last-published="2013-03-05T11:31:21.442371+00:00" last-semantic-change="2013-03-05T11:30:04.474673+00:00" contenttype="link" uniqueId="http://xml.zeit.de/reisen/2013-03/link-city-guide-wien">
+            <supertitle py:pytype="str">City Guide </supertitle>
+            <title py:pytype="str">Budenzauber und Ballsaison</title>
+            <text py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt bei
+Nacht, essen Schnitzel und schlafen in einer Luxus-WG. </text>
+            <description py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt bei
+Nacht, essen Schnitzel und schlafen in einer Luxus-WG. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-01/cityguide-wien/" type="jpg" title="Cityguide Wien" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mystisch: Wien im Nebel</bu>
+              <copyright py:pytype="str">© Heinz-Peter Bader/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-10/city-guide-prag-link" year="2012" issue="43" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-prag/index" date-last-modified="2012-10-24T08:12:59+00:00" date-first-released="2012-10-23T14:42:05.719589+00:00" date-last-published="2012-10-24T08:13:59.347590+00:00" last-semantic-change="2012-10-24T07:41:19.887580+00:00" contenttype="link" uniqueId="http://xml.zeit.de/reisen/2012-10/city-guide-prag-link">
+            <supertitle py:pytype="str">City Guide </supertitle>
+            <title py:pytype="str">Prag – schön, alt und ziemlich schräg</title>
+            <text py:pytype="str">Im City Guide fahren wir Tram mit dem Schriftsteller Jaroslav Rudiš, essen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</text>
+            <description py:pytype="str">Im City Guide fahren wir Tram mit dem Schriftsteller Jaroslav Rudiš, essen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/kampa-prag/" type="jpg" alt="Ein Herbsttag auf der Halbinsel Kampa" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Herbsttag auf der Halbinsel Kampa</bu>
+              <copyright py:pytype="str">© Reuters / Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-07/link-themenseite-city-guide-london" year="2012" issue="27" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-london" date-last-modified="2012-07-02T11:54:34+00:00" date-first-released="2012-07-02T11:11:05.484423+00:00" date-last-published="2012-07-02T11:11:05.484423+00:00" last-semantic-change="2012-07-02T11:54:27.487955+00:00" contenttype="link" uniqueId="http://xml.zeit.de/reisen/2012-07/link-themenseite-city-guide-london">
+            <supertitle py:pytype="str">City Guide London</supertitle>
+            <title py:pytype="str">Mit London möchte man sein Leben verbringen</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatklubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatklubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg-link" year="2012" issue="36" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-hamburg/index" date-last-modified="2012-08-31T16:16:38+00:00" date-first-released="2012-08-31T16:17:38.612593+00:00" date-last-published="2012-08-31T16:17:38.612593+00:00" last-semantic-change="2012-08-31T16:16:17.757348+00:00" contenttype="link" uniqueId="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg-link">
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburg dreht sich ums Wasser</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2011-09/paris" year="2011" issue="37" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-paris/index" date-last-modified="2011-12-01T17:40:47+00:00" date-first-released="2011-09-09T08:54:06.553858+00:00" date-last-published="2011-12-01T17:41:47.076730+00:00" last-semantic-change="2011-09-09T08:52:42.723530+00:00" contenttype="link" uniqueId="http://xml.zeit.de/reisen/2011-09/paris">
+            <supertitle py:pytype="str">City Guide Paris</supertitle>
+            <title py:pytype="str">Auf Entdeckungstour in der Stadt an der Seine</title>
+            <text py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel.  </text>
+            <description py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel.  </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-09/paris-link/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2011-11/link-themenseite-istanbul" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-istanbul/" date-last-modified="2012-07-02T11:25:49+00:00" date-first-released="2011-11-30T14:49:16.172391+00:00" date-last-published="2011-11-30T14:49:16.172391+00:00" last-semantic-change="2011-12-01T17:33:07.322168+00:00" contenttype="link" uniqueId="http://xml.zeit.de/reisen/2011-11/link-themenseite-istanbul">
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Eine Metropole voller Kulturschätze</title>
+            <text py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </text>
+            <description py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/moschee-istanbul-city-guide/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2011-10/link-barcelona" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" ns1:href="http://www.zeit.de/themen/reisen/cityguide-barcelona/index" date-last-modified="2013-02-08T16:15:14+00:00" date-first-released="2011-10-18T14:52:11.387695+00:00" date-last-published="2013-02-08T16:16:13.966291+00:00" last-semantic-change="2011-10-18T14:50:45.341919+00:00" contenttype="link" uniqueId="http://xml.zeit.de/reisen/2011-10/link-barcelona">
+            <supertitle py:pytype="str">City Guide Barcelona</supertitle>
+            <title py:pytype="str">Design und heitere Leichtigkeit</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/barcelona-3/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Gunnar Knechtel für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+          <referenced_cp>http://xml.zeit.de/themen/reisen/cityguide-bruessel/index</referenced_cp>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="98d4657d-67b5-4dd3-a3f5-01e60987d6cf" title="City Guide Glasgow" visible="True" read_more="City Guide Glasgow" read_more_url="http://www.zeit.de/themen/reisen/cityguide-glasgow/index">
+          <block href="http://xml.zeit.de/2014/44/glasgow-schottland-strassenmusik-cityguide" uniqueId="http://xml.zeit.de/2014/44/glasgow-schottland-strassenmusik-cityguide" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:23:13+00:00" expires="" date-last-modified="2015-08-11T08:02:58+00:00" date-first-released="2014-11-06T03:24:13.203005+00:00" date-last-published="2014-11-06T21:49:44.650893+00:00" last-semantic-change="2014-11-06T21:48:40.061609+00:00" author="Karin Ceballos Betancur">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Ich bin eine Band aus Schottland</title>
+            <text py:pytype="str">Primal Scream, Franz Ferdinand, Belle and Sebastian – kaum eine britische Stadt hat so viele große Musiker hervorgebracht wie Glasgow. Ob man da mal mitspielen darf?</text>
+            <description py:pytype="str">Primal Scream, Franz Ferdinand, Belle and Sebastian – kaum eine britische Stadt hat so viele große Musiker hervorgebracht wie Glasgow. Ob man da mal mitspielen darf?</description>
+            <byline py:pytype="str">von Karin Ceballos Betancur</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/glasgow-george-square/" type="jpg" title="Menschen tanzen auf George Square in Glasgow." alt="Menschen tanzen auf George Square in Glasgow." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Punk oder Dudelsack – in Glasgow muss man sich nicht entscheiden.</bu>
+              <copyright py:pytype="str">© eff J Mitchell/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/44/glasgow-haggis" uniqueId="http://xml.zeit.de/2014/44/glasgow-haggis" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:53:32+00:00" expires="" date-last-modified="2014-11-15T18:21:25+00:00" date-first-released="2014-11-06T03:54:33.382296+00:00" date-last-published="2014-11-15T18:22:25.254075+00:00" last-semantic-change="2014-11-15T18:21:16.257733+00:00" author="Michael Allmaier">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Essen mit Herz</title>
+            <text py:pytype="str">Wenn man Tiere schon schlachtet, sollte man sie dann nicht auch komplett verarbeiten? Eine Verkostung des alten Gerichts Haggis fördert Schottlands innere Werte zutage.</text>
+            <description py:pytype="str">Wenn man Tiere schon schlachtet, sollte man sie dann nicht auch komplett verarbeiten? Eine Verkostung des alten Gerichts Haggis fördert Schottlands innere Werte zutage.</description>
+            <byline py:pytype="str">von Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/haggis-stravaigin/" type="jpg" title="Haggis" alt="Haggis" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Haggis (vorne rechts) mit Steckrüben- und Kartoffelbrei</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/44/glasgow-grasshoppers-hotel" uniqueId="http://xml.zeit.de/2014/44/glasgow-grasshoppers-hotel" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:36:27+00:00" expires="" date-last-modified="2014-11-10T20:29:19+00:00" date-first-released="2014-11-06T03:37:27.697707+00:00" date-last-published="2014-11-10T20:30:19.155755+00:00" last-semantic-change="2014-11-10T20:29:10.357584+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Unter den Wolken</title>
+            <text py:pytype="str">Nicht nur die Coen-Brüder übernachten in einem Bahn-Verwaltungsgebäude, wenn sie in Glasgow sind: Das Grasshoppers ist wie die Stadt – auf den zweiten Blick großartig.</text>
+            <description py:pytype="str">Nicht nur die Coen-Brüder übernachten in einem Bahn-Verwaltungsgebäude, wenn sie in Glasgow sind: Das Grasshoppers ist wie die Stadt – auf den zweiten Blick großartig.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/grasshoppers-glasgow/" type="jpg" title="Zimmer im Grasshoppers Glasgow" alt="Zimmer im Grasshoppers Glasgow" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Einst Bahnarbeiter-Herberge, jetzt schickes Hotel: Zimmer im Grasshoppers</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/44/glasgow-botanischer-garten-a-l-kennedy" uniqueId="http://xml.zeit.de/2014/44/glasgow-botanischer-garten-a-l-kennedy" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:36:05+00:00" expires="" date-last-modified="2015-08-11T08:02:56+00:00" date-first-released="2014-11-06T03:37:07.065910+00:00" date-last-published="2014-11-06T03:37:40.363736+00:00" last-semantic-change="2014-10-23T06:00:00+00:00">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Ein bisschen Frieden im grünen Herzen</title>
+            <text py:pytype="str">Verliebt, verzweifelt oder Tourist – der Botanische  Garten in Glasgow macht alle froh. Die Autorin A.L. Kennedy über einen Ort, der sich selbst an nassen Tagen lohnt.</text>
+            <description py:pytype="str">Verliebt, verzweifelt oder Tourist – der Botanische  Garten in Glasgow macht alle froh. Die Autorin A.L. Kennedy über einen Ort, der sich selbst an nassen Tagen lohnt.</description>
+            <byline py:pytype="str">von A.L. Kennedy</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/botanischer-garten-glasgow-2/" type="jpg" title="Die Botanischen Gärten in Glasgow" alt="Die Botanischen Gärten in Glasgow" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Botanischen Gärten in Glasgow</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/" rel="nofollow">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-11/glasgow-restaurant-tipps" uniqueId="http://xml.zeit.de/reisen/2014-11/glasgow-restaurant-tipps" year="2014" issue="45" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T05:12:24+00:00" expires="" date-last-modified="2014-11-14T10:17:39+00:00" date-first-released="2014-11-06T05:13:26.143900+00:00" date-last-published="2014-11-14T10:18:39.401170+00:00" last-semantic-change="2014-11-03T19:10:54.605645+00:00">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">Die Restauranttipps der Redaktion</title>
+            <text py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</text>
+            <description py:pytype="str">Es muss nicht immer Haggis sein: In diesen Glasgower Restaurants gibt es frische Krustentiere, Fish 'n' Chips im Retro-Ambiente und sogar leichte schottische Küche.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/crabbshakk/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Carol Ann Peacock</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2014/44/glasgow-nathan-coley-kunst" uniqueId="http://xml.zeit.de/2014/44/glasgow-nathan-coley-kunst" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-11-06T03:14:14+00:00" expires="" genre="interview" date-last-modified="2015-08-11T08:02:57+00:00" date-first-released="2014-11-06T03:15:15.608859+00:00" date-last-published="2014-11-25T19:44:36.721446+00:00" last-semantic-change="2014-11-25T19:37:17.350135+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">"Wir sind hier nicht vom Himmel gefallen!"</title>
+            <text py:pytype="str">Es gilt als "Wunder von Glasgow", dass dort so viele Künstler leben. Nathan Coley baut Sakralbauten nach. Religion ist sein Thema. Aber Wunder? Da wird er ärgerlich.</text>
+            <description py:pytype="str">Es gilt als "Wunder von Glasgow", dass dort so viele Künstler leben. Nathan Coley baut Sakralbauten nach. Religion ist sein Thema. Aber Wunder? Da wird er ärgerlich.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-11/nathan-coley/" type="jpg" title="Nathan Coley vor seinem Werk &quot;Lamp of Sacrifice&quot;" alt="Nathan Coley vor seinem Werk &quot;Lamp of Sacrifice&quot;" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nathan Coley vor seinem Werk "Lamp of Sacrifice" in der städtischen Galerie GoMa</bu>
+              <copyright py:pytype="str" link="http://www.martinhunter.co.uk/">© Martin Hunter für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-glasgow/" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-glasgow/" date-last-modified="2015-08-11T08:02:48+00:00" date-first-released="" date-last-published="" last-semantic-change="2014-06-27T10:41:49.065153+00:00"/>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-glasgow/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-glasgow/index" year="2014" issue="44" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2014-11-06T06:00:46+00:00" expires="" date-last-modified="2015-08-11T08:02:47+00:00" date-first-released="2014-11-06T06:01:48.716588+00:00" date-last-published="2015-08-11T08:03:46.531588+00:00" last-semantic-change="2015-08-11T08:01:37.593912+00:00">
+            <supertitle py:pytype="str">Glasgow</supertitle>
+            <title py:pytype="str">City Guide Glasgow</title>
+            <text py:pytype="str">Glasgow ist verrufen und doch furchtbar herzlich. Wir denken beim Haggis an klirrende Schwerter, lüften das Geheimnis der Kunststadt und singen Karaoke im Pub.</text>
+            <description py:pytype="str">Glasgow ist verrufen und doch furchtbar herzlich. Wir denken beim Haggis an klirrende Schwerter, lüften das Geheimnis der Kunststadt und singen Karaoke im Pub.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">City Guide Glasgow</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-05/city-guide-glasgow/" type="jpg" title="City Guide Glasgow" align="left" publication-date="" expires="">
+              <bu py:pytype="str">A bagpiper plays in central Glasgow May 14, 2007, two days before UEFA Cup final soccer match between Espanyol and Sevilla. REUTERS/Marcelo del Pozo (BRITAIN) - RTR1POTQ</bu>
+              <copyright py:pytype="str">© [M] Marcelo del Pozo/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-kuenstler-martin-mannig" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-kuenstler-martin-mannig" year="2014" issue="9" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-02-27T01:49:02+00:00" expires="" date-last-modified="2014-07-17T08:00:44+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-01T16:21:56.610052+00:00" last-semantic-change="2014-02-26T13:53:33.185753+00:00" author="Markus Flohr">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <title py:pytype="str">Dresden ist auch ohne August stark</title>
+            <text py:pytype="str">Der Dresdner Künstler Martin Mannig verbindet Pop-Art und Folklore. Wer ihm folgt, entdeckt  hinter der barocken Fassade der Stadt noch jede Menge Punk. </text>
+            <description py:pytype="str">Der Dresdner Künstler Martin Mannig verbindet Pop-Art und Folklore. Wer ihm folgt, entdeckt  hinter der barocken Fassade der Stadt noch jede Menge Punk. </description>
+            <byline py:pytype="str">von  Markus Flohr</byline>
+            <breadcrumb_title py:pytype="str">Der Künster Martin Mannig führt durch Dresden</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/dresden-manning/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Martin Mannig am Neustädter Elbufer. Hinter ihm das berühmte Panorama.</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Markus_Flohr/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Markus Flohr</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-karpfen" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-karpfen" year="2014" issue="9" ressort="Lebensart" serie="City Guide" contenttype="article" publication-date="2014-02-27T05:01:13+00:00" expires="" date-last-modified="2014-07-17T08:00:43+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-02-27T05:02:14.540230+00:00" last-semantic-change="2014-02-20T06:00:00+00:00" author="Michael Allmaier">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <title py:pytype="str">Ach, du dicker Karpfen!</title>
+            <text py:pytype="str">Die Wurzeln der sächsische Küche liegen begraben unter dem Einfluss von Fürsten und Franzosen. Wer den Geschmack von Dresden sucht, der muss raus ins Umland.</text>
+            <description py:pytype="str">Die Wurzeln der sächsische Küche liegen begraben unter dem Einfluss von Fürsten und Franzosen. Wer den Geschmack von Dresden sucht, der muss raus ins Umland.</description>
+            <byline py:pytype="str">von  Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/ratskeller/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">André Mühlfriedel, der Chef des Ratskellers bei der Arbeit</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-zwinger" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-zwinger" year="2014" issue="9" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-02-27T03:32:46+00:00" expires="" date-last-modified="2014-07-17T08:00:45+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-10T15:47:00.004633+00:00" last-semantic-change="2014-03-09T15:37:08.553682+00:00" author="Stefan Schirmer">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <title py:pytype="str">Die Leichtigkeit des Steins</title>
+            <text py:pytype="str">Anbetung: Der Zwinger ist eine barocke Party-Arena und das Herzstück von Dresden. Hier wird die Kunst und das Leben gefeiert – seinem größenwahnsinnigen Erbauer sei Dank.</text>
+            <description py:pytype="str">Anbetung: Der Zwinger ist eine barocke Party-Arena und das Herzstück von Dresden. Hier wird die Kunst und das Leben gefeiert – seinem größenwahnsinnigen Erbauer sei Dank.</description>
+            <byline py:pytype="str">von Stefan Schirmer</byline>
+            <breadcrumb_title py:pytype="str">Zwinger Dresden: Die Leichtigkeit des Steins</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/dresden-zwinger/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Zwinger in Dresden</bu>
+              <copyright py:pytype="str">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Stefan_Schirmer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefan Schirmer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-garnisonkirche" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-garnisonkirche" year="2014" issue="9" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-02-27T03:03:51+00:00" expires="" date-last-modified="2014-07-17T08:00:41+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-03T07:15:07.755620+00:00" last-semantic-change="2014-03-03T07:14:05.065926+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <title py:pytype="str">Logenplatz vor der Kirche </title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Lea Ruckpaul mag die Garnisonskirche, weil man dort so gut gar nichts tun kann. Hier lässt sie die Stadt passieren. </text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Lea Ruckpaul mag die Garnisonskirche, weil man dort so gut gar nichts tun kann. Hier lässt sie die Stadt passieren. </description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/lea-ruckpaul/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Schauspielerin Lea Ruckpaul</bu>
+              <copyright py:pytype="str" link="http://www.stephanfloss.com">© Stephan Floss für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/09/city-guide-dresden-nachtleben-clubs" uniqueId="http://xml.zeit.de/2014/09/city-guide-dresden-nachtleben-clubs" year="2014" issue="9" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-02-27T03:09:45+00:00" expires="" genre="interview" date-last-modified="2014-07-17T08:00:44+00:00" date-first-released="2014-02-20T06:00:00+00:00" date-last-published="2014-03-07T18:56:44.573364+00:00" last-semantic-change="2014-03-07T18:55:36.749609+00:00" author="Cosima Schmitt">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <title py:pytype="str">"Schickimicki geht hier nicht"</title>
+            <text py:pytype="str">Junge Bands haben einen leichten Start und Raucher noch eine Kneipe: DJ György de Val über die Szene in der Dresdner Neustadt, dem hippsten Kiez der Stadt.</text>
+            <description py:pytype="str">Junge Bands haben einen leichten Start und Raucher noch eine Kneipe: DJ György de Val über die Szene in der Dresdner Neustadt, dem hippsten Kiez der Stadt.</description>
+            <byline py:pytype="str">von  Cosima Schmitt</byline>
+            <breadcrumb_title py:pytype="str">Clubs in Dresden: Schickimicki geht hier nicht</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/gyorgy-de-val/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">DJ György de Val im Club Sabotage in der Neustadt</bu>
+              <copyright py:pytype="str">© Jannis Chavakis für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Cosima_Schmitt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Cosima Schmitt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-02/dresden-reise-websites-apps-tipps" uniqueId="http://xml.zeit.de/reisen/2014-02/dresden-reise-websites-apps-tipps" year="2014" issue="9" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-02-27T05:00:17+00:00" expires="" date-last-modified="2014-07-17T08:00:46+00:00" date-first-released="2014-02-27T16:38:47.084463+00:00" date-last-published="2014-02-27T16:38:47.084463+00:00" last-semantic-change="2014-02-27T16:37:26.469686+00:00" author="Eike Kühl">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <title py:pytype="str">Dresden im Netz</title>
+            <text py:pytype="str">Erst durchklicken, dann durchreisen: Das Internet bietet zahlreiche Reise- und Ausgehtipps für Dresden. Wir stellen einige der besten Apps, Blogs und Websites vor.</text>
+            <description py:pytype="str">Erst durchklicken, dann durchreisen: Das Internet bietet zahlreiche Reise- und Ausgehtipps für Dresden. Wir stellen einige der besten Apps, Blogs und Websites vor.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">Dresden: Reisetipps, Apps und Websites </breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/dresden-panorama/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Silhouette Dresdens</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/147729-stock-photo-himmel-stadt-gelb-herbst-landschaft-turm">© ringo / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/50/city-guide-st-petersburg-moderne-buehnen" uniqueId="http://xml.zeit.de/2013/50/city-guide-st-petersburg-moderne-buehnen" year="2013" issue="50" ressort="Reisen" contenttype="article" publication-date="2013-12-12T03:12:05+00:00" expires="" date-last-modified="2014-07-17T07:59:45+00:00" date-first-released="2013-12-05T06:00:00+00:00" date-last-published="2013-12-15T19:43:47.517749+00:00" last-semantic-change="2013-12-15T19:42:39.685678+00:00" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide St. Petersburg</teaser_supertitle>
+            <title py:pytype="str">Auf dem Sprung in die Moderne</title>
+            <text py:pytype="str">Das altehrwürdige Mariinski-Theater ist weltberühmt. Aber wo bietet St. Petersburg der Moderne eine Bühne? Ein Choreograf will der konservativen Stadt Beine machen.</text>
+            <description py:pytype="str">Das altehrwürdige Mariinski-Theater ist weltberühmt. Aber wo bietet St. Petersburg der Moderne eine Bühne? Ein Choreograf will der konservativen Stadt Beine machen.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-12/petersburg-ballet/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Schüler der Boris Eifman Tanzakademie auf dem Schlossplatz</bu>
+              <copyright py:pytype="str" link="http://www.emaxphotography.com/">© Eugenia Maximova/Agentur Anzenberger für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/50/city-guide-st-petersburg-nachtleben-clubs" uniqueId="http://xml.zeit.de/2013/50/city-guide-st-petersburg-nachtleben-clubs" year="2013" issue="50" ressort="Reisen" contenttype="article" publication-date="2013-12-12T04:24:36+00:00" expires="" date-last-modified="2014-07-17T07:59:46+00:00" date-first-released="2013-12-05T06:00:00+00:00" date-last-published="2013-12-17T07:43:50.730455+00:00" last-semantic-change="2013-12-17T07:42:44.541810+00:00" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide St. Petersburg</teaser_supertitle>
+            <title py:pytype="str">Das bisschen Kiez muss sein</title>
+            <text py:pytype="str">Bars mit Fototapete und Russen, die es langsam angehen lassen: Clubbesitzerin Anna-Christin Albers spricht über das Nachtleben und den neuen St. Petersburger Stil.</text>
+            <description py:pytype="str">Bars mit Fototapete und Russen, die es langsam angehen lassen: Clubbesitzerin Anna-Christin Albers spricht über das Nachtleben und den neuen St. Petersburger Stil.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-12/dacha/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Anna-Christin Albers hat die Datscha-Bar vor zehn Jahren eröffnet.</bu>
+              <copyright py:pytype="str" link="http://www.emaxphotography.com/">© Eugenia Maximova/Agentur Anzenberger für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2013-12/reise-st-petersburg-online-tipps" uniqueId="http://xml.zeit.de/reisen/2013-12/reise-st-petersburg-online-tipps" year="2013" issue="50" ressort="Reisen" contenttype="article" publication-date="2013-12-12T04:21:14+00:00" expires="" date-last-modified="2014-07-17T01:35:58+00:00" date-first-released="2013-12-12T04:22:15.842166+00:00" date-last-published="2014-07-17T01:36:57.189082+00:00" last-semantic-change="2013-12-12T05:42:24.645644+00:00" serie="City Guide" author="Eike Kühl">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide </supertitle>
+            <teaser_supertitle py:pytype="str">City Guide </teaser_supertitle>
+            <title py:pytype="str">St. Petersburg im Netz</title>
+            <text py:pytype="str">Eine Videoreise durch die Eremitage, Apps zur Orientierung vor Ort und Tipps zum Ausgehen: Wir haben die besten Websites für die Planung Ihres Städtetrips recherchiert.</text>
+            <description py:pytype="str">Eine Videoreise durch die Eremitage, Apps zur Orientierung vor Ort und Tipps zum Ausgehen: Wir haben die besten Websites für die Planung Ihres Städtetrips recherchiert.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">St. Petersburg: Reisetipps, Apps und Websites </breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2013-12/blutkirche-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">St. Petersburg mit der Auferstehungskirche im Hintergrund</bu>
+              <copyright py:pytype="str" link="http://www.emaxphotography.com/">© Eugenia Maximova/Agentur Anzenberger für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/50/city-guide-st-petersburg-boeuf-stroganow" uniqueId="http://xml.zeit.de/2013/50/city-guide-st-petersburg-boeuf-stroganow" year="2013" issue="50" ressort="Lebensart" contenttype="article" publication-date="2013-12-12T04:53:49+00:00" expires="" date-last-modified="2014-07-17T07:59:42+00:00" date-first-released="2013-12-05T06:00:00+00:00" date-last-published="2013-12-14T20:34:53.439788+00:00" last-semantic-change="2013-12-14T20:33:50.387198+00:00" serie="City Guide" author="Michael Allmaier">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide St. Petersburg</teaser_supertitle>
+            <title py:pytype="str">Ganz schön ausgebœuft</title>
+            <text py:pytype="str">Um das Ragout Bœuf Stroganow ranken sich Legenden. Ein Fürst erfand es für Überraschungsgäste. Ein Besuch bei Wassili Malitschew, der schon für die Stroganows kochte.</text>
+            <description py:pytype="str">Um das Ragout Bœuf Stroganow ranken sich Legenden. Ein Fürst erfand es für Überraschungsgäste. Ein Besuch bei Wassili Malitschew, der schon für die Stroganows kochte.</description>
+            <byline py:pytype="str">von Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-12/boeuf-stroganoff/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Boeuf Stroganow, wie Chefkoch Wassili Malitschew es im Restaurant Metschta Molochowez reicht.</bu>
+              <copyright py:pytype="str" link="http://www.emaxphotography.com/">© Eugenia Maximova/Agentur Anzenberger für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2013-12/city-guide-st-petersburg-hoteltipps" uniqueId="http://xml.zeit.de/reisen/2013-12/city-guide-st-petersburg-hoteltipps" year="2013" issue="50" ressort="Reisen" contenttype="article" publication-date="2013-12-12T04:45:55+00:00" expires="" date-last-modified="2014-07-17T07:59:46+00:00" date-first-released="2013-12-12T04:46:55.830412+00:00" date-last-published="2013-12-12T04:46:55.830412+00:00" last-semantic-change="2013-12-10T10:45:40.462575+00:00" serie="City Guide">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide St. Petersburg</teaser_supertitle>
+            <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Schlafen im Familienhotel, kostengünstig im Designer-Hostel oder doch lieber russisch-rustikal? Die Redaktion stellt fünf charmante St. Petersburger Hotels vor.</text>
+            <description py:pytype="str">Schlafen im Familienhotel, kostengünstig im Designer-Hostel oder doch lieber russisch-rustikal? Die Redaktion stellt fünf charmante St. Petersburger Hotels vor.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">Hotel-Tipps in St. Petersburg</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2013-12/location-hostel/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2013/50/city-guide-st-petersburg-christi-auferstehungs-kathedrale" uniqueId="http://xml.zeit.de/2013/50/city-guide-st-petersburg-christi-auferstehungs-kathedrale" year="2013" issue="50" ressort="Reisen" contenttype="article" publication-date="2013-12-12T03:36:27+00:00" expires="" date-last-modified="2014-07-17T07:59:43+00:00" date-first-released="2013-12-05T06:00:00+00:00" date-last-published="2013-12-12T03:37:28.850804+00:00" last-semantic-change="2013-12-10T12:43:26.513575+00:00" serie="City Guide" author="Lena Gorelik">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide St. Petersburg</teaser_supertitle>
+            <title py:pytype="str">Ein Denkmal zaristischer Pracht</title>
+            <text py:pytype="str">Sie war bereits eine Konzerthalle, ein Museum und ist mehr Denkmal als Kirche: Die Blutskirche sieht anders aus als der Rest und ist doch typisch für St. Petersburg.</text>
+            <description py:pytype="str">Sie war bereits eine Konzerthalle, ein Museum und ist mehr Denkmal als Kirche: Die Blutskirche sieht anders aus als der Rest und ist doch typisch für St. Petersburg.</description>
+            <byline py:pytype="str">von Lena Gorelik</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-12/blutkirche/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Auferstehungskirche oder auch Blutkirche</bu>
+              <copyright py:pytype="str" link="http://www.emaxphotography.com/">© Eugenia Maximova/Agentur Anzenberger für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Lena_Gorelik/index" publication-date="" expires="">
+              <display_name py:pytype="str">Lena Gorelik</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2014-01/link-city-guide-st-petersburg" uniqueId="http://xml.zeit.de/reisen/2014-01/link-city-guide-st-petersburg" year="2014" issue="5" ressort="Reisen" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-st-petersburg/index" date-last-modified="2014-01-28T13:22:10+00:00" date-first-released="2014-01-28T13:23:09.833617+00:00" date-last-published="2014-01-28T13:23:09.833617+00:00" last-semantic-change="2014-01-28T13:21:56.913778+00:00" serie="City Guide">
+            <supertitle py:pytype="str">City Guide St. Petersburg </supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Eine Stadt auf dem Sprung </title>
+            <text py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</text>
+            <description py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-12/st-petersburg-kirche/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Auferstehungskirche in St. Petersburg</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/191465-stock-photo-gold-kirche-reisefotografie-analog-material-russland">© Irina / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-02/tui-delfin-orca-shows-reiseveranstalter" year="2014" issue="6" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-04T01:07:56+00:00" date-first-released="2014-02-04T09:50:16.124737+00:00" date-last-published="2014-07-04T03:08:55+00:00" last-semantic-change="2014-02-04T10:53:57.089558+00:00" uniqueId="http://xml.zeit.de/reisen/2014-02/tui-delfin-orca-shows-reiseveranstalter">
+            <supertitle py:pytype="str">Tourismus</supertitle>
+            <title py:pytype="str">TUI verzichtet auf Reisen zu Delfin- und Orca-Shows</title>
+            <text py:pytype="str">Der Reiseanbieter zieht sich weltweit aus dem Geschäft mit Ausflügen zu Delfinarien und Wal-Shows zurück. An der Tierhaltung gibt es viel Kritik.</text>
+            <description py:pytype="str">Der Reiseanbieter zieht sich weltweit aus dem Geschäft mit Ausflügen zu Delfinarien und Wal-Shows zurück. An der Tierhaltung gibt es viel Kritik.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-05/orca-wal-san-diego/" type="jpg" alt="San Diego, Orca" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Reiseveranstalter: keine Reisen mehr zu Walshows wie hier in San Diego 2014</bu>
+              <copyright py:pytype="str">© REUTERS/Mike Blake</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Tourismus</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2014/02/teneriffa-wein-anbau-vulkan" year="2014" issue="2" ressort="Reisen" contenttype="article" publication-date="2014-01-09T03:11:33+00:00" expires="" date-last-modified="2014-01-11T16:17:11+00:00" date-first-released="2014-01-02T06:00:00+00:00" date-last-published="2014-01-11T16:18:11.643751+00:00" last-semantic-change="2014-01-11T15:50:56.999205+00:00" uniqueId="http://xml.zeit.de/2014/02/teneriffa-wein-anbau-vulkan" author="Hans W. Korfmann">
+            <supertitle py:pytype="str">Teneriffa</supertitle>
+            <title py:pytype="str">Wein auf dem Vulkan</title>
+            <text py:pytype="str">Im Winter haben auf Teneriffa die Garagenwirtschaften Saison: Zwischen Ziegenstall und Plastiktrauben wird hier der junge Rote getrunken. Besucher lieben die Atmosphäre.</text>
+            <description py:pytype="str">Im Winter haben auf Teneriffa die Garagenwirtschaften Saison: Zwischen Ziegenstall und Plastiktrauben wird hier der junge Rote getrunken. Besucher lieben die Atmosphäre.</description>
+            <byline py:pytype="str">von Hans W. Korfmann</byline>
+            <image base-id="http://xml.zeit.de/reisen/2014-01/s49-teneriffa/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Vulkan Teide auf Teneriffa</bu>
+              <copyright py:pytype="str" link="http://www.flickr.com/photos/cfaobam/11533576186/in/photostream/">CC BY 2.0: Carsten Frenzl/Flickr</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Teneriffa</teaser_supertitle>
+            <breadcrumb_title py:pytype="str">Teneriffa: Junger Wein in den Guachinches genießen</breadcrumb_title>
+            <author href="http://xml.zeit.de/autoren/K/Hans_Korfmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Hans W. Korfmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/47/kenia-segera-retreat-jochen-zeitz" year="2013" issue="47" ressort="Reisen" contenttype="article" publication-date="2013-11-21T03:17:49+00:00" expires="" date-last-modified="2013-11-25T08:50:47+00:00" date-first-released="2013-11-14T06:00:00+00:00" date-last-published="2013-11-25T08:51:47.261553+00:00" last-semantic-change="2013-11-25T08:50:41.078910+00:00" uniqueId="http://xml.zeit.de/2013/47/kenia-segera-retreat-jochen-zeitz" author="Ijoma Mangold">
+            <supertitle py:pytype="str">Walking-Safari </supertitle>
+            <title py:pytype="str">Aufrechter Tourismus in Kenia </title>
+            <text py:pytype="str">Ex-Puma-Chef Jochen Zeitz hat sich in Kenia seinen Traum von Afrika erfüllt – mit einem Luxus-Retreat, das Geschäftssinn und Philanthropie verbindet.</text>
+            <description py:pytype="str">Ex-Puma-Chef Jochen Zeitz hat sich in Kenia seinen Traum von Afrika erfüllt – mit einem Luxus-Retreat, das Geschäftssinn und Philanthropie verbindet.</description>
+            <byline py:pytype="str">von  Ijoma Mangold</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-11/s69-kenia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Angestellte haben ein Picknick am Fluss vorbereitet.</bu>
+              <copyright py:pytype="str">© David Crookes</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Walking-Safari </teaser_supertitle>
+            <breadcrumb_title py:pytype="str">Nachhaltiger Urlaub in einer Luxus-Lodge in Kenia </breadcrumb_title>
+            <author href="http://xml.zeit.de/autoren/M/Ijoma_Mangold/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ijoma Mangold</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2013-11/borneo-orang-utan-camp-leakey" year="2013" issue="47" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-11-22T09:46:48+00:00" date-first-released="2013-11-22T09:47:47.975851+00:00" date-last-published="2013-11-22T09:47:47.975851+00:00" last-semantic-change="2013-11-22T09:46:43.061630+00:00" uniqueId="http://xml.zeit.de/reisen/2013-11/borneo-orang-utan-camp-leakey" author="Frank Stern">
+            <supertitle py:pytype="str">Orang-Utans in Borneo</supertitle>
+            <title py:pytype="str">Abschied von Eden </title>
+            <text py:pytype="str">Der Tanjung Puting Nationalpark ist einer der letzten Rückzugsorte für bedrohte Orang-Utans. Im Reich der "Waldmenschen" könnte man deren prekäre Lage fast vergessen. </text>
+            <description py:pytype="str">Der Tanjung Puting Nationalpark ist einer der letzten Rückzugsorte für bedrohte Orang-Utans. Im Reich der "Waldmenschen" könnte man deren prekäre Lage fast vergessen. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-11/borneo-1/" type="jpg" alt="Das Weibchen Siswe " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Weibchen Siswe </bu>
+              <copyright py:pytype="str">© Frank Stern</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Orang-Utans in Borneo</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Frank_Stern/index" publication-date="" expires="">
+              <display_name py:pytype="str">Frank Stern</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/46/wandern-taurusgebirge-tuerkei" year="2013" issue="46" ressort="Reisen" contenttype="article" publication-date="2013-11-14T02:54:08+00:00" expires="" date-last-modified="2015-04-10T12:28:58+00:00" date-first-released="2013-11-07T06:00:00+00:00" date-last-published="2015-04-10T12:29:58.285008+00:00" last-semantic-change="2013-11-18T07:52:08.142135+00:00" uniqueId="http://xml.zeit.de/2013/46/wandern-taurusgebirge-tuerkei" author="Moritz  Baumstieger">
+            <supertitle py:pytype="str">Türkei</supertitle>
+            <title py:pytype="str">Wandertour mit Kneifzange</title>
+            <text py:pytype="str">Antalya stand bisher für Beton und Bettenburgen. Nun soll der Tourismus nachhaltiger werden und Naturliebhaber ins Taurusgebirge locken. Teils auf abenteuerlichen Pfaden.</text>
+            <description py:pytype="str">Antalya stand bisher für Beton und Bettenburgen. Nun soll der Tourismus nachhaltiger werden und Naturliebhaber ins Taurusgebirge locken. Teils auf abenteuerlichen Pfaden.</description>
+            <byline py:pytype="str">von Moritz Baumstieger</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-11/s69-taurusgebirge/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Viel Weitblick im Taurusgebirge oberhalb der Bucht von Kemer</bu>
+              <copyright py:pytype="str">© DAV Summit Club</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Türkei</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/moritz-baumstieger" publication-date="" expires="">
+              <display_name py:pytype="str">Moritz  Baumstieger</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2013-10/veganismus-restaurant-los-angeles-vegane-kueche" year="2013" issue="43" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2014-03-04T15:59:32+00:00" date-first-released="2013-11-01T11:22:16.466920+00:00" date-last-published="2014-03-04T16:00:31.912549+00:00" last-semantic-change="2013-11-01T11:21:10.701873+00:00" serie="Veganes Leben" uniqueId="http://xml.zeit.de/reisen/2013-10/veganismus-restaurant-los-angeles-vegane-kueche" author="Kerstin Zilm">
+            <supertitle py:pytype="str">Themenwoche vegan</supertitle>
+            <title py:pytype="str">Junges Gemüse in Hollywood </title>
+            <text py:pytype="str">In Los Angeles sitzen Veganer und Fleischesser an einem Tisch: Viele Restaurants haben pflanzliche Alternativen auf der Speisekarte. Nicht nur wegen der Stars. </text>
+            <description py:pytype="str">In Los Angeles sitzen Veganer und Fleischesser an einem Tisch: Viele Restaurants haben pflanzliche Alternativen auf der Speisekarte. Nicht nur wegen der Stars. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/2013-10/thema-vegan-leben-salat-kleid/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.sarahillenberger.com/">© Sarah Illenberger</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Themenwoche vegan</teaser_supertitle>
+            <breadcrumb_title py:pytype="str">Vegane Küche für die Stars in Hollywood </breadcrumb_title>
+            <author href="http://xml.zeit.de/autoren/Z/Kerstin_Zilm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Kerstin Zilm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2013-09/niedersachsen-energie-route" year="2013" issue="38" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-06T01:41:15+00:00" date-first-released="2013-09-25T13:35:33.968327+00:00" date-last-published="2014-07-06T04:14:36+00:00" last-semantic-change="2013-09-25T06:25:20.846415+00:00" uniqueId="http://xml.zeit.de/reisen/2013-09/niedersachsen-energie-route" author="Sandra Rauch">
+            <supertitle py:pytype="str">Niedersachsen</supertitle>
+            <title py:pytype="str">Sightseeing am Biogastank</title>
+            <text py:pytype="str">Wer ins Oldenburger Münsterland fährt, findet Ruhe, schöne Pferde und Fachwerkhäuser. Und nun auch die "Energie-Route", die Windräder zu Touristenmagneten machen soll.</text>
+            <description py:pytype="str">Wer ins Oldenburger Münsterland fährt, findet Ruhe, schöne Pferde und Fachwerkhäuser. Und nun auch die "Energie-Route", die Windräder zu Touristenmagneten machen soll.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-09/niedersachsen-maissilage/" type="jpg" title="Maissilage" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Berg Maissilage</bu>
+              <copyright py:pytype="str">© Christian Charisius/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Niedersachsen</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/R/Sandra_Rauch/index" publication-date="" expires="">
+              <display_name py:pytype="str">Sandra Rauch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2013-07/nantes-radweg-estuaire" year="2013" issue="30" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2014-06-27T12:57:11+00:00" date-first-released="2013-07-26T09:28:39.729061+00:00" date-last-published="2013-12-02T18:24:07+00:00" last-semantic-change="2013-07-26T06:29:00.108493+00:00" uniqueId="http://xml.zeit.de/reisen/2013-07/nantes-radweg-estuaire" author="Jessica Braun">
+            <supertitle py:pytype="str">Loire-Radweg</supertitle>
+            <title py:pytype="str">Bis zum mythischen Meer</title>
+            <text py:pytype="str">Entlang des Loire-Radwegs zwischen Nantes und Saint-Nazaire stehen Häuser auf Schornsteinen und geschmolzene Boote am Fluss. Warum nur radeln hier so wenige? Von J. Braun</text>
+            <description py:pytype="str">Entlang des Loire-Radwegs zwischen Nantes und Saint-Nazaire stehen Häuser auf Schornsteinen und geschmolzene Boote am Fluss. Warum nur radeln hier so wenige? Von J. Braun</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-07/nantes-seeschlange/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Installation "Serpent d'océan" von Huang Yong Ping</bu>
+              <copyright py:pytype="str">© Jessica Braun</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Loire-Radweg</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Jessica_Braun/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Jessica Braun</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+          <referenced_cp>http://xml.zeit.de/themen/reisen/cityguide-glasgow/index</referenced_cp>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-2bebe422-c118-4d96-9ff7-6d6b375bf957" title="City Guide Kopenhagen" read_more="mehr City Guide Kopenhagen" read_more_url="http://www.zeit.de/themen/reisen/cityguide-kopenhagen/index">
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-city-guide-fahrrad-fahren" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-city-guide-fahrrad-fahren" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:57:30+00:00" expires="" date-last-modified="2014-11-03T09:54:18+00:00" date-first-released="2014-08-28T02:58:35.090579+00:00" date-last-published="2014-08-29T08:25:16.824397+00:00" last-semantic-change="2014-10-31T13:15:41.209706+00:00" author="Ulrich Stock">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Die freundlichste Stadt Europas</title>
+            <text py:pytype="str">Kühn sind die Kopenhagener, cool und ziemlich guter Laune. Woher kommt das bloß? Wir forschen nach bei einer Rundfahrt durch die Stadt in der alle kurze Hosen tragen.</text>
+            <description py:pytype="str">Kühn sind die Kopenhagener, cool und ziemlich guter Laune. Woher kommt das bloß? Wir forschen nach bei einer Rundfahrt durch die Stadt in der alle kurze Hosen tragen.</description>
+            <byline py:pytype="str">von  Ulrich Stock</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-jagersborggade/" type="jpg" title="Kopenhagen  Jægersborggade" alt="Nachmittag in der Jægersborggade" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nachmittag in der Jægersborggade</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Ulrich_Stock/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrich Stock</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-smoerrebroed" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-smoerrebroed" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:06:42+00:00" expires="" date-last-modified="2014-11-03T09:54:50+00:00" date-first-released="2014-08-28T02:07:42.864350+00:00" date-last-published="2014-09-03T06:51:03.588572+00:00" last-semantic-change="2014-09-03T06:02:54.937572+00:00" author="Michael Allmaier">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Smörrebröd isst man mit Besteck</title>
+            <text py:pytype="str">Kopenhagen ist eine der kulinarisch spannendsten Städte Europas. Das zeigt sich auch im Smörrebröd: Der Klassiker ist bodenständig, aber richtig raffiniert.</text>
+            <description py:pytype="str">Kopenhagen ist eine der kulinarisch spannendsten Städte Europas. Das zeigt sich auch im Smörrebröd: Der Klassiker ist bodenständig, aber richtig raffiniert.</description>
+            <byline py:pytype="str">von  Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/smoerrebroed/" type="jpg" title="Smörrebröd" alt="Smörrebröd" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Vom Brot ist nichts zu sehen beim "Schønnemann Special".</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-rasmus-rekyl-nachtleben" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-rasmus-rekyl-nachtleben" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:05:10+00:00" expires="" date-last-modified="2014-10-30T10:45:55+00:00" date-first-released="2014-08-28T02:06:10.258285+00:00" date-last-published="2014-09-27T17:26:42.630109+00:00" last-semantic-change="2014-09-27T17:13:41.337626+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">"Dänen sitzen acht Monate griesgrämig zu Hause"</title>
+            <text py:pytype="str">Irgendwann geht auch in Skandinavien, im Norden, die Sonne wieder auf. Ein Gespräch mit DJ Rasmus Rekyl über Partys in Kopenhagen und die Freude auf den nächsten Sommer.</text>
+            <description py:pytype="str">Irgendwann geht auch in Skandinavien, im Norden, die Sonne wieder auf. Ein Gespräch mit DJ Rasmus Rekyl über Partys in Kopenhagen und die Freude auf den nächsten Sommer.</description>
+            <byline py:pytype="str">von  Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/papierinsel-kopenhagen/" type="jpg" title="Auf der &quot;Papierinsel&quot; in Kopenhagen" alt="Auf der &quot;Papierinsel&quot; in Kopenhagen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Auf der "Papierinsel" in Kopenhagen</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-ibsens-hotel" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-ibsens-hotel" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:12:14+00:00" expires="" date-last-modified="2014-10-30T10:45:55+00:00" date-first-released="2014-08-28T02:13:15.911134+00:00" date-last-published="2014-09-24T16:23:18.293352+00:00" last-semantic-change="2014-09-24T16:22:14.656969+00:00" author="Barbara Baumgartner">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Malen statt zahlen</title>
+            <text py:pytype="str">Im nachhaltigen Ibsens Hotel in Kopenhagen kommt das Design von den Nachbarn aus der hippen Nansensgade. Auch die Zimmerrechnung darf mit eigenen Werken beglichen werden.</text>
+            <description py:pytype="str">Im nachhaltigen Ibsens Hotel in Kopenhagen kommt das Design von den Nachbarn aus der hippen Nansensgade. Auch die Zimmerrechnung darf mit eigenen Werken beglichen werden.</description>
+            <byline py:pytype="str">von  Barbara Baumgartner</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/hotel-ibsens/" type="jpg" title="Hotel Ibsens" alt="Hotel Ibsens" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hinter der klassischen Fassade des Ibsens wird's bunt.</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Barbara_Baumgartner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Barbara Baumgartner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-08/kopenhagen-restaurant-tipps" uniqueId="http://xml.zeit.de/reisen/2014-08/kopenhagen-restaurant-tipps" year="2014" issue="35" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:53:00+00:00" expires="" date-last-modified="2014-10-30T10:45:57+00:00" date-first-released="2014-08-28T02:54:01.865319+00:00" date-last-published="2014-09-11T00:06:52.244530+00:00" last-semantic-change="2014-08-25T09:10:04.135905+00:00">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+            <text py:pytype="str">Frischer Fisch in einer verlassenen Werft, Bio-Hot-Dogs und kopflastige nordische Küche: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Kopenhagen.</text>
+            <description py:pytype="str">Frischer Fisch in einer verlassenen Werft, Bio-Hot-Dogs und kopflastige nordische Küche: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Kopenhagen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/manfreds/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-christiania" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-christiania" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:27:20+00:00" expires="" date-last-modified="2014-11-03T09:54:50+00:00" date-first-released="2014-08-28T02:28:22.883331+00:00" date-last-published="2014-09-19T17:12:32.706749+00:00" last-semantic-change="2014-09-19T17:11:26.797563+00:00" author="Karin Ceballos Betancur">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Die Welthauptstadt des So-Seins</title>
+            <text py:pytype="str">In Christiania teilen sie nicht nur die Haarbürste: Zwischen den Hippies, Junkies und Grenzüberschreitern wird auch der Tourist zum Aussteiger, früher oder später.</text>
+            <description py:pytype="str">In Christiania teilen sie nicht nur die Haarbürste: Zwischen den Hippies, Junkies und Grenzüberschreitern wird auch der Tourist zum Aussteiger, früher oder später.</description>
+            <byline py:pytype="str">von  Karin Ceballos Betancur</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-christiana/" type="jpg" title="Licht, Luft und Sonne: Recycling-Haus in Christiania" alt="Licht, Luft und Sonne: Recycling-Haus in Christiania" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Licht, Luft und Sonne: Recycling-Haus in Christiania</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <referenced_cp>http://xml.zeit.de/themen/reisen/cityguide-kopenhagen/index</referenced_cp>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="1fd4c7c6-c4d0-477a-8343-47064c76d0b5" title="City Guide Amsterdam" visible="True" read_more="mehr City Guide Amsterdam" read_more_url="http://www.zeit.de/themen/reisen/cityguide-amsterdam/index">
+          <block href="http://xml.zeit.de/2014/26/amsterdam-city-guide" uniqueId="http://xml.zeit.de/2014/26/amsterdam-city-guide" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:01:51+00:00" expires="" date-last-modified="2014-10-30T10:46:26+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-03T09:12:34.589862+00:00" last-semantic-change="2014-07-03T08:57:12.302649+00:00" author="Birgit Schönau">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Die Kunst der Stunde</title>
+            <text py:pytype="str">Wer auf Rembrandts Spuren durch Amsterdam radelt, versteht, wie die Stadt so lebendig, so tüchtig, so frei wurde. Hier schließen sich Kunst- und Geschäftssinn nicht aus.</text>
+            <description py:pytype="str">Wer auf Rembrandts Spuren durch Amsterdam radelt, versteht, wie die Stadt so lebendig, so tüchtig, so frei wurde. Hier schließen sich Kunst- und Geschäftssinn nicht aus.</description>
+            <byline py:pytype="str">von  Birgit Schönau</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/rembrandshuis/" type="jpg" title="Rembrandshuis" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Rembrandts Wohnhaus in der Jodenbreestraat</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Birgit_Schoenau/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Birgit Schönau</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/26/amsterdam-ilse-delange" uniqueId="http://xml.zeit.de/2014/26/amsterdam-ilse-delange" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:09:44+00:00" expires="" date-last-modified="2014-10-30T10:46:27+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-12T08:12:20.804456+00:00" last-semantic-change="2014-07-01T10:42:14.201661+00:00" author="Ulf Lippitz">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Oh, du schöner Lindenduft</title>
+            <text py:pytype="str">Schiefe Häuser und kleine Geschäfte: Negen Straatjes heißt das malerische Viertel Amsterdams. Die Sängerin Ilse DeLange erzählt, wieso sie dort immer gute Laune bekommt. </text>
+            <description py:pytype="str">Schiefe Häuser und kleine Geschäfte: Negen Straatjes heißt das malerische Viertel Amsterdams. Die Sängerin Ilse DeLange erzählt, wieso sie dort immer gute Laune bekommt. </description>
+            <byline py:pytype="str">von  Ulf Lippitz</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/wolvenstraat/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Gäste vor dem Cafe Wolvenstraat 23</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulf Lippitz</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/26/nachtleben-in-amsterdam-mirik-milan" uniqueId="http://xml.zeit.de/2014/26/nachtleben-in-amsterdam-mirik-milan" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:39:28+00:00" expires="" date-last-modified="2014-10-30T10:46:28+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-12T08:12:20.023959+00:00" last-semantic-change="2014-07-12T08:11:14.265618+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">"Wir haben den Ruf, wahnsinnig liberal zu sein"</title>
+            <text py:pytype="str">Amsterdams Nachtbürgermeister Mirik Milan will dafür sorgen, dass der Ruf nicht leidet. Ein Gespräch über strenge Öffnungszeiten im Nachtleben und gepflegte Joints</text>
+            <description py:pytype="str">Amsterdams Nachtbürgermeister Mirik Milan will dafür sorgen, dass der Ruf nicht leidet. Ein Gespräch über strenge Öffnungszeiten im Nachtleben und gepflegte Joints</description>
+            <byline py:pytype="str">von  Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/Tolhuistuin-amsterdam/" type="jpg" title="Tolhuistuin Amsterdam" alt="Tolhuistuin Amsterdam" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Club Tolhuistuin hat erst kürzlich eröffnet.</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/26/hotel-amsterdam-andaz" uniqueId="http://xml.zeit.de/2014/26/hotel-amsterdam-andaz" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:07:17+00:00" expires="" date-last-modified="2015-02-26T03:04:23+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2015-02-26T03:05:23.277167+00:00" last-semantic-change="2014-07-16T19:54:48.285854+00:00" author="Merten Worthmann">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Tulpensessel aus Amsterdam</title>
+            <text py:pytype="str">Der Designer Marcel Wanders hat das Hotel Andaz in der niederländischen Metropole entworfen. Es ist ein romantischer Protest gegen Purismus und ein Fest für die Augen.</text>
+            <description py:pytype="str">Der Designer Marcel Wanders hat das Hotel Andaz in der niederländischen Metropole entworfen. Es ist ein romantischer Protest gegen Purismus und ein Fest für die Augen.</description>
+            <byline py:pytype="str">von  Merten Worthmann</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/andaz-amsterdam/" type="jpg" title="Hotel Andaz Amsterdam" alt="In der Lobby des Hotel Andaz" align="left" publication-date="" expires="">
+              <bu py:pytype="str">In der Lobby des Hotel Andaz</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Merten_Worthmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Merten Worthmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2014-07/amsterdam-restaurants" uniqueId="http://xml.zeit.de/reisen/2014-07/amsterdam-restaurants" year="2014" issue="24" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T03:20:55+00:00" expires="" date-last-modified="2014-10-30T10:46:30+00:00" date-first-released="2014-07-03T03:21:56.428346+00:00" date-last-published="2014-07-09T04:44:43.196957+00:00" last-semantic-change="2014-07-01T09:20:34.993213+00:00">
+            <supertitle py:pytype="str">Restaurants in Amsterdam</supertitle>
+            <title py:pytype="str">Verspielte neuholländische Küche</title>
+            <text py:pytype="str">Brutzelndes Grillfleisch, Street-Food aus dem Sterne-Lokal und Traditionelles aus Surinam: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Amsterdam.</text>
+            <description py:pytype="str">Brutzelndes Grillfleisch, Street-Food aus dem Sterne-Lokal und Traditionelles aus Surinam: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Amsterdam.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/samhoud-places/" type="jpg" title="samhoud places" alt="Das Street-Food-Restaurant von &amp;samhoud places" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Street-Food-Restaurant von &amp;samhoud places</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2014/26/kroketten-amsterdam" uniqueId="http://xml.zeit.de/2014/26/kroketten-amsterdam" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:21:57+00:00" expires="" date-last-modified="2014-07-09T04:43:42+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-09T04:44:42.128165+00:00" last-semantic-change="2014-07-09T04:43:24.433618+00:00" author="Michael Allmaier">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Korrekte Krokette</title>
+            <text py:pytype="str">Kommt aus dem Automaten, kann explodieren und schmeckt besonders gut, wenn man es beim Konditor kauft: Kroketten sind der beliebteste Snack der Niederlande. Wie kommt's?</text>
+            <description py:pytype="str">Kommt aus dem Automaten, kann explodieren und schmeckt besonders gut, wenn man es beim Konditor kauft: Kroketten sind der beliebteste Snack der Niederlande. Wie kommt's?</description>
+            <byline py:pytype="str">von  Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/kroketten-amsterdam/" type="jpg" title="Kroketten Holtkamp" alt="Kroketten Holtkamp" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Kroketten werden in den Niederlanden dem Backwerk zugerechnet. In der Konditorei Holtkamp gibt es die besten.</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+          <referenced_cp>http://xml.zeit.de/themen/reisen/cityguide-amsterdam/index</referenced_cp>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Reisen</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Reisen</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Reisen</text>
+  </indexteaser>
+</centerpage>

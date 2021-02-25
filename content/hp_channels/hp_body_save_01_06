@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<container layout="homepage_01_06">
+  <row layout="headline">
+    <container>
+      <block href="cms:/cms/work/software/tests/Interkopie" layout="aufmacherbild">
+        <image expires="2006-12-22" src="/cms/work/bilder/2005/50/aktuell_online/aufmacher/aeg_mi1_220x210.jpg" width="220" align="right"><bu>Mitarbeiter des AEG-Hausgeraetewerks in Nuernberg protestieren am Montag.</bu><copyright>(c) Daniel Karmann dpa/lby</copyright> BILD </image>
+      </block>
+    </container>
+    <container>
+      <block href="cms:/cms/work/software/tests/Interkopie" priority="1" layout="aufmacher">
+        <supertitle>Arbeitskampf</supertitle>
+        <title>Aus. Ende. Geschlossen</title>
+        <text>Der schwedische Konzern Elektrolux sperrt das AEG-Werk in Nuernberg zu. Die Gewerkschaften tun sich schwer, eine grenzueberschreitende Gegenwehr zu organisieren</text>
+      </block>
+    </container>
+    <container>
+      <feed id="dpa"/>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container>
+      <block layout="knopf" href="cms:/cms/work/online/2005/50/magnet" priority="500">
+        <supertitle>Weltuntergang</supertitle>
+        <title>Licht aus bei Bild</title>
+        <text> Magnet-Chaos?, kreischt Deutschlands Leitmedium. Ist es schon wieder so schlimm? <em>Max Rauner</em> hat seinen Kompass befragt&#13; </text>
+        <image expires="2006-12-22" src="/cms/work/bilder/2005/50/aktuell_online/aufmacher/magnet_72.jpg" width="72" align="right"> BILD </image>
+        <related>
+          <block href="cms:/cms/work/2003/14/N-Erdkern">
+            <title>Wenn der Kern spinnt</title>
+            <text> Das Erdmagnetfeld schwindet. Waehrend die Geophysiker noch raetseln, weiss Hollywood schon&#13; Rat: In dem Film <em>The Core</em> wird der
+							Erdkern mit Atombomben repariert&#13; <em>(ZEIT 2003/14)</em></text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container>
+      <block layout="knopf" href="cms:/cms/work/2005/51/01___leit_2_51" priority="3">
+        <supertitle>cia-affaere</supertitle>
+        <title>Du sollst mich schuetzen</title>
+        <text>Wenn deutsche Staatsbuerger von fremden Geheimdiensten drangsaliert werden, gilt keine Ausrede</text>
+        <related>
+          <block href="cms:/cms/work/online/2005/51/presseschau14" priority="7">
+            <title>Tuervorsteher</title>
+            <text><em>Gero von Randow</em> kommentiert das aktuelle Meinungsbild</text>
+          </block>
+          <block href="cms:/cms/work/online/2005/50/cia_gefaengnisse" priority="10">
+            <title>Europarat contra CIA</title>
+            <text>Der Verdacht erhaertet sich</text>
+          </block>
+          <block href="cms:/cms/work/2005/51/Kurnaz" priority="500">
+            <title>Deutsche Gaeste?</title>
+            <text>Neue Vorwuerfe der Gefangenen</text>
+          </block>
+        </related>
+        <image expires="2006-12-22" src="/cms/work/bilder/2005/50/aktuell_online/aufmacher/ueberwachung_72.jpg" width="72" align="right"> BILD </image>
+      </block>
+    </container>
+    <container>
+      <block layout="knopf" href="cms:/cms/work/online/2005/50/schroeder_gasprom2" priority="10">
+        <supertitle>schrer</supertitle>
+        <title>Gaspromi in der Kritik</title>
+        <text>Das Engagement des Altkanzlers beim russischen Pipeline-Betreiber schafft Unmut </text>
+        <related>
+          <block href="cms:/cms/work/online/2005/50/email_aus_berlin" priority="15">
+            <title>Egotrip</title>
+            <text>Schroeder geht es nicht ums Geld. Aber sehr wohl um den Posten <em> Von Corinna Emundts</em></text>
+          </block>
+          <block href="http://apollo.zeit.de/kommentare/index.php?km_id=350" priority="30">
+            <title>Ihre Meinung</title>
+            <text>Ist Schroeders Entscheidung moralisch zu vertreten?</text>
+          </block>
+          <block href="cms:/cms/work/online/2005/50/schroeder_montagskolumne" priority="35">
+            <title>"Am Gelde hgt doch alles"</title>
+            <text>Schroeder als Goethe-Kenner<em> Von Robert Leicht</em></text>
+          </block>
+        </related>
+        <image expires="2006-12-22" src="/cms/work/bilder/2005/50/aktuell_online/aufmacher/schroeder_zigarre2_72.jpg" width="72" align="right"><copyright>?
+						Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+  <row layout="twocol">
+    <container>
+      <block layout="knopf" href="http://blogg.zeit.de/weilerswunderland/">
+        <supertitle>Fussball</supertitle>
+        <image src="/cms/work/bilder/elemente_01_06/tests/fussball_button.png"/>
+        <text><strong>Webblog:</strong> Aus der Welt der Kicker</text>
+      </block>
+    </container>
+    <container>
+      <ad place="5"/>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container>
+      <block layout="tagesbild" href="javascript:void(window.open('http://www.zeit.de/bild_des_tages','bilddestages','height=650,width=511,directories=no,location=no,menubar=no,resizable=yes,status=no,scrollbars=yes,toolbar=no'));">
+        <image src="/cms/work/bilder/elemente_01_06/tests/insekt_210.jpg"/>
+        <text><strong>was ist das?</strong> wertvoll?</text>
+      </block>
+    </container>
+    <container>
+      <block layout="knopf" href="cms:/cms/work/online/2005/50/schroeder_gasprom2" priority="10">
+        <supertitle>schroeder</supertitle>
+        <title>Gaspromi in der Kritik</title>
+        <text>Das Engagement des Altkanzlers beim russischen Pipeline-Betreiber schafft Unmut </text>
+        <related>
+          <block href="cms:/cms/work/online/2005/50/email_aus_berlin" priority="15">
+            <title>Egotrip</title>
+            <text>Schroeder geht es nicht ums Geld. Aber sehr wohl um den Posten <em> Von Corinna Emundts</em></text>
+          </block>
+          <block href="http://apollo.zeit.de/kommentare/index.php?km_id=350" priority="30">
+            <title>Ihre Meinung</title>
+            <text>Ist Schroeders Entscheidung moralisch zu vertreten?</text>
+          </block>
+          <block href="cms:/cms/work/online/2005/50/schroeder_montagskolumne" priority="35">
+            <title>"Am Gelde hängt doch alles"</title>
+            <text>Schroeder als Goethe-Kenner<em> Von Robert Leicht</em></text>
+          </block>
+        </related>
+        <image expires="2006-12-22" src="/cms/work/bilder/2005/50/aktuell_online/aufmacher/schroeder_zigarre2_72.jpg" width="72" align="right"><copyright>?
+						Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+    <container>
+      <block layout="knopf" href="cms:/cms/work/online/2005/50/schroeder_gasprom2" priority="10">
+        <supertitle>schroeder</supertitle>
+        <title>Gaspromi in der Kritik</title>
+        <text>Das Engagement des Altkanzlers beim russischen Pipeline-Betreiber schafft Unmut </text>
+        <related>
+          <block href="cms:/cms/work/online/2005/50/email_aus_berlin" priority="15">
+            <title>Egotrip</title>
+            <text>Schroeder geht es nicht ums Geld. Aber sehr wohl um den Posten <em> Von Corinna Emundts</em></text>
+          </block>
+          <block href="http://apollo.zeit.de/kommentare/index.php?km_id=350" priority="30">
+            <title>Ihre Meinung</title>
+            <text>Ist Schroeders Entscheidung moralisch zu vertreten?</text>
+          </block>
+          <block href="cms:/cms/work/online/2005/50/schroeder_montagskolumne" priority="35">
+            <title>"Am Gelde hgt doch alles"</title>
+            <text>Schroeder als Goethe-Kenner<em> Von Robert Leicht</em></text>
+          </block>
+        </related>
+        <image expires="2006-12-22" src="/cms/work/bilder/2005/50/aktuell_online/aufmacher/schroeder_zigarre2_72.jpg" width="72" align="right"><copyright>?
+						Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+</container>

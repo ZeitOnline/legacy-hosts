@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-10-07T09:16:47.720010+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-02-23T13:33:08.299067+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-10-07T09:16:53.984550+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-10-07T09:17:53.910728+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-05-30T12:25:53.389342+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-05-30T12:25:20.371978+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">partnersuche</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b0d1a508-994f-47a1-bd50-f3e7cf093605}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="9b0496d2-9576-4aa3-9563-99e93d727638">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="fa2c6e9d-f55c-4408-a452-dade08b8bb38" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/partnersuche/links/startseite" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/partnersuche/index" date-last-modified="2012-03-30T14:02:04+00:00" date-first-released="2011-02-23T13:29:43.676686+00:00" date-last-published="2011-02-23T13:34:14.246952+00:00" last-semantic-change="2012-03-30T14:01:24.076538+00:00" contenttype="link" uniqueId="http://xml.zeit.de/angebote/partnersuche/links/startseite">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="90082fa9-01fe-4a3b-ada9-09a64ecc08a5" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/partnersuche/links/platzhalter_logo" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/partnersuche/index" date-last-modified="2011-07-15T13:55:53+00:00" date-first-released="2011-02-23T13:29:32.398485+00:00" date-last-published="2011-07-15T13:55:56.031102+00:00" last-semantic-change="2011-07-15T13:54:11.933524+00:00" contenttype="link" uniqueId="http://xml.zeit.de/angebote/partnersuche/links/platzhalter_logo">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Platzhalter Logo</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image src="http://xml.zeit.de/angebote/partnersuche/bilder/platzhalter_logo-368x110.gif" type="gif" title="platzhalter_logo-368x110.gif" align="left" href="http://www.zeit.de/angebote/partnersuche/index" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/partnersuche/bilder/logo-parship-neu2015/logo-parship-neu2015-368x110.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="5f446273-274b-426c-a3cb-2b60b27768a6" visible="True">
+          <block href="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_erstes_treffen" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-09-07T16:10:10+00:00" date-first-released="2011-05-06T12:33:45.349015+00:00" date-last-published="2013-09-07T18:10:29+00:00" last-semantic-change="2011-03-29T15:57:39.777925+00:00" contenttype="article" uniqueId="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_erstes_treffen">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Das erste Treffen - worauf Sie achten sollten</title>
+            <text py:pytype="str">Das erste Treffen: wenn Sie sich zum ersten Mal mit einem Flirtpartner aus dem Internet treffen, sollten ein paar wichtige Hinweise beachtet werden.</text>
+            <description py:pytype="str">Das erste Treffen: wenn Sie sich zum ersten Mal mit einem Flirtpartner aus dem Internet treffen, sollten ein paar wichtige Hinweise beachtet werden.</description>
+            <byline py:pytype="str">PARSHIP: Dies ist ein Angebot der PARSHIP GmbH. Für den Inhalt ist die PARSHIP GmbH verantwortlich.</byline>
+            <image base-id="http://xml.zeit.de/angebote/partnersuche/ratgeber/bilder/ratgeber_erstes_treffen/" type="jpg" title="ratgeber_erstes_treffen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="308de992-2e44-40e7-9dbd-a098b7f7838d" visible="True">
+          <block href="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_aufgeben" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-09-07T16:10:11+00:00" date-first-released="2011-05-06T12:33:24.668267+00:00" date-last-published="2013-09-07T18:10:29+00:00" last-semantic-change="2011-03-29T15:57:24.598550+00:00" contenttype="article" uniqueId="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_aufgeben">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wenn der Funke nicht überspringt - Aufgeben lohnt sich nicht!</title>
+            <text py:pytype="str">Sie sind auf Partnersuche? Wenn der Erfolg auf sich warten lässt, lohnt es sich, trotzdem am Ball zu bleiben! Wie Sie endlich Ihre Liebe finden.</text>
+            <description py:pytype="str">Sie sind auf Partnersuche? Wenn der Erfolg auf sich warten lässt, lohnt es sich, trotzdem am Ball zu bleiben! Wie Sie endlich Ihre Liebe finden.</description>
+            <byline py:pytype="str">PARSHIP: Dies ist ein Angebot der PARSHIP GmbH. Für den Inhalt ist die PARSHIP GmbH verantwortlich.</byline>
+            <image base-id="http://xml.zeit.de/angebote/partnersuche/ratgeber/bilder/ratgeber_aufgeben/" type="jpg" title="ratgeber_aufgeben" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="cd21e289-accd-493e-adb7-57314946612c" visible="True">
+          <block href="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_vertrauen" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-09-07T16:10:05+00:00" date-first-released="2011-05-06T12:34:06.957807+00:00" date-last-published="2013-09-07T18:10:29+00:00" last-semantic-change="2011-03-29T15:58:12.224864+00:00" contenttype="article" uniqueId="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_vertrauen">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wenn das Vertrauen fehlt - Was kann ich tun?</title>
+            <text py:pytype="str">Vertrauen in der Beziehung: wenn das Vertrauen fehlt, was kann ich tun? Unser Ratgeber verrät, wie man gemeinsam Vertrauen aufbaut.</text>
+            <description py:pytype="str">Vertrauen in der Beziehung: wenn das Vertrauen fehlt, was kann ich tun? Unser Ratgeber verrät, wie man gemeinsam Vertrauen aufbaut.</description>
+            <byline py:pytype="str">PARSHIP: Dies ist ein Angebot der PARSHIP GmbH. Für den Inhalt ist die PARSHIP GmbH verantwortlich.</byline>
+            <image base-id="http://xml.zeit.de/angebote/partnersuche/ratgeber/bilder/ratgeber_vertrauen/" type="jpg" title="ratgeber_vertrauen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="34afd257-b8a9-413c-aa91-2771728f598f" visible="True">
+          <block href="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_geld" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-09-07T16:10:08+00:00" date-first-released="2011-05-06T12:33:55.106704+00:00" date-last-published="2013-09-07T18:10:29+00:00" last-semantic-change="2011-03-29T15:57:56.520425+00:00" contenttype="article" uniqueId="http://xml.zeit.de/angebote/partnersuche/ratgeber/ratgeber_geld">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Was tun, wenn das liebe Geld die Beziehung belastet</title>
+            <text py:pytype="str">Leidet Ihre Beziehung aus finanziellen Gründen?Unser Ratgeber verrät, wie man mit diesem Problem umgehen kann. Was tun, wenn das liebe Geld die Beziehung belastet.</text>
+            <description py:pytype="str">Leidet Ihre Beziehung aus finanziellen Gründen?Unser Ratgeber verrät, wie man mit diesem Problem umgehen kann. Was tun, wenn das liebe Geld die Beziehung belastet.</description>
+            <byline py:pytype="str">PARSHIP: Dies ist ein Angebot der PARSHIP GmbH. Für den Inhalt ist die PARSHIP GmbH verantwortlich.</byline>
+            <image base-id="http://xml.zeit.de/angebote/partnersuche/ratgeber/bilder/ratgeber_geld/" type="jpg" title="ratgeber_geld" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-c58814f4-d704-473b-9e80-9ce8fc92fa81" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/partnersuche/magazin/link_zum_archiv" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/partnersuche/magazin/index" ns0:target="_blank" date-last-modified="2012-03-30T16:52:07+00:00" date-first-released="2012-03-30T16:53:06.794417+00:00" date-last-published="2012-03-30T16:53:06.794417+00:00" last-semantic-change="2012-03-30T16:51:54.339706+00:00" contenttype="link" uniqueId="http://xml.zeit.de/angebote/partnersuche/magazin/link_zum_archiv">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zum Archiv</title>
+            <text py:pytype="str">weitere hilfreiche Ratgeber-Artikel zum Thema Partnersuche finden Sie hier!</text>
+            <description py:pytype="str">weitere hilfreiche Ratgeber-Artikel zum Thema Partnersuche finden Sie hier!</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/partnersuche/magazin/bilder/magazin_begleitung/" type="jpg" title="magazin_begleitung" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Partnersuche</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Partnersuche</title>
+  </teaser>
+</centerpage>

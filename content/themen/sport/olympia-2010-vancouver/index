@@ -1,0 +1,1313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <keywordset>
+      <keyword py:pytype="str" source="manual">bobsport</keyword>
+      <keyword py:pytype="str" source="manual">leistungssport</keyword>
+      <keyword py:pytype="str" source="manual">nordischer_skisport</keyword>
+      <keyword py:pytype="str" source="manual">wintersport</keyword>
+      <keyword py:pytype="str" source="manual">sportveranstaltung</keyword>
+      <keyword py:pytype="str" source="manual">olympische_spiele</keyword>
+      <keyword py:pytype="str" source="manual">alpiner_skisport</keyword>
+      <keyword py:pytype="str" source="manual">Sport</keyword>
+      <keyword py:pytype="str" source="manual">sportlerin</keyword>
+      <keyword py:pytype="str" source="manual">sportler</keyword>
+    </keywordset>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2010-04-12 09:56:22.537283+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-04-12T09:56:22.613151+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-01-05T15:51:28.445798+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-04-12T09:57:22.364414+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-12-11</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="header_image">http://xml.zeit.de/themen/sport/olympia-2010-vancouver/header-olympia-2010</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Informationen und Berichte über die 21. Olympischen Winterspiele vom 12. bis 28. Februar 2010 in der kanadischen Stadt Vancouver. Eine Archivseite</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Archiv: Olympische Winterspiele 2010 | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-04-12T09:56:05.870256+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2010-03-16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.cruz</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Sport</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">16512</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:a6644fc2-c7bc-4eeb-8a80-0762df1f7347}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="d92363ae-3d81-4e4c-b59a-a5654d79ef29">
+          <block href="http://xml.zeit.de/sport/2010-03/bg-olympia-0103-2" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:29+00:00" date-first-released="2010-03-01T10:09:20.662916+00:00" date-last-published="2010-03-01T10:34:29.333137+00:00" last-semantic-change="2010-03-01T09:57:33.456708+00:00">
+            <supertitle py:pytype="str">Bilder aus Vancouver</supertitle>
+            <title py:pytype="str">Die Sportler laufen um das Feuer</title>
+            <text py:pytype="str">Und zum Schluss 'ne große Show: Mit fliegenden Elchen, freundlichen Snowboarderinnen und vielen leuchtenden Bällen verabschiedet Kanada die Olympischen Spiele.</text>
+            <description py:pytype="str">Und zum Schluss 'ne große Show: Mit fliegenden Elchen, freundlichen Snowboarderinnen und vielen leuchtenden Bällen verabschiedet Kanada die Olympischen Spiele.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="bg-olympia-0103-teaser" base-id="http://xml.zeit.de/sport/2010-03/bg-olympia-0103-teaser/" type="jpg" publication-date="" expires="">
+              <bu>VANCOUVER, BC - FEBRUARY 28:  An entertainer performs during the Closing Ceremony of the Vancouver 2010 Winter Olympics at BC Place on February 28, 2010 in Vancouver, Canada.  (Photo by Cameron Spencer/Getty Images)</bu>
+              <copyright py:pytype="str">© Cameron Spencer/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="df8896c6-52aa-4302-a4f3-04958d1a01f3">
+          <block href="http://xml.zeit.de/sport/2010-03/olympia-abschlussfeier-ausblick" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:31+00:00" date-first-released="2010-03-01T07:21:00.018188+00:00" date-last-published="2010-03-18T17:18:46.205440+00:00" last-semantic-change="2010-03-01T12:05:26.134969+00:00">
+            <supertitle py:pytype="str">Abschlussfeier Olympische Spiele</supertitle>
+            <title py:pytype="str">"O Canada"</title>
+            <text py:pytype="str">Straßenpartys, Selbstironie und (noch) kein Dopingfall: Was diese Spiele unvergesslich macht und was die Welt in Sotschi vermissen wird. Von Christof Siemes, Vancouver</text>
+            <description py:pytype="str">Straßenpartys, Selbstironie und (noch) kein Dopingfall: Was diese Spiele unvergesslich macht und was die Welt in Sotschi vermissen wird. Von Christof Siemes, Vancouver</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image alt="Feiern nach dem Eishockeysieg: Für diese Fans der krönende Abschluss der Winterspiele" align="left" base-id="http://xml.zeit.de/sport/2010-03/kanada-fans/" type="jpg" publication-date="" expires="">
+              <bu>Feiern nach dem Eishockeysieg: Für diese Fans der krönende Abschluss der Winterspiele</bu>
+              <copyright py:pytype="str">© Leon Neal/AFP/Getty Images) </copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-bilanz-siemes" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:08+00:00" date-first-released="2010-02-28T09:10:17.503432+00:00" date-last-published="2010-03-18T17:18:52.122302+00:00" last-semantic-change="2010-02-28T10:00:18.726725+00:00">
+            <supertitle py:pytype="str">Was bleibt von Olympia?</supertitle>
+            <title py:pytype="str">Schönrednerei: Die 16. Disziplin der Winterspiele</title>
+            <text py:pytype="str">Der Rodler Kumaritaschvili stirbt, doch die Organisatoren loben die Bobbahn. Und: Ein Handschuh als Emblem des kanadischen Patriotismus. Christof Siemes zieht Bilanz.</text>
+            <description py:pytype="str">Der Rodler Kumaritaschvili stirbt, doch die Organisatoren loben die Bobbahn. Und: Ein Handschuh als Emblem des kanadischen Patriotismus. Christof Siemes zieht Bilanz.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Bob" base-id="http://xml.zeit.de/sport/2010-02/bob-3/" type="jpg" publication-date="" expires="">
+              <bu>Die Bobbahn im Whistler Sliding Centre gelangte zur traurigen Berühmtheit</bu>
+              <copyright py:pytype="str">© CRIS BOURONCLE/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-03/olympia-abschluss-vancouver" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:30+00:00" date-first-released="2010-03-01T05:57:28.263914+00:00" date-last-published="2010-03-18T17:18:53.265131+00:00" last-semantic-change="2010-03-01T11:10:50.535918+00:00">
+            <supertitle py:pytype="str">Olympische Winterspiele beendet</supertitle>
+            <title py:pytype="str">Olympia-Abschluss mit Kunstschnee und Musik</title>
+            <text py:pytype="str">Mit einer unterhaltsamen Show hat sich Gastgeber Kanada von der olympischen Sportwelt verabschiedet. Deutschland errang noch einmal Silber und bleibt Medaillen-Zweiter.</text>
+            <description py:pytype="str">Mit einer unterhaltsamen Show hat sich Gastgeber Kanada von der olympischen Sportwelt verabschiedet. Deutschland errang noch einmal Silber und bleibt Medaillen-Zweiter.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die Abschlusszeremonie in Vancouver" align="left" title="olympia abschluss" base-id="http://xml.zeit.de/sport/2010-03/olympia/" type="jpg" publication-date="" expires="">
+              <bu>Die Abschlusszeremonie in Vancouver</bu>
+              <copyright py:pytype="str">© Clive Rose/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f35427d2-a56c-457f-b130-b1f02868b406">
+          <block href="http://xml.zeit.de/sport/fussball/2010-02/vancouver-umweltschutz-gruen" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-01T06:52:16+00:00" date-first-released="2010-02-27T09:24:46.302350+00:00" date-last-published="2010-03-01T06:53:16.679844+00:00" last-semantic-change="2010-02-27T09:23:28.299718+00:00">
+            <supertitle py:pytype="str">Vancouver und Umwelt</supertitle>
+            <title py:pytype="str">Die grünsten Spiele der Olympia-Geschichte</title>
+            <text py:pytype="str">Christof Siemes vergibt den Organisatoren im Fach Umwelt gute Noten. Nachhaltig wird Olympia aber erst, wenn die Milliarden, die zuschauen, grün denken und handeln.</text>
+            <description py:pytype="str">Christof Siemes vergibt den Organisatoren im Fach Umwelt gute Noten. Nachhaltig wird Olympia aber erst, wenn die Milliarden, die zuschauen, grün denken und handeln.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/fussball/2010-02/vancouver-fans/" type="jpg" publication-date="" expires="">
+              <bu>Zu Fuß geht's doch auch - Olympia-Fans auf dem Weg zu Wettkämpfen</bu>
+              <copyright py:pytype="str">© Kevork Djansezian/Getty Images Sport</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="0502ed6a-f468-4c68-809a-3ac4389556c2">
+          <block href="http://xml.zeit.de/sport/2010-02/riesch-gold-olympia-slalom" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-01T06:45:43+00:00" date-first-released="2010-02-27T07:49:42.194894+00:00" date-last-published="2010-03-01T06:46:43.061638+00:00" last-semantic-change="2010-02-27T07:48:26.561155+00:00">
+            <supertitle py:pytype="str">Olympische Winterspiele</supertitle>
+            <title py:pytype="str">Maria Riesch gewinnt zum zweiten Mal Gold</title>
+            <text py:pytype="str">Zweiter Triumph, zweites Gold, zweite Ehrung: Skirennfahrerin Maria Riesch hat sich im Slalom ihren zweiten Olympiasieg in Kanada erkämpft.</text>
+            <description py:pytype="str">Zweiter Triumph, zweites Gold, zweite Ehrung: Skirennfahrerin Maria Riesch hat sich im Slalom ihren zweiten Olympiasieg in Kanada erkämpft.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die Skifahrerin Maria Riesch zeigt ihre zwei gewonnenen Goldmedaillen" align="left" title="Die Skifahrerin Maria Riesch zeigt ihre zwei gewonnenen Goldmedaillen" base-id="http://xml.zeit.de/sport/2010-02/maria-riesch-2/" type="jpg" publication-date="" expires="">
+              <bu>Die Skifahrerin Maria Riesch zeigt ihre zwei gewonnenen Goldmedaillen</bu>
+              <copyright py:pytype="str">© Michael Kappeler/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/susanne-riesch-slalom" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-26T15:16:16+00:00" date-first-released="2010-02-26T15:12:37.886567+00:00" date-last-published="2010-02-26T15:17:15.762321+00:00" last-semantic-change="2010-02-26T15:15:59.363029+00:00">
+            <supertitle py:pytype="str">Susanne Riesch</supertitle>
+            <title py:pytype="str">Im Schatten der Schwester</title>
+            <text py:pytype="str">Im Tennis ist sie besser. Doch Susanne Riesch möchte sich auch auf der Skipiste von ihrer erfolgreichen Schwester Maria lösen. Im Slalom kann sie heute damit beginnen.</text>
+            <description py:pytype="str">Im Tennis ist sie besser. Doch Susanne Riesch möchte sich auch auf der Skipiste von ihrer erfolgreichen Schwester Maria lösen. Im Slalom kann sie heute damit beginnen.</description>
+            <byline py:pytype="str"> </byline>
+            <image align="left" title="Susanne und Maria Riesch" base-id="http://xml.zeit.de/sport/2010-02/riesch-2/" type="jpg" publication-date="" expires="">
+              <bu>Unterschiedliche Schwestern: Susanne (l.) und Maria Riesch </bu>
+              <copyright py:pytype="str">© Alexander Hassenstein/Getty Images </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-pfarrer-menschenwuerde" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:19+00:00" date-first-released="2010-02-26T18:29:44.692644+00:00" date-last-published="2010-03-01T06:46:45.940837+00:00" last-semantic-change="2010-02-26T11:52:06.936021+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Olympia-Pfarrer</supertitle>
+            <title py:pytype="str">"Die Menschenwürde wird herabgesetzt"</title>
+            <text py:pytype="str">Der Olympia-Pfarrer Thomas Weber kritisiert, wie Medien und Offizielle mit den Sportlern umgehen. Der Athlet verkomme immer mehr zum Objekt, sagt er im Interview.</text>
+            <description py:pytype="str">Der Olympia-Pfarrer Thomas Weber kritisiert, wie Medien und Offizielle mit den Sportlern umgehen. Der Athlet verkomme immer mehr zum Objekt, sagt er im Interview.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Magdalena Neuner" base-id="http://xml.zeit.de/sport/2010-02/neuner-3/" type="jpg" publication-date="" expires="">
+              <bu>Biathletin Magdalena Neuner fühlt sich während der Dopingkontrolle "schlimmer als ein Schaaf behandelt".</bu>
+              <copyright py:pytype="str">© Alexander Hassenstein/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-helden-vancouver" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:12+00:00" date-first-released="2010-02-26T14:01:02.748173+00:00" date-last-published="2010-03-01T06:46:45.123402+00:00" last-semantic-change="2010-02-26T15:37:36.998982+00:00">
+            <supertitle py:pytype="str">Athleten in Vancouver</supertitle>
+            <title py:pytype="str">Von Waschbärhintern und Pistensäuen</title>
+            <text py:pytype="str">Unser Olympia-Reporter hat in Vancouver viele Menschen kennen gelernt, aber nur acht Sportler haben es als Helden der Spiele in Christof Siemes' Huldigung geschafft.</text>
+            <description py:pytype="str">Unser Olympia-Reporter hat in Vancouver viele Menschen kennen gelernt, aber nur acht Sportler haben es als Helden der Spiele in Christof Siemes' Huldigung geschafft.</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image align="left" title="Kevin Esteve Rigail" base-id="http://xml.zeit.de/sport/2010-02/rigail/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Doug Pensinger/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="81b43076-0abc-4114-b14b-b07d3a2b8f0a">
+          <block href="http://xml.zeit.de/2010/09/WOS-Olympisches-Allerlei" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:12+00:00" date-first-released="2010-02-25T06:00:00+00:00" date-last-published="2010-02-28T14:44:36.665919+00:00" last-semantic-change="2010-02-28T14:43:14.274483+00:00">
+            <supertitle py:pytype="str">Olympische Spiele</supertitle>
+            <title py:pytype="str">München lockt das IOC mit Weißbier, Leberkäse und Brezeln</title>
+            <text py:pytype="str">Die Debatte über Gerechtigkeit im Eiskunstlauf, Münchens Olympiabewerbung, jamaikanische Wintersportler: Olympiareporter Christof Siemes sagt, was nach den Spielen bleibt</text>
+            <description py:pytype="str">Die Debatte über Gerechtigkeit im Eiskunstlauf, Münchens Olympiabewerbung, jamaikanische Wintersportler: Olympiareporter Christof Siemes sagt, was nach den Spielen bleibt</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image align="left" title="19 Ein Inder im Schnee Was bleibt von Vancouver?" base-id="http://xml.zeit.de/sport/2010-02/19-vancouver-rueckblick/" type="jpg" publication-date="" expires="">
+              <bu>WHISTLER, BC - FEBRUARY 21: Olympic mascots travel on a buggy prior to the men's biathlon 15 km mass start on day 10 of the 2010 Vancouver Winter Olympics at Whistler Olympic Park Cross-Country Stadium on February 21, 2010 in Whistler, Canada. (Photo by Alexander Hassenstein/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Alexander Hassenstein/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="d35311f7-fbc9-471a-9797-6844d1fd977e">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-vancouver-250210" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:58+00:00" date-first-released="2010-02-26T10:09:20.981179+00:00" date-last-published="2010-03-01T06:46:50.221635+00:00" last-semantic-change="2010-02-26T09:40:53.256452+00:00">
+            <supertitle py:pytype="str">Bilder aus Vancouver</supertitle>
+            <title py:pytype="str">Wenn der Fuß höher fliegt als der Kopf</title>
+            <text py:pytype="str">Bier trinkende und rauchende Eishockeyspielerinnen, fliegende Raumschiffe und die emotionalsten Momente der Winterspiele: Fotos aus Kanada </text>
+            <description py:pytype="str">Bier trinkende und rauchende Eishockeyspielerinnen, fliegende Raumschiffe und die emotionalsten Momente der Winterspiele: Fotos aus Kanada </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="BG Vancouver 250210 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-250210-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Switzerland's Sarah Meier competes in the Women's Figure Skating free program, at the Pacific Coliseum in Vancouver during the XXI Winter Olympics, on February 25, 2010.       AFP PHOTO / YURI KADOBNOV (Photo credit should read YURI KADOBNOV/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Yuri Kadobnov/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="21a897d9-d810-42c8-9a0d-1ebb43e29297" column_1="2">
+          <block href="http://xml.zeit.de/sport/2010-02/rebensberg-olympia-gold" year="2010" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:21+00:00" date-first-released="2010-02-25T23:00:00+00:00" date-last-published="2010-03-01T06:46:50.852334+00:00" last-semantic-change="2010-02-26T06:59:50.709111+00:00">
+            <supertitle py:pytype="str">Viktoria Rebensburg</supertitle>
+            <title py:pytype="str">Ein schlampiges Genie</title>
+            <text py:pytype="str">Viktoria Rebensburg ist im Riesenslalom wie ein draufgängerischer Kerl gefahren. Schnell, wild, gefährlich: Mit ihrer Abfahrt hat die 20-Jährige alle Experten überrascht</text>
+            <description py:pytype="str">Viktoria Rebensburg ist im Riesenslalom wie ein draufgängerischer Kerl gefahren. Schnell, wild, gefährlich: Mit ihrer Abfahrt hat die 20-Jährige alle Experten überrascht</description>
+            <byline py:pytype="str">None</byline>
+            <image alt="&quot;Das ist Wahnsinn&quot;: Viktoria Rebensburg über und mit ihrer Goldmedaille" align="left" base-id="http://xml.zeit.de/sport/2010-02/rebensburg-gold/" type="jpg" publication-date="" expires="">
+              <bu>"Das ist Wahnsinn": Viktoria Rebensburg über und mit ihrer Goldmedaille</bu>
+              <copyright py:pytype="str">© MICHAEL KAPPELER/AFP/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ee11f72d-5f3b-4d7b-87a6-1863c8d88a9f">
+          <block href="http://xml.zeit.de/2010/09/WOS-Ski-Cross-Snowboarder" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:12+00:00" date-first-released="2010-02-25T06:00:00+00:00" date-last-published="2010-02-26T17:58:26.749144+00:00" last-semantic-change="2010-02-24T15:53:45.830484+00:00">
+            <supertitle py:pytype="str">Skicross</supertitle>
+            <title py:pytype="str">Rebellion gegen den traditionellen Skibetrieb</title>
+            <text py:pytype="str">Skicross ist neu bei den Spielen. Es ist wie eine Mischung aus Autorennen, Motocross und Bullenreiten. Der Angriff auf die Tradition macht dem Publikum großen Spaß.</text>
+            <description py:pytype="str">Skicross ist neu bei den Spielen. Es ist wie eine Mischung aus Autorennen, Motocross und Bullenreiten. Der Angriff auf die Tradition macht dem Publikum großen Spaß.</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image align="left" title="19 Ruppiges Olympia Scicross" base-id="http://xml.zeit.de/sport/2010-02/19-skicross/" type="jpg" publication-date="" expires="">
+              <bu>France's Ted Piccard and Daron Rahlves (R) of the US collide during the 1/8 final race during the Men's Freestyle Ski Cross at Cypress Mountain during the Vancouver Winter Olympics, north of Vancouver on February 21, 2010. AFP PHOTO / ADRIAN DENNIS (Photo credit should read ADRIAN DENNIS/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Adrian Dennis/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="233847df-ebc1-4163-b3d9-85c0df0b96d5">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-vancouver-240210-3" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-27T12:01:49+00:00" date-first-released="2010-02-25T09:01:24.570915+00:00" date-last-published="2010-02-27T12:02:49.405979+00:00" last-semantic-change="2010-02-25T08:57:50.233603+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+            <title py:pytype="str">Winterliche Leibesübungen</title>
+            <text py:pytype="str">Freestyler in Extremsituationen, Shorttracker in Reih und Glied, Langlaufidyllen und ein Bob aus Holland - die schönsten Bilder aus Vancouver</text>
+            <description py:pytype="str">Freestyler in Extremsituationen, Shorttracker in Reih und Glied, Langlaufidyllen und ein Bob aus Holland - die schönsten Bilder aus Vancouver</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="BG Vancouver 240210 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-240210-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Alla Tsuper</bu>
+              <copyright py:pytype="str">© Martin Bureau/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="26718f45-1887-4b35-8bc2-58c51f1d923c">
+          <block href="http://xml.zeit.de/sport/2010-02/vancouver-deutsches-haus-business" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-25T09:10:08+00:00" date-first-released="2010-02-25T07:34:32.947353+00:00" date-last-published="2010-02-25T09:11:07.908918+00:00" last-semantic-change="2010-02-25T09:09:54.461584+00:00">
+            <supertitle py:pytype="str">Olympia und Folklore</supertitle>
+            <title py:pytype="str">Hofbräuhaus auf vornehm</title>
+            <text py:pytype="str">Christof Siemes sieht sich die Repräsentanzen Kanadas, Deutschlands und der Schweiz in Vancouver an und stellt beruhigt und beklemmt fest: Kein Klischee kommt zu kurz.</text>
+            <description py:pytype="str">Christof Siemes sieht sich die Repräsentanzen Kanadas, Deutschlands und der Schweiz in Vancouver an und stellt beruhigt und beklemmt fest: Kein Klischee kommt zu kurz.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/seehofer-vancouver/" type="jpg" publication-date="" expires="">
+              <bu>Die Hirschhornknopfdichte ist so hoch wie der Lodenkoeffizient - Horst Seehofer im Deutschen Haus</bu>
+              <copyright py:pytype="str">© Alexander Hassenstein/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="54a6c2ed-1596-49b2-af33-8a53e8242044">
+          <block href="http://xml.zeit.de/sport/2010-02/winterspiele-olympische-eisschnelllauf-beckert" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-25T09:12:09+00:00" date-first-released="2010-02-25T05:47:07.400792+00:00" date-last-published="2010-02-25T09:13:09.120172+00:00" last-semantic-change="2010-02-25T09:11:52.316955+00:00">
+            <supertitle py:pytype="str">Olympische Winterspiele</supertitle>
+            <title py:pytype="str">Silber für Deutschland im Eisschnelllauf</title>
+            <text py:pytype="str">Stephanie Beckert hat im Eisschnelllauf Silber geholt. Damit liegt Deutschland bei der Länderwertung der Oympischen Winterspiele in Vancouver knapp auf Platz eins.</text>
+            <description py:pytype="str">Stephanie Beckert hat im Eisschnelllauf Silber geholt. Damit liegt Deutschland bei der Länderwertung der Oympischen Winterspiele in Vancouver knapp auf Platz eins.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Stephanie Beckert gewinnt Silber bei den Olympischen Winterspielen in Vancouver" align="left" title="Stephanie Beckert gewinnt Silber bei den Olympischen Winterspielen in Vancouver" base-id="http://xml.zeit.de/sport/2010-02/stephanie-beckert/" type="jpg" publication-date="" expires="">
+              <bu>Stephanie Beckert gewinnt Silber bei den Olympischen Winterspielen in Vancouver</bu>
+              <copyright py:pytype="str">© David HEcker/AFP/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+          <block href="http://xml.zeit.de/2010/09/WOS-Ski-Cross-Snowboarder" year="2010" issue="9" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:12+00:00" date-first-released="2010-02-25T06:00:00+00:00" date-last-published="2010-02-26T17:58:26.749144+00:00" last-semantic-change="2010-02-24T15:53:45.830484+00:00">
+            <supertitle py:pytype="str">Skicross</supertitle>
+            <title py:pytype="str">Rebellion gegen den traditionellen Skibetrieb</title>
+            <text py:pytype="str">Skicross ist neu bei den Spielen. Es ist wie eine Mischung aus Autorennen, Motocross und Bullenreiten. Der Angriff auf die Tradition macht dem Publikum großen Spaß.</text>
+            <description py:pytype="str">Skicross ist neu bei den Spielen. Es ist wie eine Mischung aus Autorennen, Motocross und Bullenreiten. Der Angriff auf die Tradition macht dem Publikum großen Spaß.</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image align="left" title="19 Ruppiges Olympia Scicross" base-id="http://xml.zeit.de/sport/2010-02/19-skicross/" type="jpg" publication-date="" expires="">
+              <bu>France's Ted Piccard and Daron Rahlves (R) of the US collide during the 1/8 final race during the Men's Freestyle Ski Cross at Cypress Mountain during the Vancouver Winter Olympics, north of Vancouver on February 21, 2010. AFP PHOTO / ADRIAN DENNIS (Photo credit should read ADRIAN DENNIS/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Adrian Dennis/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-kompakt-vancouver-6" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:15+00:00" date-first-released="2010-02-24T14:36:01.468469+00:00" date-last-published="2010-02-26T17:58:27.685884+00:00" last-semantic-change="2010-02-24T13:33:15.628814+00:00">
+            <supertitle py:pytype="str">Olympia kurz notiert</supertitle>
+            <title py:pytype="str">Vollbeschäftigung für Dealer - Rückendeckung für die Schweiz - Waschen als Hobby</title>
+            <text py:pytype="str">Das größte Poster der Welt unterstützt das Team der Schweiz, in Vancouvers Zentrum riecht es nach Marihuana, und ein US-Eiskunstläufer unterliegt einem Waschzwang.</text>
+            <description py:pytype="str">Das größte Poster der Welt unterstützt das Team der Schweiz, in Vancouvers Zentrum riecht es nach Marihuana, und ein US-Eiskunstläufer unterliegt einem Waschzwang.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Kiffer" base-id="http://xml.zeit.de/sport/2010-02/kiffer/" type="jpg" publication-date="" expires="">
+              <bu>In Vancouver wird während der olympischen Spieler mehr Marihuana geraucht als sonst</bu>
+              <copyright py:pytype="str">© David Lucas/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="88547c79-34a1-4162-9e7f-eee1c0d9bdef">
+          <block href="http://xml.zeit.de/sport/2010-02/biathlon-dorin-staffel-neuner-frankreich" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-24T12:46:05+00:00" date-first-released="2010-02-24T11:18:52.712979+00:00" date-last-published="2010-02-24T11:34:29.409726+00:00" last-semantic-change="2010-02-24T12:46:04.507285+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Biathlon in Vancouver</supertitle>
+            <title py:pytype="str">Und alle so "Ooooooh!"</title>
+            <text py:pytype="str">In Deutschland ist Biathlon Volksfest, Kanada übt noch. Mit ersten Erfolgen. Magdalena Neuner hätte man aber gern in der Staffel gesehen. Christof Siemes aus Vancouver</text>
+            <description py:pytype="str">In Deutschland ist Biathlon Volksfest, Kanada übt noch. Mit ersten Erfolgen. Magdalena Neuner hätte man aber gern in der Staffel gesehen. Christof Siemes aus Vancouver</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/biathlon-dorin/" type="jpg" publication-date="" expires="">
+              <bu>Die Französin Marie Dorin inmitten ihrer Konkurrentinnen</bu>
+              <copyright py:pytype="str">© Franck Fife/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/neuner-huefner-gold-biathlon-verfolgung-rodeln" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-17T10:29:58+00:00" date-first-released="2010-02-17T09:10:05.781467+00:00" date-last-published="2010-02-17T10:30:58.099130+00:00" last-semantic-change="2010-02-17T10:29:41.646025+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Magdalena Neuner und Tatjana Hüfner</supertitle>
+            <title py:pytype="str">Zwei nervenstarke Typen</title>
+            <text py:pytype="str">Nervosität? Herzklopfen? Wie geht es Olympiasportlern vor ihrem Sieg? Christof Siemes hat Tatjana Hüfner und Magdalena Neuner an ihrem erfolgreichen Tag begleitet.</text>
+            <description py:pytype="str">Nervosität? Herzklopfen? Wie geht es Olympiasportlern vor ihrem Sieg? Christof Siemes hat Tatjana Hüfner und Magdalena Neuner an ihrem erfolgreichen Tag begleitet.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/huefner-gold/" type="jpg" publication-date="" expires="">
+              <bu>Tatjana Hüfner präsentiert ihre aktuellen Lieblingsfarben</bu>
+              <copyright py:pytype="str">© Michael Kappeler/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="c04893c7-22ff-44b5-a3ad-ae73dfd3d105">
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-frauenstaffel-kombinierer-bronze" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:10+00:00" date-first-released="2010-02-24T05:53:16.193883+00:00" date-last-published="2010-02-25T18:55:30.366473+00:00" last-semantic-change="2010-02-24T10:35:21.797186+00:00">
+            <supertitle py:pytype="str">Olympische Winterspiele</supertitle>
+            <title py:pytype="str">Doppel-Bronze für deutsches Team </title>
+            <text py:pytype="str">Die Biathlon-Frauenstaffel um Kati Wilhelm und die Nordischen Kombinierer haben Bronze gewonnen. Platz eins der Nationenwertung büßten die Deutschen ein.</text>
+            <description py:pytype="str">Die Biathlon-Frauenstaffel um Kati Wilhelm und die Nordischen Kombinierer haben Bronze gewonnen. Platz eins der Nationenwertung büßten die Deutschen ein.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/biathletinnen/" type="jpg" publication-date="" expires="">
+              <bu>Freuten sich über ihre Bronze-Medaillen: Die deutsche Biathlon-Frauenstaffel um Kati Wilhelm (l.) </bu>
+              <copyright py:pytype="str">© Sandra Behne/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/bg-olympia-100221-2" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:57+00:00" date-first-released="2010-02-22T14:39:55.324179+00:00" date-last-published="2010-02-27T11:15:07.837622+00:00" last-semantic-change="2010-02-22T14:25:51.776824+00:00">
+            <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+            <title py:pytype="str">Im Bann der Wettkämpfe</title>
+            <text py:pytype="str">Skicrosser stoßen in der Luft zusammen, Eishockeyspieler büßen ihre Zähne ein, und Bobfahrer verzaubern das Publikum. Die schönsten Bilder von Tag zehn</text>
+            <description py:pytype="str">Skicrosser stoßen in der Luft zusammen, Eishockeyspieler büßen ihre Zähne ein, und Bobfahrer verzaubern das Publikum. Die schönsten Bilder von Tag zehn</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="BG Olympia 100221 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-olympia-100221-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Hassenstein/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="b4d3c804-a84b-4f61-9ab1-3c88829caef5">
+          <block href="http://xml.zeit.de/sport/2010-02/lange-bob-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:05+00:00" date-first-released="2010-02-23T15:23:09.129941+00:00" date-last-published="2010-02-25T18:55:35.986508+00:00" last-semantic-change="2010-02-23T15:24:59.488326+00:00">
+            <supertitle py:pytype="str">Interview André Lange</supertitle>
+            <title py:pytype="str">"Bobfahren, Bobfahren, Bobfahren"</title>
+            <text py:pytype="str">Es gibt keinen besseren Bobfahrer als André Lange. Im Interview verrät der Olympiasieger, weshalb er fast immer der Schnellste ist und wieso er in Whistler stürzte</text>
+            <description py:pytype="str">Es gibt keinen besseren Bobfahrer als André Lange. Im Interview verrät der Olympiasieger, weshalb er fast immer der Schnellste ist und wieso er in Whistler stürzte</description>
+            <byline xsi:nil="true"/>
+            <image alt="So freut sich der erfolgreichste Bobpilot: André Lange" align="left" base-id="http://xml.zeit.de/sport/2010-02/lange-2/" type="jpg" publication-date="" expires="">
+              <bu>So freut sich der erfolgreichste Bobpilot: André Lange</bu>
+              <copyright py:pytype="str">© Shaun Botterill/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-lange-neuner" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-04-07T15:59:29+00:00" date-first-released="2010-02-22T06:21:52.553970+00:00" date-last-published="2010-04-07T16:00:29.291975+00:00" last-semantic-change="2010-02-22T06:27:12.169706+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Olympische Winterspiele in Vancouver</supertitle>
+            <title py:pytype="str">Gold für Bobpilot Lange und Biathletin Neuner</title>
+            <text py:pytype="str">Historischer Erfolg im Zweierbob: André Lange holt sein viertes Gold bei olympischen Spielen. Magdalena Neuner feiert ihren zweiten Olympiasieg. Friesinger scheitert. </text>
+            <description py:pytype="str">Historischer Erfolg im Zweierbob: André Lange holt sein viertes Gold bei olympischen Spielen. Magdalena Neuner feiert ihren zweiten Olympiasieg. Friesinger scheitert. </description>
+            <byline xsi:nil="true"/>
+            <image alt="Bobpilot André Lange und Anschieber Kevin Kuske im Eiskanal von Whistler" align="left" title="bob-andre-lange" base-id="http://xml.zeit.de/sport/2010-02/bob-andre-lange/" type="jpg" publication-date="" expires="">
+              <bu>Bobpilot André Lange und Anschieber Kevin Kuske im Eiskanal von Whistler</bu>
+              <copyright py:pytype="str">© Leon Neal/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="d49221a4-0dff-4918-82ca-c1195ab7375f">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-olympia-100222-bg" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-26T08:56:01+00:00" date-first-released="2010-02-23T14:44:19.607318+00:00" date-last-published="2010-02-23T15:15:51.674251+00:00" last-semantic-change="2010-02-23T14:43:04.300410+00:00">
+            <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+            <title py:pytype="str">Rotation um alle Körperachsen</title>
+            <text py:pytype="str">Skispringer und Freestyler scheinen alle Gesetze der Physik und der Biomechanik zu überwinden. Wir zeigen die spektakulärsten Bilder von Vancouver.</text>
+            <description py:pytype="str">Skispringer und Freestyler scheinen alle Gesetze der Physik und der Biomechanik zu überwinden. Wir zeigen die spektakulärsten Bilder von Vancouver.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Olympia Teaser" base-id="http://xml.zeit.de/sport/2010-02/olympia-teaser-3/" type="jpg" publication-date="" expires="">
+              <bu>Germany's Michael Uhrmann competes in the Team Ski Jumping at Whistler Olympic Park on February 22, 2010 during the Vancouver Winter Olympics. AFP PHOTO / JAVIER SORIANO (Photo credit should read JAVIER SORIANO/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Javier Soriano /AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="855b2b94-3825-47ae-844b-e42547bc2496">
+          <block href="http://xml.zeit.de/sport/2010-02/kanada-olympia-medaillen" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:01+00:00" date-first-released="2010-02-23T08:22:39.383918+00:00" date-last-published="2010-02-23T10:20:00.522291+00:00" last-semantic-change="2010-02-23T07:57:10.580257+00:00">
+            <supertitle py:pytype="str">Kanadas Kampf um Medaillen</supertitle>
+            <title py:pytype="str">Eine Million Dollar für einen Sieg im Rodeln</title>
+            <text py:pytype="str">Um beste Olympianation zu werden, haben die Kanadier ihren Athleten die höchsten Prämien versprochen. Doch das Geld motiviert zu viel. C. Siemes über Gründe des Versagens</text>
+            <description py:pytype="str">Um beste Olympianation zu werden, haben die Kanadier ihren Athleten die höchsten Prämien versprochen. Doch das Geld motiviert zu viel. C. Siemes über Gründe des Versagens</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image alt="Die Goldmedaille: Riesig, elegant geschwungen, ein kunsthandwerkliches Unikat " align="left" base-id="http://xml.zeit.de/sport/2010-02/medaille/" type="jpg" publication-date="" expires="">
+              <bu>Die Goldmedaille: Riesig, elegant geschwungen, ein kunsthandwerkliches Unikat </bu>
+              <copyright py:pytype="str">© MICHAEL KAPPELER/AFP/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="5b028cb1-1dbd-4038-b453-7d9b2688c092">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-olympia-100221-2" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:57+00:00" date-first-released="2010-02-22T14:39:55.324179+00:00" date-last-published="2010-02-27T11:15:07.837622+00:00" last-semantic-change="2010-02-22T14:25:51.776824+00:00">
+            <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+            <title py:pytype="str">Im Bann der Wettkämpfe</title>
+            <text py:pytype="str">Skicrosser stoßen in der Luft zusammen, Eishockeyspieler büßen ihre Zähne ein, und Bobfahrer verzaubern das Publikum. Die schönsten Bilder von Tag zehn</text>
+            <description py:pytype="str">Skicrosser stoßen in der Luft zusammen, Eishockeyspieler büßen ihre Zähne ein, und Bobfahrer verzaubern das Publikum. Die schönsten Bilder von Tag zehn</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="BG Olympia 100221 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-olympia-100221-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Hassenstein/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="e75553a6-59d8-4bd3-abba-e1af1df59b08">
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-guttenberg-steuern-sportsoldaten" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-04-07T15:59:25+00:00" date-first-released="2010-02-22T14:00:53.393907+00:00" date-last-published="2010-04-07T16:00:24.951989+00:00" last-semantic-change="2010-02-22T13:59:25.211144+00:00">
+            <supertitle py:pytype="str">Sportsoldaten</supertitle>
+            <title py:pytype="str">Olympiasieger ohne berufliche Perspektive</title>
+            <text py:pytype="str">Fast die Hälfte der deutschen Athleten in Vancouver gehört zur Bundeswehr. Während ihrer Karriere profitieren sie von der Sportförderung. Doch wie sieht es danach aus?</text>
+            <description py:pytype="str">Fast die Hälfte der deutschen Athleten in Vancouver gehört zur Bundeswehr. Während ihrer Karriere profitieren sie von der Sportförderung. Doch wie sieht es danach aus?</description>
+            <byline py:pytype="str">Von Ronny Blaschke</byline>
+            <image align="left" title="Tobias Angerer" base-id="http://xml.zeit.de/sport/2010-02/angerer-guttenberg/" type="jpg" publication-date="" expires="">
+              <bu>Sportsoldat und Silbermedaillengewinner Tobias Angerer (r.) posiert mit Verteidigungsminister Karl-Theodor zu Guttenberg. Teamkamerad Jens Filbrich ist mit von der Partie</bu>
+              <copyright py:pytype="str">© Peter Kneffel /dpa </copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="b0d19acb-2a13-4143-8271-29e14910afe5">
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-lange-neuner" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-04-07T15:59:29+00:00" date-first-released="2010-02-22T06:21:52.553970+00:00" date-last-published="2010-04-07T16:00:29.291975+00:00" last-semantic-change="2010-02-22T06:27:12.169706+00:00">
+            <supertitle py:pytype="str">Olympische Winterspiele in Vancouver</supertitle>
+            <title py:pytype="str">Gold für Bobpilot Lange und Biathletin Neuner</title>
+            <text py:pytype="str">Historischer Erfolg im Zweierbob: André Lange holt sein viertes Gold bei olympischen Spielen. Magdalena Neuner feiert ihren zweiten Olympiasieg. Friesinger scheitert. </text>
+            <description py:pytype="str">Historischer Erfolg im Zweierbob: André Lange holt sein viertes Gold bei olympischen Spielen. Magdalena Neuner feiert ihren zweiten Olympiasieg. Friesinger scheitert. </description>
+            <byline xsi:nil="true"/>
+            <image alt="Bobpilot André Lange und Anschieber Kevin Kuske im Eiskanal von Whistler" align="left" title="bob-andre-lange" base-id="http://xml.zeit.de/sport/2010-02/bob-andre-lange/" type="jpg" publication-date="" expires="">
+              <bu>Bobpilot André Lange und Anschieber Kevin Kuske im Eiskanal von Whistler</bu>
+              <copyright py:pytype="str">© Leon Neal/AFP/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/langlauf-silber" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-04-07T15:59:38+00:00" date-first-released="2010-02-21T08:05:35.222248+00:00" date-last-published="2010-04-07T16:00:38.430545+00:00" last-semantic-change="2010-02-21T10:01:35.488406+00:00">
+            <supertitle py:pytype="str">Olympia</supertitle>
+            <title py:pytype="str">Silber für Langläufer Angerer</title>
+            <text py:pytype="str">Erste Medaille für die deutschen Langläufer: Tobias Angerer holte Silber in der Doppelverfolgung über 30 Kilometer.</text>
+            <description py:pytype="str">Erste Medaille für die deutschen Langläufer: Tobias Angerer holte Silber in der Doppelverfolgung über 30 Kilometer.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Angerer" base-id="http://xml.zeit.de/sport/2010-02/tobias-angerer/" type="jpg" publication-date="" expires="">
+              <bu>Tobias Angerer (rechts) holte Silber in der Doppelverfolgung über 30 Kilometer</bu>
+              <copyright py:pytype="str">© dpa/Peter Kneffel</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/08/WOS-Olympia-Ureinwohner" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-04-07T15:59:37+00:00" date-first-released="2010-02-18T06:00:00+00:00" date-last-published="2010-04-07T16:00:37.522568+00:00" last-semantic-change="2010-02-21T17:15:30.249964+00:00">
+            <supertitle py:pytype="str">Olympia 2010</supertitle>
+            <title py:pytype="str">Der Stolz der First Nations</title>
+            <text py:pytype="str">Diese Spiele seien nicht politisch? Die Ureinwohner Kanadas sehen das anders. Sie begreifen Olympia als Bühne, um ihre Geschichte zu erzählen. Von Christof Siemes</text>
+            <description py:pytype="str">Diese Spiele seien nicht politisch? Die Ureinwohner Kanadas sehen das anders. Sie begreifen Olympia als Bühne, um ihre Geschichte zu erzählen. Von Christof Siemes</description>
+            <byline py:pytype="str">von Christof Siemes</byline>
+            <image align="left" title="17-ureinwohner-kanada" base-id="http://xml.zeit.de/sport/2010-02/17-ureinwohner-kanada/" type="jpg" publication-date="" expires="">
+              <bu>Ein kanadischer Indianer tanzt während der Eröffnungsfeier der Winterspiele</bu>
+              <copyright py:pytype="str">© Cameron Spencer/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="fd782401-a5ca-40b9-9e52-f163a7821e48">
+          <block href="http://xml.zeit.de/sport/2010-02/davis-eisschnellauf-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:59+00:00" date-first-released="2010-02-20T17:00:31.062784+00:00" date-last-published="2010-02-21T07:30:31.785940+00:00" last-semantic-change="2010-02-20T16:59:16.976306+00:00">
+            <supertitle py:pytype="str">Shani Davis</supertitle>
+            <title py:pytype="str">Ein eigennütziger Einzelgänger</title>
+            <text py:pytype="str">Eisschnelllauf-Star Shani Davis wird in den USA Egoismus unterstellt. Doch dem Olympiasieger ist das ziemlich egal, er hat in Barack Obama einen prominenten Fürsprecher.</text>
+            <description py:pytype="str">Eisschnelllauf-Star Shani Davis wird in den USA Egoismus unterstellt. Doch dem Olympiasieger ist das ziemlich egal, er hat in Barack Obama einen prominenten Fürsprecher.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Shani Davis feiert seine Medaille in Vancouver" align="left" base-id="http://xml.zeit.de/sport/2010-02/davis/" type="jpg" publication-date="" expires="">
+              <bu>Shani Davis feiert seine Medaille in Vancouver</bu>
+              <copyright py:pytype="str">© DILKOFF/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="0e016da3-a179-42e1-9155-fec47bff4a93">
+          <block href="http://xml.zeit.de/sport/2010-02/riesch-berthold-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:22+00:00" date-first-released="2010-02-20T13:21:25.455641+00:00" date-last-published="2010-02-27T12:02:51.557753+00:00" last-semantic-change="2010-02-20T13:20:11.440454+00:00">
+            <supertitle py:pytype="str">Riesch-Trainer Berthold</supertitle>
+            <title py:pytype="str">"Wir müssen nur sehen, dass wir nicht zu viel feiern"</title>
+            <text py:pytype="str">Mathias Berthold, Trainer der deutschen Alpin-Damen, spricht nach dem Olympiasieg Maria Rieschs im Interview über deren Kampfgeist und Lindsey Vonns angebliche Verletzung</text>
+            <description py:pytype="str">Mathias Berthold, Trainer der deutschen Alpin-Damen, spricht nach dem Olympiasieg Maria Rieschs im Interview über deren Kampfgeist und Lindsey Vonns angebliche Verletzung</description>
+            <byline xsi:nil="true"/>
+            <image alt="Nach dem Erfolg ein Moment zum Genießen: Maria Riesch (links) und Mathias Berthold" align="left" base-id="http://xml.zeit.de/sport/2010-02/berthold/" type="jpg" publication-date="" expires="">
+              <bu>Nach dem Erfolg ein Moment zum Genießen: Maria Riesch (links) und Mathias Berthold</bu>
+              <copyright py:pytype="str">© Karl-Josef Hildenbrand, dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/riesch-goldmedaille-interview" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:23+00:00" date-first-released="2010-02-19T11:31:01.302741+00:00" date-last-published="2010-02-19T11:39:36.127185+00:00" last-semantic-change="2010-02-19T12:22:49.775244+00:00">
+            <supertitle py:pytype="str">Maria Riesch</supertitle>
+            <title py:pytype="str">"Olympiasiegerin – das ist einfach Wahnsinn"</title>
+            <text py:pytype="str">Maria Riesch hat sich mit der Goldmedaille einen Kindheitstraum erfüllt. Die harsche Trainerkritik zuvor habe sie besonders motiviert, wie sie sagt.</text>
+            <description py:pytype="str">Maria Riesch hat sich mit der Goldmedaille einen Kindheitstraum erfüllt. Die harsche Trainerkritik zuvor habe sie besonders motiviert, wie sie sagt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Maria Riesch" base-id="http://xml.zeit.de/sport/2010-02/riesch/" type="jpg" publication-date="" expires="">
+              <bu>Große Freude über Gold: Maria Riesch nach dem Zieleinlauf</bu>
+              <copyright py:pytype="str">© EMMANUEL DUNAND/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="40a0c34f-d600-457d-af05-8b3775a8b814">
+          <block href="http://xml.zeit.de/sport/2010-02/skeleton-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:24+00:00" date-first-released="2010-02-20T09:43:49.662103+00:00" date-last-published="2010-02-27T12:02:53.016668+00:00" last-semantic-change="2010-02-20T09:41:32.791677+00:00">
+            <supertitle py:pytype="str">Skeleton</supertitle>
+            <title py:pytype="str">Der Irrsinn hat Geschwindigkeit</title>
+            <text py:pytype="str">Kopf voran stürzen sich Skeletonfahrer auf einem besseren Bügelbrett mit Griffen den Eiskanal hinab. Christof Siemes wundert sich, wie Menschen zu Torpedos werden.</text>
+            <description py:pytype="str">Kopf voran stürzen sich Skeletonfahrer auf einem besseren Bügelbrett mit Griffen den Eiskanal hinab. Christof Siemes wundert sich, wie Menschen zu Torpedos werden.</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image alt="Auf dem Weg durch den Eiskanal: Skeleton-Fahrer Kazuhiro Koshi aus Japan" align="left" base-id="http://xml.zeit.de/sport/2010-02/skeleton/" type="jpg" publication-date="" expires="">
+              <bu>Auf dem Weg durch den Eiskanal: Skeleton-Fahrer Kazuhiro Koshi aus Japan</bu>
+              <copyright py:pytype="str">© Richard Heathcote/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-skeleton" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-20T08:54:14+00:00" date-first-released="2010-02-20T07:46:52.129898+00:00" date-last-published="2010-02-20T08:55:13.695018+00:00" last-semantic-change="2010-02-20T08:53:56.729793+00:00">
+            <supertitle py:pytype="str">Vancouver 2010</supertitle>
+            <title py:pytype="str">Deutsche Skeleton-Damen gewinnen Silber und Bronze</title>
+            <text py:pytype="str">Erfolg für die deutsche Skeleton-Mannschaft: Kerstin Szymkowiak und Anja Huber holen zwei Medaillen. Das deutsche Eishockeyteam bleibt auch gegen Finnland sieglos.</text>
+            <description py:pytype="str">Erfolg für die deutsche Skeleton-Mannschaft: Kerstin Szymkowiak und Anja Huber holen zwei Medaillen. Das deutsche Eishockeyteam bleibt auch gegen Finnland sieglos.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="skeleton-bronze" base-id="http://xml.zeit.de/sport/2010-02/skeleton-bronze/" type="jpg" publication-date="" expires="2010-05-20T06:41:59+00:00">
+              <bu>Holte in Vancouver Bronze: Die deutsche Skeleton-Fahrerin Anja Huber</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="fac6915b-48b1-45e9-8b39-ee8cf54a43c8">
+          <block href="http://xml.zeit.de/sport/2010-02/kanada-olympia-nationalstolz" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:01+00:00" date-first-released="2010-02-20T10:49:37.432948+00:00" date-last-published="2010-02-23T09:36:06.322675+00:00" last-semantic-change="2010-02-20T10:48:06.557190+00:00">
+            <supertitle py:pytype="str">Nationalgefühl während der Olympischen Spiele</supertitle>
+            <title py:pytype="str">Kanada, einig Vaterland</title>
+            <text py:pytype="str">Viele Kanadier sind überrascht. Sie bemerken, wie Olympia ihre Identität beeinflusst. Aber wann ist die Grenze zwischen Nationalstolz und Nationalismus überschritten?</text>
+            <description py:pytype="str">Viele Kanadier sind überrascht. Sie bemerken, wie Olympia ihre Identität beeinflusst. Aber wann ist die Grenze zwischen Nationalstolz und Nationalismus überschritten?</description>
+            <byline py:pytype="str">Von Ronny Blaschke</byline>
+            <image alt="In den Farben seines Landes: Ein Fan des kanadischen Eishockeyteams während des Spiels gegen die Schweiz" align="left" title="kanada" base-id="http://xml.zeit.de/sport/2010-02/kanada/" type="jpg" publication-date="" expires="">
+              <bu>In den Farben seines Landes: Ein Fan des kanadischen Eishockeyteams während des Spiels gegen die Schweiz</bu>
+              <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="4b40b33f-cbcd-459f-921a-7f157085b475">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-olympia-1902" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-26T08:51:46+00:00" date-first-released="2010-02-19T09:59:28.101075+00:00" date-last-published="2010-02-19T13:45:49.616155+00:00" last-semantic-change="2010-02-26T08:51:44.619259+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Vancouver in Bildern</supertitle>
+            <title py:pytype="str">Olympia ist ... durch die Loipe zu fegen</title>
+            <text py:pytype="str">Biathleten ziehen Spuren in den Schnee, Skeleton-Piloten stürzen sich ins Tal, Curling-Spieler biegen ihre Körper – die schönsten Bilder von Tag sieben.</text>
+            <description py:pytype="str">Biathleten ziehen Spuren in den Schnee, Skeleton-Piloten stürzen sich ins Tal, Curling-Spieler biegen ihre Körper – die schönsten Bilder von Tag sieben.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Olympia Teaser" base-id="http://xml.zeit.de/sport/2010-02/olympia-teaser/" type="jpg" publication-date="" expires="">
+              <bu>VANCOUVER, BC - FEBRUARY 18: Shannon Rempel of Canada warms up before she competes in the women's speed skating 1000 m on day 7 of the Vancouver 2010 Winter Olympics at Richmond Olympic Oval on February 18, 2010 in Vancouver, Canada. (Photo by Cameron Spencer/Getty Images)</bu>
+              <copyright py:pytype="str">© Cameron Spencer/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/curling-olympia-kehrwoche-vancouver" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-21T09:02:19+00:00" date-first-released="2010-02-19T09:42:43.713464+00:00" date-last-published="2010-02-19T10:28:09.817583+00:00" last-semantic-change="2010-02-21T09:02:18.208565+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Curling</supertitle>
+            <title py:pytype="str">Aufregend wie ein Schokopudding beim Abkühlen</title>
+            <text py:pytype="str">Olympia-Korrespondent Christof Siemes gibt sich große Mühe, Curling gut zu finden. Wirklich. Doch es bleibt beim Versuch.</text>
+            <description py:pytype="str">Olympia-Korrespondent Christof Siemes gibt sich große Mühe, Curling gut zu finden. Wirklich. Doch es bleibt beim Versuch.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/curling-damen/" type="jpg" publication-date="" expires="">
+              <bu>Monika Wagner, Stella Heiß, Andrea Schöpp</bu>
+              <copyright py:pytype="str">© Jamie Squire</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="73712126-9df2-439d-bfb4-bed51f8adfa6">
+          <block href="http://xml.zeit.de/2010/08/WOS-Olympia-Eis" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:10+00:00" date-first-released="2010-02-18T06:00:00+00:00" date-last-published="2010-02-18T16:59:01.198669+00:00" last-semantic-change="2010-02-18T16:57:40.433650+00:00">
+            <supertitle py:pytype="str">Olympia</supertitle>
+            <title py:pytype="str">Das Gold klebt auf dem Eis</title>
+            <text py:pytype="str">In Vancouver ist das Eis eine Wissenschaft für sich. Mal ist es zu warm, zu kalt oder zu stumpf. Das deutsche Eisduo Sawtschenko/Szolkowy kostete es die Goldmedaille.</text>
+            <description py:pytype="str">In Vancouver ist das Eis eine Wissenschaft für sich. Mal ist es zu warm, zu kalt oder zu stumpf. Das deutsche Eisduo Sawtschenko/Szolkowy kostete es die Goldmedaille.</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image align="left" title="17-vancouver" base-id="http://xml.zeit.de/sport/2010-02/17-vancouver/" type="jpg" publication-date="" expires="">
+              <bu>Vom Siegestraum blieb den Deutschen Bronze: Aljona Sawtschenko und Robin Szolkowy</bu>
+              <copyright py:pytype="str">© Matthew Stockman/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-vancouver-eiskunstlauf-bronze" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-16T12:14:14+00:00" date-first-released="2010-02-16T06:11:52.633970+00:00" date-last-published="2010-02-16T12:15:14.512653+00:00" last-semantic-change="2010-02-16T11:56:08.067885+00:00">
+            <supertitle py:pytype="str">Olympische Winterspiele in Vancouver</supertitle>
+            <title py:pytype="str">Bronze für deutsche Eiskunstläufer</title>
+            <text py:pytype="str">Sie hätten Gold gewollt, doch dafür reichte es nicht: Zwei Patzer kosteten das Duo Savchenko/Szolkowy den Sieg. Entsprechend verhalten ist ihre Freude.</text>
+            <description py:pytype="str">Sie hätten Gold gewollt, doch dafür reichte es nicht: Zwei Patzer kosteten das Duo Savchenko/Szolkowy den Sieg. Entsprechend verhalten ist ihre Freude.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="eiskunstlauf Savchenko Szolkowy" base-id="http://xml.zeit.de/sport/2010-02/eiskunstlauf/" type="jpg" publication-date="" expires="">
+              <bu>Liefen ihre Kür im Clownskostüm: Eiskunstlauf-Duo Savchenko/Szolkowy</bu>
+              <copyright py:pytype="str">© Matthew Stockman/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="55bffc89-c336-467c-8858-0b32da48c227">
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-kombination-riesch" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-19T10:32:35+00:00" date-first-released="2010-02-19T07:39:14.054193+00:00" date-last-published="2010-02-19T10:33:34.721659+00:00" last-semantic-change="2010-02-19T10:10:31.960895+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Ergebnisse</supertitle>
+            <title py:pytype="str">Maria Riesch holt Gold – Friesinger und die Biathleten enttäuschen</title>
+            <text py:pytype="str">Nur einen Tag nach der Enttäuschung in der Abfahrt hat Maria Riesch die Kombination gewonnen. Eisschnellläuferin Anni Friesinger-Postma und die Biathleten gingen leer aus</text>
+            <description py:pytype="str">Nur einen Tag nach der Enttäuschung in der Abfahrt hat Maria Riesch die Kombination gewonnen. Eisschnellläuferin Anni Friesinger-Postma und die Biathleten gingen leer aus</description>
+            <byline xsi:nil="true"/>
+            <image alt="Präsentiert stolz ihre Goldmedaille: Maria Riesch" align="left" title="Maria Riesch" base-id="http://xml.zeit.de/sport/2010-02/maria-riesch/" type="jpg" publication-date="" expires="2010-05-19T05:26:52+00:00">
+              <bu>Präsentiert stolz ihre Goldmedaille: Maria Riesch</bu>
+              <copyright py:pytype="str">© Mirko Guarriello/epa/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-02/abfahrt-damen-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:56+00:00" date-first-released="2010-02-18T09:19:16.828875+00:00" date-last-published="2010-02-19T10:33:35.426599+00:00" last-semantic-change="2010-02-18T16:08:41.952159+00:00">
+            <supertitle py:pytype="str">Olympia - Abfahrt der Damen</supertitle>
+            <title py:pytype="str">Stürze und Enttäuschung am Berg</title>
+            <text py:pytype="str">Maria Riesch verpasst bei der olympischen Frauenabfahrt die erhoffte Medaille. Das Rennen mit acht Stürzen gewinnt ihre Freundin, die Amerikanerin Lindsey Vonn.</text>
+            <description py:pytype="str">Maria Riesch verpasst bei der olympischen Frauenabfahrt die erhoffte Medaille. Das Rennen mit acht Stürzen gewinnt ihre Freundin, die Amerikanerin Lindsey Vonn.</description>
+            <byline py:pytype="str">Von Benedikt Voigt</byline>
+            <image align="left" title="Stürze Teaser" base-id="http://xml.zeit.de/sport/2010-02/stuerze-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Francis Bompard/Agence Zoom/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="3605af9e-c2ae-46f2-a476-4a8ff0d82b73">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-vancouver-1702-2" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-18T15:36:35+00:00" date-first-released="2010-02-18T08:49:43.210042+00:00" date-last-published="2010-02-18T08:50:08.036915+00:00" last-semantic-change="2010-02-18T09:01:51.923232+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+            <title py:pytype="str">Der Unterschied zwischen Gold und Silber</title>
+            <text py:pytype="str">Eine Schuhspitze entscheidet im Langlauf-Sprint über den Sieg - und die anderen schönsten Bilder des Olympia-Tages.</text>
+            <description py:pytype="str">Eine Schuhspitze entscheidet im Langlauf-Sprint über den Sieg - und die anderen schönsten Bilder des Olympia-Tages.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="BG Vancouver 1702 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-1702-teaser-3/" type="jpg" publication-date="" expires="">
+              <bu>WHISTLER, BC - FEBRUARY 17:  Oeystein Pettersen of Norway leads the field during the Men's Cross-Country Individual Sprint C Quarter-Final on day 6 of the 2010 Vancouver Winter Olympics at Whistler Olympic Park Biathlon Stadium on February 16, 2010 in Whistler, Canada.  (Photo by Lars Baron/Bongarts/Getty Images) *** Local Caption *** Oeystein Pettersen</bu>
+              <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="b2ccbeb5-8344-439b-a347-98591d330fed">
+          <block href="http://xml.zeit.de/sport/2010-02/shaun-white-snowboard-vancouver" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-01T06:45:52+00:00" date-first-released="2010-02-17T17:17:20.070799+00:00" date-last-published="2010-03-01T06:46:52.202934+00:00" last-semantic-change="2010-02-17T12:49:43.378913+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Snowboarder Shaun White</supertitle>
+            <title py:pytype="str">Die Mädchen lieben seine Haare</title>
+            <text py:pytype="str">Das Wunderkind, Flying Tomato oder the Animal: Shaun White hat viele Namen. Der Snowboarder ist nicht weniger als der potentielle Hauptdarsteller der Spiele in Vancouver.</text>
+            <description py:pytype="str">Das Wunderkind, Flying Tomato oder the Animal: Shaun White hat viele Namen. Der Snowboarder ist nicht weniger als der potentielle Hauptdarsteller der Spiele in Vancouver.</description>
+            <byline py:pytype="str">Von Matthias Bossaller</byline>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/white-shaun/" type="jpg" publication-date="" expires="">
+              <bu>Shaun White</bu>
+              <copyright py:pytype="str">© Kevork Djansezian/Getty Images Sport</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-01/snowboard-amelie-kober" year="2010" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:55+00:00" date-first-released="2010-01-05T23:00:00+00:00" date-last-published="2010-03-01T06:46:57.628148+00:00" last-semantic-change="2010-01-06T17:18:45.982553+00:00">
+            <supertitle py:pytype="str">Snowboard-Fahrerin Amelie Kober</supertitle>
+            <title py:pytype="str">Jung, dynamisch, eigentlich gut vermarktbar</title>
+            <text py:pytype="str">Die Snowboarderin Amelie Kober ist die Beste und der Star ihrer Sportart. Doch der Snowboard-Verband tut sich schwer, durch ihre Popularität Geld zu verdienen.</text>
+            <description py:pytype="str">Die Snowboarderin Amelie Kober ist die Beste und der Star ihrer Sportart. Doch der Snowboard-Verband tut sich schwer, durch ihre Popularität Geld zu verdienen.</description>
+            <byline py:pytype="str">Von Benedikt Voigt</byline>
+            <image alt="Amelie Kober während eines Fotoshootings im Dezember 2009" align="left" base-id="http://xml.zeit.de/sport/2010-01/amelie-kober/" type="jpg" publication-date="" expires="">
+              <bu>Amelie Kober während eines Fotoshootings im Dezember 2009</bu>
+              <copyright py:pytype="str">© Alexandra Beier/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="bee52da4-04fa-4cb7-afab-102f271f3fb3">
+          <block href="http://xml.zeit.de/sport/2010-02/vancouver-homosexuelle-sportler" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:26+00:00" date-first-released="2010-02-17T12:10:18.371519+00:00" date-last-published="2010-02-23T09:36:12.174043+00:00" last-semantic-change="2010-02-17T12:21:04.608038+00:00">
+            <supertitle py:pytype="str">Homosexuelle Sportler bei Olympia</supertitle>
+            <title py:pytype="str">Angst vor dem Coming-out </title>
+            <text py:pytype="str">In 14 Olympia-Nationen steht Homosexualität unter Strafe, in zwei droht dafür  die Todesstrafe. In Vancouver gibt es nun das erste Haus für schwule und lesbische Sportler</text>
+            <description py:pytype="str">In 14 Olympia-Nationen steht Homosexualität unter Strafe, in zwei droht dafür  die Todesstrafe. In Vancouver gibt es nun das erste Haus für schwule und lesbische Sportler</description>
+            <byline py:pytype="str">Von Ronny Blaschke</byline>
+            <image alt="Brian Burke: Manager des amerikanischen Eishockey-Nationalteams und Vater des verstorbenen Eishockey-Torwarts Brendan Burke" align="left" base-id="http://xml.zeit.de/sport/2010-02/brian-burke/" type="jpg" publication-date="" expires="">
+              <bu>Brian Burke: Manager des amerikanischen Eishockey-Nationalteams und Vater des verstorbenen Eishockey-Torwarts Brendan Burke</bu>
+              <copyright py:pytype="str">© Elsa/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2010-01/leserdebatte-sport-homophobie" year="2010" issue="3" ressort="Sport" publication-date="" expires="" date-last-modified="2010-01-14T15:44:48+00:00" date-first-released="2010-01-14T14:51:25.006085+00:00" date-last-published="2010-01-14T15:45:48.231943+00:00" last-semantic-change="2010-01-14T14:50:10.421650+00:00">
+            <supertitle py:pytype="str">Leserdebatte</supertitle>
+            <title py:pytype="str">Homosexuelle Sportler – immer noch ein Tabu?</title>
+            <text py:pytype="str">Nur wenige prominente Sportler im professionellen Männersport haben in den vergangenen Jahren ein Outing gewagt. Werden es zukünftig mehr? Diskutieren Sie mit!</text>
+            <description py:pytype="str">Nur wenige prominente Sportler im professionellen Männersport haben in den vergangenen Jahren ein Outing gewagt. Werden es zukünftig mehr? Diskutieren Sie mit!</description>
+            <byline xsi:nil="true"/>
+            <image alt="Gesicht zeigen: Nur wenige Profisportler stehen öffentlich zu ihrer Homosexualität" align="left" title="Homophobie Fußball" base-id="http://xml.zeit.de/sport/2010-01/homophobie-fussball/" type="jpg" publication-date="" expires="">
+              <bu>Gesicht zeigen: Nur wenige Profisportler stehen öffentlich zu ihrer Homosexualität</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=63057">© chrischu/photocase</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="bdcd5517-c36c-40d7-aa50-554604b398c0">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-vancouver-1602" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:18:57+00:00" date-first-released="2010-02-17T10:11:18.447953+00:00" date-last-published="2010-02-17T10:11:18.447953+00:00" last-semantic-change="2010-02-17T10:34:11.013737+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Vancouver in Bildern</supertitle>
+            <title py:pytype="str">Olympioniken wollen hoch hinaus</title>
+            <text py:pytype="str">Biathleten auf der Jagd im Wald, Freestyler in Rotation, Snowboarder in der Halfpipe, Eishockeyspielerinnen in Montur - der fünfte Olympia-Tag in Bildern.</text>
+            <description py:pytype="str">Biathleten auf der Jagd im Wald, Freestyler in Rotation, Snowboarder in der Halfpipe, Eishockeyspielerinnen in Montur - der fünfte Olympia-Tag in Bildern.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Bildergalerie Vancouver 1602 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-1602-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Das russische Eishockeyteam schwört sich ein</bu>
+              <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="bfc40703-d8e0-48f2-bb64-85fd4f958215">
+          <block href="http://xml.zeit.de/sport/2010-02/bg-olympia-1602-2" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-17T17:19:10+00:00" date-first-released="2010-02-16T11:10:46.822259+00:00" date-last-published="2010-02-17T17:20:10.228177+00:00" last-semantic-change="2010-02-16T12:45:14.105071+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+            <title py:pytype="str">Die Athleten erhöhen das Tempo</title>
+            <text py:pytype="str">Langläufer als Hochgeschwindigkeitssportler, fliegende Snowboarder, Eisschnellläufer in voller Fahrt - die schönsten Bilder von Tag 4.</text>
+            <description py:pytype="str">Langläufer als Hochgeschwindigkeitssportler, fliegende Snowboarder, Eisschnellläufer in voller Fahrt - die schönsten Bilder von Tag 4.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="bg-olympia-1602-2-teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-olympia-1602-2-teaser/" type="jpg" publication-date="" expires="">
+              <bu>WHISTLER, BC - FEBRUARY 15: Tanja Karisik of Bosnia Herzegovina competes during the Cross-Country Skiing Ladies' 10 km Free on day 4 of the 2010 Winter Olympics at Whistler Olympic Park Cross-Country Stadium on February 15, 2010 in Whistler, Canada.  (Photo by Alexander Hassenstein/Getty Images) *** Local Caption *** Tanja Karisik</bu>
+              <copyright py:pytype="str">© Alexander Hassenstein/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="edbbd4f9-d6fd-4264-8134-4c33cce3603d">
+          <block href="http://xml.zeit.de/sport/2010-02/olympia-vancouver-eiskunstlauf-bronze" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-16T12:14:14+00:00" date-first-released="2010-02-16T06:11:52.633970+00:00" date-last-published="2010-02-16T12:15:14.512653+00:00" last-semantic-change="2010-02-16T11:56:08.067885+00:00">
+            <supertitle py:pytype="str">Olympische Winterspiele in Vancouver</supertitle>
+            <title py:pytype="str">Bronze für deutsche Eiskunstläufer</title>
+            <text py:pytype="str">Sie hätten Gold gewollt, doch dafür reichte es nicht: Zwei Patzer kosteten das Duo Savchenko/Szolkowy den Sieg. Entsprechend verhalten ist ihre Freude.</text>
+            <description py:pytype="str">Sie hätten Gold gewollt, doch dafür reichte es nicht: Zwei Patzer kosteten das Duo Savchenko/Szolkowy den Sieg. Entsprechend verhalten ist ihre Freude.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="eiskunstlauf Savchenko Szolkowy" base-id="http://xml.zeit.de/sport/2010-02/eiskunstlauf/" type="jpg" publication-date="" expires="">
+              <bu>Liefen ihre Kür im Clownskostüm: Eiskunstlauf-Duo Savchenko/Szolkowy</bu>
+              <copyright py:pytype="str">© Matthew Stockman/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="2e009d79-659c-41d5-b7d4-5942dbf54993" column_1="2">
+          <block href="http://xml.zeit.de/sport/2010-02/rodeln-loch-gold-whistler" year="2010" issue="7" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-16T05:56:55+00:00" date-first-released="2010-02-15T07:36:57.402848+00:00" date-last-published="2010-02-16T05:57:55.000104+00:00" last-semantic-change="2010-02-16T05:54:50.744089+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Deutscher Sieg im Rodeln</supertitle>
+            <title py:pytype="str">Gold beim Beerdigungskaffee</title>
+            <text py:pytype="str">Jubel über den deutschen Doppelsieg: Aber zwei Tage nach dem Tod eines Kollegen sind viele Rodler vor allem froh, heil davongekommen zu sein. Von Christof Siemes</text>
+            <description py:pytype="str">Jubel über den deutschen Doppelsieg: Aber zwei Tage nach dem Tod eines Kollegen sind viele Rodler vor allem froh, heil davongekommen zu sein. Von Christof Siemes</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/rodeln-speed/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Shaun Botterill/Getty Images Sport</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="02492b0f-5866-44d3-8a1b-9a36f8dba927">
+          <block href="http://xml.zeit.de/sport/2010-02/vancouver-olympia-protest-peking" year="2010" ressort="Sport" publication-date="" expires="" date-last-modified="2010-03-23T10:19:27+00:00" date-first-released="2010-02-01T23:00:00+00:00" date-last-published="2010-02-26T17:58:56.476119+00:00" last-semantic-change="2010-02-04T08:56:45.530200+00:00">
+            <supertitle py:pytype="str">Olympische Spiele Vancouver</supertitle>
+            <title py:pytype="str">Willkommen zurück in der Demokratie!</title>
+            <text py:pytype="str">In Peking war Olympia ungestört, in Vancouver ist auch Platz für Protest – ein beruhigendes Zeichen, auch für den Bewerber aus München. Friedhard Teuffel kommentiert</text>
+            <description py:pytype="str">In Peking war Olympia ungestört, in Vancouver ist auch Platz für Protest – ein beruhigendes Zeichen, auch für den Bewerber aus München. Friedhard Teuffel kommentiert</description>
+            <byline py:pytype="str">None</byline>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/vancouver-2010/" type="jpg" publication-date="" expires="">
+              <bu>Vancouver ist bereit für die Spiele</bu>
+              <copyright py:pytype="str">© AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="b20e25c2-053a-4d13-9c3a-646ca8de54e0">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="72d073f4-5552-4611-9253-f384e77adb43">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="cpextra" module="print_archive" cp:__name__="165523ce-96ee-4128-a162-781fd1fdbd9f">
+          <cp_extra id="print_archive"/>
+        </container>
+        <container cp:type="cpextra" module="authors-register" cp:__name__="cdfd542a-f8d7-4f25-a7e6-3770f030194b">
+          <cp_extra id="authors-register"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="e951a546-851e-4ece-b258-788b289680b9">
+          <video videoID="pls50951410001" player="pls" format="large"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="e74f22b8-ce34-4c92-9da5-e5f4f58e9a47" title="Alle 15 sportarten im überblick">
+          <block type="intern" href="http://xml.zeit.de/sport/2010-01/olympia-sportarten" year="2010" issue="5" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-17T09:15:10+00:00" date-first-released="2010-02-12T09:37:39.796135+00:00" date-last-published="2010-02-15T13:28:21.757138+00:00" last-semantic-change="2010-02-12T10:27:05.542399+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Olympische Spiele</supertitle>
+            <title py:pytype="str">Sportarten in Vancouver: von Biathlon bis Snowboard</title>
+            <text py:pytype="str">Ski Alpin und Eishockey kennt jeder. Doch wie sieht es mit Skeleton und Freestyle-Skiing aus? Wir stellen alle 15 Sportarten der Winterspiele vor. Von Matthias Bossaller</text>
+            <description py:pytype="str">Ski Alpin und Eishockey kennt jeder. Doch wie sieht es mit Skeleton und Freestyle-Skiing aus? Wir stellen alle 15 Sportarten der Winterspiele vor. Von Matthias Bossaller</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Nordische Kombination" base-id="http://xml.zeit.de/sport/2010-01/nordische_kombination/" type="jpg" publication-date="" expires="">
+              <bu>Die Kombinierer sind Langläufer und Skispringer in Personalunion</bu>
+              <copyright py:pytype="str">© Sascha Fromm/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/sport/2010-01/nordische_kombination/nordische_kombination-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="2924c0e2-3afe-44f9-9865-7aff1bcdd029">
+          <block type="intern" href="http://xml.zeit.de/sport/2010-02/quiz-olympia-2010" year="2010" issue="8" ressort="Sport" publication-date="" expires="" date-last-modified="2010-02-28T17:24:19+00:00" date-first-released="2010-02-23T15:59:08.719761+00:00" date-last-published="2010-02-23T15:59:59.735835+00:00" last-semantic-change="2010-02-23T16:58:10.414168+00:00">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Was wissen Sie über Olympia?</title>
+            <text py:pytype="str">Spannung, Siege und Schlappen: Die olympischen Winterspiele 2010 haben einiges zu bieten. Doch wie gut wissen Sie Bescheid? Testen Sie ihr Wissen in unserem Quiz.</text>
+            <description py:pytype="str">Spannung, Siege und Schlappen: Die olympischen Winterspiele 2010 haben einiges zu bieten. Doch wie gut wissen Sie Bescheid? Testen Sie ihr Wissen in unserem Quiz.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/wissen/2010-02/denken-frage-quiz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=282219">© MMchen/photocase</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="73e86089-ec3d-4a89-a30c-84934148908a">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/2010-02/reisen-vancouver-3" year="2010" ressort="Reisen" ns0:href="http://xml.zeit.de/politik/2010-02/reisen-vancouver" date-last-modified="2010-02-19T10:24:02+00:00" date-first-released="" date-last-published="" last-semantic-change="">
+            <supertitle py:pytype="str">Reiseziel Vancouver</supertitle>
+            <title py:pytype="str">Herrin der Ringe</title>
+            <text py:pytype="str">Vancouver hat alles für ein Paradies: Fjorde, Berge, nette Bewohner und Bären. Zu den Winterspielen werden jetzt Hunderttausende Besucher erwartet. </text>
+            <description py:pytype="str">Vancouver hat alles für ein Paradies: Fjorde, Berge, nette Bewohner und Bären. Zu den Winterspielen werden jetzt Hunderttausende Besucher erwartet. </description>
+            <byline py:pytype="str">None</byline>
+            <image alt="Nächtliches Panorama von Vancouver" align="left" title="Vancouver" base-id="http://xml.zeit.de/reisen/2010-02/Vancouver/" type="jpg" publication-date="" expires="">
+              <bu>Funkeln für die Olympischen Spiele: die nächtliche Skyline von Vancouver. jetzt müssen nur noch die Bewohner mitspielen</bu>
+              <copyright py:pytype="str">©  Bruce Bennett/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2010-02/ferien-olympiade" year="2010" issue="8" ressort="Reisen" publication-date="" expires="" date-last-modified="2010-02-18T17:46:42+00:00" date-first-released="2010-02-18T17:26:05.111415+00:00" date-last-published="2010-02-18T17:47:42.051520+00:00" last-semantic-change="2010-02-18T17:46:29.366237+00:00">
+            <supertitle py:pytype="str">Wintersportkurse</supertitle>
+            <title py:pytype="str">Der Spaß ist Gold wert</title>
+            <text py:pytype="str">Fliegen wie Michael Uhrmann, zielen wie Magdalena Neuner: Wer testen möchte, ob ein Olympionike in ihm steckt, der kann das im Urlaub tun. </text>
+            <description py:pytype="str">Fliegen wie Michael Uhrmann, zielen wie Magdalena Neuner: Wer testen möchte, ob ein Olympionike in ihm steckt, der kann das im Urlaub tun. </description>
+            <byline xsi:nil="true"/>
+            <image alt="Hier fliegt der Profi: Michael Uhrmann in Vancouver" align="left" title="Skispringen wie Uhrmann" base-id="http://xml.zeit.de/reisen/2010-02/skispringen-uhrmann/" type="jpg" publication-date="" expires="">
+              <bu>Hier fliegt der Profi: Michael Uhrmann in Vancouver</bu>
+              <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="b90b92b0-073e-4c91-aa4c-69c33928f4d2" title="Die schönsten Bilder der Eröffnungsfeier">
+          <block type="intern" href="http://xml.zeit.de/sport/2010-02/bg-vancouver-eroeffnung" year="2010" issue="7" ressort="Sport" publication-date="" expires="">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Eröffnungsfeier Vancouver</supertitle>
+            <title py:pytype="str">Das Feuer brennt</title>
+            <text py:pytype="str">Dezent und mit wenig Pomp eröffnete Vancouver die XXI. Olympischen Winterspiele. Erstmals fand diese Zeremonie unter einem Dach statt. Wir zeigen die schönsten Bilder.</text>
+            <description py:pytype="str">Dezent und mit wenig Pomp eröffnete Vancouver die XXI. Olympischen Winterspiele. Erstmals fand diese Zeremonie unter einem Dach statt. Wir zeigen die schönsten Bilder.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-eroeffnung-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Acrobats perform during the opening ceremony during the Opening Ceremony of the 2010 Vancouver Winter Olympics at BC Place on February 12, 2010 in Vancouver, Canada.   AFP PHOTO / Robyn BECK (Photo credit should read ROBYN BECK/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Robyn Beck/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/sport/2010-02/bg-vancouver-eroeffnung-teaser/bg-vancouver-eroeffnung-teaser-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="e94fdef8-2d5a-4505-aab1-ea4faa27f708">
+          <block type="intern" href="http://xml.zeit.de/reisen/2010-02/vancouver-quiz" year="2010" issue="6" ressort="Reisen" publication-date="" expires="" date-last-modified="2010-04-12T09:32:52+00:00" date-first-released="2010-02-09T14:43:43.928060+00:00" date-last-published="2010-03-01T16:02:07.109421+00:00" last-semantic-change="2010-02-09T16:06:26.468596+00:00">
+            <supertitle py:pytype="str">Quiz zu den Olympischen Winterspielen</supertitle>
+            <title py:pytype="str">Vancouver – Stadt der Kälte?</title>
+            <text py:pytype="str">Ab Freitag starten in Vancouver die Winter-Olympioniken. Was wissen Sie über die kanadische Stadt? Testen Sie Ihr Wissen im Reisequiz!</text>
+            <description py:pytype="str">Ab Freitag starten in Vancouver die Winter-Olympioniken. Was wissen Sie über die kanadische Stadt? Testen Sie Ihr Wissen im Reisequiz!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/reisen/2010-02/vancouver-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Sandra Behne/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle py:pytype="str">Alles zum Thema</supertitle>
+    <title>Olympische Winterspiele 2010 in Vancouver - eine Archivseite</title>
+    <subtitle>Die 21. Olympischen Winterspiele vom 12. bis 28. Februar 2010 in der kanadischen Stadt Vancouver</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/olympia-lange-neuner" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Olympische Winterspiele in Vancouver</supertitle>
+      <title py:pytype="str">Gold für Bobpilot Lange und Biathletin Neuner</title>
+      <text py:pytype="str">Historischer Erfolg im Zweierbob: André Lange holt sein viertes Gold bei olympischen Spielen. Magdalena Neuner feiert ihren zweiten Olympiasieg. Friesinger scheitert. </text>
+      <description py:pytype="str">Historischer Erfolg im Zweierbob: André Lange holt sein viertes Gold bei olympischen Spielen. Magdalena Neuner feiert ihren zweiten Olympiasieg. Friesinger scheitert. </description>
+      <byline xsi:nil="true"/>
+      <image alt="Bobpilot André Lange und Anschieber Kevin Kuske im Eiskanal von Whistler" align="left" title="bob-andre-lange" base-id="http://xml.zeit.de/sport/2010-02/bob-andre-lange/" type="jpg" publication-date="" expires="">
+        <bu>Bobpilot André Lange und Anschieber Kevin Kuske im Eiskanal von Whistler</bu>
+        <copyright py:pytype="str">© Leon Neal/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/winterspiele-olympische-eisschnelllauf-beckert" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Olympische Winterspiele</supertitle>
+      <title py:pytype="str">Silber für Deutschland im Eisschnelllauf</title>
+      <text py:pytype="str">Stephanie Beckert hat im Eisschnelllauf Silber geholt. Damit liegt Deutschland bei der Länderwertung der Oympischen Winterspiele in Vancouver knapp auf Platz eins.</text>
+      <description py:pytype="str">Stephanie Beckert hat im Eisschnelllauf Silber geholt. Damit liegt Deutschland bei der Länderwertung der Oympischen Winterspiele in Vancouver knapp auf Platz eins.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Stephanie Beckert gewinnt Silber bei den Olympischen Winterspielen in Vancouver" align="left" title="Stephanie Beckert gewinnt Silber bei den Olympischen Winterspielen in Vancouver" base-id="http://xml.zeit.de/sport/2010-02/stephanie-beckert/" type="jpg" publication-date="" expires="">
+        <bu>Stephanie Beckert gewinnt Silber bei den Olympischen Winterspielen in Vancouver</bu>
+        <copyright py:pytype="str">© David HEcker/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/biathlon-dorin-staffel-neuner-frankreich" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Biathlon in Vancouver</supertitle>
+      <title py:pytype="str">Und alle so "Ooooooh!"</title>
+      <text py:pytype="str">In Deutschland ist Biathlon Volksfest, Kanada übt noch. Mit ersten Erfolgen. Magdalena Neuner hätte man aber gern in der Staffel gesehen. Christof Siemes aus Vancouver</text>
+      <description py:pytype="str">In Deutschland ist Biathlon Volksfest, Kanada übt noch. Mit ersten Erfolgen. Magdalena Neuner hätte man aber gern in der Staffel gesehen. Christof Siemes aus Vancouver</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2010-02/biathlon-dorin/" type="jpg" publication-date="" expires="">
+        <bu>Die Französin Marie Dorin inmitten ihrer Konkurrentinnen</bu>
+        <copyright py:pytype="str">© Franck Fife/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/kanada-olympia-nationalstolz" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Nationalgefühl während der Olympischen Spiele</supertitle>
+      <title py:pytype="str">Kanada, einig Vaterland</title>
+      <text py:pytype="str">Viele Kanadier sind überrascht. Sie bemerken, wie Olympia ihre Identität beeinflusst. Aber wann ist die Grenze zwischen Nationalstolz und Nationalismus überschritten?</text>
+      <description py:pytype="str">Viele Kanadier sind überrascht. Sie bemerken, wie Olympia ihre Identität beeinflusst. Aber wann ist die Grenze zwischen Nationalstolz und Nationalismus überschritten?</description>
+      <byline py:pytype="str">Von Ronny Blaschke</byline>
+      <image alt="In den Farben seines Landes: Ein Fan des kanadischen Eishockeyteams während des Spiels gegen die Schweiz" align="left" title="kanada" base-id="http://xml.zeit.de/sport/2010-02/kanada/" type="jpg" publication-date="" expires="">
+        <bu>In den Farben seines Landes: Ein Fan des kanadischen Eishockeyteams während des Spiels gegen die Schweiz</bu>
+        <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/olympia-frauenstaffel-kombinierer-bronze" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympische Winterspiele</supertitle>
+      <title py:pytype="str">Doppel-Bronze für deutsches Team </title>
+      <text py:pytype="str">Die Biathlon-Frauenstaffel um Kati Wilhelm und die Nordischen Kombinierer haben Bronze gewonnen. Platz eins der Nationenwertung büßten die Deutschen ein.</text>
+      <description py:pytype="str">Die Biathlon-Frauenstaffel um Kati Wilhelm und die Nordischen Kombinierer haben Bronze gewonnen. Platz eins der Nationenwertung büßten die Deutschen ein.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2010-02/biathletinnen/" type="jpg" publication-date="" expires="">
+        <bu>Freuten sich über ihre Bronze-Medaillen: Die deutsche Biathlon-Frauenstaffel um Kati Wilhelm (l.) </bu>
+        <copyright py:pytype="str">© Sandra Behne/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-03/bg-olympia-0103-2" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Bilder aus Vancouver</supertitle>
+      <title py:pytype="str">Die Sportler laufen um das Feuer</title>
+      <text py:pytype="str">Und zum Schluss 'ne große Show: Mit fliegenden Elchen, freundlichen Snowboarderinnen und vielen leuchtenden Bällen verabschiedet Kanada die Olympischen Spiele.</text>
+      <description py:pytype="str">Und zum Schluss 'ne große Show: Mit fliegenden Elchen, freundlichen Snowboarderinnen und vielen leuchtenden Bällen verabschiedet Kanada die Olympischen Spiele.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="bg-olympia-0103-teaser" base-id="http://xml.zeit.de/sport/2010-03/bg-olympia-0103-teaser/" type="jpg" publication-date="" expires="">
+        <bu>VANCOUVER, BC - FEBRUARY 28:  An entertainer performs during the Closing Ceremony of the Vancouver 2010 Winter Olympics at BC Place on February 28, 2010 in Vancouver, Canada.  (Photo by Cameron Spencer/Getty Images)</bu>
+        <copyright py:pytype="str">© Cameron Spencer/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/riesch-berthold-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Riesch-Trainer Berthold</supertitle>
+      <title py:pytype="str">"Wir müssen nur sehen, dass wir nicht zu viel feiern"</title>
+      <text py:pytype="str">Mathias Berthold, Trainer der deutschen Alpin-Damen, spricht nach dem Olympiasieg Maria Rieschs im Interview über deren Kampfgeist und Lindsey Vonns angebliche Verletzung</text>
+      <description py:pytype="str">Mathias Berthold, Trainer der deutschen Alpin-Damen, spricht nach dem Olympiasieg Maria Rieschs im Interview über deren Kampfgeist und Lindsey Vonns angebliche Verletzung</description>
+      <byline xsi:nil="true"/>
+      <image alt="Nach dem Erfolg ein Moment zum Genießen: Maria Riesch (links) und Mathias Berthold" align="left" base-id="http://xml.zeit.de/sport/2010-02/berthold/" type="jpg" publication-date="" expires="">
+        <bu>Nach dem Erfolg ein Moment zum Genießen: Maria Riesch (links) und Mathias Berthold</bu>
+        <copyright py:pytype="str">© Karl-Josef Hildenbrand, dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/davis-eisschnellauf-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Shani Davis</supertitle>
+      <title py:pytype="str">Ein eigennütziger Einzelgänger</title>
+      <text py:pytype="str">Eisschnelllauf-Star Shani Davis wird in den USA Egoismus unterstellt. Doch dem Olympiasieger ist das ziemlich egal, er hat in Barack Obama einen prominenten Fürsprecher.</text>
+      <description py:pytype="str">Eisschnelllauf-Star Shani Davis wird in den USA Egoismus unterstellt. Doch dem Olympiasieger ist das ziemlich egal, er hat in Barack Obama einen prominenten Fürsprecher.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Shani Davis feiert seine Medaille in Vancouver" align="left" base-id="http://xml.zeit.de/sport/2010-02/davis/" type="jpg" publication-date="" expires="">
+        <bu>Shani Davis feiert seine Medaille in Vancouver</bu>
+        <copyright py:pytype="str">© DILKOFF/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/skeleton-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Skeleton</supertitle>
+      <title py:pytype="str">Der Irrsinn hat Geschwindigkeit</title>
+      <text py:pytype="str">Kopf voran stürzen sich Skeletonfahrer auf einem besseren Bügelbrett mit Griffen den Eiskanal hinab. Christof Siemes wundert sich, wie Menschen zu Torpedos werden.</text>
+      <description py:pytype="str">Kopf voran stürzen sich Skeletonfahrer auf einem besseren Bügelbrett mit Griffen den Eiskanal hinab. Christof Siemes wundert sich, wie Menschen zu Torpedos werden.</description>
+      <byline py:pytype="str">Von Christof Siemes</byline>
+      <image alt="Auf dem Weg durch den Eiskanal: Skeleton-Fahrer Kazuhiro Koshi aus Japan" align="left" base-id="http://xml.zeit.de/sport/2010-02/skeleton/" type="jpg" publication-date="" expires="">
+        <bu>Auf dem Weg durch den Eiskanal: Skeleton-Fahrer Kazuhiro Koshi aus Japan</bu>
+        <copyright py:pytype="str">© Richard Heathcote/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/lange-bob-olympia" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Interview André Lange</supertitle>
+      <title py:pytype="str">"Bobfahren, Bobfahren, Bobfahren"</title>
+      <text py:pytype="str">Es gibt keinen besseren Bobfahrer als André Lange. Im Interview verrät der Olympiasieger, weshalb er fast immer der Schnellste ist und wieso er in Whistler stürzte</text>
+      <description py:pytype="str">Es gibt keinen besseren Bobfahrer als André Lange. Im Interview verrät der Olympiasieger, weshalb er fast immer der Schnellste ist und wieso er in Whistler stürzte</description>
+      <byline xsi:nil="true"/>
+      <image alt="So freut sich der erfolgreichste Bobpilot: André Lange" align="left" base-id="http://xml.zeit.de/sport/2010-02/lange-2/" type="jpg" publication-date="" expires="">
+        <bu>So freut sich der erfolgreichste Bobpilot: André Lange</bu>
+        <copyright py:pytype="str">© Shaun Botterill/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/09/WOS-Ski-Cross-Snowboarder" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Skicross</supertitle>
+      <title py:pytype="str">Rebellion gegen den traditionellen Skibetrieb</title>
+      <text py:pytype="str">Skicross ist neu bei den Spielen. Es ist wie eine Mischung aus Autorennen, Motocross und Bullenreiten. Der Angriff auf die Tradition macht dem Publikum großen Spaß.</text>
+      <description py:pytype="str">Skicross ist neu bei den Spielen. Es ist wie eine Mischung aus Autorennen, Motocross und Bullenreiten. Der Angriff auf die Tradition macht dem Publikum großen Spaß.</description>
+      <byline py:pytype="str">Von Christof Siemes</byline>
+      <image align="left" title="19 Ruppiges Olympia Scicross" base-id="http://xml.zeit.de/sport/2010-02/19-skicross/" type="jpg" publication-date="" expires="">
+        <bu>France's Ted Piccard and Daron Rahlves (R) of the US collide during the 1/8 final race during the Men's Freestyle Ski Cross at Cypress Mountain during the Vancouver Winter Olympics, north of Vancouver on February 21, 2010. AFP PHOTO / ADRIAN DENNIS (Photo credit should read ADRIAN DENNIS/AFP/Getty Images)</bu>
+        <copyright py:pytype="str">© Adrian Dennis/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/09/WOS-Olympisches-Allerlei" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympische Spiele</supertitle>
+      <title py:pytype="str">München lockt das IOC mit Weißbier, Leberkäse und Brezeln</title>
+      <text py:pytype="str">Die Debatte über Gerechtigkeit im Eiskunstlauf, Münchens Olympiabewerbung, jamaikanische Wintersportler: Olympiareporter Christof Siemes sagt, was nach den Spielen bleibt</text>
+      <description py:pytype="str">Die Debatte über Gerechtigkeit im Eiskunstlauf, Münchens Olympiabewerbung, jamaikanische Wintersportler: Olympiareporter Christof Siemes sagt, was nach den Spielen bleibt</description>
+      <byline py:pytype="str">Von Christof Siemes</byline>
+      <image align="left" title="19 Ein Inder im Schnee Was bleibt von Vancouver?" base-id="http://xml.zeit.de/sport/2010-02/19-vancouver-rueckblick/" type="jpg" publication-date="" expires="">
+        <bu>WHISTLER, BC - FEBRUARY 21: Olympic mascots travel on a buggy prior to the men's biathlon 15 km mass start on day 10 of the 2010 Vancouver Winter Olympics at Whistler Olympic Park Cross-Country Stadium on February 21, 2010 in Whistler, Canada. (Photo by Alexander Hassenstein/Bongarts/Getty Images)</bu>
+        <copyright py:pytype="str">© Alexander Hassenstein/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/vancouver-olympia-protest-peking" year="2010" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympische Spiele Vancouver</supertitle>
+      <title py:pytype="str">Willkommen zurück in der Demokratie!</title>
+      <text py:pytype="str">In Peking war Olympia ungestört, in Vancouver ist auch Platz für Protest – ein beruhigendes Zeichen, auch für den Bewerber aus München. Friedhard Teuffel kommentiert</text>
+      <description py:pytype="str">In Peking war Olympia ungestört, in Vancouver ist auch Platz für Protest – ein beruhigendes Zeichen, auch für den Bewerber aus München. Friedhard Teuffel kommentiert</description>
+      <byline py:pytype="str">None</byline>
+      <image align="left" base-id="http://xml.zeit.de/sport/2010-02/vancouver-2010/" type="jpg" publication-date="" expires="">
+        <bu>Vancouver ist bereit für die Spiele</bu>
+        <copyright py:pytype="str">© AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/olympia-kombination-riesch" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Ergebnisse</supertitle>
+      <title py:pytype="str">Maria Riesch holt Gold – Friesinger und die Biathleten enttäuschen</title>
+      <text py:pytype="str">Nur einen Tag nach der Enttäuschung in der Abfahrt hat Maria Riesch die Kombination gewonnen. Eisschnellläuferin Anni Friesinger-Postma und die Biathleten gingen leer aus</text>
+      <description py:pytype="str">Nur einen Tag nach der Enttäuschung in der Abfahrt hat Maria Riesch die Kombination gewonnen. Eisschnellläuferin Anni Friesinger-Postma und die Biathleten gingen leer aus</description>
+      <byline xsi:nil="true"/>
+      <image alt="Präsentiert stolz ihre Goldmedaille: Maria Riesch" align="left" title="Maria Riesch" base-id="http://xml.zeit.de/sport/2010-02/maria-riesch/" type="jpg" publication-date="" expires="2010-05-19T05:26:52+00:00">
+        <bu>Präsentiert stolz ihre Goldmedaille: Maria Riesch</bu>
+        <copyright py:pytype="str">© Mirko Guarriello/epa/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-olympia-1902" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Vancouver in Bildern</supertitle>
+      <title py:pytype="str">Olympia ist ... durch die Loipe zu fegen</title>
+      <text py:pytype="str">Biathleten ziehen Spuren in den Schnee, Skeleton-Piloten stürzen sich ins Tal, Curling-Spieler biegen ihre Körper – die schönsten Bilder von Tag sieben.</text>
+      <description py:pytype="str">Biathleten ziehen Spuren in den Schnee, Skeleton-Piloten stürzen sich ins Tal, Curling-Spieler biegen ihre Körper – die schönsten Bilder von Tag sieben.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Olympia Teaser" base-id="http://xml.zeit.de/sport/2010-02/olympia-teaser/" type="jpg" publication-date="" expires="">
+        <bu>VANCOUVER, BC - FEBRUARY 18: Shannon Rempel of Canada warms up before she competes in the women's speed skating 1000 m on day 7 of the Vancouver 2010 Winter Olympics at Richmond Olympic Oval on February 18, 2010 in Vancouver, Canada. (Photo by Cameron Spencer/Getty Images)</bu>
+        <copyright py:pytype="str">© Cameron Spencer/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-03/olympia-abschlussfeier-ausblick" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Abschlussfeier Olympische Spiele</supertitle>
+      <title py:pytype="str">"O Canada"</title>
+      <text py:pytype="str">Straßenpartys, Selbstironie und (noch) kein Dopingfall: Was diese Spiele unvergesslich macht und was die Welt in Sotschi vermissen wird. Von Christof Siemes, Vancouver</text>
+      <description py:pytype="str">Straßenpartys, Selbstironie und (noch) kein Dopingfall: Was diese Spiele unvergesslich macht und was die Welt in Sotschi vermissen wird. Von Christof Siemes, Vancouver</description>
+      <byline py:pytype="str">Von Christof Siemes</byline>
+      <image alt="Feiern nach dem Eishockeysieg: Für diese Fans der krönende Abschluss der Winterspiele" align="left" base-id="http://xml.zeit.de/sport/2010-03/kanada-fans/" type="jpg" publication-date="" expires="">
+        <bu>Feiern nach dem Eishockeysieg: Für diese Fans der krönende Abschluss der Winterspiele</bu>
+        <copyright py:pytype="str">© Leon Neal/AFP/Getty Images) </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-vancouver-1702-2" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+      <title py:pytype="str">Der Unterschied zwischen Gold und Silber</title>
+      <text py:pytype="str">Eine Schuhspitze entscheidet im Langlauf-Sprint über den Sieg - und die anderen schönsten Bilder des Olympia-Tages.</text>
+      <description py:pytype="str">Eine Schuhspitze entscheidet im Langlauf-Sprint über den Sieg - und die anderen schönsten Bilder des Olympia-Tages.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="BG Vancouver 1702 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-1702-teaser-3/" type="jpg" publication-date="" expires="">
+        <bu>WHISTLER, BC - FEBRUARY 17:  Oeystein Pettersen of Norway leads the field during the Men's Cross-Country Individual Sprint C Quarter-Final on day 6 of the 2010 Vancouver Winter Olympics at Whistler Olympic Park Biathlon Stadium on February 16, 2010 in Whistler, Canada.  (Photo by Lars Baron/Bongarts/Getty Images) *** Local Caption *** Oeystein Pettersen</bu>
+        <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-olympia-100222-bg" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+      <title py:pytype="str">Rotation um alle Körperachsen</title>
+      <text py:pytype="str">Skispringer und Freestyler scheinen alle Gesetze der Physik und der Biomechanik zu überwinden. Wir zeigen die spektakulärsten Bilder von Vancouver.</text>
+      <description py:pytype="str">Skispringer und Freestyler scheinen alle Gesetze der Physik und der Biomechanik zu überwinden. Wir zeigen die spektakulärsten Bilder von Vancouver.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Olympia Teaser" base-id="http://xml.zeit.de/sport/2010-02/olympia-teaser-3/" type="jpg" publication-date="" expires="">
+        <bu>Germany's Michael Uhrmann competes in the Team Ski Jumping at Whistler Olympic Park on February 22, 2010 during the Vancouver Winter Olympics. AFP PHOTO / JAVIER SORIANO (Photo credit should read JAVIER SORIANO/AFP/Getty Images)</bu>
+        <copyright py:pytype="str">© Javier Soriano /AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/fussball/2010-02/vancouver-umweltschutz-gruen" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Vancouver und Umwelt</supertitle>
+      <title py:pytype="str">Die grünsten Spiele der Olympia-Geschichte</title>
+      <text py:pytype="str">Christof Siemes vergibt den Organisatoren im Fach Umwelt gute Noten. Nachhaltig wird Olympia aber erst, wenn die Milliarden, die zuschauen, grün denken und handeln.</text>
+      <description py:pytype="str">Christof Siemes vergibt den Organisatoren im Fach Umwelt gute Noten. Nachhaltig wird Olympia aber erst, wenn die Milliarden, die zuschauen, grün denken und handeln.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/fussball/2010-02/vancouver-fans/" type="jpg" publication-date="" expires="">
+        <bu>Zu Fuß geht's doch auch - Olympia-Fans auf dem Weg zu Wettkämpfen</bu>
+        <copyright py:pytype="str">© Kevork Djansezian/Getty Images Sport</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-vancouver-1602" year="2010" issue="7" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Vancouver in Bildern</supertitle>
+      <title py:pytype="str">Olympioniken wollen hoch hinaus</title>
+      <text py:pytype="str">Biathleten auf der Jagd im Wald, Freestyler in Rotation, Snowboarder in der Halfpipe, Eishockeyspielerinnen in Montur - der fünfte Olympia-Tag in Bildern.</text>
+      <description py:pytype="str">Biathleten auf der Jagd im Wald, Freestyler in Rotation, Snowboarder in der Halfpipe, Eishockeyspielerinnen in Montur - der fünfte Olympia-Tag in Bildern.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Bildergalerie Vancouver 1602 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-1602-teaser/" type="jpg" publication-date="" expires="">
+        <bu>Das russische Eishockeyteam schwört sich ein</bu>
+        <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/08/WOS-Olympia-Eis" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Olympia</supertitle>
+      <title py:pytype="str">Das Gold klebt auf dem Eis</title>
+      <text py:pytype="str">In Vancouver ist das Eis eine Wissenschaft für sich. Mal ist es zu warm, zu kalt oder zu stumpf. Das deutsche Eisduo Sawtschenko/Szolkowy kostete es die Goldmedaille.</text>
+      <description py:pytype="str">In Vancouver ist das Eis eine Wissenschaft für sich. Mal ist es zu warm, zu kalt oder zu stumpf. Das deutsche Eisduo Sawtschenko/Szolkowy kostete es die Goldmedaille.</description>
+      <byline py:pytype="str">Von Christof Siemes</byline>
+      <image align="left" title="17-vancouver" base-id="http://xml.zeit.de/sport/2010-02/17-vancouver/" type="jpg" publication-date="" expires="">
+        <bu>Vom Siegestraum blieb den Deutschen Bronze: Aljona Sawtschenko und Robin Szolkowy</bu>
+        <copyright py:pytype="str">© Matthew Stockman/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/riesch-gold-olympia-slalom" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympische Winterspiele</supertitle>
+      <title py:pytype="str">Maria Riesch gewinnt zum zweiten Mal Gold</title>
+      <text py:pytype="str">Zweiter Triumph, zweites Gold, zweite Ehrung: Skirennfahrerin Maria Riesch hat sich im Slalom ihren zweiten Olympiasieg in Kanada erkämpft.</text>
+      <description py:pytype="str">Zweiter Triumph, zweites Gold, zweite Ehrung: Skirennfahrerin Maria Riesch hat sich im Slalom ihren zweiten Olympiasieg in Kanada erkämpft.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Die Skifahrerin Maria Riesch zeigt ihre zwei gewonnenen Goldmedaillen" align="left" title="Die Skifahrerin Maria Riesch zeigt ihre zwei gewonnenen Goldmedaillen" base-id="http://xml.zeit.de/sport/2010-02/maria-riesch-2/" type="jpg" publication-date="" expires="">
+        <bu>Die Skifahrerin Maria Riesch zeigt ihre zwei gewonnenen Goldmedaillen</bu>
+        <copyright py:pytype="str">© Michael Kappeler/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/vancouver-homosexuelle-sportler" year="2010" issue="7" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Homosexuelle Sportler bei Olympia</supertitle>
+      <title py:pytype="str">Angst vor dem Coming-out </title>
+      <text py:pytype="str">In 14 Olympia-Nationen steht Homosexualität unter Strafe, in zwei droht dafür  die Todesstrafe. In Vancouver gibt es nun das erste Haus für schwule und lesbische Sportler</text>
+      <description py:pytype="str">In 14 Olympia-Nationen steht Homosexualität unter Strafe, in zwei droht dafür  die Todesstrafe. In Vancouver gibt es nun das erste Haus für schwule und lesbische Sportler</description>
+      <byline py:pytype="str">Von Ronny Blaschke</byline>
+      <image alt="Brian Burke: Manager des amerikanischen Eishockey-Nationalteams und Vater des verstorbenen Eishockey-Torwarts Brendan Burke" align="left" base-id="http://xml.zeit.de/sport/2010-02/brian-burke/" type="jpg" publication-date="" expires="">
+        <bu>Brian Burke: Manager des amerikanischen Eishockey-Nationalteams und Vater des verstorbenen Eishockey-Torwarts Brendan Burke</bu>
+        <copyright py:pytype="str">© Elsa/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/shaun-white-snowboard-vancouver" year="2010" issue="7" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Snowboarder Shaun White</supertitle>
+      <title py:pytype="str">Die Mädchen lieben seine Haare</title>
+      <text py:pytype="str">Das Wunderkind, Flying Tomato oder the Animal: Shaun White hat viele Namen. Der Snowboarder ist nicht weniger als der potentielle Hauptdarsteller der Spiele in Vancouver.</text>
+      <description py:pytype="str">Das Wunderkind, Flying Tomato oder the Animal: Shaun White hat viele Namen. Der Snowboarder ist nicht weniger als der potentielle Hauptdarsteller der Spiele in Vancouver.</description>
+      <byline py:pytype="str">Von Matthias Bossaller</byline>
+      <image align="left" base-id="http://xml.zeit.de/sport/2010-02/white-shaun/" type="jpg" publication-date="" expires="">
+        <bu>Shaun White</bu>
+        <copyright py:pytype="str">© Kevork Djansezian/Getty Images Sport</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-vancouver-250210" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Bilder aus Vancouver</supertitle>
+      <title py:pytype="str">Wenn der Fuß höher fliegt als der Kopf</title>
+      <text py:pytype="str">Bier trinkende und rauchende Eishockeyspielerinnen, fliegende Raumschiffe und die emotionalsten Momente der Winterspiele: Fotos aus Kanada </text>
+      <description py:pytype="str">Bier trinkende und rauchende Eishockeyspielerinnen, fliegende Raumschiffe und die emotionalsten Momente der Winterspiele: Fotos aus Kanada </description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="BG Vancouver 250210 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-250210-teaser/" type="jpg" publication-date="" expires="">
+        <bu>Switzerland's Sarah Meier competes in the Women's Figure Skating free program, at the Pacific Coliseum in Vancouver during the XXI Winter Olympics, on February 25, 2010.       AFP PHOTO / YURI KADOBNOV (Photo credit should read YURI KADOBNOV/AFP/Getty Images)</bu>
+        <copyright py:pytype="str">© Yuri Kadobnov/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/kanada-olympia-medaillen" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Kanadas Kampf um Medaillen</supertitle>
+      <title py:pytype="str">Eine Million Dollar für einen Sieg im Rodeln</title>
+      <text py:pytype="str">Um beste Olympianation zu werden, haben die Kanadier ihren Athleten die höchsten Prämien versprochen. Doch das Geld motiviert zu viel. C. Siemes über Gründe des Versagens</text>
+      <description py:pytype="str">Um beste Olympianation zu werden, haben die Kanadier ihren Athleten die höchsten Prämien versprochen. Doch das Geld motiviert zu viel. C. Siemes über Gründe des Versagens</description>
+      <byline py:pytype="str">Von Christof Siemes</byline>
+      <image alt="Die Goldmedaille: Riesig, elegant geschwungen, ein kunsthandwerkliches Unikat " align="left" base-id="http://xml.zeit.de/sport/2010-02/medaille/" type="jpg" publication-date="" expires="">
+        <bu>Die Goldmedaille: Riesig, elegant geschwungen, ein kunsthandwerkliches Unikat </bu>
+        <copyright py:pytype="str">© MICHAEL KAPPELER/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-olympia-1602-2" year="2010" issue="7" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+      <title py:pytype="str">Die Athleten erhöhen das Tempo</title>
+      <text py:pytype="str">Langläufer als Hochgeschwindigkeitssportler, fliegende Snowboarder, Eisschnellläufer in voller Fahrt - die schönsten Bilder von Tag 4.</text>
+      <description py:pytype="str">Langläufer als Hochgeschwindigkeitssportler, fliegende Snowboarder, Eisschnellläufer in voller Fahrt - die schönsten Bilder von Tag 4.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="bg-olympia-1602-2-teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-olympia-1602-2-teaser/" type="jpg" publication-date="" expires="">
+        <bu>WHISTLER, BC - FEBRUARY 15: Tanja Karisik of Bosnia Herzegovina competes during the Cross-Country Skiing Ladies' 10 km Free on day 4 of the 2010 Winter Olympics at Whistler Olympic Park Cross-Country Stadium on February 15, 2010 in Whistler, Canada.  (Photo by Alexander Hassenstein/Getty Images) *** Local Caption *** Tanja Karisik</bu>
+        <copyright py:pytype="str">© Alexander Hassenstein/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/wolf-eisschnelllauf-olympia" year="2010" issue="7" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Eisschnelllauf bei Olympia</supertitle>
+      <title py:pytype="str">Pokern mit dem Phantom</title>
+      <text py:pytype="str">Der Kampf um Eisschnelllauf-Gold über 500 Meter reduziert sich auf das Duell von Weltmeisterin Jenny Wolf mit Wang Beixing. Doch die Chinesin ist abgetaucht.</text>
+      <description py:pytype="str">Der Kampf um Eisschnelllauf-Gold über 500 Meter reduziert sich auf das Duell von Weltmeisterin Jenny Wolf mit Wang Beixing. Doch die Chinesin ist abgetaucht.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Jenny Wolf" base-id="http://xml.zeit.de/sport/2010-02/wolf-2/" type="jpg" publication-date="" expires="">
+        <bu>Jenny Wolf ist eine Favoriten für olympisches Gold über 500 Meter</bu>
+        <copyright py:pytype="str">© TOSHIFUMI KITAMURA/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/rebensberg-olympia-gold" year="2010" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Viktoria Rebensburg</supertitle>
+      <title py:pytype="str">Ein schlampiges Genie</title>
+      <text py:pytype="str">Viktoria Rebensburg ist im Riesenslalom wie ein draufgängerischer Kerl gefahren. Schnell, wild, gefährlich: Mit ihrer Abfahrt hat die 20-Jährige alle Experten überrascht</text>
+      <description py:pytype="str">Viktoria Rebensburg ist im Riesenslalom wie ein draufgängerischer Kerl gefahren. Schnell, wild, gefährlich: Mit ihrer Abfahrt hat die 20-Jährige alle Experten überrascht</description>
+      <byline py:pytype="str">None</byline>
+      <image alt="&quot;Das ist Wahnsinn&quot;: Viktoria Rebensburg über und mit ihrer Goldmedaille" align="left" base-id="http://xml.zeit.de/sport/2010-02/rebensburg-gold/" type="jpg" publication-date="" expires="">
+        <bu>"Das ist Wahnsinn": Viktoria Rebensburg über und mit ihrer Goldmedaille</bu>
+        <copyright py:pytype="str">© MICHAEL KAPPELER/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/olympia-vancouver-eiskunstlauf-bronze" year="2010" issue="7" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympische Winterspiele in Vancouver</supertitle>
+      <title py:pytype="str">Bronze für deutsche Eiskunstläufer</title>
+      <text py:pytype="str">Sie hätten Gold gewollt, doch dafür reichte es nicht: Zwei Patzer kosteten das Duo Savchenko/Szolkowy den Sieg. Entsprechend verhalten ist ihre Freude.</text>
+      <description py:pytype="str">Sie hätten Gold gewollt, doch dafür reichte es nicht: Zwei Patzer kosteten das Duo Savchenko/Szolkowy den Sieg. Entsprechend verhalten ist ihre Freude.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="eiskunstlauf Savchenko Szolkowy" base-id="http://xml.zeit.de/sport/2010-02/eiskunstlauf/" type="jpg" publication-date="" expires="">
+        <bu>Liefen ihre Kür im Clownskostüm: Eiskunstlauf-Duo Savchenko/Szolkowy</bu>
+        <copyright py:pytype="str">© Matthew Stockman/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-olympia-100221-2" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+      <title py:pytype="str">Im Bann der Wettkämpfe</title>
+      <text py:pytype="str">Skicrosser stoßen in der Luft zusammen, Eishockeyspieler büßen ihre Zähne ein, und Bobfahrer verzaubern das Publikum. Die schönsten Bilder von Tag zehn</text>
+      <description py:pytype="str">Skicrosser stoßen in der Luft zusammen, Eishockeyspieler büßen ihre Zähne ein, und Bobfahrer verzaubern das Publikum. Die schönsten Bilder von Tag zehn</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="BG Olympia 100221 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-olympia-100221-teaser/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Hassenstein/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/bg-vancouver-240210-3" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Olympia in Bildern</supertitle>
+      <title py:pytype="str">Winterliche Leibesübungen</title>
+      <text py:pytype="str">Freestyler in Extremsituationen, Shorttracker in Reih und Glied, Langlaufidyllen und ein Bob aus Holland - die schönsten Bilder aus Vancouver</text>
+      <description py:pytype="str">Freestyler in Extremsituationen, Shorttracker in Reih und Glied, Langlaufidyllen und ein Bob aus Holland - die schönsten Bilder aus Vancouver</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="BG Vancouver 240210 Teaser" base-id="http://xml.zeit.de/sport/2010-02/bg-vancouver-240210-teaser/" type="jpg" publication-date="" expires="">
+        <bu>Alla Tsuper</bu>
+        <copyright py:pytype="str">© Martin Bureau/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/olympia-guttenberg-steuern-sportsoldaten" year="2010" issue="8" ressort="Sport" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Sportsoldaten</supertitle>
+      <title py:pytype="str">Olympiasieger ohne berufliche Perspektive</title>
+      <text py:pytype="str">Fast die Hälfte der deutschen Athleten in Vancouver gehört zur Bundeswehr. Während ihrer Karriere profitieren sie von der Sportförderung. Doch wie sieht es danach aus?</text>
+      <description py:pytype="str">Fast die Hälfte der deutschen Athleten in Vancouver gehört zur Bundeswehr. Während ihrer Karriere profitieren sie von der Sportförderung. Doch wie sieht es danach aus?</description>
+      <byline py:pytype="str">Von Ronny Blaschke</byline>
+      <image align="left" title="Tobias Angerer" base-id="http://xml.zeit.de/sport/2010-02/angerer-guttenberg/" type="jpg" publication-date="" expires="">
+        <bu>Sportsoldat und Silbermedaillengewinner Tobias Angerer (r.) posiert mit Verteidigungsminister Karl-Theodor zu Guttenberg. Teamkamerad Jens Filbrich ist mit von der Partie</bu>
+        <copyright py:pytype="str">© Peter Kneffel /dpa </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2010-02/vancouver-deutsches-haus-business" year="2010" issue="9" ressort="Sport" publication-date="" expires="">
+      <supertitle py:pytype="str">Olympia und Folklore</supertitle>
+      <title py:pytype="str">Hofbräuhaus auf vornehm</title>
+      <text py:pytype="str">Christof Siemes sieht sich die Repräsentanzen Kanadas, Deutschlands und der Schweiz in Vancouver an und stellt beruhigt und beklemmt fest: Kein Klischee kommt zu kurz.</text>
+      <description py:pytype="str">Christof Siemes sieht sich die Repräsentanzen Kanadas, Deutschlands und der Schweiz in Vancouver an und stellt beruhigt und beklemmt fest: Kein Klischee kommt zu kurz.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2010-02/seehofer-vancouver/" type="jpg" publication-date="" expires="">
+        <bu>Die Hirschhornknopfdichte ist so hoch wie der Lodenkoeffizient - Horst Seehofer im Deutschen Haus</bu>
+        <copyright py:pytype="str">© Alexander Hassenstein/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">Olympische Winterspiele 2010</title>
+    <text py:pytype="str">Die 21. Olympischen Winterspiele vom 12. bis 28. Februar 2010 in der kanadischen Stadt Vancouver</text>
+  </teaser>
+</centerpage>

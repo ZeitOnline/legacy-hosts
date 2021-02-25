@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-09-10T08:17:50.301943+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-11-28T17:20:20.132408+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-09-10T08:18:13.124396+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-09-10T08:18:50.044221+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-08-27T07:31:56.080007+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-09-10T08:17:55.092685+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-08-27T07:31:40.445959+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.krueger</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADMIN</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">1094498151</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2013-12-26T07:04:00+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">buchtipp</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:377c9454-55ae-42e2-b0de-bc990ca9be0d}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="a1d77250-86a1-4f67-aacc-5f5e4e56b4ed">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="41d66a16-9df6-403d-b643-70344167a58f" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/buchtipp/link_zurueck_uebersicht" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/buchtipp/index" ns0:target="_blank" date-last-modified="2014-03-19T16:50:09+00:00" date-first-released="2011-11-28T17:19:16.309670+00:00" date-last-published="2014-03-19T16:51:09.223495+00:00" last-semantic-change="2014-03-19T16:49:56.761675+00:00" contenttype="link" uniqueId="http://xml.zeit.de/angebote/buchtipp/link_zurueck_uebersicht">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="cd29f1b6-a0b0-496f-b23b-4d19c0826875" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/buchtipp/newsletter/newsletter" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.randomhouse.de/newsletter/newsletter.jsp?zone=3" ns0:target="_blank" date-last-modified="2014-09-05T12:40:24+00:00" date-first-released="2011-11-18T14:36:16.753411+00:00" date-last-published="2014-09-05T12:41:24.022692+00:00" last-semantic-change="2014-09-05T12:40:10.937730+00:00" contenttype="link" ns0:rel="nofollow" uniqueId="http://xml.zeit.de/angebote/buchtipp/newsletter/newsletter">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Bücher-Newsletter</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/buchtipp/newsletter/buecher-newsletter/buecher-newsletter-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="f8253592-cace-4341-bba7-2e5430c6ba4b" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/buchtipp/Leseprobe/link_leseprobe" year="2011" ressort="Angebote" contenttype="link" publication-date="2013-12-26T07:00:00+00:00" expires="" ns0:href="http://www.bic-media.com/mobile/mobileWidget-jqm1.4.html?bgcolor=E9E8E8&amp;showExtraDownloadButton=yes&amp;isbn=9783421047199&amp;buyUrl=http%3A%2F%2Fwww.randomhouse.de%2Fbook%2Fshoppingcart.jsp%3Fedi%3D490842&amp;layoutPopUp=singlepage&amp;buttonOrder=book-audio-video&amp;socialSelfBackLink=yes&amp;width=195&amp;iconType=rh&amp;iconTypeSecondary=rh&amp;lang=de&amp;fullscreen=yes&amp;jump2=0" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-09-10T08:12:42+00:00" date-first-released="2011-11-22T16:12:38.174693+00:00" date-last-published="2015-09-10T08:13:41.446129+00:00" last-semantic-change="2015-08-27T07:25:44.326198+00:00" uniqueId="http://xml.zeit.de/angebote/buchtipp/Leseprobe/link_leseprobe">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Aktuelle Leseprobe</title>
+            <text py:pytype="str">Entdecken Sie das Buch der Woche und lesen Sie vorab erste Auszüge!</text>
+            <description py:pytype="str">Entdecken Sie das Buch der Woche und lesen Sie vorab erste Auszüge!</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/buchtipp/lee/aufmacher-lee-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c5022ef2-c2a4-4f89-b6de-8210101725d3" layout="368x220" title="Zum Leseperlen-Archiv">
+          <block type="intern" href="http://xml.zeit.de/angebote/buchtipp/archiv/index" year="2012" ressort="Angebote" contenttype="centerpage-2009" publication-date="2013-12-26T07:02:00+00:00" expires="" date-last-modified="2015-09-10T08:17:41+00:00" date-first-released="2012-01-05T16:01:44.033968+00:00" date-last-published="2015-09-10T08:16:32.139723+00:00" last-semantic-change="2015-08-27T07:27:26.357548+00:00" uniqueId="http://xml.zeit.de/angebote/buchtipp/archiv/index">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Leseperlen - Archiv</title>
+            <text py:pytype="str">Stöbern Sie hier in den Buchtipps der vergangenen Wochen!</text>
+            <description py:pytype="str">Stöbern Sie hier in den Buchtipps der vergangenen Wochen!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/buchtipp/archiv/leseperlen-archiv/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/buchtipp/archiv/leseperlen-archiv/leseperlen-archiv-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="1ec7c2ba-a666-4534-81f9-87d77b03db8b">
+          <raw>
+            <iframe width="320" height="180" src="http://www.youtube.com/embed/videoseries?list=PL8E676C3D75D9CF7A&amp;hl=de_DE" frameborder="0"/>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Buchtipp</title>
+    <byline>Leseperlen: ist ein Angebot der Verlagsgruppe Random House GmbH, die für diesen Inhalt verantwortlich ist.</byline>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Buchtipp</title>
+  </teaser>
+</centerpage>

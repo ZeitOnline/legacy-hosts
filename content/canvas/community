@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-05-02T14:18:29.274751+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-05T17:03:18.701730+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-05-02T14:19:29.031946+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-04</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Die interaktive Kommentar- und Diskussionsseite von ZEIT ONLINE. Hier finden Sie täglich aktuelle Kommentare und Kontroversen zum aktuellen Zeitgeschehen.</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Kommentare und Debatten | Community | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-05-02T14:18:15.754682+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2010-08-17</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.shorn</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">8439975</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:10c727ff-f060-4a35-ae6a-3a6becf1b983}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="10482c85-a016-40e3-9f32-27d7a48ea86f" title="Meistgelesen auf Zeit Online">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="46d8ea48-3b15-4525-898e-3f7b1b11f93b" title="Meistkommentiert auf Zeit Online">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="5052aa3f-7eef-45c8-86c2-dace29b6cf7f" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/administratives/2011-04/ankuendigung-leserartikel-blog" year="2011" issue="16" ressort="Administratives" publication-date="" expires="" ns0:href="http://community.zeit.de/user/sebastian-horn/beitrag/2011/04/18/zeit-online-startet-neues-leserartikelprojekt" date-last-modified="2011-04-18T17:07:33+00:00" date-first-released="2011-04-18T17:08:33.302149+00:00" date-last-published="2011-04-18T17:08:33.302149+00:00" last-semantic-change="2011-04-18T17:07:03.906308+00:00">
+            <supertitle py:pytype="str">In eigener Sache</supertitle>
+            <title py:pytype="str">ZEIT ONLINE startet neues Leserartikel-Projekt</title>
+            <text py:pytype="str">Das bisherige Leserartikel-Blog wird am Dienstag, den 19. April, eingestellt. Ihre Artikel werden aber weiterhin online sein. Hier erfahren Sie mehr.</text>
+            <description py:pytype="str">Das bisherige Leserartikel-Blog wird am Dienstag, den 19. April, eingestellt. Ihre Artikel werden aber weiterhin online sein. Hier erfahren Sie mehr.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="e35f1163-7075-4ae1-91f2-f07141e33114">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/administratives/2010-03/link-netiquette" year="2010" issue="11" ressort="Administratives" publication-date="" expires="" ns0:href="http://www.zeit.de/administratives/2010-03/netiquette" date-last-modified="2010-03-18T09:13:30+00:00" date-first-released="2010-03-18T08:43:54.892635+00:00" date-last-published="2010-03-18T09:14:30.058067+00:00" last-semantic-change="2010-03-18T09:13:17.151674+00:00">
+            <supertitle py:pytype="str">In eigener Sache</supertitle>
+            <title py:pytype="str">Die ZEIT ONLINE Netiquette</title>
+            <text py:pytype="str">Wir haben die Hinweise und Regeln für Leserbeiträge überarbeitet. Lesen Sie sich die neue Netiquette bitte aufmerksam durch.</text>
+            <description py:pytype="str">Wir haben die Hinweise und Regeln für Leserbeiträge überarbeitet. Lesen Sie sich die neue Netiquette bitte aufmerksam durch.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Community</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Community</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Community</text>
+  </indexteaser>
+</centerpage>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">angebote/penfolds</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-10-10T08:56:44.761568+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-10-06T09:02:10.936991+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-10-10T08:57:44.504733+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-10-10T08:56:34.998200+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lfischer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">penfolds</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:67369993-61f3-41cf-baf3-85c7e3c42e5d}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="30857494-5514-4719-adaa-722c8d5b9943"/>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="dc8852d1-28bc-4fa7-aec0-8762078064a5">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/penfolds/penfolds" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.penfoldswine.de" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Penfolds</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/penfolds/bilder/Penfolds-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="cb449615-4e7c-4475-84cc-f559e2e6e971">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/penfolds/zurueck" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/penfolds" date-last-modified="2011-10-06T09:05:32+00:00" date-first-released="2011-10-06T09:06:32.471612+00:00" date-last-published="2011-10-06T09:06:32.471612+00:00" last-semantic-change="2011-10-06T09:05:20.727256+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="95b812de-46b6-4ed7-95b3-d41de0fab3c7">
+          <block href="http://xml.zeit.de/angebote/penfolds/penfolds-geschichte" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-10T08:56:29+00:00" date-first-released="2011-10-06T08:44:18.455969+00:00" date-last-published="2011-10-10T08:57:29.339257+00:00" last-semantic-change="2011-10-10T08:54:56.590324+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">PENFOLDS Geschichte</title>
+            <text py:pytype="str">PENFOLDS wurde von einem jungen englischen Arzt gegründet, den es vor mehr als 165 Jahren in eine der entlegensten Kolonien seiner Heimat zog.</text>
+            <description py:pytype="str">PENFOLDS wurde von einem jungen englischen Arzt gegründet, den es vor mehr als 165 Jahren in eine der entlegensten Kolonien seiner Heimat zog.</description>
+            <byline py:pytype="str">PENFOLDS: Dies ist ein Angebot von PENFOLDS Wines. Für den Inhalt ist ausschließlich PENFOLDS Wines verantwortlich.</byline>
+            <image align="left" title="FG-CR04512.jpg" base-id="http://xml.zeit.de/angebote/penfolds/bilder/FG-CR04512.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="d35427dd-6126-4639-9029-963644608671">
+          <block href="http://xml.zeit.de/angebote/penfolds/die-weinhersteller-von-penfolds" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-10T08:56:22+00:00" date-first-released="2011-10-06T08:29:51.945095+00:00" date-last-published="2011-10-10T08:57:21.745573+00:00" last-semantic-change="2011-10-10T08:54:02.097661+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die Weinhersteller von PENFOLDS</title>
+            <text py:pytype="str">Die Weinherstellung auf PENFOLDS ist zwar seit jeher weitgehend Teamarbeit, dennoch gab es seit der ersten Herstellung des Grange nur vier leitende Kellermeister ...</text>
+            <description py:pytype="str">Die Weinherstellung auf PENFOLDS ist zwar seit jeher weitgehend Teamarbeit, dennoch gab es seit der ersten Herstellung des Grange nur vier leitende Kellermeister ...</description>
+            <byline py:pytype="str">PENFOLDS: Dies ist ein Angebot von PENFOLDS Wines. Für den Inhalt ist ausschließlich PENFOLDS Wines verantwortlich.</byline>
+            <image align="left" title="FG-CR14384.jpg" base-id="http://xml.zeit.de/angebote/penfolds/bilder/FG-CR14384.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="c592d301-a491-4434-b469-2912b55ea766">
+          <block href="http://xml.zeit.de/angebote/penfolds/penfolds-grange" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-10T08:56:29+00:00" date-first-released="2011-10-06T08:29:36.974052+00:00" date-last-published="2011-10-10T08:57:28.757144+00:00" last-semantic-change="2011-10-10T08:55:21.312320+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">PENFOLDS Grange</title>
+            <text py:pytype="str">Australiens größter Rotwein, der PENFOLDS Grange, ist weltweit zu einer Ikone geworden. Er ist als der einzige „First Growth“ (Erstes Gewächs) der südlichen ...</text>
+            <description py:pytype="str">Australiens größter Rotwein, der PENFOLDS Grange, ist weltweit zu einer Ikone geworden. Er ist als der einzige „First Growth“ (Erstes Gewächs) der südlichen ...</description>
+            <byline py:pytype="str">PENFOLDS: Dies ist ein Angebot von PENFOLDS Wines. Für den Inhalt ist ausschließlich PENFOLDS Wines verantwortlich.</byline>
+            <image align="left" title="FG-CR03532.jpg" base-id="http://xml.zeit.de/angebote/penfolds/bilder/FG-CR03532.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="b33a539f-d74d-422a-b6b9-78dbc913ff8a">
+          <block href="http://xml.zeit.de/angebote/penfolds/penfolds-luxury" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-10T08:55:50+00:00" date-first-released="2011-10-06T08:29:30.103821+00:00" date-last-published="2011-10-07T08:48:25.448801+00:00" last-semantic-change="2011-10-10T08:55:47.320647+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die PENFOLDS Weinkategorie Luxury</title>
+            <text py:pytype="str">Die Weine der PENFOLDS Icon &amp; Luxury Range sind das Ergebnis einer einzigartigen Tradition und Evolution, in denen die faszinierende Vision und unerschöpfliche ...</text>
+            <description py:pytype="str">Die Weine der PENFOLDS Icon &amp; Luxury Range sind das Ergebnis einer einzigartigen Tradition und Evolution, in denen die faszinierende Vision und unerschöpfliche ...</description>
+            <byline py:pytype="str">PENFOLDS: Dies ist ein Angebot von PENFOLDS Wines. Für den Inhalt ist ausschließlich PENFOLDS Wines verantwortlich.</byline>
+            <image align="left" title="FG-CR03526.jpg" base-id="http://xml.zeit.de/angebote/penfolds/bilder/FG-CR03526.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="a9e16588-2e1f-4bb8-b1ec-6e92a0759566">
+          <block href="http://xml.zeit.de/angebote/penfolds/penfolds-cellar-reserve" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-10T08:56:34+00:00" date-first-released="2011-10-06T08:29:14.502827+00:00" date-last-published="2011-10-10T08:57:34.599871+00:00" last-semantic-change="2011-10-10T08:54:33.331622+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die PENFOLDS Weinkategorie Cellar Reserve</title>
+            <text py:pytype="str">Cellar Reserve ist eine Linie handgemachter, in limitierter Anzahl bereiteter Weine, die Peter Gago als fortlaufendes Projekt im Geist von Innovation und Vielfalt ...</text>
+            <description py:pytype="str">Cellar Reserve ist eine Linie handgemachter, in limitierter Anzahl bereiteter Weine, die Peter Gago als fortlaufendes Projekt im Geist von Innovation und Vielfalt ...</description>
+            <byline py:pytype="str">PENFOLDS: Dies ist ein Angebot von PENFOLDS Wines. Für den Inhalt ist ausschließlich PENFOLDS Wines verantwortlich.</byline>
+            <image align="left" title="FG-CR17843.jpg" base-id="http://xml.zeit.de/angebote/penfolds/bilder/FG-CR17843.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Penfolds</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Penfolds</title>
+  </teaser>
+</centerpage>

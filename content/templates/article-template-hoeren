@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2010-04-06 11:12:23.315477+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-04-06T11:12:23.369700+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-03-19T12:10:19.040712+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-04-06T11:13:23.141138+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-04-06T11:12:12.507937+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.cruz</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:5f898a32-4e29-4299-8fe2-8a1de8f55a8b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">12</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="46eda357-5ea1-4d72-9eb7-4a6964a10518">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="2e0fe68d-61b8-4fb0-bfe9-95c38d10a452">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="8016ea6a-e1c1-4667-9999-d3956219d40d" title="Blog: Kulturkampf - Online und Offline">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/digital/2009-09/kulturkampf-blog" year="2009" issue="37" ressort="Digital" publication-date="" expires="" ns0:href="http://blog.zeit.de/kulturkampf/">
+            <supertitle py:pytype="str">None</supertitle>
+            <title py:pytype="str">Kulturkampf</title>
+            <text py:pytype="str">Online und Offline - Berichte über das Leben in den zwei Welten</text>
+            <description py:pytype="str">Online und Offline - Berichte über das Leben in den zwei Welten</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Blogteaser Kulturkampf" base-id="http://xml.zeit.de/weblogs/2009-09/kulturkampf-blog/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Cristian Baitg/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/weblogs/2009-09/kulturkampf-blog/kulturkampf-blog-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="rss" module="rss" max_items="5" cp:__name__="309135dd-934d-4b72-a937-30a9c3cef83d" url="http://blog.zeit.de/kulturkampf/feed/" title="RSS-Feed des Blogs">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/feed/rss)" href="/var/cms/work/rss/aebdb034230ac645d3502e34c08408f7">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/aebdb034230ac645d3502e34c08408f7 nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="fe299fcb-43d7-431e-a024-0845cbb0cadc" title="Alltagsfragen aufgeklärt: Stimmt's zum Hören">
+          <block type="intern" href="http://xml.zeit.de/hoeren/ndr/index-stimmts" year="2009" issue="47" ressort="Wissen" publication-date="" expires="">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Fragen des Alltags</supertitle>
+            <title py:pytype="str">Stimmt's zum Hören</title>
+            <text py:pytype="str">Macht Kreide die Stimme heller? Wachsen Haare nach dem Tod weiter? Die ZEIT-Kolumne "Stimmt's" gibt es jeden Morgen auch auf NDR 2. Hören Sie hier die aktuellen Folgen.</text>
+            <description py:pytype="str">Macht Kreide die Stimme heller? Wachsen Haare nach dem Tod weiter? Die ZEIT-Kolumne "Stimmt's" gibt es jeden Morgen auch auf NDR 2. Hören Sie hier die aktuellen Folgen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/wissen/2009-12/hoeren-audio-stimmts/" type="jpg" publication-date="" expires="">
+              <bu>Wissen für die Ohren: Christoph Drössers Kolumne Stimmt's gibt es jeden Tag auch auf NDR2 zum Hören</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=304733">© sylvi.bechle/Photocase</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/wissen/2009-12/hoeren-audio-stimmts/hoeren-audio-stimmts-368x110.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel-Rahmen Hoeren</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Hoeren</title>
+  </teaser>
+</centerpage>

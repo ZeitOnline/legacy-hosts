@@ -1,0 +1,164 @@
+(function ($) {    
+    /*
+    * Zeit Online Gallery Plugin
+    * unobstrusive image gallery with ajax loading pictures
+    * 
+    * Copyright (c) 2009 ZEIT ONLINE, http://www.zeit.de
+    * Dual licensed under the MIT and GPL licenses:
+    * http://www.opensource.org/licenses/mit-license.php
+    * http://www.gnu.org/licenses/gpl.html
+    *
+    *
+    * @author Nico Bruenjes
+    *
+    */
+    $.fn.ZEITGallery = function (options) {
+        
+        var options = $.extend({
+            src: 'http://images.zeit.de',
+            json: 'http://json.zeit.de',
+            forwardtitle: "Ein Bild vor",
+            inline: false,
+            imagenumber: 0,
+            max: 0,
+            debug: false,
+            debugdata: {
+                src: 'http://zip6.zeit.de:9000/cms/work',
+                json: 'http://zip6.zeit.de/preview-json/test/test_bruenjes/bigatest?callback=?'
+            }
+        }, options);
+        
+        var jsonsource = function () {
+            if(!options.debug) {
+                var me = document.location.href; /* http://www.zeit.de/online/xyz/abc */
+                if(me.search(/www\.zeit\.de/) > -1) {
+                    me = me.replace('www.zeit.de','json.zeit.de');
+                    return me.indexOf('?') > -1 ? me + '&callback=?' : me + '?callback=?';
+                } else if(me.search(/zip6\.zeit\.de/) > -1) {
+                    me = me.replace(/zip6\.zeit\.de\/{0,1}[^\/]+/g,'zip6.zeit.de/preview-json');
+                    return me.indexOf('?') > -1 ? me.substring(0, me.indexOf('?')) + '?callback=?' : me + '?callback=?';
+                }
+            }
+            return options.debugdata.json;
+        };
+        
+        // get the path for showing images
+        var getImagePath = function (path) {
+            return options.debug || document.location.href.search(/localhost/)  ? path.replace('http://xml.zeit.de', options.debugdata.src) : path.replace('http://xml.zeit.de', options.src);
+        };
+        
+        // previous pic
+		var previous = function (e) {
+            options.imagenumber = (options.imagenumber - 1 >= 0) ? options.imagenumber - 1 : options.pics.length - 1;
+            showImage();
+        };
+        
+        // next pic
+        var next = function (e) {
+            options.imagenumber = (options.imagenumber + 1 < options.pics.length) ? options.imagenumber + 1 : 0;
+            showImage();
+        };
+        
+        var makeObjectArray = function(json) {
+            var a = [];
+            $(json.blocks).each(function (i, item) {
+                var p = {};
+                $(item).each(function () {
+                    if(this.name) p.name = this.name;
+                    if(this.title) p.title = this.title;
+                    if(this.text) p.text = $(this.text);
+                    if(this.caption) p.caption = this.caption;
+                    if(this.image) {
+                        p.copyright = {text: this.image.copyright.value, link: this.image.copyright.link};
+                    }
+                });
+                a.push(p);
+            });
+            return(a);
+        };
+        
+        // preloading images
+        var preload = function () {
+            $(options.pics).each(function (i, item) {
+                $('<img />').attr('src', options.path + item.name);
+            });
+        };
+        
+        // changes to the actual image, sets hash
+		var showImage = function () {
+		    $('img', $this).fadeTo(30, .1, function() {
+    	        if(options.pics[options.imagenumber].title) {
+    	            $("#gal_title").html(options.pics[options.imagenumber].title);
+    	        } else {
+    	            $("#gal_title").html("&#160;");
+    	        }
+                $("#gal_image").attr("src", options.path + options.pics[options.imagenumber].name);
+                if(options.pics[options.imagenumber].text) {
+                    $("#gal_text").html(options.pics[options.imagenumber].text);
+                } else {
+                    $("#gal_text").html('<p>&nbsp;</p>');
+                }
+                var copyright = "&#160;"
+                if(options.pics[options.imagenumber].copyright.text.length > 1) {
+                    if(options.pics[options.imagenumber].copyright.link.length > 0) {
+                        copyright = '<a href="' + options.pics[options.imagenumber].copyright.link + '">' + options.pics[options.imagenumber].copyright.text +'</a>';
+                    } else {
+                        copyright = options.pics[options.imagenumber].copyright.text;
+                    }
+                }
+                $("#gal_copyright").html(copyright);
+                $("#x_of_y").html((options.imagenumber + 1) + " von " + options.pics.length);
+                $('img', $this).fadeTo(200, 1);
+                ZEIT.clickWebtrekk();
+                ZEIT.clickIVW();
+		    });
+        };
+        
+        return this.each(function () {
+            $this = $(this);
+            var source = jsonsource();
+            if(!options.inline) {
+                $.getJSON(source, function(json) {
+                    if(json) {
+                        // add events to the buttons
+                        $("a#rwd").click(function (e) {
+                            e.preventDefault();
+                            previous(e);
+                        });
+                        $("a#fwd, #gal_image").click(function (e) {
+                            e.preventDefault();
+                            next(e);
+                        });
+                        $("#gal_image").hover(function () {
+                            $(this).attr("title", options.forwardtitle).css('cursor', "pointer");
+                        }, function () {
+                            $(this).css('cursor', "default");
+                        });
+                        options.pics = makeObjectArray(json);
+                        options.path = getImagePath(json.imageFolder);
+                        preload();
+                    }
+                });
+            } else {
+                $.getJSON(source, function(json) {
+                    if(json) {
+                        $('#gal_text').before('<p><strong>Bild <span id="x_of_y">1 von 5</span></strong> | </p>');
+                        $("a[target=_blank]", $this).attr("title", options.forwardtitle).children('img').attr("id", "gal_image");
+                        $("a#rwd").click(function (e) {
+                            e.preventDefault();
+                            previous(e);
+                        });
+                        $("a#fwd").add("a[target=_blank]", $this).click(function (e) {
+                            e.preventDefault();
+                            next(e);
+                        });
+                        options.pics = makeObjectArray(json);
+                        options.path = getImagePath(json.imageFolder);
+                        preload();
+                    }
+                });
+            }
+        });
+    };
+    
+})(jQuery);

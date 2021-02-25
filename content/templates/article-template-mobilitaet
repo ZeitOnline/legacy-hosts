@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-09-03T11:46:29.295294+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-07-01T07:56:52.850272+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-09-03T11:46:33.287745+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-09-03T11:47:33.185358+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-08-31T11:52:13.647081+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-08-31T11:52:13.685232+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-09-03T11:46:15.781927+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.breitinger</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">654252892</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2013-07-01T07:55:51+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Mobilität</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:bb82aa22-3d6f-4cc7-9e86-11063ff6c310}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="id-42e384c8-3f45-4046-9969-6ae973af3ea7">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="id-ea12c2f1-1d4b-43a1-925e-a3f8da97a021">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="id-08af60a2-3984-4365-9c86-285cb4a0ea24">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-1dfee124-eaca-427e-839b-303fd328bb25" layout="368x110" title="Themenseite: Alternative Antriebe">
+          <block type="intern" href="http://xml.zeit.de/themen/mobilitaet/antriebstechnik-zukunft-alternativ/" uniqueId="http://xml.zeit.de/themen/mobilitaet/antriebstechnik-zukunft-alternativ/" date-last-modified="2015-05-06T09:03:00+00:00" date-first-released="" date-last-published="" last-semantic-change="2014-09-19T09:57:06.205605+00:00"/>
+          <image type="intern" href="http://xml.zeit.de/mobilitaet/2015-03/elektroauto-steckdose-stecker/elektroauto-steckdose-stecker-368x110.jpg" title="Elektroauto Steckdose Stecker" align="left" publication-date="" expires="2015-07-01T11:42:19+00:00">
+            <bu xsi:nil="true"/>
+            <copyright>© Jan Woitas/dpa</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-f0f855b4-c0ba-4680-9b41-26926ab9ce20" visible="True">
+          <block href="http://xml.zeit.de/mobilitaet/2015-09/elektrobus-berlin-braunschweig" uniqueId="http://xml.zeit.de/mobilitaet/2015-09/elektrobus-berlin-braunschweig" year="2015" issue="35" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" author="Susanne Kilimann" date-last-modified="2015-09-02T16:53:59+00:00" date-first-released="2015-09-02T16:36:41.523629+00:00" date-last-published="2015-09-02T16:54:58.761160+00:00" last-semantic-change="2015-09-02T16:34:50.965977+00:00">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">Neue Busse braucht das Land</title>
+            <text py:pytype="str">Berlin hat jetzt eine Buslinie, auf der Elektrobusse pendeln – geräuscharm und ohne Emissionen. Auch andere Städte testen die Vehikel. Doch rechnen sie sich überhaupt?</text>
+            <description py:pytype="str">Berlin hat jetzt eine Buslinie, auf der Elektrobusse pendeln – geräuscharm und ohne Emissionen. Auch andere Städte testen die Vehikel. Doch rechnen sie sich überhaupt?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-09/elektrobus-berlin/" type="jpg" title="Elektrobus Berlin" alt="Elektrobus Berlin" align="left" publication-date="" expires="2015-12-02T17:50:56+00:00">
+              <bu py:pytype="str">Einer der neuen Elektrobusse, die jetzt in Berlin fahren</bu>
+              <copyright py:pytype="str">© Stephanie Pilick/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Susanne_Kilimann" publication-date="" expires="">
+              <display_name py:pytype="str">Susanne Kilimann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2015/34/volkswagen-china-da-zhong-lamando-autoverkauf" uniqueId="http://xml.zeit.de/2015/34/volkswagen-china-da-zhong-lamando-autoverkauf" year="2015" issue="34" ressort="Mobilitaet" contenttype="article" publication-date="2015-09-03T02:38:00+00:00" expires="" author="Malte Henk" date-last-modified="2015-09-03T04:11:52+00:00" date-first-released="2015-09-03T02:39:02.931179+00:00" date-last-published="2015-09-03T04:12:51.350296+00:00" last-semantic-change="2015-09-03T04:11:44.868967+00:00">
+            <supertitle py:pytype="str">Volkswagen</supertitle>
+            <title py:pytype="str">Made for China</title>
+            <text py:pytype="str">Ein VW soll in China anders aussehen, anders klingen, anders riechen als in Deutschland. So will es der Kunde. Wie lange kann Volkswagen ihn noch glücklich machen?</text>
+            <description py:pytype="str">Ein VW soll in China anders aussehen, anders klingen, anders riechen als in Deutschland. So will es der Kunde. Wie lange kann Volkswagen ihn noch glücklich machen?</description>
+            <byline py:pytype="str">von Malte Henk</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2015-09/volkswagen-china-automesse/" type="jpg" title="Volkswagen China Automesse" alt="Volkswagen Da Zhong China" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Großes Interesse an Volkswagen – auf Chinesisch: Da Zhong – auf einer Automesse in Peking (Archivbild)</bu>
+              <copyright py:pytype="str">© Jason Lee/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Malte_Henk/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Malte Henk</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-73786b75-60fa-4fce-9502-53309ab28efe">
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/volkswagen-golf-motor-downsizing" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/volkswagen-golf-motor-downsizing" year="2015" issue="35" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" author="Christoph M. Schwarzer" date-last-modified="2015-09-01T17:05:03+00:00" date-first-released="2015-09-01T07:11:22.366956+00:00" date-last-published="2015-09-01T16:58:01.889193+00:00" last-semantic-change="2015-09-01T07:10:12.315015+00:00">
+            <supertitle py:pytype="str">Volkswagen Golf</supertitle>
+            <title py:pytype="str">Verzicht auf den vierten Zylinder</title>
+            <text py:pytype="str">Nach dem Erfolg von Ford mit dem Dreizylinder-Turbomotor zieht Volkswagen im Golf nach. Was spart das Downsizing, und welche Abstriche müssen hingenommen werden?</text>
+            <description py:pytype="str">Nach dem Erfolg von Ford mit dem Dreizylinder-Turbomotor zieht Volkswagen im Golf nach. Was spart das Downsizing, und welche Abstriche müssen hingenommen werden?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/volkswagen-golf-1-0-tsi-bluemotion/" type="jpg" title="Der Dreizylindermotor im Volkswagen Golf 1.0 TSI BlueMotion verbraucht weniger als die üblichen Vierzylinder." alt="Volkswagen Golf 1.0 TSI BlueMotion" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Dreizylindermotor im Volkswagen Golf 1.0 TSI BlueMotion verbraucht weniger als die üblichen Vierzylinder.</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christoph_M_Schwarzer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph M. Schwarzer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/suv-mazda-test" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/suv-mazda-test" year="2015" issue="35" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" author="Hanne Lübbehüsen" date-last-modified="2015-08-31T07:19:36+00:00" date-first-released="2015-08-30T07:09:20.182423+00:00" date-last-published="2015-08-31T07:20:36.147754+00:00" last-semantic-change="2015-08-30T07:08:14.107796+00:00">
+            <supertitle py:pytype="str">Mini-SUV</supertitle>
+            <title py:pytype="str">Ganz schön klein</title>
+            <text py:pytype="str">Der SUV-Boom hat längst die Kleinwagenklasse erreicht. Für alle, die niemals SUV fahren wollten, könnte der Mazda CX-3 eine Einstiegsdroge sein.</text>
+            <description py:pytype="str">Der SUV-Boom hat längst die Kleinwagenklasse erreicht. Für alle, die niemals SUV fahren wollten, könnte der Mazda CX-3 eine Einstiegsdroge sein.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/mazda-mini-suv/" type="jpg" title="Der Mazda CX-3 ist flacher als andere Mini-SUVs." alt="Mini-SUV Mazda CX-3" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Mazda CX-3 ist flacher als andere Mini-SUVs.</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Hanne_Luebbehuesen/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hanne Lübbehüsen</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="id-0548bf31-2449-4c6c-9467-3f751aac1279">
+          <block type="intern" href="http://xml.zeit.de/mobilitaet/2015-04/elektroauto-brennstoffzelle-wissenstest" year="2015" issue="13" ressort="Mobilitaet" contenttype="quiz" publication-date="" expires="" uniqueId="http://xml.zeit.de/mobilitaet/2015-04/elektroauto-brennstoffzelle-wissenstest" date-last-modified="2015-05-06T08:24:51+00:00" date-first-released="2015-04-08T08:26:04.594027+00:00" date-last-published="2015-05-06T08:25:51.037990+00:00" last-semantic-change="2015-05-06T08:22:37.664244+00:00">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">Sind Sie bereit für die Autos der Zukunft?</title>
+            <text py:pytype="str">Wissen Sie, was bei Elektroautos ein Range Extender ist? Und wie lange E-Fahrzeuge von der Kfz-Steuer befreit sind? Testen Sie Ihre Kenntnisse über alternative Antriebe.</text>
+            <description py:pytype="str">Wissen Sie, was bei Elektroautos ein Range Extender ist? Und wie lange E-Fahrzeuge von der Kfz-Steuer befreit sind? Testen Sie Ihre Kenntnisse über alternative Antriebe.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-04/elektroauto-2/" type="jpg" title="E-Auto" alt="Ein Elektroauto an einer Ladesäule auf der Pariser Automesse im Oktober 2014" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Elektroauto an einer Ladesäule auf der Pariser Automesse im Oktober 2014</bu>
+              <copyright py:pytype="str">© Benoit Tessier/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-3ac0eb1e-6429-4a7b-9ba3-800f99006da3" layout="368x110" title="ZEITmagazin: Von A nach B">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/auto/link-serie-von-a-nach-b" year="2012" issue="27" ressort="Auto" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/von-a-nach-b" date-last-modified="2013-10-15T09:47:39+00:00" date-first-released="2012-06-29T07:02:57.673718+00:00" date-last-published="2012-06-29T07:02:57.673718+00:00" last-semantic-change="2013-10-15T09:47:27.765682+00:00" uniqueId="http://xml.zeit.de/auto/link-serie-von-a-nach-b">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Von A nach B</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/auto/2012-06/zeitmagazin-von-a-nach-b/serienteaser-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="id-226acf88-e117-48da-b31e-6da52452fd54">
+          <cp_extra id="linkatory"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="id-a1dea66e-469d-486f-a281-61923590d507">
+          <video videoID="36516804001" player="pls" format="large"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-cbbdf7ad-e34a-44b3-acbb-bd3e913272c8">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-a3bcc4c6-4d05-42be-9e20-2e396815323b" title="Autoklassiker" visible="True">
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/opel-ascona-b-oldtimer" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/opel-ascona-b-oldtimer" year="2015" issue="34" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-23T11:13:13+00:00" date-first-released="2015-08-23T11:14:12.908807+00:00" date-last-published="2015-08-23T11:14:12.908807+00:00" last-semantic-change="2015-08-23T11:12:40.353842+00:00" author="Wolfram Nickel">
+            <supertitle py:pytype="str">Ascona</supertitle>
+            <title py:pytype="str">Manta als brave Familienkutsche</title>
+            <text py:pytype="str">Im Rückblick steht der Opel Ascona B immer im Schatten des Manta. Zu Unrecht, denn das scheinbar biedere Stufenheck-Auto verkaufte sich sehr gut und gewann sogar Rallyes.</text>
+            <description py:pytype="str">Im Rückblick steht der Opel Ascona B immer im Schatten des Manta. Zu Unrecht, denn das scheinbar biedere Stufenheck-Auto verkaufte sich sehr gut und gewann sogar Rallyes.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/opel-ascona-viertuerig/" type="jpg" title="Opel Ascona 1975 Viertürer" alt="Opel Ascona 1975 Viertürer" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Opel Ascona B des Jahres 1975 als Viertürer</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Wolfram_Nickel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Wolfram Nickel</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-06/oldtimer-bmw-coupe-2000c" uniqueId="http://xml.zeit.de/mobilitaet/2015-06/oldtimer-bmw-coupe-2000c" year="2015" issue="25" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-29T04:36:06+00:00" date-first-released="2015-06-29T04:37:01.544028+00:00" date-last-published="2015-06-29T04:37:01.544028+00:00" last-semantic-change="2015-06-29T04:35:48.178145+00:00" author="Wolfram Nickel">
+            <supertitle py:pytype="str">Oldtimer</supertitle>
+            <title py:pytype="str">Das Brotzeitkasterl fährt mit</title>
+            <text py:pytype="str">Innen schick wie ein Aston Martin, außen italienische Linien: Die Coupés der Neuen Klasse hoben BMW vor 50 Jahren ins High-Society-Segment – auch ohne V6- und V8-Motoren.</text>
+            <description py:pytype="str">Innen schick wie ein Aston Martin, außen italienische Linien: Die Coupés der Neuen Klasse hoben BMW vor 50 Jahren ins High-Society-Segment – auch ohne V6- und V8-Motoren.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-06/bmw-2000-cs/" type="jpg" title="BMW 2000 CS" alt="BMW 2000 CS" align="left" publication-date="" expires="">
+              <bu py:pytype="str">BMW 2000 CS</bu>
+              <copyright py:pytype="str">© BMW</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Wolfram_Nickel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Wolfram Nickel</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-05/bmw-3er-oldtimer" uniqueId="http://xml.zeit.de/mobilitaet/2015-05/bmw-3er-oldtimer" year="2015" issue="19" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-25T19:26:53+00:00" date-first-released="2015-05-25T19:27:53.162806+00:00" date-last-published="2015-05-25T19:27:53.162806+00:00" last-semantic-change="2015-05-25T19:26:38.043007+00:00" author="Wolfram Nickel">
+            <supertitle py:pytype="str">BMW</supertitle>
+            <title py:pytype="str">Der Charme des verkappten Sportwagens</title>
+            <text py:pytype="str">Die 02er von BMW hatten die Konkurrenz schon beeindruckt – doch richtig groß wurden die Münchener erst mit der vor 40 Jahren vorgestellten 3er-Reihe.</text>
+            <description py:pytype="str">Die 02er von BMW hatten die Konkurrenz schon beeindruckt – doch richtig groß wurden die Münchener erst mit der vor 40 Jahren vorgestellten 3er-Reihe.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-05/bmw-3er-320/" type="jpg" title="BMW 320/6" alt="BMW 320/6" align="left" publication-date="" expires="">
+              <bu py:pytype="str">BMW 320/6</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Wolfram_Nickel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Wolfram Nickel</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-05/oldtimer-kauf-hobby" uniqueId="http://xml.zeit.de/mobilitaet/2015-05/oldtimer-kauf-hobby" year="2015" issue="18" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-24T17:42:53+00:00" date-first-released="2015-05-24T17:43:14.823840+00:00" date-last-published="2015-05-24T17:43:52.794572+00:00" last-semantic-change="2015-05-24T17:42:03.597591+00:00" author="Hanne Lübbehüsen">
+            <supertitle py:pytype="str">Oldtimer</supertitle>
+            <title py:pytype="str">Ein eigener Klassiker muss her</title>
+            <text py:pytype="str">Immer mehr Menschen entdecken ihre Leidenschaft für altes Blech. Schon für wenig Geld kann man mit Freude einsteigen – wenn man diese Anfängerfehler vermeidet.</text>
+            <description py:pytype="str">Immer mehr Menschen entdecken ihre Leidenschaft für altes Blech. Schon für wenig Geld kann man mit Freude einsteigen – wenn man diese Anfängerfehler vermeidet.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-05/oldtimer-volkswagen-passat/" type="jpg" title="VW Passat aus den siebziger Jahren" alt="VW Passat aus den siebziger Jahren" align="left" publication-date="" expires="">
+              <bu py:pytype="str">VW Passat aus den siebziger Jahren</bu>
+              <copyright py:pytype="str">© Volkswagen</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Hanne_Luebbehuesen/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hanne Lübbehüsen</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-bb2a5ea6-e1c8-4bd1-89bb-60201f952ccc" title="Auto der Zukunft" visible="True">
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/sprachsteuerung-gesten-autotechnik" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/sprachsteuerung-gesten-autotechnik" year="2015" issue="35" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" author="Hanne Lübbehüsen" date-last-modified="2015-08-31T16:07:11+00:00" date-first-released="2015-08-31T16:08:09.670124+00:00" date-last-published="2015-08-31T16:08:09.670124+00:00" last-semantic-change="2015-08-31T16:07:00.119991+00:00">
+            <supertitle py:pytype="str">Fahrzeugtechnik</supertitle>
+            <title py:pytype="str">Das Auto hört aufs Wort</title>
+            <text py:pytype="str">Dass es im Auto immer weniger Knöpfe gibt, daran hat man sich schon gewöhnt. Die kommende IAA zeigt aber, dass wir unsere Autos künftig ganz anders bedienen werden.</text>
+            <description py:pytype="str">Dass es im Auto immer weniger Knöpfe gibt, daran hat man sich schon gewöhnt. Die kommende IAA zeigt aber, dass wir unsere Autos künftig ganz anders bedienen werden.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/sprachsteuerung-auto/" type="jpg" title="Sprachsteuerung im Auto" alt="Sprachsteuerung im Auto" align="left" publication-date="" expires="2015-11-28T12:38:44+00:00">
+              <bu py:pytype="str">Ein Mann diktiert einem Auto eine E-Mail. (Archivbild)</bu>
+              <copyright py:pytype="str">© Stefan Puchner/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Hanne_Luebbehuesen/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hanne Lübbehüsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/elektromobilitaet-batterie-recycling" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/elektromobilitaet-batterie-recycling" year="2015" issue="34" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-26T09:14:44+00:00" date-first-released="2015-08-26T09:15:43.584189+00:00" date-last-published="2015-08-26T09:15:43.584189+00:00" last-semantic-change="2015-08-26T09:11:05.204610+00:00" author="Christoph M. Schwarzer">
+            <supertitle py:pytype="str">Elektroauto</supertitle>
+            <title py:pytype="str">Die Mär vom Sondermüll auf Rädern</title>
+            <text py:pytype="str">Sind die Batterien von Elektroautos am Ende nur mehrere Hundert Kilogramm Schrott? Von wegen. Noch fehlt aber eine Industrie für das Recycling der verschlissenen Akkus.</text>
+            <description py:pytype="str">Sind die Batterien von Elektroautos am Ende nur mehrere Hundert Kilogramm Schrott? Von wegen. Noch fehlt aber eine Industrie für das Recycling der verschlissenen Akkus.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/antriebstechnik-elektro-golf-vw/" type="jpg" title="Antriebstechnik Elektro-Golf VW" alt="Einblick in die Antriebstechnik des Elektro-Golf von VW" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Einblick in die Antriebstechnik des Elektro-Golf von VW</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christoph_M_Schwarzer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph M. Schwarzer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/hacker-auto-sicherheit" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/hacker-auto-sicherheit" year="2015" issue="34" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-25T10:17:01+00:00" date-first-released="2015-08-21T09:21:40.003405+00:00" date-last-published="2015-08-25T10:18:00.015126+00:00" last-semantic-change="2015-08-21T09:20:27.751536+00:00" author="Peter Münder">
+            <supertitle py:pytype="str">Hacker</supertitle>
+            <title py:pytype="str">Die Schwachstellendiagnostiker</title>
+            <text py:pytype="str">Die Autohackerattacken in den USA werfen die Frage auf: Wie schützen die Hersteller hierzulande ihre Fahrzeuge gegen solche Angriffe? Eine Antwort überrascht.</text>
+            <description py:pytype="str">Die Autohackerattacken in den USA werfen die Frage auf: Wie schützen die Hersteller hierzulande ihre Fahrzeuge gegen solche Angriffe? Eine Antwort überrascht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/bmw-3er-reihe-werk-regensburg/" type="jpg" title="BMW 3er-Reihe Werk Regensburg" alt="BMW 3er-Reihe Werk Regensburg" align="left" publication-date="" expires="2015-11-21T08:19:35+00:00">
+              <bu py:pytype="str">Fertigung der 3er-Reihe im BMW-Werk in Regensburg</bu>
+              <copyright py:pytype="str">© Armin Weigel/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Peter_Muender-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Peter Münder</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/elektromobilitaet-smart-electric-daimler" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/elektromobilitaet-smart-electric-daimler" year="2015" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-18T20:34:11+00:00" date-first-released="2015-08-18T20:35:09.844600+00:00" date-last-published="2015-08-18T20:35:09.844600+00:00" last-semantic-change="2015-08-18T20:33:59.022725+00:00" author="Henrik Mortsiefer">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">Daimler schaltet den Elektro-Smart aus</title>
+            <text py:pytype="str">Daimler hat die Produktion des elektrischen Smart eingestellt. Die Nachfrage war nur bescheiden. Ein neues Modell kommt erst Ende 2016 auf den Markt.</text>
+            <description py:pytype="str">Daimler hat die Produktion des elektrischen Smart eingestellt. Die Nachfrage war nur bescheiden. Ein neues Modell kommt erst Ende 2016 auf den Markt.</description>
+            <byline py:pytype="str">Henrik Mortsiefer</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2015-08/elektromobilitaet-smart-electric-daimler/" type="jpg" alt="Elektromobilität: Smart Electric Drive" align="left" publication-date="" expires="2015-11-18T10:22:20+00:00">
+              <bu py:pytype="str">Ein Smart Fortwo Electric Drive</bu>
+              <copyright py:pytype="str">© Sebastian Kahnert/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Henrik_Mortsiefer" publication-date="" expires="">
+              <display_name py:pytype="str">Henrik Mortsiefer</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-d20b1395-a806-40f9-8c45-64303dc8b6f3" title="Fahrrad" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/mobilitaet/2015-08/eurobike-fahrradmesse-alltag" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/eurobike-fahrradmesse-alltag" year="2015" issue="35" ressort="Mobilitaet" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/fahrrad/2015/08/27/eurobike-fahrradmesse-stadt-freizeit/" date-last-modified="2015-08-27T16:03:36+00:00" date-first-released="2015-08-27T16:04:35.633451+00:00" date-last-published="2015-08-27T16:04:35.633451+00:00" last-semantic-change="2015-08-27T10:14:39.738112+00:00" author="Andrea Reidl">
+            <supertitle py:pytype="str">Fahrradmesse</supertitle>
+            <title py:pytype="str">Eurobike weitet sich zur Radmesse für den Alltag</title>
+            <text py:pytype="str">Früher drehte sich die Eurobike vor allem um Radsport. Die gerade laufende Messe stellt hingegen das Fahrrad in seiner ganzen Bandbreite dar, bis hin zum Lastenrad.
+</text>
+            <description py:pytype="str">Früher drehte sich die Eurobike vor allem um Radsport. Die gerade laufende Messe stellt hingegen das Fahrrad in seiner ganzen Bandbreite dar, bis hin zum Lastenrad.
+</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/eurobike-lastenrad/" type="jpg" title="Eurobike Lastenrad" alt="Eurobike Lastenrad" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lastenrad auf der Eurobike 2015</bu>
+              <copyright py:pytype="str">© Andrea Reidl</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Andrea_Reidl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Andrea Reidl</display_name>
+            </author>
+          </block>
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/mobilitaet/2015-08/fahrrad-sattel-lenkrad-ergonomie-einstellung" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/fahrrad-sattel-lenkrad-ergonomie-einstellung" year="2015" issue="34" ressort="Mobilitaet" contenttype="link" publication-date="" expires="" ns1:href="http://blog.zeit.de/fahrrad/2015/08/25/ergonomie-radeinstellung-box/" date-last-modified="2015-08-25T10:01:03+00:00" date-first-released="2015-08-25T10:01:53.370505+00:00" date-last-published="2015-08-25T10:02:03.590146+00:00" last-semantic-change="2015-08-24T16:14:54.037271+00:00" author="Andrea Reidl">
+            <supertitle py:pytype="str">Ergonomie</supertitle>
+            <title py:pytype="str">Erste Hilfe für die Radeinstellung</title>
+            <text py:pytype="str">Mit Schmerzen von der Radtour gekommen? Dann ist vermutlich das Fahrrad falsch eingestellt. Die Fitting Box verspricht Abhilfe – stellt aber nicht richtig zufrieden.</text>
+            <description py:pytype="str">Mit Schmerzen von der Radtour gekommen? Dann ist vermutlich das Fahrrad falsch eingestellt. Die Fitting Box verspricht Abhilfe – stellt aber nicht richtig zufrieden.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/fahrrad-radfahrerin/" type="jpg" title="Radfahrerin Fahrrad Radfahren" alt="Radfahrerin Fahrrad Radfahren" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.com/FemmeCurieuse">© FemmeCurieuse / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Andrea_Reidl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Andrea Reidl</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/mobilitaet/2015-08/radverkehr-foerderung-vitoria-gasteiz" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/radverkehr-foerderung-vitoria-gasteiz" year="2015" issue="33" ressort="Mobilitaet" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/fahrrad/2015/08/14/radverkehr-foerderung-vitoria-gasteiz-bozen" date-last-modified="2015-08-14T17:35:05+00:00" date-first-released="2015-08-14T17:36:05.252562+00:00" date-last-published="2015-08-14T17:36:05.252562+00:00" last-semantic-change="2015-08-14T17:34:49.598030+00:00" author="Andrea Reidl">
+            <supertitle py:pytype="str">Mobilitätswandel</supertitle>
+            <title py:pytype="str">Mit dem klaren Willen für mehr Radverkehr</title>
+            <text py:pytype="str">Die Städte Vitoria-Gasteiz und Brighton zeigen, wie politischer Wille Radverkehr voranbringt: Man muss den Autos Fläche nehmen. Clever ist das Konzept der Super-Blocks.</text>
+            <description py:pytype="str">Die Städte Vitoria-Gasteiz und Brighton zeigen, wie politischer Wille Radverkehr voranbringt: Man muss den Autos Fläche nehmen. Clever ist das Konzept der Super-Blocks.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/shared-space-brighton-new-road/" type="jpg" title="Shared Space Brighton New Road" alt="Shared Space Brighton New Road" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Brighton &amp; Hove Gehl Architects</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Andrea_Reidl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Andrea Reidl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-08/radfahrer-autofahrer-verkehr-radwege" uniqueId="http://xml.zeit.de/mobilitaet/2015-08/radfahrer-autofahrer-verkehr-radwege" year="2015" issue="32" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2015-08-10T16:00:29+00:00" date-first-released="2015-08-10T15:50:33.046612+00:00" date-last-published="2015-08-10T15:59:58.069936+00:00" last-semantic-change="2015-08-10T16:00:16.686234+00:00" author="Hannes Leitlein">
+            <supertitle py:pytype="str">Radfahrer</supertitle>
+            <title py:pytype="str">Schlechte Radwege zwingen zum Regelbruch</title>
+            <text py:pytype="str">Selbst Radfahrer, die sich an die Gesetze halten wollen, schaffen das kaum: Die Infrastruktur ist meist so mies, dass man nicht regelkonform darauf radeln kann.</text>
+            <description py:pytype="str">Selbst Radfahrer, die sich an die Gesetze halten wollen, schaffen das kaum: Die Infrastruktur ist meist so mies, dass man nicht regelkonform darauf radeln kann.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-08/radweg-radfahrer-schutzstreifen/" type="jpg" title="Radweg Radfahrer Schutzstreifen" alt="Radweg Radfahrer Schutzstreifen" align="left" publication-date="" expires="2015-11-10T13:44:17+00:00">
+              <bu py:pytype="str">Solche Schutzstreifen wie hier in Köln werden immer mehr in Städten auf die Straßen gemalt.</bu>
+              <copyright py:pytype="str">© Oliver Berg/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Johannes_Leitlein/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hannes Leitlein</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-d74c1f9e-467c-4792-8efd-9bae603a7fb9" title="Quiz" visible="True">
+          <block href="http://xml.zeit.de/mobilitaet/2015-05/borgward-autohersteller" uniqueId="http://xml.zeit.de/mobilitaet/2015-05/borgward-autohersteller" year="2015" issue="18" ressort="Mobilitaet" contenttype="quiz" publication-date="" expires="" date-last-modified="2015-05-17T07:06:21+00:00" date-first-released="2015-05-17T07:07:21.418361+00:00" date-last-published="2015-05-17T07:07:21.418361+00:00" last-semantic-change="2015-05-17T07:04:50.869844+00:00">
+            <supertitle py:pytype="str">Oldtimer</supertitle>
+            <title py:pytype="str">Wie gut kennen Sie Borgward?</title>
+            <text py:pytype="str">In den 1950er Jahren war die Isabella Kult – jetzt will ein Borgward-Enkel mit Investoren aus China die Automarke wiederbeleben. Testen Sie, was Sie über Borgward wissen.</text>
+            <description py:pytype="str">In den 1950er Jahren war die Isabella Kult – jetzt will ein Borgward-Enkel mit Investoren aus China die Automarke wiederbeleben. Testen Sie, was Sie über Borgward wissen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-05/borgward-isabella/" type="jpg" title="Borgward Isabella" alt="Borgward Isabella" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Borgward Isabella</bu>
+              <copyright py:pytype="str">© SP-X/Autodrom</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-06/verkehrsregeln-ausland-urlaub" uniqueId="http://xml.zeit.de/mobilitaet/2015-06/verkehrsregeln-ausland-urlaub" year="2015" issue="25" ressort="Mobilitaet" contenttype="quiz" publication-date="" expires="" date-last-modified="2015-07-01T11:08:02+00:00" date-first-released="2015-07-01T11:08:55.643428+00:00" date-last-published="2015-07-01T11:08:55.643428+00:00" last-semantic-change="2015-07-01T11:07:35.106246+00:00" author="Matthias Breitinger">
+            <supertitle py:pytype="str">Verkehrsregeln</supertitle>
+            <title py:pytype="str">Gibt es eine Blaulichtsteuer?</title>
+            <text py:pytype="str">Andere Länder, andere Sitten – das gilt auch für den Straßenverkehr. Manche Regeln außerhalb Deutschlands sind Urlaubern eher unbekannt. Testen Sie Ihr Wissen!</text>
+            <description py:pytype="str">Andere Länder, andere Sitten – das gilt auch für den Straßenverkehr. Manche Regeln außerhalb Deutschlands sind Urlaubern eher unbekannt. Testen Sie Ihr Wissen!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-06/polizei-autofahrer-frankreich/" type="jpg" title="Polizeikontrolle in Paris" alt="Polizeikontrolle in Paris" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Polizeikontrolle in Paris</bu>
+              <copyright py:pytype="str">© Lionel Bonaventure/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Matthias_Breitinger/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Matthias Breitinger</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2013-11/quiz-fahrrad-recht" uniqueId="http://xml.zeit.de/mobilitaet/2013-11/quiz-fahrrad-recht" year="2013" issue="46" ressort="Mobilitaet" contenttype="quiz" publication-date="" expires="" date-last-modified="2014-07-05T06:08:55+00:00" date-first-released="2014-07-05T06:09:55.088186+00:00" date-last-published="2014-07-05T06:09:55.088186+00:00" last-semantic-change="2014-07-05T06:06:59.677322+00:00">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Was dürfen Radfahrer?</title>
+            <text py:pytype="str">Viele Fahrräder sind nicht verkehrstauglich. Welche Teile am Rad schreibt das Gesetz vor? Und wer muss wo auf Radwegen fahren? Testen Sie Ihr Wissen übers Radrecht.</text>
+            <description py:pytype="str">Viele Fahrräder sind nicht verkehrstauglich. Welche Teile am Rad schreibt das Gesetz vor? Und wer muss wo auf Radwegen fahren? Testen Sie Ihr Wissen übers Radrecht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2014-07/radfahrer-freiburg/" type="jpg" title="Radfahrer in einer Fahrradstraße" alt="Radfahrer in einer Fahrradstraße in Freiburg" align="left" publication-date="" expires="2015-10-02T10:13:49+00:00">
+              <bu py:pytype="str">Radfahrer in einer Fahrradstraße in Freiburg</bu>
+              <copyright py:pytype="str">© Patrick Seeger/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/mobilitaet/2015-01/quiz-verkehrsschilder-strassenschilder" uniqueId="http://xml.zeit.de/mobilitaet/2015-01/quiz-verkehrsschilder-strassenschilder" year="2015" issue="5" ressort="Mobilitaet" contenttype="quiz" publication-date="" expires="" author="Roman Domes" date-last-modified="2015-02-06T14:37:47+00:00" date-first-released="2015-02-06T11:39:38.982828+00:00" date-last-published="2015-02-06T11:40:34.743027+00:00" last-semantic-change="2015-02-04T11:24:57.833763+00:00">
+            <supertitle py:pytype="str">Verkehrszeichen</supertitle>
+            <title py:pytype="str">Finden Sie durch den Schilderwald?</title>
+            <text py:pytype="str">Zu Tausenden stehen Verkehrsschilder am Straßenrand und jeder meint, sie alle zu kennen. Aber wissen Sie, was jedes bedeutet? Prüfen Sie, ob Sie ein Schild-Bürger sind.</text>
+            <description py:pytype="str">Zu Tausenden stehen Verkehrsschilder am Straßenrand und jeder meint, sie alle zu kennen. Aber wissen Sie, was jedes bedeutet? Prüfen Sie, ob Sie ein Schild-Bürger sind.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-01/verkehrsschilder-quiz-titel/" type="jpg" title="Verkehrsschilder-Quiz-Titel" alt="Verkehrsschilder Quiz Titel" align="left" publication-date="" expires="2015-05-02T15:15:29+00:00">
+              <bu py:pytype="str">Neue Verkehrsschilder warten auf ihre Abholung.</bu>
+              <copyright py:pytype="str">© Stefan Puchner/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Roman_Domes/index" publication-date="" expires="">
+              <display_name py:pytype="str">Roman Domes</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel Rahmen Mobilität</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Mobilität</title>
+  </teaser>
+</centerpage>

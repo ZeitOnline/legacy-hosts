@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<container xmlns:py="http://codespeak.net/lxml/objectify/pytype" layout="artbox" label="portrait">
+  <block>
+    <title>Johannes Neukamm</title>
+    <image xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" src="http://xml.zeit.de/data/johannes-neukamm-2" title="Johannes Neukamm" alt="Johannes Neukamm, Entwicklungsredakteur bei ZEIT ONLINE" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright link="http://community.zeit.de/user/johannes-neukamm">© privat</copyright>
+    </image>
+    <text py:pytype="str">
+      <p>ist Entwicklungsredakteur bei ZEIT ONLINE. <a href="http://community.zeit.de/user/johannes-neukamm">Seine Profilseite finden Sie hier</a>.</p>
+      <raw>
+        <a class="twitterFollowlink" data-twittername="cap_face"/>
+      </raw>
+      <raw>
+        <a class="twitterFollowlink" data-twittername="zeitonline_dev"/>
+      </raw>
+    </text>
+  </block>
+</container>

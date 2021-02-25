@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-09-04T09:51:16.719851+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-16T09:27:13.685406+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-09-04T09:51:25.562776+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-09-04T09:52:25.452109+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-09-04T09:18:58.815081+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-09-04T09:18:58.880287+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-09-04T09:18:39.987684+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-09-16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gerstlauer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Studium</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:fa0dcea4-e427-4d51-8749-67bcf3ab8b2d}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="e004cf5f-5af3-46d0-99c5-f76ab4b6b2a9">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="67af3fd5-7557-4979-b55a-12472831bb44">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="6ed18370-8fcf-4f8b-a46b-d2a869fe362b">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="cpextra" module="newsletter_campus" cp:__name__="id-122e5f5e-f4ad-442e-8143-deb327a1af8b">
+          <cp_extra id="newsletter_campus"/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="83ccf596-9113-4ef8-9261-62a8d27eb6fa" hide-dupes="True" visible="True">
+          <block href="http://xml.zeit.de/2015/36/doktoranden-karriere-wissenschaft-zukunft" uniqueId="http://xml.zeit.de/2015/36/doktoranden-karriere-wissenschaft-zukunft" year="2015" issue="36" ressort="Studium" contenttype="article" publication-date="" expires="" date-last-modified="2015-09-04T09:30:28+00:00" date-first-released="2015-09-04T07:51:20.283438+00:00" date-last-published="2015-09-04T09:31:26.203502+00:00" last-semantic-change="2015-09-04T08:41:13.552436+00:00" author="Anant Agarwala;Manuel J. Hartung;Leonie Seifert">
+            <supertitle py:pytype="str">Junge Wissenschaftler</supertitle>
+            <title py:pytype="str">Doktoranden, warum tut Ihr Euch das an?</title>
+            <text py:pytype="str">Ausbeutung! Beklagen junge Wissenschaftler. Leidenschaftslosigkeit! Antworten Professoren. Postdocs, Hiwis, Doktoranden, Juniorprofessoren: Wir sammeln Ihre Erfahrungen.</text>
+            <description py:pytype="str">Ausbeutung! Beklagen junge Wissenschaftler. Leidenschaftslosigkeit! Antworten Professoren. Postdocs, Hiwis, Doktoranden, Juniorprofessoren: Wir sammeln Ihre Erfahrungen.</description>
+            <byline py:pytype="str">von Anant Agarwala,  Manuel J. Hartung,  Leonie Seifert</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/2015-09/doktoranden-karriere-erschoepfung/" type="jpg" alt="Doktoranden: Sagt uns, wie es euch geht" align="left" publication-date="" expires="2015-12-02T15:32:31+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.kathrinspirk.de/">© Kathrin Spirk</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Anant_Agarwala" publication-date="" expires="">
+              <display_name py:pytype="str">Anant Agarwala</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/H/Manuel_Hartung/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Manuel J. Hartung</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Leonie_Seifert" publication-date="" expires="">
+              <display_name py:pytype="str">Leonie Seifert</display_name>
+            </author>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-df849ace-f27a-4e75-a04d-2771f01aa0e6" layout="368x110" title="ZEIT Campus 5/2015 - Jetzt am Kiosk!">
+          <block type="intern" href="http://xml.zeit.de/campus/2015/05/inhaltsverzeichnis" year="2015" issue="5" ressort="Studium" contenttype="article" publication-date="" expires="" uniqueId="http://xml.zeit.de/campus/2015/05/inhaltsverzeichnis" date-last-modified="2015-08-10T10:58:27+00:00" date-first-released="2015-08-10T10:59:27.598530+00:00" date-last-published="2015-08-10T10:59:27.598530+00:00" last-semantic-change="2015-08-11T06:00:00+00:00">
+            <supertitle py:pytype="str">Inhaltsverzeichnis</supertitle>
+            <title py:pytype="str">ZEIT Campus 05/2015</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/campus/2015/05/cover/" type="jpg" alt="ZEIT Campus 5/2015" align="left" href="http://premium.zeit.de/abo/campus?wt_mc=pm.intern.fix.zeitde.campus.zcdiabo.artikel.cover" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/campus/2015/05/cover/cover-320x96.jpg" alt="ZEIT Campus 5/2015" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-cc56ff96-eaaf-437d-9a71-61113600acf0">
+          <raw>
+            <iframe src="http://ranking.zeit.de/lebenshaltungskosten/iframe" width="318" height="250" frameborder="0"/>
+          </raw>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="1b81f082-b16b-4d76-a3e1-376fef81ba6b">
+          <cp_extra id="linkatory"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="9b360cff-e277-40e1-b6f2-5d5e72e0aee3">
+          <video videoID="36516804001" player="pls" format="large"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="59615ec4-1262-44c6-94c6-b242bcdd1354">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="d43542a1-e721-417f-bc64-50f2e248b4d4" title="Uni-Leben" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/studium/uni-leben/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/studium/uni-leben/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/studium/uni-leben/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="f09fe5dd-3384-4bf7-aecc-f57e5e8463e3" title="Hochschule" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/studium/hochschule/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/studium/hochschule/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/studium/hochschule/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="89fabfa8-7a95-4058-b265-bbfa1f5f343a" visible="True">
+          <block href="http://xml.zeit.de/studium/uni-leben/2014-08/quiz-studium-generale-logik" uniqueId="http://xml.zeit.de/studium/uni-leben/2014-08/quiz-studium-generale-logik" year="2014" issue="35" ressort="Studium" serie="Studium Generale" contenttype="quiz" publication-date="" expires="" date-last-modified="2015-07-17T08:57:23+00:00" date-first-released="2014-08-25T04:30:32.347877+00:00" date-last-published="2014-08-25T04:30:32.347877+00:00" last-semantic-change="2014-08-25T04:28:14.977674+00:00" author="Muriel Reichl">
+            <supertitle py:pytype="str">Was studieren?</supertitle>
+            <title py:pytype="str">Einführung in die Logik</title>
+            <text py:pytype="str">Logik ist eine hohe Kunst. Sie hilft, Lügner zu entlarven, andere argumentativ zu überzeugen und Rätsel zu lösen. Tüfteln Sie mit!</text>
+            <description py:pytype="str">Logik ist eine hohe Kunst. Sie hilft, Lügner zu entlarven, andere argumentativ zu überzeugen und Rätsel zu lösen. Tüfteln Sie mit!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2014-08/quiz-studium-generale-logik-2/" type="jpg" title="Was studieren?: Einführung in die Logik" alt="Was studieren?: Einführung in die Logik" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/258946-stock-photo-schwarz-spielen-holz-braun-elegant-design">© carl cash / photocase</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Muriel_Reichl/index" publication-date="" expires="">
+              <display_name py:pytype="str">Muriel Reichl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/studium/hochschule/2012-06/quiz-exotische-studienfaecher" year="2012" issue="27" ressort="Studium" publication-date="" expires="" date-last-modified="2012-06-29T16:11:29+00:00" date-first-released="2012-06-29T15:27:19.511330+00:00" date-last-published="2012-06-29T16:12:28.848447+00:00" last-semantic-change="2012-06-29T15:03:58.176400+00:00" contenttype="quiz" uniqueId="http://xml.zeit.de/studium/hochschule/2012-06/quiz-exotische-studienfaecher">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Kennen Sie sich mit exotischen Studiengängen aus?</title>
+            <text py:pytype="str">BWL, Soziologie, Physik: langweilig! Wie wäre es stattdessen mit Assyriologie? Und was macht eigentlich ein Uralistik-Student? Testen Sie Ihr Wissen!</text>
+            <description py:pytype="str">BWL, Soziologie, Physik: langweilig! Wie wäre es stattdessen mit Assyriologie? Und was macht eigentlich ein Uralistik-Student? Testen Sie Ihr Wissen!</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/2012-06/studium/" type="jpg" title="Studentin in Köln" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Eine Studentin lernt am Donnerstag (03.11.2005) in der Bibliothek der Universit‰t Kˆln. Sieben Universit‰ten kˆnnen neue Elite-Unis werden. Das sind die Humboldt-Universit‰t Berlin, die Unis Bochum, Bremen, Mainz, Kˆln und T¸bingen sowie die Technische Universit‰t Dresden. Das ist eines der Ergebnisse einer Vorauswahl zum Fˆrderprogramm der Exzellenzinitiative am Mittwoch (02.03.2011) in Bonn. </bu>
+              <copyright py:pytype="str">© Oliver Berg dpa/lnw</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/studium/uni-leben/2012-01/quiz-studentensprache" year="2012" issue="2" ressort="Studium" publication-date="" expires="" date-last-modified="2012-07-27T07:40:15+00:00" date-first-released="2012-01-05T15:08:55.022633+00:00" date-last-published="2012-07-27T07:41:15.018463+00:00" last-semantic-change="2012-01-05T15:07:27.353420+00:00" contenttype="quiz" uniqueId="http://xml.zeit.de/studium/uni-leben/2012-01/quiz-studentensprache">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Wie redeten Studenten früher? </title>
+            <text py:pytype="str">Schürzenstipendium, Cantusprügel, Knüllität - was bedeuten diese Begriffe der Studentensprache des 18. und 19. Jahrhunderts? Raten Sie mit!</text>
+            <description py:pytype="str">Schürzenstipendium, Cantusprügel, Knüllität - was bedeuten diese Begriffe der Studentensprache des 18. und 19. Jahrhunderts? Raten Sie mit!</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2012-01/georg-muehlberg/" type="jpg" title="Georg Mühlberg &quot;Cantus&quot;" alt="Georg Mühlberg &quot;Cantus&quot;" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://de.wikipedia.org/w/index.php?title=Datei:M%C3%BChlberg_-_Cantus.jpg&amp;filetimestamp=20060728183312">© Wikipedia.org</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="8ac7712c-7a28-4cf1-9214-17b59583c7c5" title="ZEIT ONLINE Studiengangsuche">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/studium/2011-03/link-studienplatzsuche" year="2011" issue="12" ressort="Studium" publication-date="" expires="" ns0:href="http://studiengaenge.zeit.de/" date-last-modified="2015-08-05T15:58:43+00:00" date-first-released="2011-03-22T15:51:57.312969+00:00" date-last-published="2014-08-28T14:45:28.482950+00:00" last-semantic-change="2015-08-05T15:58:13.513991+00:00" contenttype="link" uniqueId="http://xml.zeit.de/studium/2011-03/link-studienplatzsuche">
+            <supertitle py:pytype="str">Was Studieren? Wo Studieren? Wie Studieren?</supertitle>
+            <title py:pytype="str">Die ZEIT ONLINE Studiengangsuche</title>
+            <text py:pytype="str">Finden Sie in über 17.000 Studienangeboten den Studiengang, der wirklich zu Ihnen passt.</text>
+            <description py:pytype="str">Finden Sie in über 17.000 Studienangeboten den Studiengang, der wirklich zu Ihnen passt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/2011-03/teaser-studienplatzsuche/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/kallejipp">© Photocase/kallejipp</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/studium/2011-03/teaser-studienplatzsuche/teaser-studienplatzsuche-220x268.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Studium</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Studium</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Studium</text>
+  </indexteaser>
+</centerpage>

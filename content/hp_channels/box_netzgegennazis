@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centerpage>
+  <head>
+    <!-- Statusauskünfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">29</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="topic" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2008</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">26.5.2008 - 16:10</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords" />
+    <keywordset />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year" />
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">new</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title" />
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">cruz</attribute>
+  </head>
+  <body>
+    <container layout="container" id="netzgegennazis" label="" priority="">
+      <block layout="" priority="" href="http://www.netz-gegen-nazis.com/" target="_blank" id="" sticky="">
+        <title>Gegen Rechtsextremismus</title>
+        <text>Das Projekt “Netz gegen Nazis” ist eine Internetplattform in Zusammenarbeit mit der ZEIT, die helfen will, dem Rechtsextremismus mit Rat und Tat entgegenzutreten</text>
+        <byline />
+        <image expires="2100-01-01" src="/cms/work/bilder/2008/netz-gegen-nazis/standards/ngn-logo0/ngn-logo0-120x90.gif" align="right" alt="Netz gegen Rechts" border="" href="" layout="" vspace="" width="">
+          <copyright>©</copyright>
+          BILD
+        </image>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+</centerpage>
+

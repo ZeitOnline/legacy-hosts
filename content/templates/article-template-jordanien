@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-09-23T11:16:58.333822+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-18T15:10:13.718707+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-09-23T11:17:58.077859+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-18</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-09-23T11:16:38.556974+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-10-29</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lfischer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">jordanien</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">24</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:ff8160ce-e6e7-4d6c-9060-18b2e7d0dbc4}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="136e4a81-02db-460b-b13d-acaef427830a"/>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="30f2e4e6-e35e-41db-8c1c-2bd68e2a0b9d">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/jordanien/link-visitjordan" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://de.visitjordan.com">
+            <supertitle xsi:nil="true"/>
+            <title xsi:nil="true"/>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/jordanien/bilder/JTB_Logo_blau_1-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="3e804bd0-0ba9-45da-8928-fa785c2506ec" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/jordanien/uebersicht" year="2009" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/jordanien/index" date-last-modified="2010-01-20T11:14:33+00:00" date-first-released="2009-09-18T14:25:06.896373+00:00" date-last-published="2009-10-08T10:40:40.662672+00:00" last-semantic-change="2009-10-08T10:39:28.909576+00:00" ressort="Angebote">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text py:pytype="str">Klicken Sie hier.</text>
+            <description py:pytype="str">Klicken Sie hier.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="dfe10832-eb09-48a7-a43a-cbd3e26cfa5d" hide-dupes="True">
+          <block href="http://xml.zeit.de/angebote/jordanien/petra" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T11:05:06+00:00" date-first-released="2011-09-20T11:48:31.118951+00:00" date-last-published="2011-09-23T11:06:06.169558+00:00" last-semantic-change="2011-09-23T11:04:44.398056+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Jordanien feiert die 200-jährige Wiederentdeckung von Petra</title>
+            <text py:pytype="str">Die antike Stadt Petra im Süden des Landes gehört zu den Nationalschätzen Jordaniens. Sie wird häufig als achtes Weltwunder bezeichnet, ist UNESCO Weltkulturerbe und ...</text>
+            <description py:pytype="str">Die antike Stadt Petra im Süden des Landes gehört zu den Nationalschätzen Jordaniens. Sie wird häufig als achtes Weltwunder bezeichnet, ist UNESCO Weltkulturerbe und ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="petra.jpg" base-id="http://xml.zeit.de/angebote/jordanien/bilder/petra.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="429d8876-b587-4b5d-8f8a-c9367023fc2b">
+          <block href="http://xml.zeit.de/angebote/jordanien/naturreservate" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T09:09:07+00:00" date-first-released="2011-09-20T11:46:09.372496+00:00" date-last-published="2011-09-23T09:10:07.266886+00:00" last-semantic-change="2011-09-23T09:08:57.315792+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Aktives Jordanien – Naturparks und mehr</title>
+            <text py:pytype="str">Daran, dass Jordanien ein Land mit reicher Geschichte und Kultur ist, besteht in Anbetracht der Vielzahl Jahrtausende alter Städte und Ruinen wahrlich kein Zweifel. ...</text>
+            <description py:pytype="str">Daran, dass Jordanien ein Land mit reicher Geschichte und Kultur ist, besteht in Anbetracht der Vielzahl Jahrtausende alter Städte und Ruinen wahrlich kein Zweifel. ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="Dana.jpg" base-id="http://xml.zeit.de/angebote/jordanien/bilder/Dana.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="9ce3f9c7-03cc-4f15-a786-29c679c5b93a">
+          <block href="http://xml.zeit.de/angebote/jordanien/kulinarik" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T09:07:57+00:00" date-first-released="2011-09-20T11:48:14.619205+00:00" date-last-published="2011-09-23T09:08:57.098943+00:00" last-semantic-change="2011-09-23T09:07:43.250774+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die Küche Jordaniens</title>
+            <text py:pytype="str">Jordanien hat eine sehr schmackhafte, leichte und abwechslungsreiche Küche zu bieten, die mit vielen frischen Zutaten das Urlaubserlebnis zusätzlich bereichert. Die ...</text>
+            <description py:pytype="str">Jordanien hat eine sehr schmackhafte, leichte und abwechslungsreiche Küche zu bieten, die mit vielen frischen Zutaten das Urlaubserlebnis zusätzlich bereichert. Die ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="Jordanische-Kueche.jpg" base-id="http://xml.zeit.de/angebote/jordanien/bilder/Jordanische-Kueche.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="599b1fa0-0984-4846-b9aa-ca76493d5905">
+          <block href="http://xml.zeit.de/angebote/jordanien/aqaba" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T08:46:53+00:00" date-first-released="2011-09-20T11:46:14.687636+00:00" date-last-published="2011-09-23T08:47:53.247680+00:00" last-semantic-change="2011-09-23T08:46:35.244658+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Tauchparadies Aqaba im Süden Jordaniens</title>
+            <text py:pytype="str">Ganz im Süden des Landes lockt ein ganz besonderes Juwel aus Jordaniens Schatzkiste: Aqaba ist der einzige Zugang zum Roten Meer und gilt international als ...</text>
+            <description py:pytype="str">Ganz im Süden des Landes lockt ein ganz besonderes Juwel aus Jordaniens Schatzkiste: Aqaba ist der einzige Zugang zum Roten Meer und gilt international als ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="Aqaba_Unterwasserwelt.jpg" base-id="http://xml.zeit.de/angebote/jordanien/bilder/Aqaba_Unterwasserwelt.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="737b18af-4a39-49b7-b7bb-efe55dd76102">
+          <block href="http://xml.zeit.de/angebote/jordanien/biblisches-jordanien" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T09:06:43+00:00" date-first-released="2011-09-20T11:46:25.717010+00:00" date-last-published="2011-09-23T09:07:42.904923+00:00" last-semantic-change="2011-09-23T09:06:32.803762+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Biblisches Jordanien</title>
+            <text py:pytype="str">Jordanien liegt seit jeher mitten im Geschehen und war als geographischer Schnittpunkt zwischen Asien, Afrika und Europa seit Beginn der Zivilisationen sehr wichtig ...</text>
+            <description py:pytype="str">Jordanien liegt seit jeher mitten im Geschehen und war als geographischer Schnittpunkt zwischen Asien, Afrika und Europa seit Beginn der Zivilisationen sehr wichtig ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="Bethanien_Taufe-am-Jordan.jpg" base-id="http://xml.zeit.de/angebote/jordanien/bilder/Bethanien_Taufe-am-Jordan.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="1f7a2422-057c-4b33-8211-1eb89939d376">
+          <block href="http://xml.zeit.de/angebote/jordanien/totes-meer" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T09:11:12+00:00" date-first-released="2011-09-20T11:48:44.431679+00:00" date-last-published="2011-09-23T09:12:12.413426+00:00" last-semantic-change="2011-09-23T09:11:02.279660+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Totes Meer – Einzigartige Wellness-Oase am tiefsten Punkt der Erde</title>
+            <text py:pytype="str">Von jeher galt das Tote Meer als magischer Ort: Schon seit mehr als 2000 Jahren kommen Menschen hierher, um Körper und Geist durch die therapeutische Qualität von ...</text>
+            <description py:pytype="str">Von jeher galt das Tote Meer als magischer Ort: Schon seit mehr als 2000 Jahren kommen Menschen hierher, um Körper und Geist durch die therapeutische Qualität von ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="Totes-Meer.png" base-id="http://xml.zeit.de/angebote/jordanien/bilder/Totes-Meer.png/" type="png" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="ff462ee3-168d-4394-a887-e27854745e38">
+          <block href="http://xml.zeit.de/angebote/jordanien/auf-den-spuren-der-roemer" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T09:34:50+00:00" date-first-released="2011-09-20T11:47:47.850551+00:00" date-last-published="2011-09-23T09:35:49.664722+00:00" last-semantic-change="2011-09-23T09:34:19.482308+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Jordaniens Norden – Auf den Spuren der Römer</title>
+            <text py:pytype="str">In ganz Jordanien finden sich Schätze aus den unterschiedlichsten Epochen. Auch die Römer haben die Geschichte des Landes beeinflusst und ihre Spuren hinterlassen. ...</text>
+            <description py:pytype="str">In ganz Jordanien finden sich Schätze aus den unterschiedlichsten Epochen. Auch die Römer haben die Geschichte des Landes beeinflusst und ihre Spuren hinterlassen. ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="Jerash_Gladiatorenkaempfe.jpg" base-id="http://xml.zeit.de/angebote/jordanien/bilder/Jerash_Gladiatorenkaempfe.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="4b238a20-d839-49c6-8b61-88a24e308e3d">
+          <block href="http://xml.zeit.de/angebote/jordanien/schaetze-in-der-wueste" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T11:02:14+00:00" date-first-released="2011-09-20T11:48:02.548946+00:00" date-last-published="2011-09-23T11:03:14.090126+00:00" last-semantic-change="2011-09-23T11:02:04.462832+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Schätze in der Wüste – Kreuzritterburgen und arabische Wüstenschlösser</title>
+            <text py:pytype="str">In Jordanien stößt man überall auf die architektonischen Hinterlassenschaften der verschiedenen Zivilisationen, die die Geschichte des Landes geschrieben haben. ...</text>
+            <description py:pytype="str">In Jordanien stößt man überall auf die architektonischen Hinterlassenschaften der verschiedenen Zivilisationen, die die Geschichte des Landes geschrieben haben. ...</description>
+            <byline py:pytype="str">Jordanien: Dies ist ein Angebot von Jordan Tourism Board. Für den Inhalt ist ausschließlich Jordan Tourism Board verantwortlich.</byline>
+            <image align="left" title="Ajlun_Kreuzritterburg.jpg" base-id="http://xml.zeit.de/angebote/jordanien/bilder/Ajlun_Kreuzritterburg.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Anzeige</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Jordanien</title>
+  </teaser>
+</centerpage>

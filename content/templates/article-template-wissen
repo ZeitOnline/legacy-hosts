@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-07-30T11:22:23.679726+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-22T08:47:07.154194+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-07-30T11:22:28.800332+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-07-30T11:23:28.719569+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-07-30T11:19:45.843453+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-07-30T11:19:45.876089+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-24</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-07-30T11:22:14.867617+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-09-24</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schadwinkel</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">18</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:732c4a4e-ba65-4176-a873-5f8cff5e6bed}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="598d1113-fbe0-4e98-96e6-655296ad2031">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="9a40e956-890f-4afb-8e40-3e3815d96b6e">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-bffa2491-9d4b-4573-8a31-89d1b455bbb8" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/wissen/gesundheit/global-drug-survey-2015" year="2014" issue="47" ressort="Wissen" contenttype="centerpage-2009" publication-date="" expires="" uniqueId="http://xml.zeit.de/wissen/gesundheit/global-drug-survey-2015" date-last-modified="2015-07-15T08:13:29+00:00" date-first-released="2014-11-17T09:13:46.426138+00:00" date-last-published="2015-07-15T08:14:02.355683+00:00" last-semantic-change="2015-07-15T08:11:08.106313+00:00">
+            <supertitle py:pytype="str">Global Drug Survey 2015</supertitle>
+            <title py:pytype="str">Keine Welt ohne Drogen</title>
+            <text py:pytype="str">Millionen Menschen nehmen Drogen, weil sie es wollen. Geht das sicher? Nein. Aber weniger schädlich ginge schon. Der Schwerpunkt zum ZEIT-ONLINE-Drogenbericht</text>
+            <description py:pytype="str">Millionen Menschen nehmen Drogen, weil sie es wollen. Geht das sicher? Nein. Aber weniger schädlich ginge schon. Der Schwerpunkt zum ZEIT-ONLINE-Drogenbericht</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2014-11/cannabis-global-drug-survey-2015/" type="jpg" title="Drogen Cannabis Global Drug Survey 2015" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Mann dreht einen Joint. Cannabis, in vielen Ländern verboten, ist eine der am weitesten verbreiteten Drogen der Welt.</bu>
+              <copyright py:pytype="str" link="http://quickhoney.com/#home">© Quickhoney für ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/wissen/gesundheit/2014-11/cannabis-global-drug-survey-2015/cannabis-global-drug-survey-2015-368x220.jpg" title="Drogen Cannabis Global Drug Survey 2015" align="left" publication-date="" expires="">
+            <bu>Ein Mann dreht einen Joint. Cannabis, in vielen Ländern verboten, ist eine der am weitesten verbreiteten Drogen der Welt.</bu>
+            <copyright link="http://quickhoney.com/#home">© Quickhoney für ZEIT ONLINE</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-fa355aea-cc9f-455f-bacb-627eb919d60f">
+          <block href="http://xml.zeit.de/feature/down-syndrom-praenataldiagnostik-bluttest-entscheidung-leichte-sprache" uniqueId="http://xml.zeit.de/feature/down-syndrom-praenataldiagnostik-bluttest-entscheidung-leichte-sprache" year="2015" issue="1" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-22T12:00:45+00:00" date-first-released="2015-01-22T10:47:45.876174+00:00" date-last-published="2015-06-22T12:01:44.997078+00:00" last-semantic-change="2015-01-22T12:03:00.950821+00:00" author="Sven Stockrahm;Alina Schadwinkel;Anne Leichtfuß;Dagny Lüdemann">
+            <supertitle py:pytype="str">Down-Syndrom</supertitle>
+            <title py:pytype="str">Wer darf leben? – In leichter Sprache</title>
+            <text py:pytype="str">Schwangere können Tests machen. Manchmal ergibt der Test: Das Baby ist behindert. Eltern müssen dann entscheiden: Soll es geboren werden? Die Entscheidung ist schwierig.</text>
+            <description py:pytype="str">Schwangere können Tests machen. Manchmal ergibt der Test: Das Baby ist behindert. Eltern müssen dann entscheiden: Soll es geboren werden? Die Entscheidung ist schwierig.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/feature/down-syndrom-trisomie-thema-leichte-sprache/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Sebastian Kahnert/dpa </copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Stockrahm</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Alina_Schadwinkel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Alina Schadwinkel</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/L/Anne_Leichtfuss/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anne Leichtfuß</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/L/Dagny_Luedemann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Dagny Lüdemann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/gesundheit/2015-01/behinderung-praenataldiagnostik-schwangerschaft-debatte" uniqueId="http://xml.zeit.de/wissen/gesundheit/2015-01/behinderung-praenataldiagnostik-schwangerschaft-debatte" year="2015" issue="3" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-22T18:40:26+00:00" date-first-released="2015-01-22T11:04:16.241107+00:00" date-last-published="2015-01-22T18:41:26.416779+00:00" last-semantic-change="2015-01-22T18:39:55.255848+00:00" author="Dagny Lüdemann">
+            <supertitle py:pytype="str">Behinderung</supertitle>
+            <title py:pytype="str">Wer darf leben? Debattieren Sie mit uns!</title>
+            <text py:pytype="str">Schwanger werden, Baby-Gene testen, im Zweifel abtreiben – so könnte es künftig laufen, bis Frauen ein gesundes Wunschkind austragen. Wollen wir das? Debattieren Sie mit.</text>
+            <description py:pytype="str">Schwanger werden, Baby-Gene testen, im Zweifel abtreiben – so könnte es künftig laufen, bis Frauen ein gesundes Wunschkind austragen. Wollen wir das? Debattieren Sie mit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2015-01/wer-darf-leben-debatte-teaser/" type="jpg" title="Wer darf Leben Debatte" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Dagny_Luedemann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Dagny Lüdemann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="93f83b9c-8b6a-4aee-bc32-4f62b1d0da49">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="d0c96e49-1a66-41e1-aeae-6a0e5974b5fb">
+          <video videoID="2399721950001" player="pls" format="large"/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="cfd4cacc-3d7d-49c8-801d-5633aaf31014">
+          <cp_extra id="linkatory"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="b13f6e30-38c5-4eb0-abed-dda66b03d5b7">
+        <container cp:type="teaser" module="ressort" cp:__name__="b7577147-d706-46e0-9fee-fac1eb81cadf" title="Gesundheit" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/wissen/gesundheit/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/wissen/gesundheit/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/wissen/gesundheit/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="3f4b659c-5457-40a7-b02a-3b3ba92985f9" title="Umwelt" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/wissen/umwelt/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/wissen/umwelt/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/wissen/umwelt/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="c02ef04c-05a1-4f14-a25d-37e03556bb9c" title="Geschichte" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/wissen/geschichte/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/wissen/geschichte/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/wissen/geschichte/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="48ddc2fa-8c86-49c4-9d67-54532e3134ea" title="Thema: Japans Katastrophe" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/themen/gesellschaft/erdbeben-tsunami-japan-2011/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/themen/gesellschaft/erdbeben-tsunami-japan-2011/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/themen/gesellschaft/erdbeben-tsunami-japan-2011/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Wissen</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Wissen</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Wissen</text>
+  </indexteaser>
+</centerpage>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-12-12T13:42:44.075361+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-10-18T15:11:24.535371+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-12-12T13:43:43.828490+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-12-12T13:42:18.399611+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">vorweggehen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:7d4e3dd4-2b99-440a-bb71-9e7237c24dec}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="7e52476d-b6c2-42bf-a551-9bd539ae0887"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="5627d80e-cab5-4572-ad9f-9b1b85e86139">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/vorweggehen/zurueck" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/vorweggehen" date-last-modified="2011-10-18T15:04:27+00:00" date-first-released="2011-10-18T15:05:27.429348+00:00" date-last-published="2011-10-18T15:05:27.429348+00:00" last-semantic-change="2011-10-18T15:04:07.459751+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="9b1b89d5-cbbe-4abb-9496-051558be1ee8">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/vorweggehen/link" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;250401999;38866053;r?http://adsfac.eu/link.asp?cc=RAG031.143676.0&amp;creativeID=169076" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link VoRWEggehen</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/vorweggehen/bilder/RWE_ie_Key-Visual_Claim_4C-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="43416872-f46b-40ef-bf55-aba08b097d2e">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/vorweggehen/autostrom" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;250401999;38866053;r?http://adsfac.eu/link.asp?cc=RAG031.143676.0&amp;creativeID=169076" date-last-modified="2011-12-12T13:20:13+00:00" date-first-released="2011-10-18T15:27:38.748115+00:00" date-last-published="2011-12-12T13:21:13.152596+00:00" last-semantic-change="2011-12-12T11:45:53.108680+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">VoRWEg gehen und gute Ideen tanken</title>
+            <text py:pytype="str">Mit RWE Autostrom laden Sie schon heute deutschlandweit an über 100 Ladesäulen grünen Strom. Und bald auch Navigationskarten, Musik, Werstattupdates und vieles mehr!</text>
+            <description py:pytype="str">Mit RWE Autostrom laden Sie schon heute deutschlandweit an über 100 Ladesäulen grünen Strom. Und bald auch Navigationskarten, Musik, Werstattupdates und vieles mehr!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Autostrom_Ladesaule.jpg" base-id="http://xml.zeit.de/angebote/vorweggehen/bilder/Autostrom_Ladesaule-2.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="36607a52-57a9-433a-8859-8a5f6adebf5d">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/vorweggehen/smartline" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;250401999;38866053;r?http://adsfac.eu/link.asp?cc=RAG031.143676.0&amp;creativeID=169076" date-last-modified="2011-12-12T13:20:19+00:00" date-first-released="2011-10-18T15:31:58.829495+00:00" date-last-published="2011-12-12T13:21:19.373566+00:00" last-semantic-change="2011-12-12T11:46:39.110673+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">VoRWEg gehen mit cleveren Stromtarifen.</title>
+            <text py:pytype="str">Mit RWE SmartLine Strom zahlen Sie keine Grundgebühr – sondern nur den Strom, den Sie tatsächlich verbrauchen. Außerdem erhalten Sie einen € 100 Einkaufsgutschein für ...</text>
+            <description py:pytype="str">Mit RWE SmartLine Strom zahlen Sie keine Grundgebühr – sondern nur den Strom, den Sie tatsächlich verbrauchen. Außerdem erhalten Sie einen € 100 Einkaufsgutschein für ...</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Smartline.jpg" base-id="http://xml.zeit.de/angebote/vorweggehen/bilder/Smartline.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Vorweggehen</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Vorweggehen</title>
+  </teaser>
+</centerpage>

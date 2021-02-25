@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cpextras>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="mosttrending">
+    Aufsteigend
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="mostread">
+    Meistgelesen
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="mostcommented">
+    Meistkommentiert
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="mostshared">
+    Meistgeteilt
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zmo-mostread" available="zeit.magazin.interfaces.IZMOContent">
+    Meistgelesen
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zmo-mostcommented" available="zeit.magazin.interfaces.IZMOContent">
+    Meistkommentiert
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zmo-mostshared" available="zeit.magazin.interfaces.IZMOContent">
+    Meistgeteilt
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="servicebox" available="zeit.cms.section.interfaces.IZONContent">
+    Servicebox
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="follow_us">
+    Follow Us
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zmo_follow_us">
+    Follow Us ZMO
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zco-servicelinks">
+    Servicelinks
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zco-tool-box">
+    ZCO 3 Tools Box
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zco_link_button">
+    Zurück zur Startseite Link
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" available="zeit.campus.interfaces.IZCOContent" id="cp_header">
+    Centerpage Titel
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" available="zeit.cms.section.interfaces.IZONContent" id="centerpage-header">
+    Centerpage Titel
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" available="zeit.cms.section.interfaces.IZONContent" id="centerpage-archive-header">
+    Centerpage Archiv Titel
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="studiumbox">
+    Studium-Box
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="printbox">
+    Print-Box
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="partnerbox_reisen">
+     Reise-Box mit Dropdown
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="jobbox">
+    Stellenmarkt-Box
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="partnerbox_jobs">
+     Stellenmarkt-Box mit Dropdown
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="jobbox_dropdown">
+     ZAR Stellenmarkt-Box mit Dropdown
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zett-banner">
+     ze.tt Banner flach
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="adplace7" available="zeit.campus.interfaces.IZCOContent">
+    AdPlace7
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="adplace8">
+    P3/AdPlace8 (Campus/Arbeit)
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="adplace4">
+    P4/AdPlace4
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="adplace9">
+    P6/AdPlace9
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="adplace12">
+    AdPlace12
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="adplace13">
+    AdPlace13
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="uswahlkarte">
+    US-Wahl-2012 Karte
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="wahlmodul_ni_2013">
+    Wahlmodul Niedersachsen
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="weather">
+    Wetter
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="stocks">
+    Börse
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="ressort_news">
+    Neu Im Ressort
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="live_search">
+    Live-Search
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="print_archive">
+    Print Archiv
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="blindblock">
+    Blindblock
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="homepage_news">
+    Neu auf Zeit Online
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa-news">
+    dpa-News
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="afp_extra">
+    AFP
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="sid_extra">
+    SID
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="authors-register">
+    Autoren-Register
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="linkatory">
+    Linkatory
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="newsletter_taeglich">
+    Täglicher Newsletter
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="newsletter_campus">
+    Newsletter Campus
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="newsletter_gesellschaft">
+    Newsletter Gesellschaft
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="newsletter_jobbrief">
+    Newsletter Jobbrief
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="newsletter_kultur">
+    Newsletter Kultur
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="newsletter_wirtschaft">
+    Newsletter Wirtschaft
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="newsletter_5v8">
+    Newsletter 5vor8 
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="mini_cp_kolumnenteaser">
+    Mini-CP Kolumnenteaser
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="mini_cp_artikelteaser">
+    Mini-CP Artikelteaser
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="mini_cp_blogteaser">
+    Mini-CP Blogteaser
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="informatives_printbox" available="zeit.web.core.interfaces.IInternalUse">
+    Print-Box zur Bewerbung der aktuellen ZEIT
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="most_read_commented" available="zeit.web.core.interfaces.IInternalUse">
+    Meistgelesen/Meistkommentiert Tabs
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="themenseite_bundestagswahl2013_informatives_teaser">
+    3 Themenseite Bundestagswahl 2013 Teaser
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_informatives_bw_zipsearch">
+    dpa Wahlticker 2013 informatives BUNDESTAG mit PLZ-Suche
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_main_bw_zipsearch">
+    dpa Wahlticker 2013 main BUNDESTAG mit PLZ-Suche
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_informatives_bw">
+    dpa Wahlticker 2013 informatives BUNDESTAG
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_main_bw">
+    dpa Wahlticker 2013 main BUNDESTAG
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_informatives_lw_by">
+    dpa Wahlticker 2013 informatives BAYERN
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_main_lw_by">
+    dpa Wahlticker 2013 main BAYERN
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_informatives_lw_he">
+    dpa Wahlticker 2013 informatives HESSEN
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_wahlticker_2013_main_lw_he">
+    dpa Wahlticker 2013 main HESSEN
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="homepage_news_pics">
+    Neu auf Zeit Online (Bilder)
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="recensionsearch">
+    Rezensionssuche
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="tagcloud">
+    Verwandte Schlagwörter
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="schlagwortregister">
+    Schlagwortregister
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="solr-month">
+    Solr Monatsübersicht
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="solrsearch">
+    Solrsearch
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dwds-ticker">
+    DWDS Ticker
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="sportextra">
+    Sport Extra
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="sid_extra">
+    SID-Newsticker zur Fußball-WM 2010
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_bundesligaticker">
+    dpa Bundesliga-Ticker
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="buli_ticker_testing">
+    dpa Bundesliga-Ticker | TESTING, do not use
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="dpa_bundesligatabelle">
+    dpa Bundesliga Tabelle (only for CPs, NOT FOR HP)
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="facebook_connect_box">
+    Social-Media Modul
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="parquet-ads">
+    Parkett: Werbefläche
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="parquet-photocarousel">
+    Parkett: Foto-Karussel
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="parquet-shopcarousel">
+    Parkett: ZEIT Shop Bühne
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="parquet-terminkalender">
+    Parkett: Terminkalender Hamburg
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="parquet-olympiaticker2014">
+    Parkett: Olympia-Ticker 2014 Sotschi
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="hamburg-news-overview">
+    Hamburg: DPA-News Übersicht
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="hamburg-events-carousel">
+    Hamburg: Termin Karussel
+  </cpextra>
+  <cpextra for="zeit.content.cp.interfaces.IArea" id="zmo-seperator-for-cps">
+    ZMO-Umbruch für CPs
+  </cpextra>
+</cpextras>

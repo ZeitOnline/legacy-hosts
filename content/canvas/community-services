@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">Leserartikel</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-03-31T14:29:47.616136+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-03-31T14:31:07.611891+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-03-31T14:31:07.611891+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2011-04-20</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie ZEIT ONLINE, um einen Leserartikel zu verfassen!</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Leserartikel | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-03-31T14:29:42.761713+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2014-01-03</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.dhoppe</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">leserartikel</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Leserartikel</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">community-services</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">11106</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:0edbbe49-dc3c-40b2-b65c-f1f815d98159}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">14</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-daad6c43-1ac8-4a66-8756-0553c3ba004d">
+          <block href="http://xml.zeit.de/wirtschaft/2014-03/mindestlohn-praktikanten" uniqueId="http://xml.zeit.de/wirtschaft/2014-03/mindestlohn-praktikanten" year="2014" issue="13" ressort="Wirtschaft" author="Tobias Herbst" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-26T05:35:49+00:00" date-first-released="2014-03-26T05:36:49.508492+00:00" date-last-published="2014-03-26T05:36:49.508492+00:00" last-semantic-change="2014-03-26T05:35:41.449678+00:00">
+            <supertitle py:pytype="str">Mindestlohn</supertitle>
+            <teaser_supertitle py:pytype="str">Mindestlohn</teaser_supertitle>
+            <title py:pytype="str">8,50 Euro auch für Praktikanten</title>
+            <text py:pytype="str">Der gesetzliche Mindestlohn wird wahrscheinlich nicht für Praktika gelten. Das wäre unsozial, besonders für Berufsanfänger aus ärmeren Familien.</text>
+            <description py:pytype="str">Der gesetzliche Mindestlohn wird wahrscheinlich nicht für Praktika gelten. Das wäre unsozial, besonders für Berufsanfänger aus ärmeren Familien.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2014-03/mindestlohn-geld/" type="jpg" title="Mindestlohn Münzen Schein" alt="Mindestlohn: Acht Euro und fünfzig Cent" align="left" publication-date="2014-03-25T17:07:56+00:00" expires="2014-06-25T16:08:01+00:00">
+              <bu py:pytype="str">Mindestlohn: Acht Euro und fünfzig Cent</bu>
+              <copyright py:pytype="str">© Karl-Josef Hildenbrand/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Tobias_Herbst/index" publication-date="" expires="">
+              <display_name py:pytype="str">Tobias Herbst</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-df731a75-b3e3-470e-800c-70df33121863">
+          <block href="http://xml.zeit.de/community/2014-03/ewiges-projekt-dissertation" uniqueId="http://xml.zeit.de/community/2014-03/ewiges-projekt-dissertation" year="2014" issue="11" ressort="Community" author="Hans-Dieter Eberhard" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-23T10:15:50+00:00" date-first-released="2014-03-23T10:16:50.337016+00:00" date-last-published="2014-03-23T10:16:50.337016+00:00" last-semantic-change="2014-03-23T10:15:46.056176+00:00">
+            <supertitle py:pytype="str">Ewiges Projekt</supertitle>
+            <teaser_supertitle py:pytype="str">Ewiges Projekt</teaser_supertitle>
+            <title py:pytype="str">Ein halbes Jahrhundert lang Doktorand</title>
+            <text py:pytype="str">Seit Ende der sechziger Jahre promoviere ich in Philosophie. Eine Karriere als Mediziner kam dazwischen. Jetzt will ich die Dissertation endlich abschließen.</text>
+            <description py:pytype="str">Seit Ende der sechziger Jahre promoviere ich in Philosophie. Eine Karriere als Mediziner kam dazwischen. Jetzt will ich die Dissertation endlich abschließen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2014-03/hu-berlin-grimm-zentrum/" type="jpg" title="Grimm Zentrum der HU Berlin" alt="Grimm-Zentrum der Humboldt Universität Berlin" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hier lässt es sich promovieren: Grimm-Zentrum der Berliner Humboldt Universität</bu>
+              <copyright py:pytype="str">© Matthias Heyde/Universitätsbibliothek der HU Berlin</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/E/Hans-Dieter_Eberhard/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hans-Dieter Eberhard</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7a625181-b519-465a-86c0-d951458c8637">
+          <block href="http://xml.zeit.de/lebensart/2014-03/sparsamkeit-spleen-alter" uniqueId="http://xml.zeit.de/lebensart/2014-03/sparsamkeit-spleen-alter" year="2014" issue="13" ressort="Lebensart" author="Terje Neraal" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-21T20:45:08+00:00" date-first-released="2014-03-21T20:45:36.409606+00:00" date-last-published="2014-03-21T20:46:08.057852+00:00" last-semantic-change="2014-03-21T20:44:20.809556+00:00">
+            <supertitle py:pytype="str">Nachhaltigkeit</supertitle>
+            <teaser_supertitle py:pytype="str">Nachhaltigkeit</teaser_supertitle>
+            <title py:pytype="str">Sparen bis zum letzten Tropfen</title>
+            <text py:pytype="str">Fast leere Zahnpastatuben aufschneiden, benutztes Küchenpapier trocknen und wiederverwenden: Ist das sinnvoll oder neurotisch? Auf Erkundung in meinem Freundeskreis</text>
+            <description py:pytype="str">Fast leere Zahnpastatuben aufschneiden, benutztes Küchenpapier trocknen und wiederverwenden: Ist das sinnvoll oder neurotisch? Auf Erkundung in meinem Freundeskreis</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/2014-03/wasserhahn-tropfen/" type="jpg" title="Tropfender Wasserhahn" alt="Tropfender Wasserhahn" align="left" publication-date="2014-03-21T13:32:54+00:00" expires="2014-06-21T12:32:58+00:00">
+              <bu py:pytype="str">Tropfender Wasserhahn</bu>
+              <copyright py:pytype="str">© Jens Büttner/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Terje_Neraal/index" publication-date="" expires="">
+              <display_name py:pytype="str">Terje Neraal</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b7c85fad-3642-44c7-84f4-4c0a018e2bed">
+          <block href="http://xml.zeit.de/community/2014-03/ewiges-projekt-auto-zweisitzer" uniqueId="http://xml.zeit.de/community/2014-03/ewiges-projekt-auto-zweisitzer" year="2014" issue="11" ressort="Community" author="Christoph Reichelt" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-21T11:27:58+00:00" date-first-released="2014-03-19T06:18:39.606063+00:00" date-last-published="2014-03-21T11:28:58.187092+00:00" last-semantic-change="2014-03-19T06:17:36.261712+00:00">
+            <supertitle py:pytype="str">Ewiges Projekt</supertitle>
+            <teaser_supertitle py:pytype="str">Ewiges Projekt</teaser_supertitle>
+            <title py:pytype="str">Verfolgt von einer Autovision</title>
+            <text py:pytype="str">Vor 23 Jahren hat Christoph Reichelt einen Zweisitzer für seine Diplomarbeit entworfen. Viele Male nahm er Abschied von seiner Idee. Immer vergeblich.</text>
+            <description py:pytype="str">Vor 23 Jahren hat Christoph Reichelt einen Zweisitzer für seine Diplomarbeit entworfen. Viele Male nahm er Abschied von seiner Idee. Immer vergeblich.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2014-03/automodell-reichelt/" type="jpg" title="Automodell Christoph Reichel" alt="Rendering des Datenmodells von 2006" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Rendering des Datenmodells von 2006</bu>
+              <copyright py:pytype="str">© Christoph Reichelt</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Christoph_Reichelt/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph Reichelt</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-be5b2205-d5b3-4815-86c0-e8c817211dfd">
+          <block href="http://xml.zeit.de/karriere/beruf/2014-03/erzieher-arbeitsbedingungen-gehalt" year="2014" issue="11" ressort="Karriere" author="Ingrid Franz" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-13T06:22:30+00:00" date-first-released="2014-03-13T06:22:41.842029+00:00" date-last-published="2014-03-13T06:23:30.516474+00:00" last-semantic-change="2014-03-13T06:22:28.285601+00:00">
+            <supertitle py:pytype="str">Kinderbetreuung</supertitle>
+            <title py:pytype="str">Arme Erzieher</title>
+            <text py:pytype="str">Hohe Belastung, niedriges Gehalt: Die Arbeitsbedingungen für Erzieher müssen dringend verbessert werden. Sonst droht Nachwuchsmangel.</text>
+            <description py:pytype="str">Hohe Belastung, niedriges Gehalt: Die Arbeitsbedingungen für Erzieher müssen dringend verbessert werden. Sonst droht Nachwuchsmangel.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/beruf/2014-03/erzieher-kita/" type="jpg" title="Erzieher in einer Kita" alt="Erzieher in einer Hamburger Kita" align="left" publication-date="2014-03-12T13:43:37+00:00" expires="2014-06-12T12:43:00+00:00">
+              <bu py:pytype="str">Erzieher in einer Hamburger Kita</bu>
+              <copyright py:pytype="str">© Malte Christians/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Kinderbetreuung</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Ingrid_Franz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ingrid Franz</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e4c1c470-99bd-4a8b-ae86-08ca0abe2e5a">
+          <block href="http://xml.zeit.de/studium/hochschule/2014-03/promovieren-deutschland-usa-vergleich" year="2014" issue="11" ressort="Studium" author="Felix Baier" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-11T08:40:22+00:00" date-first-released="2014-03-11T08:41:21.920789+00:00" date-last-published="2014-03-11T08:41:21.920789+00:00" last-semantic-change="2014-03-11T08:40:05.709675+00:00">
+            <supertitle py:pytype="str">Promotion in den USA</supertitle>
+            <title py:pytype="str">Hier investiert die Uni in mich</title>
+            <text py:pytype="str">Mehr Zeit für die Dissertation, weniger Abhängigkeit von einem einzelnen Professor: Das amerikanische Promotionssystem ist dem deutschen in vielen Punkten überlegen.</text>
+            <description py:pytype="str">Mehr Zeit für die Dissertation, weniger Abhängigkeit von einem einzelnen Professor: Das amerikanische Promotionssystem ist dem deutschen in vielen Punkten überlegen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/hochschule/2014-03/doktoranden-labor/" type="jpg" title="Doktoranden im Labor" alt="Doktoranden in einem Labor der Technischen Universität Dresden" align="left" publication-date="2014-03-10T15:43:52+00:00" expires="2014-06-10T14:43:00+00:00">
+              <bu py:pytype="str">Doktoranden in einem Labor, hier an der Technischen Universität Dresden</bu>
+              <copyright py:pytype="str">© Arno Burgi/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Promotion in den USA</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Felix_Baier/index" publication-date="" expires="">
+              <display_name py:pytype="str">Felix Baier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-58cabf83-1afb-4a49-978c-279937d53d17">
+          <block href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-03/asylrecht-sozialrecht-fluechtling" year="2014" issue="11" ressort="Gesellschaft" author="Ruth Lieser" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-07T10:42:23+00:00" date-first-released="2014-03-07T10:43:23.025120+00:00" date-last-published="2014-03-07T10:43:23.025120+00:00" last-semantic-change="2014-03-07T10:42:18.312101+00:00">
+            <supertitle py:pytype="str">Flüchtlinge</supertitle>
+            <title py:pytype="str">In den Lücken des Gesetzes</title>
+            <text py:pytype="str">Der 18-jährige Farid will in Deutschland einen Schulabschluss machen. Für Bafög ist er noch nicht lange genug im Land. Hartz IV bekommt er als Schüler aber auch nicht.</text>
+            <description py:pytype="str">Der 18-jährige Farid will in Deutschland einen Schulabschluss machen. Für Bafög ist er noch nicht lange genug im Land. Hartz IV bekommt er als Schüler aber auch nicht.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-03/fluechtling-afghanistan/" type="jpg" title="Afghanischer Flüchtling" alt="Afghanischer Flüchtling in einer Aufnahmeeinrichtung in München" align="left" publication-date="2014-03-07T18:18:00+00:00" expires="2014-06-06T17:18:00+00:00">
+              <bu py:pytype="str">Afghanischer Flüchtling in einer Aufnahmeeinrichtung in München</bu>
+              <copyright py:pytype="str">© Paul Knecht/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Flüchtlinge</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Ruth_Lieser/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ruth Lieser</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e1bf060a-4746-4917-b6bf-91dca97a5f41">
+          <block href="http://xml.zeit.de/gesellschaft/familie/2014-02/unbekannter-vater-tochter" year="2014" issue="10" ressort="Gesellschaft" author="Marisa Kurz" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-03-02T19:13:14+00:00" date-first-released="2014-03-02T19:14:14.218120+00:00" date-last-published="2014-03-02T19:14:14.218120+00:00" last-semantic-change="2014-03-02T19:13:11.118602+00:00">
+            <supertitle py:pytype="str">Vaterschaft</supertitle>
+            <title py:pytype="str">Mein Vater, der Unbekannte</title>
+            <text py:pytype="str">Ich kannte meinen Vater fast nur von Fotos. Dann habe ich ihn zufällig in der Tram gesehen, ohne ihn anzusprechen. Ich hoffe, ich begegne ihm noch einmal.</text>
+            <description py:pytype="str">Ich kannte meinen Vater fast nur von Fotos. Dann habe ich ihn zufällig in der Tram gesehen, ohne ihn anzusprechen. Ich hoffe, ich begegne ihm noch einmal.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/familie/2014-02/maedchen-einsam/" type="jpg" title="Einsames Mädchen" alt="Einsames Mädchen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Einsames Mädchen, ca. 1935</bu>
+              <copyright py:pytype="str">© Chris Ware/Getty Images</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Vaterschaft</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Marisa_Kurz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Marisa Kurz</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-120fb3c6-72e4-4fa7-924f-f2d662eeb09e">
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2014-02/landwirtschaft-tierhaltung-veganismus" year="2014" issue="8" ressort="Lebensart" author="Thomas Trueblood" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2014-02-22T12:47:05+00:00" date-first-released="2014-02-22T07:49:18.234028+00:00" date-last-published="2014-02-22T12:48:04.745200+00:00" last-semantic-change="2014-02-22T07:47:59.085645+00:00">
+            <supertitle py:pytype="str">Veganismus</supertitle>
+            <title py:pytype="str">Wir Landwirte, Herren über Leben und Tod</title>
+            <text py:pytype="str">Tierliebe verträgt sich nicht mit der Zucht von Nutztieren. Aber diesen Widerspruch müssen wir aushalten, wenn wir Fleisch und Milchprodukte konsumieren wollen.</text>
+            <description py:pytype="str">Tierliebe verträgt sich nicht mit der Zucht von Nutztieren. Aber diesen Widerspruch müssen wir aushalten, wenn wir Fleisch und Milchprodukte konsumieren wollen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/essen-trinken/2014-02/schafe-lamm/" type="jpg" title="Mutterschaf mit Lamm" alt="Ein Lamm mit seiner Mutter" align="left" publication-date="2014-02-19T14:42:53+00:00" expires="2014-05-19T13:42:00+00:00">
+              <bu py:pytype="str">Ein Lamm mit seiner Mutter</bu>
+              <copyright py:pytype="str">© David Ebener/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Veganismus</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Thomas_Trueblood/index" publication-date="" expires="">
+              <display_name py:pytype="str">Thomas Trueblood</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b4fa1830-0f42-4213-95b2-2ce02f035709">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/administratives/2011-04/leserartikel-eingabe" year="2011" issue="15" ressort="Administratives" contenttype="link" publication-date="" expires="" ns0:href="http://community.zeit.de/leserartikel" date-last-modified="2012-11-02T13:54:58+00:00" date-first-released="2011-04-19T09:59:01.000527+00:00" date-last-published="2012-11-02T13:55:58.301943+00:00" last-semantic-change="2012-04-02T13:41:37.209754+00:00">
+            <supertitle py:pytype="str">Ihr Beitrag auf ZEIT ONLINE</supertitle>
+            <title py:pytype="str">Schreiben Sie einen Leserartikel!</title>
+            <text py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</text>
+            <description py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/administratives/2012-04/leserbriefe/" type="jpg" title="leserbriefe" align="left" publication-date="" expires="">
+              <bu py:pytype="str">ILLUSTRATION - ARCHIV†- Eine junge Frau benutzt am 20.06.2011 am Strand von Santa Poca auf der spanischen Mittelmeerinsel Mallorca ihren tragbaren Computer. Die H‰lfte aller berufst‰tigen Deutschen
+</bu>
+              <copyright py:pytype="str">© Patrick Seeger/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b3616ee3-ad1f-4f36-9ece-2e92c7211042">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/administratives/2011-04/link-leserartikel-faq" year="2011" issue="16" ressort="Administratives" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/administratives/2011-04/faq-leserartikel" date-last-modified="2011-05-09T10:10:22+00:00" date-first-released="2011-04-19T09:59:48.615303+00:00" date-last-published="2011-05-09T10:11:22.203192+00:00" last-semantic-change="2011-05-05T09:10:49.110090+00:00">
+            <supertitle py:pytype="str">Leserartikel auf ZEIT ONLINE</supertitle>
+            <title py:pytype="str">Hilfreiche Tipps und Hinweise</title>
+            <text py:pytype="str">Hier erfahren Sie, was Sie beachten sollten, wenn Sie einen Leserartikel auf ZEIT ONLINE veröffentlichen möchten. </text>
+            <description py:pytype="str">Hier erfahren Sie, was Sie beachten sollten, wenn Sie einen Leserartikel auf ZEIT ONLINE veröffentlichen möchten. </description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-e28dbee3-c870-4754-a7fa-01355968559e">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="8c627dba-931b-4265-8d95-a0edd9d37f86">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-39bb6386-4aca-42e8-b594-22f90f44a1f2" title="Community" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/community/index" year="2013" issue="43" ressort="Community" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-03-30T13:59:19+00:00" date-first-released="2013-10-29T19:40:21.314948+00:00" date-last-published="2014-03-30T14:00:16.104875+00:00" last-semantic-change="2014-03-30T13:59:00.218253+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Community</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/community/2014-03/facebook-leserverhalten/facebook-leserverhalten-368x220.jpg" title="Facebook-Leseverhalten" alt="Temporärer Irrgarten aus Maispflanzen 2004 im elsässischen Ribeauvillé" align="left" publication-date="" expires="">
+            <bu>Temporärer Irrgarten aus Maispflanzen 2004 im elsässischen Ribeauvillé</bu>
+            <copyright>©picture-alliance/dpa</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-4067c363-5afd-485b-8579-10ba6f37bc1a" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/administratives/2011-04/leserartikel-eingabe" year="2011" issue="15" ressort="Administratives" contenttype="link" publication-date="" expires="" ns0:href="http://community.zeit.de/leserartikel" date-last-modified="2012-11-02T13:54:58+00:00" date-first-released="2011-04-19T09:59:01.000527+00:00" date-last-published="2012-11-02T13:55:58.301943+00:00" last-semantic-change="2012-04-02T13:41:37.209754+00:00">
+            <supertitle py:pytype="str">Ihr Beitrag auf ZEIT ONLINE</supertitle>
+            <title py:pytype="str">Schreiben Sie einen Leserartikel!</title>
+            <text py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</text>
+            <description py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/administratives/2012-04/leserbriefe/" type="jpg" title="leserbriefe" align="left" publication-date="" expires="">
+              <bu py:pytype="str">ILLUSTRATION - ARCHIV†- Eine junge Frau benutzt am 20.06.2011 am Strand von Santa Poca auf der spanischen Mittelmeerinsel Mallorca ihren tragbaren Computer. Die H‰lfte aller berufst‰tigen Deutschen
+</bu>
+              <copyright py:pytype="str">© Patrick Seeger/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="435c3d6c-0bee-4124-bcf4-20110ad06897" title="@zeitonlineleser auf Twitter ">
+          <raw>
+            <a width="319" class="twitter-timeline" href="https://twitter.com/zeitonlineleser" data-widget-id="306744698003922944">Tweets von @zeitonlineleser</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Aktuelle Leserartikel</title>
+    <subtitle>Wir präsentieren regelmäßig ausgewählte Leserartikel, die unsere Seite um Meinungen, Erfahrungsberichte und Sichtweisen bereichern. Hier finden Sie die neusten Beiträge.</subtitle>
+    <supertitle py:pytype="str">Ihr Beitrag auf ZEIT ONLINE</supertitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2014-03/mindestlohn-praktikanten" year="2014" issue="13" ressort="Wirtschaft" author="Tobias Herbst" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Mindestlohn</supertitle>
+      <teaser_supertitle py:pytype="str">Mindestlohn</teaser_supertitle>
+      <title py:pytype="str">8,50 Euro auch für Praktikanten</title>
+      <text py:pytype="str">Der gesetzliche Mindestlohn wird wahrscheinlich nicht für Praktika gelten. Das wäre unsozial, besonders für Berufsanfänger aus ärmeren Familien.</text>
+      <description py:pytype="str">Der gesetzliche Mindestlohn wird wahrscheinlich nicht für Praktika gelten. Das wäre unsozial, besonders für Berufsanfänger aus ärmeren Familien.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2014-03/mindestlohn-geld/" type="jpg" title="Mindestlohn Münzen Schein" alt="Mindestlohn: Acht Euro und fünfzig Cent" align="left" publication-date="2014-03-25T17:07:56+00:00" expires="2014-06-25T16:08:01+00:00">
+        <bu py:pytype="str">Mindestlohn: Acht Euro und fünfzig Cent</bu>
+        <copyright py:pytype="str">© Karl-Josef Hildenbrand/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Tobias_Herbst/index" publication-date="" expires="">
+        <display_name py:pytype="str">Tobias Herbst</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2014-03/ewiges-projekt-dissertation" year="2014" issue="11" ressort="Community" author="Hans-Dieter Eberhard" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Ewiges Projekt</supertitle>
+      <teaser_supertitle py:pytype="str">Ewiges Projekt</teaser_supertitle>
+      <title py:pytype="str">Ein halbes Jahrhundert lang Doktorand</title>
+      <text py:pytype="str">Seit Ende der sechziger Jahre promoviere ich in Philosophie. Eine Karriere als Mediziner kam dazwischen. Jetzt will ich die Dissertation endlich abschließen.</text>
+      <description py:pytype="str">Seit Ende der sechziger Jahre promoviere ich in Philosophie. Eine Karriere als Mediziner kam dazwischen. Jetzt will ich die Dissertation endlich abschließen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2014-03/hu-berlin-grimm-zentrum/" type="jpg" title="Grimm Zentrum der HU Berlin" alt="Grimm-Zentrum der Humboldt Universität Berlin" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Hier lässt es sich promovieren: Grimm-Zentrum der Berliner Humboldt Universität</bu>
+        <copyright py:pytype="str">© Matthias Heyde/Universitätsbibliothek der HU Berlin</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/E/Hans-Dieter_Eberhard/index" publication-date="" expires="">
+        <display_name py:pytype="str">Hans-Dieter Eberhard</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/2014-03/sparsamkeit-spleen-alter" year="2014" issue="13" ressort="Lebensart" author="Terje Neraal" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Nachhaltigkeit</supertitle>
+      <teaser_supertitle py:pytype="str">Nachhaltigkeit</teaser_supertitle>
+      <title py:pytype="str">Sparen bis zum letzten Tropfen</title>
+      <text py:pytype="str">Fast leere Zahnpastatuben aufschneiden, benutztes Küchenpapier trocknen und wiederverwenden: Ist das sinnvoll oder neurotisch? Auf Erkundung in meinem Freundeskreis</text>
+      <description py:pytype="str">Fast leere Zahnpastatuben aufschneiden, benutztes Küchenpapier trocknen und wiederverwenden: Ist das sinnvoll oder neurotisch? Auf Erkundung in meinem Freundeskreis</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/2014-03/wasserhahn-tropfen/" type="jpg" title="Tropfender Wasserhahn" alt="Tropfender Wasserhahn" align="left" publication-date="2014-03-21T13:32:54+00:00" expires="2014-06-21T12:32:58+00:00">
+        <bu py:pytype="str">Tropfender Wasserhahn</bu>
+        <copyright py:pytype="str">© Jens Büttner/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Terje_Neraal/index" publication-date="" expires="">
+        <display_name py:pytype="str">Terje Neraal</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2014-03/ewiges-projekt-auto-zweisitzer" year="2014" issue="11" ressort="Community" author="Christoph Reichelt" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Ewiges Projekt</supertitle>
+      <teaser_supertitle py:pytype="str">Ewiges Projekt</teaser_supertitle>
+      <title py:pytype="str">Verfolgt von einer Autovision</title>
+      <text py:pytype="str">Vor 23 Jahren hat Christoph Reichelt einen Zweisitzer für seine Diplomarbeit entworfen. Viele Male nahm er Abschied von seiner Idee. Immer vergeblich.</text>
+      <description py:pytype="str">Vor 23 Jahren hat Christoph Reichelt einen Zweisitzer für seine Diplomarbeit entworfen. Viele Male nahm er Abschied von seiner Idee. Immer vergeblich.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2014-03/automodell-reichelt/" type="jpg" title="Automodell Christoph Reichel" alt="Rendering des Datenmodells von 2006" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Rendering des Datenmodells von 2006</bu>
+        <copyright py:pytype="str">© Christoph Reichelt</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/R/Christoph_Reichelt/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christoph Reichelt</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2014-03/ewiges-projekt-visuelles-tagebuch" year="2014" issue="11" ressort="Community" author="Frederik Busch" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Ewiges Projekt</supertitle>
+      <teaser_supertitle py:pytype="str">Ewiges Projekt</teaser_supertitle>
+      <title py:pytype="str">Das Tagebuch meines Lebens</title>
+      <text py:pytype="str">Seit 1991 führt Frederik Busch ein visuelles Tagebuch mit Fotografien aus seinem Alltag. Mittlerweile umfasst es 20 Aktenordner mit Tausenden von Negativen.</text>
+      <description py:pytype="str">Seit 1991 führt Frederik Busch ein visuelles Tagebuch mit Fotografien aus seinem Alltag. Mittlerweile umfasst es 20 Aktenordner mit Tausenden von Negativen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2014-03/visuelles-tagebuch-abzuege-2/" type="jpg" title="Frederik Buschs visuelles Tagebuch" alt="Fotos aus dem visuellen Tagebuch" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Einige Fotos aus dem visuellen Tagebuch</bu>
+        <copyright py:pytype="str" link="http://www.frederikbusch.de">© Frederik Busch</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Frederik_Busch/index" publication-date="" expires="">
+        <display_name py:pytype="str">Frederik Busch</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-10/tagebuch-altenheim-eins" year="2013" issue="43" ressort="Gesellschaft" author="Elias Molle" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Altenheim-Tagebuch</supertitle>
+      <teaser_supertitle py:pytype="str">Altenheim-Tagebuch</teaser_supertitle>
+      <title py:pytype="str">Du darfst niemals alt werden</title>
+      <text py:pytype="str">Alt sein ist eine Krankheit, lerne ich an meinem ersten Praktikumstag. Tabletten sollen helfen, das Elend erträglich zu machen.</text>
+      <description py:pytype="str">Alt sein ist eine Krankheit, lerne ich an meinem ersten Praktikumstag. Tabletten sollen helfen, das Elend erträglich zu machen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-10/tagebuch-altenheim-flur/" type="jpg" title="Pflegerin und Patientin" alt="Pflegerin und Pflegeheimbewohnerin " align="left" publication-date="" expires="2014-01-17T15:40:56+00:00">
+        <bu py:pytype="str">Pflegerin und Pflegeheimbewohnerin in einem Hamburger Seniorenzentrum</bu>
+        <copyright py:pytype="str">© Angelika Warmuth/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Elias_Molle/index" publication-date="" expires="">
+        <display_name py:pytype="str">Elias Molle</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/karriere/beruf/2014-03/erzieher-arbeitsbedingungen-gehalt" year="2014" issue="11" ressort="Karriere" author="Ingrid Franz" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Kinderbetreuung</supertitle>
+      <teaser_supertitle py:pytype="str">Kinderbetreuung</teaser_supertitle>
+      <title py:pytype="str">Arme Erzieher</title>
+      <text py:pytype="str">Hohe Belastung, niedriges Gehalt: Die Arbeitsbedingungen für Erzieher müssen dringend verbessert werden. Sonst droht Nachwuchsmangel.</text>
+      <description py:pytype="str">Hohe Belastung, niedriges Gehalt: Die Arbeitsbedingungen für Erzieher müssen dringend verbessert werden. Sonst droht Nachwuchsmangel.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/karriere/beruf/2014-03/erzieher-kita/" type="jpg" title="Erzieher in einer Kita" alt="Erzieher in einer Hamburger Kita" align="left" publication-date="2014-03-12T13:43:37+00:00" expires="2014-06-12T12:43:00+00:00">
+        <bu py:pytype="str">Erzieher in einer Hamburger Kita</bu>
+        <copyright py:pytype="str">© Malte Christians/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Ingrid_Franz/index" publication-date="" expires="">
+        <display_name py:pytype="str">Ingrid Franz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/studium/hochschule/2014-03/promovieren-deutschland-usa-vergleich" year="2014" issue="11" ressort="Studium" author="Felix Baier" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Promotion in den USA</supertitle>
+      <teaser_supertitle py:pytype="str">Promotion in den USA</teaser_supertitle>
+      <title py:pytype="str">Hier investiert die Uni in mich</title>
+      <text py:pytype="str">Mehr Zeit für die Dissertation, weniger Abhängigkeit von einem einzelnen Professor: Das amerikanische Promotionssystem ist dem deutschen in vielen Punkten überlegen.</text>
+      <description py:pytype="str">Mehr Zeit für die Dissertation, weniger Abhängigkeit von einem einzelnen Professor: Das amerikanische Promotionssystem ist dem deutschen in vielen Punkten überlegen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/studium/hochschule/2014-03/doktoranden-labor/" type="jpg" title="Doktoranden im Labor" alt="Doktoranden in einem Labor der Technischen Universität Dresden" align="left" publication-date="2014-03-10T15:43:52+00:00" expires="2014-06-10T14:43:00+00:00">
+        <bu py:pytype="str">Doktoranden in einem Labor, hier an der Technischen Universität Dresden</bu>
+        <copyright py:pytype="str">© Arno Burgi/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Felix_Baier/index" publication-date="" expires="">
+        <display_name py:pytype="str">Felix Baier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-03/asylrecht-sozialrecht-fluechtling" year="2014" issue="11" ressort="Gesellschaft" author="Ruth Lieser" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Flüchtlinge</supertitle>
+      <teaser_supertitle py:pytype="str">Flüchtlinge</teaser_supertitle>
+      <title py:pytype="str">In den Lücken des Gesetzes</title>
+      <text py:pytype="str">Der 18-jährige Farid will in Deutschland einen Schulabschluss machen. Für Bafög ist er noch nicht lange genug im Land. Hartz IV bekommt er als Schüler aber auch nicht.</text>
+      <description py:pytype="str">Der 18-jährige Farid will in Deutschland einen Schulabschluss machen. Für Bafög ist er noch nicht lange genug im Land. Hartz IV bekommt er als Schüler aber auch nicht.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-03/fluechtling-afghanistan/" type="jpg" title="Afghanischer Flüchtling" alt="Afghanischer Flüchtling in einer Aufnahmeeinrichtung in München" align="left" publication-date="2014-03-07T18:18:00+00:00" expires="2014-06-06T17:18:00+00:00">
+        <bu py:pytype="str">Afghanischer Flüchtling in einer Aufnahmeeinrichtung in München</bu>
+        <copyright py:pytype="str">© Paul Knecht/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Ruth_Lieser/index" publication-date="" expires="">
+        <display_name py:pytype="str">Ruth Lieser</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/familie/2014-02/unbekannter-vater-tochter" year="2014" issue="10" ressort="Gesellschaft" author="Marisa Kurz" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Vaterschaft</supertitle>
+      <teaser_supertitle py:pytype="str">Vaterschaft</teaser_supertitle>
+      <title py:pytype="str">Mein Vater, der Unbekannte</title>
+      <text py:pytype="str">Ich kannte meinen Vater fast nur von Fotos. Dann habe ich ihn zufällig in der Tram gesehen, ohne ihn anzusprechen. Ich hoffe, ich begegne ihm noch einmal.</text>
+      <description py:pytype="str">Ich kannte meinen Vater fast nur von Fotos. Dann habe ich ihn zufällig in der Tram gesehen, ohne ihn anzusprechen. Ich hoffe, ich begegne ihm noch einmal.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/familie/2014-02/maedchen-einsam/" type="jpg" title="Einsames Mädchen" alt="Einsames Mädchen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Einsames Mädchen, ca. 1935</bu>
+        <copyright py:pytype="str">© Chris Ware/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Marisa_Kurz/index" publication-date="" expires="">
+        <display_name py:pytype="str">Marisa Kurz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-02/kapstadt-khayelitsha-armut" year="2014" issue="10" ressort="Gesellschaft" author="Johannes Höfener" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Südafrika</supertitle>
+      <teaser_supertitle py:pytype="str">Südafrika</teaser_supertitle>
+      <title py:pytype="str">Fünf Hotdogs für eine Arbeitsberechtigung</title>
+      <text py:pytype="str">155 Rand müsste Nick aus der Township Khayelitsha in Kapstadt bezahlen, um als Security Guard arbeiten zu können. Aber wovon soll er dann Essen kaufen?</text>
+      <description py:pytype="str">155 Rand müsste Nick aus der Township Khayelitsha in Kapstadt bezahlen, um als Security Guard arbeiten zu können. Aber wovon soll er dann Essen kaufen?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-02/khayelitsha/" type="jpg" title="Khayelitsha, eine der größten Township Kapstadts" alt="In Khayelitsha, einer der größten Townships von Kapstadt" align="left" publication-date="" expires="">
+        <bu py:pytype="str">In Khayelitsha, einer der größten Townships von Kapstadt</bu>
+        <copyright py:pytype="str">© Rodger Bosch/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Johannes_Hoefener/index" publication-date="" expires="">
+        <display_name py:pytype="str">Johannes Höfener</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/umwelt/2014-02/wolf-spreewald" year="2014" issue="9" ressort="Wissen" author="Ulrike Goldberger" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Spreewald</supertitle>
+      <teaser_supertitle py:pytype="str">Spreewald</teaser_supertitle>
+      <title py:pytype="str">Der Wolf als neuer Nachbar</title>
+      <text py:pytype="str">Als wir unser neues Haus im Spreewald beziehen, begegnet uns im Garten ein Wolf. Auch für die Dorfbewohner ist das eine kleine Sensation.</text>
+      <description py:pytype="str">Als wir unser neues Haus im Spreewald beziehen, begegnet uns im Garten ein Wolf. Auch für die Dorfbewohner ist das eine kleine Sensation.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/umwelt/2014-02/wolf-wildpark/" type="jpg" title="Wolf im Wildpark" alt="Ein Wolf im Wildpark" align="left" publication-date="2014-02-25T16:01:29+00:00" expires="2014-05-25T15:01:00+00:00">
+        <bu py:pytype="str">Ein Wolf im Wildpark</bu>
+        <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/G/Ulrike_Goldberger/index" publication-date="" expires="">
+        <display_name py:pytype="str">Ulrike Goldberger</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/essen-trinken/2014-02/landwirtschaft-tierhaltung-veganismus" year="2014" issue="8" ressort="Lebensart" author="Thomas Trueblood" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Veganismus</supertitle>
+      <teaser_supertitle py:pytype="str">Veganismus</teaser_supertitle>
+      <title py:pytype="str">Wir Landwirte, Herren über Leben und Tod</title>
+      <text py:pytype="str">Tierliebe verträgt sich nicht mit der Zucht von Nutztieren. Aber diesen Widerspruch müssen wir aushalten, wenn wir Fleisch und Milchprodukte konsumieren wollen.</text>
+      <description py:pytype="str">Tierliebe verträgt sich nicht mit der Zucht von Nutztieren. Aber diesen Widerspruch müssen wir aushalten, wenn wir Fleisch und Milchprodukte konsumieren wollen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/essen-trinken/2014-02/schafe-lamm/" type="jpg" title="Mutterschaf mit Lamm" alt="Ein Lamm mit seiner Mutter" align="left" publication-date="2014-02-19T14:42:53+00:00" expires="2014-05-19T13:42:00+00:00">
+        <bu py:pytype="str">Ein Lamm mit seiner Mutter</bu>
+        <copyright py:pytype="str">© David Ebener/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Thomas_Trueblood/index" publication-date="" expires="">
+        <display_name py:pytype="str">Thomas Trueblood</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-02/junggesellenabschied-blackface" year="2014" issue="8" ressort="Gesellschaft" author="Ricardo Neuner" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Rassismus</supertitle>
+      <teaser_supertitle py:pytype="str">Rassismus</teaser_supertitle>
+      <title py:pytype="str">Mann in Schwarz</title>
+      <text py:pytype="str">Beim Junggesellenabschied verkleidet sich der Bräutigam als Schwarzafrikaner mit Bastrock. Harmloses Spiel? Nein, ein Beispiel für den alltäglichen Rassismus in Europa.</text>
+      <description py:pytype="str">Beim Junggesellenabschied verkleidet sich der Bräutigam als Schwarzafrikaner mit Bastrock. Harmloses Spiel? Nein, ein Beispiel für den alltäglichen Rassismus in Europa.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-02/blackface-minstrel-2/" type="jpg" title="Blackface Minstrel in Großbritannien" alt="Rassistisches Straßentheater: ein weißer Schausteller spielt einen Schwarzafrikaner" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Rassistisches Straßentheater: ein weißer Schausteller spielt einen Schwarzafrikaner</bu>
+        <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Ricardo_Neuner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Ricardo Neuner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/studium/hochschule/2014-02/promotion-herausforderung-spass" year="2014" issue="8" ressort="Studium" author="Sasan Abdi-Herrle" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Promotion</supertitle>
+      <teaser_supertitle py:pytype="str">Promotion</teaser_supertitle>
+      <title py:pytype="str">Doktoranden wie ich gelten als Träumer</title>
+      <text py:pytype="str">Ein höheres Gehalt oder bessere Karrierechancen gelten als gute Gründe für eine Promotion. Wer dagegen tief ins Thema einsteigen will, wird schief angeschaut. </text>
+      <description py:pytype="str">Ein höheres Gehalt oder bessere Karrierechancen gelten als gute Gründe für eine Promotion. Wer dagegen tief ins Thema einsteigen will, wird schief angeschaut. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title py:pytype="str">Promotion als Herausforderung</breadcrumb_title>
+      <image base-id="http://xml.zeit.de/karriere/2014-02/promotion-karriere/" type="jpg" title="Promotion Karriere" align="left" publication-date="" expires="">
+        <bu py:pytype="str">GERMANY, BONN, Graduates with academic gown and birettas during graduation ceremony at the Rheinische Friedrich-Wilhelms-University Bonn, O,p,s, Female graduate of the philosophical faculty of the Rheinische Friedrich-Wilhelms-University Bonn.</bu>
+        <copyright py:pytype="str">© Ulrich Baumgarten/GettyImages</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Sasan_Abdi-Herrle/index" publication-date="" expires="">
+        <display_name py:pytype="str">Sasan Abdi-Herrle</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/studium/uni-leben/2014-02/auslandssemester-noten-vergleichbarkeit" year="2014" issue="7" ressort="Studium" author="Malte Thies" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Studium im Ausland</supertitle>
+      <teaser_supertitle py:pytype="str">Studium im Ausland</teaser_supertitle>
+      <title py:pytype="str">Mit zweierlei Maß gemessen</title>
+      <text py:pytype="str">Die Noten aus einem Auslandssemester lassen sich meist nicht mit deutschen vergleichen. Statt Noten sollte man besser nur Creditpoints für bestandene Kurse vergeben.</text>
+      <description py:pytype="str">Die Noten aus einem Auslandssemester lassen sich meist nicht mit deutschen vergleichen. Statt Noten sollte man besser nur Creditpoints für bestandene Kurse vergeben.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/studium/uni-leben/2014-02/peterhouse-cambridge/" type="jpg" title="Peterhouse Cambridge" alt="Peterhouse, das älteste bestehende College der Universität Cambridge" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Peterhouse, das älteste bestehende College der Universität Cambridge</bu>
+        <copyright py:pytype="str">© University of Cambridge</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Malte_Thies/index" publication-date="" expires="">
+        <display_name py:pytype="str">Malte Thies</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/geldanlage/2013-12/wertpapiere-depot-familie" year="2013" issue="50" ressort="Wirtschaft" author="Fabian Kiechle" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Wertpapiere</supertitle>
+      <teaser_supertitle py:pytype="str">Wertpapiere</teaser_supertitle>
+      <title py:pytype="str">Selbst ist der Investor</title>
+      <text py:pytype="str">Die Zinsen für Festgeld sind einfach zu niedrig, dachte ein Student. Seit einem Jahr verwaltet er ein Wertpapierdepot für seine Familie.</text>
+      <description py:pytype="str">Die Zinsen für Festgeld sind einfach zu niedrig, dachte ein Student. Seit einem Jahr verwaltet er ein Wertpapierdepot für seine Familie.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/geldanlage/2013-12/boerse-frankfurt/" type="jpg" title="Handelssaal der Frankfurter Börse" alt="Der Handelssaal der Frankfurter Börse" align="left" publication-date="2013-12-06T17:48:15+00:00" expires="2014-03-06T17:48:00+00:00">
+        <bu py:pytype="str">Der Handelssaal der Frankfurter Börse</bu>
+        <copyright py:pytype="str">© Frank Rumpenhorst/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Fabian_Kiechle/index" publication-date="" expires="">
+        <display_name py:pytype="str">Fabian Kiechle</display_name>
+      </author>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/administratives/2011-04/leserartikel-eingabe" year="2011" issue="15" ressort="Administratives" contenttype="link" publication-date="" expires="" ns0:href="http://community.zeit.de/leserartikel">
+      <supertitle py:pytype="str">Ihr Beitrag auf ZEIT ONLINE</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Schreiben Sie einen Leserartikel!</title>
+      <text py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</text>
+      <description py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/administratives/2012-04/leserbriefe/" type="jpg" title="leserbriefe" align="left" publication-date="" expires="">
+        <bu py:pytype="str">ILLUSTRATION - ARCHIV†- Eine junge Frau benutzt am 20.06.2011 am Strand von Santa Poca auf der spanischen Mittelmeerinsel Mallorca ihren tragbaren Computer. Die H‰lfte aller berufst‰tigen Deutschen
+</bu>
+        <copyright py:pytype="str">© Patrick Seeger/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-02/leserkritik-all-is-lost" year="2014" issue="7" ressort="Kultur" author="Jens Elmenhorst" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Film "All Is Lost"</supertitle>
+      <teaser_supertitle py:pytype="str">Film "All Is Lost"</teaser_supertitle>
+      <title py:pytype="str">Alles ist falsch</title>
+      <text py:pytype="str">Als ehemaliger Kapitän habe ich mich über den Film „All Is Lost“ sehr geärgert. Was Segeln und Schifffahrt angeht, ist vieles vollkommen falsch dargestellt.</text>
+      <description py:pytype="str">Als ehemaliger Kapitän habe ich mich über den Film „All Is Lost“ sehr geärgert. Was Segeln und Schifffahrt angeht, ist vieles vollkommen falsch dargestellt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-02/redford-film-all-is-lost/" type="jpg" title="Robert Redford im Film &quot;All is lost&quot;" alt="Robert Redford als namenloser Segler im Film &quot;All is lost&quot;" align="left" publication-date="2014-02-10T15:51:48+00:00" expires="2014-05-10T14:51:00+00:00">
+        <bu py:pytype="str">Robert Redford als namenloser Segler im Film "All Is Lost"</bu>
+        <copyright py:pytype="str">© Richard Foreman Jr./Smpsp/Universum</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/E/Jens_Elmenhorst/index" publication-date="" expires="">
+        <display_name py:pytype="str">Jens Elmenhorst</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/partnerschaft/2013-11/liebe-smartphone" year="2013" issue="47" ressort="Lebensart" author="Andrea Mateja" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Beziehungsversuche</supertitle>
+      <teaser_supertitle py:pytype="str">Beziehungsversuche</teaser_supertitle>
+      <title py:pytype="str">Die Liebe in Zeiten des Smartphones</title>
+      <text py:pytype="str">Liebe ist abhängig vom richtigen Zeitpunkt. Und von den richtigen Worten. Dauerkommunikation per Smartphone macht die Sache nicht unbedingt leichter.</text>
+      <description py:pytype="str">Liebe ist abhängig vom richtigen Zeitpunkt. Und von den richtigen Worten. Dauerkommunikation per Smartphone macht die Sache nicht unbedingt leichter.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2013-11/liebesbrief_digital/" type="jpg" title="Liebesbrief" alt="Eine junge Frau schreibt einen Liebesbrief an ihren Verlobten." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Liebe in vordigitaler Zeit: Eine junge Frau schreibt einen Liebesbrief an ihren Verlobten. Paris, 1956.</bu>
+        <copyright py:pytype="str">© John Sadovy/Hulton Archive/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Andrea_Mateja/index" publication-date="" expires="">
+        <display_name py:pytype="str">Andrea Mateja</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/gesundheit/2013-11/rettungseinsatz-fehler" year="2013" issue="48" ressort="Wissen" author="Sten Köhler" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Notfallmedizin</supertitle>
+      <teaser_supertitle py:pytype="str">Notfallmedizin</teaser_supertitle>
+      <title py:pytype="str">Wenn Erste Hilfe zum Risiko wird</title>
+      <text py:pytype="str">Bei Rettungseinsätzen muss jeder Handgriff sitzen, die Abstimmung perfekt funktionieren. Trotzdem kommt es immer wieder zu Fehlern.</text>
+      <description py:pytype="str">Bei Rettungseinsätzen muss jeder Handgriff sitzen, die Abstimmung perfekt funktionieren. Trotzdem kommt es immer wieder zu Fehlern.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/gesundheit/2013-11/rettungswagen-einsatz/" type="jpg" title="Rettungswagen im Einsatz" alt="Rettungswagen der Feuerwehr in Berlin." align="left" publication-date="2013-11-22T14:57:05+00:00" expires="2014-02-22T14:57:00+00:00">
+        <bu py:pytype="str">Rettungswagen der Berliner Feuerwehr im Einsatz.</bu>
+        <copyright py:pytype="str">© Arno Burgi/Picture Alliance/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Sten_Koehler/index" publication-date="" expires="">
+        <display_name py:pytype="str">Sten Köhler</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-11/prostitution-debatte-freier" year="2013" issue="48" ressort="Gesellschaft" author="Eris Schwarz" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Prostitutionsgesetz</supertitle>
+      <teaser_supertitle py:pytype="str">Prostitutionsgesetz</teaser_supertitle>
+      <title py:pytype="str">Wo bleibt die Kundschaft?</title>
+      <text py:pytype="str">Erstmals sitzen alle am runden Tisch: Sexarbeiter, Politiker und Bordellbetreiber. Nur die Kunden fragt niemand. Diskutieren Sie ab 13 Uhr mit einem Freier.</text>
+      <description py:pytype="str">Erstmals sitzen alle am runden Tisch: Sexarbeiter, Politiker und Bordellbetreiber. Nur die Kunden fragt niemand. Diskutieren Sie ab 13 Uhr mit einem Freier.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-11/freier/" type="jpg" title="Ein Freier betritt ein Bordell" alt="Ein Mann betritt ein Bordell im Bahnhofsviertel von Frankfurt am Main." align="left" publication-date="" expires="2014-02-28T11:56:43+00:00">
+        <bu py:pytype="str">Ein Mann betritt ein Bordell im Bahnhofsviertel von Frankfurt am Main.</bu>
+        <copyright py:pytype="str">© Salome Roessler/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Eris_Schwarz/index" publication-date="" expires="">
+        <display_name py:pytype="str">Eris Schwarz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2013-11/prostitution-debatte-erfahrung" year="2013" issue="46" ressort="Gesellschaft" author="Lady Hekate" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Prostitutionsgesetz</supertitle>
+      <teaser_supertitle py:pytype="str">Prostitutionsgesetz</teaser_supertitle>
+      <title py:pytype="str">Lieber Sexarbeit als Hartz IV</title>
+      <text py:pytype="str">Prostitution abschaffen, fordert Alice Schwarzer. Damit stößt sie auf scharfe Kritik, auch von Prostituierten. Eine Sexarbeiterin schildert ihre Sicht.</text>
+      <description py:pytype="str">Prostitution abschaffen, fordert Alice Schwarzer. Damit stößt sie auf scharfe Kritik, auch von Prostituierten. Eine Sexarbeiterin schildert ihre Sicht.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2013-11/prostitution-cora-pearl-neu/" type="jpg" title="Prostitution Cora Pearl" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Selbstbewusst und wohlhabend: Die Kurtisane Cora Pearl (ca. 1835-1886) </bu>
+        <copyright py:pytype="str">© Hulton Archive/GettyImages</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Lady_Hekate/index" publication-date="" expires="">
+        <display_name py:pytype="str">Lady Hekate</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2013-11/slacklining-wien" year="2013" issue="47" ressort="Sport" author="Sebastian Wahlhütter" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Slacklining</supertitle>
+      <teaser_supertitle py:pytype="str"> Slacklining</teaser_supertitle>
+      <title py:pytype="str">Auf 25 Millimetern in 35 Meter Höhe</title>
+      <text py:pytype="str">Spektakuläre Sicht auf Wien: Die Vienna Slackliners turnen auf einem schmalen Band hoch über der Stadt. Eine fotografische Hommage an einen spektakulären Sport.</text>
+      <description py:pytype="str">Spektakuläre Sicht auf Wien: Die Vienna Slackliners turnen auf einem schmalen Band hoch über der Stadt. Eine fotografische Hommage an einen spektakulären Sport.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title py:pytype="str">Slacklining: Spektakuläre Bilder aus Wien</breadcrumb_title>
+      <image base-id="http://xml.zeit.de/sport/2013-11/slackliner-wien/" type="jpg" title="Slackliner-Wien" alt="Ein Mitglied der Vienna Slackliners balanciert an der Fassade des Haus des Meeres in Wien entlang." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ein Mitglied der Vienna Slackliners balanciert an der Fassade des Haus des Meeres in Wien entlang.</bu>
+        <copyright py:pytype="str">©Sebastian Wahlhütter</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/W/Sebastian_Wahlhuetter/index" publication-date="" expires="">
+        <display_name py:pytype="str">Sebastian Wahlhütter</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-02/russland-bahnfahren" year="2014" issue="7" ressort="Reisen" author="Leonie Pessara" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Bahnfahren in Russland</supertitle>
+      <teaser_supertitle py:pytype="str">Bahnfahren in Russland</teaser_supertitle>
+      <title py:pytype="str">In der Zeitblase durch Sibirien</title>
+      <text py:pytype="str">Schlager-Gedudel, heißer Tee und der Geruch von Füßen: Wer Russland kennenlernen will, der sollte mit dem Zug durch das Land reisen. Zeit verliert dabei an Bedeutung.</text>
+      <description py:pytype="str">Schlager-Gedudel, heißer Tee und der Geruch von Füßen: Wer Russland kennenlernen will, der sollte mit dem Zug durch das Land reisen. Zeit verliert dabei an Bedeutung.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-02/russland-bahnhof/" type="jpg" title="Bahnhof in Russland" alt="Ein Bahnhof an der Strecke zwischen Wladiwostok und dem Baikalsee" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ein Bahnhof an der Strecke zwischen Wladiwostok und dem Baikalsee</bu>
+        <copyright py:pytype="str">© Leonie Pessara</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Leonie_Pessara/index" publication-date="" expires="">
+        <display_name py:pytype="str">Leonie Pessara</display_name>
+      </author>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/administratives/2011-04/link-leserartikel-faq" year="2011" issue="16" ressort="Administratives" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/administratives/2011-04/faq-leserartikel">
+      <supertitle py:pytype="str">Leserartikel auf ZEIT ONLINE</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Hilfreiche Tipps und Hinweise</title>
+      <text py:pytype="str">Hier erfahren Sie, was Sie beachten sollten, wenn Sie einen Leserartikel auf ZEIT ONLINE veröffentlichen möchten. </text>
+      <description py:pytype="str">Hier erfahren Sie, was Sie beachten sollten, wenn Sie einen Leserartikel auf ZEIT ONLINE veröffentlichen möchten. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2013-11/ungarn-aufstand-jahrestag" year="2013" issue="44" ressort="Politik" author="Andreas Pigl" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Jahrestag Ungarn-Aufstand</supertitle>
+      <teaser_supertitle py:pytype="str">Jahrestag Ungarn-Aufstand</teaser_supertitle>
+      <title py:pytype="str">Nationalisten auf dem Heldenplatz</title>
+      <text py:pytype="str">In Budapest wird man täglich erinnert, wer sich als "echter Ungar" fühlen darf – und wer nicht. Ministerpräsident Orbán schürt Fremdenhass und lässt sich vom Volk feiern.</text>
+      <description py:pytype="str">In Budapest wird man täglich erinnert, wer sich als "echter Ungar" fühlen darf – und wer nicht. Ministerpräsident Orbán schürt Fremdenhass und lässt sich vom Volk feiern.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/ausland/2013-11/ungarn-jahrestag-aufstand/" type="jpg" title="Jahrestag Ungarn-Aufstand 2013" alt="Ungarns Premierminister Orban während einer Rede" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ungarns Premierminister Orban während seiner Rede auf dem Heldenplatz am 23. Oktober 2013.</bu>
+        <copyright py:pytype="str">© Attila Kisbenedek/AFP/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Andreas_Pigl/index" publication-date="" expires="">
+        <display_name py:pytype="str">Andreas Pigl</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/umwelt/2014-02/solarenergie-anlage-eigenheim" year="2014" issue="6" ressort="Wissen" author="Tobias Henzler" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Solarenergie</supertitle>
+      <teaser_supertitle py:pytype="str">Solarenergie</teaser_supertitle>
+      <title py:pytype="str">Hemden bügeln nach dem Sonnenstand</title>
+      <text py:pytype="str">Seit 2012 erzeugen wir mit unserer Fotovoltaik-Anlage eigenen Strom. Das ist ökologisch und ökonomisch sinnvoll. Und macht Spaß.</text>
+      <description py:pytype="str">Seit 2012 erzeugen wir mit unserer Fotovoltaik-Anlage eigenen Strom. Das ist ökologisch und ökonomisch sinnvoll. Und macht Spaß.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/umwelt/2014-02/photovoltaik-anlage/" type="jpg" title="Photovoltaik Anlage in Portugal" alt="Photovoltaik Anlage in Portugal" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Photovoltaik Anlage in Portugal</bu>
+        <copyright py:pytype="str">© Jose Manuel Ribeiro/Reuters</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Tobias_Henzler/index" publication-date="" expires="">
+        <display_name py:pytype="str">Tobias Henzler</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2013-10/leseraufruf-veganismus-soziales" year="2013" issue="44" ressort="Community" author="Daniel Herbstreit" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Themenwoche Vegan</supertitle>
+      <teaser_supertitle py:pytype="str">Themenwoche Vegan</teaser_supertitle>
+      <title py:pytype="str">Unter Fleischessern</title>
+      <text py:pytype="str">Macht Veganismus einsam? Funktionieren Partnerschaften zwischen Pflanzen- und Fleischessern? Unsere Leser berichten über die sozialen Aspekte eines veganen Lebens.</text>
+      <description py:pytype="str">Macht Veganismus einsam? Funktionieren Partnerschaften zwischen Pflanzen- und Fleischessern? Unsere Leser berichten über die sozialen Aspekte eines veganen Lebens.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2013-10/veganismus-soziales/" type="jpg" title="Handgranaten in Gemüsekisten" alt="Handgranaten in Gemüsekisten" align="left" publication-date="" expires="">
+        <bu py:pytype="str">In Gemüsekisten geschmuggelte Handgranaten in Kolumbien, von der Polizei sichergestellt.</bu>
+        <copyright py:pytype="str">© Raul Arboleda/AFP/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Daniel_Herbstreit/index" publication-date="" expires="">
+        <display_name py:pytype="str">Daniel Herbstreit</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-02/russland-sotschi-fieber" year="2014" issue="6" ressort="Gesellschaft" author="Viktoria Hügel" contenttype="article" publication-date="" expires="" genre="leserartikel">
+      <supertitle py:pytype="str">Winterspiele in Sotschi</supertitle>
+      <teaser_supertitle py:pytype="str">Winterspiele in Sotschi</teaser_supertitle>
+      <title py:pytype="str">Hasenmützen in ganz Russland</title>
+      <text py:pytype="str">Fähnchen, Bühnenshows und Werbesprüche auf jeder Saftpackung: Überall in Russland wird Olympia-Fieber verbreitet. Aber in Petersburg funktioniert das nicht so richtig. </text>
+      <description py:pytype="str">Fähnchen, Bühnenshows und Werbesprüche auf jeder Saftpackung: Überall in Russland wird Olympia-Fieber verbreitet. Aber in Petersburg funktioniert das nicht so richtig. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2014-02/sotschi-maskottchen/" type="jpg" title="Maskottchen der Olympischen Winterspiele in Sotschi" alt="Die Maskottchen der Olympischen Winterspiele in Sotschi" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Maskottchen der Olympischen Winterspiele in Sotschi</bu>
+        <copyright py:pytype="str">© Kai Pfaffenbach/Reuters</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Viktoria_Huegel/index" publication-date="" expires="">
+        <display_name py:pytype="str">Viktoria Hügel</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">Aktuelle Leserartikel</title>
+    <text py:pytype="str">Wir präsentieren regelmäßig ausgewählte Leserartikel, die unsere Seite um Meinungen, Erfahrungsberichte und Sichtweisen bereichern. Hier finden Sie die neusten Beiträge.</text>
+  </teaser>
+</centerpage>

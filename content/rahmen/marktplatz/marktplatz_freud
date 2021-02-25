@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centerpage>
+  <head>
+    <attribute name="volume" ns="http://namespaces.zeit.de/QPS/attributes">40</attribute>
+    <attribute name="year" ns="http://namespaces.zeit.de/QPS/attributes">2005</attribute>
+    <attribute name="author" ns="http://namespaces.zeit.de/QPS/attributes">redaktion</attribute>
+    <attribute name="name" ns="http://namespaces.zeit.de/CMS/document">Dossier</attribute>
+    <attribute name="ressort" ns="http://namespaces.zeit.de/QPS/attributes">Deutschland</attribute>
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">14</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">redaktion</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">© ZEIT ONLINE</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="imagecount">0</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">Freud lesen</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume">40</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year">2005</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title">Neue Centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">bunte</attribute>
+  </head>
+  <body>
+    <column layout="left">
+      <block priority="20" href="http://www.zeit.de/" />
+    </column>
+    <column layout="center">
+      <block priority="20">
+        <title>Sprechstunde gratis</title>
+        <image align="right" src="http://xml.zeit.de/online/2006/14/freud_popup/imgs/cd_klein.jpg" width="210" />
+        <text>
+          <strong>
+            Sigmund Freud in der ZEIT.
+            <br />
+            <br />
+            Am 20.4. mit Gratis-Hör-CD!
+          </strong>
+          <br />
+          <br />
+          Freud lesen, hören und verstehen. Dazu lädt Sie DIE ZEIT ab 20.04. ein!
+Feiern Sie mit uns den 150. Geburtstag des berühmten Psychoanalytikers. 
+Die große Freud-Serie in der ZEIT zeigt Ihnen, wie seine Erkenntnisse noch heute die Kulturen dieser Welt beeinflussen.
+Die kostenlose Hör-CD nimmt Sie mit auf eine spannende Entdeckungsreise durch
+sein Leben und Werk.
+          <br />
+          <br />
+          <a href="javascript:void(openme('http://zelos.zeit.de/online/2006/14/freud_popup/freud_popup.html',600,500,'middle','popup_01'));" class="textlink">
+            <strong>Für mehr Infos zum Inhalt der Gratis-Hör-CD hier klicken »</strong>
+          </a>
+        </text>
+      </block>
+    </column>
+    <column layout="right">
+      <block priority="20" href="http://www.zeit.de/" />
+    </column>
+    <title>Neue Centerpage</title>
+  </body>
+  <teaser>
+    <title>teasertitle</title>
+    <text>teasertext</text>
+  </teaser>
+  <indexteaser>
+    <title>indexteasertitle</title>
+    <text>indexteasertext</text>
+  </indexteaser>
+</centerpage>
+

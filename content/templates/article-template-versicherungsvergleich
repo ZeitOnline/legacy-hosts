@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2009-09-05 11:53:14.379412+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-09-05T11:54:23.696822+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-09-05T11:54:23.139177+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.grabbe</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:5d61a897-2d8c-48fc-b94f-723e2886406a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">37</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="blindblock" module="blindblock" cp:__name__="d47ce000-77ba-4e95-9df9-1982201acc0d">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="homepage_news" module="homepage_news" cp:__name__="b2722341-384f-4e5b-867b-87369cdfd45d">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="mostread" module="mostread" cp:__name__="f6025064-0d16-48d8-9f64-6cd683f1613f">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="mostcommented" module="mostcommented" cp:__name__="39f8fac9-6c07-4f00-8284-2ff630931066">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="stocks" module="stocks" cp:__name__="a43e11cd-219b-46f6-b1f6-4c58d5508185">
+          <cp_extra id="stocks"/>
+        </container>
+        <container cp:type="weather" module="weather" cp:__name__="2d184dfa-22d8-4a2c-b005-ae229bfe31ca">
+          <cp_extra id="weather"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel-Template Versicherungvergleich</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Template Versicherungvergleich</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel Template Versicherungvergleich</text>
+  </indexteaser>
+</centerpage>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2009-12-01 13:46:53.334281+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-12-01T13:46:53.653551+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-10-01T10:25:39.232581+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2009-12-01T13:47:53.175041+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-12-01T13:46:43.264084+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schlereth</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e726acb4-0b0c-49c2-842f-43c96e7295f8}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="blindblock" module="blindblock" cp:__name__="3e5cdfae-ee42-4a2b-828c-e2dcd3999874">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="da791ca2-5b2b-4d8e-baa8-5060e276b2ac">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Philharmoniker/uebersicht" year="2009" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/Philharmoniker/index" date-last-modified="2009-11-24T15:52:36+00:00" date-first-released="2009-10-01T10:08:24.882330+00:00" date-last-published="2009-11-24T15:53:36.126447+00:00" last-semantic-change="2009-11-24T15:52:30.148076+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text py:pytype="str">Hier klicken.</text>
+            <description py:pytype="str">Hier klicken.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="7598187f-3434-4138-a706-5810c16c4719">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/Philharmoniker/links/linkphilharmonie" year="2009" publication-date="" expires="" ns0:href="http://dch.berliner-philharmoniker.de/?a=diezeit&amp;c=true">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link DCH</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/Philharmoniker/Bilder/dchbanner.jpg/dchbanner.JPG" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="987c0c50-b8bd-4efa-a1f1-247001e1a09e">
+          <block href="http://xml.zeit.de/angebote/Philharmoniker/konzerte" year="2009" publication-date="" expires="" date-last-modified="2009-12-01T13:41:24+00:00" date-first-released="2009-09-05T15:26:00.942051+00:00" date-last-published="2009-12-01T13:42:24.016558+00:00" last-semantic-change="2009-12-01T13:41:13.942852+00:00">
+            <supertitle py:pytype="str">Die Digital Concert Hall im Überblick</supertitle>
+            <title py:pytype="str">Die Konzerte</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Berliner Philharmoniker: Dies ist ein Angebot der Berlin Phil Media GmbH. Für Inhalt ist die Berlin Phil Media GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/Philharmoniker/Bilder/teaserkonzerte/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="1ad24479-2fe8-468d-93ae-7df0e41fe581">
+          <block href="http://xml.zeit.de/angebote/Philharmoniker/Technik-2" year="2009" publication-date="" expires="" date-last-modified="2009-12-01T11:47:19+00:00" date-first-released="2009-09-05T15:27:37.131084+00:00" date-last-published="2009-12-01T11:48:19.203463+00:00" last-semantic-change="2009-12-01T11:47:10.922675+00:00">
+            <supertitle py:pytype="str">Die Digital Concert Hall im Überblick</supertitle>
+            <title py:pytype="str">Die Technik</title>
+            <text py:pytype="str"> </text>
+            <description py:pytype="str"> </description>
+            <byline py:pytype="str">Berliner Philharmoniker: Dies ist ein Angebot der Berlin Phil Media GmbH. Für den Inhalt ist die Berlin Phil Media GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/Philharmoniker/Bilder/technik2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="0d8f7c3a-9568-4146-a843-8d36f9f4a035">
+          <block href="http://xml.zeit.de/angebote/Philharmoniker/TicketsundPreise-2" year="2009" publication-date="" expires="" date-last-modified="2009-12-01T13:40:59+00:00" date-first-released="2009-09-05T15:28:02.062273+00:00" date-last-published="2009-12-01T13:41:59.496938+00:00" last-semantic-change="2009-12-01T13:40:49.679996+00:00">
+            <supertitle py:pytype="str">Die Digital Concert Hall im Überblick</supertitle>
+            <title py:pytype="str">Tickets und Preise</title>
+            <text py:pytype="str"> </text>
+            <description py:pytype="str"> </description>
+            <byline py:pytype="str">Berliner Philharmoniker: Dies ist ein Angebot der Berlin Phil Media GmbH. Für den Inhalt ist die Berlin Phil Media GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/Philharmoniker/Bilder/teasertickets/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="5ed492a6-57a9-43eb-9c98-44fffdcdaf44">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/Philharmoniker/links/exklusiv" year="2009" issue="45" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/Philharmoniker/Exklusiv">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Exklusiv</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/Philharmoniker/Bilder/dchexklusiv/dchexklusiv-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="e7a78415-6676-4187-a202-fab6ed82edab">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/Philharmoniker/links/linkphilharmonie" year="2009" publication-date="" expires="" ns0:href="http://dch.berliner-philharmoniker.de/?a=diezeit&amp;c=true">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link DCH</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/Philharmoniker/Bilder/dchbutton/dchbutton-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="18e4d88e-5d1b-42b6-832c-41bb0114b415">
+          <video videoID="vid52416111001" player="vid" format="small"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" cp:__name__="80a06138-5cbf-494c-b8c5-f26cbaeaeb47">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Philharmoniker/Service" year="2009" publication-date="" expires="" ns0:href="http://www.berliner-philharmoniker.de/fileadmin/pressematerial/DCH/DCH-Programm09.10_GER.pdf" date-last-modified="2009-12-01T13:43:32+00:00" date-first-released="2009-09-05T15:24:32.198355+00:00" date-last-published="2009-10-29T15:27:16.822616+00:00" last-semantic-change="2009-10-29T15:26:10.240419+00:00">
+            <supertitle py:pytype="str">Service</supertitle>
+            <title py:pytype="str">Das aktuelle Programm</title>
+            <text py:pytype="str">Das Programm der Saison 2009/2010 können Sie hier herunterladen.</text>
+            <description py:pytype="str">Das Programm der Saison 2009/2010 können Sie hier herunterladen.</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Philharmoniker/Newsletter" year="2009" publication-date="" expires="" ns0:href="http://dch.berliner-philharmoniker.de/?a=diezeit&amp;c=true#/de/newsletter/" date-last-modified="2009-12-01T13:43:36+00:00" date-first-released="2009-09-05T15:24:12.618849+00:00" date-last-published="2009-12-01T13:44:36.264635+00:00" last-semantic-change="2009-12-01T13:43:28.922581+00:00">
+            <supertitle py:pytype="str">Service</supertitle>
+            <title py:pytype="str">Newsletter</title>
+            <text py:pytype="str">Abonnieren Sie den Newsletter der Digital Concert Hall.</text>
+            <description py:pytype="str">Abonnieren Sie den Newsletter der Digital Concert Hall.</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel-Rahmen Philharmonie</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Philharmonie</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Philharmonie</text>
+  </indexteaser>
+</centerpage>

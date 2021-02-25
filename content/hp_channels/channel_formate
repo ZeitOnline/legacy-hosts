@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage>
+  <head>
+    <!-- ggF. mehrere -->
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2008-07-01 10:23:51.247822+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2007</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2008-07-01T10:25:20.777097+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="keywords">DIE ZEIT; ZEIT ONLINE;Nachrichten;Kommentare;Analysen;Themen; Politik;Wirtschaft;Kultur;Wissensschaft</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.Buhr</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">News</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="revision">117</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="supertitle">News Channel</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="title">Nachrichten auf ZEIT ONLINE</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">20</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+  </head>
+  <body>
+    <container id="channel_formate" layout="tab">
+      <block priority="" href="http://xml.zeit.de/hilfe/mobile_hilfe" id="" sticky="" publication-date="" expires="" pinned="false" hp_hide="false" hidden_relateds="false">
+        <image expires="2099-05-21" src="http://xml.zeit.de/bilder/2007/standards-neu/allgemein/mobile/mobile-120x90.jpg" align="right"><copyright>©</copyright>
+          BILD
+        </image>
+        <supertitle xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Hilfe</supertitle>
+        <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Über die mobile ZEIT</title>
+        <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Hier finden Sie Erklärungen und Hilfe zu unserem neuen Service</text>
+        <byline xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str"/>
+        <short>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str"/>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str"/>
+        </short>
+        <homepage>
+          <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </homepage>
+        <references/>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/newsletter/index" publication-date="" expires="" year="2008" issue="25" pinned="false" hp_hide="false" hidden_relateds="false">
+        <supertitle py:pytype="str">Newsletter</supertitle>
+        <title xsi:nil="true"/>
+        <text py:pytype="str">Das Wichtigste im kostenlosen Abo</text>
+        <description py:pytype="str">Das Wichtigste im kostenlosen Abo</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title xsi:nil="true"/>
+          <text py:pytype="str">Das Wichtigste im kostenlosen Abo</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references/>
+        <image base-id="http://xml.zeit.de/bilder/2008/standards/allgemein/newsletter/" type="gif" publication-date="" expires="">
+          <bu xsi:nil="true"/>
+          <copyright py:pytype="str">©</copyright>
+        </image>
+      </block>
+      <block priority="" href="http://xml.zeit.de/hilfe/rss" id="" sticky="" publication-date="" expires="" year="2007" issue="20" pinned="false" hp_hide="false" hidden_relateds="false">
+        <supertitle xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Formate</supertitle>
+        <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Für alle Fälle</title>
+        <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">ZEIT ONLINE gibt es nicht nur als Browserversion ihres Internetrechners. Die Inhalte lassen sich auf verschiedenen Wegen genießen, sei es als Newsletter oder Mobilversion</text>
+        <byline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <short>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">ZEIT ONLINE</title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">RSS, Newsletter, Mobile - Inhalte für alle Fälle</text>
+        </short>
+        <homepage>
+          <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </homepage>
+        <references/>
+        <description xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">ZEIT ONLINE gibt es nicht nur als Browserversion ihres Internetrechners. Die Inhalte lassen sich auf verschiedenen Wegen genießen, sei es als Newsletter oder Mobilversion</description>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+</centerpage>

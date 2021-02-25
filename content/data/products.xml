@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<products>
+  <!-- Der Titel wird durch den Text im Knoten gesetzt. Soll Friedbert jedoch einen anderen benutzen, kann dieser das "label"-Attributs gesetzt werden -->
+  <product id="ZEDE" counter="online">ZEIT ONLINE</product>
+  <product id="ZEI" show="issue" volume="true" location="http://xml.zeit.de/{year}/{name}/ausgabe" centerpage="http://xml.zeit.de/{year}/{name}/index" cp_template="http://xml.zeit.de/data/ausgabe-ZEI.py" autochannel="false" counter="print">DIE ZEIT</product>
+  <product id="leserartikel" href="http://www.zeit.de/leserartikel/index" counter="online">Leserartikel</product>
+  <product id="ZMLB" relates_to="ZEI" href="http://www.zeit.de/zeit-magazin/index" autochannel="false" show="issue" counter="print">ZEITmagazin</product>
+  <product id="TEST">Test/Development</product>
+  <product id="ZTCS" href="http://www.zeit.de/campus/index" volume="true" centerpage="http://xml.zeit.de/campus/index" show="issue" counter="print">ZEIT Campus</product>
+  <product id="CSRG" href="http://www.zeit.de/campus/index" show="issue" counter="print">ZEIT CAMPUS Ratgeber</product>
+  <product id="ZEG" show="issue" counter="print">ZEIT Germany</product>
+  <product id="ZTWI" href="http://www.zeit.de/wissen/zeit-wissen/index" volume="true" location="http://xml.zeit.de/zeit-wissen/{year}/{name}/ausgabe" centerpage="http://xml.zeit.de/wissen/zeit-wissen/index" show="issue" counter="print">ZEIT Wissen</product>
+  <product id="ZTGS" href="http://www.zeit.de/wissen/zeit-geschichte/index" volume="true" location="http://xml.zeit.de/zeit-geschichte/{year}/{name}/ausgabe" centerpage="http://xml.zeit.de/wissen/zeit-geschichte/index" show="issue" counter="print">ZEIT Geschichte</product>
+  <product id="ZECH" relates_to="ZEI" label="DIE ZEIT" show="issue" autochannel="false" counter="print">ZEIT Schweiz</product>
+  <product id="ZEOE" relates_to="ZEI" label="DIE ZEIT" show="issue" autochannel="false" counter="print">ZEIT Österreich</product>
+  <product id="ZESA" relates_to="ZEI" label="DIE ZEIT" show="issue" autochannel="false" counter="print">ZEIT im Osten</product>
+  <product id="ZEIH" relates_to="ZEI" label="DIE ZEIT" show="issue" autochannel="false" counter="print">ZEIT Hamburg</product>
+  <product id="ZBGE" relates_to="ZEI" label="ZEIT Geld" autochannel="false" counter="print">Zeit Geld</product>
+  <product id="ZBGO" relates_to="ZEI" label="ZEIT Golf" autochannel="false" counter="print">Zeit Golf</product>
+  <product id="ZBL" relates_to="ZEI" label="ZEIT Literatur" autochannel="false" counter="print">Zeit Literatur</product>
+  <product id="ZBKS" relates_to="ZEI" label="ZEIT Kultursommer" autochannel="false" counter="print">Zeit Kultursommer</product>
+  <product id="ZBR" relates_to="ZEI" label="ZEIT Reise" autochannel="false" counter="print">Zeit Reise</product>
+  <product id="ZBC" relates_to="ZEI" label="ZEIT Chancen" autochannel="false" counter="print">Zeit Chancen</product>
+  <product id="ZBD" relates_to="ZEI" label="ZEIT Doctor" autochannel="false" counter="print">Zeit Doctor</product>
+  <product id="ZMHH" relates_to="ZEI" label="ZEITmagazin Hamburg" autochannel="false" counter="print">ZEITmagazin Hamburg</product>
+  <product id="ZMMU" relates_to="ZEI" label="ZEITmagazin München" autochannel="false" counter="print">ZEITmagazin München</product>
+  <product id="ZECW" relates_to="ZEI" href="http://www.zeit.de/christ-und-welt" target="_blank" label="Erschienen in Christ &amp; Welt" show="link" autochannel="false" counter="print">Christ &amp; Welt</product>
+  <product id="ZSF" counter="print" autochannel="false">Zeit Studienführer</product>
+  <product id="KINZ" counter="print">Kinderzeit Magazin</product>
+  <product id="ADV">Advertorial</product>
+  <product id="News" vgwortcode="dpa">dpa</product>
+  <product id="dpa-hamburg" vgwortcode="dpa">DPA Hamburg</product>
+  <product id="afp">AFP</product>
+  <product id="ADMIN">Administratives</product>
+  <product id="MER" href="http://zeitleser.merkur-zeitschrift.de/" target="_blank" label="Erschienen im Merkur" show="link" counter="online">Merkur</product>
+  <product id="MMV" href="http://www.michael-mueller-verlag.de" target="_blank" label="Erschienen im Michael Müller Verlag" show="link" counter="online">Michael Müller Verlag</product>
+  <product id="TGS" href="http://www.tagesspiegel.de" target="_blank" label="Erschienen im Tagesspiegel" show="link" counter="online">Tagesspiegel</product>
+  <product id="SpeDE" href="http://www.spektrum.de" target="_blank" label="Erschienen bei spektrum.de" show="link" counter="online">spektrum.de</product>
+  <product id="SdW" href="http://www.spektrum.de" target="_blank" label="Erschienen in Spektrum der Wissenschaft" show="link" counter="online">Spektrum der Wissenschaft</product>
+  <product id="SpeD" href="http://www.spektrumdirekt.de" target="_blank" counter="online">spektrumdirekt.de</product>
+  <product id="Vice" href="http://www.vice.com/de" target="_blank" label="Erschienen bei Vice" show="link" counter="online">Vice</product>
+  <product id="GG" href="http://www.gehirn-und-geist.de" target="_blank" label="Erschienen in Gehirn &amp; Geist" show="link">Gehirn &amp; Geist</product>
+  <product id="HaBl" href="http://www.handelsblatt.com" target="_blank" label="Erschienen im Handelsblatt" show="link" counter="online">Handelsblatt</product>
+  <!-- deprecated, seit 2016 ist es ZECW, hier nur noch f&#252;r bw-compat alter Artikel -->
+  <product id="CW" href="http://www.zeit.de/christ-und-welt" target="_blank" label="Erschienen in Christ &amp; Welt" show="link" autochannel="false" counter="print">Christ &amp; Welt</product>
+  <product id="UGC">User Generated Content</product>
+  <product id="NAGEO" href="http://www.nationalgeographic.de" label="Erschienen in National Geographic" show="link" counter="online">National Geographic</product>
+  <product id="GOLEM" href="http://www.golem.de" target="_blank" label="Erschienen bei golem.de" show="link" counter="online">golem.de</product>
+  <product id="SID" vgwortcode="sid">SID</product>
+  <product id="Reuters" vgwortcode="reut">Reuters</product>
+  <product id="WEKU" href="http://www.weltkunst.de" target="_blank" label="Erschienen in Weltkunst" show="link" counter="print">Weltkunst</product>
+  <product id="WIWO" href="http://www.wiwo.de" target="_blank" label="Erschienen in der WirtschaftsWoche" show="link" counter="online">WirtschaftsWoche</product>
+  <product id="T3N" href="http://www.t3n.de" target="_blank" label="Erschienen bei t3n" show="link" counter="online">t3n</product>
+  <product id="Effilee" href="http://www.effilee.de" target="_blank" label="Erschienen in Effilee" show="link" counter="online">Effilee</product>
+  <product id="Brandeins" href="http://www.brandeins.de" target="_blank" label="Erschienen in brand eins" show="link" counter="online">brand eins</product>
+  <product id="Reportagen" href="http://www.reportagen.com" target="_blank" counter="online">Reportagen</product>
+  <product id="ZEAR" relates_to="ZEI" label="DIE ZEIT" counter="print">DIE ZEIT (Archiv)</product>
+  <product id="Unknown">Unbekannt</product>
+  <product id="BE" href="http://www.boldeconomy.com" target="_blank" counter="online">Bold Economy</product>
+  <product id="NORR" href="http://www.norrmagazin.de" target="_blank" label="Erschienen in NORR" show="link" counter="online">NORR</product>
+  <product id="tonic-magazin" href="http://www.tonic-magazin.de/" target="_blank" label="Erschienen im Tonic-Magazin" show="link" counter="online">Tonic-Magazin</product>
+  <product id="edition-f" href="https://editionf.com/" target="_blank" label="Erschienen bei Edition F" show="link" counter="online">Edition F</product>
+  <product id="merian" href="http://www.merian.de" target="_blank" label="Erschienen in MERIAN" show="link" counter="online">Merian</product>
+  <product id="ZTSPE" show="issue" counter="print">ZEIT Spezial</product>
+  <product id="ZEIMA" show="issue" counter="print">ZEITmagazin Mann</product>
+  <product id="Wa" href="http://www.wissenschaft-aktuell.de/" target="_blank" label="Erschienen bei Wissenschaft aktuell" show="link" counter="online">Wissenschaft aktuell</product>
+  <product id="PHM" href="http://philomag.de/" target="_blank" label="Erschienen im Philosophie Magazin" show="link" counter="online">Philosophie Magazin</product>
+  <product id="IPG" href="http://www.ipg-journal.de/" target="_blank" label="Erschienen bei Internationale Politik und Gesellschaft" show="link" counter="online">IPG</product>
+  <product id="ADAC Reisemagazin" href="https://www.adac-shop.de/Reiseliteratur/Magazine/" target="_blank" label="Erschienen im ADAC Reisemagazin" title="ADAC Reisemagazin" show="link" counter="online">ADAC Reisemagazin</product>
+</products>

@@ -1,0 +1,1474 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-08-31T08:55:57.117544+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-08T14:02:41.522899+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-08-31T08:56:07.520553+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-08-31T08:57:07.346748+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-08-17T09:41:54.329795+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-08-17T09:41:54.370647+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-17</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-08-17T09:41:05.960701+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-10-09</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.spiller</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Sport</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">81</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:aab63934-e5e0-4e2b-9785-829cf3cda881}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-26049f2f-9d32-4768-ae04-906b8a86778d">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="42bba2ca-dd87-4a23-afdb-226ef78d70f2">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-5df5d36e-4dde-4f8d-9eb9-9ae99f13510c">
+          <raw>
+            <a class="twitter-timeline" href="https://twitter.com/zeitonlinesport" data-widget-id="306744097446690816">Tweets von @zeitonlinesport</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-d5e06565-c11a-41a4-9226-76b0bd783597">
+          <block href="http://xml.zeit.de/sport/2015-08/bundesliga-club-o-mat" uniqueId="http://xml.zeit.de/sport/2015-08/bundesliga-club-o-mat" year="2015" issue="33" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-14T10:43:41+00:00" date-first-released="2015-08-14T10:44:40.867503+00:00" date-last-published="2015-08-14T10:44:40.867503+00:00" last-semantic-change="2015-08-14T10:42:12.740835+00:00" author="Christian Spiller;Julian Stahnke;Oliver Fritsch">
+            <supertitle py:pytype="str">Bundesliga</supertitle>
+            <title py:pytype="str">Welcher Verein sind Sie?</title>
+            <text py:pytype="str">Die Saison beginnt, das heißt: Farbe bekennen. Aber liegen Sie mit ihrem Lieblingsclub richtig? Mit dem Club-O-Mat finden Sie heraus, wer wirklich zu Ihnen passt.</text>
+            <description py:pytype="str">Die Saison beginnt, das heißt: Farbe bekennen. Aber liegen Sie mit ihrem Lieblingsclub richtig? Mit dem Club-O-Mat finden Sie heraus, wer wirklich zu Ihnen passt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-08/club-o-mat-bundesliga/" type="jpg" title="club-o-mat bundesliga" alt="Wer will noch mal, wer hat noch nicht? Die Auswahl ist groß." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wer will noch mal, wer hat noch nicht? Die Auswahl ist groß.</bu>
+              <copyright py:pytype="str">© Julian Stahnke/ZEIT ONLINE</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Julian_Stahnke/index" publication-date="" expires="">
+              <display_name py:pytype="str">Julian Stahnke</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-dc3234c2-e459-41cf-8978-ebed6845bf15">
+          <block href="http://xml.zeit.de/sport/2015-08/kevin-pannewitz-hansa-rostock-altglienicke" uniqueId="http://xml.zeit.de/sport/2015-08/kevin-pannewitz-hansa-rostock-altglienicke" year="2015" issue="32" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-11T16:00:27+00:00" date-first-released="2015-08-11T16:01:27.330722+00:00" date-last-published="2015-08-11T16:01:27.330722+00:00" last-semantic-change="2015-08-11T16:00:16.954198+00:00" author="Hannes Hilbrecht">
+            <supertitle py:pytype="str">Kevin Pannewitz</supertitle>
+            <title py:pytype="str">Der Kühlschrank war sein größter Gegner</title>
+            <text py:pytype="str">Kevin Pannewitz spielte mit 18 in der Zweiten Liga, hatte eine große Karriere vor sich. Sechs Jahre später wiegt er 104 Kilo und möchte Müllfahrer werden.</text>
+            <description py:pytype="str">Kevin Pannewitz spielte mit 18 in der Zweiten Liga, hatte eine große Karriere vor sich. Sechs Jahre später wiegt er 104 Kilo und möchte Müllfahrer werden.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-08/pannewitz-kevin/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Kevin Pannewitz</bu>
+              <copyright py:pytype="str">© Boris Streubel/Bongarts/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Hannes_Hilbrecht/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hannes Hilbrecht</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="0568dd0f-39ad-4224-801a-96ddf21fd6f4">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="cpextra" module="sid_extra" cp:__name__="id-689d7935-cc7e-4ad5-a4ae-942571d1a6d2">
+          <cp_extra id="sid_extra"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="6dacb0e3-8375-4380-87ab-99670cb48947">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-bd5dd537-5f6b-4f7c-861d-e4e4ec5a44b1">
+          <block href="http://xml.zeit.de/sport/2015-08/rbleipzig-nachwuchs-rangnick-kodex" uniqueId="http://xml.zeit.de/sport/2015-08/rbleipzig-nachwuchs-rangnick-kodex" year="2015" issue="34" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-25T09:16:22+00:00" date-first-released="2015-08-25T09:17:20.843236+00:00" date-last-published="2015-08-25T09:17:20.843236+00:00" last-semantic-change="2015-08-25T09:16:07.673053+00:00" author="Christian Latz;Marc Zimmer;Anton Zirk">
+            <supertitle py:pytype="str">RB Leipzig</supertitle>
+            <title py:pytype="str">Ein Kilo zuviel kostet 50 Euro</title>
+            <text py:pytype="str">So konsequent wie bei den Profis ist der RB Leipzig auch in der Jugendarbeit: Die Nachwuchsspieler müssen auf ihre Frisur achten – und zahlen, wenn sie zu dick sind.</text>
+            <description py:pytype="str">So konsequent wie bei den Profis ist der RB Leipzig auch in der Jugendarbeit: Die Nachwuchsspieler müssen auf ihre Frisur achten – und zahlen, wenn sie zu dick sind.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-08/rb-leipzig/" type="jpg" title="RB Leipzig" alt="Massimo Bruno spielt bei den Profis, ordentlich Zug herrscht aber auch bei den Junioren" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Massimo Bruno spielt bei den Profis, ordentlich Zug herrscht aber auch bei den Junioren.</bu>
+              <copyright py:pytype="str">© Hendrik Schmidt/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Christian_Laatz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Latz</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/Z/Marc_Zimmer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Marc Zimmer</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/Z/Anton_Zirk/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anton Zirk</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-08/bundesliga-saison-2015-2016" uniqueId="http://xml.zeit.de/sport/2015-08/bundesliga-saison-2015-2016" year="2015" issue="32" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-13T11:51:18+00:00" date-first-released="2015-08-12T12:55:27.020521+00:00" date-last-published="2015-08-13T11:52:17.989980+00:00" last-semantic-change="2015-08-12T12:54:22.968842+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Fußball-Bundesliga</supertitle>
+            <title py:pytype="str">Ich glaub', es geht schon wieder los</title>
+            <text py:pytype="str">In zwei Tagen beginnt die Bundesliga. Falls Sie die Sommerpause am Strand verbracht haben: Es gibt neue Spieler, neue Clubs, neue Regeln und sogar einen neuen Ball.</text>
+            <description py:pytype="str">In zwei Tagen beginnt die Bundesliga. Falls Sie die Sommerpause am Strand verbracht haben: Es gibt neue Spieler, neue Clubs, neue Regeln und sogar einen neuen Ball.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-08/bvb-witzig/" type="jpg" title="BVB " alt="Noch haben sie gute Laune: die Dortmunder Mats Hummels, Sokratis Papastathopoulos, Ilkay Gündogan und Pierre-Emerick Aubameyang" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Noch haben sie gute Laune: die Dortmunder Mats Hummels, Sokratis Papastathopoulos, Ilkay Gündoğan und Pierre-Emerick Aubameyang</bu>
+              <copyright py:pytype="str">© Bernd Thissen/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-07/tour-de-france-mont-ventoux" uniqueId="http://xml.zeit.de/sport/2015-07/tour-de-france-mont-ventoux" year="2015" issue="25" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-04T10:47:43+00:00" date-first-released="2015-07-04T09:12:22.084744+00:00" date-last-published="2015-07-04T10:48:40.935198+00:00" last-semantic-change="2015-07-04T09:11:19.632964+00:00" author="Christina Rietz">
+            <supertitle py:pytype="str">Tour de France</supertitle>
+            <title py:pytype="str">Ich hätte jede Droge genommen, die es gibt</title>
+            <text py:pytype="str">Ist die Tour de France eine Farce? Vielleicht schon. Vielleicht aber auch nicht. Bei der Entscheidung könnte helfen: Einmal den legendären Mont Ventoux hinauffahren.</text>
+            <description py:pytype="str">Ist die Tour de France eine Farce? Vielleicht schon. Vielleicht aber auch nicht. Bei der Entscheidung könnte helfen: Einmal den legendären Mont Ventoux hinauffahren.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-07/ventoux-froome/" type="jpg" title="Der Brite Chris Froome auf dem Sieg zum Mont Ventoux im Jahr 2013" alt="Der Brite Chris Froome auf dem Sieg zum Mont Ventoux im Jahr 2013" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Brite Chris Froome auf dem Weg zum Sieg am Mont Ventoux im Jahr 2013</bu>
+              <copyright py:pytype="str">© Bry Lennon/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Christina_Rietz/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christina Rietz</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-06/messi-autogramm-finale-berlin" uniqueId="http://xml.zeit.de/sport/2015-06/messi-autogramm-finale-berlin" year="2015" issue="23" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-06T17:19:02+00:00" date-first-released="2015-06-06T11:32:35.589725+00:00" date-last-published="2015-06-06T17:20:01.789869+00:00" last-semantic-change="2015-06-06T10:56:38.013700+00:00" author="Carim Soliman">
+            <supertitle py:pytype="str">Champions-League-Groupie</supertitle>
+            <title py:pytype="str">Un Autogramm bitte, Se­ñor Messi?</title>
+            <text py:pytype="str">Lionel Messi ist nach Berlin gekommen, um die Champions League zu gewinnen. Andere sind nur wegen seiner Unterschrift da. Unser Autor hat es auch probiert.</text>
+            <description py:pytype="str">Lionel Messi ist nach Berlin gekommen, um die Champions League zu gewinnen. Andere sind nur wegen seiner Unterschrift da. Unser Autor hat es auch probiert.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-06/messi-berlin/" type="jpg" title="Der Messi ist gelandet – in Berlin." alt="Der Messi ist gelandet – in Berlin." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Messi ist gelandet – in Berlin.</bu>
+              <copyright py:pytype="str">© Alexander Hassenstein/Uefa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Carim_Soliman/index" publication-date="" expires="">
+              <display_name py:pytype="str">Carim Soliman</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-05/nfl-draft-football-winston" uniqueId="http://xml.zeit.de/sport/2015-05/nfl-draft-football-winston" year="2015" issue="18" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-02T16:30:00+00:00" date-first-released="2015-05-02T16:29:21.162716+00:00" date-last-published="2015-05-02T16:29:21.162716+00:00" last-semantic-change="2015-05-02T13:45:07.607231+00:00" author="Jörg Wimalasena">
+            <supertitle py:pytype="str">NFL-Draft</supertitle>
+            <title py:pytype="str">Als müsste Mario Götze zum SC Paderborn gehen</title>
+            <text py:pytype="str">Die amerikanische Form des Sozialismus: Beim sogenannten Draft dürfen die schwächsten Teams die besten Nachwuchsspieler verpflichten. Und die können sich kaum wehren.</text>
+            <description py:pytype="str">Die amerikanische Form des Sozialismus: Beim sogenannten Draft dürfen die schwächsten Teams die besten Nachwuchsspieler verpflichten. Und die können sich kaum wehren.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-05/jameis-winston/" type="jpg" title="Jameis Winston" alt="Jameis Winston, Star des diesjährigen NFL-Drafts" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Jameis Winston, Star des diesjährigen NFL-Drafts</bu>
+              <copyright py:pytype="str">© Jeff Gross/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Joerg_Wimalasena/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jörg Wimalasena</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-04/mats-hummels-borussia-dortmund-klopp" uniqueId="http://xml.zeit.de/sport/2015-04/mats-hummels-borussia-dortmund-klopp" year="2015" issue="15" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-14T09:56:36+00:00" date-first-released="2015-04-14T14:12:25.536925+00:00" date-last-published="2015-05-06T09:52:00.706349+00:00" last-semantic-change="2015-07-14T09:56:07.216993+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Mats Hummels</supertitle>
+            <title py:pytype="str">Der Verteidiger, der aus der Rolle fällt</title>
+            <text py:pytype="str">Mats Hummels gilt als Weltklasse. Doch seine vielen Fehler liegen nicht nur an einem Formtief. Der vermeintlich beste deutsche Verteidiger hat generell große Schwächen.</text>
+            <description py:pytype="str">Mats Hummels gilt als Weltklasse. Doch seine vielen Fehler liegen nicht nur an einem Formtief. Der vermeintlich beste deutsche Verteidiger hat generell große Schwächen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-04/mats-hummels/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mats Hummels</bu>
+              <copyright py:pytype="str">© Dennis Grombkowski/Bongarts/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-03/volkswagen-ag-dfl-debruyne-vfl-wolfsburg" uniqueId="http://xml.zeit.de/sport/2015-03/volkswagen-ag-dfl-debruyne-vfl-wolfsburg" year="2015" issue="13" ressort="Sport" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2015-03-27T14:46:35+00:00" date-first-released="2015-03-27T11:08:28.467287+00:00" date-last-published="2015-03-27T14:47:34.990023+00:00" last-semantic-change="2015-03-27T11:43:04.918037+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Fußball</supertitle>
+            <title py:pytype="str">Die nächste Lex Volkswagen</title>
+            <text py:pytype="str">Nachdem sie jahrelang nichts tat, schränkt die DFL Mehrfachbeteiligungen im Fußball ein. Die Regel ist ein hilfloser Kompromiss. Sie schützt den, der zuerst da war: VW.</text>
+            <description py:pytype="str">Nachdem sie jahrelang nichts tat, schränkt die DFL Mehrfachbeteiligungen im Fußball ein. Die Regel ist ein hilfloser Kompromiss. Sie schützt den, der zuerst da war: VW.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/vw-winterkorn-woelfi/" type="jpg" title="VW-Chef Martin Winterkorn und Wölfi, das Maskottchen des VfL Wolfsburg" alt="VW-Chef Martin Winterkorn und Wölfi, das Maskottchen des VfL Wolfsburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">VW-Chef Martin Winterkorn und Wölfi, das Maskottchen des VfL Wolfsburg</bu>
+              <copyright py:pytype="str">© Julian Stratenschulte/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-03/doping-klopp-scholl-dutt-beckmann-ard" uniqueId="http://xml.zeit.de/sport/2015-03/doping-klopp-scholl-dutt-beckmann-ard" year="2015" issue="9" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-03-04T12:37:36+00:00" date-first-released="2015-03-04T10:25:14.622580+00:00" date-last-published="2015-03-04T12:38:36.024583+00:00" last-semantic-change="2015-03-04T10:02:07.241088+00:00">
+            <supertitle py:pytype="str">Klopp Scholl Beckmann</supertitle>
+            <title py:pytype="str">Die Sportschau in der Dopingprobe</title>
+            <text py:pytype="str">In der Bundesliga wurde gedopt, stellen Forscher fest. Nach dem Pokalsieg des BVB versuchen Trainer und ARD-Reporter, damit klarzukommen. Ein Drama in drei Akten</text>
+            <description py:pytype="str">In der Bundesliga wurde gedopt, stellen Forscher fest. Nach dem Pokalsieg des BVB versuchen Trainer und ARD-Reporter, damit klarzukommen. Ein Drama in drei Akten</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/ard-sportschau/" type="jpg" alt="Der ARD-Moderator Reinhold Beckmann &quot;diskutiert&quot; nach dem DFB-Pokalspiel in Dresden mit den Trainern Jürgen Klopp, Peter Németh und dem ARD-Experten Mehmet Scholl" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der ARD-Moderator Reinhold Beckmann "diskutiert" nach dem DFB-Pokalspiel in Dresden mit den Trainern Jürgen Klopp und Peter Németh sowie dem ARD-Experten Mehmet Scholl.</bu>
+              <copyright py:pytype="str">Screenshot ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-01/fcbayern-menschenrechte-saudi-arabien-katar" uniqueId="http://xml.zeit.de/sport/2015-01/fcbayern-menschenrechte-saudi-arabien-katar" year="2015" issue="3" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-19T14:45:15+00:00" date-first-released="2015-01-19T12:57:32.125745+00:00" date-last-published="2015-01-19T14:46:15.546640+00:00" last-semantic-change="2015-01-19T12:56:27.405628+00:00">
+            <supertitle py:pytype="str">FC Bayern in Katar</supertitle>
+            <title py:pytype="str">Wie kann ein Verein das ignorieren?</title>
+            <text py:pytype="str">Der FC Bayern trainiert in Katar, spielt in Saudi-Arabien. Und was ist mit den Menschenrechten? Ein offener Brief eines Mitglieds an seinen Verein</text>
+            <description py:pytype="str">Der FC Bayern trainiert in Katar, spielt in Saudi-Arabien. Und was ist mit den Menschenrechten? Ein offener Brief eines Mitglieds an seinen Verein</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-01/bayern-trainingslager/" type="jpg" title="Bayern trainingslager" alt="Die Bayern während des Trainingslagers in Katar" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Bayern während des Trainingslagers in Katar</bu>
+              <copyright py:pytype="str">© Alex Grimm/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-01/pegida-dynamo-dresden" uniqueId="http://xml.zeit.de/sport/2015-01/pegida-dynamo-dresden" year="2015" issue="2" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-12T13:57:20+00:00" date-first-released="2015-01-12T13:55:55.517713+00:00" date-last-published="2015-01-12T13:58:20.446146+00:00" last-semantic-change="2015-01-12T13:54:51.237560+00:00" author="Olaf Sundermeyer">
+            <supertitle py:pytype="str">Hooligans</supertitle>
+            <title py:pytype="str">Die Pegida-Miliz aus dem Stadion</title>
+            <text py:pytype="str">Schon früh haben sich Hooligans und rechtsmotivierte Fans von Dynamo Dresden der Pegida-Bewegung angeschlossen. Sie stützen die Demonstrationen. Der Verein bleibt stumm.</text>
+            <description py:pytype="str">Schon früh haben sich Hooligans und rechtsmotivierte Fans von Dynamo Dresden der Pegida-Bewegung angeschlossen. Sie stützen die Demonstrationen. Der Verein bleibt stumm.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-01/pegida-dresden-2/" type="jpg" title="Pegida Dresden" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Pegida-Anhänger Anfang Januar in Dresden.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Olaf_Sundermeyer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Olaf Sundermeyer</display_name>
+              <location>Dresden</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-12/surfen-sexismus-rassismus-cori-schumacher" uniqueId="http://xml.zeit.de/sport/2014-12/surfen-sexismus-rassismus-cori-schumacher" year="2014" issue="49" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-12-03T14:28:47+00:00" date-first-released="2014-12-03T14:28:53.879536+00:00" date-last-published="2014-12-03T14:29:46.953835+00:00" last-semantic-change="2014-12-03T14:27:49.017693+00:00" author="Anne-Sophie Balzer">
+            <supertitle py:pytype="str">Surfen und Sexismus</supertitle>
+            <title py:pytype="str">Nur der Po zählt</title>
+            <text py:pytype="str">Profisurfer sind braun gebrannte Beaus und schöne Frauen in Bikinis. Wer anders aussieht oder sich der Soft-Porno-Ästhetik verweigert, findet in der Szene keinen Platz.</text>
+            <description py:pytype="str">Profisurfer sind braun gebrannte Beaus und schöne Frauen in Bikinis. Wer anders aussieht oder sich der Soft-Porno-Ästhetik verweigert, findet in der Szene keinen Platz.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-12/stephanie-gilmore-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Stephanie Gilmore beim Billabong Rio Pro am Strand von Rio de Janeiro</bu>
+              <copyright py:pytype="str">© Sergio Moraes/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Anne-Sophie_Balzer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anne-Sophie Balzer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-11/lok-leipzig-fans-rechtsextremismus" uniqueId="http://xml.zeit.de/sport/2014-11/lok-leipzig-fans-rechtsextremismus" year="2014" issue="47" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-11-18T23:16:01+00:00" date-first-released="2014-11-18T17:18:28.366518+00:00" date-last-published="2014-11-18T19:53:16.075988+00:00" last-semantic-change="2014-11-18T19:38:22.537833+00:00" author="Thomas Fritz">
+            <supertitle py:pytype="str">Lok Leipzig</supertitle>
+            <title py:pytype="str">Die rechten Fans sind immer noch da</title>
+            <text py:pytype="str">Seit Jahren hat Lok Leipzig rechte, gewalttätige Fans. Nun hat sich die wichtigste Gruppe aufgelöst. Ist das nur ein Deal mit dem Verein, wie Skeptiker fürchten?</text>
+            <description py:pytype="str">Seit Jahren hat Lok Leipzig rechte, gewalttätige Fans. Nun hat sich die wichtigste Gruppe aufgelöst. Ist das nur ein Deal mit dem Verein, wie Skeptiker fürchten?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-11/lok-leipzig-fans-pyrotechnik/" type="jpg" title="Fans von Lok Leipzig im April 2009" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©Norman Rembarz/LVZ</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Thomas_Fritz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Thomas Fritz</display_name>
+              <location>Leipzig</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-10/german-bowl-lions-unicorns" uniqueId="http://xml.zeit.de/sport/2014-10/german-bowl-lions-unicorns" year="2014" issue="41" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-10-12T12:28:43+00:00" date-first-released="2014-10-12T12:29:43.381413+00:00" date-last-published="2014-10-12T12:29:43.381413+00:00" last-semantic-change="2014-10-12T12:28:40.944856+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">German Bowl</supertitle>
+            <title py:pytype="str">Das Klassentreffen der Kleiderschränke</title>
+            <text py:pytype="str">American Football gibt es auch auf Deutsch. Beim sogenannten German Bowl verlieren Einhörner gegen Löwen. Und breite Kreuze verdecken die Sicht.</text>
+            <description py:pytype="str">American Football gibt es auch auf Deutsch. Beim sogenannten German Bowl verlieren Einhörner gegen Löwen. Und breite Kreuze verdecken die Sicht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-10/german-bowl/" type="jpg" title="German Bowl" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Footballer beim German Bowl (Archiv)</bu>
+              <copyright py:pytype="str">© Britta Pedersen/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-09/dirk-nowitzki-der-perfekte-wurf-basketball-film" uniqueId="http://xml.zeit.de/sport/2014-09/dirk-nowitzki-der-perfekte-wurf-basketball-film" year="2014" issue="39" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-18T16:37:24+00:00" date-first-released="2014-09-18T16:34:01.999845+00:00" date-last-published="2014-09-18T16:38:24.441795+00:00" last-semantic-change="2014-09-18T16:32:55.909621+00:00" author="Tobias Jochheim">
+            <supertitle py:pytype="str">Film "Der perfekte Wurf"</supertitle>
+            <title py:pytype="str">The Big Nowitzki</title>
+            <text py:pytype="str">Entspannt, ehrlich, bescheiden. Soweit die Klischees über den Basketball-Star Dirk Nowitzki. Das Besondere: Sie stimmen alle. Wer zweifelt, muss ins Kino gehen.</text>
+            <description py:pytype="str">Entspannt, ehrlich, bescheiden. Soweit die Klischees über den Basketball-Star Dirk Nowitzki. Das Besondere: Sie stimmen alle. Wer zweifelt, muss ins Kino gehen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-09/dirk-nowitzki-2/" type="jpg" title="Dirk Nowitzki" alt="Bester deutscher Basketballer ever: Dirk Nowitzki" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Bester deutscher Basketballer ever: Dirk Nowitzki</bu>
+              <copyright py:pytype="str">© Kevin C. Kox/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/J/Tobias_Jochheim/index" publication-date="" expires="">
+              <display_name py:pytype="str">Tobias Jochheim</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-08/jens-voigt-karriereende-radprofi" uniqueId="http://xml.zeit.de/sport/2014-08/jens-voigt-karriereende-radprofi" year="2014" issue="34" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-18T18:14:56+00:00" date-first-released="2014-08-18T18:09:18.769673+00:00" date-last-published="2014-08-18T18:09:18.769673+00:00" last-semantic-change="2014-08-18T18:14:44.160252+00:00" author="Tom Mustroph">
+            <supertitle py:pytype="str">Radprofi Jens Voigt</supertitle>
+            <title py:pytype="str">Haltet die Klappe, Beine!</title>
+            <text py:pytype="str">17 Mal fuhr Jens Voigt die Tour de France, einmal sogar auf einem Kinderfahrrad. Oft redete er mit seinen schmerzenden Körperteilen. Jetzt beendet er seine Karriere.</text>
+            <description py:pytype="str">17 Mal fuhr Jens Voigt die Tour de France, einmal sogar auf einem Kinderfahrrad. Oft redete er mit seinen schmerzenden Körperteilen. Jetzt beendet er seine Karriere.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-08/jens-voigt/" type="jpg" title="Jens Voigt" alt="Der Radprofi Jens Voigt" align="left" publication-date="2014-08-18T13:44:14+00:00" expires="2014-11-18T14:44:16+00:00">
+              <bu py:pytype="str">Der Radprofi Jens Voigt</bu>
+              <copyright py:pytype="str">© Sven Hoppe/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Tom_Mustroph/index" publication-date="" expires="">
+              <display_name py:pytype="str">Tom Mustroph</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-08/schwimmen-meer-tipps-thomas-lurz" uniqueId="http://xml.zeit.de/sport/2014-08/schwimmen-meer-tipps-thomas-lurz" year="2014" issue="33" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-08T08:10:25+00:00" date-first-released="2014-08-08T08:11:24.875779+00:00" date-last-published="2014-08-08T08:11:24.875779+00:00" last-semantic-change="2014-08-08T06:59:08.496287+00:00" author="Thomas Lurz">
+            <supertitle py:pytype="str">Schwimmen</supertitle>
+            <title py:pytype="str">Das Meer ist nichts für Anfänger</title>
+            <text py:pytype="str">Urlaubszeit ist Schwimmzeit. Doch die Deutschen können immer schlechter schwimmen. Ein Profi verrät die beste Technik. Und was man machen sollte, wenn man Quallen sieht.</text>
+            <description py:pytype="str">Urlaubszeit ist Schwimmzeit. Doch die Deutschen können immer schlechter schwimmen. Ein Profi verrät die beste Technik. Und was man machen sollte, wenn man Quallen sieht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-08/schwimmen/" type="jpg" title="Schwimmen" alt="Teilnehmer des traditionellen Weihnachtsschwimmens in Barcelona im Dezember 2013" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Teilnehmer des traditionellen Weihnachtsschwimmens in Barcelona im Dezember 2013</bu>
+              <copyright py:pytype="str">© David Ramos/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Thomas_Lurz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Thomas Lurz</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/fussball-wm-highlights-best-of" uniqueId="http://xml.zeit.de/sport/2014-07/fussball-wm-highlights-best-of" year="2014" issue="29" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-11T15:42:11+00:00" date-first-released="2014-07-11T10:21:26.626716+00:00" date-last-published="2014-08-11T15:43:10.273560+00:00" last-semantic-change="2014-07-11T15:02:12.826144+00:00" author="Paul Hofmann;Eike Kühl;Christian Spiller;Oliver Fritsch">
+            <supertitle py:pytype="str">Fußball-WM</supertitle>
+            <title py:pytype="str">Elf Momente sollt ihr sein!</title>
+            <text py:pytype="str">Heuschrecken auf dem Arm, Läuse an der Linie, Kraken im Tor und ein begeisternder Underdog: Die WM hat viele denkwürdige Momente hervorgebracht. Wir zeigen unsere Top 11.</text>
+            <description py:pytype="str">Heuschrecken auf dem Arm, Läuse an der Linie, Kraken im Tor und ein begeisternder Underdog: Die WM hat viele denkwürdige Momente hervorgebracht. Wir zeigen unsere Top 11.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/james-rodriguez/" type="jpg" title="James Rodriguez: Lord of the Locusts" alt="James Rodriguez: Lord of the Locusts" align="left" publication-date="" expires="">
+              <bu py:pytype="str">James Rodriguez: Lord of the Locusts</bu>
+              <copyright py:pytype="str">© Fabrice Coffrini/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Paul_Hofmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Paul Hofmann</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/tuvia-tenenbom-deutschland-weltmeister-nationalismus" uniqueId="http://xml.zeit.de/sport/2014-07/tuvia-tenenbom-deutschland-weltmeister-nationalismus" year="2014" issue="30" ressort="Sport" serie="Fett wie ein Turnschuh" contenttype="article" publication-date="" expires="" date-last-modified="2014-10-17T07:42:44+00:00" date-first-released="2014-07-22T13:12:01.060671+00:00" date-last-published="2014-10-17T07:43:44.295577+00:00" last-semantic-change="2014-07-22T13:10:51.361623+00:00" author="Tuvia Tenenbom">
+            <supertitle py:pytype="str">Nationalgefühl</supertitle>
+            <title py:pytype="str">Du bist Weltmeister, Deutschland!</title>
+            <text py:pytype="str">Kein Erfolg macht Deutsche so stolz wie der im Fußball. Unser Kolumnist fordert nach der WM frischen Wind, auch im Umgang mit den Gräueltaten des Zweiten Weltkriegs.</text>
+            <description py:pytype="str">Kein Erfolg macht Deutsche so stolz wie der im Fußball. Unser Kolumnist fordert nach der WM frischen Wind, auch im Umgang mit den Gräueltaten des Zweiten Weltkriegs.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/tenenbom-flagup-2/" type="jpg" title="Tenenbom Flag Up" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Schaut auch beim Jubel in der Menge pessimistisch: ein deutscher Fan.</bu>
+              <copyright py:pytype="str">© Morris MacMatzen/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Tuvia_Tenenbom" publication-date="" expires="">
+              <display_name py:pytype="str">Tuvia Tenenbom</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/philipp-lahm-nationalmannschaft-ruecktritt-loew" uniqueId="http://xml.zeit.de/sport/2014-07/philipp-lahm-nationalmannschaft-ruecktritt-loew" year="2014" issue="30" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-18T18:14:51+00:00" date-first-released="2014-07-18T16:05:15.910920+00:00" date-last-published="2014-07-18T18:15:50.890197+00:00" last-semantic-change="2014-07-18T16:04:10.589698+00:00" author="Steffen Dobbert">
+            <supertitle py:pytype="str">Philipp Lahm</supertitle>
+            <title py:pytype="str">Die perfekte Karriere </title>
+            <text py:pytype="str">Philipp Lahm, der Kapitän der Nationalmannschaft, will nach dem WM-Titelgewinn nicht mehr für Deutschland spielen. Vom Bundestrainer wird er als "Musterprofi" gelobt. </text>
+            <description py:pytype="str">Philipp Lahm, der Kapitän der Nationalmannschaft, will nach dem WM-Titelgewinn nicht mehr für Deutschland spielen. Vom Bundestrainer wird er als "Musterprofi" gelobt. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/lahm-pokal/" type="jpg" alt="Philipp Lahm mit dem WM-Pokal" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Philipp Lahm mit dem WM-Pokal</bu>
+              <copyright py:pytype="str">©  VI Images via Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Steffen_Dobbert/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Steffen Dobbert</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/joachim-loew-wm-trainer-deutsche-fussballnationalmannschaft" uniqueId="http://xml.zeit.de/sport/2014-07/joachim-loew-wm-trainer-deutsche-fussballnationalmannschaft" year="2014" issue="29" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-15T18:13:39+00:00" date-first-released="2014-07-15T12:41:22.688394+00:00" date-last-published="2014-07-15T18:14:39.170293+00:00" last-semantic-change="2014-07-15T12:40:20.257579+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Joachim Löw</supertitle>
+            <title py:pytype="str">Er ist angekommen</title>
+            <text py:pytype="str">Lange haben die Deutschen mit Joachim Löw gefremdelt. Erst der Triumph von Rio de Janeiro lässt dem Bundestrainer die Anerkennung zuteilwerden, die er verdient hat.</text>
+            <description py:pytype="str">Lange haben die Deutschen mit Joachim Löw gefremdelt. Erst der Triumph von Rio de Janeiro lässt dem Bundestrainer die Anerkennung zuteilwerden, die er verdient hat.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/joachim-loew-3/" type="jpg" title="Joachim Löw" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Joachim Löw bei der Feier des Weltmeistertitels am Brandenburger Tor in Berlin</bu>
+              <copyright py:pytype="str">© Clemens Bilan/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2014-07/blog-brasilien-fazit" uniqueId="http://xml.zeit.de/sport/2014-07/blog-brasilien-fazit" year="2014" issue="29" ressort="Sport" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/sport-blog/2014/07/15/weltmeister-deutschland-wm-2014_7330" date-last-modified="2014-07-16T09:28:20+00:00" date-first-released="2014-07-15T09:12:39.839067+00:00" date-last-published="2014-07-16T09:29:19.870273+00:00" last-semantic-change="2014-07-15T09:02:10.401777+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">WM 2014</supertitle>
+            <title py:pytype="str">Der Fußballsommer meines Lebens</title>
+            <text py:pytype="str">Trotz sozialer Proteste vor dem Turnier, trotz Fifa in der Champagner-Klasse – die Dramatik dieser WM und die Leidenschaft der Fans rissen unseren Reporter mit. </text>
+            <description py:pytype="str">Trotz sozialer Proteste vor dem Turnier, trotz Fifa in der Champagner-Klasse – die Dramatik dieser WM und die Leidenschaft der Fans rissen unseren Reporter mit. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/brasilien-fans-2/" type="jpg" title="Deutsche und brasilianische Fans im Halbfinale" alt="Deutsche und brasilianische Fans im Halbfinale" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Deutsche und brasilianische Fans im Halbfinale</bu>
+              <copyright py:pytype="str">© Buda Mendes/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/wm-deutschland-weltmeister-nationalelf-spieler-einzelkritik" uniqueId="http://xml.zeit.de/sport/2014-07/wm-deutschland-weltmeister-nationalelf-spieler-einzelkritik" year="2014" issue="29" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-15T17:46:26+00:00" date-first-released="2014-07-14T16:03:35.856227+00:00" date-last-published="2014-07-15T17:47:26.273900+00:00" last-semantic-change="2014-07-14T16:02:30.713617+00:00" author="Eike Kühl;Paul Hofmann;Christian Spiller">
+            <supertitle py:pytype="str">Nationalmannschaft</supertitle>
+            <title py:pytype="str">Die Deutschlandbilanz</title>
+            <text py:pytype="str">Mit neuen Gesichtern war Deutschland nach Brasilien gereist. Am Ende aber waren es die wiedererstarkten Leistungsträger, die zum WM-Titel führten. Eine Bilanz der DFB-Elf</text>
+            <description py:pytype="str">Mit neuen Gesichtern war Deutschland nach Brasilien gereist. Am Ende aber waren es die wiedererstarkten Leistungsträger, die zum WM-Titel führten. Eine Bilanz der DFB-Elf</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/ger-einzelkritik/" type="jpg" title="Deutschland Einzelkritik" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Im Halbrund um den Cup: Deutschlands Nationalspieler feiern den WM-Titel</bu>
+              <copyright py:pytype="str">© Eddie Keogh/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/H/Paul_Hofmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Paul Hofmann</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-06/fs-fussballfans-wm" uniqueId="http://xml.zeit.de/sport/2014-06/fs-fussballfans-wm" year="2014" issue="24" ressort="Sport" contenttype="gallery" publication-date="" expires="" date-last-modified="2014-07-07T12:34:22+00:00" date-first-released="2014-06-20T14:08:53.088760+00:00" date-last-published="2014-07-07T12:35:22.729271+00:00" last-semantic-change="2014-06-20T13:59:50.823491+00:00">
+            <supertitle py:pytype="str">Fußball-Fans in Brasilien</supertitle>
+            <title py:pytype="str">In your face!</title>
+            <text py:pytype="str">Die Fußball-WM ist bunt, vor allem die Fan-Verkleidungen. Manche rasieren sich Muster  auf den Kopf,  andere haben Karotten im Gesicht. Bilder aus Brasilien</text>
+            <description py:pytype="str">Die Fußball-WM ist bunt, vor allem die Fan-Verkleidungen. Manche rasieren sich Muster  auf den Kopf,  andere haben Karotten im Gesicht. Bilder aus Brasilien</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-06/fs-fussballfans-wm-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Felipe Dana/AP/dpa</copyright>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2014-07/wm-finale-deutschland-argentinien-twitter" uniqueId="http://xml.zeit.de/sport/2014-07/wm-finale-deutschland-argentinien-twitter" year="2014" issue="29" ressort="Sport" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/sport/wm-spielplan-twitter-pulskurve-spielzusammenfassung?spiel=64" date-last-modified="2014-07-14T10:36:59+00:00" date-first-released="2014-07-14T10:25:44.199381+00:00" date-last-published="2014-07-14T10:25:44.199381+00:00" last-semantic-change="2014-07-14T10:24:23.577802+00:00">
+            <supertitle py:pytype="str">#wmtweets Finale Deutschland gegen Argentinien</supertitle>
+            <title py:pytype="str">"Ihr seid Papst und wir sind Weltmeister"</title>
+            <text py:pytype="str">Es war der beste "Tatort" aller Zeiten: Ein malträtierter Schweinsteiger, ein müder Hummels und am Ende stand der Titel. Die originellsten Tweets zum WM-Finale</text>
+            <description py:pytype="str">Es war der beste "Tatort" aller Zeiten: Ein malträtierter Schweinsteiger, ein müder Hummels und am Ende stand der Titel. Die originellsten Tweets zum WM-Finale</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/wmtweets-finale/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Screenshot/ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-4886bca1-6489-4eb1-a4e2-6fbe0546b3a0">
+          <block href="http://xml.zeit.de/sport/2015-08/kevin-de-bruyne-wolfsburg-manchester-city-wechsel" uniqueId="http://xml.zeit.de/sport/2015-08/kevin-de-bruyne-wolfsburg-manchester-city-wechsel" year="2015" issue="35" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-27T16:34:03+00:00" date-first-released="2015-08-27T11:51:34.439379+00:00" date-last-published="2015-08-27T16:35:03.311846+00:00" last-semantic-change="2015-08-27T11:50:17.301980+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Kevin De Bruyne</supertitle>
+            <title py:pytype="str">Lasst die Engländer ruhig shoppen!</title>
+            <text py:pytype="str">80 Millionen für De Bruyne, die Engländer habens ja. Eine große Gefahr sind die reichen englischen Clubs für die Bundesliga aber nicht. Manche Vereine freuen sich sogar.</text>
+            <description py:pytype="str">80 Millionen für De Bruyne, die Engländer habens ja. Eine große Gefahr sind die reichen englischen Clubs für die Bundesliga aber nicht. Manche Vereine freuen sich sogar.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-08/kevin-de-bruyne-3/" type="jpg" title="80 Milllionen wert? Kevin de Bruyne" alt="80 Milllionen wert? Kevin de Bruyne" align="left" publication-date="" expires="">
+              <bu py:pytype="str">80 Millionen wert? Kevin De Bruyne</bu>
+              <copyright py:pytype="str">© David Rogers/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-07/andreas-vogler-stahl-brandenburg" uniqueId="http://xml.zeit.de/sport/2015-07/andreas-vogler-stahl-brandenburg" year="2015" issue="25" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-02T14:33:34+00:00" date-first-released="2015-07-02T14:34:25.347349+00:00" date-last-published="2015-07-02T14:34:25.347349+00:00" last-semantic-change="2015-07-02T14:32:59.190235+00:00" author="Robin Hartmann">
+            <supertitle py:pytype="str">Fußball</supertitle>
+            <title py:pytype="str">Der erste Wessi</title>
+            <text py:pytype="str">Vor 25 Jahren wechselte Andreas Vogler als erster Fußballer aus dem Westen in die DDR. Bei Stahl Brandenburg erlebte er Trinkgelage vor Spielen und kaufsüchtige Kollegen.</text>
+            <description py:pytype="str">Vor 25 Jahren wechselte Andreas Vogler als erster Fußballer aus dem Westen in die DDR. Bei Stahl Brandenburg erlebte er Trinkgelage vor Spielen und kaufsüchtige Kollegen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-07/vogler-brandenburg/" type="jpg" title="Andreas Vogler (rechts) im Trikot von Stahl Brandenburg" alt="Andreas Vogler (rechts) im Trikot von Stahl Brandenburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Andreas Vogler (rechts) im Trikot von Stahl Brandenburg</bu>
+              <copyright py:pytype="str">© privat</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Robin_Hartmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Robin Hartmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-06/fc-barcelona-juventus-turin-andrea-pirlo" uniqueId="http://xml.zeit.de/sport/2015-06/fc-barcelona-juventus-turin-andrea-pirlo" year="2015" issue="23" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-07T10:29:33+00:00" date-first-released="2015-06-07T09:48:38.175439+00:00" date-last-published="2015-06-07T10:30:33.289007+00:00" last-semantic-change="2015-06-07T09:47:34.173669+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Champions League</supertitle>
+            <title py:pytype="str">So wunderbar kann Fußball sein</title>
+            <text py:pytype="str">Der Fußball war zuletzt schmutzig und dunkel. Im spektakulären Champions-League-Finale haben ihm Barcelona und Turin für einen Abend Würde und Klasse zurückgegeben.</text>
+            <description py:pytype="str">Der Fußball war zuletzt schmutzig und dunkel. Im spektakulären Champions-League-Finale haben ihm Barcelona und Turin für einen Abend Würde und Klasse zurückgegeben.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-06/fc-barcelona-juventus-uefa-champions-league-finale/" type="jpg" title="FC Barcelona Juventus - UEFA Champions League Finale" alt="FC Barcelona Juventus - UEFA Champions League Finale" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Im Freudentaumel: Die Spieler Neymar, Adriano und Dani Alves vom FC Barcelona feiern den Gewinn der Uefa Champions League.</bu>
+              <copyright py:pytype="str">© Kai Pfaffenbach/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+              <location>Berlin</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-05/pechstein-verbaende-prozesse-sport-bfv" uniqueId="http://xml.zeit.de/sport/2015-05/pechstein-verbaende-prozesse-sport-bfv" year="2015" issue="18" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-05T14:49:35+00:00" date-first-released="2015-05-05T11:57:10.831029+00:00" date-last-published="2015-05-05T14:18:19.393632+00:00" last-semantic-change="2015-05-05T14:49:20.537760+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Sport und Recht</supertitle>
+            <title py:pytype="str">Dem Sport wird der Prozess gemacht</title>
+            <text py:pytype="str">Sport braucht eigene Gesetze. Doch die vielen Niederlagen vor Gericht zeigen: Der Staat traut Verbänden gute Gesetze nicht mehr zu.  Ein weiteres Indiz ihrer Krise.</text>
+            <description py:pytype="str">Sport braucht eigene Gesetze. Doch die vielen Niederlagen vor Gericht zeigen: Der Staat traut Verbänden gute Gesetze nicht mehr zu.  Ein weiteres Indiz ihrer Krise.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-05/pechstein-summerer/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Claudia Pechstein und ihr Anwalt Thomas Summerer, Sieger im Gerichtssaal</bu>
+              <copyright py:pytype="str">© Andreas Gebert/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-04/tuchel-bvb-klopp-trainer" uniqueId="http://xml.zeit.de/sport/2015-04/tuchel-bvb-klopp-trainer" year="2015" issue="16" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-27T15:33:26+00:00" date-first-released="2015-04-20T10:26:59.388159+00:00" date-last-published="2015-07-27T15:34:25.864409+00:00" last-semantic-change="2015-04-20T07:55:23.430724+00:00" author="Constantin Eckner">
+            <supertitle py:pytype="str">Thomas Tuchel</supertitle>
+            <title py:pytype="str">Der Anti-Klopp</title>
+            <text py:pytype="str">Auf den ersten Blick haben Thomas Tuchel und Jürgen Klopp viel gemeinsam. Was ihre Idee vom Fußball angeht, könnten sie aber unterschiedlicher kaum sein.</text>
+            <description py:pytype="str">Auf den ersten Blick haben Thomas Tuchel und Jürgen Klopp viel gemeinsam. Was ihre Idee vom Fußball angeht, könnten sie aber unterschiedlicher kaum sein.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-04/thomas-tuchel-2/" type="jpg" title="Thomas Tuchel" alt="Der neue Dortmunder Trainer Thomas Tuchel" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der neue Dortmunder Trainer Thomas Tuchel</bu>
+              <copyright py:pytype="str">© Daniel Roland/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/E/Constantin_Eckner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Constantin Eckner</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-03/basketball-paderborn-windows-update-abstieg" uniqueId="http://xml.zeit.de/sport/2015-03/basketball-paderborn-windows-update-abstieg" year="2015" issue="13" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-03-26T17:26:48+00:00" date-first-released="2015-03-26T17:27:46.625967+00:00" date-last-published="2015-03-26T17:27:46.625967+00:00" last-semantic-change="2015-03-26T17:26:43.599168+00:00" author="Anna Dreher">
+            <supertitle py:pytype="str">Basketball </supertitle>
+            <title py:pytype="str">Abstieg wegen eines Windows-Updates</title>
+            <text py:pytype="str">Weil ein Computerhänger den Anpfiff eines Spiels verzögerte, müssen die Paderborn Baskets wohl aus der Zweiten Liga absteigen. Die finden das gar nicht witzig.</text>
+            <description py:pytype="str">Weil ein Computerhänger den Anpfiff eines Spiels verzögerte, müssen die Paderborn Baskets wohl aus der Zweiten Liga absteigen. Die finden das gar nicht witzig.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/basketball/" type="jpg" title="Basketball" alt="Ein Basketball, an ihm liegts manchmal nicht" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Basketball, an ihm liegt's manchmal nicht</bu>
+              <copyright py:pytype="str">© Oliver Mehlis/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Anna_Dreher/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anna Dreher</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-03/vfc-plauen-insolvenz-nofv" uniqueId="http://xml.zeit.de/sport/2015-03/vfc-plauen-insolvenz-nofv" year="2015" issue="10" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-05T11:56:12+00:00" date-first-released="2015-03-09T15:53:39.796289+00:00" date-last-published="2015-05-05T11:57:11.822380+00:00" last-semantic-change="2015-03-09T15:52:35.948215+00:00" author="Fabian Scheler">
+            <supertitle py:pytype="str">VFC Plauen</supertitle>
+            <title py:pytype="str">Ein kleiner Fußballclub klagt gegen seinen Abstieg</title>
+            <text py:pytype="str">Der Regionalligist VFC Plauen ist pleite, eigentlich müsste er zwangsabsteigen. Aber er will nicht. Dadurch könnte der Verein das Sportrecht umkrempeln.</text>
+            <description py:pytype="str">Der Regionalligist VFC Plauen ist pleite, eigentlich müsste er zwangsabsteigen. Aber er will nicht. Dadurch könnte der Verein das Sportrecht umkrempeln.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/vfc-plauen/" type="jpg" title="VFC Plauen" alt="Das Trikot des VFC Plauen" align="left" publication-date="" expires="2015-06-10T07:39:15+00:00">
+              <bu py:pytype="str">Björn Lambach im Trikot des VFC Plauen</bu>
+              <copyright py:pytype="str">© Eibner/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Fabian_Scheler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Fabian Scheler</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-01/klopp-bvb-eilenberger-interview" uniqueId="http://xml.zeit.de/sport/2015-01/klopp-bvb-eilenberger-interview" year="2015" issue="4" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-01-28T09:45:28+00:00" date-first-released="2015-01-28T09:36:02.389266+00:00" date-last-published="2015-01-28T09:46:26.897867+00:00" last-semantic-change="2015-01-28T09:34:59.033701+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Wolfram Eilenberger</supertitle>
+            <title py:pytype="str">"Borussia Dortmund ist die Anomalie der Liga"</title>
+            <text py:pytype="str">Der BVB ist eine Sekte, er hat sich Jürgen Klopp ausgeliefert, sagt der Philosoph Wolfram Eilenberger. Er fürchtet die Wengerisierung des Vereins.</text>
+            <description py:pytype="str">Der BVB ist eine Sekte, er hat sich Jürgen Klopp ausgeliefert, sagt der Philosoph Wolfram Eilenberger. Er fürchtet die Wengerisierung des Vereins.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-01/klopp-la-manga/" type="jpg" title="Jürgen Klopp im BVB-Trainingslager " alt="Jürgen Klopp im BVB-Trainingslager in La Manga, Spanien" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Jürgen Klopp im BVB-Trainingslager in La Manga, Spanien</bu>
+              <copyright py:pytype="str">© Johannes Simon/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-01/frankreich-charlie-hebdo-fussball" uniqueId="http://xml.zeit.de/sport/2015-01/frankreich-charlie-hebdo-fussball" year="2015" issue="3" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-19T09:28:15+00:00" date-first-released="2015-01-20T15:45:56.397471+00:00" date-last-published="2015-01-20T15:45:56.397471+00:00" last-semantic-change="2015-01-20T15:44:51.985743+00:00" author="Michael Neubauer">
+            <supertitle py:pytype="str">Französische Nationalelf</supertitle>
+            <title py:pytype="str">Bei Tor Franzose, sonst Araber</title>
+            <text py:pytype="str">Sind Frankreichs Fußballer auch Charlie? Nach der WM 1998 schien die multikulturelle Nationalelf das Musterbeispiel für gelungene Integration. Das war schnell vorbei.</text>
+            <description py:pytype="str">Sind Frankreichs Fußballer auch Charlie? Nach der WM 1998 schien die multikulturelle Nationalelf das Musterbeispiel für gelungene Integration. Das war schnell vorbei.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-01/karim-benzema/" type="jpg" title="Benzema" alt="Frankreichs Nationalspieler Karim Benzema" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Frankreichs Nationalspieler Karim Benzema</bu>
+              <copyright py:pytype="str">© Franck Fife/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Michael_Neubauer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Neubauer</display_name>
+              <location>Paris</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-12/bundesliga-torschuetzen-quiz" uniqueId="http://xml.zeit.de/sport/2014-12/bundesliga-torschuetzen-quiz" year="2014" issue="51" ressort="Sport" contenttype="quiz" publication-date="" expires="" date-last-modified="2014-12-18T13:25:22+00:00" date-first-released="2014-12-18T12:52:13.774717+00:00" date-last-published="2014-12-18T12:52:13.774717+00:00" last-semantic-change="2014-12-18T11:23:02.933743+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Fußballquiz</supertitle>
+            <title py:pytype="str">Wer trifft denn da?</title>
+            <text py:pytype="str">171 Torschützen gab es bislang in der Hinrunde der Bundesliga. Lewandowski, Robben und Reus kennt jeder. Aber wer ist zum Beispiel dieser junge Mann? Ein Bilderquiz</text>
+            <description py:pytype="str">171 Torschützen gab es bislang in der Hinrunde der Bundesliga. Lewandowski, Robben und Reus kennt jeder. Aber wer ist zum Beispiel dieser junge Mann? Ein Bilderquiz</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-12/spielerquiz-3/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Martin Stoever/Bongarts/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-11/robert-enke-suizid-gedenken-todestag" uniqueId="http://xml.zeit.de/sport/2014-11/robert-enke-suizid-gedenken-todestag" year="2014" issue="46" ressort="Sport" contenttype="article" publication-date="" expires="" genre="gastbeitrag" date-last-modified="2014-11-10T12:51:45+00:00" date-first-released="2014-11-10T12:43:05.652510+00:00" date-last-published="2014-11-10T12:52:45.404967+00:00" last-semantic-change="2014-11-10T12:43:32.599923+00:00" author="Andreas Bergmann">
+            <supertitle py:pytype="str">Gedenken an Robert Enke</supertitle>
+            <title py:pytype="str">Warum hast du nichts gesagt, Robert?</title>
+            <text py:pytype="str">Als Robert Enke starb, hielt die Fußballwelt inne. Doch auch fünf Jahre später darf man im Leistungssport keine Schwäche zeigen, schreibt sein damaliger Trainer.</text>
+            <description py:pytype="str">Als Robert Enke starb, hielt die Fußballwelt inne. Doch auch fünf Jahre später darf man im Leistungssport keine Schwäche zeigen, schreibt sein damaliger Trainer.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-11/enke-handschuhe/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Robert Enkes Handschuhe im Schachtschatz Museum in Hannover</bu>
+              <copyright py:pytype="str">© Christof Koepsel/Bongarts/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Andreas_Bergmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Andreas Bergmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-10/serbien-albanien-em-qualifikation-abbruch" uniqueId="http://xml.zeit.de/sport/2014-10/serbien-albanien-em-qualifikation-abbruch" year="2014" issue="41" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-10-15T13:06:52+00:00" date-first-released="2014-10-15T11:49:46.072695+00:00" date-last-published="2014-10-15T13:07:52.430588+00:00" last-semantic-change="2014-10-15T13:03:05.937563+00:00" author="Thomas Roser">
+            <supertitle py:pytype="str">Serbien – Albanien</supertitle>
+            <title py:pytype="str">Fußball als Ersatzkrieg</title>
+            <text py:pytype="str">Der Abbruch eines Fußballspiels sorgt auf dem Balkan für Turbulenzen. Den soll der Bruder von Albaniens Premier mit einer Drohne provoziert haben.</text>
+            <description py:pytype="str">Der Abbruch eines Fußballspiels sorgt auf dem Balkan für Turbulenzen. Den soll der Bruder von Albaniens Premier mit einer Drohne provoziert haben.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-10/serbien-albanien-2/" type="jpg" title="Serbien Albanien" alt="Serbiens Spieler Stefan Mitrović greift im Stadion nach der großalbanischen Flagge." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Serbiens Spieler Stefan Mitrović greift im Stadion nach der großalbanischen Flagge.</bu>
+              <copyright py:pytype="str">© Marko Djurica/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Thomas_Roser/index" publication-date="" expires="">
+              <display_name py:pytype="str">Thomas Roser</display_name>
+              <location>Belgrad</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-09/bayer-leverkusen-fussball-bundesliga-roger-schmidt" uniqueId="http://xml.zeit.de/sport/2014-09/bayer-leverkusen-fussball-bundesliga-roger-schmidt" year="2014" issue="39" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-22T12:37:58+00:00" date-first-released="2014-09-22T12:25:58.730320+00:00" date-last-published="2014-09-22T12:38:58.597939+00:00" last-semantic-change="2014-09-22T12:24:57.089925+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Bayer Leverkusen</supertitle>
+            <title py:pytype="str">Jung, anarchisch und naiv</title>
+            <text py:pytype="str">Bayer Leverkusen spielt den aufregendsten Fußball der Liga. Bloß gewinnen tun sie mit ihrem Vollgas-Spiel derzeit nicht. Warum nur?</text>
+            <description py:pytype="str">Bayer Leverkusen spielt den aufregendsten Fußball der Liga. Bloß gewinnen tun sie mit ihrem Vollgas-Spiel derzeit nicht. Warum nur?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-09/leverkusen-calhanoglu-bellarabi/" type="jpg" title="Leverkusen Calhanoglu Bellarabi" alt="Hakan Calhanoglu (links) und Karim Bellarabi unterhalten sich" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hakan Calhanoglu (links) und Karim Bellarabi unterhalten sich</bu>
+              <copyright py:pytype="str">© Juergen Schwarz/Bongarts/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-08/hausding-klein-turmspringen-em" uniqueId="http://xml.zeit.de/sport/2014-08/hausding-klein-turmspringen-em" year="2014" issue="35" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-21T11:44:08+00:00" date-first-released="2014-08-21T08:59:02.124514+00:00" date-last-published="2014-08-21T11:45:08.603207+00:00" last-semantic-change="2014-08-21T08:57:56.653652+00:00" author="Klaus Raab">
+            <supertitle py:pytype="str">Turmspring-EM</supertitle>
+            <title py:pytype="str">Wer spritzt, verliert</title>
+            <text py:pytype="str">Bloß nicht plumpsen! Turmspringen ist ein Spektakel, nicht ausverkauft, Mathematikersport, unberechenbar und nichts für jeden. Eine Annäherung in sechs Sprüngen </text>
+            <description py:pytype="str">Bloß nicht plumpsen! Turmspringen ist ein Spektakel, nicht ausverkauft, Mathematikersport, unberechenbar und nichts für jeden. Eine Annäherung in sechs Sprüngen </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-08/hausding-klein/" type="jpg" title="Hausding Klein" alt="Patrick Hausding und Sascha Klein tauchen richtig ein in die Sache" align="left" publication-date="2014-08-21T07:11:39+00:00" expires="2014-11-21T08:11:42+00:00">
+              <bu py:pytype="str">Patrick Hausding und Sascha Klein tauchen richtig ein in die Sache.</bu>
+              <copyright py:pytype="str">© Gero Breloer/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Klaus_Raab/index" publication-date="" expires="">
+              <display_name py:pytype="str">Klaus Raab</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/boule-petanque-provence-berlin-kreuzberg" uniqueId="http://xml.zeit.de/sport/2014-07/boule-petanque-provence-berlin-kreuzberg" year="2014" issue="30" ressort="Sport" serie="Auch das ist Sport" contenttype="article" publication-date="" expires="" genre="reportage" date-last-modified="2014-07-30T10:08:57+00:00" date-first-released="2014-07-29T11:59:27.240743+00:00" date-last-published="2014-07-30T10:09:57.094323+00:00" last-semantic-change="2014-07-30T10:08:47.277730+00:00" author="Paul Hofmann">
+            <supertitle py:pytype="str">Pétanque</supertitle>
+            <title py:pytype="str">Ran an die Sau!</title>
+            <text py:pytype="str">Beim Boule mal eine ruhige Kugel schieben? Mitnichten. Zu Besuch beim metallischen und verbalen Schlagabtausch im Boulodrom Berlin-Kreuzberg</text>
+            <description py:pytype="str">Beim Boule mal eine ruhige Kugel schieben? Mitnichten. Zu Besuch beim metallischen und verbalen Schlagabtausch im Boulodrom Berlin-Kreuzberg</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/petanque/" type="jpg" title="Pétanque" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Pétanque-Kugeln nahe dem Cochonnet</bu>
+              <copyright py:pytype="str">© Jean-Paul Pelissier/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Paul_Hofmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Paul Hofmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-02/hirschruf-dm-jagd-brunftschrei" uniqueId="http://xml.zeit.de/sport/2014-02/hirschruf-dm-jagd-brunftschrei" year="2014" issue="7" ressort="Sport" serie="Auch das ist Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-13T00:53:32+00:00" date-first-released="2014-02-13T11:56:05.661773+00:00" date-last-published="2014-07-13T03:09:34+00:00" last-semantic-change="2014-02-13T11:55:01.741637+00:00" author="Sören Maunz">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Serie Auch das ist Sport</supertitle>
+            <title py:pytype="str">Spiel mir das Lied vom Hirsch</title>
+            <text py:pytype="str">Im Röhren steckt das Detail: Bei den Deutschen Meisterschaften im Hirschrufen imitieren Menschen die Brunftschreie des Rotwilds. Einige beängstigend perfekt.</text>
+            <description py:pytype="str">Im Röhren steckt das Detail: Bei den Deutschen Meisterschaften im Hirschrufen imitieren Menschen die Brunftschreie des Rotwilds. Einige beängstigend perfekt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-02/teaser-hirsch/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/Francesca">© Francesca Schellhaas/photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Soeren_Maunz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Sören Maunz</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2013-12/schachboxen-schachbox-wm-jaegermeister-moskau" uniqueId="http://xml.zeit.de/sport/2013-12/schachboxen-schachbox-wm-jaegermeister-moskau" year="2013" issue="49" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-04T13:49:15+00:00" date-first-released="2013-12-04T11:29:55.612720+00:00" date-last-published="2013-12-04T13:50:15.086926+00:00" last-semantic-change="2013-12-04T11:29:58.283163+00:00" author="Steffen Dobbert">
+            <supertitle py:pytype="str">Schachbox-WM</supertitle>
+            <title py:pytype="str">Erst den Turm, dann die Leber</title>
+            <text py:pytype="str">Weil er den Kräuterschnaps erst nach dem Gong trinkt: In einem Klub in Moskau zieht und faustet sich ein Feuerwehrmann aus Sachsen zum ersten Schachbox-Weltmeister. </text>
+            <description py:pytype="str">Weil er den Kräuterschnaps erst nach dem Gong trinkt: In einem Klub in Moskau zieht und faustet sich ein Feuerwehrmann aus Sachsen zum ersten Schachbox-Weltmeister. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2013-12/schachboxen/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Eine Mischung aus Matt und K.o. – Szene von der Schachbox-WM in Moskau</bu>
+              <copyright py:pytype="str">© Steffen Dobbert/ZEIT ONLINE</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Steffen_Dobbert/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Steffen Dobbert</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2014-06/blog-schach-sport-hirn" uniqueId="http://xml.zeit.de/sport/2014-06/blog-schach-sport-hirn" year="2014" issue="24" ressort="Sport" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/schach/natuerlich-ist-schach-sport/" date-last-modified="2014-09-09T10:21:44+00:00" date-first-released="2014-06-22T16:04:44.897178+00:00" date-last-published="2014-09-09T10:22:44.375152+00:00" last-semantic-change="2014-06-22T11:29:16.869614+00:00" author="Johannes Fischer">
+            <supertitle py:pytype="str">Schach-Blog</supertitle>
+            <title py:pytype="str">Zum Sport gehört auch Hirn</title>
+            <text py:pytype="str">Ist Schach Sport? Natürlich! Das Gehirn und seine Arbeit machen schließlich einen großen Teil sportlicher Leistungen aus. Nicht nur im Schach.</text>
+            <description py:pytype="str">Ist Schach Sport? Natürlich! Das Gehirn und seine Arbeit machen schließlich einen großen Teil sportlicher Leistungen aus. Nicht nur im Schach.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2013-11/schach-wm-2013/" type="jpg" title="schach-wm-2013" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Norwegian 20 year-old Margnus Carlsen (R), number-one ranked chess player in the world, plays against Indian world champion title holder, Viswanathan Anand, currently number-two ranked chess player in the world, at the 1st round of 4th Chess Grand Slam at Ibirapuera park in Sao Paulo, Brazil on September 26, 2011.</bu>
+              <copyright py:pytype="str">© Yasuyoshi Chiba/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Johannes_Fischer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Johannes Fischer</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2014-04/ElisabethPaehtz" uniqueId="http://xml.zeit.de/sport/2014-04/ElisabethPaehtz" year="2014" issue="17" ressort="Sport" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/schach/elisabeth-paehtz-interview-geschlechterunterschiede-schach/" date-last-modified="2014-05-15T11:14:55+00:00" date-first-released="2014-05-15T11:15:49.162077+00:00" date-last-published="2014-05-15T11:15:54.861461+00:00" last-semantic-change="2014-05-15T11:14:27.441350+00:00" author="Ilja Schneider">
+            <supertitle py:pytype="str">Schach-Blog</supertitle>
+            <title py:pytype="str">Warum spielen Frauen schlechter Schach als Männer?</title>
+            <text py:pytype="str">Zahlen lügen nicht, Männer sind am Brett besser als Frauen. Weil sie fleißiger sind und mehr Sitzfleisch haben, sagt Elisabeth Pähtz, Deutschlands beste Schachspielerin. </text>
+            <description py:pytype="str">Zahlen lügen nicht, Männer sind am Brett besser als Frauen. Weil sie fleißiger sind und mehr Sitzfleisch haben, sagt Elisabeth Pähtz, Deutschlands beste Schachspielerin. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-04/Ellipaehtz2/" type="jpg" title="ellipaehtz2" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Nikolay Bochkarev/ugrasport.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Ilja_Schneider/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ilja Schneider</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-03/slackline-elli-schulte-sport-frauen" uniqueId="http://xml.zeit.de/sport/2014-03/slackline-elli-schulte-sport-frauen" year="2014" issue="14" ressort="Sport" serie="Auch das ist Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-24T09:39:40+00:00" date-first-released="2014-03-28T10:38:01.207508+00:00" date-last-published="2014-06-26T02:50:28+00:00" last-semantic-change="2014-03-28T11:45:32.929713+00:00" author="Victoria Reith">
+            <supertitle py:pytype="str">Slackline</supertitle>
+            <title py:pytype="str">Die One-Woman-Show </title>
+            <text py:pytype="str">Elli Schulte macht Spagat, Handstand und Salti auf einem schmalen Band. Sie ist die beste deutsche Slacklinerin. Was ihr fehlt, ist das direkte Duell mit anderen Frauen.</text>
+            <description py:pytype="str">Elli Schulte macht Spagat, Handstand und Salti auf einem schmalen Band. Sie ist die beste deutsche Slacklinerin. Was ihr fehlt, ist das direkte Duell mit anderen Frauen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">Im Slackline gibt es keine Wettkämpfe für Frauen</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/sport/2014-03/slackline-Schulte/" type="jpg" alt="Elli Schulte während eines Wettkampfes" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Elli Schulte während eines Wettkampfes</bu>
+              <copyright py:pytype="str">© Elli Schulte</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Victoria_Reith/index" publication-date="" expires="">
+              <display_name py:pytype="str">Victoria Reith</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2013-08/link-auch-das-ist-sport" uniqueId="http://xml.zeit.de/sport/2013-08/link-auch-das-ist-sport" year="2013" issue="34" ressort="Sport" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/auch-das-ist-sport" date-last-modified="2013-08-20T13:32:53+00:00" date-first-released="2013-08-20T13:33:53.194135+00:00" date-last-published="2013-08-20T13:33:53.194135+00:00" last-semantic-change="2013-08-20T13:32:31.133925+00:00">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Auch das ist Sport</title>
+            <text py:pytype="str">Cheerleading, Schachboxen und Luftgitarrespielen – die Welt des Sports ist groß und manchmal wunderlich. In unsere Serie stellen wir die exotischsten Disziplinen vor.</text>
+            <description py:pytype="str">Cheerleading, Schachboxen und Luftgitarrespielen – die Welt des Sports ist groß und manchmal wunderlich. In unsere Serie stellen wir die exotischsten Disziplinen vor.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="4a1843ef-b1fd-499a-9a01-6c1947e5990d" visible="True">
+          <block href="http://xml.zeit.de/sport/2015-08/doping-sport-ideale" uniqueId="http://xml.zeit.de/sport/2015-08/doping-sport-ideale" year="2015" issue="31" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-05T12:01:52+00:00" date-first-released="2015-08-05T11:51:10.286133+00:00" date-last-published="2015-08-05T12:02:51.816903+00:00" last-semantic-change="2015-08-05T11:50:05.745974+00:00" author="Oliver Fritsch;Christian Spiller">
+            <supertitle py:pytype="str">Sport und Betrug</supertitle>
+            <title py:pytype="str">Hat Sport noch Sinn?</title>
+            <text py:pytype="str">Überall Doping, Lug und Trug. Zurzeit könnte einem die Lust am Sport vergehen. Vielleicht sollten wir ihn einfach abschaffen. Unsere Sportredakteure unterhalten sich.</text>
+            <description py:pytype="str">Überall Doping, Lug und Trug. Zurzeit könnte einem die Lust am Sport vergehen. Vielleicht sollten wir ihn einfach abschaffen. Unsere Sportredakteure unterhalten sich.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-08/leichtathletik/" type="jpg" title="Eine Leichtathletik-Laufbahn" alt="Eine Leichtathletik-Laufbahn" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Eine Leichtathletik-Laufbahn</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=433147">© taviphoto/photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-07/frauenfussball-wm-ralf-kellermann-dfb" uniqueId="http://xml.zeit.de/sport/2015-07/frauenfussball-wm-ralf-kellermann-dfb" year="2015" issue="25" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-07-07T07:25:47+00:00" date-first-released="2015-07-06T10:18:14.792581+00:00" date-last-published="2015-07-07T07:26:39.559856+00:00" last-semantic-change="2015-07-06T10:17:11.946664+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Frauenfußball-WM</supertitle>
+            <title py:pytype="str">"Andere Nationen sind weiter als wir"</title>
+            <text py:pytype="str">Deutschlands Frauen werden WM-Vierte. Ist okay, sagt der Welttrainer Ralf Kellermann. Technisch und taktisch hängen sie aber hinterher. Wie die Männer Ende der Neunziger.</text>
+            <description py:pytype="str">Deutschlands Frauen werden WM-Vierte. Ist okay, sagt der Welttrainer Ralf Kellermann. Technisch und taktisch hängen sie aber hinterher. Wie die Männer Ende der Neunziger.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-07/dfb-frauen/" type="jpg" title="Die deutsche Bank nach dem verlorenen Spiel im Platz drei" alt="Die deutsche Bank nach dem verlorenen Spiel im Platz drei" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die deutsche Bank nach dem verlorenen Spiel im Platz drei</bu>
+              <copyright py:pytype="str">© Todd Korol/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-06/steph-curry-nba-lebron-james" uniqueId="http://xml.zeit.de/sport/2015-06/steph-curry-nba-lebron-james" year="2015" issue="23" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-04T16:50:12+00:00" date-first-released="2015-06-04T16:51:11.426506+00:00" date-last-published="2015-06-04T16:51:11.426506+00:00" last-semantic-change="2015-06-04T16:50:07.309480+00:00" author="Arndt-Fabian Rohlfing">
+            <supertitle py:pytype="str">Stephen Curry</supertitle>
+            <title py:pytype="str">Der schärfste Mann der Liga</title>
+            <text py:pytype="str">Er ist klein, schmächtig und der wertvollste Spieler der NBA. In den Finals möchte Stephen Curry gegen Superstar LeBron James auch den Titel holen.</text>
+            <description py:pytype="str">Er ist klein, schmächtig und der wertvollste Spieler der NBA. In den Finals möchte Stephen Curry gegen Superstar LeBron James auch den Titel holen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-06/stephen-curry-nba-warriors/" type="jpg" title="steph curry " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Stephen Curry von den Golden State Warriors </bu>
+              <copyright py:pytype="str">© Ezra Shaw/Getty Images Sport</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Arndt-Fabian_Rohlfing/index" publication-date="" expires="">
+              <display_name py:pytype="str">Arndt-Fabian Rohlfing</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2015/18/fussball-bundesliga-fc-bayern-qualitaet" uniqueId="http://xml.zeit.de/2015/18/fussball-bundesliga-fc-bayern-qualitaet" year="2015" issue="18" ressort="Sport" contenttype="article" publication-date="2015-05-14T02:09:13+00:00" expires="" date-last-modified="2015-05-14T02:09:23+00:00" date-first-released="2015-05-02T11:07:45.257793+00:00" date-last-published="2015-05-14T02:10:23.208554+00:00" last-semantic-change="2015-04-30T12:17:11.481869+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Fußball-Bundesliga</supertitle>
+            <title py:pytype="str">Die Durchschnittsliga</title>
+            <text py:pytype="str">Vor dem FC Bayern fürchten sich alle Clubs der Welt. Doch dahinter sieht es mit der Qualität mau aus. Die anderen Bundesligavereine verschleppen die Modernisierung.</text>
+            <description py:pytype="str">Vor dem FC Bayern fürchten sich alle Clubs der Welt. Doch dahinter sieht es mit der Qualität mau aus. Die anderen Bundesligavereine verschleppen die Modernisierung.</description>
+            <byline py:pytype="str">von Oliver Fritsch</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-04/bas-dost/" type="jpg" title="Bas Dost" alt="Wolfsburgs Bas Dost beim Kopfball" align="left" publication-date="2015-04-30T15:13:50+00:00" expires="2015-07-30T15:13:54+00:00">
+              <bu py:pytype="str">Wolfsburgs Bas Dost beim Kopfball</bu>
+              <copyright py:pytype="str">© Peter Steffen/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-04/hans-wilhelm-mueller-wohlfahrt-fc-bayern-muenchen-trennung" uniqueId="http://xml.zeit.de/sport/2015-04/hans-wilhelm-mueller-wohlfahrt-fc-bayern-muenchen-trennung" year="2015" issue="16" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-04-17T16:23:50+00:00" date-first-released="2015-04-17T15:18:25.481910+00:00" date-last-published="2015-04-17T16:24:49.744588+00:00" last-semantic-change="2015-04-17T15:17:23.620713+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Sportmedizin</supertitle>
+            <title py:pytype="str">"Müller-Wohlfahrts Türschild macht 50 Prozent der Wirkung aus"</title>
+            <text py:pytype="str">35.000 Verletzungen im Gedächtnis? Unmöglich. Der Sportmediziner Fritz Sörgel relativiert den Kultstatus des Guru-gleich verehrten Doktor Müller-Wohlfahrt.</text>
+            <description py:pytype="str">35.000 Verletzungen im Gedächtnis? Unmöglich. Der Sportmediziner Fritz Sörgel relativiert den Kultstatus des Guru-gleich verehrten Doktor Müller-Wohlfahrt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-04/mueller-wohlfahrt-2/" type="jpg" title="Hans-Wilhelm Müller-Wohlfahrt mit Mario Götze (Archiv)" alt="Hans-Wilhelm Müller-Wohlfahrt mit Mario Götze (Archiv)" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hans-Wilhelm Müller-Wohlfahrt mit Mario Götze (Archiv)</bu>
+              <copyright py:pytype="str">© David Ebener/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-03/arbeitsrecht-heinz-mueller-klage-mainz" uniqueId="http://xml.zeit.de/sport/2015-03/arbeitsrecht-heinz-mueller-klage-mainz" year="2015" issue="12" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-03-25T12:47:32+00:00" date-first-released="2015-03-25T12:48:31.997463+00:00" date-last-published="2015-03-25T12:48:31.997463+00:00" last-semantic-change="2015-03-25T12:47:16.273656+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Arbeitsrecht</supertitle>
+            <title py:pytype="str">Nur noch Rentenverträge für Fußballer?</title>
+            <text py:pytype="str">Der Vertrag des ehemaligen Mainzer Torwarts Heinz Müller lief kürzlich aus. Im Fußball ein normaler Vorgang. Doch Müller klagte dagegen. Und bekam überraschend Recht.</text>
+            <description py:pytype="str">Der Vertrag des ehemaligen Mainzer Torwarts Heinz Müller lief kürzlich aus. Im Fußball ein normaler Vorgang. Doch Müller klagte dagegen. Und bekam überraschend Recht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/heinz-mueller/" type="jpg" title="Heinz Müller" alt="Der ehemalige Mainzer Torwart Heinz Müller" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der ehemalige Mainzer Torwart Heinz Müller</bu>
+              <copyright py:pytype="str">© Fredrik von Erichsen/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-02/nadine-angerer-frauen-fussball-autobiografie" uniqueId="http://xml.zeit.de/sport/2015-02/nadine-angerer-frauen-fussball-autobiografie" year="2015" issue="8" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-03-06T09:32:21+00:00" date-first-released="2015-03-06T08:57:53.925480+00:00" date-last-published="2015-03-06T09:33:21.359171+00:00" last-semantic-change="2015-03-06T08:00:07.334943+00:00" author="Anna Dreher">
+            <supertitle py:pytype="str">Nadine Angerer</supertitle>
+            <title py:pytype="str">"Australier sind krass"</title>
+            <text py:pytype="str">Früher hatte die Torhüterin Nadine Angerer Angst. Dann ging sie nach Australien und erkannte, dass alles gut werden wird. Dort hat sie viel über Deutschland gelernt.</text>
+            <description py:pytype="str">Früher hatte die Torhüterin Nadine Angerer Angst. Dann ging sie nach Australien und erkannte, dass alles gut werden wird. Dort hat sie viel über Deutschland gelernt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/nadine-angerer-3/" type="jpg" title="Nadine Angerer" alt="Die Torhüterin Nadine Angerer" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Torhüterin Nadine Angerer</bu>
+              <copyright py:pytype="str">© Sergio Camacho/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Anna_Dreher/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anna Dreher</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-02/dieter-hecking-trainer-vfl-wolfsburg-bundesliga" uniqueId="http://xml.zeit.de/sport/2015-02/dieter-hecking-trainer-vfl-wolfsburg-bundesliga" year="2015" issue="9" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-04-20T07:44:42+00:00" date-first-released="2015-02-27T08:06:32.875563+00:00" date-last-published="2015-04-20T07:45:41.735012+00:00" last-semantic-change="2015-02-27T09:02:23.881570+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Dieter Hecking</supertitle>
+            <title py:pytype="str">"Nach der Meisterschaft lief in Wolfsburg einiges schief"</title>
+            <text py:pytype="str">Nach dem Titel 2009 setzte der VfL auf große Namen und fiel ab. Jetzt ist der bodenständige Dieter Hecking Trainer, sagt Dieter Hecking. Und kommt den Bayern immer näher.</text>
+            <description py:pytype="str">Nach dem Titel 2009 setzte der VfL auf große Namen und fiel ab. Jetzt ist der bodenständige Dieter Hecking Trainer, sagt Dieter Hecking. Und kommt den Bayern immer näher.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-02/dieter-hecking/" type="jpg" title="Dieter Hecking" alt="Wolfsburgs Trainer Dieter Hecking" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wolfsburgs Trainer Dieter Hecking</bu>
+              <copyright py:pytype="str">© Alex Grimm/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-01/fussball-fans-strafen-pyrotechnik" uniqueId="http://xml.zeit.de/sport/2015-01/fussball-fans-strafen-pyrotechnik" year="2015" issue="4" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-26T16:45:32+00:00" date-first-released="2015-01-26T14:50:56.160099+00:00" date-last-published="2015-01-26T16:46:31.869339+00:00" last-semantic-change="2015-01-26T14:49:52.512543+00:00" author="Fabian Scheler">
+            <supertitle py:pytype="str">Fußball</supertitle>
+            <title py:pytype="str">Wenn Fans zahlen müssen</title>
+            <text py:pytype="str">Benehmen Fußballfans sich daneben, war das für ihre Vereine teuer. Der DFB möchte, dass die Fans die Strafen künftig selbst zahlen. Ist das rechtens?</text>
+            <description py:pytype="str">Benehmen Fußballfans sich daneben, war das für ihre Vereine teuer. Der DFB möchte, dass die Fans die Strafen künftig selbst zahlen. Ist das rechtens?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-01/fan-bengalo/" type="jpg" title="Fan Bengalo" alt="Ein Fußballfan mit einem bengalischen Feuer" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Fußballfan mit einem bengalischen Feuer</bu>
+              <copyright py:pytype="str">© Thomas Eisenhuth/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Fabian_Scheler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Fabian Scheler</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-12/sven-knipphals-crowdfunding-spitzensport" uniqueId="http://xml.zeit.de/sport/2014-12/sven-knipphals-crowdfunding-spitzensport" year="2014" issue="51" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-12-23T09:48:12+00:00" date-first-released="2014-12-23T09:48:53.802955+00:00" date-last-published="2014-12-23T09:49:12.244370+00:00" last-semantic-change="2014-12-23T09:47:47.057557+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Crowdfunding</supertitle>
+            <title py:pytype="str">Der Sprinter, den man mieten kann</title>
+            <text py:pytype="str">Sven Knipphals ist einer der schnellsten Männer des Landes. Trotzdem muss er nebenher arbeiten, um über die Runden zu kommen. Deshalb verkauft er sich nun selbst.</text>
+            <description py:pytype="str">Sven Knipphals ist einer der schnellsten Männer des Landes. Trotzdem muss er nebenher arbeiten, um über die Runden zu kommen. Deshalb verkauft er sich nun selbst.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-12/sven-knipphals/" type="jpg" title="Sven Knipphals" alt="Sven Knipphals (Mitte) bei den Leichtahletik-Europameisterschaften im August in Zürich" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Sven Knipphals (Mitte) bei den Leichtahletik-Europameisterschaften im August in Zürich</bu>
+              <copyright py:pytype="str">© Dean Mouhtaropoulos/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-10/hooligans-koeln-polizei-salafisten" uniqueId="http://xml.zeit.de/sport/2014-10/hooligans-koeln-polizei-salafisten" year="2014" issue="44" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2014-10-28T06:57:41+00:00" date-first-released="2014-10-27T16:55:19.998723+00:00" date-last-published="2014-10-28T06:58:41.623680+00:00" last-semantic-change="2014-10-27T16:54:17.857305+00:00" author="Fabian Scheler">
+            <supertitle py:pytype="str">Demonstration gegen Salafisten</supertitle>
+            <title py:pytype="str">"Hooligans sind der missratene Teil der Fußballfamilie"</title>
+            <text py:pytype="str">Hooligans galten als aussterbende Spezies. Doch sie waren nie weg. Jetzt geben sie sich politisch. Den Politologen Richard Gebhardt beunruhigt das.</text>
+            <description py:pytype="str">Hooligans galten als aussterbende Spezies. Doch sie waren nie weg. Jetzt geben sie sich politisch. Den Politologen Richard Gebhardt beunruhigt das.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2014-10/hooligans-koeln-6/" type="jpg" title="Hooligans Köln" align="left" publication-date="" expires="">
+              <bu py:pytype="str">In Köln demonstrierten gestern mehr als 4.000 Hooligans und Neonazis gegen den Salafismus. Es kam zu Ausschreitungen mit der Polizei.</bu>
+              <copyright py:pytype="str">© Alexander Koerner/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Fabian_Scheler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Fabian Scheler</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-09/tuvia-tenebom-tunnel-susya" uniqueId="http://xml.zeit.de/sport/2014-09/tuvia-tenebom-tunnel-susya" year="2014" issue="39" ressort="Sport" serie="Fett wie ein Turnschuh" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-20T09:35:33+00:00" date-first-released="2014-09-20T09:36:33.028865+00:00" date-last-published="2014-09-20T09:36:33.028865+00:00" last-semantic-change="2014-09-20T09:35:31.009590+00:00" author="Tuvia Tenenbom">
+            <supertitle py:pytype="str">Israel</supertitle>
+            <title py:pytype="str">Die Frau, die meinen Tod verlangt, ist eine nette jüdische Dame</title>
+            <text py:pytype="str">Eine israelische Friedensaktivistin will unseren Fitnesskolumnisten umbringen. Der flüchtet in die berühmte Wüstenstadt Susya. Und entdeckt neue Sportgelegenheiten.</text>
+            <description py:pytype="str">Eine israelische Friedensaktivistin will unseren Fitnesskolumnisten umbringen. Der flüchtet in die berühmte Wüstenstadt Susya. Und entdeckt neue Sportgelegenheiten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-09/tuvia-susya/" type="jpg" title="Tuvia Susya" alt="Tuvia Tenenbom unterirdisch in Susya" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tuvia Tenenbom unterirdisch in Susya</bu>
+              <copyright py:pytype="str">© Isi Tenenbom</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Tuvia_Tenenbom" publication-date="" expires="">
+              <display_name py:pytype="str">Tuvia Tenenbom</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2014/35/hooligan-fussball-sicherheit-dfl" uniqueId="http://xml.zeit.de/2014/35/hooligan-fussball-sicherheit-dfl" year="2014" issue="35" ressort="Sport" contenttype="article" publication-date="2014-09-03T23:57:16+00:00" expires="" genre="kommentar" date-last-modified="2014-09-03T23:57:17+00:00" date-first-released="2014-08-22T08:36:33.787442+00:00" date-last-published="2014-09-03T23:58:16.967459+00:00" last-semantic-change="2014-08-22T08:35:31.598302+00:00" author="Lorenz Maroldt">
+            <supertitle py:pytype="str">Fangewalt</supertitle>
+            <title py:pytype="str">Die VIP-Logen-Pupser wollen ihre Ruhe</title>
+            <text py:pytype="str">Mit der echten Fanwelt haben weder Vereinsbosse noch Politiker zu tun. Jetzt streiten sie, wer die Polizei bezahlen soll. Doch darauf kommt es gar nicht an.</text>
+            <description py:pytype="str">Mit der echten Fanwelt haben weder Vereinsbosse noch Politiker zu tun. Jetzt streiten sie, wer die Polizei bezahlen soll. Doch darauf kommt es gar nicht an.</description>
+            <byline py:pytype="str">von Lorenz Maroldt</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-08/fussballfeld/" type="jpg" alt="Hier ist es oft ruhiger als vor dem Stadion: Ein Fußballfeld" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hier ist es oft ruhiger als vor dem Stadion: Ein Fußballfeld</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=268917">© lenipopeni / photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Lorenz_Maroldt" publication-date="" expires="">
+              <display_name py:pytype="str">Lorenz Maroldt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-08/supercup-bayern-dortmund-rummenigge-watzke" uniqueId="http://xml.zeit.de/sport/2014-08/supercup-bayern-dortmund-rummenigge-watzke" year="2014" issue="33" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-13T18:20:30+00:00" date-first-released="2014-08-13T13:27:01.170981+00:00" date-last-published="2014-08-13T18:21:30.222691+00:00" last-semantic-change="2014-08-13T13:25:56.729685+00:00" author="Oliver Fritsch">
+            <supertitle py:pytype="str">Dortmund gegen Bayern im Supercup</supertitle>
+            <title py:pytype="str">Die Geschichte von Aki und Kalle</title>
+            <text py:pytype="str">Und vom Kloppo, Schweini und von der Susi. Heute ist Supercup zwischen Bayern und Dortmund. Die spielen noch nicht gut, doch beim Sichdooffinden sind alle schon in Form.</text>
+            <description py:pytype="str">Und vom Kloppo, Schweini und von der Susi. Heute ist Supercup zwischen Bayern und Dortmund. Die spielen noch nicht gut, doch beim Sichdooffinden sind alle schon in Form.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-08/rummenigge-watzke/" type="jpg" title="Rummenigge Watzke" alt="Karl-Heinz Rummenigge und Hans-Joachim Watzke in Aktion" align="left" publication-date="2014-08-13T11:50:30+00:00" expires="2014-09-13T11:50:37+00:00">
+              <bu py:pytype="str">Karl-Heinz Rummenigge und Hans-Joachim Watzke in Aktion</bu>
+              <copyright py:pytype="str" link="http://commons.wikimedia.org/wiki/File:Kasperletheater.jpg">© Wikimedia/Public Domain</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-05/adidas-bayern-muenchen-dfb-hainer" uniqueId="http://xml.zeit.de/sport/2014-05/adidas-bayern-muenchen-dfb-hainer" year="2014" issue="21" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-21T15:57:41+00:00" date-first-released="2014-05-21T08:27:38.901566+00:00" date-last-published="2014-05-21T15:58:41.115614+00:00" last-semantic-change="2014-05-21T09:39:26.077566+00:00" author="Oliver Fritsch">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Adidas</supertitle>
+            <title py:pytype="str">Die Erfinder der modernen Sportkorruption</title>
+            <text py:pytype="str">Adidas ist Teil deutscher Fußballkultur und eine Macht im Sport. Doch die Methoden des Ausrüsters sind seit Jahrzehnten fragwürdig.</text>
+            <description py:pytype="str">Adidas ist Teil deutscher Fußballkultur und eine Macht im Sport. Doch die Methoden des Ausrüsters sind seit Jahrzehnten fragwürdig.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-05/adidas-ball/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Ronny Hartmann/Bongarts/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-04/rb-leipzig-hansa-rostock-ostfussball" uniqueId="http://xml.zeit.de/sport/2014-04/rb-leipzig-hansa-rostock-ostfussball" year="2014" issue="17" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-04T10:07:19+00:00" date-first-released="2014-04-27T13:01:07.091745+00:00" date-last-published="2014-09-04T10:08:19.417785+00:00" last-semantic-change="2014-04-27T13:03:01.837574+00:00" author="Oliver Fritsch">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">RB Leipzig</supertitle>
+            <title py:pytype="str">Der neue Osten gegen den alten</title>
+            <text py:pytype="str">RB Leipzig ist als Retortenverein verhasst, seine Anhänger gelten als Klatschpappenfans. Das ist Klischee, doch die Fans von Hansa Rostock reagieren auf sie mit Gewalt.</text>
+            <description py:pytype="str">RB Leipzig ist als Retortenverein verhasst, seine Anhänger gelten als Klatschpappenfans. Das ist Klischee, doch die Fans von Hansa Rostock reagieren auf sie mit Gewalt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-04/Red-Bull-Leipzig/" type="jpg" title="Red-Bull-Leipzig" align="left" publication-date="" expires="2014-07-27T12:32:40+00:00">
+              <bu py:pytype="str">Fans von Red Bull Leipzig</bu>
+              <copyright py:pytype="str">© Thomas Eisenhuth/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Oliver_Fritsch-2/index" publication-date="" expires="">
+              <display_name py:pytype="str">Oliver Fritsch</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-04/sportjournalisten-clubmedien-fanmedien-fantum" uniqueId="http://xml.zeit.de/sport/2014-04/sportjournalisten-clubmedien-fanmedien-fantum" year="2014" issue="14" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-02T16:32:39+00:00" date-first-released="2014-04-02T16:33:38.849963+00:00" date-last-published="2014-04-02T16:33:38.849963+00:00" last-semantic-change="2014-04-02T16:32:36.785465+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Sportjournalismus</supertitle>
+            <title py:pytype="str">Journalisten sind auch nur Fans</title>
+            <text py:pytype="str">Als Fans getarnte Journalisten, oder umgekehrt? In den Medienbereichen deutscher Fußballstadien geht es subjektiver zu als man denkt.</text>
+            <description py:pytype="str">Als Fans getarnte Journalisten, oder umgekehrt? In den Medienbereichen deutscher Fußballstadien geht es subjektiver zu als man denkt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-04/jarchow-journalisten/" type="jpg" title="Jarchow" alt="Journalistentraube um Carl Edgar Jarchow vom Hamburger SV" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Journalistentraube um Carl Edgar Jarchow vom Hamburger SV</bu>
+              <copyright py:pytype="str">© Axel Heimken/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-05/fussball-rb-leipzig-zweite-liga-langfassung" uniqueId="http://xml.zeit.de/sport/2014-05/fussball-rb-leipzig-zweite-liga-langfassung" year="2014" issue="20" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-31T09:42:17+00:00" date-first-released="2014-05-09T07:48:31.880675+00:00" date-last-published="2014-07-31T09:43:16.655995+00:00" last-semantic-change="2014-05-09T07:47:28.485500+00:00" author="Martin Machowecz">
+            <supertitle py:pytype="str">RB Leipzig</supertitle>
+            <title py:pytype="str">Wir Ossis brauchen den Retortenverein!</title>
+            <text py:pytype="str">Überall hat der Osten den Westen eingeholt. Und beim Fußball? RB muss die Profi-Lizenz von der DFL bekommen. Denn so ein Verein fehlt in Leipzig. Eine Sympathiebekundung</text>
+            <description py:pytype="str">Überall hat der Osten den Westen eingeholt. Und beim Fußball? RB muss die Profi-Lizenz von der DFL bekommen. Denn so ein Verein fehlt in Leipzig. Eine Sympathiebekundung</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2014-05/rb-leipzig/" type="jpg" title="RB Leipzig" alt="RB Leipzig" align="left" publication-date="" expires="2014-08-08T12:06:50+00:00">
+              <bu py:pytype="str">Leipzigs Spieler feiern den sportlichen Aufstieg in die Zweite Liga.
+</bu>
+              <copyright py:pytype="str">© Jan Woitas/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Martin_Machowecz/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Martin Machowecz</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-04/rassismus-nba-sterling-snoop-dogg" uniqueId="http://xml.zeit.de/sport/2014-04/rassismus-nba-sterling-snoop-dogg" year="2014" issue="17" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-06-27T00:38:19+00:00" date-first-released="2014-04-28T14:56:32.433441+00:00" date-last-published="2014-06-27T03:02:17+00:00" last-semantic-change="2014-04-28T14:46:57.356719+00:00" author="Tobias Jochheim">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Rassismus im US-Sport</supertitle>
+            <title py:pytype="str">Im Basketball haben die Weißen die Macht</title>
+            <text py:pytype="str">Er verdient mit schwarzen Spielern Millionen, mit rassistischen Sätzen beleidigt er sie – Teambosse wie Donald Sterling denken und reden wie moderne Plantagenbesitzer.</text>
+            <description py:pytype="str">Er verdient mit schwarzen Spielern Millionen, mit rassistischen Sätzen beleidigt er sie – Teambosse wie Donald Sterling denken und reden wie moderne Plantagenbesitzer.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-04/nba-donald-sterling-2/" type="jpg" title="NBA Donald Sterling" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Donald Sterling (l.)</bu>
+              <copyright py:pytype="str">© Ronald Martinez/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/J/Tobias_Jochheim/index" publication-date="" expires="">
+              <display_name py:pytype="str">Tobias Jochheim</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-05/fan-energie-cottbus-fussball" uniqueId="http://xml.zeit.de/sport/2014-05/fan-energie-cottbus-fussball" year="2014" issue="20" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-13T11:36:12+00:00" date-first-released="2014-05-13T11:28:30.237546+00:00" date-last-published="2014-05-13T11:37:12.122178+00:00" last-semantic-change="2014-05-13T11:27:27.916987+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Energie Cottbus</supertitle>
+            <title py:pytype="str">Ich war Fan</title>
+            <text py:pytype="str">Nach 17 Jahren verabschiedet sich Energie Cottbus aus dem Profifußball. Eine Zeit, in der der Verein für mich zum Kumpel wurde. </text>
+            <description py:pytype="str">Nach 17 Jahren verabschiedet sich Energie Cottbus aus dem Profifußball. Eine Zeit, in der der Verein für mich zum Kumpel wurde. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-05/cottbus-stadion-freundschaft/" type="jpg" alt="Einsame Zuschauer im Stadion der Freundschaft" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Einsame Zuschauer im Stadion der Freundschaft</bu>
+              <copyright py:pytype="str">© Thomas Eisenhuth/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-04/kreisklasse-schwul-fussball-homophobie-streetboys" uniqueId="http://xml.zeit.de/sport/2014-04/kreisklasse-schwul-fussball-homophobie-streetboys" year="2014" issue="14" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-24T09:39:40+00:00" date-first-released="2014-04-01T16:23:46.845620+00:00" date-last-published="2014-06-30T02:20:42+00:00" last-semantic-change="2014-04-01T13:23:36.049822+00:00" author="Victoria Reith">
+            <supertitle py:pytype="str">Amateurfußball</supertitle>
+            <title py:pytype="str">Keine schwulen Pässe</title>
+            <text py:pytype="str">Die Streetboys München sind der einzige schwule Fußballclub, der in einer Liga des DFB spielt. Nach Thomas Hitzlspergers Coming-out hoffen sie auf mehr Toleranz.</text>
+            <description py:pytype="str">Die Streetboys München sind der einzige schwule Fußballclub, der in einer Liga des DFB spielt. Nach Thomas Hitzlspergers Coming-out hoffen sie auf mehr Toleranz.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-04/Streetboys-fussball/" type="jpg" alt="Spieler der Streetboys " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Spieler der Streetboys </bu>
+              <copyright py:pytype="str">© Victoria Reith</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Victoria_Reith/index" publication-date="" expires="">
+              <display_name py:pytype="str">Victoria Reith</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-05/rb-leipzig-logo-dfl" uniqueId="http://xml.zeit.de/sport/2014-05/rb-leipzig-logo-dfl" year="2014" issue="22" ressort="Sport" contenttype="article" publication-date="" expires="" genre="glosse" date-last-modified="2014-05-28T08:27:31+00:00" date-first-released="2014-05-27T18:00:09.357708+00:00" date-last-published="2014-05-28T08:28:31.256228+00:00" last-semantic-change="2014-05-27T17:59:04.553586+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">RB Leipzig</supertitle>
+            <title py:pytype="str">Bullen, welche Bullen?</title>
+            <text py:pytype="str">RB Leipzig musste sein Logo ändern. Es sah vorher zu sehr nach einer Dose aus. Das Neue ist kaum wiederzuerkennen. Wer das nicht sieht, braucht einen Energydrink.</text>
+            <description py:pytype="str">RB Leipzig musste sein Logo ändern. Es sah vorher zu sehr nach einer Dose aus. Das Neue ist kaum wiederzuerkennen. Wer das nicht sieht, braucht einen Energydrink.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-05/teaser-rb/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© RB Leipzig/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/wm-brasilien-nationalismus-megaevent" uniqueId="http://xml.zeit.de/sport/2014-07/wm-brasilien-nationalismus-megaevent" year="2014" issue="29" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2014-07-11T09:49:49+00:00" date-first-released="2014-07-11T08:41:12.813628+00:00" date-last-published="2014-07-11T08:41:12.813628+00:00" last-semantic-change="2014-07-11T08:40:10.123297+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Sportsoziologe Albrecht Sonntag</supertitle>
+            <title py:pytype="str">"Die WM frisst alles auf"</title>
+            <text py:pytype="str">Die Fußball-Weltmeisterschaft macht uns zu hysterischen Patrioten. Sie lenkt den Blick weg von den gesellschaftlichen Realitäten, sagt Sportsoziologe Albrecht Sonntag.</text>
+            <description py:pytype="str">Die Fußball-Weltmeisterschaft macht uns zu hysterischen Patrioten. Sie lenkt den Blick weg von den gesellschaftlichen Realitäten, sagt Sportsoziologe Albrecht Sonntag.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/brasilien-fans/" type="jpg" alt="Brasiliens junge Fans" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Brasiliens junge Fans</bu>
+              <copyright py:pytype="str">© Laurence Griffiths/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+              <location>Rio de Janeiro</location>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-c3317402-891f-4995-a732-154133abba39">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2015-08/schach-blog-drei-turniere" uniqueId="http://xml.zeit.de/sport/2015-08/schach-blog-drei-turniere" year="2015" issue="34" ressort="Sport" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/schach/ich-muss-ein-echter-schachspieler-sein/" date-last-modified="2015-08-22T10:23:09+00:00" date-first-released="2015-08-22T10:24:08.660340+00:00" date-last-published="2015-08-22T10:24:08.660340+00:00" last-semantic-change="2015-08-22T10:22:56.233841+00:00" author="Ilja Schneider">
+            <supertitle py:pytype="str">Schachmarathon</supertitle>
+            <title py:pytype="str">Verdammt, ich bin schachkrank!</title>
+            <text py:pytype="str">Unser Autor träumt von lauen Sommerabenden in der Natur. Stattdessen sitzt er in miefigen Turnhallen und spielt drei Schachturniere in 30 Stunden in drei Bundesländern.</text>
+            <description py:pytype="str">Unser Autor träumt von lauen Sommerabenden in der Natur. Stattdessen sitzt er in miefigen Turnhallen und spielt drei Schachturniere in 30 Stunden in drei Bundesländern.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/literatur/2014-11/schach-glavinic/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=27352">© Janine Wittig / photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Ilja_Schneider/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ilja Schneider</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-08/paul-kalkbrenner-fussball-fcbayern" uniqueId="http://xml.zeit.de/sport/2015-08/paul-kalkbrenner-fussball-fcbayern" year="2015" issue="32" ressort="Sport" serie="Alles über Fußball" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-08-10T15:56:34+00:00" date-first-released="2015-08-10T15:57:11.070972+00:00" date-last-published="2015-08-10T15:57:34.187559+00:00" last-semantic-change="2015-08-10T15:56:08.217969+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Paul Kalkbrenner</supertitle>
+            <title py:pytype="str">"Wir sind zu gut für die Bundesliga, das ist mir fast peinlich"</title>
+            <text py:pytype="str">Paul Kalkbrenner ist Musiker und Bayernfan. Er will keine Dorfvereine in der Bundesliga, braucht keine Ultras und sagt, der FC Bayern sollte nicht so auf Familie machen.</text>
+            <description py:pytype="str">Paul Kalkbrenner ist Musiker und Bayernfan. Er will keine Dorfvereine in der Bundesliga, braucht keine Ultras und sagt, der FC Bayern sollte nicht so auf Familie machen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-08/paul-kalkbrenner/" type="jpg" title="Paul Kalkbrenner" alt="Ein Roter, immer: Paul Kalkbrenner in Aktion" align="left" publication-date="2015-08-10T10:27:33+00:00" expires="2015-09-10T10:27:35+00:00">
+              <bu py:pytype="str">Ein Roter, immer: Paul Kalkbrenner in Aktion</bu>
+              <copyright py:pytype="str">© Benoit Tessier/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-06/sommer-sport-trends-bossaball-skateboard" uniqueId="http://xml.zeit.de/sport/2015-06/sommer-sport-trends-bossaball-skateboard" year="2015" issue="25" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-30T11:50:10+00:00" date-first-released="2015-06-30T08:51:58.335718+00:00" date-last-published="2015-06-30T11:43:56.953379+00:00" last-semantic-change="2015-06-30T11:49:40.223508+00:00" author="Arndt-Fabian Rohlfing">
+            <supertitle py:pytype="str">Blobbing</supertitle>
+            <title py:pytype="str">Unsere Sporttrends des Sommers</title>
+            <text py:pytype="str">Kennen Sie Bossaball, Punk Rope oder Blobbing? Wir bis vor Kurzem auch nicht. Sie sind aber das, was man in diesem Sommer gemacht haben muss, behaupten wir jedenfalls.</text>
+            <description py:pytype="str">Kennen Sie Bossaball, Punk Rope oder Blobbing? Wir bis vor Kurzem auch nicht. Sie sind aber das, was man in diesem Sommer gemacht haben muss, behaupten wir jedenfalls.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-06/blobbing/" type="jpg" title="Das ist Blobbing" alt="Das ist Blobbing" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das ist Blobbing</bu>
+              <copyright py:pytype="str">© Blob Germany / Blob Europe</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Arndt-Fabian_Rohlfing/index" publication-date="" expires="">
+              <display_name py:pytype="str">Arndt-Fabian Rohlfing</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-05/juergen-klopp-dortmund-dfb-quiz" uniqueId="http://xml.zeit.de/sport/2015-05/juergen-klopp-dortmund-dfb-quiz" year="2015" issue="21" ressort="Sport" contenttype="quiz" publication-date="" expires="" date-last-modified="2015-05-30T16:48:15+00:00" date-first-released="2015-05-30T11:02:22.516000+00:00" date-last-published="2015-05-30T16:49:15.134413+00:00" last-semantic-change="2015-05-30T10:59:09.533716+00:00">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Klopp! Die Wette gilt.</title>
+            <text py:pytype="str">Worüber schrieb Jürgen Klopp seine Diplomarbeit? Wie heißt sein kickender Sohn? Und wie heißt er selbst? Ein Quiz zum Abschied als BVB-Trainer.</text>
+            <description py:pytype="str">Worüber schrieb Jürgen Klopp seine Diplomarbeit? Wie heißt sein kickender Sohn? Und wie heißt er selbst? Ein Quiz zum Abschied als BVB-Trainer.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-05/klopp-quiz-dfb-dortmund/" type="jpg" title="Klopp Quit" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Jürgen Klopp, von 2008 bis 2015 Trainer von Borussia Dortmund</bu>
+              <copyright py:pytype="str">© Patrik Stollarz/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-04/rugby-england-sport-fs" uniqueId="http://xml.zeit.de/sport/2015-04/rugby-england-sport-fs" year="2015" issue="17" ressort="Sport" contenttype="gallery" publication-date="" expires="" date-last-modified="2015-05-04T15:02:28+00:00" date-first-released="2015-05-04T15:03:27.657831+00:00" date-last-published="2015-05-04T15:03:27.657831+00:00" last-semantic-change="2015-05-04T15:02:05.081777+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Rugby</supertitle>
+            <title py:pytype="str">Wo das Ei gelegt wurde</title>
+            <text py:pytype="str">Vor rund 200 Jahren nahm ein Schüler während eines Fußballspiels einfach den Ball in die Hand. Damit gründete er in Rugby Rugby. An der Schule wird immer noch gespielt.</text>
+            <description py:pytype="str">Vor rund 200 Jahren nahm ein Schüler während eines Fußballspiels einfach den Ball in die Hand. Damit gründete er in Rugby Rugby. An der Schule wird immer noch gespielt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-04/rugby-england-sport-fs-teaser/" type="jpg" title="Rugby Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Neil Hall/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-04/kai-ebel-formel-1" uniqueId="http://xml.zeit.de/sport/2015-04/kai-ebel-formel-1" year="2015" issue="16" ressort="Sport" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-04-23T08:29:37+00:00" date-first-released="2015-04-19T08:24:44.569295+00:00" date-last-published="2015-04-23T08:30:37.484218+00:00" last-semantic-change="2015-04-19T08:23:42.106486+00:00" author="Anna Dreher">
+            <supertitle py:pytype="str">Formel-1-Reporter Kai Ebel</supertitle>
+            <title py:pytype="str">"Mensch, der Michael, als der noch fuhr, das war immer so spannend"</title>
+            <text py:pytype="str">Solche Sätze hört der Formel-1-Reporter Kai Ebel oft. Er redet über die vermeintliche Krise der Formel 1 und warum es Vettel und Rosberg in Deutschland so schwer haben.</text>
+            <description py:pytype="str">Solche Sätze hört der Formel-1-Reporter Kai Ebel oft. Er redet über die vermeintliche Krise der Formel 1 und warum es Vettel und Rosberg in Deutschland so schwer haben.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-04/ebel-schumacher/" type="jpg" title="Michal Schumacher und Kai Ebel in Austin, USA, im November 2012" alt="Michal Schumacher und Kai Ebel in Austin, USA, im November 2012" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Michal Schumacher und Kai Ebel in Austin, USA, im November 2012</bu>
+              <copyright py:pytype="str">© David Ebener/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Anna_Dreher/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anna Dreher</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-03/tel-aviv-pilates-tuvia-tenenbom" uniqueId="http://xml.zeit.de/sport/2015-03/tel-aviv-pilates-tuvia-tenenbom" year="2015" issue="13" ressort="Sport" serie="Fett wie ein Turnschuh" contenttype="article" publication-date="" expires="" date-last-modified="2015-03-29T13:27:01+00:00" date-first-released="2015-03-29T12:44:26.157566+00:00" date-last-published="2015-03-29T13:28:00.872262+00:00" last-semantic-change="2015-03-29T12:58:39.142229+00:00" author="Tuvia Tenenbom">
+            <supertitle py:pytype="str">Pilates</supertitle>
+            <title py:pytype="str">"Ich heiße gar nicht Adolf"</title>
+            <text py:pytype="str">Beim Pilates in Unterwäsche braucht unser Fitnesskolumnist ewig, um zu begreifen, dass seine Lehrerin auch jüdisch ist. Plötzlich kann er sogar seinen fetten Bauch heben.</text>
+            <description py:pytype="str">Beim Pilates in Unterwäsche braucht unser Fitnesskolumnist ewig, um zu begreifen, dass seine Lehrerin auch jüdisch ist. Plötzlich kann er sogar seinen fetten Bauch heben.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/tuvia-nicole-pilates/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tuvia und Nicole, seine Pilates-Lehrerin, in Tel Aviv</bu>
+              <copyright py:pytype="str">© Isi Tenenbom</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Tuvia_Tenenbom" publication-date="" expires="">
+              <display_name py:pytype="str">Tuvia Tenenbom</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-03/biathlon-wm-hype-tv" uniqueId="http://xml.zeit.de/sport/2015-03/biathlon-wm-hype-tv" year="2015" issue="10" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-03-05T16:17:24+00:00" date-first-released="2015-03-05T16:18:24.202362+00:00" date-last-published="2015-03-05T16:18:24.202362+00:00" last-semantic-change="2015-03-05T13:03:31.473800+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Biathlon-WM</supertitle>
+            <title py:pytype="str">Ihr habt doch 'nen Schuss!</title>
+            <text py:pytype="str">Heute beginnt mal wieder eine Biathlon-WM. Und wieder werden Millionen Deutsche in ihren Fernsehsesseln dem Hype frönen. Die spinnen doch.</text>
+            <description py:pytype="str">Heute beginnt mal wieder eine Biathlon-WM. Und wieder werden Millionen Deutsche in ihren Fernsehsesseln dem Hype frönen. Die spinnen doch.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-03/biathlon/" type="jpg" title="Biathlon" alt="Biathlon-Massenschießen beim Weltcup in Ruhpolding im Januar" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Biathlon-Massenschießen beim Weltcup in Ruhpolding im Januar</bu>
+              <copyright py:pytype="str">© Matthias Schrader/dpa/picture alliance</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-02/klettern-hallenklettern-natur-vorteile" uniqueId="http://xml.zeit.de/sport/2015-02/klettern-hallenklettern-natur-vorteile" year="2015" issue="7" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-02-17T12:12:22+00:00" date-first-released="2015-02-17T12:13:21.834024+00:00" date-last-published="2015-02-17T12:13:21.834024+00:00" last-semantic-change="2015-02-17T12:12:14.277460+00:00" author="Sebastian Nachbar">
+            <supertitle py:pytype="str">Freizeitsport</supertitle>
+            <title py:pytype="str">Klettern kickt nur am Berg</title>
+            <text py:pytype="str">Hallenklettern ist Volkssport. Doch die künstliche Atmosphäre nervt. Erlebnisse bietet nur die Natur, ohne Kaffeeduft, Kindergeplärr und nackte Muskelprotze.</text>
+            <description py:pytype="str">Hallenklettern ist Volkssport. Doch die künstliche Atmosphäre nervt. Erlebnisse bietet nur die Natur, ohne Kaffeeduft, Kindergeplärr und nackte Muskelprotze.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-02/klettern-berg/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Klettern in der Natur</bu>
+              <copyright py:pytype="str">© photocase</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Sebastian_Nachbar/index" publication-date="" expires="">
+              <display_name py:pytype="str">Sebastian Nachbar</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2015-01/abnehmen-pegida-demo-dresden-tuvia-tenenbom" uniqueId="http://xml.zeit.de/sport/2015-01/abnehmen-pegida-demo-dresden-tuvia-tenenbom" year="2015" issue="4" ressort="Sport" serie="Fett wie ein Turnschuh" contenttype="article" publication-date="" expires="" date-last-modified="2015-01-24T15:42:03+00:00" date-first-released="2015-01-24T15:43:03.131282+00:00" date-last-published="2015-01-24T15:43:03.131282+00:00" last-semantic-change="2015-01-23T14:04:28.891476+00:00" author="Tuvia Tenenbom">
+            <supertitle py:pytype="str">Abnehmen</supertitle>
+            <title py:pytype="str">Pegida ist das perfekte Fitnesstraining</title>
+            <text py:pytype="str">Unser Kolumnist nimmt gerne ab. Deshalb betreibt er den deutschen Nationalsport: Demonstrieren mit den allergrößten Fahnen. Am besten geht das in Dresden.</text>
+            <description py:pytype="str">Unser Kolumnist nimmt gerne ab. Deshalb betreibt er den deutschen Nationalsport: Demonstrieren mit den allergrößten Fahnen. Am besten geht das in Dresden.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-01/tuvia-pegida/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">"Ich liebe Sachsen!"</bu>
+              <copyright py:pytype="str">© Isi Tenenbom</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Tuvia_Tenenbom" publication-date="" expires="">
+              <display_name py:pytype="str">Tuvia Tenenbom</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-10/lance-armstrong-biografie-radsport-betrug" uniqueId="http://xml.zeit.de/sport/2014-10/lance-armstrong-biografie-radsport-betrug" year="2014" issue="41" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-10-25T11:17:54+00:00" date-first-released="2014-10-16T13:21:29.555232+00:00" date-last-published="2014-10-25T11:18:54.692339+00:00" last-semantic-change="2014-10-16T13:20:24.141609+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Lance Armstrong</supertitle>
+            <title py:pytype="str">Was für ein Arsch!</title>
+            <text py:pytype="str">Eine neue Biografie über den Doping-Betrüger zeigt: Lance Armstrong war nicht nur ein Fiesling, sondern der Oberfiesling.</text>
+            <description py:pytype="str">Eine neue Biografie über den Doping-Betrüger zeigt: Lance Armstrong war nicht nur ein Fiesling, sondern der Oberfiesling.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-10/lance-armstrong/" type="jpg" title="Lance Armstrong" alt="Lance Armstrong während der Tour de France 2009" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lance Armstrong während der Tour de France 2009</bu>
+              <copyright py:pytype="str">© Christophe Karaba</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-09/fussballverein-sv-muslime-islam" uniqueId="http://xml.zeit.de/sport/2014-09/fussballverein-sv-muslime-islam" year="2014" issue="39" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-12-17T15:07:21+00:00" date-first-released="2014-09-23T11:02:50.410497+00:00" date-last-published="2014-12-17T15:08:21.075432+00:00" last-semantic-change="2014-09-23T11:01:42.309559+00:00" author="Konstantin Ulmer">
+            <supertitle py:pytype="str">Muslimischer Fußballverein</supertitle>
+            <title py:pytype="str">Kein Bier, kein Nacktduschen, kein Fluchen</title>
+            <text py:pytype="str">Der SV Muslime ist der erste islamische Fußballclub des Landes. Anfangs kritisch beäugt, haben sie drei Fairplay-Preise gewonnen. Jetzt wollen sie aufsteigen, Inschallah.</text>
+            <description py:pytype="str">Der SV Muslime ist der erste islamische Fußballclub des Landes. Anfangs kritisch beäugt, haben sie drei Fairplay-Preise gewonnen. Jetzt wollen sie aufsteigen, Inschallah.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-09/svmuslime-2/" type="jpg" title="SV Muslime" alt="Training beim SV Muslime in Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Training beim SV Muslime in Hamburg</bu>
+              <copyright py:pytype="str">© Konstantin Ulmer</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/U/Konstantin_Ulmer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Konstantin Ulmer</display_name>
+              <location>Hamburg</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-08/fc-schalke-04-gazprom-bundesliga" uniqueId="http://xml.zeit.de/sport/2014-08/fc-schalke-04-gazprom-bundesliga" year="2014" issue="34" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-27T09:49:00+00:00" date-first-released="2014-08-20T11:35:35.185360+00:00" date-last-published="2015-04-27T09:50:00.248019+00:00" last-semantic-change="2014-08-20T11:34:29.268576+00:00" author="Tobias Jochheim">
+            <supertitle py:pytype="str">Schalke 04 und Gazprom</supertitle>
+            <title py:pytype="str">Schalke ist längst Gazprom-Land</title>
+            <text py:pytype="str">Ukraine-Krieg, MH17, Sanktionen? Eigentlich müsste auf Schalke über den Hauptsponsor, Russlands Staatskonzern Gazprom, diskutiert werden. Eigentlich.</text>
+            <description py:pytype="str">Ukraine-Krieg, MH17, Sanktionen? Eigentlich müsste auf Schalke über den Hauptsponsor, Russlands Staatskonzern Gazprom, diskutiert werden. Eigentlich.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-08/gasprom-schalke/" type="jpg" title="Erwin Schalke Gazprom" alt="Schalkes Maskottchen Erwin mit Gasprom-Trikot (Archiv)" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Schalkes Maskottchen Erwin mit Gazprom-Trikot (Archiv)</bu>
+              <copyright py:pytype="str">©  Franz-Peter Tschauner/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/J/Tobias_Jochheim/index" publication-date="" expires="">
+              <display_name py:pytype="str">Tobias Jochheim</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-08/ukraine-fussball-donezk-schachtjor" uniqueId="http://xml.zeit.de/sport/2014-08/ukraine-fussball-donezk-schachtjor" year="2014" issue="33" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-11T11:44:18+00:00" date-first-released="2014-08-11T11:45:18.508497+00:00" date-last-published="2014-08-11T11:45:18.508497+00:00" last-semantic-change="2014-08-11T11:44:11.665702+00:00" author="Olaf Sundermeyer">
+            <supertitle py:pytype="str">Ukrainische Liga</supertitle>
+            <title py:pytype="str">Fußball in Zeiten des Krieges</title>
+            <text py:pytype="str">Während in Donezk Granaten fliegen, trägt das heimische Team seine Spiele in Lemberg aus, 1.000 Kilometer entfernt. Die Fußballoligarchen wollen Normalität simulieren.</text>
+            <description py:pytype="str">Während in Donezk Granaten fliegen, trägt das heimische Team seine Spiele in Lemberg aus, 1.000 Kilometer entfernt. Die Fußballoligarchen wollen Normalität simulieren.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-08/donezk-fussball/" type="jpg" title="Donezk Fussball" alt="In Donezk gibt es das heimische Team Schachtjor nur auf Werbeplakaten." align="left" publication-date="" expires="">
+              <bu py:pytype="str">In Donezk gibt es das heimische Team Schachtjor nur auf Werbeplakaten.</bu>
+              <copyright py:pytype="str">©  Robert Ghement/picture alliance/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Olaf_Sundermeyer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Olaf Sundermeyer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/schweinsteiger-lied-deutsche-fans-bundesliga" uniqueId="http://xml.zeit.de/sport/2014-07/schweinsteiger-lied-deutsche-fans-bundesliga" year="2014" issue="31" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-29T06:45:34+00:00" date-first-released="2014-07-28T15:10:46.422938+00:00" date-last-published="2014-07-29T06:46:34.236089+00:00" last-semantic-change="2014-07-28T15:09:42.889427+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Bastian Schweinsteiger</supertitle>
+            <title py:pytype="str">So sing'n die Deutschen</title>
+            <text py:pytype="str">Wenn’s doch nur die Hurensöhne wären. Nicht Bastian Schweinsteigers BVB-Schmäh nervt, sondern die Einfalt deutscher Fangesänge.</text>
+            <description py:pytype="str">Wenn’s doch nur die Hurensöhne wären. Nicht Bastian Schweinsteigers BVB-Schmäh nervt, sondern die Einfalt deutscher Fangesänge.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/schweinsteiger-neuer-lied/" type="jpg" title="Schweinsteiger Neuer Lied" align="left" publication-date="" expires="2014-10-28T16:02:15+00:00">
+              <bu py:pytype="str">Helene Fischer singt auf der Berliner Fanmeile nach dem WM-Sieg mit Nationalspieler Manuel Neuer und Bastian Schweinsteiger.</bu>
+              <copyright py:pytype="str">© Stefan Matzke/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/deutschland-nationalmannschaft-social-media" uniqueId="http://xml.zeit.de/sport/2014-07/deutschland-nationalmannschaft-social-media" year="2014" issue="27" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-16T13:35:33+00:00" date-first-released="2014-07-03T18:10:54.896855+00:00" date-last-published="2014-08-16T13:36:32.797113+00:00" last-semantic-change="2014-07-03T18:09:50.353623+00:00" author="Eike Kühl;Paul Hofmann">
+            <supertitle py:pytype="str">Twitter-Typologie der Nationalmannschaft</supertitle>
+            <title py:pytype="str">Mario Götze, das lebende Selfie</title>
+            <text py:pytype="str">Die DFB-Spieler entdecken Twitter für sich – doch wer zwitschert, wie er spielt und wer verbreitet nur heiße Luft im Netz? Wir haben uns acht Spieler genauer angesehen.</text>
+            <description py:pytype="str">Die DFB-Spieler entdecken Twitter für sich – doch wer zwitschert, wie er spielt und wer verbreitet nur heiße Luft im Netz? Wir haben uns acht Spieler genauer angesehen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/goetze-twitter/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mario Götze beim Yoga, äh, Selfie-Knipsen</bu>
+              <copyright py:pytype="str">© Mario Götze/Twitter</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/H/Paul_Hofmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Paul Hofmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/kultur/2014-07/mertesacker-wutausbruch-interview-fussball" uniqueId="http://xml.zeit.de/kultur/2014-07/mertesacker-wutausbruch-interview-fussball" year="2014" issue="27" ressort="Kultur" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2014-08-15T17:22:15+00:00" date-first-released="2014-07-01T13:34:29.778934+00:00" date-last-published="2014-08-15T17:23:15.044539+00:00" last-semantic-change="2014-07-01T13:33:27.845070+00:00" author="David Hugendick">
+            <supertitle py:pytype="str">Fußball-Berichterstattung</supertitle>
+            <title py:pytype="str">Haut ab mit eurem Wow-Effekt!</title>
+            <text py:pytype="str">Die Medien wollen Tore, Jubel und Tränen während der Fußball-WM. Gut, dass Per Mertesacker im großen Gefühlsgekübel des Turniers ein ehrlicher Affekt überkommt: der Zorn.</text>
+            <description py:pytype="str">Die Medien wollen Tore, Jubel und Tränen während der Fußball-WM. Gut, dass Per Mertesacker im großen Gefühlsgekübel des Turniers ein ehrlicher Affekt überkommt: der Zorn.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2014-07/mertesacker/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Per Mertesacker am Abend des Achtelfinalspiels gegen Algerien</bu>
+              <copyright py:pytype="str">© Martin Rose/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/David_Hugendick/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">David Hugendick</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/sport/2014-07/deutsche-fussballnationalmannschaft-weltmeister-empfang-tegel" uniqueId="http://xml.zeit.de/sport/2014-07/deutsche-fussballnationalmannschaft-weltmeister-empfang-tegel" year="2014" issue="29" ressort="Sport" contenttype="article" publication-date="" expires="" genre="reportage" date-last-modified="2014-07-15T17:46:25+00:00" date-first-released="2014-07-15T16:09:28.861435+00:00" date-last-published="2014-07-15T17:47:25.502203+00:00" last-semantic-change="2014-07-15T16:08:21.844774+00:00" author="Paul Hofmann">
+            <supertitle py:pytype="str">Nationalmannschaft</supertitle>
+            <title py:pytype="str">Die Weltmeister landen, die Fans heben ab</title>
+            <text py:pytype="str">Fahnen, Hymnen, Gemecker und viel Geduld: Als der "Fanhansa-Siegerflieger" in Berlin endlich landet, verwandelt sich die wartende Menge in ein Deutschland-Konzentrat.</text>
+            <description py:pytype="str">Fahnen, Hymnen, Gemecker und viel Geduld: Als der "Fanhansa-Siegerflieger" in Berlin endlich landet, verwandelt sich die wartende Menge in ein Deutschland-Konzentrat.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-07/ger-fans-flughafen/" type="jpg" title="Deutsche Fans am Flughafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Deutsche Fans warten auf den Siegerflieger.</bu>
+              <copyright py:pytype="str">© Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Paul_Hofmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Paul Hofmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/kultur/2014-07/schweinsteiger-blutkrieger-dfb-medienkritik" uniqueId="http://xml.zeit.de/kultur/2014-07/schweinsteiger-blutkrieger-dfb-medienkritik" year="2014" issue="29" ressort="Kultur" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2014-07-15T05:12:19+00:00" date-first-released="2014-07-14T16:40:31.563505+00:00" date-last-published="2014-07-15T04:47:14.448838+00:00" last-semantic-change="2014-07-15T05:11:51.161128+00:00" author="Klaus Raab">
+            <supertitle py:pytype="str">Fußball-WM</supertitle>
+            <title py:pytype="str">Die deutschen Panzer rollen wieder</title>
+            <text py:pytype="str">Sie arbeiten in Redaktionen und lesen zu viel Fantasy. So wurde Bastian Schweinsteiger nach dem WM-Finale zum "Blutkrieger" und die Argentinier zu "Brutalo-Gauchos". </text>
+            <description py:pytype="str">Sie arbeiten in Redaktionen und lesen zu viel Fantasy. So wurde Bastian Schweinsteiger nach dem WM-Finale zum "Blutkrieger" und die Argentinier zu "Brutalo-Gauchos". </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2014-07/bastian-schweinsteiger-finale/" type="jpg" alt="Bastian Schweinsteiger" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Bastian Schweinsteiger zog sich beim Fußballspielen eine Wunde unter dem Auge zu.</bu>
+              <copyright py:pytype="str">© REUTERS/Paulo Whitaker</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Klaus_Raab/index" publication-date="" expires="">
+              <display_name py:pytype="str">Klaus Raab</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Sport</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Sport</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Sport</text>
+  </indexteaser>
+</centerpage>

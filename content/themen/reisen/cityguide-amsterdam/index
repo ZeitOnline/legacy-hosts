@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <image base-id="http://xml.zeit.de/reisen/2014-02/city-guide-amsterdam-02/" type="jpg" title="City Guide Amsterdam" align="left" publication-date="" expires="">
+      <bu py:pytype="str">Houses are reflected on January 10, 2013 on the Herengracht, one of the city of Amsterdam's three main canals. 2013 will mark the 400th anniversary since construction began on Amsterdam?s world renowned Canal Ring that was added to the UNESCO World Heritage list.   AFP PHOTO / ANP / JERRY LAMPEN    -- The Netherlands out --        (Photo credit should read JERRY LAMPEN/AFP/Getty Images)</bu>
+      <copyright py:pytype="str">© Jerry Lampen/AFP/Getty Images</copyright>
+    </image>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-amsterdam/header-ts-amsterdam" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© [M] Robin van Lonkhuijsen/AFP/Getty Images </copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T07:46:07.149787+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-07-03T05:19:21.619895+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T07:47:20.914438+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-07-03T05:18:31.777391+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Amsterdam | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T07:46:04.505631+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">621240131</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2014-07-03T05:18:18+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:d20a7901-797b-4a7a-948e-799c019c4568}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">24</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-3c16c529-19e3-4eb3-870c-4916d74349aa">
+          <block href="http://xml.zeit.de/2014/26/amsterdam-city-guide" uniqueId="http://xml.zeit.de/2014/26/amsterdam-city-guide" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:01:51+00:00" expires="" date-last-modified="2014-07-14T07:40:37+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-03T09:12:34.589862+00:00" last-semantic-change="2014-07-03T08:57:12.302649+00:00" author="Birgit Schönau">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Die Kunst der Stunde</title>
+            <text py:pytype="str">Wer auf Rembrandts Spuren durch Amsterdam radelt, versteht, wie die Stadt so lebendig, so tüchtig, so frei wurde. Hier schließen sich Kunst- und Geschäftssinn nicht aus.</text>
+            <description py:pytype="str">Wer auf Rembrandts Spuren durch Amsterdam radelt, versteht, wie die Stadt so lebendig, so tüchtig, so frei wurde. Hier schließen sich Kunst- und Geschäftssinn nicht aus.</description>
+            <byline py:pytype="str">von  Birgit Schönau</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/rembrandshuis/" type="jpg" title="Rembrandshuis" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Rembrandts Wohnhaus in der Jodenbreestraat</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Birgit_Schoenau/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Birgit Schönau</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-973dcbe2-74f3-4ce3-831c-93e8b311e0ee">
+          <block href="http://xml.zeit.de/2014/26/amsterdam-ilse-delange" uniqueId="http://xml.zeit.de/2014/26/amsterdam-ilse-delange" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:09:44+00:00" expires="" date-last-modified="2014-07-14T07:40:37+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-12T08:12:20.804456+00:00" last-semantic-change="2014-07-01T10:42:14.201661+00:00" author="Ulf Lippitz">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Oh, du schöner Lindenduft</title>
+            <text py:pytype="str">Schiefe Häuser und kleine Geschäfte: Negen Straatjes heißt das malerische Viertel Amsterdams. Die Sängerin Ilse DeLange erzählt, wieso sie dort immer gute Laune bekommt. </text>
+            <description py:pytype="str">Schiefe Häuser und kleine Geschäfte: Negen Straatjes heißt das malerische Viertel Amsterdams. Die Sängerin Ilse DeLange erzählt, wieso sie dort immer gute Laune bekommt. </description>
+            <byline py:pytype="str">von  Ulf Lippitz</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/wolvenstraat/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Gäste vor dem Cafe Wolvenstraat 23</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulf Lippitz</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-2eab4c99-bdf9-46b3-a528-1da0bc80af84">
+          <block href="http://xml.zeit.de/2014/26/nachtleben-in-amsterdam-mirik-milan" uniqueId="http://xml.zeit.de/2014/26/nachtleben-in-amsterdam-mirik-milan" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:39:28+00:00" expires="" date-last-modified="2014-07-14T07:40:38+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-12T08:12:20.023959+00:00" last-semantic-change="2014-07-12T08:11:14.265618+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">"Wir haben den Ruf, wahnsinnig liberal zu sein"</title>
+            <text py:pytype="str">Amsterdams Nachtbürgermeister Mirik Milan will dafür sorgen, dass der Ruf nicht leidet. Ein Gespräch über strenge Öffnungszeiten im Nachtleben und gepflegte Joints</text>
+            <description py:pytype="str">Amsterdams Nachtbürgermeister Mirik Milan will dafür sorgen, dass der Ruf nicht leidet. Ein Gespräch über strenge Öffnungszeiten im Nachtleben und gepflegte Joints</description>
+            <byline py:pytype="str">von  Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/Tolhuistuin-amsterdam/" type="jpg" title="Tolhuistuin Amsterdam" alt="Tolhuistuin Amsterdam" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Club Tolhuistuin hat erst kürzlich eröffnet.</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-03653ceb-d129-45fc-bb3e-a72f27b280f5">
+          <block href="http://xml.zeit.de/2014/26/hotel-amsterdam-andaz" uniqueId="http://xml.zeit.de/2014/26/hotel-amsterdam-andaz" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:07:17+00:00" expires="" date-last-modified="2014-07-16T19:54:52+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-16T19:55:52.296886+00:00" last-semantic-change="2014-07-16T19:54:48.285854+00:00" author="Merten Worthmann">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Tulpensessel aus Amsterdam</title>
+            <text py:pytype="str">Der Designer Marcel Wanders hat das Hotel Andaz in der niederländischen Metropole entworfen. Es ist ein romantischer Protest gegen Purismus und ein Fest für die Augen.</text>
+            <description py:pytype="str">Der Designer Marcel Wanders hat das Hotel Andaz in der niederländischen Metropole entworfen. Es ist ein romantischer Protest gegen Purismus und ein Fest für die Augen.</description>
+            <byline py:pytype="str">von  Merten Worthmann</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/andaz-amsterdam/" type="jpg" title="Hotel Andaz Amsterdam" alt="In der Lobby des Hotel Andaz" align="left" publication-date="" expires="">
+              <bu py:pytype="str">In der Lobby des Hotel Andaz</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Merten_Worthmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Merten Worthmann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-a553de25-417f-4be2-ba11-375ff0a5afda">
+          <block href="http://xml.zeit.de/reisen/2014-07/amsterdam-restaurants" uniqueId="http://xml.zeit.de/reisen/2014-07/amsterdam-restaurants" year="2014" issue="24" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T03:20:55+00:00" expires="" date-last-modified="2014-07-14T07:40:40+00:00" date-first-released="2014-07-03T03:21:56.428346+00:00" date-last-published="2014-07-09T04:44:43.196957+00:00" last-semantic-change="2014-07-01T09:20:34.993213+00:00">
+            <supertitle py:pytype="str">Restaurants in Amsterdam</supertitle>
+            <title py:pytype="str">Verspielte neuholländische Küche</title>
+            <text py:pytype="str">Brutzelndes Grillfleisch, Street-Food aus dem Sterne-Lokal und Traditionelles aus Surinam: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Amsterdam.</text>
+            <description py:pytype="str">Brutzelndes Grillfleisch, Street-Food aus dem Sterne-Lokal und Traditionelles aus Surinam: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Amsterdam.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/samhoud-places/" type="jpg" title="samhoud places" alt="Das Street-Food-Restaurant von &amp;samhoud places" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Street-Food-Restaurant von &amp;samhoud places</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-8a38d995-413c-45af-95b5-d29f6847b7e2">
+          <block href="http://xml.zeit.de/2014/26/kroketten-amsterdam" uniqueId="http://xml.zeit.de/2014/26/kroketten-amsterdam" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:21:57+00:00" expires="" date-last-modified="2014-07-09T04:43:42+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-09T04:44:42.128165+00:00" last-semantic-change="2014-07-09T04:43:24.433618+00:00" author="Michael Allmaier">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Korrekte Krokette</title>
+            <text py:pytype="str">Kommt aus dem Automaten, kann explodieren und schmeckt besonders gut, wenn man es beim Konditor kauft: Kroketten sind der beliebteste Snack der Niederlande. Wie kommt's?</text>
+            <description py:pytype="str">Kommt aus dem Automaten, kann explodieren und schmeckt besonders gut, wenn man es beim Konditor kauft: Kroketten sind der beliebteste Snack der Niederlande. Wie kommt's?</description>
+            <byline py:pytype="str">von  Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/kroketten-amsterdam/" type="jpg" title="Kroketten Holtkamp" alt="Kroketten Holtkamp" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Kroketten werden in den Niederlanden dem Backwerk zugerechnet. In der Konditorei Holtkamp gibt es die besten.</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-2e411e94-a88d-4413-87a0-30a126b671f0">
+          <block href="http://xml.zeit.de/2014/26/radfahren-amsterdam" uniqueId="http://xml.zeit.de/2014/26/radfahren-amsterdam" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:13:08+00:00" expires="" date-last-modified="2014-07-14T07:40:39+00:00" date-first-released="2014-06-18T06:00:00+00:00" date-last-published="2014-07-05T16:26:28.502226+00:00" last-semantic-change="2014-07-05T16:25:27.329595+00:00" author="Karsten Polke-Majewski">
+            <supertitle py:pytype="str">Radfahren in Amsterdam</supertitle>
+            <title py:pytype="str">Ein Fiets? Mein Fiets!</title>
+            <text py:pytype="str">Radfahren macht in Amsterdam besonders glücklich. Keine andere Stadt lässt sich so gut auf dem Rad erkunden. Es gibt dabei nur ein Hindernis.</text>
+            <description py:pytype="str">Radfahren macht in Amsterdam besonders glücklich. Keine andere Stadt lässt sich so gut auf dem Rad erkunden. Es gibt dabei nur ein Hindernis.</description>
+            <byline py:pytype="str">von  Karsten Polke-Majewski</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/fahrraeder-amsterdam/" type="jpg" title="Fahrräder Amsterdam" alt="Fahrräder in Amsterdam" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Fahrräder in Amsterdam</bu>
+              <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-141f7e15-5603-4143-89cd-ddd1fcc8e0ba">
+          <block href="http://xml.zeit.de/reisen/2014-07/amsterdam-hotel-tipps" uniqueId="http://xml.zeit.de/reisen/2014-07/amsterdam-hotel-tipps" year="2014" issue="24" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T03:57:44+00:00" expires="" date-last-modified="2014-07-16T07:33:07+00:00" date-first-released="2014-07-03T03:58:44.144487+00:00" date-last-published="2014-07-16T07:34:07.409509+00:00" last-semantic-change="2014-07-01T11:16:15.649595+00:00">
+            <supertitle py:pytype="str">Hoteltipps Amsterdam</supertitle>
+            <title py:pytype="str">Coole Zimmer mit warmem Finish</title>
+            <text py:pytype="str">Hippe Häuser mit Vintage-Möbeln, Blümchentapeten mal modern und ein edles Hotel direkt an der Herengracht: diese charmanten Amsterdamer Hotels empfiehlt die Redaktion.</text>
+            <description py:pytype="str">Hippe Häuser mit Vintage-Möbeln, Blümchentapeten mal modern und ein edles Hotel direkt an der Herengracht: diese charmanten Amsterdamer Hotels empfiehlt die Redaktion.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-07/waldorf-astoria-amsterdam/" type="jpg" title="Waldorf Astoria Amsterdam" alt="Waldorf Astoria Amsterdam" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Pool des Waldorf Astoria Amsterdam</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9de6aba8-3e15-42d0-8a85-047518688134">
+          <block href="http://xml.zeit.de/2011/46/Amsterdam-Kreativ-Viertel" uniqueId="http://xml.zeit.de/2011/46/Amsterdam-Kreativ-Viertel" year="2011" issue="46" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T15:04:38+00:00" date-first-released="2011-11-10T06:00:00+00:00" date-last-published="2013-12-03T16:05:25+00:00" last-semantic-change="2011-11-14T11:01:05.932258+00:00" author="Julius Schophoff">
+            <supertitle py:pytype="str">Amsterdam</supertitle>
+            <title py:pytype="str">Werft mit Kunst!</title>
+            <text py:pytype="str">In Amsterdam ist auf dem Gelände einer ehemaligen Schiffsfabrik ein Kreativ-Viertel entstanden. In Containern arbeiten Künstler – wie der Erfinder der Kettensägentuba.</text>
+            <description py:pytype="str">In Amsterdam ist auf dem Gelände einer ehemaligen Schiffsfabrik ein Kreativ-Viertel entstanden. In Containern arbeiten Künstler – wie der Erfinder der Kettensägentuba.</description>
+            <byline py:pytype="str">Von Julius Schophoff</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/amsterdam-kunst-1/" type="jpg" alt="Thierry van Ray mit seinem Schallungeheuer" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Thierry van Ray mit seinem Schallungeheuer</bu>
+              <copyright py:pytype="str" link="http://schophoff.de/">© Julius Schophoff für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Julius_Schophoff/index">
+              <display_name>Julius Schophoff</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e65457a0-5c98-4df8-8986-7d38aa14dc99">
+          <block href="http://xml.zeit.de/2012/29/Gestrandet-Scheuermann" uniqueId="http://xml.zeit.de/2012/29/Gestrandet-Scheuermann" year="2012" issue="29" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-25T08:20:29+00:00" date-first-released="2012-07-12T06:00:00+00:00" date-last-published="2013-06-25T08:21:28.641498+00:00" last-semantic-change="2012-07-30T17:08:38.064682+00:00" author="Silke Scheuermann">
+            <supertitle py:pytype="str">Zugreise</supertitle>
+            <title py:pytype="str">Haltlos nach Amsterdam</title>
+            <text py:pytype="str">Vom Liebeskummer zum Liebesglück: Wohin es führen kann, wenn man in der Bahn einschläft, hat die Schriftstellerin Silke Scheuermann erlebt und aufgeschrieben.</text>
+            <description py:pytype="str">Vom Liebeskummer zum Liebesglück: Wohin es führen kann, wenn man in der Bahn einschläft, hat die Schriftstellerin Silke Scheuermann erlebt und aufgeschrieben.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-07/Amsterdam/" type="jpg" title="Amsterdam" alt="Auf dem Weg nach Amsterdam kann man unverhofft die Liebe entdecken." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Auf dem Weg nach Amsterdam kann man unverhofft die Liebe entdecken.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/207863-stock-photo-alt-blau-stadt-ferien-urlaub-reisen-sommer-haus">© 12frames/photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Silke_Scheuermann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Silke Scheuermann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fff7c7d2-5e52-4c36-8efe-c6412e410838">
+          <block href="http://xml.zeit.de/2014/22/reichsmuseum-amsterdam-alain-de-botton" uniqueId="http://xml.zeit.de/2014/22/reichsmuseum-amsterdam-alain-de-botton" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="2014-05-29T01:02:57+00:00" expires="" date-last-modified="2014-05-29T09:35:52+00:00" date-first-released="2014-05-22T06:00:00+00:00" date-last-published="2014-05-29T09:36:51.989989+00:00" last-semantic-change="2014-05-29T09:34:42.209728+00:00" author="Hanno Rauterberg">
+            <supertitle py:pytype="str">Rijksmuseum Amsterdam</supertitle>
+            <title py:pytype="str">Rembrandt gegen Depressionen</title>
+            <text py:pytype="str">Mit Klebezetteln rückt der Philosoph Alain de Botton den alten Meistern auf den Leib. Und verwandelt das
+Rijksmuseum in einen Reparaturbetrieb für ausgelaugte Seelen.</text>
+            <description py:pytype="str">Mit Klebezetteln rückt der Philosoph Alain de Botton den alten Meistern auf den Leib. Und verwandelt das
+Rijksmuseum in einen Reparaturbetrieb für ausgelaugte Seelen.</description>
+            <byline py:pytype="str">von Hanno Rauterberg</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/kunst/2014-05/jan-ekels/" type="jpg" alt="Reichsmuseum Amsterdam: Rembrandt gegen Depressionen" align="left" publication-date="" expires="2014-10-07T12:15:00+00:00">
+              <bu py:pytype="str">Jan Ekels: "A Writer Trimming his Pen", 1784</bu>
+              <copyright py:pytype="str">© Rijksmuseum Amsterdam</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Hanno_Rauterberg/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Hanno Rauterberg</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7de7bd8f-29a8-478d-9da1-676d64403c5f">
+          <block href="http://xml.zeit.de/lebensart/2013-12/fs-marina-van-goor-freunde-von-freunden-2" uniqueId="http://xml.zeit.de/lebensart/2013-12/fs-marina-van-goor-freunde-von-freunden-2" year="2013" issue="49" ressort="Lebensart" serie="Freunde von Freunden" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-12-17T11:05:16+00:00" date-first-released="2013-12-04T09:03:57.778005+00:00" date-last-published="2013-12-04T09:04:40.538127+00:00" last-semantic-change="2013-12-04T08:33:59.770127+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Serie Freunde von Freunden</supertitle>
+            <title py:pytype="str"> Niederländische Loftigkeit</title>
+            <text py:pytype="str">Die Designerin Marina van Goor lebt und arbeitet in lichtdurchfluteten Räumen mit wenigen Möbeln. Dem Wohnblog "Freunde von Freunden" öffnete sie ihre Tür.</text>
+            <description py:pytype="str">Die Designerin Marina van Goor lebt und arbeitet in lichtdurchfluteten Räumen mit wenigen Möbeln. Dem Wohnblog "Freunde von Freunden" öffnete sie ihre Tür.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/2013-12/fs-marina-van-goor-freunde-von-freunden-teaser/" type="jpg" title="FvF Marina Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.freundevonfreunden.com/interviews/marina-van-goor/">© Jordi Huisman für Freunde von Freunden</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-3721b47a-be0a-45af-918f-f8d6625f0ff8">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-959c9665-bce8-4d9a-aebf-1e0440a7141e">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-f080237e-285a-46f4-b867-1947ba2c4008">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-mailand/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-amsterdam/index#8b55d85f-1f3f-40f7-a4c9-a319873c3632" year="2014" issue="16" ressort="Reisen" contenttype="centerpage-2009" publication-date="2014-04-17T05:00:08+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Mailand</title>
+            <text py:pytype="str">Diese Stadt ist teuer, schick und rätselhaft. Wir treffen die Frau, die Mailand zur Modestadt gemacht hat, essen das beste Risotto und lernen von Da Vincis Vergangenheit.</text>
+            <description py:pytype="str">Diese Stadt ist teuer, schick und rätselhaft. Wir treffen die Frau, die Mailand zur Modestadt gemacht hat, essen das beste Risotto und lernen von Da Vincis Vergangenheit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-01/city-guide-mailand-3/" type="jpg" title="City Guide Mailand" align="left" publication-date="" expires="">
+              <bu py:pytype="str">MILAN, ITALY - JULY 31:  A general view of Galleria Vittorio Emanuele on July 31, 2008 in Milan, Italy.  (Photo by Vittorio Zunino Celotto/Getty Images)</bu>
+              <copyright py:pytype="str">© Vittorio Zunino Celotto/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-rom/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-amsterdam/index#85d6de52-29ae-4cbe-b5a2-f7c28c6e6289" year="2013" issue="40" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-10-02T05:35:02+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Rom</title>
+            <text py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</text>
+            <description py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-rom-teaser-4/" type="jpg" title="City Guide Rom Teaser 4" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Petersdom</bu>
+              <copyright py:pytype="str">© Alessia Pierdomenico/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-fdf468de-ee45-4c8c-adb7-6173e7e06cf5">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-dresden/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-amsterdam/index#94afa1cf-1581-4a01-9be4-5d701892af7e" year="2014" issue="8" ressort="Reisen" contenttype="centerpage-2009" publication-date="2014-02-27T06:00:25+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Dresden</title>
+            <text py:pytype="str">Alle Welt geht in die Knie vor Dresdens barockem Panorama. Wir erkunden die schräge Neustadt, suchen das typische Gericht und fallen bei einem Winzer ins Bett. </text>
+            <description py:pytype="str">Alle Welt geht in die Knie vor Dresdens barockem Panorama. Wir erkunden die schräge Neustadt, suchen das typische Gericht und fallen bei einem Winzer ins Bett. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-01/city-guide-dresden-2/" type="jpg" title="City Guide Dresden" align="left" publication-date="" expires="">
+              <bu py:pytype="str">DRESDEN, GERMANY - JUNE 07:  Twilight descends on the Albertinum museum (R) and the dome of the Akademie der Kuenste on June 7, 2010 in Dresden, Germany. The Albertinum, which will exhibit paintings and sculpture from the Romantic Period through to the present, will re-open to the public on June 20, 2010. The Albertinum has undergone an extensive renovation following the devastating floods of 2002, and museum officials managed to raise funds partially by auctioning off works by modern German artists including Georg Richter and Georg Baselitz.  (Photo by Sean Gallup/Getty Images)</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-st-petersburg/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-amsterdam/index#20363534-61f0-4371-ba21-ba81c051a0d0" year="2013" issue="48" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-12-12T05:47:23+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide St. Petersburg</title>
+            <text py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</text>
+            <description py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-st-petersburg-teaser-3/" type="jpg" title="City Guide St. Petersburg Teaser 3" align="left" publication-date="" expires="">
+              <bu py:pytype="str">The Hermitage is reflected in the River Neva during light snow in St.Petersburg February 9, 2004. The Hermitage, a former palace of Russian Tsars, now houses one of the largest art collections in the world with over three million exhibits stored. NO RIGHTS CLEARANCES OR PERMISSIONS ARE REQUIRED FOR THIS IMAGE   REUTERS/Alexander Demianchuk   WAW/GB - RTRC9Z7</bu>
+              <copyright py:pytype="str">© Alexander Demianchuk/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-31c1772c-1c47-425a-b39d-33d5d2381e24">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-stockholm/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-stockholm/index" year="2013" issue="23" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-07-17T07:31:12+00:00" date-first-released="2013-06-20T10:37:06.188124+00:00" date-last-published="2014-02-25T10:19:08.168103+00:00" last-semantic-change="2014-02-25T10:14:37.265626+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Stockholm</title>
+            <text py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</text>
+            <description py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm/" type="jpg" title="Stockholm" align="left" publication-date="" expires="">
+              <bu py:pytype="str">STOCKHOLM, SWEDEN - JUNE 07: People enjoy the atmosphere in a city square as preparations for the wedding of Princess Madeleine of Sweden and Christopher O'Neill continues on June 7, 2013 in Stockholm, Sweden. (Photo by Chris Jackson/Getty Images) </bu>
+              <copyright py:pytype="str">© Chris Jackson/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-prag/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-prag/index" year="2012" issue="41" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-07-17T07:43:40+00:00" date-first-released="2012-10-24T07:39:12.408984+00:00" date-last-published="2014-05-02T12:04:04.419063+00:00" last-semantic-change="2014-05-02T12:02:23.821881+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Prag</title>
+            <text py:pytype="str">Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</text>
+            <description py:pytype="str">Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/cityguide-prag/" type="jpg" title="Cityguide Prag Teaserbild" alt="Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-a39b262a-f9f4-4a1e-a5fd-3fb15439edbb">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-wien/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-wien/index" year="2013" issue="5" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-02-21T04:48:19+00:00" expires="" date-last-modified="2014-07-17T07:43:43+00:00" date-first-released="2013-02-21T04:49:23.194938+00:00" date-last-published="2014-07-17T07:29:49.501902+00:00" last-semantic-change="2014-07-17T07:28:08.159246+00:00" serie="City Guide">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Wien</title>
+            <text py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt, essen Schnitzel im Sternelokal und schlafen in einer Luxus-WG.</text>
+            <description py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt, essen Schnitzel im Sternelokal und schlafen in einer Luxus-WG.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-01/cityguide-wien/" type="jpg" title="Cityguide Wien" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mystisch: Wien im Nebel</bu>
+              <copyright py:pytype="str">© Heinz-Peter Bader/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-hamburg/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-hamburg/index" year="2012" issue="26" ressort="Reisen" contenttype="centerpage-2009" publication-date="2012-08-30T08:10:00+00:00" expires="" date-last-modified="2014-07-17T07:43:37+00:00" date-first-released="2012-08-30T08:11:02.395538+00:00" date-last-published="2013-09-26T09:08:53.563617+00:00" last-semantic-change="2013-09-26T09:07:30.541603+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Hamburg</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle>City Guide Amsterdam</supertitle>
+    <title>City Guide Amsterdam</title>
+    <subtitle>Wir essen Kroketten mit hauchdünner Panade und trinken ein Bier mit dem Nachtbürgermeister. Wir schlafen in der ehemaligen Stadtbücherei und erleben die Heimeligkeit auf zwei Rädern.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/2013-12/fs-marina-van-goor-freunde-von-freunden-2" year="2013" issue="49" ressort="Lebensart" serie="Freunde von Freunden" contenttype="gallery" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Serie Freunde von Freunden</supertitle>
+      <title py:pytype="str"> Niederländische Loftigkeit</title>
+      <text py:pytype="str">Die Designerin Marina van Goor lebt und arbeitet in lichtdurchfluteten Räumen mit wenigen Möbeln. Dem Wohnblog "Freunde von Freunden" öffnete sie ihre Tür.</text>
+      <description py:pytype="str">Die Designerin Marina van Goor lebt und arbeitet in lichtdurchfluteten Räumen mit wenigen Möbeln. Dem Wohnblog "Freunde von Freunden" öffnete sie ihre Tür.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/2013-12/fs-marina-van-goor-freunde-von-freunden-teaser/" type="jpg" title="FvF Marina Teaser" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://www.freundevonfreunden.com/interviews/marina-van-goor/">© Jordi Huisman für Freunde von Freunden</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/22/reichsmuseum-amsterdam-alain-de-botton" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="2014-05-29T01:02:57+00:00" expires="" author="Hanno Rauterberg">
+      <supertitle py:pytype="str">Rijksmuseum Amsterdam</supertitle>
+      <title py:pytype="str">Rembrandt gegen Depressionen</title>
+      <text py:pytype="str">Mit Klebezetteln rückt der Philosoph Alain de Botton den alten Meistern auf den Leib. Und verwandelt das
+Rijksmuseum in einen Reparaturbetrieb für ausgelaugte Seelen.</text>
+      <description py:pytype="str">Mit Klebezetteln rückt der Philosoph Alain de Botton den alten Meistern auf den Leib. Und verwandelt das
+Rijksmuseum in einen Reparaturbetrieb für ausgelaugte Seelen.</description>
+      <byline py:pytype="str">von Hanno Rauterberg</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/kunst/2014-05/jan-ekels/" type="jpg" alt="Reichsmuseum Amsterdam: Rembrandt gegen Depressionen" align="left" publication-date="" expires="2014-10-07T12:15:00+00:00">
+        <bu py:pytype="str">Jan Ekels: "A Writer Trimming his Pen", 1784</bu>
+        <copyright py:pytype="str">© Rijksmuseum Amsterdam</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/R/Hanno_Rauterberg/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Hanno Rauterberg</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/29/Gestrandet-Scheuermann" year="2012" issue="29" ressort="Reisen" contenttype="article" publication-date="" expires="" author="Silke Scheuermann">
+      <supertitle py:pytype="str">Zugreise</supertitle>
+      <title py:pytype="str">Haltlos nach Amsterdam</title>
+      <text py:pytype="str">Vom Liebeskummer zum Liebesglück: Wohin es führen kann, wenn man in der Bahn einschläft, hat die Schriftstellerin Silke Scheuermann erlebt und aufgeschrieben.</text>
+      <description py:pytype="str">Vom Liebeskummer zum Liebesglück: Wohin es führen kann, wenn man in der Bahn einschläft, hat die Schriftstellerin Silke Scheuermann erlebt und aufgeschrieben.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-07/Amsterdam/" type="jpg" title="Amsterdam" alt="Auf dem Weg nach Amsterdam kann man unverhofft die Liebe entdecken." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Auf dem Weg nach Amsterdam kann man unverhofft die Liebe entdecken.</bu>
+        <copyright py:pytype="str" link="http://www.photocase.de/foto/207863-stock-photo-alt-blau-stadt-ferien-urlaub-reisen-sommer-haus">© 12frames/photocase.com</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Silke_Scheuermann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Silke Scheuermann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/46/Amsterdam-Kreativ-Viertel" year="2011" issue="46" ressort="Reisen" contenttype="article" publication-date="" expires="" author="Julius Schophoff">
+      <supertitle py:pytype="str">Amsterdam</supertitle>
+      <title py:pytype="str">Werft mit Kunst!</title>
+      <text py:pytype="str">In Amsterdam ist auf dem Gelände einer ehemaligen Schiffsfabrik ein Kreativ-Viertel entstanden. In Containern arbeiten Künstler – wie der Erfinder der Kettensägentuba.</text>
+      <description py:pytype="str">In Amsterdam ist auf dem Gelände einer ehemaligen Schiffsfabrik ein Kreativ-Viertel entstanden. In Containern arbeiten Künstler – wie der Erfinder der Kettensägentuba.</description>
+      <byline py:pytype="str">Von Julius Schophoff</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/amsterdam-kunst-1/" type="jpg" alt="Thierry van Ray mit seinem Schallungeheuer" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Thierry van Ray mit seinem Schallungeheuer</bu>
+        <copyright py:pytype="str" link="http://schophoff.de/">© Julius Schophoff für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Julius_Schophoff/index">
+        <display_name>Julius Schophoff</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-07/amsterdam-hotel-tipps" year="2014" issue="24" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T03:57:44+00:00" expires="">
+      <supertitle py:pytype="str">Hoteltipps Amsterdam</supertitle>
+      <title py:pytype="str">Coole Zimmer mit warmem Finish</title>
+      <text py:pytype="str">Hippe Häuser mit Vintage-Möbeln, Blümchentapeten mal modern und ein edles Hotel direkt an der Herengracht: diese charmanten Amsterdamer Hotels empfiehlt die Redaktion.</text>
+      <description py:pytype="str">Hippe Häuser mit Vintage-Möbeln, Blümchentapeten mal modern und ein edles Hotel direkt an der Herengracht: diese charmanten Amsterdamer Hotels empfiehlt die Redaktion.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/waldorf-astoria-amsterdam/" type="jpg" title="Waldorf Astoria Amsterdam" alt="Waldorf Astoria Amsterdam" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Pool des Waldorf Astoria Amsterdam</bu>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/26/radfahren-amsterdam" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:13:08+00:00" expires="" author="Karsten Polke-Majewski">
+      <supertitle py:pytype="str">Radfahren in Amsterdam</supertitle>
+      <title py:pytype="str">Ein Fiets? Mein Fiets!</title>
+      <text py:pytype="str">Radfahren macht in Amsterdam besonders glücklich. Keine andere Stadt lässt sich so gut auf dem Rad erkunden. Es gibt dabei nur ein Hindernis.</text>
+      <description py:pytype="str">Radfahren macht in Amsterdam besonders glücklich. Keine andere Stadt lässt sich so gut auf dem Rad erkunden. Es gibt dabei nur ein Hindernis.</description>
+      <byline py:pytype="str">von  Karsten Polke-Majewski</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/fahrraeder-amsterdam/" type="jpg" title="Fahrräder Amsterdam" alt="Fahrräder in Amsterdam" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Fahrräder in Amsterdam</bu>
+        <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/26/kroketten-amsterdam" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:21:57+00:00" expires="" author="Michael Allmaier">
+      <supertitle py:pytype="str">Amsterdam</supertitle>
+      <title py:pytype="str">Korrekte Krokette</title>
+      <text py:pytype="str">Kommt aus dem Automaten, kann explodieren und schmeckt besonders gut, wenn man es beim Konditor kauft: Kroketten sind der beliebteste Snack der Niederlande. Wie kommt's?</text>
+      <description py:pytype="str">Kommt aus dem Automaten, kann explodieren und schmeckt besonders gut, wenn man es beim Konditor kauft: Kroketten sind der beliebteste Snack der Niederlande. Wie kommt's?</description>
+      <byline py:pytype="str">von  Michael Allmaier</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/kroketten-amsterdam/" type="jpg" title="Kroketten Holtkamp" alt="Kroketten Holtkamp" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Kroketten werden in den Niederlanden dem Backwerk zugerechnet. In der Konditorei Holtkamp gibt es die besten.</bu>
+        <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-07/amsterdam-restaurants" year="2014" issue="24" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T03:20:55+00:00" expires="">
+      <supertitle py:pytype="str">Restaurants in Amsterdam</supertitle>
+      <title py:pytype="str">Verspielte neuholländische Küche</title>
+      <text py:pytype="str">Brutzelndes Grillfleisch, Street-Food aus dem Sterne-Lokal und Traditionelles aus Surinam: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Amsterdam.</text>
+      <description py:pytype="str">Brutzelndes Grillfleisch, Street-Food aus dem Sterne-Lokal und Traditionelles aus Surinam: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Amsterdam.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/samhoud-places/" type="jpg" title="samhoud places" alt="Das Street-Food-Restaurant von &amp;samhoud places" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Street-Food-Restaurant von &amp;samhoud places</bu>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/26/hotel-amsterdam-andaz" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:07:17+00:00" expires="" author="Merten Worthmann">
+      <supertitle py:pytype="str">Amsterdam</supertitle>
+      <title py:pytype="str">Tulpensessel aus Amsterdam</title>
+      <text py:pytype="str">Der Designer Marcel Wanders hat das Hotel Andaz in der niederländischen Metropole entworfen. Es ist ein romantischer Protest gegen Purismus und ein Fest für die Augen.</text>
+      <description py:pytype="str">Der Designer Marcel Wanders hat das Hotel Andaz in der niederländischen Metropole entworfen. Es ist ein romantischer Protest gegen Purismus und ein Fest für die Augen.</description>
+      <byline py:pytype="str">von  Merten Worthmann</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/andaz-amsterdam/" type="jpg" title="Hotel Andaz Amsterdam" alt="In der Lobby des Hotel Andaz" align="left" publication-date="" expires="">
+        <bu py:pytype="str">In der Lobby des Hotel Andaz</bu>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/W/Merten_Worthmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Merten Worthmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/26/nachtleben-in-amsterdam-mirik-milan" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:39:28+00:00" expires="" author="Stefanie Flamm">
+      <supertitle py:pytype="str">Amsterdam</supertitle>
+      <title py:pytype="str">"Wir haben den Ruf, wahnsinnig liberal zu sein"</title>
+      <text py:pytype="str">Amsterdams Nachtbürgermeister Mirik Milan will dafür sorgen, dass der Ruf nicht leidet. Ein Gespräch über strenge Öffnungszeiten im Nachtleben und gepflegte Joints</text>
+      <description py:pytype="str">Amsterdams Nachtbürgermeister Mirik Milan will dafür sorgen, dass der Ruf nicht leidet. Ein Gespräch über strenge Öffnungszeiten im Nachtleben und gepflegte Joints</description>
+      <byline py:pytype="str">von  Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/Tolhuistuin-amsterdam/" type="jpg" title="Tolhuistuin Amsterdam" alt="Tolhuistuin Amsterdam" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Club Tolhuistuin hat erst kürzlich eröffnet.</bu>
+        <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/26/amsterdam-ilse-delange" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:09:44+00:00" expires="" author="Ulf Lippitz">
+      <supertitle py:pytype="str">Amsterdam</supertitle>
+      <title py:pytype="str">Oh, du schöner Lindenduft</title>
+      <text py:pytype="str">Schiefe Häuser und kleine Geschäfte: Negen Straatjes heißt das malerische Viertel Amsterdams. Die Sängerin Ilse DeLange erzählt, wieso sie dort immer gute Laune bekommt. </text>
+      <description py:pytype="str">Schiefe Häuser und kleine Geschäfte: Negen Straatjes heißt das malerische Viertel Amsterdams. Die Sängerin Ilse DeLange erzählt, wieso sie dort immer gute Laune bekommt. </description>
+      <byline py:pytype="str">von  Ulf Lippitz</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/wolvenstraat/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Gäste vor dem Cafe Wolvenstraat 23</bu>
+        <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Ulf Lippitz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/26/amsterdam-city-guide" year="2014" issue="26" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-07-03T02:01:51+00:00" expires="" author="Birgit Schönau">
+      <supertitle py:pytype="str">Amsterdam</supertitle>
+      <title py:pytype="str">Die Kunst der Stunde</title>
+      <text py:pytype="str">Wer auf Rembrandts Spuren durch Amsterdam radelt, versteht, wie die Stadt so lebendig, so tüchtig, so frei wurde. Hier schließen sich Kunst- und Geschäftssinn nicht aus.</text>
+      <description py:pytype="str">Wer auf Rembrandts Spuren durch Amsterdam radelt, versteht, wie die Stadt so lebendig, so tüchtig, so frei wurde. Hier schließen sich Kunst- und Geschäftssinn nicht aus.</description>
+      <byline py:pytype="str">von  Birgit Schönau</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-07/rembrandshuis/" type="jpg" title="Rembrandshuis" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Rembrandts Wohnhaus in der Jodenbreestraat</bu>
+        <copyright py:pytype="str" link="http://toalaolivares.com/">© Cris Toala Olivares für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Birgit_Schoenau/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Birgit Schönau</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>City Guide Amsterdam</title>
+    <text>Amsterdam, das ist Lebensfreude aus dem Bilderbuch: Wir essen Kroketten, trinken ein Bier mit dem Nachtbürgermeister und erleben die Heimeligkeit auf zwei Rädern.</text>
+  </teaser>
+</centerpage>

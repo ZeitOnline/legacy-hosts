@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-01-09T16:17:54.872266+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-01-09T16:18:54.683755+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-01-09T16:18:54.683755+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-01-09T16:17:28.951759+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADMIN</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">tirol-langlauf</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:eb9d7ce2-0cec-475d-8900-d34055e24816}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-60f868f7-f9de-4bda-b0e2-650abeef55b1">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-493a33f6-2992-437d-8311-c2de17ee7a38" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/tirol-langlauf/context/link_tirol" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://bergwinter.tirol.at/bergerlebnis-genuss/cover-bergerlebnis-genuss/article_903502.html?utm_source=Zeit%2BOnline&amp;utm_medium=Inserat&amp;utm_campaign=Zeit%2BOnline" ns0:target="_blank" date-last-modified="2013-01-09T14:44:46+00:00" date-first-released="2013-01-09T14:45:45.956396+00:00" date-last-published="2013-01-09T14:45:45.956396+00:00" last-semantic-change="2013-01-09T14:41:45.289711+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu tirol.at</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/tirol-langlauf/context/logo_tirol_claim.jpg/logo_tirol_claim.jpg-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-3c221948-4458-4dac-bcb1-04ab84700c1f">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/tirol-langlauf/context/zur_uebersicht" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/tirol-langlauf/index" ns0:target="_blank" date-last-modified="2013-01-09T15:53:37+00:00" date-first-released="2013-01-09T15:54:37.457817+00:00" date-last-published="2013-01-09T15:54:37.457817+00:00" last-semantic-change="2013-01-09T15:53:22.480167+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-a636ebe9-be2e-4361-989f-07146cb9b86d">
+          <block href="http://xml.zeit.de/angebote/tirol-langlauf/abseits-der-loipe/kunst-kultur" year="2013" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-01-09T16:05:36+00:00" date-first-released="2013-01-09T16:06:36.475967+00:00" date-last-published="2013-01-09T16:06:36.475967+00:00" last-semantic-change="2013-01-09T16:05:25.709944+00:00">
+            <supertitle py:pytype="str">...abseits der Loipe.</supertitle>
+            <title py:pytype="str">Kunst und Kultur</title>
+            <text py:pytype="str">Wer glaubt, der Winter in den Alpen sei nichts als Schneezauber und Pisten, wird in Tirol eines Besseren belehrt.</text>
+            <description py:pytype="str">Wer glaubt, der Winter in den Alpen sei nichts als Schneezauber und Pisten, wird in Tirol eines Besseren belehrt.</description>
+            <byline py:pytype="str">Tirol-Special Langlauf: ist ein Angebot der Tirol Werbung GmbH. Für den Inhalt ist die Tirol Werbung GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/tirol/kunst-kultur-kulinarik/kultur_1/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Swarovski Kristallwelten / Gerhard Berger</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/tirol-langlauf/abseits-der-loipe/genuesse" year="2013" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-01-09T16:14:41+00:00" date-first-released="2013-01-09T16:15:41.247140+00:00" date-last-published="2013-01-09T16:15:41.247140+00:00" last-semantic-change="2013-01-09T16:14:18.526697+00:00">
+            <supertitle py:pytype="str">...abseits der Loipe.</supertitle>
+            <title py:pytype="str">Auf dem Gipfel der Genüsse</title>
+            <text py:pytype="str">Ob herzhaft oder süß, deftige Brotzeit oder feine Haubenküche: Essen in Tirol ist immer eine kulinarische Erlebnisreise.</text>
+            <description py:pytype="str">Ob herzhaft oder süß, deftige Brotzeit oder feine Haubenküche: Essen in Tirol ist immer eine kulinarische Erlebnisreise.</description>
+            <byline py:pytype="str">Tirol-Special Langlauf: ist ein Angebot der Tirol Werbung GmbH. Für den Inhalt ist die Tirol Werbung GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/tirol/kunst-kultur-kulinarik/essen_1/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Robert Gruber</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-4b278cd9-e906-472a-b0db-4c513934b143">
+          <raw>
+            <object width="368" height="207">
+              <param name="movie" value="http://www.youtube.com/v/yTx_PccDIiw?hl=de_DE&amp;version=3"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="http://www.youtube.com/v/yTx_PccDIiw?hl=de_DE&amp;version=3" type="application/x-shockwave-flash" width="368" height="207" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline py:pytype="str">Tirol-Special Langlauf: ist ein Angebot der Tirol Werbung GmbH. Für den Inhalt ist die Tirol Werbung GmbH verantwortlich.</byline>
+    <title>Artikel Rahmen Tirol-Langlauf</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Tirol-Langlauf</title>
+  </teaser>
+</centerpage>

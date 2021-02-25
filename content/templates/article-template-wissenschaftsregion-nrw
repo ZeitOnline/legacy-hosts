@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-02-13T09:36:14.442708+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-02-08T14:37:32.274047+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-02-13T09:37:14.346270+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-02-13T09:35:59.270607+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">wissenschaftsregion-nrw</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e90b200a-e654-4d13-9068-07bbdf29afff}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-d0d4aedc-984f-495f-8924-6d496a58d9d7">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f8c3c07a-6924-43f7-b329-6a6995c477f4">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/wissenschaftsregion-nrw/artikel/zur_uebersicht" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/wissenschaftsregion-nrw" ns0:target="_blank" date-last-modified="2013-02-08T14:30:03+00:00" date-first-released="2013-02-08T14:31:03.311620+00:00" date-last-published="2013-02-08T14:31:03.311620+00:00" last-semantic-change="2013-02-08T14:29:51.483558+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-cba2172b-9dcd-45ca-bfa1-489e587b418a">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-nrw/artikel/moeglichkeiten" year="2013" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-02-13T08:15:25+00:00" date-first-released="2013-02-08T14:35:48.538972+00:00" date-last-published="2013-02-12T17:27:00.979901+00:00" last-semantic-change="2013-02-13T08:15:21.061485+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Das Land der unverbauten Möglichkeiten</title>
+            <text py:pytype="str">Es tut sich gerade etwas im deutschen Westen: Die Forschungseinrichtungen zwischen Rhein und Weser werden zum Anziehungspunkt für talentierte Wissenschaftler.</text>
+            <description py:pytype="str">Es tut sich gerade etwas im deutschen Westen: Die Forschungseinrichtungen zwischen Rhein und Weser werden zum Anziehungspunkt für talentierte Wissenschaftler.</description>
+            <byline py:pytype="str">Wie wird geforscht in Nordrhein-Westfalen?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-nrw/artikel/bilder/03_NRW_Aufmacher-variante/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-4e0deb19-596c-4a2b-88a9-61eb7bc2480c">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-nrw/artikel/erde" year="2013" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-02-13T08:14:39+00:00" date-first-released="2013-02-08T14:35:38.676545+00:00" date-last-published="2013-02-13T08:15:39.061031+00:00" last-semantic-change="2013-02-13T08:14:28.171241+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wenn die Zukunft wieder unter der Erde zu finden ist</title>
+            <text py:pytype="str">Ein Lehrender begeistert den Nachwuchs, indem er eine besondere Ressource nutzt: die alten Zechen.</text>
+            <description py:pytype="str">Ein Lehrender begeistert den Nachwuchs, indem er eine besondere Ressource nutzt: die alten Zechen.</description>
+            <byline py:pytype="str">Wie wird geforscht in Nordrhein-Westfalen?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-nrw/artikel/bilder/zeche-nrw/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-0fd29d0b-f9db-4f41-bd46-d317177bd0e3">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-nrw/artikel/himmel" year="2013" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-02-13T08:15:04+00:00" date-first-released="2013-02-08T14:35:26.432251+00:00" date-last-published="2013-02-13T08:16:04.310479+00:00" last-semantic-change="2013-02-13T08:14:55.958660+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die letzten Rätsel des Himmels</title>
+            <text py:pytype="str">Wo einst Kohlenstaub die Häuser schwärzte, arbeiten Forscher heute daran, die Luft zu verstehen – und erheblich zu verbessern. </text>
+            <description py:pytype="str">Wo einst Kohlenstaub die Häuser schwärzte, arbeiten Forscher heute daran, die Luft zu verstehen – und erheblich zu verbessern. </description>
+            <byline py:pytype="str">Wie wird geforscht in Nordrhein-Westfalen?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-nrw/artikel/bilder/himmel/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline py:pytype="str">Wissenschaftsregionen NRW: ist ein Angebot des ZEIT-Verlags. Für diesen Inhalt ist der ZEIT Verlag verantwortlich.</byline>
+    <title>Artikel Rahmen Wissenschaftsregion-NRW</title>
+    <subtitle>Wissenschaftsregionen NRW: ist ein Angebot des ZEIT-Verlags. Für diesen Inhalt ist der ZEIT Verlag verantwortlich.</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Wissenschaftsregion-NRW</title>
+    <text py:pytype="str">Wissenschaftsregionen NRW: ist ein Angebot des ZEIT-Verlags. Für diesen Inhalt ist der ZEIT Verlag verantwortlich.</text>
+  </teaser>
+</centerpage>

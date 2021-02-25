@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments_premoderate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2018-03-05T13:29:39.283851+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-04-07T07:44:46+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2018-03-05T13:56:32.396623+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2018-03-05T13:56:32.348850+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-04-07T07:44:46+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-04-07T07:44:46+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.wiebe</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="overscrolling">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="previous_uniqueIds">http://xml.zeit.de/wirtschaft/2014-04/arzt-facharzt-praxis-verteilung-berlin-hamburg-koeln-muenchen-interaktiv-ssl</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wirtschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:d7e15e16-6159-4804-99b0-1f781a948720}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">9</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2018</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature" visible="True" visible_mobile="True">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-8487920c-438b-40e0-a76f-3c8408c1ed93" kind="solo">
+        <container cp:type="rawtext" module="rawtext" visible="True" visible_mobile="True" cp:__name__="id-9d087d29-8c1b-4a4f-a048-b25d8090f895">
+          <text>    &lt;link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css" rel="stylesheet"/&gt;
+    &lt;link rel="stylesheet" href="https://interactive.zeit.de/infografik/aerztekarte/styles/708979de.main.css"/&gt;
+    &lt;script src="https://interactive.zeit.de/infografik/aerztekarte/scripts/def0337c.vendor-modernizr.js"&gt;&lt;/script&gt;
+    &lt;script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js"&gt;&lt;/script&gt;
+    &lt;script src="https://interactive.zeit.de/infografik/aerztekarte/scripts/23fadacd.main.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+			window.zaerzte = {
+				embed: false,
+arena:true
+			};
+		&lt;/script&gt;
+    &lt;div id="zaerzte"&gt;&lt;/div&gt;
+&lt;p class="x-page-padding paragraph"&gt;Durch die deutschen Großstädte verläuft ein Graben: In Köln zwischen dem Arbeiterstadtteil Kalk und dem wohlsituierten Lindenthal, in Berlin zwischen Hohenschönhausen und Wilmersdorf, in Hamburg zwischen Wilhelmsburg und Harvestehude. Auf der einen Seite des Grabens gibt es genug Ärzte für alle: Orthopäden, Zahnmediziner, Psychotherapeuten. Auf der anderen Seite müssen die Patienten lange Wartezeiten in Kauf nehmen oder weit fahren, um sich behandeln zu lassen. Unsere Grafik macht die Trennlinien sichtbar. Dazu haben wir die Adressen aller Ärzte auf eine Karte geworfen und die einzelnen Postleitzahlbezirke nach ihrer Kaufkraft (rot) und Einwohnerzahl (grün) eingefärbt. Dunkel bedeutet hohe Kaufkraft und viele Einwohner, hell heißt wenig Kaufkraft, wenige Einwohner.&lt;/p&gt;</text>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic" visible="True" visible_mobile="True"/>
+    <supertitle>Gesundheitswesen</supertitle>
+    <title>Wie die Medizin dem Geld folgt</title>
+  </body>
+  <teaser>
+    <title>Wie die Medizin dem Geld folgt</title>
+  </teaser>
+</centerpage>

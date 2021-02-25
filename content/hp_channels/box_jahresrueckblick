@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<centerpage>
+  <head>
+<!-- Angaben zum Dokument -->
+    <id>
+<!-- die eineindeutige ID des Dokuments -->
+      <uniqueid>cms:/cms/work/index</uniqueid>
+    </id>
+    <attribute name="supertitle" ns="http://namespaces.zeit.de/CMS/document">Spiele Box</attribute>
+<!-- Dachzeile/Spitzmarke -->
+<!-- ggF. mehrere -->
+<!-- Schlagworte -->
+<!-- manuell vergeben Schlagworte -->
+<!-- Statusauskünfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">593</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT online</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT online 2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">19.12.2007 - 14:13</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords"/>
+    <keywordset/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">Leben</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Gesellschaft</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">new</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">cruz</attribute>
+  </head>
+  <body>
+    <container layout="container" id="rueckblick" label="" priority="">
+      <block layout="" priority="" href="cms:/cms/work/online/2007/50/jahresrueckblicke" id="" sticky="">
+        <image expires="2009-11-20" src="/cms/work/bilder/2007/standards-neu/allgemein/rueckblick-2007/rueckblick-2007-120x90.jpg" align="right" alt="" border="" href="" layout="" vspace="" width=""><copyright>©</copyright> BILD </image>
+        <title>Was uns 2007 bewegte</title>
+        <text>Die wichtigsten Ereignisse und Trends des Jahres und die Gewinner und Verlierer </text>
+      </block>
+    </container>
+    <subtitle/>
+    <title>Was uns 2007 bewegte</title>
+  </body>
+</centerpage>

@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2017-01-17T17:00:00.486853+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-10-01T14:01:55.473914+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2017-02-14T10:18:28.099175+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2017-02-14T10:18:28.025857+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2016-03-03T09:20:15.411288+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2017-01-17T17:00:03.653632+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2016-03-03T09:14:19.274101+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.zacharakis</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="previous_uniqueIds">http://xml.zeit.de/blogs/index-2.cp2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Weblogs</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:99db775c-3b8d-4513-afa3-c60c369729b0}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">37</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>Blogs</title>
+    <subtitle>Notizen, Nachrichten und Geistesblitze unserer Redakteure und Autoren</subtitle>
+    <cluster visible="True" visible_mobile="True" area="id-3f5ec9a5-6a35-4583-95b3-53330ba0b249" kind="solo" kind_title="Solo-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-a2443ea6-0e2d-4061-bb81-30a76974e24c" kind="solo">
+        <container cp:type="teaser" module="zon-fullwidth" visible="True" visible_mobile="True" text_color="dark" overlay_level="1" cp:__name__="id-acb950d2-bb93-419f-ba40-6c55db9ae8d3" force_mobile_image="False">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/2015-02/teilchen-blog-teaser" uniqueId="http://xml.zeit.de/2015-02/teilchen-blog-teaser" year="2015" issue="9" ressort="Wissen" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/teilchen/" date-last-modified="2015-05-12T13:21:54+00:00" date-first-released="2015-02-27T12:46:31.135902+00:00" date-last-published="2015-05-12T13:22:53.897777+00:00" last-semantic-change="2015-05-12T13:21:02.217757+00:00">
+            <supertitle py:pytype="str">Schätze im Netz</supertitle>
+            <title py:pytype="str">Freunden schickt man ein Teilchen</title>
+            <text py:pytype="str">Im Netz verstecken sich Schätze – ZEIT ONLINE findet sie: Ob Video, Grafik, Foto. Wir sammeln, was zu klein für eine Nachricht ist, aber wert ist, geteilt zu werden.</text>
+            <description py:pytype="str">Im Netz verstecken sich Schätze – ZEIT ONLINE findet sie: Ob Video, Grafik, Foto. Wir sammeln, was zu klein für eine Nachricht ist, aber wert ist, geteilt zu werden.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/weblogs/2014-09/blog-teilchen-hauptbild.jpg/" type="jpg" href="http://blog.zeit.de/teilchen/" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© David Gray/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-20fc7738-4dac-4466-b4e2-953654bf61c4" kind="duo" kind_title="Standard-Region">
+      <region area="lead" visible="True" visible_mobile="True" hide-dupes="True" count="30" automatic="False" automatic_type="centerpage" title="Blogs" supertitle="Blogs" read_more_url="http://www.zeit.de/blogs/index">
+        <referenced_cp>http://xml.zeit.de/blogs/index</referenced_cp>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-32f8a053-5f21-4ce6-8bdb-9ac15bdc6cf0">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/gesellschaft/2017-01/glashaus-transparenz-blog-uebersicht" uniqueId="http://xml.zeit.de/gesellschaft/2017-01/glashaus-transparenz-blog-uebersicht" year="2017" issue="2" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/glashaus/" date-last-modified="2017-01-17T16:58:30+00:00" date-first-released="2017-01-17T16:51:18.563895+00:00" date-last-published="2017-01-17T16:58:30.647095+00:00" last-semantic-change="2017-01-17T15:30:40.802348+00:00">
+            <supertitle py:pytype="str">Transparenz-Blog</supertitle>
+            <title py:pytype="str">Einblicke ins Glashaus</title>
+            <text py:pytype="str">Glashaus ist das Transparenz-Blog von ZEIT ONLINE. Hier trägt die Redaktion interne Debatten über ihre Arbeit nach außen, reagiert auf Kritik und dokumentiert Fehler.</text>
+            <description py:pytype="str">Glashaus ist das Transparenz-Blog von ZEIT ONLINE. Hier trägt die Redaktion interne Debatten über ihre Arbeit nach außen, reagiert auf Kritik und dokumentiert Fehler.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2016-12/glashaus-aufmacher/" type="jpg" title="glashaus-aufmacher" alt="glashaus-aufmacher" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Andreas Prost für ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e4d0d761-7df7-4e3f-9a93-c9ada094984b" force_mobile_image="False">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/ausland/2014-04/blog-recht-subversiv-2" uniqueId="http://xml.zeit.de/politik/ausland/2014-04/blog-recht-subversiv-2" year="2014" issue="17" ressort="Politik" contenttype="link" publication-date="" expires="" ns1:href="http://blog.zeit.de/recht-subversiv/" date-last-modified="2014-11-27T15:44:16+00:00" date-first-released="2014-04-24T09:22:36.032745+00:00" date-last-published="2014-07-28T09:40:31.687294+00:00" last-semantic-change="2014-11-27T15:44:03.485689+00:00">
+            <supertitle py:pytype="str">Menschenrechte</supertitle>
+            <title py:pytype="str">Aus der Werkstatt eines Menschenrechtsanwalts</title>
+            <text py:pytype="str">Er streitet für Menschenrechte, einer seiner Mandanten ist Edward Snowden. Hier bloggt der Anwalt Wolfgang Kaleck über seine Fälle und Menschenrechtsverletzungen.</text>
+            <description py:pytype="str">Er streitet für Menschenrechte, einer seiner Mandanten ist Edward Snowden. Hier bloggt der Anwalt Wolfgang Kaleck über seine Fälle und Menschenrechtsverletzungen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2014-04/blog-menschenrechte/" type="jpg" title="Blog Menschenrechte Teaser" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jose Gibiras</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2d304998-e3ff-4724-a822-b0f50caeb4ac" force_mobile_image="False">
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/gesellschaft/2014-07/blog-stufenlos-barrierefreiheit" uniqueId="http://xml.zeit.de/gesellschaft/2014-07/blog-stufenlos-barrierefreiheit" year="2014" issue="31" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns2:href="http://blog.zeit.de/stufenlos/" date-last-modified="2014-07-28T09:43:49+00:00" date-first-released="2014-07-28T09:41:14.362949+00:00" date-last-published="2014-07-28T09:44:49.314646+00:00" last-semantic-change="2014-07-28T09:43:15.213583+00:00">
+            <supertitle py:pytype="str">Umgang mit Behinderten</supertitle>
+            <title py:pytype="str">Barrierefrei? Schön wär's!</title>
+            <text py:pytype="str">Dieses Blog dreht sich um Barrierefreiheit, um Inklusion, um die Diskriminierung behinderter Menschen. Ein subjektiver Blick einer Autorin, die weiß, wovon sie spricht.</text>
+            <description py:pytype="str">Dieses Blog dreht sich um Barrierefreiheit, um Inklusion, um die Diskriminierung behinderter Menschen. Ein subjektiver Blick einer Autorin, die weiß, wovon sie spricht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2014-07/stufenlos-blog-barrierefrei/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christiane Link</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-28e68d0c-a0e6-4d78-9940-13e04d3bd96d" force_mobile_image="False">
+          <block xmlns:ns3="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2014-03/schachblog-link-schach-blog" uniqueId="http://xml.zeit.de/sport/2014-03/schachblog-link-schach-blog" year="2014" issue="13" ressort="Sport" contenttype="link" publication-date="" expires="" ns3:href="http://blog.zeit.de/schach/" date-last-modified="2016-05-04T13:30:31+00:00" date-first-released="2014-03-24T14:28:26.390756+00:00" date-last-published="2014-07-22T11:46:42.187900+00:00" last-semantic-change="2014-03-24T14:23:16.369708+00:00" author="Ilja Schneider;Dennes Abel;Johannes Fischer">
+            <supertitle py:pytype="str">Schachspiel</supertitle>
+            <title py:pytype="str">Von Hängepartien und Bauernopfern</title>
+            <text py:pytype="str">Schachspieler kommen mit Thermosflasche und Stullen-Paket und denken stundenlang in Varianten. Soweit die Klischees. Dieses Blog will sie bestätigen und verwerfen.</text>
+            <description py:pytype="str">Schachspieler kommen mit Thermosflasche und Stullen-Paket und denken stundenlang in Varianten. Soweit die Klischees. Dieses Blog will sie bestätigen und verwerfen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2014-03/schach-blog/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">World Chess Championship in Bonn October 14 to November 2, 2008. </bu>
+              <copyright py:pytype="str">© Ina Fassbender/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Ilja_Schneider/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ilja Schneider</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/A/Dennes_Abel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Dennes Abel</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/F/Johannes_Fischer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Johannes Fischer</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e614ec76-7f3b-4fe1-b76b-b6b23394562c" force_mobile_image="False">
+          <block xmlns:ns4="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wissen/2014-02/teaser-mathe-blog-hesse" uniqueId="http://xml.zeit.de/wissen/2014-02/teaser-mathe-blog-hesse" year="2014" issue="8" ressort="Wissen" contenttype="link" publication-date="" expires="" ns4:href="http://blog.zeit.de/mathe/" date-last-modified="2015-09-16T14:16:58+00:00" date-first-released="2014-02-20T09:31:54.125562+00:00" date-last-published="2015-09-16T14:17:58.009154+00:00" last-semantic-change="2014-02-20T09:35:02.501863+00:00">
+            <supertitle py:pytype="str">Mathe-Blog</supertitle>
+            <title py:pytype="str">Vom schnellen Rechnen und der Quadratur des Kreises</title>
+            <text py:pytype="str">Jeden Tag und überall ist das Leben voll von Mathematik. Wie sie uns hilft oder uns kalt erwischt, darüber schreibt Professor Christian Hesse.</text>
+            <description py:pytype="str">Jeden Tag und überall ist das Leben voll von Mathematik. Wie sie uns hilft oder uns kalt erwischt, darüber schreibt Professor Christian Hesse.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2015-09/mathe-blog-thumb/" type="jpg" title="Mathe-Blog von Christian Hesse" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-802126cf-fcaa-4044-9ba2-dc023f4c2d34" force_mobile_image="False">
+          <block xmlns:ns5="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-05/nsu-prozess-blog-link" uniqueId="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-05/nsu-prozess-blog-link" year="2013" issue="19" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns5:href="http://blog.zeit.de/nsu-prozess-blog/" date-last-modified="2015-11-10T15:24:59+00:00" date-first-released="2013-05-07T17:51:52.995288+00:00" date-last-published="2015-11-10T15:24:59.162064+00:00" last-semantic-change="2014-07-17T08:42:10.789675+00:00">
+            <supertitle py:pytype="str">Zschäpe-Verfahren</supertitle>
+            <title py:pytype="str">Der tägliche Blick nach München</title>
+            <text py:pytype="str">Was ist heute beim NSU-Prozess passiert? Wie berichten deutsche und internationale Medien darüber? Die Antworten finden Sie in unserem NSU-Prozess-Blog.</text>
+            <description py:pytype="str">Was ist heute beim NSU-Prozess passiert? Wie berichten deutsche und internationale Medien darüber? Die Antworten finden Sie in unserem NSU-Prozess-Blog.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-06/nsu-blog-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Defendant Beate Zschaepe stands in court on the first day of the NSU neo-Nazi murder trial on May 6, 2013 in Munich, Germany. </bu>
+              <copyright py:pytype="str">© Joerg Koch/Getty Images</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-91b9870b-ca86-4276-a50b-70f02dc273c2" force_mobile_image="False">
+          <block xmlns:ns6="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/blogs/link-blog-radikale-ansichten" uniqueId="http://xml.zeit.de/blogs/link-blog-radikale-ansichten" year="2013" issue="18" ressort="Politik" contenttype="link" publication-date="" expires="" ns6:href="http://blog.zeit.de/radikale-ansichten/" date-last-modified="2014-07-22T14:54:16+00:00" date-first-released="2013-04-29T10:41:48.824631+00:00" date-last-published="2014-07-22T14:55:16.326581+00:00" last-semantic-change="2013-05-08T10:08:28.446362+00:00">
+            <supertitle py:pytype="str">Extremismus</supertitle>
+            <title py:pytype="str">Über Islamismus und Islamophobie</title>
+            <text py:pytype="str">Warum wird jemand radikal? Was meinen Radikale, wenn sie bestimmte Dinge sagen? Und gibt es Wege zurück aus dem Extremismus? Ein Blog von Yassin Musharbash. </text>
+            <description py:pytype="str">Warum wird jemand radikal? Was meinen Radikale, wenn sie bestimmte Dinge sagen? Und gibt es Wege zurück aus dem Extremismus? Ein Blog von Yassin Musharbash. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2013-03/blog-radikale/" type="jpg" title="Blog Radikale Teaserbild" publication-date="" expires="">
+              <bu py:pytype="str">Children run towards a burning barricade during a strike by farm workers at De Doorns on the N1 highway, linking Cape Town and Johannesburg, January 9, 2013. Police fired rubber bullets and stun grenades at hundreds of striking farm workers who blocked a highway in the grape-growing Western Cape on Wednesday, the first clashes of a year likely to be marked by fractious labour relations. REUTERS/Mike Hutchings  (SOUTH AFRICA - Tags: POLITICS BUSINESS EMPLOYMENT CIVIL UNREST)</bu>
+              <copyright py:pytype="str">© Mike Hutchings/Reuters</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fadd7d09-fd86-4f6b-aa47-24da6338929f" force_mobile_image="False">
+          <block xmlns:ns9="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/administratives/2012-11/link_dev_blog" uniqueId="http://xml.zeit.de/administratives/2012-11/link_dev_blog" year="2012" issue="46" ressort="Administratives" contenttype="link" publication-date="" expires="" ns9:href="http://blog.zeit.de/dev/" date-last-modified="2015-01-19T14:22:21+00:00" date-first-released="2012-11-09T16:26:22.132922+00:00" date-last-published="2015-01-19T14:23:21.256542+00:00" last-semantic-change="2015-01-19T14:21:58.785682+00:00">
+            <supertitle py:pytype="str">Alles neu</supertitle>
+            <title py:pytype="str">Entwicklungsblog von ZEIT ONLINE</title>
+            <text py:pytype="str">Das Team der Entwicklungsredaktion und der Technik gibt Einblicke in den Maschinenraum von ZEIT ONLINE.</text>
+            <description py:pytype="str">Das Team der Entwicklungsredaktion und der Technik gibt Einblicke in den Maschinenraum von ZEIT ONLINE.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/weblogs/2015-01/devblog/" type="jpg" title="devblog" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e2bbae1f-2896-4de7-b8d7-4e68da7d9331" force_mobile_image="False">
+          <block xmlns:ns10="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/digital/internet/2010-10/blogteaser-opendata" uniqueId="http://xml.zeit.de/digital/internet/2010-10/blogteaser-opendata" year="2010" issue="43" ressort="Digital" contenttype="link" publication-date="" expires="" ns10:href="http://blog.zeit.de/open-data/" date-last-modified="2014-07-22T14:59:22+00:00" date-first-released="2010-10-22T09:07:26.557138+00:00" date-last-published="2014-07-22T15:00:22.214862+00:00" last-semantic-change="2010-10-22T09:10:51.788005+00:00">
+            <supertitle py:pytype="str">Transparenz</supertitle>
+            <title py:pytype="str">Offene Daten – offene Gesellschaft</title>
+            <text py:pytype="str">Offene Daten – offene Gesellschaft: Kai Biermann und Sascha Venohr beschreiben, warum der freie Zugang zu Daten aus Forschung und Verwaltung das Land transparenter macht.</text>
+            <description py:pytype="str">Offene Daten – offene Gesellschaft: Kai Biermann und Sascha Venohr beschreiben, warum der freie Zugang zu Daten aus Forschung und Verwaltung das Land transparenter macht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/weblogs/2010-10/open-data-teaser/" type="jpg" title="Open Data Teaser" publication-date="" expires="">
+              <bu py:pytype="str">Greenpeace activist makes adjustments while hanging inside giant model of the globe near Konin open mine
+03/12/2008
+System ID: 	
+RTR22827
+Image ID: 	
+GM1E4C406SK01
+Photographer: 	
+REUTERS/Kacper Pempel
+A Greenpeace activist makes adjustments while hanging from the ceiling inside a giant model of the globe near Konin open mine, 70 km from Poznan, western Poland December 3, 2008. Greenpeace established a camp to protest against the damage it says the Konin mine is doing to the climate, regional tourism and farming, and against the planned opening of new sites. REUTERS/Kacper Pempel (POLAND)
+</bu>
+              <copyright py:pytype="str">© Kacper Pempel/Reuters</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-934fdced-2294-4e33-a83e-a66ab1d65ecb" force_mobile_image="False">
+          <block xmlns:ns11="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/blogs/link-blog-stoerungsmelder" uniqueId="http://xml.zeit.de/blogs/link-blog-stoerungsmelder" year="2009" ressort="Politik" contenttype="link" publication-date="" expires="" ns11:href="http://blog.zeit.de/stoerungsmelder/" date-last-modified="2014-07-22T15:02:35+00:00" date-first-released="2009-09-05T11:54:09.328387+00:00" date-last-published="2014-07-22T15:03:35.564736+00:00" last-semantic-change="2009-09-05T10:49:24.158073+00:00">
+            <supertitle py:pytype="str">Rechtsradikalismus</supertitle>
+            <title py:pytype="str">Ein Neonazi-Watchblog</title>
+            <text py:pytype="str">Hier geht es um Neonazis. Wo sie auftreten, was sie dabei sagen und vor allem: Was man gegen sie unternehmen sollte</text>
+            <description py:pytype="str">Hier geht es um Neonazis. Wo sie auftreten, was sie dabei sagen und vor allem: Was man gegen sie unternehmen sollte</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/weblogs/2010-11/blogheader-stoerungsmelder-teaser/" type="jpg" title="Blogheader Störungsmelder Teaser" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Carsten Koall/Getty Images</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f7177948-f1fc-464b-81b2-9ee1bd5d57fc" force_mobile_image="False">
+          <block xmlns:ns12="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/weblogs/2015-07/teaser-fragenderzeit" uniqueId="http://xml.zeit.de/weblogs/2015-07/teaser-fragenderzeit" year="2015" issue="27" ressort="Weblogs" contenttype="link" publication-date="" expires="" ns12:href="http://blog.zeit.de/fragen/" date-last-modified="2016-03-01T15:36:05+00:00" date-first-released="2015-07-07T11:22:02.062987+00:00" date-last-published="2015-07-07T12:32:13.860426+00:00" last-semantic-change="2015-07-07T12:31:07.589028+00:00">
+            <supertitle py:pytype="str">Leserdialog</supertitle>
+            <title py:pytype="str">Fragen der Zeit</title>
+            <text py:pytype="str">Das ist ein Blog in eigener Sache. Hier werden wir Ihnen regelmäßig Einblick in die Print- und Onlineredaktionen in Hamburg und Berlin geben. </text>
+            <description py:pytype="str">Das ist ein Blog in eigener Sache. Hier werden wir Ihnen regelmäßig Einblick in die Print- und Onlineredaktionen in Hamburg und Berlin geben. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/weblogs/2015-07/fragen-der-zeit/" type="jpg" title="Fragen der Zeit" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jan Kny</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f1d5b0c6-f26d-42f9-831f-47cc782639f9">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/2016-03/teaser-leserbriefeblog" uniqueId="http://xml.zeit.de/politik/2016-03/teaser-leserbriefeblog" year="2016" issue="10" ressort="Politik" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/leserbriefe/" date-last-modified="2016-03-03T09:19:42+00:00" date-first-released="2016-03-03T09:19:41.815913+00:00" date-last-published="2016-03-03T09:19:41.815913+00:00" last-semantic-change="2016-03-01T15:08:01.914975+00:00">
+            <supertitle py:pytype="str">Ihre Beiträge</supertitle>
+            <title py:pytype="str">Alle Leserbriefe an die ZEIT</title>
+            <text py:pytype="str">Die Print-Ausgabe der ZEIT erhält Woche für Woche Hunderte Briefe und Mails von Lesern. Hier finden Sie sämtliche Zuschriften.</text>
+            <description py:pytype="str">Die Print-Ausgabe der ZEIT erhält Woche für Woche Hunderte Briefe und Mails von Lesern. Hier finden Sie sämtliche Zuschriften.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2016-03/blog-leserbriefe/" type="jpg" title="Leserbriefe Blog" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©Getty Images/iStockphoto</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2d635209-7755-4ef3-a129-3031d0ac2469" force_mobile_image="False">
+          <block xmlns:ns13="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/wirtschaft/unternehmen/2009-12/gruene-geschaefte-hauptseite" uniqueId="http://xml.zeit.de/wirtschaft/unternehmen/2009-12/gruene-geschaefte-hauptseite" year="2009" issue="50" ressort="Wirtschaft" contenttype="link" publication-date="" expires="" ns13:href="http://blog.zeit.de/gruenegeschaefte/" date-last-modified="2015-09-14T14:55:42+00:00" date-first-released="2009-12-07T12:21:05.771180+00:00" date-last-published="2015-09-14T14:56:41.817879+00:00" last-semantic-change="2010-05-31T15:12:21.457354+00:00">
+            <supertitle py:pytype="str">Nachhaltigkeit</supertitle>
+            <title py:pytype="str">Wir können es besser</title>
+            <text py:pytype="str">Eine Wirtschaft, die Ressourcen und die Umwelt schont, ist möglich. Dieses Blog stellt Unternehmen vor, die danach handeln, verfolgt Branchentrends und die Politik.</text>
+            <description py:pytype="str">Eine Wirtschaft, die Ressourcen und die Umwelt schont, ist möglich. Dieses Blog stellt Unternehmen vor, die danach handeln, verfolgt Branchentrends und die Politik.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2015-09/blog-gruene-geschaefte/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">A photovoltaic array at the U.S. National Renewable Energy Laboratory's (NREL) National Wind Technology Center (NWTC) generates electricity for the lab on a sunny day near Boulder, Colorado July 21, 2010.  The NWTC, located at the foot of the Rocky Mountains is a world-class research facility managed by NREL for the U.S. Department of Energy.</bu>
+              <copyright py:pytype="str">© Rick Wilking/Reuters</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-32e877f5-4197-4d28-9f40-5240c17558e5" force_mobile_image="False">
+          <block xmlns:ns14="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/gesellschaft/schule/2010-09/zeit-fuer-die-schule" uniqueId="http://xml.zeit.de/gesellschaft/schule/2010-09/zeit-fuer-die-schule" year="2010" issue="37" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns14:href="http://blog.zeit.de/schueler/" date-last-modified="2014-07-23T14:33:10+00:00" date-first-released="2010-09-14T08:22:56.466868+00:00" date-last-published="2014-07-23T14:34:10.237175+00:00" last-semantic-change="2011-06-20T13:14:52.853016+00:00">
+            <supertitle py:pytype="str">Texte, Links und Materialien</supertitle>
+            <title py:pytype="str">Lernplattform auf ZEIT ONLINE </title>
+            <text py:pytype="str">ZEIT für die Schule hilft Schülern bei Hausaufgaben und Referaten. Die 50 Themenseiten bieten Material für Deutsch, Geschichte, Politik, Wirtschaft und Medienkunde.</text>
+            <description py:pytype="str">ZEIT für die Schule hilft Schülern bei Hausaufgaben und Referaten. Die 50 Themenseiten bieten Material für Deutsch, Geschichte, Politik, Wirtschaft und Medienkunde.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/schule/2010-09/zeit-fuer-die-schule-2/" type="jpg" title="ZEIT für die Schule" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4e0cf421-3690-405b-85a7-760af47c1ff2" force_mobile_image="False">
+          <block xmlns:ns15="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/blogs/Link-Herdentrieb" uniqueId="http://xml.zeit.de/blogs/Link-Herdentrieb" year="2008" ressort="Wirtschaft" contenttype="link" publication-date="" expires="" ns15:href="http://blog.zeit.de/herdentrieb" date-last-modified="2016-01-28T12:30:00+00:00" date-first-released="2008-11-26T10:48:41.529944+00:00" date-last-published="2015-09-14T14:55:10.197316+00:00" last-semantic-change="2010-05-31T15:14:51.803719+00:00">
+            <supertitle py:pytype="str">Ökonomie</supertitle>
+            <title py:pytype="str">So funktioniert der Kapitalismus</title>
+            <text py:pytype="str">Die Autoren dieses Blog mischen sich in die aktuelle makroökonomische Debatte ein, helfen Trends am Kapitalmarkt zu erkennen und warnen vor Trugschlüssen.</text>
+            <description py:pytype="str">Die Autoren dieses Blog mischen sich in die aktuelle makroökonomische Debatte ein, helfen Trends am Kapitalmarkt zu erkennen und warnen vor Trugschlüssen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2015-09/blog-herdentrieb/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">NEW YORK, NY - AUGUST 24:  Traders work on the floor of the New York Stock Exchange (NYSE) on August 24, 2015 in New York City. As the global economy continues to react from events in China, markets dropped significantly around the world on Monday. The Dow Jones industrial average briefly dropped over 1000 points in morning trading.</bu>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6a068a48-dceb-4ce9-acc9-9464614c0e99" force_mobile_image="False">
+          <block xmlns:ns16="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/lebensart/2010-10/heiter-blog-link" uniqueId="http://xml.zeit.de/lebensart/2010-10/heiter-blog-link" year="2010" issue="44" ressort="Lebensart" contenttype="link" publication-date="" expires="" ns16:href="http://blog.zeit.de/zeitmagazin/" date-last-modified="2014-07-23T14:45:30+00:00" date-first-released="2010-10-28T12:34:49.933710+00:00" date-last-published="2014-07-23T14:46:30.584405+00:00" last-semantic-change="2011-03-07T10:59:52.519268+00:00">
+            <supertitle py:pytype="str">ZEITmagazin</supertitle>
+            <title py:pytype="str">Die persönlichen Entdeckungen der Redaktion</title>
+            <text py:pytype="str">Oft sind es die einfachen Dinge, die uns heiter bis glücklich stimmen. Im "Heiter bis glücklich"-Blog stellt die ZEITmagazin-Redaktion ihre Entdeckungen vor.</text>
+            <description py:pytype="str">Oft sind es die einfachen Dinge, die uns heiter bis glücklich stimmen. Im "Heiter bis glücklich"-Blog stellt die ZEITmagazin-Redaktion ihre Entdeckungen vor.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/2010-10/heiter-blog-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEITmagazin</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9461856f-2cd9-4adf-978d-1c804e2d7ee5" force_mobile_image="False">
+          <block xmlns:ns17="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/ausland/2010-01/link-blog-ladurner" uniqueId="http://xml.zeit.de/politik/ausland/2010-01/link-blog-ladurner" year="2010" ressort="Politik" contenttype="link" publication-date="" expires="" ns17:href="http://blog.zeit.de/ladurnerulrich/" date-last-modified="2017-02-14T10:17:54+00:00" date-first-released="2010-01-26T11:58:46.192312+00:00" date-last-published="2017-02-14T10:17:53.896872+00:00" last-semantic-change="2010-05-31T16:04:46.261616+00:00">
+            <supertitle py:pytype="str">Blog</supertitle>
+            <title py:pytype="str">Unterwegs in Europa</title>
+            <text py:pytype="str">Einblicke in unübersichtliche Landschaften bietet Ulrich Ladurner</text>
+            <description py:pytype="str">Einblicke in unübersichtliche Landschaften bietet Ulrich Ladurner</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2017-02/ladurnerulrich/" type="jpg" title="ladurnerulrich" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Ulrich Ladurner</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9f7132d9-ea90-4b5b-a8bc-e66903610587" force_mobile_image="False">
+          <block xmlns:ns18="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/meinung/2010-03/zeit-der-leser" uniqueId="http://xml.zeit.de/meinung/2010-03/zeit-der-leser" year="2010" issue="14" ressort="Meinung" contenttype="link" publication-date="" expires="" ns18:href="http://blog.zeit.de/zeit-der-leser" date-last-modified="2014-07-23T14:47:00+00:00" date-first-released="2010-03-31T08:51:49.718857+00:00" date-last-published="2014-07-23T14:48:00.402423+00:00" last-semantic-change="2010-04-16T08:58:02.117811+00:00">
+            <supertitle py:pytype="str">Mitschreiben</supertitle>
+            <title py:pytype="str">Ihre Texte in der Zeit</title>
+            <text py:pytype="str">Das Blog zur ZEIT-der-Leser-Seite der gedruckten ZEIT. Für alle kreativen, meinungsstarken, klugen, neugierigen und wütenden Leser. Werden Sie zu Schreibern!</text>
+            <description py:pytype="str">Das Blog zur ZEIT-der-Leser-Seite der gedruckten ZEIT. Für alle kreativen, meinungsstarken, klugen, neugierigen und wütenden Leser. Werden Sie zu Schreibern!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/meinung/2010-03/zeit-der-leser-2/" type="jpg" title="titel zeit der leser" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+      <region area="informatives" visible="True" visible_mobile="True" hide-dupes="True">
+        <container cp:type="cpextra" module="printbox" visible="True" visible_mobile="True" cp:__name__="id-85c17ac5-2660-4031-a3dc-293a669e8c0e">
+          <cp_extra id="printbox"/>
+        </container>
+        <container cp:type="quiz" module="quiz" visible="True" visible_mobile="True" cp:__name__="id-a9c29d91-b5f8-4e72-9717-5a3aff0de2be">
+          <quiz_id>daily</quiz_id>
+        </container>
+      </region>
+    </cluster>
+  </body>
+  <teaser>
+    <title>Blogs</title>
+    <text>Notizen, Nachrichten und Geistesblitze unserer Redakteure und Autoren</text>
+  </teaser>
+</centerpage>

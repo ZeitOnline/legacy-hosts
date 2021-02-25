@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-09-01T10:39:18.283897+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-08-26T08:16:55.462181+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-09-01T10:40:18.029491+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-09-01T10:39:02.323834+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lfischer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">reisetraeume</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:2510e50e-ef81-4bcd-9733-afabfbe75bab}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="36b60d59-9a44-4f8a-b580-3f9f1d41fc2d"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="afa1b18d-322e-423c-afc7-9b096a1d9378">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/windrose/zurueck" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/windrose/" date-last-modified="2011-09-01T10:33:48+00:00" date-first-released="2011-09-01T10:34:48.484098+00:00" date-last-published="2011-09-01T10:34:48.484098+00:00" last-semantic-change="2011-09-01T10:33:35.472665+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="2d8b5db7-7d8a-4bc7-a6a8-2b2b5486e369">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/windrose/windrose" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.windrose.de/DE/">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Windrose</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/windrose/bilder/WR_Logo_Standard-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="0c3aaaf6-314e-4992-a5b2-70e4a87aa62a">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/windrose/kontakt-und-information" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.windrose.de/DE/kontakt/" date-last-modified="2011-08-30T08:08:29+00:00" date-first-released="2011-08-25T14:53:58.497645+00:00" date-last-published="2011-08-30T08:09:29.488909+00:00" last-semantic-change="2011-08-30T08:08:19.216972+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Kontakt &amp; Information</title>
+            <text py:pytype="str">Unsere Reisedesigner lassen Reiseträume wahr werden - in der Gruppe mit exzellenten Studienreiseleiter oder ganz individuell.</text>
+            <description py:pytype="str">Unsere Reisedesigner lassen Reiseträume wahr werden - in der Gruppe mit exzellenten Studienreiseleiter oder ganz individuell.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="kontakt-und-information.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/kontakt-und-information.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="39f776ca-b0ab-402b-91f3-6540dfefe847">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/windrose/newsletter" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="https://www.windrose.de/DE/newsletter/" date-last-modified="2011-08-30T08:10:39+00:00" date-first-released="2011-08-25T14:50:34.785709+00:00" date-last-published="2011-08-30T08:11:39.003685+00:00" last-semantic-change="2011-08-30T08:10:17.506449+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Newsletteranmeldung</title>
+            <text py:pytype="str">Empfehlungen, Reisetipps und aktuelle Angebote finden Sie in unserem Reise-newsletter. Bitte melden Sie sich hier an.</text>
+            <description py:pytype="str">Empfehlungen, Reisetipps und aktuelle Angebote finden Sie in unserem Reise-newsletter. Bitte melden Sie sich hier an.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="newsletter.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/newsletter.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="2c28a78d-dab0-4e10-9279-bc1c0ddef7ab">
+          <block href="http://xml.zeit.de/angebote/windrose/das-lieblingsland-buddhas" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-01T10:38:31+00:00" date-first-released="2011-08-26T08:48:13.185648+00:00" date-last-published="2011-09-01T10:39:31.663109+00:00" last-semantic-change="2011-08-31T09:31:46.761120+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Das Lieblingsland Buddhas</title>
+            <text py:pytype="str">Alle Schönheiten Myanmars in Muße, dabei mehr als nur Pagoden erleben! Sie haben Zeit für vielfältige Begegnungen mit Land und Leuten.</text>
+            <description py:pytype="str">Alle Schönheiten Myanmars in Muße, dabei mehr als nur Pagoden erleben! Sie haben Zeit für vielfältige Begegnungen mit Land und Leuten.</description>
+            <byline py:pytype="str">Reiseträume: Dies ist ein Angebot von Windrose Finest Travel GmbH. Für den Inhalt ist ausschließlich Windrose Finest Travel GmbH verantwortlich.</byline>
+            <image align="left" title="teaser-1.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/teaser-1.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/windrose/suedamerika-rundreise" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-31T09:33:45+00:00" date-first-released="2011-08-26T08:47:44.184663+00:00" date-last-published="2011-08-31T09:34:45.073676+00:00" last-semantic-change="2011-08-31T09:33:34.048612+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Südamerika-Rundreise</title>
+            <text py:pytype="str">Eine ideale Überblicksreise durch Südamerika zu den schönsten Städten und Landschaften in Peru, Bolivien, Argentinien und Brasilien.</text>
+            <description py:pytype="str">Eine ideale Überblicksreise durch Südamerika zu den schönsten Städten und Landschaften in Peru, Bolivien, Argentinien und Brasilien.</description>
+            <byline py:pytype="str">Reiseträume: Dies ist ein Angebot von Windrose Finest Travel GmbH. Für den Inhalt ist ausschließlich Windrose Finest Travel GmbH verantwortlich.</byline>
+            <image align="left" title="teaser-2.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/teaser-2.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="7775814d-811e-4229-904b-ee79dd851d92">
+          <block href="http://xml.zeit.de/angebote/windrose/mandarinstrasse" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-31T09:32:50+00:00" date-first-released="2011-08-26T08:46:39.385980+00:00" date-last-published="2011-08-31T09:33:50.186095+00:00" last-semantic-change="2011-08-31T09:32:40.464192+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die Mandarinstraße</title>
+            <text py:pytype="str">Durch Vietnam auf dem Landweg von Nord nach Süd, immer entlang der historischen Mandarinstraße, per Bus, per Bahn und auf dem Boot.</text>
+            <description py:pytype="str">Durch Vietnam auf dem Landweg von Nord nach Süd, immer entlang der historischen Mandarinstraße, per Bus, per Bahn und auf dem Boot.</description>
+            <byline py:pytype="str">Reiseträume: Dies ist ein Angebot von Windrose Finest Travel GmbH. Für den Inhalt ist ausschließlich Windrose Finest Travel GmbH verantwortlich.</byline>
+            <image align="left" title="teaser-3.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/teaser-3.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/windrose/juwele-afrikas" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-31T09:32:29+00:00" date-first-released="2011-08-26T08:23:58.334555+00:00" date-last-published="2011-08-31T09:33:29.190419+00:00" last-semantic-change="2011-08-31T09:32:14.974114+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Juwele Afrikas</title>
+            <text py:pytype="str">Erleben Sie Afrikas Naturlandschaften: in Namibia die tierreiche Etoscha-Pfanne, in Botswana die großen Elefantenherden und an den Victoriafällen rauscht das Wasser ...</text>
+            <description py:pytype="str">Erleben Sie Afrikas Naturlandschaften: in Namibia die tierreiche Etoscha-Pfanne, in Botswana die großen Elefantenherden und an den Victoriafällen rauscht das Wasser ...</description>
+            <byline py:pytype="str">Reiseträume: Dies ist ein Angebot von Windrose Finest Travel GmbH. Für den Inhalt ist ausschließlich Windrose Finest Travel GmbH verantwortlich.</byline>
+            <image align="left" title="teaser-4.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/teaser-4.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="0ad7b254-7a82-44d7-9998-481cdbefcf7c">
+          <block href="http://xml.zeit.de/angebote/windrose/suedafrika-5sterne" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-31T09:33:17+00:00" date-first-released="2011-08-26T08:47:04.986893+00:00" date-last-published="2011-08-31T09:34:16.715554+00:00" last-semantic-change="2011-08-31T09:33:05.287920+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Südafrika 5*</title>
+            <text py:pytype="str">Wohnen in 5-Sterne-Häusern und 5-Sterne-Eindrücke sammeln – auf einer Rundfahrt zu Südafrikas Höhepunkten im privaten Reservat, der Garden-Route und in Kapstadt.</text>
+            <description py:pytype="str">Wohnen in 5-Sterne-Häusern und 5-Sterne-Eindrücke sammeln – auf einer Rundfahrt zu Südafrikas Höhepunkten im privaten Reservat, der Garden-Route und in Kapstadt.</description>
+            <byline py:pytype="str">Reiseträume: Dies ist ein Angebot von Windrose Finest Travel GmbH. Für den Inhalt ist ausschließlich Windrose Finest Travel GmbH verantwortlich.</byline>
+            <image align="left" title="teaser-5.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/teaser-5.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/windrose/venezuela" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-31T09:34:10+00:00" date-first-released="2011-08-26T08:36:17.367013+00:00" date-last-published="2011-08-31T09:35:10.485540+00:00" last-semantic-change="2011-08-31T09:33:59.833382+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Venezuela – Tierra Verde</title>
+            <text py:pytype="str">Massive Tafelberge, das dschungelgrüne Orinoco-Delta und lebensfrohe Menschen – das und mehr ist Venezuela. An 15 erlebnisreichen Tage sehen Sie die Höhepunkte.</text>
+            <description py:pytype="str">Massive Tafelberge, das dschungelgrüne Orinoco-Delta und lebensfrohe Menschen – das und mehr ist Venezuela. An 15 erlebnisreichen Tage sehen Sie die Höhepunkte.</description>
+            <byline py:pytype="str">Reiseträume: Dies ist ein Angebot von Windrose Finest Travel GmbH. Für den Inhalt ist ausschließlich Windrose Finest Travel GmbH verantwortlich.</byline>
+            <image align="left" title="teaser-6.jpg" base-id="http://xml.zeit.de/angebote/windrose/bilder/teaser-6.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Reiseträume</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Reiseträume</title>
+  </teaser>
+</centerpage>

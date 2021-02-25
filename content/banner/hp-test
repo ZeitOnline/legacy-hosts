@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-10-12T12:53:40.606421+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-10-12T12:47:38.831094+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-10-12T12:55:55.427466+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-10-12T12:55:55.296803+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-10-12T12:47:38.439707+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-10-12T12:53:45.448511+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-robots">noindex</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-10-12T12:45:00.639831+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.strothjohann</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:bbf69b12-53be-44a0-9938-927009b74954}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">41</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>hp-test</title>
+    <cluster area="feature" visible="True" visible_mobile="True">
+      <region area="lead" visible="True" visible_mobile="True" hide-dupes="True" count="5" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Politik</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-37c1ba5d-5098-49c5-8fcd-283eec7b1fa6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8e0d85b1-0e35-45a4-b460-5ef992d7e7f9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f5ac4a36-e08d-4cd2-8a2c-5cb237b7b8a0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-709c5cb9-476b-4a17-a475-d0e142025662"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cc38b2aa-5c56-437d-bf77-70573bafaa6a"/>
+      </region>
+      <region area="informatives" visible="True" visible_mobile="True" hide-dupes="True">
+        <container cp:type="cpextra" module="mostread" visible="True" visible_mobile="True" cp:__name__="id-51ced305-5fd1-46dc-afb9-61a51af84d74">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" visible="True" visible_mobile="True" cp:__name__="id-e8d68b2e-3918-4adf-8452-8590b4775877">
+          <cp_extra id="mostcommented"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-b0c23039-a4c4-4e82-9669-690e1744f5b5" kind="duo" kind_title="Duo-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-d59dd9e7-42b6-486c-993e-1741dfce3b7d" kind="duo">
+        <container cp:type="teaser" module="zon-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b9005674-d4ba-484b-aff8-db6d385326f4">
+          <block href="http://xml.zeit.de/politik/ausland/2015-10/ankara-anschlag-islamischer-staat" uniqueId="http://xml.zeit.de/politik/ausland/2015-10/ankara-anschlag-islamischer-staat" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-10-12T10:24:30+00:00" date-first-released="2015-10-12T09:42:30.227246+00:00" date-last-published="2015-10-12T10:24:29.655974+00:00" last-semantic-change="2015-10-12T09:42:16.817992+00:00">
+            <supertitle py:pytype="str">Türkei</supertitle>
+            <title py:pytype="str">Regierung schreibt IS Anschlag von Ankara zu</title>
+            <text py:pytype="str">Die türkische Regierung geht davon aus, dass der "Islamische Staat" das Attentat verübt hat. Die prokurdische HDP fürchtet weitere Angriffe während des Wahlkampfs. </text>
+            <description py:pytype="str">Die türkische Regierung geht davon aus, dass der "Islamische Staat" das Attentat verübt hat. Die prokurdische HDP fürchtet weitere Angriffe während des Wahlkampfs. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2015-10/ankara-tuerkei/" type="jpg" title="Ankara Türkei" alt="Ankara Türkei Islamischer Staat PKK AKP Erdoğan" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Prokurdische Demonstranten protestieren vor dem Parlament in Ankara, Türkei</bu>
+              <copyright py:pytype="str">© Adem Altan/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-ea0fb235-5ac1-4f36-a5ec-4b0e33c205e2" kind="duo">
+        <container cp:type="teaser" module="zon-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4310678b-0529-4e3e-83c5-772a1cd9a616">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-10/fluechtlinge-politik-donald-trump-ueber-angela-merkel" uniqueId="http://xml.zeit.de/politik/deutschland/2015-10/fluechtlinge-politik-donald-trump-ueber-angela-merkel" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-10-12T05:35:02+00:00" date-first-released="2015-10-12T05:21:01.452237+00:00" date-last-published="2015-10-12T05:35:01.450640+00:00" last-semantic-change="2015-10-12T05:20:52.261977+00:00">
+            <supertitle py:pytype="str">Flüchtlinge</supertitle>
+            <title py:pytype="str">Donald Trump nennt Merkels Politik "verrückt"</title>
+            <text py:pytype="str">In einem TV-Interview hat der US-Präsidentschaftsbewerber über die deutsche Flüchtlingspolitik gelästert. Er würde alle syrischen Flüchtlinge abschieben, sagte Trump.</text>
+            <description py:pytype="str">In einem TV-Interview hat der US-Präsidentschaftsbewerber über die deutsche Flüchtlingspolitik gelästert. Er würde alle syrischen Flüchtlinge abschieben, sagte Trump.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2015-10/donald-trump/" type="jpg" title="Donald Trump" alt="Donald Trump" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Donald Trump beim Vorwahlkampf im US-Bundesstaat Texas</bu>
+              <copyright py:pytype="str">© Mike Stone/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-26590b16-2e37-4c5f-84c4-7fcd27e18141" kind="parquet" kind_title="Parkett-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-d9b011c7-ce00-4c57-b65f-7ead04bca9ed" kind="parquet" count="2" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Teilchen</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-98b47687-c178-4092-85b2-0146b47fb6ae"/>
+        <container cp:type="cpextra" module="adplace13" visible="True" visible_mobile="True" cp:__name__="id-c6e7fc51-3ebd-45a3-a89a-bee9b6aaec3b">
+          <cp_extra id="adplace13"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic" visible="True" visible_mobile="True"/>
+  </body>
+  <feed>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/wirtschaft/2015-10/Weltwirtschaft-Asien-USA" year="2015" issue="41" ressort="Wirtschaft" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/teilchen/2015/10/08/warum-asien-das-neue-europa-ist/" author="Björn Maatz">
+      <supertitle py:pytype="str">Weltwirtschaft</supertitle>
+      <title py:pytype="str">Warum Asien das neue Europa ist</title>
+      <text py:pytype="str">Die Weltwirtschaft als lebender Organismus: Eine Visualisierung zeigt, wie sich in 35 Jahren die globalen Gewichte verschoben haben.</text>
+      <description py:pytype="str">Die Weltwirtschaft als lebender Organismus: Eine Visualisierung zeigt, wie sich in 35 Jahren die globalen Gewichte verschoben haben.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title py:pytype="str">Warum Asien das neue Europa ist</breadcrumb_title>
+      <image base-id="http://xml.zeit.de/wirtschaft/2015-10/weltwirtschaft/" type="jpg" title="Weltwirtschaft" alt="Weltwirtschaft" align="left" publication-date="" expires="">
+        <bu py:pytype="str">DEHUA, CHINA - DECEMBER 7: A Chinese worker paints unfinished licensed ceramic 'Smurfs' at the Shunmei Group (SMG) ceramics factory during a tour on December 7, 2014 in Dehua,Fujian Province, China. According to recent IMF data China's economy is considered the world's largest, having edged past the United States' economy in terms of real goods and services. ÃHowever, China's per capital GDP (gross domestic product) ranking is still considerably lower at 89th in the world while the US is ranked tenth on the same list.Ã(Photo by Kevin Frayer/Getty Images)</bu>
+        <copyright py:pytype="str">© Kevin Frayer/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Bjoern_Maatz/index" publication-date="" expires="">
+        <display_name py:pytype="str">Björn Maatz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-10/fluechtlinge-politik-donald-trump-ueber-angela-merkel" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Flüchtlinge</supertitle>
+      <title py:pytype="str">Donald Trump nennt Merkels Politik "verrückt"</title>
+      <text py:pytype="str">In einem TV-Interview hat der US-Präsidentschaftsbewerber über die deutsche Flüchtlingspolitik gelästert. Er würde alle syrischen Flüchtlinge abschieben, sagte Trump.</text>
+      <description py:pytype="str">In einem TV-Interview hat der US-Präsidentschaftsbewerber über die deutsche Flüchtlingspolitik gelästert. Er würde alle syrischen Flüchtlinge abschieben, sagte Trump.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/ausland/2015-10/donald-trump/" type="jpg" title="Donald Trump" alt="Donald Trump" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Donald Trump beim Vorwahlkampf im US-Bundesstaat Texas</bu>
+        <copyright py:pytype="str">© Mike Stone/Reuters</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2015-10/ankara-anschlag-islamischer-staat" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Türkei</supertitle>
+      <title py:pytype="str">Regierung schreibt IS Anschlag von Ankara zu</title>
+      <text py:pytype="str">Die türkische Regierung geht davon aus, dass der "Islamische Staat" das Attentat verübt hat. Die prokurdische HDP fürchtet weitere Angriffe während des Wahlkampfs. </text>
+      <description py:pytype="str">Die türkische Regierung geht davon aus, dass der "Islamische Staat" das Attentat verübt hat. Die prokurdische HDP fürchtet weitere Angriffe während des Wahlkampfs. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/ausland/2015-10/ankara-tuerkei/" type="jpg" title="Ankara Türkei" alt="Ankara Türkei Islamischer Staat PKK AKP Erdoğan" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Prokurdische Demonstranten protestieren vor dem Parlament in Ankara, Türkei</bu>
+        <copyright py:pytype="str">© Adem Altan/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2015-10/belarus-lukaschenko-bleibt-praesident" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Belarus</supertitle>
+      <title py:pytype="str">Lukaschenko sichert sich fünfte Amtszeit </title>
+      <text py:pytype="str">Langzeit-Präsident Alexander Lukaschenko hat sich mit 83,5 Prozent aller Stimmen wiederwählen lassen. Seine stärksten Gegner durften nicht antreten.</text>
+      <description py:pytype="str">Langzeit-Präsident Alexander Lukaschenko hat sich mit 83,5 Prozent aller Stimmen wiederwählen lassen. Seine stärksten Gegner durften nicht antreten.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/ausland/2015-10/belarus-lukaschenko-bleibt-2/" type="jpg" title="Belarus Lukaschenko wählt" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Zur Wahl kam Präsident Alexander Lukaschenko zusammen mit seinem 11-jährigen Sohn Nikolai, den er als potentiellen Nachfolger handelt.</bu>
+        <copyright py:pytype="str">© Vasily Fedosenko/Reuters</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-10/ankara-tuerkische-gemeinde-warnt-deutschland" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Ankara</supertitle>
+      <title py:pytype="str">Türkische Gemeinde warnt vor Gewalt auch in Deutschland</title>
+      <text py:pytype="str">Gökay Sofuoglu, Vorsitzender der Türkischen Gemeinde, befürchtet nach den Bombenanschlägen in Ankara eine Eskalation auch in Deutschland. Die PKK rufe zur Vergeltung auf.</text>
+      <description py:pytype="str">Gökay Sofuoglu, Vorsitzender der Türkischen Gemeinde, befürchtet nach den Bombenanschlägen in Ankara eine Eskalation auch in Deutschland. Die PKK rufe zur Vergeltung auf.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-10/pkk-deutschland/" type="jpg" title="PKK Deutschland" alt="PKK Deutschland" align="left" publication-date="" expires="2016-01-12T05:46:00+00:00">
+        <bu py:pytype="str">Ein Teilnehmer einer Demonstration gegen die Politik der türkischen Regierung hält am 12.09.2015 in Stuttgart (Baden-Württemberg) eine Flagge mit dem Porträt des in der Türkei inhaftierten Führers der verbotenen kurdischen Arbeiterpartei PKK, Öcalan. Vor dem Hintergrund des eskalierten Konflikts in der Türkei sind in Stuttgart rund 2000 Kurden und Kritiker der türkischen Regierung auf die Straße gegangen. Foto: Wolfram Kastl/dpa [ Rechtehinweis: Verwendung weltweit, usage worldwide ]</bu>
+        <copyright py:pytype="str">© Wolfram Kastl/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-10/transitzonen-fluechtlinge-asylbewerber-innenminister" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Flüchtlinge</supertitle>
+      <title py:pytype="str">Entscheidung über Transitzonen vertagt </title>
+      <text py:pytype="str">Asylgesuche könnten demnächst in speziellen Zonen an den deutschen Grenzen entschieden werden. Die Innenminister sind nach einer Sitzung im Kanzleramt zuversichtlich.</text>
+      <description py:pytype="str">Asylgesuche könnten demnächst in speziellen Zonen an den deutschen Grenzen entschieden werden. Die Innenminister sind nach einer Sitzung im Kanzleramt zuversichtlich.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-10/flu-chtlinge-grenze-deutschland/" type="jpg" title="Flüchtlinge Grenze Deutschland" alt="Flüchtlinge Grenze Deutschland" align="left" publication-date="" expires="">
+        <bu py:pytype="str">03.10.2015, Grenzübergang, Salzburg - Freilassing, GER, Flüchtlingskrise in der EU, im Bild Flüchtlinge warten auf den Grenzübertritt nach Deutschland // Refugees waiting to cross the border to Germany. Europe is dealing with its greatest influx of migrants and asylum seekers since World War II as immigrants fleeing war and poverty in the Middle East, Afghanistan and Africa try to reach Germany and other Western European countries, German - Austrian Border, Salzburg on 2015/10/03. EXPA Pictures © 2015, PhotoCredit: EXPA/ JFK - 20151010_PD4362 [ Rechtehinweis: usage Germany only, Verwendung nur in Deutschland, Please check additional restrictions!, Bitte Einschränkungen der Handelsrecht ]</bu>
+        <copyright py:pytype="str">© EXPA/JFK/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2015-10/investigativer-journalismus-lillehammer-enthuellungen" year="2015" issue="41" ressort="Politik" serie="Fünf vor acht" contenttype="article" publication-date="" expires="" author="Martin Klingst">
+      <supertitle py:pytype="str">Investigativer Journalismus</supertitle>
+      <title py:pytype="str">Lauter kleine Edward Snowdens</title>
+      <text py:pytype="str">Im Ehrgeiz, alles ans Licht zu zerren, liegt für Enthüllungsjournalisten die Gefahr, selber das Recht auf Privatheit und die Grundsätze des Datenschutzes zu verletzen. </text>
+      <description py:pytype="str">Im Ehrgeiz, alles ans Licht zu zerren, liegt für Enthüllungsjournalisten die Gefahr, selber das Recht auf Privatheit und die Grundsätze des Datenschutzes zu verletzen. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <author href="http://xml.zeit.de/autoren/K/Martin_Klingst/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Martin Klingst</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2015-10/syrien-konflikt-eu-kritik-angriffe-russland-opposition" year="2015" issue="41" ressort="Politik" contenttype="article" publication-date="" expires="" genre="nachricht">
+      <supertitle py:pytype="str">Syrien</supertitle>
+      <title py:pytype="str">EU fordert Ende der russischen Angriffe auf Opposition</title>
+      <text py:pytype="str">Die EU-Außenminister haben das Vorgehen des russischen Militärs in Syrien scharf kritisiert. Die Zukunft des Landes sehen sie ohne Machthaber Baschar al-Assad.</text>
+      <description py:pytype="str">Die EU-Außenminister haben das Vorgehen des russischen Militärs in Syrien scharf kritisiert. Die Zukunft des Landes sehen sie ohne Machthaber Baschar al-Assad.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/ausland/2015-10/russland-syrien-is-eu-luftangriffe/" type="jpg" title="Russland Luftangriffe Syrien" align="left" publication-date="" expires="2016-01-12T12:48:18+00:00">
+        <bu py:pytype="str">Ein russisches Kampfflugzeug vom Typ Su-24 in Syrien</bu>
+        <copyright py:pytype="str">© Dmitriy Vinogradov/RIA Novosti/dpa</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title>hp-test</title>
+  </teaser>
+</centerpage>

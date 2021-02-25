@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <image base-id="http://xml.zeit.de/community/2015-02/lektuere-tipps-cp-header/" type="jpg" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-05-29T15:04:17.388781+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-03-06T14:31:53.154361+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-05-29T15:04:25.936486+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-05-29T15:05:25.859438+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-05-22T15:16:59.310725+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-05-22T15:16:59.358705+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Lektüre-Tipps | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-05-29T15:04:03.143979+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.dorfer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Community</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:0f6ce26d-ef46-4b92-80c1-0d5d65ff9158}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">8</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="xml" module="xml" cp:__name__="id-7163bdae-0102-4de2-bf9b-33b08de3e4b9">
+          <raw>
+            <div id="intro" class="wrapper-thema">
+              <div id="headerImageWrap">
+                <img src="http://xml.zeit.de/community/2015-02/lektuere-tipps-cp-header/Tag_fuer_Tag.jpg" width="940px"/>
+                <p class="copyright">
+          © Hero Images/GettyImages
+        </p>
+              </div>
+              <h2>Lektüre-Tipps</h2>
+              <p class="excerpt">Tag für Tag veröffentlicht ZEIT ONLINE Artikel, Teilchen und manchmal auch eine Longform, die Sie sich fürs Wochenende vormerken, weil Sie vorher keine Muße dafür haben. Doch womöglich wissen Sie im entscheidenden Augenblick nicht mehr, was Sie lesen wollten. Oder Sie haben Geschichten, die Sie interessieren, im Verlauf der Woche nicht mitbekommen. Diese Themenseite sammelt die passende Lektüre für Sie. Freitags präsentieren wir hier Beträge aus der aktuellen Woche, die unsere Leser oft geteilt haben oder die wir Ihnen ans Herz legen möchten. 
+      </p>
+            </div>
+            <link href="http://live0.zeit.de/infografik/misc/themenseite-header.css" media="screen" type="text/css" rel="stylesheet"/>
+            <script type="text/javascript">
+    	jQuery(document).ready(function () {
+    		informativesPadding = 18
+    		jQuery("#informatives").css("margin-top", (jQuery("#intro").height()+informativesPadding)+"px");
+    	});
+    </script>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f1b8057a-4fc9-492b-9f6d-b759695aa1b7">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-05/fluechtlinge-beispiele-uganda-libanon-bayern-hamburg-bulgarien" uniqueId="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-05/fluechtlinge-beispiele-uganda-libanon-bayern-hamburg-bulgarien" year="2015" issue="21" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns0:href="http://interactive.zeit.de/feature/so-koennte-es-auch-gehen.html" date-last-modified="2015-05-27T09:13:01+00:00" date-first-released="2015-05-27T08:31:04.495653+00:00" date-last-published="2015-05-27T09:14:01.082574+00:00" last-semantic-change="2015-05-27T09:11:39.905694+00:00" author="Andrea Böhm;Philip Faigle;Karsten Polke-Majewski;Caterina Lobenstein;Laura Cwiertnia">
+            <supertitle py:pytype="str">Flüchtlinge</supertitle>
+            <title py:pytype="str">So könnte es auch gehen</title>
+            <text py:pytype="str">In der Flüchtlingspolitik gibt es keine Ideen? Falsch. Reporter haben weltweit nach Beispielen gesucht und fünf gefunden: im Libanon, in Uganda und sogar in Bayern.</text>
+            <description py:pytype="str">In der Flüchtlingspolitik gibt es keine Ideen? Falsch. Reporter haben weltweit nach Beispielen gesucht und fünf gefunden: im Libanon, in Uganda und sogar in Bayern.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-05/bayern/" type="jpg" title="Bayern" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Außer den russischen Aussiedlern, die vor Jahrzehnten hergezogen sind, sieht man in Schwandorf kaum Migranten. Dennoch wurde die Stadt zum Vorbild, wie junge Flüchtlinge ausgebildet werden können.</bu>
+              <copyright py:pytype="str" link="http://www.magdalenajooss.com">© Magdalena Jooß</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Andrea_Boehm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Andrea Böhm</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/F/Philip_Faigle/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Philip Faigle</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/L/Caterina_Lobenstein" publication-date="" expires="">
+              <display_name py:pytype="str">Caterina Lobenstein</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/C/Laura_Cwiertnia/index" publication-date="" expires="">
+              <display_name py:pytype="str">Laura Cwiertnia</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9c9878e5-0119-4d58-a828-10d15e8bc609">
+          <block href="http://xml.zeit.de/kultur/2015-05/siedler-von-catan-20-jahre" uniqueId="http://xml.zeit.de/kultur/2015-05/siedler-von-catan-20-jahre" year="2015" issue="19" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-27T05:55:58+00:00" date-first-released="2015-05-27T05:56:58.133315+00:00" date-last-published="2015-05-27T05:56:58.133315+00:00" last-semantic-change="2015-05-27T05:55:53.685942+00:00" author="Philipp Reinartz">
+            <supertitle py:pytype="str">"Siedler von Catan"</supertitle>
+            <title py:pytype="str">Manager tanzen im Sechseck</title>
+            <text py:pytype="str">Vor 20 Jahren eroberten die "Siedler von Catan" deutsche Wohnzimmer. Nun verhelfen begeisterte Promis und Silicon-Valley-Manager dem Brettspiel zum Durchbruch in den USA.</text>
+            <description py:pytype="str">Vor 20 Jahren eroberten die "Siedler von Catan" deutsche Wohnzimmer. Nun verhelfen begeisterte Promis und Silicon-Valley-Manager dem Brettspiel zum Durchbruch in den USA.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2015-05/siedler-von-catan-prototyp2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">So hat "Die Siedler von Catan" während seiner Entwicklungsphase einmal ausgesehen.</bu>
+              <copyright py:pytype="str">© Klaus Teuber</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Philipp_Reinartz/index" publication-date="" expires="">
+              <display_name py:pytype="str">Philipp Reinartz</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-aa518c21-62d2-45af-adec-3b0ace3a6525">
+          <block href="http://xml.zeit.de/2015/19/sumatra-matriachat-muetter-macht" uniqueId="http://xml.zeit.de/2015/19/sumatra-matriachat-muetter-macht" year="2015" issue="19" ressort="Reisen" contenttype="article" publication-date="2015-05-21T01:06:52+00:00" expires="" date-last-modified="2015-05-26T16:41:05+00:00" date-first-released="2015-05-21T01:08:23.418460+00:00" date-last-published="2015-05-26T16:42:05.140717+00:00" last-semantic-change="2015-05-26T16:41:01.235672+00:00" author="Fritz Habekuß">
+            <supertitle py:pytype="str">Sumatra</supertitle>
+            <title py:pytype="str">Abwasch ist Frauensache!</title>
+            <text py:pytype="str">Das größte Matriarchat der Erde befindet sich auf der indonesischen Insel Sumatra. Doch woran erkennt man die Macht der Mütter?</text>
+            <description py:pytype="str">Das größte Matriarchat der Erde befindet sich auf der indonesischen Insel Sumatra. Doch woran erkennt man die Macht der Mütter?</description>
+            <byline py:pytype="str">von Fritz Habekuß</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2015-05/sumatra-muetter/" type="jpg" alt="Sumatra: Abwasch ist Frauensache!" align="left" publication-date="" expires="2015-11-21T09:01:47+00:00">
+              <bu py:pytype="str">Tragende Rollen: Die Frauen aus Cupak sind auf dem Weg zu einer Hochzeit. In den Gefäßen transportieren sie ungekochten Reis</bu>
+              <copyright py:pytype="str">© Fritz Habekuß </copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Fritz_Habekuss/index" publication-date="" expires="">
+              <display_name py:pytype="str">Fritz Habekuß</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-2f97a7c7-f3c6-4bcb-af98-7e2ac8b798f6">
+          <block href="http://xml.zeit.de/gesellschaft/2015-05/lebenspartnerschaft-homo-ehe-gleichstellung" uniqueId="http://xml.zeit.de/gesellschaft/2015-05/lebenspartnerschaft-homo-ehe-gleichstellung" year="2015" issue="21" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2015-05-27T15:28:55+00:00" date-first-released="2015-05-27T13:52:18.605616+00:00" date-last-published="2015-05-27T15:29:54.643529+00:00" last-semantic-change="2015-05-27T13:51:15.593274+00:00" author="Sven Stockrahm">
+            <supertitle py:pytype="str">Lebenspartnerschaft</supertitle>
+            <title py:pytype="str">Öffnet die Homo-Ehe für alle</title>
+            <text py:pytype="str">Außer kleinlichem bürokratischem Unsinn trennt die Homo-Ehe nichts mehr von der Ehe. Deshalb: Schafft die Ehe ab. Dann kann sich künftig verpartnern, wer will.</text>
+            <description py:pytype="str">Außer kleinlichem bürokratischem Unsinn trennt die Homo-Ehe nichts mehr von der Ehe. Deshalb: Schafft die Ehe ab. Dann kann sich künftig verpartnern, wer will.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-05/gleichgeschlechtliche-ehe-homoehe-lebenspartnerschaft/" type="jpg" title="Gleichgeschlechtliche Ehe Homoehe Lebenspartnerschaft" alt="Gleichgeschlechtliche Ehe Homoehe Lebenspartnerschaft" align="left" publication-date="" expires="">
+              <bu py:pytype="str">#EhefürAlle: In Neuseeland ist sie seit fast zwei Jahren amtlich.</bu>
+              <copyright py:pytype="str">© Phil Walter/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Stockrahm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-cf772403-b42b-4855-b539-3ee628213757">
+          <block href="http://xml.zeit.de/zeit-magazin/2015/19/ploetzlicher-kindstod-krankheit" uniqueId="http://xml.zeit.de/zeit-magazin/2015/19/ploetzlicher-kindstod-krankheit" year="2015" issue="19" ressort="zeit-magazin" contenttype="article" publication-date="2015-06-03T22:13:45+00:00" expires="" date-last-modified="2015-05-25T16:07:04+00:00" date-first-released="2015-05-25T16:08:04.040366+00:00" date-last-published="2015-05-25T16:08:04.040366+00:00" last-semantic-change="2015-05-07T06:00:00+00:00" author="Claas Tatje">
+            <supertitle py:pytype="str">Plötzlicher Kindstod</supertitle>
+            <title py:pytype="str">Ich bin der Ersatzsohn</title>
+            <text py:pytype="str">Alles, was von Tim blieb, ist ein Fotoalbum: Ein Jahr vor der Geburt unseres Autors starb sein Bruder im Alter von neun Wochen. Der Verlust prägt die Familie bis heute.</text>
+            <description py:pytype="str">Alles, was von Tim blieb, ist ein Fotoalbum: Ein Jahr vor der Geburt unseres Autors starb sein Bruder im Alter von neun Wochen. Der Verlust prägt die Familie bis heute.</description>
+            <byline py:pytype="str">von Claas Tatje</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/zeit-magazin/2015/19/ploetzlicher-kindstod-sohn/" type="jpg" alt="Plötzlicher Kindstod: Achtung, Mutter! Ich bin der Ersatzsohn" align="left" publication-date="" expires="2015-08-20T12:36:56+00:00">
+              <bu py:pytype="str">Die Mutter und ihr Sohn, den es ohne den Tod des Bruders wohl nie gegeben hätte.</bu>
+              <copyright py:pytype="str">© Alexandra Compain-Tissier</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Claas_Tatje/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Claas Tatje</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fd64c643-deac-4b95-9d05-aa1fb121446a">
+          <block href="http://xml.zeit.de/2015/21/mitteldeutschland-thueringen-sachsen-sachsen-anhalt-fusion-bernward-rothe" uniqueId="http://xml.zeit.de/2015/21/mitteldeutschland-thueringen-sachsen-sachsen-anhalt-fusion-bernward-rothe" year="2015" issue="21" ressort="Politik" contenttype="article" publication-date="2015-05-21T07:52:15+00:00" expires="" date-last-modified="2015-05-25T16:55:20+00:00" date-first-released="2015-05-21T07:53:17.085202+00:00" date-last-published="2015-05-25T16:56:20.345598+00:00" last-semantic-change="2015-05-21T06:00:00+00:00" author="Matthias Lohre">
+            <supertitle py:pytype="str">Mitteldeutschland</supertitle>
+            <title py:pytype="str">Schon wieder Vereinigung?</title>
+            <text py:pytype="str">Der Abgeordnete Bernward Rothe will Thüringen, Sachsen-Anhalt und Sachsen zu einem Land fusionieren. Damit ist bisher noch jeder gescheitert. Was gibt ihm Hoffnung?</text>
+            <description py:pytype="str">Der Abgeordnete Bernward Rothe will Thüringen, Sachsen-Anhalt und Sachsen zu einem Land fusionieren. Damit ist bisher noch jeder gescheitert. Was gibt ihm Hoffnung?</description>
+            <byline py:pytype="str">von Matthias Lohre</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2015-05/laenderfusion-thueringen-sachsen-anhalt/" type="jpg" align="left" publication-date="" expires="2015-08-20T13:37:40+00:00">
+              <bu py:pytype="str">Hier beginnt ein neues Bundesland. Vielleicht aber bald nicht mehr, wenn es nach dem SPD-Landtagsabgeordneten Bernward Rothe geht.
+</bu>
+              <copyright py:pytype="str">© Jens Schlueter/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Matthias_Lohre/index" publication-date="" expires="">
+              <display_name py:pytype="str">Matthias Lohre</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-cbd49266-2f8b-4b01-9719-f33018e43381">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-ac9ef76b-e519-4b43-ae4d-a267a2a880ec">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-68f02752-96b6-4044-88e4-7d8eebc38244" layout="368x220" title="Aktuelle Leserartikel">
+          <block type="intern" href="http://xml.zeit.de/leserartikel/index" year="2011" issue="14" ressort="Administratives" contenttype="centerpage-2009" publication-date="" expires="" uniqueId="http://xml.zeit.de/leserartikel/index" date-last-modified="2015-05-26T11:49:02+00:00" date-first-released="2011-04-19T10:27:57.801973+00:00" date-last-published="2015-05-26T11:50:00.183618+00:00" last-semantic-change="2015-05-26T11:48:03.017622+00:00">
+            <supertitle py:pytype="str">Ihr Beitrag auf ZEIT ONLINE</supertitle>
+            <title py:pytype="str">Aktuelle Leserartikel</title>
+            <text py:pytype="str">Wir präsentieren regelmäßig ausgewählte Leserartikel, die unsere Seite um Meinungen, Erfahrungsberichte und Sichtweisen bereichern. Hier finden Sie die neusten Beiträge.</text>
+            <description py:pytype="str">Wir präsentieren regelmäßig ausgewählte Leserartikel, die unsere Seite um Meinungen, Erfahrungsberichte und Sichtweisen bereichern. Hier finden Sie die neusten Beiträge.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/community/2014-03/hu-berlin-grimm-zentrum/hu-berlin-grimm-zentrum-368x220.jpg" title="Grimm Zentrum der HU Berlin" alt="Grimm-Zentrum der Humboldt Universität Berlin" align="left" publication-date="" expires="">
+            <bu>Hier lässt es sich promovieren: Grimm-Zentrum der Berliner Humboldt Universität</bu>
+            <copyright>© Matthias Heyde/Universitätsbibliothek der HU Berlin</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-fb93c448-a7c3-4533-b800-db11b45993ac" layout="368x110" title="Blog &quot;Teilchen&quot;">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/community/2015-01/teilchen-blog" year="2015" issue="3" ressort="Community" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/teilchen/" uniqueId="http://xml.zeit.de/community/2015-01/teilchen-blog" date-last-modified="2015-01-20T10:43:10+00:00" date-first-released="" date-last-published="" last-semantic-change="2015-01-20T10:42:05.117647+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Blog "Teilchen"</title>
+            <text py:pytype="str">Im Netz verstecken sich kleine Schätze – wir finden sie</text>
+            <description py:pytype="str">Im Netz verstecken sich kleine Schätze – wir finden sie</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image src="http://xml.zeit.de/weblogs/2014-09/blog-teilchen-hauptbild.jpg/blog-teilchen-hauptbild-580x148.jpg" type="jpg" align="left" href="http://blog.zeit.de/teilchen/" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© David Gray/Reuters</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/weblogs/2014-09/blog-teilchen-hauptbild.jpg/blog-teilchen-hauptbild-580x148.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© David Gray/Reuters</copyright>
+          </image>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle>Lektüre-Tipps</supertitle>
+    <title>Lektüre-Tipps</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2015/21/mitteldeutschland-thueringen-sachsen-sachsen-anhalt-fusion-bernward-rothe" year="2015" issue="21" ressort="Politik" contenttype="article" publication-date="2015-05-21T07:52:15+00:00" expires="" author="Matthias Lohre">
+      <supertitle py:pytype="str">Mitteldeutschland</supertitle>
+      <title py:pytype="str">Schon wieder Vereinigung?</title>
+      <text py:pytype="str">Der Abgeordnete Bernward Rothe will Thüringen, Sachsen-Anhalt und Sachsen zu einem Land fusionieren. Damit ist bisher noch jeder gescheitert. Was gibt ihm Hoffnung?</text>
+      <description py:pytype="str">Der Abgeordnete Bernward Rothe will Thüringen, Sachsen-Anhalt und Sachsen zu einem Land fusionieren. Damit ist bisher noch jeder gescheitert. Was gibt ihm Hoffnung?</description>
+      <byline py:pytype="str">von Matthias Lohre</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/2015-05/laenderfusion-thueringen-sachsen-anhalt/" type="jpg" align="left" publication-date="" expires="2015-08-20T13:37:40+00:00">
+        <bu py:pytype="str">Hier beginnt ein neues Bundesland. Vielleicht aber bald nicht mehr, wenn es nach dem SPD-Landtagsabgeordneten Bernward Rothe geht.
+</bu>
+        <copyright py:pytype="str">© Jens Schlueter/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Matthias_Lohre/index" publication-date="" expires="">
+        <display_name py:pytype="str">Matthias Lohre</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-magazin/2015/19/ploetzlicher-kindstod-krankheit" year="2015" issue="19" ressort="zeit-magazin" contenttype="article" publication-date="2015-06-03T22:13:45+00:00" expires="" author="Claas Tatje">
+      <supertitle py:pytype="str">Plötzlicher Kindstod</supertitle>
+      <title py:pytype="str">Ich bin der Ersatzsohn</title>
+      <text py:pytype="str">Alles, was von Tim blieb, ist ein Fotoalbum: Ein Jahr vor der Geburt unseres Autors starb sein Bruder im Alter von neun Wochen. Der Verlust prägt die Familie bis heute.</text>
+      <description py:pytype="str">Alles, was von Tim blieb, ist ein Fotoalbum: Ein Jahr vor der Geburt unseres Autors starb sein Bruder im Alter von neun Wochen. Der Verlust prägt die Familie bis heute.</description>
+      <byline py:pytype="str">von Claas Tatje</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/zeit-magazin/2015/19/ploetzlicher-kindstod-sohn/" type="jpg" alt="Plötzlicher Kindstod: Achtung, Mutter! Ich bin der Ersatzsohn" align="left" publication-date="" expires="2015-08-20T12:36:56+00:00">
+        <bu py:pytype="str">Die Mutter und ihr Sohn, den es ohne den Tod des Bruders wohl nie gegeben hätte.</bu>
+        <copyright py:pytype="str">© Alexandra Compain-Tissier</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Claas_Tatje/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Claas Tatje</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2015-05/lebenspartnerschaft-homo-ehe-gleichstellung" year="2015" issue="21" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" genre="kommentar" author="Sven Stockrahm">
+      <supertitle py:pytype="str">Lebenspartnerschaft</supertitle>
+      <title py:pytype="str">Öffnet die Homo-Ehe für alle</title>
+      <text py:pytype="str">Außer kleinlichem bürokratischem Unsinn trennt die Homo-Ehe nichts mehr von der Ehe. Deshalb: Schafft die Ehe ab. Dann kann sich künftig verpartnern, wer will.</text>
+      <description py:pytype="str">Außer kleinlichem bürokratischem Unsinn trennt die Homo-Ehe nichts mehr von der Ehe. Deshalb: Schafft die Ehe ab. Dann kann sich künftig verpartnern, wer will.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-05/gleichgeschlechtliche-ehe-homoehe-lebenspartnerschaft/" type="jpg" title="Gleichgeschlechtliche Ehe Homoehe Lebenspartnerschaft" alt="Gleichgeschlechtliche Ehe Homoehe Lebenspartnerschaft" align="left" publication-date="" expires="">
+        <bu py:pytype="str">#EhefürAlle: In Neuseeland ist sie seit fast zwei Jahren amtlich.</bu>
+        <copyright py:pytype="str">© Phil Walter/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Sven_Stockrahm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Sven Stockrahm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2015/19/sumatra-matriachat-muetter-macht" year="2015" issue="19" ressort="Reisen" contenttype="article" publication-date="2015-05-21T01:06:52+00:00" expires="" author="Fritz Habekuß">
+      <supertitle py:pytype="str">Sumatra</supertitle>
+      <title py:pytype="str">Abwasch ist Frauensache!</title>
+      <text py:pytype="str">Das größte Matriarchat der Erde befindet sich auf der indonesischen Insel Sumatra. Doch woran erkennt man die Macht der Mütter?</text>
+      <description py:pytype="str">Das größte Matriarchat der Erde befindet sich auf der indonesischen Insel Sumatra. Doch woran erkennt man die Macht der Mütter?</description>
+      <byline py:pytype="str">von Fritz Habekuß</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2015-05/sumatra-muetter/" type="jpg" alt="Sumatra: Abwasch ist Frauensache!" align="left" publication-date="" expires="2015-11-21T09:01:47+00:00">
+        <bu py:pytype="str">Tragende Rollen: Die Frauen aus Cupak sind auf dem Weg zu einer Hochzeit. In den Gefäßen transportieren sie ungekochten Reis</bu>
+        <copyright py:pytype="str">© Fritz Habekuß </copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Fritz_Habekuss/index" publication-date="" expires="">
+        <display_name py:pytype="str">Fritz Habekuß</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2015-05/siedler-von-catan-20-jahre" year="2015" issue="19" ressort="Kultur" contenttype="article" publication-date="" expires="" author="Philipp Reinartz">
+      <supertitle py:pytype="str">"Siedler von Catan"</supertitle>
+      <title py:pytype="str">Manager tanzen im Sechseck</title>
+      <text py:pytype="str">Vor 20 Jahren eroberten die "Siedler von Catan" deutsche Wohnzimmer. Nun verhelfen begeisterte Promis und Silicon-Valley-Manager dem Brettspiel zum Durchbruch in den USA.</text>
+      <description py:pytype="str">Vor 20 Jahren eroberten die "Siedler von Catan" deutsche Wohnzimmer. Nun verhelfen begeisterte Promis und Silicon-Valley-Manager dem Brettspiel zum Durchbruch in den USA.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/2015-05/siedler-von-catan-prototyp2/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">So hat "Die Siedler von Catan" während seiner Entwicklungsphase einmal ausgesehen.</bu>
+        <copyright py:pytype="str">© Klaus Teuber</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/R/Philipp_Reinartz/index" publication-date="" expires="">
+        <display_name py:pytype="str">Philipp Reinartz</display_name>
+      </author>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-05/fluechtlinge-beispiele-uganda-libanon-bayern-hamburg-bulgarien" year="2015" issue="21" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns0:href="http://interactive.zeit.de/feature/so-koennte-es-auch-gehen.html" author="Andrea Böhm;Philip Faigle;Karsten Polke-Majewski;Caterina Lobenstein;Laura Cwiertnia">
+      <supertitle py:pytype="str">Flüchtlinge</supertitle>
+      <title py:pytype="str">So könnte es auch gehen</title>
+      <text py:pytype="str">In der Flüchtlingspolitik gibt es keine Ideen? Falsch. Reporter haben weltweit nach Beispielen gesucht und fünf gefunden: im Libanon, in Uganda und sogar in Bayern.</text>
+      <description py:pytype="str">In der Flüchtlingspolitik gibt es keine Ideen? Falsch. Reporter haben weltweit nach Beispielen gesucht und fünf gefunden: im Libanon, in Uganda und sogar in Bayern.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-05/bayern/" type="jpg" title="Bayern" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Außer den russischen Aussiedlern, die vor Jahrzehnten hergezogen sind, sieht man in Schwandorf kaum Migranten. Dennoch wurde die Stadt zum Vorbild, wie junge Flüchtlinge ausgebildet werden können.</bu>
+        <copyright py:pytype="str" link="http://www.magdalenajooss.com">© Magdalena Jooß</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Andrea_Boehm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Andrea Böhm</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/F/Philip_Faigle/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Philip Faigle</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/L/Caterina_Lobenstein" publication-date="" expires="">
+        <display_name py:pytype="str">Caterina Lobenstein</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/C/Laura_Cwiertnia/index" publication-date="" expires="">
+        <display_name py:pytype="str">Laura Cwiertnia</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-magazin/2015/17/tatort-kommissare-schauspieler-deutschlandkarte" year="2015" issue="17" ressort="zeit-magazin" serie="Deutschlandkarte" contenttype="article" publication-date="2015-05-20T22:22:33+00:00" expires="" author="Friederike Milbradt">
+      <supertitle py:pytype="str">Deutschlandkarte</supertitle>
+      <title py:pytype="str">Die tun ja nur so! </title>
+      <text py:pytype="str">Der Sonntagskrimi als Heimatfilm: Der "Tatort" lebt vom Lokalkolorit. Nur kommen die Kommissare, die das vermitteln müssen, meist ganz woanders her. </text>
+      <description py:pytype="str">Der Sonntagskrimi als Heimatfilm: Der "Tatort" lebt vom Lokalkolorit. Nur kommen die Kommissare, die das vermitteln müssen, meist ganz woanders her. </description>
+      <byline py:pytype="str">von Friederike Milbradt</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/zeit-magazin/2015-04/tatort-schauspieler-deutschlandkarte/" type="jpg" alt="Deutschlandkarte: Die Herkunft der &quot;Tatort&quot;-Schauspieler" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://www.joergblock.de/">© Jörg Block</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Friederike_Milbradt/index" publication-date="" expires="">
+        <display_name py:pytype="str">Friederike Milbradt</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/gesundheit/2015-05/coca-cola-life-stevia-zucker" year="2015" issue="21" ressort="Wissen" contenttype="article" publication-date="" expires="" author="Claudia Füßler">
+      <supertitle py:pytype="str">Coca Cola Life</supertitle>
+      <title py:pytype="str">Macht auf grün, bleibt aber auf Zucker</title>
+      <text py:pytype="str">Cola Life lockt ernährungsbewusste Limotrinker: Mit grünem Design und pflanzlichem Stevia statt zu viel Zucker. Wirklich gesund macht das die Brause noch lange nicht.</text>
+      <description py:pytype="str">Cola Life lockt ernährungsbewusste Limotrinker: Mit grünem Design und pflanzlichem Stevia statt zu viel Zucker. Wirklich gesund macht das die Brause noch lange nicht.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/gesundheit/2015-05/coca-cola-life-stevia/" type="jpg" title="Coca Cola Life mit Stevia" alt="Coca Cola Life mit Stevia" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das grüne Design suggeriert ein natürliches gesundes Produkt.</bu>
+        <copyright py:pytype="str">© Bart Maat/EPA/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Claudia_Fuessler/index" publication-date="" expires="">
+        <display_name py:pytype="str">Claudia Füßler</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2015/19/ann-sophie-duermeyer-hamburg-eurovision-song-contest" year="2015" issue="19" ressort="Hamburg" contenttype="article" publication-date="" expires="" author="Christoph Twickel">
+      <supertitle py:pytype="str">Ann Sophie Dürmeyer</supertitle>
+      <title py:pytype="str">Das Gegenmodell zu Lena</title>
+      <text py:pytype="str">Die Hamburgerin Ann Sophie fährt für Deutschland nach Wien zum Eurovision Song Contest. Sie ist nur zweite Wahl, hält sich aber erstklassig. </text>
+      <description py:pytype="str">Die Hamburgerin Ann Sophie fährt für Deutschland nach Wien zum Eurovision Song Contest. Sie ist nur zweite Wahl, hält sich aber erstklassig. </description>
+      <byline py:pytype="str">von Christoph Twickel</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/hamburg/kultur/2015-05/annsophie/" type="jpg" title="Ann Sophie " alt="Ann Sophie " align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ann Sophie am 19. Mai in Wien</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Christoph_Twickel/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christoph Twickel</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/altersunterschied-paar-aeltere-frau" year="2015" issue="19" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Stephanie Schwenkenbecher">
+      <supertitle py:pytype="str">Altersunterschied</supertitle>
+      <title py:pytype="str">Was sind schon acht Jahre</title>
+      <text py:pytype="str">Mein Mann ist jünger als ich. Mittlerweile fällt es mir kaum noch auf, aber als wir uns kennenlernten, musste ich mich erst von traditionellen Rollenbildern lösen. </text>
+      <description py:pytype="str">Mein Mann ist jünger als ich. Mittlerweile fällt es mir kaum noch auf, aber als wir uns kennenlernten, musste ich mich erst von traditionellen Rollenbildern lösen. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/paar-mauer-schatten-2/" type="jpg" title="Paar wirft Schatten an Mauer" alt="Paar wirft Schatten an Mauer" align="left" publication-date="" expires="2015-08-18T14:09:13+00:00">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Paul Zinken/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Stephanie_Schwenkenbecher/index" publication-date="" expires="">
+        <display_name py:pytype="str">Stephanie Schwenkenbecher</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2015/19/ruegenwalder-muehle-vegetarische-wurst" year="2015" issue="19" ressort="Wirtschaft" contenttype="article" publication-date="2015-05-21T02:45:00+00:00" expires="" author="Jana Gioia Baurmann">
+      <supertitle py:pytype="str">Rügenwalder Mühle</supertitle>
+      <title py:pytype="str">Wurst geht auch ohne Fleisch</title>
+      <text py:pytype="str">Mehr als 170 Jahre lang hat die Rügenwalder Mühle nur Wurst verkauft. Nun haben ausgerechnet die Fleischspezialisten die Vegetarier als Zielgruppe entdeckt.</text>
+      <description py:pytype="str">Mehr als 170 Jahre lang hat die Rügenwalder Mühle nur Wurst verkauft. Nun haben ausgerechnet die Fleischspezialisten die Vegetarier als Zielgruppe entdeckt.</description>
+      <byline py:pytype="str">von Jana Gioia Baurmann</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2015-05/ruegenwalder-muehle/" type="jpg" title="Rügenwalder Mühle" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Rügenwalder Mühle im niedersächsischen Bad Zwischenahn</bu>
+        <copyright py:pytype="str">© Ingo Wagner/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Jana Gioia_Baurmann/index" publication-date="" expires="">
+        <display_name py:pytype="str">Jana Gioia Baurmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-magazin/2015/21/tim-wiese-torwart-karriere-bodybuilding" year="2015" issue="21" ressort="zeit-magazin" contenttype="article" publication-date="" expires="" author="Jörg Burger">
+      <supertitle py:pytype="str">Tim Wiese</supertitle>
+      <title py:pytype="str">Die Kampfmaschine</title>
+      <text py:pytype="str">"Riese Wiese", 33 Jahre, eine Art Frührentner: Als Torwart war Tim Wiese einer der Besten, dann stürzte er ab. Seine größte Herausforderung beginnt erst jetzt.</text>
+      <description py:pytype="str">"Riese Wiese", 33 Jahre, eine Art Frührentner: Als Torwart war Tim Wiese einer der Besten, dann stürzte er ab. Seine größte Herausforderung beginnt erst jetzt.</description>
+      <byline py:pytype="str">von Jörg Burger</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/zeit-magazin/2015/21/tim-wiese-bodybuilding/" type="jpg" alt="Tim Wiese: Die Kampfmaschine" align="left" publication-date="" expires="2015-08-20T09:48:03+00:00">
+        <bu py:pytype="str">Porträt von Tim Wiese</bu>
+        <copyright py:pytype="str">© Armin Smailovic</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Joerg_Burger/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Jörg Burger</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-magazin/leben/2015-05/sexkolumne-maennerphantasien" year="2015" issue="19" ressort="zeit-magazin" serie="Beziehungen" contenttype="article" publication-date="" expires="" author="Wenke Husmann">
+      <supertitle py:pytype="str">Wir müssen reden</supertitle>
+      <title py:pytype="str">"Männer fantasieren anders als Frauen"</title>
+      <text py:pytype="str">In der Fantasie ist vieles erlaubt. Aber warum träumen Männer von Sex mit Dummchen? Und was erregt Frauen, außer Tierfilme? Der Sexualforscher Ulrich Clement klärt auf.</text>
+      <description py:pytype="str">In der Fantasie ist vieles erlaubt. Aber warum träumen Männer von Sex mit Dummchen? Und was erregt Frauen, außer Tierfilme? Der Sexualforscher Ulrich Clement klärt auf.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/zeit-magazin/leben/2015-05/sex-kolumne-maennerphantasien/" type="jpg" title="Männerphantasien" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© John W. Ferguson/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2015-05/germanys-next-topmodel-heidi-klum" year="2015" issue="20" ressort="Wirtschaft" contenttype="article" publication-date="" expires="" author="Axel Hansen;Steffi Dobmeier">
+      <supertitle py:pytype="str">"Germany's Next Topmodel"</supertitle>
+      <title py:pytype="str">Heidi muss weiter lächeln  </title>
+      <text py:pytype="str">Bombendrohung und Sendungsabbruch?! Kein Grund, Schwäche zu zeigen. Für Heidi Klum und "Germany's Next Topmodel" läuft die Verkaufsmaschine einfach zu gut.</text>
+      <description py:pytype="str">Bombendrohung und Sendungsabbruch?! Kein Grund, Schwäche zu zeigen. Für Heidi Klum und "Germany's Next Topmodel" läuft die Verkaufsmaschine einfach zu gut.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wirtschaft/2015-05/heidi-klum/" type="jpg" alt="Heidi Klum ist als Chefjurorin das Gesicht von &quot;Germany's Next Topmodel&quot;." align="left" publication-date="" expires="2015-08-15T16:18:28+00:00">
+        <bu py:pytype="str">Heidi Klum ist als Chefjurorin das Gesicht von "Germany's Next Topmodel".</bu>
+        <copyright py:pytype="str">©dpa/Uwe Anspach</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Axel_Hansen/index" publication-date="" expires="">
+        <display_name py:pytype="str">Axel Hansen</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/D/Steffi_Dobmeier/index" publication-date="" expires="">
+        <display_name py:pytype="str">Steffi Dobmeier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-magazin/2015/20/tropical-island-morgens-halb-10-deutschland" year="2015" issue="20" ressort="zeit-magazin" serie="Morgens halb zehn in Deutschland" contenttype="article" publication-date="2015-06-10T22:38:09+00:00" expires="" author="Moritz von Uslar">
+      <supertitle py:pytype="str">Tropical Island</supertitle>
+      <title py:pytype="str">Crazy Deutschland</title>
+      <text py:pytype="str">In Brandenburg steht der größte Indoor-Regenwald der Welt. Kann man es dort aushalten? Das Bier schmeckt. Die Lagune schimmert. Aus den Lautsprechern zirpen Vögel. </text>
+      <description py:pytype="str">In Brandenburg steht der größte Indoor-Regenwald der Welt. Kann man es dort aushalten? Das Bier schmeckt. Die Lagune schimmert. Aus den Lautsprechern zirpen Vögel. </description>
+      <byline py:pytype="str">von Moritz von Uslar</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/zeit-magazin/2015/20/tropical-island/" type="jpg" alt="Tropical Island: Morgens halb 10 in Deutschland" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Moritz von Uslar im Tropical Island</bu>
+        <copyright py:pytype="str">© Moritz von Uslar</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/U/Moritz_Uslarvon/index" publication-date="" expires="">
+        <display_name py:pytype="str">Moritz von Uslar</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2015-05/fluechtlinge-eu-quote-verteilung-schluessel" year="2015" issue="19" ressort="Politik" contenttype="article" publication-date="" expires="" author="Paul Blickle;Karsten Polke-Majewski;Sascha Venohr;Lena Klimkeit">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Flüchtlinge</supertitle>
+      <title py:pytype="str">Die Schlüsselfrage</title>
+      <text py:pytype="str">Deutschland nimmt 200.000 Asylbewerber auf, Portugal nur 500. Die EU will Flüchtlinge nun gerechter verteilen. Was das für jedes Land bedeuten würde, nachgerechnet</text>
+      <description py:pytype="str">Deutschland nimmt 200.000 Asylbewerber auf, Portugal nur 500. Die EU will Flüchtlinge nun gerechter verteilen. Was das für jedes Land bedeuten würde, nachgerechnet</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/ausland/2015-05/gefluechtete/" type="jpg" title="Geflüchtete" alt="Italienische Küstenwächter retten Bootsflüchtlinge. Doch wer wird sie danach aufnehmen?" align="left" publication-date="" expires="2015-08-12T16:11:08+00:00">
+        <bu py:pytype="str">Italienische Küstenwächter retten Bootsflüchtlinge. Doch wer wird sie danach aufnehmen?</bu>
+        <copyright py:pytype="str">© Alessandro Di Meo/ANSA/AP/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Paul_Blickle" publication-date="" expires="">
+        <display_name py:pytype="str">Paul Blickle</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/V/Sascha_Venohr/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Sascha Venohr</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/K/Lena_Klimkeit/index" publication-date="" expires="">
+        <display_name py:pytype="str">Lena Klimkeit</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/2015-05/kita-streik-erzieherin-kindergarten-geld-anerkennung" year="2015" issue="19" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" author="Christine Rasche-Rien ">
+      <supertitle py:pytype="str">Kita-Erzieherin</supertitle>
+      <title py:pytype="str">Ich bin keine Bastel-Tante</title>
+      <text py:pytype="str">Ich bin nicht des Geldes wegen Erzieherin geworden. Doch jetzt geht es um Anerkennung – und Geld. Weshalb ich das erste Mal seit 35 Jahren als Kita-Erzieherin streike.</text>
+      <description py:pytype="str">Ich bin nicht des Geldes wegen Erzieherin geworden. Doch jetzt geht es um Anerkennung – und Geld. Weshalb ich das erste Mal seit 35 Jahren als Kita-Erzieherin streike.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2015-05/kita-wald-streik/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Kinder Lukas, Alexa und Freya "kochen" und "grillen" im Waldkindergarten Wurzelzwerge bei Eddelsen im Kreis Harburg. </bu>
+        <copyright py:pytype="str">© dpa - Bildfunk, Ulrich Perrey</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/R/Christine_Rasche-Rien-/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christine Rasche-Rien </display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2015-02/airline-visual-identity-fluglinie-werbung-fs" year="2015" issue="8" ressort="Reisen" contenttype="gallery" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Corporate Identity von Fluglinien</supertitle>
+      <title py:pytype="str">Oh, wie schön ist Pan Am</title>
+      <text py:pytype="str">Fliegen war damals nicht normal, sondern ein wahr gewordener Traum. Der Bildband "Airline Visual Identity 1945-1975" zeigt Corporate-Designs der Airlines der Zeit.</text>
+      <description py:pytype="str">Fliegen war damals nicht normal, sondern ein wahr gewordener Traum. Der Bildband "Airline Visual Identity 1945-1975" zeigt Corporate-Designs der Airlines der Zeit.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2015-02/airline-visual-identity-fluglinie-werbung-fs-teaser-4/" type="jpg" title="Airline Visual Teaser" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Callisto Publishers GmbH</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/asexualitaet-beziehung-erfahrung" year="2015" issue="19" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Alex Schneider">
+      <supertitle py:pytype="str">Asexualität</supertitle>
+      <title py:pytype="str">Ein Ass im Bett</title>
+      <text py:pytype="str">Weder ein Waschbrettbauch noch Brüste wecken bei mir irgendeine sexuelle Reaktion – ich bin asexuell. Eine romantische Beziehung wünsche ich mir trotzdem.</text>
+      <description py:pytype="str">Weder ein Waschbrettbauch noch Brüste wecken bei mir irgendeine sexuelle Reaktion – ich bin asexuell. Eine romantische Beziehung wünsche ich mir trotzdem.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/asexuell-sex/" type="jpg" title="Asexuell-Sex" alt="Asexuell: Ein Ass im Bett" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Für Asexuelle ist das Bett nur zur Befriedigung des Schlafbedürfnisses interessant.</bu>
+        <copyright py:pytype="str">© View Pictures/UIG/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Alex_Schneider/index" publication-date="" expires="">
+        <display_name py:pytype="str">Alex Schneider</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/mobil/2015-05/apple-watch-test" year="2015" issue="18" ressort="Digital" contenttype="article" publication-date="" expires="" author="Patrick Beuth">
+      <supertitle py:pytype="str">Apple Watch</supertitle>
+      <title py:pytype="str">Ist das Avantgarde oder nervt das nur?</title>
+      <text py:pytype="str">Es gibt viele Gründe, die Apple Watch für ein unausgereiftes und gar nicht mal so smartes Gadget zu halten. Aber fängt sie an zu pulsieren, passiert etwas Erstaunliches.</text>
+      <description py:pytype="str">Es gibt viele Gründe, die Apple Watch für ein unausgereiftes und gar nicht mal so smartes Gadget zu halten. Aber fängt sie an zu pulsieren, passiert etwas Erstaunliches.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/digital/2015-05/apple-watch-2/" type="jpg" title="Apple Watch Bild" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Apple Watch: Die besten Funktionen sind jene, die Apple unterverkauft.</bu>
+        <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Patrick_Beuth/index" publication-date="" expires="">
+        <display_name py:pytype="str">Patrick Beuth</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/geschichte/2015-05/tagebuch-soldat-zweiter-weltkrieg-ende" year="2015" issue="18" ressort="Wissen" contenttype="article" publication-date="" expires="" author="Frank Schlößer">
+      <supertitle py:pytype="str">Tagebuch eines Soldaten</supertitle>
+      <title py:pytype="str">"Ich schoss mit der Pistole in seinen dicken Bauch"</title>
+      <text py:pytype="str">Er hasst nicht, er jammert nicht: Was der Sowjetsoldat Panarin 1945 in Deutschland erlebte, hielt er als Tagebuch fest. Ein seltener Einblick in den Alltag an der Front</text>
+      <description py:pytype="str">Er hasst nicht, er jammert nicht: Was der Sowjetsoldat Panarin 1945 in Deutschland erlebte, hielt er als Tagebuch fest. Ein seltener Einblick in den Alltag an der Front</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/geschichte/2015-04/tagebuch-soldat-zweiter-weltkrieg-ende-portraet/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Iwan Panarin (2. v. r.) und Kameraden.</bu>
+        <copyright py:pytype="str">© Kulturhistorisches Museum Rostock</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Frank_Schloesser/index" publication-date="" expires="">
+        <display_name py:pytype="str">Frank Schlößer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/studium/hochschule/2015-04/che-ranking-2015-was-studieren" year="2015" issue="17" ressort="Studium" contenttype="article" publication-date="" expires="" author="Sabine Hockling">
+      <supertitle py:pytype="str">CHE-Ranking</supertitle>
+      <title py:pytype="str">Zur Traum-Uni hier entlang</title>
+      <text py:pytype="str">Welche Hochschule passt zu mir? Das neue Ranking von ZEIT ONLINE und dem CHE ist online. Es hilft sogar Abgängern, die noch kein konkretes Fach gewählt haben. </text>
+      <description py:pytype="str">Welche Hochschule passt zu mir? Das neue Ranking von ZEIT ONLINE und dem CHE ist online. Es hilft sogar Abgängern, die noch kein konkretes Fach gewählt haben. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/studium/rankings/2015-04/che-ranking/" type="jpg" title="CHE Ranking" alt="CHE Ranking" align="left" publication-date="" expires="2016-05-30T15:07:27+00:00">
+        <bu py:pytype="str">Wir erklären, wie das neue CHE-Ranking online funktioniert.</bu>
+        <copyright py:pytype="str">© Wavebreak Med/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Sabine_Hockling/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Sabine Hockling</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/feature/wladimir-putin-mutter" year="2015" issue="19" ressort="Politik" contenttype="article" publication-date="" expires="" author="Steffen Dobbert">
+      <supertitle py:pytype="str">Wladimir Putin</supertitle>
+      <title py:pytype="str">Vera Putinas verlorener Sohn</title>
+      <text py:pytype="str">In Georgien lebt eine Frau, die behauptet, Putins wahre Mutter zu sein. Beweise dafür soll der KGB vernichtet haben. Reporter, die darüber berichten wollten, starben.</text>
+      <description py:pytype="str">In Georgien lebt eine Frau, die behauptet, Putins wahre Mutter zu sein. Beweise dafür soll der KGB vernichtet haben. Reporter, die darüber berichten wollten, starben.</description>
+      <byline py:pytype="str">von Steffen Dobbert</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/feature/putin-mutter/putin-mutter-aufmacher-02/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Reuters</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/D/Steffen_Dobbert/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Steffen Dobbert</display_name>
+        <location>Tbilissi</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/polyamorie-erfahrung-positiv" year="2015" issue="18" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" author="Stefanie Mayer">
+      <supertitle py:pytype="str">Polyamorie</supertitle>
+      <title py:pytype="str">Weil die Basis sicher ist</title>
+      <text py:pytype="str">Mein Partner und ich haben ein ähnliches Verständnis von Freiheit in der Beziehung. Dass sie funktioniert, liegt am tiefen Vertrauen, das wir einander entgegenbringen.</text>
+      <description py:pytype="str">Mein Partner und ich haben ein ähnliches Verständnis von Freiheit in der Beziehung. Dass sie funktioniert, liegt am tiefen Vertrauen, das wir einander entgegenbringen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/polyamorie-basis/" type="jpg" title="Polyamorie-Basis" alt="Bis zu zwanzigmal wechseln diese Fallschirmspringer innerhalb einer Sprungphase die Formation." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Bis zu zwanzigmal wechseln diese Fallschirmspringer innerhalb einer Sprungphase die Formation.</bu>
+        <copyright py:pytype="str">© Joachim Priedemann/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Stefanie_Mayer/index" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Mayer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-wissen/2015/03/solidarische-landwirtschaft-bauern-lebensmittel" year="2015" issue="3" ressort="Wissen" contenttype="article" publication-date="" expires="" author="Ulrike Meyer-Timpe">
+      <supertitle py:pytype="str">Solidarische Landwirtschaft</supertitle>
+      <title py:pytype="str">Lebensmittel ohne Preis, aber mit Wert</title>
+      <text py:pytype="str">Hier darf die Möhre noch schief und krumpelig sein: Bei der solidarischen Landwirtschaft zahlen Mitglieder vor der Ernte. Ein Konzept gegen Monokultur und Verschwendung</text>
+      <description py:pytype="str">Hier darf die Möhre noch schief und krumpelig sein: Bei der solidarischen Landwirtschaft zahlen Mitglieder vor der Ernte. Ein Konzept gegen Monokultur und Verschwendung</description>
+      <byline py:pytype="str">von Ulrike Meyer-Timpe</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2015-04/gemuese-form-norm/" type="jpg" title="Karotten und Pastinaken" alt="Karotten und Pastinaken" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Bei der solidarischen Landwirtschaft findet auch das krumm gewachsene Gemüse Abnehmer.</bu>
+        <copyright py:pytype="str">© MYCHELE DANIAU/AFP/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Ulrike_Meyer-Timpe/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Ulrike Meyer-Timpe</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/studium/2015-04/bologna-faz-professor-student-ruediger-bachmann" year="2015" issue="17" ressort="Studium" contenttype="article" publication-date="" expires="" genre="gastbeitrag" author="Rüdiger Bachmann">
+      <supertitle py:pytype="str">Bologna</supertitle>
+      <title py:pytype="str">Ich bin Professor und mag meine Studenten</title>
+      <text py:pytype="str">Studenten-Bashing liegt bei Dozenten im Trend. Unser Autor hält dagegen. Über die Liebe zum Professorenjob und Studenten, die erwachsener sind als zu seinen Zeiten </text>
+      <description py:pytype="str">Studenten-Bashing liegt bei Dozenten im Trend. Unser Autor hält dagegen. Über die Liebe zum Professorenjob und Studenten, die erwachsener sind als zu seinen Zeiten </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/studium/hochschule/2015-04/bologna-professor-studenten/" type="jpg" title="Bologna: Ich bin Professor und mag meine Studenten" alt="Bologna: Ich bin Professor und mag meine Studenten" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Student von heute fühlt sich manchmal von seinen Dozenten allein gelassen. </bu>
+        <copyright py:pytype="str" link="http://www.photocase.de/foto/263545-stock-photo-natur-jugendliche-baum-pflanze-blatt-ruhig">© stop-sells/photocase.de</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Ruediger_Bachmann/index" publication-date="" expires="">
+        <display_name py:pytype="str">Rüdiger Bachmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/internet/2015-02/yubikey-token-passwoerter-keepass-test" year="2015" issue="7" ressort="Digital" contenttype="article" publication-date="" expires="" author="Johannes Wendt">
+      <supertitle py:pytype="str">Yubikey</supertitle>
+      <title py:pytype="str">Nie mehr schlechte Passwörter</title>
+      <text py:pytype="str">Unser Autor hat 152 Onlinekonten, die er möglichst gut absichern will. Mit dem Passwortmanager KeePass und einem sogenannten Token – dem Yubikey Neo. Eine Anleitung</text>
+      <description py:pytype="str">Unser Autor hat 152 Onlinekonten, die er möglichst gut absichern will. Mit dem Passwortmanager KeePass und einem sogenannten Token – dem Yubikey Neo. Eine Anleitung</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/digital/internet/2015-04/yubikey-neo-test-keepass/" type="jpg" title="Yubikey" alt="Yubikey Neo" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Yubikey Neo von Yubico kostet rund 50 Euro.</bu>
+        <copyright py:pytype="str">© Yubico</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/W/Johannes_Wendt" publication-date="" expires="">
+        <display_name py:pytype="str">Johannes Wendt</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-magazin/leben/2015-04/sophia-simone-thomalla-altersdiskriminierung" year="2015" issue="18" ressort="zeit-magazin" serie="Gesellschaftskritik" contenttype="article" publication-date="" expires="" author="Silke Janovsky">
+      <supertitle py:pytype="str">Gesellschaftskritik</supertitle>
+      <title py:pytype="str">Was machst'n da für Sachen?</title>
+      <text py:pytype="str">Sophia Thomalla ist eine junge, engagierte Frau und setzt sich ihrer Mutter zuliebe gegen Altersdiskrimierung im "Tatort" ein. Sie fordert: Jedem Frodo seinen Gandalf.</text>
+      <description py:pytype="str">Sophia Thomalla ist eine junge, engagierte Frau und setzt sich ihrer Mutter zuliebe gegen Altersdiskrimierung im "Tatort" ein. Sie fordert: Jedem Frodo seinen Gandalf.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/zeit-magazin/leben/2015-04/simone-sophia-thomalla/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Sophia und Simone Thomalla</bu>
+        <copyright py:pytype="str">© Soeren Stache / dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/J/Silke_Janovsky/index" publication-date="" expires="">
+        <display_name py:pytype="str">Silke Janovsky</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2015/15/familienmanagement-bwl-alltag-wirtschaftswissenschaft" year="2015" issue="15" ressort="Gesellschaft" contenttype="article" publication-date="2015-04-22T23:01:42+00:00" expires="" genre="interview" author="Kerstin Bund">
+      <supertitle py:pytype="str">Familienmanagement</supertitle>
+      <title py:pytype="str">Der Vorname sollte unbedingt karrieretauglich sein</title>
+      <text py:pytype="str">Vom Windelbestandsmanagement bis zur Namensgebung: Wirtschaftsprofessor Marko Sarstedt erklärt, wie sich der Nachwuchs mit BWL-Methoden optimieren lässt.</text>
+      <description py:pytype="str">Vom Windelbestandsmanagement bis zur Namensgebung: Wirtschaftsprofessor Marko Sarstedt erklärt, wie sich der Nachwuchs mit BWL-Methoden optimieren lässt.</description>
+      <byline py:pytype="str">von Kerstin Bund</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/familie/2015-04/baby-hand/" type="jpg" title="Babyhand" alt="Babyhand" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Eine Babyhand - viele Eltern fangen früh an, das Leben ihres Kindes zu optimieren.</bu>
+        <copyright py:pytype="str">© Oliver Berg/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Kerstin_Bund/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Kerstin Bund</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2015/15/mumbai-dharavi-slum-fuehrung" year="2015" issue="15" ressort="Reisen" contenttype="article" publication-date="2015-04-23T02:41:09+00:00" expires="" author="Silke Weber">
+      <supertitle py:pytype="str">Mumbai</supertitle>
+      <title py:pytype="str">Als Erste-Welt-Tourist im Slum</title>
+      <text py:pytype="str">"Armutsporno" oder sozialer Tourismus? Auf jeden Fall lässt eine geführte Tour durch Mumbais größten Slum Armut begreifen. Und man entdeckt eine Stadt in der Stadt.</text>
+      <description py:pytype="str">"Armutsporno" oder sozialer Tourismus? Auf jeden Fall lässt eine geführte Tour durch Mumbais größten Slum Armut begreifen. Und man entdeckt eine Stadt in der Stadt.</description>
+      <byline py:pytype="str">von Silke Weber</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2015-04/mumbai-dharavi-shop/" type="jpg" alt="Mumbai: &quot;Bitte rümpft nicht die Nase&quot;" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Gemüseladen in Dharavi</bu>
+        <copyright py:pytype="str">© Mansi Thapliyal/Reuters</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/W/Silke_Weber/index" publication-date="" expires="">
+        <display_name py:pytype="str">Silke Weber</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Lektüre-Tipps</title>
+  </teaser>
+</centerpage>

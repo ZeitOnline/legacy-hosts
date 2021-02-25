@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gallery xmlns:py="http://codespeak.net/lxml/objectify/pytype">
+  <head>
+    <image-folder py:pytype="str">http://xml.zeit.de/test/bilder/</image-folder>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute ns="INTERNAL" name="cached-time">2009-06-22 13:06:54.529520+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-06-22T13:08:46.977826+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-06-22T13:08:46.950756+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.manager</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">gallery</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b1c0fffc-615e-4728-a1f7-375bab70c34b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">27</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+  </head>
+  <body>
+    <column layout="left"/>
+    <column layout="right">
+      <container>
+        <block name="spd-140x140.jpg">
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <image xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" src="http://xml.zeit.de/test/bilder/spd-140x140.jpg" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str" link="http://www.zeit.de/">© Ein Test</copyright>
+          </image>
+          <thumbnail xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" src="http://xml.zeit.de/test/bilder/thumbnails/spd-140x140.jpg" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str" link="http://www.zeit.de/">© Ein Test</copyright>
+          </thumbnail>
+        </block>
+        <block name="spd-210x210.jpg">
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <image xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" src="http://xml.zeit.de/test/bilder/spd-210x210.jpg" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str" link="http://www.zeit.de/">© Ein Test</copyright>
+          </image>
+          <thumbnail xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" src="http://xml.zeit.de/test/bilder/thumbnails/spd-210x210.jpg" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str" link="http://www.zeit.de/">© Ein Test</copyright>
+          </thumbnail>
+        </block>
+        <block name="spd-artikel-210.jpg">
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <image xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" src="http://xml.zeit.de/test/bilder/spd-artikel-210.jpg" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str" link="http://www.zeit.de/">© Ein Test</copyright>
+          </image>
+          <thumbnail xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" src="http://xml.zeit.de/test/bilder/thumbnails/spd-artikel-210.jpg" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str" link="http://www.zeit.de/">© Ein Test</copyright>
+          </thumbnail>
+        </block>
+      </container>
+    </column>
+    <supertitle py:pytype="str">Fussball</supertitle>
+    <title>Ein Test Fest</title>
+  </body>
+  <teaser>
+    <title py:pytype="str">Ein Test Fest</title>
+  </teaser>
+  <indexteaser>
+    <title py:pytype="str">Fussball</title>
+    <text py:pytype="str">Ein Test Fest</text>
+  </indexteaser>
+</gallery>

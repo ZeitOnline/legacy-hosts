@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<container style="homepage_01_06">
+  <row layout="headline">
+    <container layout="" id="" label="" priority="">
+      <block href="cms:/cms/work/online/2007/20/bremen-wahl-hochrechnung" id="" layout="aufmacherbild" priority="" sticky="">
+        <image base-id="/cms/work/bilder/2007/20/deutschland/bremen-wappen/bremen-wappen" type="jpg" expires="2007-05-21" src="/cms/work/bilder/2007/20/deutschland/bremen-wappen/bremen-wappen-220x220.jpg" align="right"><copyright>© ZEIT online Grafik</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="aufmacher" label="" priority="" layout="aufmacher">
+      <block layout="aufmacher" priority="" href="cms:/cms/work/online/2007/20/bremen-wahl-hochrechnung" id="" sticky="">
+        <title>Rot-Grünes Revival?</title>
+        <text>Die SPD wird trotz Verlusten stärkste Partei. Grüne und Linke gewinnen deutlich. Wagt Bürgermeister Böhrnsen den Koalitionsbruch mit der CDU?</text>
+        <byline/>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/2007/20/Bremen" id="" sticky="">
+            <title>Wahl in Bremen</title>
+            <text>Wegweisend für die deutsche Politik?</text>
+          </block>
+          <block layout="" priority="" href="cms:/cms/work/online/2007/20/bremen-reportage">
+            <title>Bremen</title>
+            <text>Das rote &#8222;Kuhkaff&#8220; kurz vor der Wahl</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container priority="1" id="LetzteMeldung" label="LetzteMeldungen">
+      <block>
+        <feed id="ts-feed">
+          <rss_feed id="meldungen" max_items="5" mode="news"/>
+        </feed>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container layout="knopf" id="knopf-links" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/2007/20/Verbrechensopfer" id="" sticky="">
+        <title>Schwierige Wahrheit</title>
+        <text>Nach einer Prügelei nachts in Potsdam lag Ermyas Mulugeta wochenlang im Koma. War er wirklich ein Opfer rassistischer Täter? Seit Monaten suchen Richter nach Antworten.</text>
+        <byline>Von Sabine Rückert</byline>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/online/2007/07/prozess-ermyas-m">
+            <title>Potsdamer Schlägerei</title>
+            <text>Das Opfer erinnert sich nicht</text>
+          </block>
+        </related>
+        <supertitle>Justiz</supertitle>
+        <image base-id="/cms/work/bilder/2007/20/leben/allgemein/p-mulugeta/p-mul" type="gif" expires="2007-05-21" src="/cms/work/bilder/2007/20/leben/allgemein/p-mulugeta/p-mulugeta-72.gif" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-mitte" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2007/20/tuerkei-demonstrationen" id="" sticky="">
+        <supertitle>Türkei</supertitle>
+        <title>Massenproteste in Izmir</title>
+        <text>Eine Million Menschen demonstrierten für die Trennung von Staat und Religion und gegen die Regierung Tayypip Erdogans. Dessen Partei gilt als Favoritin der Parlamentswahl</text>
+        <byline/>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/online/2007/18/tuerkei-demos">
+            <title>Türkei</title>
+            <text>Eine Analyse der Proteste</text>
+          </block>
+        </related>
+        <image base-id="/cms/work/bilder/2007/20/international/tuerkei-izmir/tuerkei-" type="jpg" expires="2007-05-21" src="/cms/work/bilder/2007/20/international/tuerkei-izmir/tuerkei-izmir-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-rechts" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/2007/20/T-Hybrid" id="" sticky="">
+        <supertitle>Verkehr</supertitle>
+        <title>Die Kraft der drei Herzen</title>
+        <text>Hybridbusse mit Diesel- und Elektroantrieb rollen zu Hunderten durch die Städte der USA. In Deutschland werden sie noch entwickelt und getestet. Eine Probefahrt. </text>
+        <byline>Von Hans Schuh</byline>
+        <image base-id="/cms/work/bilder/2007/20/wissen/allgemein/hybridbus/hybr" type="jpg" expires="2007-05-21" src="/cms/work/bilder/2007/20/wissen/allgemein/hybridbus/hybridbus-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/2007/09/Hybridantrieb">
+            <title>Hybrid oder Diesel?</title>
+            <text>Die Qual der Wahl</text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </row>
+  <row layout="onecol">
+    <container>
+      <ad place="3"/>
+    </container>
+    <container>
+      <ad place="5"/>
+    </container>
+  </row>
+<!-- 
+  <row layout="onecol">
+    <container>
+      <ad place="13"/>
+      <ad place="14"/>
+      <ad place="15"/>
+    </container>
+  </row>
+-->
+  <row layout="threecol">
+    <container id="tagesbild">
+      <block href="javascript:void(window.open('http://www.zeit.de/bild_des_tages','bilddestages','height=570,width=511,directories=no,location=no,menubar=no,resizable=yes,status=no,toolbar=no,scrollbars=yes'));" priority="1" layout="tagesbild">
+        <text><strong><br/>Was ist das? &#8211; </strong>Crème brûlée?</text>
+        <image base-id="/cms/work/bilder/2007/20/tabis/tab" type="jpg" expires="2007-05-20" src="/cms/work/bilder/2007/20/tabis/tabi-sa-210.jpg" width="210" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-mitte" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/2007/20/Argument" id="" sticky="">
+        <supertitle>Steuern</supertitle>
+        <title>Kein Papierkrieg mehr</title>
+        <text>Die neue Steuer auf Zinsen und Aktiengewinne vereinfacht das Sparen, aber erschwert die Vorsorge.</text>
+        <byline>Von Rüdiger Jungbluth</byline>
+        <image base-id="/cms/work/bilder/2007/20/wirtschaft/finanzmaerkte/steuer/s" type="gif" expires="2007-05-21" src="/cms/work/bilder/2007/20/wirtschaft/finanzmaerkte/steuer/steuer-72.gif" width="72" align="right"><copyright>©</copyright> BILD </image>
+        <related>
+          <block href="http://www.zeit.de/lebenslagen">
+            <title>Wie vorsorgen?</title>
+            <text>Unsere Kolumne <em>Lebenslagen</em> sucht nach Antworten</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container id="2knopf-rechts" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="http://www.zeit.de/erinneredich" id="">
+        <supertitle>Spielen</supertitle>
+        <title>Nichts Leichtes</title>
+        <text>Bratwurst, Fritten, Schnitzel... fettes Essen kann lecker sein: Finden Sie die richtigen Kartenpaare </text>
+        <related>
+          <block href="cms:/cms/work/hilfe/spiele-hilfe">
+            <title>Spiel</title>
+            <text>zu verschenken!</text>
+          </block>
+          <block layout="knopf" priority="" href="http://spiele.zeit.de/schiebepuzzle/index.php4?start=0017" id="">
+            <supertitle>Spielen</supertitle>
+            <title>Schiebung </title>
+            <text>Blicken Sie durch? </text>
+          </block>
+          <block layout="knopf" priority="" href="http://apollo.zeit.de/maennchenspiel/" id="">
+            <title>Galgenmännchen</title>
+            <text>  Begriffe raten </text>
+          </block>
+          <block priority="1" href="cms:/cms/work/leben/spielen/index" id="" layout="">
+            <title>Weitere Spiele</title>
+            <text>finden Sie hier!</text>
+          </block>
+        </related>
+        <image expires="2007-05-02" src="/cms/work/bilder/2007/standards/knoepfe/erinnere-dich-fettig-72x72.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="3knopf-links" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/2007/20/Traum-Ursula-von-der-Leyen">
+        <supertitle>Ich habe einen Traum</supertitle>
+        <title>Ungestillte Sehnsucht</title>
+        <text>Ursula von der Leyen ist Bundesministerin für Familie, Senioren, Frauen und Jugend und hat sieben Kinder. Sie träumt davon, mehr Zeit für ihre Familie zu haben</text>
+        <byline/>
+        <image base-id="/cms/work/bilder/2007/20/leben/allgemein/p-traum/p-" type="jpg" expires="2007-05-21" src="/cms/work/bilder/2007/20/leben/allgemein/p-traum/p-traum-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/online/2007/19/mehrgenerationenhaeuser-finanzen">
+            <title>Mehrgenerationenhaus</title>
+            <text>Ursula von der Leyen will 500 fördern</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container id="3knopf-mitte" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2007/20/bundesliga-nachspiel" id="" sticky="">
+        <supertitle>Bundesliga</supertitle>
+        <title>Stuttgart regiert die Welt</title>
+        <text>Scheitern ist keine Schande - oder: warum Stuttgart den Titel nicht verdient hat und die Bremer und Schalker Fans nicht trauern sollten. Das Bundesliga-Nachspiel.</text>
+        <byline>Von Christoph Seils</byline>
+        <image base-id="/cms/work/bilder/2007/standards/logos/fussballkolumne-seils/fussballko" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/standards/logos/fussballkolumne-seils/fussballkolumne-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+        <related>
+          <block layout="knopf" priority="" href="cms:/cms/work/online/2007/20/werder-bremen" id="" sticky="">
+            <supertitle>Fussball</supertitle>
+            <title>Werder</title>
+            <text>Underdog der Bundesliga</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container id="3knopf-rechts" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/2007/20/Jaegermeister-Rockliga">
+        <supertitle>Musik &amp; Werbung</supertitle>
+        <title>Völlig Panne</title>
+        <text>Die Jägermeister Rock Liga erobert die Musikszene durch Marketing-Konzepte. <em>Ted Gaier</em> von den "Goldenen Zitronen" wehrt sich und beschreibt den Ausverkauf alter Ideale</text>
+        <byline/>
+        <image base-id="/cms/work/bilder/2007/20/kultur/musik/p-jaegermeister/p-jaegerme" type="jpg" expires="2007-05-21" src="/cms/work/bilder/2007/20/kultur/musik/p-jaegermeister/p-jaegermeister-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/online/2007/19/battles">
+            <title>Lieber Dreiachtel</title>
+            <text>Viervierteltakt? Nein, danke! Die Battles kommen </text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </row>
+</container>

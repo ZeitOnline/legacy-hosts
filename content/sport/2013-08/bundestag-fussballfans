@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="arena">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <og_meta>
+      <og_title>Die Bundesliga-Tabelle der Politiker</og_title>
+      <og_description>Abgeordnete sind Volksvertreter und Fußballfans. Unsere Grafik zeigt: Im Bundestag sind die Bayern nicht beliebter als der BVB. Werder Bremen schafft es auf Platz drei.</og_description>
+      <og_image>http://www.zeit.de/sport/2013-08/teaser_bundeskicker/teaser_bundeskicker-540x304.jpg</og_image>
+    </og_meta>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-05-20T11:35:09.600770+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-08-08T09:35:21.334699+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-05-20T11:36:14.372079+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-08-08T15:16:16.173827+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-08-08T15:15:48.510848+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.venohr</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Sport</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">arena</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:a12f778e-fc2f-450c-aa04-3c43847799fb}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">32</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="xml" module="xml" cp:__name__="id-60d3494e-9df1-49f0-b008-a488b9564e26">
+          <raw>
+            <link rel="stylesheet" type="text/css" href="http://www.zeit.de/static/js/projekte/bundeskicker/inline.css"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-7c0aa66f-819d-42c4-a27c-6051f8a3b2da">
+          <raw>
+            <script type="text/javascript">
+		var asset_path = "http://www.zeit.de/static/js/projekte/bundeskicker/assets/";
+	</script>
+            <link rel="stylesheet" href="http://www.zeit.de/static/js/projekte/bundeskicker/style.1.1.1.css" type="text/css"/>
+            <script src="http://maps.google.com/maps/api/js?v=3.2&amp;sensor=false"/>
+            <script src="http://www.zeit.de/static/js/projekte/bundeskicker/script.1.1.1.js"/>
+            <!--[if lte IE 8]>
+	     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css"         />
+	 <![endif]-->
+            <div id="bundeskicker">
+              <div id="bk-top-container">
+                <div id="map"/>
+                <div id="bkMostFansTable">
+</div>
+              </div>
+              <div id="mdb-table">
+</div>
+            </div>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-f7f1455b-41cf-4248-836d-4c90cdcd4208">
+          <raw>
+            <div class="zon-frameend">
+              <div class="zon-copyright">© ZEIT ONLINE</div>
+              <div class="zon-footnote">
+                <p id="ft1">Quelle: Eigene Recherchen, <a href="http://www.abgeordnetenwatch.de/" target="_blank">abgeordnetenwatch.de</a></p>
+                <p id="ft2">Recherche: Sebastian Brauns | Grafik: Paul Blickle, Christian Groß, Julian Stahnke</p>
+              </div>
+            </div>
+          </raw>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-792503f6-1716-4f1f-bf69-4595d816566e">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-1b290943-9d30-459a-bc8b-c553acea0c8b">
+          <cp_extra id="mostcommented"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle>Die Bundesliga-Karte der Politiker</supertitle>
+    <title>Fans im Bundestag</title>
+    <subtitle>"Für welchen deutschen Verein schlägt Ihr Fußball-Herz?" — Das wollten wir von allen Bundestagsabgeordneten wissen. Von den 620 Volksvertretern beteiligten sich 536 an der ZEIT-Umfrage. &lt;a href="http://www.zeit.de/2013/33/politik-fussball-fans-abgeordnete" target="_blank"&gt;Insgesamt wurden 75 Vereine genannt. Die politische Farbenlehre ist dabei spiegelverkehrt zur sportlichen&lt;/a&gt;. Die Schwarz-Gelben sind mehrheitlich für den FC Bayern: 47 von 53 Bayern-Fans sitzen für Union oder FDP im Parlament. 40 von 53 BVB-Fans kommen dagegen von SPD, Grünen und Linken. Wenn Sie auf Ihr Lieblingsteam klicken, sehen Sie, wie beliebt Ihr Verein ist. Klicken Sie dann auf die Linien, um zu sehen, welche Abgeordnete sich für "Ihren" Klub begeistern und wo sie wohnen. Jeder Ball symbolisiert einen Verein. Die beliebtesten Klubs werden als Wappen dargestellt.</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Abgeordnete Fußballfans</title>
+    <text>Abgeordnete sind Volksvertreter und Fußballfans. Unsere Grafik zeigt: Im Bundestag sind die Bayern nicht beliebter als der BVB. Werder Bremen schafft es auf Platz drei.</text>
+  </teaser>
+</centerpage>

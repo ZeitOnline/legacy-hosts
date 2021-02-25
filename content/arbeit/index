@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="homepage">
+  <head>
+    <topiclinks>
+      <topiclink>
+        <topiclink_label_1>Sexismus</topiclink_label_1>
+        <topiclink_url_1>http://www.zeit.de/thema/sexismus</topiclink_url_1>
+        <topiclink_label_2>Selbstverwirklichung</topiclink_label_2>
+        <topiclink_label_3>Gig-Economy</topiclink_label_3>
+        <topiclink_url_2>http://www.zeit.de/thema/selbstverwirklichung</topiclink_url_2>
+        <topiclink_url_3>http://www.zeit.de/thema/gig-economy</topiclink_url_3>
+      </topiclink>
+      <topiclink_title>Themen</topiclink_title>
+    </topiclinks>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments_premoderate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2018-02-26T10:02:54.456284+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2017-09-12T08:33:07.551223+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2018-02-26T10:02:57.750965+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2018-02-26T10:02:57.703145+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2018-01-23T12:21:17.643095+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Das tagesaktuelle Magazin, das den Wandel der Arbeitswelt begleitet: ZEIT ONLINE Arbeit</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">ZEIT ONLINE Arbeit - Umbruch, Neuanfang, Erfolg und Zweifel</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2018-01-23T12:20:39.355156+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.joeres</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="overscrolling">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Arbeit</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="seo-disable-intext-links">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">homepage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:59144043-4c35-43a6-80fa-b2dff7b1c139}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">35</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2017</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="IZARContent" module="zeit.arbeit.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>ZEIT Arbeit</title>
+    <cluster visible="True" visible_mobile="True" area="id-3c5aa012-0c7d-46f2-8b68-48a42180ef67" kind="solo" kind_title="Solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-2ea35dee-55c1-45e1-8572-5ccf22d76cf7" kind="solo" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <raw_query>+channels:"Arbeit"</raw_query>
+        <container cp:type="auto-teaser" module="zar-lead" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6927c687-0faa-4832-999c-65fb258cab07"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-27722884-2d18-401b-bc18-6d2707deba38" kind="duo" kind_title="Duo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-1787e270-b4d2-4dc0-be31-3917814bad3b" kind="duo" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-duo-bright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cd16088c-5044-473c-9164-de123586170e"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-806aae33-cc70-4b96-8225-4b46353c36e7" kind="duo" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-quote-red" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b602be78-0de6-4a52-8af7-08f6185bd2c8"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-536f5bd3-fdbb-44c6-803a-fff174c26260" kind="trio" kind_title="Trio">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-b35d0556-6bb2-4463-844b-ddcb982c3b4d" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <raw_query>+channels:Arbeit +type:article</raw_query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b72d7702-d960-4796-ae2d-856241abf47c"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-1a099876-cd79-4581-9e1c-1074e1b5c77c" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-217be3d9-fd37-4e63-a79f-1cb2adcc3650"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-cd904225-dace-4138-b6b5-f8cae3452af0" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d34728e3-d948-4c5c-8aa1-3d31accba31a"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-2885a9e8-b4b7-4188-96da-3e13143560ad" kind="duo" kind_title="Duo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-6e93dd78-87f6-4b91-87f0-aceb07277941" kind="duo">
+        <container cp:type="teaser" module="zar-duo-bright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e4d7dc22-e33c-4f58-b25a-de5c51354bcf">
+          <block href="http://xml.zeit.de/arbeit/2017-11/sexuelle-belaestigung-arbeitsplatz-leserinnen" uniqueId="http://xml.zeit.de/arbeit/2017-11/sexuelle-belaestigung-arbeitsplatz-leserinnen" year="2017" issue="42" ressort="Arbeit" contenttype="article" publication-date="" expires="" author="Leonie Seifert">
+            <supertitle py:pytype="str">Sexuelle Belästigung am Arbeitsplatz</supertitle>
+            <title py:pytype="str">"Rate mal, was ich gerne mit dir machen würde!"</title>
+            <text py:pytype="str">Hunderte Frauen haben uns sexistische Bemerkungen geschickt, die sie im Job hören mussten. Sie schreiben von Berührungen und sogar Vergewaltigung. Hier sind ihre Mails.</text>
+            <description py:pytype="str">Hunderte Frauen haben uns sexistische Bemerkungen geschickt, die sie im Job hören mussten. Sie schreiben von Berührungen und sogar Vergewaltigung. Hier sind ihre Mails.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Leonie_Seifert" publication-date="" expires="">
+              <image base-id="http://xml.zeit.de/autoren/autorenbilder/leonie-seifert-2/" type="" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">© Michael Heck</copyright>
+              </image>
+              <display_name py:pytype="str">Leonie Seifert</display_name>
+            </author>
+            <image base-id="http://xml.zeit.de/arbeit/2017-11/sexuelle-belaestigung-arbeitsplatz/" type="jpg" title="Belästigung am Arbeitsplatz" publication-date="" expires="2018-11-06T19:36:44+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© [M] Emma McIntyre/plainpicture</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-44a03558-ccea-416a-9ef1-00eca43f22f3" kind="duo">
+        <container cp:type="cpextra" module="jobbox_dropdown" visible="True" visible_mobile="True" cp:__name__="id-56ccb396-58e8-4458-8417-f5f60004b513">
+          <cp_extra id="jobbox_dropdown"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-66dc213f-7106-4b59-818d-18aeef6403e1" kind="topic" kind_title="Thema (Dossier)">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-e7ee1292-cb46-4da1-ae05-a768fdddc029" kind="topic" count="3" automatic="True" automatic_type="centerpage" title="Ich bin so frei" supertitle="Selbstverwirklichung" read_more_url="http://www.zeit.de/thema/selbstverwirklichung/">
+        <referenced_cp>http://xml.zeit.de/thema/selbstverwirklichung</referenced_cp>
+        <container cp:type="auto-teaser" module="zar-topic-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5f9d1b8e-280a-49c7-a2e9-dd9b65dd35d7"/>
+        <container cp:type="auto-teaser" module="zar-topic-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0fa037d3-3d53-4989-9105-2bc9063d8f71"/>
+        <container cp:type="auto-teaser" module="zar-topic-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2ea07402-d613-4cb2-a2ff-d5804d8d990c"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-be052e9c-ce3d-491f-a8e6-ae0a82d66ade" kind="duo" kind_title="Duo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-526c409b-1ae4-4f7d-b70c-b2618a2473d1" kind="duo" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-duo-bright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dbd817ea-4c42-46a9-be65-9180d5a49bf2"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-ec57eb2a-b30c-4b91-adbd-b64f33a0e014" kind="duo" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-duo-bright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e510b397-4d88-490e-af97-72c2f69568ca"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-8aec9f62-3a36-4da0-b001-ee4dd26ebf6b" kind="trio" kind_title="Trio">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-f2add578-4c06-41bc-886e-627a309362b3" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1c1b59d6-ce8a-429c-9674-f31f6036e50e"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-a97c812e-793e-4769-9b6f-846c9803f58c" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-971f4da9-8f6d-4882-a9d4-dd5cf27c4a92"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-bbd207fe-df27-47b3-99f6-08191f622f12" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7b253044-0bb1-4da0-be9c-015d11b9adec"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-818020c4-0563-438a-8af4-a655b229b9b8" kind="duo" kind_title="Duo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-de726c4b-f86c-469c-b51d-7c978f6cbba5" kind="duo" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-duo-bright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4bde7ac4-c3f9-449e-9020-87855d49a276"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-25cce418-60fc-4748-b40f-3e3a826b2206" kind="duo">
+        <container cp:type="teaser" module="zar-duo-bright" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-720f6813-cc8d-4a6f-a2b3-e8ad586ad0d4">
+          <block href="http://xml.zeit.de/arbeit/2017-10/kurierfahrer-foodora-arbeitsbedingungen-gewerkschaft-protest" uniqueId="http://xml.zeit.de/arbeit/2017-10/kurierfahrer-foodora-arbeitsbedingungen-gewerkschaft-protest" year="2017" issue="42" ressort="Arbeit" contenttype="article" publication-date="" expires="" author="Bernd Kramer">
+            <supertitle py:pytype="str">Kurierfahrer</supertitle>
+            <title py:pytype="str">Der Arbeitskampf begann bei WhatsApp</title>
+            <text py:pytype="str">Sie arbeiten maximal flexibel und sind maximal ausbeutbar. In Berlin organisieren sich Foodora-Fahrer erstmals mithilfe einer anarchistischen Bewegung. Kann das klappen?</text>
+            <description py:pytype="str">Sie arbeiten maximal flexibel und sind maximal ausbeutbar. In Berlin organisieren sich Foodora-Fahrer erstmals mithilfe einer anarchistischen Bewegung. Kann das klappen?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Bernd_Kramer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Bernd Kramer</display_name>
+            </author>
+            <image base-id="http://xml.zeit.de/arbeit/2017-10/kurierfahrer-foodora-arbeitsbedingungen-gewerkschaft-protest-2/" type="jpg" title="kurierfahrer-foodora-arbeitsbedingungen-gewerkschaft-protest" alt="kurierfahrer-foodora-arbeitsbedingungen-gewerkschaft-protest" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© A. Tamboly/Plainpicture</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-77dc95ea-1ca4-41f4-a9b2-083f421b4f00" kind="trio" kind_title="Trio">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-3c166241-b7c6-41e1-bebc-1b85d468bd8b" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3d3815d5-ee42-4bf1-8956-3120eed36bab"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-f209ab4c-e534-4f7e-808b-5246afb43d1e" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e89abd17-1795-4c61-a7b4-d58beff48e91"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-bd8b1dcf-8950-4834-adcb-968c86e77543" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8c7856a3-9f8a-491a-a1dc-0cfb4dc844d9"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-630d79f0-f8d1-4e0d-b328-170252ef6642" kind="trio" kind_title="Trio">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-74aed183-a506-476b-9679-8c2c730a4495" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6b3c9f2e-a5d9-4eab-b7cc-4e73e4ed2946"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-dab2e75e-efb5-4b3e-ba4f-670b629d8e90" kind="trio" count="1" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Arbeit</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zar-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-55e4f7f0-66b5-4dce-9c69-83a64ced058c"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-eac1cdb7-3468-4308-a4f1-6a0af171a7e2" kind="trio">
+        <container cp:type="jobbox_ticker" module="jobbox_ticker" visible="True" visible_mobile="True" cp:__name__="id-d8731861-2166-4bea-ba29-610280077ae8" jobbox_ticker_id="wissenschaft"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-e37ab445-49cf-4d82-92be-e68f2e9b49fb" kind="topic" kind_title="Thema (Dossier)">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-8a9d4b43-d977-4bb3-8e2d-2a027d82dc0e" kind="topic" count="3" automatic="True" automatic_type="centerpage" title="Fast wie Verwandtschaft" supertitle="Arbeitsklima" read_more_url="http://www.zeit.de/thema/arbeitsklima">
+        <referenced_cp>http://xml.zeit.de/thema/arbeitsklima</referenced_cp>
+        <container cp:type="auto-teaser" module="zar-topic-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7611c754-55aa-4dd6-b229-29b56ac0ea46"/>
+        <container cp:type="auto-teaser" module="zar-topic-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-861881e3-ed84-4f65-a484-e4580a8fdbde"/>
+        <container cp:type="auto-teaser" module="zar-topic-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3b8296f0-f73e-46df-81f7-dd845ba60ae8"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-77eba4d5-9be9-4c82-b5b8-20f0e99b715d" kind="solo" kind_title="Solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-3dc03542-fb21-4ef0-99b4-0591ace274e0" kind="topiccluster">
+        <container cp:type="teaser" module="zar-topiccluster" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5504ab3f-1424-460f-8974-1b35dd9fa2b0">
+          <block href="http://xml.zeit.de/thema/work-life-balance" uniqueId="http://xml.zeit.de/thema/work-life-balance" year="2016" ressort="Arbeit" contenttype="centerpage-2009" publication-date="" expires="">
+            <supertitle py:pytype="str">Work-Life-Balance</supertitle>
+            <title py:pytype="str">Nicht vergessen: Leben</title>
+            <text py:pytype="str">Ständig erreichbar, kaum noch Freizeit – die Grenzen zwischen Beruf und Privatem verschwimmen. Wie schafft man trotz haufenweise "Work" noch die Balance zum "Life"?</text>
+            <description py:pytype="str">Ständig erreichbar, kaum noch Freizeit – die Grenzen zwischen Beruf und Privatem verschwimmen. Wie schafft man trotz haufenweise "Work" noch die Balance zum "Life"?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/arbeit/2017-09/work-life-balance-thema/" type="jpeg" title="work-life-balance-thema" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Westend61</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zar-topiccluster" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0e9663e3-f9fb-4e6a-905c-9831db43b81d">
+          <block href="http://xml.zeit.de/thema/stress" uniqueId="http://xml.zeit.de/thema/stress" year="2016" ressort="Arbeit" contenttype="centerpage-2009" publication-date="" expires="">
+            <supertitle py:pytype="str">Stress</supertitle>
+            <title py:pytype="str">Alles zu viel!</title>
+            <text py:pytype="str">Termine, Deadlines, Ärger mit Kollegen – Stress kann es überall geben. Wie Sie gegensteuern können und alles weitere zum Thema, erfahren Sie hier.</text>
+            <description py:pytype="str">Termine, Deadlines, Ärger mit Kollegen – Stress kann es überall geben. Wie Sie gegensteuern können und alles weitere zum Thema, erfahren Sie hier.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/arbeit/2017-09/stress-arbeit-thema/" type="jpeg" title="Thema Stress" alt="Stress" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© golero/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zar-topiccluster" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b362f305-37c9-4521-9661-05904822fcfc">
+          <block href="http://xml.zeit.de/thema/kuenstliche-intelligenz" uniqueId="http://xml.zeit.de/thema/kuenstliche-intelligenz" year="2016" ressort="Arbeit" contenttype="centerpage-2009" publication-date="" expires="">
+            <supertitle py:pytype="str">Künstliche Intelligenz</supertitle>
+            <title py:pytype="str">Chance oder Jobkiller?</title>
+            <text py:pytype="str">Roboter und intelligente Software können immer mehr. Was bedeutet die Entwicklung künstlicher Intelligenz für unser Leben und den Arbeitsmarkt?</text>
+            <description py:pytype="str">Roboter und intelligente Software können immer mehr. Was bedeutet die Entwicklung künstlicher Intelligenz für unser Leben und den Arbeitsmarkt?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2016-09/kuenstliche-intelligenz-jobs-algorithmen-zukunft-sozialstaat-utopie-2/" type="jpg" title="Künstliche Intelligenz Jobs Algorithmen Zukunft Sozialstaat Utopie" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Sascha Bier für ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zar-topiccluster" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-51e7493e-85b4-448c-937d-d92a3c910f74">
+          <block href="http://xml.zeit.de/thema/bewerbung" uniqueId="http://xml.zeit.de/thema/bewerbung" year="2016" ressort="Arbeit" contenttype="centerpage-2009" publication-date="" expires="">
+            <supertitle py:pytype="str">Bewerbung</supertitle>
+            <title py:pytype="str">Ich will den Job</title>
+            <text py:pytype="str">Arbeitserfahrung, Zeugnisse, Noten – alles top und trotzdem kommt eine Absage auf die Bewerbung? Wahrscheinlich hat ein Blender die Stelle bekommen. Wir klären, warum.</text>
+            <description py:pytype="str">Arbeitserfahrung, Zeugnisse, Noten – alles top und trotzdem kommt eine Absage auf die Bewerbung? Wahrscheinlich hat ein Blender die Stelle bekommen. Wir klären, warum.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/arbeit/2017-09/bewerbung-arbeit-thema/" type="jpeg" title="bewerbung-arbeit-thema" alt="Bewerbung" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© </copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zar-topiccluster" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-343d1a55-11c3-4f7d-9927-8f856162ba15">
+          <block href="http://xml.zeit.de/thema/chef" uniqueId="http://xml.zeit.de/thema/chef" year="2016" ressort="Arbeit" contenttype="centerpage-2009" publication-date="" expires="">
+            <supertitle py:pytype="str">Chef</supertitle>
+            <title py:pytype="str">Ich Chef, du nix?</title>
+            <text py:pytype="str">Darf mich mein Chef feuern, wenn ich krank werde? Arbeiten wir bald alle ohne Vorgesetzte? Alle Texte zum Thema Chef</text>
+            <description py:pytype="str">Darf mich mein Chef feuern, wenn ich krank werde? Arbeiten wir bald alle ohne Vorgesetzte? Alle Texte zum Thema Chef</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/arbeit/2017-09/chef-arbeit-thema/" type="jpeg" title="Thema Chef" alt="Chef" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© plainpicture/Kniel Synnatzschke</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="zar-topiccluster" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-97609400-950e-4c5a-bbd3-b387c24912fb">
+          <block href="http://xml.zeit.de/thema/gleichberechtigung" uniqueId="http://xml.zeit.de/thema/gleichberechtigung" year="2016" ressort="Arbeit" contenttype="centerpage-2009" publication-date="" expires="">
+            <supertitle py:pytype="str">Gleichberechtigung</supertitle>
+            <title py:pytype="str">Gleicher Lohn für gleiche Arbeit</title>
+            <text py:pytype="str">Mutterschutz für Väter, Gesetze gegen die Gender-Pay-Gap, immer noch zu wenig Frauen in den Chefetagen: Was läuft und was läuft nicht in Sachen Gleichberechtigung im Job?</text>
+            <description py:pytype="str">Mutterschutz für Väter, Gesetze gegen die Gender-Pay-Gap, immer noch zu wenig Frauen in den Chefetagen: Was läuft und was läuft nicht in Sachen Gleichberechtigung im Job?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/arbeit/2017-09/gleichberechtigung-arbeit-thema/" type="jpeg" title="Thema Gleichberechtigung" alt="Gleichberechtigung" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Hinterhaus Productions/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+  </body>
+  <teaser>
+    <title>ZEIT Arbeit</title>
+  </teaser>
+</centerpage>

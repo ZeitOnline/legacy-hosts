@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Achtung:
+     Die Wartungseinstellungen werden gecached. Wird die Konfiguration kurzfristig
+     ver&#246;ffentlicht muss der Cache invalidiert werden.
+     Hierzu `http://friedbert01.zeit.de:8080/-comments/invalidate_maintenance` aufrufen. -->
+<community_maintenance>
+  <!-- &#220;berschreibt, wenn `true`, den aus der Planung abgeleiteten Wartungszustand -->
+  <active>false</active>
+  <!-- Wartungszustand planen: 
+                 - Warnhinwies wird ausgespielt, solange die Wartung noch nicht aktiv ist
+                 - Im Wartungszeitraum wird die Wartung automatisch aktiviert -->
+  <scheduled>false</scheduled>
+  <begin>2016-07-13T18:00:00.00+02:00</begin>
+  <end>2016-07-13T19:00:00.00+02:00</end>
+  <!-- Text f&#252;r geplante Wartung (leerer Knoten zeigt einen voreingestellten Text an) -->
+  <text_scheduled>Aufgrund von Wartungsarbeiten stehen die Kommentarfunktionen ab ca. 18:00 Uhr bis voraussichtlich 19:00 Uhr nicht zur Verfügung. Bitte schicken Sie Kommentare bis dahin ab oder speichern Sie diese bei sich. Wir bitten um Ihr Verständnis.</text_scheduled>
+  <!-- Text f&#252;r aktive Wartung (leerer Knoten zeigt einen voreingestellten Text an) -->
+  <text_active>Aufgrund von Wartungsarbeiten stehen die Kommentarfunktionen ab 18:00 Uhr bis voraussichtlich 19:00 Uhr nicht zur Verfügung. Wir bitten um Ihr Verständnis.</text_active>
+</community_maintenance>

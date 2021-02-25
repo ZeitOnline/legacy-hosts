@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage>
+  <head>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2008-07-01 10:27:24.409072+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2007</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2008-07-01T10:29:25.782074+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="keywords">DIE ZEIT; ZEIT ONLINE;Nachrichten;Kommentare;Analysen;Themen; Politik;Wirtschaft;Kultur;Wissensschaft</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">geil</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.Buhr</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="revision">781</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">new</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="supertitle">News Channel</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">06</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+  </head>
+  <body>
+    <container id="channel_gedrucktes" label="" layout="" href="http://xml.zeit.de/magazine/index" priority="1">
+      <block priority="1" href="http://www.zeit.de/inhalt" id="" layout="" sticky="">
+        <supertitle href="">DIE ZEIT</supertitle>
+        <title>Ausgabe 30/2008</title>
+        <text>Artikel aus der ZEIT</text>
+        <image expires="2100-01-01" src="http://xml.zeit.de/bilder/2008/30/zeit-titel/zeit-cover-120x90.jpg" align="right" alt="" border="" href="" layout="" vspace="" width=""><copyright>©</copyright>
+          BILD
+        </image>
+        <related>
+          <block priority="" href="http://www.zeitabo.de" id="" layout="" sticky="">
+            <title>Abonnements</title>
+          </block>
+          <block priority="" href="http://adonline.zeit.de/" id="" layout="" sticky="">
+            <title>Anzeigen buchen</title>
+          </block>
+        </related>
+      </block>
+      <block priority="2" href="http://xml.zeit.de/leben/leben-magazin/index" id="" layout="" sticky="" publication-date="" expires="">
+        <image expires="2100-01-01" src="http://xml.zeit.de/bilder/2008/30/leben/zeit-magazin-leben/cover-30/cover-30-120x90.jpg" align="right" alt="" border="" href="" layout="" vspace="" width=""><copyright>©</copyright>
+          BILD
+        </image>
+        <supertitle xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Magazin</supertitle>
+        <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">ZEITmagazin Leben</title>
+        <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Ab 24. Mai am Kiosk</text>
+        <related>
+          <block priority="" href="http://adonline.zeit.de/">
+            <title>Anzeigen buchen</title>
+          </block>
+        </related>
+        <references/>
+        <byline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <short>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">ZEITmagazin Leben</title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Ab 24. Mai am Kiosk</text>
+        </short>
+        <homepage>
+          <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </homepage>
+      </block>
+      <block priority="3" href="http://xml.zeit.de/zeit-wissen/2008/04/Inhalt" id="" layout="" sticky="" publication-date="" expires="">
+        <supertitle xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Inhaltsverzeichnis</supertitle>
+        <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">ZEIT Wissen</title>
+        <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Viele Menschen gelten als psychisch krank. Wer genauer hinsieht, stellt fest: Manches Leiden ist nur erfunden - von Ärzten und der Pharmaindustrie.</text>
+        <related>
+          <block priority="" href="http://www.zeit.de/zeit-wissen/index" id="" layout="" sticky="">
+            <title>ZEIT Wissen online</title>
+          </block>
+          <block priority="" href="http://www.zeitabo.de/index.php?id=19">
+            <title>Abonnements</title>
+          </block>
+        </related>
+        <image xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" base-id="http://xml.zeit.de/bilder/2008/zeit-wissen/04/cover-04/" type="jpg" publication-date="" expires="">
+          <bu xsi:nil="true"/>
+        </image>
+        <byline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <short>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">ZEIT Wissen</title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Das Inhaltsverzeichnis des aktuellen Heftes</text>
+        </short>
+        <homepage>
+          <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </homepage>
+        <references/>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+</centerpage>

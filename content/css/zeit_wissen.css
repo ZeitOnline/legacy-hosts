@@ -1,0 +1,462 @@
+#wissen-navi {
+padding-top: 10px;
+padding-bottom: 24px;
+}
+
+#hauptrahmen {
+position: absolute;
+}
+
+#first_container {
+position: absolute;
+width: 851px;
+height: 160px;
+}
+.links_space {
+float: left;
+width: 15px;
+}
+.linke_spalte_bilder{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#super_article {
+float: left;
+width: 836px;
+height: 160px;
+}
+
+#super_article_bild {
+width: 210px;
+height: 160px;
+float: left;
+margin-right: 17px;
+}
+#super_article_content {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+float: left;
+width: 478px;
+height: 160px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+margin-right: 0px;
+/*background-color: #b4c833*/
+}
+
+html>body #super_article_content {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+margin-right: 7px;
+}    
+
+#super_article_upper_line {
+float: left;
+}
+#super_article_supertitle {
+float: left;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #727D21;
+}
+#super_article_supertitle a {
+font-size: 16px;
+font-weight: bold;
+color: #727D21;
+}
+#super_article_supertitle a:hover {
+color: #920404;
+#color: #727D21;
+}
+.article_text {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-size: 11px;
+line-height: 14px;
+color: black;
+}
+
+.article_text a b {
+font-size: 11px;
+line-height: 14px;
+color: black;
+}
+
+.article_text a:hover b {
+font-size: 11px;
+line-height: 14px;
+color: #920404;
+}
+
+.blog_text {
+float: left;
+font-size: 11px;
+line-height: 12px;
+color: black;
+}
+.zeit_blogs{
+float: left;
+margin-top: 5px;
+width:478px;
+font-size: 9px;
+line-height: 11px;
+color: black
+}
+.blog_link {
+padding-left: 4px;
+font-size: 9px;
+line-height: 12px;
+color: #727D21;
+}
+.blog_link a{
+padding-left: 4px;
+font-size: 9px;
+line-height: 12px;
+color: #727D21;
+}
+.blog_link a:hover{
+color: maroon;
+}
+#super_article_bottom_line {
+width: 478px;
+position: absolute;
+bottom:0;
+}
+
+#second_container {
+position: absolute;
+top: 180px;
+width: 851px;
+}
+
+#linke_spalte {
+float: left;
+width: 210px;
+margin-right: 17px;
+}
+#mittel_spalte {
+float: left;
+width: 478px;
+margin-right: 7px;
+}
+#rechte_spalte {
+float: left;
+width: 124px;
+}
+
+.rubrik_kasten {
+width: 478px;
+border-top: 1px solid black;
+padding-top: 0px;
+margin-bottom: 16px;
+/*height: 90px;*/
+}
+.section_streifen {
+margin-top: 20px;
+padding-bottom: 16px;
+}
+.image_right{
+padding-left: 4px;
+padding-bottom: 2px;
+float: right;
+}
+.image_left{
+float:left;
+padding-right: 4px;
+}
+
+.rubrik_subtitle {
+font-size: 13px;
+font-weight: bold;
+padding-bottom: 4px;
+}
+
+.kurznari{
+float: left;
+font-size: 9px;
+line-height: 9px;
+font-weight: bold;
+}
+.kurznari_no_float{
+font-size: 9px;
+font-weight: bold;
+}
+
+.schwerpunkt{
+padding-bottom: 6px;
+}
+
+.linke_spalte_block{
+width: 200px;
+margin-top:15px;
+}
+
+.inhalt_bild{
+width: 210px;
+}
+
+.linke_spalte_in_block{
+width: 200px;
+margin-top: 10px;
+}
+
+.raquo {
+font-size: 11px;
+color: #727D21;
+font-weight: bold;
+}
+
+.zeit-wissen_bg {
+background-color: #E4E8CD;
+/*background-color: #727d27;*/
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-weight: bold;
+font-size: 9px;
+line-height: 8px;
+color: black;
+/*color: #ffffff;*/
+text-transform: uppercase;
+letter-spacing: 3pt;
+text-decoration: none;
+padding-top: 1px;
+padding-left: 2px;
+padding-right: 1px;
+}
+
+.ausgabe {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+width: 478px;
+font-weight: bold;
+font-size: 10px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.inhalt {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+width: 478px;
+font-weight: bold;
+font-size: 28px;
+margin-bottom: 15px;
+}
+
+.inhalt_text {
+font-weight: bold;
+font-size: 11px;
+line-height: 16px;
+}
+
+/*.inhalt_text a {
+font-weight: bold;
+font-size: 11px;
+line-height: 18px;
+}*/
+
+.inhalt_block {
+margin-top: 25px;
+width: 478px;
+}
+
+.rubrik {
+width: 478px;
+border-bottom: 1px solid black;
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+padding-bottom: 2px;
+}
+
+.rubrik_bild {
+float: right;
+padding-bottom: 2px;
+border-bottom: 1px solid black;
+}
+
+.inhalt_meldung {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+/*margin-top: 14px;*/
+margin-bottom: 14px;
+font-size: 10px;
+}
+
+.inhalt_meldung_head {
+font-weight: bold;
+font-size: 10px;
+text-transform: uppercase;
+}
+
+
+
+.inhalt_meldung_content {
+font-weight: normal;
+}
+
+
+.inhalt_links_kasten {
+margin-top: 20px;
+margin-bottom: 30px;
+background-image:url(http://zeus.zeit.de/bilder/elemente/zeit-wissen/strichlinie_210.gif); background-repeat:no-repeat;
+background-position:top;
+}
+
+.inhalt_links_head {
+padding-top: 12px;
+padding-bottom: 12px;
+font-weight: bold;
+font-size: 10px;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+.inhalt_links_items {
+font-weight: normal;
+color: #727D21;
+font-size: 10px;
+line-height: 14px;
+}
+
+.inhalt_links_items a {
+font-weight: normal;
+color: #727D21;
+font-size: 10px;
+line-height: 14px;
+}
+
+.inhalt_teaser {
+width: 478px;
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold; 
+line-height: 18px;
+text-decoration: none;
+color: #000000;
+border-bottom: 1px solid black;
+}
+
+.space_twenty {
+height: 20px;
+}
+
+
+.zw_article_supertitle {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+color: #000066;
+text-transform:uppercase;
+letter-spacing: 2pt;
+text-decoration: none;
+margin-top: 2px;
+margin-bottom: 30px;
+}
+
+.zw_article_subtitle {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-size: 11px;
+line-height: 16px;
+font-weight: bold;
+text-decoration: none;
+color: #000066;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+.zw_article_copyright {
+text-align: right;
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-size: 10px;
+line-height: 16px;
+font-weight: normal;
+text-decoration: none;
+color: #999999;
+}
+
+
+.aus_zeit_wissen {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-weight: bold;
+font-size: 10px;
+line-height: 8px;
+text-align: right;
+color: #920404;
+text-transform: uppercase;
+letter-spacing: 1pt;
+text-decoration: none;
+padding-top: 10px;
+padding-bottom: 10px;
+/*padding-left: 2px;*/
+/*padding-right: 1px;*/
+}
+
+.more_articles {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-weight: bold;
+font-size: 10px;
+line-height: 8px;
+text-align: right;
+color: #920404;
+text-transform: uppercase;
+letter-spacing: 3pt;
+text-decoration: none;
+/*padding-top: 1px;
+padding-left: 2px;
+padding-right: 1px;*/
+}
+.more_articles_text {
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+text-align: right;
+color: #b4c833;
+}
+
+.more_articles_text a{
+/*color: #b4c833;*/
+color: #727d21;
+}
+
+.more_articles_text a:hover{
+color: #920404;
+}
+
+
+.wissen_right_block {
+width: 120px;
+padding-left: 4px;
+margin-bottom: 20px;
+}
+
+
+.textlink_wissen:link{
+	color: #727d21; 
+	border-bottom: 1px dotted #727d21;
+}
+
+.textlink_wissen:visited{
+	color: #727d21;
+	border-bottom: 1px dotted #727d21;
+}
+
+.textlink_wissen:active {
+	color: #727d21;
+	border-bottom: 1px dotted #727d21;
+}
+
+.textlink_wissen:hover {
+	border-bottom: 1px dotted #727d21;
+	background-color: #F0F0F0;
+	color: #727d21;
+}
+
+.winter_input {
+border: 1px solid black;
+
+font-family: verdana, geneva, arial, helvetica, sans-serif;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+padding: 1px;
+font-weight: normal;
+}

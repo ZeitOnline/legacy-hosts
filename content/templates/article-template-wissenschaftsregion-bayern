@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-12-06T13:51:32.769785+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-12-06T13:42:46.969372+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-12-06T13:52:38.754792+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-12-06T13:41:50.448005+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-12-06T13:44:23.906728+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">wissenschaftsregion-by</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f3776cec-7367-410a-9017-c8b68bc03b5e}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">50</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-805d8970-adaf-4ec5-9f5c-8892852139f1">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-ad8d5632-b3fe-44eb-8add-beac31744fa6">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/wissenschaftsregion-bayern/zurueck-zur-startseite" year="2013" issue="50" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/wissenschaftsregion-bayern/index" ns0:rel="nofollow" date-last-modified="2013-12-06T13:33:19+00:00" date-first-released="" date-last-published="" last-semantic-change="2013-12-06T13:33:09.997361+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-905c791a-0ca9-4f14-9820-f019a3bea665">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-bayern/wwgi-hoehenfluege" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-06T11:15:52+00:00" date-first-released="" date-last-published="" last-semantic-change="2013-12-05T17:43:34.109303+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Höhenflüge für die Forschung</title>
+            <text py:pytype="str">Bayern ist der bedeutendste Standort der Luft- und Raumfahrtindustrie in Deutschland. Doch dieser
+Vorsprung lässt sich nur durch Spitzenforschung halten und ausbauen.</text>
+            <description py:pytype="str">Bayern ist der bedeutendste Standort der Luft- und Raumfahrtindustrie in Deutschland. Doch dieser
+Vorsprung lässt sich nur durch Spitzenforschung halten und ausbauen.</description>
+            <byline py:pytype="str">Wie wird geforscht in Bayern?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-bayern/aufmacher_wwgi_b_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-95135a34-fe3d-427b-98e1-9a60453f486b">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-bayern/mint-faecher" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-06T13:08:47+00:00" date-first-released="" date-last-published="" last-semantic-change="2013-12-06T10:12:18.924373+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">MINT-Fächer – Ewig beste Aussichten</title>
+            <text py:pytype="str">Die Wirtschaft sucht händeringend nach ihnen, doch wo sind sie nur? Fachkräfte im Bereich MINT sind heute begehrter denn je.</text>
+            <description py:pytype="str">Die Wirtschaft sucht händeringend nach ihnen, doch wo sind sie nur? Fachkräfte im Bereich MINT sind heute begehrter denn je.</description>
+            <byline py:pytype="str">Wie wird geforscht in Bayern?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-bayern/wwgiBay_Labor/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-825f3465-24be-4edf-8a08-5efdd11f6c23">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-bayern/handelszone" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-06T11:11:34+00:00" date-first-released="" date-last-published="" last-semantic-change="2013-12-06T10:42:15.262527+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Ausweitung der Handelszone</title>
+            <text py:pytype="str">Mit einer transatlantischen Freihandelszone wollen die EU und USA gemeinsam einen Weg aus der Wirtschaftskrise ebnen. </text>
+            <description py:pytype="str">Mit einer transatlantischen Freihandelszone wollen die EU und USA gemeinsam einen Weg aus der Wirtschaftskrise ebnen. </description>
+            <byline py:pytype="str">Wie wird geforscht in Bayern?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-bayern/wwgiBay_Container/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Große Vielfalt - In einer umfassenden Freihandelszone würde es mehr Waren, mehr Wachstum und mehr Arbeitsplätze geben. Glauben die einen. Kritiker fürchten zu lasche Einfuhrkontrollen.</bu>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Wissenschaftsregion Bayern</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Wissenschaftsregion Bayern</title>
+  </teaser>
+</centerpage>

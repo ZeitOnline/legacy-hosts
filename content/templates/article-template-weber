@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-11-09T13:43:12.310601+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-10-25T14:46:55.644725+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-11-09T13:44:11.728869+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-11-09T13:42:11.409185+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">weber</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:6a936c8c-5419-441e-b5f8-8ed26afc0a2b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-7f7d9a76-0b7c-4260-b151-e7231698b12a">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-33c38394-8913-4388-8d36-819a276e168b" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/weber/link_weber" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.weberstephen.de/" ns0:target="_blank" date-last-modified="2012-10-25T14:39:34+00:00" date-first-released="2012-10-25T14:40:33.848879+00:00" date-last-published="2012-10-25T14:40:33.848879+00:00" last-semantic-change="2012-10-25T14:39:17.760971+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu weber.com</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/weber/logo_weber_neu/logo_weber_neu-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f634f4a8-ce9e-473c-8a8a-77cc068b2913">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/weber/link_grillacademy" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="https://www.weber-grillakademie.com/" ns0:target="_blank" date-last-modified="2012-10-26T15:45:03+00:00" date-first-released="2012-10-26T15:46:03.574233+00:00" date-last-published="2012-10-26T15:46:03.574233+00:00" last-semantic-change="2012-10-26T15:44:42.084206+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Weber Grill Academy</title>
+            <text py:pytype="str">Bringen Sie mehr als nur die Bratwurst auf Ihren Grill! Entdecken Sie außergewöhnliche Rezepte, Grillmethoden und die neuste Grilltechnik. Werden Sie zum Grillexperten!</text>
+            <description py:pytype="str">Bringen Sie mehr als nur die Bratwurst auf Ihren Grill! Entdecken Sie außergewöhnliche Rezepte, Grillmethoden und die neuste Grilltechnik. Werden Sie zum Grillexperten!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/weber/grillacademy/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-57138376-f3fc-4e98-a9f5-38406624329a">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/weber/link_haendlersuche" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.weberstephen.de/Fachhandel-vor-Ort.aspx?ID=191" ns0:target="_blank" date-last-modified="2012-11-09T13:40:06+00:00" date-first-released="2012-11-09T13:41:05.858875+00:00" date-last-published="2012-11-09T13:41:05.858875+00:00" last-semantic-change="2012-11-09T13:39:55.269587+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Händlersuche</title>
+            <text py:pytype="str">Entdecken Sie die ganze Welt von Weber bei Ihrem Händler vor Ort! Geschultes Fachpersonal wird Ihnen bei allen Fragen rund um den Grill mit Rat und Tat zur Seite stehen.</text>
+            <description py:pytype="str">Entdecken Sie die ganze Welt von Weber bei Ihrem Händler vor Ort! Geschultes Fachpersonal wird Ihnen bei allen Fragen rund um den Grill mit Rat und Tat zur Seite stehen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/weber/haendlersuche_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f8faa275-0439-4bc5-ac98-563ebc17bdda">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/weber/link_newsletter" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.weberstephen.de/Newsletter.aspx?ID=137" ns0:target="_blank" date-last-modified="2012-11-09T13:41:30+00:00" date-first-released="2012-11-09T08:55:54.845294+00:00" date-last-published="2012-11-09T13:42:30.499420+00:00" last-semantic-change="2012-11-09T13:41:15.454995+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Newsletter</title>
+            <text py:pytype="str">Melden Sie sich jetzt zu dem Weber Newsletter an und erhalten Sie immer als Erster aktuelle News rund ums Grillen mit Weber.</text>
+            <description py:pytype="str">Melden Sie sich jetzt zu dem Weber Newsletter an und erhalten Sie immer als Erster aktuelle News rund ums Grillen mit Weber.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/weber/newsletter_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline py:pytype="str">Grillvergnügen: Dies ist ein Angebot der Weber-Stephen Deutschland GmbH. Für den Inhalt ist die Weber-Stephen Deutschland GmbH verantwortlich.</byline>
+    <title>Artikel Rahmen Weber</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Weber</title>
+  </teaser>
+</centerpage>

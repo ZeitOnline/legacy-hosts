@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-01-27T18:59:39.560490+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-10-30T11:02:15.566605+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-01-27T18:59:51.986759+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-01-27T19:00:51.913450+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-01-27T10:52:36.897105+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-01-27T18:59:35.705727+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.horeld</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Gesellschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:9fb31738-fe1e-4e57-96d4-d761a090286a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="73eceb56-2b6e-47f4-9294-2f358fe064b4">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="a12d73a7-68a8-49e4-bc38-7bddba606584">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-93e72672-5d54-4566-985c-97f446768860" layout="368x110" title="Fischer im Recht: Alle Folgen der Kolumne">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/gesellschaft/2015-01/link-fischer-im-recht" year="2015" issue="4" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/fischer-im-recht" uniqueId="http://xml.zeit.de/gesellschaft/2015-01/link-fischer-im-recht" date-last-modified="2015-01-27T09:23:36+00:00" date-first-released="2015-01-27T09:18:33.067107+00:00" date-last-published="2015-01-27T09:18:33.067107+00:00" last-semantic-change="2015-01-27T09:23:14.421747+00:00">
+            <supertitle py:pytype="str">Kolumne</supertitle>
+            <title py:pytype="str">Fischer im Recht</title>
+            <text py:pytype="str">Die wöchentliche Kolumne von Bundesrichter Thomas Fischer über Recht und Gerechtigkeit.</text>
+            <description py:pytype="str">Die wöchentliche Kolumne von Bundesrichter Thomas Fischer über Recht und Gerechtigkeit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2014-12/fischer-im-recht/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Michael Herdlein</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/politik/2014-12/fischer-im-recht/fischer-im-recht-368x110.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© Michael Herdlein</copyright>
+          </image>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="5cf7c65c-69f2-4831-b07f-9708bfb1109c">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="cpextra" module="newsletter_gesellschaft" cp:__name__="13e93daf-625a-4572-91f6-4d2491724bda">
+          <cp_extra id="newsletter_gesellschaft"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-83c79556-4cd2-4ead-97fa-927276226a94" layout="368x110" title="Stufenlos: Blog zur Barrierefreiheit">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/gesellschaft/2014-07/blog-stufenlos-barrierefreiheit-2" year="2014" issue="31" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/stufenlos/" date-last-modified="2014-07-28T10:01:17+00:00" date-first-released="2014-07-28T09:18:42.500397+00:00" date-last-published="2014-07-28T10:02:17.682740+00:00" last-semantic-change="2014-07-28T10:01:04.977768+00:00" uniqueId="http://xml.zeit.de/gesellschaft/2014-07/blog-stufenlos-barrierefreiheit-2" author="Christiane Link">
+            <supertitle py:pytype="str">Barrierefreiheit</supertitle>
+            <title py:pytype="str">Ich möchte nicht laufen können</title>
+            <text py:pytype="str">Barrierefreiheit, Inklusion, der Umgang mit behinderten Menschen: Das sind die Themen des neuen Blogs "Stufenlos". Die Autorin, Christiane Link, ist querschnittgelähmt.</text>
+            <description py:pytype="str">Barrierefreiheit, Inklusion, der Umgang mit behinderten Menschen: Das sind die Themen des neuen Blogs "Stufenlos". Die Autorin, Christiane Link, ist querschnittgelähmt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2014-07/stufenlos-blog-barrierefrei/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christiane Link</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Christiane_Link/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christiane Link</display_name>
+            </author>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/gesellschaft/2014-07/stufenlos-blog-barrierefrei/stufenlos-blog-barrierefrei-368x110.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© Christiane Link</copyright>
+          </image>
+        </container>
+        <container cp:type="rss" module="rss" max_items="5" cp:__name__="21ae595d-2baf-4142-bbd8-892c8d19f7c8" url="http://blog.zeit.de/stoerungsmelder/feed" title="Blogs und Tweets von ZEIT ONLINE" show_supertitle="True" time_format="none">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" href="/var/cms/work/rss/ffbff4a7620b4a5b98789cf54cca1f36" parse="xml" xpointer="xpointer(/feed/rss)">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/ffbff4a7620b4a5b98789cf54cca1f36 nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="85b66b89-f2f6-4c5c-ae86-28d7aec83235">
+          <video videoID="36516804001" player="pls" format="small"/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="b6d9a704-66d4-41b6-ab93-89713dcbaf84">
+          <cp_extra id="linkatory"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="c5dde42c-6fb2-4cee-a153-532a4d67131a">
+        <container cp:type="teaser" module="ressort" cp:__name__="9c9291bb-afb9-4d2a-bbaa-52b506dd4398" hide-dupes="True" title="Zeitgeschehen" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/gesellschaft/zeitgeschehen/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/gesellschaft/zeitgeschehen/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/gesellschaft/zeitgeschehen/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="3736f868-48d2-46da-8699-0ba4475edcd1" hide-dupes="True" title="Familie" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/gesellschaft/familie/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/gesellschaft/familie/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/gesellschaft/familie/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="0a1630b4-1b76-46f0-83f5-097269f1836f" hide-dupes="True" title="Schule" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/gesellschaft/schule/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/gesellschaft/schule/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/gesellschaft/schule/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-082ba53a-5886-41e9-b120-8fd6a94eb4be" title="Politik" read_more="mehr Politik" read_more_url="http://www.zeit.de/politik/index">
+          <referenced_cp>http://xml.zeit.de/politik/index</referenced_cp>
+          <autopilot>true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" href="/var/cms/work/politik/index.lead" parse="xml" xpointer="xpointer(/channel/container/block)">
+            <xi:fallback>Ziel http://xml.zeit.de/politik/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <topiclinks>
+            <topiclink href="http://www.zeit.de/schlagworte/themen/pegida/index" py:pytype="str">Pegida</topiclink>
+            <topiclink href="http://www.zeit.de/schlagworte/orte/ukraine/index" py:pytype="str">Ukraine-Konflikt</topiclink>
+            <topiclink href="http://www.zeit.de/schlagworte/organisationen/islamischer-staat/index" py:pytype="str">IS-Terror</topiclink>
+          </topiclinks>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Gesellschaft</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Gesellschaft</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Gesellschaft</text>
+  </indexteaser>
+</centerpage>

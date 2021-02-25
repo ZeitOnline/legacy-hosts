@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-11-02T11:06:51.358938+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-10-24T09:12:33.221829+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-11-02T11:07:51.097459+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-11-02T11:06:30.554910+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lfischer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">kaffeegenuss</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:511c54e9-124f-4895-9623-bd727e893716}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="4ddc2002-528a-4bcc-a9ee-3d5214f3399c"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="8dd2f8f7-0641-40b8-b015-67815f218498">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/kaffeegenuss/zurueck" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/kaffeegenuss" date-last-modified="2011-10-24T09:00:46+00:00" date-first-released="2011-10-24T09:01:46.188592+00:00" date-last-published="2011-10-24T09:01:46.188592+00:00" last-semantic-change="2011-10-24T09:00:34.639271+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="60324fdd-c876-4ce0-864f-bc843bc29001">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/kaffeegenuss/saeco" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.philips.de/saeco">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Saeco</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/kaffeegenuss/bilder/Saeco_CMYK-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="ece06577-650b-4fc8-8356-8d6871fd81f8">
+          <block href="http://xml.zeit.de/angebote/kaffeegenuss/xelsis-digital-id" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-21T15:24:03+00:00" date-first-released="2011-10-21T14:59:41.094423+00:00" date-last-published="2011-10-21T15:25:03.387521+00:00" last-semantic-change="2011-10-21T15:23:52.778380+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die Xelsis Digital ID von Philips Saeco für perfekten Kaffeegenuss zu Hause</title>
+            <text py:pytype="str">Weihnachten steht vor der Tür. Höchste Zeit also mit der Suche nach Geschenken zu beginnen. Dieses Jahr können Sie die Vorweihnachtszeit in Ruhe genießen, denn ...</text>
+            <description py:pytype="str">Weihnachten steht vor der Tür. Höchste Zeit also mit der Suche nach Geschenken zu beginnen. Dieses Jahr können Sie die Vorweihnachtszeit in Ruhe genießen, denn ...</description>
+            <byline py:pytype="str">Kaffeegenuss: Dies ist ein Angebot von Philips Saeco. Für den Inhalt ist ausschließlich Philips Saeco verantwortlich.</byline>
+            <image align="left" title="Saeco_Xelsis_Digital_ID_1.jpg" base-id="http://xml.zeit.de/angebote/kaffeegenuss/bilder/Saeco_Xelsis_Digital_ID_1.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="c254f19d-79dd-4445-9530-02a6df0ac28f">
+          <block href="http://xml.zeit.de/angebote/kaffeegenuss/espresso-zubereitung" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-11-02T11:05:59+00:00" date-first-released="2011-10-21T15:03:03.747363+00:00" date-last-published="2011-11-02T11:06:59.154429+00:00" last-semantic-change="2011-11-02T11:05:47.078443+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Was bedeutet perfekt italienischer Espresso?</title>
+            <text py:pytype="str">Für jeden Espressoliebhaber ist der Besuch in seinem Lieblingskaffee ein wahres Vergnügen. Das unverkennbare Geräusch, wenn die Maschine frische Kaffeebohnen mahlt, ...</text>
+            <description py:pytype="str">Für jeden Espressoliebhaber ist der Besuch in seinem Lieblingskaffee ein wahres Vergnügen. Das unverkennbare Geräusch, wenn die Maschine frische Kaffeebohnen mahlt, ...</description>
+            <byline py:pytype="str">Kaffeegenuss: Dies ist ein Angebot von Philips Saeco. Für den Inhalt ist ausschließlich Philips Saeco verantwortlich.</byline>
+            <image align="left" title="bevande_ambientate-2956.jpg" base-id="http://xml.zeit.de/angebote/kaffeegenuss/bilder/bevande_ambientate-2956.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="3b54ec38-87ad-4cc6-a149-3b8fa2a9f52e">
+          <block href="http://xml.zeit.de/angebote/kaffeegenuss/espresso-sinne" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-24T09:18:23+00:00" date-first-released="2011-10-21T15:21:33.164304+00:00" date-last-published="2011-10-24T09:19:22.695273+00:00" last-semantic-change="2011-10-24T09:17:55.826488+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die Sinne des italienischen Espresso</title>
+            <text py:pytype="str">Guter Espresso ist ein Fest für alle Sinne: das intensive Aroma der gerösteten Bohnen, die leckere Crema − ein Genuss. Aber wie erkennt man einen perfekten Espresso?
+</text>
+            <description py:pytype="str">Guter Espresso ist ein Fest für alle Sinne: das intensive Aroma der gerösteten Bohnen, die leckere Crema − ein Genuss. Aber wie erkennt man einen perfekten Espresso?
+</description>
+            <byline py:pytype="str">Kaffeegenuss: Dies ist ein Angebot von Philips Saeco. Für den Inhalt ist ausschließlich Philips Saeco verantwortlich.</byline>
+            <image align="left" title="bevande_amb_-3031.jpg" base-id="http://xml.zeit.de/angebote/kaffeegenuss/bilder/bevande_amb_-3031.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="ce2bf164-0d59-4abc-878d-25e4d822c9c5">
+          <block href="http://xml.zeit.de/angebote/kaffeegenuss/italian-basics" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-24T09:26:42+00:00" date-first-released="2011-10-24T08:39:53.876082+00:00" date-last-published="2011-10-24T09:27:42.135724+00:00" last-semantic-change="2011-10-24T09:25:24.385069+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Italian Basics</title>
+            <text py:pytype="str">Die Italienische Kaffeekultur kreierte eine Vielzahl an unterschiedlichen Getränkevariationen, die inzwischen weltberühmt sind. Vom schnellen Espresso, der ein ...</text>
+            <description py:pytype="str">Die Italienische Kaffeekultur kreierte eine Vielzahl an unterschiedlichen Getränkevariationen, die inzwischen weltberühmt sind. Vom schnellen Espresso, der ein ...</description>
+            <byline py:pytype="str">Kaffeegenuss: Dies ist ein Angebot von Philips Saeco. Für den Inhalt ist ausschließlich Philips Saeco verantwortlich.</byline>
+            <image align="left" title="saeco_proposta-2403_2.jpg" base-id="http://xml.zeit.de/angebote/kaffeegenuss/bilder/saeco_proposta-2403_2.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="5cb7fcb5-22ad-4a16-8b1f-a04b69ce420e">
+          <block href="http://xml.zeit.de/angebote/kaffeegenuss/espressospezialitaeten" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-31T11:15:14+00:00" date-first-released="2011-10-24T08:57:55.811376+00:00" date-last-published="2011-10-31T11:16:14.319403+00:00" last-semantic-change="2011-10-31T11:14:48.752326+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Italiens besondere Espressospezialitäten</title>
+            <text py:pytype="str">Über die Jahre haben die Italiener eine ganz eigene Kaffeekultur entwickelt. Es beginnt am morgen auf dem Weg zur Arbeit mit einem schnellen Cappuccino und geht ...</text>
+            <description py:pytype="str">Über die Jahre haben die Italiener eine ganz eigene Kaffeekultur entwickelt. Es beginnt am morgen auf dem Weg zur Arbeit mit einem schnellen Cappuccino und geht ...</description>
+            <byline py:pytype="str">Kaffeegenuss: Dies ist ein Angebot von Philips Saeco. Für den Inhalt ist ausschließlich Philips Saeco verantwortlich.</byline>
+            <image align="left" title="Italien.jpg" base-id="http://xml.zeit.de/angebote/kaffeegenuss/bilder/Italien.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Kaffeegenuss</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Kaffeegenuss</title>
+  </teaser>
+</centerpage>

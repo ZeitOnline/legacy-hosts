@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<print-ressorts>
+  <!-- Das id-Attribut eines Knotens entspricht dem Printessortnamen der von K4 geliefert wird, der Inhalt des Knotens dem Titel in der Ressortnavi Ausgabenseite. -->
+  <!-- Anhand des Wertes der ID, wird die Ausgabenseite befuellt, indem im SOLR nach Artikeln gesucht wird, die diesen Wert als printressort hinterlegt haben.  -->
+  <ressort id="Politik">Politik</ressort>
+  <ressort id="Recht und Unrecht">Recht und Unrecht</ressort>
+  <ressort id="Dossier">Dossier</ressort>
+  <ressort id="Geschichte">Geschichte</ressort>
+  <ressort id="Fussball">Fußball</ressort>
+  <ressort id="Wirtschaft">Wirtschaft</ressort>
+  <ressort id="Wissen">Wissen</ressort>
+  <ressort id="Feuilleton">Feuilleton</ressort>
+  <ressort id="Glauben und Zweifeln">Glauben und Zweifeln</ressort>
+  <ressort id="Entdecken">Entdecken</ressort>
+  <ressort id="Chancen">Chancen</ressort>
+  <ressort id="KinderZEIT">ZEIT LEO</ressort>
+  <!-- ZEIT im Osten  ist kein Ressort -->
+  <ressort id="Hamburg">Hamburg</ressort>
+  <!-- ZEIT &#214;sterreich -->
+  <!-- Zeit Schweiz -->
+  <ressort id="Christ &amp; Welt">Christ &amp; Welt</ressort>
+  <ressort id="zeitmagazin">ZEITmagazin</ressort>
+  <!-- Archivausgaben haben keine einzelnen Printressorts -->
+  <ressort id="DIE ZEIT">DIE ZEIT</ressort>
+</print-ressorts>

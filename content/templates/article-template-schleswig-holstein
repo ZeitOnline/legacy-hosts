@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2009-11-27 16:01:06.453605+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-11-27T16:01:06.524736+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-11-24T12:00:58.176922+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2009-11-27T16:02:06.281532+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-11-27T16:00:56.856441+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schlereth</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">schleswig-holstein</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:bbaee097-bcc8-4bac-8755-fecc9afba709}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="blindblock" module="blindblock" cp:__name__="c16b974e-196f-4d5e-a72e-0d9e4c4077f6">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="53184c8c-9543-433f-9a5f-7e7eb2ae5fda">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/schleswig-holstein/Links/uebersicht" year="2009" issue="48" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/schleswig-holstein/index" date-last-modified="2009-11-24T12:05:03+00:00" date-first-released="2009-11-24T11:56:08.729252+00:00" date-last-published="2009-11-24T12:06:02.824041+00:00" last-semantic-change="2009-11-24T12:04:56.165264+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text py:pytype="str">Klicken Sie hier um zurück zur Übersichtsseite zu gelangen.</text>
+            <description py:pytype="str">Klicken Sie hier um zurück zur Übersichtsseite zu gelangen.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="c99862e9-6135-46a9-9c36-0bc40f246700">
+          <block href="http://xml.zeit.de/angebote/schleswig-holstein/sylt" year="2009" publication-date="" expires="" date-last-modified="2009-11-25T11:09:33+00:00" date-first-released="2009-11-23T15:08:48.282056+00:00" date-last-published="2009-11-25T11:10:32.834005+00:00" last-semantic-change="2009-11-25T11:09:24.319433+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">meer.insel* auf Sylt</title>
+            <text py:pytype="str">Sylt ist mehr als eine Insel. Raue Brandung an der Westseite, stilles Wattenmeer im Osten. Eine aufregende und zugleich unaufgeregte Mischung</text>
+            <description py:pytype="str">Sylt ist mehr als eine Insel. Raue Brandung an der Westseite, stilles Wattenmeer im Osten. Eine aufregende und zugleich unaufgeregte Mischung</description>
+            <byline py:pytype="str">Schleswig-Holstein: Für den Inhalt ist ausschließlich die Tourismus-Agentur Schleswig-Holstein GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/schleswig-holstein/bilder/teasersylt/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© TASH/J. König</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="fce05e54-cedc-4f2a-bac3-2d307c30fc0c">
+          <block href="http://xml.zeit.de/angebote/schleswig-holstein/husum" year="2009" publication-date="" expires="" date-last-modified="2009-11-27T15:59:28+00:00" date-first-released="2009-11-23T14:53:24.452604+00:00" date-last-published="2009-11-27T16:00:28.447990+00:00" last-semantic-change="2009-11-27T15:59:19.941504+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">meer.entspannung* in St. Peter-Ording &amp; meer.klang* in Husum</title>
+            <text py:pytype="str">Das Heilbad St. Peter-Ording mit seinem zwölf Kilometer langen Strand hat
+nicht nur für Familien viel zu bieten - Kunstgenießer
+schätzen die Nordseestadt Husum</text>
+            <description py:pytype="str">Das Heilbad St. Peter-Ording mit seinem zwölf Kilometer langen Strand hat
+nicht nur für Familien viel zu bieten - Kunstgenießer
+schätzen die Nordseestadt Husum</description>
+            <byline py:pytype="str">Schleswig-Holstein: Für den Inhalt ist ausschließlich die Tourismus-Agentur Schleswig-Holstein GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/schleswig-holstein/bilder/teaserneu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© TASH</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="73b6cfce-37cc-471b-96fe-7043f1d21f7e">
+          <block href="http://xml.zeit.de/angebote/schleswig-holstein/helgoland" year="2009" publication-date="" expires="" date-last-modified="2009-11-27T12:39:02+00:00" date-first-released="2009-11-23T14:53:41.712077+00:00" date-last-published="2009-11-27T12:40:02.158316+00:00" last-semantic-change="2009-11-27T12:38:52.033206+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">meer.sinne* auf Helgoland</title>
+            <text py:pytype="str">Helgoland – Deutschlands einzige Hochseeinsel – ist der Inbegriff für gesundes
+Meeresklima und Entspannung.</text>
+            <description py:pytype="str">Helgoland – Deutschlands einzige Hochseeinsel – ist der Inbegriff für gesundes
+Meeresklima und Entspannung.</description>
+            <byline py:pytype="str">Schleswig-Holstein: Für den Inhalt ist ausschließlich die Tourismus-Agentur Schleswig-Holstein GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/schleswig-holstein/bilder/helgoland/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© TASH</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="09ef04ee-d248-4067-980e-03012bed1c96">
+          <block href="http://xml.zeit.de/angebote/schleswig-holstein/schlei" year="2009" publication-date="" expires="" date-last-modified="2009-11-25T11:11:00+00:00" date-first-released="2009-11-23T14:51:01.804142+00:00" date-last-published="2009-11-25T11:12:00.072291+00:00" last-semantic-change="2009-11-25T11:10:52.630733+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">meer.genuss* an der Schlei und in Glücksburg</title>
+            <text py:pytype="str">Kulinarische Sterne funkeln in Schleswig-Holstein traditionell über der Insel Sylt und an
+der Lübecker Bucht. Aber auch im Nordosten kommen Feinschmecker auf ihre Kosten.</text>
+            <description py:pytype="str">Kulinarische Sterne funkeln in Schleswig-Holstein traditionell über der Insel Sylt und an
+der Lübecker Bucht. Aber auch im Nordosten kommen Feinschmecker auf ihre Kosten.</description>
+            <byline py:pytype="str">Schleswig-Holstein: Für den Inhalt ist ausschließlich die Tourismus-Agentur Schleswig-Holstein GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/schleswig-holstein/bilder/schleiteaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Ostseefjord Schlei GmbH/Henrik Matzen</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="ac00afff-fc57-4af7-a4d9-03f85145e60a">
+          <block href="http://xml.zeit.de/angebote/schleswig-holstein/luebeckerbucht" year="2009" publication-date="" expires="" date-last-modified="2009-11-27T12:48:50+00:00" date-first-released="2009-11-23T14:51:24.625160+00:00" date-last-published="2009-11-27T12:49:50.752808+00:00" last-semantic-change="2009-11-27T12:48:28.451036+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">meer.shopping*, meer.tradition* &amp; meer.kunst* in der Lübecker Bucht</title>
+            <text py:pytype="str">Sterneköche, Sternehotels, Sternemarinas, Golfplätze, Boutiquen, kilometerlange
+Sandstrände - das erwartet Sie an der Lübecker Bucht. </text>
+            <description py:pytype="str">Sterneköche, Sternehotels, Sternemarinas, Golfplätze, Boutiquen, kilometerlange
+Sandstrände - das erwartet Sie an der Lübecker Bucht. </description>
+            <byline py:pytype="str">Schleswig-Holstein: Für den Inhalt ist ausschließlich die Tourismus-Agentur Schleswig-Holstein GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/schleswig-holstein/bilder/museum/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Die Lübecker Museen</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="8ae1c1e0-d41d-4cf2-b558-198e6bc7fa9b">
+          <block href="http://xml.zeit.de/angebote/schleswig-holstein/lauenburg" year="2009" publication-date="" expires="" date-last-modified="2009-11-27T12:55:39+00:00" date-first-released="2009-11-23T14:51:39.879925+00:00" date-last-published="2009-11-27T12:56:39.604946+00:00" last-semantic-change="2009-11-27T12:55:27.411762+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">meer.radfahren* im Herzogtum Lauenburg</title>
+            <text py:pytype="str">Dem „weißen Gold“ verdankten Lübeck und Lüneburg Macht und Reichtum: Im
+Mittelalter transportierten Händler das wertvolle Salz zwischen beiden Hansestädten.
+</text>
+            <description py:pytype="str">Dem „weißen Gold“ verdankten Lübeck und Lüneburg Macht und Reichtum: Im
+Mittelalter transportierten Händler das wertvolle Salz zwischen beiden Hansestädten.
+</description>
+            <byline py:pytype="str">Schleswig-Holstein: Für den Inhalt ist ausschließlich die Tourismus-Agentur Schleswig-Holstein GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/schleswig-holstein/bilder/lauenburg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© HLMS/Jürgen Klemme</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Schleswig Holstein</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Schleswig Holstein</title>
+  </teaser>
+</centerpage>

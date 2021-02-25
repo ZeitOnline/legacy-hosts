@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-11-24T17:09:39.779888+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-11-24T17:07:10.748407+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-11-24T17:10:39.550261+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-11-24T17:09:30.517194+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lfischer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">joop</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f0518f04-73d2-4103-aaab-ba489f252d11}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="544d8ca8-e1fb-432c-b43c-f7bd209ee4a0"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="a1512797-6f3e-4a1d-bca7-9fb439f80601">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/joop/zurueck" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/joop/index" date-last-modified="2011-11-24T17:08:29+00:00" date-first-released="2011-11-24T17:09:29.309766+00:00" date-last-published="2011-11-24T17:09:29.309766+00:00" last-semantic-change="2011-11-24T17:08:19.097849+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="c54dc5cb-4bb1-4498-88f1-ca16621d54d5">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/joop/link_zu_joop" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.joop.com/">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu JOOP</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/joop/bilder/joop-logo-368x110" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="37ab9927-1af0-43b4-bb88-09262144a93d">
+          <block href="http://xml.zeit.de/angebote/joop/artikel_1" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-11-24T15:47:46+00:00" date-first-released="2011-11-24T14:36:44.106923+00:00" date-last-published="2011-11-24T15:48:46.450522+00:00" last-semantic-change="2011-11-24T15:46:42.707291+00:00">
+            <supertitle py:pytype="str">JOOP! VOM DEUTSCHEN KULTLABEL ZUR INTERNATIONALEN LIFESTYLEBRAND</supertitle>
+            <title py:pytype="str">JOOP! Die Story</title>
+            <text py:pytype="str">JOOP! hat sich im Lauf seiner Geschichte vom gefeierten deutschen Kultlabel mit zu einem der wichtigsten, internationalen Fashion- und Lifestylebrands entwickelt. </text>
+            <description py:pytype="str">JOOP! hat sich im Lauf seiner Geschichte vom gefeierten deutschen Kultlabel mit zu einem der wichtigsten, internationalen Fashion- und Lifestylebrands entwickelt. </description>
+            <byline py:pytype="str">JOOP!: Dies ist ein Angebot der Strellson AG. Für den Inhalt ist ausschließlich die Strellson AG verantwortlich.</byline>
+            <image align="left" title="teaser1" base-id="http://xml.zeit.de/angebote/joop/bilder/teaser1/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="0df64f99-56fc-4701-9d1c-866d5ee8171a">
+          <block href="http://xml.zeit.de/angebote/joop/artikel_2" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-11-24T16:19:32+00:00" date-first-released="2011-11-24T16:18:31.855157+00:00" date-last-published="2011-11-24T16:20:31.740862+00:00" last-semantic-change="2011-11-24T16:18:52.400445+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">JOOP! Kampagne Autumn/Winter 2011</title>
+            <text py:pytype="str">Die internationalen Topmodels Toni Garrn und James Penfold sind die neuen Kampagnenstars.</text>
+            <description py:pytype="str">Die internationalen Topmodels Toni Garrn und James Penfold sind die neuen Kampagnenstars.</description>
+            <byline py:pytype="str">JOOP!: Dies ist ein Angebot der Strellson AG. Für den Inhalt ist ausschließlich die Strellson AG verantwortlich.</byline>
+            <image align="left" title="teaser2" base-id="http://xml.zeit.de/angebote/joop/bilder/teaser2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="aa713ab4-23a8-486f-8782-b08d2a7d7f64">
+          <block href="http://xml.zeit.de/angebote/joop/artikel_3" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-11-24T16:30:33+00:00" date-first-released="2011-11-24T16:31:32.518324+00:00" date-last-published="2011-11-24T16:31:32.518324+00:00" last-semantic-change="2011-11-24T16:30:16.935336+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">JOOP! Kollektion Autumn/Winter 2011</title>
+            <text py:pytype="str">JOOP! Mode strahlt. Sie ist lebendig und reich an kräftigen Farben.</text>
+            <description py:pytype="str">JOOP! Mode strahlt. Sie ist lebendig und reich an kräftigen Farben.</description>
+            <byline py:pytype="str">JOOP!: Dies ist ein Angebot der Strellson AG. Für den Inhalt ist ausschließlich die Strellson AG verantwortlich.</byline>
+            <image align="left" title="teaser4" base-id="http://xml.zeit.de/angebote/joop/bilder/teaser4/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="a8e481f6-f3ea-4255-aff9-89ab3c5797ec">
+          <block href="http://xml.zeit.de/angebote/joop/artikel_4" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-11-24T15:36:18+00:00" date-first-released="2011-11-24T15:37:18.296415+00:00" date-last-published="2011-11-24T15:37:18.296415+00:00" last-semantic-change="2011-11-24T15:36:05.326865+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">JOOP! Collection</title>
+            <text py:pytype="str">Die Kollektion greift markante Elemente der 70's auf und übersetzt sie für die JOOP! Frau in einen urbanen, sehr modernen Style.</text>
+            <description py:pytype="str">Die Kollektion greift markante Elemente der 70's auf und übersetzt sie für die JOOP! Frau in einen urbanen, sehr modernen Style.</description>
+            <byline py:pytype="str">JOOP!: Dies ist ein Angebot der Strellson AG. Für den Inhalt ist ausschließlich die Strellson AG verantwortlich.</byline>
+            <image align="left" title="teaser6" base-id="http://xml.zeit.de/angebote/joop/bilder/teaser6/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="7e465ba2-7782-446c-85f6-a5b796bb631e">
+          <block href="http://xml.zeit.de/angebote/joop/artikel_5" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-11-24T15:29:37+00:00" date-first-released="2011-11-24T15:30:37.573258+00:00" date-last-published="2011-11-24T15:30:37.573258+00:00" last-semantic-change="2011-11-24T15:29:24.301824+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">JOOP! Casual</title>
+            <text py:pytype="str">Die Kernaussage der Styles ist lässig, urban, körperbetont, chic und selbstverständlich.</text>
+            <description py:pytype="str">Die Kernaussage der Styles ist lässig, urban, körperbetont, chic und selbstverständlich.</description>
+            <byline py:pytype="str">JOOP!: Dies ist ein Angebot der Strellson AG. Für den Inhalt ist ausschließlich die Strellson AG verantwortlich.</byline>
+            <image align="left" title="teaser8" base-id="http://xml.zeit.de/angebote/joop/bilder/teaser8/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Joop</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Joop</title>
+  </teaser>
+</centerpage>

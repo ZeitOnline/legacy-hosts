@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-03-05T16:15:14.389801+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-01-21T15:07:35.308757+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-03-05T16:16:14.261571+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-03-05T16:15:05.117449+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">bildungsideen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:8722a55d-aa50-4999-abb9-09667bfc712a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-cacca6ec-ae1a-455c-b4c5-c78b2570164d">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-be98d428-265a-4013-a9f8-0132a2dc56f7">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/bildungsideen/zur_uebersicht" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/bildungsideen" ns0:target="_blank" date-last-modified="2013-01-21T15:14:03+00:00" date-first-released="2013-01-21T15:15:02.726742+00:00" date-last-published="2013-01-21T15:15:02.726742+00:00" last-semantic-change="2013-01-21T15:13:50.964304+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Bildungsideen: ist ein Angebot der Land der Ideen Management GmbH. Für den Inhalt ist die Land der Ideen Management GmbH verantwortlich.</byline>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-ec756019-1b4a-4552-a6f1-0c0b2415dbfc" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/bildungsideen/link_landderideen" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.bildungsideen.de/" ns0:target="_blank" date-last-modified="2013-01-22T16:15:34+00:00" date-first-released="2013-01-21T14:59:02.093823+00:00" date-last-published="2013-01-22T16:16:33.975492+00:00" last-semantic-change="2013-01-22T16:15:20.203909+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu "Land der Ideen"</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/bildungsideen/logo_bildungsideen/logo_bildungsideen-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-bf6efd14-4496-4f7e-ba47-15bea1687c3e">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="http://www.youtube-nocookie.com/v/25cfQaCPgDM?version=3&amp;hl=de_DE"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="http://www.youtube-nocookie.com/v/25cfQaCPgDM?version=3&amp;hl=de_DE" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline py:pytype="str">Bildungsideen: ist ein Angebot der Land der Ideen Management GmbH, die für diesen Inhalt verantwortlich ist.</byline>
+    <title>Artikel Rahmen Bildungsideen</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Bildungsideen</title>
+  </teaser>
+</centerpage>

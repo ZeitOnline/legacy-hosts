@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-10-10T08:04:30.279702+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-05-19T12:00:13.191322+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-10-10T08:05:30.042376+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-10-10T08:04:18.524332+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lfischer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">unsere-autos</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:23e45cca-0d50-4f3a-bb61-f731d52b3fb8}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="" cp:__name__="2e69f608-07b9-4584-9cf8-a555a467b499"/>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="cd7a81c0-43fa-43d0-b133-f6f40c2d11ef">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/unsere-autos/startseite" year="2011" issue="27" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/unsere-autos/index" date-last-modified="2011-08-15T08:13:06+00:00" date-first-released="2011-07-07T13:18:12.938829+00:00" date-last-published="2011-07-07T13:18:12.938829+00:00" last-semantic-change="2011-08-15T08:12:51.661203+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Weitere spannende Innovationen finden Sie hier</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="7ef20db8-e2cd-4280-8b3a-bb63ec19511c">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/unsere-autos/link_zu_unsere_autos" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;242777874;38866053;a?http://www.unsere-autos.de/" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zur Initiative "Unsere Autos"</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/unsere-autos/thema-1/vda_link/vda_link-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="39c0da06-4f19-4bd4-b72d-e7111688250f" title="Weitere Themen auf www.unsere-autos.de">
+          <raw>
+            <ul>
+              <li>
+                <a href="http://ad.doubleclick.net/clk;242778056;38866053;t?http://www.unsere-autos.de/unsere-forschung/elektromobilitaet/">Die Vision vom sauberen Fahren
+</a>
+              </li>
+              <li>
+                <a href="http://ad.doubleclick.net/clk;242778082;38866053;s?http://www.elektromobilitaet-vda.de/">Elektromobilität</a>
+              </li>
+            </ul>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="5625e871-b1c6-41e1-adea-d359466c5d34">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/unsere-autos/link_newsletter" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;242778098;38866053;z?http://www.unsere-autos.de/service/newsletter-1/" ns0:target="_blank" date-last-modified="2011-06-21T14:46:11+00:00" date-first-released="2011-05-19T10:05:38.132584+00:00" date-last-published="2011-06-21T14:47:11.203665+00:00" last-semantic-change="2011-06-21T14:45:52.408936+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Newsletter-Anmeldung</title>
+            <text py:pytype="str">Gerne unterrichtet Sie der VDA zu gegebener Zeit über Neuigkeiten und Aktionen der Initiative Unsere Autos. </text>
+            <description py:pytype="str">Gerne unterrichtet Sie der VDA zu gegebener Zeit über Neuigkeiten und Aktionen der Initiative Unsere Autos. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.unsere-autos.de/service/newsletter-1/" title="newsletter" base-id="http://xml.zeit.de/angebote/unsere-autos/newsletter/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="de06a7a2-f0d1-410f-b824-5b4fc56c7d5d">
+          <block href="http://xml.zeit.de/angebote/unsere-autos/thema-17/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-10-04T08:36:19+00:00" date-first-released="2011-09-30T12:34:07.871936+00:00" date-last-published="2011-10-04T08:37:19.431705+00:00" last-semantic-change="2011-10-04T08:36:09.822086+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">KW 40: Komm in die Gänge</title>
+            <text py:pytype="str">Der Getriebehersteller ZF aus Friedrichshafen am Bodensee stellte auf der IAA das erste Neun-Gang-Automatikgetriebe der Welt vor. Das reduziert bei der Fahrt die ...</text>
+            <description py:pytype="str">Der Getriebehersteller ZF aus Friedrichshafen am Bodensee stellte auf der IAA das erste Neun-Gang-Automatikgetriebe der Welt vor. Das reduziert bei der Fahrt die ...</description>
+            <byline py:pytype="str">Innovation der Woche: ist ein Angebot der Initiative Unsere Autos. Für den Inhalt ist der Verband der Automobilindustrie (VDA) verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/unsere-autos/thema-17/zf_9ganggetriebe1/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="fab1b724-fa74-4c3b-a2ce-7a9b1a45858f">
+          <block href="http://xml.zeit.de/angebote/unsere-autos/thema-16/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-23T14:08:28+00:00" date-first-released="2011-09-23T11:57:26.821821+00:00" date-last-published="2011-09-23T14:09:28.127034+00:00" last-semantic-change="2011-09-23T14:08:17.541328+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">KW 39: Star Wars für die Straße</title>
+            <text py:pytype="str">BMW-Scheinwerfer der Zukunft strahlen mit Laserlicht, das ist kein Science Fiction mehr. Laser-Scheinwerfer sind heller, sparsamer und geben den Automobil-Designern ...</text>
+            <description py:pytype="str">BMW-Scheinwerfer der Zukunft strahlen mit Laserlicht, das ist kein Science Fiction mehr. Laser-Scheinwerfer sind heller, sparsamer und geben den Automobil-Designern ...</description>
+            <byline py:pytype="str">Innovation der Woche: ist ein Angebot der Initiative Unsere Autos. Für den Inhalt ist der Verband der Automobilindustrie (VDA) verantwortlich.</byline>
+            <image align="left" title="P90081743.jpg" base-id="http://xml.zeit.de/angebote/unsere-autos/thema-16/P90081743.jpg/" type="jpg" publication-date="" expires="">
+              <bu>Quelle: BMW</bu>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/unsere-autos/thema-15/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-20T09:57:17+00:00" date-first-released="2011-09-19T14:15:22.110226+00:00" date-last-published="2011-09-20T09:58:17.698677+00:00" last-semantic-change="2011-09-20T09:56:59.300359+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">KW 38: Sicher leuchten wie am Schnürchen</title>
+            <text py:pytype="str">Als erste Zwischenbilanz bei dem Weltpremieren auf der IAA steht fest: Spannend sind nicht nur die aktuell möglichen Leistungen der optimierten und alternativen Antriebe.</text>
+            <description py:pytype="str">Als erste Zwischenbilanz bei dem Weltpremieren auf der IAA steht fest: Spannend sind nicht nur die aktuell möglichen Leistungen der optimierten und alternativen Antriebe.</description>
+            <byline py:pytype="str">Innovation der Woche: ist ein Angebot der Initiative Unsere Autos. Für den Inhalt ist der Verband der Automobilindustrie (VDA) verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/unsere-autos/thema-15/audi_dynamic_light3/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="1085868e-47c7-41ea-8a23-7148cd96f729">
+          <block href="http://xml.zeit.de/angebote/unsere-autos/thema-14/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-20T09:57:41+00:00" date-first-released="2011-09-09T08:10:09.754475+00:00" date-last-published="2011-09-20T09:58:40.868011+00:00" last-semantic-change="2011-09-20T09:57:20.119850+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">KW 37: Vier auf einen Streich</title>
+            <text py:pytype="str">Fahrräder mit auf die automobile Spritztour zu nehmen, kann eine umständliche und spritfressende Entscheidung werden, je nachdem, wie man die Räder am Auto arretiert ...</text>
+            <description py:pytype="str">Fahrräder mit auf die automobile Spritztour zu nehmen, kann eine umständliche und spritfressende Entscheidung werden, je nachdem, wie man die Räder am Auto arretiert ...</description>
+            <byline py:pytype="str">Innovation der Woche: ist ein Angebot der Initiative Unsere Autos. Für den Inhalt ist der Verband der Automobilindustrie (VDA) verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/unsere-autos/thema-14/opel_flexfix_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/unsere-autos/thema-13/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-12T08:03:48+00:00" date-first-released="2011-09-02T07:52:46.067259+00:00" date-last-published="2011-09-12T08:04:48.348824+00:00" last-semantic-change="2011-09-12T08:03:39.690286+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">KW 36: Wolkige Aussichten</title>
+            <text py:pytype="str">Das brandneue Konzeptcar Evos von Ford sorgt auf den ersten Blick durch ungewöhnliches Design für Aufsehen. Auf den zweiten Blick offenbart es, wie die Zukunft des ...</text>
+            <description py:pytype="str">Das brandneue Konzeptcar Evos von Ford sorgt auf den ersten Blick durch ungewöhnliches Design für Aufsehen. Auf den zweiten Blick offenbart es, wie die Zukunft des ...</description>
+            <byline py:pytype="str">Innovation der Woche: ist ein Angebot der Initiative Unsere Autos. Für den Inhalt ist der Verband der Automobilindustrie (VDA) verantwortlich.</byline>
+            <image align="left" title="ford-evos-concept-technology3.jpg" base-id="http://xml.zeit.de/angebote/unsere-autos/thema-13/ford-evos-concept-technology3.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="2d066d12-9eaf-407b-9603-1ecfccfbd7cd">
+          <block href="http://xml.zeit.de/angebote/unsere-autos/thema-12/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-29T07:03:49+00:00" date-first-released="2011-08-25T09:24:10.737274+00:00" date-last-published="2011-08-29T07:04:49.016785+00:00" last-semantic-change="2011-08-29T07:03:36.984263+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">KW 35: Hart am Wind mit kesser Lippe</title>
+            <text py:pytype="str">Möglichst windschnittig sollte ein Auto sein, dann ist es aerodynamisch. Das sieht nicht nur attraktiv aus, das fährt sich gut und spart auch noch Kraftstoff, denn ...</text>
+            <description py:pytype="str">Möglichst windschnittig sollte ein Auto sein, dann ist es aerodynamisch. Das sieht nicht nur attraktiv aus, das fährt sich gut und spart auch noch Kraftstoff, denn ...</description>
+            <byline py:pytype="str">Innovation der Woche: ist ein Angebot der Initiative Unsere Autos. Für den Inhalt ist der Verband der Automobilindustrie (VDA) verantwortlich.</byline>
+            <image alt="Quelle: Mercedes-Benz" align="left" title="11C688_05.jpg" base-id="http://xml.zeit.de/angebote/unsere-autos/thema-12/11C688_05.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/unsere-autos/thema-11/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-22T12:29:49+00:00" date-first-released="2011-08-19T08:34:21.604127+00:00" date-last-published="2011-08-22T12:30:49.003175+00:00" last-semantic-change="2011-08-22T12:29:38.585336+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">KW 34: Der Trick mit dem Kick </title>
+            <text py:pytype="str">Menschen, die mit vollen Händen hinter ihrem Auto einen kurzen Stepptanz zeigen, sind nicht etwa verrückt. Ganz im Gegenteil. Sie nutzen eine clevere Komfortfunktion, ...</text>
+            <description py:pytype="str">Menschen, die mit vollen Händen hinter ihrem Auto einen kurzen Stepptanz zeigen, sind nicht etwa verrückt. Ganz im Gegenteil. Sie nutzen eine clevere Komfortfunktion, ...</description>
+            <byline py:pytype="str">Innovation der Woche: ist ein Angebot der Initiative Unsere Autos. Für den Inhalt ist der Verband der Automobilindustrie (VDA) verantwortlich.</byline>
+            <image align="left" title="VW_Easy_Open_9" base-id="http://xml.zeit.de/angebote/unsere-autos/thema-11/bilder/VW_Easy_Open_9/" type="jpg" publication-date="" expires="">
+              <bu>Quelle: VW</bu>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="1108c410-a348-4cb2-a668-31d220c29ead">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/unsere-autos/startseite" year="2011" issue="27" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/unsere-autos/index" date-last-modified="2011-08-15T08:13:06+00:00" date-first-released="2011-07-07T13:18:12.938829+00:00" date-last-published="2011-07-07T13:18:12.938829+00:00" last-semantic-change="2011-08-15T08:12:51.661203+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Weitere spannende Innovationen finden Sie hier</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="743e93ca-eb8c-453a-ab23-708d4714da58" title="Lesen Sie mehr zum Thema auf ZEIT ONLINE">
+          <block href="http://xml.zeit.de/auto/2011-05/elektroauto-foerderung-mobilitaet" year="2011" issue="20" ressort="Auto" publication-date="" expires="" date-last-modified="2011-05-18T10:26:41+00:00" date-first-released="2011-05-18T10:22:26.314043+00:00" date-last-published="2011-05-18T10:27:40.451470+00:00" last-semantic-change="2011-05-18T09:54:00.297790+00:00">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">Ein Masterplan fürs Elektroauto</title>
+            <text py:pytype="str">Die Regierung hat ein Förderpaket für E-Autos verabschiedet: Es sieht eine Forschungsoffensive und Steuervorteile vor. Eine Kaufprämie wird es jedoch nicht geben.</text>
+            <description py:pytype="str">Die Regierung hat ein Förderpaket für E-Autos verabschiedet: Es sieht eine Forschungsoffensive und Steuervorteile vor. Eine Kaufprämie wird es jedoch nicht geben.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Elektroautos" base-id="http://xml.zeit.de/auto/2011-05/elektroautos/" type="jpg" publication-date="" expires="2011-08-18T09:09:04+00:00">
+              <bu>BMW und Vattenfall haben in Berlin einen Praxistest mit 70 E-Autos gestartet.</bu>
+              <copyright py:pytype="str">© Tobias Kleinschmidt/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2011-04/bosch-daimler-zulieferer" year="2011" issue="15" ressort="Auto" publication-date="" expires="" date-last-modified="2011-04-12T15:22:29+00:00" date-first-released="2011-04-12T15:23:00.188917+00:00" date-last-published="2011-04-12T15:23:28.867275+00:00" last-semantic-change="2011-04-12T14:22:50.385625+00:00">
+            <supertitle py:pytype="str">Automobilbau</supertitle>
+            <title py:pytype="str">Autozulieferer dringen ins Herzstück vor</title>
+            <text py:pytype="str">Daimler will zusammen mit dem Zulieferer Bosch Elektromotoren bauen. Ökonomisch ist der Schritt sinnvoll. Langfristig könnten die Autobauer aber Probleme bekommen.</text>
+            <description py:pytype="str">Daimler will zusammen mit dem Zulieferer Bosch Elektromotoren bauen. Ökonomisch ist der Schritt sinnvoll. Langfristig könnten die Autobauer aber Probleme bekommen.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der Smart von Daimler als Elektrofahrzeug" align="left" title="Smart Elektroauto" base-id="http://xml.zeit.de/auto/2011-04/smart-elektroantrieb/" type="jpg" publication-date="" expires="">
+              <bu>Der Smart von Daimler als Elektrofahrzeug</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2011-06/autoherstellung-wiederverwertung-recycling" year="2011" issue="25" ressort="Auto" publication-date="" expires="" date-last-modified="2011-06-27T08:44:19+00:00" date-first-released="2011-06-27T08:45:19.496721+00:00" date-last-published="2011-06-27T08:45:19.496721+00:00" last-semantic-change="2011-06-27T08:43:09.962950+00:00">
+            <supertitle py:pytype="str">Auto-Schrott</supertitle>
+            <title py:pytype="str">Zurück in den Kreislauf</title>
+            <text py:pytype="str">Die EU schreibt den Autobauern eine Wiederverwertungsquote von 95 Prozent vor. Die Hersteller tüfteln nun, was sich selbst aus dem "letzten Schrott" noch machen lässt.</text>
+            <description py:pytype="str">Die EU schreibt den Autobauern eine Wiederverwertungsquote von 95 Prozent vor. Die Hersteller tüfteln nun, was sich selbst aus dem "letzten Schrott" noch machen lässt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Altauto wird mit einem Gabelstapler zur Presse gefahren." align="left" title="Auto Recycling" base-id="http://xml.zeit.de/auto/2011-06/auto-recycling/" type="jpg" publication-date="" expires="2011-09-24T12:45:44+00:00">
+              <bu>Ein Altauto wird mit einem Gabelstapler zur Presse gefahren.</bu>
+              <copyright py:pytype="str">© Peter Endig/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="1e665be7-b1d9-47b2-92a7-da8c4f4a43b1">
+          <block href="http://xml.zeit.de/auto/2011-02/elektroantrieb-allrad" year="2011" issue="8" ressort="Auto" publication-date="" expires="" date-last-modified="2011-02-19T09:33:55+00:00" date-first-released="2011-02-19T09:34:54.881489+00:00" date-last-published="2011-02-19T09:34:54.881489+00:00" last-semantic-change="2011-02-19T09:33:40.595655+00:00">
+            <supertitle py:pytype="str">Autotechnik</supertitle>
+            <title py:pytype="str">Mit Elektromotor zum Allrad-Auto</title>
+            <text py:pytype="str">Hat die Kardanwelle im Auto künftig ausgedient? Eine Reihe von Herstellern entwickelt für Serienfahrzeuge 4x4-Module teils mit Elektroantrieb. Von Stefan Grundhoff</text>
+            <description py:pytype="str">Hat die Kardanwelle im Auto künftig ausgedient? Eine Reihe von Herstellern entwickelt für Serienfahrzeuge 4x4-Module teils mit Elektroantrieb. Von Stefan Grundhoff</description>
+            <byline xsi:nil="true"/>
+            <image alt="Allrad-Hybridtechnik im Peugeot RCZ Hybrid4: Vorn wirkt ein Verbrennugsmotor (oben), an der Hinterachse (unten) ein Elektromotor" align="left" title="Peugeot RCZ Hybrid4" base-id="http://xml.zeit.de/auto/2011-02/peugeot-crz-hybrid/" type="jpg" publication-date="" expires="">
+              <bu>Allrad-Hybridtechnik im Peugeot RCZ Hybrid4: Vorn wirkt ein Verbrennugsmotor (oben), an der Hinterachse (unten) ein Elektromotor</bu>
+              <copyright py:pytype="str">© press-inform/Hersteller</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="57166819-af48-4b99-b20a-5af3c6d45997">
+          <block href="http://xml.zeit.de/auto/2011-07/karosserie-biokunststoffe-nachwachsend" year="2011" issue="29" ressort="Auto" publication-date="" expires="" date-last-modified="2011-07-19T08:15:23+00:00" date-first-released="2011-07-19T08:16:22.812243+00:00" date-last-published="2011-07-19T08:16:22.812243+00:00" last-semantic-change="2011-07-19T08:14:48.896665+00:00">
+            <supertitle py:pytype="str">Nachhaltigkeit</supertitle>
+            <title py:pytype="str">Die Kartoffel-Flachs-Karosse</title>
+            <text py:pytype="str">Werkstoffe auf Pflanzenbasis werden in der Industrie schon genutzt, begrenzt auch im Innenraum von Autos. Forscher entwickeln nun biobasiert sogar große Karosserieteile.</text>
+            <description py:pytype="str">Werkstoffe auf Pflanzenbasis werden in der Industrie schon genutzt, begrenzt auch im Innenraum von Autos. Forscher entwickeln nun biobasiert sogar große Karosserieteile.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die Bauteile dieses Scirocco-Rennwagens sollen sukzessive durch Komponenten aus biobasierten Verbundstoffen ersetzt werden." align="left" title="Scirocco aus Biomaterialien" base-id="http://xml.zeit.de/auto/2011-07/scirocco-biomaterialien/" type="jpg" publication-date="" expires="">
+              <bu>Die Bauteile dieses Scirocco-Rennwagens sollen sukzessive durch Komponenten aus biobasierten Verbundstoffen ersetzt werden.</bu>
+              <copyright py:pytype="str">© press-inform</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Unsere Autos</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Unsere Autos</title>
+  </teaser>
+</centerpage>

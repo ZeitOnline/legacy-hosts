@@ -1,0 +1,96 @@
+{
+  "gallery": {
+    "name": "gallery",
+    "time": 1000,
+    "interval": 1,
+    "pagetypes": ["gallery"],
+    "slug": "/"
+  },
+  "zmo-gallery": {
+    "name": "zmo-gallery",
+    "time": 1000,
+    "interval": 1,
+    "pagetypes": ["gallery"],
+    "slug": "/zeit-magazin"
+  },
+  "trump": {
+    "name": "trump",
+    "time": 1000,
+    "interval": 3,
+    "pagetypes": ["article"],
+    "slug": "/",
+    "origin": ["http://www.zeit.de", "http://friedbert-preview.zeit.de", "http://interactive.zeit.de"]
+  },
+  "em-2016": {
+    "name": "em-2016",
+    "time": 1000,
+    "interval": 3,
+    "pagetypes": ["article", "gallery", "video"],
+    "slug": "/",
+    "origin": ["http://www.zeit.de", "http://friedbert-preview.zeit.de", "http://interactive.zeit.de"]
+  },
+  "brexit": {
+    "name": "brexit",
+    "time": 1000,
+    "interval": 1,
+    "pagetypes": ["article", "gallery", "video"],
+    "slug": "/",
+    "origin": ["http://www.zeit.de", "http://friedbert-preview.zeit.de", "http://interactive.zeit.de"]
+  },
+  "angst": {
+    "name": "angst",
+    "time": 1000,
+    "interval": 3,
+    "pagetypes": ["article", "gallery", "video"],
+    "slug": "/",
+    "origin": ["http://www.zeit.de", "http://friedbert-preview.zeit.de", "http://interactive.zeit.de"]
+  },
+  "cards": {
+    "name": "cards",
+    "time": 1000,
+    "interval": 3,
+    "pagetypes": ["article"],
+    "slug": "/",
+    "origin": ["http://www.zeit.de", "http://friedbert-preview.zeit.de", "http://interactive.zeit.de"]
+  },
+  "quiz": {
+    "name": "quiz",
+    "time": 1000,
+    "interval": 2,
+    "pagetypes": ["article", "gallery", "video"],
+    "slug": "/",
+    "origin": ["http://quiz.zeit.de", "http://quiz.devel.zeit.de", "http://quiz.staging.zeit.de"]
+  },
+  "zeit-sudoku": {
+    "name": "zeit-sudoku",
+    "time": 1000,
+    "interval": 5,
+    "pagetypes": ["centerpage", "article", "gallery", "video"],
+    "slug": "/",
+    "origin": ["http://sudoku.zeit.de"]
+  },
+  "zeit-schach": {
+    "name": "zeit-schach",
+    "time": 1000,
+    "interval": 5,
+    "pagetypes": ["centerpage", "article", "gallery", "video"],
+    "slug": "/",
+    "origin": ["http://schach.zeit.de"]
+  },
+  "schach-iframe": {
+    "name": "schach-iframe",
+    "time": 1000,
+    "interval": 3,
+    "pagetypes": ["centerpage", "article", "gallery", "video"],
+    "slug": "/",
+    "origin": ["https://schach.zeit.de"]
+  },
+  "test": {
+    "name": "test",
+    "time": 0,
+    "interval": 4,
+    "pagetypes": ["article"],
+    "slug": "/zeit-online/article/fischer",
+    "origin": ["http://localhost:9090", "http://localhost:9999"]
+  }
+}

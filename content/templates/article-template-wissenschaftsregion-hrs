@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-10-07T16:25:43.543508+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-10-07T16:07:08.173737+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-10-07T16:26:48.485091+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-10-07T16:23:29.992193+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-10-07T16:25:42.373599+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">wissenschaftsregion-hrs</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:9a71777e-8cb1-4343-81a2-a57db37c43f5}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-f9fcb317-cb50-4348-8938-52c3c6d166aa">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-ecfb516c-5cb1-474d-ab60-2b4dce22d896">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/wissenschaftsregion-hrs/link_startseite" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/wissenschaftsregion-hrs/index" ns0:target="_blank" date-last-modified="2013-10-07T16:25:27+00:00" date-first-released="2013-10-07T16:26:27.113091+00:00" date-last-published="2013-10-07T16:26:27.113091+00:00" last-semantic-change="2013-10-07T16:25:17.529922+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-ece2ac8f-fb3f-4cef-9fd8-8a61887d05ce">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-hrs/ideen-und-impulse" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-10-07T13:39:04+00:00" date-first-released="2013-10-07T13:40:03.755403+00:00" date-last-published="2013-10-07T13:40:03.755403+00:00" last-semantic-change="2013-10-07T13:15:16.942572+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Ideen und Impulse über Grenzen hinaus</title>
+            <text py:pytype="str">Saarland, Lothringen, Luxemburg, Wallonien und Rheinland-Pfalz – in kaum einer Großregion Europas wird derzeit so intensiv kooperiert und geforscht. </text>
+            <description py:pytype="str">Saarland, Lothringen, Luxemburg, Wallonien und Rheinland-Pfalz – in kaum einer Großregion Europas wird derzeit so intensiv kooperiert und geforscht. </description>
+            <byline py:pytype="str">Wie wird geforscht in Rheinland-Pfalz, Saarland &amp; Hessen?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-hrs/aufmacher_wwgi_hrs_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-7fe15d32-dd29-45ba-ba95-8101f9599dfb">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-hrs/faecher" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-10-07T13:53:22+00:00" date-first-released="2013-10-07T13:54:22.019032+00:00" date-last-published="2013-10-07T13:54:22.019032+00:00" last-semantic-change="2013-10-07T13:43:58.899695+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Aus zwei Fächern mach eins</title>
+            <text py:pytype="str">Auch im Südwesten des Landes entwickeln Hochschulen immer neue Studiendisziplinen: Aus zweien wird da ein Fach, Absolventen qualifizieren sich oft zu mehreren Berufen.  </text>
+            <description py:pytype="str">Auch im Südwesten des Landes entwickeln Hochschulen immer neue Studiendisziplinen: Aus zweien wird da ein Fach, Absolventen qualifizieren sich oft zu mehreren Berufen.  </description>
+            <byline py:pytype="str"> Wie wird geforscht in Rheinland-Pfalz, Saarland &amp; Hessen?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-hrs/wwgi_hrs_flieger_neu/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Weg nach oben: Piloten müssen auch gute Manager sein, um den Anforderungen in der heutigen Luftfahrtbranche gerecht zu werden. Duale Studiengänge vermitteln ihnen auch betriebswirtschaftliche Kenntnisse. </bu>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline> Wie wird geforscht in Rheinland-Pfalz, Saarland &amp; Hessen?: ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+    <title>Artikel Rahmen Wissenschaftsregion HRS</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Wissenschaftsregion HRS</title>
+  </teaser>
+</centerpage>

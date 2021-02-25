@@ -1,0 +1,1527 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <keywordset>
+      <keyword py:pytype="str" source="manual">gartenbau</keyword>
+      <keyword py:pytype="str" source="manual">biologische-landwirtschaft</keyword>
+      <keyword py:pytype="str" source="manual">stadt</keyword>
+    </keywordset>
+    <header_image align="left" src="http://xml.zeit.de/themen/lebensart/urban-gardening/urban-gardening-2-197x74.jpg" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image align="left" title="Urban Gardening Themenseite" base-id="http://xml.zeit.de/lebensart/2011-05/urban-gardening-themenseite/" type="jpg" publication-date="" expires="" title_local="Urban Gardening Themenseite">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© Bob Strong/Reuters</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2017-09-14T06:30:43.731908+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-05-02T08:28:27.842125+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2017-09-14T06:30:47.897735+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2017-09-14T06:30:47.839729+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2017-09-14T06:30:47.755513+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2011-05-03</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Urban Gardening | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-07-16T12:33:53.451815+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2014-01-03</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schnerring</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Lebensart</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">22913</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:253c9e08-7240-45f7-8a8b-c44a6fb075da}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">17</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-53a31f70-4dd8-44cc-9868-12ab17717209">
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichten-garten-auf-dem-dach" year="2012" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:14:50+00:00" date-first-released="2012-06-23T10:20:49.589550+00:00" date-last-published="2013-03-29T16:15:28+00:00" last-semantic-change="2012-06-27T13:51:57.387270+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Urlaub auf dem Dach</title>
+            <text py:pytype="str">Ein Buchsbaum mit Farnflügeln und Gemüse zum Naschen: Leserin C. Gölz hat auf ihrem Dach ein grünes Wohnzimmer. Das will auch in den Ferien gehegt und genossen werden.</text>
+            <description py:pytype="str">Ein Buchsbaum mit Farnflügeln und Gemüse zum Naschen: Leserin C. Gölz hat auf ihrem Dach ein grünes Wohnzimmer. Das will auch in den Ferien gehegt und genossen werden.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Garten auf dem Dach von Leserin Claudia Gölz" base-id="http://xml.zeit.de/lebensart/2012-06/dachgarten/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Claudia Gölz</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-bolzplatz" year="2012" issue="24" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:05:17+00:00" date-first-released="2012-06-28T13:14:20.952125+00:00" date-last-published="2013-03-29T16:06:49+00:00" last-semantic-change="2012-06-11T10:50:26.603709+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Ein Bolzplatz wird zum Garten</title>
+            <text py:pytype="str">Leserin P. Matthies ist ein Fan englischer Gartenkultur. Auf einem Grundstück, auf dem vormals eine Schule und ein Bolzplatz standen, verwirklicht sie ihre Gartenträume.</text>
+            <description py:pytype="str">Leserin P. Matthies ist ein Fan englischer Gartenkultur. Auf einem Grundstück, auf dem vormals eine Schule und ein Bolzplatz standen, verwirklicht sie ihre Gartenträume.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Der Garten auf einem ehemaligen Bolzplatz von Leserin Pedi Matthies" base-id="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-bolzplatz-2/" type="jpg" publication-date="" expires="">
+              <bu>Blick aus dem ersten Stock der ehemaligen Schule auf den Garten</bu>
+              <copyright py:pytype="str">© Pedi Matthies</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichten-paradiesbaum-quitte-gelee" year="2012" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T14:49:26+00:00" date-first-released="2012-07-08T11:37:25.584175+00:00" date-last-published="2013-03-29T15:50:42+00:00" last-semantic-change="2012-07-08T11:47:11.136792+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Vom Schattenspender zum Paradiesbaum</title>
+            <text py:pytype="str">Als Leserin Angelika Kellermanns in den achtziger Jahren eine Quitte pflanzte, war dieser Baum gerade außer Mode. Heute trägt er üppig und Quitten gelten als Delikatesse.</text>
+            <description py:pytype="str">Als Leserin Angelika Kellermanns in den achtziger Jahren eine Quitte pflanzte, war dieser Baum gerade außer Mode. Heute trägt er üppig und Quitten gelten als Delikatesse.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Quitten" base-id="http://xml.zeit.de/lebensart/2012-06/Quitten/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Angelika Kellermanns</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7435f52d-dc73-434a-a31f-ed2530846172">
+          <block href="http://xml.zeit.de/lebensart/2012-06/fs-brasilien-garten-2" year="2012" issue="24" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-24T09:20:04+00:00" date-first-released="2012-06-10T12:39:54.507521+00:00" date-last-published="2012-06-10T12:41:57.739414+00:00" last-semantic-change="2012-06-10T12:36:19.945591+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Rio de Janeiro</supertitle>
+            <title py:pytype="str">Ein Gemeinschaftsgarten in der Favela</title>
+            <text py:pytype="str">Im Armenviertel Vidigal in Rio de Janeiro haben die Bewohner in Eigeninitiative einen Park angelegt. In gesammeltem Plastik ziehen sie Pflanzen. Wir zeigen Fotos. </text>
+            <description py:pytype="str">Im Armenviertel Vidigal in Rio de Janeiro haben die Bewohner in Eigeninitiative einen Park angelegt. In gesammeltem Plastik ziehen sie Pflanzen. Wir zeigen Fotos. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Brasilien Garten Teaser" base-id="http://xml.zeit.de/lebensart/2012-06/fs-brasilien-garten-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christophe Simon/AFP/GettyImages</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-verwunschener-gaertner-garten" year="2012" issue="24" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:44:23+00:00" date-first-released="2012-06-07T11:43:17.547678+00:00" date-last-published="2013-03-29T16:45:59+00:00" last-semantic-change="2012-06-07T11:41:54.772721+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Das verwunschene Grundstück</title>
+            <text py:pytype="str">Der Garten von Leser Bernhard Varnskühler gehörte vor vielen Jahren einer Gärtnerfamilie, die das Land aufgeben musste. Als er es kaufte, fand er einen Urwald vor.</text>
+            <description py:pytype="str">Der Garten von Leser Bernhard Varnskühler gehörte vor vielen Jahren einer Gärtnerfamilie, die das Land aufgeben musste. Als er es kaufte, fand er einen Urwald vor.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Der Gärtnergarten von Leser Bernhard Varnskühler" base-id="http://xml.zeit.de/lebensart/2012-06/Leserartikel-Gaertnergarten/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bernhard Varnskühler</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-05/fs-nyc-daecher" year="2012" issue="19" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-05-15T09:03:07+00:00" date-first-released="2012-05-12T07:51:59.703049+00:00" date-last-published="2012-05-12T07:51:59.703049+00:00" last-semantic-change="2012-05-12T07:50:23.350060+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten</supertitle>
+            <title py:pytype="str">New York in fünfter Dimension</title>
+            <text py:pytype="str">Alex MacLean hat aus dem Hubschrauber New Yorks verblüffende Dachlandschaften fotografiert. In seinen Bildern zeigt er eine bislang verborgene Sicht auf die Stadt.</text>
+            <description py:pytype="str">Alex MacLean hat aus dem Hubschrauber New Yorks verblüffende Dachlandschaften fotografiert. In seinen Bildern zeigt er eine bislang verborgene Sicht auf die Stadt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke: Alex MacLean" base-id="http://xml.zeit.de/lebensart/2012-05/fs-nyc-daecher-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Soho House New York, 29-35 9th Ave, Meatpacking District, Manhattan.</bu>
+              <copyright py:pytype="str" link="http://www.schirmer-mosel.de">© Alex MacLean/Schirmer/Mosel Verlag </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/22/Garten" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-06-01T17:06:52+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2012-06-01T17:07:51.849111+00:00" last-semantic-change="2012-05-29T08:52:20.131291+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gartengestaltung</supertitle>
+            <title py:pytype="str">Der neue Geist im Grünen</title>
+            <text py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</text>
+            <description py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-new-german-style/" type="jpg" publication-date="" expires="">
+              <bu>Geordnetes Chaos: Ein Staudengarten im "New German Style" </bu>
+              <copyright py:pytype="str" link="http://www.callwey.de/buecher/garten.html">© Gary Rogers aus "Stauden im Garten"; Callwey Verlag</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-465c76a6-0b19-4a6a-84d7-cda4b668c80c">
+          <block href="http://xml.zeit.de/lebensart/2012-06/mobile-gaerten" year="2012" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:29:38+00:00" date-first-released="2012-06-15T10:58:37.429919+00:00" date-last-published="2013-03-29T16:30:59+00:00" last-semantic-change="2012-06-15T10:57:19.025800+00:00">
+            <supertitle py:pytype="str">Mobile Gärten</supertitle>
+            <title py:pytype="str">Jäten und ernten auf dem Pick-up </title>
+            <text py:pytype="str">Ein Garten ist meist Privatvergnügen. Mobile Beete überschreiten diese Grenze und helfen so Kindern und Erwachsenen, die Natur und unsere Nahrung besser zu verstehen.</text>
+            <description py:pytype="str">Ein Garten ist meist Privatvergnügen. Mobile Beete überschreiten diese Grenze und helfen so Kindern und Erwachsenen, die Natur und unsere Nahrung besser zu verstehen.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Mobile Gärten" align="left" base-id="http://xml.zeit.de/lebensart/2012-06/mobiler-garten/" type="jpg" publication-date="" expires="">
+              <bu>Hoch auf dem Gemüsewagen: Mit ihrem Garten im Gepäck fuhr Annechien Meier von Den Haag nach Wiesbaden.</bu>
+              <copyright py:pytype="str">© Bart Benschop</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-04/detroit" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:25:35+00:00" date-first-released="2011-05-05T09:21:12.486727+00:00" date-last-published="2013-03-30T08:27:16+00:00" last-semantic-change="2011-05-05T09:19:57.043260+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gärten in Detroit</supertitle>
+            <title py:pytype="str">Hier wächst die Hoffnung</title>
+            <text py:pytype="str">Detroit war einst eine Industriestadt. Heute werden Fabrikgelände in Beete und Äcker verwandelt. Kann die Gartenbewegung die marode Stadt retten? Von J. Braun, Detroit</text>
+            <description py:pytype="str">Detroit war einst eine Industriestadt. Heute werden Fabrikgelände in Beete und Äcker verwandelt. Kann die Gartenbewegung die marode Stadt retten? Von J. Braun, Detroit</description>
+            <byline xsi:nil="true"/>
+            <image alt="Patrick Crouch, der Leiter der Earthworks Farm, erklärt Freiwilligen, was zu tun ist." align="left" title="Earthworks Farm" base-id="http://xml.zeit.de/lebensart/2011-04/detroit-2/" type="jpg" publication-date="" expires="">
+              <bu>Patrick Crouch, der Leiter der Earthworks Farm, erklärt Freiwilligen, was zu tun ist.</bu>
+              <copyright py:pytype="str">© Jessica Braun</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-garten-macht-reif" year="2012" issue="23" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:56:11+00:00" date-first-released="2012-06-01T17:07:50.920890+00:00" date-last-published="2013-03-29T16:57:48+00:00" last-semantic-change="2012-06-02T12:04:29.273737+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Jede Arbeit bringt sichtbaren Erfolg</title>
+            <text py:pytype="str">Einen spießigen Schrebergarten hat Leserin Anna Kaleri übernommen und ihn zu ihrem Paradies gemacht. Jetzt wachsen ihr die Beerensträucher über den Kopf.</text>
+            <description py:pytype="str">Einen spießigen Schrebergarten hat Leserin Anna Kaleri übernommen und ihn zu ihrem Paradies gemacht. Jetzt wachsen ihr die Beerensträucher über den Kopf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Pumpe im Mai" base-id="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-garten-macht-reif-2/" type="jpg" publication-date="2012-06-01T08:57:40+00:00" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anna Kaleri</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wirtschaft/2011-10/interview-landbau-werner" year="2011" issue="42" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2013-03-30T00:48:37+00:00" date-first-released="2011-10-20T14:24:41.808519+00:00" date-last-published="2013-03-30T01:49:49+00:00" last-semantic-change="2011-10-18T12:11:48.393340+00:00">
+            <supertitle py:pytype="str">Landbau</supertitle>
+            <title py:pytype="str">Salat vom Restaurantdach</title>
+            <text py:pytype="str">In den Megastädten wächst eine Bewegung des städtischen Landbaus, sagt der Agrarforscher Armin Werner. In den Schwellenländern könnte sie die Versorgung verbessern.</text>
+            <description py:pytype="str">In den Megastädten wächst eine Bewegung des städtischen Landbaus, sagt der Agrarforscher Armin Werner. In den Schwellenländern könnte sie die Versorgung verbessern.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="urban farming chicago" base-id="http://xml.zeit.de/wirtschaft/2011-10/urban-farming-chicago/" type="jpg" publication-date="" expires="">
+              <bu>Städtischer Landbau in Chicago</bu>
+              <copyright py:pytype="str">© Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-743a9f5b-92a6-4a89-9b36-2adc8db347be">
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-garten-macht-reif" year="2012" issue="23" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:56:11+00:00" date-first-released="2012-06-01T17:07:50.920890+00:00" date-last-published="2013-03-29T16:57:48+00:00" last-semantic-change="2012-06-02T12:04:29.273737+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Jede Arbeit bringt sichtbaren Erfolg</title>
+            <text py:pytype="str">Einen spießigen Schrebergarten hat Leserin Anna Kaleri übernommen und ihn zu ihrem Paradies gemacht. Jetzt wachsen ihr die Beerensträucher über den Kopf.</text>
+            <description py:pytype="str">Einen spießigen Schrebergarten hat Leserin Anna Kaleri übernommen und ihn zu ihrem Paradies gemacht. Jetzt wachsen ihr die Beerensträucher über den Kopf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Pumpe im Mai" base-id="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-garten-macht-reif-2/" type="jpg" publication-date="2012-06-01T08:57:40+00:00" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anna Kaleri</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/video/2012-05/1654064511001" type="video" year="2012" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-06-28T13:28:15+00:00" date-first-released="2012-05-24T14:00:47+00:00" date-last-published="2012-06-28T13:29:15.141868+00:00" last-semantic-change="2012-06-28T13:13:20+00:00">
+            <supertitle py:pytype="str">Leserartikel</supertitle>
+            <title py:pytype="str">Was macht Ihren Garten einzigartig? Wir suchen Ihre Geschichte.</title>
+            <text py:pytype="str">In Ihrem Garten steht eine außergewöhnliche Skulptur oder ein sehr seltener Obstbaum? Oder etwas anderes, was Ihren Garten einzigartig macht? Dann schreiben Sie uns einen Leserartikel.</text>
+            <description py:pytype="str">In Ihrem Garten steht eine außergewöhnliche Skulptur oder ein sehr seltener Obstbaum? Oder etwas anderes, was Ihren Garten einzigartig macht? Dann schreiben Sie uns einen Leserartikel.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d22/unsecured/media/18140073001/18140073001_1654145383001_ari-origin05-arc-134-1337864812930.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d22/unsecured/media/18140073001/18140073001_1654145382001_ari-origin05-arc-134-1337864812522.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/2012/22/Garten-Mensch" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-04-07T01:17:36+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2013-04-07T01:18:36.162485+00:00" last-semantic-change="2012-05-30T12:58:26.547061+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gartenkultur</supertitle>
+            <title py:pytype="str">Beim Graben muss man allein sein und denken!</title>
+            <text py:pytype="str">Der Garten ist der Ort der selbstbestimmten Arbeit, die den Menschen zum Menschen macht. Damit ist der Garten nicht zuletzt ein politischer Ort, schreibt Jakob Augstein.</text>
+            <description py:pytype="str">Der Garten ist der Ort der selbstbestimmten Arbeit, die den Menschen zum Menschen macht. Damit ist der Garten nicht zuletzt ein politischer Ort, schreibt Jakob Augstein.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Merkel Wannsee" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-politisch-garten-merkel/" type="jpg" publication-date="" expires="">
+              <bu>Die Kanzlerin Angela Merkel im Garten der Villa Liebermann am Wannsee</bu>
+              <copyright py:pytype="str">© Odd Andersen/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/22/Garten" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-06-01T17:06:52+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2012-06-01T17:07:51.849111+00:00" last-semantic-change="2012-05-29T08:52:20.131291+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gartengestaltung</supertitle>
+            <title py:pytype="str">Der neue Geist im Grünen</title>
+            <text py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</text>
+            <description py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-new-german-style/" type="jpg" publication-date="" expires="">
+              <bu>Geordnetes Chaos: Ein Staudengarten im "New German Style" </bu>
+              <copyright py:pytype="str" link="http://www.callwey.de/buecher/garten.html">© Gary Rogers aus "Stauden im Garten"; Callwey Verlag</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-de460b61-ebff-48d7-9be8-135c26763a53">
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-verwunschener-gaertner-garten" year="2012" issue="24" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:44:23+00:00" date-first-released="2012-06-07T11:43:17.547678+00:00" date-last-published="2013-03-29T16:45:59+00:00" last-semantic-change="2012-06-07T11:41:54.772721+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Das verwunschene Grundstück</title>
+            <text py:pytype="str">Der Garten von Leser Bernhard Varnskühler gehörte vor vielen Jahren einer Gärtnerfamilie, die das Land aufgeben musste. Als er es kaufte, fand er einen Urwald vor.</text>
+            <description py:pytype="str">Der Garten von Leser Bernhard Varnskühler gehörte vor vielen Jahren einer Gärtnerfamilie, die das Land aufgeben musste. Als er es kaufte, fand er einen Urwald vor.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Der Gärtnergarten von Leser Bernhard Varnskühler" base-id="http://xml.zeit.de/lebensart/2012-06/Leserartikel-Gaertnergarten/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bernhard Varnskühler</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/video/2012-05/1654064511001" type="video" year="2012" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-06-28T13:28:15+00:00" date-first-released="2012-05-24T14:00:47+00:00" date-last-published="2012-06-28T13:29:15.141868+00:00" last-semantic-change="2012-06-28T13:13:20+00:00">
+            <supertitle py:pytype="str">Leserartikel</supertitle>
+            <title py:pytype="str">Was macht Ihren Garten einzigartig? Wir suchen Ihre Geschichte.</title>
+            <text py:pytype="str">In Ihrem Garten steht eine außergewöhnliche Skulptur oder ein sehr seltener Obstbaum? Oder etwas anderes, was Ihren Garten einzigartig macht? Dann schreiben Sie uns einen Leserartikel.</text>
+            <description py:pytype="str">In Ihrem Garten steht eine außergewöhnliche Skulptur oder ein sehr seltener Obstbaum? Oder etwas anderes, was Ihren Garten einzigartig macht? Dann schreiben Sie uns einen Leserartikel.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d22/unsecured/media/18140073001/18140073001_1654145383001_ari-origin05-arc-134-1337864812930.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d22/unsecured/media/18140073001/18140073001_1654145382001_ari-origin05-arc-134-1337864812522.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-garten-macht-reif" year="2012" issue="23" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T15:56:11+00:00" date-first-released="2012-06-01T17:07:50.920890+00:00" date-last-published="2013-03-29T16:57:48+00:00" last-semantic-change="2012-06-02T12:04:29.273737+00:00">
+            <supertitle py:pytype="str">Gartengeschichten</supertitle>
+            <title py:pytype="str">Jede Arbeit bringt sichtbaren Erfolg</title>
+            <text py:pytype="str">Einen spießigen Schrebergarten hat Leserin Anna Kaleri übernommen und ihn zu ihrem Paradies gemacht. Jetzt wachsen ihr die Beerensträucher über den Kopf.</text>
+            <description py:pytype="str">Einen spießigen Schrebergarten hat Leserin Anna Kaleri übernommen und ihn zu ihrem Paradies gemacht. Jetzt wachsen ihr die Beerensträucher über den Kopf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Pumpe im Mai" base-id="http://xml.zeit.de/lebensart/2012-06/leserartikel-gartengeschichte-garten-macht-reif-2/" type="jpg" publication-date="2012-06-01T08:57:40+00:00" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anna Kaleri</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/22/Garten-Glosse" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-06-02T07:50:29+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2012-06-02T07:51:28.990653+00:00" last-semantic-change="2012-06-02T07:50:12.532093+00:00">
+            <supertitle py:pytype="str">Gartengestaltung</supertitle>
+            <title py:pytype="str">Der Kampfplatz vor meiner Tür</title>
+            <text py:pytype="str">Gärtner dürfen keine Pazifisten sein: Gärten müssen gejätet, gegossen und beschnitten werden, notfalls mit schwerem Gerät. Denn der Stärkere gewinnt. Von J. Jessen</text>
+            <description py:pytype="str">Gärtner dürfen keine Pazifisten sein: Gärten müssen gejätet, gegossen und beschnitten werden, notfalls mit schwerem Gerät. Denn der Stärkere gewinnt. Von J. Jessen</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-graben-garten/" type="jpg" publication-date="" expires="">
+              <bu>Löffel für Löffel: Gartenarbeit ist eine Herausforderung, die mit vereinzelten Glücksmomenten belohnt wird.</bu>
+              <copyright py:pytype="str">© Odd Andersen/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-af6f67f6-9eaf-4e75-8053-11cd19586601">
+          <block href="http://xml.zeit.de/2012/22/Garten" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-06-01T17:06:52+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2012-06-01T17:07:51.849111+00:00" last-semantic-change="2012-05-29T08:52:20.131291+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gartengestaltung</supertitle>
+            <title py:pytype="str">Der neue Geist im Grünen</title>
+            <text py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</text>
+            <description py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-new-german-style/" type="jpg" publication-date="" expires="">
+              <bu>Geordnetes Chaos: Ein Staudengarten im "New German Style" </bu>
+              <copyright py:pytype="str" link="http://www.callwey.de/buecher/garten.html">© Gary Rogers aus "Stauden im Garten"; Callwey Verlag</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-03/ackerbau-garten-erfahrungsbericht" year="2012" issue="13" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T18:13:03+00:00" date-first-released="2012-03-23T14:47:52.717075+00:00" date-last-published="2013-03-29T19:14:03+00:00" last-semantic-change="2012-03-23T11:08:50.728585+00:00">
+            <supertitle py:pytype="str">Garten auf dem Land</supertitle>
+            <title py:pytype="str">Ich hab 'nen Full-Time-Acker</title>
+            <text py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</text>
+            <description py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-max-scharnigg/" type="jpg" publication-date="" expires="">
+              <bu>Max Scharnigg auf seinem Acker am Ammersee – mit selbstgezogener Zucchini</bu>
+              <copyright py:pytype="str">© Sebastian Arlt</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-03/garten-quiz" year="2012" issue="12" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-05-15T12:03:01+00:00" date-first-released="2012-03-20T15:16:11.008419+00:00" date-last-published="2012-05-15T12:04:00.617490+00:00" last-semantic-change="2012-03-20T14:25:21.864590+00:00">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Haben Sie den Garten im Griff?</title>
+            <text py:pytype="str">Im März wird ausgesät. Welche Blume schreckt laut Bauernregel Wühlmäuse ab und welches Gemüse gedeiht am besten neben Kopfsalat? Testen Sie Ihr Gartenwissen im Quiz. </text>
+            <description py:pytype="str">Im März wird ausgesät. Welche Blume schreckt laut Bauernregel Wühlmäuse ab und welches Gemüse gedeiht am besten neben Kopfsalat? Testen Sie Ihr Gartenwissen im Quiz. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-gartenquiz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christopher Furlong/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/15/Design-Essay" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:08:00+00:00" expires="" date-last-modified="2013-03-29T17:46:09+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:47:54+00:00" last-semantic-change="2012-04-05T09:40:16.551180+00:00">
+            <supertitle py:pytype="str">Gartenkultur</supertitle>
+            <title py:pytype="str">So viel Draußen war nie</title>
+            <text py:pytype="str">Wer eine Kultur verstehen will, muss in ihre Gärten schauen. Bei uns ist trotz des anhaltenden Gartenhypes zu erkennen: Wir haben noch viel zu tun. Von Tillmann Prüfer</text>
+            <description py:pytype="str">Wer eine Kultur verstehen will, muss in ihre Gärten schauen. Bei uns ist trotz des anhaltenden Gartenhypes zu erkennen: Wir haben noch viel zu tun. Von Tillmann Prüfer</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-draussen-blumen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Peter Macdiarmid/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="64ee77d1-1b52-484d-a6ac-fc831f58449b">
+          <block href="http://xml.zeit.de/2012/22/Garten-Interview" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-05-31T13:37:47+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2012-05-31T13:38:46.811497+00:00" last-semantic-change="2012-05-31T13:37:31.791866+00:00">
+            <supertitle py:pytype="str">Gartengestaltung</supertitle>
+            <title py:pytype="str">Der Philosoph liebt es Barock</title>
+            <text py:pytype="str">Was bedeuten Gärten? Welche Ideale schlagen dort Wurzeln? Ein Interview mit dem Kunsthistoriker Horst Bredekamp, der die Freiheit des englischen Gartens entzaubert. </text>
+            <description py:pytype="str">Was bedeuten Gärten? Welche Ideale schlagen dort Wurzeln? Ein Interview mit dem Kunsthistoriker Horst Bredekamp, der die Freiheit des englischen Gartens entzaubert. </description>
+            <byline py:pytype="str">Das Gespräch führte Alexander Camann</byline>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-historiker-garten/" type="jpg" publication-date="" expires="">
+              <bu>Der Park von Sanssouci in Potsdam wurde nach dem Vorbild englischer Landschaftsgärten gestaltet.</bu>
+              <copyright py:pytype="str">©  Johannes Eisele/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-03/ackerbau-garten-erfahrungsbericht" year="2012" issue="13" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T18:13:03+00:00" date-first-released="2012-03-23T14:47:52.717075+00:00" date-last-published="2013-03-29T19:14:03+00:00" last-semantic-change="2012-03-23T11:08:50.728585+00:00">
+            <supertitle py:pytype="str">Garten auf dem Land</supertitle>
+            <title py:pytype="str">Ich hab 'nen Full-Time-Acker</title>
+            <text py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</text>
+            <description py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-max-scharnigg/" type="jpg" publication-date="" expires="">
+              <bu>Max Scharnigg auf seinem Acker am Ammersee – mit selbstgezogener Zucchini</bu>
+              <copyright py:pytype="str">© Sebastian Arlt</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-03/garten-quiz" year="2012" issue="12" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-05-15T12:03:01+00:00" date-first-released="2012-03-20T15:16:11.008419+00:00" date-last-published="2012-05-15T12:04:00.617490+00:00" last-semantic-change="2012-03-20T14:25:21.864590+00:00">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Haben Sie den Garten im Griff?</title>
+            <text py:pytype="str">Im März wird ausgesät. Welche Blume schreckt laut Bauernregel Wühlmäuse ab und welches Gemüse gedeiht am besten neben Kopfsalat? Testen Sie Ihr Gartenwissen im Quiz. </text>
+            <description py:pytype="str">Im März wird ausgesät. Welche Blume schreckt laut Bauernregel Wühlmäuse ab und welches Gemüse gedeiht am besten neben Kopfsalat? Testen Sie Ihr Gartenwissen im Quiz. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-gartenquiz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christopher Furlong/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/15/Design-Essay" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:08:00+00:00" expires="" date-last-modified="2013-03-29T17:46:09+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:47:54+00:00" last-semantic-change="2012-04-05T09:40:16.551180+00:00">
+            <supertitle py:pytype="str">Gartenkultur</supertitle>
+            <title py:pytype="str">So viel Draußen war nie</title>
+            <text py:pytype="str">Wer eine Kultur verstehen will, muss in ihre Gärten schauen. Bei uns ist trotz des anhaltenden Gartenhypes zu erkennen: Wir haben noch viel zu tun. Von Tillmann Prüfer</text>
+            <description py:pytype="str">Wer eine Kultur verstehen will, muss in ihre Gärten schauen. Bei uns ist trotz des anhaltenden Gartenhypes zu erkennen: Wir haben noch viel zu tun. Von Tillmann Prüfer</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-draussen-blumen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Peter Macdiarmid/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7ece6949-519e-471d-8b11-fede3f97c3c8">
+          <block href="http://xml.zeit.de/2012/22/Garten-Mensch" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-04-07T01:17:36+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2013-04-07T01:18:36.162485+00:00" last-semantic-change="2012-05-30T12:58:26.547061+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gartenkultur</supertitle>
+            <title py:pytype="str">Beim Graben muss man allein sein und denken!</title>
+            <text py:pytype="str">Der Garten ist der Ort der selbstbestimmten Arbeit, die den Menschen zum Menschen macht. Damit ist der Garten nicht zuletzt ein politischer Ort, schreibt Jakob Augstein.</text>
+            <description py:pytype="str">Der Garten ist der Ort der selbstbestimmten Arbeit, die den Menschen zum Menschen macht. Damit ist der Garten nicht zuletzt ein politischer Ort, schreibt Jakob Augstein.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Merkel Wannsee" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-politisch-garten-merkel/" type="jpg" publication-date="" expires="">
+              <bu>Die Kanzlerin Angela Merkel im Garten der Villa Liebermann am Wannsee</bu>
+              <copyright py:pytype="str">© Odd Andersen/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/22/Garten" year="2012" issue="22" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-06-01T17:06:52+00:00" date-first-released="2012-05-24T06:00:00+00:00" date-last-published="2012-06-01T17:07:51.849111+00:00" last-semantic-change="2012-05-29T08:52:20.131291+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gartengestaltung</supertitle>
+            <title py:pytype="str">Der neue Geist im Grünen</title>
+            <text py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</text>
+            <description py:pytype="str">In diesem Jahr werden die Deutschen erstmals genauso viel Geld für ihren Garten wie für Backwaren ausgeben. Nicht nur das zeigt deutlich: Es erblüht die Lust am Pflanzen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-new-german-style/" type="jpg" publication-date="" expires="">
+              <bu>Geordnetes Chaos: Ein Staudengarten im "New German Style" </bu>
+              <copyright py:pytype="str" link="http://www.callwey.de/buecher/garten.html">© Gary Rogers aus "Stauden im Garten"; Callwey Verlag</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/12/L-SM-Garten" year="2012" issue="12" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T18:35:28+00:00" date-first-released="2012-03-15T06:00:00+00:00" date-last-published="2013-03-29T19:36:33+00:00" last-semantic-change="2012-03-16T14:16:35.907387+00:00">
+            <supertitle py:pytype="str">Jakob Augstein</supertitle>
+            <title py:pytype="str">Was nützen dem Gärtner die Gedanken</title>
+            <text py:pytype="str">Nutzpflanzenanbau sei eine Infektion, der Zaun dagegen bedeute Kultur. Der Verleger Jakob Augstein hat ein eigentümliches Bildungsbuch über das Gärtnern geschrieben.</text>
+            <description py:pytype="str">Nutzpflanzenanbau sei eine Infektion, der Zaun dagegen bedeute Kultur. Der Verleger Jakob Augstein hat ein eigentümliches Bildungsbuch über das Gärtnern geschrieben.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-garten-augstein/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/lebensart/urban-gardening/index" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-24T09:24:06+00:00" date-first-released="2011-05-02T08:28:27.842125+00:00" date-last-published="2013-04-07T01:18:37.119389+00:00" last-semantic-change="2012-07-16T12:33:53.451815+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <title py:pytype="str">Urban Gardening</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Urban Gardening Themenseite" base-id="http://xml.zeit.de/lebensart/2011-05/urban-gardening-themenseite/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bob Strong/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7cc8e1d3-42c9-4fbf-b57f-e1e8e7f25d90">
+          <block href="http://xml.zeit.de/lebensart/2012-05/fs-nyc-daecher" year="2012" issue="19" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-05-15T09:03:07+00:00" date-first-released="2012-05-12T07:51:59.703049+00:00" date-last-published="2012-05-12T07:51:59.703049+00:00" last-semantic-change="2012-05-12T07:50:23.350060+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten</supertitle>
+            <title py:pytype="str">New York in fünfter Dimension</title>
+            <text py:pytype="str">Alex MacLean hat aus dem Hubschrauber New Yorks verblüffende Dachlandschaften fotografiert. In seinen Bildern zeigt er eine bislang verborgene Sicht auf die Stadt.</text>
+            <description py:pytype="str">Alex MacLean hat aus dem Hubschrauber New Yorks verblüffende Dachlandschaften fotografiert. In seinen Bildern zeigt er eine bislang verborgene Sicht auf die Stadt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke: Alex MacLean" base-id="http://xml.zeit.de/lebensart/2012-05/fs-nyc-daecher-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Soho House New York, 29-35 9th Ave, Meatpacking District, Manhattan.</bu>
+              <copyright py:pytype="str" link="http://www.schirmer-mosel.de">© Alex MacLean/Schirmer/Mosel Verlag </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-03/fs-simone-nieweg-natur-menschen" year="2012" issue="11" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-03-29T01:22:17+00:00" date-first-released="2012-03-17T07:15:33.521445+00:00" date-last-published="2012-03-29T01:23:16.366952+00:00" last-semantic-change="2012-03-17T07:14:12.356919+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotografin Simone Nieweg</supertitle>
+            <title py:pytype="str">Der Acker, schön wie ein Seerosenteich</title>
+            <text py:pytype="str">Zwei Ausstellungen widmen sich derzeit der Fotografin Simone Nieweg. Sachlich und poetisch zugleich zeigen ihre Bilder von Äckern, Wäldern und Gärten die gezähmte Natur.</text>
+            <description py:pytype="str">Zwei Ausstellungen widmen sich derzeit der Fotografin Simone Nieweg. Sachlich und poetisch zugleich zeigen ihre Bilder von Äckern, Wäldern und Gärten die gezähmte Natur.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke: Natur der Menschen" base-id="http://xml.zeit.de/lebensart/2012-03/fs-simone-nieweg-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Gemüsegarten am See, Belfort 2004</bu>
+              <copyright py:pytype="str">© Sabine Nieweg/ Schirmer/Mosel Verlag </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-04/dachgarten-roofgarden-stadt" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:15:31+00:00" date-first-released="2011-05-09T06:21:33.809578+00:00" date-last-published="2013-03-30T08:16:53+00:00" last-semantic-change="2011-05-09T06:19:58.579099+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten</supertitle>
+            <title py:pytype="str">Die kühlen Grünen</title>
+            <text py:pytype="str">Pflanzen über der Stadt: Dachgärten sind nicht nur dekorativ anzusehen. Sie kühlen an heißen Tagen und schonen die Kanalisation nach starken Regenfällen. Von Sami Skalli</text>
+            <description py:pytype="str">Pflanzen über der Stadt: Dachgärten sind nicht nur dekorativ anzusehen. Sie kühlen an heißen Tagen und schonen die Kanalisation nach starken Regenfällen. Von Sami Skalli</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/dachgarten-singapur/" type="jpg" publication-date="" expires="">
+              <bu>Ein Dachgarten auf einem Fünf-Sterne-Hotel in Singapur</bu>
+              <copyright py:pytype="str">© Roslan Rahman/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2010-08/newyork-viadukt" year="2010" issue="32" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-03-30T18:28:57+00:00" date-first-released="2010-08-09T15:25:43.956419+00:00" date-last-published="2013-03-30T19:30:44+00:00" last-semantic-change="2010-08-09T15:24:29.247265+00:00">
+            <supertitle py:pytype="str">High Line Park</supertitle>
+            <title py:pytype="str">New Yorks grüner Laufsteg</title>
+            <text py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</text>
+            <description py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="High Line Park " base-id="http://xml.zeit.de/reisen/2010-08/highline-1/" type="jpg" publication-date="" expires="">
+              <bu>Statt der Hochbahn rauscht hier nur der Wind: der High Line Park in Manhattan</bu>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="702a7931-1567-4caa-af3a-c87ec464df2e">
+          <block href="http://xml.zeit.de/2012/15/Design-Giese" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:10:00+00:00" expires="" date-last-modified="2013-03-29T17:43:24+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:46:03+00:00" last-semantic-change="2012-04-09T10:27:37.271279+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">"Was ich mache, ist Arbeit mit Pflanzen"</title>
+            <text py:pytype="str">Tita Giese bepflanzt europäische Großstädte mit Bambus, Yuccas und Rhabarber. Im Interview erklärt die Düsseldorfer Künstlerin, auf welche Widerstände sie dabei trifft. </text>
+            <description py:pytype="str">Tita Giese bepflanzt europäische Großstädte mit Bambus, Yuccas und Rhabarber. Im Interview erklärt die Düsseldorfer Künstlerin, auf welche Widerstände sie dabei trifft. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-04/tita-giese-2/" type="jpg" publication-date="" expires="">
+              <bu>Weiße Jeans, rote Lippen und an den Ohren Perlenclips: Die Künstlerin Tita Giese</bu>
+              <copyright py:pytype="str">© Tillmann Franzen</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/15/Design-Plaetze" year="2012" issue="15" ressort="Kultur" publication-date="2012-04-04T05:12:00+00:00" expires="" date-last-modified="2013-03-29T17:49:07+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:49:43+00:00" last-semantic-change="2012-04-03T16:54:22.427486+00:00">
+            <supertitle py:pytype="str">Städtedesign</supertitle>
+            <title py:pytype="str">"Keiner wagt mehr das Besondere"</title>
+            <text py:pytype="str">Warum sind so viele Plätze in den Städten öde? Der Architekt Till Rehwaldt weiß es – und erklärt im Interview, wie man es besser machen könnte. </text>
+            <description py:pytype="str">Warum sind so viele Plätze in den Städten öde? Der Architekt Till Rehwaldt weiß es – und erklärt im Interview, wie man es besser machen könnte. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-04/platz-hamburg/" type="jpg" publication-date="" expires="2012-05-03T07:47:18+00:00">
+              <bu>Die Marco-Polo-Terrassen in Hamburg – fotografiert aus einer Mülltonne heraus</bu>
+              <copyright py:pytype="str">© Blaschke/Derpmann/Pfohlmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-04/urban-gardening-netztipps-2" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:34:12+00:00" date-first-released="2011-05-02T08:22:19.192783+00:00" date-last-published="2013-03-30T08:34:52+00:00" last-semantic-change="2011-04-29T18:30:41.752277+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Die Netzgärtner</title>
+            <text py:pytype="str">Wer seine Straße im Guerilla-Gärtner-Stil begrünen oder einfach nur Erdbeeren auf dem Balkon züchten will, findet Hilfe im Netz. Die besten Tipps im Überblick.</text>
+            <description py:pytype="str">Wer seine Straße im Guerilla-Gärtner-Stil begrünen oder einfach nur Erdbeeren auf dem Balkon züchten will, findet Hilfe im Netz. Die besten Tipps im Überblick.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/netz-garten/" type="jpg" publication-date="" expires="">
+              <bu>Wer keinen grünen Daumen hat, findet im Netz zahlreiche Garten-Tipps.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=187957">© Thomas K. / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-05/gardening-glosse" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-19T09:02:47+00:00" date-first-released="2011-05-04T08:39:28.793415+00:00" date-last-published="2012-07-19T11:06:04+00:00" last-semantic-change="2011-05-04T08:36:07.242402+00:00">
+            <supertitle py:pytype="str">Gardening</supertitle>
+            <title py:pytype="str">Subversion auf dem Kompost</title>
+            <text py:pytype="str">Gardening ist der letzte Schrei unter trendbewussten Großstädtern. Zwischen Tulpenzwiebeln und Rosenbeet kommen sie wieder zu sich selbst. Eine Glosse von David Hugendick</text>
+            <description py:pytype="str">Gardening ist der letzte Schrei unter trendbewussten Großstädtern. Zwischen Tulpenzwiebeln und Rosenbeet kommen sie wieder zu sich selbst. Eine Glosse von David Hugendick</description>
+            <byline xsi:nil="true"/>
+            <image alt="Eine New Yorkerin freut sich über gejätetes Unkraut. " align="left" base-id="http://xml.zeit.de/lebensart/2011-05/subversiv/" type="jpg" publication-date="" expires="">
+              <bu>Eine New Yorkerin freut sich über gejätetes Unkraut. </bu>
+              <copyright py:pytype="str">© Chris Hondros/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7c563c02-0f77-407e-9c8d-fca102be2584">
+          <block href="http://xml.zeit.de/2012/15/Design-Essay" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:08:00+00:00" expires="" date-last-modified="2013-03-29T17:46:09+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:47:54+00:00" last-semantic-change="2012-04-05T09:40:16.551180+00:00">
+            <supertitle py:pytype="str">Gartenkultur</supertitle>
+            <title py:pytype="str">So viel Draußen war nie</title>
+            <text py:pytype="str">Wer eine Kultur verstehen will, muss in ihre Gärten schauen. Bei uns ist trotz des anhaltenden Gartenhypes zu erkennen: Wir haben noch viel zu tun. Von Tillmann Prüfer</text>
+            <description py:pytype="str">Wer eine Kultur verstehen will, muss in ihre Gärten schauen. Bei uns ist trotz des anhaltenden Gartenhypes zu erkennen: Wir haben noch viel zu tun. Von Tillmann Prüfer</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-draussen-blumen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Peter Macdiarmid/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/15/Design-Eigenheim" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:06:00+00:00" expires="" date-last-modified="2013-03-29T17:49:12+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:49:43+00:00" last-semantic-change="2012-04-03T16:26:25.244735+00:00">
+            <supertitle py:pytype="str">Eigenheim mit Garten</supertitle>
+            <title py:pytype="str">Rasen verlegen bei Mondschein</title>
+            <text py:pytype="str">Wie so viele wollte der Autor Matthias Kalle unbedingt ein Haus, ein Haus mit einem Garten. Als er beides hatte, fingen die Probleme aber erst an.</text>
+            <description py:pytype="str">Wie so viele wollte der Autor Matthias Kalle unbedingt ein Haus, ein Haus mit einem Garten. Als er beides hatte, fingen die Probleme aber erst an.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-04/kalle-matthias/" type="jpg" publication-date="" expires="2012-05-02T14:52:32+00:00">
+              <bu>Auch wenn die Pose anderes vermuten lässt: Der Baukredit des Autors Matthias Kalle ist in Ordnung.</bu>
+              <copyright py:pytype="str">© Christian Lesemann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/15/Design-Natur" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:04:00+00:00" expires="" date-last-modified="2013-03-29T17:42:45+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:43:17+00:00" last-semantic-change="2012-04-10T05:51:34.151685+00:00">
+            <supertitle py:pytype="str">Naturerfahrung</supertitle>
+            <title py:pytype="str">Eine Heimat im Freien</title>
+            <text py:pytype="str">Von drinnen betrachtet ist draußen gefährlich. Sobald wir aber eine Weile in der Natur sind, passiert etwas Seltsames: Wir richten uns in ihr ein. Von Wolfgang Büscher</text>
+            <description py:pytype="str">Von drinnen betrachtet ist draußen gefährlich. Sobald wir aber eine Weile in der Natur sind, passiert etwas Seltsames: Wir richten uns in ihr ein. Von Wolfgang Büscher</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-draussen-natur/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa - Bildfunk </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/15/Design-Giese" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:10:00+00:00" expires="" date-last-modified="2013-03-29T17:43:24+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:46:03+00:00" last-semantic-change="2012-04-09T10:27:37.271279+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">"Was ich mache, ist Arbeit mit Pflanzen"</title>
+            <text py:pytype="str">Tita Giese bepflanzt europäische Großstädte mit Bambus, Yuccas und Rhabarber. Im Interview erklärt die Düsseldorfer Künstlerin, auf welche Widerstände sie dabei trifft. </text>
+            <description py:pytype="str">Tita Giese bepflanzt europäische Großstädte mit Bambus, Yuccas und Rhabarber. Im Interview erklärt die Düsseldorfer Künstlerin, auf welche Widerstände sie dabei trifft. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-04/tita-giese-2/" type="jpg" publication-date="" expires="">
+              <bu>Weiße Jeans, rote Lippen und an den Ohren Perlenclips: Die Künstlerin Tita Giese</bu>
+              <copyright py:pytype="str">© Tillmann Franzen</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="57dc70cc-b1cc-4cfb-9f95-61b45a044abd">
+          <block href="http://xml.zeit.de/2012/15/Design-Natur" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:04:00+00:00" expires="" date-last-modified="2013-03-29T17:42:45+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:43:17+00:00" last-semantic-change="2012-04-10T05:51:34.151685+00:00">
+            <supertitle py:pytype="str">Naturerfahrung</supertitle>
+            <title py:pytype="str">Eine Heimat im Freien</title>
+            <text py:pytype="str">Von drinnen betrachtet ist draußen gefährlich. Sobald wir aber eine Weile in der Natur sind, passiert etwas Seltsames: Wir richten uns in ihr ein. Von Wolfgang Büscher</text>
+            <description py:pytype="str">Von drinnen betrachtet ist draußen gefährlich. Sobald wir aber eine Weile in der Natur sind, passiert etwas Seltsames: Wir richten uns in ihr ein. Von Wolfgang Büscher</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-05/teaser-draussen-natur/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa - Bildfunk </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2010/05/Lust-auf-Natur" year="2010" issue="5" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-30T18:41:50+00:00" date-first-released="2010-08-03T06:00:00+00:00" date-last-published="2013-03-30T19:43:18+00:00" last-semantic-change="2010-09-09T12:18:21.794862+00:00">
+            <supertitle py:pytype="str">Naturerfahrung</supertitle>
+            <title py:pytype="str">Auf Sinnsuche im Gehölz</title>
+            <text py:pytype="str">Macht die Natur uns zu besseren Menschen? Die Sehnsucht nach Naturerfahrung treibt Städter in die Wildnis. Forscher untersuchen die Wirkung. Ein Selbsterfahrungsbericht</text>
+            <description py:pytype="str">Macht die Natur uns zu besseren Menschen? Die Sehnsucht nach Naturerfahrung treibt Städter in die Wildnis. Forscher untersuchen die Wirkung. Ein Selbsterfahrungsbericht</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Naturerfahrung Mensch Wildnis Schalklhof" base-id="http://xml.zeit.de/wissen/2010-09/s80-naturerfahrung/" type="jpg" publication-date="" expires="">
+              <bu>Höhepunkt der Naturerfahrung in der Wildnisschule: Mit der Präsenz des Baumes verschmelzen</bu>
+              <copyright py:pytype="str">© Native Spirit</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="e921539b-e9e3-49a3-bfaf-165194f2b8f5">
+          <block href="http://xml.zeit.de/2012/15/Design-Balkone" year="2012" issue="15" ressort="Lebensart" publication-date="2012-04-04T05:02:00+00:00" expires="" date-last-modified="2013-03-29T17:45:13+00:00" date-first-released="2012-04-04T06:00:00+00:00" date-last-published="2013-03-29T18:46:03+00:00" last-semantic-change="2012-04-06T11:06:15.908147+00:00">
+            <supertitle py:pytype="str">Gartengestaltung</supertitle>
+            <title py:pytype="str">Warum man auf eine Hecke verzichten sollte</title>
+            <text py:pytype="str">Mit Begeisterung beginnt man, den Balkon oder den Garten zu bepflanzen – und dann ist das Ergebnis oft mau. Das muss nicht sein! 13 Tipps zur Gestaltung des Grünen</text>
+            <description py:pytype="str">Mit Begeisterung beginnt man, den Balkon oder den Garten zu bepflanzen – und dann ist das Ergebnis oft mau. Das muss nicht sein! 13 Tipps zur Gestaltung des Grünen</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Garten" base-id="http://xml.zeit.de/lebensart/2012-04/garten-pflanzen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/dawn">© morningside/photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-03/ackerbau-garten-erfahrungsbericht" year="2012" issue="13" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T18:13:03+00:00" date-first-released="2012-03-23T14:47:52.717075+00:00" date-last-published="2013-03-29T19:14:03+00:00" last-semantic-change="2012-03-23T11:08:50.728585+00:00">
+            <supertitle py:pytype="str">Garten auf dem Land</supertitle>
+            <title py:pytype="str">Ich hab 'nen Full-Time-Acker</title>
+            <text py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</text>
+            <description py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-max-scharnigg/" type="jpg" publication-date="" expires="">
+              <bu>Max Scharnigg auf seinem Acker am Ammersee – mit selbstgezogener Zucchini</bu>
+              <copyright py:pytype="str">© Sebastian Arlt</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2012-03/fs-gisela-erlacher" year="2012" issue="12" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-03-25T11:50:18+00:00" date-first-released="2012-03-21T06:22:39.876365+00:00" date-last-published="2012-03-25T11:51:17.926532+00:00" last-semantic-change="2012-03-16T12:06:18.523967+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Landschaftsarchitektur</supertitle>
+            <title py:pytype="str">Kugelbuchs und Grasnarbe</title>
+            <text py:pytype="str">Gisela Erlacher hat Natur dort fotografiert, wo Wacholder, Thuje und Forsythie eigentlich nur eine Funktion haben: von der Tristesse der Vorstadt abzulenken. </text>
+            <description py:pytype="str">Gisela Erlacher hat Natur dort fotografiert, wo Wacholder, Thuje und Forsythie eigentlich nur eine Funktion haben: von der Tristesse der Vorstadt abzulenken. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke Gisela Erlacher" base-id="http://xml.zeit.de/kultur/kunst/2012-03/fs-gisela-erlacher-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Gisela Erlacher</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-03/garten-quiz" year="2012" issue="12" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-05-15T12:03:01+00:00" date-first-released="2012-03-20T15:16:11.008419+00:00" date-last-published="2012-05-15T12:04:00.617490+00:00" last-semantic-change="2012-03-20T14:25:21.864590+00:00">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Haben Sie den Garten im Griff?</title>
+            <text py:pytype="str">Im März wird ausgesät. Welche Blume schreckt laut Bauernregel Wühlmäuse ab und welches Gemüse gedeiht am besten neben Kopfsalat? Testen Sie Ihr Gartenwissen im Quiz. </text>
+            <description py:pytype="str">Im März wird ausgesät. Welche Blume schreckt laut Bauernregel Wühlmäuse ab und welches Gemüse gedeiht am besten neben Kopfsalat? Testen Sie Ihr Gartenwissen im Quiz. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-gartenquiz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christopher Furlong/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="1955e335-6589-4a88-a7a9-5b1410752351">
+          <block href="http://xml.zeit.de/lebensart/2012-03/fs-simone-nieweg-natur-menschen" year="2012" issue="11" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-03-29T01:22:17+00:00" date-first-released="2012-03-17T07:15:33.521445+00:00" date-last-published="2012-03-29T01:23:16.366952+00:00" last-semantic-change="2012-03-17T07:14:12.356919+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotografin Simone Nieweg</supertitle>
+            <title py:pytype="str">Der Acker, schön wie ein Seerosenteich</title>
+            <text py:pytype="str">Zwei Ausstellungen widmen sich derzeit der Fotografin Simone Nieweg. Sachlich und poetisch zugleich zeigen ihre Bilder von Äckern, Wäldern und Gärten die gezähmte Natur.</text>
+            <description py:pytype="str">Zwei Ausstellungen widmen sich derzeit der Fotografin Simone Nieweg. Sachlich und poetisch zugleich zeigen ihre Bilder von Äckern, Wäldern und Gärten die gezähmte Natur.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke: Natur der Menschen" base-id="http://xml.zeit.de/lebensart/2012-03/fs-simone-nieweg-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Gemüsegarten am See, Belfort 2004</bu>
+              <copyright py:pytype="str">© Sabine Nieweg/ Schirmer/Mosel Verlag </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2012-03/fs-gisela-erlacher" year="2012" issue="12" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-03-25T11:50:18+00:00" date-first-released="2012-03-21T06:22:39.876365+00:00" date-last-published="2012-03-25T11:51:17.926532+00:00" last-semantic-change="2012-03-16T12:06:18.523967+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Landschaftsarchitektur</supertitle>
+            <title py:pytype="str">Kugelbuchs und Grasnarbe</title>
+            <text py:pytype="str">Gisela Erlacher hat Natur dort fotografiert, wo Wacholder, Thuje und Forsythie eigentlich nur eine Funktion haben: von der Tristesse der Vorstadt abzulenken. </text>
+            <description py:pytype="str">Gisela Erlacher hat Natur dort fotografiert, wo Wacholder, Thuje und Forsythie eigentlich nur eine Funktion haben: von der Tristesse der Vorstadt abzulenken. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke Gisela Erlacher" base-id="http://xml.zeit.de/kultur/kunst/2012-03/fs-gisela-erlacher-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Gisela Erlacher</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-05/fs-schrebergarten" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-06-02T15:27:22+00:00" date-first-released="2011-05-17T14:48:03.102823+00:00" date-last-published="2011-06-02T15:28:22.329615+00:00" last-semantic-change="2011-05-17T14:46:25.777758+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Gardening</supertitle>
+            <title py:pytype="str">Hier wachsen Fortschritt und Schönheit</title>
+            <text py:pytype="str">Schrebergärten galten lange als spießig. Mit der wachsenden Sehnsucht nach etwas Grün im Großstadtleben werden sie nun wieder populär. Ein Besuch in Bildern.</text>
+            <description py:pytype="str">Schrebergärten galten lange als spießig. Mit der wachsenden Sehnsucht nach etwas Grün im Großstadtleben werden sie nun wieder populär. Ein Besuch in Bildern.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="FS Schrebergarten Teaser" base-id="http://xml.zeit.de/lebensart/2011-05/fs-schrebergarten-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Nele Heitmeyer/ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2010-06/neu-new-york-dachgaerten" year="2010" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-05-09T06:20:35+00:00" date-first-released="2010-06-23T14:13:30.149304+00:00" date-last-published="2011-05-09T06:21:34.958875+00:00" last-semantic-change="2010-06-23T14:11:27.810439+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten in New York</supertitle>
+            <title py:pytype="str">Eine Oase im 24. Stock</title>
+            <text py:pytype="str">Zwischen den Wolkenkratzern von New York ist jeder Fleck Natur ein Luxus. Betsy Pinover Schiff hat die schönsten Orte der Stadt, die Dachgärten, fotografiert.</text>
+            <description py:pytype="str">Zwischen den Wolkenkratzern von New York ist jeder Fleck Natur ein Luxus. Betsy Pinover Schiff hat die schönsten Orte der Stadt, die Dachgärten, fotografiert.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.zeit.de/lebensart/2010-06/neu-new-york-dachgaerten" base-id="http://xml.zeit.de/lebensart/2010-06/teaser-dachgaerten/" type="jpg" publication-date="" expires="">
+              <bu>Um die Fotostrecke über New Yorker Dachgärten zu sehen, klicken Sie bitte auf das Bild</bu>
+              <copyright py:pytype="str">© 2010 Betsy Pinover Schiff</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="60b496d0-0e99-4c13-a555-9dd9b0015d48">
+          <block href="http://xml.zeit.de/lebensart/2011-04/detroit" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:25:35+00:00" date-first-released="2011-05-05T09:21:12.486727+00:00" date-last-published="2013-03-30T08:27:16+00:00" last-semantic-change="2011-05-05T09:19:57.043260+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Gärten in Detroit</supertitle>
+            <title py:pytype="str">Hier wächst die Hoffnung</title>
+            <text py:pytype="str">Detroit war einst eine Industriestadt. Heute werden Fabrikgelände in Beete und Äcker verwandelt. Kann die Gartenbewegung die marode Stadt retten? Von J. Braun, Detroit</text>
+            <description py:pytype="str">Detroit war einst eine Industriestadt. Heute werden Fabrikgelände in Beete und Äcker verwandelt. Kann die Gartenbewegung die marode Stadt retten? Von J. Braun, Detroit</description>
+            <byline xsi:nil="true"/>
+            <image alt="Patrick Crouch, der Leiter der Earthworks Farm, erklärt Freiwilligen, was zu tun ist." align="left" title="Earthworks Farm" base-id="http://xml.zeit.de/lebensart/2011-04/detroit-2/" type="jpg" publication-date="" expires="">
+              <bu>Patrick Crouch, der Leiter der Earthworks Farm, erklärt Freiwilligen, was zu tun ist.</bu>
+              <copyright py:pytype="str">© Jessica Braun</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wirtschaft/2010-12/fs-ruins-of-detroit-2" year="2010" issue="51" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2011-05-06T09:36:49+00:00" date-first-released="2010-12-20T13:24:30.327449+00:00" date-last-published="2010-12-20T13:31:33.181656+00:00" last-semantic-change="2011-05-03T07:47:02.725413+00:00">
+            <supertitle py:pytype="str">USA</supertitle>
+            <title py:pytype="str">Die Ruinen von Detroit</title>
+            <text py:pytype="str">Detroit gehörte zu den reichsten Städten der Welt. Dann begann der Niedergang. Zwei Fotografen haben die verlassenen Fabriken der Stadt porträtiert. Eine Fotostrecke.</text>
+            <description py:pytype="str">Detroit gehörte zu den reichsten Städten der Welt. Dann begann der Niedergang. Zwei Fotografen haben die verlassenen Fabriken der Stadt porträtiert. Eine Fotostrecke.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Teaser Ruisn of Detroit" base-id="http://xml.zeit.de/wirtschaft/2010-12/teaser-ruins-of-detroit/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Yves Marchand und Romain Meffre</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2011-05/fs-detroit-2" year="2011" issue="18" ressort="Reisen" publication-date="" expires="" date-last-modified="2012-07-16T13:09:30+00:00" date-first-released="2011-05-05T08:50:10.441346+00:00" date-last-published="2012-06-14T21:15:34.842325+00:00" last-semantic-change="2011-05-05T07:21:28.799684+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Detroit </supertitle>
+            <title py:pytype="str">Wege, eine Stadt zu gestalten</title>
+            <text py:pytype="str">Detroit sei eine weiße Leinwand, sagen manche Einwohner. Man könne dort Dinge ausprobieren, etwas bewirken. Ein Rundgang zu sozialen und kreativen Projekten in Fotos. </text>
+            <description py:pytype="str">Detroit sei eine weiße Leinwand, sagen manche Einwohner. Man könne dort Dinge ausprobieren, etwas bewirken. Ein Rundgang zu sozialen und kreativen Projekten in Fotos. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/reisen/2011-05/fs-detroit-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jessica Braun</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="eef2283c-48cd-4728-81e9-592b3bd633eb">
+          <block href="http://xml.zeit.de/lebensart/2011-04/datscha-liebeserklaerung" year="2011" issue="16" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:18:15+00:00" date-first-released="2011-05-06T07:42:01.624594+00:00" date-last-published="2013-03-30T08:18:41+00:00" last-semantic-change="2011-05-06T09:11:35.336696+00:00">
+            <supertitle py:pytype="str">Datscha</supertitle>
+            <title py:pytype="str">Meine Zuflucht auf dem Lande</title>
+            <text py:pytype="str">Wo soll man als junger Städter hin, wenn einem der Balkon zu eng und die Schrebergartensiedlung zu spießig ist? Diane Hielscher hat sich für die Datscha entschieden.</text>
+            <description py:pytype="str">Wo soll man als junger Städter hin, wenn einem der Balkon zu eng und die Schrebergartensiedlung zu spießig ist? Diane Hielscher hat sich für die Datscha entschieden.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/datscha-artikelbild/" type="jpg" publication-date="" expires="">
+              <bu>Eine Tasse, einen Grill, ein paar Leckereien: mehr braucht es nicht für einen Datscha-Urlaub.</bu>
+              <copyright py:pytype="str">© Carsten Lißmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/07/WOS-Landlust" year="2009" issue="7" ressort="Gesellschaft" publication-date="" expires="" date-last-modified="2012-06-21T22:04:10+00:00" date-first-released="2009-02-05T06:00:00+00:00" date-last-published="2012-06-22T00:04:45+00:00" last-semantic-change="2009-02-04T16:52:17.154361+00:00">
+            <supertitle py:pytype="str">landlust erfolgreich</supertitle>
+            <title py:pytype="str">Wie wasche ich mein Schaf?</title>
+            <text py:pytype="str">Warum gerade "Landlust" das erfolgreichste deutsche Lifestylemagazin ist - ein Besuch bei der Redaktion in Münster.</text>
+            <description py:pytype="str">Warum gerade "Landlust" das erfolgreichste deutsche Lifestylemagazin ist - ein Besuch bei der Redaktion in Münster.</description>
+            <byline py:pytype="str">Von Iris Radisch</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/07/leben/allgemein/landlust/" type="jpg" publication-date="" expires="">
+              <bu>Lebt auch von der Ermüdung der Hochleistungsgesellschaft: Das Lifestylemagazin "Landlust"</bu>
+              <copyright py:pytype="str">© Landwirtschaftsverlag GmbH</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2010-10/landlust-tv" year="2010" issue="41" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-03-30T15:51:40+00:00" date-first-released="2010-10-11T15:15:42.753882+00:00" date-last-published="2013-03-30T16:53:13+00:00" last-semantic-change="2010-10-11T14:56:41.926083+00:00">
+            <supertitle py:pytype="str">TV-Trend</supertitle>
+            <title py:pytype="str">"Ihre Unschuld vom Lande"</title>
+            <text py:pytype="str">Sat.1 will mit dem neuen Magazin "… ins Grüne" den Erfolg der Zeitschrift "Landlust" ins Fernsehen übertragen. Der Fokus liegt allerdings weniger auf Land, als auf Lust</text>
+            <description py:pytype="str">Sat.1 will mit dem neuen Magazin "… ins Grüne" den Erfolg der Zeitschrift "Landlust" ins Fernsehen übertragen. Der Fokus liegt allerdings weniger auf Land, als auf Lust</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/film/2010-10/landlust-tv-bild/" type="jpg" publication-date="" expires="">
+              <bu>Kleidchen und Stallgeruch: Miriam Pielhau räkelt sich für Sat.1 auf Heuballen</bu>
+              <copyright py:pytype="str">© Sat 1/Stephan Pick</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="5e3bda54-5e7b-4ba5-a977-68c2e43a3917" column_1="2">
+          <block href="http://xml.zeit.de/lebensart/2011-05/gardening-glosse" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-19T09:02:47+00:00" date-first-released="2011-05-04T08:39:28.793415+00:00" date-last-published="2012-07-19T11:06:04+00:00" last-semantic-change="2011-05-04T08:36:07.242402+00:00">
+            <supertitle py:pytype="str">Gardening</supertitle>
+            <title py:pytype="str">Subversion auf dem Kompost</title>
+            <text py:pytype="str">Gardening ist der letzte Schrei unter trendbewussten Großstädtern. Zwischen Tulpenzwiebeln und Rosenbeet kommen sie wieder zu sich selbst. Eine Glosse von David Hugendick</text>
+            <description py:pytype="str">Gardening ist der letzte Schrei unter trendbewussten Großstädtern. Zwischen Tulpenzwiebeln und Rosenbeet kommen sie wieder zu sich selbst. Eine Glosse von David Hugendick</description>
+            <byline xsi:nil="true"/>
+            <image alt="Eine New Yorkerin freut sich über gejätetes Unkraut. " align="left" base-id="http://xml.zeit.de/lebensart/2011-05/subversiv/" type="jpg" publication-date="" expires="">
+              <bu>Eine New Yorkerin freut sich über gejätetes Unkraut. </bu>
+              <copyright py:pytype="str">© Chris Hondros/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2011-04/firmengaerten-mitarbeiter" year="2011" issue="16" ressort="Karriere" publication-date="" expires="" date-last-modified="2013-03-30T07:31:58+00:00" date-first-released="2011-05-03T09:07:40.747541+00:00" date-last-published="2013-03-30T08:33:02+00:00" last-semantic-change="2011-05-03T09:30:12.912833+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Freizeit mit Kollegen</supertitle>
+            <title py:pytype="str">Buddeln im Betriebsgarten</title>
+            <text py:pytype="str">Unternehmen richten Gärten ein, in denen sich die Mitarbeiter entspannen können. In manchen Firmen werden die Angestellten selbst zum Gärtner.</text>
+            <description py:pytype="str">Unternehmen richten Gärten ein, in denen sich die Mitarbeiter entspannen können. In manchen Firmen werden die Angestellten selbst zum Gärtner.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Eine junge Frau sonnt sich im Garten" align="left" title="garten" base-id="http://xml.zeit.de/karriere/beruf/2011-04/garten/" type="jpg" publication-date="2011-04-15T16:35:26+00:00" expires="2011-07-15T16:35:28+00:00">
+              <bu>Eine junge Frau sonnt sich im Garten</bu>
+              <copyright py:pytype="str">© Peter Steffen/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2010-08/newyork-viadukt" year="2010" issue="32" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-03-30T18:28:57+00:00" date-first-released="2010-08-09T15:25:43.956419+00:00" date-last-published="2013-03-30T19:30:44+00:00" last-semantic-change="2010-08-09T15:24:29.247265+00:00">
+            <supertitle py:pytype="str">High Line Park</supertitle>
+            <title py:pytype="str">New Yorks grüner Laufsteg</title>
+            <text py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</text>
+            <description py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="High Line Park " base-id="http://xml.zeit.de/reisen/2010-08/highline-1/" type="jpg" publication-date="" expires="">
+              <bu>Statt der Hochbahn rauscht hier nur der Wind: der High Line Park in Manhattan</bu>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="0e840376-ca26-4580-a66f-20ac7c94c684">
+          <block href="http://xml.zeit.de/kultur/2011-04/tempelhofer-feld-architekt" year="2011" issue="16" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-03-30T08:04:47+00:00" date-first-released="2011-04-19T15:22:03.452414+00:00" date-last-published="2013-03-30T09:06:00+00:00" last-semantic-change="2011-04-19T12:00:12.369739+00:00">
+            <supertitle py:pytype="str">Landschaftsarchitekt Hooftman</supertitle>
+            <title py:pytype="str">"Tempelhof sollte ein Outdoor-Wohnzimmer für Berlin werden"</title>
+            <text py:pytype="str">Eelco Hooftman hat mit seinem Büro die Ausschreibung für das Tempelhofer Feld gewonnen. Warum Bürger die Parks der Zukunft mitgestalten, erzählt er im Interview.</text>
+            <description py:pytype="str">Eelco Hooftman hat mit seinem Büro die Ausschreibung für das Tempelhofer Feld gewonnen. Warum Bürger die Parks der Zukunft mitgestalten, erzählt er im Interview.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2011-04/tempelhof-weg/" type="jpg" publication-date="" expires="">
+              <bu>So könnte ein Weg durch die neue Parklandschaft Tempelhof aussehen, folgt man den Entwürfen des Landschaftsarchitekturbüros Gross.Max.</bu>
+              <copyright py:pytype="str">© Simulation: Gross Max</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/2011-04/entwurf-berlin-tempelhof" year="2011" issue="16" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-03-30T08:06:52+00:00" date-first-released="2011-04-18T12:34:34.040001+00:00" date-last-published="2013-03-30T09:07:41+00:00" last-semantic-change="2011-04-18T12:33:17.130308+00:00">
+            <supertitle py:pytype="str">Berlin</supertitle>
+            <title py:pytype="str">Schöne Aussicht vom Tempelhofer Fels</title>
+            <text py:pytype="str">Das Gelände des früheren Flughafens Tempelhof lockt immer mehr Berliner an. Nun gibt es neue Pläne für das Areal: Wege wie Planetenbahnen, Becken, Bäche und ein Denkmal.</text>
+            <description py:pytype="str">Das Gelände des früheren Flughafens Tempelhof lockt immer mehr Berliner an. Nun gibt es neue Pläne für das Areal: Wege wie Planetenbahnen, Becken, Bäche und ein Denkmal.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2011-04/tempelhofer-feld-1/" type="jpg" publication-date="" expires="">
+              <bu>Die britischen Landschaftsarchitekten und Stadtplaner von "Sutherland Hussey Architekten" und "gross.max. Landschaftsarchitekten" stellen sich vor, dass vor dem Hangar ein natürliches Kornfeld entsteht.</bu>
+              <copyright py:pytype="str">© Simulation: Gross Max </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-05/meine-ernte-gaertnern-stadt" year="2011" issue="20" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T06:57:41+00:00" date-first-released="2011-05-16T09:26:07.324511+00:00" date-last-published="2013-03-30T07:58:42+00:00" last-semantic-change="2011-05-16T09:24:31.986367+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Ein Acker zur Miete für Städter</title>
+            <text py:pytype="str">Die Firma "Meine Ernte" befriedigt den Wunsch vieler Städter nach einem Gemüsegarten. Wer ein Stück Erde mietet, bekommt die idiotensichere Anleitung gleich mitgeliefert.</text>
+            <description py:pytype="str">Die Firma "Meine Ernte" befriedigt den Wunsch vieler Städter nach einem Gemüsegarten. Wer ein Stück Erde mietet, bekommt die idiotensichere Anleitung gleich mitgeliefert.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-05/meine-ernte-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Radieschen, Kartoffeln - und eine Wunschreihe - kann man auf den gemieteten Gärten des Unternehmens "Meine Ernte" beackern.</bu>
+              <copyright py:pytype="str">© Meine Ernte</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="d1839684-a587-47b3-be83-b19da48fa800">
+          <block href="http://xml.zeit.de/lebensart/2011-05/schrebergarten-kleingaertner-heidelberg" year="2011" issue="21" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T06:09:18+00:00" date-first-released="2011-06-02T15:28:19.383424+00:00" date-last-published="2013-03-30T07:09:41+00:00" last-semantic-change="2011-06-02T15:24:32.957545+00:00">
+            <supertitle py:pytype="str">Integration</supertitle>
+            <title py:pytype="str">Steht ein Kasache im Schrebergarten</title>
+            <text py:pytype="str">In Kleingärten sind die Deutschen nicht mehr unter sich, jeder Dritte ist Ausländer. Das Ende von Gartenzwergen, Bierbäuchen und exakten Vorschriften? Von  J. T. Otte</text>
+            <description py:pytype="str">In Kleingärten sind die Deutschen nicht mehr unter sich, jeder Dritte ist Ausländer. Das Ende von Gartenzwergen, Bierbäuchen und exakten Vorschriften? Von  J. T. Otte</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Schrebergarten 02" base-id="http://xml.zeit.de/lebensart/2011-05/schrebergarten-02/" type="jpg" publication-date="" expires="">
+              <bu>Der kasachische Kleingärtner Walerij</bu>
+              <copyright py:pytype="str">© Jan Thomas Otte</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2011/s2/Natur-Schrebergaerten" year="2011" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-30T09:34:23+00:00" date-first-released="2011-03-15T06:00:00+00:00" date-last-published="2013-03-30T10:34:50+00:00" last-semantic-change="2011-03-15T15:42:15.600432+00:00">
+            <supertitle py:pytype="str">Schrebergärten</supertitle>
+            <title py:pytype="str">Von wegen spießig</title>
+            <text py:pytype="str">Schrebergärten sind die neuen Zufluchtsorte für junge  Städter. Sie wollen dort ökologisch Gemüse anbauen,  sich frei entfalten – oder suchen einfach nur Ruhe.</text>
+            <description py:pytype="str">Schrebergärten sind die neuen Zufluchtsorte für junge  Städter. Sie wollen dort ökologisch Gemüse anbauen,  sich frei entfalten – oder suchen einfach nur Ruhe.</description>
+            <byline py:pytype="str">von Julia Kimmerle und Dörthe Nath</byline>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-05/fs-schrebergarten" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-06-02T15:27:22+00:00" date-first-released="2011-05-17T14:48:03.102823+00:00" date-last-published="2011-06-02T15:28:22.329615+00:00" last-semantic-change="2011-05-17T14:46:25.777758+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Gardening</supertitle>
+            <title py:pytype="str">Hier wachsen Fortschritt und Schönheit</title>
+            <text py:pytype="str">Schrebergärten galten lange als spießig. Mit der wachsenden Sehnsucht nach etwas Grün im Großstadtleben werden sie nun wieder populär. Ein Besuch in Bildern.</text>
+            <description py:pytype="str">Schrebergärten galten lange als spießig. Mit der wachsenden Sehnsucht nach etwas Grün im Großstadtleben werden sie nun wieder populär. Ein Besuch in Bildern.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="FS Schrebergarten Teaser" base-id="http://xml.zeit.de/lebensart/2011-05/fs-schrebergarten-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Nele Heitmeyer/ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-04/datscha-liebeserklaerung" year="2011" issue="16" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:18:15+00:00" date-first-released="2011-05-06T07:42:01.624594+00:00" date-last-published="2013-03-30T08:18:41+00:00" last-semantic-change="2011-05-06T09:11:35.336696+00:00">
+            <supertitle py:pytype="str">Datscha</supertitle>
+            <title py:pytype="str">Meine Zuflucht auf dem Lande</title>
+            <text py:pytype="str">Wo soll man als junger Städter hin, wenn einem der Balkon zu eng und die Schrebergartensiedlung zu spießig ist? Diane Hielscher hat sich für die Datscha entschieden.</text>
+            <description py:pytype="str">Wo soll man als junger Städter hin, wenn einem der Balkon zu eng und die Schrebergartensiedlung zu spießig ist? Diane Hielscher hat sich für die Datscha entschieden.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/datscha-artikelbild/" type="jpg" publication-date="" expires="">
+              <bu>Eine Tasse, einen Grill, ein paar Leckereien: mehr braucht es nicht für einen Datscha-Urlaub.</bu>
+              <copyright py:pytype="str">© Carsten Lißmann</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="5e588e8d-d1c8-461b-ba35-c16a1a1eadc1">
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2011-04/tomaten-blogger" year="2011" issue="16" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:12:00+00:00" date-first-released="2011-05-11T04:58:05.926035+00:00" date-last-published="2013-03-30T08:13:12+00:00" last-semantic-change="2011-05-11T04:56:53.575752+00:00">
+            <supertitle py:pytype="str">Blogger Henry Steinbock</supertitle>
+            <title py:pytype="str">Der Tomaten-Aficionado</title>
+            <text py:pytype="str">Henry Steinbock ist Tomatenliebhaber und bloggt darüber. Warum gerade Tomaten? Weil sie so vielseitig sind. Und sogar auf dem kleinsten Balkon gedeihen.</text>
+            <description py:pytype="str">Henry Steinbock ist Tomatenliebhaber und bloggt darüber. Warum gerade Tomaten? Weil sie so vielseitig sind. Und sogar auf dem kleinsten Balkon gedeihen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-04/tomaten-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Rot, gelb, grün, flaschenförmig, fleischig oder kugelrund: Tomaten gibt es in unzähligen Variationen. </bu>
+              <copyright py:pytype="str">© Henry Steinbock</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-04/urban-gardening-netztipps-2" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:34:12+00:00" date-first-released="2011-05-02T08:22:19.192783+00:00" date-last-published="2013-03-30T08:34:52+00:00" last-semantic-change="2011-04-29T18:30:41.752277+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Die Netzgärtner</title>
+            <text py:pytype="str">Wer seine Straße im Guerilla-Gärtner-Stil begrünen oder einfach nur Erdbeeren auf dem Balkon züchten will, findet Hilfe im Netz. Die besten Tipps im Überblick.</text>
+            <description py:pytype="str">Wer seine Straße im Guerilla-Gärtner-Stil begrünen oder einfach nur Erdbeeren auf dem Balkon züchten will, findet Hilfe im Netz. Die besten Tipps im Überblick.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/netz-garten/" type="jpg" publication-date="" expires="">
+              <bu>Wer keinen grünen Daumen hat, findet im Netz zahlreiche Garten-Tipps.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=187957">© Thomas K. / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wissen/2010-02/tomaten-gentechnik" year="2010" issue="5" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-31T02:28:26+00:00" date-first-released="2010-02-02T12:17:55.890753+00:00" date-last-published="2013-03-31T04:29:46+00:00" last-semantic-change="2010-02-02T12:16:16.109407+00:00">
+            <supertitle py:pytype="str">Genmanipulierte Tomate</supertitle>
+            <title py:pytype="str">45 Tage knackfrisch</title>
+            <text py:pytype="str">Indische Gentechniker haben im Labor Tomaten entwickelt, die weitaus länger als andere haltbar sind. In der EU kommt solches Gemüse derzeit aber nicht auf den Markt.</text>
+            <description py:pytype="str">Indische Gentechniker haben im Labor Tomaten entwickelt, die weitaus länger als andere haltbar sind. In der EU kommt solches Gemüse derzeit aber nicht auf den Markt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Tomaten Gentechnik Ernährung Gemüse Gen-Tomate" align="left" base-id="http://xml.zeit.de/wissen/2010-02/tomate-frisch/" type="jpg" publication-date="" expires="">
+              <bu>Harte Tomate: Normalerweise werden reife Tomaten nach einigen Tagen weich. Nicht so die neue Sorte, die jetzt in Indien gentechnisch entwickelt wurde</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=345186">© benicce/photocase</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="813165f2-f0ef-46ae-a9a4-aa33bf79e67e">
+          <block href="http://xml.zeit.de/lebensart/2010-08/grossstadt-gaerten" year="2010" issue="32" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T18:32:24+00:00" date-first-released="2010-08-06T12:19:40.506404+00:00" date-last-published="2013-03-30T19:32:46+00:00" last-semantic-change="2010-08-06T10:28:48.081575+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Großstadt-Gärten</supertitle>
+            <title py:pytype="str">Wenn Städter Wurzeln schlagen</title>
+            <text py:pytype="str">Junge Leute wollen sich erden. Am liebsten in Nachbarschaftsgärten mitten in der Großstadt. Der Kreuzberger Prinzessinnengarten ist einer davon. Von Anne Haeming</text>
+            <description py:pytype="str">Junge Leute wollen sich erden. Am liebsten in Nachbarschaftsgärten mitten in der Großstadt. Der Kreuzberger Prinzessinnengarten ist einer davon. Von Anne Haeming</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2010-08/garten-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Gärtnern zwischen Graffitis: der Prinzessinnengarten liegt an einer lauten Kreuzung in Berlin-Kreuzberg </bu>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-04/prinzessinnengarten-neu" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:33:59+00:00" date-first-released="2011-05-02T08:05:03.439107+00:00" date-last-published="2013-03-30T08:34:52+00:00" last-semantic-change="2011-05-03T09:29:17.362171+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Prinzessinnengärten</supertitle>
+            <title py:pytype="str">Der Garten als Marke</title>
+            <text py:pytype="str">Die Berliner Prinzessinnengärten starten ihre dritte Saison. Die Macher des urbanen Gartenprojekts haben nur ein Problem: Sie sind zu erfolgreich. Von Anne Haeming</text>
+            <description py:pytype="str">Die Berliner Prinzessinnengärten starten ihre dritte Saison. Die Macher des urbanen Gartenprojekts haben nur ein Problem: Sie sind zu erfolgreich. Von Anne Haeming</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/prinzessinnen-artikel-gross/" type="jpg" publication-date="" expires="">
+              <bu>Saatgut vor Hochhaussilhouetten: in den roten Kästen ist genau vermerkt, was dort bald blühen soll.</bu>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+            <video href="http://xml.zeit.de/video/2011-04/923126412001" href2="" expires="" video_id="vid923126412001" video_id_2=""/>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2010-03/balkon-fruehling" year="2010" issue="12" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-20T16:11:53+00:00" date-first-released="2010-03-20T07:24:48.210321+00:00" date-last-published="2012-07-20T18:14:45+00:00" last-semantic-change="2010-03-20T08:02:25.107352+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Balkon-Design</supertitle>
+            <title py:pytype="str">Stiefmütterchen sind für Spießer</title>
+            <text py:pytype="str">Zum Frühlingsanfang soll es wuchern und duften auf dem Balkon. Und zwar so, dass die Nachbarn vor Neid verblühen. Kirsten Haake erklärt, welche Blumen Stil haben.</text>
+            <description py:pytype="str">Zum Frühlingsanfang soll es wuchern und duften auf dem Balkon. Und zwar so, dass die Nachbarn vor Neid verblühen. Kirsten Haake erklärt, welche Blumen Stil haben.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2010-03/balkon-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Blumentöpfe müssen keine hässlichen Plastikkübel sein - hier ein moderner Großstadt-Entwurf von Michael Hilgers</bu>
+              <copyright py:pytype="str" link="http://www.stadtbedarf.de">© Design: !idee/Michael Hilgers</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/21/WOS-Bienen" year="2010" issue="21" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T21:44:58+00:00" date-first-released="2010-05-20T06:00:00+00:00" date-last-published="2013-03-30T22:46:10+00:00" last-semantic-change="2010-05-24T15:56:01.191103+00:00">
+            <supertitle py:pytype="str">Imkerei</supertitle>
+            <title py:pytype="str">Urbane Bienenhaltung über den Dächern von New York</title>
+            <text py:pytype="str">New Yorker Feinschmecker haben ein neues Hobby: Sie züchten Bienen. Auf den Dächern von Stadthäusern liefern ihre Bienenvölker nun heiß begehrten Honig.</text>
+            <description py:pytype="str">New Yorker Feinschmecker haben ein neues Hobby: Sie züchten Bienen. Auf den Dächern von Stadthäusern liefern ihre Bienenvölker nun heiß begehrten Honig.</description>
+            <byline py:pytype="str">Claudia Steinberg</byline>
+            <image alt="Eine Imkerin betrachtet auf dem Dach ihres Hauses eine Bienenwabe " align="left" title="Imker" base-id="http://xml.zeit.de/reisen/2010-05/imker-new-york/" type="jpg" publication-date="" expires="">
+              <bu>Eine Imkerin betrachtet auf dem Dach ihres Hauses eine Bienenwabe </bu>
+              <copyright py:pytype="str">© Chris Hondros/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f8d25cfc-a2fd-4975-8478-0768fa7ee265">
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2011-06/prinzessinnengaerten-kraeuter" year="2011" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-03T13:23:21+00:00" date-first-released="2011-06-30T07:31:40.529309+00:00" date-last-published="2012-02-03T16:08:01.014952+00:00" last-semantic-change="2011-07-06T13:52:12.569659+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Kräuter ziehen im Tetrapak</title>
+            <text py:pytype="str">Kräuter aus der Kühltheke? Von wegen: In diesem Sommer heißt es Selbermachen. Die Berliner Prinzessinnengärtner erklären, wie man Minze oder Salbei in Tetrapaks anbaut.</text>
+            <description py:pytype="str">Kräuter aus der Kühltheke? Von wegen: In diesem Sommer heißt es Selbermachen. Die Berliner Prinzessinnengärtner erklären, wie man Minze oder Salbei in Tetrapaks anbaut.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-06/teaser-tetra/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-06/prinzessinnengaertner-stecklinge" year="2011" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-03T13:22:31+00:00" date-first-released="2011-06-23T16:06:01.327819+00:00" date-last-published="2012-02-03T17:50:01.538484+00:00" last-semantic-change="2011-06-17T12:43:21.990116+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Wer ernten will, muss Stecklinge züchten</title>
+            <text py:pytype="str">Statt Kräuter aus dem Gefrierfach heißt es diesen Sommer: selber machen. Die Berliner Prinzessinnengärtner erklären wie. Folge 4: Kräuterstecklinge ziehen. Von A. Haeming</text>
+            <description py:pytype="str">Statt Kräuter aus dem Gefrierfach heißt es diesen Sommer: selber machen. Die Berliner Prinzessinnengärtner erklären wie. Folge 4: Kräuterstecklinge ziehen. Von A. Haeming</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="pgarten Steckling" base-id="http://xml.zeit.de/lebensart/2011-06/pgarten-steckling/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© BITTE CREDIT EINTRAGEN</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-06/prinzessinnengaertner-brennesseljauche" year="2011" issue="24" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T05:41:00+00:00" date-first-released="2011-06-16T17:09:56.133051+00:00" date-last-published="2013-03-30T06:42:30+00:00" last-semantic-change="2011-06-16T17:15:51.949776+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Mit Biobrühe gegen Ungeziefer</title>
+            <text py:pytype="str">Chemiekeule gegen Gartenschädlinge? Von wegen: In diesem Sommer heißt es Selbermachen. Die Berliner Prinzessinnengärtner erklären, wie's geht. Folge 3: Brennnesseljauche.</text>
+            <description py:pytype="str">Chemiekeule gegen Gartenschädlinge? Von wegen: In diesem Sommer heißt es Selbermachen. Die Berliner Prinzessinnengärtner erklären, wie's geht. Folge 3: Brennnesseljauche.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-06/prinzessinnengaertner-brennesseljauche-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2011-05/prinzessinnengarten-zucchini" year="2011" issue="21" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T06:04:29+00:00" date-first-released="2011-06-06T17:33:07.846190+00:00" date-last-published="2013-03-30T07:06:05+00:00" last-semantic-change="2011-06-06T17:31:56.159679+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Ein Kürbis vor dem Fenster</title>
+            <text py:pytype="str">Gemüse aus dem Supermarkt? Kürbisse, Zucchini und Melonen kann man auch auf dem Balkon pflanzen. Die Mitarbeiter der Berliner Prinzessinnengärten erklären, wie's geht.</text>
+            <description py:pytype="str">Gemüse aus dem Supermarkt? Kürbisse, Zucchini und Melonen kann man auch auf dem Balkon pflanzen. Die Mitarbeiter der Berliner Prinzessinnengärten erklären, wie's geht.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-05/teaser-kuerbis/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="826b03ae-009d-48bd-b629-b77377d5f32e">
+          <block href="http://xml.zeit.de/lebensart/2011-06/prinzessinnengaertner-brennesseljauche" year="2011" issue="24" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T05:41:00+00:00" date-first-released="2011-06-16T17:09:56.133051+00:00" date-last-published="2013-03-30T06:42:30+00:00" last-semantic-change="2011-06-16T17:15:51.949776+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Mit Biobrühe gegen Ungeziefer</title>
+            <text py:pytype="str">Chemiekeule gegen Gartenschädlinge? Von wegen: In diesem Sommer heißt es Selbermachen. Die Berliner Prinzessinnengärtner erklären, wie's geht. Folge 3: Brennnesseljauche.</text>
+            <description py:pytype="str">Chemiekeule gegen Gartenschädlinge? Von wegen: In diesem Sommer heißt es Selbermachen. Die Berliner Prinzessinnengärtner erklären, wie's geht. Folge 3: Brennnesseljauche.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-06/prinzessinnengaertner-brennesseljauche-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2011-05/prinzessinnengarten-zucchini" year="2011" issue="21" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T06:04:29+00:00" date-first-released="2011-06-06T17:33:07.846190+00:00" date-last-published="2013-03-30T07:06:05+00:00" last-semantic-change="2011-06-06T17:31:56.159679+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Ein Kürbis vor dem Fenster</title>
+            <text py:pytype="str">Gemüse aus dem Supermarkt? Kürbisse, Zucchini und Melonen kann man auch auf dem Balkon pflanzen. Die Mitarbeiter der Berliner Prinzessinnengärten erklären, wie's geht.</text>
+            <description py:pytype="str">Gemüse aus dem Supermarkt? Kürbisse, Zucchini und Melonen kann man auch auf dem Balkon pflanzen. Die Mitarbeiter der Berliner Prinzessinnengärten erklären, wie's geht.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-05/teaser-kuerbis/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-05/prinzessinnengaertner-kartoffeln" year="2011" issue="21" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T06:08:37+00:00" date-first-released="2011-06-03T09:51:00.904798+00:00" date-last-published="2013-03-30T07:09:41+00:00" last-semantic-change="2011-06-03T09:49:48.242340+00:00">
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Ein Kartoffelacker auf dem Balkon</title>
+            <text py:pytype="str">Gemüse aus dem Supermarkt? Kartoffeln kann man auch auf dem Balkon pflanzen. Die Mitarbeiter der Berliner Prinzessinnengärten erklären, wie’s geht.</text>
+            <description py:pytype="str">Gemüse aus dem Supermarkt? Kartoffeln kann man auch auf dem Balkon pflanzen. Die Mitarbeiter der Berliner Prinzessinnengärten erklären, wie’s geht.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-05/teaser-kartoffeln/" type="jpg" publication-date="" expires="">
+              <bu>Aus einem mit Erde gefüllten Reissack kann man bis zu einem Kilo Kartoffeln ernten.</bu>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/lebensart/urban-gardening/index" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-24T09:24:06+00:00" date-first-released="2011-05-02T08:28:27.842125+00:00" date-last-published="2013-04-07T01:18:37.119389+00:00" last-semantic-change="2012-07-16T12:33:53.451815+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <title py:pytype="str">Urban Gardening</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Urban Gardening Themenseite" base-id="http://xml.zeit.de/lebensart/2011-05/urban-gardening-themenseite/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bob Strong/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="c439e187-8671-4940-a2ca-22b3c1d28ae4" column_1="1">
+          <block href="http://xml.zeit.de/kultur/2011-05/fs-buga-2" year="2011" issue="19" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-05-16T10:07:03+00:00" date-first-released="2011-05-13T08:45:43.734765+00:00" date-last-published="2011-05-16T10:08:03.182237+00:00" last-semantic-change="2011-05-13T11:07:30.549745+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Bundesgartenschau</supertitle>
+            <title py:pytype="str">Absolute Prachtbeblühung in Koblenz</title>
+            <text py:pytype="str">Die BuGa verwandelt das Rheintal bei Koblenz. Der Fotograf Dominik Schneck hat die Absurdität – und Schönheit – dieser so typischen Veranstaltung eingefangen.</text>
+            <description py:pytype="str">Die BuGa verwandelt das Rheintal bei Koblenz. Der Fotograf Dominik Schneck hat die Absurdität – und Schönheit – dieser so typischen Veranstaltung eingefangen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Buga Teaser" base-id="http://xml.zeit.de/kultur/2011-05/fs-buga-teaser-03/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Dominik Schneck</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-05/buga-koblenz-2011" year="2011" issue="19" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:01:28+00:00" date-first-released="2011-05-13T08:22:59.171778+00:00" date-last-published="2013-03-30T08:02:42+00:00" last-semantic-change="2011-05-10T13:56:05.310346+00:00">
+            <supertitle py:pytype="str">Bundesgartenschau</supertitle>
+            <title py:pytype="str">Koblenz blüht mit</title>
+            <text py:pytype="str">Dank der Bundesgartenschau und 600.000 verpflanzten Blumenzwiebeln ist Koblenz – dieser nichtssagende Ort am Treffpunkt zweier Flüsse – wie verwandelt. Von. C. Rietz</text>
+            <description py:pytype="str">Dank der Bundesgartenschau und 600.000 verpflanzten Blumenzwiebeln ist Koblenz – dieser nichtssagende Ort am Treffpunkt zweier Flüsse – wie verwandelt. Von. C. Rietz</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.zeit.de/kultur/2011-05/fs-buga-2" title="Buga-Teaser" base-id="http://xml.zeit.de/kultur/2011-05/fs-buga-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Ein Herr mit blumenverziertem Hut auf der Bundesgartenschau in Koblenz; um alle Bilder von der Bundesgartenschau in Koblenz zu sehen, klicken Sie bitte auf dieses Bild.</bu>
+              <copyright py:pytype="str">© Dominik Schneck</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2010-10/expo-shanghai" year="2010" issue="44" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-03-30T14:58:44+00:00" date-first-released="2010-10-31T17:45:15.646157+00:00" date-last-published="2013-03-30T16:00:50+00:00" last-semantic-change="2010-10-29T18:14:42.133675+00:00">
+            <supertitle py:pytype="str">Expo Shanghai</supertitle>
+            <title py:pytype="str">"Gärten sind für Chinesen wie ein Traum"</title>
+            <text py:pytype="str">Die Pavillons in Shanghai werden abgebaut. Doch der Botanische Garten des Landschaftsarchitekten Christoph Valentien bleibt. Ein Interview über Feng-Shui und Ökologie.</text>
+            <description py:pytype="str">Die Pavillons in Shanghai werden abgebaut. Doch der Botanische Garten des Landschaftsarchitekten Christoph Valentien bleibt. Ein Interview über Feng-Shui und Ökologie.</description>
+            <byline py:pytype="str">Stefan Schomann</byline>
+            <image alt="Eine Osmanthus-Blüte" align="left" title="Osmanthus" base-id="http://xml.zeit.de/reisen/2010-10/osmanthus-bluete/" type="jpg" publication-date="" expires="">
+              <bu>Eine Osmanthus-Blüte</bu>
+              <copyright py:pytype="str">© Hyougushi/flickr.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="236fbac9-466c-4f44-bfa4-d4065e6bb92d">
+          <block href="http://xml.zeit.de/lebensart/2011-04/imkern-stadt" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:13:33+00:00" date-first-released="2011-05-10T09:40:57.624650+00:00" date-last-published="2013-03-30T08:15:00+00:00" last-semantic-change="2011-05-10T09:39:26.118416+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Imkern in der Stadt</supertitle>
+            <title py:pytype="str">Irgendwer muss Berlins 3000 Königinnen pflegen</title>
+            <text py:pytype="str">Die Sehnsucht nach Natur in der Stadt wächst, Imkern wird immer beliebter. Doch vor dem Honig steht eine Menge Geduld, Zeit und Schweiß. Von Judith Innerhofer</text>
+            <description py:pytype="str">Die Sehnsucht nach Natur in der Stadt wächst, Imkern wird immer beliebter. Doch vor dem Honig steht eine Menge Geduld, Zeit und Schweiß. Von Judith Innerhofer</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="BG Bienen Teaser und Artikelbild" base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-04/bg-bienen-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Judith Innerhofer</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2011-02/beruf-imker" year="2011" issue="8" ressort="Karriere" publication-date="" expires="" date-last-modified="2013-03-30T10:30:43+00:00" date-first-released="2011-02-21T18:59:51.238583+00:00" date-last-published="2013-03-30T11:31:38+00:00" last-semantic-change="2011-02-18T12:35:57.001915+00:00">
+            <supertitle py:pytype="str">Imker</supertitle>
+            <title py:pytype="str">Die Bienenbetörer</title>
+            <text py:pytype="str">300 Bienenvölker braucht es, um hauptberuflich von der Imkerei zu leben. Was sonst noch wichtig ist und wie der Berufsalltag aussieht, erklärt der Beruf der Woche.</text>
+            <description py:pytype="str">300 Bienenvölker braucht es, um hauptberuflich von der Imkerei zu leben. Was sonst noch wichtig ist und wie der Berufsalltag aussieht, erklärt der Beruf der Woche.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Imker hebt eine Wabe aus einem Bienenstock" align="left" title="imker" base-id="http://xml.zeit.de/karriere/beruf/2011-02/imker/" type="jpg" publication-date="" expires="">
+              <bu>Ein Imker hebt eine Wabe aus einem Bienenstock</bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/21/WOS-Bienen" year="2010" issue="21" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T21:44:58+00:00" date-first-released="2010-05-20T06:00:00+00:00" date-last-published="2013-03-30T22:46:10+00:00" last-semantic-change="2010-05-24T15:56:01.191103+00:00">
+            <supertitle py:pytype="str">Imkerei</supertitle>
+            <title py:pytype="str">Urbane Bienenhaltung über den Dächern von New York</title>
+            <text py:pytype="str">New Yorker Feinschmecker haben ein neues Hobby: Sie züchten Bienen. Auf den Dächern von Stadthäusern liefern ihre Bienenvölker nun heiß begehrten Honig.</text>
+            <description py:pytype="str">New Yorker Feinschmecker haben ein neues Hobby: Sie züchten Bienen. Auf den Dächern von Stadthäusern liefern ihre Bienenvölker nun heiß begehrten Honig.</description>
+            <byline py:pytype="str">Claudia Steinberg</byline>
+            <image alt="Eine Imkerin betrachtet auf dem Dach ihres Hauses eine Bienenwabe " align="left" title="Imker" base-id="http://xml.zeit.de/reisen/2010-05/imker-new-york/" type="jpg" publication-date="" expires="">
+              <bu>Eine Imkerin betrachtet auf dem Dach ihres Hauses eine Bienenwabe </bu>
+              <copyright py:pytype="str">© Chris Hondros/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/27/N-Beton-Honig" year="2010" issue="27" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-30T20:00:57+00:00" date-first-released="2010-07-01T06:00:00+00:00" date-last-published="2013-03-30T21:02:34+00:00" last-semantic-change="2010-06-30T13:56:22.408770+00:00">
+            <supertitle py:pytype="str">Bienen</supertitle>
+            <title py:pytype="str">Honig mit Stadtaroma</title>
+            <text py:pytype="str">Bienenvölkern in Ballungsräumen geht es besonders gut. Warum, ist unklar. Doch ihr Honig ist etwas Besonderes. Denn die Stadthaltung macht sich im Geschmack bemerkbar.</text>
+            <description py:pytype="str">Bienenvölkern in Ballungsräumen geht es besonders gut. Warum, ist unklar. Doch ihr Honig ist etwas Besonderes. Denn die Stadthaltung macht sich im Geschmack bemerkbar.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Imker Bienen Stadt" align="left" base-id="http://xml.zeit.de/wissen/umwelt/2010-06/imker-bienen-honig/" type="jpg" publication-date="" expires="">
+              <bu>500 Imker lassen mitten in Berlin ihre Bienen fliegen</bu>
+              <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="67f44ddc-261e-4844-8d09-db210751d40a">
+          <block href="http://xml.zeit.de/lebensart/2011-04/dachgarten-roofgarden-stadt" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:15:31+00:00" date-first-released="2011-05-09T06:21:33.809578+00:00" date-last-published="2013-03-30T08:16:53+00:00" last-semantic-change="2011-05-09T06:19:58.579099+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten</supertitle>
+            <title py:pytype="str">Die kühlen Grünen</title>
+            <text py:pytype="str">Pflanzen über der Stadt: Dachgärten sind nicht nur dekorativ anzusehen. Sie kühlen an heißen Tagen und schonen die Kanalisation nach starken Regenfällen. Von Sami Skalli</text>
+            <description py:pytype="str">Pflanzen über der Stadt: Dachgärten sind nicht nur dekorativ anzusehen. Sie kühlen an heißen Tagen und schonen die Kanalisation nach starken Regenfällen. Von Sami Skalli</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/dachgarten-singapur/" type="jpg" publication-date="" expires="">
+              <bu>Ein Dachgarten auf einem Fünf-Sterne-Hotel in Singapur</bu>
+              <copyright py:pytype="str">© Roslan Rahman/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/10/Wohnen-Essay" year="2011" issue="10" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T09:58:42+00:00" date-first-released="2011-03-03T06:00:00+00:00" date-last-published="2013-03-30T10:58:59+00:00" last-semantic-change="2011-03-15T14:13:26.840546+00:00">
+            <supertitle py:pytype="str">Architektur in Deutschland</supertitle>
+            <title py:pytype="str">Freier wohnen</title>
+            <text py:pytype="str">Veränderte Lebensgrundrisse verlangen nach neuen Wohngrundrissen. Viele Deutsche suchen nach Alternativen zu Einfamilienhaus oder Altbauwohnung – und finden sie auch.</text>
+            <description py:pytype="str">Veränderte Lebensgrundrisse verlangen nach neuen Wohngrundrissen. Viele Deutsche suchen nach Alternativen zu Einfamilienhaus oder Altbauwohnung – und finden sie auch.</description>
+            <byline py:pytype="str">Hanno Rauterberg</byline>
+            <image alt="Hamburger Hafencity: Auf dem rund 157 Hektar großen Gelände entstehen circa 5500 Wohnungen für 12.000 Menschen" align="left" base-id="http://xml.zeit.de/kultur/2011-03/freier-leben-bild/" type="jpg" publication-date="" expires="2011-06-01T12:39:46+00:00">
+              <bu>Hamburger Hafencity: Auf dem rund 157 Hektar großen Gelände entstehen circa 5500 Wohnungen für 12.000 Menschen</bu>
+              <copyright py:pytype="str">© Kay Nietfeld/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2010-06/neu-new-york-dachgaerten" year="2010" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-05-09T06:20:35+00:00" date-first-released="2010-06-23T14:13:30.149304+00:00" date-last-published="2011-05-09T06:21:34.958875+00:00" last-semantic-change="2010-06-23T14:11:27.810439+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten in New York</supertitle>
+            <title py:pytype="str">Eine Oase im 24. Stock</title>
+            <text py:pytype="str">Zwischen den Wolkenkratzern von New York ist jeder Fleck Natur ein Luxus. Betsy Pinover Schiff hat die schönsten Orte der Stadt, die Dachgärten, fotografiert.</text>
+            <description py:pytype="str">Zwischen den Wolkenkratzern von New York ist jeder Fleck Natur ein Luxus. Betsy Pinover Schiff hat die schönsten Orte der Stadt, die Dachgärten, fotografiert.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.zeit.de/lebensart/2010-06/neu-new-york-dachgaerten" base-id="http://xml.zeit.de/lebensart/2010-06/teaser-dachgaerten/" type="jpg" publication-date="" expires="">
+              <bu>Um die Fotostrecke über New Yorker Dachgärten zu sehen, klicken Sie bitte auf das Bild</bu>
+              <copyright py:pytype="str">© 2010 Betsy Pinover Schiff</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="de4f7213-265d-4ccf-98ba-c4e08068c519">
+          <block href="http://xml.zeit.de/kultur/kunst/2011-04/fs-nester-simon-starke" year="2011" issue="16" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-12-29T17:26:35+00:00" date-first-released="2011-05-07T06:22:48.723349+00:00" date-last-published="2011-12-29T17:27:35.007632+00:00" last-semantic-change="2011-05-07T06:21:24.742641+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotografie</supertitle>
+            <title py:pytype="str">Wenn die Bäume den Vorhang zuziehen</title>
+            <text py:pytype="str">Der Fotograf Simon Starke zeigt in seinem Fotoband "Nester" leer stehende Ferienhäuser. Wohnstätten, die sich fast in der Natur auflösen. 
+</text>
+            <description py:pytype="str">Der Fotograf Simon Starke zeigt in seinem Fotoband "Nester" leer stehende Ferienhäuser. Wohnstätten, die sich fast in der Natur auflösen. 
+</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="FS Nester Simon Starke" base-id="http://xml.zeit.de/kultur/kunst/2011-04/fs-nester-simon-starke-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.textem.de/index.php?id=2231">© Simon Starke</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2010-02/bg-transmediale" year="2010" issue="6" ressort="Kultur" publication-date="" expires="" date-last-modified="2010-02-05T10:25:41+00:00" date-first-released="2010-02-05T10:07:59.091771+00:00" date-last-published="2010-02-05T10:26:41.728041+00:00" last-semantic-change="2010-02-05T10:08:53.169656+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Transmediale</supertitle>
+            <title py:pytype="str">Zurück in die Zukunft</title>
+            <text py:pytype="str">Auf der Berliner Medienkunst-Tagung Transmediale stellen zehn Installationen die Frage, welche Utopien die Zukunft noch für uns bereithält.</text>
+            <description py:pytype="str">Auf der Berliner Medienkunst-Tagung Transmediale stellen zehn Installationen die Frage, welche Utopien die Zukunft noch für uns bereithält.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Future Obscura" base-id="http://xml.zeit.de/kultur/kunst/2010-02/future-obscura-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Zilvinas Kempinas</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/2011-04/cy-twombly-ausstellung" year="2011" issue="15" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-03-30T08:21:29+00:00" date-first-released="2011-04-12T15:04:18.759478+00:00" date-last-published="2013-03-30T09:22:08+00:00" last-semantic-change="2011-04-12T13:44:11.684073+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Künstler Cy Twombly</supertitle>
+            <title py:pytype="str">Blumen, von Licht durchtränkt</title>
+            <text py:pytype="str">Cy Twombly ist vor allem für seine expressionistischen Gemälde bekannt. Nun zeigt eine Münchner Ausstellung erstmals seine lichtdurchfluteten, poetischen Fotografien.</text>
+            <description py:pytype="str">Cy Twombly ist vor allem für seine expressionistischen Gemälde bekannt. Nun zeigt eine Münchner Ausstellung erstmals seine lichtdurchfluteten, poetischen Fotografien.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Cy Twombly Blumen" base-id="http://xml.zeit.de/kultur/kunst/2011-04/cy-twombly-blumen/" type="jpg" publication-date="" expires="2011-10-30T22:59:59+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Museum Brandhorst</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="45c68687-52dd-4bd2-94fc-448642c0ff3e">
+          <block href="http://xml.zeit.de/reisen/2011-05/kolumne-garten" year="2011" issue="18" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-03-30T07:26:50+00:00" date-first-released="2011-05-05T14:22:48.832807+00:00" date-last-published="2013-03-30T08:27:16+00:00" last-semantic-change="2011-05-04T07:43:03.904601+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Das Ohr zur Welt (14)</supertitle>
+            <title py:pytype="str">Bringen Sie Ihren Garten zum Klingen</title>
+            <text py:pytype="str">Gärten sind akustische Oasen. Mit den entsprechenden Kenntnissen kann man einen Garten sogar in eine Sinfonie verwandeln, meint Audio-Kolumnist Gordon Hempton.</text>
+            <description py:pytype="str">Gärten sind akustische Oasen. Mit den entsprechenden Kenntnissen kann man einen Garten sogar in eine Sinfonie verwandeln, meint Audio-Kolumnist Gordon Hempton.</description>
+            <byline py:pytype="str">Gordon Hempton</byline>
+            <image alt="Einer der Springbrunnen in Longwood Gardens, Pennsylvania" align="left" base-id="http://xml.zeit.de/reisen/2011-05/longwood/" type="jpg" publication-date="" expires="">
+              <bu>Einer der Springbrunnen in Longwood Gardens, Pennsylvania. </bu>
+              <copyright py:pytype="str">© Gordon Hempton</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2011-01/kolumne-hawaii" year="2011" issue="4" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-03-30T11:32:04+00:00" date-first-released="2011-01-27T12:05:57.392406+00:00" date-last-published="2013-03-30T12:33:12+00:00" last-semantic-change="2011-01-27T12:03:47.176190+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Das Ohr zur Welt (7)</supertitle>
+            <title py:pytype="str">Einstimmen auf Hawaii</title>
+            <text py:pytype="str">Wenn Wale plauschen, lauscht der Dritte: Unser Audio-Kolumnist Gordon Hempton ist auf Big Island unterwegs, um Tierstimmen aufzunehmen. Und um auszuspannen.</text>
+            <description py:pytype="str">Wenn Wale plauschen, lauscht der Dritte: Unser Audio-Kolumnist Gordon Hempton ist auf Big Island unterwegs, um Tierstimmen aufzunehmen. Und um auszuspannen.</description>
+            <byline py:pytype="str">Gordon Hempton</byline>
+            <image alt="Stehpaddeln im Sonnenuntergang " align="left" title="Hawaii" base-id="http://xml.zeit.de/reisen/2011-01/hawaii/" type="jpg" publication-date="" expires="">
+              <bu>Stehpaddeln im Sonnenuntergang </bu>
+              <copyright py:pytype="str">© SAUL LOEB/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="5ca90803-8f41-475a-abca-0d0e5f84aac0">
+          <block href="http://xml.zeit.de/lebensart/2011-04/gutes-gaertnern" year="2011" issue="16" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:28:39+00:00" date-first-released="2011-05-04T08:28:14.943039+00:00" date-last-published="2013-03-30T08:29:04+00:00" last-semantic-change="2011-05-04T11:03:56.748402+00:00">
+            <supertitle py:pytype="str">Gardening</supertitle>
+            <title py:pytype="str">Der Gärtner ist der Gute</title>
+            <text py:pytype="str">Die ersten Menschen wurden aus einem Garten vertrieben - völlig natürlich, dass wir uns immer noch danach sehnen. Warum uns Gärtnern Demut lehrt. Von Anna von Münchhausen</text>
+            <description py:pytype="str">Die ersten Menschen wurden aus einem Garten vertrieben - völlig natürlich, dass wir uns immer noch danach sehnen. Warum uns Gärtnern Demut lehrt. Von Anna von Münchhausen</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/bilder-pflanzer/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/manun">© manun / photocase.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="34c62992-12f1-4c81-9b70-3583207e86a7">
+          <block href="http://xml.zeit.de/lebensart/2011-04/garten-mietrecht" year="2011" issue="16" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-30T07:29:34+00:00" date-first-released="2011-05-04T05:50:30.461713+00:00" date-last-published="2013-03-30T08:31:11+00:00" last-semantic-change="2011-05-04T05:49:15.481539+00:00">
+            <supertitle py:pytype="str">Gärtnern als Mieter</supertitle>
+            <title py:pytype="str">Ein Beet im Hinterhof</title>
+            <text py:pytype="str">Der Hinterhof ist kahl, warum also nicht ein paar Beete anlegen? Leider ist es nicht ganz so einfach. Wann und wie man als Mieter zum Gärtner werden darf.</text>
+            <description py:pytype="str">Der Hinterhof ist kahl, warum also nicht ein paar Beete anlegen? Leider ist es nicht ganz so einfach. Wann und wie man als Mieter zum Gärtner werden darf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/garten-hinterhof/" type="jpg" publication-date="" expires="">
+              <bu>Den Hinterhof verschönern - daran kann doch nichts Unrechtes sein! Doch, kann es,  man sollte vorher auf jeden Fall erstmal den Mietvertrag lesen.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/kallejipp">© kallejipp / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2011-04/wendland-blindgaenger" year="2011" issue="14" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-03-30T08:42:03+00:00" date-first-released="2011-04-04T13:28:18.761691+00:00" date-last-published="2013-03-30T09:43:39+00:00" last-semantic-change="2011-04-04T13:27:04.296298+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Kurzfilm "Der Blindgänger"</supertitle>
+            <title py:pytype="str">Der Sprengsatz in der Gartenlaubenkolonie</title>
+            <text py:pytype="str">In dem Kurzfilm kann man zwei nicht wirklich sympathischen Menschen dabei zusehen, wie sie einander schätzen lernen. Am Ende haben sie den Zuschauer auf ihrer Seite.</text>
+            <description py:pytype="str">In dem Kurzfilm kann man zwei nicht wirklich sympathischen Menschen dabei zusehen, wie sie einander schätzen lernen. Am Ende haben sie den Zuschauer auf ihrer Seite.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Wendland, Film, Blindgänger, Kultur" align="left" title="blindgaenger" base-id="http://xml.zeit.de/kultur/2011-04/blindgaenger/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <video href="http://xml.zeit.de/video/2011-04/876766796001" href2="" expires="2011-05-16T04:00:00+00:00" video_id="vid876766796001" video_id_2=""/>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2011/s2/Natur-Stadt-Land-Garten" year="2011" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-30T09:34:10+00:00" date-first-released="2011-03-15T06:00:00+00:00" date-last-published="2013-03-30T10:34:50+00:00" last-semantic-change="2011-03-15T16:25:28.824157+00:00">
+            <supertitle py:pytype="str">Gartenprojekte</supertitle>
+            <title py:pytype="str">Die neue Lust auf Natur</title>
+            <text py:pytype="str">Schrebergärten sind schick geworden. Manche holen sich den Garten in die Wohnung oder versorgen sich aus eigenem Anbau. Gärtner erzählen von ihren grünen Projekten.</text>
+            <description py:pytype="str">Schrebergärten sind schick geworden. Manche holen sich den Garten in die Wohnung oder versorgen sich aus eigenem Anbau. Gärtner erzählen von ihren grünen Projekten.</description>
+            <byline py:pytype="str">Von Julia Kimmerle und Dörthe Nath</byline>
+            <image alt="Viele Menschen suchen Erholung im grünen Idyll" align="left" title="Grün Natur Umwelt Wiese Gras" base-id="http://xml.zeit.de/wissen/umwelt/2011-03/natur-wiese-baum/" type="jpg" publication-date="" expires="">
+              <bu>Viele Menschen suchen Erholung im grünen Idyll</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=88994">© kipfal/photocase.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="016afff7-22fd-49e7-bbea-8dd1fd218b47">
+          <block href="http://xml.zeit.de/zeit-geschichte/2010/04/reportage-gartenkolonie-eden" year="2010" issue="4" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-30T14:01:23+00:00" date-first-released="2010-11-23T06:00:00+00:00" date-last-published="2013-03-30T15:03:01+00:00" last-semantic-change="2010-11-29T10:20:30.802337+00:00">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Berliner Gartenkolonie</supertitle>
+            <title py:pytype="str">Woodstock und Kommune im Kaiserreich</title>
+            <text py:pytype="str">Nackt, vegetarisch, bedürfnislos: Genervte Städter und hoffnungsvolle Träumer suchten in der Lebensreform ihr Glück und fanden es in der Gartenkolonie Eden bei Berlin.</text>
+            <description py:pytype="str">Nackt, vegetarisch, bedürfnislos: Genervte Städter und hoffnungsvolle Träumer suchten in der Lebensreform ihr Glück und fanden es in der Gartenkolonie Eden bei Berlin.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Schön, wie ein Garten Eden" href="http://www.photocase.de/de/user.asp?u=930" align="left" title="Garten Eden Symbolbild" base-id="http://xml.zeit.de/wissen/geschichte/2010-11/Garten-Eden/" type="jpg" publication-date="" expires="">
+              <bu>Schön, wie ein Garten Eden</bu>
+              <copyright py:pytype="str">© Korre / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-geschichte/2010/03/Friedrich-Hecker" year="2010" issue="3" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-30T17:54:24+00:00" date-first-released="2010-08-24T06:00:00+00:00" date-last-published="2013-03-30T18:55:05+00:00" last-semantic-change="2010-11-19T10:20:47.260940+00:00">
+            <supertitle py:pytype="str">Revolutionär Friedrich Hecker</supertitle>
+            <title py:pytype="str">Mit Sense und Pistole für die Republik</title>
+            <text py:pytype="str">Tot oder eingekerkert: Friedrich Heckers deutscher Revolutionszug im Frühjahr 1848 endet kläglich. Er selbst kann den Häschern entkommen – und wird zum Mythos. </text>
+            <description py:pytype="str">Tot oder eingekerkert: Friedrich Heckers deutscher Revolutionszug im Frühjahr 1848 endet kläglich. Er selbst kann den Häschern entkommen – und wird zum Mythos. </description>
+            <byline py:pytype="str">Von Tobias Engelsing</byline>
+            <image alt="Der Politiker Friedrich Hecker, setzte sich im Revolutionsjahr 1848 an die Spitze der Republikaner" align="left" title="Revolutionär Friedrich Hecker  " base-id="http://xml.zeit.de/wissen/geschichte/2010-11/s70-hecker/" type="jpg" publication-date="" expires="2011-02-18T17:59:17+00:00">
+              <bu>Der Politiker Friedrich Hecker, setzte sich im Revolutionsjahr 1848 an die Spitze der Republikaner</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/09/L-B-Rinke" year="2010" issue="9" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-03-31T01:21:27+00:00" date-first-released="2010-02-25T06:00:00+00:00" date-last-published="2013-03-31T03:23:18+00:00" last-semantic-change="2010-03-05T13:45:40.927842+00:00">
+            <supertitle py:pytype="str">Roman von Moritz Rinke</supertitle>
+            <title py:pytype="str">Es riecht nach Torf</title>
+            <text py:pytype="str">Mal nicht Berlin: Der Dramaturg Moritz Rinke hat einen dezidierten Roman über die norddeutsche Kunstprovinz geschrieben. Von Thomas E. Schmidt</text>
+            <description py:pytype="str">Mal nicht Berlin: Der Dramaturg Moritz Rinke hat einen dezidierten Roman über die norddeutsche Kunstprovinz geschrieben. Von Thomas E. Schmidt</description>
+            <byline py:pytype="str">Von Thomas E. Schmidt</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/literatur/2010-03/rinke/" type="jpg" publication-date="" expires="">
+              <bu>Moritz Rinke</bu>
+              <copyright py:pytype="str">© Ralph Orlowski/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/22/buechner-preis-walter-kappacher" year="2009" issue="22" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-03-31T12:55:42+00:00" date-first-released="2009-05-26T15:01:15.596620+00:00" date-last-published="2013-03-31T14:56:40+00:00" last-semantic-change="2009-05-26T15:42:05.492654+00:00">
+            <supertitle py:pytype="str">Georg-Büchner-Preis</supertitle>
+            <title py:pytype="str">Ein stiller, großer Autor</title>
+            <text py:pytype="str">Eden, als Lebensart: Der österreichische Schriftsteller Walter Kappacher erhält den Georg-Büchner-Preis.</text>
+            <description py:pytype="str">Eden, als Lebensart: Der österreichische Schriftsteller Walter Kappacher erhält den Georg-Büchner-Preis.</description>
+            <byline py:pytype="str">Von Iris Radisch</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/22/kultur/walter-kappacher/" type="jpg" publication-date="" expires="">
+              <bu>Walter Kappacher, 1938 in Salzburg geboren, 2005 
+erschien sein Roman "Selina oder das Andere Leben"
+</bu>
+              <copyright py:pytype="str" link="http://www.lukasbeck.com">© Lukas Beck/ Residenz Verlag</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="da724f35-365f-451c-a1a4-e2be03910445">
+          <block href="http://xml.zeit.de/reisen/2010-08/newyork-viadukt" year="2010" issue="32" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-03-30T18:28:57+00:00" date-first-released="2010-08-09T15:25:43.956419+00:00" date-last-published="2013-03-30T19:30:44+00:00" last-semantic-change="2010-08-09T15:24:29.247265+00:00">
+            <supertitle py:pytype="str">High Line Park</supertitle>
+            <title py:pytype="str">New Yorks grüner Laufsteg</title>
+            <text py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</text>
+            <description py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="High Line Park " base-id="http://xml.zeit.de/reisen/2010-08/highline-1/" type="jpg" publication-date="" expires="">
+              <bu>Statt der Hochbahn rauscht hier nur der Wind: der High Line Park in Manhattan</bu>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2010-06/prohibitionsbars-ny" year="2010" issue="26" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-03-30T20:02:53+00:00" date-first-released="2010-06-30T12:48:38.990797+00:00" date-last-published="2013-03-30T21:04:25+00:00" last-semantic-change="2010-06-30T12:20:40.205470+00:00">
+            <supertitle py:pytype="str">New York</supertitle>
+            <title py:pytype="str">Psst, nicht weitersagen!</title>
+            <text py:pytype="str">Versteckte Plätze, geheime Telefonnummern und Einlass nur mit Code: die Hinterzimmer-Bars der Zwanziger Jahre feiern in New York ein Comeback.</text>
+            <description py:pytype="str">Versteckte Plätze, geheime Telefonnummern und Einlass nur mit Code: die Hinterzimmer-Bars der Zwanziger Jahre feiern in New York ein Comeback.</description>
+            <byline py:pytype="str">Katharina Finke</byline>
+            <image alt="Flüsterkneipen sind der neue, alte Trend im New Yorker Nachtleben" align="left" title="Flüsterkneipen" base-id="http://xml.zeit.de/reisen/2010-06/bar-geheimnis/" type="jpg" publication-date="" expires="">
+              <bu>Flüsterkneipen sind der neue, alte Trend im New Yorker Nachtleben</bu>
+              <copyright py:pytype="str">© Katharina Finke</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/01/Tiffany" year="2009" issue="1" ressort="Reisen" publication-date="2008-12-25T06:54:50+00:00" expires="" date-last-modified="2009-04-30T10:17:09+00:00" date-first-released="2008-12-23T06:00:00+00:00" date-last-published="2008-12-25T17:39:39.827464+00:00" last-semantic-change="2009-04-30T10:17:12.606885+00:00">
+            <supertitle py:pytype="str">USA</supertitle>
+            <title py:pytype="str">Holly Christmas</title>
+            <text py:pytype="str">Auf der Suche nach Holly Golightly, Truman Capote und einem ordentlichen Frühstück bei Tiffany in New York.</text>
+            <description py:pytype="str">Auf der Suche nach Holly Golightly, Truman Capote und einem ordentlichen Frühstück bei Tiffany in New York.</description>
+            <byline py:pytype="str">Von Susanne Mayer</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/01/leben/reisen/59-holly-christmas/" type="jpg" publication-date="" expires="">
+              <bu>Audrey Hepburn als Holly Golightly  im Film »Breakfast  at Tiffanys«. Die gleichnamige Novelle von Truman Capote erschien vor 50 Jahren</bu>
+              <copyright py:pytype="str">© Paramount Pictures/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="a9ef82f2-1490-4113-8804-3388639a1840">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="d490ca01-b820-4696-8cfe-a59edae985be">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="a295bdee-7efd-457f-a8bb-5701c52514e4" title="Fotostrecke: Dachgärten in New York">
+          <block type="intern" href="http://xml.zeit.de/lebensart/2010-06/neu-new-york-dachgaerten" year="2010" issue="25" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-05-09T06:20:35+00:00" date-first-released="2010-06-23T14:13:30.149304+00:00" date-last-published="2011-05-09T06:21:34.958875+00:00" last-semantic-change="2010-06-23T14:11:27.810439+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten in New York</supertitle>
+            <title py:pytype="str">Eine Oase im 24. Stock</title>
+            <text py:pytype="str">Zwischen den Wolkenkratzern von New York ist jeder Fleck Natur ein Luxus. Betsy Pinover Schiff hat die schönsten Orte der Stadt, die Dachgärten, fotografiert.</text>
+            <description py:pytype="str">Zwischen den Wolkenkratzern von New York ist jeder Fleck Natur ein Luxus. Betsy Pinover Schiff hat die schönsten Orte der Stadt, die Dachgärten, fotografiert.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.zeit.de/lebensart/2010-06/neu-new-york-dachgaerten" base-id="http://xml.zeit.de/lebensart/2010-06/teaser-dachgaerten/" type="jpg" publication-date="" expires="">
+              <bu>Um die Fotostrecke über New Yorker Dachgärten zu sehen, klicken Sie bitte auf das Bild</bu>
+              <copyright py:pytype="str">© 2010 Betsy Pinover Schiff</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/lebensart/2010-06/teaser-dachgaerten/teaser-dachgaerten-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="d1ce26aa-92f7-47db-954a-6e35dd5dcb00">
+          <block href="http://xml.zeit.de/lebensart/2012-03/ackerbau-garten-erfahrungsbericht" year="2012" issue="13" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-03-29T18:13:03+00:00" date-first-released="2012-03-23T14:47:52.717075+00:00" date-last-published="2013-03-29T19:14:03+00:00" last-semantic-change="2012-03-23T11:08:50.728585+00:00">
+            <supertitle py:pytype="str">Garten auf dem Land</supertitle>
+            <title py:pytype="str">Ich hab 'nen Full-Time-Acker</title>
+            <text py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</text>
+            <description py:pytype="str">Wenn auf dem Balkon kein Radieschen wächst, mietet der Großstädter ein Stück Feld im Umland. Max Scharnigg über sein Leben zwischen Saatfreuden und Erntefrust</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-03/teaser-max-scharnigg/" type="jpg" publication-date="" expires="">
+              <bu>Max Scharnigg auf seinem Acker am Ammersee – mit selbstgezogener Zucchini</bu>
+              <copyright py:pytype="str">© Sebastian Arlt</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-04/guerilla-gaertner-reynolds" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">Richard Reynolds</supertitle>
+            <title py:pytype="str">Robin Hood der Blumenbeete</title>
+            <text py:pytype="str">Mit seinem Buch "Guerilla Gardening" löste Richard Reynolds 2004 einen Boom der eigenmächtigen Innenstadt-Begrünung aus. Was ist von seinen Idealen geblieben?</text>
+            <description py:pytype="str">Mit seinem Buch "Guerilla Gardening" löste Richard Reynolds 2004 einen Boom der eigenmächtigen Innenstadt-Begrünung aus. Was ist von seinen Idealen geblieben?</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-04/reynolds_teaser/" type="jpg" publication-date="" expires="">
+              <bu>Richard Reynolds in Aktion an einer Londoner Kreuzung.</bu>
+              <copyright py:pytype="str">© Alessandro Rota</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="1b840102-ac2d-4b73-befe-8d66e7a153d8" title="Fotostrecke: Fortschritt im Schrebergarten">
+          <block type="intern" href="http://xml.zeit.de/lebensart/2011-05/fs-schrebergarten" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-06-02T15:27:22+00:00" date-first-released="2011-05-17T14:48:03.102823+00:00" date-last-published="2011-06-02T15:28:22.329615+00:00" last-semantic-change="2011-05-17T14:46:25.777758+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Gardening</supertitle>
+            <title py:pytype="str">Hier wachsen Fortschritt und Schönheit</title>
+            <text py:pytype="str">Schrebergärten galten lange als spießig. Mit der wachsenden Sehnsucht nach etwas Grün im Großstadtleben werden sie nun wieder populär. Ein Besuch in Bildern.</text>
+            <description py:pytype="str">Schrebergärten galten lange als spießig. Mit der wachsenden Sehnsucht nach etwas Grün im Großstadtleben werden sie nun wieder populär. Ein Besuch in Bildern.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="FS Schrebergarten Teaser" base-id="http://xml.zeit.de/lebensart/2011-05/fs-schrebergarten-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Nele Heitmeyer/ZEIT ONLINE</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/lebensart/2011-05/fs-schrebergarten-teaser/fs-schrebergarten-teaser-368x110.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle py:pytype="str">Alles zum Thema</supertitle>
+    <title>Urban Gardening</title>
+  </body>
+  <teaser>
+    <title py:pytype="str">Urban Gardening</title>
+  </teaser>
+</centerpage>

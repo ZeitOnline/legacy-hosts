@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-madrid/header-ts-madrid" title="Header TS City Guide Madrid" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© EyesWideOpen/Getty Images</copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image align="left" base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" publication-date="" expires="">
+      <bu py:pytype="str">Der Königspalast in Madrid</bu>
+      <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T09:33:11.709956+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-04-18T06:59:38.731637+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T09:34:20.937292+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-06-14T09:53:05.829512+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Madrid | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T09:30:11.141689+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2013-12-31</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">1031318555</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2013-04-18T07:00:36+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">196</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b79cb16a-80bf-4df6-85fb-ab1f039e7dee}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-d600bab0-11b6-4007-9645-84375de97ee5">
+          <block href="http://xml.zeit.de/2013/16/city-guide-madrid-stammbar" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:51:29+00:00" expires="" date-last-modified="2014-03-23T09:25:56+00:00" date-first-released="2013-04-11T06:00:00+00:00" date-last-published="2014-03-23T09:26:55.677544+00:00" last-semantic-change="2013-04-20T06:35:20.501579+00:00" contenttype="article" serie="City Guide" author="Cosima Schmitt">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Tapas zur blauen Stunde</title>
+            <text py:pytype="str">Wenn es dämmert, ist ganz Madrid auf den Beinen. Es geht in die Stammbar. Dort sind die Menschen so entspannt, als säßen sie schon zu Hause auf dem Sofa. Von C. Schmitt</text>
+            <description py:pytype="str">Wenn es dämmert, ist ganz Madrid auf den Beinen. Es geht in die Stammbar. Dort sind die Menschen so entspannt, als säßen sie schon zu Hause auf dem Sofa. Von C. Schmitt</description>
+            <byline py:pytype="str">von Cosima Schmitt</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/palza-mayor/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Auf dem Plaza Mayor</bu>
+              <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Cosima_Schmitt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Cosima Schmitt</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-00e55193-29be-4873-baaf-28d573ce0a9c">
+          <block href="http://xml.zeit.de/2013/16/city-guide-madrid-retiro-park" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:09:22+00:00" expires="" date-last-modified="2014-02-18T15:07:45+00:00" date-first-released="2013-04-11T06:00:00+00:00" date-last-published="2013-04-23T10:26:58.542253+00:00" last-semantic-change="2013-10-16T12:26:57.304678+00:00" contenttype="article" serie="City Guide" author="Martin Dahms">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Madrids grüner Rummelplatz</title>
+            <text py:pytype="str">Müßiggänger, Rollschuhfahrer und zeitgenössische Kunst: Im Retiro-Park begrüßt die Stadt den Frühling. Nirgends kann man sich in Madrid so schön entspannen.</text>
+            <description py:pytype="str">Müßiggänger, Rollschuhfahrer und zeitgenössische Kunst: Im Retiro-Park begrüßt die Stadt den Frühling. Nirgends kann man sich in Madrid so schön entspannen.</description>
+            <byline py:pytype="str">von Martin Dahms</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/retiro-park/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Boote auf dem Estanque, dem kleinen See mitten im Retiro-Park</bu>
+              <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/D/Martin_Dahms/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Martin Dahms</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-cafbe7f5-55c8-49ba-bc0d-3f90d7d32f6e">
+          <block href="http://xml.zeit.de/2013/16/city-guide-madrid-gran-via" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:09:51+00:00" expires="" date-last-modified="2014-02-18T15:07:44+00:00" date-first-released="2013-04-11T06:00:00+00:00" date-last-published="2013-05-04T16:45:05.685213+00:00" last-semantic-change="2013-04-27T14:21:14.519993+00:00" contenttype="article" serie="City Guide" author="Martin Dahms">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Regisseur im Großstadtzoo</title>
+            <text py:pytype="str">Banker, Prostituierte, Touristen –  auf der Gran Vía treffen sie sich alle. Für den Regisseur Pablo Berger ist die Straße sein Wohnzimmer. Hier lebt er und genießt es. </text>
+            <description py:pytype="str">Banker, Prostituierte, Touristen –  auf der Gran Vía treffen sie sich alle. Für den Regisseur Pablo Berger ist die Straße sein Wohnzimmer. Hier lebt er und genießt es. </description>
+            <byline py:pytype="str">von Martin Dahms</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/gran-via/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Gran Vía steht für Modernität.</bu>
+              <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/D/Martin_Dahms/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Martin Dahms</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-6b70b88d-10b6-4bb3-b5b7-84e9a3ce5d59">
+          <block href="http://xml.zeit.de/2013/16/city-guide-madrid-stadtleben-architektur" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:58:56+00:00" expires="" date-last-modified="2013-10-16T12:26:09+00:00" date-first-released="2013-04-11T06:00:00+00:00" date-last-published="2013-04-18T07:36:46.152307+00:00" last-semantic-change="2013-10-16T12:26:04.437618+00:00" contenttype="article" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">"Laufen Sie herum!"</title>
+            <text py:pytype="str">Auf der Straße wird gefeiert, Politik und Kunst gemacht: Ein Gespräch mit dem Architekten Andrés Jaque über den wahren Reichtum der spanischen Hauptstadt.</text>
+            <description py:pytype="str">Auf der Straße wird gefeiert, Politik und Kunst gemacht: Ein Gespräch mit dem Architekten Andrés Jaque über den wahren Reichtum der spanischen Hauptstadt.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/andres-jaque/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Andrés Jaque</bu>
+              <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-73a79e6d-5804-4638-a736-ff96c5acea35">
+          <block href="http://xml.zeit.de/reisen/2013-04/city-guide-madrid-hotels" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:20:51+00:00" expires="" date-last-modified="2013-12-02T19:39:03+00:00" date-first-released="2013-04-18T02:21:53.375352+00:00" date-last-published="2013-12-02T20:40:01+00:00" last-semantic-change="2013-04-16T12:20:28.648819+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Schlafen unter berühmten Zitaten, auf Möbeln im Familienbesitz oder möchte man es lieber doch chic &amp; basic? Hier empfiehlt die Redaktion charmante Hotels in Madrid.</text>
+            <description py:pytype="str">Schlafen unter berühmten Zitaten, auf Möbeln im Familienbesitz oder möchte man es lieber doch chic &amp; basic? Hier empfiehlt die Redaktion charmante Hotels in Madrid.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/las-letras/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hotel de las Letras</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-64860ead-96fa-42d5-a41a-37ebfa0bb2aa">
+          <block href="http://xml.zeit.de/2013/16/city-guide-madrid-cocido-madrileno" year="2013" issue="16" ressort="Lebensart" publication-date="2013-04-18T05:28:08+00:00" expires="" date-last-modified="2013-11-05T10:47:03+00:00" date-first-released="2013-04-11T06:00:00+00:00" date-last-published="2013-11-05T10:48:03.279975+00:00" last-semantic-change="2013-04-20T10:55:39.310483+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Die Wertschätzung des Schmortopfs</title>
+            <text py:pytype="str">Erbsen, Blutwurst und ganz viel Fleisch. Warum die Madrilenen einen derben Eintopf als Leibspeise haben? Michael Allmaier hat einen Freund des Cocido madrileño gefragt.</text>
+            <description py:pytype="str">Erbsen, Blutwurst und ganz viel Fleisch. Warum die Madrilenen einen derben Eintopf als Leibspeise haben? Michael Allmaier hat einen Freund des Cocido madrileño gefragt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/cocido/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Don Guillermo, der Vorsitzende des Vereins der Freunde des Cocido, beim Aperitif</bu>
+              <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9fb35489-2cdd-4e6c-b90e-505d380cd6a6">
+          <block href="http://xml.zeit.de/reisen/2013-04/city-guide-madrid-restaurants" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:32:58+00:00" expires="" date-last-modified="2013-12-02T19:39:01+00:00" date-first-released="2013-04-18T02:32:01.262533+00:00" date-last-published="2013-12-02T20:40:01+00:00" last-semantic-change="2013-04-18T07:29:26.072309+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+            <text py:pytype="str">Spanische Küche, mal anders: Hier empfiehlt die Redaktion vier Restaurants, in denen rustikale Hausmannskost auf exotische Aromen und filigrane Technik trifft. </text>
+            <description py:pytype="str">Spanische Küche, mal anders: Hier empfiehlt die Redaktion vier Restaurants, in denen rustikale Hausmannskost auf exotische Aromen und filigrane Technik trifft. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/punto/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Gericht im Punto MX</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c329e827-6153-4cb7-aea0-158876fd079d">
+          <block href="http://xml.zeit.de/reisen/2013-04/city-guide-madrid-online-tipps" year="2013" issue="16" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-02T19:37:01+00:00" date-first-released="2013-04-18T08:45:44.914216+00:00" date-last-published="2013-12-02T20:38:19+00:00" last-semantic-change="2013-04-18T08:44:10.809364+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide</supertitle>
+            <title py:pytype="str">Madrid im Netz</title>
+            <text py:pytype="str">In Madrid trifft königliche Tradition auf bunte Moderne. Wir stellen die besten Websites und Onlinetipps für die Planung Ihrer Reise in die spanische Hauptstadt vor. </text>
+            <description py:pytype="str">In Madrid trifft königliche Tradition auf bunte Moderne. Wir stellen die besten Websites und Onlinetipps für die Planung Ihrer Reise in die spanische Hauptstadt vor. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-cibeles/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nacht auf dem Plaza de Cibeles in Madrid</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/38314-stock-photo-platz-historisch-spanien-brunnen-springbrunnen-madrid">© Mirakoli / photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-abf4902e-2935-4f5b-b698-5e19714ec286">
+          <block href="http://xml.zeit.de/2013/16/city-guide-madrid-hotel-abalu" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:26:19+00:00" expires="" date-last-modified="2013-05-06T18:10:49+00:00" date-first-released="2013-04-11T06:00:00+00:00" date-last-published="2013-05-04T16:47:10.467091+00:00" last-semantic-change="2013-05-06T17:41:29.210426+00:00" contenttype="article" serie="City Guide" author="Merten Worthmann">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Ein bisschen Glitzer, Glamour, Gloss</title>
+            <text py:pytype="str">Das Abalú in Madrid ist kein Luxushotel, gibt sich aber alle Mühe. Der Modedesigner Luis Delgado hat die Zimmer mit Sinn für Glamour, Kulisse und Effekt ausgestattet. </text>
+            <description py:pytype="str">Das Abalú in Madrid ist kein Luxushotel, gibt sich aber alle Mühe. Der Modedesigner Luis Delgado hat die Zimmer mit Sinn für Glamour, Kulisse und Effekt ausgestattet. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/abalu/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Lobby: Hinter der Rezeption beginnt der Budenzauber so richtig.</bu>
+              <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/W/Merten_Worthmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Merten Worthmann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f5498ca0-9e0e-4b78-a25c-c41c6c96f22f">
+          <block href="http://xml.zeit.de/2013/16/city-guide-madrid-tipps" year="2013" issue="16" ressort="Reisen" publication-date="2013-04-18T02:41:44+00:00" expires="" date-last-modified="2013-10-16T12:54:08+00:00" date-first-released="2013-04-11T06:00:00+00:00" date-last-published="2013-05-04T16:45:04.218690+00:00" last-semantic-change="2013-04-18T09:01:53.346605+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Madrid</supertitle>
+            <title py:pytype="str">Spritzgebäck gegen den Kater</title>
+            <text py:pytype="str">Filigrane Porzellanfiguren, spannende Architektur und cremiges Eis von Yolanda. Die Redaktion stellt sechs ausgefallene Shopping- und Ausgeh-Tipps in Madrid vor.</text>
+            <description py:pytype="str">Filigrane Porzellanfiguren, spannende Architektur und cremiges Eis von Yolanda. Die Redaktion stellt sechs ausgefallene Shopping- und Ausgeh-Tipps in Madrid vor.</description>
+            <byline py:pytype="str">von</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Königspalast in Madrid</bu>
+              <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Madrid</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-004732e3-ecd2-40f9-8bf4-38970d67aa2f">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-a6092cae-f543-4271-b30e-53e70d271321">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="64d6fde0-ac7a-432c-804a-5a287d096f93" layout="368x220" title="City Guide Barcelona">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-barcelona/index" year="2011" issue="42" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-07-17T09:20:41+00:00" date-first-released="2011-10-18T17:10:45.652671+00:00" date-last-published="2014-07-17T07:31:24.555799+00:00" last-semantic-change="2014-07-17T07:29:58.725968+00:00" serie="City Guide">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Barcelona</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/themenseite-barcelona-city-guide-2/" type="jpg" title="Themenseite Barcelona City Guide 2" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Barcelona, SPAIN:  A view of the front of Catalan architect Antoni Gaudi's unfinished cathedral La Sagrada Familia in Barcelona, 07 June 2006. Religious services will be able to take place in the nave by 2008, the construction committee said Wednesday.   AFP PHOTO/CESAR RANGEL  (Photo credit should read CESAR RANGEL/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Cesar Rangel/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2011-10/themenseite-barcelona-city-guide-2/themenseite-barcelona-city-guide-2-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="f2debc34-c31d-4075-b17c-961b95ac11b1" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-madrid/index#2c36fa74-84a3-4e99-b5bb-fdb1b072fc05" year="2011" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-paris/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Paris</title>
+            <text py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </text>
+            <description py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/paris-themenseite/" type="jpg" title="Paris Themenseite" align="left" publication-date="" expires="">
+              <bu py:pytype="str">A picture taken on November 12, 2011 in Paris, shows a youth dancing on the Parvis des droits de l'homme (Human rights Esplanade at the Trocadero) and the Eiffel tower.    AFP PHOTO / LIONEL BONAVENTURE (Photo credit should read LIONEL BONAVENTURE/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Lionel Bonaventure/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-madrid/index#1d35d536-d761-4036-8b8a-6528cea23fd2" year="2012" issue="25" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-london/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide London</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="7b827415-d68e-41da-bbae-f51cc2d549cf" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-madrid/index#113bc6f5-82cc-43e0-991a-4caf426c2247" year="2012" issue="26" ressort="Reisen" contenttype="centerpage-2009" publication-date="2012-08-30T08:10:00+00:00" expires="" date-last-modified="2013-06-10T16:51:21+00:00" date-first-released="" date-last-published="" last-semantic-change="2012-10-23T14:45:06.764616+00:00" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-hamburg/index" cp:free-teaser="True">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Hamburg</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-madrid/index#63ed52fb-6615-4259-b46d-c8aee225d9d8" year="2012" issue="50" ressort="Reisen" contenttype="centerpage-2009" publication-date="2012-12-20T04:33:58+00:00" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-venedig/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Venedig</title>
+            <text py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</text>
+            <description py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-12/city-guide-vendedig/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="8b901aeb-dfd7-4896-b728-f9966711d9f6" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-madrid/index#660ac765-ae98-429c-8a31-5d4552b1bfa1" year="2011" issue="50" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-lissabon/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Lissabon</title>
+            <text py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</text>
+            <description py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-12/lissabon-cityguide/" type="jpg" title="Cityguide Lissabon" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LISBON, PORTUGAL - JULY 23:  Tourists visit Belem Tower on July 23, 2008 in Lisbon, Portugal. Portugal is becoming an increasingly popular tourist destination.  (Photo by Sean Gallup/Getty Images)</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-istanbul/index" year="2011" issue="48" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-07-17T09:28:44+00:00" date-first-released="2011-11-30T14:31:47.917129+00:00" date-last-published="2014-07-17T09:29:42.005505+00:00" last-semantic-change="2014-07-17T09:27:02.622385+00:00" serie="City Guide">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Istanbul</title>
+            <text py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </text>
+            <description py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/moschee-istanbul-city-guide/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle xsi:nil="true"/>
+    <title>City Guide Madrid</title>
+    <subtitle>Erhaben, dörflich und ziemlich bunt – das ist Spaniens Hauptstadt. Wir trinken mit den Madrilenen auf den Feierabend, finden Kunst auch abseits der großen Museen und freuen uns im Retiro-Park über den Frühling.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2013/16/city-guide-madrid-tipps" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:41:44+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Spritzgebäck gegen den Kater</title>
+      <text py:pytype="str">Filigrane Porzellanfiguren, spannende Architektur und cremiges Eis von Yolanda. Die Redaktion stellt sechs ausgefallene Shopping- und Ausgeh-Tipps in Madrid vor.</text>
+      <description py:pytype="str">Filigrane Porzellanfiguren, spannende Architektur und cremiges Eis von Yolanda. Die Redaktion stellt sechs ausgefallene Shopping- und Ausgeh-Tipps in Madrid vor.</description>
+      <byline py:pytype="str">von</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Königspalast in Madrid</bu>
+        <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/16/city-guide-madrid-hotel-abalu" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:26:19+00:00" expires="" author="Merten Worthmann">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Ein bisschen Glitzer, Glamour, Gloss</title>
+      <text py:pytype="str">Das Abalú in Madrid ist kein Luxushotel, gibt sich aber alle Mühe. Der Modedesigner Luis Delgado hat die Zimmer mit Sinn für Glamour, Kulisse und Effekt ausgestattet. </text>
+      <description py:pytype="str">Das Abalú in Madrid ist kein Luxushotel, gibt sich aber alle Mühe. Der Modedesigner Luis Delgado hat die Zimmer mit Sinn für Glamour, Kulisse und Effekt ausgestattet. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/abalu/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Lobby: Hinter der Rezeption beginnt der Budenzauber so richtig.</bu>
+        <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/W/Merten_Worthmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Merten Worthmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2013-04/city-guide-madrid-online-tipps" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide</supertitle>
+      <title py:pytype="str">Madrid im Netz</title>
+      <text py:pytype="str">In Madrid trifft königliche Tradition auf bunte Moderne. Wir stellen die besten Websites und Onlinetipps für die Planung Ihrer Reise in die spanische Hauptstadt vor. </text>
+      <description py:pytype="str">In Madrid trifft königliche Tradition auf bunte Moderne. Wir stellen die besten Websites und Onlinetipps für die Planung Ihrer Reise in die spanische Hauptstadt vor. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-cibeles/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Nacht auf dem Plaza de Cibeles in Madrid</bu>
+        <copyright py:pytype="str" link="http://www.photocase.de/foto/38314-stock-photo-platz-historisch-spanien-brunnen-springbrunnen-madrid">© Mirakoli / photocase.com</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2013-04/city-guide-madrid-restaurants" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:32:58+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+      <text py:pytype="str">Spanische Küche, mal anders: Hier empfiehlt die Redaktion vier Restaurants, in denen rustikale Hausmannskost auf exotische Aromen und filigrane Technik trifft. </text>
+      <description py:pytype="str">Spanische Küche, mal anders: Hier empfiehlt die Redaktion vier Restaurants, in denen rustikale Hausmannskost auf exotische Aromen und filigrane Technik trifft. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/punto/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Gericht im Punto MX</bu>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/16/city-guide-madrid-cocido-madrileno" year="2013" issue="16" ressort="Lebensart" serie="City Guide" contenttype="article" publication-date="2013-04-18T05:28:08+00:00" expires="" author="Michael Allmaier">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Die Wertschätzung des Schmortopfs</title>
+      <text py:pytype="str">Erbsen, Blutwurst und ganz viel Fleisch. Warum die Madrilenen einen derben Eintopf als Leibspeise haben? Michael Allmaier hat einen Freund des Cocido madrileño gefragt.</text>
+      <description py:pytype="str">Erbsen, Blutwurst und ganz viel Fleisch. Warum die Madrilenen einen derben Eintopf als Leibspeise haben? Michael Allmaier hat einen Freund des Cocido madrileño gefragt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/cocido/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Don Guillermo, der Vorsitzende des Vereins der Freunde des Cocido, beim Aperitif</bu>
+        <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2013-04/city-guide-madrid-hotels" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:20:51+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Hoteltipps der Redaktion</title>
+      <text py:pytype="str">Schlafen unter berühmten Zitaten, auf Möbeln im Familienbesitz oder möchte man es lieber doch chic &amp; basic? Hier empfiehlt die Redaktion charmante Hotels in Madrid.</text>
+      <description py:pytype="str">Schlafen unter berühmten Zitaten, auf Möbeln im Familienbesitz oder möchte man es lieber doch chic &amp; basic? Hier empfiehlt die Redaktion charmante Hotels in Madrid.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/las-letras/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Hotel de las Letras</bu>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/16/city-guide-madrid-stadtleben-architektur" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:58:56+00:00" expires="" author="Stefanie Flamm">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">"Laufen Sie herum!"</title>
+      <text py:pytype="str">Auf der Straße wird gefeiert, Politik und Kunst gemacht: Ein Gespräch mit dem Architekten Andrés Jaque über den wahren Reichtum der spanischen Hauptstadt.</text>
+      <description py:pytype="str">Auf der Straße wird gefeiert, Politik und Kunst gemacht: Ein Gespräch mit dem Architekten Andrés Jaque über den wahren Reichtum der spanischen Hauptstadt.</description>
+      <byline py:pytype="str">von Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/andres-jaque/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Andrés Jaque</bu>
+        <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/16/city-guide-madrid-gran-via" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:09:51+00:00" expires="" author="Martin Dahms">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Regisseur im Großstadtzoo</title>
+      <text py:pytype="str">Banker, Prostituierte, Touristen –  auf der Gran Vía treffen sie sich alle. Für den Regisseur Pablo Berger ist die Straße sein Wohnzimmer. Hier lebt er und genießt es. </text>
+      <description py:pytype="str">Banker, Prostituierte, Touristen –  auf der Gran Vía treffen sie sich alle. Für den Regisseur Pablo Berger ist die Straße sein Wohnzimmer. Hier lebt er und genießt es. </description>
+      <byline py:pytype="str">von Martin Dahms</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/gran-via/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Gran Vía steht für Modernität.</bu>
+        <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/D/Martin_Dahms/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Martin Dahms</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/16/city-guide-madrid-retiro-park" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:09:22+00:00" expires="" author="Martin Dahms">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Madrids grüner Rummelplatz</title>
+      <text py:pytype="str">Müßiggänger, Rollschuhfahrer und zeitgenössische Kunst: Im Retiro-Park begrüßt die Stadt den Frühling. Nirgends kann man sich in Madrid so schön entspannen.</text>
+      <description py:pytype="str">Müßiggänger, Rollschuhfahrer und zeitgenössische Kunst: Im Retiro-Park begrüßt die Stadt den Frühling. Nirgends kann man sich in Madrid so schön entspannen.</description>
+      <byline py:pytype="str">von Martin Dahms</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/retiro-park/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Boote auf dem Estanque, dem kleinen See mitten im Retiro-Park</bu>
+        <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/D/Martin_Dahms/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Martin Dahms</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/16/city-guide-madrid-stammbar" year="2013" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-04-18T02:51:29+00:00" expires="" author="Cosima Schmitt">
+      <supertitle py:pytype="str">City Guide Madrid</supertitle>
+      <title py:pytype="str">Tapas zur blauen Stunde</title>
+      <text py:pytype="str">Wenn es dämmert, ist ganz Madrid auf den Beinen. Es geht in die Stammbar. Dort sind die Menschen so entspannt, als säßen sie schon zu Hause auf dem Sofa. Von C. Schmitt</text>
+      <description py:pytype="str">Wenn es dämmert, ist ganz Madrid auf den Beinen. Es geht in die Stammbar. Dort sind die Menschen so entspannt, als säßen sie schon zu Hause auf dem Sofa. Von C. Schmitt</description>
+      <byline py:pytype="str">von Cosima Schmitt</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-04/palza-mayor/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Auf dem Plaza Mayor</bu>
+        <copyright py:pytype="str">© Jordi Ruiz Cirera/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Cosima_Schmitt/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Cosima Schmitt</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">City Guide Madrid</title>
+    <text py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</text>
+  </teaser>
+</centerpage>

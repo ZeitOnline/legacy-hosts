@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centerpage>
+  <head>
+    <!-- Statusauskünfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">37</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="topic" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2008</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">13.6.2008 - 09:10</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords" />
+    <keywordset />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume" />
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year" />
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">new</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title" />
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">cruz</attribute>
+  </head>
+  <body>
+    <container layout="container" id="" label="" priority="">
+      <block priority="" href="cms:/cms/work/deutschland/joschka-fischer" id="" layout="" sticky="">
+        <image expires="2009-12-07" src="/cms/work/bilder/2007/standards-neu/meinung/fischer-profil/fischer-profil-120x90.jpg" align="right">
+          <copyright>©</copyright>
+          BILD
+        </image>
+        <title>Joschka Fischer</title>
+        <text>Die politische Woche beginnt um 9:00. Mit der Montagskolumne von Joschka Fischer</text>
+        <related>
+          <block priority="" href="cms:/cms/work/autoren/S/Helmut_Schmidt/index.xml" id="" layout="" sticky="">
+            <image expires="20010-12-07" src="/cms/work/bilder/2007/35/deutschland/schmidt/schmidt-120x90.jpg" align="right">
+              <copyright>©</copyright>
+              BILD
+            </image>
+            <title>Helmut Schmidt</title>
+            <text>Alle Artikel des ZEIT-Herausgebers</text>
+          </block>
+          <block priority="" href="cms:/cms/work/autoren/G/Susanne_Gaschke/index.xml" id="" layout="" sticky="">
+            <title>Susanne Gaschke</title>
+            <text />
+          </block>
+          <block priority="" href="cms:/cms/work/leben/martenstein/martenstein-2008" id="" layout="" sticky="">
+            <image expires="2010-12-07" src="/cms/work/bilder/2007/standards-neu/leben/allgemein/martenstein/martenstein-120x90.gif" align="right">
+              <copyright>©</copyright>
+              BILD
+            </image>
+            <title>Harald Martenstein</title>
+            <text>Seine Kolumnen in Text und Video</text>
+          </block>
+          <block href="cms:/cms/work/stimmts/index" id="" layout="" priority="" sticky="">
+            <title>Christoph Drösser</title>
+            <text>Stimmt's?</text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+</centerpage>
+

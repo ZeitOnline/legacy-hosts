@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<container style="homepage_01_06">
+  <row layout="headline">
+    <container layout="aufmacherbild">
+      <block layout="aufmacherbild" href="cms:/cms/work/online/2006/17/Beck" id="" priority="">
+        <image expires="2006-05-02" src="/cms/work/bilder/2006/17/aktuell/aufmacher/beck_220x220.jpg" align="left"><copyright>©  Peer Grimm/dpa</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="aufmacher">
+      <block priority="" href="cms:/cms/work/online/2006/17/Beck" id="" layout="aufmacher">
+        <title>Kein Paukenschlag</title>
+        <text>Kurt Beck hat seine erste große Rede als designierter Parteivorsitzender gehalten. Die Idee eines vorsorgenden Sozialstaates hat er eher versteckt.</text>
+        <byline>Von Katharina Schuler</byline>
+        <related>
+          <block layout="" priority="" href="cms:/cms/work/online/2006/17/presseschau_24" id="">
+            <supertitle/>
+            <title>Presseschau</title>
+            <text>SPD wie CDU erzeugen mit ihren Grundsatzprogrammen Chaos</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container>
+      <feed id="dpa"/>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="knopf-links">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/17/Leicht" id="">
+        <title>Mutiger Vorstoß</title>
+        <text>Endlich spricht ein betroffener Landespolitiker die Grundwahrheit aus: Ohne gründliche Neugliederung der Länder geht es nicht.</text>
+        <byline>Von Robert Leicht</byline>
+        <related>
+          <block priority="" href="cms:/cms/work/online/2006/15/bullerjahn">
+            <title>Nachwuchsvordenker</title>
+            <text>Jens Bullerjahn rückt in die Spitze der SPD auf</text>
+          </block>
+        </related>
+        <supertitle/>
+        <supertitle>Kolumne</supertitle>
+        <image expires="2006-05-02" src="/cms/work/bilder/2006/17/aktuell/knoepfe/wappen_72.jpg" align="left"><copyright>© Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-mitte">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/17/vorurteile" id="">
+        <supertitle>Vorurteile</supertitle>
+        <title>Wo fängt Rassismus an?</title>
+        <text>Ein Schwarzer wird ins Koma geprügelt und als Nigger beschimpft. Dürfen wir die Täter als  fremdenfeindlich bezeichnen? Psychologen testen die unbewussten Vorurteile von Millionen von Menschen online und kommen zu erschreckenden Ergebnissen</text>
+        <byline>Von Parvin Sadigh</byline>
+        <related>
+          <block layout="knopf" priority="" href="cms:/cms/work/online/2006/17/potsdam_23" id="">
+            <supertitle>Potsdam</supertitle>
+            <title>Schönbohm contra Nehm</title>
+            <text>War der Angriff auf einen Schwarzen in Potsdam fremdenfeindlich?&#13;
+<em>Von Ludwig Greven</em></text>
+          </block>
+        </related>
+        <image expires="2006-05-02" src="/cms/work/bilder/2006/17/aktuell/knoepfe/gardine_72x72.jpg" align="left"><copyright>© Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-rechts">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/17/bildergalerie_sterne" id="">
+        <supertitle>Pop</supertitle>
+        <title>Die Sterne</title>
+        <text>Räuber und Gedärm im Übel und Gefährlich: Bilder vom Tourauftakt in Hamburg von <em>Christian Bartsch</em> mit Texten von <em>Falk Lüke</em></text>
+        <byline/>
+        <image expires="2006-05-02" src="/cms/work/bilder/2006/17/aktuell/knoepfe/diesterne_72x72.jpg" align="left"><copyright>© Zeit.de</copyright> BILD </image>
+        <related/>
+        <related>
+          <block priority="" href="cms:/cms/work/online/2006/17/diesterne_interview">
+            <title>Mehr geht immer</title>
+            <text>Jetzt auf Tour: Die Sterne. Ein Interview </text>
+          </block>
+          <block priority="" href="cms:/cms/work/online/2006/17/echolot_17">
+            <title>Nachtmenschen</title>
+            <text>Neil Young, Folkmusik und Gleitcreme im Echolot</text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </row>
+  <row layout="onecol">
+    <container>
+      <ad place="3"/>
+    </container>
+    <container>
+      <ad place="5"/>
+    </container>
+  </row>
+<!-- 
+  <row layout="onecol">
+    <container>
+      <ad place="13"/>
+      <ad place="14"/>
+      <ad place="15"/>
+    </container>
+  </row>
+  -->
+  <row layout="threecol">
+    <container id="tagesbild">
+      <block layout="tagesbild" href="javascript:void(window.open('http://www.zeit.de/bild_des_tages','bilddestages','height=600,width=700,directories=no,location=no,menubar=no,resizable=yes,status=no,scrollbars=yes,toolbar=no'));">
+        <text><br/><strong>Was ist das?</strong> Eine falsche Fährte?</text>
+        <image expires="2006-05-01" src="/cms/work/bilder/2006/17/aktuell/tagesbilder/wm_schamane_210x210.jpg" width="210" align="left"><copyright>© Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-mitte">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/17/iwf" id="">
+        <supertitle>IWF</supertitle>
+        <title>Wächter der Welt</title>
+        <text>Was tun, wenn der Dollar einbricht? Einer könnte künftige Wirtschaftskrisen verhindern: der Internationale Währungsfonds. Das glaubt jedenfalls Direktor Rato. Bis Herbst will er genauer sagen, wie das gehen soll.</text>
+        <byline>Von Karsten Polke-Majewski</byline>
+        <related>
+          <block layout="" priority="" href="http://blog.zeit.de/herdentrieb/?cat=6" id="">
+            <title>Weltwirtschaft</title>
+            <text><em>Robert von Heusinger</em> und <em>Uwe Richter 
+</em> führen die globale Makro-Debatte, im Weblog 
+<em>Herdentrieb</em></text>
+            <byline/>
+          </block>
+        </related>
+        <image expires="2006-05-02" src="/cms/work/bilder/2006/17/aktuell/knoepfe/iwf_72x72.jpg" align="left"><copyright>© Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-rechts">
+      <block layout="knopf" priority="" href="cms:/cms/work/feuilleton/kunst_naechste_generation/terror_3">
+        <supertitle>KUNST</supertitle>
+        <title>In Erinnerung verhaftet</title>
+        <text>Die Künstlerinnen Jane und Louise Wilson legten mit ihrer Installation "Stasi City" eine Erinnerungsschleife an, die ganz ohne sichtbaren Schrecken auskommt. Und umso erschreckender wirkt. Aus der Reihe "Kunst für die nächste Generation".</text>
+        <byline>Von Ute Vorkoeper</byline>
+        <related>
+          <block priority="" href="cms:/cms/work/feuilleton/kunst_naechste_generation/index">
+            <title>Kunst für die nächste Generation</title>
+            <text>Alle Themen, Künstler und Werke der Reihe im Überblick</text>
+          </block>
+        </related>
+        <image expires="2006-05-02" src="/cms/work/bilder/2006/17/aktuell/knoepfe/wilson_72.jpg" align="left"><copyright>© Zeit.de</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+</container>

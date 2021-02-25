@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="channels"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments_premoderate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2018-02-15T15:57:56.916222+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-10-01T16:23:12.519486+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2018-02-15T15:58:03.249962+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2018-02-15T15:58:03.201913+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2018-02-15T15:56:23.449595+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2017-03-14T10:20:59.447903+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2018-02-15T15:55:59.179218+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.weigold</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="overscrolling">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="previous_uniqueIds">http://xml.zeit.de/foto/index-2.cp2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Foto</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:6fc94970-25a2-47f7-8931-5a90d5b6459e}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">37</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <supertitle>Fotografie</supertitle>
+    <title>Die besten Fotostrecken</title>
+    <cluster visible="True" visible_mobile="True" area="id-4b28304a-0237-4334-b4e9-bbd92aa506a5" kind="duo" kind_title="Standard-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-3e42a5df-e8f4-45e1-b150-32c797b3e276" kind="major" count="7" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Foto</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5f4a259b-9c37-4c0d-a53f-0bdf3f7acef1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e1f03c67-4a14-47dc-b6da-f940bb88b154"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c372a7c3-d5b5-408b-9059-1e11d9d7d7f6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2831aab0-2d04-4945-b57d-cd843fdf63c6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6cc8a1ce-bdba-41fd-8a57-e0e9d96deaa2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4748b523-da06-4e9c-8173-47105eaa990b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1e5595b9-e721-4691-bb0d-1e40ba9f67ec"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-d4fa77f6-2bab-4f68-a37c-41792c07d2ac" kind="minor" count="4" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Foto</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ddb5a909-f425-4758-84cd-0c4b481dfef5"/>
+        <container cp:type="auto-teaser" module="zon-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cb8d6395-adb2-45c7-8941-2b669ff5bd81"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9bea9bb0-4244-428d-8497-42239267ce8c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b9f7da15-e801-443a-895f-03b17ca0b6a9"/>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-b05621d7-1834-41e4-bc50-cbdce6822866" kind="duo" kind_title="Duo-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-22b1fa0d-92b2-4d61-957b-c8957d2cb453" kind="duo" count="1" automatic="True" automatic_type="channel">
+        <raw_query>+published:"published" +serie:"Freunde von Freunden" +type:(gallery) -expires:[* TO NOW]</raw_query>
+        <container cp:type="auto-teaser" module="zon-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4e087e50-9937-435a-83b7-79145313f718"/>
+        <query>
+          <condition type="Channel" py:pytype="str">Foto</condition>
+        </query>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-28ce8bfc-bf96-4e5f-99cb-6513ad4b8588" kind="duo" count="1" automatic="True" automatic_type="channel">
+        <raw_query>+published:"published" +serie:"Freunde von Freunden" +type:(gallery) -expires:[* TO NOW]</raw_query>
+        <container cp:type="auto-teaser" module="zon-square" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2f9e2037-e567-4c36-810a-8e76faf1caa8"/>
+        <query>
+          <condition type="Channel" py:pytype="str">Foto</condition>
+        </query>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-a847ba3e-3aab-401c-8f48-6929b4df22f3" kind="duo" kind_title="Standard-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-cba090b2-b68f-4bcc-93bc-480b2b016ad0" kind="major" count="10" automatic="True" automatic_type="channel">
+        <query>
+          <condition type="Channel" py:pytype="str">Foto</condition>
+        </query>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5f86fe99-ca26-4b7b-8acc-e2266e32c4e1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1b73d35e-1828-4410-9b02-13c7890dac4a"/>
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7542907d-86f8-4768-bf77-2c189963f58c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-54ee2957-3999-4f9a-b659-1a850a7d5583"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c7c8605d-eb0d-4b5d-bd08-524131410e3a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-151b83c0-5735-43ef-9a85-e1c452fdb5a0"/>
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-99edea6f-d668-4254-ae47-1f8dcc94b1ed"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9efe5f00-65fb-40f1-bad7-fd91ebd7302a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bd19a6d9-eb25-490e-95e3-e9c84b451f46"/>
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4f226dd7-8336-4271-82df-a6739a188dca"/>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-f50463d0-ecdf-4ffd-81d8-8b5c6823c22c" kind="minor"/>
+    </cluster>
+  </body>
+  <teaser>
+    <title>Die besten Fotostrecken</title>
+    <text>Bildergalerien und Fotostrecken auf ZEIT ONLINE</text>
+  </teaser>
+</centerpage>

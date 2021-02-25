@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<solr-queries>
+  <query id="template">
+    <param name="q" value="type:article"/>
+    <param name="sort" value="last-semantic-change+asc"/>
+    <param name="start" value="0"/>
+    <param name="rows" value="5"/>
+  </query>
+  <query id="archive-volume">
+    <param name="q" value="type:article+AND+!product_id:ZEDE+AND+!product_id:TGS+AND+!product_id:HaBl+AND+!product_id:WIWO"/>
+    <param name="wt" value="xslt"/>
+    <param name="tr" value="archive_volume.xsl"/>
+    <param name="rows" value="1000"/>
+    <param name="fl" value="title+ressort+volume+year+teaser_text+uniqueId+byline+image-reference+authors+subtitle+supertitle"/>
+  </query>
+  <query id="archive-volume-ng">
+    <param name="q" value="type:article+!published:not-published+AND+!product_id:ZEDE+AND+!product_id:TGS+AND+!product_id:HaBl+AND+!product_id:WIWO+AND+!product_id:leserartikel+AND+!product_id:NAGEO+AND+!product_id:GOLEM+AND+!product_id:SpeDE"/>
+    <param name="wt" value="xslt"/>
+    <param name="tr" value="archive_volume.xsl"/>
+    <param name="rows" value="1000"/>
+    <param name="fl" value="title+ressort+volume+year+teaser_text+uniqueId+byline+image-reference+authors+subtitle+supertitle"/>
+  </query>
+  <query id="archive-year">
+    <param name="q" value="page:1+type:article+AND+!product_id:ZEDE+AND+!product_id:TGS+AND+!product_id:HaBl+AND+!product_id:WIWO"/>
+    <param name="wt" value="xslt"/>
+    <param name="tr" value="archive_year.xsl"/>
+    <param name="rows" value="1000"/>
+    <param name="fl" value="title+ressort+volume+year+teaser_text+uniqueId+byline+image-reference+authors+subtitle+supertitle"/>
+  </query>
+  <query id="archive-year-ng">
+    <param name="q" value="page:1+type:article+AND+!published:not-published+AND+!product_id:ZEDE+AND+!product_id:TGS+AND+!product_id:HaBl+AND+!product_id:WIWO"/>
+    <param name="wt" value="xslt"/>
+    <param name="tr" value="archive_year.xsl"/>
+    <param name="rows" value="1000"/>
+    <param name="fl" value="title+ressort+volume+year+teaser_text+uniqueId+byline+image-reference+authors+subtitle+supertitle"/>
+  </query>
+  <query id="solr-series">
+    <param name="q" value="-published:not-published+AND+(type:article+OR+type:gallery+OR+type:quiz+OR+type:video+OR+(type:link+!title:%5B*+TO+*%5D+!supertitle:%5B*+TO+*%5D+!teaser_text:%5B*+TO+*%5D))"/>
+    <param name="sort" value="date-first-released+desc"/>
+  </query>
+  <query id="video-cp-mosaic">
+    <param name="q" value="type:&quot;video&quot;+-expires:[* TO NOW]+published:&quot;published&quot;"/>
+    <param name="sort" value="date-first-released+desc"/>
+    <param name="start" value="0"/>
+    <param name="version" value="2.2"/>
+    <param name="indent" value="on"/>
+    <param name="fl" value="type,uniqueId,supertitle,title,bc_id_s,graphical-preview-url-large"/>
+  </query>
+  <query id="dpamyline-feed">
+    <param name="q" value="type:article"/>
+    <param name="sort" value="date-first-released+desc"/>
+    <param name="start" value="0"/>
+    <param name="rows" value="20"/>
+    <param name="wt" value="xslt"/>
+    <param name="tr" value="dpamyline.xsl"/>
+  </query>
+  <query id="dwds-news">
+    <param name="q" value="(product_id:(ZEDE+OR+TGS+OR+News+OR+SID+OR+afp)+OR+(product_id:ZEI+AND+breaking_news:true))+type:article+-published:not-published"/>
+    <param name="sort" value="last-semantic-change+desc"/>
+    <param name="start" value="0"/>
+    <param name="rows" value="1000"/>
+    <param name="fl" value="uniqueId,supertitle,title,last-semantic-change,ressort,product_id"/>
+  </query>
+</solr-queries>

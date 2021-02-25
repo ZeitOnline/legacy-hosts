@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-10-31T11:03:30.838381+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-04-14T08:11:45.105080+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-10-31T11:04:30.721505+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-10-31T11:02:18.100449+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">krebs</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f944710d-b148-44bf-ae6a-d20a1164494b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">12</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-52f71430-cf47-49b2-acc8-179800ea2b4a">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-bcb7028e-d38b-4152-95aa-484e5c31b8e5" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/link_zu_erdgas" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.erdgas.info/" ns0:target="_blank" date-last-modified="2012-10-11T15:18:13+00:00" date-first-released="2012-10-11T15:19:12.140115+00:00" date-last-published="2012-10-11T15:19:12.140115+00:00" last-semantic-change="2012-10-11T15:18:00.554310+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu ERDGAS</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/erdgas_logo_neu/erdgas_logo_neu-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-703c3c95-c891-42e3-8c90-462757f0f580">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/teaser_zw_erdgas_foerdermittel" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.moderne-heizung.de/foerdermittelauskunft-info.html" ns0:target="_blank" date-last-modified="2012-10-17T09:00:32+00:00" date-first-released="2012-10-17T08:58:13.559694+00:00" date-last-published="2012-10-17T09:01:32.022624+00:00" last-semantic-change="2012-10-17T09:00:21.902409+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Umfangreiche Förderungs-möglichkeiten</title>
+            <text py:pytype="str">Die Fördermittelauskunft der Initiative ERDGAS pro Umwelt bietet Ihnen eine Übersicht über nationale und regionale Förderprogramme.</text>
+            <description py:pytype="str">Die Fördermittelauskunft der Initiative ERDGAS pro Umwelt bietet Ihnen eine Übersicht über nationale und regionale Förderprogramme.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/foerdermittel/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-0f7bcaa6-f0fe-4007-a188-61da5a40b373">
+          <block href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/klimaschutzziele/index" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-10-25T12:52:54+00:00" date-first-released="2012-10-12T14:14:20.551479+00:00" date-last-published="2012-10-25T12:53:53.716354+00:00" last-semantic-change="2012-10-25T12:52:33.713015+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Energiewende – aber richtig</title>
+            <text py:pytype="str">Die zögerliche Umsetzung bei der Gebäudesanierung gefährdet die ehrgeizigen Klimaziele. Experten und Verbände fordern klare Rahmenbedingungen.</text>
+            <description py:pytype="str">Die zögerliche Umsetzung bei der Gebäudesanierung gefährdet die ehrgeizigen Klimaziele. Experten und Verbände fordern klare Rahmenbedingungen.</description>
+            <byline py:pytype="str">Energiewende: ZEIT WISSEN Zukunftswerkstatt ist ein Angebot des ZEIT-Verlags und ERDGAS. Für diesen Inhalt ist ERDGAS verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/klimaschutzziele/klimaschutzziele_neu/" type="jpg" publication-date="" expires="">
+              <bu>Um das Bild zu vergrößern, klicken Sie bitte auf das Bild.</bu>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-487d7b45-9be0-4102-ba40-13a73b2d84f6">
+          <block href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/bert-oschatz/index" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-10-26T12:50:08+00:00" date-first-released="2012-10-12T14:40:00.462431+00:00" date-last-published="2012-10-26T12:51:07.424029+00:00" last-semantic-change="2012-10-26T12:49:43.448621+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Nicht aus dem Bauch</title>
+            <text py:pytype="str">"Die Maßnahmen mit dem besten Energiespar-Investitions-Verhältnis liegen im Bereich der Heizungstechnik", sagt Prof. Bert Oschatz.</text>
+            <description py:pytype="str">"Die Maßnahmen mit dem besten Energiespar-Investitions-Verhältnis liegen im Bereich der Heizungstechnik", sagt Prof. Bert Oschatz.</description>
+            <byline py:pytype="str">Energiewende: ZEIT WISSEN Zukunftswerkstatt ist ein Angebot des ZEIT-Verlags und ERDGAS. Für diesen Inhalt ist ERDGAS verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/bert-oschatz/aufmacher_artikel2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/familie-bethge/index" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-10-25T12:51:59+00:00" date-first-released="2012-10-12T13:58:08.164783+00:00" date-last-published="2012-10-25T12:52:59.144599+00:00" last-semantic-change="2012-10-25T12:51:45.263194+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Günstig heizen</title>
+            <text py:pytype="str">Familie Bethge kombiniert Erdgas und Solarthermie</text>
+            <description py:pytype="str">Familie Bethge kombiniert Erdgas und Solarthermie</description>
+            <byline py:pytype="str">Energiewende: ZEIT WISSEN Zukunftswerkstatt ist ein Angebot des ZEIT-Verlags und ERDGAS. Für diesen Inhalt ist ERDGAS verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/familie-bethge/familie_bethge/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-4d7ab930-5d76-44fc-a695-946813d532cd">
+          <block href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/veranstaltung/index" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-10-26T14:36:04+00:00" date-first-released="2012-10-23T15:47:32.430413+00:00" date-last-published="2012-10-26T14:37:03.870998+00:00" last-semantic-change="2012-10-26T14:35:23.073715+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Quo vadis, Energiewende?</title>
+            <text py:pytype="str">Die „ZEIT Wissen Zukunftswerkstatt“ lädt zur Diskussion von gesellschaftlich relevanten Themen ein – und hochaktuell war der Auftakt am 17. Oktober.</text>
+            <description py:pytype="str">Die „ZEIT Wissen Zukunftswerkstatt“ lädt zur Diskussion von gesellschaftlich relevanten Themen ein – und hochaktuell war der Auftakt am 17. Oktober.</description>
+            <byline py:pytype="str">Energiewende: ZEIT WISSEN Zukunftswerkstatt ist ein Angebot des ZEIT-Verlags und ERDGAS.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/veranstaltung/ZWZ_Erdgas_1/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-bf722e9b-c1f7-4040-8108-04e17351ca41">
+          <block href="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/veranstaltung/sanierung" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-10-31T10:58:32+00:00" date-first-released="2012-10-31T10:59:31.697320+00:00" date-last-published="2012-10-31T10:59:31.697320+00:00" last-semantic-change="2012-10-31T10:58:15.567380+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Sanierung – eine Investition in die Zukunft?</title>
+            <text py:pytype="str">Die Zukunftswerkstatt von „ZEIT Wissen“ hat sich am 17. Oktober aktuell mit der Energiewende beschäftigt und spannende Anregungen gegeben.</text>
+            <description py:pytype="str">Die Zukunftswerkstatt von „ZEIT Wissen“ hat sich am 17. Oktober aktuell mit der Energiewende beschäftigt und spannende Anregungen gegeben.</description>
+            <byline py:pytype="str">Energiewende: ZEIT WISSEN Zukunftswerkstatt ist ein Angebot des ZEIT-Verlags und ERDGAS.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/zukunftswerkstatt/erdgas/veranstaltung/veranstaltung_2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="9a3be876-da20-40d7-a4a0-662f9314c839">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/zukunftswerkstatt/links/zurueck" year="2010" issue="12" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/zukunftswerkstatt/erdgas/index" date-last-modified="2012-10-12T15:00:40+00:00" date-first-released="2010-04-14T08:09:56.936755+00:00" date-last-published="2012-10-12T15:01:40.104523+00:00" last-semantic-change="2012-10-12T15:00:32.393736+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersichtsseite</title>
+            <text py:pytype="str">Hier klicken.</text>
+            <description py:pytype="str">Hier klicken.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen ZWZ-Erdgas</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen ZWZ-Erdgas</title>
+  </teaser>
+</centerpage>

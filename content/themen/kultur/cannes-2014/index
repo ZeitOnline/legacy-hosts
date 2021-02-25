@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <image base-id="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-thema-4/" type="jpg" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© Loic Venance/AFP/Getty Images</copyright>
+    </image>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-05-26T11:39:16.015473+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-05-16T14:15:51.767993+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-05-26T11:40:21.351044+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-05-24T18:39:57.389662+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Alle Rezensionen zu den Wettbewerbsfilmen der Filmfestspiele Cannes 2014, alle Interviews, Fotostrecken und Berichte rund um die Geschehnisse an der Côte d’Azur
+</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Filmfestspiele Cannes 2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-05-26T11:39:12.075700+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.stroebele</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Kultur</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Film</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:c21f5942-0915-405a-a6d5-314d772ed037}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">21</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="xml" module="xml" cp:__name__="id-5bb580cd-3fa5-4e1f-8128-11dc69bdc26f">
+          <raw><h2>Filmfestspiele Cannes 2014</h2><p align="left">
+Zum 67. Mal verleiht die Jury der Filmfestspiele Cannes die Goldene Palme an den besten Film im Wettbewerb. Das Drama <i>Grace of Monaco</i>, in dem Nicole Kidman die Fürstin Grace Kelly spielt, eröffnete das Festival. 
+</p>
+ 
+<p align="left">
+Neuer Festivalpräsident ist Pierre Lescure, einer der Gründer des französischen Privatsenders Canal+ . Den Juryvorsitz hat die neuseeländische Regisseurin Jane Campion übernommen. Sie gewann 1993 als einzige Frau in der Geschichte der Festspiele die Goldene Palme für ihren Film <i>Das Piano</i>. 
+</p>
+ 
+<p align="left">
+Wegen der Europawahl am Sonntag, den 25. Mai, verkürzten die Organisatoren die Filmfestspiele Cannes 2014 um einen Tag. So findet die traditionsgemäße Abschlussgala mit der Verleihung der Goldenen Palme dieses Jahr bereits am Samstag statt.
+</p>
+ 
+<p align="left">
+Auf dieser Themenseite finden Sie alle Rezensionen zu den Wettbewerbsfilmen in  Cannes, Interviews, Fotostrecken und Berichte rund um die Geschehnisse an der Côte d’Azur.
+</p>
+ 
+</raw>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-54044f88-f87e-494b-9293-2c592fc65764">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/cannes-gewinner-ceylan-winter-sleep" uniqueId="http://xml.zeit.de/kultur/film/2014-05/cannes-gewinner-ceylan-winter-sleep" year="2014" issue="22" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-25T13:14:41+00:00" date-first-released="2014-05-25T07:33:43.831613+00:00" date-last-published="2014-05-25T13:15:40.933144+00:00" last-semantic-change="2014-05-25T07:30:43.637494+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+            <title py:pytype="str">Die größten Träume hatten die Verlierer</title>
+            <text py:pytype="str">Der türkische Film "Winter Sleep" ist ein würdiger Gewinner der Goldenen Palme. Die zwei innovativsten Werke aber kamen diesmal von einem Altmeister und einem Wunderkind.</text>
+            <description py:pytype="str">Der türkische Film "Winter Sleep" ist ein würdiger Gewinner der Goldenen Palme. Die zwei innovativsten Werke aber kamen diesmal von einem Altmeister und einem Wunderkind.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/nuri-bilge-ceylan/" type="jpg" alt="Nuri Bilge Ceylan" align="left" publication-date="" expires="2014-07-30T22:01:31+00:00">
+              <bu py:pytype="str">Der türkische Regisseur Nuri Bilge Ceylan präsentiert in Cannes seine Siegertrophäe, die Goldene Palme.</bu>
+              <copyright py:pytype="str">© EPA/Sebastian Nogier</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/themen/kultur/cannes-2014/index" uniqueId="http://xml.zeit.de/themen/kultur/cannes-2014/index" year="2014" issue="21" ressort="Kultur" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-05-26T11:39:16+00:00" date-first-released="2014-05-16T14:15:51.767993+00:00" date-last-published="2014-05-26T11:40:21.351044+00:00" last-semantic-change="2014-05-26T11:39:12.075700+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Internationale Filmfestspiele Cannes 2014</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-thema-4/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Loic Venance/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-gewinner" uniqueId="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-gewinner" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-25T11:14:22+00:00" date-first-released="2014-05-24T18:09:25.686384+00:00" date-last-published="2014-05-25T11:15:21.786860+00:00" last-semantic-change="2014-05-24T15:46:43.721496+00:00">
+            <supertitle py:pytype="str">Filmfestspiele in Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele in Cannes</teaser_supertitle>
+            <title py:pytype="str">Türkischer Film "Winter Sleep" gewinnt Goldene Palme</title>
+            <text py:pytype="str">Das Filmdrama des Regisseurs Nuri Bilge Ceylan wurde mit der wichtigsten Auszeichnung der 67. Filmfestspiele geehrt. Er widmete den Preis der türkischen Jugend.</text>
+            <description py:pytype="str">Das Filmdrama des Regisseurs Nuri Bilge Ceylan wurde mit der wichtigsten Auszeichnung der 67. Filmfestspiele geehrt. Er widmete den Preis der türkischen Jugend.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/nuri/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Quentin Tarantino (links) und Uma Thurman (rechts) gratulieren Nuri Bilge Ceylan zur Goldenen Palme.</bu>
+              <copyright py:pytype="str">© VALERY HACHE/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-2d9e1b9a-3c01-46ac-b4ea-bd1b4459723f">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-gewinner" uniqueId="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-gewinner" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-25T11:14:22+00:00" date-first-released="2014-05-24T18:09:25.686384+00:00" date-last-published="2014-05-25T11:15:21.786860+00:00" last-semantic-change="2014-05-24T15:46:43.721496+00:00">
+            <supertitle py:pytype="str">Filmfestspiele in Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele in Cannes</teaser_supertitle>
+            <title py:pytype="str">Türkischer Film "Winter Sleep" gewinnt Goldene Palme</title>
+            <text py:pytype="str">Das Filmdrama des Regisseurs Nuri Bilge Ceylan wurde mit der wichtigsten Auszeichnung der 67. Filmfestspiele geehrt. Er widmete den Preis der türkischen Jugend.</text>
+            <description py:pytype="str">Das Filmdrama des Regisseurs Nuri Bilge Ceylan wurde mit der wichtigsten Auszeichnung der 67. Filmfestspiele geehrt. Er widmete den Preis der türkischen Jugend.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/nuri/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Quentin Tarantino (links) und Uma Thurman (rechts) gratulieren Nuri Bilge Ceylan zur Goldenen Palme.</bu>
+              <copyright py:pytype="str">© VALERY HACHE/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2014-05/cannes-zusammenfassung-resumee" uniqueId="http://xml.zeit.de/kultur/film/2014-05/cannes-zusammenfassung-resumee" year="2014" issue="22" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-25T17:03:03+00:00" date-first-released="2014-05-24T12:37:06.593829+00:00" date-last-published="2014-05-25T17:04:03.436300+00:00" last-semantic-change="2014-05-24T12:54:39.237613+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele in Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele in Cannes</teaser_supertitle>
+            <title py:pytype="str">Und was sagt Gott dazu?</title>
+            <text py:pytype="str">Wie war's an der Côte d’Azur dieses Jahr? Welche Filme man sich merken sollte, welche man ruhig vergessen kann und was Godard zu all dem sagt. </text>
+            <description py:pytype="str">Wie war's an der Côte d’Azur dieses Jahr? Welche Filme man sich merken sollte, welche man ruhig vergessen kann und was Godard zu all dem sagt. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/binoche-stewart-cannes/" type="jpg" alt="Kristen Stewart und Juliette Binoche " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zwei ebenbürtige Leinwandgöttinnen: Kristen Stewart und Juliette Binoche (re.) nach der Vorführung ihres Films "Sils Maria" im Wettbewerb von Cannes Film </bu>
+              <copyright py:pytype="str">© LOIC VENANCE/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Filmpreis-Cannes" uniqueId="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Filmpreis-Cannes" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T09:31:15+00:00" date-first-released="2014-05-23T21:21:35.513322+00:00" date-last-published="2014-05-24T09:32:15.516863+00:00" last-semantic-change="2014-05-24T08:28:08.649602+00:00">
+            <supertitle py:pytype="str">Filmfestspiele</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele</teaser_supertitle>
+            <title py:pytype="str">Wim Wenders erhält Auszeichnung in Cannes</title>
+            <text py:pytype="str">30 Jahre nach der Goldenen Palme für "Paris, Texas" ist der Regisseur in Cannes für seine Dokumentation "The Salt of the Earth" geehrt worden – mit einem Spezialpreis.</text>
+            <description py:pytype="str">30 Jahre nach der Goldenen Palme für "Paris, Texas" ist der Regisseur in Cannes für seine Dokumentation "The Salt of the Earth" geehrt worden – mit einem Spezialpreis.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Cannes/" type="jpg" title="Wim Wenders " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wim Wenders bei dem Filmfestival in Cannes</bu>
+              <copyright py:pytype="str">© EPA/Ian Langsdon/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/kultur/cannes-2014/index" uniqueId="http://xml.zeit.de/themen/kultur/cannes-2014/index" year="2014" issue="21" ressort="Kultur" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-05-26T11:39:16+00:00" date-first-released="2014-05-16T14:15:51.767993+00:00" date-last-published="2014-05-26T11:40:21.351044+00:00" last-semantic-change="2014-05-26T11:39:12.075700+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Internationale Filmfestspiele Cannes 2014</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-thema-4/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Loic Venance/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-6cb78d24-d3ce-4b0c-ad05-181a6aec897d">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/cannes-zusammenfassung-resumee" uniqueId="http://xml.zeit.de/kultur/film/2014-05/cannes-zusammenfassung-resumee" year="2014" issue="22" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-25T17:03:03+00:00" date-first-released="2014-05-24T12:37:06.593829+00:00" date-last-published="2014-05-25T17:04:03.436300+00:00" last-semantic-change="2014-05-24T12:54:39.237613+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele in Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele in Cannes</teaser_supertitle>
+            <title py:pytype="str">Und was sagt Gott dazu?</title>
+            <text py:pytype="str">Wie war's an der Côte d’Azur dieses Jahr? Welche Filme man sich merken sollte, welche man ruhig vergessen kann und was Godard zu all dem sagt. </text>
+            <description py:pytype="str">Wie war's an der Côte d’Azur dieses Jahr? Welche Filme man sich merken sollte, welche man ruhig vergessen kann und was Godard zu all dem sagt. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/binoche-stewart-cannes/" type="jpg" alt="Kristen Stewart und Juliette Binoche " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zwei ebenbürtige Leinwandgöttinnen: Kristen Stewart und Juliette Binoche (re.) nach der Vorführung ihres Films "Sils Maria" im Wettbewerb von Cannes Film </bu>
+              <copyright py:pytype="str">© LOIC VENANCE/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/themen/kultur/cannes-2014/index" uniqueId="http://xml.zeit.de/themen/kultur/cannes-2014/index" year="2014" issue="21" ressort="Kultur" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-05-26T11:39:16+00:00" date-first-released="2014-05-16T14:15:51.767993+00:00" date-last-published="2014-05-26T11:40:21.351044+00:00" last-semantic-change="2014-05-26T11:39:12.075700+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Internationale Filmfestspiele Cannes 2014</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-thema-4/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Loic Venance/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-a42aa825-67a6-4e88-8c3f-790cf0b79ebc">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Filmpreis-Cannes" uniqueId="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Filmpreis-Cannes" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T09:31:15+00:00" date-first-released="2014-05-23T21:21:35.513322+00:00" date-last-published="2014-05-24T09:32:15.516863+00:00" last-semantic-change="2014-05-24T08:28:08.649602+00:00">
+            <supertitle py:pytype="str">Filmfestspiele</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele</teaser_supertitle>
+            <title py:pytype="str">Wim Wenders erhält Auszeichnung in Cannes</title>
+            <text py:pytype="str">30 Jahre nach der Goldenen Palme für "Paris, Texas" ist der Regisseur in Cannes für seine Dokumentation "The Salt of the Earth" geehrt worden – mit einem Spezialpreis.</text>
+            <description py:pytype="str">30 Jahre nach der Goldenen Palme für "Paris, Texas" ist der Regisseur in Cannes für seine Dokumentation "The Salt of the Earth" geehrt worden – mit einem Spezialpreis.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Cannes/" type="jpg" title="Wim Wenders " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wim Wenders bei dem Filmfestival in Cannes</bu>
+              <copyright py:pytype="str">© EPA/Ian Langsdon/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-the-salt-of-the-earth-cannes-2014" uniqueId="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-the-salt-of-the-earth-cannes-2014" year="2014" issue="22" ressort="Kultur" author="Jan Schulz-Ojala" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:36+00:00" date-first-released="2014-05-22T11:59:33.299286+00:00" date-last-published="2014-05-24T07:34:01.577929+00:00" last-semantic-change="2014-05-22T12:22:18.993464+00:00">
+            <supertitle py:pytype="str">"The Salt of the Earth" </supertitle>
+            <teaser_supertitle py:pytype="str">"The Salt of the Earth" </teaser_supertitle>
+            <title py:pytype="str">Der Mensch, das wilde Tier </title>
+            <text py:pytype="str">Als einziger deutscher Regisseur schaffte es Wim Wenders dieses Jahr nach Cannes – und begeistert dort mit dem dokumentarischen Porträt des Fotografen Sebastião Salgado. </text>
+            <description py:pytype="str">Als einziger deutscher Regisseur schaffte es Wim Wenders dieses Jahr nach Cannes – und begeistert dort mit dem dokumentarischen Porträt des Fotografen Sebastião Salgado. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-juliano-ribeiro-salgado-cannes/" type="jpg" alt="Regisseur Wim Wenders mit Juliano Ribeiro Salgado Cannes 2014" align="left" publication-date="" expires="2014-08-22T09:24:05+00:00">
+              <bu py:pytype="str">Regisseur Wim Wenders mit Juliano Ribeiro Salgado</bu>
+              <copyright py:pytype="str">© Festival de Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Jan_Schulz-Ojala/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jan Schulz-Ojala</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f862b7f0-9196-4230-b9ed-85e7c41cb4ce">
+          <block href="http://xml.zeit.de/kultur/2014-05/mommy-cannes-dolan" uniqueId="http://xml.zeit.de/kultur/2014-05/mommy-cannes-dolan" year="2014" issue="22" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:31+00:00" date-first-released="2014-05-22T16:01:48.165393+00:00" date-last-published="2014-05-23T09:17:46.498673+00:00" last-semantic-change="2014-05-22T14:34:59.400218+00:00">
+            <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+            <title py:pytype="str">Fuck you, Mommy!</title>
+            <text py:pytype="str">Wie kann ein Film von der Liebe zwischen Mutter und Sohn erzählen, wenn sich beide nur anbrüllen? Regisseur Xavier Dolan schafft es mit "Mommy": zart, brutal und anders.</text>
+            <description py:pytype="str">Wie kann ein Film von der Liebe zwischen Mutter und Sohn erzählen, wenn sich beide nur anbrüllen? Regisseur Xavier Dolan schafft es mit "Mommy": zart, brutal und anders.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2014-05/cannes-mommy/" type="jpg" alt="Mommy, Cannes" align="left" publication-date="2014-05-22T14:29:03+00:00" expires="2014-05-30T14:28:55+00:00">
+              <bu py:pytype="str">Antoine Olivier Pilon als Sohn Steve in "Mommy".</bu>
+              <copyright py:pytype="str">© Festival du Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2014-05/two-days-one-night-dardenne-cannes" uniqueId="http://xml.zeit.de/kultur/film/2014-05/two-days-one-night-dardenne-cannes" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:36+00:00" date-first-released="2014-05-20T14:59:18.244663+00:00" date-last-published="2014-05-21T11:06:27.573579+00:00" last-semantic-change="2014-05-20T14:16:08.071170+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+            <title py:pytype="str">1.000 Euro für dein Herz</title>
+            <text py:pytype="str">In "Zwei Tage, eine Nacht" zeigen die belgischen Dardenne-Brüder, wie uns die Wirtschaftskrise die Menschlichkeit kostet. Der Film ist zurecht ein Favorit in Cannes.  </text>
+            <description py:pytype="str">In "Zwei Tage, eine Nacht" zeigen die belgischen Dardenne-Brüder, wie uns die Wirtschaftskrise die Menschlichkeit kostet. Der Film ist zurecht ein Favorit in Cannes.  </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/dardenne-film-cannes/" type="jpg" align="left" publication-date="" expires="2014-06-30T10:00:00+00:00">
+              <bu py:pytype="str">Marion Cotillard im Cannes-Beitrag "Zwei Tage, eine Nacht" der Dardenne-Brüder</bu>
+              <copyright py:pytype="str">© Festival de Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-75de9d39-7bf1-464e-959c-681b8bd22dc7">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-the-salt-of-the-earth-cannes-2014" uniqueId="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-the-salt-of-the-earth-cannes-2014" year="2014" issue="22" ressort="Kultur" author="Jan Schulz-Ojala" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:36+00:00" date-first-released="2014-05-22T11:59:33.299286+00:00" date-last-published="2014-05-24T07:34:01.577929+00:00" last-semantic-change="2014-05-22T12:22:18.993464+00:00">
+            <supertitle py:pytype="str">"The Salt of the Earth" </supertitle>
+            <teaser_supertitle py:pytype="str">"The Salt of the Earth" </teaser_supertitle>
+            <title py:pytype="str">Der Mensch, das wilde Tier </title>
+            <text py:pytype="str">Als einziger deutscher Regisseur schaffte es Wim Wenders dieses Jahr nach Cannes – und begeistert dort mit dem dokumentarischen Porträt des Fotografen Sebastião Salgado. </text>
+            <description py:pytype="str">Als einziger deutscher Regisseur schaffte es Wim Wenders dieses Jahr nach Cannes – und begeistert dort mit dem dokumentarischen Porträt des Fotografen Sebastião Salgado. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-juliano-ribeiro-salgado-cannes/" type="jpg" alt="Regisseur Wim Wenders mit Juliano Ribeiro Salgado Cannes 2014" align="left" publication-date="" expires="2014-08-22T09:24:05+00:00">
+              <bu py:pytype="str">Regisseur Wim Wenders mit Juliano Ribeiro Salgado</bu>
+              <copyright py:pytype="str">© Festival de Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Jan_Schulz-Ojala/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jan Schulz-Ojala</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/14/fotograf-sebastiao-salgado-genesis" uniqueId="http://xml.zeit.de/2013/14/fotograf-sebastiao-salgado-genesis" year="2013" issue="14" ressort="Kultur" author="Susanne Mayer" contenttype="article" publication-date="2013-04-04T02:33:00+00:00" expires="" date-last-modified="2013-04-12T04:57:13+00:00" date-first-released="2013-03-27T06:00:00+00:00" date-last-published="2013-04-12T04:58:12.953723+00:00" last-semantic-change="2013-04-11T16:52:52.750608+00:00">
+            <supertitle py:pytype="str">Fotograf Sebastião Salgado</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">"Wir sind auch nur Tiere"</title>
+            <text py:pytype="str">Sebastião Salgado ist bekannt als Fotograf der sozialen Fragen. Seine große Fotoerzählung "Genesis" wird nun in London gezeigt. Susanne Mayer hat ihn getroffen.</text>
+            <description py:pytype="str">Sebastião Salgado ist bekannt als Fotograf der sozialen Fragen. Seine große Fotoerzählung "Genesis" wird nun in London gezeigt. Susanne Mayer hat ihn getroffen.</description>
+            <byline py:pytype="str">Von Susanne Mayer</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/kunst/2013-04/fotografie-salgado-genesis/" type="jpg" alt="Sebastiao Salgado" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Fotograf Sebastião Salgado neben einem Bild aus seiner Fotoerzählung &amp;quot;Genesis&amp;quot; (Archiv)</bu>
+              <copyright py:pytype="str">© Miguel Riopa/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/24/Interview-Wenders" uniqueId="http://xml.zeit.de/2011/24/Interview-Wenders" year="2011" issue="24" ressort="Reisen" author="Cosima Schmitt" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T23:21:35+00:00" date-first-released="2011-06-09T06:00:00+00:00" date-last-published="2013-12-04T00:23:03+00:00" last-semantic-change="2011-06-21T06:49:27.648656+00:00">
+            <supertitle py:pytype="str">Regisseur Wim Wenders</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">"Ich möchte das Unsichtbare zeigen"</title>
+            <text py:pytype="str">Warum Touristen weder sehen noch hören können und Friedhöfe mehr über die Lebenden als über die Toten erzählen – ein Gespräch mit dem Filmemacher Wim Wenders.</text>
+            <description py:pytype="str">Warum Touristen weder sehen noch hören können und Friedhöfe mehr über die Lebenden als über die Toten erzählen – ein Gespräch mit dem Filmemacher Wim Wenders.</description>
+            <byline py:pytype="str">Cosima Schmitt</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-06/wenders/" type="jpg" alt="Der Filmregisseur Wim Wenders gerät auf seinen Reisen oft bewusst auf Abwege. " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Filmregisseur Wim Wenders gerät auf seinen Reisen oft bewusst auf Abwege. </bu>
+              <copyright py:pytype="str">© Oliver Berg dpa/lnw</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Cosima_Schmitt/index.xml">
+              <display_name>Cosima Schmitt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/themen/kultur/cannes-2014/index" uniqueId="http://xml.zeit.de/themen/kultur/cannes-2014/index" year="2014" issue="21" ressort="Kultur" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-05-26T11:39:16+00:00" date-first-released="2014-05-16T14:15:51.767993+00:00" date-last-published="2014-05-26T11:40:21.351044+00:00" last-semantic-change="2014-05-26T11:39:12.075700+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Internationale Filmfestspiele Cannes 2014</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-thema-4/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Loic Venance/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-6cab93ca-4485-41ff-a779-6771b9e9f65d">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/two-days-one-night-dardenne-cannes" uniqueId="http://xml.zeit.de/kultur/film/2014-05/two-days-one-night-dardenne-cannes" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:36+00:00" date-first-released="2014-05-20T14:59:18.244663+00:00" date-last-published="2014-05-21T11:06:27.573579+00:00" last-semantic-change="2014-05-20T14:16:08.071170+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+            <title py:pytype="str">1.000 Euro für dein Herz</title>
+            <text py:pytype="str">In "Zwei Tage, eine Nacht" zeigen die belgischen Dardenne-Brüder, wie uns die Wirtschaftskrise die Menschlichkeit kostet. Der Film ist zurecht ein Favorit in Cannes.  </text>
+            <description py:pytype="str">In "Zwei Tage, eine Nacht" zeigen die belgischen Dardenne-Brüder, wie uns die Wirtschaftskrise die Menschlichkeit kostet. Der Film ist zurecht ein Favorit in Cannes.  </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/dardenne-film-cannes/" type="jpg" align="left" publication-date="" expires="2014-06-30T10:00:00+00:00">
+              <bu py:pytype="str">Marion Cotillard im Cannes-Beitrag "Zwei Tage, eine Nacht" der Dardenne-Brüder</bu>
+              <copyright py:pytype="str">© Festival de Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/themen/kultur/cannes-2014/index" uniqueId="http://xml.zeit.de/themen/kultur/cannes-2014/index" year="2014" issue="21" ressort="Kultur" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-05-26T11:39:16+00:00" date-first-released="2014-05-16T14:15:51.767993+00:00" date-last-published="2014-05-26T11:40:21.351044+00:00" last-semantic-change="2014-05-26T11:39:12.075700+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Internationale Filmfestspiele Cannes 2014</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-thema-4/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Loic Venance/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1e9e1495-79aa-429c-81df-28bf53386690">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/strauss-kahn-film-depardieu-welcome-new-york" uniqueId="http://xml.zeit.de/kultur/film/2014-05/strauss-kahn-film-depardieu-welcome-new-york" year="2014" issue="21" ressort="Kultur" author="Anke Sterneborg" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:35+00:00" date-first-released="2014-05-20T16:48:43.422712+00:00" date-last-published="2014-05-20T16:48:43.422712+00:00" last-semantic-change="2014-05-20T15:11:56.317596+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Strauss-Kahn-Film</supertitle>
+            <teaser_supertitle py:pytype="str">Strauss-Kahn-Film</teaser_supertitle>
+            <title py:pytype="str">Skandale und Hiebe </title>
+            <text py:pytype="str">Gérard Depardieu spielt Dominique Strauss-Kahn. Das genügt schon, um Cineasten und Voyeure aufzuschrecken. Ist der Film "Welcome to New York" die Aufregung wert?</text>
+            <description py:pytype="str">Gérard Depardieu spielt Dominique Strauss-Kahn. Das genügt schon, um Cineasten und Voyeure aufzuschrecken. Ist der Film "Welcome to New York" die Aufregung wert?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/depardieu-strauss-kahn-frauen/" type="jpg" align="left" publication-date="" expires="2014-06-30T09:49:02+00:00">
+              <bu py:pytype="str">Gérard Depardieu als Dominique Strauss-Kahn in Abel Ferraras Film "Welcome to New York"</bu>
+              <copyright py:pytype="str">© Wild Bunch</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Anke_Sterneborg/index" publication-date="" expires="">
+              <display_name py:pytype="str">Anke Sterneborg</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-75395816-7a66-4798-a982-48a2ab4e16d8">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/cannes-2014-maps-to-the-stars" uniqueId="http://xml.zeit.de/kultur/film/2014-05/cannes-2014-maps-to-the-stars" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:32+00:00" date-first-released="2014-05-19T13:12:55.835745+00:00" date-last-published="2014-05-20T09:58:35.713390+00:00" last-semantic-change="2014-05-19T13:11:54.247085+00:00">
+            <supertitle py:pytype="str">Filmfestival Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestival Cannes</teaser_supertitle>
+            <title py:pytype="str">Really crazy, dieses Filmbusiness</title>
+            <text py:pytype="str">In seinem neuen Film "Maps to the Stars" rechnet David Cronenberg abgrundtief böse mit Hollywood ab. Trotz hochkarätiger Besetzung ermüdet die schrille Groteske schnell.</text>
+            <description py:pytype="str">In seinem neuen Film "Maps to the Stars" rechnet David Cronenberg abgrundtief böse mit Hollywood ab. Trotz hochkarätiger Besetzung ermüdet die schrille Groteske schnell.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/pattinson-maps-to-stars-cannes-2/" type="jpg" align="left" publication-date="" expires="2014-05-30T09:20:12+00:00">
+              <bu py:pytype="str">Wäre gern ein gefeierter Drehbuchautor: Robert Pattinson als Jerome im Film "Maps to the Stars" </bu>
+              <copyright py:pytype="str">© Filmfestival Cannes / Daniel McFadden</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-321f7102-9055-453c-a052-aa7c3f063e78">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/homesman-lee-jones-cannes" uniqueId="http://xml.zeit.de/kultur/film/2014-05/homesman-lee-jones-cannes" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:34+00:00" date-first-released="2014-05-18T14:36:22.540284+00:00" date-last-published="2014-05-19T11:37:07.299963+00:00" last-semantic-change="2014-05-18T14:38:33.887682+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele Cannes </supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+            <title py:pytype="str">Keine Heimat, nirgendwo</title>
+            <text py:pytype="str">Tommy Lee Jones zeigt in Cannes seinen Film "The Homesman". Der lakonisch-schöne Western handelt von Frauen, die irre werden, und vom amerikanischen Traum von Heimat.</text>
+            <description py:pytype="str">Tommy Lee Jones zeigt in Cannes seinen Film "The Homesman". Der lakonisch-schöne Western handelt von Frauen, die irre werden, und vom amerikanischen Traum von Heimat.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/homesman_cannes/" type="jpg" align="left" publication-date="" expires="2014-05-30T13:38:00+00:00">
+              <bu py:pytype="str">Hilary Swank als Mary Bee Cuddy in "The Homesman"</bu>
+              <copyright py:pytype="str">© Filmfestival Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1529066f-ef13-4ba0-8a95-003f42f53624">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/f2be122d-7a78-4dae-b5b5-e46224ebcdea.tmp" uniqueId="http://xml.zeit.de/kultur/film/2014-05/f2be122d-7a78-4dae-b5b5-e46224ebcdea.tmp" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-24T19:56:34+00:00" date-first-released="2014-05-17T15:15:26.939990+00:00" date-last-published="2014-05-18T08:56:30.966577+00:00" last-semantic-change="2014-05-17T15:14:25.066746+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Saint Laurent</supertitle>
+            <teaser_supertitle py:pytype="str">Cannes</teaser_supertitle>
+            <title py:pytype="str">Opium fürs Auge</title>
+            <text py:pytype="str">"Saint Laurent" ist die zweite Filmbiografie über den Modeschöpfer binnen kurzer Zeit. Bertrand Bonello will dessen Abgründe ausleuchten. Aber selbst die wirken elegant.</text>
+            <description py:pytype="str">"Saint Laurent" ist die zweite Filmbiografie über den Modeschöpfer binnen kurzer Zeit. Bertrand Bonello will dessen Abgründe ausleuchten. Aber selbst die wirken elegant.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/yves-saint-laurent/" type="jpg" align="left" publication-date="" expires="2014-05-31T14:41:35+00:00">
+              <bu py:pytype="str">Gaspard Ulliel als Modeschöpfer Saint Laurent in Bertrand Brunellos gleichnamigen Film</bu>
+              <copyright py:pytype="str">© Festival de Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d3abda1e-c05b-4661-9165-2c632f57f8fd">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/timbuktu-film-islamisten-cannes" uniqueId="http://xml.zeit.de/kultur/film/2014-05/timbuktu-film-islamisten-cannes" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-19T08:05:16+00:00" date-first-released="2014-05-16T14:02:19.239038+00:00" date-last-published="2014-05-19T08:06:16.653645+00:00" last-semantic-change="2014-05-16T14:01:14.837548+00:00">
+            <supertitle py:pytype="str">Filmfestival Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestival Cannes</teaser_supertitle>
+            <title py:pytype="str">Messi als Pantomime</title>
+            <text py:pytype="str">Kinder durften nicht Fußball spielen, Musik war verboten. Abderrahmane Sissako zeigt in "Timbuktu", wie sich Mali unter dem Einfluss der Islamisten veränderte. </text>
+            <description py:pytype="str">Kinder durften nicht Fußball spielen, Musik war verboten. Abderrahmane Sissako zeigt in "Timbuktu", wie sich Mali unter dem Einfluss der Islamisten veränderte. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/timbuktu_cannes/" type="jpg" align="left" publication-date="" expires="2014-05-30T12:55:32+00:00">
+              <bu py:pytype="str">Ibrahim Ahmed als Kidane im Film "Timbuktu"</bu>
+              <copyright py:pytype="str">© Filmfestival Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-a413a0f1-8dd1-4859-bb05-61255a73051a">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/fs-cannes-film-festival" uniqueId="http://xml.zeit.de/kultur/film/2014-05/fs-cannes-film-festival" year="2014" issue="20" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2014-05-15T13:34:49+00:00" date-first-released="2014-05-15T13:24:03.650784+00:00" date-last-published="2014-05-15T13:35:48.880453+00:00" last-semantic-change="2014-05-15T13:34:33.613302+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wer hat die Grazie von Grace?</title>
+            <text py:pytype="str">Auf dem roten Teppich in Cannes drängen sich Fotografen, Models, Schauspieler, Juroren und solche, die es werden wollen. Bilder vom Eröffnungsabend der 67. Filmfestspiele</text>
+            <description py:pytype="str">Auf dem roten Teppich in Cannes drängen sich Fotografen, Models, Schauspieler, Juroren und solche, die es werden wollen. Bilder vom Eröffnungsabend der 67. Filmfestspiele</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/fs-cannes-film-festival-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Eric Gaillard/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-187d8172-b0bb-4d6c-9577-9755cc946be8">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/cannes-mr-turner-mike-leigh" uniqueId="http://xml.zeit.de/kultur/film/2014-05/cannes-mr-turner-mike-leigh" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-25T16:38:29+00:00" date-first-released="2014-05-15T20:56:54.121726+00:00" date-last-published="2014-05-25T16:39:28.844523+00:00" last-semantic-change="2014-05-15T20:55:48.785565+00:00">
+            <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+            <title py:pytype="str">Irre, dieses Licht!</title>
+            <text py:pytype="str">Mike Leigh erzählt in "Mr. Turner" aus dem Leben des Malers William Turner: ein getriebener Künstler und grunzender Frauenmissversteher, ins allerschönste Licht gerückt.</text>
+            <description py:pytype="str">Mike Leigh erzählt in "Mr. Turner" aus dem Leben des Malers William Turner: ein getriebener Künstler und grunzender Frauenmissversteher, ins allerschönste Licht gerückt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/mr-turner-szene/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Szene aus Mike Leighs Film "Mr. Turner"</bu>
+              <copyright py:pytype="str">© Festival de Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-88f16ddd-08b4-4a65-acb2-4866690b1ef1">
+          <block href="http://xml.zeit.de/kultur/film/2014-05/grace-of-monaco-film-kidman-cannes" uniqueId="http://xml.zeit.de/kultur/film/2014-05/grace-of-monaco-film-kidman-cannes" year="2014" issue="20" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2014-05-17T15:02:50+00:00" date-first-released="2014-05-14T14:28:24.708477+00:00" date-last-published="2014-05-17T15:03:50.140562+00:00" last-semantic-change="2014-05-14T14:26:57.841603+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+            <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+            <title py:pytype="str">Grace vom Prenzlauer Berg</title>
+            <text py:pytype="str">Das Fürstenhaus in Monaco tobt ein bisschen und Nicole Kidman verzieht keine Miene. Das Biopic "Grace of Monaco" eröffnet die Filmfestspiele von Cannes. </text>
+            <description py:pytype="str">Das Fürstenhaus in Monaco tobt ein bisschen und Nicole Kidman verzieht keine Miene. Das Biopic "Grace of Monaco" eröffnet die Filmfestspiele von Cannes. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-05/grace-nicole-kidmann/" type="jpg" align="left" publication-date="" expires="2014-05-30T19:40:32+00:00">
+              <bu py:pytype="str">Nicole Kidman als Grace Kelly in "Grace of Monaco"</bu>
+              <copyright py:pytype="str">© Festival de Cannes</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wenke Husmann</display_name>
+              <location>Cannes</location>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d17c37a7-33e3-4ee4-9a7a-1e11043a06f2">
+          <block href="http://xml.zeit.de/kultur/film/2014-01/cannes-pierre-lescure" uniqueId="http://xml.zeit.de/kultur/film/2014-01/cannes-pierre-lescure" year="2014" issue="3" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2014-01-15T06:37:56+00:00" date-first-released="2014-01-14T21:04:22.812129+00:00" date-last-published="2014-01-14T21:04:22.812129+00:00" last-semantic-change="2014-01-14T20:15:02.715571+00:00">
+            <supertitle py:pytype="str">Frankreich</supertitle>
+            <teaser_supertitle py:pytype="str">Frankreich</teaser_supertitle>
+            <title py:pytype="str">Pierre Lescure wird Präsident des Filmfestivals von Cannes</title>
+            <text py:pytype="str">Der 68 Jahre alte Mitgründer des französischen Fernsehsenders Canal+ übernimmt den Vorsitz über die weltweit größte Filmschau. Lescure hat eine Vorliebe für das US-Kino.</text>
+            <description py:pytype="str">Der 68 Jahre alte Mitgründer des französischen Fernsehsenders Canal+ übernimmt den Vorsitz über die weltweit größte Filmschau. Lescure hat eine Vorliebe für das US-Kino.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2014-01/lescure/" type="jpg" align="left" publication-date="" expires="2014-04-14T19:36:59+00:00">
+              <bu py:pytype="str">Pierre Lescure, Mitbegründer des französischen Privatsenders Canal+</bu>
+              <copyright py:pytype="str">© Lionel Cironneau/ap/dpa</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-032f6006-d5cd-4d22-94ee-5925a5feb896">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-40a9c292-26cd-4b6d-9cc8-c3d3492fd34b">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c320a912-6ae7-4363-971b-8e20543ffd74" layout="368x220" title="Archiv: Cannes 2013">
+          <block type="intern" href="http://xml.zeit.de/themen/kultur/cannes-2013/index" year="2013" issue="20" ressort="Kultur" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-05-16T06:46:05+00:00" date-first-released="2013-05-15T10:59:29.731905+00:00" date-last-published="2014-02-28T08:42:09.316976+00:00" last-semantic-change="2013-05-27T06:59:34.961952+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Internationale Filmfestspiele Cannes 2013</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2013-05/cannes-festival-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Festival de Cannes/l'Agence Bronx/Reuters</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/kultur/film/2013-05/cannes-festival-2/cannes-festival-2-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© Festival de Cannes/l'Agence Bronx/Reuters</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c7da783c-9810-46af-9532-ee2fd8cc6bf0" layout="368x110" title="Alle Filmrezensionen auf ZEIT ONLINE">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/kultur/film/2010-12/link-kino-rezensionen" year="2010" issue="49" ressort="Kultur" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/schlagworte/themen/Filmrezension" date-last-modified="2011-03-03T07:32:13+00:00" date-first-released="2010-12-08T15:38:48.405611+00:00" date-last-published="2010-12-08T15:38:48.405611+00:00" last-semantic-change="2011-03-03T07:32:09.983081+00:00">
+            <supertitle py:pytype="str">Filmrezensionen</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Was läuft auf ZEIT ONLINE?</title>
+            <text py:pytype="str">Alle Kinofilm-Besprechungen auf ZEIT ONLINE im Überblick</text>
+            <description py:pytype="str">Alle Kinofilm-Besprechungen auf ZEIT ONLINE im Überblick</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2010-12/filmrezension-teaser/" type="jpg" title="Filmrezension Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Remy Gabalda/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/kultur/film/2010-12/filmrezension-teaser/filmrezension-teaser-368x110.jpg" title="Filmrezension Teaser" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© Remy Gabalda/AFP/Getty Images</copyright>
+          </image>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle>Alles zum Thema</supertitle>
+    <title>Internationale Filmfestspiele Cannes 2014</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/cannes-gewinner-ceylan-winter-sleep" year="2014" issue="22" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+      <title py:pytype="str">Die größten Träume hatten die Verlierer</title>
+      <text py:pytype="str">Der türkische Film "Winter Sleep" ist ein würdiger Gewinner der Goldenen Palme. Die zwei innovativsten Werke aber kamen diesmal von einem Altmeister und einem Wunderkind.</text>
+      <description py:pytype="str">Der türkische Film "Winter Sleep" ist ein würdiger Gewinner der Goldenen Palme. Die zwei innovativsten Werke aber kamen diesmal von einem Altmeister und einem Wunderkind.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/nuri-bilge-ceylan/" type="jpg" alt="Nuri Bilge Ceylan" align="left" publication-date="" expires="2014-07-30T22:01:31+00:00">
+        <bu py:pytype="str">Der türkische Regisseur Nuri Bilge Ceylan präsentiert in Cannes seine Siegertrophäe, die Goldene Palme.</bu>
+        <copyright py:pytype="str">© EPA/Sebastian Nogier</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/cannes-film-festival-gewinner" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Filmfestspiele in Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele in Cannes</teaser_supertitle>
+      <title py:pytype="str">Türkischer Film "Winter Sleep" gewinnt Goldene Palme</title>
+      <text py:pytype="str">Das Filmdrama des Regisseurs Nuri Bilge Ceylan wurde mit der wichtigsten Auszeichnung der 67. Filmfestspiele geehrt. Er widmete den Preis der türkischen Jugend.</text>
+      <description py:pytype="str">Das Filmdrama des Regisseurs Nuri Bilge Ceylan wurde mit der wichtigsten Auszeichnung der 67. Filmfestspiele geehrt. Er widmete den Preis der türkischen Jugend.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/nuri/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Quentin Tarantino (links) und Uma Thurman (rechts) gratulieren Nuri Bilge Ceylan zur Goldenen Palme.</bu>
+        <copyright py:pytype="str">© VALERY HACHE/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Filmpreis-Cannes" year="2014" issue="22" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Filmfestspiele</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele</teaser_supertitle>
+      <title py:pytype="str">Wim Wenders erhält Auszeichnung in Cannes</title>
+      <text py:pytype="str">30 Jahre nach der Goldenen Palme für "Paris, Texas" ist der Regisseur in Cannes für seine Dokumentation "The Salt of the Earth" geehrt worden – mit einem Spezialpreis.</text>
+      <description py:pytype="str">30 Jahre nach der Goldenen Palme für "Paris, Texas" ist der Regisseur in Cannes für seine Dokumentation "The Salt of the Earth" geehrt worden – mit einem Spezialpreis.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/Wim-Wenders-Cannes/" type="jpg" title="Wim Wenders " align="left" publication-date="" expires="">
+        <bu py:pytype="str">Wim Wenders bei dem Filmfestival in Cannes</bu>
+        <copyright py:pytype="str">© EPA/Ian Langsdon/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/cannes-zusammenfassung-resumee" year="2014" issue="22" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Filmfestspiele in Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele in Cannes</teaser_supertitle>
+      <title py:pytype="str">Und was sagt Gott dazu?</title>
+      <text py:pytype="str">Wie war's an der Côte d’Azur dieses Jahr? Welche Filme man sich merken sollte, welche man ruhig vergessen kann und was Godard zu all dem sagt. </text>
+      <description py:pytype="str">Wie war's an der Côte d’Azur dieses Jahr? Welche Filme man sich merken sollte, welche man ruhig vergessen kann und was Godard zu all dem sagt. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/binoche-stewart-cannes/" type="jpg" alt="Kristen Stewart und Juliette Binoche " align="left" publication-date="" expires="">
+        <bu py:pytype="str">Zwei ebenbürtige Leinwandgöttinnen: Kristen Stewart und Juliette Binoche (re.) nach der Vorführung ihres Films "Sils Maria" im Wettbewerb von Cannes Film </bu>
+        <copyright py:pytype="str">© LOIC VENANCE/AFP/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-the-salt-of-the-earth-cannes-2014" year="2014" issue="22" ressort="Kultur" author="Jan Schulz-Ojala" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">"The Salt of the Earth" </supertitle>
+      <teaser_supertitle py:pytype="str">"The Salt of the Earth" </teaser_supertitle>
+      <title py:pytype="str">Der Mensch, das wilde Tier </title>
+      <text py:pytype="str">Als einziger deutscher Regisseur schaffte es Wim Wenders dieses Jahr nach Cannes – und begeistert dort mit dem dokumentarischen Porträt des Fotografen Sebastião Salgado. </text>
+      <description py:pytype="str">Als einziger deutscher Regisseur schaffte es Wim Wenders dieses Jahr nach Cannes – und begeistert dort mit dem dokumentarischen Porträt des Fotografen Sebastião Salgado. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/wim-wenders-juliano-ribeiro-salgado-cannes/" type="jpg" alt="Regisseur Wim Wenders mit Juliano Ribeiro Salgado Cannes 2014" align="left" publication-date="" expires="2014-08-22T09:24:05+00:00">
+        <bu py:pytype="str">Regisseur Wim Wenders mit Juliano Ribeiro Salgado</bu>
+        <copyright py:pytype="str">© Festival de Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Jan_Schulz-Ojala/index" publication-date="" expires="">
+        <display_name py:pytype="str">Jan Schulz-Ojala</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2014-05/mommy-cannes-dolan" year="2014" issue="22" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+      <title py:pytype="str">Fuck you, Mommy!</title>
+      <text py:pytype="str">Wie kann ein Film von der Liebe zwischen Mutter und Sohn erzählen, wenn sich beide nur anbrüllen? Regisseur Xavier Dolan schafft es mit "Mommy": zart, brutal und anders.</text>
+      <description py:pytype="str">Wie kann ein Film von der Liebe zwischen Mutter und Sohn erzählen, wenn sich beide nur anbrüllen? Regisseur Xavier Dolan schafft es mit "Mommy": zart, brutal und anders.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/2014-05/cannes-mommy/" type="jpg" alt="Mommy, Cannes" align="left" publication-date="2014-05-22T14:29:03+00:00" expires="2014-05-30T14:28:55+00:00">
+        <bu py:pytype="str">Antoine Olivier Pilon als Sohn Steve in "Mommy".</bu>
+        <copyright py:pytype="str">© Festival du Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/strauss-kahn-film-depardieu-welcome-new-york" year="2014" issue="21" ressort="Kultur" author="Anke Sterneborg" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Strauss-Kahn-Film</supertitle>
+      <teaser_supertitle py:pytype="str">Strauss-Kahn-Film</teaser_supertitle>
+      <title py:pytype="str">Skandale und Hiebe </title>
+      <text py:pytype="str">Gérard Depardieu spielt Dominique Strauss-Kahn. Das genügt schon, um Cineasten und Voyeure aufzuschrecken. Ist der Film "Welcome to New York" die Aufregung wert?</text>
+      <description py:pytype="str">Gérard Depardieu spielt Dominique Strauss-Kahn. Das genügt schon, um Cineasten und Voyeure aufzuschrecken. Ist der Film "Welcome to New York" die Aufregung wert?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/depardieu-strauss-kahn-frauen/" type="jpg" align="left" publication-date="" expires="2014-06-30T09:49:02+00:00">
+        <bu py:pytype="str">Gérard Depardieu als Dominique Strauss-Kahn in Abel Ferraras Film "Welcome to New York"</bu>
+        <copyright py:pytype="str">© Wild Bunch</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Anke_Sterneborg/index" publication-date="" expires="">
+        <display_name py:pytype="str">Anke Sterneborg</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/two-days-one-night-dardenne-cannes" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+      <title py:pytype="str">1.000 Euro für dein Herz</title>
+      <text py:pytype="str">In "Zwei Tage, eine Nacht" zeigen die belgischen Dardenne-Brüder, wie uns die Wirtschaftskrise die Menschlichkeit kostet. Der Film ist zurecht ein Favorit in Cannes.  </text>
+      <description py:pytype="str">In "Zwei Tage, eine Nacht" zeigen die belgischen Dardenne-Brüder, wie uns die Wirtschaftskrise die Menschlichkeit kostet. Der Film ist zurecht ein Favorit in Cannes.  </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/dardenne-film-cannes/" type="jpg" align="left" publication-date="" expires="2014-06-30T10:00:00+00:00">
+        <bu py:pytype="str">Marion Cotillard im Cannes-Beitrag "Zwei Tage, eine Nacht" der Dardenne-Brüder</bu>
+        <copyright py:pytype="str">© Festival de Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/cannes-2014-maps-to-the-stars" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Filmfestival Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestival Cannes</teaser_supertitle>
+      <title py:pytype="str">Really crazy, dieses Filmbusiness</title>
+      <text py:pytype="str">In seinem neuen Film "Maps to the Stars" rechnet David Cronenberg abgrundtief böse mit Hollywood ab. Trotz hochkarätiger Besetzung ermüdet die schrille Groteske schnell.</text>
+      <description py:pytype="str">In seinem neuen Film "Maps to the Stars" rechnet David Cronenberg abgrundtief böse mit Hollywood ab. Trotz hochkarätiger Besetzung ermüdet die schrille Groteske schnell.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/pattinson-maps-to-stars-cannes-2/" type="jpg" align="left" publication-date="" expires="2014-05-30T09:20:12+00:00">
+        <bu py:pytype="str">Wäre gern ein gefeierter Drehbuchautor: Robert Pattinson als Jerome im Film "Maps to the Stars" </bu>
+        <copyright py:pytype="str">© Filmfestival Cannes / Daniel McFadden</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/homesman-lee-jones-cannes" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Filmfestspiele Cannes </supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+      <title py:pytype="str">Keine Heimat, nirgendwo</title>
+      <text py:pytype="str">Tommy Lee Jones zeigt in Cannes seinen Film "The Homesman". Der lakonisch-schöne Western handelt von Frauen, die irre werden, und vom amerikanischen Traum von Heimat.</text>
+      <description py:pytype="str">Tommy Lee Jones zeigt in Cannes seinen Film "The Homesman". Der lakonisch-schöne Western handelt von Frauen, die irre werden, und vom amerikanischen Traum von Heimat.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/homesman_cannes/" type="jpg" align="left" publication-date="" expires="2014-05-30T13:38:00+00:00">
+        <bu py:pytype="str">Hilary Swank als Mary Bee Cuddy in "The Homesman"</bu>
+        <copyright py:pytype="str">© Filmfestival Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/f2be122d-7a78-4dae-b5b5-e46224ebcdea.tmp" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Saint Laurent</supertitle>
+      <teaser_supertitle py:pytype="str">Cannes</teaser_supertitle>
+      <title py:pytype="str">Opium fürs Auge</title>
+      <text py:pytype="str">"Saint Laurent" ist die zweite Filmbiografie über den Modeschöpfer binnen kurzer Zeit. Bertrand Bonello will dessen Abgründe ausleuchten. Aber selbst die wirken elegant.</text>
+      <description py:pytype="str">"Saint Laurent" ist die zweite Filmbiografie über den Modeschöpfer binnen kurzer Zeit. Bertrand Bonello will dessen Abgründe ausleuchten. Aber selbst die wirken elegant.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/yves-saint-laurent/" type="jpg" align="left" publication-date="" expires="2014-05-31T14:41:35+00:00">
+        <bu py:pytype="str">Gaspard Ulliel als Modeschöpfer Saint Laurent in Bertrand Brunellos gleichnamigen Film</bu>
+        <copyright py:pytype="str">© Festival de Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-01/cannes-pierre-lescure" year="2014" issue="3" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Frankreich</supertitle>
+      <teaser_supertitle py:pytype="str">Frankreich</teaser_supertitle>
+      <title py:pytype="str">Pierre Lescure wird Präsident des Filmfestivals von Cannes</title>
+      <text py:pytype="str">Der 68 Jahre alte Mitgründer des französischen Fernsehsenders Canal+ übernimmt den Vorsitz über die weltweit größte Filmschau. Lescure hat eine Vorliebe für das US-Kino.</text>
+      <description py:pytype="str">Der 68 Jahre alte Mitgründer des französischen Fernsehsenders Canal+ übernimmt den Vorsitz über die weltweit größte Filmschau. Lescure hat eine Vorliebe für das US-Kino.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-01/lescure/" type="jpg" align="left" publication-date="" expires="2014-04-14T19:36:59+00:00">
+        <bu py:pytype="str">Pierre Lescure, Mitbegründer des französischen Privatsenders Canal+</bu>
+        <copyright py:pytype="str">© Lionel Cironneau/ap/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/grace-of-monaco-film-kidman-cannes" year="2014" issue="20" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+      <title py:pytype="str">Grace vom Prenzlauer Berg</title>
+      <text py:pytype="str">Das Fürstenhaus in Monaco tobt ein bisschen und Nicole Kidman verzieht keine Miene. Das Biopic "Grace of Monaco" eröffnet die Filmfestspiele von Cannes. </text>
+      <description py:pytype="str">Das Fürstenhaus in Monaco tobt ein bisschen und Nicole Kidman verzieht keine Miene. Das Biopic "Grace of Monaco" eröffnet die Filmfestspiele von Cannes. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/grace-nicole-kidmann/" type="jpg" align="left" publication-date="" expires="2014-05-30T19:40:32+00:00">
+        <bu py:pytype="str">Nicole Kidman als Grace Kelly in "Grace of Monaco"</bu>
+        <copyright py:pytype="str">© Festival de Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/cannes-mr-turner-mike-leigh" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestspiele Cannes</teaser_supertitle>
+      <title py:pytype="str">Irre, dieses Licht!</title>
+      <text py:pytype="str">Mike Leigh erzählt in "Mr. Turner" aus dem Leben des Malers William Turner: ein getriebener Künstler und grunzender Frauenmissversteher, ins allerschönste Licht gerückt.</text>
+      <description py:pytype="str">Mike Leigh erzählt in "Mr. Turner" aus dem Leben des Malers William Turner: ein getriebener Künstler und grunzender Frauenmissversteher, ins allerschönste Licht gerückt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/mr-turner-szene/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Szene aus Mike Leighs Film "Mr. Turner"</bu>
+        <copyright py:pytype="str">© Festival de Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/fs-cannes-film-festival" year="2014" issue="20" ressort="Kultur" contenttype="gallery" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Filmfestspiele Cannes</supertitle>
+      <teaser_supertitle xsi:nil="true"/>
+      <title py:pytype="str">Wer hat die Grazie von Grace?</title>
+      <text py:pytype="str">Auf dem roten Teppich in Cannes drängen sich Fotografen, Models, Schauspieler, Juroren und solche, die es werden wollen. Bilder vom Eröffnungsabend der 67. Filmfestspiele</text>
+      <description py:pytype="str">Auf dem roten Teppich in Cannes drängen sich Fotografen, Models, Schauspieler, Juroren und solche, die es werden wollen. Bilder vom Eröffnungsabend der 67. Filmfestspiele</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/fs-cannes-film-festival-teaser/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Eric Gaillard/Reuters</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/film/2014-05/timbuktu-film-islamisten-cannes" year="2014" issue="21" ressort="Kultur" author="Wenke Husmann" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Filmfestival Cannes</supertitle>
+      <teaser_supertitle py:pytype="str">Filmfestival Cannes</teaser_supertitle>
+      <title py:pytype="str">Messi als Pantomime</title>
+      <text py:pytype="str">Kinder durften nicht Fußball spielen, Musik war verboten. Abderrahmane Sissako zeigt in "Timbuktu", wie sich Mali unter dem Einfluss der Islamisten veränderte. </text>
+      <description py:pytype="str">Kinder durften nicht Fußball spielen, Musik war verboten. Abderrahmane Sissako zeigt in "Timbuktu", wie sich Mali unter dem Einfluss der Islamisten veränderte. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/film/2014-05/timbuktu_cannes/" type="jpg" align="left" publication-date="" expires="2014-05-30T12:55:32+00:00">
+        <bu py:pytype="str">Ibrahim Ahmed als Kidane im Film "Timbuktu"</bu>
+        <copyright py:pytype="str">© Filmfestival Cannes</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Wenke_Husmann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Wenke Husmann</display_name>
+        <location>Cannes</location>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Internationale Filmfestspiele Cannes 2014</title>
+  </teaser>
+</centerpage>

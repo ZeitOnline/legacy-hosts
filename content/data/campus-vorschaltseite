@@ -1,0 +1,92 @@
+<style>
+@font-face {
+  font-family: "BeckettLight";
+	src: url('http://www.zeit.de/static/latest/fonts/beckett/Beckett-Light.eot');
+	src: url('http://www.zeit.de/static/latest/fonts/beckett/Beckett-Light.eot?#iefix') format('embedded-opentype'),
+  		 url('http://www.zeit.de/static/latest/fonts/beckett/Beckett-Light.woff2') format('woff2'),
+   		 url('http://www.zeit.de/static/latest/fonts/beckett/Beckett-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.wrapper {
+			font-size: 90px;
+			color: #FFFFFF;
+			
+			width: 100%;
+			height: 600px;
+			
+			background-image: 
+				url(http://live0.zeit.de/misc_static_files/campus/zco-iphone.png), 
+				linear-gradient(-180deg, rgba(255,255,255,0.20) 0%, rgba(255,255,255,0.00) 100%);
+			background-position: bottom left;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-color: #e81c72;
+		}
+
+		.text {
+			font-family: "BeckettLight";
+			letter-spacing: 3px;
+			line-height: 0.95;
+			text-transform: uppercase;
+		} 
+
+		.text {
+			margin-left: 5em;
+			padding: 1em 0.5em 0 0;
+
+		}
+
+		.text img {
+			width: 2.2em;
+		}
+
+		.text hr {
+			margin: 0 0 0.3em 0;
+			text-align: left;
+			width: 1.1em;
+			border: 2px solid #fff;
+		}
+
+		.text p {
+			margin: 0;
+			padding: 0;
+		}
+
+		@media (max-width: 768px) {
+			
+			.wrapper {
+				font-size: 70px;
+				height: 466px;
+			} 
+
+		}
+
+		@media (max-width: 580px) {
+			
+			.wrapper {
+				font-size: 45px;
+				height: 600px;
+				background-position: bottom center;
+				background-size: 340px, contain;
+			}
+
+			.text {
+				margin-left: 20px;
+				padding-top: 0.5em;
+			}
+			
+		} 
+	</style>        
+<div class="wrapper">
+		<div class="text">
+			<img src="http://live0.zeit.de/misc_static_files/campus/zco-logo-w.svg" />
+			<hr align="left" noshade>
+			<p>Hier&nbsp;ist&nbsp;ab 2.&nbsp;Mai alles&nbsp;neu</p>
+		</div>
+	</div> 

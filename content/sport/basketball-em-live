@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-09-01T10:28:09.310521+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-08-29T15:50:03.360815+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-09-01T10:29:09.063041+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Basketball live bei ZEIT ONLINE. Alle Spiele der Basketball-EM 2011 im Ticker auf ZEIT ONLINE miterleben. Der aktuelle Spielplan, die neusten Ergebnisse, Meldungen und der EM Tabellenstand jederzeit live und im Rückblick.</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Live-Ticker zur Basketball EM 2011 | Sport  | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-09-01T10:26:30.072232+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.dobbert</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Sport</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:d8735877-773a-4f52-b33c-5be858ed87db}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">25</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="cpextra" module="basketballemticker" cp:__name__="67898acf-fc30-4d06-9ab8-10ec068665c9">
+          <cp_extra id="basketballemticker"/>
+        </container>
+        <container cp:type="cpextra" module="" cp:__name__="4e123061-689d-438b-af7f-f7197c0c3da7"/>
+        <container cp:type="cpextra" module="" cp:__name__="dff727bd-7a27-4656-9cea-d61b6f860a6b"/>
+        <container cp:type="cpextra" module="" cp:__name__="0cdf937d-0cef-40e5-98f2-540187ecc6fd"/>
+        <container cp:type="cpextra" module="" cp:__name__="02487c25-10fa-4afa-b2f0-bc447cb43e21"/>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="589341d6-3c22-4090-8b3f-55c85dbb23ee">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="3883cc83-0705-4516-bd5c-bd3b4fb99bf4">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="cpextra" module="" cp:__name__="53b5d320-d1ad-44d4-8551-418019a8a1b7"/>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="75dabfc9-f9bb-442e-b326-78c37946307e">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="cb1d9b87-ae31-43d4-8c8f-ef3e721f3971">
+          <block href="http://xml.zeit.de/sport/2011-08/bauermann-em-nowitzki-bayern" year="2011" issue="34" ressort="Sport" publication-date="" expires="" date-last-modified="2011-09-01T07:52:54+00:00" date-first-released="2011-08-25T12:54:58.861941+00:00" date-last-published="2011-08-25T18:07:41.878246+00:00" last-semantic-change="2011-08-25T07:38:00.438340+00:00">
+            <supertitle py:pytype="str">Dirk Bauermann</supertitle>
+            <title py:pytype="str">"Die Nowitzki-Welle muss man reiten"</title>
+            <text py:pytype="str">Der Basketball-Bundestrainer Dirk Bauermann über die anstehende EM in Litauen, Uli Hoeneß' Verständnis vom Basketball und den Mythos Dirk Nowitzki.</text>
+            <description py:pytype="str">Der Basketball-Bundestrainer Dirk Bauermann über die anstehende EM in Litauen, Uli Hoeneß' Verständnis vom Basketball und den Mythos Dirk Nowitzki.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Dirk Nowitzki im Spiel gegen Belgien in Bamberg" align="left" title="Nowitzki" base-id="http://xml.zeit.de/sport/2011-08/nowitzki-deutschland/" type="jpg" publication-date="" expires="">
+              <bu>Dirk Nowitzki im Spiel gegen Belgien in Bamberg</bu>
+              <copyright py:pytype="str">© Johannes Simon/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="f0285cd2-b774-46e4-a326-c3771746826c">
+          <block href="http://xml.zeit.de/sport/2011-08/basketball-em-litauen-kaunas" year="2011" issue="35" ressort="Sport" publication-date="" expires="" date-last-modified="2011-09-01T07:53:00+00:00" date-first-released="2011-08-29T14:55:50.393730+00:00" date-last-published="2011-08-31T14:42:03.997534+00:00" last-semantic-change="2011-08-29T14:54:38.050645+00:00">
+            <supertitle py:pytype="str">Europameisterschaft</supertitle>
+            <title py:pytype="str">Drei Millionen Litauer wollen den Titel</title>
+            <text py:pytype="str">Basketball ist in Litauen fast eine Religion. Die EM soll nun das größte Sportereignis in der Geschichte der baltischen Republik werden. Von Matthias Kolb, Kaunas</text>
+            <description py:pytype="str">Basketball ist in Litauen fast eine Religion. Die EM soll nun das größte Sportereignis in der Geschichte der baltischen Republik werden. Von Matthias Kolb, Kaunas</description>
+            <byline xsi:nil="true"/>
+            <image alt="Boban Marjanovic (rechts) von Zalgiris Kaunas während eines Heimspiels in Kaunas" align="left" base-id="http://xml.zeit.de/sport/2011-08/Zalgiris-Kaunas/" type="jpg" publication-date="" expires="">
+              <bu>Boban Marjanovic (rechts) von Zalgiris Kaunas während eines Heimspiels in Kaunas</bu>
+              <copyright py:pytype="str">© P. Malukas/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="b76b162c-6935-4be4-9d72-9ceeeb8b7cf7">
+          <block href="http://xml.zeit.de/sport/2011-07/yao-ming-basketball-ruecktritt" year="2011" issue="29" ressort="Sport" publication-date="" expires="" date-last-modified="2011-07-21T12:00:33+00:00" date-first-released="2011-07-21T10:45:14.973365+00:00" date-last-published="2011-07-21T12:01:33.412677+00:00" last-semantic-change="2011-07-21T10:39:16.061488+00:00">
+            <supertitle py:pytype="str">Basketball</supertitle>
+            <title py:pytype="str">Der Riese Yao Ming ist zerbrochen</title>
+            <text py:pytype="str">Seine Zeugung war staatlich verordnet. Der chinesische Basketballer Yao Ming sollte die NBA erobern. Nun zwingt ihn sein Körper zum Rücktritt. Von Tobias Jochheim</text>
+            <description py:pytype="str">Seine Zeugung war staatlich verordnet. Der chinesische Basketballer Yao Ming sollte die NBA erobern. Nun zwingt ihn sein Körper zum Rücktritt. Von Tobias Jochheim</description>
+            <byline xsi:nil="true"/>
+            <image alt="&quot;Oben ein Monster, unten Matsch&quot;: Yao Ming" align="left" title="Yao Ming" base-id="http://xml.zeit.de/sport/2011-07/yao-ming/" type="jpg" publication-date="" expires="">
+              <bu>"Oben ein Monster, unten Matsch": Yao Ming</bu>
+              <copyright py:pytype="str">© Jeff Gross/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="8a2a6825-15b7-48cf-9300-9dc7e3cb9b21">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/fussball/2009-09/link-alles-ausser-fussball" year="2009" issue="37" ressort="Sport" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=alles-ausser-fussball" date-last-modified="2011-09-01T10:27:57+00:00" date-first-released="2009-09-04T16:46:53.094906+00:00" date-last-published="2011-09-01T10:28:56.646477+00:00" last-semantic-change="2011-09-01T10:27:40.121407+00:00">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Alles außer Fußball</title>
+            <text py:pytype="str">Die Kolumne von Katja Kraus, Corny Littmann, Thomas Hitzlsperger und Moritz Volz. Wir reden mit ihnen abwechselnd über alles, alles außer Fußball.</text>
+            <description py:pytype="str">Die Kolumne von Katja Kraus, Corny Littmann, Thomas Hitzlsperger und Moritz Volz. Wir reden mit ihnen abwechselnd über alles, alles außer Fußball.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Kolumne – Alles außer Fußball" align="left" title="Alles außer Fußball" base-id="http://xml.zeit.de/sport/fussball/2009-12/serie-alles-ausser-fussball/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©  </copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Basketball-EM 2011 - Live</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Basketball-EM 2011 - Live</title>
+  </teaser>
+</centerpage>

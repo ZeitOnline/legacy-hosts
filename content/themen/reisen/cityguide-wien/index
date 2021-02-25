@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-wien/header-ts-wien" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© Gabrielle Grenz/AFP/Getty Images</copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image align="left" title="Cityguide Wien" base-id="http://xml.zeit.de/reisen/2013-01/cityguide-wien/" type="jpg" publication-date="" expires="">
+      <bu py:pytype="str">Mystisch: Wien im Nebel</bu>
+      <copyright py:pytype="str">© Heinz-Peter Bader/Reuters</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T07:28:41.609753+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-02-21T04:49:23.194938+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T07:29:49.501902+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-07-17T07:28:48.285352+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-08</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T07:28:08.159246+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2013-12-27</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">730070241</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2013-02-21T04:48:19+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">332</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:2c7b592b-04c6-4260-b73d-1a619a884fb1}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">5</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-964e29d6-23ed-48cd-bddc-532a9870688a">
+          <block href="http://xml.zeit.de/2013/08/City-Guide-Wien-Prater" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T03:58:36+00:00" expires="" date-last-modified="2014-02-13T03:10:41+00:00" date-first-released="2013-02-14T06:00:00+00:00" date-last-published="2014-02-13T03:11:40.312382+00:00" last-semantic-change="2013-02-28T17:23:40.073502+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Wiens Soho unterm Riesenrad</title>
+            <text py:pytype="str">Die Wiener Leopoldstadt wird angesagt, ohne ihre Wurschtigkeit zu verlieren. Eine Nacht zwischen Lack-Bikinis, Pratersauna-Hipstern und schrägen Cafés. Von W.A. Hanisch</text>
+            <description py:pytype="str">Die Wiener Leopoldstadt wird angesagt, ohne ihre Wurschtigkeit zu verlieren. Eine Nacht zwischen Lack-Bikinis, Pratersauna-Hipstern und schrägen Cafés. Von W.A. Hanisch</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/prater/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Riesenrad im Wiener Prater</bu>
+              <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-0910a030-ddcb-47bf-a23d-b6cdd57f57fe">
+          <block href="http://xml.zeit.de/2013/08/City-Guide-Wien-Tanzlehrer-Tradition" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T03:55:23+00:00" expires="" date-last-modified="2013-12-12T04:53:54+00:00" date-first-released="2013-02-14T06:00:00+00:00" date-last-published="2013-12-12T04:54:54.429972+00:00" last-semantic-change="2013-02-24T13:26:05.025850+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Die Bälle hoch halten!</title>
+            <text py:pytype="str">Thomas Schäfer-Elmayer ist der berühmteste Tanzlehrer Österreichs. Hier spricht er über die Wiener Liebe zu ihren Bällen und richtige Etikette im Kaffeehaus.</text>
+            <description py:pytype="str">Thomas Schäfer-Elmayer ist der berühmteste Tanzlehrer Österreichs. Hier spricht er über die Wiener Liebe zu ihren Bällen und richtige Etikette im Kaffeehaus.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/elmayer/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Schäfer-Elmayer achtet auf die Form.</bu>
+              <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b607fe36-9432-4c05-9a41-5be6c2e1f27a">
+          <block href="http://xml.zeit.de/2013/08/City-Guide-Wien-Wohnzimmer-Lena-Hoschek" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T03:19:07+00:00" expires="" date-last-modified="2014-02-13T03:10:42+00:00" date-first-released="2013-02-14T06:00:00+00:00" date-last-published="2014-02-13T03:11:42.576093+00:00" last-semantic-change="2013-02-14T06:00:00+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Ein Kaffee nach einer langen Nacht </title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Modedesignerin Lena Hoschek liebt den Wiener Naschmarkt für seine Tradition und Lebensfreude – und den starken Kaffee. Ein Protokoll von Ulf Lippitz</text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Modedesignerin Lena Hoschek liebt den Wiener Naschmarkt für seine Tradition und Lebensfreude – und den starken Kaffee. Ein Protokoll von Ulf Lippitz</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/naschmarkt-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Naschmarkt im Winter</bu>
+              <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3237f2ff-4133-485d-b659-3645383c6129">
+          <block href="http://xml.zeit.de/2013/08/City-Guide-Wien-Anbetung-Pferde" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T03:59:01+00:00" expires="" date-last-modified="2014-02-13T03:10:42+00:00" date-first-released="2013-02-14T06:00:00+00:00" date-last-published="2014-02-13T03:11:41.892133+00:00" last-semantic-change="2013-02-20T12:53:26.808355+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Das Herz der Stadt schlägt für Pferde</title>
+            <text py:pytype="str">Ob Hofreitschule oder Fiaker: Pferde bestimmen das Bild der Wiener Innenstadt. Wie herrlich, dass Wien so viel Tier in seiner vornehmen Mitte zulässt, findet B. Conrad.</text>
+            <description py:pytype="str">Ob Hofreitschule oder Fiaker: Pferde bestimmen das Bild der Wiener Innenstadt. Wie herrlich, dass Wien so viel Tier in seiner vornehmen Mitte zulässt, findet B. Conrad.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/hofreitschule/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Morgenarbeit&amp;quot; in der Spanischen Hofreitschule. Die Lipizzaner trainieren zu klassischer Musik.</bu>
+              <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d30a73a6-a5e9-4399-8b33-e7bbb168c9e8">
+          <block href="http://xml.zeit.de/reisen/2013-02/City-Guide-Wien-Restaurants" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T04:00:44+00:00" expires="" date-last-modified="2013-12-02T21:09:26+00:00" date-first-released="2013-02-21T04:01:45.738821+00:00" date-last-published="2013-12-02T22:10:06+00:00" last-semantic-change="2013-02-19T13:12:52.336274+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+            <text py:pytype="str">Kitschfreie Klassiker, Austro-Fusion oder doch lieber das Bier im Sektglas? Die Wiener Gastronomie lädt zum Experimentieren ein. Fünf Tipps für gute Restaurants</text>
+            <description py:pytype="str">Kitschfreie Klassiker, Austro-Fusion oder doch lieber das Bier im Sektglas? Die Wiener Gastronomie lädt zum Experimentieren ein. Fünf Tipps für gute Restaurants</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/silvionickol/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Palais Coburg Hotel Residenz</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-731d4980-7aef-4d30-af77-23390f696fa3">
+          <block href="http://xml.zeit.de/reisen/2013-02/city-guide-wien-web-online-tipps" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T07:00:42+00:00" expires="" date-last-modified="2014-03-03T16:52:24+00:00" date-first-released="2013-02-21T07:01:46.902303+00:00" date-last-published="2013-12-02T22:10:06+00:00" last-semantic-change="2013-02-21T10:28:40.601529+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide </supertitle>
+            <title py:pytype="str">Wien im Netz</title>
+            <text py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir haben die besten Online-Tipps für die Planung Ihres Städtetrips recherchiert.</text>
+            <description py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir haben die besten Online-Tipps für die Planung Ihres Städtetrips recherchiert.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-01/cityguide-wien/" type="jpg" title="Cityguide Wien" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mystisch: Wien im Nebel</bu>
+              <copyright py:pytype="str">© Heinz-Peter Bader/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7cd661ca-d308-4259-9901-451b7316801d">
+          <block href="http://xml.zeit.de/2013/08/City-Guide-Wien-Hotel-Hollmanns-Beletage" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T03:29:33+00:00" expires="" date-last-modified="2014-03-03T16:52:08+00:00" date-first-released="2013-02-14T06:00:00+00:00" date-last-published="2014-03-03T16:53:08.348139+00:00" last-semantic-change="2013-03-03T17:09:42.666449+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Eine filmreife Bleibe</title>
+            <text py:pytype="str">Man nimmt sich, was man braucht und genießt die stilvolle Einrichtung: Im Hotel Hollmann Beletage fühlt man sich wie bei Freunden, die es gern schön haben. Von S. Flamm</text>
+            <description py:pytype="str">Man nimmt sich, was man braucht und genießt die stilvolle Einrichtung: Im Hotel Hollmann Beletage fühlt man sich wie bei Freunden, die es gern schön haben. Von S. Flamm</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/hotel-beletage-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Warme Farben, weiche Formen: Sitzecke im unteren &amp;quot;Wohnzimmer&amp;quot;</bu>
+              <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3d3cbac1-5ff4-430c-a049-c8bd6b9c87b1">
+          <block href="http://xml.zeit.de/2013/08/City-Guide-Wien-Tipps" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T03:44:09+00:00" expires="" date-last-modified="2014-07-17T07:28:33+00:00" date-first-released="2013-02-14T06:00:00+00:00" date-last-published="2014-03-03T16:53:08.986102+00:00" last-semantic-change="2013-02-14T06:00:00+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Käsekrainer mit Musik</title>
+            <text py:pytype="str">Tütenlampen, historische Abendroben, knisternde Bettwäsche und eine Bar, in der neben dem DJ die Würste brutzeln. Sechs ausgefallene Shopping- und Ausgeh-Tipps in Wien</text>
+            <description py:pytype="str">Tütenlampen, historische Abendroben, knisternde Bettwäsche und eine Bar, in der neben dem DJ die Würste brutzeln. Sechs ausgefallene Shopping- und Ausgeh-Tipps in Wien</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/looshaus/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Looshaus in Wien</bu>
+              <copyright py:pytype="str" link="http://commons.wikimedia.org/wiki/File:Looshaus_Vienna_June_2006_546.jpg">© Wikipedia (CC BY-SA 3.0) </copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b48f7f1d-c724-4d5f-9b49-7e9c0795da43">
+          <block href="http://xml.zeit.de/reisen/2013-02/City-Guide-Wien-Hotels" year="2013" issue="8" ressort="Reisen" publication-date="2013-02-21T03:00:17+00:00" expires="" date-last-modified="2014-03-03T16:52:23+00:00" date-first-released="2013-02-21T03:02:36.342391+00:00" date-last-published="2013-12-02T22:10:06+00:00" last-semantic-change="2013-02-20T12:58:34.448002+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Wien</supertitle>
+            <title py:pytype="str">Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Plüsch, urbane Moderne und schnörkellose Tradition – Wiens Hotels bieten alles. Hier empfiehlt die Redaktion die charmantesten Adressen der Stadt.</text>
+            <description py:pytype="str">Plüsch, urbane Moderne und schnörkellose Tradition – Wiens Hotels bieten alles. Hier empfiehlt die Redaktion die charmantesten Adressen der Stadt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-02/hotel-lamee/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9bfe3728-f23c-4a26-ac0c-6bf06dff2605">
+          <block href="http://xml.zeit.de/2012/28/CH-Riedl" year="2012" issue="28" ressort="Gesellschaft" publication-date="2012-07-09T04:55:15+00:00" expires="" date-last-modified="2013-06-20T15:03:55+00:00" date-first-released="2012-07-05T06:00:00+00:00" date-last-published="2012-07-09T04:56:18.291599+00:00" last-semantic-change="2012-07-05T06:00:00+00:00" contenttype="article" author="Joachim Riedl">
+            <supertitle py:pytype="str">Wien</supertitle>
+            <title py:pytype="str">Eine heimtückische Stadt</title>
+            <text py:pytype="str">Wien übertrumpft Zürich regelmäßig in Städterankings. Zu Recht. Perfekt aber wäre die österreichische Metropole erst ohne Einheimische. Von Joachim Riedl</text>
+            <description py:pytype="str">Wien übertrumpft Zürich regelmäßig in Städterankings. Zu Recht. Perfekt aber wäre die österreichische Metropole erst ohne Einheimische. Von Joachim Riedl</description>
+            <byline py:pytype="str">VON JOACHIM RIEDL</byline>
+            <image base-id="http://xml.zeit.de/gesellschaft/2012-07/ch-wien/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Stadtstrand am Donaukanal in Wien</bu>
+              <copyright py:pytype="str">© Herwig Prammer/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/R/Joachim_Riedl/index.xml">
+              <display_name>Joachim Riedl</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-0ee40e4f-18aa-4743-9874-330ea389cbdb">
+          <block href="http://xml.zeit.de/2011/45/Wien-Kinos" year="2011" issue="45" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T15:32:05+00:00" date-first-released="2011-11-03T06:00:00+00:00" date-last-published="2013-12-03T16:33:59+00:00" last-semantic-change="2011-11-04T07:35:34.434606+00:00" contenttype="article" author="Bernadette Conrad">
+            <supertitle py:pytype="str">Kinos in Wien</supertitle>
+            <title py:pytype="str">Ein Streifen Nostalgie</title>
+            <text py:pytype="str">Holzklappstühle, Blümchentapeten und anspruchsvolle Filme: In Wiens Lichtspielhäusern lebt trotz schwieriger Bedingungen die große Kinotradition fort. Von B. Conrad</text>
+            <description py:pytype="str">Holzklappstühle, Blümchentapeten und anspruchsvolle Filme: In Wiens Lichtspielhäusern lebt trotz schwieriger Bedingungen die große Kinotradition fort. Von B. Conrad</description>
+            <byline py:pytype="str">Von Bernadette Conrad</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/kino-admiral/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Admiralkino in Wien zeigt, wie in historischen Räumen echtes Arthouse-Kino glücken kann.</bu>
+              <copyright py:pytype="str">© rois &amp; stubenrauch für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Bernadette_Conrad/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Bernadette Conrad</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fbaeefd7-fabf-45a1-bc60-fcb9921230f1">
+          <block href="http://xml.zeit.de/lebensart/mode/2011-05/manufakturen-wien" year="2011" issue="20" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-12-03T23:27:48+00:00" date-first-released="2011-06-09T14:33:58.773086+00:00" date-last-published="2013-12-04T00:28:54+00:00" last-semantic-change="2011-06-09T14:32:45.597319+00:00" contenttype="article" author="Ulf Lippitz">
+            <supertitle py:pytype="str">Traditionsbetriebe in Wien</supertitle>
+            <title py:pytype="str">Die Sehnsucht nach Handgenähtem</title>
+            <text py:pytype="str">Viele Menschen sind ermüdet von flüchtigen Trends. Vor allem in Wien erleben Traditionsbetriebe eine Renaissance. Sogar Brad Pitt bestellt dort beim exklusiven Hutmacher.</text>
+            <description py:pytype="str">Viele Menschen sind ermüdet von flüchtigen Trends. Vor allem in Wien erleben Traditionsbetriebe eine Renaissance. Sogar Brad Pitt bestellt dort beim exklusiven Hutmacher.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/mode/2011-06/wien-manufaktur-hut-bild/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Blick in den Arbeitsraum der Hutmanufaktur Mühlbauer</bu>
+              <copyright py:pytype="str" link="http://www.muehlbauer.at">© Mühlbauer</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml">
+              <display_name>Ulf Lippitz</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-b03b463a-0ce1-47dc-b0d7-8c09c27f5ce0">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-61ed8154-d98d-4a2f-bab7-73fba25ffaab">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-35e7b364-5115-4a6a-b88c-81e2010c3ad3" layout="368x110" title="City Guide Venedig">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-venedig/index" year="2012" issue="50" ressort="Reisen" publication-date="2012-12-20T04:33:58+00:00" expires="" date-last-modified="2013-06-14T09:50:46+00:00" date-first-released="2012-12-20T04:35:05.799986+00:00" date-last-published="2013-06-14T09:50:49.598028+00:00" last-semantic-change="2013-06-14T09:49:34.502370+00:00" contenttype="centerpage-2009">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Venedig</title>
+            <text py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</text>
+            <description py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-12/city-guide-vendedig/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-0a78a4fe-ebc6-49eb-ba5b-c439a85f27a7" visible="True">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-hamburg/index" year="2012" issue="26" ressort="Reisen" publication-date="2012-08-30T08:10:00+00:00" expires="" date-last-modified="2013-09-26T09:07:55+00:00" date-first-released="2012-08-30T08:11:02.395538+00:00" date-last-published="2013-09-26T09:08:53.563617+00:00" last-semantic-change="2013-09-26T09:07:30.541603+00:00" contenttype="centerpage-2009">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Hamburg</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-istanbul/index" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-02T15:49:10+00:00" date-first-released="2011-11-30T14:31:47.917129+00:00" date-last-published="2013-08-21T08:36:13.360927+00:00" last-semantic-change="2013-08-21T07:33:26.170196+00:00" contenttype="centerpage-2009">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Istanbul</title>
+            <text py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </text>
+            <description py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/moschee-istanbul-city-guide/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-da8b4b8b-dba9-465f-a0b2-a2978bb60e51" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-wien/index#467d55b5-e7b8-427c-a762-ca7e167afca5" year="2012" issue="25" ressort="Reisen" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-london/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide London</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-wien/index#fc05855f-5590-428d-b9b5-12b69f831793" year="2011" issue="50" ressort="Reisen" publication-date="" expires="" ns1:href="http://xml.zeit.de/themen/reisen/cityguide-lissabon/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Lissabon</title>
+            <text py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</text>
+            <description py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-12/lissabon-cityguide/" type="jpg" title="Cityguide Lissabon" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LISBON, PORTUGAL - JULY 23:  Tourists visit Belem Tower on July 23, 2008 in Lisbon, Portugal. Portugal is becoming an increasingly popular tourist destination.  (Photo by Sean Gallup/Getty Images)</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-2e0fcea0-5da8-4e90-bae4-6f53ddf57dca" visible="True">
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-wien/index#bd8da7b5-91e5-4284-8eb2-5c8633bcfaaa" year="2012" issue="41" ressort="Reisen" publication-date="" expires="" ns2:href="http://xml.zeit.de/themen/reisen/cityguide-prag/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City-Guide Prag</title>
+            <text py:pytype="str">Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</text>
+            <description py:pytype="str">Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/cityguide-prag/" type="jpg" title="Cityguide Prag Teaserbild" alt="Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns3="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-wien/index#21ed6e2e-258c-458a-852a-4f11198d598e" year="2011" ressort="Reisen" publication-date="" expires="" ns3:href="http://xml.zeit.de/themen/reisen/cityguide-paris/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Paris</title>
+            <text py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </text>
+            <description py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/paris-themenseite/" type="jpg" title="Paris Themenseite" align="left" publication-date="" expires="">
+              <bu py:pytype="str">A picture taken on November 12, 2011 in Paris, shows a youth dancing on the Parvis des droits de l'homme (Human rights Esplanade at the Trocadero) and the Eiffel tower.    AFP PHOTO / LIONEL BONAVENTURE (Photo credit should read LIONEL BONAVENTURE/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Lionel Bonaventure/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-71362db2-b134-4993-a99b-2330898c14f5" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-wien/index#31b5ca59-95a6-470b-9ad3-cef199c930f7" year="2012" ressort="Reisen" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-zuerich/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Zürich</title>
+            <text py:pytype="str">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </text>
+            <description py:pytype="str">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/zuerich-bild/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Mike Hewitt/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-wien/index#e0cf13bc-1885-439f-86ff-43cb14b5935d" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-barcelona/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Barcelona</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/themenseite-barcelona-city-guide-2/" type="jpg" title="Themenseite Barcelona City Guide 2" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Barcelona, SPAIN:  A view of the front of Catalan architect Antoni Gaudi's unfinished cathedral La Sagrada Familia in Barcelona, 07 June 2006. Religious services will be able to take place in the nave by 2008, the construction committee said Wednesday.   AFP PHOTO/CESAR RANGEL  (Photo credit should read CESAR RANGEL/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Cesar Rangel/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle xsi:nil="true"/>
+    <title>City Guide Wien</title>
+    <subtitle>Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt bei Nacht, essen Schnitzel im besten Lokal am Platz und schlafen in einer Luxus-WG neben dem Stephansdom. </subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/mode/2011-05/manufakturen-wien" year="2011" issue="20" ressort="Lebensart" contenttype="article" publication-date="" expires="" author="Ulf Lippitz">
+      <supertitle py:pytype="str">Traditionsbetriebe in Wien</supertitle>
+      <title py:pytype="str">Die Sehnsucht nach Handgenähtem</title>
+      <text py:pytype="str">Viele Menschen sind ermüdet von flüchtigen Trends. Vor allem in Wien erleben Traditionsbetriebe eine Renaissance. Sogar Brad Pitt bestellt dort beim exklusiven Hutmacher.</text>
+      <description py:pytype="str">Viele Menschen sind ermüdet von flüchtigen Trends. Vor allem in Wien erleben Traditionsbetriebe eine Renaissance. Sogar Brad Pitt bestellt dort beim exklusiven Hutmacher.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/mode/2011-06/wien-manufaktur-hut-bild/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ein Blick in den Arbeitsraum der Hutmanufaktur Mühlbauer</bu>
+        <copyright py:pytype="str" link="http://www.muehlbauer.at">© Mühlbauer</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml">
+        <display_name>Ulf Lippitz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/45/Wien-Kinos" year="2011" issue="45" ressort="Reisen" contenttype="article" publication-date="" expires="" author="Bernadette Conrad">
+      <supertitle py:pytype="str">Kinos in Wien</supertitle>
+      <title py:pytype="str">Ein Streifen Nostalgie</title>
+      <text py:pytype="str">Holzklappstühle, Blümchentapeten und anspruchsvolle Filme: In Wiens Lichtspielhäusern lebt trotz schwieriger Bedingungen die große Kinotradition fort. Von B. Conrad</text>
+      <description py:pytype="str">Holzklappstühle, Blümchentapeten und anspruchsvolle Filme: In Wiens Lichtspielhäusern lebt trotz schwieriger Bedingungen die große Kinotradition fort. Von B. Conrad</description>
+      <byline py:pytype="str">Von Bernadette Conrad</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/kino-admiral/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Admiralkino in Wien zeigt, wie in historischen Räumen echtes Arthouse-Kino glücken kann.</bu>
+        <copyright py:pytype="str">© rois &amp; stubenrauch für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/C/Bernadette_Conrad/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Bernadette Conrad</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/28/CH-Riedl" year="2012" issue="28" ressort="Gesellschaft" contenttype="article" publication-date="2012-07-09T04:55:15+00:00" expires="" author="Joachim Riedl">
+      <supertitle py:pytype="str">Wien</supertitle>
+      <title py:pytype="str">Eine heimtückische Stadt</title>
+      <text py:pytype="str">Wien übertrumpft Zürich regelmäßig in Städterankings. Zu Recht. Perfekt aber wäre die österreichische Metropole erst ohne Einheimische. Von Joachim Riedl</text>
+      <description py:pytype="str">Wien übertrumpft Zürich regelmäßig in Städterankings. Zu Recht. Perfekt aber wäre die österreichische Metropole erst ohne Einheimische. Von Joachim Riedl</description>
+      <byline py:pytype="str">VON JOACHIM RIEDL</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2012-07/ch-wien/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Stadtstrand am Donaukanal in Wien</bu>
+        <copyright py:pytype="str">© Herwig Prammer/Reuters</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/R/Joachim_Riedl/index.xml">
+        <display_name>Joachim Riedl</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2013-02/City-Guide-Wien-Hotels" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T03:00:17+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Hoteltipps der Redaktion</title>
+      <text py:pytype="str">Plüsch, urbane Moderne und schnörkellose Tradition – Wiens Hotels bieten alles. Hier empfiehlt die Redaktion die charmantesten Adressen der Stadt.</text>
+      <description py:pytype="str">Plüsch, urbane Moderne und schnörkellose Tradition – Wiens Hotels bieten alles. Hier empfiehlt die Redaktion die charmantesten Adressen der Stadt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/hotel-lamee/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/08/City-Guide-Wien-Tipps" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T03:44:09+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Käsekrainer mit Musik</title>
+      <text py:pytype="str">Tütenlampen, historische Abendroben, knisternde Bettwäsche und eine Bar, in der neben dem DJ die Würste brutzeln. Sechs ausgefallene Shopping- und Ausgeh-Tipps in Wien</text>
+      <description py:pytype="str">Tütenlampen, historische Abendroben, knisternde Bettwäsche und eine Bar, in der neben dem DJ die Würste brutzeln. Sechs ausgefallene Shopping- und Ausgeh-Tipps in Wien</description>
+      <byline py:pytype="str">von Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/looshaus/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Looshaus in Wien</bu>
+        <copyright py:pytype="str" link="http://commons.wikimedia.org/wiki/File:Looshaus_Vienna_June_2006_546.jpg">© Wikipedia (CC BY-SA 3.0) </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/08/City-Guide-Wien-Hotel-Hollmanns-Beletage" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T03:29:33+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Eine filmreife Bleibe</title>
+      <text py:pytype="str">Man nimmt sich, was man braucht und genießt die stilvolle Einrichtung: Im Hotel Hollmann Beletage fühlt man sich wie bei Freunden, die es gern schön haben. Von S. Flamm</text>
+      <description py:pytype="str">Man nimmt sich, was man braucht und genießt die stilvolle Einrichtung: Im Hotel Hollmann Beletage fühlt man sich wie bei Freunden, die es gern schön haben. Von S. Flamm</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/hotel-beletage-2/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Warme Farben, weiche Formen: Sitzecke im unteren &amp;quot;Wohnzimmer&amp;quot;</bu>
+        <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2013-02/city-guide-wien-web-online-tipps" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T07:00:42+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide </supertitle>
+      <title py:pytype="str">Wien im Netz</title>
+      <text py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir haben die besten Online-Tipps für die Planung Ihres Städtetrips recherchiert.</text>
+      <description py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir haben die besten Online-Tipps für die Planung Ihres Städtetrips recherchiert.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-01/cityguide-wien/" type="jpg" title="Cityguide Wien" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Mystisch: Wien im Nebel</bu>
+        <copyright py:pytype="str">© Heinz-Peter Bader/Reuters</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2013-02/City-Guide-Wien-Restaurants" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T04:00:44+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+      <text py:pytype="str">Kitschfreie Klassiker, Austro-Fusion oder doch lieber das Bier im Sektglas? Die Wiener Gastronomie lädt zum Experimentieren ein. Fünf Tipps für gute Restaurants</text>
+      <description py:pytype="str">Kitschfreie Klassiker, Austro-Fusion oder doch lieber das Bier im Sektglas? Die Wiener Gastronomie lädt zum Experimentieren ein. Fünf Tipps für gute Restaurants</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/silvionickol/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Palais Coburg Hotel Residenz</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/08/City-Guide-Wien-Anbetung-Pferde" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T03:59:01+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Das Herz der Stadt schlägt für Pferde</title>
+      <text py:pytype="str">Ob Hofreitschule oder Fiaker: Pferde bestimmen das Bild der Wiener Innenstadt. Wie herrlich, dass Wien so viel Tier in seiner vornehmen Mitte zulässt, findet B. Conrad.</text>
+      <description py:pytype="str">Ob Hofreitschule oder Fiaker: Pferde bestimmen das Bild der Wiener Innenstadt. Wie herrlich, dass Wien so viel Tier in seiner vornehmen Mitte zulässt, findet B. Conrad.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/hofreitschule/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">&amp;quot;Morgenarbeit&amp;quot; in der Spanischen Hofreitschule. Die Lipizzaner trainieren zu klassischer Musik.</bu>
+        <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/08/City-Guide-Wien-Wohnzimmer-Lena-Hoschek" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T03:19:07+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Ein Kaffee nach einer langen Nacht </title>
+      <text py:pytype="str">Mein Wohnzimmer: Die Modedesignerin Lena Hoschek liebt den Wiener Naschmarkt für seine Tradition und Lebensfreude – und den starken Kaffee. Ein Protokoll von Ulf Lippitz</text>
+      <description py:pytype="str">Mein Wohnzimmer: Die Modedesignerin Lena Hoschek liebt den Wiener Naschmarkt für seine Tradition und Lebensfreude – und den starken Kaffee. Ein Protokoll von Ulf Lippitz</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/naschmarkt-2/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Naschmarkt im Winter</bu>
+        <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/08/City-Guide-Wien-Tanzlehrer-Tradition" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T03:55:23+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Die Bälle hoch halten!</title>
+      <text py:pytype="str">Thomas Schäfer-Elmayer ist der berühmteste Tanzlehrer Österreichs. Hier spricht er über die Wiener Liebe zu ihren Bällen und richtige Etikette im Kaffeehaus.</text>
+      <description py:pytype="str">Thomas Schäfer-Elmayer ist der berühmteste Tanzlehrer Österreichs. Hier spricht er über die Wiener Liebe zu ihren Bällen und richtige Etikette im Kaffeehaus.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/elmayer/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Schäfer-Elmayer achtet auf die Form.</bu>
+        <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/08/City-Guide-Wien-Prater" year="2013" issue="8" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-02-21T03:58:36+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Wien</supertitle>
+      <title py:pytype="str">Wiens Soho unterm Riesenrad</title>
+      <text py:pytype="str">Die Wiener Leopoldstadt wird angesagt, ohne ihre Wurschtigkeit zu verlieren. Eine Nacht zwischen Lack-Bikinis, Pratersauna-Hipstern und schrägen Cafés. Von W.A. Hanisch</text>
+      <description py:pytype="str">Die Wiener Leopoldstadt wird angesagt, ohne ihre Wurschtigkeit zu verlieren. Eine Nacht zwischen Lack-Bikinis, Pratersauna-Hipstern und schrägen Cafés. Von W.A. Hanisch</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-02/prater/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Blick vom Riesenrad im Wiener Prater</bu>
+        <copyright py:pytype="str" link="http://peterrigaud.com/">© Peter Rigaud für DIE ZEIT</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">City Guide Wien</title>
+    <text py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt, essen Schnitzel im Sternelokal und schlafen in einer Luxus-WG.</text>
+  </teaser>
+</centerpage>

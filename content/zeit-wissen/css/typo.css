@@ -1,0 +1,188 @@
+a
+{
+color: #999900;
+text-decoration: none;
+}
+a.weiss { color: #FFFFFF; }
+a.aktivdunkelrot { color: #999999; }
+a.gelbgruen
+{
+color: #999900;
+line-height: 17px;
+}
+a.aktivblau
+{
+color: #000033;
+line-height: 17px;
+}
+
+SPAN.menu1-act, SPAN.menu1-no
+{
+color: white;
+margin: 0px 20px 0px 0px;
+padding: 0 9px 3px 10px;
+_width: 1px;
+}
+
+SPAN.menu1-forum-act, SPAN.menu1-forum-no
+{
+color: white;
+margin: 0px 16px 0px 0px;
+padding: 0 9px 3px 10px;
+_width: 1px;
+}
+
+SPAN.menu1-no-last
+{
+_width: 1px;
+color: white;
+margin: 0px 1px 0px 0px;
+padding: 0px 0px 3px 10px;
+}
+
+SPAN.menu1-act { background-color: #727D21; line-height: 13px; }
+SPAN.menu1-forum-act { background-color: #727D21; line-height: 13px; }
+
+DIV.menu2-no
+{
+width: 237px;
+height: 30px;
+margin: 0px 0px 3px 0px;
+color: #003;
+border-bottom: #CCCCCC;
+border-width: 0px 0px 1px 0px;
+border-style: none none dashed none;
+font-size: 10px;
+padding: 0px 0px 0px 0px;
+}
+
+DIV.menu2-act
+{
+color: #600;
+font-weight: bold;
+}
+
+SPAN.menu2-title, SPAN.menu2-title-act
+{
+font-size: 10px;
+color: #003;
+padding: 0px 0px 0px 10px;
+margin: 0px;
+font-weight: normal;
+}
+
+SPAN.menu2-title-act
+{
+color: #600;
+font-weight: bold;
+}
+
+
+SPAN.menu2-subtitle
+{
+font-size: 10px;
+color: #990;
+padding: 0px 0px 0px 10px;
+margin: 0px;
+font-weight: normal;
+}
+
+
+p, p.bodytext
+{
+font-family: Verdana, Sans-Serif;
+font-size: 11px;
+line-height: 14px;
+margin: 9px 0 9px 0;
+}
+p.bodytext, p.rot { margin: 0px 0 9px 0; }
+
+p.rechts { text-align: right; }
+
+p.blau, p.headlineTeaser, p.headlineAbstract, p.headlineGross
+{
+color: #000033;
+}
+
+TD#hometableContRight p.blau{
+margin: 0px;
+padding: 0px;
+}
+
+p.rot
+{
+color: #660000;
+}
+
+p.headlineTeaser, p.headlineAbstract, p.headlineGross, p.headlineGrossimText
+{
+font-size: 24px;
+font-family: palatino, times, serif;
+line-height: normal;
+margin: 0px;
+}
+
+p.headlineAbstract
+{
+line-height: 22px;
+font-size: 17px;
+border-bottom: #CCCCCC;
+border-width: 0 0 1px 0;
+border-style: none none dashed none;
+padding: 0px 0 0 0;
+margin: 10px 0px 4px 0px;
+}
+
+p.headlineGross
+{
+font-size: 20px;
+border-bottom: #CCCCCC;
+border-width: 0px 0px 1px 0px;
+border-style: none none dashed none;
+text-indent: 10px;
+}
+
+p.headlineGrossimText
+{
+font-size: 28px;
+margin: 0px 0px 10px 0px;
+}
+
+p.introimText
+{
+font-size: 12px;
+margin: 0px 0px 9px 0px;
+color: #660000;
+}
+
+
+p.bildunterschrift, p.bildunterschriftLinks
+{
+text-align: right;
+color: #999999;
+margin: 5px 0px 10px 0px;
+font-size: 9px;
+}
+p.bildunterschriftLinks
+{
+text-align: left;
+}
+
+
+p.copyright
+{
+font-size: 9px;
+text-align: right;
+color: white;
+margin: 0px 10px 0px 0px;
+padding: 3px;
+}
+p.autor { font-style: italic; }
+
+p.frage { color: #660000; }
+
+SPAN.rot
+{
+color: #660000;
+
+}

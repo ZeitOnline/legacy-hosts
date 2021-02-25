@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-05-19T11:51:40.375140+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-05-19T09:58:57.728490+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-05-19T11:52:39.980870+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-05-19T11:51:08.686581+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">unsere-autos</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:d33f27e1-4151-4dfd-b1ee-f53655da57e9}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="e5030ce8-4725-4efb-bcef-cf4fb2502812">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="433c34d5-b9d8-4c7e-96a8-1176176bc668">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/unsere-autos/link_zu_unsere_autos" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.unsere-autos.de/service/unsere-initiative/" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zur Initiative "Unsere Autos"</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/unsere-autos/logo_unsere_autos_transp/logo_unsere_autos_transp-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="3753f388-9962-4407-9a63-4cf0388e7a7e">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/unsere-autos/link_newsletter" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.unsere-autos.de/service/newsletter-1/" ns0:target="_blank" date-last-modified="2011-05-19T10:13:16+00:00" date-first-released="2011-05-19T10:05:38.132584+00:00" date-last-published="2011-05-19T10:14:16.276012+00:00" last-semantic-change="2011-05-19T10:12:56.360614+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Newsletter-Anmeldung</title>
+            <text py:pytype="str">Gerne unterrichten wir Sie zu gegebener Zeit über Neuigkeiten und Aktionen der Initiative Unsere Autos. Hier können Sie sich für unseren Newsletterverteiler anmelden.</text>
+            <description py:pytype="str">Gerne unterrichten wir Sie zu gegebener Zeit über Neuigkeiten und Aktionen der Initiative Unsere Autos. Hier können Sie sich für unseren Newsletterverteiler anmelden.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.unsere-autos.de/service/newsletter-1/" title="icon_newsletter" base-id="http://xml.zeit.de/angebote/unsere-autos/icon_newsletter/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="39c0da06-4f19-4bd4-b72d-e7111688250f" title="Weitere Themen auf www.unsere-autos.de">
+          <raw>
+            <ul>
+              <li>
+                <a href="http://www.unsere-autos.de/unsere-forschung/elektromobilitaet/">Die Vision vom sauberen Fahren
+</a>
+              </li>
+              <li>
+                <a href="http://www.elektromobilitaet-vda.de/">Elektromobilität</a>
+              </li>
+              <li>
+                <a href="http://www.unsere-autos.de/service/materialien/downloadbereichneu/infografik-unsere-forschung-einsparpotenzial.pdf">Einsparpotential von Hybridmotoren</a>
+              </li>
+              <li>
+                <a href="http://www.unsere-autos.de/w/files/vda-grafiken/vda-grafik_antriebstechnologien_2011.pdf">Antriebstechnologien</a>
+              </li>
+            </ul>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Unsere Autos</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Unsere Autos</title>
+  </teaser>
+</centerpage>

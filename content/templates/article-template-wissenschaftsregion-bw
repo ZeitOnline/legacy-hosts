@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-06-07T08:07:47.179212+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-06-05T10:31:21.148760+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-06-07T08:09:26.339158+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-06-06T11:17:41.246108+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-06-07T08:08:09.618360+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">wissenschaftsregion-bw</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:66bfc325-0051-46f7-99f2-ef8a37c7112a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-0e74b655-f948-457f-99c1-fc866834279d">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-de2a7ec2-3781-44f4-939c-f2d9d805b320">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/wissenschaftsregion-bw/link_startseite-2" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/wissenschaftsregion-bw/index" ns0:target="_blank" date-last-modified="2013-06-05T10:26:22+00:00" date-first-released="2013-06-05T10:26:38.387684+00:00" date-last-published="2013-06-05T10:26:38.387684+00:00" last-semantic-change="2013-06-05T10:25:09.434564+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-281296e7-13a1-473a-b3dd-052d07ca3e31">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-bw/neugierde" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-04T13:46:57+00:00" date-first-released="2013-06-04T13:26:44.101680+00:00" date-last-published="2013-06-04T13:47:14.990011+00:00" last-semantic-change="2013-06-04T13:45:09.546812+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wo die Neugierde bis ins All reicht</title>
+            <text py:pytype="str">In keinem anderen Bundesland arbeiten so viele Ingenieure wie in Baden-Württemberg. Sie gewinnen Nobelpreise und weisen uns den Weg in die Zukunft.</text>
+            <description py:pytype="str">In keinem anderen Bundesland arbeiten so viele Ingenieure wie in Baden-Württemberg. Sie gewinnen Nobelpreise und weisen uns den Weg in die Zukunft.</description>
+            <byline py:pytype="str"> Wie wird geforscht in Baden-Württemberg?:  ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-bw/bilder/aufmacher_illu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-924335da-eb3a-4787-b003-e939f3ef6c8d">
+          <block href="http://xml.zeit.de/angebote/wissenschaftsregion-bw/zukunft" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-07T08:08:11+00:00" date-first-released="2013-06-04T13:57:26.418160+00:00" date-last-published="2013-06-07T08:08:24.484096+00:00" last-semantic-change="2013-06-07T08:07:02.946282+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Türöffner in die Zukunft</title>
+            <text py:pytype="str">Theorie und Praxis sind an den Hochschulen Baden-Württembergs besonders eng verzahnt. So werden die Studierenden optimal auf den Arbeitsmarkt vorbereitet. </text>
+            <description py:pytype="str">Theorie und Praxis sind an den Hochschulen Baden-Württembergs besonders eng verzahnt. So werden die Studierenden optimal auf den Arbeitsmarkt vorbereitet. </description>
+            <byline py:pytype="str"> Wie wird geforscht in Baden-Württemberg?:  ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/wissenschaftsregion-bw/bilder/wwgi_artikel2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Wissenschaftsregion-BW</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Wissenschaftsregion-BW</title>
+  </teaser>
+</centerpage>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article>
+  <head>
+    <!-- Original QPS -->
+    <!-- Additional QPS -->
+    <!-- CMS/document -->
+    <!-- CMS/workflow -->
+    <references>
+      <reference href="reiseauskunft.bahn.de" linkid="11657" position="1" type="external">
+        <title>Deutsche Bahn</title>
+        <description>Individuelle Verbindungssuche, Fahrplan- und Preisauskunft</description>
+      </reference>
+      <reference href="www.verkehrsinfo-nrw.de" linkid="11658" position="1" type="external">
+        <title>Verkehr in NRW</title>
+        <description>Linksammlung zu Verkehrslage, Stauprognosen, Radarfallen und günstiges Tanken in Nordrhein-Westfalen</description>
+      </reference>
+      <reference href="www.verkehrsinfo-hamburg.de" linkid="11659" position="1" type="external">
+        <title>Hamburger Verkehrslage</title>
+        <description>Ob es Stau im Elbtunnel, freie Parkplätze in der Innenstadt gibt oder Straßenbaustellen die Durchfahrt durch Hamburg blockieren, erfahren Sie hier.</description>
+      </reference>
+      <reference href="www.verkehrsinfo-nord.de" linkid="11660" position="1" type="external">
+        <title>Unterwegs im Norden</title>
+        <description>Informationen rund ums Reisen in Schleswig-Holstein, Niedersachsen, Mecklenburg-Vorpommern, Hamburg und Bremen: Autobahnen, Radwandern, Hafenrundfahrten, Stadtpläne und mehr</description>
+      </reference>
+      <reference href="www.bayerninfo.de" linkid="11661" position="1" type="external">
+        <title>Bayerninfo</title>
+        <description>Routenplaner, Verbindungssuche für alle öffentlichen Verkehrsmittel und das "Bayernnetz" mit Karten von Fahrradwegen</description>
+      </reference>
+      <reference href="www.vmzberlin.de" linkid="11662" position="1" type="external">
+        <title>Mobil in Berlin</title>
+        <description>Aktuelle Verkehrs- und Wetterlage in Deutschlands Hauptstadt, Adressen für Mietwagen und Stadtrundfahrten, Tipps für Parken und SMS-Stauwarner</description>
+      </reference>
+      <reference href="www.car-los.ch" linkid="11663" position="1" type="external">
+        <title>Car-los</title>
+        <description>Trampen mit Mitnahmegarantie: In der Schweiz gibt es ein System mit Haltestellen, Anzeigetafel und Fahrschein für eine Fahrgelegenheit im Privatauto.</description>
+      </reference>
+      <reference href="www.radroutenplaner.nrw.de" linkid="11664" position="1" type="external">
+        <title>Radfahren in NRW</title>
+        <description>Radwegkarten für alle Kreise und Städte, Themenrouten entlang von Fachwerkhäusern, Flüssen und Schlössern, Tipps für Sehenswürdigkeiten</description>
+      </reference>
+      <reference href="www.octopuscard.com/eng/" linkid="11666" position="1" type="external">
+        <title>Hong Kong bargeldlos</title>
+        <description>Mit der Octopus Card kann man mit öffentlichen Verkehrsmitteln fahren, in Parkhäusern, Supermärkten, Schwimmbädern von insgesamt 253 Organisationen bezahlen.</description>
+      </reference>
+      <reference href="www.projektruhr.de/de/ruhr_pilot/" linkid="11667" position="1" type="external">
+        <title>Ruhrpilot</title>
+        <description>Die Seite informiert über den Stand des Projektes, das die Verkehrslage im Ballungsraum entlasten soll.</description>
+      </reference>
+    </references>
+    <keywordset>
+      <keyword intaxo="no" source="manual">Verkehrsmittel</keyword>
+      <keyword intaxo="no" source="manual">Fahrkarte</keyword>
+      <keyword intaxo="no" source="manual">vhb_Mobilität</keyword>
+      <keyword intaxo="yes" source="manual">transport</keyword>
+      <keyword intaxo="yes" source="manual">personenverkehr</keyword>
+      <keyword intaxo="yes" source="manual">Transport_und_Verkehr</keyword>
+      <keyword intaxo="yes" source="manual">verkehr</keyword>
+    </keywordset>
+    <rankedTags>
+      <tag url_value="deutsche-bahn" uuid="0e5480f3-3a15-470a-814f-d27ec4484796" score="6" type="Organization">Deutsche Bahn</tag>
+      <tag url_value="fc-schalke-04" uuid="2ff61426-134f-4a60-a5d5-53a60f43633a" score="5" type="Organization">FC Schalke 04</tag>
+      <tag url_value="bahnhof" uuid="44cc5067-3492-4288-b8a3-e0732e71376d" score="4" type="free">Bahnhof</tag>
+      <tag url_value="bus" uuid="a667937b-5330-4059-961e-9727c148ad3b" score="4" type="free">Bus</tag>
+      <tag url_value="ruhrgebiet" uuid="db345832-ddc4-445a-bafa-5da06e8cc40d" score="4" type="free">Ruhrgebiet</tag>
+      <tag url_value="hongkong" uuid="c8f014c0-5b1f-4021-9af7-7c081a8fc20d" score="3" type="Location">Hongkong</tag>
+      <tag url_value="berlin" uuid="f0c02270-9bb3-47da-9fa2-a33f919f75d4" score="1" type="Location">Berlin</tag>
+      <tag url_value="bremen" uuid="89fda136-8104-4243-b43a-747510ba09bf" score="1" type="Location">Bremen</tag>
+      <tag url_value="karlsruhe" uuid="e76cdf1d-ee47-4c43-85f9-acbb04ee8586" score="1" type="Location">Karlsruhe</tag>
+      <tag url_value="rhein" uuid="d72ecc90-8c57-42b1-882f-7c5c1d7ce08b" score="1" type="Location">Rhein</tag>
+      <tag url_value="sizilien" uuid="ff3b0d2f-4f4e-475d-8aba-f24e0752394f" score="1" type="Location">Sizilien</tag>
+    </rankedTags>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="artbox_thema">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">Dirk Asendorpf</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">(c) DIE ZEIT 09.09.2004 Nr.38</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-11-23T17:50:34.965041+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2004-09-09T12:00:00Z</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-11-23T17:51:51.732070+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2004-09-09T12:00:00+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="erscheint">2004-09-09T12:00Z</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="has_recensions">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="imagecount">0</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="keywords">Verkehrsmittel;Fahrkarte;Mobilität;Transport;Personenverkehr;Transport und Verkehr;Verkehr</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">richter</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2004-09-09T12:00:00+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">systemnewspublish</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="page">46</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="page-from">46</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="pagelabel">Wissen</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEI</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/vgwort" name="public_token">4e8eca57a6bd4f4f8818f2a9d78ab9f6</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">Wissen</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="text-length">11716</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="title">Umsteigen, bitte</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">article</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="urgent">yes</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f7b442d6-af92-46b4-ba7d-545cce3e4272}</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">38</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2004</attribute>
+  <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="access">registration</attribute></head>
+  <body>
+    <title font-size="58">Umsteigen, bitte</title>
+    <subtitle>Ohne Auto kommt man manchmal schneller ans Ziel – und bald vielleicht auch komfortabler</subtitle>
+    <byline>Von Dirk Asendorpf</byline>
+    <division type="page">
+      <initial font-size="10.3425">Unbeschränkte Mobilität beginnt mit dem Griff zum Autoschlüssel, davon sind noch immer die meisten Deutschen überzeugt. Nur der eigene Wagen vor der Tür bringt mich zu jeder Tages- oder Nachtzeit problemlos von A nach B. Vorplanung ist nicht nötig, die Kosten halten sich in jenen Grenzen, die der aktuelle Benzinpreis definiert, den Weg ans Ziel weisen Auto-Atlas und Navigationsgerät. Doch die mobile Wirklichkeit sieht längst anders aus: Schneller, zuverlässiger, bequemer und billiger geht es häufig mit öffentlichen Verkehrsmitteln. Wer Bus, Bahn, Fähre und Flugzeug geschickt kombiniert und im Zweifel auch vor einer Taxifahrt oder einem kurzen Fußweg nicht zurückschreckt, ist dem Autofahrer in puncto Mobilität keineswegs unterlegen.</initial>
+      <p font-size="10.5">Und das nicht nur dann, wenn man von einem ICE-Bahnhof zum anderen will. Auch auf dem Weg zwischen Kleinstädten muss der öffentliche Verkehr den Vergleich mit dem Auto nicht mehr scheuen. Zum Beispiel vom Ihlsol im holsteinischen Preetz einmal quer durch die Republik in die Klosterstraße im badischen Frauenalb. 729 Kilometer Straße liegen dazwischen, für die im Mittelklassewagen nach ADAC-Angaben 8 Stunden und 13 Minuten Fahrzeit nötig sind. Mit öffentlichen Verkehrsmitteln geht es – je nach Abfahrtszeit – zwischen fünf Minuten und einer knappen Stunde schneller: zu Fuß oder per Stadtbus zum Preetzer Bahnhof, im Regionalzug über Kiel nach Hamburg, dann im ICE bis <entity idref="Karlsruhe" entity_type="Location" url_value="orte/karlsruhe">Karlsruhe</entity> und weiter mit der S-Bahn. Am Schluss bleiben sechs Minuten Fußweg, die in der Gesamtreisezeit schon einkalkuliert sind. Nur bei Nachtfahrten ist das Auto bis zu dreieinhalb Stunden schneller.</p>
+      <intertitle font-size="12">Den besten Mobilitätsplaner bietet die gescholtene Deutsche Bahn</intertitle>
+      <p font-size="10.5">Noch vor kurzem war ein derart detaillierter Vergleich unmöglich. Selbst ausgebuffte Fahrplan-Freaks konnten nur den Weg von Bahnhof zu Bahnhof austüfteln, die Weiterfahrt in Bus oder Straßenbahn musste vor Ort geklärt werden. Den richtigen Fußweg wiesen Passanten. Doch inzwischen lichtet sich der Wildwuchs bei den "intermodalen Verkehrsketten" – so nennen die Fachleute die Umsteigeverbindung mit Zug, Bus und anderen öffentlichen Verkehrsmitteln.</p>
+      <p font-size="10.5">Ausgerechnet die viel gescholtene <entity idref="Deutsche+Bahn" entity_type="Organization" url_value="organisationen/deutsche-bahn">Deutsche Bahn</entity> bietet eine Internet-Reiseauskunft für den kompletten Weg von Haustür zu Haustür. Gibt es für einen Abschnitt keinen Bus, wird ein Fußweg vorgeschlagen – mit exakter Wegbeschreibung und einer Karte zum Ausdrucken. Alternativ gibt es Angaben zur Taxifahrt – auch hier mit Karte und Information zum Fahrpreis. Selbst den direkten Vergleich zum Auto scheut die Bahn nicht. Mit einem Klick lassen sich die Fahrzeiten des öffentlichen Verkehrs direkt mit dem Ergebnis des ADAC-Routenplaners vergleichen. Das überraschende Ergebnis: Egal, welche Verbindung man ausprobiert, die Fahrzeiten zwischen Auto und öffentlichen Verkehrsmitteln unterscheiden sich meistens nur um wenige Minuten. Und wer sein ökologisches Gewissen beruhigen will, bekommt auch noch den CO2-Ausstoß angezeigt. 34 Kilo verursacht der öffentliche Verkehrsteilnehmer auf dem Weg von Holstein nach Baden. Das Auto pustet 162 Kilo CO2 in die Luft.</p>
+      <p font-size="10.5">Die Bahnauskunft ist so komfortabel, dass sie auch im Ausland gerne genutzt wird. Wer zum Beispiel auf <entity idref="Sizilien" entity_type="Location" url_value="orte/sizilien">Sizilien</entity> eine Verbindung vom Flughafen Catania nach Capo d’Orlando an der Nordküste sucht, bekommt bei www.bahn.de schnellere und bessere Auskunft als auf der Website von Trenitalia. Das hat sich herumgesprochen, und so lässt sich die Reiseauskunft der Bahn mit einem Mausklick auf Englisch, Französisch und eben auch Italienisch umschalten. Zwar gibt es bei der Bahnauskunft noch allerhand Fehler im System – zum Beispiel kann der Routenplaner nicht berücksichtigen, dass Fußgänger im Unterschied zu Autos auch durch Gebäude (Einkaufspassagen oder Bahnhöfe) laufen können, und manche Wegangabe ist sogar schlicht falsch. Doch das Prinzip stimmt: Wer verreist, will ja keine Fahrpläne studieren, sondern einfach nur wissen, wie er möglichst schnell und bequem von A nach B kommt. Moderne Verkehrstelematik – also die computerisierte Verknüpfung von Geo- und Fahrplandaten – macht’s möglich.</p>
+      <p font-size="10.5">Noch hat das allerdings kaum jemand gemerkt. Aus unerfindlichen Gründen hat die Bahn die Bedienung ihrer Mobilitätsberatung so gut in den Unterverzeichnissen der Reisezugauskunft versteckt, dass sie nur von jedem 2000. Besucher der Website genutzt wird. Auch fehlt die Verknüpfung mit dem Flugverkehr. Schließlich stehen Billigflieger auf europäischen und längeren inländischen Strecken in scharfer Konkurrenz zu den Bahnangeboten. Spätestens hier zeigt sich, dass eine wirklich unabhängige Auskunft vom Privatunternehmen Bahn nicht erwartet werden kann. Schon vor Jahren haben Bund und EU dieses Problem erkannt und die Entwicklung öffentlicher Auskunftssysteme in Dutzenden Forschungsprojekten gefördert. Weit über 100 Millionen Euro wurden dafür bereits ausgegeben.</p>
+      <p font-size="10.5">Langsam kommen die Ergebnisse ans Tageslicht. Zum Beispiel bei Delfi (Durchgängige elektronische Fahrplaninformation), zu der sich alle 16 Bundesländer mit der Bahn zusammengeschlossen haben. Während die Bahn für ihre Auskunft die Fahrplandaten anderer Verkehrsträger einsammelt und in ihr eigenes System integriert, greift Delfi bei einer Suchanfrage direkt auf die Datenbanken der angeschlossenen Verkehrsbetriebe zurück. Das verlängert die Antwortzeit, hat aber den Vorteil, dass auch aktuelle Fahrplanänderungen und Verspätungsinformationen berücksichtigt werden können. Das Ergebnis ist dann eine so genannte dynamische Auskunft: Der Reisende wird erst dann zum Bahnhof gelotst, wenn der verspätete Zug tatsächlich abfährt.</p>
+    </division>
+    <division type="page">
+      <p font-size="10.5">Jedenfalls theoretisch. Praktisch ist die Zusammenführung all dieser Informationen eine mühselige Detailarbeit. Zwar sind die aktuellen Verspätungen im Bahnnetz jederzeit bekannt und können von versierten Nutzern sogar im Internet abgefragt werden. Eine zuverlässige Auskunft muss aber auch noch die Verspätungen aller anderen Verkehrsmittel auf dem Weg von A nach B berücksichtigen. Da Bus und Taxi auf der Straße rollen, sind dafür Stauinformationen notwendig – und zwar nicht nur die aktuellen, sondern vor allem Prognosen für den Zeitpunkt, an dem der Bus oder das Taxi am Anfang und Ende einer Bahnfahrt tatsächlich genutzt werden soll.</p>
+      <p font-size="10.5">Im Ruhrgebiet wird für diesen Zweck weltweit zum ersten Mal der gesamte ÖPNV und Straßenverkehr elektronisch erfasst. Ein "Ruhrpilot" soll die Fußballfans bei der Weltmeisterschaft 2006 ins Westfalenstadion und zur Schalke-Arena leiten – je nach Verkehrslage per Auto oder mit Bus und Bahn. Später soll der Ruhrpilot vor allem Berufspendlern, Speditionen und Logistikern das Leben erleichtern. Teile des Systems sind schon in Betrieb. Dazu gehört eine 60-Minuten-Stauprognose für die Autobahnen der Region. Bis 2006 soll sie auf alle wichtigen innerstädtischen Verkehrswege ausgeweitet werden. 8000 Kilometer Straße und 14000 ÖPNV-Haltestellen werden elektronisch kartiert und mit Sensoren überwacht. 50 Millionen Euro stehen zur Verfügung, die Hälfte kommt vom Staat.</p>
+      <intertitle font-size="12">In jeder Stadt ein neues Rätsel: Der Fahrkartenautomat</intertitle>
+      <p font-size="10.5">"Der Markt allein kann es nicht richten", sagt Günter Halbritter. Der Physiker hat am Institut für Technikfolgenabschätzung in Karlsruhe weltweit Telematikprojekte für den "Verkehr in Ballungsräumen" – so der Titel der Studie – verglichen. Sein Fazit: Für umfassende Mobilitätsberatung muss der Staat nicht nur Geld zur Verfügung stellen, sondern auch politische Vorgaben machen. Vor allem daran hapert es noch in Deutschland. Während ausgerechnet die USA mit einem klaren nationalen Plan überraschen, liegt die Verantwortung für den öffentlichen Personenverkehr in Deutschland in der Hand Hunderter Einzelunternehmen, die schon aus Konkurrenzgründen häufig gar kein Interesse daran haben, ihre Verkehrsdaten offen zu legen. "Deshalb gibt es so viele Insellösungen", sagt Halbritter.</p>
+      <p font-size="10.5">Das spürt derjenige, der aus ökologischen, ökonomischen, Zeit- oder Komfortgründen intermodal unterwegs ist, besonders wenn’s ans Bezahlen geht. Während die Mobilitätsauskunft der Bahn für die 729 Auto-Kilometer von Holstein nach Baden mit 389 Euro einen exakten Preis nennt (53 Cent pro Kilometer nach ADAC-Angaben), muss sie für die Verbindung mit Bus und Bahn passen. "Preisauskunft nicht möglich", heißt es immer dann, wenn private Busunternehmen ins Spiel kommen, die Reise ins Ausland führt oder in einem Verkehrsverbund endet. Noch größere Verwirrung erwartet den autolosen Mobilisten dann am Ticketautomaten. In jeder Stadt sieht die Maschine anders aus, mal darf mit Bahncard ein Kinderausweis gelöst werden (Frankfurt), mal gilt die Kurzstrecke für drei Stationen, mal für bestimmte Zonen, mal gibt es Rückfahrkarten und so weiter. Nur für Bahncard-Inhaber ist die Sache seit diesem Jahr ein wenig einfacher geworden: Ihr Zugticket gilt in den meisten Städten auch für die Weiterfahrt mit Bus, Straßen- oder U-Bahn.</p>
+      <intertitle font-size="12">Papierlose Tickets sollen Autofahrern das Umsteigen erleichtern</intertitle>
+      <p font-size="10.5">"Je intelligenter die Leute sind, desto schwerer tun sie sich mit den Automaten, weil sie versuchen, das Tarifsystem zu verstehen", hat Friedhelm Bihn festgestellt, Sprecher des Verbandes Deutscher Verkehrsunternehmen (VDV). Schon seit einigen Jahren arbeitet der VDV an einem bundesweit einheitlichen "elektronischen Fahrgeldmanagement". Seit Mai liegt der Standard für das künftige papierlose Ticket vor, schon im nächsten Jahr soll es in zwei kleineren württembergischen Gemeinden erprobt werden, 2006 wollen Frankfurt und <entity idref="Berlin" entity_type="Location" url_value="orte/berlin">Berlin</entity> nachziehen. Das Ziel beschreibt Projektleiter Till Ackermann so: "Die Notwendigkeit der Tarifkenntnisse wird vom Kunden an das System zurückgegeben." Will sagen: Wer das bundeseinheitliche E-Ticket in der Tasche hat, kann überall einfach in den nächsten Bus, die Straßen- oder U-Bahn einsteigen, den Rest erledigt die Technik. Sie registriert die Fahrt, bucht den Preis ab oder erstellt eine Monatsrechnung, für die der jeweils günstigste Tarif zugrunde gelegt wird. Vielfahrer zahlen eine Monatskarte, sonst werden Einzelfahrten abgerechnet.</p>
+    </division>
+    <division type="page">
+      <p font-size="10.5">In <entity idref="Hongkong" entity_type="Location" url_value="orte/hongkong">Hongkong</entity> ist ein solches System unter dem Namen Octopus bereits seit 1997 im Einsatz und funktioniert einwandfrei. Beim Einsteigen piept es kurz, und das Fahrgeld wird drahtlos vom elektronischen Ticket abgebucht, beim Umsteigen erkennt das System die vorherige Fahrt und verzichtet auf erneutes Bezahlen. In einem ersten Schritt speichert der Verkehrsverbund <entity idref="Rhein" entity_type="Location" url_value="orte/rhein">Rhein</entity>/Ruhr (VRR) seit dem vergangenen Jahr alle Zeitkarten auf einem E-Ticket, und in <entity idref="Bremen" entity_type="Location" url_value="orte/bremen">Bremen</entity> können damit Einzelfahrscheine gelöst werden.</p>
+      <p font-size="10.5">Doch bis zur flächendeckenden Einführung einer einheitlichen elektronischen Fahrkarte werden noch Jahre vergehen – wenn sie überhaupt je kommt. Die verkehrstechnisch vorbildliche Schweiz hat ein ähnliches Projekt unter dem Namen Easyride gerade auf Eis gelegt. 400 Millionen Euro für die Ausgabe der Karten und die Umrüstung aller Automaten und Fahrzeuge war den beteiligten Verkehrsunternehmen zu teuer. "Das lässt sich zurzeit nicht finanzieren", sagt Christian Ginsig, Sprecher der Schweizer Bahn SBB. "Das E-Ticket ist zwar eine gute Sache, viele neue Kunden wird es uns aber nicht bringen."</p>
+    </division>
+  </body>
+  <teaser>
+    <title>Umsteigen, bitte</title>
+    <text>Ohne Auto kommt man manchmal schneller ans Ziel – und bald vielleicht auch komfortabler</text>
+  </teaser>
+  <indexteaser>
+    <title>Umsteigen, bitte</title>
+    <text>
+      Ohne Auto kommt man manchmal schneller ans Ziel – und bald vielleicht auch komfortabler
+      <strong>von Dirk Asendorpf</strong>
+    </text>
+  </indexteaser>
+</article>

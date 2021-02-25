@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <topiclinks>
+      <topiclink>
+        <topiclink_label_1>Türkei</topiclink_label_1>
+        <topiclink_url_1>http://www.zeit.de/schlagworte/orte/tuerkei/index</topiclink_url_1>
+        <topiclink_label_2>Griechenland</topiclink_label_2>
+        <topiclink_url_2>http://www.zeit.de/schlagworte/orte/griechenland/index</topiclink_url_2>
+        <topiclink_label_3>G-7-Gipfel</topiclink_label_3>
+        <topiclink_url_3>http://www.zeit.de/schlagworte/themen/g-7-gipfel/index</topiclink_url_3>
+      </topiclink>
+    </topiclinks>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-06-10T09:49:01.854881+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-06-10T09:51:48.621571+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-06-10T09:52:04.805666+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.drebenstedt</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:731bf148-7a1f-4154-8715-5f3bcf6b61c1}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">23</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>ZEIT ONLINE Startseite</title>
+    <cluster visible="True" area="id-7c243c08-5d54-41eb-ad08-25f5469e082c" kind="solo">
+      <region visible="True" hide-dupes="True" area="id-49b33be0-ac8a-484e-b681-0cee9933a5cf" kind="solo" count="1" automatic="True" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-fullwidth" visible="True" cp:__name__="id-3d130dab-ffcd-4a25-b007-7a660dab9927"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-7c3bcdd2-7c8a-4bd1-9905-ce93fbce867f" kind="duo">
+      <region visible="True" hide-dupes="True" area="id-178f9c43-8a0e-4551-9636-8126ed4ea33d" kind="major" count="9" automatic="True" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-large" visible="True" cp:__name__="id-57a4b363-4db3-40ea-abc1-74b7577dc754"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-171fe1ee-022a-4c21-9175-010cac9004ac"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-987cf239-854a-4725-96ed-b7abdbddb30c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-6c36ac48-2186-48c2-a8fd-db92f3b66a28"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-da3d55df-445a-4b49-949d-6e4fcb537d44"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-20964029-e709-474b-87df-b7c3b36486a9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-4c9876a8-64ca-439a-9c21-352063294973"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-67e9f471-dec5-4ca5-8aeb-4923af297acb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-3857d355-8dc7-4f32-8f6b-2c6ab0307a16"/>
+      </region>
+      <region visible="True" hide-dupes="True" area="id-603026e2-3724-4c9f-bfe6-eb915b35888a" kind="minor">
+        <container cp:type="teaser" module="zon-square" visible="True" cp:__name__="id-13425e0a-9b1f-43a8-815b-93e3fa85e47a">
+          <block href="http://xml.zeit.de/politik/ausland/2015-06/elmau-g7-gipfeltreffen" uniqueId="http://xml.zeit.de/politik/ausland/2015-06/elmau-g7-gipfeltreffen" year="2015" issue="23" ressort="Politik" serie="Fünf vor acht" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-09T05:32:27+00:00" date-first-released="2015-06-09T05:33:27.440239+00:00" date-last-published="2015-06-09T05:33:27.440239+00:00" last-semantic-change="2015-06-09T05:32:22.044601+00:00" author="Theo Sommer">
+            <supertitle py:pytype="str">G-7-Gipfel </supertitle>
+            <title py:pytype="str">So politisch wie ein Kirchentag</title>
+            <text py:pytype="str">Das Elmauer Gipfeltreffen war auf seltsame Weise unpolitisch. So ist das Format nicht mehr zeitgemäß, Vorbilder für eine Reform gibt es bereits.</text>
+            <description py:pytype="str">Das Elmauer Gipfeltreffen war auf seltsame Weise unpolitisch. So ist das Format nicht mehr zeitgemäß, Vorbilder für eine Reform gibt es bereits.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2013-08/fuenf-vor-acht-theo-sommer/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Theo Sommer, 84, ist Editor-at-Large der ZEIT. Von 1972 bis 1992 war er ihr Chefredakteur, danach Herausgeber bis zum Jahre 2000.</bu>
+              <copyright py:pytype="str">© Jakob Börner</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Theo_Sommer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Theo Sommer</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-e308c2d7-3540-429a-a6e6-6c4ceacebef4" kind="solo">
+      <region visible="True" hide-dupes="True" area="id-52d06792-349e-4811-a9e0-51d3ca7ad4be" kind="solo">
+        <container cp:type="playlist" module="playlist" visible="True" cp:__name__="id-5c01e965-9e21-4ef1-8eea-433ba16cd71a" title="Videos" read_more="Weiterlesen" read_more_url="http://www.zeit.de" background_color="e65858">
+          <block type="intern" href="http://xml.zeit.de/video/playlist/35532209001" contenttype="playlist" publication-date="" expires="" uniqueId="http://xml.zeit.de/video/playlist/35532209001" date-last-modified="2015-03-06T14:28:41+00:00" date-first-released="2015-03-06T14:29:39.548891+00:00" date-last-published="2015-03-06T14:29:39.548891+00:00" last-semantic-change="">
+            <supertitle xsi:nil="true"/>
+            <title xsi:nil="true"/>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-2b004809-288a-4ff8-b575-8685df360848" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-fab3ebde-2ea6-423c-87ab-39ea2c6e3c19" kind="parquet" count="2" automatic="True" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/politik/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-3a662a9e-b722-4b4d-a43b-3c0facf0635d"/>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-1fadd48a-72a1-492e-8c77-32e98a1fa690"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-e493b004-2476-4ae9-92a1-25bb8f9d7eab" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-e20625d8-2e18-40b2-aa4c-bf3c4bdaa7bf" kind="parquet" count="2" automatic="True" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/wirtschaft/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-parquet-large" visible="True" cp:__name__="id-f2053d3f-3415-4a84-a084-4e8d887c6139"/>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-e6e632a7-5b4a-4267-9a4f-8d55a46fba53"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-a545084b-4e63-44f9-a346-8f7978fcb105" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-ab5a171f-70bc-4e11-adea-9533f0383194" kind="parquet" count="1" automatic="True" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/gesellschaft/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-48640725-df1a-4d3d-9f23-b60e49c57a34"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-08ab0344-7458-4477-b05a-98b289ef3ae5" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-c1e1d5ed-b9d9-4a88-8aa8-a187c2ce9922" kind="parquet" count="2" automatic="True" automatic_type="centerpage" title="Kultur">
+        <referenced_cp>http://xml.zeit.de/kultur/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-a81f1c94-7513-475e-ba56-dc55d2149240"/>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-60b412a7-3b91-4505-9391-431ca70f40ed"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-f85df100-7e51-43d0-8059-fc761cfd410f" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-141ba21f-e46f-4e56-85e2-35b5a8019a22" kind="parquet" count="2" automatic="True" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/zeit-magazin/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-ba19bef8-76f3-4c28-b512-afe89137e506"/>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-982a03db-99ab-4f2e-9d0d-6c3dd46df610"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-19067e3a-b403-4e99-bf17-a53deaab32f5" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-34b4c18e-4b32-4070-b2db-b2692a889b80" kind="parquet" count="1" automatic="True" automatic_type="centerpage" title="Wissen">
+        <referenced_cp>http://xml.zeit.de/wissen/index</referenced_cp>
+        <container cp:type="auto-teaser" module="zon-parquet-small" visible="True" cp:__name__="id-b02bcba1-15d1-4ce1-a45c-4c455405cc03"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-592bcb12-5b14-4b17-a1ed-c294524a2c63" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-43530b7a-4a90-4cc9-90b3-3066360b6338" kind="parquet" count="1" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/digital/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-efc44bd0-9735-45d3-9cde-c682dbba6d9e">
+          <block href="http://xml.zeit.de/digital/2015-06/hacker-russland-tv5" uniqueId="http://xml.zeit.de/digital/2015-06/hacker-russland-tv5" year="2015" issue="23" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-10T05:55:07+00:00" date-first-released="2015-06-10T00:40:05.311766+00:00" date-last-published="2015-06-10T05:56:06.661602+00:00" last-semantic-change="2015-06-10T00:38:59.961621+00:00">
+            <supertitle py:pytype="str">Cyberkriminalität</supertitle>
+            <title py:pytype="str">Ermittler vermuten russische Hacker hinter Angriff auf TV5Monde</title>
+            <text py:pytype="str">Die Spur des Angriffs führe nach Russland, sagen französische Ermittler. IS-Propaganda, die während des Angriffs geschaltet wurde, könnte nur Tarnung gewesen sein.</text>
+            <description py:pytype="str">Die Spur des Angriffs führe nach Russland, sagen französische Ermittler. IS-Propaganda, die während des Angriffs geschaltet wurde, könnte nur Tarnung gewesen sein.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/2015-06/tv5-monde-hacker/" type="jpg" title="TV5 Monde Hacker" alt="Ein Polizist vor dem Sender TV5Monde während des Hackerangriffs" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Polizist vor dem Sender TV5Monde während des Hackerangriffs</bu>
+              <copyright py:pytype="str">© Bennoit Tessier/Reuters</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-cac2a36e-74e1-42d6-b909-12d3f973f634" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-6c8f32cd-ea66-4011-aa22-30ec3116536c" kind="parquet" count="2" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/studium/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-ed401c5c-2113-456d-b2b2-50b0bb01c781">
+          <block href="http://xml.zeit.de/campus/2015/04/buerokratie-universitaeten-probleme" uniqueId="http://xml.zeit.de/campus/2015/04/buerokratie-universitaeten-probleme" year="2015" issue="4" ressort="Studium" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-09T08:02:55+00:00" date-first-released="2015-06-09T08:03:54.662313+00:00" date-last-published="2015-06-09T08:03:54.662313+00:00" last-semantic-change="2015-06-09T08:02:51.588088+00:00" author="Marie Gamillscheg">
+            <supertitle py:pytype="str">Bürokratie an Universitäten</supertitle>
+            <title py:pytype="str">Könnten Sie bitte den Uni-Stempel übersetzen lassen?</title>
+            <text py:pytype="str">Unsere Leser haben uns Beispiele für absurde Uni-Bürokratie geschickt. Dazu erklärt Christoph Mülke von der Uni München, was sich ändern muss.</text>
+            <description py:pytype="str">Unsere Leser haben uns Beispiele für absurde Uni-Bürokratie geschickt. Dazu erklärt Christoph Mülke von der Uni München, was sich ändern muss.</description>
+            <byline py:pytype="str">von Marie Gamillscheg</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/hochschule/2015-06/uni-buerokratie-einsam/" type="jpg" title="Bürokratie an Universitäten: Re: Papierstau" alt="Bürokratie an Universitäten: Re: Papierstau" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wichtigste Eigenschaft an der Uni: ruhig bleiben!</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/209177-stock-photo-frau-jugendliche-blau-schoen-einsamkeit-ruhig">© tilla eulenspiegel/photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Marie_Gamillscheg/index" publication-date="" expires="">
+              <display_name py:pytype="str">Marie Gamillscheg</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-c1eac156-ff0d-4c2d-b774-809956af284e">
+          <block href="http://xml.zeit.de/studium/uni-leben/2015-06/suchttherapie-studium-quiz" uniqueId="http://xml.zeit.de/studium/uni-leben/2015-06/suchttherapie-studium-quiz" year="2015" issue="23" ressort="Studium" serie="Studium Generale" contenttype="quiz" publication-date="" expires="" date-last-modified="2015-06-08T05:13:06+00:00" date-first-released="2015-06-08T05:14:06.294003+00:00" date-last-published="2015-06-08T05:14:06.294003+00:00" last-semantic-change="2015-06-08T05:05:47.164572+00:00" author="Jasper Riemann">
+            <supertitle py:pytype="str">Was studieren?</supertitle>
+            <title py:pytype="str">Einführung in die Suchttherapie</title>
+            <text py:pytype="str">Rauchen kann tödlich sein. Ob Nikotin, Kokain oder World of Warcraft: Wer süchtig ist, braucht professionelle Hilfe. Testen Sie Ihr Wissen in unserem ungefährlichen Quiz!</text>
+            <description py:pytype="str">Rauchen kann tödlich sein. Ob Nikotin, Kokain oder World of Warcraft: Wer süchtig ist, braucht professionelle Hilfe. Testen Sie Ihr Wissen in unserem ungefährlichen Quiz!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2015-06/alkoholiker-sucht-studium-quiz/" type="jpg" title="Alkoholsucht" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/photodownload.asp?m=download&amp;dgid=5575355">© DWerner / photocase</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Jasper_Riemann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jasper Riemann</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-db3160e7-782c-494a-81f4-ba9d4e4f9f7c" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-c52657e6-7494-46d9-86d4-90a88775090c" kind="parquet" count="1" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/karriere/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-ab5360c4-0940-4394-b3e4-da550c79192f">
+          <block href="http://xml.zeit.de/karriere/beruf/2015-06/jobwechsel-staatssekretaer-kuenstler-wolfgang-meyer-hesemann" uniqueId="http://xml.zeit.de/karriere/beruf/2015-06/jobwechsel-staatssekretaer-kuenstler-wolfgang-meyer-hesemann" year="2015" issue="23" ressort="Karriere" serie="Chancen zum Wechsel" contenttype="article" publication-date="" expires="" genre="portrait" date-last-modified="2015-06-10T07:51:39+00:00" date-first-released="2015-06-10T07:52:38.507646+00:00" date-last-published="2015-06-10T07:52:38.507646+00:00" last-semantic-change="2015-06-10T07:51:33.961775+00:00" author="Angelika Finkenwirth">
+            <supertitle py:pytype="str">Jobwechsel</supertitle>
+            <title py:pytype="str">Nach der Politik musste er locker werden</title>
+            <text py:pytype="str">Was macht ein Staatssekretär, wenn er nicht mehr mitregieren darf? Wolfgang Meyer-Hesemann hat sein Hobby zum Beruf gemacht – und wurde Fotograf.</text>
+            <description py:pytype="str">Was macht ein Staatssekretär, wenn er nicht mehr mitregieren darf? Wolfgang Meyer-Hesemann hat sein Hobby zum Beruf gemacht – und wurde Fotograf.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/beruf/2015-06/meyer-hesemann/" type="jpg" title="Meyer-Hesemann" alt="Der frühere Staatssekretär Wolfgang Meyer-Hesemann ist heute Fotograf." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der frühere Staatssekretär Wolfgang Meyer-Hesemann ist heute Fotograf.</bu>
+              <copyright py:pytype="str">© Meyer-Hesemann</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Angelika_Finkenwirth/index" publication-date="" expires="">
+              <display_name py:pytype="str">Angelika Finkenwirth</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-00a328e4-0132-4bc5-b10a-233f0a5286d6" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-43a6c7e4-4ca9-40f3-9610-2b65bbd5568d" kind="parquet" count="1" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/reisen/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-large" visible="True" cp:__name__="id-6b77dedf-26d9-4e8b-9e7a-f620fc15e432">
+          <block href="http://xml.zeit.de/2015/21/trampolin-springen-bergwerk-wales" uniqueId="http://xml.zeit.de/2015/21/trampolin-springen-bergwerk-wales" year="2015" issue="21" ressort="Reisen" contenttype="article" publication-date="2015-06-04T00:20:35+00:00" expires="" date-last-modified="2015-06-09T21:24:19+00:00" date-first-released="2015-06-04T00:21:35.444164+00:00" date-last-published="2015-06-09T21:25:18.885371+00:00" last-semantic-change="2015-06-09T21:24:12.977451+00:00" author="Christine Dohler">
+            <supertitle py:pytype="str">Trampolin</supertitle>
+            <title py:pytype="str">Untergrund-Bewegung</title>
+            <text py:pytype="str">In einem ehemaligen Waliser Bergwerk hüpfen Menschen Trampolin. Doch Hüpfen heißt Loslassen und Leichtigkeit. Höhlen symbolisieren Enge und Schwere. Wie kommt das also?</text>
+            <description py:pytype="str">In einem ehemaligen Waliser Bergwerk hüpfen Menschen Trampolin. Doch Hüpfen heißt Loslassen und Leichtigkeit. Höhlen symbolisieren Enge und Schwere. Wie kommt das also?</description>
+            <byline py:pytype="str">von Christine Dohler</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2015-06/trampolin-bergwerk-man/" type="jpg" alt="Trampolin: Untergrundbewegung" align="left" publication-date="" expires="2016-06-03T12:43:46+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://darrenturner.photography/">© Darren Turner</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Christine_Dohler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christine Dohler</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-bb82a675-d514-4154-809f-88ed04e75c11" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-302257dc-ef91-4995-8285-3c1f465c75b7" kind="parquet" count="1" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/mobilitaet/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-9d0110a2-6e23-4de9-9f34-0325c8161829">
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/mobilitaet/2015-06/hamburg-fahrradwege-ranking-copenhagenize" uniqueId="http://xml.zeit.de/mobilitaet/2015-06/hamburg-fahrradwege-ranking-copenhagenize" year="2015" issue="23" ressort="Mobilitaet" contenttype="link" publication-date="" expires="" ns2:href="http://blog.zeit.de/fahrrad/2015/06/08/hamburg-fahrrad-infrastruktur/" date-last-modified="2015-06-08T13:16:42+00:00" date-first-released="2015-06-08T13:17:41.729288+00:00" date-last-published="2015-06-08T13:17:41.729288+00:00" last-semantic-change="2015-06-08T13:16:20.834666+00:00" author="Andrea Reidl">
+            <supertitle py:pytype="str">Radwege</supertitle>
+            <title py:pytype="str">Was hat Hamburg im Ranking der fahrradfreundlichsten Städte zu suchen?</title>
+            <text py:pytype="str">Hamburg auf Platz 19 der radfreundlichsten Großstädte der Welt? Da hat die Hansestadt nichts verloren, findet unsere Bloggerin: Hamburg ist keine Fahrradstadt.</text>
+            <description py:pytype="str">Hamburg auf Platz 19 der radfreundlichsten Großstädte der Welt? Da hat die Hansestadt nichts verloren, findet unsere Bloggerin: Hamburg ist keine Fahrradstadt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2015-06/hamburg-radfahrer-radweg/" type="jpg" title="Hamburg Radfahrer Radweg" alt="Hamburg Radfahrer Radweg" align="left" publication-date="" expires="2015-09-08T12:30:29+00:00">
+              <bu py:pytype="str">Hamburg misst an einer Säule an der Alster das Radfahrer-Aufkommen.</bu>
+              <copyright py:pytype="str">© Axel Heimken/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Andrea_Reidl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Andrea Reidl</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-ffb5df38-f9e0-45f4-882b-cb17c3e574c4" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-643ee5c1-7b30-49d2-a696-d3bc8a9b6ab8" kind="parquet" count="1" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/sport/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-4fcbee12-956d-4610-83bd-14587072feae">
+          <block href="http://xml.zeit.de/sport/2015-06/blatter-united-passions-film-fifa" uniqueId="http://xml.zeit.de/sport/2015-06/blatter-united-passions-film-fifa" year="2015" issue="23" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-09T16:14:31+00:00" date-first-released="2015-06-09T16:12:28.817951+00:00" date-last-published="2015-06-09T16:15:31.499834+00:00" last-semantic-change="2015-06-09T16:11:25.156163+00:00" author="Arndt-Fabian Rohlfing">
+            <supertitle py:pytype="str">Fifa-Film "Vereinte Leidenschaft"</supertitle>
+            <title py:pytype="str">Ganz kleines Kino</title>
+            <text py:pytype="str">Sepp Blatter ist ein Genie. Jetzt, wo die Fifa in aller Munde ist, bringt er ein Fifa-Epos in die US-Kinos. Mit vielen Hollywoodstars und komplett ohne Zuschauer.</text>
+            <description py:pytype="str">Sepp Blatter ist ein Genie. Jetzt, wo die Fifa in aller Munde ist, bringt er ein Fifa-Epos in die US-Kinos. Mit vielen Hollywoodstars und komplett ohne Zuschauer.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2015-06/depardieu-blatter-united-passions-film/" type="jpg" title="united passions" align="left" publication-date="2015-06-09T10:19:15+00:00" expires="2015-09-09T10:19:18+00:00">
+              <bu py:pytype="str">Sepp Blatter und Gerard Depardieu in Cannes</bu>
+              <copyright py:pytype="str">© Julien Warnand/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Arndt-Fabian_Rohlfing/index" publication-date="" expires="">
+              <display_name py:pytype="str">Arndt-Fabian Rohlfing</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-09e280a4-4c9a-4312-b2b4-50b448cca389" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-c9044bc3-c774-4201-bbb6-9b177a78b389" kind="parquet" title="Teilchen-Blog">
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-654fde79-019b-4827-8d78-1d9de150280f" title="Teilchen-Blog" read_more="mehr Teilchen" read_more_url="http://blog.zeit.de/teilchen/">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/gesellschaft/2015-06/homoesexualitaet-beziehung-ehe-kinder" uniqueId="http://xml.zeit.de/gesellschaft/2015-06/homoesexualitaet-beziehung-ehe-kinder" year="2015" issue="23" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/teilchen/2015/06/09/homosexuelle-heterosexuelle-familien-zufriedener" date-last-modified="2015-06-09T14:53:18+00:00" date-first-released="2015-06-09T14:54:18.454458+00:00" date-last-published="2015-06-09T14:54:18.454458+00:00" last-semantic-change="2015-06-09T10:31:19.981763+00:00" author="Tobias Dorfer">
+            <supertitle py:pytype="str">Zufriedenheit in Beziehungen</supertitle>
+            <title py:pytype="str">Was Heteros von Homos lernen können</title>
+            <text py:pytype="str">Streit um Hausarbeit? Gibt es in homosexuellen Beziehungen – aber seltener als bei Hetero-Paaren. Warum sich Schwule und Lesben in Beziehungen oft leichter tun.</text>
+            <description py:pytype="str">Streit um Hausarbeit? Gibt es in homosexuellen Beziehungen – aber seltener als bei Hetero-Paaren. Warum sich Schwule und Lesben in Beziehungen oft leichter tun.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">Was Heteros von Homos lernen können</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/gesellschaft/2015-06/partnerschaft-homo/" type="jpg" title="Partnerschaft Homosexuell" align="left" publication-date="" expires="">
+              <bu py:pytype="str">A couple kisses at Copacabana beach during the gay pride parade in Rio de Janeiro, Brazil on October 13, 2013.</bu>
+              <copyright py:pytype="str">© Christophe Simon/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Tobias_Dorfer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Tobias Dorfer</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-30a0c4ee-b899-45cc-968b-539c5ad87ccc" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-bc3f1168-2964-4561-b496-bed144e12279" kind="parquet" count="1" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/community/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-2962bb8f-0783-4596-9e92-4720acc8a725">
+          <block href="http://xml.zeit.de/community/2015-06/drogen-konsum-umfeld-milieu" uniqueId="http://xml.zeit.de/community/2015-06/drogen-konsum-umfeld-milieu" year="2015" issue="23" ressort="Community" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-10T08:05:59+00:00" date-first-released="2015-06-09T12:52:06.407690+00:00" date-last-published="2015-06-09T12:52:06.407690+00:00" last-semantic-change="2015-06-09T12:50:58.769238+00:00">
+            <supertitle py:pytype="str">Drogenkonsum</supertitle>
+            <title py:pytype="str">Wie nah ist der Rausch?</title>
+            <text py:pytype="str">Wer keine Drogen nimmt, bewegt sich auch nicht in Milieus, in denen konsumiert wird. Stimmt das? Haben Sie schon Drogenkonsum beobachtet, wo Sie es nicht erwartet hätten?</text>
+            <description py:pytype="str">Wer keine Drogen nimmt, bewegt sich auch nicht in Milieus, in denen konsumiert wird. Stimmt das? Haben Sie schon Drogenkonsum beobachtet, wo Sie es nicht erwartet hätten?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2015-06/drogenbericht-alltag/" type="jpg" title="Drogen im Alltag" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Kay Fochtmann/photocase.de</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-f14b4048-0355-489e-808b-3c6601d66849" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-1cae0b30-334c-447f-8945-b4354e61b2c9" kind="parquet" count="1" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/hamburg/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-948b2b2e-de53-43ee-b2eb-0e5022e946c5">
+          <block href="http://xml.zeit.de/2015/22/uke-ns-vergangenheit-aufarbeitung-hendrik-va-den-bussche" uniqueId="http://xml.zeit.de/2015/22/uke-ns-vergangenheit-aufarbeitung-hendrik-va-den-bussche" year="2015" issue="22" ressort="Hamburg" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-06-09T11:59:35+00:00" date-first-released="2015-06-09T09:32:43.294084+00:00" date-last-published="2015-06-09T12:00:35.449670+00:00" last-semantic-change="2015-06-09T09:31:39.457063+00:00" author="Sarah Levy">
+            <supertitle py:pytype="str">Nationalsozialismus</supertitle>
+            <title py:pytype="str">"Die Nazi-Mediziner taten so, als ob sie Mitläufer waren"</title>
+            <text py:pytype="str">Mit 102 Jahren bekommt Ingeborg Rapoport den Doktortitel verliehen – die Nazis hatten ihn ihr verweigert. Der Historiker H. van den Bussche über die NS-Uni-Medizin </text>
+            <description py:pytype="str">Mit 102 Jahren bekommt Ingeborg Rapoport den Doktortitel verliehen – die Nazis hatten ihn ihr verweigert. Der Historiker H. van den Bussche über die NS-Uni-Medizin </description>
+            <byline py:pytype="str">von Sarah Levy</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/hamburg/stadtleben/2015-06/uke/" type="jpg" title="UKE" alt="UKE" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein restaurierter Sektionssaal von 1926 im Medizinhistorischen Museum Hamburg auf dem Gelände des Universitätsklinikums Hamburg-Eppendorf </bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Sarah_Levy/index" publication-date="" expires="">
+              <display_name py:pytype="str">Sarah Levy</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-c061d50b-f8e1-421e-9199-223177dab91a" kind="parquet">
+      <region visible="True" hide-dupes="True" area="id-6efba256-a967-448a-822f-f682eb1fa637" kind="parquet" count="2" automatic="False" automatic_type="centerpage">
+        <referenced_cp>http://xml.zeit.de/spiele/index</referenced_cp>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-c0b48aed-ba7d-4706-b45a-a5b3a541783d">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/links/link-sudoku" uniqueId="http://xml.zeit.de/spiele/links/link-sudoku" year="2008" issue="34" ressort="Spiele" contenttype="link" publication-date="" expires="" ns0:href="http://sudoku.zeit.de/sudoku/kunden/die_zeit/" date-last-modified="2014-07-22T12:43:14+00:00" date-first-released="2008-08-15T15:13:53.442917+00:00" date-last-published="2014-07-22T12:44:14.141974+00:00" last-semantic-change="2014-07-22T12:43:02.461664+00:00">
+            <supertitle py:pytype="str">Zahlenrätsel</supertitle>
+            <title py:pytype="str">Sudoku online spielen</title>
+            <text py:pytype="str">Der tägliche Rätselspaß für kluge Köpfe. Stellen Sie Ihre logischen Fähigkeiten unter Beweis! </text>
+            <description py:pytype="str">Der tägliche Rätselspaß für kluge Köpfe. Stellen Sie Ihre logischen Fähigkeiten unter Beweis! </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/spiele/2009-09/Sudoku/" type="jpg" title="Sudoku Aufmacher" alt="Sudoku spielen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Chris Hondros/Getty Images (m)</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-parquet-small" visible="True" cp:__name__="id-d3282a4a-aa4a-4bdd-9e11-4d16cc20ccba">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/tagesquiz" uniqueId="http://xml.zeit.de/tagesquiz" year="2014" issue="2" ressort="Spiele" contenttype="link" publication-date="" expires="" ns1:href="http://www.zeit.de/serie/tagesquiz" date-last-modified="2014-12-09T10:41:49+00:00" date-first-released="2012-01-11T12:45:02.593793+00:00" date-last-published="2014-12-09T10:42:48.668324+00:00" last-semantic-change="2014-12-08T13:45:56.053751+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Der tägliche Wissenstest</title>
+            <text py:pytype="str">Testen Sie Ihr Allgemeinwissen mit dem täglichen Wissenstest auf ZEIT ONLINE</text>
+            <description py:pytype="str">Testen Sie Ihr Allgemeinwissen mit dem täglichen Wissenstest auf ZEIT ONLINE</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/newsletter/teaser/NL-quiz/" type="jpg" alt="ZEIT ONLINE - täglicher Wissenstest" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+    </cluster>
+  </body>
+  <feed/>
+  <teaser>
+    <title>ZEIT ONLINE Startseite</title>
+  </teaser>
+</centerpage>

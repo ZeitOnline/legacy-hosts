@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article>
+  <head>
+    <!-- Original QPS -->
+    <!-- Additional QPS -->
+    <attribute name="ressort" ns="http://namespaces.zeit.de/CMS/print">Wissen</attribute>
+    <!-- CMS/document -->
+    <attribute name="author" ns="http://namespaces.zeit.de/CMS/document">Tobias Niemann</attribute>
+    <attribute name="year" ns="http://namespaces.zeit.de/CMS/document">2004</attribute>
+    <attribute name="volume" ns="http://namespaces.zeit.de/CMS/document">46</attribute>
+    <attribute name="page" ns="http://namespaces.zeit.de/CMS/document">39</attribute>
+    <attribute name="page-from" ns="http://namespaces.zeit.de/CMS/document">39</attribute>
+    <attribute name="text-length" ns="http://namespaces.zeit.de/CMS/document">13860</attribute>
+    <attribute name="ressort" ns="http://namespaces.zeit.de/CMS/document">Wissen</attribute>
+    <attribute name="pagelabel" ns="http://namespaces.zeit.de/CMS/document">Wissen</attribute>
+    <attribute name="copyrights" ns="http://namespaces.zeit.de/CMS/document">(c) DIE ZEIT 04.11.2004 Nr.46</attribute>
+    <!-- CMS/workflow -->
+    <attribute name="status" ns="http://namespaces.zeit.de/CMS/workflow">OK</attribute>
+    <attribute name="title" ns="http://namespaces.zeit.de/CMS/document">Das große Paaren</attribute>
+    <attribute name="imagecount" ns="http://namespaces.zeit.de/CMS/document">0</attribute>
+    <attribute name="last-modified-by" ns="http://namespaces.zeit.de/CMS/workflow">richter</attribute>
+    <references count="7">
+      <reference href="http://xml.zeit.de/2000/6/200006.tiere_.xml" issue="6" publication="ZEIT" source="auto" type="intern" year="2000">
+        <title>Der Friedhof der Kuscheltiere</title>
+        <description>Der Mensch verklärt die Natur. Doch die Verhaltensforschung lässt die Mythen bröckeln. Urs Willmann über politisch korrekte Tiere</description>
+      </reference>
+      <reference href="http://xml.zeit.de/1998/24/199824.coolidge.xml" issue="24" publication="ZEIT" source="auto" type="intern" year="1998">
+        <title>Erlahmende Libido</title>
+        <description>Warum verlieren Männchen oft rasch die Lust an ihrer Sexualpartnerin? Ein biochemischer Erklärungsansatz</description>
+      </reference>
+      <reference href="http://xml.zeit.de/2003/50/Clownfisch" issue="50" publication="ZEIT" source="auto" type="intern" year="2003">
+        <title>Süß, bunt, kompliziert</title>
+        <description>Der Film »Findet Nemo« hat den Clownfisch zum Wunschhaustier unzähliger Kinder gemacht. Aber die Haltung hat ihre Tücken. Jürgen Lange, Direktor des Berliner Zoos, kennt sich da aus</description>
+      </reference>
+      <reference href="http://xml.zeit.de/2000/18/200018.reden_sex_garten.xml" issue="18" publication="ZEIT" source="auto" type="intern" year="2000">
+        <title>Zur Sache, Blümchen!</title>
+        <description>Wissen Sie eigentlich, was in Ihrem Garten los ist? Angela Overy über das Liebesleben der Flora</description>
+      </reference>
+      <reference href="http://xml.zeit.de/1996/41/orgasmus.txt.19961004.xml" issue="41" publication="ZEIT" source="auto" type="intern" year="1996">
+        <title>Der biologische Zweck des Orgasmus</title>
+      </reference>
+      <reference href="http://xml.zeit.de/online/2007/15/bildergalerie-fauna" issue="15" publication="ZEIT online" source="auto" type="intern" year="2007">
+        <title/>
+      </reference>
+      <reference href="http://xml.zeit.de/2006/41/N-Erdmaennchen" issue="41" publication="ZEIT" source="auto" type="intern" year="2006">
+        <title>Das Ende einer Großfamilie</title>
+        <description>Sie hüten gemeinsam den Nachwuchs – wenn sie sich nicht gerade gegenseitig mobben. Noch können Forscher im Kölner Zoo das Leben der Erdmännchen studieren.</description>
+      </reference>
+    </references>
+    <keywordset>
+      <keyword intaxo="no" source="auto">Kinder</keyword>
+      <keyword intaxo="yes" source="manual">haustier</keyword>
+      <keyword intaxo="yes" source="manual">fisch</keyword>
+      <keyword intaxo="no" source="auto">Filmtitel</keyword>
+      <keyword intaxo="no" source="manual">Clownfisch</keyword>
+    </keywordset>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords">Kinder;haustier;fisch;Filmtitel;Clownfisch</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2004-11-04T12:00:00Z</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2004-11-04T12:00:00+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:9572b4da-4b79-409d-9ea5-8a189d34062b}</attribute>
+  <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="access">registration</attribute></head>
+  <body><supertitle>zoologie</supertitle>
+    <title>Das große Paaren</title>
+    <subtitle>Vorsicht! Dieser Text ist für Jugendliche unter 16 Jahren nicht geeignet. Er enthält explizite Darstellungen sexueller Handlungen und einschlägiges Vokabular</subtitle>
+    <byline>Von Tobias Niemann</byline>
+    <division type="page"><!-- fixed struct missing title -->
+    <initial font-size="10.3425">War es die Lust am Sex oder der Wunsch nach Nachwuchs, der unsere Vorfahren kopulieren ließ? Weder noch. Lediglich der Austausch genetischer Information stand im Mittelpunkt ihres Interesses. Schon vor Milliarden Jahren, zu einer Zeit, als die Welt noch ihnen allein gehörte, entdeckten manche Bakterien die Zweisamkeit. Sie durchmischten ihre Gene und erhielten so die Chance, sich besser an die Umwelt anzupassen. Die Lebewesen sind heute größer und vielfältiger geworden, und der Sex entwickelte sich ebenfalls weiter – mit einer Vielzahl von spannenden und überraschenden Varianten.</initial>
+    <p font-size=""/>
+    <p font-size="10.5">
+      <strong>Mini-Mann und Mega-Frau</strong>
+    </p>
+    <p font-size="10.5"><strong/>
+      Dass sich Mann und Frau voneinander unterscheiden, wird niemand ernsthaft bestreiten. Das zeigt sich beim Einparken oder bei verschiedenfarbigen Fell- und Federkleidern von Tieren. Doch für die Grüne Bonellia
+      <em>(Bonellia viridis)</em>
+      sind das Kleinigkeiten. Das Bonellia-Weibchen ist 1000-mal größer als ihr Gatte. Deswegen haben Forscher die Männchen auf den Weibchen lange Zeit für kleine Parasiten gehalten, etwa wie Läuse oder Flöhe auf Hunden. Das ungleiche Paar gehört zum wenig bekannten Stamm der
+      <em>Echiurida</em>
+      oder Igelwürmer. Sie leben auf dem Meeresboden in einer Tiefe von bis zu 10000 Metern. Im so genannten Hautmuskelschlauch, dem Körper des Wurms, sind die üblichen Organe zu finden: Verdauungssystem, Geschlechtsorgane, Nerven. Überflüssig scheinen dagegen Augen, Nasen und Ohren. Äußerlich könnte man die Grüne Bonellia leicht mit einer eingelegten Gurke verwechseln. Wie steht das einen Millimeter kleine Männchen bei dem einen Meter großen Weib seinen Mann? Die Vorstellung eines Ganzkörperoralverkehrs mag helfen: Das Weibchen schluckt das Männchen für die Befruchtung ihrer Eier. Bis zu 85 Männchen wurden schon im Darm eines Weibchens gefunden. Hin und wieder bohrt sich eines von ihnen durch die Darmwand, um durch die Leibeshöhle zum Eileiter zu wandern. Da die Herren der Schöpfung so klein sind, haben sich die wenigen vorhandenen Organe bei ihnen noch weiter zurückentwickelt. Die frühere Speiseröhre wurde praktischerweise zum Samenspeicher und -leiter umgebildet. Genau genommen spuckt das Männchen seinen Samen also direkt aus dem Mund auf die Eier.
+    </p>
+    <p font-size=""/>
+    <p font-size="10.5">
+      <strong>Liebe macht blind</strong>
+    </p>
+    <p font-size="10.5">
+      Was den Liebhaberinnen homoerotischer Spiele eher widersprüchlich erscheint, ist für die Weibchen einer bestimmten Rüsselkäferart,
+      <em>Diaprepes abbreviatus,</em>
+      notwendige Taktik: Sie praktizieren die gleichgeschlechtliche Liebe, um überhaupt einen Mann zu finden. Die Käfer leben in Amerika – und dort auf Pflanzen. Sie sind etwa einen Zentimeter groß, die Weibchen etwas größer als die Männchen. Das ist aber schon der einzige Unterschied zwischen Mann und Frau – und das Problem der
+      <em>Diaprepes-</em>
+      Männer. Sie haben große Schwierigkeiten, Weibchen überhaupt zu erkennen, für sie sehen alle irgendwie gleich aus. Da müssen die Damen einen Trick anwenden. Zwei Weibchen, die sich offensichtlich gegenseitig erkennen, schließen sich zusammen. Eines von beiden spielt das Männchen und besteigt das andere. Das sieht ein Männchen, denkt sich: Wo zwei kopulieren, muss mindestens ein Weibchen sein, und rennt sofort hin. Zu seiner Überraschung hat er dann gleich zwei Wunschkandidatinnen zum Beglücken vor sich – wie schön.
+    </p>
+    <p font-size="10.5"/>
+    </division><division type="page"><p font-size="10.5">
+      <strong>Korken für die Keuschheit</strong>
+    </p>
+    <p font-size="10.5"><strong/>
+      Vielen Gärtnern ist er ein Ärgernis, obwohl
+      <em>Talpa europaea</em>
+      fast ausschließlich undercover lebt. Die Hügel sind das Markenzeichen des Europäischen Maulwurfs. Unter ihnen liegen Nester, Nahrungsspeicher mit Hunderten durch einen Biss gelähmten Regenwürmern sowie netzartig verzweigte Röhren. Üblicherweise stromern Maulwürfe allein durch ihr unterirdisches Reich. Nur während der Paarungszeit zwischen März und Mai wagen sich männliche Maulwürfe in die Bauten ihrer Artgenossinnen. Die Weibchen sind von dem unangemeldeten Besuch zunächst nicht sonderlich begeistert. Es entbrennt, begleitet von lautem Zwitschern, ein heftiger Kampf. Wenn sie sich endlich zusammengerauft haben, gehen sie gemeinsam auf Jagd. Dann lässt auch die Liebe nicht mehr lange auf sich warten, wobei das Männchen sehr besitzergreifend ist. Neben seinem Samen hinterlässt der Maulwurfmann einen harzähnlichen Pfropfen in der Scheide des Weibchens. Im erhärteten Zustand steht dieser der Effektivität eines mittelalterlichen Keuschheitsgürtels in nichts nach. Weitere Werber sollten von diesem Weibchen in den nächsten Wochen jedenfalls nicht nur die Finger lassen.
+    </p>
+    <p font-size=""/>
+    <p font-size="10.5">
+      <strong>Vogelhochzeit bei Familie Büffelweber</strong>
+    </p>
+    <p font-size="10.5"><strong/>
+      Vögel haben eine Kloake. Hierbei handelt es sich um einen Hohlraum, in den Darm, Harn- und Genitalwege münden. Passend daher der Name, den Biologen diesem Bereich gaben und der lateinischen Ursprungs ist: Abwasserkanal. Wenn sich ein Vogelmännchen und ein Vogelweibchen paaren, müssen sie ihre Kloaken fest aneinander drücken, sodass das Männchen seinen Samen übertragen kann. Das scheint dem Büffelweber
+      <em>(Bubalornis niger)</em>
+      nicht wirklich Spaß zu bringen. Er ist der Einzige unter den Vögeln, der einen falschen Penis sein Eigen nennt. Die Attrappe besteht aus einem steifen Stab von Bindegewebe direkt vor der Kloakenöffnung. Damit kann das Büffelweber-Männchen lediglich rubbeln – das aber pflegt es sehr engagiert zu tun. Bis zu einer halben Stunde dauert die Kopulation und das Rubbeln an ihrer Kloake mit seiner gummiartigen Vorrichtung. Kommt er dann schließlich zum Orgasmus, so schüttelt und zuckt sein ganzer Körper in höchster Erregung. Für die Samenübertragung muss sich der Lust-Liebhaber aber weiterhin der klassischen Technik aller Vögel bedienen – Kloake auf Kloake.
+    </p>
+    <p font-size=""/>
+    <p font-size="10.5">
+      <strong>Zweidrittelfrau sucht halben Mann</strong>
+    </p>
+    </division><division type="page"><p font-size="10.5"><strong/>
+      Erscheint das Zusammenleben von zwei Geschlechtern, Mann und Frau, nicht schon kompliziert genug? Dem vielköpfigen Schleimpilz
+      <em>(Physarum polycephalum)</em>
+      wohl nicht – er bringt noch elf weitere Geschlechter ins Spiel. Dieses Geschlechterwirrwarr findet statt in feuchten deutschen Wäldern. Dort wohnen Schleimpilze und kriechen als riesige Plasmodien mit manchmal bis zu 30 Zentimeter Durchmesser durch die Gegend. Plasmodien sind Hunderte oder manchmal Tausende von ursprünglich unabhängigen Schleimpilzen, die sich zu einem gelben Schleimklumpen zusammengetan haben. Wenn die Nahrung knapp oder der Wald zu trocken wird, bilden sie kleine Stiele mit Köpfchen, welche die Sporen für die Vermehrung enthalten. Diese verteilt der Wind, der sie hoffentlich auch bis zu einem feuchten Waldboden trägt. In der nassen Umgebung schlüpfen aus den Sporen kleine begeißelte Zellen, die Gameten. Sie schlängeln sich mit ihrem winzigen Schwanz durch den Wald auf der Suche nach Geschlechtspartnern. Doch bei der Paarung gibt es einige Regeln zu beachten. Versuchen wir uns vorzustellen, dass Schleimpilze sehr weiblich oder sehr männlich sein können. Hinzukommen elf Zwischenformen, die eher weiblichen oder eher männlichen Geschlechts sind. Gleiche Geschlechter können sich nicht untereinander fortpflanzen – das entspricht noch unseren sexuellen Erfahrungen. Doch je nachdem, ob sein oder ihr Partner mehr Frau oder weniger Mann ist, wird er oder sie mehr Mann oder weniger Frau sein. Das eigene Geschlecht wird so kurz vorher durch die geschlechtliche Stellung des Partners festgelegt. Unnötig verkompliziert wird die Angelegenheit dadurch, dass es unter den Schleimpilz-Geschlechtern Immer-Frauen und Nur-Männer gibt, egal, welcher Partner da gerade angekrochen kommt. Und dann sind da noch die Schleimpilz-Trickser, denen die Immer-Frauen, Nur-Männer und die Je-nachdem-Geschlechter herzlich gleichgültig sind, die sich mit jedem paaren und mit ihrer Einstellung alles durcheinander bringen. Wer Schleimpilze als Haustiere mag, züchtet sie am besten auf feuchtem Kaffeefilterpapier, garniert mit einer von Forschern empfohlenen Lieblingsspeise der Schleimpilze – Haferflocken.
+    </p>
+    <p font-size="10.5"/>
+    <p font-size="10.5">
+      <strong>Erst das Vergnügen, dann die Arbeit</strong>
+    </p>
+    <p font-size="10.5">
+      Riesenwanzen, wie
+      <em>Belostoma grande,</em>
+      zeigen Größe auch bei ihrer Potenz. Immerhin zehn Zentimeter misst eine ausgewachsene Riesenwanze. Wer schon einmal unerfreuliche Bekanntschaft mit einer Bettwanze gemacht hat, dem sei gesagt, dass Rie-   senwanzen eigentlich ganz harmlos sind. Nur Frösche, Molche und Fische sollten sich, auch wenn sie doppelt so groß sind, vor ihnen in Acht nehmen. Sie gehören zu ihren bevorzugten Happen. Dass das Riesenwanzen-Männchen ein echtes Protzpaket ist, zeigt auch seine Manneskraft. Bis zu 100-mal hintereinander kopuliert es mit einem Weibchen, ohne dass sein vorstülpbares, schwellfähiges und kompliziertes Begattungsglied versagt oder potenzfördernde Mittelchen der Pharmaindustrie nötig sind. Ob das Weibchen dabei auch seinen Spaß hat, ist nicht so sicher. Jedenfalls scheint es der Meinung zu sein, dass er nun Pflichten hat. Nach dem Liebesmarathon besteigt es das sich heftig wehrende Männchen und heftet ihm bis zu 150 Eier mit wasserunlöslichem Klebstoff auf die Flügel. Jetzt hat der Mann die Kinder am Hals oder besser auf dem Rücken. Das Zwei- bis Dreifache seines Eigengewichtes hat er nun zu tragen. Und muss obendrein noch aufpassen, nicht unterzugehen und zu ertrinken.
+    </p>
+    <p font-size=""/>
+    <p font-size="10.5">
+      <strong>Eine stachelige Angelegenheit</strong>
+    </p>
+    <p font-size="10.5"><strong/>
+      Wie paaren sich Igel? Schon Aristoteles vermutete, dass sich Igelpaare wegen ihrer Stacheln Bauch an Bauch lieben müssten, eine Stellung, die uns Menschen ja nicht ganz unbekannt ist. Dieser Unsinn hielt sich immerhin mehrere tausend Jahre bis ins Jahr 1948. Erst dann schaute ein voyeuristischer Wissenschaftler mal genauer hin. Von wegen Missionarsstellung: Igel halten es wie fast alle Säugetiere, nur halt sehr, sehr vorsichtig.
+      <em>Erinaceus europaeus</em>
+      , so der lateinische Name des hier heimischen Igels, ist Einzelgänger. Für das andere Geschlecht interessiert sich der männliche Igel nur während der Brunftzeit im April. Nach seinem ausgiebigen Winterdauerschlaf macht er sich auf die Suche nach einer Partnerin. Sobald er eine Artgenossin erschnuppert, schleicht er sich von hinten an und beginnt sie zu umkreisen. Mit eigensinniger Beharrlichkeit dreht sich das Weibchen seines Herzens weg, boxt ihn und rennt davon. Das von Biologen als Igelkarussell bezeichnete Spiel kann sich über Stunden hinziehen. Lautstark und rhythmisch wird das nächtliche Treiben von Schnauben und Schnaufen begleitet. Dieser Paarungslärm brachte schon so manchen Gartenbesitzer um den Schlaf. Wollen sich die Igel schlussendlich lieben, besteigt das Männchen das Weibchen von hinten. Damit der Akt für das Männchen nicht zu einer masochistischen Erfahrung wird, ergänzen sich Anatomie und Verhalten. So findet sich beim Igelweibchen die Vagina am Körperende, beim Männchen der Penis hingegen in der Mitte des Bauches. Halbes Besteigen des Weibchens reicht so für das Männchen aus. Gleichzeitig nimmt das Weibchen eine ganz bestimmte Stellung ein: flach auf den Boden gedrückt, den Rücken nach unten gebogen, die Stacheln glatt angelegt, die Hinterbeine rückwärts gestreckt und das Beckenende angehoben. Missachtet sie nur eine dieser Bedingungen, lässt er besser die Pfoten von ihr. Übrigens gibt es auch Igel, die während der Paarung jede Vorsicht fahren lassen – sie leben in Südostasien, heißen Rattenigel und haben ein weiches Fell.
+    </p>
+    </division><division type="page"><p font-size="10.5"/>
+    <p font-size="10.5">
+      <strong>Nur nicht zubeißen</strong>
+    </p>
+    <p font-size="10.5"><strong/>
+      Auch Fische verstehen sich auf Samenraub. So wird es von der Geißeltilapie
+      <em>(Nyasalapia macrochir)</em>
+      berichtet. Sie gehört zu den Buntbarschen und ist mit ihren Verwandten in ostafrikanischen Seen beheimatet. Trotz ihrer Zugehörigkeit zu den Buntbarschen sind Geißeltilapien die meiste Zeit graugelb. Nur wenn der Geißeltilapien-Mann sexuell erregt wird, wirft er sich in Schuppe. Schwarz mit silbergrünlichen Punkten, bekommt er einen metallischen Glanz. So fein gemacht, schwimmt er los, um eine Grube zu buddeln. Als Paarungsarena wird die Grube gerne von feinsinnigen Fischforschern bezeichnet. Das Weibchen laicht hier seine Eier ab. Normalerweise sollte das Männchen anschließend den Laich mit seinem Samen befruchten. Doch das klappt leider nicht. Geißeltilapien sind Maulbrüter. Das Weibchen nimmt die abgelaichten Eier zum Schutz sofort ins Maul auf und brütet sie dort aus. Das geht so schnell, dass das Männchen keine Gelegenheit hat, seinen Beitrag zu leisten. Doch die Natur weiß sich zu helfen. Bei sexueller Erregung schiebt das Männchen einen Genitalanhang aus seinem Körper: Mehrere Zentimeter lang und mit zähem Sperma behaftet, wird das zottelige Gebilde Objekt der Begierde. Das Weibchen lutscht das Sperma von der Geißel ihres Gatten ab. So werden die Eier im Maul befruchtet, und der Nachwuchs ist gesichert. Sind die jungen Geißeltilapien im Maul der Mutter geschlüpft, dient es nun als Kinderhort, in dem sich die Jungen bei Gefahr verstecken. Und während der ganzen Zeit schafft sie es – glücklicherweise –, sorgfältig zwischen Nahrung und Nachwuchs zu unterscheiden.
+    </p>
+    <p font-size="10.5"/>
+    <p font-size="10.5">
+      <strong>Immer der Nase nach</strong>
+    </p>
+    <p font-size="10.5">
+      Der Geruch ist nicht nur sprichwörtlich Ausdruck von Sympathie oder Antipathie. Dem Geruchssinn kommt eine entscheidende Bedeutung bei der Suche nach dem richtigen Partner zu.
+      <em>Phocaena phocaena</em>
+      wartet in diesem Zusammenhang mit einer ganz besonderen Eigenart auf. Das Tier erhielt aufgrund seines ehemals häufigen Vorkommens an deutschen Küsten eine Vielzahl von einprägsamen Namen: Meerschwein – nicht zu verwechseln mit dem Meerschweinchen –, Kleiner Tümmler, nicht zu verwechseln mit dem Großen Tümmler oder Delfin, Saufisch, Schweinsfisch, Tummelschwein oder auch Schweinswal. Belassen wir es beim Schweinswal. Riechen können Schweinswale eigentlich nicht besonders gut, zumindest nicht mit der zum Blasloch umgewandelten Nase. Stattdessen schnüffelt das Männchen mit seinem Penis. An dessen Spitze finden sich Sinnesnerven, die auf ganz bestimmte Gerüche reagieren. Die kommen natürlich aus der Vagina des Weibchens. So erschnüffelt der Penis während der Paarung seinen Bestimmungsort und findet ihn quasi von allein. Das Männchen braucht seine ganze Aufmerksamkeit nämlich indessen für die wirklich wichtigen Dinge während des Aktes im Wasser: nicht unterzugehen.
+    </p>
+    <p>
+      <strong>Weitere Informationen:</strong>
+    </p>
+    </division><division type="page"><p>Michael Miersch: Das bizarre Sexualleben der Tiere. Ein populäres Lexikon von Aal bis Zebra. Frankfurt/M 1999</p>
+  </division></body><teaser>
+    <title>Das große Paaren</title>
+    <text>Vorsicht! Dieser Text ist für Jugendliche unter 16 Jahren nicht geeignet. Er enthält explizite Darstellungen sexueller Handlungen und einschlägiges Vokabular</text>
+  </teaser>
+  <indexteaser>
+    <title>Riesenwanzen  bei der Paarung</title>
+    <text/>
+  </indexteaser>
+</article>

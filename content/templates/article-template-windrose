@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-10-07T08:51:01.306946+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-10-01T11:56:09.717179+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-10-07T08:52:08.953734+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-10-01T11:55:13.337368+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-10-07T08:50:57.419972+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">windrose</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:0a18583d-3440-4b94-841b-2a19ecf06bf4}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-9b819b12-d100-46e3-9dc7-9b54f6ed6f8c">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-9915574b-2d0a-4d3f-a761-8c2e7cd052af" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/windrose/windrose-rajasthan/link_windrose" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.windrose.de/reiseziele/asien/indischer-subkontinent/c-35-index.html?utm_source=DieZeit&amp;utm_medium=Wallpaper&amp;utm_campaign=Oktoberkampagne" ns0:target="_blank" date-last-modified="2013-10-01T11:49:22+00:00" date-first-released="2013-10-01T11:50:22.220111+00:00" date-last-published="2013-10-01T11:50:22.220111+00:00" last-semantic-change="2013-10-01T11:48:15.949925+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Windrose</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/windrose/windrose-rajasthan/windrose_logo/windrose_logo-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-9778b8fd-39ab-4af6-90e7-880bf856b6a4">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/windrose/windrose-rajasthan/ansprechpartner" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.windrose.de/reiseziele/asien/indischer-subkontinent/c-35-index.html?utm_source=DieZeit&amp;utm_medium=Wallpaper&amp;utm_campaign=Oktoberkampagne" ns0:target="_blank" date-last-modified="2013-10-07T08:50:48+00:00" date-first-released="2013-10-01T11:32:38.109717+00:00" date-last-published="2013-10-07T08:51:48.094346+00:00" last-semantic-change="2013-10-07T08:50:40.761843+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Team Indien &amp; Fernost</title>
+            <text py:pytype="str">Ihre Ansprechpartner sind Montag bis Freitag von 9-18 Uhr für Sie erreichbar. Die Kontaktdaten finden Sie hier!</text>
+            <description py:pytype="str">Ihre Ansprechpartner sind Montag bis Freitag von 9-18 Uhr für Sie erreichbar. Die Kontaktdaten finden Sie hier!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/windrose/windrose-rajasthan/11964/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-5e72a844-d5dd-4cd3-b05b-2b9ad282bbef">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/windrose/windrose-rajasthan/newsletter-2" year="2013" issue="38" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.windrose.de/service/newsletter-abonnieren/c-132-index.html" ns0:target="_blank" date-last-modified="2013-10-01T11:53:32+00:00" date-first-released="2013-10-01T11:54:32.600910+00:00" date-last-published="2013-10-01T11:54:32.600910+00:00" last-semantic-change="2013-10-01T11:53:06.041639+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Newsletter abonnieren</title>
+            <text py:pytype="str">Möchten Sie keine aktuellen Informationen und Reiseangebote von Windrose verpassen? Dann melden Sie sich hier einfach für den wöchentlich erscheinenden Newsletter an!</text>
+            <description py:pytype="str">Möchten Sie keine aktuellen Informationen und Reiseangebote von Windrose verpassen? Dann melden Sie sich hier einfach für den wöchentlich erscheinenden Newsletter an!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/windrose/windrose-rajasthan/newsletter/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Windrose</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Windrose</title>
+  </teaser>
+</centerpage>

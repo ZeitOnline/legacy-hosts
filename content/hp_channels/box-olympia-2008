@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<channel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:py="http://codespeak.net/lxml/objectify/pytype">
+  <title py:pytype="str">HP-Box Olympia</title>
+  <container layout="container" id="themenuebersicht" label="" priority="">
+    <block layout="" priority="" href="cms:/cms/work/themen/leben/sport/olympia/index" id="" sticky="" pinned="false" hp_hide="false">
+      <title>Olympische Spiele</title>
+      <text>Politische Spiele, Massenspektakel und sportliche Rekorde – unsere Sonderseite zu den Olympischen Spielen</text>
+      <image expires="2100-01-01" src="/cms/work/bilder/2008/standards/leben/sport/olympia-logo/olympia-logo-120x90.jpg" align="right" alt="" border="" href="" layout="" vspace="" width=""><copyright>© Meike Gerstenberg für ZEIT ONLINE</copyright>
+          BILD
+        </image>
+      <related>
+        <block layout="" priority="" href="http://www.zeit.de/themen/leben/sport/olympia/olympia_ticker" id="" sticky="">
+          <title>Liveticker</title>
+        </block>
+        <block layout="" priority="" href="cms:/cms/work/online/2008/32/bg-olympia-wetter" id="" sticky="">
+          <title>Wetter in Peking</title>
+        </block>
+        <block layout="" priority="" href="cms:/cms/work/themen/leben/sport/olympia/alle-entscheidungen" id="" sticky="">
+          <title>Bilder des Tages</title>
+        </block>
+        <block layout="" priority="" href="cms:/cms/work/themen/leben/sport/olympia/deutsches-team" id="" sticky="">
+          <title>Deutsches Team</title>
+        </block>
+        <block layout="" priority="" href="cms:/cms/work/themen/leben/sport/olympia/drei-fragen" id="" sticky="">
+          <title>Interviews</title>
+        </block>
+        <block layout="" priority="" href="cms:/cms/work/themen/leben/sport/olympia/chinesische-sicht" id="" sticky="">
+          <title>Chinesische Sicht</title>
+        </block>
+        <block layout="" priority="" href="cms:/cms/work/themen/leben/sport/olympia/protestdebatte" id="" sticky="">
+          <title>Protestdebatte</title>
+        </block>
+        <block layout="" priority="" href="cms:/cms/work/themen/leben/sport/olympia/videos" id="" sticky="">
+          <title>Videos aus China</title>
+        </block>
+      </related>
+    </block>
+  </container>
+  <object_limit py:pytype="int">50</object_limit>
+</channel>

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-01-08T15:50:12.400829+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-01-07T16:32:54.892612+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-01-08T15:50:31.554824+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-01-08T15:51:31.499721+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-01-08T15:45:48.100076+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-01-08T15:49:55.309792+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">australienssueden</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b4452e58-01dc-4e9a-a0f2-a12df1e28cf4}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">1</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-490d9e45-a024-49d5-9e66-d772eddc4a6a">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-5c712052-1c87-4d26-8231-3011c34f2f12">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australienssueden/link-startseite-sa" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-startseite-sa" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/australienssueden/index" ns0:target="_blank" date-last-modified="2015-01-08T15:45:08+00:00" date-first-released="2015-01-08T15:46:08.308550+00:00" date-last-published="2015-01-08T15:46:08.308550+00:00" last-semantic-change="2015-01-08T15:44:29.429718+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-71b63038-93f8-4066-af6c-2e22e0d088aa" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/australienssueden/link-sa" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.southaustralia.com" ns0:target="_blank" ns0:rel="nofollow" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-sa" date-last-modified="2015-01-08T15:33:29+00:00" date-first-released="2015-01-08T15:34:28.676090+00:00" date-last-published="2015-01-08T15:34:28.676090+00:00" last-semantic-change="2015-01-08T15:33:17.513697+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zu South Australia</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image src="http://xml.zeit.de/angebote/australienssueden/sa-logo/sa-logo-368x220.jpg" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/australienssueden/sa-logo/sa-logo-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-9813618e-8fe6-462b-93da-b5845db95645" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/australienssueden/link-victoria" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://de.visitmelbourne.com/" ns0:target="_blank" ns0:rel="nofollow" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-victoria" date-last-modified="2015-01-08T15:35:32+00:00" date-first-released="2015-01-08T15:36:31.731465+00:00" date-last-published="2015-01-08T15:36:31.731465+00:00" last-semantic-change="2015-01-08T15:35:21.579921+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zu Victoria</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image src="http://xml.zeit.de/angebote/australienssueden/melbourne-logo/melbourne-logo-368x110.jpg" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/australienssueden/melbourne-logo/melbourne-logo-368x110.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-f95ffbb5-e7dc-455b-af7b-1cc9e251a8e7" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/australienssueden/link-singapore" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.singaporeair.com/SAA-flow.form" ns0:rel="nofollow" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-singapore" date-last-modified="2015-01-08T15:39:13+00:00" date-first-released="2015-01-08T15:40:13.686831+00:00" date-last-published="2015-01-08T15:40:13.686831+00:00" last-semantic-change="2015-01-08T15:39:03.333611+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zu Singapore Airlines</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image src="http://xml.zeit.de/angebote/australienssueden/sal-logo/sal-logo-368x220.jpg" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/australienssueden/sal-logo/sal-logo-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-13ef8847-790e-4099-b953-6670195e8041">
+          <raw>
+            <iframe width="320" height="180" src="//www.youtube.com/embed/KuxP1mE4gsc" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-86ec623c-070a-44a3-9ad7-e07c2ac2df6c">
+          <raw>
+            <iframe width="320" height="180" src="//www.youtube.com/embed/MVligOza7Hc" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-64c66d5a-be1c-45d2-a36c-a1014f446ddb">
+          <raw>
+            <iframe width="320" height="240" src="//www.youtube.com/embed/IS8ANhQntOE" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-7d68ab0d-4f71-4b27-9920-002605a332f0">
+          <raw>
+            <iframe width="320" height="180" src="//www.youtube.com/embed/jeiZ48BAr8A" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="parquet-break" area="teaser-row-full" cp:__name__="id-9f0535a8-0238-4cc1-80e6-f12d6d9d50ad">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-4b293e84-bde3-4902-ae23-ff74fff16366">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australienssueden/link-pdf-melbourne-victoria" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-pdf-melbourne-victoria" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://de.visitmelbourne.com/~/media/PDFs/International/german_brochure_melbourne_victoria.pdf" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-01-07T16:11:22+00:00" date-first-released="2015-01-07T16:12:22.001913+00:00" date-last-published="2015-01-07T16:12:22.001913+00:00" last-semantic-change="2015-01-07T16:11:11.595768+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Melbourne &amp; Victoria (Deutsche Broschüre)</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/australienssueden/melbourne-victoria/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-00ce39d1-17ea-4ce7-b860-b5eebf4be874">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australienssueden/link-pdf-tierisches" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-pdf-tierisches" year="2015" ressort="Angebote" contenttype="link" publication-date="" expires="" ns1:href="http://de.visitmelbourne.com/Things-to-do/Nature-and-wildlife/Tierisches-Victoria/~/media/PDFs/International/tierisches_victoria.pdf" ns1:target="_blank" ns1:rel="nofollow" date-last-modified="2015-01-07T16:15:45+00:00" date-first-released="2015-01-07T16:16:45.087264+00:00" date-last-published="2015-01-07T16:16:45.087264+00:00" last-semantic-change="2015-01-07T16:15:29.821884+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Karte für Tierbegegnungen</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/australienssueden/tierisches-victoria/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-df6949f2-0713-4036-afb1-d0aae1af04a6">
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australienssueden/link-pdf-southern-ocean-drive" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-pdf-southern-ocean-drive" year="2015" issue="1" ressort="Angebote" contenttype="link" publication-date="" expires="" ns2:href="http://www.southaustralia.com/media/documents/things-to-do/SOUTHERN_OCEAN_DRIVE.pdf" ns2:target="_blank" ns2:rel="nofollow" date-last-modified="2015-01-07T16:23:30+00:00" date-first-released="2015-01-07T16:24:06.671482+00:00" date-last-published="2015-01-07T16:24:06.671482+00:00" last-semantic-change="2015-01-07T16:23:27.037711+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Southern Ocean Drive South Australia</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/australienssueden/southern-ocean-drive/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-91a37864-f1f0-43cf-af45-ee7ef7436bf3">
+          <block xmlns:ns3="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australienssueden/link-pdf-south-australia" uniqueId="http://xml.zeit.de/angebote/australienssueden/link-pdf-south-australia" year="2015" issue="1" ressort="Angebote" contenttype="link" publication-date="" expires="" ns3:href="http://southaustralian-holidayplanner-german.realviewdigital.com/#folio=1" ns3:target="_blank" ns3:rel="nofollow" date-last-modified="2015-01-07T16:27:50+00:00" date-first-released="2015-01-07T16:28:50.172905+00:00" date-last-published="2015-01-07T16:28:50.172905+00:00" last-semantic-change="2015-01-07T16:27:04.984843+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">South Australia (Deutsche Broschüre)</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/australienssueden/sa-holidayplanner/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel Rahmen Australiens Süden</title>
+    <byline>Australiens Süden : ist ein Angebot von Tourism Victoria und Singapore Airlines, die für den Inhalt verantwortlich sind.</byline>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Australiens Süden</title>
+  </teaser>
+</centerpage>

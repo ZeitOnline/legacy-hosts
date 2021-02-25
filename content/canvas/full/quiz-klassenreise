@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="iframe">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">Zeit Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-09-19T09:20:20.497894+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-09-19T09:21:20.310244+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-09-19T09:21:20.310244+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-09-19T09:20:08.639031+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.pannen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">iframe</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:7517820a-4b5f-4c76-90fd-e8f6a6b0a2aa}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-d4831de8-3eb0-4b88-8255-7b6aa55a03d7">
+          <block href="http://xml.zeit.de/studium/hochschule/2012-01/studiengaenge-medien" year="2012" issue="4" ressort="Studium" publication-date="" expires="" date-last-modified="2012-06-18T13:41:09+00:00" date-first-released="2012-01-25T13:39:35.435809+00:00" date-last-published="2012-06-18T15:41:51+00:00" last-semantic-change="2012-01-25T13:38:12.454551+00:00">
+            <supertitle py:pytype="str">Studiengänge</supertitle>
+            <title py:pytype="str">Irgendwas mit Medien studieren</title>
+            <text py:pytype="str">Oft beginnt die Studienfachwahl mit einer vagen Vorstellung. Wir stellen Alternativen zu Massenstudiengängen vor. Heute: Studiengänge mit Medien.</text>
+            <description py:pytype="str">Oft beginnt die Studienfachwahl mit einer vagen Vorstellung. Wir stellen Alternativen zu Massenstudiengängen vor. Heute: Studiengänge mit Medien.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Fotografin" align="left" title="Fotografin" base-id="http://xml.zeit.de/studium/uni-leben/2012-01/fotografin-strand/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© sint/photocase</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-85990b23-06dd-4c25-a88c-80e9cd09d17e">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/studium/2011-03/link-studienplatzsuche" year="2011" issue="12" ressort="Studium" publication-date="" expires="" ns0:href="http://studiengaenge.zeit.de/" date-last-modified="2011-03-22T15:50:57+00:00" date-first-released="2011-03-22T15:51:57.312969+00:00" date-last-published="2011-03-22T15:51:57.312969+00:00" last-semantic-change="2011-03-22T15:50:29.183220+00:00">
+            <supertitle py:pytype="str">Was Studieren? Wo Studieren? Wie Studieren?</supertitle>
+            <title py:pytype="str">Die ZEIT ONLINE Studiengangsuche</title>
+            <text py:pytype="str">Finden Sie in über 14.000 Studienangeboten den Studiengang, der wirklich zu Ihnen passt.</text>
+            <description py:pytype="str">Finden Sie in über 14.000 Studienangeboten den Studiengang, der wirklich zu Ihnen passt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/studium/2011-03/teaser-studienplatzsuche/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/kallejipp">© Photocase/kallejipp</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title> </title>
+    <subtitle>QUIZ: Ein Angebot des ZEIT Verlags</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str"> </title>
+    <text py:pytype="str">QUIZ: Ein Angebot des ZEIT Verlags</text>
+  </teaser>
+</centerpage>

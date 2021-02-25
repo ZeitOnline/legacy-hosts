@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2009-10-23 10:15:40.423583+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-10-23T10:15:40.623076+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-10-22T14:07:54.358852+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2009-10-23T10:16:40.069821+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-10-23T10:14:16.561990+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schlereth</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADMIN</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:1e94ebca-470e-46f0-9230-c71b6b883fab}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">44</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="blindblock" module="blindblock" cp:__name__="d2d10b57-6ee8-4b01-80c3-91abcda0ce0a">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="b80d7caa-0c11-4d4b-acd7-77f55096a7ce">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/linkhauptseite" year="2009" issue="44" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/DeutscheBahn/index" date-last-modified="2009-10-23T09:40:14+00:00" date-first-released="2009-10-23T09:41:14.729611+00:00" date-last-published="2009-10-23T09:41:14.729611+00:00" last-semantic-change="2009-10-23T09:40:03.558059+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zu Übersichtsseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="65e93963-75be-42a3-87c7-26970aefbd6b">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/berlin" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/berlin" date-last-modified="2009-10-23T08:50:50+00:00" date-first-released="2009-10-22T15:51:18.095103+00:00" date-last-published="2009-10-23T08:51:49.867881+00:00" last-semantic-change="2009-10-23T08:50:42.558426+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Berlin</title>
+            <text py:pytype="str">Reisen Sie von Berlin nach Hamburg oder Warschau ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Berlin nach Hamburg oder Warschau ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="af553e58-4289-44fa-8e98-e4369445169e">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/bochum" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/bochum" date-last-modified="2009-10-23T08:52:51+00:00" date-first-released="2009-10-22T15:51:35.633472+00:00" date-last-published="2009-10-23T08:53:51.569635+00:00" last-semantic-change="2009-10-23T08:52:43.866878+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Bochum</title>
+            <text py:pytype="str">Reisen Sie von Bochum nach Hannover oder Amsterdam ab 19,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Bochum nach Hannover oder Amsterdam ab 19,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="2cf3be76-2d60-4930-8318-e5f6232865f9">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/duesseldorf" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/duesseldorf" date-last-modified="2009-10-23T08:53:31+00:00" date-first-released="2009-10-22T15:51:46.704841+00:00" date-last-published="2009-10-23T08:54:30.758578+00:00" last-semantic-change="2009-10-23T08:53:24.679952+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Düsseldorf</title>
+            <text py:pytype="str">Reisen Sie von Düsseldorf nach Berlin oder Zürich ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Düsseldorf nach Berlin oder Zürich ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="d4cb52f9-314b-4b6e-ab7b-bd97f0d6d864">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/stuttgart" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/stuttgart/" date-last-modified="2009-10-23T08:59:29+00:00" date-first-released="2009-10-22T15:53:33.346420+00:00" date-last-published="2009-10-23T09:00:29.030426+00:00" last-semantic-change="2009-10-23T08:59:21.797069+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Stuttgart</title>
+            <text py:pytype="str">Reisen Sie von Stuttgart nach Frankfurt oder Paris ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Stuttgart nach Frankfurt oder Paris ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="0722f35b-1257-4e57-9035-aae097491615">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/frankfurt" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/frankfurt" date-last-modified="2009-10-23T08:54:05+00:00" date-first-released="2009-10-22T15:51:56.453969+00:00" date-last-published="2009-10-23T08:55:05.627416+00:00" last-semantic-change="2009-10-23T08:53:57.881285+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Frankfurt</title>
+            <text py:pytype="str">Reisen Sie von Frankfurt nach Köln oder Brüssel ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Frankfurt nach Köln oder Brüssel ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="620ec2e8-0622-4cbe-888f-681bbd7a9810">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/hamburg" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/hamburg" date-last-modified="2009-10-23T09:21:21+00:00" date-first-released="2009-10-22T15:52:16.613433+00:00" date-last-published="2009-10-23T09:22:21.308262+00:00" last-semantic-change="2009-10-23T09:21:12.913213+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Hamburg</title>
+            <text py:pytype="str">Reisen Sie von Hamburg nach Berlin oder Kopenhagen ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Hamburg nach Berlin oder Kopenhagen ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="d8794e3b-6a4c-4eb4-853d-5e3bc6ef70bd">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/hannover" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/hannover" date-last-modified="2009-10-23T09:22:41+00:00" date-first-released="2009-10-22T15:52:33.073693+00:00" date-last-published="2009-10-23T09:23:41.303886+00:00" last-semantic-change="2009-10-23T09:22:34.636062+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Hannover</title>
+            <text py:pytype="str">Reisen Sie von Hannover nach Frankfurt oder Amsterdam ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Hannover nach Frankfurt oder Amsterdam ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="c0817774-fa4c-4897-974e-5826fdb16d17">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/koeln" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/koeln" date-last-modified="2009-10-23T08:56:53+00:00" date-first-released="2009-10-22T15:52:43.688793+00:00" date-last-published="2009-10-23T08:57:52.807419+00:00" last-semantic-change="2009-10-23T08:56:45.885135+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Köln</title>
+            <text py:pytype="str">Reisen Sie von Köln nach Frankfurt oder Brüssel ab 19,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Köln nach Frankfurt oder Brüssel ab 19,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="796ce92d-04ea-434e-82fb-21ae0b88e691">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/leipzig" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/leipzig" date-last-modified="2009-10-23T08:57:27+00:00" date-first-released="2009-10-22T15:52:58.074756+00:00" date-last-published="2009-10-23T08:58:27.281829+00:00" last-semantic-change="2009-10-23T08:57:19.604584+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Leipzig</title>
+            <text py:pytype="str">Reisen Sie von Leipzig nach Hannover oder Posen ab 29,-Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Leipzig nach Hannover oder Posen ab 29,-Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="c6051b25-0ec2-4af3-875f-6e06fbd55811">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/nuernberg" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/nuernberg" date-last-modified="2009-10-23T08:58:55+00:00" date-first-released="2009-10-22T15:53:23.893324+00:00" date-last-published="2009-10-23T08:59:55.401177+00:00" last-semantic-change="2009-10-23T08:58:48.426682+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von Nürnberg</title>
+            <text py:pytype="str">Reisen Sie von Nürnberg nach München oder Prag ab 19,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von Nürnberg nach München oder Prag ab 19,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" cp:__name__="0f4a07ed-b9aa-4764-96d1-525e792f6cbe">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/DeutscheBahn/links/muenchen" year="2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/angebote/DeutscheBahn/StartstaedteArtikel/muenchen" date-last-modified="2009-10-23T08:58:17+00:00" date-first-released="2009-10-22T15:53:12.974798+00:00" date-last-published="2009-10-23T08:59:16.953727+00:00" last-semantic-change="2009-10-23T08:58:07.443422+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Städtereisen von München</title>
+            <text py:pytype="str">Reisen Sie von München nach Stuttgart oder Wien ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</text>
+            <description py:pytype="str">Reisen Sie von München nach Stuttgart oder Wien ab 29,- Euro. Erfahren Sie hier mehr über die beiden Reiseziele.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Deutsche Bahn</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Deutsche Bahn</title>
+  </teaser>
+</centerpage>

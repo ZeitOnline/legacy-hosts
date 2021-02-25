@@ -1,0 +1,1190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <topiclinks>
+      <topiclink>
+        <topiclink_label_1>Serie Beziehungsmodelle</topiclink_label_1>
+        <topiclink_url_1>http://www.zeit.de/serie/mit-viel-liebe</topiclink_url_1>
+        <topiclink_label_2>Aus den Kommentaren</topiclink_label_2>
+        <topiclink_url_2>http://www.zeit.de/serie/aus-den-kommentaren</topiclink_url_2>
+        <topiclink_label_3>Teilchen: Blog für Netzfunde</topiclink_label_3>
+        <topiclink_url_3>http://blog.zeit.de/teilchen/</topiclink_url_3>
+      </topiclink>
+    </topiclinks>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-07-30T19:40:57.218071+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-10-29T19:40:21.314948+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-07-30T19:41:04.032565+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-07-30T19:42:03.925799+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-06-29T04:41:21.800088+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-06-29T04:41:38.970303+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-30</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Aktuelle Debatten, Leserkommentare, Crowdsourcing-Projekte, Leserumfragen und Informationen für die User der ZEIT ONLINE Community</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Community – Debatten, Kommentare, Leserbeiträge | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-07-30T19:40:48.221250+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2015-04-03</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.dschmidt</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="push_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Community</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">298</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:d3799201-e6e4-4ca5-a187-e6105ef1e8e4}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">43</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-f8b3ce80-e282-4a39-a2ba-76624b0faa85">
+          <block href="http://xml.zeit.de/community/2015-07/internationaler-tag-der-freundschaft-leseraufruf" uniqueId="http://xml.zeit.de/community/2015-07/internationaler-tag-der-freundschaft-leseraufruf" year="2015" issue="30" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-30T13:59:30+00:00" date-first-released="2015-07-30T10:59:24.733962+00:00" date-last-published="2015-07-30T11:03:30.856776+00:00" last-semantic-change="2015-07-30T11:00:27.359988+00:00">
+            <supertitle py:pytype="str">Tag der Freundschaft</supertitle>
+            <title py:pytype="str">Von klein auf, über Grenzen hinweg</title>
+            <text py:pytype="str">Ihre Freunde sind auch unsere Freunde: Erzählen Sie uns die Geschichte Ihrer besten Freundschaft. Im Gegenzug beschenken wir Ihren Freund.</text>
+            <description py:pytype="str">Ihre Freunde sind auch unsere Freunde: Erzählen Sie uns die Geschichte Ihrer besten Freundschaft. Im Gegenzug beschenken wir Ihren Freund.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/2015-07/freundschaft/" type="jpg" title="Freundschaft" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/144047-stock-photo-wasser-maedchen-freude-kind-kalt-haare-frisuren">© Fotoline / photocase.de</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-31085c30-dbd0-4760-b28e-cb9b2d1a9e35">
+          <block href="http://xml.zeit.de/wissen/gesundheit/2015-06/alkoholismus-erfahrung-erster-schluck-morgen" uniqueId="http://xml.zeit.de/wissen/gesundheit/2015-06/alkoholismus-erfahrung-erster-schluck-morgen" year="2015" issue="25" ressort="Wissen" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-06-29T16:13:32+00:00" date-first-released="2015-06-29T04:32:16.451878+00:00" date-last-published="2015-06-29T16:14:27.968079+00:00" last-semantic-change="2015-06-29T04:31:11.042226+00:00" author="Ansgar Scheidel">
+            <supertitle py:pytype="str">Alkoholismus</supertitle>
+            <title py:pytype="str">Die Gier nach dem ersten Schluck</title>
+            <text py:pytype="str">Schweißausbrüche, Magenkrämpfe, Zittern: Unser Autor war jahrelang stark alkoholabhängig. Mit jedem Erwachen kam die Übelkeit und das Verlangen nach mehr.</text>
+            <description py:pytype="str">Schweißausbrüche, Magenkrämpfe, Zittern: Unser Autor war jahrelang stark alkoholabhängig. Mit jedem Erwachen kam die Übelkeit und das Verlangen nach mehr.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2015-06/alkohol-sucht/" type="jpg" title="Schattenriss Trinker" alt="Schattenriss einer trinkenden Person" align="left" publication-date="" expires="2015-09-18T12:29:01+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Ansgar_Scheidel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ansgar Scheidel</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b733ad72-dc6d-4c12-80e6-ae35e87c22c5">
+          <block href="http://xml.zeit.de/community/2015-06/leserkommentare-kommunikation-mann-frau" uniqueId="http://xml.zeit.de/community/2015-06/leserkommentare-kommunikation-mann-frau" year="2015" issue="24" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-12T13:59:56+00:00" date-first-released="2015-06-12T13:39:09.873838+00:00" date-last-published="2015-06-12T14:00:55.541307+00:00" last-semantic-change="2015-06-12T13:38:00.133983+00:00" author="Sabrina Greifenhofer">
+            <supertitle py:pytype="str">Geschlecht</supertitle>
+            <title py:pytype="str">"Sind Sie Mann oder Frau?"</title>
+            <text py:pytype="str">Im Kommentarbereich muss niemand sein wahres Geschlecht preisgeben. Aber viele Leser wollen erraten, ob sie mit Mann oder Frau diskutieren. Warum ist das so wichtig?</text>
+            <description py:pytype="str">Im Kommentarbereich muss niemand sein wahres Geschlecht preisgeben. Aber viele Leser wollen erraten, ob sie mit Mann oder Frau diskutieren. Warum ist das so wichtig?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-06/leserkommentare-geschlechter/" type="jpg" title="Leserkommentare-Geschlecht" alt="Geschlechterforschung: Sind Sie Mann oder Frau?" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Telefonisten-Job wurde bevorzugt an Frauen vergeben, weil die weibliche Stimme als besser verständlich galt. Ist das im Kommentarbereich auch so?</bu>
+              <copyright py:pytype="str">©Stevens/Topical Press/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Sabrina_Greifenhofer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Sabrina Greifenhofer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-388ae2a7-9877-4f49-9eeb-9f33bc6ebbdd">
+          <block href="http://xml.zeit.de/sport/2015-06/katar-fussball-wm-2022-debatte" uniqueId="http://xml.zeit.de/sport/2015-06/katar-fussball-wm-2022-debatte" year="2015" issue="24" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-11T11:31:31+00:00" date-first-released="2015-06-11T11:32:31.248957+00:00" date-last-published="2015-06-11T11:32:31.248957+00:00" last-semantic-change="2015-06-11T11:15:34.947432+00:00" author="Christian Spiller">
+            <supertitle py:pytype="str">Debatte</supertitle>
+            <title py:pytype="str">Die katarische Sportoffensive</title>
+            <text py:pytype="str">Das kleine Katar kauft Trainer, Sportler, große Turniere und sogar Fans. Ist das gut für den Sport? Und sollte dem Land die Fußball-WM wieder weggenommen werden?</text>
+            <description py:pytype="str">Das kleine Katar kauft Trainer, Sportler, große Turniere und sogar Fans. Ist das gut für den Sport? Und sollte dem Land die Fußball-WM wieder weggenommen werden?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/feature/katar-handy/katar-fans/" type="jpg" title="Katar Fans" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christian Spiller</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Spiller</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-4d4f5254-ee57-45b3-a4e4-3af76ed5e0f9">
+          <block href="http://xml.zeit.de/community/2015-06/drogen-konsum-umfeld-milieu" uniqueId="http://xml.zeit.de/community/2015-06/drogen-konsum-umfeld-milieu" year="2015" issue="23" ressort="Community" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-15T12:46:20+00:00" date-first-released="2015-06-09T12:52:06.407690+00:00" date-last-published="2015-06-12T14:33:22.234793+00:00" last-semantic-change="2015-06-09T12:50:58.769238+00:00">
+            <supertitle py:pytype="str">Drogenkonsum</supertitle>
+            <title py:pytype="str">Wie nah ist der Rausch?</title>
+            <text py:pytype="str">Wer keine Drogen nimmt, bewegt sich auch nicht in Milieus, in denen konsumiert wird. Stimmt das? Haben Sie schon Drogenkonsum beobachtet, wo Sie es nicht erwartet hätten?</text>
+            <description py:pytype="str">Wer keine Drogen nimmt, bewegt sich auch nicht in Milieus, in denen konsumiert wird. Stimmt das? Haben Sie schon Drogenkonsum beobachtet, wo Sie es nicht erwartet hätten?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2015-06/drogenbericht-alltag/" type="jpg" title="Drogen im Alltag" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Kay Fochtmann/photocase.de</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-befdccb2-6abc-4bb6-8c8c-792ce0d3441a">
+          <block href="http://xml.zeit.de/community/2015-06/generationenkonflikt-argumente" uniqueId="http://xml.zeit.de/community/2015-06/generationenkonflikt-argumente" year="2015" issue="23" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-08T16:56:42+00:00" date-first-released="2015-06-08T16:57:42.564680+00:00" date-last-published="2015-06-08T16:57:42.564680+00:00" last-semantic-change="2015-06-08T16:56:37.825046+00:00" author="Sarah Murrenhoff">
+            <supertitle py:pytype="str">Generationenkonflikt</supertitle>
+            <title py:pytype="str">Wo Generation Y und Wutbürger sich treffen</title>
+            <text py:pytype="str">Spielt das Alter der Leser von ZEIT ONLINE eine Rolle? Manchmal schon, nämlich dann, wenn unterschiedliche Generationen im Kommentarbereich aufeinandertreffen.</text>
+            <description py:pytype="str">Spielt das Alter der Leser von ZEIT ONLINE eine Rolle? Manchmal schon, nämlich dann, wenn unterschiedliche Generationen im Kommentarbereich aufeinandertreffen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-06/generationenkonflikt-kommentarbereich/" type="jpg" title="Generationenkonflikt-Debatte" alt="Generationenkonflikt: Wo Generation Y und Wutbürger sich treffen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Früher harmonisches Zusammenleben der Generationen im Familienverbund (hier 1975), heute offen ausgetragener Generationenkonflikt?</bu>
+              <copyright py:pytype="str">©Fox Photos/Hulton Archive/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/M/Sarah_Murrenhoff/index" publication-date="" expires="">
+              <display_name py:pytype="str">Sarah Murrenhoff</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9494a957-3f83-4153-8e35-e1615121f4ca">
+          <block href="http://xml.zeit.de/community/2015-06/kommentarfunktion-geschichte" uniqueId="http://xml.zeit.de/community/2015-06/kommentarfunktion-geschichte" year="2015" issue="23" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-08T13:34:00+00:00" date-first-released="2015-06-06T16:37:13.715358+00:00" date-last-published="2015-06-08T13:35:00.547536+00:00" last-semantic-change="2015-06-06T16:36:10.393794+00:00" author="Christoph Schattleitner">
+            <supertitle py:pytype="str">Netzkultur</supertitle>
+            <title py:pytype="str">Wie die Lesermeinung ins Internet kam</title>
+            <text py:pytype="str">Wie man am besten mit Kommentarbereichen umgeht, ist noch nicht allen Anbietern und Nutzern klar. Kein Wunder, sie existieren ja auch erst seit 15 Jahren.</text>
+            <description py:pytype="str">Wie man am besten mit Kommentarbereichen umgeht, ist noch nicht allen Anbietern und Nutzern klar. Kein Wunder, sie existieren ja auch erst seit 15 Jahren.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-06/kommentarbereich-geschichte/" type="jpg" title="Kommentarbereich-Geschichte" alt="Netzkultur: Entstehung der Kommentarbereiche" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Manche finden, im Internet werde zu viel geredet. Anders als im realen Raum. Die Damen hier im Bild scheinen jedenfalls keinen Bedarf zu haben, die Speaker's Corner am Alexanderplatz zum Reden zu nutzen.</bu>
+              <copyright py:pytype="str">©Stephanie Pilick/dpa/picture alliance</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph Schattleitner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d4130f32-1c69-490c-94ec-502a7ddd0eba">
+          <block href="http://xml.zeit.de/community/2015-06/leser-beschwerden-argumente" uniqueId="http://xml.zeit.de/community/2015-06/leser-beschwerden-argumente" year="2015" issue="23" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-05T13:40:59+00:00" date-first-released="2015-06-05T13:41:59.109622+00:00" date-last-published="2015-06-05T13:41:59.109622+00:00" last-semantic-change="2015-06-05T11:47:00.391161+00:00" author="Annika von Taube">
+            <supertitle py:pytype="str">Leserdialog</supertitle>
+            <title py:pytype="str">"Wissen Sie eigentlich, wer ich bin?"</title>
+            <text py:pytype="str">Kommentatoren, die sich von der Moderation falsch behandelt fühlen, greifen bisweilen zu kreativen Argumenten, um sich zu rehabilitieren. Hier eine Auswahl</text>
+            <description py:pytype="str">Kommentatoren, die sich von der Moderation falsch behandelt fühlen, greifen bisweilen zu kreativen Argumenten, um sich zu rehabilitieren. Hier eine Auswahl</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-06/leser-beschwerden/" type="jpg" title="Leser-Beschwerden" alt="Leserdialog: Wenn sich Leser beschweren" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Kunde ist König, dieses Prinzip dürfen Leser gern auch bei ihren Medien einfordern. Aber manch selbstgekröntes Leserhaupt schwingt das Zepter etwas zu heftig.</bu>
+              <copyright py:pytype="str">©Christopher Furlong/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Annika_von-Taube/index" publication-date="" expires="">
+              <display_name py:pytype="str">Annika von Taube</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-6a07821b-a80b-42cc-9c8c-b6e09672bd70">
+          <block href="http://xml.zeit.de/community/2015-06/leserkommentare-beleidigungen-selten" uniqueId="http://xml.zeit.de/community/2015-06/leserkommentare-beleidigungen-selten" year="2015" issue="23" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" date-last-modified="2015-06-05T17:15:39+00:00" date-first-released="2015-06-03T19:18:55.382124+00:00" date-last-published="2015-06-05T17:16:38.527422+00:00" last-semantic-change="2015-06-03T19:17:50.625653+00:00" author="Carolina Ambrosi">
+            <supertitle py:pytype="str">Kommentarkultur</supertitle>
+            <title py:pytype="str">Wer pöbelt, schießt sich selbst ins Aus</title>
+            <text py:pytype="str">Freudige Botschaft für alle, die meinen, der Ton im Kommentarbereich sei unerträglich: Auf beleidigende Kommentare stoßen wir nur sehr selten.</text>
+            <description py:pytype="str">Freudige Botschaft für alle, die meinen, der Ton im Kommentarbereich sei unerträglich: Auf beleidigende Kommentare stoßen wir nur sehr selten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-06/leserkommentare-beleidigungen-2/" type="jpg" title="Leserkommentare-Beleidigungen" alt="Kommentarkultur: Wer pöbelt, fliegt raus" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nicht jede Beleidigung im Kommentarbereich wird übel oder ernst genommen – es kommt darauf an, wie sie verpackt wird.</bu>
+              <copyright py:pytype="str">©David Ebener/dpa/picture alliance</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Carolina_Ambrosi/index" publication-date="" expires="">
+              <display_name py:pytype="str">Carolina Ambrosi</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-5a4cae6c-cc87-4c77-abc3-50e8410c4a49">
+          <block href="http://xml.zeit.de/community/2015-06/polyamorie-beziehungsnetzwerk-erfahrung" uniqueId="http://xml.zeit.de/community/2015-06/polyamorie-beziehungsnetzwerk-erfahrung" year="2015" issue="22" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-06-01T16:36:47+00:00" date-first-released="2015-06-01T16:37:27.792536+00:00" date-last-published="2015-06-01T16:37:47.216938+00:00" last-semantic-change="2015-06-01T16:36:05.571024+00:00" author="Felix Immenthal">
+            <supertitle py:pytype="str">Polyamorie</supertitle>
+            <title py:pytype="str">Monogamie passt nicht zu mir</title>
+            <text py:pytype="str">Vor Jahren bin ich zufällig in eine polyamore Beziehung geschlittert. Heute will ich nicht mehr zur Monogamie zurück – und plane eine polyamore Familie.</text>
+            <description py:pytype="str">Vor Jahren bin ich zufällig in eine polyamore Beziehung geschlittert. Heute will ich nicht mehr zur Monogamie zurück – und plane eine polyamore Familie.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-06/molekuel-modell/" type="jpg" title="Molekülmodell" alt="Modell eines Polyamid-Moleküls" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© SSPL/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/I/Felix_Immenthal/index" publication-date="" expires="">
+              <display_name py:pytype="str">Felix Immenthal</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f03067c5-8eef-4a8a-b76d-19fc7db56fe0">
+          <block href="http://xml.zeit.de/community/2015-05/eltern-probleme-tabu" uniqueId="http://xml.zeit.de/community/2015-05/eltern-probleme-tabu" year="2015" issue="21" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-25T17:26:52+00:00" date-first-released="2015-05-24T15:16:33.744194+00:00" date-last-published="2015-05-25T17:27:52.407765+00:00" last-semantic-change="2015-05-24T15:15:19.391890+00:00">
+            <supertitle py:pytype="str">Eltern</supertitle>
+            <title py:pytype="str">Warum Kinder?</title>
+            <text py:pytype="str">Nicht wenige Mütter und Väter sind unglücklich in ihrer Elternrolle. Nicht der Kinder, sondern der Umstände wegen. Offen über solche Probleme zu reden, ist aber tabu.</text>
+            <description py:pytype="str">Nicht wenige Mütter und Väter sind unglücklich in ihrer Elternrolle. Nicht der Kinder, sondern der Umstände wegen. Offen über solche Probleme zu reden, ist aber tabu.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-05/elternschaft-probleme/" type="jpg" title="Elternschaft-Probleme" alt="Eltern: Wie kann man nur nicht glücklich sein" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Man muss nicht gleich wie diese Mutter Vierlinge zu versorgen haben, um sich mit dem Elternsein überfordert zu fühlen.</bu>
+              <copyright py:pytype="str">©Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-76422806-64b5-4cf5-a359-fa2665ceaafc">
+          <block href="http://xml.zeit.de/community/2015-05/eltern-mutter-kind-abscheu-versagen-liebe" uniqueId="http://xml.zeit.de/community/2015-05/eltern-mutter-kind-abscheu-versagen-liebe" year="2015" issue="21" ressort="Community" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-05-22T14:28:24+00:00" date-first-released="2015-05-22T14:27:12.626414+00:00" date-last-published="2015-05-22T14:29:23.946162+00:00" last-semantic-change="2015-05-22T14:28:19.801826+00:00" author="Barbara Schneider">
+            <supertitle py:pytype="str">Eltern</supertitle>
+            <title py:pytype="str">Alles in mir hat sich gewehrt</title>
+            <text py:pytype="str">Nach der Geburt empfand ich Abscheu gegen meinen Sohn – und hasste mich dafür. Ich gab ihn zu einer Pflegemutter. Trotz allem haben wir heute ein liebevolles Verhältnis.</text>
+            <description py:pytype="str">Nach der Geburt empfand ich Abscheu gegen meinen Sohn – und hasste mich dafür. Ich gab ihn zu einer Pflegemutter. Trotz allem haben wir heute ein liebevolles Verhältnis.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-05/mutter-glueck-kitsch/" type="jpg" title="Klischee vom Mutterglück" alt="Mutter mit Kind vor Sonnenuntergang" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Barbara_Schneider/index" publication-date="" expires="">
+              <display_name py:pytype="str">Barbara Schneider</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-47994a29-4b9f-4c85-b33e-c159e5d42c11">
+          <block href="http://xml.zeit.de/community/2015-05/duzen-siezen-leserkommentare" uniqueId="http://xml.zeit.de/community/2015-05/duzen-siezen-leserkommentare" year="2015" issue="21" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-21T10:49:39+00:00" date-first-released="2015-05-21T10:50:38.671567+00:00" date-last-published="2015-05-21T10:50:38.671567+00:00" last-semantic-change="2015-05-21T10:49:35.285028+00:00" author="Christoph Schattleitner">
+            <supertitle py:pytype="str">Umgangsformen</supertitle>
+            <title py:pytype="str">Duzen oder Siezen?</title>
+            <text py:pytype="str">Die meisten Leser finden es selbstverständlich, sich im Kommentarbereich zu siezen, aber manche würden sich lieber duzen. Welche Form der Ansprache bevorzugen Sie?</text>
+            <description py:pytype="str">Die meisten Leser finden es selbstverständlich, sich im Kommentarbereich zu siezen, aber manche würden sich lieber duzen. Welche Form der Ansprache bevorzugen Sie?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-05/duzen-siezen/" type="jpg" title="Duzen-Siezen" alt="Umgangsformen: Duzen oder Siezen?" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Früher waren die Menschen höflicher, heißt es ja gern. Für Fußballer (hier eine Szene aus England 1938) mag das sogar stimmen.</bu>
+              <copyright py:pytype="str">© Fox Photos/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph Schattleitner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-ac0831ae-2928-468d-8e37-34c39f831364">
+          <block href="http://xml.zeit.de/community/2015-05/altersunterschied-paar-aeltere-frau" uniqueId="http://xml.zeit.de/community/2015-05/altersunterschied-paar-aeltere-frau" year="2015" issue="19" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-05-18T15:40:06+00:00" date-first-released="2015-05-18T15:21:36.496755+00:00" date-last-published="2015-05-18T15:41:06.364622+00:00" last-semantic-change="2015-05-18T15:20:28.914660+00:00" author="Stephanie Schwenkenbecher">
+            <supertitle py:pytype="str">Altersunterschied</supertitle>
+            <title py:pytype="str">Was sind schon acht Jahre</title>
+            <text py:pytype="str">Mein Mann ist jünger als ich. Mittlerweile fällt es mir kaum noch auf, aber als wir uns kennenlernten, musste ich mich erst von traditionellen Rollenbildern lösen. </text>
+            <description py:pytype="str">Mein Mann ist jünger als ich. Mittlerweile fällt es mir kaum noch auf, aber als wir uns kennenlernten, musste ich mich erst von traditionellen Rollenbildern lösen. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-05/paar-mauer-schatten-2/" type="jpg" title="Paar wirft Schatten an Mauer" alt="Paar wirft Schatten an Mauer" align="left" publication-date="" expires="2015-08-18T14:09:13+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Paul Zinken/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Stephanie_Schwenkenbecher/index" publication-date="" expires="">
+              <display_name py:pytype="str">Stephanie Schwenkenbecher</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c3566208-27ac-4f15-8be1-40972aec24cc">
+          <block href="http://xml.zeit.de/community/2015-05/eltern-kinder-bereuen" uniqueId="http://xml.zeit.de/community/2015-05/eltern-kinder-bereuen" year="2015" issue="18" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-13T17:25:12+00:00" date-first-released="2015-05-11T13:33:16.174306+00:00" date-last-published="2015-05-13T17:26:11.809522+00:00" last-semantic-change="2015-05-11T13:31:11.664743+00:00">
+            <supertitle py:pytype="str">Eltern</supertitle>
+            <title py:pytype="str">Das hatten wir uns anders vorgestellt</title>
+            <text py:pytype="str">Kinder zu haben, ist ein großes Glück. Heißt es. Und was, wenn nicht? Wir suchen Mütter und Väter, die ihre Elternschaft bereuen oder nicht so leben können wie gewünscht.</text>
+            <description py:pytype="str">Kinder zu haben, ist ein großes Glück. Heißt es. Und was, wenn nicht? Wir suchen Mütter und Väter, die ihre Elternschaft bereuen oder nicht so leben können wie gewünscht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-05/eltern-kinderwagen/" type="jpg" title="Drei Kinderwagen" alt="Drei Frauen schieben Kinderwagen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Marcus Brandt/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d7651b3b-56b8-4a9c-9224-6ac5233fe890">
+          <block href="http://xml.zeit.de/community/2015-05/kita-streik-leseraufruf" uniqueId="http://xml.zeit.de/community/2015-05/kita-streik-leseraufruf" year="2015" issue="19" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-13T09:49:38+00:00" date-first-released="2015-05-08T08:33:22.738647+00:00" date-last-published="2015-07-13T09:50:21.772635+00:00" last-semantic-change="2015-05-08T08:32:12.086992+00:00" author="David Schmidt">
+            <supertitle py:pytype="str">Kita-Streik</supertitle>
+            <title py:pytype="str">Wohin mit dem Nachwuchs?</title>
+            <text py:pytype="str">Tausende Mitarbeiter von Kindertagesstätten befinden sich ab heute im Streik. Viele Eltern stellt das vor große Probleme. Sie auch? Wie gehen Sie damit um?</text>
+            <description py:pytype="str">Tausende Mitarbeiter von Kindertagesstätten befinden sich ab heute im Streik. Viele Eltern stellt das vor große Probleme. Sie auch? Wie gehen Sie damit um?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-05/kita-streik-2015/" type="jpg" title="Kita-Streik 2015" alt="Kita-Streik: Das Problem mit den Kindern" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wie gehen Sie mit dem Kita-Streik um? Artet das Ganze in Stress für Sie aus?</bu>
+              <copyright py:pytype="str">© ladival25/photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/David_Schmidt" publication-date="" expires="">
+              <display_name py:pytype="str">David Schmidt</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-a92e30cc-8e75-402c-a2ea-425594bcf172">
+          <block href="http://xml.zeit.de/community/2015-05/http-www-zeit-de-feature-wladimir-putin-mutter-community" uniqueId="http://xml.zeit.de/community/2015-05/http-www-zeit-de-feature-wladimir-putin-mutter-community" year="2015" issue="19" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-08T06:05:32+00:00" date-first-released="2015-05-07T09:35:48.689102+00:00" date-last-published="2015-05-08T06:06:32.460756+00:00" last-semantic-change="2015-05-07T09:34:38.725727+00:00">
+            <supertitle py:pytype="str">Wladimir Putin</supertitle>
+            <title py:pytype="str">Diskutieren Sie mit: Vera Putinas verlorener Sohn</title>
+            <text py:pytype="str">In Georgien lebt eine Frau, die behauptet, Putins wahre Mutter zu sein. Beweise dafür soll der KGB vernichtet haben. Kann das sein? Diskutieren Sie mit.
+</text>
+            <description py:pytype="str">In Georgien lebt eine Frau, die behauptet, Putins wahre Mutter zu sein. Beweise dafür soll der KGB vernichtet haben. Kann das sein? Diskutieren Sie mit.
+</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2015-05/putin/" type="jpg" title="Putin" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Vera Putina, 89, Landmaschinen-Mechanikerin. Wladimir Putin, 62, Staatspräsident</bu>
+              <copyright py:pytype="str">© laif</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c134d3ca-af62-4b90-98ad-81c99fbbb3c2">
+          <block href="http://xml.zeit.de/community/2015-04/kleines-messerchen-zeit-der-leser" uniqueId="http://xml.zeit.de/community/2015-04/kleines-messerchen-zeit-der-leser" year="2015" issue="17" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-30T10:05:37+00:00" date-first-released="2015-04-28T09:47:37.723694+00:00" date-last-published="2015-07-30T10:06:36.402788+00:00" last-semantic-change="2015-07-29T16:33:12.243799+00:00">
+            <supertitle py:pytype="str">Dialekt</supertitle>
+            <title py:pytype="str">Lauter scharfe Teile</title>
+            <text py:pytype="str">Schrappmessken, Meestje und Knief: Zum letzten Mal erweitern wir unseren Wort-Schatz um regionale Begriffe für das kleine Küchenmesser.</text>
+            <description py:pytype="str">Schrappmessken, Meestje und Knief: Zum letzten Mal erweitern wir unseren Wort-Schatz um regionale Begriffe für das kleine Küchenmesser.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-06/messerwerfer-listicle-wortschatz/" type="jpg" title="ZEIT der Leser: Messerchen-Listicle-Wortschatz" alt="Messerchen Listicle ZEIT der Leser" align="left" publication-date="" expires="">
+              <bu py:pytype="str">1920: A lucky escape after some knife throwing antics during an unknown film.</bu>
+              <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9d420502-7c16-47ba-a254-85eb55622d25">
+          <block href="http://xml.zeit.de/community/2015-04/welttag-des-buches-lesetipps" uniqueId="http://xml.zeit.de/community/2015-04/welttag-des-buches-lesetipps" year="2015" issue="17" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-15T13:52:13+00:00" date-first-released="2015-04-23T15:02:04.517813+00:00" date-last-published="2015-07-15T13:52:52.841065+00:00" last-semantic-change="2015-04-23T15:01:01.729797+00:00">
+            <supertitle py:pytype="str">Welttag des Buches</supertitle>
+            <title py:pytype="str">Bücher für die Ewigkeit</title>
+            <text py:pytype="str">Weil unsere Leser viel lesen, kann man sie gut nach Buchtipps fragen. Hier eine Liste von Titeln, die unsere Leser nicht mehr loslassen – im guten wie im schlechten Sinn.</text>
+            <description py:pytype="str">Weil unsere Leser viel lesen, kann man sie gut nach Buchtipps fragen. Hier eine Liste von Titeln, die unsere Leser nicht mehr loslassen – im guten wie im schlechten Sinn.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/welttag-des-buches-leser/" type="jpg" title="Welttag des Buches" alt="Kinder spielen in einem von brasilianischen Künstlern aus 250.000 Büchern errichteten Labyrinth." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Kinder spielen in einem von brasilianischen Künstlern aus 250.000 Büchern errichteten Labyrinth.</bu>
+              <copyright py:pytype="str">©Peter Macdiarmid/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9631605a-cfd7-4231-9d79-be88a92fd281">
+          <block href="http://xml.zeit.de/community/2015-04/troll-verhalten-erklaerung" uniqueId="http://xml.zeit.de/community/2015-04/troll-verhalten-erklaerung" year="2015" issue="16" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-21T19:23:29+00:00" date-first-released="2015-04-21T19:23:57.216750+00:00" date-last-published="2015-04-21T19:24:29.620499+00:00" last-semantic-change="2015-04-21T19:22:50.368688+00:00" author="Annika von Taube">
+            <supertitle py:pytype="str">Netzkultur</supertitle>
+            <title py:pytype="str">Das Dilemma des Trolls</title>
+            <text py:pytype="str">Man hat es nicht leicht, wenn die anderen glauben, man wolle nur stören. Wenn sie nicht die Komplexität der eigenen Absicht erkennen. Man hat es nicht leicht als Troll.</text>
+            <description py:pytype="str">Man hat es nicht leicht, wenn die anderen glauben, man wolle nur stören. Wenn sie nicht die Komplexität der eigenen Absicht erkennen. Man hat es nicht leicht als Troll.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/2015-04/troll-psychogramm/" type="jpg" title="Troll-Psychogramm" alt="Netzkultur: Dilemma des Trolls" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wenn Troll und Moderation miteinander Katz und Maus spielen, ist nicht immer klar, welche Partei Maus und welche Katze ist.</bu>
+              <copyright py:pytype="str">© Julian Stratenschulte/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Annika_von-Taube/index" publication-date="" expires="">
+              <display_name py:pytype="str">Annika von Taube</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-52356cc4-59a8-430a-8ffa-ff5daff54890">
+          <block href="http://xml.zeit.de/community/2015-04/fluechtlinge-mittelmeer-debatte-leserreaktionen" uniqueId="http://xml.zeit.de/community/2015-04/fluechtlinge-mittelmeer-debatte-leserreaktionen" year="2015" issue="16" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-20T20:08:39+00:00" date-first-released="2015-04-20T19:33:57.599482+00:00" date-last-published="2015-04-20T20:09:38.939516+00:00" last-semantic-change="2015-04-20T19:32:42.453749+00:00" author="Christoph Schattleitner">
+            <supertitle py:pytype="str">Flüchtlingsdebatte</supertitle>
+            <title py:pytype="str">Wo bleibt die Trauer um die Opfer?</title>
+            <text py:pytype="str">Die Meldungen über ertrunkene Flüchtlinge führen zu einer emotionalen und kontroversen Debatte unter den Lesern. Empathie für die Opfer aber fehlt. Warum ist das so?</text>
+            <description py:pytype="str">Die Meldungen über ertrunkene Flüchtlinge führen zu einer emotionalen und kontroversen Debatte unter den Lesern. Empathie für die Opfer aber fehlt. Warum ist das so?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/fluechtlinge-mittelmeer/" type="jpg" title="Fluechtlinge-Mittelmeer" alt="Flüchtlinge: Keine Trauer um die Opfer" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Flüchtlingsboot mit 200 Passagieren vor der Küste Lampedusas 2014</bu>
+              <copyright py:pytype="str">©ANSA/Italian Navy/dpa/picture alliance</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph Schattleitner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7bda3e24-4ba6-45d4-a4af-45edd2695b3b">
+          <block href="http://xml.zeit.de/community/2015-04/monogamie-polyamorie-beziehung-netzwerk-schwangerschaft" uniqueId="http://xml.zeit.de/community/2015-04/monogamie-polyamorie-beziehung-netzwerk-schwangerschaft" year="2015" issue="16" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-04-19T07:19:22+00:00" date-first-released="2015-04-19T07:19:52.345436+00:00" date-last-published="2015-04-19T07:20:22.524561+00:00" last-semantic-change="2015-04-19T07:18:48.050959+00:00" author="Laura Fischer">
+            <supertitle py:pytype="str">Monogamie</supertitle>
+            <title py:pytype="str">Ich warte nicht auf Mr. Right</title>
+            <text py:pytype="str">In meinem konservativen Umfeld gelte ich als Single. Tatsächlich lebe ich aber in einem Beziehungsnetzwerk. Von einem guten Freund erwarte ich jetzt ein Kind.</text>
+            <description py:pytype="str">In meinem konservativen Umfeld gelte ich als Single. Tatsächlich lebe ich aber in einem Beziehungsnetzwerk. Von einem guten Freund erwarte ich jetzt ein Kind.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/teppich-knuepfen/" type="jpg" title="Teppich knüpfen" alt="Teppich auf einem Webstuhl" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Dimitar Dilkoff/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Laura_Fischer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Laura Fischer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-db04446a-d81b-48ab-bb0d-886da2c1cf17">
+          <block href="http://xml.zeit.de/community/2015-04/polyamorie-monogamie-beziehung-bisexualitaet" uniqueId="http://xml.zeit.de/community/2015-04/polyamorie-monogamie-beziehung-bisexualitaet" year="2015" issue="15" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-04-14T20:50:00+00:00" date-first-released="2015-04-14T20:47:41.220330+00:00" date-last-published="2015-04-14T20:50:59.909749+00:00" last-semantic-change="2015-04-14T20:46:28.513882+00:00" author="Barbara Neumann">
+            <supertitle py:pytype="str">Polyamorie</supertitle>
+            <title py:pytype="str">Zu viele Schmetterlinge im Bauch</title>
+            <text py:pytype="str">Schon in der Grundschule habe ich mich gleichzeitig in einen Jungen und ein Mädchen verliebt. Doch zurzeit liebe ich einen Mann, der eine monogame Beziehung mit mir will.</text>
+            <description py:pytype="str">Schon in der Grundschule habe ich mich gleichzeitig in einen Jungen und ein Mädchen verliebt. Doch zurzeit liebe ich einen Mann, der eine monogame Beziehung mit mir will.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/paar-kuss/" type="jpg" title="Paar beim Kuss" alt="Paar beim Kuss" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bert Garai/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Barbara_Neumann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Barbara Neumann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-87d3644e-14f0-406e-a919-41b38cdc1f78"/>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-dcb9d108-0107-48c4-b860-bf0500afcff7">
+          <block href="http://xml.zeit.de/community/2015-04/kirchensteuer-austritt-grund" uniqueId="http://xml.zeit.de/community/2015-04/kirchensteuer-austritt-grund" year="2015" issue="13" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-08T13:16:18+00:00" date-first-released="2015-04-08T13:17:18.140790+00:00" date-last-published="2015-04-08T13:17:18.140790+00:00" last-semantic-change="2015-04-08T13:16:14.611488+00:00">
+            <supertitle py:pytype="str">Kirchenaustritt</supertitle>
+            <title py:pytype="str">Hat Sie der Glaube zu viel gekostet?</title>
+            <text py:pytype="str">Die Änderung des Einzugsverfahrens der Kirchensteuer hat viele Gläubige zum Austritt bewogen. Gehören Sie dazu? Dann berichten Sie uns von Ihren Beweggründen.</text>
+            <description py:pytype="str">Die Änderung des Einzugsverfahrens der Kirchensteuer hat viele Gläubige zum Austritt bewogen. Gehören Sie dazu? Dann berichten Sie uns von Ihren Beweggründen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/kirchensteuer-austritte/" type="jpg" title="Kirchensteuer-Austritte" alt="Kirchenaustritt: Wenn Glaube zu viel kostet" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Matthäuskirche in Frankfurt am Main vor Bankengebäuden</bu>
+              <copyright py:pytype="str">©Ulrich Baumgarten/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3fb2f6c1-6ba3-424c-95aa-c997586e7a60">
+          <block href="http://xml.zeit.de/community/2015-04/liebe-facebook-beziehung" uniqueId="http://xml.zeit.de/community/2015-04/liebe-facebook-beziehung" year="2015" issue="13" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-04-07T16:56:33+00:00" date-first-released="2015-04-07T16:50:38.279165+00:00" date-last-published="2015-04-07T16:57:32.798227+00:00" last-semantic-change="2015-04-07T16:49:35.100534+00:00" author="Sven Leonhardt">
+            <supertitle py:pytype="str">Liebe auf Facebook</supertitle>
+            <title py:pytype="str">Ich habe sie ständig auf dem Schirm</title>
+            <text py:pytype="str">Seit zwei Jahren liebe ich eine Frau, die ich im Internet kennengelernt habe. Getroffen haben wir uns noch nie. Unsere Beziehung findet ausschließlich auf Facebook statt.</text>
+            <description py:pytype="str">Seit zwei Jahren liebe ich eine Frau, die ich im Internet kennengelernt habe. Getroffen haben wir uns noch nie. Unsere Beziehung findet ausschließlich auf Facebook statt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/paar-bildschirme/" type="jpg" title="Paar auf Computerbildschirmen" alt="Paar aus Mann und Frau auf zwei Laptop-Bildschirmen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Und unsere Lippen trafen sich am Bildschirmrand.</bu>
+              <copyright py:pytype="str">© Thomas Trutschel/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Sven_Leonhardt/index" publication-date="" expires="">
+              <display_name py:pytype="str">Sven Leonhardt</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-232e9699-605b-47af-9966-fa44ea6c782b">
+          <block href="http://xml.zeit.de/community/2015-04/kochwoche-kochkurs-selfkantine" uniqueId="http://xml.zeit.de/community/2015-04/kochwoche-kochkurs-selfkantine" year="2015" issue="13" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-07T13:34:06+00:00" date-first-released="2015-04-02T18:53:49.541471+00:00" date-last-published="2015-04-07T13:35:05.805308+00:00" last-semantic-change="2015-04-07T13:33:49.842129+00:00">
+            <supertitle py:pytype="str">Kochen</supertitle>
+            <title py:pytype="str">Einladung zum Mittagessen</title>
+            <text py:pytype="str">Wollen Sie mit spannenden Köchen und ZEIT-ONLINE-Redakteuren in der Berliner Redaktionsküche gemeinsam kochen und zu Mittag essen? Dann besuchen Sie unsere "Selfkantine".</text>
+            <description py:pytype="str">Wollen Sie mit spannenden Köchen und ZEIT-ONLINE-Redakteuren in der Berliner Redaktionsküche gemeinsam kochen und zu Mittag essen? Dann besuchen Sie unsere "Selfkantine".</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/kochwoche-selfkantine/" type="jpg" title="Kochwoche-Selfkantine" alt="Kochwoche: Einladung zum Mittagessen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Gemeinsam Kochen muss nicht aufwendig sein. Das Projekt "Selfkantine" setzt auf schnelle und unkomplizierte Zubereitung.</bu>
+              <copyright py:pytype="str">©Silvio Knezevic</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-26951315-dae4-4ac3-8046-e2afb9f47cfe">
+          <block href="http://xml.zeit.de/community/2015-04/ausweispflicht-schengen-fluege-leserdebatte" uniqueId="http://xml.zeit.de/community/2015-04/ausweispflicht-schengen-fluege-leserdebatte" year="2015" issue="13" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-02T13:28:10+00:00" date-first-released="2015-04-02T13:28:43.414740+00:00" date-last-published="2015-04-02T13:29:10.354264+00:00" last-semantic-change="2015-04-02T13:27:39.469691+00:00">
+            <supertitle py:pytype="str">Flugsicherheit</supertitle>
+            <title py:pytype="str">Ausweispflicht bringt keine Sicherheit</title>
+            <text py:pytype="str">Innenminister de Maizière prüft die Wiedereinführung von Ausweiskontrollen bei Schengen-Flügen. Wie das die Sicherheit erhöhen soll, erschließt sich unseren Lesern nicht.</text>
+            <description py:pytype="str">Innenminister de Maizière prüft die Wiedereinführung von Ausweiskontrollen bei Schengen-Flügen. Wie das die Sicherheit erhöhen soll, erschließt sich unseren Lesern nicht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/ausweiskontrolle-flughafen-2/" type="jpg" title="Ausweiskontrolle an amerikanischen Flughafen" alt="Ausweiskontrolle an amerikanischen Flughafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Grenzbeamter kontrolliert am Flughafen in Washington einen Passagier-Ausweis. Soll das auch innerhalb Schengen zur Regel werden?</bu>
+              <copyright py:pytype="str">©Bloomberg/Getty Images </copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-76bbe848-3d4f-4e0d-a5c1-2073013c2af9">
+          <block href="http://xml.zeit.de/community/2015-03/offene-beziehung-schwierigkeiten" uniqueId="http://xml.zeit.de/community/2015-03/offene-beziehung-schwierigkeiten" year="2015" issue="13" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-04-01T16:46:35+00:00" date-first-released="2015-04-01T15:17:23.051113+00:00" date-last-published="2015-04-01T15:17:47.571586+00:00" last-semantic-change="2015-04-01T16:46:26.009542+00:00" author="Carolin Bergmann">
+            <supertitle py:pytype="str">Offene Beziehung</supertitle>
+            <title py:pytype="str">Wie weit trägt das Vertrauen?</title>
+            <text py:pytype="str">Mein Mann und ich führen eine Art offene Ehe. Doch seit ich mich in einen anderen verliebt habe, stehen Fragen im Raum, an die wir nicht gedacht hatten.</text>
+            <description py:pytype="str">Mein Mann und ich führen eine Art offene Ehe. Doch seit ich mich in einen anderen verliebt habe, stehen Fragen im Raum, an die wir nicht gedacht hatten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-03/mann-frau-trapez/" type="jpg" title="Mann und Frau am Trapez" alt="Mann und Frau am Trapez" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mit erhöhter Absturzgefahr: Mann und Frau am Trapez</bu>
+              <copyright py:pytype="str">© Joanne Rathe/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Carolin_Bergmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Carolin Bergmann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-0e1fb8b6-5229-4329-8309-29901cddf7ba">
+          <block href="http://xml.zeit.de/community/2015-03/monogamie-polyamorie-beziehungen-liebe" uniqueId="http://xml.zeit.de/community/2015-03/monogamie-polyamorie-beziehungen-liebe" year="2015" issue="13" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-03-31T17:19:34+00:00" date-first-released="2015-03-28T18:24:04.406583+00:00" date-last-published="2015-03-31T17:20:33.767829+00:00" last-semantic-change="2015-03-28T18:22:26.153709+00:00" serie="Mit viel Liebe" author="Daniel Herbstreit">
+            <supertitle py:pytype="str">Monogamie</supertitle>
+            <title py:pytype="str">Ich liebe dich. Und dich auch.</title>
+            <text py:pytype="str">Die Akzeptanz von offenen Beziehungen und alternativen Familienmodellen nimmt zu, aber das Ideal von der monogamen Liebe hält sich hartnäckig. Ein Widerspruch?</text>
+            <description py:pytype="str">Die Akzeptanz von offenen Beziehungen und alternativen Familienmodellen nimmt zu, aber das Ideal von der monogamen Liebe hält sich hartnäckig. Ein Widerspruch?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-03/polygamie-beziehung-2/" type="jpg" title="Monogamie-Polyamorie" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Was sitzt da (um 1940) am Strand? Zwei Paare oder eine Viererkiste?</bu>
+              <copyright py:pytype="str">© David Parker/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Daniel_Herbstreit/index" publication-date="" expires="">
+              <display_name py:pytype="str">Daniel Herbstreit</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-baf32c4d-06cd-489e-8700-2b56f4eb8708">
+          <block href="http://xml.zeit.de/community/2015-03/fasten-community-debatte" uniqueId="http://xml.zeit.de/community/2015-03/fasten-community-debatte" year="2015" issue="13" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-03-27T17:22:38+00:00" date-first-released="2015-03-27T17:16:49.766100+00:00" date-last-published="2015-03-27T17:23:37.738034+00:00" last-semantic-change="2015-03-27T17:22:34.805034+00:00">
+            <supertitle py:pytype="str">Fasten</supertitle>
+            <title py:pytype="str">Schluss mit der Fülle</title>
+            <text py:pytype="str">Eine Debatte über das Fasten zeigt die Vielfalt der Motive, sich freiwillig in Verzicht zu üben. Das am häufigsten genannte: Sehnsucht nach Leere.</text>
+            <description py:pytype="str">Eine Debatte über das Fasten zeigt die Vielfalt der Motive, sich freiwillig in Verzicht zu üben. Das am häufigsten genannte: Sehnsucht nach Leere.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-03/fasten-community/" type="jpg" title="Kleines Mädchen mit Schokoladenei" alt="Circa 1930, A little girl makes a pig of herself by licking a large chocolate Easter egg. (Photo by FPG/Getty Images)" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ob sich bei diesem Mädchen nach dem Genuss eines Ostereis (um 1930) ein Gefühl der Leere einstellte, ist nicht überliefert. </bu>
+              <copyright py:pytype="str">© FPG/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-11b32e18-9523-41ae-ba92-537515cc71b3">
+          <block href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-03/femen-vom-system-geschluckt-debatte" uniqueId="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-03/femen-vom-system-geschluckt-debatte" year="2015" issue="13" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2015-03-27T15:12:45+00:00" date-first-released="2015-03-27T09:40:45.930825+00:00" date-last-published="2015-03-27T15:13:45.292071+00:00" last-semantic-change="2015-03-27T09:45:44.319184+00:00" author="Frida Thurm">
+            <supertitle py:pytype="str">Femen</supertitle>
+            <title py:pytype="str">Vom System geschluckt: Diskutieren Sie mit uns!</title>
+            <text py:pytype="str">Als Femen-Aktivistinnen in Deutschland auftauchten, brachten sie eine Hoffnung mit – auf einen neuen, radikaleren Kampf für Frauenrechte. Hat sich die erfüllt? </text>
+            <description py:pytype="str">Als Femen-Aktivistinnen in Deutschland auftauchten, brachten sie eine Hoffnung mit – auf einen neuen, radikaleren Kampf für Frauenrechte. Hat sich die erfüllt? </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-03/femen-hp/" type="jpg" title="7tage-femen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© NDR</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Frida_Thurm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Frida Thurm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-89ec6095-1ed2-4515-84f5-803ddabc41bb">
+          <block href="http://xml.zeit.de/community/2015-03/nummernschild-abkuerzungen-oesterreich" uniqueId="http://xml.zeit.de/community/2015-03/nummernschild-abkuerzungen-oesterreich" year="2015" issue="13" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" date-last-modified="2015-04-02T11:11:31+00:00" date-first-released="2015-03-26T16:22:31.387761+00:00" date-last-published="2015-03-26T16:22:31.387761+00:00" last-semantic-change="2015-03-26T15:51:30.926940+00:00" author="Christoph Schattleitner">
+            <supertitle py:pytype="str">Autokennzeichen</supertitle>
+            <title py:pytype="str">"Alle Buchstaben müssen in Schutzhaft genommen werden"</title>
+            <text py:pytype="str">Österreich will umstrittene Kürzel für Wunschkennzeichen verbieten, "IS" zum Beispiel. "Was kann denn noch alles verboten werden?", fragt ein Leser. Haben Sie Ideen?</text>
+            <description py:pytype="str">Österreich will umstrittene Kürzel für Wunschkennzeichen verbieten, "IS" zum Beispiel. "Was kann denn noch alles verboten werden?", fragt ein Leser. Haben Sie Ideen?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-03/nummernschilder-abkuerzungen-oesterreich/" type="jpg" title="Nummernschildern mit umstrittenen Abkürzungen" alt="Nummernschildern mit umstrittenen Abkürzungen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Was in Essen erlaubt ist, soll in Österreich bald verboten sein: Das Wunschkennzeichen "IS". </bu>
+              <copyright py:pytype="str">©picture alliance / dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph Schattleitner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-da7be655-209c-475a-89ae-2f97f2b598b7">
+          <block href="http://xml.zeit.de/community/2015-03/impfdebatte-konflikt-argumente" uniqueId="http://xml.zeit.de/community/2015-03/impfdebatte-konflikt-argumente" year="2015" issue="11" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-07T20:51:35+00:00" date-first-released="2015-03-21T12:09:31.050637+00:00" date-last-published="2015-05-07T20:52:34.525937+00:00" last-semantic-change="2015-03-21T12:08:24.342791+00:00" author="Annika von Taube;Christoph Schattleitner">
+            <supertitle py:pytype="str">Impfdebatte</supertitle>
+            <title py:pytype="str">Gegen Argumente resistent</title>
+            <text py:pytype="str">Bei jeder Masernmeldung prallen sie im Kommentarbereich aufeinander: Impfbefürworter und Impfgegner. Warum ist das Diskutieren über das Impfen so konfrontativ?</text>
+            <description py:pytype="str">Bei jeder Masernmeldung prallen sie im Kommentarbereich aufeinander: Impfbefürworter und Impfgegner. Warum ist das Diskutieren über das Impfen so konfrontativ?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-03/impfdebatte/" type="jpg" title="Impfdebatte" alt="Impfdebatte" align="left" publication-date="" expires="2015-06-21T11:16:35+00:00">
+              <bu py:pytype="str">Spritzen gefüllt mit Impfstoffen </bu>
+              <copyright py:pytype="str">© Dino Stanin/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Annika_von-Taube/index" publication-date="" expires="">
+              <display_name py:pytype="str">Annika von Taube</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christoph Schattleitner</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-3b86b7f5-690e-4d68-98fc-6760a73df6dc" title="Aktuelle Leserartikel" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/leserartikel/index" year="2011" issue="14" ressort="Administratives" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2015-07-24T10:58:20+00:00" date-first-released="2011-04-19T10:27:57.801973+00:00" date-last-published="2015-06-25T14:14:23.934953+00:00" last-semantic-change="2015-06-25T12:31:34.312751+00:00" uniqueId="http://xml.zeit.de/leserartikel/index">
+            <supertitle py:pytype="str">Ihr Beitrag auf ZEIT ONLINE</supertitle>
+            <title py:pytype="str">Aktuelle Leserartikel</title>
+            <text py:pytype="str">Wir präsentieren regelmäßig ausgewählte Leserartikel, die unsere Seite um Meinungen, Erfahrungsberichte und Sichtweisen bereichern. Hier finden Sie die neusten Beiträge.</text>
+            <description py:pytype="str">Wir präsentieren regelmäßig ausgewählte Leserartikel, die unsere Seite um Meinungen, Erfahrungsberichte und Sichtweisen bereichern. Hier finden Sie die neusten Beiträge.</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/community/2014-03/hu-berlin-grimm-zentrum/hu-berlin-grimm-zentrum-368x220.jpg" title="Grimm Zentrum der HU Berlin" alt="Grimm-Zentrum der Humboldt Universität Berlin" align="left" publication-date="" expires="">
+            <bu>Hier lässt es sich promovieren: Grimm-Zentrum der Berliner Humboldt Universität</bu>
+            <copyright>© Matthias Heyde/Universitätsbibliothek der HU Berlin</copyright>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c16a4d2d-9770-43e6-bad5-20419d8d3ec7" title="Serie &quot;Mit viel Liebe&quot;" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/community/2015-04/polyamorie-monogamie-beziehung-bisexualitaet" year="2015" issue="15" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" uniqueId="http://xml.zeit.de/community/2015-04/polyamorie-monogamie-beziehung-bisexualitaet" date-last-modified="2015-04-14T20:50:00+00:00" date-first-released="2015-04-14T20:47:41.220330+00:00" date-last-published="2015-04-14T20:50:59.909749+00:00" last-semantic-change="2015-04-14T20:46:28.513882+00:00" author="Barbara Neumann">
+            <supertitle py:pytype="str">Polyamorie</supertitle>
+            <title py:pytype="str">Zu viele Schmetterlinge im Bauch</title>
+            <text py:pytype="str">Schon in der Grundschule habe ich mich gleichzeitig in einen Jungen und ein Mädchen verliebt. Doch zurzeit liebe ich einen Mann, der eine monogame Beziehung mit mir will.</text>
+            <description py:pytype="str">Schon in der Grundschule habe ich mich gleichzeitig in einen Jungen und ein Mädchen verliebt. Doch zurzeit liebe ich einen Mann, der eine monogame Beziehung mit mir will.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2015-04/paar-kuss/" type="jpg" title="Paar beim Kuss" alt="Paar beim Kuss" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bert Garai/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Barbara_Neumann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Barbara Neumann</display_name>
+            </author>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/community/2015-03/polygamie-beziehung-2/polygamie-beziehung-2-368x220.jpg" title="Monogamie-Polyamorie" align="left" publication-date="" expires="">
+            <bu>Was sitzt da (um 1940) am Strand? Zwei Paare oder eine Viererkiste?</bu>
+            <copyright>© David Parker/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-68ba0248-4b50-472f-b68f-6ff676e4c2c5">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/community/2014-04/kommentare-serie-teaser" uniqueId="http://xml.zeit.de/community/2014-04/kommentare-serie-teaser" year="2014" issue="17" ressort="Community" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/aus-den-kommentaren" date-last-modified="2014-04-28T16:16:20+00:00" date-first-released="2014-04-28T16:17:20.514954+00:00" date-last-published="2014-04-28T16:17:20.514954+00:00" last-semantic-change="2014-04-28T16:15:40.241653+00:00" serie="Aus den Kommentaren">
+            <supertitle py:pytype="str">Debattenkultur</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Aus den Kommentaren</title>
+            <text py:pytype="str">Was im Kommentarbereich passiert, bleibt nicht im Kommentarbereich. Wir stellen Höhepunkte aus den Leserdebatten vor und versehen sie mit einer neuen Fragestellung.</text>
+            <description py:pytype="str">Was im Kommentarbereich passiert, bleibt nicht im Kommentarbereich. Wir stellen Höhepunkte aus den Leserdebatten vor und versehen sie mit einer neuen Fragestellung.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2014-04/leser-community-debattenkultur/" type="jpg" title="Die Macht der Leser" align="left" href="https://www.flickr.com/photos/hills_alive/" publication-date="" expires="">
+              <bu py:pytype="str">Können Leserkommentare erleuchten? </bu>
+              <copyright py:pytype="str" link="https://www.flickr.com/photos/hills_alive/">CC BY 2.0 Caroline/flickr</copyright>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-a42084e4-e449-4f6d-85cf-e003203f349a" title="Bitte weichen Sie vom Thema ab" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/community/2014-04/debatte-themenfern" year="2014" issue="17" ressort="Community" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-27T10:35:47+00:00" date-first-released="2014-04-27T10:35:39.185288+00:00" date-last-published="2014-04-27T10:36:46.905998+00:00" last-semantic-change="2014-04-27T10:34:35.405586+00:00" uniqueId="http://xml.zeit.de/community/2014-04/debatte-themenfern">
+            <supertitle py:pytype="str">Kommentarkultur</supertitle>
+            <teaser_supertitle py:pytype="str">Kommentarkultur</teaser_supertitle>
+            <title py:pytype="str">Bitte weichen Sie vom Thema ab</title>
+            <text py:pytype="str">Kommentare, die nicht den Artikelinhalt diskutieren, werden entfernt. Aber was passiert, wenn ein Artikel gar keinen Inhalt hat? Probieren Sie es aus.</text>
+            <description py:pytype="str">Kommentare, die nicht den Artikelinhalt diskutieren, werden entfernt. Aber was passiert, wenn ein Artikel gar keinen Inhalt hat? Probieren Sie es aus.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/community/2014-04/kommentare-offtopic/" type="jpg" title="Kommentare-Offtopic" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://de.wikipedia.org/wiki/Benutzer:Rotkaeppchen68">©Rotkaeppchen68/CC-BY-SA-3.0</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/community/2014-04/kommentare-offtopic/kommentare-offtopic-368x220.jpg" title="Kommentare-Offtopic" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright link="http://de.wikipedia.org/wiki/Benutzer:Rotkaeppchen68">©Rotkaeppchen68/CC-BY-SA-3.0</copyright>
+          </image>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-6fefbd10-0b0f-4cb6-957b-0ea34751ce7a">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-51433cdc-ac68-408d-b72e-0f94b8d6d991" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/administratives/2011-04/leserartikel-eingabe" year="2011" issue="15" ressort="Administratives" contenttype="link" publication-date="" expires="" ns0:href="http://community.zeit.de/leserartikel" date-last-modified="2012-11-02T13:54:58+00:00" date-first-released="2011-04-19T09:59:01.000527+00:00" date-last-published="2012-11-02T13:55:58.301943+00:00" last-semantic-change="2012-04-02T13:41:37.209754+00:00" uniqueId="http://xml.zeit.de/administratives/2011-04/leserartikel-eingabe">
+            <supertitle py:pytype="str">Ihr Beitrag auf ZEIT ONLINE</supertitle>
+            <title py:pytype="str">Schreiben Sie einen Leserartikel!</title>
+            <text py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</text>
+            <description py:pytype="str">Was freut Sie? Was ärgert Sie? Wollen Sie Ihr Wissen teilen oder Ihre Erfahrungen schildern? Nutzen Sie dieses Formular, um einen Leserartikel zu verfassen!</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/administratives/2012-04/leserbriefe/" type="jpg" title="leserbriefe" align="left" publication-date="" expires="">
+              <bu py:pytype="str">ILLUSTRATION - ARCHIV†- Eine junge Frau benutzt am 20.06.2011 am Strand von Santa Poca auf der spanischen Mittelmeerinsel Mallorca ihren tragbaren Computer. Die H‰lfte aller berufst‰tigen Deutschen
+</bu>
+              <copyright py:pytype="str">© Patrick Seeger/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-67f47e45-548f-4566-8430-3ca4dc0c9060" title="NETIQUETTE" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/administratives/2010-03/netiquette" year="2010" issue="11" ressort="Administratives" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-29T12:55:44+00:00" date-first-released="2010-03-18T08:32:37.329537+00:00" date-last-published="2014-07-29T12:56:44.176052+00:00" last-semantic-change="2012-03-12T12:17:15.962037+00:00" uniqueId="http://xml.zeit.de/administratives/2010-03/netiquette">
+            <supertitle py:pytype="str">Community</supertitle>
+            <title py:pytype="str">Netiquette</title>
+            <text py:pytype="str">In unserer Netiquette haben wir zusammengefasst, was einen guten Kommentar ausmacht, an welche Regeln sich Nutzer halten müssen und wie wir Kommentare moderieren.</text>
+            <description py:pytype="str">In unserer Netiquette haben wir zusammengefasst, was einen guten Kommentar ausmacht, an welche Regeln sich Nutzer halten müssen und wie wir Kommentare moderieren.</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/community/2013-12/netiquette-teaserbild" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Community</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/welttag-des-buches-lesetipps" year="2015" issue="17" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Welttag des Buches</supertitle>
+      <title py:pytype="str">Bücher für die Ewigkeit</title>
+      <text py:pytype="str">Weil unsere Leser viel lesen, kann man sie gut nach Buchtipps fragen. Hier eine Liste von Titeln, die unsere Leser nicht mehr loslassen – im guten wie im schlechten Sinn.</text>
+      <description py:pytype="str">Weil unsere Leser viel lesen, kann man sie gut nach Buchtipps fragen. Hier eine Liste von Titeln, die unsere Leser nicht mehr loslassen – im guten wie im schlechten Sinn.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/welttag-des-buches-leser/" type="jpg" title="Welttag des Buches" alt="Kinder spielen in einem von brasilianischen Künstlern aus 250.000 Büchern errichteten Labyrinth." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Kinder spielen in einem von brasilianischen Künstlern aus 250.000 Büchern errichteten Labyrinth.</bu>
+        <copyright py:pytype="str">©Peter Macdiarmid/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-07/internationaler-tag-der-freundschaft-leseraufruf" year="2015" issue="30" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Tag der Freundschaft</supertitle>
+      <title py:pytype="str">Von klein auf, über Grenzen hinweg</title>
+      <text py:pytype="str">Ihre Freunde sind auch unsere Freunde: Erzählen Sie uns die Geschichte Ihrer besten Freundschaft. Im Gegenzug beschenken wir Ihren Freund.</text>
+      <description py:pytype="str">Ihre Freunde sind auch unsere Freunde: Erzählen Sie uns die Geschichte Ihrer besten Freundschaft. Im Gegenzug beschenken wir Ihren Freund.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/2015-07/freundschaft/" type="jpg" title="Freundschaft" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://www.photocase.de/foto/144047-stock-photo-wasser-maedchen-freude-kind-kalt-haare-frisuren">© Fotoline / photocase.de</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/eltern-probleme-tabu" year="2015" issue="21" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Eltern</supertitle>
+      <title py:pytype="str">Warum Kinder?</title>
+      <text py:pytype="str">Nicht wenige Mütter und Väter sind unglücklich in ihrer Elternrolle. Nicht der Kinder, sondern der Umstände wegen. Offen über solche Probleme zu reden, ist aber tabu.</text>
+      <description py:pytype="str">Nicht wenige Mütter und Väter sind unglücklich in ihrer Elternrolle. Nicht der Kinder, sondern der Umstände wegen. Offen über solche Probleme zu reden, ist aber tabu.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/elternschaft-probleme/" type="jpg" title="Elternschaft-Probleme" alt="Eltern: Wie kann man nur nicht glücklich sein" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Man muss nicht gleich wie diese Mutter Vierlinge zu versorgen haben, um sich mit dem Elternsein überfordert zu fühlen.</bu>
+        <copyright py:pytype="str">©Spencer Platt/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-03/impfdebatte-konflikt-argumente" year="2015" issue="11" ressort="Community" contenttype="article" publication-date="" expires="" author="Annika von Taube;Christoph Schattleitner">
+      <supertitle py:pytype="str">Impfdebatte</supertitle>
+      <title py:pytype="str">Gegen Argumente resistent</title>
+      <text py:pytype="str">Bei jeder Masernmeldung prallen sie im Kommentarbereich aufeinander: Impfbefürworter und Impfgegner. Warum ist das Diskutieren über das Impfen so konfrontativ?</text>
+      <description py:pytype="str">Bei jeder Masernmeldung prallen sie im Kommentarbereich aufeinander: Impfbefürworter und Impfgegner. Warum ist das Diskutieren über das Impfen so konfrontativ?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-03/impfdebatte/" type="jpg" title="Impfdebatte" alt="Impfdebatte" align="left" publication-date="" expires="2015-06-21T11:16:35+00:00">
+        <bu py:pytype="str">Spritzen gefüllt mit Impfstoffen </bu>
+        <copyright py:pytype="str">© Dino Stanin/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Annika_von-Taube/index" publication-date="" expires="">
+        <display_name py:pytype="str">Annika von Taube</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christoph Schattleitner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wissen/gesundheit/2015-06/alkoholismus-erfahrung-erster-schluck-morgen" year="2015" issue="25" ressort="Wissen" serie="Global Drug Survey" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Ansgar Scheidel">
+      <supertitle py:pytype="str">Alkoholismus</supertitle>
+      <title py:pytype="str">Die Gier nach dem ersten Schluck</title>
+      <text py:pytype="str">Schweißausbrüche, Magenkrämpfe, Zittern: Unser Autor war jahrelang stark alkoholabhängig. Mit jedem Erwachen kam die Übelkeit und das Verlangen nach mehr.</text>
+      <description py:pytype="str">Schweißausbrüche, Magenkrämpfe, Zittern: Unser Autor war jahrelang stark alkoholabhängig. Mit jedem Erwachen kam die Übelkeit und das Verlangen nach mehr.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/gesundheit/2015-06/alkohol-sucht/" type="jpg" title="Schattenriss Trinker" alt="Schattenriss einer trinkenden Person" align="left" publication-date="" expires="2015-09-18T12:29:01+00:00">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Ansgar_Scheidel/index" publication-date="" expires="">
+        <display_name py:pytype="str">Ansgar Scheidel</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/troll-verhalten-erklaerung" year="2015" issue="16" ressort="Community" contenttype="article" publication-date="" expires="" author="Annika von Taube">
+      <supertitle py:pytype="str">Netzkultur</supertitle>
+      <title py:pytype="str">Das Dilemma des Trolls</title>
+      <text py:pytype="str">Man hat es nicht leicht, wenn die anderen glauben, man wolle nur stören. Wenn sie nicht die Komplexität der eigenen Absicht erkennen. Man hat es nicht leicht als Troll.</text>
+      <description py:pytype="str">Man hat es nicht leicht, wenn die anderen glauben, man wolle nur stören. Wenn sie nicht die Komplexität der eigenen Absicht erkennen. Man hat es nicht leicht als Troll.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/2015-04/troll-psychogramm/" type="jpg" title="Troll-Psychogramm" alt="Netzkultur: Dilemma des Trolls" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Wenn Troll und Moderation miteinander Katz und Maus spielen, ist nicht immer klar, welche Partei Maus und welche Katze ist.</bu>
+        <copyright py:pytype="str">© Julian Stratenschulte/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Annika_von-Taube/index" publication-date="" expires="">
+        <display_name py:pytype="str">Annika von Taube</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/eltern-mutter-kind-abscheu-versagen-liebe" year="2015" issue="21" ressort="Community" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Barbara Schneider">
+      <supertitle py:pytype="str">Eltern</supertitle>
+      <title py:pytype="str">Alles in mir hat sich gewehrt</title>
+      <text py:pytype="str">Nach der Geburt empfand ich Abscheu gegen meinen Sohn – und hasste mich dafür. Ich gab ihn zu einer Pflegemutter. Trotz allem haben wir heute ein liebevolles Verhältnis.</text>
+      <description py:pytype="str">Nach der Geburt empfand ich Abscheu gegen meinen Sohn – und hasste mich dafür. Ich gab ihn zu einer Pflegemutter. Trotz allem haben wir heute ein liebevolles Verhältnis.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/mutter-glueck-kitsch/" type="jpg" title="Klischee vom Mutterglück" alt="Mutter mit Kind vor Sonnenuntergang" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Barbara_Schneider/index" publication-date="" expires="">
+        <display_name py:pytype="str">Barbara Schneider</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/monogamie-polyamorie-beziehung-netzwerk-schwangerschaft" year="2015" issue="16" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Laura Fischer">
+      <supertitle py:pytype="str">Monogamie</supertitle>
+      <title py:pytype="str">Ich warte nicht auf Mr. Right</title>
+      <text py:pytype="str">In meinem konservativen Umfeld gelte ich als Single. Tatsächlich lebe ich aber in einem Beziehungsnetzwerk. Von einem guten Freund erwarte ich jetzt ein Kind.</text>
+      <description py:pytype="str">In meinem konservativen Umfeld gelte ich als Single. Tatsächlich lebe ich aber in einem Beziehungsnetzwerk. Von einem guten Freund erwarte ich jetzt ein Kind.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/teppich-knuepfen/" type="jpg" title="Teppich knüpfen" alt="Teppich auf einem Webstuhl" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Dimitar Dilkoff/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Laura_Fischer/index" publication-date="" expires="">
+        <display_name py:pytype="str">Laura Fischer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/fluechtlinge-mittelmeer-debatte-leserreaktionen" year="2015" issue="16" ressort="Community" contenttype="article" publication-date="" expires="" author="Christoph Schattleitner">
+      <supertitle py:pytype="str">Flüchtlingsdebatte</supertitle>
+      <title py:pytype="str">Wo bleibt die Trauer um die Opfer?</title>
+      <text py:pytype="str">Die Meldungen über ertrunkene Flüchtlinge führen zu einer emotionalen und kontroversen Debatte unter den Lesern. Empathie für die Opfer aber fehlt. Warum ist das so?</text>
+      <description py:pytype="str">Die Meldungen über ertrunkene Flüchtlinge führen zu einer emotionalen und kontroversen Debatte unter den Lesern. Empathie für die Opfer aber fehlt. Warum ist das so?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/fluechtlinge-mittelmeer/" type="jpg" title="Fluechtlinge-Mittelmeer" alt="Flüchtlinge: Keine Trauer um die Opfer" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Flüchtlingsboot mit 200 Passagieren vor der Küste Lampedusas 2014</bu>
+        <copyright py:pytype="str">©ANSA/Italian Navy/dpa/picture alliance</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christoph Schattleitner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-06/leserkommentare-kommunikation-mann-frau" year="2015" issue="24" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" author="Sabrina Greifenhofer">
+      <supertitle py:pytype="str">Geschlecht</supertitle>
+      <title py:pytype="str">"Sind Sie Mann oder Frau?"</title>
+      <text py:pytype="str">Im Kommentarbereich muss niemand sein wahres Geschlecht preisgeben. Aber viele Leser wollen erraten, ob sie mit Mann oder Frau diskutieren. Warum ist das so wichtig?</text>
+      <description py:pytype="str">Im Kommentarbereich muss niemand sein wahres Geschlecht preisgeben. Aber viele Leser wollen erraten, ob sie mit Mann oder Frau diskutieren. Warum ist das so wichtig?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-06/leserkommentare-geschlechter/" type="jpg" title="Leserkommentare-Geschlecht" alt="Geschlechterforschung: Sind Sie Mann oder Frau?" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Telefonisten-Job wurde bevorzugt an Frauen vergeben, weil die weibliche Stimme als besser verständlich galt. Ist das im Kommentarbereich auch so?</bu>
+        <copyright py:pytype="str">©Stevens/Topical Press/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/G/Sabrina_Greifenhofer/index" publication-date="" expires="">
+        <display_name py:pytype="str">Sabrina Greifenhofer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/duzen-siezen-leserkommentare" year="2015" issue="21" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" author="Christoph Schattleitner">
+      <supertitle py:pytype="str">Umgangsformen</supertitle>
+      <title py:pytype="str">Duzen oder Siezen?</title>
+      <text py:pytype="str">Die meisten Leser finden es selbstverständlich, sich im Kommentarbereich zu siezen, aber manche würden sich lieber duzen. Welche Form der Ansprache bevorzugen Sie?</text>
+      <description py:pytype="str">Die meisten Leser finden es selbstverständlich, sich im Kommentarbereich zu siezen, aber manche würden sich lieber duzen. Welche Form der Ansprache bevorzugen Sie?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/duzen-siezen/" type="jpg" title="Duzen-Siezen" alt="Umgangsformen: Duzen oder Siezen?" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Früher waren die Menschen höflicher, heißt es ja gern. Für Fußballer (hier eine Szene aus England 1938) mag das sogar stimmen.</bu>
+        <copyright py:pytype="str">© Fox Photos/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christoph Schattleitner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2015-06/katar-fussball-wm-2022-debatte" year="2015" issue="24" ressort="Sport" contenttype="article" publication-date="" expires="" author="Christian Spiller">
+      <supertitle py:pytype="str">Debatte</supertitle>
+      <title py:pytype="str">Die katarische Sportoffensive</title>
+      <text py:pytype="str">Das kleine Katar kauft Trainer, Sportler, große Turniere und sogar Fans. Ist das gut für den Sport? Und sollte dem Land die Fußball-WM wieder weggenommen werden?</text>
+      <description py:pytype="str">Das kleine Katar kauft Trainer, Sportler, große Turniere und sogar Fans. Ist das gut für den Sport? Und sollte dem Land die Fußball-WM wieder weggenommen werden?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/feature/katar-handy/katar-fans/" type="jpg" title="Katar Fans" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christian Spiller</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Christian_Spiller/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Christian Spiller</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-06/drogen-konsum-umfeld-milieu" year="2015" issue="23" ressort="Community" serie="Global Drug Survey" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Drogenkonsum</supertitle>
+      <title py:pytype="str">Wie nah ist der Rausch?</title>
+      <text py:pytype="str">Wer keine Drogen nimmt, bewegt sich auch nicht in Milieus, in denen konsumiert wird. Stimmt das? Haben Sie schon Drogenkonsum beobachtet, wo Sie es nicht erwartet hätten?</text>
+      <description py:pytype="str">Wer keine Drogen nimmt, bewegt sich auch nicht in Milieus, in denen konsumiert wird. Stimmt das? Haben Sie schon Drogenkonsum beobachtet, wo Sie es nicht erwartet hätten?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/wissen/2015-06/drogenbericht-alltag/" type="jpg" title="Drogen im Alltag" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Kay Fochtmann/photocase.de</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/polyamorie-monogamie-beziehung-bisexualitaet" year="2015" issue="15" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Barbara Neumann">
+      <supertitle py:pytype="str">Polyamorie</supertitle>
+      <title py:pytype="str">Zu viele Schmetterlinge im Bauch</title>
+      <text py:pytype="str">Schon in der Grundschule habe ich mich gleichzeitig in einen Jungen und ein Mädchen verliebt. Doch zurzeit liebe ich einen Mann, der eine monogame Beziehung mit mir will.</text>
+      <description py:pytype="str">Schon in der Grundschule habe ich mich gleichzeitig in einen Jungen und ein Mädchen verliebt. Doch zurzeit liebe ich einen Mann, der eine monogame Beziehung mit mir will.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/paar-kuss/" type="jpg" title="Paar beim Kuss" alt="Paar beim Kuss" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Bert Garai/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Barbara_Neumann/index" publication-date="" expires="">
+        <display_name py:pytype="str">Barbara Neumann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-06/generationenkonflikt-argumente" year="2015" issue="23" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" author="Sarah Murrenhoff">
+      <supertitle py:pytype="str">Generationenkonflikt</supertitle>
+      <title py:pytype="str">Wo Generation Y und Wutbürger sich treffen</title>
+      <text py:pytype="str">Spielt das Alter der Leser von ZEIT ONLINE eine Rolle? Manchmal schon, nämlich dann, wenn unterschiedliche Generationen im Kommentarbereich aufeinandertreffen.</text>
+      <description py:pytype="str">Spielt das Alter der Leser von ZEIT ONLINE eine Rolle? Manchmal schon, nämlich dann, wenn unterschiedliche Generationen im Kommentarbereich aufeinandertreffen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-06/generationenkonflikt-kommentarbereich/" type="jpg" title="Generationenkonflikt-Debatte" alt="Generationenkonflikt: Wo Generation Y und Wutbürger sich treffen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Früher harmonisches Zusammenleben der Generationen im Familienverbund (hier 1975), heute offen ausgetragener Generationenkonflikt?</bu>
+        <copyright py:pytype="str">©Fox Photos/Hulton Archive/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Sarah_Murrenhoff/index" publication-date="" expires="">
+        <display_name py:pytype="str">Sarah Murrenhoff</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/altersunterschied-paar-aeltere-frau" year="2015" issue="19" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Stephanie Schwenkenbecher">
+      <supertitle py:pytype="str">Altersunterschied</supertitle>
+      <title py:pytype="str">Was sind schon acht Jahre</title>
+      <text py:pytype="str">Mein Mann ist jünger als ich. Mittlerweile fällt es mir kaum noch auf, aber als wir uns kennenlernten, musste ich mich erst von traditionellen Rollenbildern lösen. </text>
+      <description py:pytype="str">Mein Mann ist jünger als ich. Mittlerweile fällt es mir kaum noch auf, aber als wir uns kennenlernten, musste ich mich erst von traditionellen Rollenbildern lösen. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/paar-mauer-schatten-2/" type="jpg" title="Paar wirft Schatten an Mauer" alt="Paar wirft Schatten an Mauer" align="left" publication-date="" expires="2015-08-18T14:09:13+00:00">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Paul Zinken/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Stephanie_Schwenkenbecher/index" publication-date="" expires="">
+        <display_name py:pytype="str">Stephanie Schwenkenbecher</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-06/kommentarfunktion-geschichte" year="2015" issue="23" ressort="Community" contenttype="article" publication-date="" expires="" author="Christoph Schattleitner">
+      <supertitle py:pytype="str">Netzkultur</supertitle>
+      <title py:pytype="str">Wie die Lesermeinung ins Internet kam</title>
+      <text py:pytype="str">Wie man am besten mit Kommentarbereichen umgeht, ist noch nicht allen Anbietern und Nutzern klar. Kein Wunder, sie existieren ja auch erst seit 15 Jahren.</text>
+      <description py:pytype="str">Wie man am besten mit Kommentarbereichen umgeht, ist noch nicht allen Anbietern und Nutzern klar. Kein Wunder, sie existieren ja auch erst seit 15 Jahren.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-06/kommentarbereich-geschichte/" type="jpg" title="Kommentarbereich-Geschichte" alt="Netzkultur: Entstehung der Kommentarbereiche" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Manche finden, im Internet werde zu viel geredet. Anders als im realen Raum. Die Damen hier im Bild scheinen jedenfalls keinen Bedarf zu haben, die Speaker's Corner am Alexanderplatz zum Reden zu nutzen.</bu>
+        <copyright py:pytype="str">©Stephanie Pilick/dpa/picture alliance</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christoph Schattleitner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/eltern-kinder-bereuen" year="2015" issue="18" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Eltern</supertitle>
+      <title py:pytype="str">Das hatten wir uns anders vorgestellt</title>
+      <text py:pytype="str">Kinder zu haben, ist ein großes Glück. Heißt es. Und was, wenn nicht? Wir suchen Mütter und Väter, die ihre Elternschaft bereuen oder nicht so leben können wie gewünscht.</text>
+      <description py:pytype="str">Kinder zu haben, ist ein großes Glück. Heißt es. Und was, wenn nicht? Wir suchen Mütter und Väter, die ihre Elternschaft bereuen oder nicht so leben können wie gewünscht.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/eltern-kinderwagen/" type="jpg" title="Drei Kinderwagen" alt="Drei Frauen schieben Kinderwagen" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Marcus Brandt/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/liebe-facebook-beziehung" year="2015" issue="13" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Sven Leonhardt">
+      <supertitle py:pytype="str">Liebe auf Facebook</supertitle>
+      <title py:pytype="str">Ich habe sie ständig auf dem Schirm</title>
+      <text py:pytype="str">Seit zwei Jahren liebe ich eine Frau, die ich im Internet kennengelernt habe. Getroffen haben wir uns noch nie. Unsere Beziehung findet ausschließlich auf Facebook statt.</text>
+      <description py:pytype="str">Seit zwei Jahren liebe ich eine Frau, die ich im Internet kennengelernt habe. Getroffen haben wir uns noch nie. Unsere Beziehung findet ausschließlich auf Facebook statt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/paar-bildschirme/" type="jpg" title="Paar auf Computerbildschirmen" alt="Paar aus Mann und Frau auf zwei Laptop-Bildschirmen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Und unsere Lippen trafen sich am Bildschirmrand.</bu>
+        <copyright py:pytype="str">© Thomas Trutschel/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Sven_Leonhardt/index" publication-date="" expires="">
+        <display_name py:pytype="str">Sven Leonhardt</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/kirchensteuer-austritt-grund" year="2015" issue="13" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Kirchenaustritt</supertitle>
+      <title py:pytype="str">Hat Sie der Glaube zu viel gekostet?</title>
+      <text py:pytype="str">Die Änderung des Einzugsverfahrens der Kirchensteuer hat viele Gläubige zum Austritt bewogen. Gehören Sie dazu? Dann berichten Sie uns von Ihren Beweggründen.</text>
+      <description py:pytype="str">Die Änderung des Einzugsverfahrens der Kirchensteuer hat viele Gläubige zum Austritt bewogen. Gehören Sie dazu? Dann berichten Sie uns von Ihren Beweggründen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/kirchensteuer-austritte/" type="jpg" title="Kirchensteuer-Austritte" alt="Kirchenaustritt: Wenn Glaube zu viel kostet" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Matthäuskirche in Frankfurt am Main vor Bankengebäuden</bu>
+        <copyright py:pytype="str">©Ulrich Baumgarten/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-06/leser-beschwerden-argumente" year="2015" issue="23" ressort="Community" contenttype="article" publication-date="" expires="" author="Annika von Taube">
+      <supertitle py:pytype="str">Leserdialog</supertitle>
+      <title py:pytype="str">"Wissen Sie eigentlich, wer ich bin?"</title>
+      <text py:pytype="str">Kommentatoren, die sich von der Moderation falsch behandelt fühlen, greifen bisweilen zu kreativen Argumenten, um sich zu rehabilitieren. Hier eine Auswahl</text>
+      <description py:pytype="str">Kommentatoren, die sich von der Moderation falsch behandelt fühlen, greifen bisweilen zu kreativen Argumenten, um sich zu rehabilitieren. Hier eine Auswahl</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-06/leser-beschwerden/" type="jpg" title="Leser-Beschwerden" alt="Leserdialog: Wenn sich Leser beschweren" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Kunde ist König, dieses Prinzip dürfen Leser gern auch bei ihren Medien einfordern. Aber manch selbstgekröntes Leserhaupt schwingt das Zepter etwas zu heftig.</bu>
+        <copyright py:pytype="str">©Christopher Furlong/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Annika_von-Taube/index" publication-date="" expires="">
+        <display_name py:pytype="str">Annika von Taube</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/kochwoche-kochkurs-selfkantine" year="2015" issue="13" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Kochen</supertitle>
+      <title py:pytype="str">Einladung zum Mittagessen</title>
+      <text py:pytype="str">Wollen Sie mit spannenden Köchen und ZEIT-ONLINE-Redakteuren in der Berliner Redaktionsküche gemeinsam kochen und zu Mittag essen? Dann besuchen Sie unsere "Selfkantine".</text>
+      <description py:pytype="str">Wollen Sie mit spannenden Köchen und ZEIT-ONLINE-Redakteuren in der Berliner Redaktionsküche gemeinsam kochen und zu Mittag essen? Dann besuchen Sie unsere "Selfkantine".</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/kochwoche-selfkantine/" type="jpg" title="Kochwoche-Selfkantine" alt="Kochwoche: Einladung zum Mittagessen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Gemeinsam Kochen muss nicht aufwendig sein. Das Projekt "Selfkantine" setzt auf schnelle und unkomplizierte Zubereitung.</bu>
+        <copyright py:pytype="str">©Silvio Knezevic</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/http-www-zeit-de-feature-wladimir-putin-mutter-community" year="2015" issue="19" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Wladimir Putin</supertitle>
+      <title py:pytype="str">Diskutieren Sie mit: Vera Putinas verlorener Sohn</title>
+      <text py:pytype="str">In Georgien lebt eine Frau, die behauptet, Putins wahre Mutter zu sein. Beweise dafür soll der KGB vernichtet haben. Kann das sein? Diskutieren Sie mit.
+</text>
+      <description py:pytype="str">In Georgien lebt eine Frau, die behauptet, Putins wahre Mutter zu sein. Beweise dafür soll der KGB vernichtet haben. Kann das sein? Diskutieren Sie mit.
+</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/ausland/2015-05/putin/" type="jpg" title="Putin" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Vera Putina, 89, Landmaschinen-Mechanikerin. Wladimir Putin, 62, Staatspräsident</bu>
+        <copyright py:pytype="str">© laif</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-05/kita-streik-leseraufruf" year="2015" issue="19" ressort="Community" contenttype="article" publication-date="" expires="" author="David Schmidt">
+      <supertitle py:pytype="str">Kita-Streik</supertitle>
+      <title py:pytype="str">Wohin mit dem Nachwuchs?</title>
+      <text py:pytype="str">Tausende Mitarbeiter von Kindertagesstätten befinden sich ab heute im Streik. Viele Eltern stellt das vor große Probleme. Sie auch? Wie gehen Sie damit um?</text>
+      <description py:pytype="str">Tausende Mitarbeiter von Kindertagesstätten befinden sich ab heute im Streik. Viele Eltern stellt das vor große Probleme. Sie auch? Wie gehen Sie damit um?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-05/kita-streik-2015/" type="jpg" title="Kita-Streik 2015" alt="Kita-Streik: Das Problem mit den Kindern" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Wie gehen Sie mit dem Kita-Streik um? Artet das Ganze in Stress für Sie aus?</bu>
+        <copyright py:pytype="str">© ladival25/photocase.com</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/David_Schmidt" publication-date="" expires="">
+        <display_name py:pytype="str">David Schmidt</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-03/offene-beziehung-schwierigkeiten" year="2015" issue="13" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Carolin Bergmann">
+      <supertitle py:pytype="str">Offene Beziehung</supertitle>
+      <title py:pytype="str">Wie weit trägt das Vertrauen?</title>
+      <text py:pytype="str">Mein Mann und ich führen eine Art offene Ehe. Doch seit ich mich in einen anderen verliebt habe, stehen Fragen im Raum, an die wir nicht gedacht hatten.</text>
+      <description py:pytype="str">Mein Mann und ich führen eine Art offene Ehe. Doch seit ich mich in einen anderen verliebt habe, stehen Fragen im Raum, an die wir nicht gedacht hatten.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-03/mann-frau-trapez/" type="jpg" title="Mann und Frau am Trapez" alt="Mann und Frau am Trapez" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Mit erhöhter Absturzgefahr: Mann und Frau am Trapez</bu>
+        <copyright py:pytype="str">© Joanne Rathe/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Carolin_Bergmann/index" publication-date="" expires="">
+        <display_name py:pytype="str">Carolin Bergmann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/ausweispflicht-schengen-fluege-leserdebatte" year="2015" issue="13" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Flugsicherheit</supertitle>
+      <title py:pytype="str">Ausweispflicht bringt keine Sicherheit</title>
+      <text py:pytype="str">Innenminister de Maizière prüft die Wiedereinführung von Ausweiskontrollen bei Schengen-Flügen. Wie das die Sicherheit erhöhen soll, erschließt sich unseren Lesern nicht.</text>
+      <description py:pytype="str">Innenminister de Maizière prüft die Wiedereinführung von Ausweiskontrollen bei Schengen-Flügen. Wie das die Sicherheit erhöhen soll, erschließt sich unseren Lesern nicht.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-04/ausweiskontrolle-flughafen-2/" type="jpg" title="Ausweiskontrolle an amerikanischen Flughafen" alt="Ausweiskontrolle an amerikanischen Flughafen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ein Grenzbeamter kontrolliert am Flughafen in Washington einen Passagier-Ausweis. Soll das auch innerhalb Schengen zur Regel werden?</bu>
+        <copyright py:pytype="str">©Bloomberg/Getty Images </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-06/leserkommentare-beleidigungen-selten" year="2015" issue="23" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" author="Carolina Ambrosi">
+      <supertitle py:pytype="str">Kommentarkultur</supertitle>
+      <title py:pytype="str">Wer pöbelt, schießt sich selbst ins Aus</title>
+      <text py:pytype="str">Freudige Botschaft für alle, die meinen, der Ton im Kommentarbereich sei unerträglich: Auf beleidigende Kommentare stoßen wir nur sehr selten.</text>
+      <description py:pytype="str">Freudige Botschaft für alle, die meinen, der Ton im Kommentarbereich sei unerträglich: Auf beleidigende Kommentare stoßen wir nur sehr selten.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-06/leserkommentare-beleidigungen-2/" type="jpg" title="Leserkommentare-Beleidigungen" alt="Kommentarkultur: Wer pöbelt, fliegt raus" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Nicht jede Beleidigung im Kommentarbereich wird übel oder ernst genommen – es kommt darauf an, wie sie verpackt wird.</bu>
+        <copyright py:pytype="str">©David Ebener/dpa/picture alliance</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Carolina_Ambrosi/index" publication-date="" expires="">
+        <display_name py:pytype="str">Carolina Ambrosi</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-03/monogamie-polyamorie-beziehungen-liebe" year="2015" issue="13" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" author="Daniel Herbstreit">
+      <supertitle py:pytype="str">Monogamie</supertitle>
+      <title py:pytype="str">Ich liebe dich. Und dich auch.</title>
+      <text py:pytype="str">Die Akzeptanz von offenen Beziehungen und alternativen Familienmodellen nimmt zu, aber das Ideal von der monogamen Liebe hält sich hartnäckig. Ein Widerspruch?</text>
+      <description py:pytype="str">Die Akzeptanz von offenen Beziehungen und alternativen Familienmodellen nimmt zu, aber das Ideal von der monogamen Liebe hält sich hartnäckig. Ein Widerspruch?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-03/polygamie-beziehung-2/" type="jpg" title="Monogamie-Polyamorie" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Was sitzt da (um 1940) am Strand? Zwei Paare oder eine Viererkiste?</bu>
+        <copyright py:pytype="str">© David Parker/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Daniel_Herbstreit/index" publication-date="" expires="">
+        <display_name py:pytype="str">Daniel Herbstreit</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-06/polyamorie-beziehungsnetzwerk-erfahrung" year="2015" issue="22" ressort="Community" serie="Mit viel Liebe" contenttype="article" publication-date="" expires="" genre="leserartikel" author="Felix Immenthal">
+      <supertitle py:pytype="str">Polyamorie</supertitle>
+      <title py:pytype="str">Monogamie passt nicht zu mir</title>
+      <text py:pytype="str">Vor Jahren bin ich zufällig in eine polyamore Beziehung geschlittert. Heute will ich nicht mehr zur Monogamie zurück – und plane eine polyamore Familie.</text>
+      <description py:pytype="str">Vor Jahren bin ich zufällig in eine polyamore Beziehung geschlittert. Heute will ich nicht mehr zur Monogamie zurück – und plane eine polyamore Familie.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-06/molekuel-modell/" type="jpg" title="Molekülmodell" alt="Modell eines Polyamid-Moleküls" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© SSPL/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/I/Felix_Immenthal/index" publication-date="" expires="">
+        <display_name py:pytype="str">Felix Immenthal</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-03/fasten-community-debatte" year="2015" issue="13" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Fasten</supertitle>
+      <title py:pytype="str">Schluss mit der Fülle</title>
+      <text py:pytype="str">Eine Debatte über das Fasten zeigt die Vielfalt der Motive, sich freiwillig in Verzicht zu üben. Das am häufigsten genannte: Sehnsucht nach Leere.</text>
+      <description py:pytype="str">Eine Debatte über das Fasten zeigt die Vielfalt der Motive, sich freiwillig in Verzicht zu üben. Das am häufigsten genannte: Sehnsucht nach Leere.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-03/fasten-community/" type="jpg" title="Kleines Mädchen mit Schokoladenei" alt="Circa 1930, A little girl makes a pig of herself by licking a large chocolate Easter egg. (Photo by FPG/Getty Images)" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ob sich bei diesem Mädchen nach dem Genuss eines Ostereis (um 1930) ein Gefühl der Leere einstellte, ist nicht überliefert. </bu>
+        <copyright py:pytype="str">© FPG/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-03/nummernschild-abkuerzungen-oesterreich" year="2015" issue="13" ressort="Community" serie="Aus den Kommentaren" contenttype="article" publication-date="" expires="" author="Christoph Schattleitner">
+      <supertitle py:pytype="str">Autokennzeichen</supertitle>
+      <title py:pytype="str">"Alle Buchstaben müssen in Schutzhaft genommen werden"</title>
+      <text py:pytype="str">Österreich will umstrittene Kürzel für Wunschkennzeichen verbieten, "IS" zum Beispiel. "Was kann denn noch alles verboten werden?", fragt ein Leser. Haben Sie Ideen?</text>
+      <description py:pytype="str">Österreich will umstrittene Kürzel für Wunschkennzeichen verbieten, "IS" zum Beispiel. "Was kann denn noch alles verboten werden?", fragt ein Leser. Haben Sie Ideen?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-03/nummernschilder-abkuerzungen-oesterreich/" type="jpg" title="Nummernschildern mit umstrittenen Abkürzungen" alt="Nummernschildern mit umstrittenen Abkürzungen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Was in Essen erlaubt ist, soll in Österreich bald verboten sein: Das Wunschkennzeichen "IS". </bu>
+        <copyright py:pytype="str">©picture alliance / dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Christoph_Schattleitner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Christoph Schattleitner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-03/femen-vom-system-geschluckt-debatte" year="2015" issue="13" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" author="Frida Thurm">
+      <supertitle py:pytype="str">Femen</supertitle>
+      <title py:pytype="str">Vom System geschluckt: Diskutieren Sie mit uns!</title>
+      <text py:pytype="str">Als Femen-Aktivistinnen in Deutschland auftauchten, brachten sie eine Hoffnung mit – auf einen neuen, radikaleren Kampf für Frauenrechte. Hat sich die erfüllt? </text>
+      <description py:pytype="str">Als Femen-Aktivistinnen in Deutschland auftauchten, brachten sie eine Hoffnung mit – auf einen neuen, radikaleren Kampf für Frauenrechte. Hat sich die erfüllt? </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2015-03/femen-hp/" type="jpg" title="7tage-femen" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© NDR</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Frida_Thurm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Frida Thurm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/community/2015-04/kleines-messerchen-zeit-der-leser" year="2015" issue="17" ressort="Community" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Dialekt</supertitle>
+      <title py:pytype="str">Lauter scharfe Teile</title>
+      <text py:pytype="str">Schrappmessken, Meestje und Knief: Zum letzten Mal erweitern wir unseren Wort-Schatz um regionale Begriffe für das kleine Küchenmesser.</text>
+      <description py:pytype="str">Schrappmessken, Meestje und Knief: Zum letzten Mal erweitern wir unseren Wort-Schatz um regionale Begriffe für das kleine Küchenmesser.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/community/2015-06/messerwerfer-listicle-wortschatz/" type="jpg" title="ZEIT der Leser: Messerchen-Listicle-Wortschatz" alt="Messerchen Listicle ZEIT der Leser" align="left" publication-date="" expires="">
+        <bu py:pytype="str">1920: A lucky escape after some knife throwing antics during an unknown film.</bu>
+        <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Community</title>
+  </teaser>
+</centerpage>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-12-05T09:21:04.402814+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-11-25T15:31:23.861131+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-12-05T09:22:13.818914+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-11-29T11:48:34.167586+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-12-05T09:21:01.233639+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">seat-leon</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:8e8e9b26-ea99-4075-88af-60333e28842c}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-8077957b-abe9-49d7-99c2-3a62e19c273b">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-9a4330d6-a412-4acc-90b6-9434dddffdfb">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/seat-leon/links/link_startseite" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/seat-leon/index" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2013-11-25T15:55:49+00:00" date-first-released="2013-11-25T15:56:49.146263+00:00" date-last-published="2013-11-25T15:56:49.146263+00:00" last-semantic-change="2013-11-25T15:55:24.093731+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-f6fe557f-136e-43c7-920e-4010284ae7d9" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/SEAT_Logo" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.seat.de/?kampagnenid=2420&amp;affcmp=Leon_ST_Launch:IQ:Zeit:Advertorial:Start%3Chttp://www.seat.de/content/de/brand/de/models/leon-st/landingpage.html?kampagnenid=2420&amp;affcmp=Leon_ST_Launch:IQ:Zeit:Advertorial:Image%3E" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2013-12-05T09:20:53+00:00" date-first-released="2013-11-25T15:20:14.978410+00:00" date-last-published="2013-12-05T09:21:53.296543+00:00" last-semantic-change="2013-12-05T09:20:44.065648+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">SEAT Leon ST</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/bilder/seat_logo_neu/seat_logo_neu-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-21688617-6299-47fe-a314-875c7f58d22b" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/Teaser_Haendlersuche" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.seat.de/content/de/brand/de/contact/find-a-dealer.html?kampagnenid=2420&amp;affcmp=Leon_ST_Launch:IQ:Zeit:Advertorial:dealer" date-last-modified="2013-11-29T11:46:59+00:00" date-first-released="2013-11-25T15:19:02.121368+00:00" date-last-published="2013-11-29T11:47:58.884062+00:00" last-semantic-change="2013-11-29T11:46:50.829605+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">SEAT Leon ST - Händlersuche</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/bilder/Teaser_Haendlersuche/Teaser_Haendlersuche-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c7514eff-e6d0-4c3c-999b-01325dd80412" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/Teaser_Konfigurieren" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://carconfigurator.seat.de/seat-cc/deep.do?c=007_DEFAULT&amp;l=de&amp;mkey=carline&amp;cid=CARLINE-5F8-LEON-ST-ENTRY&amp;mid=ALL-5F89B2%2F0-2014&amp;pids=F56+++++AH%3BAH-N7B-Q1A%3BF14+9M9M&amp;lo=desktop&amp;affcmp=Leon_ST_Launch:IQ:Zeit:Advertorial:Configurator" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2013-11-29T11:47:34+00:00" date-first-released="2013-11-25T15:21:38.361598+00:00" date-last-published="2013-11-29T11:48:33.990370+00:00" last-semantic-change="2013-11-29T11:47:26.613760+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">SEAT Leon ST - Konfigurator</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/bilder/Teaser_Konfigurieren/Teaser_Konfigurieren-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-ef4bb0f2-2741-4546-9db2-1c1b7889fc24" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/Teaser_Probefahrt" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.seat.de/content/de/brand/de/contact/testdrive.html?Probemodell1=1016&amp;kampagnenid=2420&amp;affcmp=Leon_ST_Launch:IQ:Zeit:Advertorial:Testdrive" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2013-11-29T11:47:59+00:00" date-first-released="2013-11-25T15:23:04.683509+00:00" date-last-published="2013-11-29T11:48:59.576193+00:00" last-semantic-change="2013-11-29T11:47:53.602503+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">SEAT Leon ST - Probefahrt</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/seat-leon/links/bilder/Teaser_Probefahrt/Teaser_Probefahrt-368x220.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Seat-Leon</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Seat-Leon</title>
+  </teaser>
+</centerpage>

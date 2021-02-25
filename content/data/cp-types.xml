@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage-types>
+  <type name="homepage">Homepage</type>
+  <type name="ressort">Ressort-CP</type>
+  <type name="centerpage">Centerpage</type>
+  <type name="autotopic">Themenseite (automatisch)</type>
+  <type name="manualtopic">Inszenierte Themenseite</type>
+  <type name="arena">Arena</type>
+  <type name="frame">Rahmen</type>
+  <type name="iframe">Iframe</type>
+  <type name="template">Template</type>
+  <type name="archive-print-volume">Archiv-Print-Volume</type>
+  <type name="archive-print-year">Archiv-Print-Year</type>
+  <type name="volume">Ausgabenseite</type>
+  <type name="volume-overview">Jahrgangsseite</type>
+  <type name="ZMO">ZMO-Homepage</type>
+  <type name="storystream">Storystream</type>
+  <type name="serienseite">Serienseite</type>
+  <type name="ins_serienseite">Inszenierte Serienseite</type>
+  <type name="video">Video</type>
+  <type name="search" available="zeit.web.core.interfaces.IInternalUse">Suchformular</type>
+  <!-- deprecated 2018-02-28 TMS-181 -->
+  <type name="keywordpage">Themenseite Intrafind (automatisch)</type>
+  <type name="topicpage">Themenseite Intrafind (inszeniert)</type>
+</centerpage-types>

@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-mailand/header-ts-mailand" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© Stuart Franklin/Getty Images </copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image base-id="http://xml.zeit.de/reisen/2014-01/city-guide-mailand-3/" type="jpg" title="City Guide Mailand" align="left" publication-date="" expires="">
+      <bu py:pytype="str">MILAN, ITALY - JULY 31:  A general view of Galleria Vittorio Emanuele on July 31, 2008 in Milan, Italy.  (Photo by Vittorio Zunino Celotto/Getty Images)</bu>
+      <copyright py:pytype="str">© Vittorio Zunino Celotto/Getty Images</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T07:38:06.636382+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-04-17T05:01:11.378576+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T07:39:46.362048+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-04-17T05:00:27.672540+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Mailand | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T07:38:02.394228+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">771039516</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2014-04-17T05:00:08+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:3f3d5f17-e0bc-4b99-be67-f33cd6d404ab}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-82bd9640-6d0f-4258-8b74-e3cb6c01dc15">
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-mode-zona-tortona" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-mode-zona-tortona" year="2014" issue="16" ressort="Reisen" contenttype="article" publication-date="2014-04-17T02:23:42+00:00" expires="" date-last-modified="2014-07-17T07:38:16+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2014-04-17T02:24:43.640951+00:00" last-semantic-change="2014-04-10T06:00:00+00:00" serie="City Guide" author="Christian Schüle">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand</teaser_supertitle>
+            <title py:pytype="str">Mailands geheimer Laufsteg</title>
+            <text py:pytype="str">Die Mailänder Mode entsteht in einem Industriegebiet. In der Zona Tortona liegen die Ateliers von Armani neben der Arbeiterkneipe. Der Hype hat hier niemanden vertrieben.</text>
+            <description py:pytype="str">Die Mailänder Mode entsteht in einem Industriegebiet. In der Zona Tortona liegen die Ateliers von Armani neben der Arbeiterkneipe. Der Hype hat hier niemanden vertrieben.</description>
+            <byline py:pytype="str">von Christian Schüle</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/models-mailand/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Models in der Via Tortona</bu>
+              <copyright py:pytype="str">© Francesco Brigida/contrasto/laif für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Schüle</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-4d244a35-873b-423a-a03e-c55b3ed56743">
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-risotto" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-risotto" year="2014" issue="16" ressort="Lebensart" contenttype="article" publication-date="2014-04-17T02:25:00+00:00" expires="" date-last-modified="2014-04-17T02:25:00+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2014-04-17T02:26:00.321156+00:00" last-semantic-change="2014-04-14T11:27:29.506892+00:00" serie="City Guide" author="Martina Bachler">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand</teaser_supertitle>
+            <title py:pytype="str">Heimat, gesalzen und gerührt</title>
+            <text py:pytype="str">Mailand ist schick, teuer und schnell. Das typische Mailänder Safran-Risotto dagegen ist einfach und bodenständig. Der Sternekoch Davide Oldani bringt beides in Einklang.</text>
+            <description py:pytype="str">Mailand ist schick, teuer und schnell. Das typische Mailänder Safran-Risotto dagegen ist einfach und bodenständig. Der Sternekoch Davide Oldani bringt beides in Einklang.</description>
+            <byline py:pytype="str">von  Martina Bachler</byline>
+            <breadcrumb_title py:pytype="str">Restaurant in Mailand: Das "D’O" von Davide Oldani</breadcrumb_title>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/risotto-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Im Restaurant D’O kommt die Safransoße als Spirale daher.</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Martina_Bachler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Martina Bachler</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e905531a-f6de-44a6-b3af-b158551c4d89">
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-navigli" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-navigli" year="2014" issue="16" ressort="Reisen" contenttype="article" publication-date="2014-04-17T02:38:37+00:00" expires="" date-last-modified="2014-07-17T07:38:16+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2014-04-17T02:39:37.976605+00:00" last-semantic-change="2014-04-14T10:51:52.997897+00:00" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand</teaser_supertitle>
+            <title py:pytype="str">Triff mich nachts in Navigli</title>
+            <text py:pytype="str">Einst war Navigli eine arme Gegend, heute ist es ein angesagter internationaler Treffpunkt. Der Autor Andrea De Carlo spricht über sein Viertel – gestern und heute.</text>
+            <description py:pytype="str">Einst war Navigli eine arme Gegend, heute ist es ein angesagter internationaler Treffpunkt. Der Autor Andrea De Carlo spricht über sein Viertel – gestern und heute.</description>
+            <byline py:pytype="str">von  Andrea De Carlo</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/navigli/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Straßenszene in Navigli</bu>
+              <copyright py:pytype="str" link="http://www.annetteschreyer.com">© Annette Schreyer für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9564be5c-a2d5-4b1e-871a-491107e7e6bb">
+          <block href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-hotels" uniqueId="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-hotels" year="2014" issue="16" ressort="Reisen" contenttype="article" publication-date="2014-04-17T04:28:51+00:00" expires="" date-last-modified="2014-04-17T04:28:51+00:00" date-first-released="2014-04-14T11:03:10.925253+00:00" date-last-published="2014-04-17T04:29:51.092645+00:00" last-semantic-change="2014-04-13T12:24:42.478891+00:00" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Mailand </supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand </teaser_supertitle>
+            <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Ob industriell geprägt, mit klösterlicher Vergangenheit oder luxuriös direkt neben der Oper – diese vier charmanten Mailänder Hotels empfiehlt die Redaktion.</text>
+            <description py:pytype="str">Ob industriell geprägt, mit klösterlicher Vergangenheit oder luxuriös direkt neben der Oper – diese vier charmanten Mailänder Hotels empfiehlt die Redaktion.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/hotel-straf/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c742579a-cc6f-43e9-b03c-e463f555e88a">
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-hotel-ostello-bello" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-hotel-ostello-bello" year="2014" issue="16" ressort="Reisen" contenttype="article" publication-date="2014-04-17T02:43:59+00:00" expires="" date-last-modified="2014-07-17T07:38:14+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2014-04-18T13:45:59.434027+00:00" last-semantic-change="2014-04-18T13:43:05.641722+00:00" serie="City Guide" author="Barbara Baumgartner">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand</teaser_supertitle>
+            <title py:pytype="str">Lieblingsfarbe bunt</title>
+            <text py:pytype="str">Chinesische Rucksacktouristen, verschlafene Franzosen und ein Restaurator mit Seidenschal – im Ostello Bello ist nicht nur die Einrichtung wild zusammengewürfelt.</text>
+            <description py:pytype="str">Chinesische Rucksacktouristen, verschlafene Franzosen und ein Restaurator mit Seidenschal – im Ostello Bello ist nicht nur die Einrichtung wild zusammengewürfelt.</description>
+            <byline py:pytype="str">von  Barbara Baumgarnter</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/ostello-bello/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Sommer kann kommen: Der Flur führt auf eine der beiden Terrassen des Ostello Bello.</bu>
+              <copyright py:pytype="str" link="http://www.annetteschreyer.com">© Annette Schreyer für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Barbara_Baumgartner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Barbara Baumgartner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-056c3ff7-0791-4a30-881f-ba71ba7c1509">
+          <block href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-websites-apps" uniqueId="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-websites-apps" year="2014" issue="16" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-17T12:27:13+00:00" date-first-released="2014-04-17T11:46:10.843565+00:00" date-last-published="2014-04-17T12:28:13.143150+00:00" last-semantic-change="2014-04-17T11:45:05.305594+00:00" serie="City Guide" author="Eike Kühl">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand</teaser_supertitle>
+            <title py:pytype="str">Mailand im Netz</title>
+            <text py:pytype="str">Wo gibt es den besten Aperitif und welche Blogs kennen die geheimen Treffpunkte Mailands? Wir haben einige der besten Websites und Apps für ihre Reise recherchiert.</text>
+            <description py:pytype="str">Wo gibt es den besten Aperitif und welche Blogs kennen die geheimen Treffpunkte Mailands? Wir haben einige der besten Websites und Apps für ihre Reise recherchiert.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/dom-mailand/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Eine Kunstperformance vor dem Mailänder Dom</bu>
+              <copyright py:pytype="str">© Vittorio Zunino Celotto/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9ebce04e-fc0c-415f-8757-6688d6e46f99">
+          <block href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-restaurants" uniqueId="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-restaurants" year="2014" issue="16" ressort="Reisen" contenttype="article" publication-date="2014-04-17T04:53:16+00:00" expires="" date-last-modified="2014-04-17T04:53:17+00:00" date-first-released="2014-04-14T11:00:32.873305+00:00" date-last-published="2014-04-17T04:54:17.297176+00:00" last-semantic-change="2014-04-13T13:12:00.078703+00:00" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Mailand </supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand </teaser_supertitle>
+            <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+            <text py:pytype="str">Frischer Fisch in futuristischem Ambiente, regionale Hausmannskost und undogmatische Chefköche: Die Redaktion empfiehlt vier ausgewählte Restaurants in Mailand.</text>
+            <description py:pytype="str">Frischer Fisch in futuristischem Ambiente, regionale Hausmannskost und undogmatische Chefköche: Die Redaktion empfiehlt vier ausgewählte Restaurants in Mailand.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/alice/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-ecb20dec-0b36-4435-a30d-e685032c4f5e">
+          <block href="http://xml.zeit.de/2014/16/city-guide-mailand-leonardo-da-vinci" uniqueId="http://xml.zeit.de/2014/16/city-guide-mailand-leonardo-da-vinci" year="2014" issue="16" ressort="Reisen" contenttype="article" publication-date="2014-04-17T02:53:07+00:00" expires="" date-last-modified="2014-07-17T07:38:15+00:00" date-first-released="2014-04-10T06:00:00+00:00" date-last-published="2014-04-20T20:26:25.989008+00:00" last-semantic-change="2014-04-20T20:25:24.353580+00:00" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Mailand</supertitle>
+            <teaser_supertitle py:pytype="str">City Guide Mailand</teaser_supertitle>
+            <title py:pytype="str">"Leonardo war extrem unzuverlässig"</title>
+            <text py:pytype="str">Mailand entdeckt den Künstler Da Vinci neu. Ein Gespräch mit der Kunstexpertin Maria Teresa Fiorio über das Wunder des "Abendmahls" und genervte Auftraggeber.</text>
+            <description py:pytype="str">Mailand entdeckt den Künstler Da Vinci neu. Ein Gespräch mit der Kunstexpertin Maria Teresa Fiorio über das Wunder des "Abendmahls" und genervte Auftraggeber.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-04/abendmahl/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Illustration von Lenoardo da Vincis "Abendmahl" - das Wandgemälde ist in der  Santa Maria delle Grazie in Mailand zu finden.</bu>
+              <copyright py:pytype="str">© John Thys/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-ab4f3265-55b5-49ea-9d01-243eac08f691">
+          <block href="http://xml.zeit.de/lebensart/2014-02/mailaender-modenschauen-herbst-winter" uniqueId="http://xml.zeit.de/lebensart/2014-02/mailaender-modenschauen-herbst-winter" year="2014" issue="9" ressort="Lebensart" contenttype="article" publication-date="" expires="" date-last-modified="2014-02-24T18:19:54+00:00" date-first-released="2014-02-23T17:54:33.853096+00:00" date-last-published="2014-02-24T16:14:09.004888+00:00" last-semantic-change="2014-02-24T18:16:06.933872+00:00" author="Tillmann Prüfer">
+            <supertitle py:pytype="str">Mailänder Modeschauen</supertitle>
+            <teaser_supertitle py:pytype="str">Mailänder Modeschauen</teaser_supertitle>
+            <title py:pytype="str">Zurück zur Natürlichkeit</title>
+            <text py:pytype="str">Ein Kleid aus Wollfilz für die angezogene Frau, golddurchwebte Transparenz für die ausgezogene Frau: In Mailand versöhnt die Herbstmode zwei Entwürfe von Weiblichkeit.</text>
+            <description py:pytype="str">Ein Kleid aus Wollfilz für die angezogene Frau, golddurchwebte Transparenz für die ausgezogene Frau: In Mailand versöhnt die Herbstmode zwei Entwürfe von Weiblichkeit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/mode/2014-02/mailand-fashion-mode-bottega-veneta/" type="jpg" title="Mailand Fashion Mode Bottega Veneta" alt="Mailand Fashion Mode Bottega Veneta" align="left" publication-date="" expires="2014-05-23T16:19:34+00:00">
+              <bu py:pytype="str">Models präsentieren die Kollektion von Bottega Veneta auf den Mailänder Modenschauen.</bu>
+              <copyright py:pytype="str">© Daniel Dal Zennaro/EPA/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/P/Tillmann_Pruefer/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tillmann Prüfer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e0e5e7b2-0838-4e5b-a4fc-602859611bdd">
+          <block href="http://xml.zeit.de/reisen/2011-05/italien-reise-favoriten" uniqueId="http://xml.zeit.de/reisen/2011-05/italien-reise-favoriten" year="2011" issue="20" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T23:10:29+00:00" date-first-released="2011-06-15T14:47:10.961592+00:00" date-last-published="2013-12-04T00:12:47+00:00" last-semantic-change="2011-06-15T14:45:27.182213+00:00">
+            <supertitle py:pytype="str">Italien</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die Lieblingsorte der Kunst- und Modekenner </title>
+            <text py:pytype="str">Jeder hat Orte in Italien, in die er sich verliebt hat, und es müssen nicht immer die berühmtesten Plätze sein. Italien-Fans verraten uns ihre persönlichen Favoriten. </text>
+            <description py:pytype="str">Jeder hat Orte in Italien, in die er sich verliebt hat, und es müssen nicht immer die berühmtesten Plätze sein. Italien-Fans verraten uns ihre persönlichen Favoriten. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-05/vittoriale-degli/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Vittoriale degli Italiani am Gardasee</bu>
+              <copyright py:pytype="str">© Fondazione Il Vittoriale degli Italiani</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e0b8cb74-8d5d-406c-9a00-5b1a9dff622d">
+          <block href="http://xml.zeit.de/2010/32/Hoteltest-Mailand" uniqueId="http://xml.zeit.de/2010/32/Hoteltest-Mailand" year="2010" issue="32" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T15:48:35+00:00" date-first-released="2010-08-05T06:00:00+00:00" date-last-published="2013-09-08T05:00:51+00:00" last-semantic-change="2010-08-13T09:51:56.708731+00:00" serie="Hoteltest" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">Hoteltest</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Modehaus mit Zimmerservice</title>
+            <text py:pytype="str">Das Hotel Maison Moschino in der Modemetropole Mailand ist eine Hommage an den Designer: verspielt, komisch und traumhaft schön. Leider träumt auch der Service.</text>
+            <description py:pytype="str">Das Hotel Maison Moschino in der Modemetropole Mailand ist eine Hommage an den Designer: verspielt, komisch und traumhaft schön. Leider träumt auch der Service.</description>
+            <byline py:pytype="str">Tomas Niederberghaus</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2010-08/maison-moschino-1/" type="jpg" title="Maison Moschino Raum" alt="Nicht cheap, aber chic: das Hotel Maison Moschino in Mailand " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nicht cheap, aber chic: das Hotel Maison Moschino in Mailand </bu>
+              <copyright py:pytype="str">© Design Hotels(tm)</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-e0b5c144-6993-4c55-a995-ab90f1161b3a">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-4149ecd7-2dd0-4076-81c2-109da2cf62a6">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-17a24287-f443-477a-9a38-e8772b1559f3" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-st-petersburg/index" year="2013" issue="48" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-12-12T05:47:23+00:00" expires="" date-last-modified="2014-07-17T07:31:10+00:00" date-first-released="2013-12-12T05:48:25.411043+00:00" date-last-published="2014-01-28T13:30:13.707345+00:00" last-semantic-change="2014-01-28T13:28:40.945621+00:00">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide St. Petersburg</title>
+            <text py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</text>
+            <description py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-st-petersburg-teaser-3/" type="jpg" title="City Guide St. Petersburg Teaser 3" align="left" publication-date="" expires="">
+              <bu py:pytype="str">The Hermitage is reflected in the River Neva during light snow in St.Petersburg February 9, 2004. The Hermitage, a former palace of Russian Tsars, now houses one of the largest art collections in the world with over three million exhibits stored. NO RIGHTS CLEARANCES OR PERMISSIONS ARE REQUIRED FOR THIS IMAGE   REUTERS/Alexander Demianchuk   WAW/GB - RTRC9Z7</bu>
+              <copyright py:pytype="str">© Alexander Demianchuk/Reuters</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2013-08/city-guide-st-petersburg-teaser-3/city-guide-st-petersburg-teaser-3-368x110.jpg" title="City Guide St. Petersburg Teaser 3" align="left" publication-date="" expires="">
+            <bu>The Hermitage is reflected in the River Neva during light snow in St.Petersburg February 9, 2004. The Hermitage, a former palace of Russian Tsars, now houses one of the largest art collections in the world with over three million exhibits stored. NO RIGHTS CLEARANCES OR PERMISSIONS ARE REQUIRED FOR THIS IMAGE   REUTERS/Alexander Demianchuk   WAW/GB - RTRC9Z7</bu>
+            <copyright>© Alexander Demianchuk/Reuters</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-b14592b1-b193-4848-81f3-fd46615b417e">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-venedig/index" year="2012" issue="50" ressort="Reisen" contenttype="centerpage-2009" publication-date="2012-12-20T04:33:58+00:00" expires="" date-last-modified="2013-06-14T09:50:46+00:00" date-first-released="2012-12-20T04:35:05.799986+00:00" date-last-published="2013-06-14T09:50:49.598028+00:00" last-semantic-change="2013-06-14T09:49:34.502370+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Venedig</title>
+            <text py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</text>
+            <description py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-12/city-guide-vendedig/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-rom/index" year="2013" issue="40" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-10-02T05:35:02+00:00" expires="" date-last-modified="2014-02-25T10:14:53+00:00" date-first-released="" date-last-published="" last-semantic-change="2013-10-10T09:27:52.433606+00:00" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-mailand/index#5f9862a0-0546-4f34-9e17-41366ae2f8d4" cp:free-teaser="True">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Rom</title>
+            <text py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</text>
+            <description py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-rom-teaser-4/" type="jpg" title="City Guide Rom Teaser 4" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Petersdom</bu>
+              <copyright py:pytype="str">© Alessia Pierdomenico/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-8f9b02bb-a52e-4d30-b6fe-531abeb7079f">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-paris/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-paris/index" year="2011" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-02-13T03:15:07+00:00" date-first-released="2011-12-01T17:32:28.316568+00:00" date-last-published="2014-02-13T03:16:04.873777+00:00" last-semantic-change="2013-06-14T09:50:43.722790+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Paris</title>
+            <text py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </text>
+            <description py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/paris-themenseite/" type="jpg" title="Paris Themenseite" align="left" publication-date="" expires="">
+              <bu py:pytype="str">A picture taken on November 12, 2011 in Paris, shows a youth dancing on the Parvis des droits de l'homme (Human rights Esplanade at the Trocadero) and the Eiffel tower.    AFP PHOTO / LIONEL BONAVENTURE (Photo credit should read LIONEL BONAVENTURE/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Lionel Bonaventure/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-london/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-london/index" year="2012" issue="25" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2013-09-24T11:33:14+00:00" date-first-released="2012-06-29T13:49:19.216795+00:00" date-last-published="2013-09-24T11:34:12.944518+00:00" last-semantic-change="2013-08-06T11:11:07.916195+00:00">
+            <supertitle py:pytype="str">Reisetipps</supertitle>
+            <teaser_supertitle py:pytype="str">Reisetipps</teaser_supertitle>
+            <title py:pytype="str">City Guide London</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-92c04dcc-6a81-46b8-abb1-ba2ee2b077e9" layout="368x220" title="City Guide Madrid">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-madrid/index" year="2013" issue="15" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-04-18T07:00:36+00:00" expires="" date-last-modified="2014-07-17T07:31:31+00:00" date-first-released="2013-04-18T06:59:38.731637+00:00" date-last-published="2014-03-23T09:26:56.758682+00:00" last-semantic-change="2013-06-14T09:52:47.718408+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Madrid</title>
+            <text py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</text>
+            <description py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Königspalast in Madrid</bu>
+              <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2013-04/madrid-palast/madrid-palast-368x110.jpg" align="left" publication-date="" expires="">
+            <bu>Der Königspalast in Madrid</bu>
+            <copyright>© EyesWideOpen/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-b9353a35-529b-4697-92f8-cd532eda4671">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-stockholm/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-stockholm/index" year="2013" issue="23" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-07-17T07:31:12+00:00" date-first-released="2013-06-20T10:37:06.188124+00:00" date-last-published="2014-02-25T10:19:08.168103+00:00" last-semantic-change="2014-02-25T10:14:37.265626+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Stockholm</title>
+            <text py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</text>
+            <description py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm/" type="jpg" title="Stockholm" align="left" publication-date="" expires="">
+              <bu py:pytype="str">STOCKHOLM, SWEDEN - JUNE 07: People enjoy the atmosphere in a city square as preparations for the wedding of Princess Madeleine of Sweden and Christopher O'Neill continues on June 7, 2013 in Stockholm, Sweden. (Photo by Chris Jackson/Getty Images) </bu>
+              <copyright py:pytype="str">© Chris Jackson/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-dresden/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-dresden/index" year="2014" issue="8" ressort="Reisen" contenttype="centerpage-2009" publication-date="2014-02-27T06:00:25+00:00" expires="" date-last-modified="2014-07-17T07:29:38+00:00" date-first-released="2014-02-27T06:01:27.102388+00:00" date-last-published="2014-03-05T15:21:16.444240+00:00" last-semantic-change="2014-02-26T13:45:24.325192+00:00">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Dresden</title>
+            <text py:pytype="str">Alle Welt geht in die Knie vor Dresdens barockem Panorama. Wir erkunden die schräge Neustadt, suchen das typische Gericht und fallen bei einem Winzer ins Bett. </text>
+            <description py:pytype="str">Alle Welt geht in die Knie vor Dresdens barockem Panorama. Wir erkunden die schräge Neustadt, suchen das typische Gericht und fallen bei einem Winzer ins Bett. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-01/city-guide-dresden-2/" type="jpg" title="City Guide Dresden" align="left" publication-date="" expires="">
+              <bu py:pytype="str">DRESDEN, GERMANY - JUNE 07:  Twilight descends on the Albertinum museum (R) and the dome of the Akademie der Kuenste on June 7, 2010 in Dresden, Germany. The Albertinum, which will exhibit paintings and sculpture from the Romantic Period through to the present, will re-open to the public on June 20, 2010. The Albertinum has undergone an extensive renovation following the devastating floods of 2002, and museum officials managed to raise funds partially by auctioning off works by modern German artists including Georg Richter and Georg Baselitz.  (Photo by Sean Gallup/Getty Images)</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle>City Guide Mailand</supertitle>
+    <title>City Guide Mailand</title>
+    <subtitle>Diese Stadt ist teuer, schick und voller Rätsel. In einer Kühlschrankfabrik treffen wir die Frau, die Mailand zur Modestadt gemacht hat, in einem Einfamilienhaus am Stadtrand essen wir das beste Risotto. Wir erfahren, dass Leonardo da Vinci ein Chaot war, und schlafen in einer Herberge, in der auch vornehme Herren gern das Sechserzimmer buchen.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2010/32/Hoteltest-Mailand" year="2010" issue="32" ressort="Reisen" serie="Hoteltest" contenttype="article" publication-date="" expires="" author="Tomas Niederberghaus">
+      <supertitle py:pytype="str">Hoteltest</supertitle>
+      <title py:pytype="str">Modehaus mit Zimmerservice</title>
+      <text py:pytype="str">Das Hotel Maison Moschino in der Modemetropole Mailand ist eine Hommage an den Designer: verspielt, komisch und traumhaft schön. Leider träumt auch der Service.</text>
+      <description py:pytype="str">Das Hotel Maison Moschino in der Modemetropole Mailand ist eine Hommage an den Designer: verspielt, komisch und traumhaft schön. Leider träumt auch der Service.</description>
+      <byline py:pytype="str">Tomas Niederberghaus</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2010-08/maison-moschino-1/" type="jpg" title="Maison Moschino Raum" alt="Nicht cheap, aber chic: das Hotel Maison Moschino in Mailand " align="left" publication-date="" expires="">
+        <bu py:pytype="str">Nicht cheap, aber chic: das Hotel Maison Moschino in Mailand </bu>
+        <copyright py:pytype="str">© Design Hotels(tm)</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2011-05/italien-reise-favoriten" year="2011" issue="20" ressort="Reisen" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Italien</supertitle>
+      <title py:pytype="str">Die Lieblingsorte der Kunst- und Modekenner </title>
+      <text py:pytype="str">Jeder hat Orte in Italien, in die er sich verliebt hat, und es müssen nicht immer die berühmtesten Plätze sein. Italien-Fans verraten uns ihre persönlichen Favoriten. </text>
+      <description py:pytype="str">Jeder hat Orte in Italien, in die er sich verliebt hat, und es müssen nicht immer die berühmtesten Plätze sein. Italien-Fans verraten uns ihre persönlichen Favoriten. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-05/vittoriale-degli/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Vittoriale degli Italiani am Gardasee</bu>
+        <copyright py:pytype="str">© Fondazione Il Vittoriale degli Italiani</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/2014-02/mailaender-modenschauen-herbst-winter" year="2014" issue="9" ressort="Lebensart" contenttype="article" publication-date="" expires="" author="Tillmann Prüfer">
+      <supertitle py:pytype="str">Mailänder Modeschauen</supertitle>
+      <title py:pytype="str">Zurück zur Natürlichkeit</title>
+      <text py:pytype="str">Ein Kleid aus Wollfilz für die angezogene Frau, golddurchwebte Transparenz für die ausgezogene Frau: In Mailand versöhnt die Herbstmode zwei Entwürfe von Weiblichkeit.</text>
+      <description py:pytype="str">Ein Kleid aus Wollfilz für die angezogene Frau, golddurchwebte Transparenz für die ausgezogene Frau: In Mailand versöhnt die Herbstmode zwei Entwürfe von Weiblichkeit.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/mode/2014-02/mailand-fashion-mode-bottega-veneta/" type="jpg" title="Mailand Fashion Mode Bottega Veneta" alt="Mailand Fashion Mode Bottega Veneta" align="left" publication-date="" expires="2014-05-23T16:19:34+00:00">
+        <bu py:pytype="str">Models präsentieren die Kollektion von Bottega Veneta auf den Mailänder Modenschauen.</bu>
+        <copyright py:pytype="str">© Daniel Dal Zennaro/EPA/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Tillmann_Pruefer/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Tillmann Prüfer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/16/city-guide-mailand-leonardo-da-vinci" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:53:07+00:00" expires="" author="Stefanie Flamm">
+      <supertitle py:pytype="str">City Guide Mailand</supertitle>
+      <title py:pytype="str">"Leonardo war extrem unzuverlässig"</title>
+      <text py:pytype="str">Mailand entdeckt den Künstler Da Vinci neu. Ein Gespräch mit der Kunstexpertin Maria Teresa Fiorio über das Wunder des "Abendmahls" und genervte Auftraggeber.</text>
+      <description py:pytype="str">Mailand entdeckt den Künstler Da Vinci neu. Ein Gespräch mit der Kunstexpertin Maria Teresa Fiorio über das Wunder des "Abendmahls" und genervte Auftraggeber.</description>
+      <byline py:pytype="str">von Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/abendmahl/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Illustration von Lenoardo da Vincis "Abendmahl" - das Wandgemälde ist in der  Santa Maria delle Grazie in Mailand zu finden.</bu>
+        <copyright py:pytype="str">© John Thys/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-restaurants" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T04:53:16+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Mailand </supertitle>
+      <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+      <text py:pytype="str">Frischer Fisch in futuristischem Ambiente, regionale Hausmannskost und undogmatische Chefköche: Die Redaktion empfiehlt vier ausgewählte Restaurants in Mailand.</text>
+      <description py:pytype="str">Frischer Fisch in futuristischem Ambiente, regionale Hausmannskost und undogmatische Chefköche: Die Redaktion empfiehlt vier ausgewählte Restaurants in Mailand.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/alice/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-websites-apps" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Eike Kühl">
+      <supertitle py:pytype="str">City Guide Mailand</supertitle>
+      <title py:pytype="str">Mailand im Netz</title>
+      <text py:pytype="str">Wo gibt es den besten Aperitif und welche Blogs kennen die geheimen Treffpunkte Mailands? Wir haben einige der besten Websites und Apps für ihre Reise recherchiert.</text>
+      <description py:pytype="str">Wo gibt es den besten Aperitif und welche Blogs kennen die geheimen Treffpunkte Mailands? Wir haben einige der besten Websites und Apps für ihre Reise recherchiert.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/dom-mailand/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Eine Kunstperformance vor dem Mailänder Dom</bu>
+        <copyright py:pytype="str">© Vittorio Zunino Celotto/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Eike Kühl</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/16/city-guide-mailand-hotel-ostello-bello" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:43:59+00:00" expires="" author="Barbara Baumgartner">
+      <supertitle py:pytype="str">City Guide Mailand</supertitle>
+      <title py:pytype="str">Lieblingsfarbe bunt</title>
+      <text py:pytype="str">Chinesische Rucksacktouristen, verschlafene Franzosen und ein Restaurator mit Seidenschal – im Ostello Bello ist nicht nur die Einrichtung wild zusammengewürfelt.</text>
+      <description py:pytype="str">Chinesische Rucksacktouristen, verschlafene Franzosen und ein Restaurator mit Seidenschal – im Ostello Bello ist nicht nur die Einrichtung wild zusammengewürfelt.</description>
+      <byline py:pytype="str">von  Barbara Baumgarnter</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/ostello-bello/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Sommer kann kommen: Der Flur führt auf eine der beiden Terrassen des Ostello Bello.</bu>
+        <copyright py:pytype="str" link="http://www.annetteschreyer.com">© Annette Schreyer für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Barbara_Baumgartner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Barbara Baumgartner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-04/city-guide-mailand-hotels" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T04:28:51+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Mailand </supertitle>
+      <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+      <text py:pytype="str">Ob industriell geprägt, mit klösterlicher Vergangenheit oder luxuriös direkt neben der Oper – diese vier charmanten Mailänder Hotels empfiehlt die Redaktion.</text>
+      <description py:pytype="str">Ob industriell geprägt, mit klösterlicher Vergangenheit oder luxuriös direkt neben der Oper – diese vier charmanten Mailänder Hotels empfiehlt die Redaktion.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/hotel-straf/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/16/city-guide-mailand-navigli" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:38:37+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Mailand</supertitle>
+      <title py:pytype="str">Triff mich nachts in Navigli</title>
+      <text py:pytype="str">Einst war Navigli eine arme Gegend, heute ist es ein angesagter internationaler Treffpunkt. Der Autor Andrea De Carlo spricht über sein Viertel – gestern und heute.</text>
+      <description py:pytype="str">Einst war Navigli eine arme Gegend, heute ist es ein angesagter internationaler Treffpunkt. Der Autor Andrea De Carlo spricht über sein Viertel – gestern und heute.</description>
+      <byline py:pytype="str">von  Andrea De Carlo</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/navigli/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Straßenszene in Navigli</bu>
+        <copyright py:pytype="str" link="http://www.annetteschreyer.com">© Annette Schreyer für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/16/city-guide-mailand-risotto" year="2014" issue="16" ressort="Lebensart" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:25:00+00:00" expires="" author="Martina Bachler">
+      <supertitle py:pytype="str">City Guide Mailand</supertitle>
+      <title py:pytype="str">Heimat, gesalzen und gerührt</title>
+      <text py:pytype="str">Mailand ist schick, teuer und schnell. Das typische Mailänder Safran-Risotto dagegen ist einfach und bodenständig. Der Sternekoch Davide Oldani bringt beides in Einklang.</text>
+      <description py:pytype="str">Mailand ist schick, teuer und schnell. Das typische Mailänder Safran-Risotto dagegen ist einfach und bodenständig. Der Sternekoch Davide Oldani bringt beides in Einklang.</description>
+      <byline py:pytype="str">von  Martina Bachler</byline>
+      <breadcrumb_title py:pytype="str">Restaurant in Mailand: Das "D’O" von Davide Oldani</breadcrumb_title>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/risotto-2/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Im Restaurant D’O kommt die Safransoße als Spirale daher.</bu>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Martina_Bachler/index" publication-date="" expires="">
+        <display_name py:pytype="str">Martina Bachler</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/16/city-guide-mailand-mode-zona-tortona" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-04-17T02:23:42+00:00" expires="" author="Christian Schüle">
+      <supertitle py:pytype="str">City Guide Mailand</supertitle>
+      <title py:pytype="str">Mailands geheimer Laufsteg</title>
+      <text py:pytype="str">Die Mailänder Mode entsteht in einem Industriegebiet. In der Zona Tortona liegen die Ateliers von Armani neben der Arbeiterkneipe. Der Hype hat hier niemanden vertrieben.</text>
+      <description py:pytype="str">Die Mailänder Mode entsteht in einem Industriegebiet. In der Zona Tortona liegen die Ateliers von Armani neben der Arbeiterkneipe. Der Hype hat hier niemanden vertrieben.</description>
+      <byline py:pytype="str">von Christian Schüle</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-04/models-mailand/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Models in der Via Tortona</bu>
+        <copyright py:pytype="str">© Francesco Brigida/contrasto/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Christian Schüle</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>City Guide Mailand</title>
+    <text>Diese Stadt ist teuer, schick und rätselhaft. Wir treffen die Frau, die Mailand zur Modestadt gemacht hat, essen das beste Risotto und lernen von Da Vincis Vergangenheit.</text>
+  </teaser>
+</centerpage>

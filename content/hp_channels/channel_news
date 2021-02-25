@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage>
+  <head>
+    <!-- Angaben zum Dokument -->
+    <id>
+      <!-- die eineindeutige ID des Dokuments -->
+      <uniqueid>cms:/cms/work/index</uniqueid>
+    </id>
+    <attribute name="supertitle" ns="http://namespaces.zeit.de/CMS/document">News Channel</attribute>
+    <!-- Dachzeile/Spitzmarke -->
+    <!-- ggF. mehrere -->
+    <!-- Schlagworte -->
+    <!-- manuell vergeben Schlagworte -->
+    <!-- Statusausk&#252;nfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">11691</attribute>
+    <!-- die Anzahl der erfolgten &#196;nderungen, wird derzeit benutzt um Resourcenkonflikte zu verhindern - bei jedem Schreiben wird eins hochgesetzt - will einer eine alte Version schreiben, wird das unterbunden -->
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">26.6.2008 - 19:09</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords">DIE ZEIT; ZEIT ONLINE;Nachrichten;Kommentare;Analysen;Themen; Politik;Wirtschaft;Kultur;Wissensschaft</attribute>
+    <keywordset>
+      <keyword source="manual">DIE ZEIT</keyword>
+      <keyword source="manual">ZEIT ONLINE</keyword>
+      <keyword source="manual">Nachrichten</keyword>
+      <keyword source="manual">Kommentare</keyword>
+      <keyword source="manual">Analysen</keyword>
+      <keyword source="manual">Themen</keyword>
+      <keyword source="manual">Politik</keyword>
+      <keyword source="manual">Wirtschaft</keyword>
+      <keyword source="manual">Kultur</keyword>
+      <keyword source="manual">Wissensschaft</keyword>
+    </keywordset>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume">06</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">greven</attribute>
+  </head>
+  <body>
+    <container id="top-news" label="" layout="channel" priority="">
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/35/anschlag-kandahar-afghanistan" year="2009" issue="35" date-last-modified="2009-08-25T20:20:44+00:00" last-semantic-change="2009-08-25T20:20:30.903811+00:00" date-first-released="2009-08-25T20:09:49.980297+00:00" date-last-published="2009-08-25T20:21:43.867280+00:00" publication-date="" expires="" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Kandahar</supertitle>
+        <title py:pytype="str">40 Menschen sterben bei Anschlag</title>
+        <text py:pytype="str">In der südafghanischen Stadt explodierte eine Autobombe nahe dem Büro einer kanadischen Hilfsorganisation. Mindestens 40 Menschen wurden getötet, knapp 60 verletzt</text>
+        <description py:pytype="str">In der südafghanischen Stadt explodierte eine Autobombe nahe dem Büro einer kanadischen Hilfsorganisation. Mindestens 40 Menschen wurden getötet, knapp 60 verletzt</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Kandahar</title>
+          <text py:pytype="str">40 Menschen sterben bei Anschlag</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/35/bg-afghanistan-wahl-2" year="2009" issue="35" date-last-modified="2009-08-21T11:32:09+00:00" last-semantic-change="2009-08-21T11:32:17.611106+00:00" date-first-released="2009-08-20T15:47:33.699131+00:00" date-last-published="2009-08-21T11:33:38.520782+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Afghanistan</supertitle>
+            <title py:pytype="str">Schwierige Präsidentenwahl </title>
+            <text py:pytype="str">Es ist geschafft, Afghanistan hat gewählt. Die Wahlbeteiligung ist noch nicht bekannt, der Tag war auch von Gewalt geprägt. Die Bilder vom Wahltag.</text>
+            <description py:pytype="str">Es ist geschafft, Afghanistan hat gewählt. Die Wahlbeteiligung ist noch nicht bekannt, der Tag war auch von Gewalt geprägt. Die Bilder vom Wahltag.</description>
+            <byline py:pytype="str">Von Steffen Richter</byline>
+            <short>
+              <title py:pytype="str">Afghanistan</title>
+              <text py:pytype="str">Schwierige Präsidentenwahl </text>
+            </short>
+            <homepage>
+              <title py:pytype="str">Eine schwierige Wahl</title>
+              <text py:pytype="str">Es ist geschafft, Afghanistan hat gewählt. Impressionen</text>
+            </homepage>
+            <image base-id="http://xml.zeit.de/bilder/2009/35/bildergalerien/teaser/bg-afghanistan-wahl-2/" type="jpg" date-last-modified="2009-08-20T12:45:52+00:00" last-semantic-change="" date-first-released="2009-08-21T08:37:21.819023+00:00" date-last-published="2009-08-21T08:37:21.819023+00:00" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </reference>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/35/afghanistan-wahl-karsai-sieg" year="2009" issue="35" date-last-modified="2009-08-21T15:40:07+00:00" last-semantic-change="2009-08-21T11:09:41.918339+00:00" date-first-released="2009-08-21T07:32:46.756455+00:00" date-last-published="2009-08-21T15:41:35.945263+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Wahl in Afghanistan</supertitle>
+            <title py:pytype="str">Karsai und Abdullah streiten um den Sieg</title>
+            <text py:pytype="str">Erste Hochrechnungen sehen Amtsinhaber Hamid Karsai als Sieger der Präsidentschaftswahl. Aber auch sein stärkster Rivale Abdullah Abdullah reklamiert den Sieg für sich.</text>
+            <description py:pytype="str">Erste Hochrechnungen sehen Amtsinhaber Hamid Karsai als Sieger der Präsidentschaftswahl. Aber auch sein stärkster Rivale Abdullah Abdullah reklamiert den Sieg für sich.</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Wahl in Afghanistan</title>
+              <text py:pytype="str">Karsai und Abdullah streiten um den Sieg</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <gallery type="intern" href="http://xml.zeit.de/online/2009/35/bg-afghanistan-wahl-2" year="2009" issue="35" date-last-modified="2009-08-21T11:32:09+00:00" last-semantic-change="2009-08-21T11:32:17.611106+00:00" date-first-released="2009-08-20T15:47:33.699131+00:00" date-last-published="2009-08-21T11:33:38.520782+00:00" publication-date="" expires="">
+              <supertitle py:pytype="str">Afghanistan</supertitle>
+              <title py:pytype="str">Schwierige Präsidentenwahl </title>
+              <text py:pytype="str">Es ist geschafft, Afghanistan hat gewählt. Die Wahlbeteiligung ist noch nicht bekannt, der Tag war auch von Gewalt geprägt. Die Bilder vom Wahltag.</text>
+              <description py:pytype="str">Es ist geschafft, Afghanistan hat gewählt. Die Wahlbeteiligung ist noch nicht bekannt, der Tag war auch von Gewalt geprägt. Die Bilder vom Wahltag.</description>
+              <byline py:pytype="str">Von Steffen Richter</byline>
+              <short>
+                <title py:pytype="str">Afghanistan</title>
+                <text py:pytype="str">Schwierige Präsidentenwahl </text>
+              </short>
+              <homepage>
+                <title py:pytype="str">Eine schwierige Wahl</title>
+                <text py:pytype="str">Es ist geschafft, Afghanistan hat gewählt. Impressionen</text>
+              </homepage>
+              <image base-id="http://xml.zeit.de/bilder/2009/35/bildergalerien/teaser/bg-afghanistan-wahl-2/" type="jpg" date-last-modified="2009-08-20T12:45:52+00:00" last-semantic-change="" date-first-released="2009-08-21T08:37:21.819023+00:00" date-last-published="2009-08-21T08:37:21.819023+00:00" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">©</copyright>
+              </image>
+            </gallery>
+            <image alt="Afghan President Hamid Karzai speaks to journalists after a press conference at the Presidential Palace in Kabul on August 20, 2009.   Karzai thanked Afghans for defying insurgent threats and voting in landmark elections, hailing a &amp;quot;day of pride and glory&amp;quot; for the country. In a live television address as polling wound down, Karzai said there had been 73 incidents of violence in 15 provinces during the day, some of which had caused casualties to police and civilians.   AFP PHOTO/MASSOUD HOSSAINI (Photo credit should read MASSOUD HOSSAINI/AFP/Getty Images)" align="left" base-id="http://xml.zeit.de/bilder/2009/35/politik/ausland/karzai/" type="jpg" date-last-modified="2009-08-21T06:12:01+00:00" last-semantic-change="2009-08-21T06:17:29.842023+00:00" date-first-released="2009-08-21T06:19:02.235092+00:00" date-last-published="2009-08-21T06:19:02.235092+00:00" publication-date="" expires="">
+              <bu>Amtsinhaber Hamid Karsai während einer Pressekonferenz nach der Wahl: Erste Hochrechnungen sehen ihn als Sieger der Wahl</bu>
+              <copyright py:pytype="str">© Massoud Hossaini/AFP/Getty Images</copyright>
+            </image>
+          </reference>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/35/afghanistan-wahl-vorlaeufige-resultate" year="2009" issue="35" date-last-modified="2009-08-25T15:14:41+00:00" last-semantic-change="2009-08-25T15:08:12.441012+00:00" date-first-released="2009-08-25T15:08:42.839823+00:00" date-last-published="2009-08-25T15:16:11.028858+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Präsidentenwahl in Afghanistan</supertitle>
+            <title py:pytype="str">Karsai liegt knapp vorn</title>
+            <text py:pytype="str">Nach dem ersten offiziellen Ergebnis hat der Amtsinhaber die Präsidentenwahl in Afghanistan mit 40 Prozent knapp für sich entschieden</text>
+            <description py:pytype="str">Nach dem ersten offiziellen Ergebnis hat der Amtsinhaber die Präsidentenwahl in Afghanistan mit 40 Prozent knapp für sich entschieden</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Präsidentenwahl</title>
+              <text py:pytype="str">Karsai liegt knapp vorn</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/35/politik/ausland/karzai-wahl-afghanistan-250809/" type="jpg" date-last-modified="2009-08-25T13:30:26+00:00" last-semantic-change="2009-08-25T15:13:54.494140+00:00" date-first-released="2009-08-25T14:13:56.256056+00:00" date-last-published="2009-08-25T15:15:55.523192+00:00" publication-date="" expires="">
+              <bu>Vorläufiger knapper Sieger der Präsidentschaftswahlen in Afghanistan ist Amtsinhaber Karsai (Plakat Mitte)</bu>
+              <copyright py:pytype="str">© Daniel Berehulak/Getty Images</copyright>
+            </image>
+          </reference>
+        </references>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/35/wikipedia-pruefung-promi-eintraege" year="2009" issue="35" date-last-modified="2009-08-25T18:57:35+00:00" last-semantic-change="2009-08-25T18:57:52.602700+00:00" date-first-released="2009-08-25T18:54:21.691466+00:00" date-last-published="2009-08-25T18:59:05.150480+00:00" publication-date="" expires="" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Online-Lexikon</supertitle>
+        <title py:pytype="str">Wikipedias Freiheit wird eingeschränkt</title>
+        <text py:pytype="str">Die englischsprachige Wikipedia will Einträge über Politiker und Prominente künftig vor Veröffentlichung von einem Redakteur prüfen lassen</text>
+        <description py:pytype="str">Die englischsprachige Wikipedia will Einträge über Politiker und Prominente künftig vor Veröffentlichung von einem Redakteur prüfen lassen</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Online-Lexikon</title>
+          <text py:pytype="str">Wikipedias Freiheit wird eingeschränkt</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference type="intern" href="http://xml.zeit.de/online/2007/34/wikipedia-scanner" year="2007" issue="34" date-last-modified="2009-05-14T06:19:25+00:00" last-semantic-change="2007-08-16T04:50:00+00:00" date-first-released="2007-08-17T12:00:00+00:00" date-last-published="2007-08-16T04:50:00+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Wikipedia</supertitle>
+            <title py:pytype="str">Jagd auf Manipulatoren</title>
+            <text py:pytype="str">Wikiscanner ordnet anonyme Beiträge in der Wikipedia bestimmten Firmen zu. Die haben nun ein PR-Problem: Denn sie haben Kritik entfernt oder Konkurrenten verleumdet</text>
+            <description py:pytype="str">Wikiscanner ordnet anonyme Beiträge in der Wikipedia bestimmten Firmen zu. Die haben nun ein PR-Problem: Denn sie haben Kritik entfernt oder Konkurrenten verleumdet</description>
+            <byline py:pytype="str">Von Torsten Kleinz</byline>
+            <short>
+              <title py:pytype="str">Wikipedia</title>
+              <text py:pytype="str">Wikiscanner spürt Manipulatoren auf</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image base-id="http://xml.zeit.de/bilder/2007/34/wissen/computer/wikiscanner/" type="gif" date-last-modified="2008-02-15T03:23:32+00:00" last-semantic-change="" date-first-released="" date-last-published="" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </reference>
+        </references>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/26/schwarz-gruen-schaeuble" publication-date="" expires="" year="2009" issue="26" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Koalitionen</supertitle>
+        <title py:pytype="str">Union kokettiert mit den Grünen</title>
+        <text py:pytype="str">Die CDU/CSU arbeitet am Entwurf eines Wahlprogramms – mit grüner Ausrichtung. Auch Wolfgang Schäuble schließt Schwarz-Grün nicht mehr aus</text>
+        <description py:pytype="str">Die CDU/CSU arbeitet am Entwurf eines Wahlprogramms – mit grüner Ausrichtung. Auch Wolfgang Schäuble schließt Schwarz-Grün nicht mehr aus</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Koalitionen</title>
+          <text py:pytype="str">Union kokettiert mit den Grünen</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references/>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/21/flugzeugabsturz-indonesien-tote" publication-date="" expires="" year="2009" issue="21" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Indonesien</supertitle>
+        <title py:pytype="str">Flugzeug mit mehr als 100 Menschen abgestürzt</title>
+        <text py:pytype="str">Bei einem Flugzeugabsturz in Indonesien sind vermutlich zahlreiche Menschen ums Leben gekommen. Die Maschine schlug nahe eines Militärstützpunktes auf und zerbrach</text>
+        <description py:pytype="str">Bei einem Flugzeugabsturz in Indonesien sind vermutlich zahlreiche Menschen ums Leben gekommen. Die Maschine schlug nahe eines Militärstützpunktes auf und zerbrach</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Indonesien</title>
+          <text py:pytype="str">Flugzeug mit mehr als 100 Menschen abgestürzt</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references/>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/21/zew-konjunktur-mai" publication-date="" expires="" year="2009" issue="21" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Prognosen</supertitle>
+        <title py:pytype="str">ZEW zeigt positive Konjunkturerwartung</title>
+        <text py:pytype="str">Die Konjunkturerwartungen für Deutschland haben sich im Mai ein weiteres Mal verbessert. Der ZEW-Indikator stieg um 18,1 Punkte. Das wirkte sich umgehend auf den Euro aus</text>
+        <description py:pytype="str">Die Konjunkturerwartungen für Deutschland haben sich im Mai ein weiteres Mal verbessert. Der ZEW-Indikator stieg um 18,1 Punkte. Das wirkte sich umgehend auf den Euro aus</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Prognosen</title>
+          <text py:pytype="str">ZEW zeigt positive Konjunkturerwartung</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/21/diw-konjunktur-wirtschaft-bip" publication-date="" expires="" year="2009" issue="21">
+            <supertitle py:pytype="str">Konjunktur</supertitle>
+            <title py:pytype="str">Deutschlands Wirtschaft stabilisiert sich</title>
+            <text py:pytype="str">Das Bruttoinlandsprodukt schrumpft bis Jahresmitte nur noch leicht, so die DIW-Prognose. Einige besonders stark gebeutelte Branchen können auf Erleichterung hoffen</text>
+            <description py:pytype="str">Das Bruttoinlandsprodukt schrumpft bis Jahresmitte nur noch leicht, so die DIW-Prognose. Einige besonders stark gebeutelte Branchen können auf Erleichterung hoffen</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Konjunktur</title>
+              <text py:pytype="str">Deutschlands Wirtschaft stabilisiert sich</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+          </reference>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/18/konjunktur-prognose-bundesregierung-minus-sechs" publication-date="" expires="" year="2009" issue="18">
+            <supertitle py:pytype="str">Wirtschaftswachstum</supertitle>
+            <title py:pytype="str">Regierung schließt sich düsteren Prognosen an</title>
+            <text py:pytype="str">Die Wirtschaftsinstitute hatten es bereits prognostiziert. Nun schließt sich die Bundesregierung den Zahlen an: Sie rechnet mit minus sechs Prozent Wachstum</text>
+            <description py:pytype="str">Die Wirtschaftsinstitute hatten es bereits prognostiziert. Nun schließt sich die Bundesregierung den Zahlen an: Sie rechnet mit minus sechs Prozent Wachstum</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Wirtschaftswachstum</title>
+              <text py:pytype="str">Regierung schließt sich düsteren Prognosen an</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/18/politik/Deutschland/maschinenbau/" type="jpg" publication-date="" expires="">
+              <bu>Wie überall leidet auch dieser Bereich unter der Krise: Fertigung von Hochspannungsisolatoren bei Siemens</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </reference>
+        </references>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/21/kita-streik-demonstration" publication-date="" expires="" year="2009" issue="21" hidden_relateds="false" hp_hide="false" date-last-modified="2009-08-19T05:59:31+00:00" last-semantic-change="2009-05-19T06:23:57.814144+00:00" date-first-released="2009-05-19T06:27:11.706873+00:00" date-last-published="2009-05-19T06:27:11.706873+00:00">
+        <supertitle py:pytype="str">Kindertagesstätten</supertitle>
+        <title py:pytype="str">Tausende Erzieher beteiligen sich am Streik</title>
+        <text py:pytype="str">An Tag drei der Kita-Streiks bleiben erneut zahlreiche Kindertagesstätten in Deutschland geschlossen. Jetzt sind auch noch mehr Bundesländer von den Protesten betroffen</text>
+        <description py:pytype="str">An Tag drei der Kita-Streiks bleiben erneut zahlreiche Kindertagesstätten in Deutschland geschlossen. Jetzt sind auch noch mehr Bundesländer von den Protesten betroffen</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Kita</title>
+          <text py:pytype="str">Tausende Erzieher beteiligen sich am Streik</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference type="intern" href="http://xml.zeit.de/online/2008/46/Kita-check-2008" year="2008" issue="46" date-last-modified="2009-05-15T15:15:28+00:00" last-semantic-change="2008-11-07T10:38:14.030042+00:00" date-first-released="2008-11-07T07:15:01.602859+00:00" date-last-published="2009-05-15T15:16:26.116727+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Familienpolitik</supertitle>
+            <title py:pytype="str">Kitas unter der Lupe</title>
+            <text py:pytype="str">Deutschland braucht eine flexiblere Kinderbetreuung, damit Familie und Beruf vereinbar sind. Das fordert eine Studie des Deutschen Industrie- und Handelskammertages.</text>
+            <description py:pytype="str">Deutschland braucht eine flexiblere Kinderbetreuung, damit Familie und Beruf vereinbar sind. Das fordert eine Studie des Deutschen Industrie- und Handelskammertages.</description>
+            <byline py:pytype="str">Von Franziska Günther</byline>
+            <short>
+              <title py:pytype="str">Kitas unter der Lupe</title>
+              <text py:pytype="str">Schwierige Vereinbarkeit von Familie und Beruf</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2008/46/deutschland/kita-check/" type="jpg" date-last-modified="2008-11-06T13:03:59+00:00" last-semantic-change="" date-first-released="2008-11-07T07:12:09.058715+00:00" date-last-published="2008-11-07T07:12:09.058715+00:00" publication-date="" expires="">
+              <bu>Kinder in einer Tagesstätte: Erforderlich ist nicht eine längere, sondern eine flexiblere Betreuung</bu>
+              <copyright py:pytype="str">© Getty Images</copyright>
+            </image>
+          </reference>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/21/kita-streik" year="2009" issue="21" date-last-modified="2009-05-15T12:20:09+00:00" last-semantic-change="2009-05-15T12:20:02.772600+00:00" date-first-released="2009-05-15T11:25:02.024627+00:00" date-last-published="2009-05-15T12:21:12.092872+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Tarifkonflikt</supertitle>
+            <title py:pytype="str">Streik legt Hunderte Kitas lahm</title>
+            <text py:pytype="str">In mehreren Bundesländern streiken 11.000 Erzieher. Zehntausende Eltern mussten für ihre Kinder eine andere Unterbringung organisieren.</text>
+            <description py:pytype="str">In mehreren Bundesländern streiken 11.000 Erzieher. Zehntausende Eltern mussten für ihre Kinder eine andere Unterbringung organisieren.</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Erzieherstreik</title>
+              <text py:pytype="str">Hunderte Kitas sind dicht</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/21/politik/Deutschland/kita-2/" type="jpg" date-last-modified="2009-05-15T11:39:39+00:00" last-semantic-change="2009-05-15T11:54:03.232932+00:00" date-first-released="2009-05-15T11:55:16.343193+00:00" date-last-published="2009-05-15T11:55:16.343193+00:00" publication-date="" expires="">
+              <bu>Streiken für bessere Arbeitsbedingungen: Viele Kitas in Deutschland bleiben die kommenden Tage geschlossen</bu>
+              <copyright py:pytype="str">© Roland Magunia/ ddp</copyright>
+            </image>
+          </reference>
+        </references>
+        <image align="left" base-id="http://xml.zeit.de/bilder/2009/21/politik/Deutschland/kita-3/" type="jpg" date-last-modified="2009-05-19T05:58:30+00:00" last-semantic-change="2009-05-19T06:04:11.203445+00:00" date-first-released="2009-05-19T06:05:29.637325+00:00" date-last-published="2009-05-19T06:05:29.637325+00:00" publication-date="" expires="2009-08-19T05:59:53+00:00">
+          <bu>Streiks für bessere Arbeitsbedingungen wie hier in Düsseldorf gibt es derzeit fast landesweit</bu>
+          <copyright py:pytype="str">© David Ebener/dpa</copyright>
+        </image>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/21/hubble-wartung-ende" publication-date="" expires="" year="2009" issue="21" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Weltraumeinsatz</supertitle>
+        <title py:pytype="str">Hubble ist repariert</title>
+        <text py:pytype="str">Auch die fünfte und letzte Reparatur an dem Weltraumteleskop hat funktioniert. Sieben Stunden brauchten die Astronauten für ihren Wartungseinsatz an Hubble.</text>
+        <description py:pytype="str">Auch die fünfte und letzte Reparatur an dem Weltraumteleskop hat funktioniert. Sieben Stunden brauchten die Astronauten für ihren Wartungseinsatz an Hubble.</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Weltraumeinsatz</title>
+          <text py:pytype="str">Hubble ist repariert</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/21/bg-hubble" publication-date="" expires="" year="2009" issue="21">
+            <supertitle py:pytype="str">Hubble-Weltraumteleskop</supertitle>
+            <title py:pytype="str">Werkeln im All</title>
+            <text py:pytype="str">Wieder mit Weitblick: Astronauten der Raumfähre Atlantis schrauben am Weltraumteleskop Hubble. Bis Samstag soll das Fernrohr generalüberholt werden. Eine Galerie</text>
+            <description py:pytype="str">Wieder mit Weitblick: Astronauten der Raumfähre Atlantis schrauben am Weltraumteleskop Hubble. Bis Samstag soll das Fernrohr generalüberholt werden. Eine Galerie</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Hubble-Teleskop</title>
+              <text py:pytype="str">Bilder von der Reparaturmission im All</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image base-id="http://xml.zeit.de/bilder/2009/21/bildergalerien/teaser/bg-hubble/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </reference>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/20/quiz-hubble-teleskop" publication-date="" expires="" year="2009" issue="20">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Wie gut kennen Sie Hubble?</title>
+            <text py:pytype="str">Seit 19 Jahren blickt das Weltraumteleskop in die Tiefen des Alls. Jetzt soll es zum letzten Mal gewartet werden. Testen Sie ihr Wissen über den Hightech-Späher.</text>
+            <description py:pytype="str">Seit 19 Jahren blickt das Weltraumteleskop in die Tiefen des Alls. Jetzt soll es zum letzten Mal gewartet werden. Testen Sie ihr Wissen über den Hightech-Späher.</description>
+            <byline py:pytype="str">von Julia Mohr</byline>
+            <short>
+              <title py:pytype="str">Hubble-Quiz</title>
+              <text py:pytype="str">Testen Sie Ihr Wissen über das Weltraumteleskop
+</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image src="http://xml.zeit.de/bilder/2009/20/wissen/quiz-hubble-teleskop/02/02-140x140.jpg" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </reference>
+        </references>
+        <image align="left" base-id="http://xml.zeit.de/bilder/2009/21/wissen/hubble-2/" type="jpg" publication-date="" expires="">
+          <bu>Astronaut John Grunsfeld ist am Roboterarm der Atlantis gesichert während er die fünfte und letzte Reparatur an Hubble ausführt</bu>
+          <copyright py:pytype="str">© NASA/Getty Images</copyright>
+        </image>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/21/verfassungsschutz-cyber-attacken-hackerangriffe" publication-date="" expires="" year="2009" issue="21" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Cyber-Angriffe</supertitle>
+        <title py:pytype="str">Verfassungsschutz warnt vor China und Russland</title>
+        <text py:pytype="str">Der Bundesverfassungsschutz wirft China und Russland vor, mit Angriffen auf Computer zunehmend deutsche Unternehmen und Organisationen und die Regierung auszuspionieren</text>
+        <description py:pytype="str">Der Bundesverfassungsschutz wirft China und Russland vor, mit Angriffen auf Computer zunehmend deutsche Unternehmen und Organisationen und die Regierung auszuspionieren</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Cyber-Angriffe</title>
+          <text py:pytype="str">Verfassungsschutz warnt vor China und Russland</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/14/spionage-computer-netzwerk" publication-date="" expires="" year="2009" issue="14">
+            <supertitle py:pytype="str">Computer-Kriminalität</supertitle>
+            <title py:pytype="str">Kanadier entdecken riesiges Spionagenetzwerk</title>
+            <text py:pytype="str">Rechner der Nato, von Außenministerien und Botschaften sollen zu Hunderten von Cyberagenten aus China gekapert worden sein</text>
+            <description py:pytype="str">Rechner der Nato, von Außenministerien und Botschaften sollen zu Hunderten von Cyberagenten aus China gekapert worden sein</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Computerkriminalität</title>
+              <text py:pytype="str">Kanadier entdecken riesiges Spionagenetzwerk</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image alt="Kabelsalat Kabel Netz Computer Netzwerk Daten" align="left" base-id="http://xml.zeit.de/bilder/2009/14/wissen/computer/computer-kabel/" type="jpg" publication-date="" expires="">
+              <bu>Je mehr Abzweigungen die Datenautobahn hat, desto leichte entkommen auch Diebe und Spione</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=178349">© ibay/Photocase</copyright>
+            </image>
+          </reference>
+        </references>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/21/streik-kitas-bayern-niedersachsen" publication-date="" expires="" year="2009" issue="21" hidden_relateds="false" hp_hide="false">
+        <supertitle py:pytype="str">Arbeitskampf</supertitle>
+        <title py:pytype="str">Erzieherinnen weiten Kita-Streiks aus</title>
+        <text py:pytype="str">Sie wollen einen besseren Gesundheitsschutz: 15.000 Erzieherinnen und Sozialarbeiter haben heute die Arbeit niedergelegt. In vielen Städten blieben Kindertagesstätten zu</text>
+        <description py:pytype="str">Sie wollen einen besseren Gesundheitsschutz: 15.000 Erzieherinnen und Sozialarbeiter haben heute die Arbeit niedergelegt. In vielen Städten blieben Kindertagesstätten zu</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Arbeitskampf</title>
+          <text py:pytype="str">Erzieherinnen weiten Kita-Streiks aus</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references/>
+        <image alt="Erzieherinnen streiken in fünf Bundesländern" align="left" base-id="http://xml.zeit.de/bilder/2009/21/politik/Deutschland/kita-1805/" type="jpg" publication-date="" expires="2009-08-19T06:00:42+00:00">
+          <bu>Lautstarker Protest in Köln</bu>
+          <copyright py:pytype="str">© Achim Scheidemann/dpa</copyright>
+        </image>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/online/2009/21/westlb-chef-hilgert-tritt-zurueck" publication-date="" expires="" year="2009" issue="21" hidden_relateds="false" hp_hide="false" pinned="false">
+        <supertitle py:pytype="str">Rücktritt</supertitle>
+        <title py:pytype="str">WestLB-Chef Hilgert gibt auf</title>
+        <text py:pytype="str">Der Chef der angeschlagenen Landesbank WestLB, Heinz Hilgert, wirft hin. Angeblich ist er über die Miteigentümer verärgert. Er leitete die Bank nur für ein Jahr</text>
+        <description py:pytype="str">Der Chef der angeschlagenen Landesbank WestLB, Heinz Hilgert, wirft hin. Angeblich ist er über die Miteigentümer verärgert. Er leitete die Bank nur für ein Jahr</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Rücktritt</title>
+          <text py:pytype="str">WestLB-Chef Hilgert gibt auf</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference type="intern" href="http://xml.zeit.de/online/2009/20/westlb-staatshilfe-eu-auflagen" publication-date="" expires="" year="2009" issue="20">
+            <supertitle py:pytype="str">Landesbanken</supertitle>
+            <title py:pytype="str">EU verordnet WestLB radikalen Umbau</title>
+            <text py:pytype="str">Schrumpfkur für die krisengeschüttelte Landesbank: Die Brüsseler Wettbewerbshüter haben Staatshilfen für die WestLB genehmigt - allerdings nur unter strengen Auflagen</text>
+            <description py:pytype="str">Schrumpfkur für die krisengeschüttelte Landesbank: Die Brüsseler Wettbewerbshüter haben Staatshilfen für die WestLB genehmigt - allerdings nur unter strengen Auflagen</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Landesbanken</title>
+              <text py:pytype="str">EU verordnet WestLB radikalen Umbau</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/20/wirtschaft/west-lb/" type="jpg" publication-date="" expires="">
+              <bu>Radikale Schrumpfkur mitten in der Krise: Die WestLB erhält die Staatshilfen nur gegen EU-Auflagen</bu>
+              <copyright py:pytype="str">© Christof Koepsel/Getty Images</copyright>
+            </image>
+          </reference>
+        </references>
+        <image alt="WestLB-Chef Hilgert tritt zurück" align="left" base-id="http://xml.zeit.de/bilder/2009/21/wirtschaft/hilgert/" type="jpg" publication-date="" expires="">
+          <bu>Zum Ende hin war er weniger erfreut: Heinz Hilgert, nur ein Jahr lang Chef der Landesbank WestLB
+
+</bu>
+          <copyright py:pytype="str">© Volker Hartmann/ddp</copyright>
+        </image>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">10</object_limit>
+  <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">News</title>
+</centerpage>

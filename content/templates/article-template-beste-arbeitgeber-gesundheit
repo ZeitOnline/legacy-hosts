@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">great-place-to-work</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-02-27T12:00:49.077793+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-02-27T12:01:52.785568+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-02-27T12:01:52.785568+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-02-27T12:00:27.049500+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.laubsch</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">great-place-to-work</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:add6c055-c086-4656-a5d5-c8babc823c9b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">9</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-1655c517-23f9-42a4-a56b-23d62a9f4a10">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-a02194ad-f8d3-4e80-8efe-78971826e02c">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/link_startseite_gptw" year="2014" issue="9" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/beste-arbeitgeber-gesundheit/" date-last-modified="2014-02-24T16:19:09+00:00" date-first-released="2014-02-24T16:20:09.032285+00:00" date-last-published="2014-02-24T16:20:09.032285+00:00" last-semantic-change="2014-02-24T16:18:58.149598+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c44d1343-affb-4ba2-b525-4854b8806afe" publisher_url="http://www.greatplacetowork.de/index.php" supertitle_url="http://www.greatplacetowork.de/index.php" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/link_gptw" year="2014" issue="9" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/beste-arbeitgeber-gesundheit/arbei/index" ns0:target="_blank" date-last-modified="2014-02-25T13:42:06+00:00" date-first-released="2014-02-24T16:14:45.503856+00:00" date-last-published="2014-02-25T13:43:06.767545+00:00" last-semantic-change="2014-02-25T13:41:58.301674+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zur Great-Place-to-Work-Studie</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/gptw-logo/gptw-logo-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-8ce3308d-a24a-4853-8d3c-9b194e000cfb">
+          <block href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/kulturwandel/index" year="2014" ressort="Angebote" contenttype="article" publication-date="2014-02-26T22:00:00+00:00" expires="2014-04-09T22:00:00+00:00" date-last-modified="2014-02-27T10:20:35+00:00" date-first-released="2014-02-26T22:01:01.271993+00:00" date-last-published="2014-02-27T10:21:34.957707+00:00" last-semantic-change="2014-02-24T18:04:58.277621+00:00">
+            <supertitle py:pytype="str">Attraktive Arbeitgeber im Gesundheits- und Sozialwesen </supertitle>
+            <title py:pytype="str">Kulturwandel</title>
+            <text py:pytype="str">Attraktive Arbeitsbedingungen sind auch für Kliniken, Pflegeeinrichtungen und soziale Dienstleister entscheidende Erfolgsfaktoren. </text>
+            <description py:pytype="str">Attraktive Arbeitsbedingungen sind auch für Kliniken, Pflegeeinrichtungen und soziale Dienstleister entscheidende Erfolgsfaktoren. </description>
+            <byline py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</byline>
+            <image base-id="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/kulturwandel/kulturwandel-bild/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-49b5d7de-68fa-45de-a98a-d9c64e1835df">
+          <block href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/chef/index" year="2014" ressort="Angebote" contenttype="article" publication-date="2014-02-26T22:00:00+00:00" expires="2014-10-03T22:00:00+00:00" date-last-modified="2014-02-27T10:52:59+00:00" date-first-released="2014-02-26T22:01:21.228378+00:00" date-last-published="2014-02-27T10:53:59.416276+00:00" last-semantic-change="2014-02-24T18:06:23.258690+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Der Chef macht für Mitarbeiter den Unterschied</title>
+            <text py:pytype="str">Die Führungs- und Unternehmenskultur entscheidet über die Wettbewerbsfähigkeit eines Krankenhauses. </text>
+            <description py:pytype="str">Die Führungs- und Unternehmenskultur entscheidet über die Wettbewerbsfähigkeit eines Krankenhauses. </description>
+            <byline py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</byline>
+            <image base-id="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/chef/chef-bild/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Verhalten von Führungskräften hat einen entscheidenden Anteil daran, wie zufrieden Mitarbeiter mit ihrer Arbeit sind. Chefs sollten deshalb laufend an ihrem Verhalten arbeiten.</bu>
+              <copyright py:pytype="str">© Skynesher – iStock.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-08bbf0e0-b169-41ea-8e1d-f109c7ff89aa">
+          <raw>
+            <span class="anzeige">Anzeige</span>
+            <div class="innerad">
+              <div class="inner">
+                <iframe src="http://jobs.zeit.de/stellenmarkt/panelframe_medizin_55983.html" width="300px" height="250px" name="jobticker"/>
+              </div>
+            </div>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-93c76b84-bd2b-4cc9-976f-ae97b9f798be">
+          <block href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/kinderzimmer/index" year="2014" ressort="Angebote" contenttype="article" publication-date="2014-02-26T22:00:00+00:00" expires="2014-04-09T22:00:00+00:00" date-last-modified="2014-02-26T22:00:34+00:00" date-first-released="2014-02-26T22:01:34.186454+00:00" date-last-published="2014-02-26T22:01:34.186454+00:00" last-semantic-change="2014-02-24T18:06:37.284171+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zwischen Büro, Kinderzimmer und Supermarkt</title>
+            <text py:pytype="str">Für viele Berufstätige ist bei der Wahl eines Arbeitsplatzes wichtig, wie gut der Job mit dem Familien- und Privatleben vereinbar ist.</text>
+            <description py:pytype="str">Für viele Berufstätige ist bei der Wahl eines Arbeitsplatzes wichtig, wie gut der Job mit dem Familien- und Privatleben vereinbar ist.</description>
+            <byline py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</byline>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-f7316e13-e5f8-41e3-8bbc-b936379643ea">
+          <block href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/strategisch-planen/index" year="2014" ressort="Angebote" contenttype="article" publication-date="2014-02-26T22:00:00+00:00" expires="2014-04-09T22:00:00+00:00" date-last-modified="2014-02-26T22:00:38+00:00" date-first-released="2014-02-26T22:01:37.677374+00:00" date-last-published="2014-02-26T22:01:37.677374+00:00" last-semantic-change="2014-02-24T18:06:55.321429+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Strategisch planen und Kontakte pflegen</title>
+            <text py:pytype="str">Eine hohe Fluktuation in seiner Belegschaft gehört für Personalchef Berhane Abraham mittlerweile zum Alltag.</text>
+            <description py:pytype="str">Eine hohe Fluktuation in seiner Belegschaft gehört für Personalchef Berhane Abraham mittlerweile zum Alltag.</description>
+            <byline py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</byline>
+            <image base-id="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/strategisch-planen/strategisch-bild1/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Personalchefs investieren längst viel Zeit in die Pflege der Kontaktdaten potenzieller Mitarbeiter. Nur
+so können sie bei Bedarf erfolgreich rekrutieren.
+</bu>
+              <copyright py:pytype="str">© jackfrog – Fotolia.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-2a98c832-c48f-4e4a-8062-2d36987270c0" publisher_url="http://marktplatz.zeit.de/clickcounter/index.php?cat=teaserschoenkliniken&amp;url=www.schoen-kliniken.de/karriere " supertitle_url="http://marktplatz.zeit.de/clickcounter/index.php?cat=teaserschoenkliniken&amp;url=www.schoen-kliniken.de/karriere " layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/schoen-klinik/link_schoen" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://marktplatz.zeit.de/clickcounter/index.php?cat=teaserschoenkliniken&amp;url=www.schoen-kliniken.de/karriere" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-27T09:24:12+00:00" date-first-released="2014-02-20T16:44:12.065093+00:00" date-last-published="2014-02-27T09:25:12.024356+00:00" last-semantic-change="2014-02-27T09:23:43.841648+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Anzeige-Schön-Klinik</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/schoen-klinik/schoen-klinik/schoen-klinik-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen GPtW</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen GPtW</title>
+  </teaser>
+</centerpage>

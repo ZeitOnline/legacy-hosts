@@ -1,0 +1,694 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lists>
+  <list id="sitemap">
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/index" class="groupleader" label="start" id="hp.global.topnav.centerpages.start">Start</link>
+      </item>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/politik/index" class="groupleader" label="politik" id="hp.global.topnav.centerpages.politik">Politik</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/politik/deutschland/index" label="deutschland" id="hp.global.topnav.centerpages.sub.politik.deutschland">Deutschland</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/politik/ausland/index" label="ausland" id="hp.global.topnav.centerpages.sub.politik.ausland">Ausland</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/wirtschaft/index" class="groupleader" label="wirtschaft" id="hp.global.topnav.centerpages.wirtschaft">Wirtschaft</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/wirtschaft/unternehmen/index" label="unternehmen" id="hp.global.topnav.centerpages.sub.wirtschaft.unternehmen">Unternehmen</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/wirtschaft/geldanlage/index" label="geldanlage" id="hp.global.topnav.centerpages.sub.wirtschaft.geldanlage">Geldanlage</link>
+        </item>
+      </list>
+    </list>
+    <!-- <list>
+      <item>
+        <link href="http://xml.zeit.de/meinung/index" class="groupleader" label="meinung" id="hp.global.topnav.centerpages.meinung">Meinung</link>
+      </item>
+    </list> -->
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/gesellschaft/index" class="groupleader" label="gesellschaft" id="hp.global.topnav.centerpages.gesellschaft">Gesellschaft</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/gesellschaft/zeitgeschehen/index" label="zeitgeschehen" id="hp.global.topnav.centerpages.sub.gesellschaft.zeitgeschehen">Zeitgeschehen</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/gesellschaft/familie/index" label="familie" id="hp.global.topnav.centerpages.sub.gesellschaft.familie">Familie</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/gesellschaft/schule/index" label="schule" id="hp.global.topnav.centerpages.sub.gesellschaft.schule">Schule</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/kultur/index" class="groupleader" label="kultur" id="hp.global.topnav.centerpages.kultur">Kultur</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/kultur/literatur/index" label="literatur" id="hp.global.topnav.centerpages.sub.kultur.literatur">Literatur</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/kultur/film/index" label="film" id="hp.global.topnav.centerpages.sub.kultur.film">Film &amp; TV</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/kultur/musik/index" label="musik" id="hp.global.topnav.centerpages.sub.kultur.musik">Musik</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/kultur/kunst/index" label="kunst" id="hp.global.topnav.centerpages.sub.kultur.kunst">Kunst</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/wissen/index" class="groupleader" label="wissen" id="hp.global.topnav.centerpages.wissen">Wissen</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/wissen/gesundheit/index" label="gesundheit" id="hp.global.topnav.centerpages.sub.wissen.gesundheit">Gesundheit</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/wissen/umwelt/index" label="umwelt" id="hp.global.topnav.centerpages.sub.wissen.umwelt">Umwelt</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/wissen/geschichte/index" label="geschichte" id="hp.global.topnav.centerpages.sub.wissen.geschichte">Geschichte</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/digital/index" class="groupleader" label="digital" id="hp.global.topnav.centerpages.digital">Digital</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/digital/internet/index" label="internet" id="hp.global.topnav.centerpages.sub.digital.internet">Internet</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/digital/datenschutz/index" label="datenschutz" id="hp.global.topnav.centerpages.sub.digital.datenschutz">Datenschutz</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/digital/mobil/index" label="mobil" id="hp.global.topnav.centerpages.sub.digital.mobil">Mobil</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/digital/games/index" label="games" id="hp.global.topnav.centerpages.sub.digital.games">Games</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/studium/index" class="groupleader" label="studium" id="hp.global.topnav.centerpages.studium">Studium</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/studium/uni-leben/index" label="uni-leben" id="hp.global.topnav.centerpages.sub.studium.uni-leben">Uni-Leben</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/studium/hochschule/index" label="hochschule" id="hp.global.topnav.centerpages.sub.studium.hochschule">Hochschule</link>
+        </item>
+        <item>
+          <link href="http://ranking.zeit.de/" label="rankings" id="hp.global.topnav.centerpages.sub.studium.uni-rankings">Uni-Rankings</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/studium/studiengaenge" label="studiengaenge" id="hp.global.topnav.centerpages.sub.studium.studiengaenge">Studiengänge</link>
+        </item>
+        <item>
+          <link href="http://studiengaenge.zeit.de/sit" label="interessentest" id="hp.global.topnav.centerpages.sub.studium.interessentest">Interessentest</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/arbeit/index" class="groupleader" label="arbeit" id="hp.global.topnav.centerpages.arbeit">Arbeit</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/karriere/bewerbung/index" label="bewerbung" id="hp.global.topnav.centerpages.sub.karriere.bewerbung">Bewerbung</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/karriere/beruf/index" label="beruf" id="hp.global.topnav.centerpages.sub.karriere.beruf">Beruf</link>
+        </item>
+        <item class="nav-verlagsmarke" parquet="no">
+          <hr/>
+          <span>Verlagsangebot</span>
+        </item>
+        <item class="nav-verlagsangebot js-nav-verlagsangebot">
+          <link href="http://jobs.zeit.de/" label="beruf" id="hp.global.topnav.centerpages.sub.karriere.stellenmarkt">Stellenmarkt</link>
+        </item>
+        <item class="nav-verlagsmarke-parquet" mainnav="no">
+          <span>Verlagsangebot</span>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/reisen/index" class="groupleader" label="reisen" id="hp.global.topnav.centerpages.reisen">Reisen</link>
+      </item>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/mobilitaet/index" class="groupleader" label="mobilitaet" id="hp.global.topnav.centerpages.mobilitaet">Mobilität</link>
+      </item>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/sport/index" class="groupleader" label="sport" id="hp.global.topnav.centerpages.sport">Sport</link>
+      </item>
+    </list>
+    <list class="">
+      <item>
+        <link href="http://xml.zeit.de/hamburg/index" class="groupleader" label="hamburg" id="hp.global.topnav.centerpages.hamburg">Hamburg</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/hamburg/politik-wirtschaft/index" id="hp.global.topnav.centerpages.sub.hamburg.politik-wirtschaft">Politik &amp; Wirtschaft</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/hamburg/stadtleben/index" id="hp.global.topnav.centerpages.sub.hamburg.stadtleben">Stadtleben</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/hamburg/kultur/index" id="hp.global.topnav.centerpages.sub.hamburg.kultur">Kultur</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/hamburg/fussball/index" id="hp.global.topnav.centerpages.sub.hamburg.fussball">Fußball</link>
+        </item>
+        <item>
+          <link href="http://blog.zeit.de/hamburg/" label="blog" id="hp.global.topnav.centerpages.sub.hamburg.blog">Blog</link>
+        </item>
+        <item>
+          <link href="http://blog.zeit.de/hamburg-veranstaltungen/" label="veranstaltungen" id="hp.global.topnav.centerpages.sub.hamburg.veranstaltungen">Veranstaltungen</link>
+        </item>
+      </list>
+    </list>
+    <list class="mainnav-item-zeitmagazin">
+      <item>
+        <link href="http://xml.zeit.de/zeit-magazin/index" class="groupleader" label="zeit-magazin" id="hp.global.topnav.centerpages.zeitmagazin">ZEITmagazin</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/zeit-magazin/mode-design/index" label="mode" id="hp.global.topnav.centerpages.sub.zeitmagazin.mode-design">Mode &amp; Design</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/zeit-magazin/essen-trinken/index" label="essen-trinken" id="hp.global.topnav.centerpages.sub.zeitmagazin.essen-trinken">Essen &amp; Trinken</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/zeit-magazin/leben/index" label="leben" id="hp.global.topnav.centerpages.sub.zeitmagazin.leben">Leben</link>
+        </item>
+      </list>
+    </list>
+  </list>
+  <list id="top-formate">
+    <item>
+      <link href="http://www.zeitabo.de/?mcwt=2009_07_0002" id="hp.global.topnav.links.abo">Abo</link>
+    </item>
+    <item>
+      <link href="http://shop.zeit.de/?et=l6VVNm&amp;et_cid=42&amp;et_lid=175&amp;et_sub=Startseite_header&amp;wt_zmc=fix.int.zshop.zeitde.topnavi.startseite.link.zeitshop.1" id="hp.global.topnav.links.shop">Shop</link>
+    </item>
+    <item>
+      <link href="https://premium.zeit.de/?wt_zmc=fix.int.zonpme.zeitde.dach.premium.text.epaper.epaper&amp;utm_medium=fix&amp;utm_source=zeitde_zonpme_int&amp;utm_campaign=dach&amp;utm_content=premium_text_epaper_epaper" id="hp.global.topnav.links.epaper">E-Paper</link>
+    </item>
+    <item>
+      <link href="https://premium.zeit.de/zeit-apps?wt_zmc=fix.int.zonpme.zeitde.dach.premium.text.apps.apps&amp;utm_medium=fix&amp;utm_source=zeitde_zonpme_int&amp;utm_campaign=dach&amp;utm_content=premium_text_apps_apps" id="hp.global.topnav.links.apps">Apps</link>
+    </item>
+    <item>
+      <link href="https://premium.zeit.de/zeit-audio?wt_zmc=fix.int.zonpme.zeitde.dach.premium.text.audio.audio&amp;utm_medium=fix&amp;utm_source=zeitde_zonpme_int&amp;utm_campaign=dach&amp;utm_content=premium_text_audio_audio " id="hp.global.topnav.links.audio">Audio</link>
+    </item>
+    <item>
+      <link href="http://www.zeit.de/archiv" id="hp.global.topnav.links.archiv">Archiv</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/spiele/index" id="hp.global.topnav.links.spiele">Spiele</link>
+    </item>
+  </list>
+  <list id="top-verlag">
+    <item>
+      <link href="http://jobs.zeit.de/" id="hp.global.topnav.links.jobs">Jobs</link>
+    </item>
+    <item>
+      <link href="http://www.zeit.de/angebote/partnersuche/index?pscode=01_100_20003_0001_0001_0005_empty_AF00ID_GV00ID" id="hp.global.topnav.links.partnersuche">Partnersuche</link>
+    </item>
+    <item>
+      <link href="http://zeit.immowelt.de/" rel="nofollow" id="hp.global.topnav.links.immobilien">Immobilien</link>
+    </item>
+    <item>
+      <link href="http://automarkt.zeit.de/" id="hp.global.topnav.links.automarkt">Automarkt</link>
+    </item>
+  </list>
+  <list id="top-magazin">
+    <item>
+      <link href="http://xml.zeit.de/campus/index" id="hp.global.topnav.links.zeitcampus">ZEITCampus</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/wissen/zeit-geschichte/index" id="hp.global.topnav.links.zeitgeschichte">ZEITGeschichte</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/wissen/zeit-wissen/index" id="hp.global.topnav.links.zeitwissen">ZEITWissen</link>
+    </item>
+  </list>
+  <list id="social-media">
+    <item>SOCIAL MEDIA:</item>
+    <item>
+      <link href="http://www.zeit.de/hilfe/hilfe#twitter" label="Twitter" id="hp.global.socialbar.twitter" target="_blank">Twitter</link>
+    </item>
+    <item>
+      <link href="http://www.facebook.com/zeitonline" label="Facebook" id="hp.global.socialbar.facebook" target="_blank">Facebook</link>
+    </item>
+    <item>
+      <link href="https://plus.google.com/u/0/107720718922832943625/posts" label="Google+" id="hp.global.socialbar.googleplus" target="_blank">Google+</link>
+    </item>
+    <item>
+      <link href="http://zeitonline.tumblr.com/" label="Tumblr" id="hp.global.socialbar.tumblr" target="_blank">Tumblr</link>
+    </item>
+  </list>
+  <list id="social-services">
+    <item>SERVICES:</item>
+    <item>
+      <link href="http://mobil.zeit.de" label="Mobil" id="hp.global.socialbar.mobil">Mobil-Angebot</link>
+    </item>
+    <item>
+      <link href=" https://premium.zeit.de/node/12344?wt_mc=pm.intern.fix.zeitde.socmzeile.digipakapp.text.iphonepadapp" label="iPhone/iPad-App" id="hp.global.socialbar.iphone-ipad-app" target="_blank">iPhone/iPad-App</link>
+    </item>
+    <item>
+      <link href="http://www.zeit.de/newsletter/index" label="Newsletter" id="hp.global.socialbar.newsletter">Newsletter</link>
+    </item>
+    <item>
+      <link href="http://www.zeit.de/hilfe/hilfe#rss" label="Hilfe: RSS" id="hp.global.socialbar.rss">RSS</link>
+    </item>
+    <item>
+      <link href="http://www.zeit.de/administratives/anleitung-startseite/anleitung-startseite" label="ZEIT ONLINE als Startseite" id="hp.global.socialbar.meinestartseite">ZEIT ONLINE als Startseite</link>
+    </item>
+    <item>
+      <link href="http://www.zeit.de/briefkasten/index.html" label="Briefkasten" id="hp.global.socialbar.briefkasten">Briefkasten</link>
+    </item>
+  </list>
+  <list id="bot-angebote">
+    <item>ANGEBOTE:</item>
+    <item>
+      <link href="http://www.zeitabo.de/?mcwt=2009_07_0002" label="ZEII-Abo">Abo</link>
+    </item>
+    <item>
+      <link href="http://shop.zeit.de/?et=l6VVNm&amp;et_cid=42&amp;et_lid=175&amp;et_sub=Startseite_footer&amp;wt_zmc=fix.int.zshop.zeitde.bottomnavi.startseite.link.zeitshop.1" label="shop">Shop</link>
+    </item>
+    <item>
+      <link href="http://www.christundwelt.de">Christ &amp; Welt</link>
+    </item>
+    <item>
+      <link href="http://zeitreisen.zeit.de/" label="reisen">ZEIT Reisen</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/angebote/schule/index" label="schule">ZEIT für die Schule</link>
+    </item>
+    <item>
+      <link href="http://www.zeitverlag.de/veranstaltungen" label="veranstaltungen">ZEIT Veranstaltungen</link>
+    </item>
+  </list>
+  <list id="bot-verlag">
+    <item>VERLAG:</item>
+    <item>
+      <link href="http://inserieren.zeit.de/zeitads/" label="Inserieren">Inserieren</link>
+    </item>
+    <item>
+      <link href="http://www.zeit-verlagsgruppe.de/anzeigen/" label="Mediadaten">Mediadaten</link>
+    </item>
+    <item>
+      <link href="http://www.zeitverlag.de/presse" label="Presse">Presse</link>
+    </item>
+    <item>
+      <link href="http://www.zeit-verlag.de/" label="Unternehmen">Unternehmen</link>
+    </item>
+    <item>
+      <link href="http://www.zeit-verlagsgruppe.de/marken-und-produkte/geschaeftskunden/artikel-nachrucke/" label="Rechte-und-Lizenzen">Rechte &amp; Lizenzen</link>
+    </item>
+  </list>
+  <list id="bot-formate">
+    <item>
+      <link href="http://www.zeit.de/index?mobile=true" label="Mobil">Mobil</link>
+    </item>
+    <item>
+      <link href="http://community.zeit.de/newsletter" label="Newsletter">Newsletter</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hilfe/hilfe#rss" label="RSS">RSS</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/blogs/index" label="Blogs">Blogs</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/foto/index" label="Foto">Foto</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/video" label="Video">Video</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/leserartikel/index" label="Leserartikel">Leserartikel</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/administratives/2010-03/netiquette" label="Netiquette">Netiquette</link>
+    </item>
+    <item>
+      <link href="http://www.zeit.de/archiv" label="Print-Archiv">Print-Archiv</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/schlagworte/index/A/index" label="Schlagworte">Schlagworte</link>
+    </item>
+    <item>
+      <link href="#bildrechte" label="bildrechte">Bildrechte</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hilfe/datenschutz" label="Datenschutz">Datenschutz</link>
+    </item>
+    <item>
+      <link href="http://www.iqm.de/Medien/Online/nutzungsbasierte_onlinewerbung.html" label="Cookies" target="_blank">Cookies</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/administratives/agb-kommentare-artikel" label="agb">AGB</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/impressum/index" label="Impressum">Impressum</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hilfe/hilfe" label="Hilfe">Hilfe / Kontakt</link>
+    </item>
+  </list>
+  <list id="bot-service">
+    <!-- 1. Spalte (von 4) -->
+    <list>
+      <item number="27">
+        <link href="http://community.zeit.de/newsletter" label="Newsletter" id="hp.global.servicebox.links.newsletter">Newsletter</link>
+      </item>
+      <item number="28">
+        <link href="https://premium.zeit.de/zeit-apps?wt_zmc=fix.int.zonpme.zeitde.servicezeile.premium.text.apps+epaper.apps+epaper&amp;utm_medium=fix&amp;utm_source=zeitde_zonpme_int&amp;utm_campaign=servicezeile&amp;utm_content=premium_text_apps+epaper_apps+epaper" label="Apps &amp; E-Paper" id="hp.global.servicebox.links.apps-epaper">Apps &amp; E-Paper</link>
+      </item>
+      <item number="20">
+        <link href="http://www.zeitabo.de/?mcwt=2009_07_0002" label="Abo-Services" id="hp.global.servicebox.links.abo-services">Abo-Services</link>
+      </item>
+      <item number="12">
+        <link href="http://www.zeitakademie.de/?mc=zeitakademie.Footer.Textlink.zeitakademie.textlink.textlink" label="BildungWeiterbildung" id="hp.global.servicebox.links.bildung-weiterbildung">ZEIT Akademie</link>
+      </item>
+      <item number="21">
+        <link href="http://marktplatz.zeit.de/kataloge/" label="Kataloge" id="hp.global.servicebox.links.kataloge">Kataloge</link>
+      </item>
+    </list>
+    <!-- 2. Spalte (von 4) -->
+    <list>
+      <item number="14">
+        <link href="http://studiengaenge.zeit.de/" label="Studiengangsuche" id="hp.global.servicebox.links.studiengangsuche">Studiengangsuche</link>
+      </item>
+      <item number="30">
+        <link href="http://xml.zeit.de/studium/rankings/index" label="Uni-Rankings" id="hp.global.servicebox.links.uni-rankings">Uni-Rankings</link>
+      </item>
+      <item number="16">
+        <link href="http://marktplatz.zeit.de/kulturveranstaltungen/?wt_zmc=fix.int.zonpmr.zeitde.parkett.kulturveranstaltungen.link.link.x&amp;utm_medium=fix&amp;utm_source=zeitde_zonpmr_int&amp;utm_campaign=parkett&amp;utm_content=kulturveranstaltungen_link_link_x" label="Kultur-Veranstaltungen" id="hp.global.servicebox.links.kulturangebote">Kultur-Veranstaltungen</link>
+      </item>
+      <item number="8">
+        <link href="https://premium.zeit.de/zeit-audio?wt_zmc=fix.int.zonpme.zeitde.servicezeile.premium.text.audio.audio&amp;utm_medium=fix&amp;utm_source=zeitde_zonpme_int&amp;utm_campaign=servicezeile&amp;utm_content=premium_text_audio_audio" label="ZEIT-Audio" id="hp.global.servicebox.links.zeit-audio">ZEIT Audio</link>
+      </item>
+      <item number="9">
+        <link href="http://xml.zeit.de/spiele/index" label="Spiele" id="hp.global.servicebox.links.spiele">Spiele</link>
+      </item>
+    </list>
+    <!-- 3. Spalte (von 4) -->
+    <list>
+      <item number="7">
+        <link href="http://automarkt.zeit.de/" label="Automarkt" id="hp.global.servicebox.links.automarkt">Automarkt</link>
+      </item>
+      <item number="1">
+        <link href="http://jobs.zeit.de/" label="Jobsuche" id="hp.global.servicebox.links.jobsuche">Jobsuche</link>
+      </item>
+      <item number="3">
+        <link href="http://www.zeit.de/angebote/partnersuche/index?pscode=01_100_20003_0001_0001_0005_empty_AF00ID_GV00ID" label="Partnersuche" id="hp.global.servicebox.links.partnersuche">Partnersuche</link>
+      </item>
+      <item number="5">
+        <link href="http://zeit.immowelt.de/" label="Immobiliensuche" id="hp.global.servicebox.links.immobiliensuche" rel="nofollow">Immobiliensuche</link>
+      </item>
+      <item number="10">
+        <link href="http://www.bellevue-ferienhaus.de/zeit/" label="ReisenUnterkuenfte" id="hp.global.servicebox.links.ferienhaeuser" rel="nofollow">Ferienhäuser</link>
+      </item>
+    </list>
+    <!-- 4. Spalte (von 4) -->
+    <list>
+      <item number="25">
+        <link href=" http://www.zeit.de/angebote/experteer/index?affiliate=affiliate_2012_97" label="Headhunter" id="hp.global.servicebox.links.headhunter">Headhunter</link>
+      </item>
+      <item number="13">
+        <link href="http://services.zeit.de/toptarif/vergleichsrechner.php" label="Tarifvergleiche" id="hp.global.servicebox.links.tarifvergleiche">Tarifvergleiche</link>
+      </item>
+      <item number="10">
+        <link href="http://marktplatz.zeit.de/urlaubsziele/?wt_mc=zeit_de.intern.servicelink.zon.urlaubsziele.zeit_blog_urlaubsziele.textlink.textlink" label="Urlaubsziele" id="hp.global.servicebox.links.urlaubsziele">Urlaubsziele</link>
+      </item>
+      <item number="6">
+        <link href="http://schach.zeit.de/" label="Schach spielen" id="hp.global.servicebox.links.schach">Schach spielen</link>
+      </item>
+      <item number="22">
+        <link href="http://www.zeit.de/angebote/senioren-ratgeber/" label="Senioren-Ratgeber" id="hp.global.servicebox.links.seniorenratgeber">Senioren-Ratgeber</link>
+      </item>
+    </list>
+  </list>
+  <list id="sitemap-bottom">
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/index" class="groupleader" label="start" id="hp.global.footernav.centerpages.start">Start</link>
+      </item>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/politik/index" class="groupleader" label="politik" id="hp.global.footernav.centerpages.politik">Politik</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/politik/deutschland/index" label="deutschland">Deutschland</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/politik/ausland/index" label="ausland">Ausland</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/wirtschaft/index" class="groupleader" label="wirtschaft" id="hp.global.footernav.centerpages.wirtschaft">Wirtschaft</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/wirtschaft/unternehmen/index" label="unternehmen">Unternehmen</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/wirtschaft/geldanlage/index" label="geldanlage">Geldanlage</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/meinung/index" class="groupleader" label="meinung" id="hp.global.footernav.centerpages.meinung">Meinung</link>
+      </item>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/gesellschaft/index" class="groupleader" label="gesellschaft" id="hp.global.footernav.centerpages.gesellschaft">Gesellschaft</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/gesellschaft/zeitgeschehen/index" label="zeitgeschehen">Zeitgeschehen</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/gesellschaft/familie/index" label="familie">Familie</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/gesellschaft/schule/index" label="schule">Schule</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/kultur/index" class="groupleader" label="kultur" id="hp.global.footernav.centerpages.kultur">Kultur</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/kultur/literatur/index" label="literatur">Literatur</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/kultur/film/index" label="film">Film &amp; TV</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/kultur/musik/index" label="musik">Musik</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/kultur/kunst/index" label="kunst">Kunst</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/wissen/index" class="groupleader" label="wissen" id="hp.global.footernav.centerpages.wissen">Wissen</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/wissen/gesundheit/index" label="gesundheit">Gesundheit</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/wissen/umwelt/index" label="umwelt">Umwelt</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/wissen/geschichte/index" label="geschichte">Geschichte</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/digital/index" class="groupleader" label="digital" id="hp.global.footernav.centerpages.digital">Digital</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/digital/internet/index" label="internet">Internet</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/digital/datenschutz/index" label="datenschutz">Datenschutz</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/digital/mobil/index" label="mobil">Mobil</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/digital/games/index" label="games">Games</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/studium/index" class="groupleader" label="studium" id="hp.global.footernav.centerpages.studium">Studium</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/studium/uni-leben/index" label="uni-leben">Uni-Leben</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/studium/hochschule/index" label="hochschule">Hochschule</link>
+        </item>
+        <item>
+          <link href="http://ranking.zeit.de/" label="rankings">Uni-Rankings</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/studium/studiengaenge" label="studiengaenge">Studiengänge</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/karriere/index" class="groupleader" label="karriere" id="hp.global.footernav.centerpages.karriere">Karriere</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/karriere/bewerbung/index" label="bewerbung">Bewerbung</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/karriere/beruf/index" label="beruf">Beruf</link>
+        </item>
+        <item class="nav-verlagsmarke">
+          <hr/>
+          <span>Verlagsangebot</span>
+        </item>
+        <item class="nav-verlagsangebot js-nav-verlagsangebot">
+          <link href="http://jobs.zeit.de/" label="beruf">Stellenmarkt</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/lebensart/index" class="groupleader" label="lebensart" id="hp.global.footernav.centerpages.lebensart">Lebensart</link>
+      </item>
+      <list>
+        <item>
+          <link href="http://xml.zeit.de/lebensart/mode/index" label="mode">Mode</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/lebensart/essen-trinken/index" label="essen-trinken">Essen &amp; Trinken</link>
+        </item>
+        <item>
+          <link href="http://xml.zeit.de/lebensart/partnerschaft/index" label="partnerschaft">Partnerschaft</link>
+        </item>
+      </list>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/reisen/index" class="groupleader" label="reisen" id="hp.global.footernav.centerpages.reisen">Reisen</link>
+      </item>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/mobilitaet/index" class="groupleader" label="mobilitaet" id="hp.global.footernav.centerpages.mobilitaet">Mobilität</link>
+      </item>
+    </list>
+    <list>
+      <item>
+        <link href="http://xml.zeit.de/sport/index" class="groupleader" label="sport" id="hp.global.footernav.centerpages.sport">Sport</link>
+      </item>
+    </list>
+  </list>
+  <list id="news-ressorts">
+    <item number="1" label="Politik">Politik</item>
+    <item number="2" label="Wirtschaft">Wirtschaft</item>
+    <item number="3" label="Meinung">Meinung</item>
+    <item number="4" label="Gesellschaft">Gesellschaft</item>
+    <item number="5" label="Kultur">Kultur</item>
+    <item number="6" label="Wissen">Wissen</item>
+    <item number="7" label="Digital">Digital</item>
+    <item number="8" label="Studium">Studium</item>
+    <item number="9" label="Karriere">Karriere</item>
+    <item number="10" label="Lebensart">Lebensart</item>
+    <item number="11" label="Reisen">Reisen</item>
+    <item number="12" label="Mobilitaet">Mobilität</item>
+    <item number="13" label="Sport">Sport</item>
+    <item number="14" label="Community">Community</item>
+  </list>
+  <list id="print-ressorts">
+    <item number="1" label="">Politik</item>
+    <item number="2" label="">Dossier</item>
+    <item number="3" label="">Wirtschaft</item>
+    <item number="4" label="">Wissen</item>
+    <item number="5" label="">Feuilleton</item>
+    <item number="6" label="">Literatur</item>
+    <item number="7" label="">Reisen</item>
+    <item number="8" label="">Chancen</item>
+    <item number="9" label="">Zeitläufte</item>
+    <item number="10" label="">ZEIT Magazin</item>
+  </list>
+  <list id="legacy-ressorts">
+    <item ressort="auto">mobilitaet</item>
+  </list>
+  <list id="hamburg-navigation">
+    <item>
+      <link href="http://xml.zeit.de/index" label="start" id="hp.hh.topnav.centerpages.start./index">Start</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hamburg/index" label="hamburg" id="hp.hh.topnav.centerpages.hamburg./hamburg/index">Hamburg</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hamburg/politik-wirtschaft/index" label="politik-wirtschaft" id="hp.hh.topnav.centerpages.powi./hamburg/politik-wirtschaft/index">Politik &amp; Wirtschaft</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hamburg/stadtleben/index" label="stadtleben" id="hp.hh.topnav.centerpages.stadtleben./hamburg/stadtleben/index">Stadtleben</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hamburg/kultur/index" label="kultur" id="hp.hh.topnav.centerpages.kultur./hamburg/kultur/index">Kultur</link>
+    </item>
+    <item>
+      <link href="http://xml.zeit.de/hamburg/fussball/index" label="fussball" id="hp.hh.topnav.centerpages.fussball./hamburg/fussball/index">Fußball</link>
+    </item>
+    <item>
+      <link href="http://blog.zeit.de/hamburg/" class="blog-hamburg" label="blog" id="hp.hh.topnav.centerpages.blog./hamburg/">Blog</link>
+    </item>
+    <item>
+      <link href="http://blog.zeit.de/hamburg-veranstaltungen/" class="blog-veranstaltungen" label="veranstaltungen" id="hp.hh.topnav.centerpages.veranstaltungen./hamburg-veranstaltungen/">Veranstaltungen</link>
+    </item>
+  </list>
+</lists>

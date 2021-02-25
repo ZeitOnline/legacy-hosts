@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage>
+  <head>
+    <!-- Angaben zum Dokument -->
+    <id>
+      <!-- die eineindeutige ID des Dokuments -->
+      <uniqueid>cms:/cms/work/index</uniqueid>
+    </id>
+    <attribute name="supertitle" ns="http://namespaces.zeit.de/CMS/document">News Channel</attribute>
+    <!-- Dachzeile/Spitzmarke -->
+    <!-- ggF. mehrere -->
+    <attribute name="date-last-modified" ns="http://namespaces.zeit.de/CMS/document">9.1.2008 - 10:13</attribute>
+    <!-- Schlagworte -->
+    <!-- manuell vergeben Schlagworte -->
+    <keywordset>
+      <!-- wenn source=='auto', dann automatisch vergebenes Schlagwort -->
+      <keyword intaxo="no" source="auto">DIE ZEIT</keyword>
+      <keyword intaxo="no" source="auto">ZEIT ONLINE</keyword>
+      <keyword intaxo="no" source="auto">Nachrichten</keyword>
+      <keyword intaxo="no" source="auto">Politik</keyword>
+      <keyword intaxo="no" source="auto">Wirtschaft</keyword>
+      <keyword intaxo="no" source="auto">Kultur</keyword>
+      <keyword intaxo="no" source="auto">Wissensschaft</keyword>
+      <keyword source="manual">Kommentare</keyword>
+      <keyword source="manual">Analysen</keyword>
+      <keyword source="manual">Themen</keyword>
+    </keywordset>
+    <!-- Statusausk&#252;nfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">10110</attribute>
+    <!-- die Anzahl der erfolgten &#196;nderungen, wird derzeit benutzt um Resourcenkonflikte zu verhindern - bei jedem Schreiben wird eins hochgesetzt - will einer eine alte Version schreiben, wird das unterbunden -->
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords">DIE ZEIT; ZEIT ONLINE;Nachrichten;Kommentare;Analysen;Themen; Politik;Wirtschaft;Kultur;Wissensschaft</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume">06</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">pohr</attribute>
+    <references>
+      <reference type="intern" href="cms:/cms/work/online/2007/35/bg-republikaner" year="2007" issue="35">
+        <title>Justizminister tritt zurück</title>
+        <description>Die Macht des US-Präsidenten zerbröselt, immer mehr Mitarbeiter verlassen seine Regierungsmannschaft. Neuester Flüchtling ist Justizminister Alberto Gonzales. Galerie</description>
+      </reference>
+    </references>
+  </head>
+  <body>
+    <container id="hp-aufmacher" label="" layout="channel" priority="">
+      <block layout="big" priority="" href="cms:/cms/work/online/2008/02/clinton-gewinnt-new-hampshire" id="" sticky="">
+        <!-- make layout="big" fuer 450x200 Bild -->
+        <supertitle>US-Vorwahlen</supertitle>
+        <title>Sieg für Clinton und McCain</title>
+        <text>Überraschung bei den Demokraten, offenes Rennen unter den Republikanern: Der Wettkampf der US-Präsidentschaftskandidaten wird spannend. Ein Kommentar</text>
+        <byline>Von Gero von Randow</byline>
+        <short>
+          <title>US-Vorwahlen</title>
+          <text>Clinton unter Druck</text>
+        </short>
+        <related>
+          <block href="http://www.zeit.de/news/artikel/2008/01/09/2452892.xml">
+            <title>New Hampshire</title>
+            <text>Hillarys Comeback</text>
+          </block>
+          <!--block href="http://www.zeit.de/video/player?videoID=20080109323741">
+            <title>Video</title>
+            <text>&#220;berraschung bei den Vorwahlen</text>
+          </block>
+          <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-wahl-usa">
+            <title>Wer wird es?</title>
+            <text>Aussichtsreiche Anw&#228;rter auf die Bush-Nachfolge</text>
+          </block-->
+        </related>
+        <image base-id="/cms/work/bilder/site07/test/testbild" type="jpg" expires="2100-01-01" src="/cms/work/bilder/site07/test/testbild-210x210.jpg"><bu>Democratic presidential hopeful and New York Senator Hillary Clinton celebrates her victory in the state primary 08 January 2008 in Manchester, New Hampshire.  AFP PHOTO/Stan HONDA (Photo credit should read STAN HONDA/AFP/Getty Images)</bu><copyright>© STAN HONDA/AFP/Getty Images</copyright>
+          BILD
+        </image>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+</centerpage>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-05-21T07:40:06.884215+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-05-14T08:04:44.368618+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-05-21T07:42:55.441791+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-05-21T07:40:11.367990+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-05-21T07:37:57.892098+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">olympus</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:a8a75808-2ed5-4574-83dd-de7763aa0ae0}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-0b888517-7f6f-4b27-b03e-2106d0337b54">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-fd3c82cc-7f9f-4a74-a5ff-c8a88b6859c3" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/olympus/cyow" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.createyourownworld.de/" ns0:target="_blank" date-last-modified="2013-05-14T07:51:36+00:00" date-first-released="2013-05-14T07:52:23.538538+00:00" date-last-published="2013-05-14T07:52:23.538538+00:00" last-semantic-change="2013-05-14T07:51:10.558686+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Create Your Own World</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/olympus/cyow-logo/cyow-logo-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f26f7d71-ee0e-450e-b000-fee3deca8c44">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/olympus/link_startseite" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/olympus" ns0:target="_blank" date-last-modified="2013-05-14T07:57:59+00:00" date-first-released="2013-05-14T07:58:47.099589+00:00" date-last-published="2013-05-14T07:58:47.099589+00:00" last-semantic-change="2013-05-14T07:57:15.350673+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-99e89568-b7be-4314-9be3-f64744ae41ef">
+          <block href="http://xml.zeit.de/angebote/olympus/contest/index" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-21T07:39:05+00:00" date-first-released="2013-05-13T15:29:21.235846+00:00" date-last-published="2013-05-21T07:37:49.370251+00:00" last-semantic-change="2013-05-21T07:38:42.614410+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">OLYMPUS OM-D: PHOTOGRAPHY CONTEST</title>
+            <text py:pytype="str">Ambitionierte Fotografen zeigen beim Fotowettbewerb „Create Your Own World“ Ihre Visionen, Momente, Ideen – eingefangen mit Fantasie, Kreativität und der OLYMPUS OM-D. </text>
+            <description py:pytype="str">Ambitionierte Fotografen zeigen beim Fotowettbewerb „Create Your Own World“ Ihre Visionen, Momente, Ideen – eingefangen mit Fantasie, Kreativität und der OLYMPUS OM-D. </description>
+            <byline py:pytype="str">OLYMPUS OM-D: ist ein Angebot der Olympus Deutschland GmbH. Für den Inhalt ist die Olympus Deutschland GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/olympus/contest/OM-D_E-M5_HKvisual_people__Mood_005/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© OLYMPUS</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-7913c7d8-f351-44e6-8afd-b2b2ffaaccf6">
+          <block href="http://xml.zeit.de/angebote/olympus/playground/index" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-21T07:41:57+00:00" date-first-released="2013-05-13T14:54:29.949786+00:00" date-last-published="2013-05-21T07:42:35.412260+00:00" last-semantic-change="2013-05-21T07:41:24.654399+00:00">
+            <supertitle py:pytype="str">Faszinierend</supertitle>
+            <title py:pytype="str">OLYMPUS OM-D: PHOTOGRAPHY PLAYGROUND</title>
+            <text py:pytype="str">Im Herzen Berlins präsentieren 12 internationale Künstler und Kollektive im Rahmen einer einzigartigen Ausstellung Ihre Interpretationen zum Thema „Raum und Kunst“.</text>
+            <description py:pytype="str">Im Herzen Berlins präsentieren 12 internationale Künstler und Kollektive im Rahmen einer einzigartigen Ausstellung Ihre Interpretationen zum Thema „Raum und Kunst“.</description>
+            <byline py:pytype="str">OLYMPUS OM-D: ist ein Angebot der Olympus Deutschland GmbH. Für den Inhalt ist die Olympus Deutschland GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/olympus/playground/kim_poerksen_sven_meyer/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-1521486e-108b-4dbb-bc5a-f5a163f0dbdd">
+          <block href="http://xml.zeit.de/angebote/olympus/systemkamera-om-d/index" year="2013" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-21T07:25:45+00:00" date-first-released="2013-05-13T16:05:56.203522+00:00" date-last-published="2013-05-21T07:19:15.670889+00:00" last-semantic-change="2013-05-21T07:25:13.502361+00:00">
+            <supertitle py:pytype="str">Kontrollieren, kreieren, auslösen</supertitle>
+            <title py:pytype="str">Die Systemkamera OLYMPUS OM-D</title>
+            <text py:pytype="str">Sie hat die Ausstattung und Qualität einer Spiegelreflex-Kamera und überrascht mit innovativen Features. Die OLYMPUS OM-D ist gemacht um zu begeistern.</text>
+            <description py:pytype="str">Sie hat die Ausstattung und Qualität einer Spiegelreflex-Kamera und überrascht mit innovativen Features. Die OLYMPUS OM-D ist gemacht um zu begeistern.</description>
+            <byline py:pytype="str">OLYMPUS OM-D: ist ein Angebot der Olympus Deutschland GmbH. Für den Inhalt ist die Olympus Deutschland GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/olympus/systemkamera-om-d/om-d_black/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">OM-D</bu>
+              <copyright py:pytype="str">© OLYMPUS</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline>OLYMPUS OM-D: ist ein Angebot der Olympus Deutschland GmbH. Für den Inhalt ist die Olympus Deutschland GmbH verantwortlich.</byline>
+    <title>Artikel Rahmen Olympus</title>
+    <subtitle>OLYMPUS OM-D: ist ein Angebot der Olympus Deutschland GmbH. Für den Inhalt ist die Olympus Deutschland GmbH verantwortlich.</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Olympus</title>
+    <text>OLYMPUS OM-D: ist ein Angebot der Olympus Deutschland GmbH. Für den Inhalt ist die Olympus Deutschland GmbH verantwortlich.</text>
+  </teaser>
+</centerpage>

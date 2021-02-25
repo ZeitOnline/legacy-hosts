@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-01-14T13:46:45.432026+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-01-12T16:54:30.375753+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-01-14T13:46:53.859729+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-01-14T13:47:53.809871+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-01-14T13:43:29.978709+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-01-14T13:46:42.243494+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">cunard-kreuzfahrten</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:0fc0455a-3f7a-4cea-8115-59d083cbe488}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">2</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-ab7c9b22-fda4-4624-bc63-835401fb1c0f">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-0a742f63-02a4-4e96-a7ad-461d2fb3e3e7">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-startseite-cunard" uniqueId="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-startseite-cunard" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/cunard-kreuzfahrten/index" date-last-modified="2015-01-12T17:06:51+00:00" date-first-released="2015-01-12T17:07:51.510286+00:00" date-last-published="2015-01-12T17:07:51.510286+00:00" last-semantic-change="2015-01-12T17:06:14.753944+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-acfc911c-b294-47d2-b201-df9bcf947dd5" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-extern" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://www.cunard.de/" ns0:target="_blank" ns0:rel="nofollow" uniqueId="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-extern" date-last-modified="2015-01-12T16:25:54+00:00" date-first-released="2015-01-12T16:26:54.396607+00:00" date-last-published="2015-01-12T16:26:54.396607+00:00" last-semantic-change="2015-01-12T16:25:35.765941+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zu Cunard Kreuzfahrten</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/cunard-kreuzfahrten/cunard-logo-neu/cunard-logo-neu-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-0a892b7b-495f-4834-8b49-11ca3cf0b1d6">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-kreuzfahrtsuche" uniqueId="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-kreuzfahrtsuche" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://www.cunard.de/kplaner/KS/index.php" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-01-13T14:25:13+00:00" date-first-released="2015-01-12T16:47:45.418607+00:00" date-last-published="2015-01-13T14:26:12.783975+00:00" last-semantic-change="2015-01-13T14:25:03.007420+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Kreuzfahrtsuche</title>
+            <text py:pytype="str">Mit nur wenigen Klicks zu Ihrer Traumreise. </text>
+            <description py:pytype="str">Mit nur wenigen Klicks zu Ihrer Traumreise. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/cunard-kreuzfahrten/kreuzfahrtsuche/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-7cab1930-eeda-4bce-9480-2191855abd22">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-angebote" uniqueId="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-angebote" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://www.cunard.de/angebote/index.php" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-01-14T13:43:10+00:00" date-first-released="2015-01-12T16:50:50.681405+00:00" date-last-published="2015-01-14T13:44:10.203127+00:00" last-semantic-change="2015-01-14T13:43:01.865662+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Aktuelle Angebote</title>
+            <text py:pytype="str">Einzigartige Reisen und einzigartige Gelegenheiten.</text>
+            <description py:pytype="str">Einzigartige Reisen und einzigartige Gelegenheiten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/cunard-kreuzfahrten/angebote/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-9411d23b-a98b-4619-9c1c-8f74d39ec03f">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-newsletter" uniqueId="http://xml.zeit.de/angebote/cunard-kreuzfahrten/link-cunard-newsletter" year="2015" issue="2" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://www.cunard.de/newsletter/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-01-14T09:54:46+00:00" date-first-released="2015-01-12T16:53:30.518084+00:00" date-last-published="2015-01-13T15:26:10.616867+00:00" last-semantic-change="2015-01-14T09:44:21.482783+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Newsletter</title>
+            <text py:pytype="str">Neuigkeiten, Angebote und mehr – registrieren Sie sich jetzt!</text>
+            <description py:pytype="str">Neuigkeiten, Angebote und mehr – registrieren Sie sich jetzt!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/cunard-kreuzfahrten/newsletter/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-6c709e96-4567-482f-a2de-7c4a75e900b3">
+          <raw>
+            <iframe width="320" height="180" src="//www.youtube.com/embed/YAiR-OwsU0c" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline>Cunard Kreuzfahrten : ist ein Angebot der Cunard Line. Diese ist für den Inhalt verantwortlich.</byline>
+    <title>Artikel Rahmen Cunard Kreuzfahrten</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Cunard Kreuzfahrten</title>
+  </teaser>
+</centerpage>

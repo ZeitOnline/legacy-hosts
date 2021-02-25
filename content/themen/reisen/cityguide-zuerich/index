@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <keywordset>
+      <keyword py:pytype="str" source="manual">staedtereise</keyword>
+      <keyword py:pytype="str" source="manual">reise</keyword>
+      <keyword py:pytype="str" source="manual">schweiz</keyword>
+    </keywordset>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-zuerich/header-ts-zuerich" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>©    </copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image align="left" base-id="http://xml.zeit.de/reisen/2012-02/zuerich-bild/" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© Mike Hewitt/Getty Images</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T07:43:31.821432+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-02-13T16:32:44.498204+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T07:45:12.749797+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-06-14T09:31:05.893404+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-11-27</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Zürich | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T07:43:15.847596+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2013-11-30</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">66</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:82c096b4-4ab3-41ae-ab7d-df6538780148}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="506f6f3b-22e6-411d-8e8a-514f2dcc47fe">
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Roesti" year="2012" issue="7" ressort="Lebensart" publication-date="" expires="" date-last-modified="2014-03-18T07:39:03+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:03.051490+00:00" last-semantic-change="2012-02-21T06:15:28.870496+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Harmonisches Geschnetzeltes der Schweizer</title>
+            <text py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</text>
+            <description py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</description>
+            <byline py:pytype="str">Von Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/peter-brunner-reblaube-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Peter Brunner steht in seinem Restaurant Kaiser's Reblaube selbst am Herd. Das Geschnetzelte mit Rösti steht immer auf der Karte.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:01+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.179175+00:00" last-semantic-change="2012-02-27T10:04:45.746570+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+            <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+            <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+              <copyright py:pytype="str">© Hotel Helvetia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Nachtleben" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.811314+00:00" last-semantic-change="2012-02-10T14:42:25.812656+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">"Ich vermisse Courage!"</title>
+            <text py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</text>
+            <description py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/tom-rist-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tom Rist hinter der Bühne seines Helsinkiclubs in Zürich. Jeden Sonntag spielt hier dieselbe Band.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2011-09/Humorrestaurant" year="2011" issue="37" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-12-03T18:26:21+00:00" date-first-released="2011-09-14T11:35:12.957750+00:00" date-last-published="2013-12-03T19:27:50+00:00" last-semantic-change="2011-09-13T14:08:18.136656+00:00" contenttype="article" author="Verena Mayer">
+            <supertitle py:pytype="str">Kunstprojekt</supertitle>
+            <title py:pytype="str">Herr Ober, ich lache! </title>
+            <text py:pytype="str">Byung Chul Kim betreibt in Zürich ein Restaurant, in dem man mit Humor bezahlt. Ob Dada-Gedicht oder Affentanz: Seine Gäste sollen sein Essen mit Kreativität belohnen. </text>
+            <description py:pytype="str">Byung Chul Kim betreibt in Zürich ein Restaurant, in dem man mit Humor bezahlt. Ob Dada-Gedicht oder Affentanz: Seine Gäste sollen sein Essen mit Kreativität belohnen. </description>
+            <byline py:pytype="str">Verena Mayer</byline>
+            <image base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-09/koch-humorrestaurant/" type="jpg" title="humorrestaurant-zürich-bild" alt="Künstler und Koch Byung Chul Kim " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Künstler und Koch Byung Chul Kim vor seinem Humor-Restaurant in Zürich</bu>
+              <copyright py:pytype="str">© Verena Mayer</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Verena_Mayer">
+              <display_name>Verena Mayer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7fd72a23-5b94-4a64-b582-3364695d510d">
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-West" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:56+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:56.184390+00:00" last-semantic-change="2013-09-18T13:37:32.097799+00:00" contenttype="article" serie="City Guide" author="Verena Mayer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Die Entdeckung von Zürich-West</title>
+            <text py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</text>
+            <description py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</description>
+            <byline py:pytype="str">Von Verena Mayer</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/prime-tower-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zürich von oben gesehen: Blick aus der Lounge des neuen Prime Tower im 35. Stock</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Verena_Mayer" publication-date="" expires="">
+              <display_name py:pytype="str">Verena Mayer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerichsee" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:49+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:49.037468+00:00" last-semantic-change="2012-02-21T18:26:48.308835+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Wasserspiele, fast wie am Meer</title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Julia Jentsch zieht es immer wieder an den Zürichsee. Oben drauf mit ihrem Ruderboot oder ans Ufer zum Theaterspektakel im August.</text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Julia Jentsch zieht es immer wieder an den Zürichsee. Oben drauf mit ihrem Ruderboot oder ans Ufer zum Theaterspektakel im August.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerichsee-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Utoquai auf den Zürichsee, im Hintergrund der Uetliberg, Zürichs Hausberg</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Lindenhof" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-07-11T14:59:32+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:55.611800+00:00" last-semantic-change="2012-02-24T18:04:31.580941+00:00" contenttype="article" serie="City Guide" author="Peer Teuwsen">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Lindenhof, die kleine Freiheit zwischendurch</title>
+            <text py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</text>
+            <description py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</description>
+            <byline py:pytype="str">Von Peer Teuwsen</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-lindenhof/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Lindenhof über den Dächern der Altstadt gehört im Sommer den Boulespielern, im Winter den Touristen.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Peer_Teuwsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Peer Teuwsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Nachtleben" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.811314+00:00" last-semantic-change="2012-02-10T14:42:25.812656+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">"Ich vermisse Courage!"</title>
+            <text py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</text>
+            <description py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/tom-rist-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tom Rist hinter der Bühne seines Helsinkiclubs in Zürich. Jeden Sonntag spielt hier dieselbe Band.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f748f697-7ae6-4618-9669-f72ee34adeec">
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerichsee" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:49+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:49.037468+00:00" last-semantic-change="2012-02-21T18:26:48.308835+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Wasserspiele, fast wie am Meer</title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Julia Jentsch zieht es immer wieder an den Zürichsee. Oben drauf mit ihrem Ruderboot oder ans Ufer zum Theaterspektakel im August.</text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Julia Jentsch zieht es immer wieder an den Zürichsee. Oben drauf mit ihrem Ruderboot oder ans Ufer zum Theaterspektakel im August.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerichsee-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Utoquai auf den Zürichsee, im Hintergrund der Uetliberg, Zürichs Hausberg</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-West" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:56+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:56.184390+00:00" last-semantic-change="2013-09-18T13:37:32.097799+00:00" contenttype="article" serie="City Guide" author="Verena Mayer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Die Entdeckung von Zürich-West</title>
+            <text py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</text>
+            <description py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</description>
+            <byline py:pytype="str">Von Verena Mayer</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/prime-tower-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zürich von oben gesehen: Blick aus der Lounge des neuen Prime Tower im 35. Stock</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Verena_Mayer" publication-date="" expires="">
+              <display_name py:pytype="str">Verena Mayer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:01+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.179175+00:00" last-semantic-change="2012-02-27T10:04:45.746570+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+            <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+            <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+              <copyright py:pytype="str">© Hotel Helvetia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="6d3aab83-22dc-4ac7-b551-8194bed3b7c1">
+          <block href="http://xml.zeit.de/reisen/2012-02/city-guide-zuerich-restauranttipps" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:44+00:00" date-first-released="2012-02-15T09:34:55.462391+00:00" date-last-published="2014-03-13T00:48:11+00:00" last-semantic-change="2012-02-10T14:10:25.291367+00:00" contenttype="article" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Restaurant-Tipps der Redaktion </title>
+            <text py:pytype="str">Erstklassige Produkte zwischen Kantine, Lounge und Industriekulisse: Diese drei Restaurants empfiehlt unser Restauranttester Michael Allmaier in Zürich.</text>
+            <description py:pytype="str">Erstklassige Produkte zwischen Kantine, Lounge und Industriekulisse: Diese drei Restaurants empfiehlt unser Restauranttester Michael Allmaier in Zürich.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-clouds/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Clouds liegt im 35. Stock des Prime Tower.</bu>
+              <copyright py:pytype="str">© clouds.ch</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Roesti" year="2012" issue="7" ressort="Lebensart" publication-date="" expires="" date-last-modified="2014-03-18T07:39:03+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:03.051490+00:00" last-semantic-change="2012-02-21T06:15:28.870496+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Harmonisches Geschnetzeltes der Schweizer</title>
+            <text py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</text>
+            <description py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</description>
+            <byline py:pytype="str">Von Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/peter-brunner-reblaube-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Peter Brunner steht in seinem Restaurant Kaiser's Reblaube selbst am Herd. Das Geschnetzelte mit Rösti steht immer auf der Karte.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Shoppingtipps" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:02.383476+00:00" last-semantic-change="2012-03-02T17:26:13.087633+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Geschmackvoll eigensinnig</title>
+            <text py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</text>
+            <description py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</description>
+            <byline py:pytype="str">von</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-selection/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Sissi Zoebelis Label &amp;quot;Thema Selection&amp;quot; besteht seit 1971 und ist beliebt bei der Zürcher Prominenz.</bu>
+              <copyright py:pytype="str">© Thema Selection</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Lindenhof" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-07-11T14:59:32+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:55.611800+00:00" last-semantic-change="2012-02-24T18:04:31.580941+00:00" contenttype="article" serie="City Guide" author="Peer Teuwsen">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Lindenhof, die kleine Freiheit zwischendurch</title>
+            <text py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</text>
+            <description py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</description>
+            <byline py:pytype="str">Von Peer Teuwsen</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-lindenhof/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Lindenhof über den Dächern der Altstadt gehört im Sommer den Boulespielern, im Winter den Touristen.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Peer_Teuwsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Peer Teuwsen</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f91d04b4-384e-43bd-b7af-ba4e58b20bc6">
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Lindenhof" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-07-11T14:59:32+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:55.611800+00:00" last-semantic-change="2012-02-24T18:04:31.580941+00:00" contenttype="article" serie="City Guide" author="Peer Teuwsen">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Lindenhof, die kleine Freiheit zwischendurch</title>
+            <text py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</text>
+            <description py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</description>
+            <byline py:pytype="str">Von Peer Teuwsen</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-lindenhof/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Lindenhof über den Dächern der Altstadt gehört im Sommer den Boulespielern, im Winter den Touristen.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Peer_Teuwsen/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Peer Teuwsen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Nachtleben" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.811314+00:00" last-semantic-change="2012-02-10T14:42:25.812656+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">"Ich vermisse Courage!"</title>
+            <text py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</text>
+            <description py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/tom-rist-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tom Rist hinter der Bühne seines Helsinkiclubs in Zürich. Jeden Sonntag spielt hier dieselbe Band.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Roesti" year="2012" issue="7" ressort="Lebensart" publication-date="" expires="" date-last-modified="2014-03-18T07:39:03+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:03.051490+00:00" last-semantic-change="2012-02-21T06:15:28.870496+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Harmonisches Geschnetzeltes der Schweizer</title>
+            <text py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</text>
+            <description py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</description>
+            <byline py:pytype="str">Von Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/peter-brunner-reblaube-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Peter Brunner steht in seinem Restaurant Kaiser's Reblaube selbst am Herd. Das Geschnetzelte mit Rösti steht immer auf der Karte.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:01+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.179175+00:00" last-semantic-change="2012-02-27T10:04:45.746570+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+            <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+            <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+              <copyright py:pytype="str">© Hotel Helvetia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Shoppingtipps" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:02.383476+00:00" last-semantic-change="2012-03-02T17:26:13.087633+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Geschmackvoll eigensinnig</title>
+            <text py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</text>
+            <description py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</description>
+            <byline py:pytype="str">von</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-selection/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Sissi Zoebelis Label &amp;quot;Thema Selection&amp;quot; besteht seit 1971 und ist beliebt bei der Zürcher Prominenz.</bu>
+              <copyright py:pytype="str">© Thema Selection</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7b92978d-47ec-4e5b-a999-deb4157354e4">
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:01+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.179175+00:00" last-semantic-change="2012-02-27T10:04:45.746570+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+            <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+            <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+              <copyright py:pytype="str">© Hotel Helvetia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Shoppingtipps" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:02.383476+00:00" last-semantic-change="2012-03-02T17:26:13.087633+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Geschmackvoll eigensinnig</title>
+            <text py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</text>
+            <description py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</description>
+            <byline py:pytype="str">von</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-selection/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Sissi Zoebelis Label &amp;quot;Thema Selection&amp;quot; besteht seit 1971 und ist beliebt bei der Zürcher Prominenz.</bu>
+              <copyright py:pytype="str">© Thema Selection</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Roesti" year="2012" issue="7" ressort="Lebensart" publication-date="" expires="" date-last-modified="2014-03-18T07:39:03+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:03.051490+00:00" last-semantic-change="2012-02-21T06:15:28.870496+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Harmonisches Geschnetzeltes der Schweizer</title>
+            <text py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</text>
+            <description py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</description>
+            <byline py:pytype="str">Von Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/peter-brunner-reblaube-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Peter Brunner steht in seinem Restaurant Kaiser's Reblaube selbst am Herd. Das Geschnetzelte mit Rösti steht immer auf der Karte.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Nachtleben" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.811314+00:00" last-semantic-change="2012-02-10T14:42:25.812656+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">"Ich vermisse Courage!"</title>
+            <text py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</text>
+            <description py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/tom-rist-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tom Rist hinter der Bühne seines Helsinkiclubs in Zürich. Jeden Sonntag spielt hier dieselbe Band.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="2258d0be-50b0-426b-9e9f-713889d62b1b">
+          <block href="http://xml.zeit.de/reisen/2012-02/city-guide-zuerich-hoteltipps" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:38:50+00:00" date-first-released="2012-02-13T16:55:36.880698+00:00" date-last-published="2014-03-13T01:41:32+00:00" last-semantic-change="2012-03-06T17:41:20.708001+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Eine Kneipe als Lobby oder Windhunde zu den Füßen: Hoteltester Tomas Niederberghaus hat in Zürich nach Hotels mit Charakter gesucht. Diese vier hat er gefunden.</text>
+            <description py:pytype="str">Eine Kneipe als Lobby oder Windhunde zu den Füßen: Hoteltester Tomas Niederberghaus hat in Zürich nach Hotels mit Charakter gesucht. Diese vier hat er gefunden.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-kafischnaps/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Sympathische Low-Budget-Herberge: das Hotel Kafischnaps</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:01+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.179175+00:00" last-semantic-change="2012-02-27T10:04:45.746570+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+            <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+            <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+              <copyright py:pytype="str">© Hotel Helvetia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-West" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:56+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:56.184390+00:00" last-semantic-change="2013-09-18T13:37:32.097799+00:00" contenttype="article" serie="City Guide" author="Verena Mayer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Die Entdeckung von Zürich-West</title>
+            <text py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</text>
+            <description py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</description>
+            <byline py:pytype="str">Von Verena Mayer</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/prime-tower-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zürich von oben gesehen: Blick aus der Lounge des neuen Prime Tower im 35. Stock</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Verena_Mayer" publication-date="" expires="">
+              <display_name py:pytype="str">Verena Mayer</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Nachtleben" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.811314+00:00" last-semantic-change="2012-02-10T14:42:25.812656+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">"Ich vermisse Courage!"</title>
+            <text py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</text>
+            <description py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/tom-rist-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tom Rist hinter der Bühne seines Helsinkiclubs in Zürich. Jeden Sonntag spielt hier dieselbe Band.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="d804e91c-8ac2-4cf8-b1d9-aee7d39b651e">
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Shoppingtipps" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:02.383476+00:00" last-semantic-change="2012-03-02T17:26:13.087633+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Geschmackvoll eigensinnig</title>
+            <text py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</text>
+            <description py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</description>
+            <byline py:pytype="str">von</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-selection/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Sissi Zoebelis Label &amp;quot;Thema Selection&amp;quot; besteht seit 1971 und ist beliebt bei der Zürcher Prominenz.</bu>
+              <copyright py:pytype="str">© Thema Selection</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:01+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.179175+00:00" last-semantic-change="2012-02-27T10:04:45.746570+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+            <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+            <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+              <copyright py:pytype="str">© Hotel Helvetia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Nachtleben" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.811314+00:00" last-semantic-change="2012-02-10T14:42:25.812656+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">"Ich vermisse Courage!"</title>
+            <text py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</text>
+            <description py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/tom-rist-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tom Rist hinter der Bühne seines Helsinkiclubs in Zürich. Jeden Sonntag spielt hier dieselbe Band.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Roesti" year="2012" issue="7" ressort="Lebensart" publication-date="" expires="" date-last-modified="2014-03-18T07:39:03+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:03.051490+00:00" last-semantic-change="2012-02-21T06:15:28.870496+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Harmonisches Geschnetzeltes der Schweizer</title>
+            <text py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</text>
+            <description py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</description>
+            <byline py:pytype="str">Von Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/peter-brunner-reblaube-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Peter Brunner steht in seinem Restaurant Kaiser's Reblaube selbst am Herd. Das Geschnetzelte mit Rösti steht immer auf der Karte.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="1e9dc8bb-99e1-4478-be26-21dc80e899d2">
+          <block href="http://xml.zeit.de/reisen/2012-02/city-guide-zuerich-im-netz" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:38:51+00:00" date-first-released="2012-02-13T16:39:16.697793+00:00" date-last-published="2013-12-03T10:58:48+00:00" last-semantic-change="2012-02-15T07:42:09.261969+00:00" contenttype="article" serie="City Guide" author="Mareike Nieberding">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Zürich im Netz</title>
+            <text py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Zürich. Wir stellen die Besten vor.</text>
+            <description py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Zürich. Wir stellen die Besten vor.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich/" type="jpg" alt="Zürich bei Nacht" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zürich bei Nacht</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Mareike_Nieberding" publication-date="" expires="">
+              <display_name py:pytype="str">Mareike Nieberding</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Nachtleben" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:02+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.811314+00:00" last-semantic-change="2012-02-10T14:42:25.812656+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">"Ich vermisse Courage!"</title>
+            <text py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</text>
+            <description py:pytype="str">Gastfreundschaft in der Olé-Bar, Schnaps in der Bar 36, Schanklieder von Musu in Meyer's Bar: Eine Nacht mit Tom Rist, Betreiber des Helsinkiclubs in Zürich-West</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/tom-rist-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Tom Rist hinter der Bühne seines Helsinkiclubs in Zürich. Jeden Sonntag spielt hier dieselbe Band.</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:01+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:01.179175+00:00" last-semantic-change="2012-02-27T10:04:45.746570+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+            <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+            <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+              <copyright py:pytype="str">© Hotel Helvetia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-West" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-03-18T07:39:56+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2014-03-18T07:40:56.184390+00:00" last-semantic-change="2013-09-18T13:37:32.097799+00:00" contenttype="article" serie="City Guide" author="Verena Mayer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Die Entdeckung von Zürich-West</title>
+            <text py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</text>
+            <description py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</description>
+            <byline py:pytype="str">Von Verena Mayer</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/prime-tower-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zürich von oben gesehen: Blick aus der Lounge des neuen Prime Tower im 35. Stock</bu>
+              <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Verena_Mayer" publication-date="" expires="">
+              <display_name py:pytype="str">Verena Mayer</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="6295c949-938f-4c7b-aa33-7a0d65033e0e">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="ce649aaa-d863-4c2f-83e6-03233a78b879">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-70dbd7e7-ce00-41ff-b146-66ddb8c76299" title="City Guide London: Hier möchte man wohnen" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/reisen/2012-07/link-themenseite-city-guide-london" year="2012" issue="27" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-london" date-last-modified="2012-07-02T11:54:34+00:00" date-first-released="2012-07-02T11:11:05.484423+00:00" date-last-published="2012-07-02T11:11:05.484423+00:00" last-semantic-change="2012-07-02T11:54:27.487955+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide London</supertitle>
+            <title py:pytype="str">Mit London möchte man sein Leben verbringen</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatklubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatklubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2012-06/cityguide-london/cityguide-london-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-de7f93bd-029f-4580-ae51-6d8ffe0df17d" visible="True">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2011-11/link-themenseite-istanbul" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" ns1:href="http://www.zeit.de/themen/reisen/cityguide-istanbul/" date-last-modified="2012-07-02T11:25:49+00:00" date-first-released="2011-11-30T14:49:16.172391+00:00" date-last-published="2011-11-30T14:49:16.172391+00:00" last-semantic-change="2011-12-01T17:33:07.322168+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Eine Metropole voller Kulturschätze</title>
+            <text py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </text>
+            <description py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/moschee-istanbul-city-guide/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-05/link-city-guide-lissabon" year="2012" issue="21" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-lissabon/index" date-last-modified="2012-05-22T10:19:57+00:00" date-first-released="2012-05-22T10:20:56.748772+00:00" date-last-published="2012-05-22T10:20:56.748772+00:00" last-semantic-change="2012-05-22T10:19:37.926155+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide</supertitle>
+            <title py:pytype="str">Lissabons schönste Seiten</title>
+            <text py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</text>
+            <description py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-05/lissabon-foto/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-43ca19a8-3874-48ac-8ddb-54dd94da53fc" layout="368x110" title="City Guide Paris: Die Schöne an der Seine">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-paris/index" year="2011" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-02-13T03:15:07+00:00" date-first-released="2011-12-01T17:32:28.316568+00:00" date-last-published="2014-02-13T03:16:04.873777+00:00" last-semantic-change="2013-06-14T09:50:43.722790+00:00" contenttype="centerpage-2009">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Paris</title>
+            <text py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </text>
+            <description py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/paris-themenseite/" type="jpg" title="Paris Themenseite" align="left" publication-date="" expires="">
+              <bu py:pytype="str">A picture taken on November 12, 2011 in Paris, shows a youth dancing on the Parvis des droits de l'homme (Human rights Esplanade at the Trocadero) and the Eiffel tower.    AFP PHOTO / LIONEL BONAVENTURE (Photo credit should read LIONEL BONAVENTURE/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Lionel Bonaventure/AFP/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2011-11/paris-themenseite/paris-themenseite-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-4cbb665f-3c6d-456d-9d6d-e64666a66396" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-10/city-guide-prag-link" year="2012" issue="43" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-prag/index" date-last-modified="2012-10-24T08:12:59+00:00" date-first-released="2012-10-23T14:42:05.719589+00:00" date-last-published="2012-10-24T08:13:59.347590+00:00" last-semantic-change="2012-10-24T07:41:19.887580+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide </supertitle>
+            <title py:pytype="str">Prag – schön, alt und ziemlich schräg</title>
+            <text py:pytype="str">Im City Guide fahren wir Tram mit dem Schriftsteller Jaroslav Rudiš, essen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</text>
+            <description py:pytype="str">Im City Guide fahren wir Tram mit dem Schriftsteller Jaroslav Rudiš, essen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/kampa-prag/" type="jpg" alt="Ein Herbsttag auf der Halbinsel Kampa" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Herbsttag auf der Halbinsel Kampa</bu>
+              <copyright py:pytype="str">© Reuters / Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg-link" year="2012" issue="36" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-hamburg/index" date-last-modified="2012-08-31T16:16:38+00:00" date-first-released="2012-08-31T16:17:38.612593+00:00" date-last-published="2012-08-31T16:17:38.612593+00:00" last-semantic-change="2012-08-31T16:16:17.757348+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburg dreht sich ums Wasser</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-4c01b0a3-a2f3-45d2-a5a0-58e37e10d192" layout="368x110" title="City Guide Barcelona: Design und heitere Leichtigkeit">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-barcelona/index" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-07-17T07:30:26+00:00" date-first-released="2011-10-18T17:10:45.652671+00:00" date-last-published="2014-07-17T07:31:24.555799+00:00" last-semantic-change="2014-07-17T07:29:58.725968+00:00" contenttype="centerpage-2009" serie="City Guide">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Barcelona</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/themenseite-barcelona-city-guide-2/" type="jpg" title="Themenseite Barcelona City Guide 2" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Barcelona, SPAIN:  A view of the front of Catalan architect Antoni Gaudi's unfinished cathedral La Sagrada Familia in Barcelona, 07 June 2006. Religious services will be able to take place in the nave by 2008, the construction committee said Wednesday.   AFP PHOTO/CESAR RANGEL  (Photo credit should read CESAR RANGEL/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Cesar Rangel/AFP/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2011-10/themenseite-barcelona-city-guide-2/themenseite-barcelona-city-guide-2-368x110.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle xsi:nil="true"/>
+    <title>City Guide Zürich</title>
+    <subtitle>Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2012-02/city-guide-zuerich-im-netz" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Mareike Nieberding">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Zürich im Netz</title>
+      <text py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Zürich. Wir stellen die Besten vor.</text>
+      <description py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Zürich. Wir stellen die Besten vor.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich/" type="jpg" alt="Zürich bei Nacht" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Zürich bei Nacht</bu>
+        <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Mareike_Nieberding" publication-date="" expires="">
+        <display_name py:pytype="str">Mareike Nieberding</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/City-Guide-Shoppingtipps" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Geschmackvoll eigensinnig</title>
+      <text py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</text>
+      <description py:pytype="str">Röcke für Männer, Feinkost im "Kolonialwaren"-Laden, Vinyl für Zuhause: Zürich bietet dem Shoppingherz alles, von eigenwilliger Mode bis zu nostalgischem Genuss.</description>
+      <byline py:pytype="str">von</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-selection/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Sissi Zoebelis Label &amp;quot;Thema Selection&amp;quot; besteht seit 1971 und ist beliebt bei der Zürcher Prominenz.</bu>
+        <copyright py:pytype="str">© Thema Selection</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2012-02/city-guide-zuerich-hoteltipps" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Tomas Niederberghaus">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Hoteltipps der Redaktion</title>
+      <text py:pytype="str">Eine Kneipe als Lobby oder Windhunde zu den Füßen: Hoteltester Tomas Niederberghaus hat in Zürich nach Hotels mit Charakter gesucht. Diese vier hat er gefunden.</text>
+      <description py:pytype="str">Eine Kneipe als Lobby oder Windhunde zu den Füßen: Hoteltester Tomas Niederberghaus hat in Zürich nach Hotels mit Charakter gesucht. Diese vier hat er gefunden.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-kafischnaps/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Sympathische Low-Budget-Herberge: das Hotel Kafischnaps</bu>
+        <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/City-Guide-Hotel-Helvetia" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Tomas Niederberghaus">
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Ein Hotel wie ein rockiges Schweizer Uhrwerk</title>
+      <text py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</text>
+      <description py:pytype="str">Edel, souverän und rockig: Das Hotel Helvetia in Zürich ist bezahlbar und trotzdem sehr stilvoll. Darauf einen Drink unter der Käseglockenlampe.</description>
+      <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/hotel-helvetia/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Lichtes Eckzimmer im Hotel Helvetia, ein bisschen Dandy-chic, ein bisschen rockig</bu>
+        <copyright py:pytype="str">© Hotel Helvetia</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Lindenhof" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Peer Teuwsen">
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Lindenhof, die kleine Freiheit zwischendurch</title>
+      <text py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</text>
+      <description py:pytype="str">Schachspieler, Verliebte, Touristen: Wo früher Frauen Zürich verteidigten, ist die Stadt heute leicht und luftig. Der Lindenhof ist ein Ort für kleine Freiheiten.</description>
+      <byline py:pytype="str">Von Peer Teuwsen</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-lindenhof/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Lindenhof über den Dächern der Altstadt gehört im Sommer den Boulespielern, im Winter den Touristen.</bu>
+        <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Peer_Teuwsen/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Peer Teuwsen</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2012-02/city-guide-zuerich-restauranttipps" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Restaurant-Tipps der Redaktion </title>
+      <text py:pytype="str">Erstklassige Produkte zwischen Kantine, Lounge und Industriekulisse: Diese drei Restaurants empfiehlt unser Restauranttester Michael Allmaier in Zürich.</text>
+      <description py:pytype="str">Erstklassige Produkte zwischen Kantine, Lounge und Industriekulisse: Diese drei Restaurants empfiehlt unser Restauranttester Michael Allmaier in Zürich.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerich-clouds/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Clouds liegt im 35. Stock des Prime Tower.</bu>
+        <copyright py:pytype="str">© clouds.ch</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-Roesti" year="2012" issue="7" ressort="Lebensart" serie="City Guide" contenttype="article" publication-date="" expires="" author="Michael Allmaier">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Harmonisches Geschnetzeltes der Schweizer</title>
+      <text py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</text>
+      <description py:pytype="str">Knusprig, pappig und in sämiger Soße: Beim Zürcher Geschnetzelten mit Rösti beweist sich der Schweizer Sinn für Harmonie. Michael Allmaier hat das Stammgericht probiert.</description>
+      <byline py:pytype="str">Von Michael Allmaier</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/peter-brunner-reblaube-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Peter Brunner steht in seinem Restaurant Kaiser's Reblaube selbst am Herd. Das Geschnetzelte mit Rösti steht immer auf der Karte.</bu>
+        <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/City-Guide-Zuerichsee" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Wasserspiele, fast wie am Meer</title>
+      <text py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Julia Jentsch zieht es immer wieder an den Zürichsee. Oben drauf mit ihrem Ruderboot oder ans Ufer zum Theaterspektakel im August.</text>
+      <description py:pytype="str">Mein Wohnzimmer: Die Schauspielerin Julia Jentsch zieht es immer wieder an den Zürichsee. Oben drauf mit ihrem Ruderboot oder ans Ufer zum Theaterspektakel im August.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/cg-zuerichsee-2/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Blick vom Utoquai auf den Zürichsee, im Hintergrund der Uetliberg, Zürichs Hausberg</bu>
+        <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/City-Guide-Zuerich-West" year="2012" issue="7" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Verena Mayer">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Zürich</supertitle>
+      <title py:pytype="str">Die Entdeckung von Zürich-West</title>
+      <text py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</text>
+      <description py:pytype="str">Verbraucht, verbaut, verführerisch: Der Stadtteil Zürich-West feiert Erfolge als großstädtische Anti-Idylle. Nirgendwo ist das kleine Zürich so sehr Großstadt wie hier.</description>
+      <byline py:pytype="str">Von Verena Mayer</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-02/prime-tower-cg-zuerich/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Zürich von oben gesehen: Blick aus der Lounge des neuen Prime Tower im 35. Stock</bu>
+        <copyright py:pytype="str" link="http://www.christiangrund.ch/">© Christian Grund für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/M/Verena_Mayer" publication-date="" expires="">
+        <display_name py:pytype="str">Verena Mayer</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">City Guide Zürich</title>
+    <text py:pytype="str">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </text>
+  </teaser>
+</centerpage>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-04-23T14:25:57.588930+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-03-01T16:05:35.256313+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-04-23T14:27:05.424167+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-04-23T14:25:32.972014+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">laureus</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:d08a2e1d-0a0a-43f7-a386-965cfd4b5691}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-38713efd-cd30-4747-bd4f-aaa236d9ed89">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-50fac2e9-32b1-424d-bfb2-c5d85d708f57">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/laureus/link_startseite" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/laureus" ns0:target="_blank" date-last-modified="2013-03-01T16:03:56+00:00" date-first-released="2013-03-01T16:04:56.455245+00:00" date-last-published="2013-03-01T16:04:56.455245+00:00" last-semantic-change="2013-03-01T16:03:25.544060+00:00" contenttype="link">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-d74fd16d-a3be-453a-8493-7b48e7f3f764" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/laureus/link_zu_laureus" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.laureus.de/" ns0:target="_blank" date-last-modified="2013-03-01T15:39:22+00:00" date-first-released="2013-03-01T15:40:21.829239+00:00" date-last-published="2013-03-01T15:40:21.829239+00:00" last-semantic-change="2013-03-01T15:06:38.804538+00:00" contenttype="link">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Laureus Sport for Good Stiftung</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/laureus/bilder/laureus_logo_wob/laureus_logo_wob-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-c8f6a9bc-b20d-4182-b0e7-310addfa1057">
+          <block href="http://xml.zeit.de/angebote/laureus/laureus_foundation" year="2013" ressort="Angebote" publication-date="" expires="" date-last-modified="2013-04-03T00:02:29+00:00" date-first-released="2013-03-04T10:58:03.066562+00:00" date-last-published="2013-04-03T02:03:33+00:00" last-semantic-change="2013-03-07T16:00:11.786410+00:00" contenttype="article">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Laureus Foundation Germany</title>
+            <text py:pytype="str">Die Philosophie und die Projekte der Laureus Sport for Good Stiftung Deutschland/Österreich im Überblick.</text>
+            <description py:pytype="str">Die Philosophie und die Projekte der Laureus Sport for Good Stiftung Deutschland/Österreich im Überblick.</description>
+            <byline py:pytype="str">Laureus News: ist ein Angebot der Lau­reus Sport for Good Stif­tung. Für den Inhalt ist die Lau­reus Sport for Good Stif­tung verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/laureus/bilder/kickformore_2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="21c3df00-5699-4d60-aec5-e7262bbda818">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/laureus/link_archiv" year="2013" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/laureus/archiv" ns0:target="_blank" date-last-modified="2013-04-23T14:05:49+00:00" date-first-released="2013-04-23T14:06:49.630044+00:00" date-last-published="2013-04-23T14:06:49.630044+00:00" last-semantic-change="2013-04-23T14:05:23.441479+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">News-Archiv</title>
+            <text py:pytype="str">Hier finden Sie noch mehr Neuigkeiten der Laureus Sport for Good Stiftung!</text>
+            <description py:pytype="str">Hier finden Sie noch mehr Neuigkeiten der Laureus Sport for Good Stiftung!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/laureus/bilder/archiv_laureus/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Laureus</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-4a114978-fb50-474a-965a-a3795b644361">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="http://www.youtube-nocookie.com/v/tXQt-0CEs7M?hl=de_DE&amp;version=3"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="http://www.youtube-nocookie.com/v/tXQt-0CEs7M?hl=de_DE&amp;version=3" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline py:pytype="str">Laureus News: ist ein Angebot der Lau­reus Sport for Good Stif­tung. Für den Inhalt ist die Lau­reus Sport for Good Stif­tung verantwortlich.</byline>
+    <title>Artikel Rahmen Laureus</title>
+    <subtitle>Laureus News: ist ein Angebot der Lau­reus Sport for Good Stif­tung. Für den Inhalt ist die Lau­reus Sport for Good Stif­tung verantwortlich.</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Laureus</title>
+    <text py:pytype="str">Laureus News: ist ein Angebot der Lau­reus Sport for Good Stif­tung. Für den Inhalt ist die Lau­reus Sport for Good Stif­tung verantwortlich.</text>
+  </teaser>
+</centerpage>

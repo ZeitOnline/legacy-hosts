@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image align="left" src="http://xml.zeit.de/themen/lebensart/lust-auf-stadt/header-ts-stadtlust" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© Spencer Platt/Getty Images</copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image align="left" title="Themenwoche &quot;Lust auf Stadt&quot;" base-id="http://xml.zeit.de/lebensart/2012-09/stadtlust-teaser/" type="jpg" publication-date="" expires="" title_local="Themenwoche &quot;Lust auf Stadt&quot;" caption_local="Stadtraum mit hoher Lebensqualität: eine ruhige Restaurantterrasse in Chicago">
+      <bu py:pytype="str">Stadtraum mit hoher Lebensqualität: eine ruhige Restaurantterrasse in Chicago</bu>
+      <copyright py:pytype="str">© Tasos Katopodis/Getty Images for Grey Goose</copyright>
+    </image>
+    <keywordset>
+      <keyword py:pytype="str" source="manual">stadt</keyword>
+      <keyword py:pytype="str" source="manual">stadtplanung</keyword>
+      <keyword py:pytype="str" source="manual">garten</keyword>
+      <keyword py:pytype="str" source="manual">natur</keyword>
+      <keyword py:pytype="str" source="manual">lebensstil</keyword>
+      <keyword py:pytype="str" source="manual">alltag</keyword>
+    </keywordset>
+    <badges>
+      <badge py:pytype="str">gallery</badge>
+      <badge py:pytype="str">video</badge>
+    </badges>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2017-09-14T06:29:51.624430+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-09-10T06:01:03.816323+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2017-09-14T06:29:55.640652+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2017-09-14T06:29:55.594443+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-04-26T10:42:23.482715+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-23</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Lust auf Stadt | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-04-26T10:41:25.046164+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2013-12-12</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schnerring</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">886086570</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2012-09-10T06:00:00+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Lebensart</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">130</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:9aa7223a-1e4d-4218-8aad-a0eb3a084f4f}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">35</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-cc934829-7ac1-4b48-9199-39ed55397283">
+          <block href="http://xml.zeit.de/lebensart/2012-09/lust-auf-stadt-leserkommentare" year="2012" issue="38" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-25T14:57:40+00:00" date-first-released="2012-09-16T14:14:52.660827+00:00" date-last-published="2013-07-25T14:58:40.180933+00:00" last-semantic-change="2012-09-16T14:14:52.660827+00:00" contenttype="article">
+            <supertitle py:pytype="str">Lust auf Stadt</supertitle>
+            <title py:pytype="str">Stadt ist, was du daraus machst</title>
+            <text py:pytype="str">Stadt- und Landleben lassen sich vereinen, sagen viele unserer Leser: Wer seine Umgebung mitgestalte, der könne die Vorteile beider Lebensweisen genießen.</text>
+            <description py:pytype="str">Stadt- und Landleben lassen sich vereinen, sagen viele unserer Leser: Wer seine Umgebung mitgestalte, der könne die Vorteile beider Lebensweisen genießen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="High Line Park" base-id="http://xml.zeit.de/lebensart/2012-09/highline-park/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Beete im New Yorker High Line Park, die auf einer stillgelegten U-Bahn-Strecke angelegt wurden.</bu>
+              <copyright py:pytype="str">© Spencer Platt / Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-75e54258-54a5-4c4c-8921-707d48dbe81e">
+          <block href="http://xml.zeit.de/lebensart/2012-11/zwischennutzung-stadtentwicklung-prinzessinnengaerten" year="2012" issue="45" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-06-20T15:10:53+00:00" date-first-released="2012-11-09T11:40:50.354391+00:00" date-last-published="2013-04-28T13:09:19+00:00" last-semantic-change="2012-11-09T11:41:51.036124+00:00" contenttype="article">
+            <supertitle py:pytype="str">Prinzessinnengarten</supertitle>
+            <title py:pytype="str">Gekommen, um wieder zu gehen</title>
+            <text py:pytype="str">Zwischennutzer können verwaiste Stadträume neu beleben. Doch wenn sie erfolgreich sind, droht bald der Verkauf. Wie Städte und Projekte damit umgehen, schreibt A. Haeming</text>
+            <description py:pytype="str">Zwischennutzer können verwaiste Stadträume neu beleben. Doch wenn sie erfolgreich sind, droht bald der Verkauf. Wie Städte und Projekte damit umgehen, schreibt A. Haeming</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Hamburger Gängeviertel" base-id="http://xml.zeit.de/lebensart/2012-11/hamburger-gaengeviertel/" type="jpg" publication-date="" expires="2013-02-06T07:17:59+00:00">
+              <bu py:pytype="str">In Hamburg verhandeln die Stadt und eine Genossenschaft der Zwischennutzer derzeit über die Zukunft des Gängeviertels. </bu>
+              <copyright py:pytype="str">© Maurizio Gambarini/dpa/lno</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c436992f-b748-434e-bdfa-7e0a77fef9af">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-eisenhuettenstadt" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:21+00:00" date-first-released="2012-09-10T08:02:09.445423+00:00" date-last-published="2013-04-28T14:59:30+00:00" last-semantic-change="2012-09-10T07:42:41.361717+00:00" contenttype="article">
+            <supertitle py:pytype="str">Eisenhüttenstadt</supertitle>
+            <title py:pytype="str">Eine Stadt wartet auf ihre Pointe</title>
+            <text py:pytype="str">Mehr als alles andere braucht Eisenhüttenstadt Einwohner. Die Stadt versucht es mit Ansiedlungspolitik. Kann auch die Geschichte ein Standortfaktor sein? Von C. Bangel</text>
+            <description py:pytype="str">Mehr als alles andere braucht Eisenhüttenstadt Einwohner. Die Stadt versucht es mit Ansiedlungspolitik. Kann auch die Geschichte ein Standortfaktor sein? Von C. Bangel</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-09/eisenhuettenstadt-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Straße der Republik in Eisenhüttenstadt</bu>
+              <copyright py:pytype="str" link="http://www.flickr.com/photos/ehstadtbild/7216643418/">Fotos (CC): Ben Kaden</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-58a92f87-802a-48a0-a66a-c322901ca124">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-smellscapes-geruch-nase" year="2012" issue="35" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-06-20T16:29:59+00:00" date-first-released="2012-09-11T10:10:45.768352+00:00" date-last-published="2013-06-20T16:30:58.500193+00:00" last-semantic-change="2012-09-11T10:11:00.017775+00:00" contenttype="article">
+            <supertitle py:pytype="str">Smellscapes</supertitle>
+            <title py:pytype="str">Die Stadt mit der Nase entdecken</title>
+            <text py:pytype="str">Sie meinen, nur Landluft rieche gut? Dann braucht Ihre Nase eine Schulung! Urbane Smellscape-Projekte erweitern unsere Wahrnehmung. Von Rabea Weihser</text>
+            <description py:pytype="str">Sie meinen, nur Landluft rieche gut? Dann braucht Ihre Nase eine Schulung! Urbane Smellscape-Projekte erweitern unsere Wahrnehmung. Von Rabea Weihser</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-09/stadtlust-riechen-waschsalon/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Warmes Waschpulver, Baumwolle, Weichspüler, Münzgeld: Sissel Tolaas erforscht die olfaktorische Welt des Waschsalons.</bu>
+              <copyright py:pytype="str">© Courtesy: Grand Arts, Kansas City, USA</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f018f495-ce78-4af5-b394-2577e793babf">
+          <block href="http://xml.zeit.de/lebensart/2012-09/lust-auf-stadt-stadtleben" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-24T13:30:53+00:00" date-first-released="2012-09-10T07:59:46.357295+00:00" date-last-published="2013-07-24T13:31:53.065692+00:00" last-semantic-change="2012-09-10T08:08:17.669582+00:00" contenttype="article">
+            <supertitle py:pytype="str">Lust auf Stadt</supertitle>
+            <title py:pytype="str">Das gute Leben bleibt urban</title>
+            <text py:pytype="str">Das Land ist ein Sehnsuchtsort, doch die Zukunft liegt in der Stadt. Denn hier ist Raum für Mensch, Natur und Ideen – man muss ihn sich nur nehmen. Von Maria Exner</text>
+            <description py:pytype="str">Das Land ist ein Sehnsuchtsort, doch die Zukunft liegt in der Stadt. Denn hier ist Raum für Mensch, Natur und Ideen – man muss ihn sich nur nehmen. Von Maria Exner</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Themenwoche &quot;Lust auf Stadt&quot;" base-id="http://xml.zeit.de/lebensart/2012-09/stadtlust-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Stadtraum mit hoher Lebensqualität: eine ruhige Restaurantterrasse in Chicago</bu>
+              <copyright py:pytype="str">© Tasos Katopodis/Getty Images for Grey Goose</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fcf5ad4b-a6ea-4a3a-bd6b-9f56badcf05a">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-fahrrad-mobilitaet" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:22+00:00" date-first-released="2012-09-16T12:29:35.691366+00:00" date-last-published="2013-04-28T14:46:37+00:00" last-semantic-change="2012-09-16T12:28:17.980115+00:00" contenttype="article">
+            <supertitle py:pytype="str">Fahrrad in der Stadt</supertitle>
+            <title py:pytype="str">Mit dem Rad durch offene Türen</title>
+            <text py:pytype="str">Mit unseren Fahrrädern können wir die Welt retten – und dabei sogar noch Spaß haben, schreibt die Fahrradforscherin Jane Pirone im Gastbeitrag.</text>
+            <description py:pytype="str">Mit unseren Fahrrädern können wir die Welt retten – und dabei sogar noch Spaß haben, schreibt die Fahrradforscherin Jane Pirone im Gastbeitrag.</description>
+            <byline xsi:nil="true"/>
+            <image alt="New York: Radfahrer während einer Demonstration in New York" align="left" base-id="http://xml.zeit.de/lebensart/2012-08/stadtlust-fahrradfahren/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">New York: Radfahrer während einer Demonstration in New York</bu>
+              <copyright py:pytype="str">©  Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-be28ecfd-e4a4-4430-9b61-336f835abe53">
+          <block href="http://xml.zeit.de/lebensart/2012-09/leserartikel-stadt-gemeinschaftskueche" year="2012" issue="37" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:33+00:00" date-first-released="2012-09-13T13:54:38.180009+00:00" date-last-published="2013-04-28T14:50:32+00:00" last-semantic-change="2012-09-13T10:17:12.397174+00:00" contenttype="article">
+            <supertitle py:pytype="str">Lust auf Stadt</supertitle>
+            <title py:pytype="str">Niemand soll alleine essen müssen</title>
+            <text py:pytype="str">Gegen die Einsamzeit in der Großstadt wünscht sich unsere Leserin Susanne Schmidt Gemeinschaftsküchen. Dort könne man preiswert essen und gleichzeitig Kontakte pflegen.</text>
+            <description py:pytype="str">Gegen die Einsamzeit in der Großstadt wünscht sich unsere Leserin Susanne Schmidt Gemeinschaftsküchen. Dort könne man preiswert essen und gleichzeitig Kontakte pflegen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Abendessen" base-id="http://xml.zeit.de/lebensart/2012-09/leserartikel-stadt-essen/" type="jpg" publication-date="" expires="2012-10-12T09:14:12+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© jala / photocase.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-02af5a22-37b9-449b-8623-aea4cbf7a8c7">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-holz-haus-bauen" year="2012" issue="35" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:24+00:00" date-first-released="2012-09-15T13:02:06.130522+00:00" date-last-published="2013-04-28T14:47:33+00:00" last-semantic-change="2012-09-15T13:00:52.481140+00:00" contenttype="article">
+            <supertitle py:pytype="str">Bauen mit Holz</supertitle>
+            <title py:pytype="str">Atmende Fassaden statt Platte</title>
+            <text py:pytype="str">Holz ist ein nachwachsender Baustoff, speichert CO2 und ist behaglich. Warum in der Stadt damit bislang wenig gebaut wurde, erklärt der Architekt Michael Lommertz.</text>
+            <description py:pytype="str">Holz ist ein nachwachsender Baustoff, speichert CO2 und ist behaglich. Warum in der Stadt damit bislang wenig gebaut wurde, erklärt der Architekt Michael Lommertz.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Das hölzerne Stadthaus im Londoner Stadtteil Hackney " align="left" base-id="http://xml.zeit.de/lebensart/2012-08/stadthaus-london/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Das hölzerne Stadthaus im Londoner Stadtteil Hackney </bu>
+              <copyright py:pytype="str">© Will Pryce</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-60325f98-cced-4336-921c-8e4cf7d75133">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-gruener-klimawandel" year="2012" issue="35" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:23+00:00" date-first-released="2012-09-15T06:37:46.403256+00:00" date-last-published="2013-04-28T14:48:09+00:00" last-semantic-change="2012-09-15T06:35:15.927749+00:00" contenttype="article">
+            <supertitle py:pytype="str">Grüne Stadt</supertitle>
+            <title py:pytype="str">Klimaanlagen mit Wurzeln und Laub</title>
+            <text py:pytype="str">Städte müssen grüner werden, schreibt der Architekt und Designtheoretiker Friedrich von Borries. Dann seien sie eine Antwort auf den Klimawandel und soziale Probleme.</text>
+            <description py:pytype="str">Städte müssen grüner werden, schreibt der Architekt und Designtheoretiker Friedrich von Borries. Dann seien sie eine Antwort auf den Klimawandel und soziale Probleme.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-08/park-foto/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ein Mann spaziert durch einen Park in Zürich.</bu>
+              <copyright py:pytype="str">© REUTERS/Arnd Wiegmann</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-be7131e0-3487-4a14-a377-7a893b78046c">
+          <block href="http://xml.zeit.de/video/2012-08/1811692236001" type="video" year="2012" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-11-09T13:03:31+00:00" date-first-released="2012-09-14T09:48:38+00:00" date-last-published="2012-11-09T13:04:31.471259+00:00" last-semantic-change="2012-11-09T12:53:11+00:00" contenttype="video">
+            <supertitle py:pytype="str">Stille</supertitle>
+            <title py:pytype="str">Wo die Metropole zur Ruhe kommt</title>
+            <text py:pytype="str">Berlin ist schnell, laut und trendy, doch die Metropole hat auch viele Gegenpole: Orte des Rückzugs, der Versenkung, der Stille.</text>
+            <description py:pytype="str">Berlin ist schnell, laut und trendy, doch die Metropole hat auch viele Gegenpole: Orte des Rückzugs, der Versenkung, der Stille.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1813057150001_stille.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1813057143001_stille.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f2823a7b-381f-41ac-a89b-27c8ec9675a0">
+          <block href="http://xml.zeit.de/lebensart/2012-09/leserartikel-muenchen-buergerinitiativen" year="2012" issue="37" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:32+00:00" date-first-released="2012-09-15T15:24:17.581275+00:00" date-last-published="2013-04-28T14:47:33+00:00" last-semantic-change="2012-09-15T15:22:58.451157+00:00" contenttype="article">
+            <supertitle py:pytype="str">München</supertitle>
+            <title py:pytype="str">Der Münchner Grant ist seltener geworden</title>
+            <text py:pytype="str">Verkehrsberuhigte Plätze, engagierte Bürger, Orte zum Verweilen – so stellt sich Leserin I. Sinning ihre Stadt München vor. Teilweise gibt es das schon, schreibt sie.</text>
+            <description py:pytype="str">Verkehrsberuhigte Plätze, engagierte Bürger, Orte zum Verweilen – so stellt sich Leserin I. Sinning ihre Stadt München vor. Teilweise gibt es das schon, schreibt sie.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Isar, München" base-id="http://xml.zeit.de/gesellschaft/2012-09/isar/" type="jpg" publication-date="" expires="2012-10-12T15:09:09+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1c2e1478-33e1-4c77-958e-14861b8a9d98">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-seilbahn" year="2012" issue="35" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:27+00:00" date-first-released="2012-09-16T08:40:27.935822+00:00" date-last-published="2013-04-28T14:46:36+00:00" last-semantic-change="2012-09-16T08:38:01.363132+00:00" contenttype="article">
+            <supertitle py:pytype="str">Seilbahn</supertitle>
+            <title py:pytype="str">Leise über den Dächern reisen</title>
+            <text py:pytype="str">Mit der Seilbahn erobert ein Transportmittel die Stadt, das bisher vor allem Bergwelten erschlossen hat. In London und Berlin soll sie nun Verkehrsprobleme lösen.</text>
+            <description py:pytype="str">Mit der Seilbahn erobert ein Transportmittel die Stadt, das bisher vor allem Bergwelten erschlossen hat. In London und Berlin soll sie nun Verkehrsprobleme lösen.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die Emirates Airline in London, genannt Gondola" align="left" title="Emirates Air Line London" base-id="http://xml.zeit.de/lebensart/2012-09/london-seilbahn/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Emirates Airline in London, genannt Gondola</bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-609c1585-fc39-4a0c-bf09-732bcd8ef2c6">
+          <block href="http://xml.zeit.de/kultur/film/2012-08/lust-auf-stadt-film" year="2012" issue="33" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-07-18T08:51:19+00:00" date-first-released="2012-09-14T08:04:31.801940+00:00" date-last-published="2013-04-28T14:49:45+00:00" last-semantic-change="2012-09-14T08:03:17.136707+00:00" contenttype="article">
+            <supertitle py:pytype="str">Städte im Film</supertitle>
+            <title py:pytype="str">Paris von unten, New York von innen</title>
+            <text py:pytype="str">Wer vor der Leinwand sitzt, kann mehr über das Leben großer Metropolen lernen als jeder Tourist. Wenn Sie fremde Städte in Ruhe erleben wollen, schauen Sie diese Filme.</text>
+            <description py:pytype="str">Wer vor der Leinwand sitzt, kann mehr über das Leben großer Metropolen lernen als jeder Tourist. Wenn Sie fremde Städte in Ruhe erleben wollen, schauen Sie diese Filme.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die Espaces d'Abraxas des Spanischen Architekten Ricardo Bofill im Osten von Paris kennt man aus &quot;Brazil&quot;." align="left" base-id="http://xml.zeit.de/kultur/film/2012-08/stadt-im-film/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Espaces d'Abraxas des Spanischen Architekten Ricardo Bofill im Osten von Paris kennt man aus &amp;quot;Brazil&amp;quot;.</bu>
+              <copyright py:pytype="str">© MICHEL RUBINEL/AFP/GettyImages</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f758f7d0-9e85-42a0-8de7-4968c2749cac">
+          <block href="http://xml.zeit.de/lebensart/2012-09/leserartikel-hamburg-autos" year="2012" issue="37" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-25T14:02:12+00:00" date-first-released="2012-09-16T11:10:56.016633+00:00" date-last-published="2013-07-25T14:03:12.129742+00:00" last-semantic-change="2012-09-16T11:29:44.166774+00:00" contenttype="article">
+            <supertitle py:pytype="str">Hamburg</supertitle>
+            <title py:pytype="str">Autos raus aus Ottensen!</title>
+            <text py:pytype="str">Nur mit Fahrrad, zu Fuß oder mit dem Bus in den Hamburger Stadtteil Ottensen: Das fordert Leser Mark Max Henckel. Autos müssten direkt an der Autobahn bleiben.</text>
+            <description py:pytype="str">Nur mit Fahrrad, zu Fuß oder mit dem Bus in den Hamburger Stadtteil Ottensen: Das fordert Leser Mark Max Henckel. Autos müssten direkt an der Autobahn bleiben.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Wohnstraße in Hamburg" base-id="http://xml.zeit.de/lebensart/2012-09/leserartikel-hamburg-ottensen/" type="jpg" publication-date="" expires="2012-10-12T13:02:45+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-bb559f0f-1841-43d3-ae64-bd7804b90efb">
+          <block href="http://xml.zeit.de/video/2012-09/1834273665001" type="video" year="2012" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-11-09T13:01:57+00:00" date-first-released="2012-09-11T14:39:00+00:00" date-last-published="2012-11-09T13:02:56.896889+00:00" last-semantic-change="2012-11-09T12:53:11+00:00" contenttype="video">
+            <supertitle py:pytype="str">Do it yourself</supertitle>
+            <title py:pytype="str">Ein Kulturdorf im alten Eisenbahnwerk</title>
+            <text py:pytype="str">Die Berliner Eisenbahnwerke füllen heute Kulturvereine, Galerien, ein Kletterpark und eine Skatehalle. Organisiert sind die Projekte auf dem RAW-Gelände nach dem Do-it-Yourself-Prinzip.</text>
+            <description py:pytype="str">Die Berliner Eisenbahnwerke füllen heute Kulturvereine, Galerien, ein Kletterpark und eine Skatehalle. Organisiert sind die Projekte auf dem RAW-Gelände nach dem Do-it-Yourself-Prinzip.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1834325549001_Bildschirmfoto-2012-09-11-um-14-59-00.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1834325540001_Bildschirmfoto-2012-09-11-um-14-59-00.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fb0b538a-9651-40b1-a3ea-3c67857284f7">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-wohnkonzept-senioren" year="2012" issue="35" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-29T09:45:42+00:00" date-first-released="2012-09-13T15:45:51.950872+00:00" date-last-published="2013-07-29T09:46:41.942914+00:00" last-semantic-change="2012-09-13T15:44:24.766073+00:00" contenttype="article">
+            <supertitle py:pytype="str">Stadt für Senioren</supertitle>
+            <title py:pytype="str">Ohne Aufhebens aufeinander achten</title>
+            <text py:pytype="str">Die Sozialpädagogin Jutta M. Bott hält das bessere Miteinander auf dem Land für einen Mythos. Gerade für Senioren biete die Stadt flexiblere Wohnkonzepte.</text>
+            <description py:pytype="str">Die Sozialpädagogin Jutta M. Bott hält das bessere Miteinander auf dem Land für einen Mythos. Gerade für Senioren biete die Stadt flexiblere Wohnkonzepte.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Das Generationsübergreifende Wohnquartier des W.I.R. eV. in Dortmund ist eine Art Dorf in der Stadt." align="left" base-id="http://xml.zeit.de/lebensart/2012-08/generationsuebergreifendes-wohnen/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Das Generationsübergreifende Wohnquartier des W.I.R. eV. in Dortmund ist eine Art Dorf in der Stadt.</bu>
+              <copyright py:pytype="str">© Marcus Simaitis dpa/lnw </copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1ab1deb4-63ad-4ad3-a638-3cf7424aecbe">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-wohngemeinschaft-alter-kuenstler" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:29+00:00" date-first-released="2012-09-13T09:25:30.658739+00:00" date-last-published="2013-04-28T14:52:14+00:00" last-semantic-change="2012-09-13T09:24:10.609578+00:00" contenttype="article">
+            <supertitle py:pytype="str">Wohngemeinschaft</supertitle>
+            <title py:pytype="str">Eine Siedlung für alternde Künstler</title>
+            <text py:pytype="str">Gut leben im Alter: Mit der städtischen Siedlung "Camp der Renegaten" entwerfen Künstler eine Wohngemeinschaft, die zu ihren Lebensumständen passt.</text>
+            <description py:pytype="str">Gut leben im Alter: Mit der städtischen Siedlung "Camp der Renegaten" entwerfen Künstler eine Wohngemeinschaft, die zu ihren Lebensumständen passt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Straßenszene in Berlin-Kreuzberg" align="left" base-id="http://xml.zeit.de/kultur/kunst/2012-08/berlin-kreuzberg-foto/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Welche Stadtviertel bieten Lebensqualität für ältere Bewohner? Straßenszene in Berlin-Kreuzberg </bu>
+              <copyright py:pytype="str">© CHRISTOF STACHE/AFP/GettyImages</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3b0188bd-f722-43fa-9a71-a129903f01ec">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-stadtleben-kind" year="2012" issue="35" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-18T08:51:28+00:00" date-first-released="2012-09-12T07:47:09.442583+00:00" date-last-published="2013-04-28T14:55:34+00:00" last-semantic-change="2012-09-12T07:45:57.322158+00:00" contenttype="article">
+            <supertitle py:pytype="str">Stadtleben mit Kind</supertitle>
+            <title py:pytype="str">Kleine Menschen unter vielen</title>
+            <text py:pytype="str">Stadt oder Land? Die Autorin Nana Heymann lebt in Berlin. Sie findet es gut, dass ihre Tochter als Stadtkind aufwächst: "So lernt sie Toleranz und freiheitliches Denken".</text>
+            <description py:pytype="str">Stadt oder Land? Die Autorin Nana Heymann lebt in Berlin. Sie findet es gut, dass ihre Tochter als Stadtkind aufwächst: "So lernt sie Toleranz und freiheitliches Denken".</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-08/stadtleben-kinder/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Kinder im englischen Stoke on Trent</bu>
+              <copyright py:pytype="str">© Christopher Furlong/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-66a460ff-a380-4470-8111-bd7433246fee">
+          <block href="http://xml.zeit.de/lebensart/2012-08/lust-auf-stadt-landleben-kind" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-29T09:45:41+00:00" date-first-released="2012-09-12T07:47:46.562725+00:00" date-last-published="2013-07-29T09:46:40.841054+00:00" last-semantic-change="2012-09-12T07:46:36.690412+00:00" contenttype="article">
+            <supertitle py:pytype="str">Landleben mit Kind</supertitle>
+            <title py:pytype="str">Die Härte des Lebens in kindgerechten Dosen</title>
+            <text py:pytype="str">Stadt oder Land? Die Autorin Julia Decker lebt den Traum vieler junger Eltern: mit Kind in der Idylle des Bregenzer Waldes. Aber manchmal ist ihr das zu nahe am Klischee.</text>
+            <description py:pytype="str">Stadt oder Land? Die Autorin Julia Decker lebt den Traum vieler junger Eltern: mit Kind in der Idylle des Bregenzer Waldes. Aber manchmal ist ihr das zu nahe am Klischee.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-08/landleben-kinder/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Kinder laufen durch das Westonbirt Arboretum in England.</bu>
+              <copyright py:pytype="str">© Dan Istitene/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-437539d4-a9f2-4248-ac46-34b0b1901241">
+          <block href="http://xml.zeit.de/gesellschaft/2012-09/leserartikel-stadtentwicklung-hamburg" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-25T13:00:41+00:00" date-first-released="2012-09-12T11:54:30.488180+00:00" date-last-published="2013-07-25T13:01:40.929418+00:00" last-semantic-change="2012-09-12T13:07:18.291178+00:00" contenttype="article">
+            <supertitle py:pytype="str">Mietpreise</supertitle>
+            <title py:pytype="str">Hamburg, lebe wohl</title>
+            <text py:pytype="str">Leser Sebastian Müller wird aus Hamburg wegziehen, obwohl er die Stadt liebt. Als junger Familienvater kann er sich die Mieten und die Kinderbetreuung nicht mehr leisten.</text>
+            <description py:pytype="str">Leser Sebastian Müller wird aus Hamburg wegziehen, obwohl er die Stadt liebt. Als junger Familienvater kann er sich die Mieten und die Kinderbetreuung nicht mehr leisten.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Alster, Hamburg" base-id="http://xml.zeit.de/gesellschaft/2012-09/leserartikel-hamburg/" type="jpg" publication-date="" expires="2012-10-05T11:37:21+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/05/Gentrifizierung" year="2012" issue="5" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-04-28T20:42:35+00:00" date-first-released="2012-01-26T06:00:00+00:00" date-last-published="2013-04-28T22:43:33+00:00" last-semantic-change="2012-01-26T06:04:00.185902+00:00" contenttype="article">
+            <supertitle py:pytype="str">Gentrifizierung</supertitle>
+            <title py:pytype="str">Satellitenschüsseln gegen Kleinfamilien und Neureiche</title>
+            <text py:pytype="str">Die Gegner der Gentrifizierung pochen auf überlieferte Stadtteilkultur. Sie gerieren sich als Opfer, doch ihre oft provinzielle Kritik führt zu nichts, meint A. Thiesen</text>
+            <description py:pytype="str">Die Gegner der Gentrifizierung pochen auf überlieferte Stadtteilkultur. Sie gerieren sich als Opfer, doch ihre oft provinzielle Kritik führt zu nichts, meint A. Thiesen</description>
+            <byline py:pytype="str">Von Andreas Thiesen</byline>
+            <image alt="Zwei Wohnhäuser in der Rykestraße im Berliner Stadtteil Prenzlauer Berg" align="left" title="Gentrifizierung" base-id="http://xml.zeit.de/kultur/2012-01/gentrifizierung/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Zwei Wohnhäuser in der Rykestraße im Berliner Stadtteil Prenzlauer Berg</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/lebensart/lust-auf-stadt/index" year="2012" issue="35" ressort="Lebensart" publication-date="2012-09-10T06:00:00+00:00" expires="" date-last-modified="2013-07-25T14:55:40+00:00" date-first-released="2012-09-10T06:01:03.816323+00:00" date-last-published="2013-07-29T09:46:43.077073+00:00" last-semantic-change="2013-04-26T10:41:25.046164+00:00" contenttype="centerpage-2009">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <title py:pytype="str">Lust auf Stadt</title>
+            <text py:pytype="str">ZEIT ONLINE widmet sich eine Woche lang dem guten Leben in der Stadt. Von New York bis Basel finden unsere Autoren gute Gründe, auch die Zukunft in Städten zu verbringen.</text>
+            <description py:pytype="str">ZEIT ONLINE widmet sich eine Woche lang dem guten Leben in der Stadt. Von New York bis Basel finden unsere Autoren gute Gründe, auch die Zukunft in Städten zu verbringen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Themenwoche &quot;Lust auf Stadt&quot;" base-id="http://xml.zeit.de/lebensart/2012-09/stadtlust-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Stadtraum mit hoher Lebensqualität: eine ruhige Restaurantterrasse in Chicago</bu>
+              <copyright py:pytype="str">© Tasos Katopodis/Getty Images for Grey Goose</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2012-09/lust-auf-stadt-stadtleben" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-24T13:30:53+00:00" date-first-released="2012-09-10T07:59:46.357295+00:00" date-last-published="2013-07-24T13:31:53.065692+00:00" last-semantic-change="2012-09-10T08:08:17.669582+00:00" contenttype="article">
+            <supertitle py:pytype="str">Lust auf Stadt</supertitle>
+            <title py:pytype="str">Das gute Leben bleibt urban</title>
+            <text py:pytype="str">Das Land ist ein Sehnsuchtsort, doch die Zukunft liegt in der Stadt. Denn hier ist Raum für Mensch, Natur und Ideen – man muss ihn sich nur nehmen. Von Maria Exner</text>
+            <description py:pytype="str">Das Land ist ein Sehnsuchtsort, doch die Zukunft liegt in der Stadt. Denn hier ist Raum für Mensch, Natur und Ideen – man muss ihn sich nur nehmen. Von Maria Exner</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Themenwoche &quot;Lust auf Stadt&quot;" base-id="http://xml.zeit.de/lebensart/2012-09/stadtlust-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Stadtraum mit hoher Lebensqualität: eine ruhige Restaurantterrasse in Chicago</bu>
+              <copyright py:pytype="str">© Tasos Katopodis/Getty Images for Grey Goose</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-03007bce-d15c-4020-8334-946920fdac75">
+          <block href="http://xml.zeit.de/lebensart/2012-09/fs-lust-auf-stadt-allmende-kontor-urban-gardening" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-05-29T12:32:00+00:00" date-first-released="2012-09-10T13:48:41.524194+00:00" date-last-published="2012-09-11T14:30:44.015328+00:00" last-semantic-change="2012-09-11T13:08:11.066575+00:00" contenttype="gallery">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Urban Gardening</supertitle>
+            <title py:pytype="str">Kolonie der Wucherkisten</title>
+            <text py:pytype="str">Das Allmende-Kontor ist ein Gartenprojekt in Berlin. Auf einem alten Flugfeld sprießt die Kreativität der Anwohner mit deutschen, türkischen oder israelischen Wurzeln.</text>
+            <description py:pytype="str">Das Allmende-Kontor ist ein Gartenprojekt in Berlin. Auf einem alten Flugfeld sprießt die Kreativität der Anwohner mit deutschen, türkischen oder israelischen Wurzeln.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-09/fs-almende-kontor-berlin-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Kilian Mueller für ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-99aefa16-b22e-4c61-ae78-2417d4ab1e75">
+          <block href="http://xml.zeit.de/reisen/2012-08/lust-auf-stadt-basel-rhein-schwimmen" year="2012" issue="35" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-07-18T08:51:36+00:00" date-first-released="2012-09-11T07:58:30.919441+00:00" date-last-published="2013-04-28T14:57:51+00:00" last-semantic-change="2012-09-11T07:57:06.419301+00:00" contenttype="article">
+            <supertitle py:pytype="str">Schwimmen im Rhein</supertitle>
+            <title py:pytype="str">Wie Basel lernte, im Fluss zu leben</title>
+            <text py:pytype="str">Basel ist bekannt für seine Chemieindustrie – für die Erholung im Rhein weniger. Dabei hat die Schweizer Stadt in den vergangenen Jahrzehnten ihren Fluss lieben gelernt.</text>
+            <description py:pytype="str">Basel ist bekannt für seine Chemieindustrie – für die Erholung im Rhein weniger. Dabei hat die Schweizer Stadt in den vergangenen Jahrzehnten ihren Fluss lieben gelernt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Schwimmer unter der Mittleren Rheinbrücke in Basel" align="left" title="Mittlere Rheinbrücke Basel" base-id="http://xml.zeit.de/reisen/2012-08/Mittlere-Rheinbruecke-Basel/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Schwimmer unter der Mittleren Rheinbrücke in Basel</bu>
+              <copyright py:pytype="str">© Andreas Zimmermann/Basel Tourismus</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-ca6d4fb6-7880-4fb7-97a6-f2d9397ae063">
+          <block href="http://xml.zeit.de/lebensart/2012-09/lust-auf-stadt-tempelhofer-feld" year="2012" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-24T13:30:52+00:00" date-first-released="2012-09-10T13:41:49.610306+00:00" date-last-published="2013-07-24T13:31:51.418410+00:00" last-semantic-change="2012-09-10T13:40:39.231499+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Tempelhofer Feld</supertitle>
+            <title py:pytype="str">Entfaltung auf dem Rollfeld</title>
+            <text py:pytype="str">Zwanglose Bewegung und spontaner Austausch: Berliner haben aus dem Tempelhofer Feld einen Ort gemacht, von dem Stadtplaner träumen. Warum kann es nicht dabei bleiben?</text>
+            <description py:pytype="str">Zwanglose Bewegung und spontaner Austausch: Berliner haben aus dem Tempelhofer Feld einen Ort gemacht, von dem Stadtplaner träumen. Warum kann es nicht dabei bleiben?</description>
+            <byline xsi:nil="true"/>
+            <image alt="Viel Platz für gute Ideen: Das Tempelhofer Feld, früher Flugfeld des Flughafens Tempelhof" align="left" base-id="http://xml.zeit.de/lebensart/2012-09/tempelhof-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Viel Platz für gute Ideen: Das Tempelhofer Feld, früher Flugfeld, heute Freiraum mitten in Berlin</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <video href="http://xml.zeit.de/video/2012-09/1831341672001" href2="" expires="" video_id="vid1831341672001" video_id_2=""/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-9d540c07-2c59-4562-b60a-d9323dee0ca7">
+          <block href="http://xml.zeit.de/video/2012-09/1831375217001" type="video" year="2012" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-11-09T13:02:54+00:00" date-first-released="2012-09-10T14:43:52+00:00" date-last-published="2012-11-09T13:03:53.837101+00:00" last-semantic-change="2012-11-09T12:53:11+00:00" contenttype="video">
+            <supertitle py:pytype="str">Zwischennutzung</supertitle>
+            <title py:pytype="str">Architekt Klaus Overmeyer: Stadtentwicklung selbst gemacht</title>
+            <text py:pytype="str">In Berlin werden leere Flächen zwischenvermietet, bis es eine dauerhafte Lösung gibt. Was andere Städte davon lernen können, sagt Landschaftsarchitekt Klaus Overmeyer.</text>
+            <description py:pytype="str">In Berlin werden leere Flächen zwischenvermietet, bis es eine dauerhafte Lösung gibt. Was andere Städte davon lernen können, sagt Landschaftsarchitekt Klaus Overmeyer.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1831600896001_ari-origin05-arc-130-1347281088310.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1831600895001_ari-origin05-arc-130-1347281087920.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f61aef1c-9b24-4e54-9e75-c274b9b68d75">
+          <block href="http://xml.zeit.de/2012/26/Guggenheim-Lab" year="2012" issue="26" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-06-20T15:03:46+00:00" date-first-released="2012-06-21T06:00:00+00:00" date-last-published="2012-09-10T18:33:00.176126+00:00" last-semantic-change="2012-07-02T14:32:54.463303+00:00" contenttype="article">
+            <supertitle py:pytype="str">Guggenheim Lab</supertitle>
+            <title py:pytype="str">Gemeinsam Matschen für Berlin</title>
+            <text py:pytype="str">Mit Wut, Bangen und Hoffnung wurde es erwartet. Jetzt hat das BMW Guggenheim Lab mit der Arbeit begonnen. Die wirkt noch sehr betulich. Wann folgen die Visionen?</text>
+            <description py:pytype="str">Mit Wut, Bangen und Hoffnung wurde es erwartet. Jetzt hat das BMW Guggenheim Lab mit der Arbeit begonnen. Die wirkt noch sehr betulich. Wann folgen die Visionen?</description>
+            <byline py:pytype="str">Von Tobias Timm</byline>
+            <image alt="Das Berliner Kulturprojekt BMW Guggenheim Lab" align="left" base-id="http://xml.zeit.de/kultur/kunst/2012-07/guggenheim-berlin-bild/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Das Berliner Kulturprojekt BMW Guggenheim Lab widmet sich vom 15. Juni bis 29. Juli dem Thema Lebensqualität in Großstädten. </bu>
+              <copyright py:pytype="str">© Sebastian Kahnert dpa/lbn</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-e384f02b-3e5a-46a6-95ef-bf2be879772b">
+          <block href="http://xml.zeit.de/auto/2012-02/kopenhagen-fahrrad" year="2012" issue="8" ressort="Auto" publication-date="" expires="" date-last-modified="2013-06-20T17:16:23+00:00" date-first-released="2012-02-16T15:24:53.412750+00:00" date-last-published="2013-06-20T17:17:22.030955+00:00" last-semantic-change="2012-02-16T15:34:36.632442+00:00" contenttype="article">
+            <supertitle py:pytype="str">Radfahren</supertitle>
+            <title py:pytype="str">Mach's wie Kopenhagen</title>
+            <text py:pytype="str">Kaum eine Stadt fördert den Fahrradverkehr so vorbildlich wie die dänische Hauptstadt. Was können deutsche Städte davon lernen? Von Matthias Breitinger</text>
+            <description py:pytype="str">Kaum eine Stadt fördert den Fahrradverkehr so vorbildlich wie die dänische Hauptstadt. Was können deutsche Städte davon lernen? Von Matthias Breitinger</description>
+            <byline xsi:nil="true"/>
+            <image alt="Radfahrer in Kopenhagen" align="left" title="Radfahren" base-id="http://xml.zeit.de/auto/2012-02/kopenhagen-rad/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Radfahrer in Kopenhagen</bu>
+              <copyright py:pytype="str" link="http://www.copenhagenize.com/">© Mikael Colville-Andersen/Copenhagenize.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1def1760-210d-48a0-af8f-7ccbe277e735">
+          <block href="http://xml.zeit.de/lebensart/2012-05/fs-nyc-daecher" year="2012" issue="19" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-05-15T09:03:07+00:00" date-first-released="2012-05-12T07:51:59.703049+00:00" date-last-published="2012-05-12T07:51:59.703049+00:00" last-semantic-change="2012-05-12T07:50:23.350060+00:00" contenttype="gallery">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dachgärten</supertitle>
+            <title py:pytype="str">New York in fünfter Dimension</title>
+            <text py:pytype="str">Alex MacLean hat aus dem Hubschrauber New Yorks verblüffende Dachlandschaften fotografiert. In seinen Bildern zeigt er eine bislang verborgene Sicht auf die Stadt.</text>
+            <description py:pytype="str">Alex MacLean hat aus dem Hubschrauber New Yorks verblüffende Dachlandschaften fotografiert. In seinen Bildern zeigt er eine bislang verborgene Sicht auf die Stadt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke: Alex MacLean" base-id="http://xml.zeit.de/lebensart/2012-05/fs-nyc-daecher-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Soho House New York, 29-35 9th Ave, Meatpacking District, Manhattan.</bu>
+              <copyright py:pytype="str" link="http://www.schirmer-mosel.de">© Alex MacLean/Schirmer/Mosel Verlag </copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fcd1ffa1-fcf8-4a97-8134-685900c54e6d">
+          <block href="http://xml.zeit.de/lebensart/2012-02/geboren-2012-wohnen" year="2012" issue="7" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-24T13:30:55+00:00" date-first-released="2012-02-27T10:13:36.182841+00:00" date-last-published="2013-07-24T13:31:54.691113+00:00" last-semantic-change="2012-02-27T10:11:59.314312+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Wohnen 2047</supertitle>
+            <title py:pytype="str">Tomaten aus dem Parkhaus</title>
+            <text py:pytype="str">Wie werden wir wohnen? Einsam auf dem Land, im Loft in der Innenstadt oder ohne Auto, aber mit Gemüsebeet am Bordstein? K. Polke-Majewski berichtet aus der Zukunft.</text>
+            <description py:pytype="str">Wie werden wir wohnen? Einsam auf dem Land, im Loft in der Innenstadt oder ohne Auto, aber mit Gemüsebeet am Bordstein? K. Polke-Majewski berichtet aus der Zukunft.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Wohnen" base-id="http://xml.zeit.de/lebensart/2012-02/2012-wohnen/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Im Hotel Hüttenpalast in Berlin kann man in diesen Wohnwagen einchecken.</bu>
+              <copyright py:pytype="str" link="http://www.michaeldanner.com">© Michael Danner für ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-34d6c428-66fd-4980-8f8b-9387867c0644">
+          <block href="http://xml.zeit.de/lebensart/2010-08/grossstadt-gaerten" year="2010" issue="32" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-04-29T18:32:47+00:00" date-first-released="2010-08-06T12:19:40.506404+00:00" date-last-published="2013-04-29T20:32:56+00:00" last-semantic-change="2010-08-06T10:28:48.081575+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Großstadt-Gärten</supertitle>
+            <title py:pytype="str">Wenn Städter Wurzeln schlagen</title>
+            <text py:pytype="str">Junge Leute wollen sich erden. Am liebsten in Nachbarschaftsgärten mitten in der Großstadt. Der Kreuzberger Prinzessinnengarten ist einer davon. Von Anne Haeming</text>
+            <description py:pytype="str">Junge Leute wollen sich erden. Am liebsten in Nachbarschaftsgärten mitten in der Großstadt. Der Kreuzberger Prinzessinnengarten ist einer davon. Von Anne Haeming</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2010-08/garten-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Gärtnern zwischen Graffitis: der Prinzessinnengarten liegt an einer lauten Kreuzung in Berlin-Kreuzberg </bu>
+              <copyright py:pytype="str">© Anne Haeming</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-6bb191f0-a8fd-41bd-b694-96fbb5478601">
+          <block href="http://xml.zeit.de/wirtschaft/2011-08/staedte-wachstum" year="2011" issue="31" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2013-04-29T03:54:24+00:00" date-first-released="2011-08-03T10:33:07.012340+00:00" date-last-published="2013-04-29T05:54:48+00:00" last-semantic-change="2011-08-03T10:30:52.904827+00:00" contenttype="article">
+            <supertitle py:pytype="str">Wachstum</supertitle>
+            <title py:pytype="str">Warum uns Städte reich machen</title>
+            <text py:pytype="str">Ökonomen halten sie für eine der wichtigsten Erfindungen der Menschheit: urbane Zentren. Was ist das wirtschaftliche Geheimnis der Metropolen? Von Olaf Storbeck</text>
+            <description py:pytype="str">Ökonomen halten sie für eine der wichtigsten Erfindungen der Menschheit: urbane Zentren. Was ist das wirtschaftliche Geheimnis der Metropolen? Von Olaf Storbeck</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="new-york-central-park" base-id="http://xml.zeit.de/wirtschaft/2011-08/new-york-central-park/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Blick auf New York, über die Baumwipfel des Central Park hinweg</bu>
+              <copyright py:pytype="str">© Timothy A. Clary/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-2b32584c-83f5-4d34-a4f8-0c52c7f240c5">
+          <block href="http://xml.zeit.de/lebensart/2011-04/detroit" year="2011" issue="18" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-07-19T06:59:22+00:00" date-first-released="2011-05-05T09:21:12.486727+00:00" date-last-published="2013-07-19T07:00:22.318899+00:00" last-semantic-change="2011-05-05T09:19:57.043260+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Detroit</supertitle>
+            <title py:pytype="str">Verfall und Wachstum</title>
+            <text py:pytype="str">Detroit war einst eine Industriestadt. Heute werden Fabrikgelände in Beete und Äcker verwandelt. Kann die Gartenbewegung die marode Stadt retten? Von J. Braun, Detroit</text>
+            <description py:pytype="str">Detroit war einst eine Industriestadt. Heute werden Fabrikgelände in Beete und Äcker verwandelt. Kann die Gartenbewegung die marode Stadt retten? Von J. Braun, Detroit</description>
+            <byline xsi:nil="true"/>
+            <image alt="Patrick Crouch, der Leiter der Earthworks Farm, erklärt Freiwilligen, was zu tun ist." align="left" title="Earthworks Farm" base-id="http://xml.zeit.de/lebensart/2011-04/detroit-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Patrick Crouch, der Leiter der Earthworks Farm, erklärt Freiwilligen, was zu tun ist.</bu>
+              <copyright py:pytype="str">© Jessica Braun</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-351d3ed6-4dd4-4838-b8a2-ffe99cef75a1">
+          <block href="http://xml.zeit.de/reisen/2010-08/newyork-viadukt" year="2010" issue="32" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-04-29T18:29:04+00:00" date-first-released="2010-08-09T15:25:43.956419+00:00" date-last-published="2013-04-29T20:29:37+00:00" last-semantic-change="2010-08-09T15:24:29.247265+00:00" contenttype="article">
+            <supertitle py:pytype="str">High Line Park</supertitle>
+            <title py:pytype="str">New Yorks grüner Laufsteg</title>
+            <text py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</text>
+            <description py:pytype="str">Früher fuhren auf dieser Hochbahn Schweinehälften und Tiefkühlputen durch Manhattan. Heute entsteht auf dem Viadukt ein umwerfend schöner Park.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="High Line Park " base-id="http://xml.zeit.de/reisen/2010-08/highline-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Statt der Hochbahn rauscht hier nur der Wind: der High Line Park in Manhattan</bu>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-635e87f0-239c-4de8-afaf-d8581b1a410a">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-cf75c10b-2f4c-4e9e-bb0c-e19b22657887">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-7500137d-b110-4f70-b7d2-049949777f20" layout="368x220" title="Thema: Geboren 2012 - Wie werden wir leben?">
+          <block type="intern" href="http://xml.zeit.de/themen/wissen/geboren-2012/index" year="2012" issue="8" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-03-21T02:42:25+00:00" date-first-released="2012-02-21T10:18:19.837847+00:00" date-last-published="2013-03-21T02:43:21.548393+00:00" last-semantic-change="2012-03-01T19:06:02.660071+00:00" contenttype="centerpage-2009">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <title py:pytype="str">Geboren 2012 – Wie werden wir leben?</title>
+            <text py:pytype="str">Im Februar kam Alexander Geseke auf die Welt. ZEIT ONLINE blickt nach vorn: Wie wird er einst wohnen, kommunizieren, arbeiten? Ein Schwerpunkt zur Zukunftsforschung</text>
+            <description py:pytype="str">Im Februar kam Alexander Geseke auf die Welt. ZEIT ONLINE blickt nach vorn: Wie wird er einst wohnen, kommunizieren, arbeiten? Ein Schwerpunkt zur Zukunftsforschung</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/themen/wissen/geboren-2012/2012-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.michaeldanner.com">© Michael Danner</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/themen/wissen/geboren-2012/2012-teaser/2012-teaser-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="id-1263a8fa-7037-47d2-a0c4-c91b0ce44cb4">
+          <video videoID="1452659322001" player="vid" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-e3674b3b-c2f1-4e4e-9109-26a9f4fb0cbd" layout="368x220" title="Thema: Urban Gardening">
+          <block type="intern" href="http://xml.zeit.de/themen/lebensart/urban-gardening/index" year="2011" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-04-07T01:17:51+00:00" date-first-released="2011-05-02T08:28:27.842125+00:00" date-last-published="2013-04-07T01:18:37.119389+00:00" last-semantic-change="2012-07-16T12:33:53.451815+00:00" contenttype="centerpage-2009">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <title py:pytype="str">Urban Gardening</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Urban Gardening Themenseite" base-id="http://xml.zeit.de/lebensart/2011-05/urban-gardening-themenseite/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bob Strong/Reuters</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/lebensart/2011-05/urban-gardening-themenseite/urban-gardening-themenseite-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-02590a0e-61a3-492d-be8c-74efac8239cf">
+          <block href="http://xml.zeit.de/zeit-wissen/2009/02/Die-Hungrige-Stadt" year="2009" issue="2" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-21T21:35:13+00:00" date-first-released="" date-last-published="" last-semantic-change="2009-09-14T13:29:28.579291+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die hungrige Stadt</title>
+            <text py:pytype="str">Klimaschutz muss in den Städten beginnen, sagen Energie-Experten. Berlin könnte mit gutem Beispiel vorangehen – doch noch immer fehlt ein durchdachtes Konzept.</text>
+            <description py:pytype="str">Klimaschutz muss in den Städten beginnen, sagen Energie-Experten. Berlin könnte mit gutem Beispiel vorangehen – doch noch immer fehlt ein durchdachtes Konzept.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Berlin Alexanderplatz Alex Fernsehturm Großstadt Hauptstadt" align="left" base-id="http://xml.zeit.de/bilder/2009/13/wissen/wissenschaft/hungrige-stadt/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Fernsehturm auf dem Alexanderplatz ist ein Fixpunkt in Berlin – inmitten des stetigen Wandels</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=266469">© Tze/Photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2009/03/Mobilitaet-Serie-Teil-2" year="2009" issue="3" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-21T17:48:45+00:00" date-first-released="" date-last-published="" last-semantic-change="2009-06-04T13:26:41.098014+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die mobile Stadt</title>
+            <text py:pytype="str">Lärm, Abgase, Staus – vielen Städten droht der Verkehrsinfarkt, wenn wir nicht auf neue Verkehrsmittel umsteigen. Das Beispiel Berlin zeigt: Es gibt noch viel zu tun.</text>
+            <description py:pytype="str">Lärm, Abgase, Staus – vielen Städten droht der Verkehrsinfarkt, wenn wir nicht auf neue Verkehrsmittel umsteigen. Das Beispiel Berlin zeigt: Es gibt noch viel zu tun.</description>
+            <byline xsi:nil="true"/>
+            <image alt="stadt zukunft mobil elektroauto kommunikation architektur" href="javascript:void(openme('/bilder/2009/zeit-wissen/03/67-mobile-stadt/67-mobile-stadt-popup-800.jpg',820,629,'middle','popup_01','yes'));" align="left" base-id="http://xml.zeit.de/bilder/2009/zeit-wissen/03/67-mobile-stadt/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Im Quartier der Zukunft ist man zu Fuß, mit dem Rad oder mit kollektiven Verkehrsmitteln unterwegs. Klicken Sie auf das Bild, um die Grafik zu vergrößern</bu>
+              <copyright py:pytype="str">© Golden Section Graphics</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-c01653d2-42bc-4845-80d9-7d4c30e23e38">
+          <block href="http://xml.zeit.de/zeit-wissen/2009/04/Die-gruene-Stadt" year="2009" issue="4" ressort="Wissen" publication-date="" expires="" date-last-modified="2013-06-20T15:21:26+00:00" date-first-released="2009-06-03T06:00:00+00:00" date-last-published="2012-01-20T08:02:15.448395+00:00" last-semantic-change="2012-01-17T13:52:41.315947+00:00" contenttype="article">
+            <supertitle py:pytype="str">Stadtentwicklung</supertitle>
+            <title py:pytype="str">Die grüne Stadt</title>
+            <text py:pytype="str">Die Stadt der Zukunft braucht mehr Natur. Berlins ehemaliger Flughafen Tempelhof wird nun zum größten Versuchsfeld ökologischer Stadtentwicklung.</text>
+            <description py:pytype="str">Die Stadt der Zukunft braucht mehr Natur. Berlins ehemaliger Flughafen Tempelhof wird nun zum größten Versuchsfeld ökologischer Stadtentwicklung.</description>
+            <byline py:pytype="str">Von Dirk Asendorpf</byline>
+            <image align="left" base-id="http://xml.zeit.de/wissen/2012-01/tempelhof/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Flughafen Berlin-Tempelhof kurz vor seiner Schließung am 30. Oktober 2008. Er soll nun zu einem öffentlicher Park umfunktioniert werden.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2009/05/Die-soziale-Stadt" year="2009" issue="5" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-21T09:39:25+00:00" date-first-released="" date-last-published="" last-semantic-change="2009-09-16T07:56:13.285426+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die soziale Stadt</title>
+            <text py:pytype="str">Keine andere deutsche Großstadt zerfällt derart schnell in Arm und  Reich wie Berlin. Immer mehr Viertel versinken in Kriminalität und Hoffnungslosigkeit.</text>
+            <description py:pytype="str">Keine andere deutsche Großstadt zerfällt derart schnell in Arm und  Reich wie Berlin. Immer mehr Viertel versinken in Kriminalität und Hoffnungslosigkeit.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Infografik Soziale Stadt ZEIT WISSEN Magazin Zukunft Stadtplanung" align="left" title="Infografik: Der Mix macht's" base-id="http://xml.zeit.de/wissen/umwelt/2009-09/wissen-05-72-gross.jpg/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Familien und Singles, Karrieremenschen und Arbeitslose, Migranten, Studenten und Rentner: Im Quartier der Zukunft leben Menschen mit ganz verschiedenen Lebensstilen in enger Nachbarschaft</bu>
+              <copyright py:pytype="str" link="http://www.golden-section-graphics.com/">© Golden Section Graphics</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Lust auf Stadt</title>
+    <supertitle py:pytype="str">Alles zum Thema</supertitle>
+    <subtitle>ZEIT ONLINE widmet sich eine Woche lang dem guten Leben in der Stadt. Von New York bis Basel finden unsere Autoren gute Gründe, auch die Zukunft in Städten zu verbringen.</subtitle>
+  </body>
+  <teaser>
+    <title py:pytype="str">Lust auf Stadt</title>
+    <text py:pytype="str">ZEIT ONLINE widmet sich eine Woche lang dem guten Leben in der Stadt. Von New York bis Basel finden unsere Autoren gute Gründe, auch die Zukunft in Städten zu verbringen.</text>
+  </teaser>
+</centerpage>

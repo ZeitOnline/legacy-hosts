@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<variant-names>
+  <!-- Die Werte fuer `allowed` und `default_for` muessen zu article-templates.xml passen. Details siehe https://github.com/ZeitOnline/zeit.content.article/blob/master/README.rst -->
+  <variant-name id="wide" default_for="*" allowed="zco-article.default zco-article.embed zon-article.default zon-article.embed zon-liveblog.liveblog zon-liveblog.liveblog-closed zon-article-column article.default article.leinwand photocluster.default photocluster.leinwand longform zar-article.default zar-article.dark zar-article.protocol zar-article.podcast zon-article.podcast zar-article.centered">Standard 16:9</variant-name>
+  <variant-name id="original" default_for="article.text-only photocluster.text-only longform zon-article.narrow" allowed="article.column article.text-only article.leinwand photocluster.leinwand photocluster.text-only longform zon-article.narrow">Original</variant-name>
+  <variant-name id="portrait" default_for="zco-article.default article.briefmarke photocluster.briefmarke" allowed="zco-article.default article.briefmarke article.mode article.column article.default photocluster.briefmarke photocluster.mode photocluster.default">Porträt 3:4</variant-name>
+  <variant-name id="square" default_for="zar-article.podcast" allowed="article.default photocluster.default zar-article.podcast">Quadrat 1:1</variant-name>
+  <!--  ZMO article-headers  -->
+  <variant-name id="super" available="zeit.magazin.interfaces.IZMOContent" default_for="article.default article.leinwand article.column photocluster.default photocluster.leinwand" allowed="article.default article.column article.leinwand photocluster.default photocluster.leinwand">Klassisch 3:2</variant-name>
+  <variant-name id="standard" available="zeit.magazin.interfaces.IZMOContent" allowed=" article.default article.leinwand photocluster.default photocluster.leinwand">Kompakt 4:3</variant-name>
+  <variant-name id="tile" available="zeit.magazin.interfaces.IZMOContent" default_for="article.traum photocluster.traum" allowed="article.default article.column article.traum photocluster.default photocluster.traum">Kachel 4:5</variant-name>
+  <variant-name id="narrow" available="zeit.magazin.interfaces.IZMOContent" default_for="article.mode photocluster.mode" allowed="article.mode photocluster.mode">Hochkant 2:3</variant-name>
+</variant-names>

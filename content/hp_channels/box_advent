@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<centerpage>
+  <head>
+<!-- Angaben zum Dokument -->
+    <id>
+<!-- die eineindeutige ID des Dokuments -->
+      <uniqueid>cms:/cms/work/index</uniqueid>
+    </id>
+    <attribute name="supertitle" ns="http://namespaces.zeit.de/CMS/document">Spiele Box</attribute>
+<!-- Dachzeile/Spitzmarke -->
+<!-- ggF. mehrere -->
+<!-- Schlagworte -->
+<!-- manuell vergeben Schlagworte -->
+<!-- Statusauskünfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">566</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT online</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT online 2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">14.12.2007 - 11:07</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords">Spiele;Onlinespiele</attribute>
+    <keywordset>
+      <keyword source="manual">Spiele</keyword>
+      <keyword source="manual">Onlinespiele</keyword>
+    </keywordset>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">Kultur</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Musik</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">new</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title">Jeden Tag ein neues Lied</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">weihser</attribute>
+  </head>
+  <body>
+    <container layout="container" id="advent" label="" priority="">
+      <block layout="" priority="" href="http://www.zeit.de/musik/adventskalender/index" id="" sticky="">
+        <image expires="2009-11-20" src="/cms/work/bilder/2007/standards-neu/kultur/musik/advent/advent-120x90.gif" align="right"><copyright>©</copyright> BILD </image>
+        <title>Jeden Tag ein neues Lied</title>
+        <text>Aufgehorcht! Im Weihnachtswald auf ZEIT online ist Musik versteckt</text>
+      </block>
+    </container>
+    <subtitle>Aufgehorcht! Im Weihnachtswald auf ZEIT online ist Musik versteckt</subtitle>
+    <supertitle>Adventskalender</supertitle>
+    <title>Jeden Tag ein neues Lied</title>
+  </body>
+</centerpage>

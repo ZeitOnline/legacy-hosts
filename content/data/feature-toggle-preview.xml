@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<features>
+  <fbia_advertising>true</fbia_advertising>
+  <!-- old and new amp ads are independent. If you set both to true, both will be shown. -->
+  <amp_advertising>false</amp_advertising>
+  <amp_new_advertising>true</amp_new_advertising>
+  <arbeit_quote_sharing>true</arbeit_quote_sharing>
+  <article_lineage>true</article_lineage>
+  <iqd>true</iqd>
+  <third_party_modules>true</third_party_modules>
+  <tracking>true</tracking>
+  <comment_thread_via_esi>true</comment_thread_via_esi>
+  <zon_1000px>true</zon_1000px>
+  <zon_inline_video_via_html5>true</zon_inline_video_via_html5>
+  <zon_videosinglepage_via_html5>true</zon_videosinglepage_via_html5>
+  <access_status_ivw>false</access_status_ivw>
+  <access_status_webtrekk>false</access_status_webtrekk>
+  <reader_revenue>false</reader_revenue>
+  <volume_teaser>true</volume_teaser>
+  <!-- TMS wird erst beim Publish aktualisiert, das ist bei Vorschau nicht hilfreich -->
+  <enable_intext_links>false</enable_intext_links>
+  <rawr_iframe>false</rawr_iframe>
+  <share_blocks_via_screenshot>true</share_blocks_via_screenshot>
+  <hp_overlay>true</hp_overlay>
+  <podlove_button>true</podlove_button>
+  <update_signals>true</update_signals>
+  <tag_logos>true</tag_logos>
+  <d17_navigation>true</d17_navigation>
+  <arbeit>true</arbeit>
+  <arbeit_hightlight_ressortnav>true</arbeit_hightlight_ressortnav>
+  <zon_admark>false</zon_admark>
+</features>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments_premoderate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2018-02-23T15:28:49.195652+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2018-02-23T14:49:20.555554+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2018-02-23T15:28:51.715712+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2018-02-23T15:28:51.674907+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2018-02-23T14:49:20.476251+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2018-02-23T13:43:51.826094+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.wiebe</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="overscrolling">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="previous_uniqueIds">http://xml.zeit.de/gesellschaft/2015-01/islame-muslime-in-deutschland-ssl;http://xml.zeit.de/gesellschaft/2015-01/islame-muslime-in-deutschland</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Gesellschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:336e3898-2509-4dc7-9b4d-c62388f2eae4}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">9</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2018</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature" visible="True" visible_mobile="True">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-d983fa5f-3114-4574-8761-834fe2501708" kind="solo">
+        <container cp:type="xml" module="xml" visible="True" visible_mobile="True" cp:__name__="id-2574eb99-55f2-4a51-bda9-d6c2879c42a6">
+          <raw alldevices="true">
+            <div style="margin-left:20px ;  margin-right: 20px;  margin-top: 2rem;">
+              <p class="paragraph article__item">Gehört der Islam zu Deutschland, sind Muslime ein integraler Bestandteil unserer Gesellschaft? Seit Wochen wird darüber wieder heftig diskutiert. Was wissen wir über das Leben der Muslime hierzulande? Wer auf die Fakten blickt, sieht ein buntes Bild: Viele Muslime akzeptieren die Homo-Ehe, ein Drittel von ihnen betet täglich, sie gehören sechs sehr unterschiedlichen Glaubensrichtungen an und werden von neun verschiedenen Organisationen vertreten. Die meisten stammen aus der Türkei, aber viele kommen auch aus ganz anderen Weltregionen. Fakten in elf Grafiken</p>
+            </div>
+            <style>
+   iframe.my-embed {
+        margin-left:20px ;
+        margin-right: auto;
+        margin-top: 2rem;
+   }
+</style>
+            <iframe class="my-embed" width="945" border="0" frameborder="0" id="id-deutschlands-muslime" height="2600" scrolling="auto" src="//interactive.zeit.de/infografik/muslime-in-deutschland/muslime-desktop.svg" onload="window.scroll(0,0);"> </iframe>
+            <div style="margin-left:20px ;  margin-right: 20px;  margin-top: 2rem;">
+              <p class="caption">* Für die repräsentative Studie <a href="http://www.bmi.bund.de/cae/servlet/contentblob/566008/publicationFile/31710/vollversion_studie_muslim_leben_deutschland_.pdf">"Muslimisches Leben in Deutschland"</a> (MLD 2008) wurde durch die direkte Befragung von Migranten erstmals eine bundesweite Datenbasis über die muslimische Bevölkerung geschaffen. Sie wurde im Auftrag der Deutschen Islamkonferenz vom Bundesamt für Migration und Flüchtlinge im Jahr 2008 erstellt und gilt bis heute als aktuellste Datengrundlage.</p>
+              <p class="caption">© ZEIT ONLINE</p>
+              <p class="caption"><a href="//community.zeit.de/user/karsten-polke-majewski" target="_blank">Karsten Polke-Majewski</a>, <a href="https://twitter.com/venohr" target="_blank">Sascha Venohr</a></p>
+              <p class="caption">Grafik: <a href="https://twitter.com/colorfuldata/" target="_blank">Paul Blickle</a></p>
+            </div>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic" visible="True" visible_mobile="True"/>
+    <supertitle>Dürfen wir vorstellen:</supertitle>
+    <title>Deutschlands Muslime</title>
+  </body>
+  <teaser>
+    <title>Deutschlands Muslime</title>
+  </teaser>
+</centerpage>

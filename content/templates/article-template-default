@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-06-11T11:24:44.593885+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-01-05T08:36:49.292255+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-06-11T11:26:27.752429+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-06-11T10:58:16.064349+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-06-11T11:25:13.439484+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.regerbis</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:cf07fdd3-5035-4747-9cec-2fbe07217e8c}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="print_archive" cp:__name__="ad811388-924c-46cd-b971-c66dd99c52d3">
+          <cp_extra id="print_archive"/>
+        </container>
+        <container cp:type="cpextra" module="authors-register" cp:__name__="2aa20ebc-5378-4235-8d3c-a4ebfc30ab42">
+          <cp_extra id="authors-register"/>
+        </container>
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="id-c7c15e7b-afcd-47cf-a314-8f1523b6c4e0">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="blindblock" cp:__name__="1f69c59f-d351-4743-a59a-4101428d5e42">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="801a5dce-5eb1-4193-9fd8-d239a5c0f435">
+          <cp_extra id="linkatory"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="86e24b5f-98ea-4bb0-837c-b7711098f76c">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="dc8d599c-6a5a-4886-b942-0a3c51f41777" title="Die besten Fotostrecken">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/foto/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/foto/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/foto/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-4c282c4c-daf8-4449-90dc-11f44382a507" title="DIGITALPAKET" publisher_url="https://premium.zeit.de/?wt_mc=pm.intern.fix.zeitde.abo.digipak.mosaik.ipad" supertitle_url="https://premium.zeit.de/?wt_mc=pm.intern.fix.zeitde.abo.digipak.mosaik.ipad" publisher="VERLAGSANGEBOT">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links/digitalabo" year="2011" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="https://premium.zeit.de/?wt_mc=pm.intern.fix.zeitde.abo.digipak.mosaik.ipad" date-last-modified="2013-06-07T09:35:20+00:00" date-first-released="2011-12-06T12:52:33.176762+00:00" date-last-published="2013-06-07T09:35:33.314176+00:00" last-semantic-change="2013-06-07T09:34:15.218350+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die digitale ZEIT</title>
+            <text py:pytype="str">Genießen Sie DIE ZEIT als E-Paper, App, Audio und auf Ihrem E-Reader. Alle Formate sind im Digital-Paket der ZEIT enthalten und bereits Mittwochabend verfügbar.</text>
+            <description py:pytype="str">Genießen Sie DIE ZEIT als E-Paper, App, Audio und auf Ihrem E-Reader. Alle Formate sind im Digital-Paket der ZEIT enthalten und bereits Mittwochabend verfügbar.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/Links/Bilder/digital_paket_neu060513/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="350c8d18-5d95-4981-a182-cebdee38c717" title="Quiz">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/spiele/quiz/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/spiele/quiz/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/spiele/quiz/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="de5e9342-831d-469b-8729-b74cc029c83d" title="Spiele">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/spiele/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/spiele/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/spiele/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Default</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Deafult</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Deafult</text>
+  </indexteaser>
+</centerpage>

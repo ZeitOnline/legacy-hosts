@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-09-11T15:22:02.831685+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-10-26T14:09:03.360273+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-09-17T13:31:51.459265+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-11-11T08:56:44.200964+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-12-31T10:09:00.568261+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-12-31T10:08:36.557592+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">system.hp-assistent</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wirtschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:10642001-6f3d-49dd-a2b1-511d780ac8bb}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature" visible="True" visible_mobile="True">
+      <region area="lead" visible="True" visible_mobile="True" hide-dupes="True"/>
+      <region area="informatives" visible="True" visible_mobile="True" hide-dupes="True">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="f54a6fbd-2b1e-4450-b06f-e1bfd10e5994" visible="True" visible_mobile="True">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="8a136eac-69f8-470b-946a-d18c7fb1a2a1" visible="True" visible_mobile="True">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="987eb2a6-d843-413c-88dc-91da765e1192" visible="True" visible_mobile="True">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="cpextra" module="newsletter_wirtschaft" cp:__name__="5e924997-cecc-4d40-abc6-5c6128201549" visible="True" visible_mobile="True">
+          <cp_extra id="newsletter_wirtschaft"/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-3996cb94-279f-4720-8c17-575b4661f9b3" visible="True" visible_mobile="True">
+          <raw>
+            <a width="319" class="twitter-timeline" href="https://twitter.com/zeitonline_wir" data-widget-id="306741538124349440">Tweets von @zeitonline_wir</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </raw>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="4768c138-055b-457c-9e54-8b88a466e84b" visible="True" visible_mobile="True">
+          <video videoID="36516804001" player="pls" format="small"/>
+        </container>
+        <container cp:type="rss" module="rss" max_items="5" show_supertitle="True" time_format="none" cp:__name__="1453e499-8312-4e61-970a-a89bb6d88206" url="http://www.handelsblatt.com/contentexport/feed/zeitonline" title="Neu auf Handelsblatt.com:" visible="True" visible_mobile="True">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" href="/var/cms/work/rss/03434c2af02ac33c44acf2a401f4c71c" parse="xml" xpointer="xpointer(/feed/rss)">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/03434c2af02ac33c44acf2a401f4c71c nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <teaser_image align="left" title="Handelsblatt Teaser" base-id="http://xml.zeit.de/zeit-verlag/2010-05/handelsblatt-teaser/" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+          </teaser_image>
+          <feed_icon align="left" title="Handelsblatt Teaser" base-id="http://xml.zeit.de/zeit-verlag/2010-05/handelsblatt-teaser/" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+          </feed_icon>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="c0070db5-0bf5-436d-be14-1c02f232329b" visible="True" visible_mobile="True">
+          <cp_extra id="linkatory"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic" visible="True" visible_mobile="True">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="a49b011d-1fef-44d6-b7c0-9acb7af68808" visible="True" visible_mobile="True" hide-dupes="True">
+        <container cp:type="teaser" module="zon-parquet-small" cp:__name__="26592a62-0b11-4b71-b693-8e89181ab798" hide-dupes="True" title="Unternehmen" visible="True" visible_mobile="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/wirtschaft/unternehmen/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/wirtschaft/unternehmen/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/wirtschaft/unternehmen/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="zon-parquet-small" hide-dupes="True" cp:__name__="8e7430a0-57a1-4ad6-99d9-1e5414a2cb56" title="Thema: Finanzkrise" visible="True" visible_mobile="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/themen/wirtschaft/finanzkrise/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/themen/wirtschaft/finanzkrise/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/themen/wirtschaft/finanzkrise/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="zon-parquet-small" cp:__name__="0c431ae4-1705-406e-bc19-994db3b9142a" hide-dupes="True" title="Thema: Energie" visible="True" visible_mobile="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/themen/wirtschaft/maerkte/energiemaerkte/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/themen/wirtschaft/maerkte/energiemaerkte/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/themen/wirtschaft/maerkte/energiemaerkte/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Wirtschaft</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Wirtschaft</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Wirtschaft</text>
+  </indexteaser>
+</centerpage>

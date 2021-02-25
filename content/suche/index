@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="arena">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2018-03-02T05:45:19.551416+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-11-10T12:29:56.857689+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2018-03-02T05:45:22.257875+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2018-03-02T05:45:22.218418+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-11-10T12:29:56.713051+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-11-18T09:20:36.882024+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-03</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-robots">noindex</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-02-16T10:58:29.794067+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2015-04-03</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.steffen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">19591678</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:de3a6cd5-dfd1-493c-b944-760a7054175c}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+        &lt;global name="ISearchpage" module="zeit.content.cp.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>Suche</title>
+    <cluster visible="True" area="id-66f12362-97e2-4e95-afee-75e1064dee62" kind="solo" visible_mobile="True">
+      <region visible="True" hide-dupes="True" area="id-0b738a33-8e36-4dd2-92f5-96e82137555e" kind="solo" visible_mobile="True">
+        <container cp:type="cpextra" module="search-form" visible="True" cp:__name__="id-5edb2b47-9405-457f-ad9d-188a464927c5" visible_mobile="True"/>
+      </region>
+    </cluster>
+    <cluster visible="True" area="id-df0ee8f2-d5ba-491c-a5db-d03f4bb827f3" kind="solo" visible_mobile="True">
+      <region visible="True" hide-dupes="False" area="id-497cb7e6-9cd9-4ba0-8c37-8ffd153332ec" kind="ranking" count="10" automatic="True" automatic_type="query" visible_mobile="True">
+        <raw_query>*:*</raw_query>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-7677b90b-6cf3-49fb-8343-9416b1a8c500" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-cb1a9735-66a3-4012-afef-9ba13f544e6e" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-913cb698-41ee-479b-997c-86232fd3c3d3" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-6c213b7e-8977-4cec-9ec4-18ac3a158fb0" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-99a43f3d-2c44-4441-be2e-6cdb5fd7c35f" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-4cb09a25-12f5-4d90-bc9b-3b116277660d" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-ba5ca08c-6f71-4c8d-bb73-6b49a5fcae39" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-c21510dc-1b9e-4cf0-9b1b-e6ece567c38e" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-b23c344c-0df1-4fc8-8615-635125dc6b76" visible_mobile="True" text_color="dark" overlay_level="3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" cp:__name__="id-18d1f7df-e85c-4883-a639-5c5b83289e0a" visible_mobile="True" text_color="dark" overlay_level="3"/>
+      </region>
+    </cluster>
+  </body>
+  <teaser>
+    <title>Suche</title>
+  </teaser>
+</centerpage>

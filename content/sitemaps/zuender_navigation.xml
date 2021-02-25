@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<segments>
+
+ <group> 
+
+  <segment href="http://zuender.zeit.de/" class="groupleader" type="super">
+    <name>Startseite</name>
+   </segment>
+
+
+
+  <segment class="groupleader_plain" type="super">
+    <name></name>
+  </segment>
+
+  <segment href="http://zuender.zeit.de/politik/index" type="super">
+    <name>Politik</name>
+  </segment>
+  <segment href="http://zuender.zeit.de/kultur/index" type="super">
+    <name>Kultur</name>
+  </segment>
+  <segment href="http://zuender.zeit.de/leben/index" type="super">
+    <name>Leben</name>
+  </segment>
+ <segment href="http://zuender.zeit.de/schwerpunkte" type="super">
+    <name>Schwerpunkte</name>
+ </segment> 
+  <segment href="http://php.diezuender.de/gallery/"   type="super">
+    <name>Bildergalerien</name>
+</segment>
+
+
+  <segment class="groupleader_plain" type="super">
+    <name></name>
+  </segment>
+
+
+<segment href="http://blog.zeit.de/zuender-blog/" type="super">
+    <name>Redaktionsblog</name>
+  </segment>
+
+ <segment href="http://blog.zeit.de/rezeptor" type="super">
+    <name>Rezeptor</name>
+  </segment>
+
+
+ <segment href="http://zuender.zeit.de/markus-kavka" type="super">
+    <name>Markus Kavka</name>
+ </segment> 
+ <segment href="http://zuender.zeit.de/selim-oezdogan" type="super">
+    <name>Selim Oezdogan</name>
+ </segment> 
+
+  <segment href="http://zuender.zeit.de/sonntagstexte" type="super">
+    <name>Sonntagstexte</name>
+  </segment>
+
+ 
+ 
+
+
+
+
+<!--  <segment class="group_spacer" type="super" /> -->
+
+
+  <segment class="groupleader_plain" type="super">
+    <name></name>
+  </segment>
+  <segment href="http://blog.zeit.de/zitat-des-tages" type="super">
+    <name>Zitat des Tages</name>
+  </segment>
+   <segment href="http://zuender.zeit.de/spiele"   type="super">
+    <name>Spiele</name>
+  </segment>
+
+ 
+
+  <segment href="http://www.zeit.de/" 
+           src="http://zeus.zeit.de/bilder/zuender/header/logo_zeit_navi.gif" 
+           class="image" 
+           type="super"/>
+
+ </group>
+
+
+
+ <group> 
+  <segment href="http://www.zeit.de/zuender/impressum" class="groupleader" type="super">
+    <name>IMPRESSUM</name>
+   </segment>
+ </group> 
+
+</segments>

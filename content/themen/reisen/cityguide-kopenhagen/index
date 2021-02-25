@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-kopenhagen/header-ts-kopenhagen" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© [M] Eric Baradat/AFP/Getty Images </copyright>
+    </header_image>
+    <image base-id="http://xml.zeit.de/reisen/2014-06/city-guide-kopenhagen/" type="jpg" title="City Guide Kopenhagen" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© Eric Baradat/AFP/Getty Images</copyright>
+    </image>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-08-27T15:54:08.942540+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-08-28T05:05:12.328814+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-08-28T05:05:12.328814+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Kopenhagen | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-08-27T15:31:45.393617+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.kuehl</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">1465656249</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2014-08-28T05:04:09+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:89c7dcd1-9c88-4c10-8add-24385e27bd55}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">35</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-9e22b4e4-166b-4e5f-bb25-e35ea10cb931">
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-city-guide-fahrrad-fahren" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-city-guide-fahrrad-fahren" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:57:30+00:00" expires="" date-last-modified="2014-08-28T02:57:35+00:00" date-first-released="2014-08-28T02:58:35.090579+00:00" date-last-published="2014-08-28T02:58:35.090579+00:00" last-semantic-change="2014-08-25T08:33:56.517636+00:00" author="Ulrich Stock">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Die freundlichste Stadt Europas</title>
+            <text py:pytype="str">Kühn sind die Kopenhagener, cool und ziemlich guter Laune. Woher kommt das bloß? Wir forschen nach bei einer Rundfahrt durch die Stadt in der alle kurze Hosen tragen.</text>
+            <description py:pytype="str">Kühn sind die Kopenhagener, cool und ziemlich guter Laune. Woher kommt das bloß? Wir forschen nach bei einer Rundfahrt durch die Stadt in der alle kurze Hosen tragen.</description>
+            <byline py:pytype="str">von  Ulrich Stock</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-jagersborggade/" type="jpg" title="Kopenhagen  Jægersborggade" alt="Nachmittag in der Jægersborggade" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nachmittag in der Jægersborggade</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Ulrich_Stock/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrich Stock</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c7ac1727-6e2d-4e2c-ab42-1ee03a14fea0">
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-smoerrebroed" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-smoerrebroed" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:06:42+00:00" expires="" date-last-modified="2014-08-28T02:06:43+00:00" date-first-released="2014-08-28T02:07:42.864350+00:00" date-last-published="2014-08-28T02:07:42.864350+00:00" last-semantic-change="2014-08-25T08:41:46.511048+00:00" author="Michael Allmaier">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Alles belegt</title>
+            <text py:pytype="str">Kopenhagen ist eine der kulinarisch spannendsten Städte Europas. Das zeigt sich auch im Smörrebröd: Der Klassiker ist bodenständig, aber richtig raffiniert.</text>
+            <description py:pytype="str">Kopenhagen ist eine der kulinarisch spannendsten Städte Europas. Das zeigt sich auch im Smörrebröd: Der Klassiker ist bodenständig, aber richtig raffiniert.</description>
+            <byline py:pytype="str">von  Michael Allmaier</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/smoerrebroed/" type="jpg" title="Smörrebröd" alt="Smörrebröd" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Vom Brot ist nichts zu sehen beim "Schønnemann Special".</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1a70ca21-ebde-4475-9b58-d078200441ce">
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-rasmus-rekyl-nachtleben" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-rasmus-rekyl-nachtleben" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:05:10+00:00" expires="" date-last-modified="2014-08-28T02:05:10+00:00" date-first-released="2014-08-28T02:06:10.258285+00:00" date-last-published="2014-08-28T02:06:10.258285+00:00" last-semantic-change="2014-08-23T15:59:17.153601+00:00" author="Stefanie Flamm">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">"Wenn es wieder hell wird im Norden, gibt es kein Halten"</title>
+            <text py:pytype="str">Sitzen die Dänen acht Monate lang griesgrämig zu Hause? Ein Gespräch mit DJ Rasmus Rekyl über Partys in Metrostationen und das Sommerglück der Kopenhagener.</text>
+            <description py:pytype="str">Sitzen die Dänen acht Monate lang griesgrämig zu Hause? Ein Gespräch mit DJ Rasmus Rekyl über Partys in Metrostationen und das Sommerglück der Kopenhagener.</description>
+            <byline py:pytype="str">von  Stefanie Flamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/papierinsel-kopenhagen/" type="jpg" title="Auf der &quot;Papierinsel&quot; in Kopenhagen" alt="Auf der &quot;Papierinsel&quot; in Kopenhagen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Auf der "Papierinsel" in Kopenhagen</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-43f0d914-e2c5-48ca-b856-611bd48599bc">
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-ibsens-hotel" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-ibsens-hotel" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:12:14+00:00" expires="" date-last-modified="2014-08-28T02:12:16+00:00" date-first-released="2014-08-28T02:13:15.911134+00:00" date-last-published="2014-08-28T02:13:15.911134+00:00" last-semantic-change="2014-08-25T08:56:04.537587+00:00" author="Barbara Baumgartner">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Bringt Kunst mit!</title>
+            <text py:pytype="str">Im nachhaltigen Ibsens Hotel kommt das Design von den Nachbarn aus der hippen Nansensgade. Auch die Zimmerrechnung darf mit eigenen Werken beglichen werden.</text>
+            <description py:pytype="str">Im nachhaltigen Ibsens Hotel kommt das Design von den Nachbarn aus der hippen Nansensgade. Auch die Zimmerrechnung darf mit eigenen Werken beglichen werden.</description>
+            <byline py:pytype="str">von  Barbara Baumgartner</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/hotel-ibsens/" type="jpg" title="Hotel Ibsens" alt="Hotel Ibsens" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hinter der klassischen Fassade des Ibsens wird's bunt.</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Barbara_Baumgartner/index" publication-date="" expires="">
+              <display_name py:pytype="str">Barbara Baumgartner</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b16c09ed-4a16-4a06-9013-73ea10a52a60">
+          <block href="http://xml.zeit.de/reisen/2014-08/kopenhagen-restaurant-tipps" uniqueId="http://xml.zeit.de/reisen/2014-08/kopenhagen-restaurant-tipps" year="2014" issue="35" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:53:00+00:00" expires="" date-last-modified="2014-08-28T02:53:02+00:00" date-first-released="2014-08-28T02:54:01.865319+00:00" date-last-published="2014-08-28T02:54:01.865319+00:00" last-semantic-change="2014-08-25T09:10:04.135905+00:00">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+            <text py:pytype="str">Frischer Fisch in einer verlassenen Werft, Bio-Hot-Dogs und kopflastige nordische Küche: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Kopenhagen.</text>
+            <description py:pytype="str">Frischer Fisch in einer verlassenen Werft, Bio-Hot-Dogs und kopflastige nordische Küche: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Kopenhagen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/manfreds/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-da878f70-7ce1-4e6c-88af-c0c7303197df">
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-christiania" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-christiania" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:27:20+00:00" expires="" date-last-modified="2014-08-28T02:27:23+00:00" date-first-released="2014-08-28T02:28:22.883331+00:00" date-last-published="2014-08-28T02:28:22.883331+00:00" last-semantic-change="2014-08-25T09:05:39.463773+00:00" author="Karin Ceballos Betancur">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Die Welthauptstadt des So-Seins</title>
+            <text py:pytype="str">In Christiania teilen sie nicht nur die Haarbürste: Zwischen den Hippies, Junkies und Grenzüberschreitern wird auch der Tourist zum Aussteiger, früher oder später.</text>
+            <description py:pytype="str">In Christiania teilen sie nicht nur die Haarbürste: Zwischen den Hippies, Junkies und Grenzüberschreitern wird auch der Tourist zum Aussteiger, früher oder später.</description>
+            <byline py:pytype="str">von  Karin Ceballos Betancur</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-christiana/" type="jpg" title="Licht, Luft und Sonne: Recycling-Haus in Christiania" alt="Licht, Luft und Sonne: Recycling-Haus in Christiania" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Licht, Luft und Sonne: Recycling-Haus in Christiania</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-bc835d8e-05c7-4c6a-9bd4-328089b91d26">
+          <block href="http://xml.zeit.de/2014/34/kopenhagen-stine-goya-vesterbro" uniqueId="http://xml.zeit.de/2014/34/kopenhagen-stine-goya-vesterbro" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:41:45+00:00" expires="" date-last-modified="2014-08-27T15:54:07+00:00" date-first-released="" date-last-published="" last-semantic-change="2014-08-25T08:45:38.413599+00:00" author="Ulf Lippitz">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Italienisch für Abhänger</title>
+            <text py:pytype="str">Stine Goya kennt sich mit den Laufstegen der Welt aus. In ihrer Heimatstadt mag sie es eher unstylish: In der Osteria 16 im Stadtteil Vesterbro ist Design ein Fremdwort.</text>
+            <description py:pytype="str">Stine Goya kennt sich mit den Laufstegen der Welt aus. In ihrer Heimatstadt mag sie es eher unstylish: In der Osteria 16 im Stadtteil Vesterbro ist Design ein Fremdwort.</description>
+            <byline py:pytype="str">von  Ulf Lippitz</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-stadt-luft/" type="jpg" title="Kopenhagen aus der Luft" alt="Kopenhagen aus der Luft" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Kopenhagen aus der Luft</bu>
+              <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulf Lippitz</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-505af8a9-09f4-425a-be3e-ae38f046f77a">
+          <block href="http://xml.zeit.de/reisen/2014-08/kopenhagen-hotel-tipps" uniqueId="http://xml.zeit.de/reisen/2014-08/kopenhagen-hotel-tipps" year="2014" issue="35" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T03:02:39+00:00" expires="" date-last-modified="2014-08-28T03:02:40+00:00" date-first-released="2014-08-28T03:03:39.715936+00:00" date-last-published="2014-08-28T03:03:39.715936+00:00" last-semantic-change="2014-08-25T09:16:52.400907+00:00">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Ausblick auf die Neu- und Altstadt, märchenhafter Pomp oder doch lieber cooles, nordisches Design? In diesen drei Kopenhagener Hotels kommt jeder Gast auf seine Kosten. </text>
+            <description py:pytype="str">Ausblick auf die Neu- und Altstadt, märchenhafter Pomp oder doch lieber cooles, nordisches Design? In diesen drei Kopenhagener Hotels kommt jeder Gast auf seine Kosten. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-08/hotel-bella-sky/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-761008df-5f0d-4f91-88e0-813f3564b5bd">
+          <block href="http://xml.zeit.de/mobilitaet/2014-05/stadtplanung-fahrrad" uniqueId="http://xml.zeit.de/mobilitaet/2014-05/stadtplanung-fahrrad" year="2014" issue="21" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2014-07-01T08:57:47+00:00" date-first-released="2014-06-30T08:11:51.752089+00:00" date-last-published="2014-07-01T08:58:46.574150+00:00" last-semantic-change="2014-06-30T08:10:49.265689+00:00" author="Matthias Breitinger">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">"Radfahrer machen eine Stadt erst richtig lebendig"</title>
+            <text py:pytype="str">Nur bei guten Radwegen fühlen sich die Leute eingeladen, Rad zu fahren, sagt Helle Søholt. Die dänische Stadtplanerin wundert sich, dass Deutschland nicht weiter ist.</text>
+            <description py:pytype="str">Nur bei guten Radwegen fühlen sich die Leute eingeladen, Rad zu fahren, sagt Helle Søholt. Die dänische Stadtplanerin wundert sich, dass Deutschland nicht weiter ist.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/mobilitaet/2014-06/radfahrer-kopenhagen/" type="jpg" title="Radfahrer in Kopenhagen" alt="Radfahrer in Kopenhagen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Radfahrer in Kopenhagen</bu>
+              <copyright py:pytype="str">© ECF/Mikael Colville Andersen</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Matthias_Breitinger/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Matthias Breitinger</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-0889012a-bbb2-4759-8ca5-1a0d2c63b131">
+          <block href="http://xml.zeit.de/2013/12/Kopenhagen-Reise-Internet-Netzwerke" uniqueId="http://xml.zeit.de/2013/12/Kopenhagen-Reise-Internet-Netzwerke" year="2013" issue="12" ressort="Reisen" contenttype="article" publication-date="2013-03-21T03:33:53+00:00" expires="" date-last-modified="2013-03-24T15:06:28+00:00" date-first-released="2013-03-14T06:00:00+00:00" date-last-published="2013-03-24T15:07:28.314048+00:00" last-semantic-change="2013-03-23T07:41:01.967713+00:00" author="Friederike Schröter">
+            <supertitle py:pytype="str">Reisen mit dem Internet</supertitle>
+            <title py:pytype="str">Alle "liken" Kopenhagen</title>
+            <text py:pytype="str">Die Autorin Friederike Schröter hat sich in Foren schlau gemacht und auf Facebook um Tipps gebeten. Für Kopenhagen brauchte sie so keinen Reiseführer, aber gute Nerven.</text>
+            <description py:pytype="str">Die Autorin Friederike Schröter hat sich in Foren schlau gemacht und auf Facebook um Tipps gebeten. Für Kopenhagen brauchte sie so keinen Reiseführer, aber gute Nerven.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-03/kopenhagen-foto/" type="jpg" alt="Ein Kanal in Kopenhagen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Kanal in Kopenhagen</bu>
+              <copyright py:pytype="str">©  JONATHAN NACKSTRAND/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Friederike_Schroeter" publication-date="" expires="">
+              <display_name py:pytype="str">Friederike Schröter</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b59e272a-6b42-4176-a432-7944df446587">
+          <block href="http://xml.zeit.de/reisen/2010-08/kopenhagen-design" uniqueId="http://xml.zeit.de/reisen/2010-08/kopenhagen-design" year="2010" issue="31" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T02:29:48+00:00" date-first-released="2010-08-20T06:49:44.576060+00:00" date-last-published="2013-09-08T04:30:29+00:00" last-semantic-change="2010-08-20T06:47:10.019809+00:00" author="Ulrike Schäfer">
+            <supertitle py:pytype="str">Kopenhagen</supertitle>
+            <title py:pytype="str">Zu Fuß zu gutem Stil</title>
+            <text py:pytype="str">Hotels, Fahrräder, Möbel – in Kopenhagen ist alles ein bisschen stilvoller als anderswo. Eine Stadtführerin zeigt Reisenden die Szeneviertel und neue Designläden.</text>
+            <description py:pytype="str">Hotels, Fahrräder, Möbel – in Kopenhagen ist alles ein bisschen stilvoller als anderswo. Eine Stadtführerin zeigt Reisenden die Szeneviertel und neue Designläden.</description>
+            <byline py:pytype="str">Ulrike Schäfer</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2010-08/kopenhagen-1/" type="jpg" title="Design Kopenhagen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Straßen Kopenhagens sind reich an kleinen Designer-Läden</bu>
+              <copyright py:pytype="str">© Tuala Hjarnø / copenhagenmediacenter.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Ulrike_Schaefer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Ulrike Schäfer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7fbc2694-65ea-48f2-8ede-8d4566d2dce1">
+          <block href="http://xml.zeit.de/2013/12/Kopenhagen-Reise-Apps" uniqueId="http://xml.zeit.de/2013/12/Kopenhagen-Reise-Apps" year="2013" issue="12" ressort="Reisen" contenttype="article" publication-date="2013-03-21T03:11:42+00:00" expires="" date-last-modified="2014-08-28T02:57:37+00:00" date-first-released="2013-03-14T06:00:00+00:00" date-last-published="2014-08-28T02:58:36.967655+00:00" last-semantic-change="2013-03-24T15:05:51.609928+00:00" author="Holger Fröhlich">
+            <supertitle py:pytype="str">Reisen mit dem Internet</supertitle>
+            <title py:pytype="str">So weit der Akku reicht</title>
+            <text py:pytype="str">Kopenhagen für Nerds: Wer muss schon nach dem Weg fragen, wenn er die passenden Apps auf dem Smartphone hat? H. Fröhlich hat sich durch die dänische Metropole navigiert. </text>
+            <description py:pytype="str">Kopenhagen für Nerds: Wer muss schon nach dem Weg fragen, wenn er die passenden Apps auf dem Smartphone hat? H. Fröhlich hat sich durch die dänische Metropole navigiert. </description>
+            <byline py:pytype="str">von Holger Fröhlich</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-03/kopenhagen-foto-2/" type="jpg" alt="Der Nyhavn in Kopenhagen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Nyhavn in Kopenhagen</bu>
+              <copyright py:pytype="str">© ERIC BARADAT/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Holger_Froehlich/index" publication-date="" expires="">
+              <display_name py:pytype="str">Holger Fröhlich</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-d8fa88d4-7081-49f6-932a-7c39da25f6c5">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-596ac5e3-0a8e-422b-994e-61e883098f1b">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-4e1ef0f7-c863-43eb-821f-b30c2a0ea292" layout="368x220" title="City Guide Amsterdam">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-amsterdam/index" year="2014" issue="24" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2014-07-03T05:18:18+00:00" expires="" date-last-modified="2014-07-17T09:47:25+00:00" date-first-released="2014-07-03T05:19:21.619895+00:00" date-last-published="2014-07-17T07:47:20.914438+00:00" last-semantic-change="2014-07-17T07:46:04.505631+00:00">
+            <supertitle py:pytype="str">City Guide Amsterdam</supertitle>
+            <title py:pytype="str">City Guide Amsterdam</title>
+            <text py:pytype="str">Amsterdam, das ist Lebensfreude aus dem Bilderbuch: Wir essen Kroketten, trinken ein Bier mit dem Nachtbürgermeister und erleben die Heimeligkeit auf zwei Rädern.</text>
+            <description py:pytype="str">Amsterdam, das ist Lebensfreude aus dem Bilderbuch: Wir essen Kroketten, trinken ein Bier mit dem Nachtbürgermeister und erleben die Heimeligkeit auf zwei Rädern.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-02/city-guide-amsterdam-02/" type="jpg" title="City Guide Amsterdam" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Houses are reflected on January 10, 2013 on the Herengracht, one of the city of Amsterdam's three main canals. 2013 will mark the 400th anniversary since construction began on Amsterdam?s world renowned Canal Ring that was added to the UNESCO World Heritage list.   AFP PHOTO / ANP / JERRY LAMPEN    -- The Netherlands out --        (Photo credit should read JERRY LAMPEN/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Jerry Lampen/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2014-02/city-guide-amsterdam-03/city-guide-amsterdam-03-368x220.jpg" title="City Guide Amsterdam" align="left" publication-date="" expires="">
+            <bu>Construction work continues on a hotel made to look like seventy Zaanse houses stacked together in the centre of Zaandam, north of Amsterdam March 17, 2010. Many tourists visit Zaandam where traditional Zannse houses originated from. The hotel is due to open on Thursday. REUTERS/Toussaint Kluiters/United Photos   (NETHERLANDS - Tags: BUSINESS CONSTRUCTION TRAVEL) - RTR2BQQS</bu>
+            <copyright>© Toussaint Kluiters/United Photos/Reuters</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-13e4e569-1e64-4d2d-9d34-9d9ea44c6b26">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-mailand/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-kopenhagen/index#fecc3f60-430a-4121-9878-be4a952fbd3a" year="2014" issue="16" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2014-04-17T05:00:08+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str"> </supertitle>
+            <title py:pytype="str">City Guide Mailand</title>
+            <text py:pytype="str">Diese Stadt ist teuer, schick und rätselhaft. Wir treffen die Frau, die Mailand zur Modestadt gemacht hat, essen das beste Risotto und lernen von Da Vincis Vergangenheit.</text>
+            <description py:pytype="str">Diese Stadt ist teuer, schick und rätselhaft. Wir treffen die Frau, die Mailand zur Modestadt gemacht hat, essen das beste Risotto und lernen von Da Vincis Vergangenheit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-01/city-guide-mailand-3/" type="jpg" title="City Guide Mailand" align="left" publication-date="" expires="">
+              <bu py:pytype="str">MILAN, ITALY - JULY 31:  A general view of Galleria Vittorio Emanuele on July 31, 2008 in Milan, Italy.  (Photo by Vittorio Zunino Celotto/Getty Images)</bu>
+              <copyright py:pytype="str">© Vittorio Zunino Celotto/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-rom/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-kopenhagen/index#3ea75633-3e56-43dd-bece-f5dca0a0b060" year="2013" issue="40" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2013-10-02T05:35:02+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str"> </supertitle>
+            <title py:pytype="str">City Guide Rom</title>
+            <text py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</text>
+            <description py:pytype="str">Rom ist uralt und erhaben, aber es bewegt sich. Wir tanzen auf einem Scherbenhaufen und joggen über die Spanische Treppe.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-rom-teaser-4/" type="jpg" title="City Guide Rom Teaser 4" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Petersdom</bu>
+              <copyright py:pytype="str">© Alessia Pierdomenico/Reuters</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-0e99e1ee-083e-4079-8e99-88918155a341" layout="368x220" title="City Guide Stockholm">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-stockholm/index" year="2013" issue="23" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-07-17T09:47:19+00:00" date-first-released="2013-06-20T10:37:06.188124+00:00" date-last-published="2014-07-17T09:35:11.635326+00:00" last-semantic-change="2014-07-17T09:33:44.761722+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Stockholm</title>
+            <text py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</text>
+            <description py:pytype="str">Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm/" type="jpg" title="Stockholm" align="left" publication-date="" expires="">
+              <bu py:pytype="str">STOCKHOLM, SWEDEN - JUNE 07: People enjoy the atmosphere in a city square as preparations for the wedding of Princess Madeleine of Sweden and Christopher O'Neill continues on June 7, 2013 in Stockholm, Sweden. (Photo by Chris Jackson/Getty Images) </bu>
+              <copyright py:pytype="str">© Chris Jackson/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2013-06/stockholm/stockholm-368x220.jpg" title="Stockholm" align="left" publication-date="" expires="">
+            <bu>STOCKHOLM, SWEDEN - JUNE 07: People enjoy the atmosphere in a city square as preparations for the wedding of Princess Madeleine of Sweden and Christopher O'Neill continues on June 7, 2013 in Stockholm, Sweden. (Photo by Chris Jackson/Getty Images) </bu>
+            <copyright>© Chris Jackson/Getty Images</copyright>
+          </image>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-3639bdf8-f627-4dc0-a927-5f361c0ce185">
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-madrid/index" uniqueId="http://xml.zeit.de/themen/reisen/cityguide-madrid/index" year="2013" issue="15" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2013-04-18T07:00:36+00:00" expires="" date-last-modified="2014-07-17T09:47:11+00:00" date-first-released="2013-04-18T06:59:38.731637+00:00" date-last-published="2014-07-17T09:34:20.937292+00:00" last-semantic-change="2014-07-17T09:30:11.141689+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Madrid</title>
+            <text py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</text>
+            <description py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Königspalast in Madrid</bu>
+              <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-dresden/index" uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-kopenhagen/index#4bc7acd4-308a-462f-aca7-fc7bc5783c28" year="2014" issue="8" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2014-02-27T06:00:25+00:00" expires="" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">City Guide Dresden</supertitle>
+            <title py:pytype="str">City Guide Dresden</title>
+            <text py:pytype="str">Alle Welt geht in die Knie vor Dresdens barockem Panorama. Wir erkunden die schräge Neustadt, suchen das typische Gericht und fallen bei einem Winzer ins Bett. </text>
+            <description py:pytype="str">Alle Welt geht in die Knie vor Dresdens barockem Panorama. Wir erkunden die schräge Neustadt, suchen das typische Gericht und fallen bei einem Winzer ins Bett. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2014-01/city-guide-dresden-2/" type="jpg" title="City Guide Dresden" align="left" publication-date="" expires="">
+              <bu py:pytype="str">DRESDEN, GERMANY - JUNE 07:  Twilight descends on the Albertinum museum (R) and the dome of the Akademie der Kuenste on June 7, 2010 in Dresden, Germany. The Albertinum, which will exhibit paintings and sculpture from the Romantic Period through to the present, will re-open to the public on June 20, 2010. The Albertinum has undergone an extensive renovation following the devastating floods of 2002, and museum officials managed to raise funds partially by auctioning off works by modern German artists including Georg Richter and Georg Baselitz.  (Photo by Sean Gallup/Getty Images)</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-fc497e38-0d3e-47c9-9bfd-b5ad34ecd007" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-st-petersburg/index" year="2013" issue="48" ressort="Reisen" serie="City Guide" contenttype="centerpage-2009" publication-date="2013-12-12T05:47:23+00:00" expires="" date-last-modified="2014-07-17T09:47:17+00:00" date-first-released="2013-12-12T05:48:25.411043+00:00" date-last-published="2014-07-17T08:00:59.089755+00:00" last-semantic-change="2014-07-17T07:59:37.293838+00:00">
+            <supertitle py:pytype="str">City Guide St. Petersburg</supertitle>
+            <title py:pytype="str">City Guide St. Petersburg</title>
+            <text py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</text>
+            <description py:pytype="str">In St. Petersburg lauert der Zauber an jeder Ecke, manchmal auch dahinter. Wir  besuchen einen dichtenden Heizer, erschaudern vor der Blutskirche und genießen das Bœuf.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-08/city-guide-st-petersburg-teaser-3/" type="jpg" title="City Guide St. Petersburg Teaser 3" align="left" publication-date="" expires="">
+              <bu py:pytype="str">The Hermitage is reflected in the River Neva during light snow in St.Petersburg February 9, 2004. The Hermitage, a former palace of Russian Tsars, now houses one of the largest art collections in the world with over three million exhibits stored. NO RIGHTS CLEARANCES OR PERMISSIONS ARE REQUIRED FOR THIS IMAGE   REUTERS/Alexander Demianchuk   WAW/GB - RTRC9Z7</bu>
+              <copyright py:pytype="str">© Alexander Demianchuk/Reuters</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2013-12/st-petersburg-kirche/st-petersburg-kirche-368x220.jpg" align="left" publication-date="" expires="">
+            <bu>Die Auferstehungskirche in St. Petersburg</bu>
+            <copyright link="http://www.photocase.de/foto/191465-stock-photo-gold-kirche-reisefotografie-analog-material-russland">© Irina / photocase.com</copyright>
+          </image>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>City Guide Kopenhagen</title>
+    <supertitle>City Guide Kopenhagen</supertitle>
+    <subtitle>Wir essen das beste Smörrebröd, tanzen in U-Bahn-Schächten, schlafen kunstvoll und klimaschonend und lassen uns von der Hippiekolonie Christiania am Ende doch noch verzaubern.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2013/12/Kopenhagen-Reise-Apps" year="2013" issue="12" ressort="Reisen" contenttype="article" publication-date="2013-03-21T03:11:42+00:00" expires="" author="Holger Fröhlich">
+      <supertitle py:pytype="str">Reisen mit dem Internet</supertitle>
+      <title py:pytype="str">So weit der Akku reicht</title>
+      <text py:pytype="str">Kopenhagen für Nerds: Wer muss schon nach dem Weg fragen, wenn er die passenden Apps auf dem Smartphone hat? H. Fröhlich hat sich durch die dänische Metropole navigiert. </text>
+      <description py:pytype="str">Kopenhagen für Nerds: Wer muss schon nach dem Weg fragen, wenn er die passenden Apps auf dem Smartphone hat? H. Fröhlich hat sich durch die dänische Metropole navigiert. </description>
+      <byline py:pytype="str">von Holger Fröhlich</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-03/kopenhagen-foto-2/" type="jpg" alt="Der Nyhavn in Kopenhagen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Nyhavn in Kopenhagen</bu>
+        <copyright py:pytype="str">© ERIC BARADAT/AFP/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Holger_Froehlich/index" publication-date="" expires="">
+        <display_name py:pytype="str">Holger Fröhlich</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2010-08/kopenhagen-design" year="2010" issue="31" ressort="Reisen" contenttype="article" publication-date="" expires="" author="Ulrike Schäfer">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Zu Fuß zu gutem Stil</title>
+      <text py:pytype="str">Hotels, Fahrräder, Möbel – in Kopenhagen ist alles ein bisschen stilvoller als anderswo. Eine Stadtführerin zeigt Reisenden die Szeneviertel und neue Designläden.</text>
+      <description py:pytype="str">Hotels, Fahrräder, Möbel – in Kopenhagen ist alles ein bisschen stilvoller als anderswo. Eine Stadtführerin zeigt Reisenden die Szeneviertel und neue Designläden.</description>
+      <byline py:pytype="str">Ulrike Schäfer</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2010-08/kopenhagen-1/" type="jpg" title="Design Kopenhagen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Straßen Kopenhagens sind reich an kleinen Designer-Läden</bu>
+        <copyright py:pytype="str">© Tuala Hjarnø / copenhagenmediacenter.com</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Ulrike_Schaefer/index" publication-date="" expires="">
+        <display_name py:pytype="str">Ulrike Schäfer</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/12/Kopenhagen-Reise-Internet-Netzwerke" year="2013" issue="12" ressort="Reisen" contenttype="article" publication-date="2013-03-21T03:33:53+00:00" expires="" author="Friederike Schröter">
+      <supertitle py:pytype="str">Reisen mit dem Internet</supertitle>
+      <title py:pytype="str">Alle "liken" Kopenhagen</title>
+      <text py:pytype="str">Die Autorin Friederike Schröter hat sich in Foren schlau gemacht und auf Facebook um Tipps gebeten. Für Kopenhagen brauchte sie so keinen Reiseführer, aber gute Nerven.</text>
+      <description py:pytype="str">Die Autorin Friederike Schröter hat sich in Foren schlau gemacht und auf Facebook um Tipps gebeten. Für Kopenhagen brauchte sie so keinen Reiseführer, aber gute Nerven.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-03/kopenhagen-foto/" type="jpg" alt="Ein Kanal in Kopenhagen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Ein Kanal in Kopenhagen</bu>
+        <copyright py:pytype="str">©  JONATHAN NACKSTRAND/AFP/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Friederike_Schroeter" publication-date="" expires="">
+        <display_name py:pytype="str">Friederike Schröter</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/mobilitaet/2014-05/stadtplanung-fahrrad" year="2014" issue="21" ressort="Mobilitaet" contenttype="article" publication-date="" expires="" genre="interview" author="Matthias Breitinger">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">"Radfahrer machen eine Stadt erst richtig lebendig"</title>
+      <text py:pytype="str">Nur bei guten Radwegen fühlen sich die Leute eingeladen, Rad zu fahren, sagt Helle Søholt. Die dänische Stadtplanerin wundert sich, dass Deutschland nicht weiter ist.</text>
+      <description py:pytype="str">Nur bei guten Radwegen fühlen sich die Leute eingeladen, Rad zu fahren, sagt Helle Søholt. Die dänische Stadtplanerin wundert sich, dass Deutschland nicht weiter ist.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/mobilitaet/2014-06/radfahrer-kopenhagen/" type="jpg" title="Radfahrer in Kopenhagen" alt="Radfahrer in Kopenhagen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Radfahrer in Kopenhagen</bu>
+        <copyright py:pytype="str">© ECF/Mikael Colville Andersen</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Matthias_Breitinger/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Matthias Breitinger</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-08/kopenhagen-hotel-tipps" year="2014" issue="35" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T03:02:39+00:00" expires="">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+      <text py:pytype="str">Ausblick auf die Neu- und Altstadt, märchenhafter Pomp oder doch lieber cooles, nordisches Design? In diesen drei Kopenhagener Hotels kommt jeder Gast auf seine Kosten. </text>
+      <description py:pytype="str">Ausblick auf die Neu- und Altstadt, märchenhafter Pomp oder doch lieber cooles, nordisches Design? In diesen drei Kopenhagener Hotels kommt jeder Gast auf seine Kosten. </description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/hotel-bella-sky/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/34/kopenhagen-stine-goya-vesterbro" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:41:45+00:00" expires="" author="Ulf Lippitz">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Italienisch für Abhänger</title>
+      <text py:pytype="str">Stine Goya kennt sich mit den Laufstegen der Welt aus. In ihrer Heimatstadt mag sie es eher unstylish: In der Osteria 16 im Stadtteil Vesterbro ist Design ein Fremdwort.</text>
+      <description py:pytype="str">Stine Goya kennt sich mit den Laufstegen der Welt aus. In ihrer Heimatstadt mag sie es eher unstylish: In der Osteria 16 im Stadtteil Vesterbro ist Design ein Fremdwort.</description>
+      <byline py:pytype="str">von  Ulf Lippitz</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-stadt-luft/" type="jpg" title="Kopenhagen aus der Luft" alt="Kopenhagen aus der Luft" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Kopenhagen aus der Luft</bu>
+        <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Ulf_Lippitz/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Ulf Lippitz</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/34/kopenhagen-christiania" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:27:20+00:00" expires="" author="Karin Ceballos Betancur">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Die Welthauptstadt des So-Seins</title>
+      <text py:pytype="str">In Christiania teilen sie nicht nur die Haarbürste: Zwischen den Hippies, Junkies und Grenzüberschreitern wird auch der Tourist zum Aussteiger, früher oder später.</text>
+      <description py:pytype="str">In Christiania teilen sie nicht nur die Haarbürste: Zwischen den Hippies, Junkies und Grenzüberschreitern wird auch der Tourist zum Aussteiger, früher oder später.</description>
+      <byline py:pytype="str">von  Karin Ceballos Betancur</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-christiana/" type="jpg" title="Licht, Luft und Sonne: Recycling-Haus in Christiania" alt="Licht, Luft und Sonne: Recycling-Haus in Christiania" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Licht, Luft und Sonne: Recycling-Haus in Christiania</bu>
+        <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+        <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2014-08/kopenhagen-restaurant-tipps" year="2014" issue="35" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:53:00+00:00" expires="">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Die Restaurant-Tipps der Redaktion</title>
+      <text py:pytype="str">Frischer Fisch in einer verlassenen Werft, Bio-Hot-Dogs und kopflastige nordische Küche: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Kopenhagen.</text>
+      <description py:pytype="str">Frischer Fisch in einer verlassenen Werft, Bio-Hot-Dogs und kopflastige nordische Küche: Die Redaktion empfiehlt fünf ausgewählte Restaurants in Kopenhagen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/manfreds/" type="jpg" align="left" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© PR</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/34/kopenhagen-ibsens-hotel" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:12:14+00:00" expires="" author="Barbara Baumgartner">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Bringt Kunst mit!</title>
+      <text py:pytype="str">Im nachhaltigen Ibsens Hotel kommt das Design von den Nachbarn aus der hippen Nansensgade. Auch die Zimmerrechnung darf mit eigenen Werken beglichen werden.</text>
+      <description py:pytype="str">Im nachhaltigen Ibsens Hotel kommt das Design von den Nachbarn aus der hippen Nansensgade. Auch die Zimmerrechnung darf mit eigenen Werken beglichen werden.</description>
+      <byline py:pytype="str">von  Barbara Baumgartner</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/hotel-ibsens/" type="jpg" title="Hotel Ibsens" alt="Hotel Ibsens" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Hinter der klassischen Fassade des Ibsens wird's bunt.</bu>
+        <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Barbara_Baumgartner/index" publication-date="" expires="">
+        <display_name py:pytype="str">Barbara Baumgartner</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/34/kopenhagen-rasmus-rekyl-nachtleben" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:05:10+00:00" expires="" author="Stefanie Flamm">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">"Wenn es wieder hell wird im Norden, gibt es kein Halten"</title>
+      <text py:pytype="str">Sitzen die Dänen acht Monate lang griesgrämig zu Hause? Ein Gespräch mit DJ Rasmus Rekyl über Partys in Metrostationen und das Sommerglück der Kopenhagener.</text>
+      <description py:pytype="str">Sitzen die Dänen acht Monate lang griesgrämig zu Hause? Ein Gespräch mit DJ Rasmus Rekyl über Partys in Metrostationen und das Sommerglück der Kopenhagener.</description>
+      <byline py:pytype="str">von  Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/papierinsel-kopenhagen/" type="jpg" title="Auf der &quot;Papierinsel&quot; in Kopenhagen" alt="Auf der &quot;Papierinsel&quot; in Kopenhagen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Auf der "Papierinsel" in Kopenhagen</bu>
+        <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/34/kopenhagen-smoerrebroed" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:06:42+00:00" expires="" author="Michael Allmaier">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Alles belegt</title>
+      <text py:pytype="str">Kopenhagen ist eine der kulinarisch spannendsten Städte Europas. Das zeigt sich auch im Smörrebröd: Der Klassiker ist bodenständig, aber richtig raffiniert.</text>
+      <description py:pytype="str">Kopenhagen ist eine der kulinarisch spannendsten Städte Europas. Das zeigt sich auch im Smörrebröd: Der Klassiker ist bodenständig, aber richtig raffiniert.</description>
+      <byline py:pytype="str">von  Michael Allmaier</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/smoerrebroed/" type="jpg" title="Smörrebröd" alt="Smörrebröd" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Vom Brot ist nichts zu sehen beim "Schønnemann Special".</bu>
+        <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2014/34/kopenhagen-city-guide-fahrrad-fahren" year="2014" issue="34" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2014-08-28T02:57:30+00:00" expires="" author="Ulrich Stock">
+      <supertitle py:pytype="str">Kopenhagen</supertitle>
+      <title py:pytype="str">Die freundlichste Stadt Europas</title>
+      <text py:pytype="str">Kühn sind die Kopenhagener, cool und ziemlich guter Laune. Woher kommt das bloß? Wir forschen nach bei einer Rundfahrt durch die Stadt in der alle kurze Hosen tragen.</text>
+      <description py:pytype="str">Kühn sind die Kopenhagener, cool und ziemlich guter Laune. Woher kommt das bloß? Wir forschen nach bei einer Rundfahrt durch die Stadt in der alle kurze Hosen tragen.</description>
+      <byline py:pytype="str">von  Ulrich Stock</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2014-08/kopenhagen-jagersborggade/" type="jpg" title="Kopenhagen  Jægersborggade" alt="Nachmittag in der Jægersborggade" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Nachmittag in der Jægersborggade</bu>
+        <copyright py:pytype="str" link="http://www.carstensnejbjerg.com/">© Carsten Snejbjerg für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Ulrich_Stock/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Ulrich Stock</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>City Guide Kopenhagen</title>
+    <text>Wir essen das beste Smörrebröd, tanzen in U-Bahn-Schächten, schlafen kunstvoll und klimaschonend und lassen uns von der Hippiekolonie Christiania doch noch verzaubern.</text>
+  </teaser>
+</centerpage>

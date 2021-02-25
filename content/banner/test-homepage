@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ben_</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="corrected">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-04-08T14:37:48.796828+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-04-08T13:42:51.149650+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2009-04-08T13:42:59.578045+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="edited">no</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="images_added">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-04-08T14:37:48.772158+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.heise</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="refined">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">bannertestallgemein</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="urgent">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <column layout="left">
+      <container style="r07">
+        <container layout="box_news" label="news">
+          <xi:include href="/var/cms/work/hp_channels/channel_news" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Die News sind im Moment leider nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <feed id="ts-feed">
+            <rss_feed id="meldungen" max_items="2" mode="news"/>
+          </feed>
+        </container>
+        <cp_extra id="video_play" videoID="20080623c26ba0">
+          <text>Quelle: ZDF.de</text>
+        </cp_extra>
+        <cp_extra id="boersen_box"/>
+        <container layout="box" label="exklusiv" type="box">
+          <title>Exklusiv</title>
+          <xi:include href="/var/cms/work/hp_channels/channel-exklusiv" parse="xml" xpointer="xpointer(/channel/container/block[position()&lt;=9])">
+            <xi:fallback>Box 'Exclusiv' nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="box" label="spielen" type="box" href="http://www.zeit.de/spiele">
+          <xi:include href="/var/cms/work/leben/spielen/box_spiele" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Box 'Spiele' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Alle Spiele</title>
+        </container>
+        <container layout="box" type="box" label="themen Hochschulranking" id="" priority="">
+          <xi:include href="/var/cms/work/campus/channel_ranking" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=5])">
+            <xi:fallback>Themen nicht da</xi:fallback>
+          </xi:include>
+        </container>
+        <!--
+        <container layout="box" label="Netz gegen Nazis" type="box" href="http://www.netz-gegen-nazis.com/" target="_blank" format="box-bordered" id="" priority="">
+          <xi:include href="/var/cms/work/hp_channels/box_netzgegennazis" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Box 'Netz gegen Nazis' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Zum Portal</title>
+        </container>
+-->
+        <container layout="box" label="bildergalerien" type="tab" href="http://www.zeit.de/bildergalerien/index">
+          <xi:include href="/var/cms/work/bildergalerien/channel_bigas" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+            <xi:fallback>Box 'Bildergalerien' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Alle Galerien</title>
+        </container>
+        <cp_extra id="kiosk_flash"/>
+        <container layout="box" label="bildungshappen" type="box" href="http://www.zeit.de/bildungshappen">
+          <title>Bildungshappen abonnieren</title>
+          <block>
+            <feed id="bildungshappen-new" mode="homepage"/>
+          </block>
+        </container>
+        <container layout="box" label="Themen" type="box" href="http://www.zeit.de/themen/index" format="box-bordered">
+          <xi:include href="/var/cms/work/hp_channels/box_themenuebersicht" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Box 'Themenuebersicht' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Ãœbersicht aller Themen</title>
+        </container>
+        <container layout="box" label="weblogs" type="tab" href="http://www.zeit.de/blogs/index">
+          <xi:include href="/var/cms/work/blogs/r07_box_weblogs" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+            <xi:fallback>Box 'Weblogs' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Alle Weblogs</title>
+        </container>
+        <cp_extra id="web_suche"/>
+        <container layout="box" label="leser" type="tab" href="http://kommentare.zeit.de/user/register">
+          <title>Registrieren</title>
+          <block>
+            <supertitle>Lesenswert</supertitle>
+            <feed id="tab-feed">
+              <rss_feed id="leserbeitraege" max_items="4" mode="lesenswert"/>
+            </feed>
+          </block>
+          <block>
+            <supertitle>Kommentare</supertitle>
+            <feed id="tab-feed">
+              <rss_feed id="neue-kommentare" max_items="3" mode="diskussion"/>
+            </feed>
+          </block>
+        </container>
+        <cp_extra id="service_box">
+          <xi:include href="/var/cms/import/wetter/staedte-international">
+            <xi:fallback/>
+          </xi:include>
+        </cp_extra>
+        <container layout="box" label="formate" type="tab" format="tab-box" href="http://www.zeit.de/hilfe/index">
+          <title>Hilfe</title>
+          <xi:include href="/var/cms/work/hp_channels/channel_formate" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+            <xi:fallback>Box 'Formate' nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+      </container>
+      <!-- ende haupt-container -->
+    </column>
+    <column layout="right">
+      <container style="r07" label="Themen">
+        <container layout="headline" label="headline">
+          <xi:include href="/var/cms/work/hp_channels/r07_hp_aufmacher" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Aufmacher nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="knopf" label="knopf">
+          <xi:include href="/var/cms/work/hp_channels/r07_hp_aufmacher" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&gt;1 and position()&lt;=5])">
+            <xi:fallback>Aufmacher nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="box" label="videos" type="tab" id="" priority="">
+          <xi:include href="/var/cms/work/hp_channels/channel_video" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=6])">
+            <xi:fallback>Videobox nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="box" label="magazin" type="tab" id="" priority="">
+          <xi:include href="/var/cms/work/hp_channels/channel_drehscheibe" parse="xml" xpointer="xpointer(/channel/container/block[position()&lt;=6])">
+            <xi:fallback>Magazinbox nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="politik">
+          <xi:include href="/var/cms/work/politik/channel-politik" parse="xml" xpointer="xpointer(/channel/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Politik nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="wirtschaft">
+          <xi:include href="/var/cms/work/wirtschaft/channel_wirtschaft" parse="xml" xpointer="xpointer(/centerpage/body/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Wirtschaft nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="meinung">
+          <xi:include href="/var/cms/work/meinung/channel_meinung" parse="xml" xpointer="xpointer(/centerpage/body/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Meinung nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="gesellschaft">
+          <xi:include href="/var/cms/work/gesellschaft/channel-gesellschaft" parse="xml" xpointer="xpointer(/channel/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Gesellschaft nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="kultur">
+          <xi:include href="/var/cms/work/kultur/channel_kultur" parse="xml" xpointer="xpointer(/centerpage/body/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Kultur nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="wissen">
+          <xi:include href="/var/cms/work/wissen/channel_wissen" parse="xml" xpointer="xpointer(/centerpage/body/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Wissen nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="digital">
+          <xi:include href="/var/cms/work/digital/channel-digital" parse="xml" xpointer="xpointer(/channel/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Digital nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="studium">
+          <xi:include href="/var/cms/work/studium/channel-studium" parse="xml" xpointer="xpointer(/channel/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Studium nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="karriere">
+          <xi:include href="/var/cms/work/karriere/channel-karriere" parse="xml" xpointer="xpointer(/channel/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Karriere nicht da</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="lebensart">
+          <xi:include href="/var/cms/work/lebensart/channel-lebensart" parse="xml" xpointer="xpointer(/channel/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Lebensart nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="reisen">
+          <xi:include href="/var/cms/work/reisen/channel_reisen" parse="xml" xpointer="xpointer(/centerpage/body/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Reisen nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="auto">
+          <xi:include href="/var/cms/work/auto/channel-auto" parse="xml" xpointer="xpointer(/channel/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Auto nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="container" label="sport">
+          <xi:include href="/var/cms/work/sport/channel_sport" parse="xml" xpointer="xpointer(/centerpage/body/container/block[not(@hp_hide) or @hp_hide!='true'][position()&lt;=4])">
+            <xi:fallback>Channel Sportnicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+      </container>
+    </column>
+    <subtitle>Nachrichten, Kommentare und Analysen zu aktuellen Themen der Politik, Wirtschaft, Kultur und Wissenschaft</subtitle>
+    <title>ZEIT ONLINE</title>
+  </body>
+  <teaser>
+    <title py:pytype="str">Testcenterpage</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Testcenterpage</text>
+  </indexteaser>
+</centerpage>

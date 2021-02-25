@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-08-09T11:54:17.113118+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-07-19T13:21:07.718299+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-08-09T11:55:16.863578+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-08-09T11:54:00.840052+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">microsoft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:9a8cf7b8-1369-42c7-a2b7-2266ef5ced84}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="ab7fa3f6-0682-4813-a211-c6c3764d75c6">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="de5a9ac1-ba16-4a5a-b37f-df32330cb4b9">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/microsoft-office/link_zurueck_uebersicht" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/microsoft-office/index" date-last-modified="2011-07-19T13:19:04+00:00" date-first-released="2011-07-19T13:20:04.085363+00:00" date-last-published="2011-07-19T13:20:04.085363+00:00" last-semantic-change="2011-07-19T13:18:53.342394+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="afbf7cf9-a535-4c2a-9e13-555c85988eff">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/microsoft-office/link_microsoft" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;243877840;38866053;v?http://www.office.com/2010" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Microsoft Office 2010</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/microsoft-office/office_2010/office_2010.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="964e935f-b1cd-44a6-8d02-4d352eaa81ce">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/microsoft-office/link_gewinnspiel" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;243877891;38866053;b?http://clk.atdmt.com/DEM/go/346469019/direct/01/" ns0:target="_blank" date-last-modified="2011-08-05T12:47:43+00:00" date-first-released="2011-07-19T13:38:16.930936+00:00" date-last-published="2011-08-05T12:48:43.007588+00:00" last-semantic-change="2011-08-05T12:47:32.598066+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Das große Gewinnspiel vom ZEIT Verlag und Microsoft</title>
+            <text py:pytype="str">Gewinnt Eure Traumklassenfahrt. Jetzt mitmachen!</text>
+            <description py:pytype="str">Gewinnt Eure Traumklassenfahrt. Jetzt mitmachen!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/microsoft-office/eure_traumklassenfahrt/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="8c9d2588-9c68-46e5-818d-b476b7301b86">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/microsoft-office/office_download-2" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;243877903;38866053;v?http://clk.atdmt.com/DEM/go/346469020/direct/01/" ns0:target="_blank" date-last-modified="2011-08-09T11:49:04+00:00" date-first-released="2011-07-20T15:50:23.498565+00:00" date-last-published="2011-08-09T11:50:04.231963+00:00" last-semantic-change="2011-08-09T11:48:53.228864+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Testen Sie Microsoft Office 2010</title>
+            <text py:pytype="str">Es gibt immer was zu tun – die Freiheit, praktisch überall arbeiten zu können. Testen Sie jetzt Microsoft Office!</text>
+            <description py:pytype="str">Es gibt immer was zu tun – die Freiheit, praktisch überall arbeiten zu können. Testen Sie jetzt Microsoft Office!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="packshot_office_home_student" base-id="http://xml.zeit.de/angebote/microsoft-office/packshot_office_home_student/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="9f2ba9bf-ddd8-44e1-9532-0c42f5d0039d">
+          <block href="http://xml.zeit.de/angebote/microsoft-office/office-2010/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-04T15:18:55+00:00" date-first-released="2011-07-19T12:36:10.515319+00:00" date-last-published="2011-08-04T15:19:55.119028+00:00" last-semantic-change="2011-08-04T15:18:42.088980+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">"Freunde, Römer, Landsleute" – Geschichte wird lebendig mit Office 2010!</title>
+            <text py:pytype="str">Referatsthemen mit vermeintlich drögen Themen und schwer vermittelbaren Inhalten bereiten vielen Schülern schlaflose Nächte. </text>
+            <description py:pytype="str">Referatsthemen mit vermeintlich drögen Themen und schwer vermittelbaren Inhalten bereiten vielen Schülern schlaflose Nächte. </description>
+            <byline py:pytype="str">Microsoft Office 2010: Ein Angebot der Microsoft Deutschland GmbH. Für den Inhalt dieser Seite ist die Microsoft Deutschland GmbH verantwortlich</byline>
+            <image align="left" title="partI_office2010" base-id="http://xml.zeit.de/angebote/microsoft-office/office-2010/partI_office2010/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/microsoft-office/one-note/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-04T15:19:38+00:00" date-first-released="2011-07-19T12:59:40.204055+00:00" date-last-published="2011-08-04T15:20:38.471108+00:00" last-semantic-change="2011-08-04T15:19:22.505341+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Recherchieren wie ein Profi - die Referatsvorbereitung mit OneNote</title>
+            <text py:pytype="str">Wie kann Ihr Kind Material für sein Geschichtsreferat sammeln, diese Sammlung bestmöglich strukturieren und gleichzeitig mit den dazugehörigen Quellenangaben ablegen?</text>
+            <description py:pytype="str">Wie kann Ihr Kind Material für sein Geschichtsreferat sammeln, diese Sammlung bestmöglich strukturieren und gleichzeitig mit den dazugehörigen Quellenangaben ablegen?</description>
+            <byline py:pytype="str">Microsoft Office 2010: Ein Angebot der Microsoft Deutschland GmbH. Für den Inhalt dieser Seite ist die Microsoft Deutschland GmbH verantwortlich</byline>
+            <image align="left" title="partII_onenote" base-id="http://xml.zeit.de/angebote/microsoft-office/one-note/partII_onenote/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="0927f22b-5b74-4d2c-80ed-d57abb3b35c8">
+          <block href="http://xml.zeit.de/angebote/microsoft-office/word/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-04T15:21:04+00:00" date-first-released="2011-07-19T12:47:37.512305+00:00" date-last-published="2011-08-04T15:22:03.769288+00:00" last-semantic-change="2011-08-04T15:20:51.911519+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Professionell bebilderte Handouts erstellen mit Word</title>
+            <text py:pytype="str">Die Recherche ist abgeschlossen, nun gilt es, die Informationen zu verdichten, sie anschaulich aufzubereiten und in einem Handout zusammenzufassen.</text>
+            <description py:pytype="str">Die Recherche ist abgeschlossen, nun gilt es, die Informationen zu verdichten, sie anschaulich aufzubereiten und in einem Handout zusammenzufassen.</description>
+            <byline py:pytype="str">Microsoft Office 2010: Ein Angebot der Microsoft Deutschland GmbH. Für den Inhalt dieser Seite ist die Microsoft Deutschland GmbH verantwortlich</byline>
+            <image align="left" title="partIII_word" base-id="http://xml.zeit.de/angebote/microsoft-office/word/partIII_word/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/microsoft-office/powerpoint/index" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-08-04T15:20:32+00:00" date-first-released="2011-07-19T13:00:05.748683+00:00" date-last-published="2011-08-04T15:21:26.638581+00:00" last-semantic-change="2011-08-04T15:20:29.781182+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Ein beeindruckendes Referat halten mit PowerPoint</title>
+            <text py:pytype="str">Das Referat über eine der berühmtesten Reden der römischen Antike steht. Nun erarbeitet Ihr Kind seinen eigenen Vortrag. Dabei hilft PowerPoint mit Vorlagen und Effekten.</text>
+            <description py:pytype="str">Das Referat über eine der berühmtesten Reden der römischen Antike steht. Nun erarbeitet Ihr Kind seinen eigenen Vortrag. Dabei hilft PowerPoint mit Vorlagen und Effekten.</description>
+            <byline py:pytype="str">Microsoft Office 2010: Ein Angebot der Microsoft Deutschland GmbH. Für den Inhalt dieser Seite ist die Microsoft Deutschland GmbH verantwortlich</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/microsoft-office/powerpoint/ppt_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Microsoft</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Microsoft</title>
+  </teaser>
+</centerpage>

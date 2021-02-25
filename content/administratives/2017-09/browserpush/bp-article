@@ -1,0 +1,32 @@
+<style>
+.bp-card{display:none;padding-bottom:1.25rem;padding-top:1.25rem;width:100%}.bp-card__header{-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeLegibility;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;background-color:#085064;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:1.25rem;font-weight:700;line-height:1.2;padding:1rem .875rem}@media screen and (min-width:48em){.bp-card--minor .bp-card__header{padding:1.25rem}}@media screen and (min-width:48em){.bp-card--major .bp-card__header{padding:.5rem 1.25rem}}.bp-card__logo{margin-right:1rem;width:45px}.bp-card__body{background-color:#eeeef0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font-size:.9375rem;line-height:1.3;padding:1.25rem .875rem}@media screen and (min-width:48em){.bp-card__body{padding-left:1.25rem;padding-right:1.25rem}}.bp-card__body .bp-card__text{margin-bottom:1.25rem}@media screen and (min-width:48em){.bp-card--major .bp-card__body{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.bp-card--major .bp-card__body .bp-card__text{margin-right:1.25rem;margin-bottom:0}}.bp-card__btn{-webkit-align-self:center;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center;display:block;background-color:#444;border-radius:5px;color:#fff;font-size:.8125rem;font-weight:700;letter-spacing:.1em;line-height:1.125rem;padding:.5rem 1rem;text-align:center;text-transform:uppercase;-webkit-transition:all .15s ease-in-out;-o-transition:all .15s ease-in-out;transition:all .15s ease-in-out;white-space:nowrap}.bp-card__btn:focus,.bp-card__btn:hover{background-color:#313131;color:#fff;cursor:pointer}
+</style>
+
+<div class="x-content-column x-fullwidth--mobile">
+  <div class="bp-card bp-card--major" id="js-toggle-bp">
+    <div class="bp-card__header">
+    <img class="bp-card__logo" src="https://push.zeit.de/register/img/bell-white.svg">
+      <span>Push-Meldungen von ZEIT ONLINE</span>
+    </div>
+    <div class="bp-card__body">
+      <div class="bp-card__text" id="js-bp-text">Möchten Sie Benachrichtigungen von ZEIT ONLINE in Ihrem Browser erhalten?</div>
+      <a class="bp-card__btn" id="js-bp-activate-link" href="https://push.zeit.de/register/index.html">Jetzt aktivieren</a>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+// self executing anonymous function
+(function() {
+  var IS_APP = ~navigator.userAgent.indexOf('ZONApp') ? true : false;
+  // ua-sdk issupported function
+  if (!!(navigator.serviceWorker && window.PushManager) && !IS_APP) {
+    document.getElementById('js-toggle-bp').style.display = 'block';
+  }
+  else if(IS_APP) {
+    document.getElementById('js-toggle-bp').style.display = 'block';
+    document.getElementById('js-bp-activate-link').href = 'zeit://app/settings';
+    document.getElementById('js-bp-text').textContent = 'Möchten Sie Benachrichtigungen von ZEIT ONLINE in Ihrer App erhalten?';
+  }
+})();
+</script>

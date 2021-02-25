@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <snapshot xsi:nil="true"/>
+    <header_image xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">cp-bannertest-sport</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-09-26T10:56:47.944604+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-09-26T10:57:47.275183+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-09-26T10:57:47.275183+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.bruenjes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Sport</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:305e74ec-a59b-49ae-b87e-75998126c9cb}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="44930d3a-c240-428a-bfa0-43ad996e6921">
+          <block href="http://xml.zeit.de/lebensart/2012-02/wohnen-kaminofen-heizung" year="2012" issue="6" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-18T12:45:59+00:00" date-first-released="2012-02-06T17:43:28.441698+00:00" date-last-published="2012-07-18T14:48:23+00:00" last-semantic-change="2012-02-06T17:42:18.030234+00:00">
+            <supertitle py:pytype="str">Kaminöfen</supertitle>
+            <title py:pytype="str">Es lodert, bollert und prasselt</title>
+            <text py:pytype="str">Zentralheizungen mögen ja praktisch sein – gemütlich machen sie ein Zuhause nicht. Immer mehr Deutsche rüsten deswegen ihre Wohnungen und Häuser mit einem Kaminofen auf.</text>
+            <description py:pytype="str">Zentralheizungen mögen ja praktisch sein – gemütlich machen sie ein Zuhause nicht. Immer mehr Deutsche rüsten deswegen ihre Wohnungen und Häuser mit einem Kaminofen auf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-02/teaser-bollerofen/" type="jpg" publication-date="" expires="">
+              <bu>Den Platz im Lesesessel vor loderndem Feuer gibt es in immer mehr deutschen Wohnzimmern.  </bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=340169">© neophoto/photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/43/Wohnraum-Tipps" year="2011" issue="43" ressort="Lebensart" publication-date="2011-10-20T05:34:00+00:00" expires="" date-last-modified="2012-07-18T20:35:00+00:00" date-first-released="2011-10-20T06:00:00+00:00" date-last-published="2012-07-18T22:38:49+00:00" last-semantic-change="2011-10-26T10:25:52.243996+00:00">
+            <supertitle py:pytype="str">Wohnen</supertitle>
+            <title py:pytype="str">Das Terminal-Prinzip</title>
+            <text py:pytype="str">Wie schaffe ich mir einen Essplatz in der Küche und einen Arbeitsplatz im Wohnzimmer? Der Architekt Tammo Prinz gibt 20 Einrichtungstipps für kleine Wohnungen.</text>
+            <description py:pytype="str">Wie schaffe ich mir einen Essplatz in der Küche und einen Arbeitsplatz im Wohnzimmer? Der Architekt Tammo Prinz gibt 20 Einrichtungstipps für kleine Wohnungen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-10/teaser-wohntipps-timmo/" type="jpg" publication-date="" expires="">
+              <bu>Christian Sallert und Barbara Appolloni verstecken in ihrem Dachgeschoss die Küche in einer Schrankwand.  </bu>
+              <copyright py:pytype="str">© Christiane von Enzberg</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/43/Wohnraum-Kleine-Haeuser" year="2011" issue="43" ressort="Lebensart" publication-date="2011-10-20T05:30:00+00:00" expires="" date-last-modified="2012-07-23T11:55:04+00:00" date-first-released="2011-10-20T06:00:00+00:00" date-last-published="2012-07-18T22:46:10+00:00" last-semantic-change="2011-10-20T07:32:25.879467+00:00">
+            <supertitle py:pytype="str">Wohnraum</supertitle>
+            <title py:pytype="str">So schön kann eng sein</title>
+            <text py:pytype="str">Ein Apartment in New York, ein Wohnwagen in München und ein "Ufo-Haus" in Berlin: Diese Menschen leben gerne auf wenigen Quadratmetern.</text>
+            <description py:pytype="str">Ein Apartment in New York, ein Wohnwagen in München und ein "Ufo-Haus" in Berlin: Diese Menschen leben gerne auf wenigen Quadratmetern.</description>
+            <byline py:pytype="str">Alle Protokolle aufgezeichnet von ANNA SCHMIDHAUSER</byline>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2011-10/kleine-haeuser-teaserbild/" type="jpg" publication-date="2011-10-20T04:49:15+00:00" expires="2011-11-20T22:59:20+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christophe Goussard/VU</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wirtschaft/2010-02/erneuerbare-energien-bilanz" year="2010" issue="8" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2012-07-20T18:37:10+00:00" date-first-released="2010-02-18T18:03:30.401834+00:00" date-last-published="2012-07-20T20:39:26+00:00" last-semantic-change="2010-02-18T17:38:21.570528+00:00">
+            <supertitle py:pytype="str">Erneuerbare Energien</supertitle>
+            <title py:pytype="str">Ökowärme ist vielen Bürgern zu teuer</title>
+            <text py:pytype="str">Jede zehnte in Deutschland verbrauchte Kilowattstunde stammt inzwischen aus regenerativen Energien. Doch noch heizen nach Ansicht der Lobby zu wenige mit Ökowärme.</text>
+            <description py:pytype="str">Jede zehnte in Deutschland verbrauchte Kilowattstunde stammt inzwischen aus regenerativen Energien. Doch noch heizen nach Ansicht der Lobby zu wenige mit Ökowärme.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Windräder bei Wittstock" base-id="http://xml.zeit.de/wirtschaft/2010-02/Windraeder-2/" type="jpg" publication-date="" expires="">
+              <bu>Zu viele Flauten: Trotz zusätzlich installierter Kapazitäten stagnierte der Anteil von Ökostrom im vergangenen Jahr. Der Wind blies einfach nicht stark genug</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="8aa1ca66-298f-4254-b5e4-517e718bb125">
+          <block href="http://xml.zeit.de/kultur/2012-02/interview-charlotte-gainsbourg" year="2012" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-07-18T12:37:39+00:00" date-first-released="2012-02-08T23:00:00+00:00" date-last-published="2012-07-18T14:38:36+00:00" last-semantic-change="2012-02-09T17:04:12.745539+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Charlotte Gainsbourg</supertitle>
+            <title py:pytype="str">"Ich war ein Kind unter Erwachsenen"</title>
+            <text py:pytype="str">Die Schauspielerin Charlotte Gainsbourg gehört zur neunköpfigen Jury der Berlinale. Im Interview spricht sie über Kritik und die Kunst des Urteilens.</text>
+            <description py:pytype="str">Die Schauspielerin Charlotte Gainsbourg gehört zur neunköpfigen Jury der Berlinale. Im Interview spricht sie über Kritik und die Kunst des Urteilens.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die Schauspielerin Charlotte Gainsbourg" align="left" base-id="http://xml.zeit.de/kultur/film/2012-02/charlotte-gainsbourg-foto/" type="jpg" publication-date="" expires="">
+              <bu>Die Schauspielerin Charlotte Gainsbourg</bu>
+              <copyright py:pytype="str">© ANNE-CHRISTINE POUJOULAT/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/05/Interview-Kosslick" year="2012" issue="5" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-07-18T13:25:19+00:00" date-first-released="2012-01-26T06:00:00+00:00" date-last-published="2012-07-18T15:29:40+00:00" last-semantic-change="2012-02-01T17:51:23.153611+00:00">
+            <supertitle py:pytype="str">Berlinale-Chef Kosslick</supertitle>
+            <title py:pytype="str">"Wir bemühen uns, ein radikaleres Programm zu machen"</title>
+            <text py:pytype="str">In wenigen Tagen beginnt die Berlinale. Ihr Chef ist Dieter Kosslick. Hier erzählt er, wie die Jagd auf Filme und Stars funktioniert und wohin das Festival steuert.</text>
+            <description py:pytype="str">In wenigen Tagen beginnt die Berlinale. Ihr Chef ist Dieter Kosslick. Hier erzählt er, wie die Jagd auf Filme und Stars funktioniert und wohin das Festival steuert.</description>
+            <byline py:pytype="str">Das Gespräch führte Katja Nicodemus</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/film/2012-02/dieter-kosslick-2012/" type="jpg" publication-date="" expires="2012-05-01T11:07:26+00:00">
+              <bu>Die Geste sieht vehement aus, soll aber nur gegen die Kälte wirken, als sich Berlinale-Chef Dieter Kosslick am Dienstag nach der Programm-Pressekonferenz zu den bevorstehenden 62. Internationalen Filmfestspielen seinen Schal überwirft.</bu>
+              <copyright py:pytype="str">© Jens Kalaene/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/40/Kino-Melancholia" year="2011" issue="40" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-08-02T13:44:48+00:00" date-first-released="2011-09-29T06:00:00+00:00" date-last-published="2012-07-19T00:19:20+00:00" last-semantic-change="2011-09-30T16:12:32.455519+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Film "Melancholia"</supertitle>
+            <title py:pytype="str">Nein, die Welt kann nicht gerettet werden</title>
+            <text py:pytype="str">Lars von Triers neuer Film kombiniert gewieft die Genres, die Motive sind virtuos gewählt, die Schauspieler großartig. Und über all dem liegt die Ruhe des Weltuntergangs.</text>
+            <description py:pytype="str">Lars von Triers neuer Film kombiniert gewieft die Genres, die Motive sind virtuos gewählt, die Schauspieler großartig. Und über all dem liegt die Ruhe des Weltuntergangs.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Filmszene aus &quot;Melancholia&quot;" align="left" base-id="http://xml.zeit.de/kultur/film/2011-09/filmszene-melancholia/" type="jpg" publication-date="" expires="2011-12-29T13:55:46+00:00">
+              <bu>Kirsten Dunst ist als Justine frisch verheiratet und dem Unheil ergeben.</bu>
+              <copyright py:pytype="str">© Christian Geisnaes/2011 Concorde Filmverleih GmbH</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="6d0f2965-90ba-44e1-b072-d774de145e0b">
+          <block href="http://xml.zeit.de/zeit-wissen/2012/01/Psychologie-Musik" year="2012" issue="1" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-18T17:07:09+00:00" date-first-released="2011-12-06T06:00:00+00:00" date-last-published="2012-07-18T19:10:15+00:00" last-semantic-change="2012-02-08T17:56:33.093744+00:00">
+            <supertitle py:pytype="str">Psychologie</supertitle>
+            <title py:pytype="str">Wie die Kraft der Musik uns berührt und hilft</title>
+            <text py:pytype="str">Sie macht glücklich und wirkt wie Medizin: Musik befriedigt uralte emotionale Bedürfnisse. Wie Psychologen und Mediziner  ihre Kraft ergründen und für Therapien nutzen.</text>
+            <description py:pytype="str">Sie macht glücklich und wirkt wie Medizin: Musik befriedigt uralte emotionale Bedürfnisse. Wie Psychologen und Mediziner  ihre Kraft ergründen und für Therapien nutzen.</description>
+            <byline py:pytype="str">Text Birgit Herden</byline>
+            <image align="left" title="Musik Psychologie" base-id="http://xml.zeit.de/wissen/2012-02/musikhoeren/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=46651">© *pina/photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2012/01/Interview-Marcus" year="2012" issue="1" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-18T17:08:56+00:00" date-first-released="2011-12-06T06:00:00+00:00" date-last-published="2012-07-18T19:10:15+00:00" last-semantic-change="2011-12-08T13:39:38.487623+00:00">
+            <supertitle py:pytype="str">Lernforschung</supertitle>
+            <title py:pytype="str">Gitarre spielen lernen – mit 40 und ohne Talent</title>
+            <text py:pytype="str">Auch als Erwachsener kann man noch ein Instrument lernen, sagt Psychologe Gary Marcus. Er selbst hat es ausprobiert – und hält sich für ziemlich unmusikalisch.</text>
+            <description py:pytype="str">Auch als Erwachsener kann man noch ein Instrument lernen, sagt Psychologe Gary Marcus. Er selbst hat es ausprobiert – und hält sich für ziemlich unmusikalisch.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Gitarre Lernforschung Musikinstrument" align="left" title="Gitarre Lernforschung Musikinstrument" base-id="http://xml.zeit.de/wissen/2011-12/gitarre-spielen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=351769">© e.Kat/Photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/50/SM-Musik" year="2011" issue="50" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-07-18T16:49:22+00:00" date-first-released="2011-12-08T06:00:00+00:00" date-last-published="2012-07-18T18:49:38+00:00" last-semantic-change="2012-01-02T12:43:56.909830+00:00">
+            <supertitle py:pytype="str">Sachbuchautor Levitin</supertitle>
+            <title py:pytype="str">Musik für Kopf und Herz</title>
+            <text py:pytype="str">Das Leben in sechs Songs: Der amerikanische Wissenschaftler Daniel J. Levitin hat in einem klugen Buch erkundet, wie Töne die Welt im Innersten zusammenhalten.</text>
+            <description py:pytype="str">Das Leben in sechs Songs: Der amerikanische Wissenschaftler Daniel J. Levitin hat in einem klugen Buch erkundet, wie Töne die Welt im Innersten zusammenhalten.</description>
+            <byline py:pytype="str">VON WOLFRAM GOERTZ</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-12/erdball/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=906">© gulo/photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/35/Musik-Gefuehle" year="2010" issue="35" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-20T04:12:52+00:00" date-first-released="2010-08-26T06:00:00+00:00" date-last-published="2012-07-20T06:16:34+00:00" last-semantic-change="2010-08-27T07:54:26.807637+00:00">
+            <supertitle py:pytype="str">Hirnforschung</supertitle>
+            <title py:pytype="str">Wie Musik Gefühle erzeugt</title>
+            <text py:pytype="str">Ob Klassik, Schlager oder Rock: Musik dringt direkt in die Tiefen unseres Gehirns. Dort erzeugt ein Cocktail von Hormonen die unterschiedlichsten Emotionen. Von W. Goertz</text>
+            <description py:pytype="str">Ob Klassik, Schlager oder Rock: Musik dringt direkt in die Tiefen unseres Gehirns. Dort erzeugt ein Cocktail von Hormonen die unterschiedlichsten Emotionen. Von W. Goertz</description>
+            <byline py:pytype="str">Von Wolfram Goertz</byline>
+            <image alt="Musik Hirnforschung Wissenschaft Emotionen" align="left" title="Musik" base-id="http://xml.zeit.de/wissen/2010-08/s31-hoeren/" type="jpg" publication-date="" expires="">
+              <bu>Musik löst die unterschiedlichsten Gefühle aus</bu>
+              <copyright py:pytype="str">© Bas Bogaerts/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="0d26c77e-312d-457d-81f4-7d626871e7b3">
+          <block href="http://xml.zeit.de/2012/07/Autotest-Volkswagen" year="2012" issue="7" ressort="Auto" publication-date="2012-02-09T06:12:00+00:00" expires="" date-last-modified="2012-07-18T12:37:09+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2012-07-18T14:38:36+00:00" last-semantic-change="2012-02-06T16:42:59.552800+00:00">
+            <supertitle py:pytype="str">VW up!</supertitle>
+            <title py:pytype="str">"Papa, warum überholen uns so viele andere Autos?"</title>
+            <text py:pytype="str">Peter Dausend fährt den VW up! – und zwei unerschrockene Mitfahrerinnen auf der Rückbank stellen allerhand unangenehme Fragen. </text>
+            <description py:pytype="str">Peter Dausend fährt den VW up! – und zwei unerschrockene Mitfahrerinnen auf der Rückbank stellen allerhand unangenehme Fragen. </description>
+            <byline py:pytype="str">von Peter Dausend</byline>
+            <image alt="VW up!" align="left" title="Der neue VW up!" base-id="http://xml.zeit.de/auto/2012-02/vw-up/" type="jpg" publication-date="" expires="">
+              <bu>VW up!</bu>
+              <copyright py:pytype="str">© Volkswagen</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2012-02/vw-up-erdgas-elektroauto" year="2012" issue="6" ressort="Auto" publication-date="" expires="" date-last-modified="2012-07-18T13:02:14+00:00" date-first-released="2012-02-02T16:27:50.079909+00:00" date-last-published="2012-07-18T15:04:08+00:00" last-semantic-change="2012-02-02T16:26:26.666511+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Alternative Antriebe</supertitle>
+            <title py:pytype="str">Der VW up! wird e und eco</title>
+            <text py:pytype="str">Fünftürer, Erdgasantrieb, Stromer, GT mit 110 PS: VW baut 2012 und 2013 seine up!-Familie kräftig aus. Der Eco up! wird das sparsamste Serienauto auf dem Markt.</text>
+            <description py:pytype="str">Fünftürer, Erdgasantrieb, Stromer, GT mit 110 PS: VW baut 2012 und 2013 seine up!-Familie kräftig aus. Der Eco up! wird das sparsamste Serienauto auf dem Markt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der up! von Volkswagen mit Elektroantrieb" align="left" title="Elektro-up!" base-id="http://xml.zeit.de/auto/2012-02/elektro-up/" type="jpg" publication-date="" expires="">
+              <bu>Der up! von Volkswagen mit Elektroantrieb</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2011-12/fiat-panda" year="2011" issue="52" ressort="Auto" publication-date="" expires="" date-last-modified="2012-07-23T12:07:06+00:00" date-first-released="2011-12-27T17:19:41.118227+00:00" date-last-published="2012-07-18T17:43:40+00:00" last-semantic-change="2011-12-27T11:13:47.761518+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Neuvorstellung Fiat Panda</supertitle>
+            <title py:pytype="str">Fiat schleift die Kanten ab</title>
+            <text py:pytype="str">1980 brachte Fiat den Panda als "tolle Kiste" auf den Markt. Gründlich überarbeitet kommt er im März in dritter Auflage – mutiert zu einem rundlichen Lifestyle-Mobil.</text>
+            <description py:pytype="str">1980 brachte Fiat den Panda als "tolle Kiste" auf den Markt. Gründlich überarbeitet kommt er im März in dritter Auflage – mutiert zu einem rundlichen Lifestyle-Mobil.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der neue Fiat Panda für das Modelljahr 2012" align="left" title="Fiat Panda" base-id="http://xml.zeit.de/auto/2011-12/fiat-panda2012/" type="jpg" publication-date="" expires="">
+              <bu>Der neue Fiat Panda für das Modelljahr 2012</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/06/Autotest-Kia-Soul" year="2012" issue="6" ressort="Auto" publication-date="2012-02-02T06:00:00+00:00" expires="" date-last-modified="2012-07-18T13:04:51+00:00" date-first-released="2012-02-02T06:00:00+00:00" date-last-published="2012-07-18T15:08:12+00:00" last-semantic-change="2012-02-02T09:08:15.012578+00:00">
+            <supertitle py:pytype="str">Kia Soul 1.6 GDI</supertitle>
+            <title py:pytype="str">Rollender Würfel</title>
+            <text py:pytype="str">Der Kia Soul will so hip sein wie ein Mini, ist dafür aber etwas groß geraten. Christine Brinck und Josef Joffe empfehlen den 1.6 GDI trotzdem, statt Golf für die Stadt.</text>
+            <description py:pytype="str">Der Kia Soul will so hip sein wie ein Mini, ist dafür aber etwas groß geraten. Christine Brinck und Josef Joffe empfehlen den 1.6 GDI trotzdem, statt Golf für die Stadt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/auto/2012-01/kia-soul-2/" type="jpg" publication-date="" expires="">
+              <bu>Der Kia Soul</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="0e28c65e-8a64-4d37-b6a8-50666b18de9d">
+          <block href="http://xml.zeit.de/2012/05/Freundschaft-Maenner-Frauen" year="2012" issue="5" ressort="Lebensart" publication-date="2012-01-26T06:10:00+00:00" expires="" date-last-modified="2012-07-18T13:29:09+00:00" date-first-released="2012-01-26T06:00:00+00:00" date-last-published="2012-07-18T15:29:40+00:00" last-semantic-change="2012-01-28T17:18:24.205749+00:00">
+            <supertitle py:pytype="str">Beziehungen</supertitle>
+            <title py:pytype="str">Wir können Freunde sein. Wirklich!</title>
+            <text py:pytype="str">Warum wagen es so wenige Männer und Frauen, einfach nur befreundet zu sein? Noch nie waren die Bedingungen dafür so gut wie heute, findet Mariam Lau. </text>
+            <description py:pytype="str">Warum wagen es so wenige Männer und Frauen, einfach nur befreundet zu sein? Noch nie waren die Bedingungen dafür so gut wie heute, findet Mariam Lau. </description>
+            <byline py:pytype="str">Von Mariam Lau</byline>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-01/maenner-frau/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© cydonna / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/05/Freundschaft-Christakis" year="2012" issue="5" ressort="Lebensart" publication-date="2012-01-26T06:06:00+00:00" expires="" date-last-modified="2012-07-18T13:33:29+00:00" date-first-released="2012-01-26T06:00:00+00:00" date-last-published="2012-07-18T15:33:53+00:00" last-semantic-change="2012-01-26T17:12:33.610700+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Soziologie</supertitle>
+            <title py:pytype="str">"Unser Glück hängt von den Freunden ab"</title>
+            <text py:pytype="str">Der Soziologe Nicholas Christakis untersucht das Wesen unserer Beziehungen. Er fand heraus, dass Vorlieben, zum Beispiel für Fastfood, ansteckend sind. Glück aber auch. </text>
+            <description py:pytype="str">Der Soziologe Nicholas Christakis untersucht das Wesen unserer Beziehungen. Er fand heraus, dass Vorlieben, zum Beispiel für Fastfood, ansteckend sind. Glück aber auch. </description>
+            <byline py:pytype="str">Von Stefan Klein</byline>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2012-01/christakis/" type="jpg" publication-date="" expires="2012-02-24T12:30:33+00:00">
+              <bu>Nicholas Christakis (links) mit Stefan Klein</bu>
+              <copyright py:pytype="str">© Giorgos Moutafis</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/02/Maenner" year="2012" issue="2" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-18T15:01:01+00:00" date-first-released="2012-01-05T06:00:00+00:00" date-last-published="2012-07-18T17:03:26+00:00" last-semantic-change="2012-01-06T07:14:28.744370+00:00">
+            <supertitle py:pytype="str">Geschlechterrollen</supertitle>
+            <title py:pytype="str">Die Schmerzensmänner</title>
+            <text py:pytype="str">Heute tragen die jungen Männer Bärte und spielen Gitarre. Sie sind lieb, melancholisch und  sehr mit sich selbst beschäftigt. Für die Frauen wird das zum Problem.</text>
+            <description py:pytype="str">Heute tragen die jungen Männer Bärte und spielen Gitarre. Sie sind lieb, melancholisch und  sehr mit sich selbst beschäftigt. Für die Frauen wird das zum Problem.</description>
+            <byline py:pytype="str">Von Nina Pauer</byline>
+            <image alt="Ein Mann und eine Frau tanzen gemeinsam auf einem Festival." align="left" title="Schmerzensmänner - Geschlechterrollen" base-id="http://xml.zeit.de/gesellschaft/2012-01/schmerzensmaenner-geschlechterrollen/" type="jpg" publication-date="" expires="2012-04-06T06:41:36+00:00">
+              <bu>Ein Mann und eine Frau tanzen gemeinsam auf einem Festival.</bu>
+              <copyright py:pytype="str">© Hannibal/dpa/lbn</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="094bfd52-9cb9-4717-afc5-8688feedad1b">
+          <block href="http://xml.zeit.de/lebensart/mode/2012-01/vezzoli-ausstellung-paris" year="2012" issue="5" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-18T13:22:22+00:00" date-first-released="2012-01-27T16:00:19.845049+00:00" date-last-published="2012-07-18T15:24:47+00:00" last-semantic-change="2012-01-27T15:58:42.450564+00:00">
+            <supertitle py:pytype="str">Pop-up-Museum</supertitle>
+            <title py:pytype="str">Unverkäufliches bei Prada</title>
+            <text py:pytype="str">Der Künstler Francesco Vezzoli spiegelt in seinen Werken den schönen Schein Hollywoods. In Paris hat er dafür ein eigenes Museum bekommen – für 24 Stunden. Von J. Khayyer</text>
+            <description py:pytype="str">Der Künstler Francesco Vezzoli spiegelt in seinen Werken den schönen Schein Hollywoods. In Paris hat er dafür ein eigenes Museum bekommen – für 24 Stunden. Von J. Khayyer</description>
+            <byline xsi:nil="true"/>
+            <image alt="Skulptur von Vezzoli" align="left" title="Skulptur von Vezzoli" base-id="http://xml.zeit.de/lebensart/mode/2012-01/vezzoli-skulptur/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jina Khayyer</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/42/Genie-Miuccia-Prada" year="2011" issue="42" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-18T21:08:49+00:00" date-first-released="2011-10-13T06:00:00+00:00" date-last-published="2012-07-18T23:10:51+00:00" last-semantic-change="2011-10-20T13:13:01.270398+00:00">
+            <supertitle py:pytype="str">Visionäre</supertitle>
+            <title py:pytype="str">Miuccia Prada, Mäzenin der Mode</title>
+            <text py:pytype="str">Die ZEIT stellt neun Weltveränderer unserer Zeit vor. Heute: Die italienische Designerin Miuccia Prada. Von Tillmann Prüfer</text>
+            <description py:pytype="str">Die ZEIT stellt neun Weltveränderer unserer Zeit vor. Heute: Die italienische Designerin Miuccia Prada. Von Tillmann Prüfer</description>
+            <byline py:pytype="str">VON TILLMANN PRÜFER</byline>
+            <image alt="Miuccia Prada Designerin" align="left" title="Miuccia Prada Designerin" base-id="http://xml.zeit.de/wissen/2011-10/miuccia-prada/" type="jpg" publication-date="" expires="">
+              <bu>Die italienische Designerin Miuccia Prada auf einer ihrer Shows</bu>
+              <copyright py:pytype="str">© Christopher Simon/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/mode/2011-02/kunst-mode-lebensstil" year="2011" issue="6" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-19T14:29:03+00:00" date-first-released="2011-02-23T06:00:26.008966+00:00" date-last-published="2012-07-19T16:31:47+00:00" last-semantic-change="2011-02-21T12:16:49.225110+00:00">
+            <supertitle py:pytype="str">Kunst und Mode</supertitle>
+            <title py:pytype="str">Das visionäre Paar</title>
+            <text py:pytype="str">Mode und Kunst inspirieren sich seit mehr als 100 Jahren. Heute verwischen die Grenzen immer mehr und schaffen einen neuen, kreativen Lebensstil.</text>
+            <description py:pytype="str">Mode und Kunst inspirieren sich seit mehr als 100 Jahren. Heute verwischen die Grenzen immer mehr und schaffen einen neuen, kreativen Lebensstil.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der &quot;Mobile art pavillon&quot; von Chanel, entworfen von Zaha Hadid" align="left" base-id="http://xml.zeit.de/lebensart/mode/2011-02/mobile-art-pavillon/" type="jpg" publication-date="" expires="">
+              <bu>Der "Mobile art Pavillon" von Chanel, entworfen von Zaha Hadid</bu>
+              <copyright py:pytype="str">© Marc Gerritsen/Zaha Hadid Architects</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/mode/2012-01/postmodern-pre-fall-kollektionen-new-york" year="2012" issue="3" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-18T14:26:20+00:00" date-first-released="2012-01-13T05:55:55.858373+00:00" date-last-published="2012-07-18T16:30:40+00:00" last-semantic-change="2012-01-13T07:27:51.089962+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Herbstmode 2012</supertitle>
+            <title py:pytype="str">Postmoderne Zeiten brechen an</title>
+            <text py:pytype="str">In New York zeigen die Designer diese Woche eine Vorschau auf den Herbst. Das prägende Konzept: Endlich ein respektloser Umgang mit der Vergangenheit. Von Jina Khayyer</text>
+            <description py:pytype="str">In New York zeigen die Designer diese Woche eine Vorschau auf den Herbst. Das prägende Konzept: Endlich ein respektloser Umgang mit der Vergangenheit. Von Jina Khayyer</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Postmoderne Zeiten" base-id="http://xml.zeit.de/lebensart/mode/2012-01/postmoderne-zeiten/" type="jpg" publication-date="" expires="2012-04-13T05:27:38+00:00">
+              <bu>Balenciaga spielt in seiner Pre-Fall-Kollektion mit den Farben, Mustern und Formen der achtziger Jahre. </bu>
+              <copyright py:pytype="str">© Promotion </copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="69f69329-591a-49e8-98bc-e6ed40417289">
+          <block href="http://xml.zeit.de/wissen/umwelt/2012-01/leserartikel-landwirtschaft-solidarisch" year="2012" issue="2" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-18T14:40:56+00:00" date-first-released="2012-01-11T14:19:15.154079+00:00" date-last-published="2012-07-18T16:41:29+00:00" last-semantic-change="2012-01-11T14:08:28.038660+00:00">
+            <supertitle py:pytype="str">Solidarische Landwirtschaft</supertitle>
+            <title py:pytype="str">Der Hof gehört den Konsumenten</title>
+            <text py:pytype="str">Leser Jörg von Schmeling ist entsetzt über die Zustände in der Lebensmittelproduktion. Deshalb engagiert er sich in einer landwirtschaftlichen Genossenschaft.</text>
+            <description py:pytype="str">Leser Jörg von Schmeling ist entsetzt über die Zustände in der Lebensmittelproduktion. Deshalb engagiert er sich in einer landwirtschaftlichen Genossenschaft.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2012-01/landwirtschaft-solidarisch/" type="jpg" publication-date="" expires="">
+              <bu>Die Teilgeber und deren Familien helfen bei der Bewirtschaftung des Gärtnerhofs.</bu>
+              <copyright py:pytype="str">© Jörg von Schmeling</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/51/BASF-nachhaltige-Landwirtschaft" year="2011" issue="51" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-18T16:16:31+00:00" date-first-released="2011-12-15T06:00:00+00:00" date-last-published="2012-07-18T18:20:30+00:00" last-semantic-change="2011-12-22T17:56:56.216120+00:00">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Nachhaltige Landwirtschaft</supertitle>
+            <title py:pytype="str">Wie BASF die Ernährung der Menschheit sichern will</title>
+            <text py:pytype="str">Pflanzenschutz und Mineraldünger oder Ökolandbau und biologische Mittel? Der weltgrößte Chemiekonzern BASF will jetzt Nachhaltigkeit in der Landwirtschaft messen.</text>
+            <description py:pytype="str">Pflanzenschutz und Mineraldünger oder Ökolandbau und biologische Mittel? Der weltgrößte Chemiekonzern BASF will jetzt Nachhaltigkeit in der Landwirtschaft messen.</description>
+            <byline py:pytype="str">Von Andreas Sentker</byline>
+            <image align="left" title="Chemiekonzern Nachhaltigkeit Landwirtschaft" base-id="http://xml.zeit.de/wissen/2011-12/s48-landwirtschaft/" type="jpg" publication-date="" expires="">
+              <bu>Ein Arbeiter fährt mit dem Traktor durch eine Reismühle.</bu>
+              <copyright py:pytype="str">© Chumsak Kanoknan/ Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/42/Oekolandbau-Bioprodukte" year="2011" issue="42" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2012-07-18T21:09:19+00:00" date-first-released="2011-10-13T06:00:00+00:00" date-last-published="2012-07-18T23:10:51+00:00" last-semantic-change="2011-10-18T15:38:57.090114+00:00">
+            <supertitle py:pytype="str">Biologische Landwirtschaft</supertitle>
+            <title py:pytype="str">Quoten für Ökogemüse-Anbau</title>
+            <text py:pytype="str">Die Nachfrage für Bioprodukte steigt. Weil das heimische Gemüse nicht schnell genug wächst, fordern Experten nun einen verbindlichen Plan für den Zuwachs des Ökolandbaus.</text>
+            <description py:pytype="str">Die Nachfrage für Bioprodukte steigt. Weil das heimische Gemüse nicht schnell genug wächst, fordern Experten nun einen verbindlichen Plan für den Zuwachs des Ökolandbaus.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Mähdrescher erntet ein ökologisch angebautes Getreidefeld in Benthe in der Region Hannover ab." align="left" title="maehdrescher" base-id="http://xml.zeit.de/wirtschaft/2011-10/maehdrescher/" type="jpg" publication-date="2011-10-17T17:34:20+00:00" expires="2012-01-17T18:34:22+00:00">
+              <bu>Ein Mähdrescher erntet ein ökologisch angebautes Getreidefeld in Benthe in der Region Hannover ab.</bu>
+              <copyright py:pytype="str">© Peter Steffen/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/51/Soja" year="2011" issue="51" ressort="Wissen" publication-date="" expires="" date-last-modified="2012-07-18T16:18:03+00:00" date-first-released="2011-12-15T06:00:00+00:00" date-last-published="2012-07-18T18:20:30+00:00" last-semantic-change="2011-12-19T17:37:37.212710+00:00">
+            <supertitle py:pytype="str">Ernährung</supertitle>
+            <title py:pytype="str">Europas Lust auf Fleisch zerstört Umwelt global</title>
+            <text py:pytype="str">Soja ist in Europas Massentierhaltung sehr beliebt, aber angebaut wird es hier bislang kaum. Stattdessen müssen Bäume im Regenwald für große Sojabohnen-Plantagen fallen.</text>
+            <description py:pytype="str">Soja ist in Europas Massentierhaltung sehr beliebt, aber angebaut wird es hier bislang kaum. Stattdessen müssen Bäume im Regenwald für große Sojabohnen-Plantagen fallen.</description>
+            <byline py:pytype="str">Von Dirk Asendorpf</byline>
+            <image align="left" title="Kühe fressen Soja-Futter" base-id="http://xml.zeit.de/wissen/umwelt/2011-12/kuehe-soja-futter/" type="jpg" publication-date="" expires="">
+              <bu>Soja ist als Viehfutter in der Massentierhaltung sehr beliebt, denn es liefert mageres Fleisch.</bu>
+              <copyright py:pytype="str">© Juan Mabromata/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="53c59cab-7ac4-407f-827c-51a0cf92fd63">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="aff09b05-b1af-4c39-9d0d-de6be96e7f48">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="f5449b0f-36f0-4081-888f-a413a7fb5a9b">
+          <block href="http://xml.zeit.de/lebensart/2012-02/fs-valenki-fellstiefel-2" year="2012" issue="6" ressort="Lebensart" publication-date="2012-02-03T13:04:41+00:00" expires="2012-05-03T12:04:00+00:00" date-last-modified="2012-05-03T12:04:09+00:00" date-first-released="2012-02-08T14:39:34.943897+00:00" date-last-published="2012-02-08T14:39:34.943897+00:00" last-semantic-change="2012-02-08T14:37:07.987186+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Filzstiefel</supertitle>
+            <title py:pytype="str">Ein gewalktes Stück russischer Seele</title>
+            <text py:pytype="str">Lew Tolstoi soll seine Walenki geliebt haben. Noch heute sind die Filzstiefel in Osteuropa fester Teil der Winterkleidung. Bilder aus einer Manufaktur in Weißrussland</text>
+            <description py:pytype="str">Lew Tolstoi soll seine Walenki geliebt haben. Noch heute sind die Filzstiefel in Osteuropa fester Teil der Winterkleidung. Bilder aus einer Manufaktur in Weißrussland</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Valenki Fellstiefel Teaser" base-id="http://xml.zeit.de/lebensart/2012-02/fs-valenki-fellstiefel-teaser/" type="jpg" publication-date="2012-02-03T13:02:37+00:00" expires="2012-05-03T12:02:00+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Tatyana Zenkovich/EPA/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="cpextra" module="newsletter_taeglich" cp:__name__="46dfea1e-d752-4e69-bde1-fda89a67f832">
+          <cp_extra id="newsletter_taeglich"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="b0ae0210-bf0c-401d-b123-7aa9dc50843e">
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2012-02/kaese-veredlung-affineur-paris" year="2012" issue="7" ressort="Lebensart" publication-date="" expires="" date-last-modified="2012-07-18T12:31:20+00:00" date-first-released="2012-02-09T17:12:40.578607+00:00" date-last-published="2012-07-18T14:34:24+00:00" last-semantic-change="2012-02-09T17:11:07.642318+00:00">
+            <supertitle py:pytype="str">Käse-Veredelung</supertitle>
+            <title py:pytype="str">Jeden Tag ist Reifeprüfung</title>
+            <text py:pytype="str">Ein Affineur gibt gutem Käse das ganz besondere Aroma und Philippe Alléosse ist einer der Besten seiner Zunft. Sein Ziel: Er will Frankreichs Ruf als Käsenation bewahren.</text>
+            <description py:pytype="str">Ein Affineur gibt gutem Käse das ganz besondere Aroma und Philippe Alléosse ist einer der Besten seiner Zunft. Sein Ziel: Er will Frankreichs Ruf als Käsenation bewahren.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2012-02/teaser-affineur/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="eb85f596-9c0f-4e8d-be14-8e293c8852ca">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="e6b22506-d5ea-4883-a4f9-efdfb0717830">
+          <block href="http://xml.zeit.de/reisen/2012-01/fs-joel-sternfeld-campagna-romana-2" year="2012" issue="5" ressort="Reisen" publication-date="" expires="" date-last-modified="2012-02-05T07:38:18+00:00" date-first-released="2012-02-05T07:39:18.410273+00:00" date-last-published="2012-02-05T07:39:18.410273+00:00" last-semantic-change="2012-02-05T07:38:01.994282+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotograf Joel Sternfeld</supertitle>
+            <title py:pytype="str">Ruinen für die Ewigkeit</title>
+            <text py:pytype="str">Die Antike bleibt im Alltag mächtig: Der Fotograf Joel Sternfeld zeigt angenehm respektlos, wie sehr Rom heute durch Ruinen von Aquädukten und Grabmälern geprägt ist.</text>
+            <description py:pytype="str">Die Antike bleibt im Alltag mächtig: Der Fotograf Joel Sternfeld zeigt angenehm respektlos, wie sehr Rom heute durch Ruinen von Aquädukten und Grabmälern geprägt ist.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Joel Sternfeld Campagna Romana Teaser" base-id="http://xml.zeit.de/reisen/2012-01/fs-joel-sternfeld-campagna-romana-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Joel Sternfeld/Courtesy Buchmann Galerie Berlin, Luhring Augustine New York</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="d5eeea6e-847c-4298-a272-e2af2aab4500">
+          <block href="http://xml.zeit.de/sport/2012-02/tuvia-tenenbom-aegypter-jude" year="2012" issue="6" ressort="Sport" publication-date="" expires="" date-last-modified="2012-09-25T15:33:14+00:00" date-first-released="2012-02-08T14:02:21.876806+00:00" date-last-published="2012-09-25T15:34:14.284124+00:00" last-semantic-change="2012-02-08T13:58:07.623442+00:00">
+            <supertitle py:pytype="str">Fett wie ein Turnschuh</supertitle>
+            <title py:pytype="str">Auf dem Laufband muss ich an die Juden aus der Bibel denken</title>
+            <text py:pytype="str">Unser Fitness-Kolumnist Tuvia Tenenbom möchte endlich fit werden, er besucht einen Einführungskurs. Das Problem: Er ist Jude, sein Physiotherapeut Ägypter. </text>
+            <description py:pytype="str">Unser Fitness-Kolumnist Tuvia Tenenbom möchte endlich fit werden, er besucht einen Einführungskurs. Das Problem: Er ist Jude, sein Physiotherapeut Ägypter. </description>
+            <byline xsi:nil="true"/>
+            <image alt="&quot;Fett wie ein Turnschuh&quot;: unser Fitnesskolumnist Tuvia Tenenbom" align="left" base-id="http://xml.zeit.de/sport/2012-01/tuvia-tenenbom/" type="jpg" publication-date="" expires="">
+              <bu>"Fett wie ein Turnschuh": unser Fitnesskolumnist Tuvia Tenenbom</bu>
+              <copyright py:pytype="str">© Tuvia Tenenbom</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="c6651b0c-6491-4c0f-b3ff-02bafa7839ba">
+          <block href="http://xml.zeit.de/2012/06/Interview-Bialobrzeski" year="2012" issue="6" ressort="Reisen" publication-date="" expires="" date-last-modified="2012-07-18T12:56:23+00:00" date-first-released="2012-02-02T06:00:00+00:00" date-last-published="2012-07-18T15:00:06+00:00" last-semantic-change="2012-02-07T11:53:57.532941+00:00">
+            <supertitle py:pytype="str">Asiatische Mega-Citys</supertitle>
+            <title py:pytype="str">"Diese Städte kommen mir vor wie futuristische Fantasien"</title>
+            <text py:pytype="str">Als Jugendlicher reiste er nach Asien, seitdem kehrt er immer wieder zurück. Ein Gespräch mit dem Fotografen Peter Bialobrzeski über Mega-Citys und den Feldherrenblick. </text>
+            <description py:pytype="str">Als Jugendlicher reiste er nach Asien, seitdem kehrt er immer wieder zurück. Ein Gespräch mit dem Fotografen Peter Bialobrzeski über Mega-Citys und den Feldherrenblick. </description>
+            <byline py:pytype="str">Interview: Merten Worthmann</byline>
+            <image alt="Das Bild &quot;Manila&quot;, 2008 von Peter Bialobrzeski" align="left" base-id="http://xml.zeit.de/reisen/2012-02/peter-bialobrzeski-raw-bild/" type="jpg" publication-date="" expires="">
+              <bu>Das Bild "Manila" (2008) von Peter Bialobrzeski</bu>
+              <copyright py:pytype="str" link="http://www.hatjecantz.de/controller.php?cmd=detail&amp;titzif=00003192">© Peter Bialobrzeski/Hatje Cantz Verlag</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="871e6016-fb97-4cc3-a26a-074494fe1063">
+          <block href="http://xml.zeit.de/2012/07/Autotest-Volkswagen" year="2012" issue="7" ressort="Auto" publication-date="2012-02-09T06:12:00+00:00" expires="" date-last-modified="2012-07-18T12:37:09+00:00" date-first-released="2012-02-09T06:00:00+00:00" date-last-published="2012-07-18T14:38:36+00:00" last-semantic-change="2012-02-06T16:42:59.552800+00:00">
+            <supertitle py:pytype="str">VW up!</supertitle>
+            <title py:pytype="str">"Papa, warum überholen uns so viele andere Autos?"</title>
+            <text py:pytype="str">Peter Dausend fährt den VW up! – und zwei unerschrockene Mitfahrerinnen auf der Rückbank stellen allerhand unangenehme Fragen. </text>
+            <description py:pytype="str">Peter Dausend fährt den VW up! – und zwei unerschrockene Mitfahrerinnen auf der Rückbank stellen allerhand unangenehme Fragen. </description>
+            <byline py:pytype="str">von Peter Dausend</byline>
+            <image alt="VW up!" align="left" title="Der neue VW up!" base-id="http://xml.zeit.de/auto/2012-02/vw-up/" type="jpg" publication-date="" expires="">
+              <bu>VW up!</bu>
+              <copyright py:pytype="str">© Volkswagen</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="mr" area="teaser-row-full" cp:__name__="ab18d679-95b7-4456-9e89-b704c50163e0">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="b15565a3-9c9c-4c8a-8df6-e62c44584e8a" title="ZEIT SHOP" publisher="Verlagsangebot" publisher_url="http://shop.zeit.de/category/842-Das-Beste-aus-dem-ZEITmagazin?et=l6VVNm&amp;et_cid=19&amp;et_lid=194&amp;et_sub=KW_26_Magazinbuch" supertitle="Verlagsangebot" supertitle_url="http://shop.zeit.de/category/842-Das-Beste-aus-dem-ZEITmagazin?et=l6VVNm&amp;et_cid=19&amp;et_lid=194&amp;et_sub=KW_26_Magazinbuch">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links_Shopleiste/zs_zm_buch" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://shop.zeit.de/category/842-Das-Beste-aus-dem-ZEITmagazin?et=l6VVNm&amp;et_cid=19&amp;et_lid=194&amp;et_sub=KW_26_Magazinbuch" ns0:target="_blank" date-last-modified="2011-07-04T15:31:23+00:00" date-first-released="2011-01-05T09:45:03.453777+00:00" date-last-published="2011-07-04T15:32:23.273356+00:00" last-semantic-change="2011-07-04T15:31:13.086952+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Das Buch zum Geburtstag des ZEITmagazins</title>
+            <text py:pytype="str">Legendäre Reportagen, spektakuläre Bildstrecken und das Beste aus 40 Jahren Mode, Zeitgeist und Kultur. Mit Goldeinband und Schuber. 
+</text>
+            <description py:pytype="str">Legendäre Reportagen, spektakuläre Bildstrecken und das Beste aus 40 Jahren Mode, Zeitgeist und Kultur. Mit Goldeinband und Schuber. 
+</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://shop.zeit.de/category/842-Das-Beste-aus-dem-ZEITmagazin?et=l6VVNm&amp;et_cid=19&amp;et_lid=194&amp;et_sub=KW_26_Magazinbuch" title="zs_zmbuch_neu" base-id="http://xml.zeit.de/angebote/Links_Shopleiste/bilder/zs_zmbuch_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="b17eefd3-108a-48aa-84e6-26409c3167b1" title="ECO STORE" publisher="Anzeige" publisher_url="http://www.avocadostore.de/products/13184-pet-goose-down-jacke-knowledgecotton-apparel" supertitle="Anzeige" supertitle_url="http://www.avocadostore.de/products/13184-pet-goose-down-jacke-knowledgecotton-apparel">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links_Shopleiste/daunenjacke" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.avocadostore.de/products/13184-pet-goose-down-jacke-knowledgecotton-apparel" ns0:target="_blank" date-last-modified="2011-12-22T15:53:40+00:00" date-first-released="2011-12-22T15:51:21.035516+00:00" date-last-published="2011-12-22T15:54:39.662616+00:00" last-semantic-change="2011-12-22T15:53:18.247630+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Daunenjacke</title>
+            <text py:pytype="str">Warme Daunenjacke von Knowledge Cotton aus recycelten PET-Flaschen. In trendiger Stepp-Optik und aus glänzendem Obermaterial. Jetzt bestellen!</text>
+            <description py:pytype="str">Warme Daunenjacke von Knowledge Cotton aus recycelten PET-Flaschen. In trendiger Stepp-Optik und aus glänzendem Obermaterial. Jetzt bestellen!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/Links_Shopleiste/bilder/daunenjacke/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>cp-test-3</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/wissen/umwelt/2012-01/leserartikel-landwirtschaft-solidarisch" year="2012" issue="2" ressort="Wissen" publication-date="" expires="">
+      <supertitle py:pytype="str">Solidarische Landwirtschaft</supertitle>
+      <title py:pytype="str">Der Hof gehört den Konsumenten</title>
+      <text py:pytype="str">Leser Jörg von Schmeling ist entsetzt über die Zustände in der Lebensmittelproduktion. Deshalb engagiert er sich in einer landwirtschaftlichen Genossenschaft.</text>
+      <description py:pytype="str">Leser Jörg von Schmeling ist entsetzt über die Zustände in der Lebensmittelproduktion. Deshalb engagiert er sich in einer landwirtschaftlichen Genossenschaft.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2012-01/landwirtschaft-solidarisch/" type="jpg" publication-date="" expires="">
+        <bu>Die Teilgeber und deren Familien helfen bei der Bewirtschaftung des Gärtnerhofs.</bu>
+        <copyright py:pytype="str">© Jörg von Schmeling</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/mode/2012-01/vezzoli-ausstellung-paris" year="2012" issue="5" ressort="Lebensart" publication-date="" expires="">
+      <supertitle py:pytype="str">Pop-up-Museum</supertitle>
+      <title py:pytype="str">Unverkäufliches bei Prada</title>
+      <text py:pytype="str">Der Künstler Francesco Vezzoli spiegelt in seinen Werken den schönen Schein Hollywoods. In Paris hat er dafür ein eigenes Museum bekommen – für 24 Stunden. Von J. Khayyer</text>
+      <description py:pytype="str">Der Künstler Francesco Vezzoli spiegelt in seinen Werken den schönen Schein Hollywoods. In Paris hat er dafür ein eigenes Museum bekommen – für 24 Stunden. Von J. Khayyer</description>
+      <byline xsi:nil="true"/>
+      <image alt="Skulptur von Vezzoli" align="left" title="Skulptur von Vezzoli" base-id="http://xml.zeit.de/lebensart/mode/2012-01/vezzoli-skulptur/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Jina Khayyer</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/05/Freundschaft-Maenner-Frauen" year="2012" issue="5" ressort="Lebensart" publication-date="2012-01-26T06:10:00+00:00" expires="">
+      <supertitle py:pytype="str">Beziehungen</supertitle>
+      <title py:pytype="str">Wir können Freunde sein. Wirklich!</title>
+      <text py:pytype="str">Warum wagen es so wenige Männer und Frauen, einfach nur befreundet zu sein? Noch nie waren die Bedingungen dafür so gut wie heute, findet Mariam Lau. </text>
+      <description py:pytype="str">Warum wagen es so wenige Männer und Frauen, einfach nur befreundet zu sein? Noch nie waren die Bedingungen dafür so gut wie heute, findet Mariam Lau. </description>
+      <byline py:pytype="str">Von Mariam Lau</byline>
+      <image align="left" base-id="http://xml.zeit.de/lebensart/2012-01/maenner-frau/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© cydonna / photocase.com</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/07/Autotest-Volkswagen" year="2012" issue="7" ressort="Auto" publication-date="2012-02-09T06:12:00+00:00" expires="">
+      <supertitle py:pytype="str">VW up!</supertitle>
+      <title py:pytype="str">"Papa, warum überholen uns so viele andere Autos?"</title>
+      <text py:pytype="str">Peter Dausend fährt den VW up! – und zwei unerschrockene Mitfahrerinnen auf der Rückbank stellen allerhand unangenehme Fragen. </text>
+      <description py:pytype="str">Peter Dausend fährt den VW up! – und zwei unerschrockene Mitfahrerinnen auf der Rückbank stellen allerhand unangenehme Fragen. </description>
+      <byline py:pytype="str">von Peter Dausend</byline>
+      <image alt="VW up!" align="left" title="Der neue VW up!" base-id="http://xml.zeit.de/auto/2012-02/vw-up/" type="jpg" publication-date="" expires="">
+        <bu>VW up!</bu>
+        <copyright py:pytype="str">© Volkswagen</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/zeit-wissen/2012/01/Psychologie-Musik" year="2012" issue="1" ressort="Wissen" publication-date="" expires="">
+      <supertitle py:pytype="str">Psychologie</supertitle>
+      <title py:pytype="str">Wie die Kraft der Musik uns berührt und hilft</title>
+      <text py:pytype="str">Sie macht glücklich und wirkt wie Medizin: Musik befriedigt uralte emotionale Bedürfnisse. Wie Psychologen und Mediziner  ihre Kraft ergründen und für Therapien nutzen.</text>
+      <description py:pytype="str">Sie macht glücklich und wirkt wie Medizin: Musik befriedigt uralte emotionale Bedürfnisse. Wie Psychologen und Mediziner  ihre Kraft ergründen und für Therapien nutzen.</description>
+      <byline py:pytype="str">Text Birgit Herden</byline>
+      <image align="left" title="Musik Psychologie" base-id="http://xml.zeit.de/wissen/2012-02/musikhoeren/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=46651">© *pina/photocase.com</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2012-02/interview-charlotte-gainsbourg" year="2012" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Charlotte Gainsbourg</supertitle>
+      <title py:pytype="str">"Ich war ein Kind unter Erwachsenen"</title>
+      <text py:pytype="str">Die Schauspielerin Charlotte Gainsbourg gehört zur neunköpfigen Jury der Berlinale. Im Interview spricht sie über Kritik und die Kunst des Urteilens.</text>
+      <description py:pytype="str">Die Schauspielerin Charlotte Gainsbourg gehört zur neunköpfigen Jury der Berlinale. Im Interview spricht sie über Kritik und die Kunst des Urteilens.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Die Schauspielerin Charlotte Gainsbourg" align="left" base-id="http://xml.zeit.de/kultur/film/2012-02/charlotte-gainsbourg-foto/" type="jpg" publication-date="" expires="">
+        <bu>Die Schauspielerin Charlotte Gainsbourg</bu>
+        <copyright py:pytype="str">© ANNE-CHRISTINE POUJOULAT/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/2012-02/wohnen-kaminofen-heizung" year="2012" issue="6" ressort="Lebensart" publication-date="" expires="">
+      <supertitle py:pytype="str">Kaminöfen</supertitle>
+      <title py:pytype="str">Es lodert, bollert und prasselt</title>
+      <text py:pytype="str">Zentralheizungen mögen ja praktisch sein – gemütlich machen sie ein Zuhause nicht. Immer mehr Deutsche rüsten deswegen ihre Wohnungen und Häuser mit einem Kaminofen auf.</text>
+      <description py:pytype="str">Zentralheizungen mögen ja praktisch sein – gemütlich machen sie ein Zuhause nicht. Immer mehr Deutsche rüsten deswegen ihre Wohnungen und Häuser mit einem Kaminofen auf.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/lebensart/2012-02/teaser-bollerofen/" type="jpg" publication-date="" expires="">
+        <bu>Den Platz im Lesesessel vor loderndem Feuer gibt es in immer mehr deutschen Wohnzimmern.  </bu>
+        <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=340169">© neophoto/photocase</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">cp-test-3</title>
+  </teaser>
+</centerpage>

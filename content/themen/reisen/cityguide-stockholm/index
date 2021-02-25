@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <image align="left" title="Stockholm" base-id="http://xml.zeit.de/reisen/2013-06/stockholm/" type="jpg" publication-date="" expires="">
+      <bu py:pytype="str">STOCKHOLM, SWEDEN - JUNE 07: People enjoy the atmosphere in a city square as preparations for the wedding of Princess Madeleine of Sweden and Christopher O'Neill continues on June 7, 2013 in Stockholm, Sweden. (Photo by Chris Jackson/Getty Images) </bu>
+      <copyright py:pytype="str">© Chris Jackson/Getty Images</copyright>
+    </image>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-stockholm/header-ts-stockholm" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© Chris Jackson/Getty Images </copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T09:34:02.776230+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-06-20T10:37:06.188124+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T09:35:11.635326+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-07-17T09:34:09.481207+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-10</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Stockholm | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T09:33:44.761722+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2014-01-02</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">96</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:43ee2d18-e28f-4eeb-a993-801cf400ff02}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">23</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-9c062dba-af33-41cb-a251-1642d756463b">
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-arne-dahl-langholmen" year="2013" issue="25" ressort="Reisen" contenttype="article" publication-date="2013-06-20T02:36:04+00:00" expires="" date-last-modified="2013-06-26T17:04:12+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-26T17:05:11.852478+00:00" last-semantic-change="2013-06-24T12:05:49.305651+00:00" serie="City Guide" author="Arne Dahl">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Frei sein auf der Gefängnisinsel</title>
+            <text py:pytype="str">Långholmen, ein beliebtes Stockholmer Ausflugsziel, war in den 1970er Jahren ein Gefängnis. Der Schriftsteller Arne Dahl erklärt, warum er sich heute dort so frei fühlt. </text>
+            <description py:pytype="str">Långholmen, ein beliebtes Stockholmer Ausflugsziel, war in den 1970er Jahren ein Gefängnis. Der Schriftsteller Arne Dahl erklärt, warum er sich heute dort so frei fühlt. </description>
+            <byline py:pytype="str">von Arne Dahl</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-langholmen/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Strand von Langholmen. Von hier schaut man, wenn man schaut, nach Kungsholmen.</bu>
+              <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/D/Arne_Dahl/index" publication-date="" expires="">
+              <display_name py:pytype="str">Arne Dahl</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fbd4def6-ee1f-4c73-9e47-77f39c429131">
+          <block href="http://xml.zeit.de/reisen/2013-06/stockholm-reise-online-netz-tipps" year="2013" issue="23" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:52:46+00:00" date-first-released="2013-06-20T13:36:52.163969+00:00" date-last-published="2013-12-02T18:53:57+00:00" last-semantic-change="2013-06-20T13:35:45.986705+00:00" serie="City Guide" author="Eike Kühl">
+            <supertitle py:pytype="str">City Guide</supertitle>
+            <title py:pytype="str">Stockholm im Netz</title>
+            <text py:pytype="str">Lust auf fika? So heißt Kaffeepause auf Schwedisch. Apps, nicht nur zum Übersetzen, und andere Tipps zur Vorbereitung eines Schwedentrips hat Eike Kühl gesammelt.</text>
+            <description py:pytype="str">Lust auf fika? So heißt Kaffeepause auf Schwedisch. Apps, nicht nur zum Übersetzen, und andere Tipps zur Vorbereitung eines Schwedentrips hat Eike Kühl gesammelt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/schwedische-fika/" type="jpg" title="Schwedische Kaffeepause" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Fika auf Schwedisch. Am besten mit kanelbulle. </bu>
+              <copyright py:pytype="str" link="http://www.flickr.com/photos/gostockholmgoeteborg/">© Jule Müller/flickr/goStockholmGoeteborg </copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Eike Kühl</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-tipps" year="2013" issue="25" ressort="Reisen" contenttype="article" publication-date="2013-06-20T02:43:23+00:00" expires="" date-last-modified="2013-06-20T13:08:17+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-20T13:09:16.926809+00:00" last-semantic-change="2013-06-20T10:26:41.493707+00:00" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Picknick ohne Mücken und Reue</title>
+            <text py:pytype="str">Mitternachtssonne genießen ist eine feine Sache, wenn nur die Mücken nicht wären, und die eigene Dummheit nach ein paar Gläsern Wein zuviel. Für beides gibt es Abhilfe. </text>
+            <description py:pytype="str">Mitternachtssonne genießen ist eine feine Sache, wenn nur die Mücken nicht wären, und die eigene Dummheit nach ein paar Gläsern Wein zuviel. Für beides gibt es Abhilfe. </description>
+            <byline py:pytype="str">von</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/schweden-see/" type="jpg" title="Mückenparadies" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Schwedische Seen gelten als Mückenparadiese.</bu>
+              <copyright py:pytype="str" link="http://www.flickr.com/photos/carstenseinefotos/">© csf-/flickr</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-secondhand-vintage" year="2013" issue="25" ressort="Lebensart" contenttype="article" publication-date="2013-06-20T02:25:21+00:00" expires="" date-last-modified="2013-06-21T16:27:29+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-20T02:26:55.250159+00:00" last-semantic-change="2013-06-21T16:26:52.423924+00:00" serie="City Guide" author="Wolfgang Gehrmann">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Brauchen wir alles!</title>
+            <text py:pytype="str">Der getragene Brautschleier oder die perfekten Heftzwecken: Vintage ist in Stockholm keine Modeerscheinung. Das Gebrauchte bringt Romantik in eine hypermoderne Stadt. </text>
+            <description py:pytype="str">Der getragene Brautschleier oder die perfekten Heftzwecken: Vintage ist in Stockholm keine Modeerscheinung. Das Gebrauchte bringt Romantik in eine hypermoderne Stadt. </description>
+            <byline py:pytype="str">von Wolfgang Gehrmann</byline>
+            <image base-id="http://xml.zeit.de/lebensart/mode/2013-06/stockholm-vintage/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Hat Mut zur Farbe: Die Vintage-Queen Elsa Billgren bei Beyond Retro</bu>
+              <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/G/Wolfgang_Gehrmann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wolfgang Gehrmann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-nachtleben-clubs" year="2013" issue="25" ressort="Reisen" contenttype="article" publication-date="2013-06-20T02:45:06+00:00" expires="" date-last-modified="2013-10-16T12:44:11+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-20T02:46:39.767955+00:00" last-semantic-change="2013-10-16T12:44:01.877642+00:00" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Die besten Partys gibt’s im Wald</title>
+            <text py:pytype="str">Clubbesitzer Jakob Grandin spricht im Interview über harten Techno, strenge Türsteher und den "Lunchbeat", das Tanzen in der Mittagspause.</text>
+            <description py:pytype="str">Clubbesitzer Jakob Grandin spricht im Interview über harten Techno, strenge Türsteher und den "Lunchbeat", das Tanzen in der Mittagspause.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-nachtleben-club/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Trädgården-Club</bu>
+              <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3403bfdf-1b8a-49da-bab8-83e72d3f5c5a">
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-nachtleben-clubs" year="2013" issue="25" ressort="Reisen" contenttype="article" publication-date="2013-06-20T02:45:06+00:00" expires="" date-last-modified="2013-10-16T12:44:11+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-20T02:46:39.767955+00:00" last-semantic-change="2013-10-16T12:44:01.877642+00:00" serie="City Guide" author="Stefanie Flamm">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Die besten Partys gibt’s im Wald</title>
+            <text py:pytype="str">Clubbesitzer Jakob Grandin spricht im Interview über harten Techno, strenge Türsteher und den "Lunchbeat", das Tanzen in der Mittagspause.</text>
+            <description py:pytype="str">Clubbesitzer Jakob Grandin spricht im Interview über harten Techno, strenge Türsteher und den "Lunchbeat", das Tanzen in der Mittagspause.</description>
+            <byline py:pytype="str">von Stefanie Flamm</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-nachtleben-club/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Trädgården-Club</bu>
+              <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Stefanie Flamm</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/kultur/musik/2010-04/stockholm-tipps-musiker" year="2010" issue="16" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T06:57:24+00:00" date-first-released="2010-04-29T06:28:41.375801+00:00" date-last-published="2013-09-08T08:59:01+00:00" last-semantic-change="2010-04-28T14:16:30.914148+00:00">
+            <supertitle py:pytype="str">Stockholm</supertitle>
+            <title py:pytype="str">Die schönsten Ecken der Stadt</title>
+            <text py:pytype="str">Wer kennt die Stadt und ihre Szene besser als die Kreativen? Acht schwedische Popmusiker verraten, wo Stockholm am schönsten ist. </text>
+            <description py:pytype="str">Wer kennt die Stadt und ihre Szene besser als die Kreativen? Acht schwedische Popmusiker verraten, wo Stockholm am schönsten ist. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/musik/2010-04/stockholm-af-chapman/" type="jpg" title="Das Hostel-Boot Af Chapman" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Hostel-Boot Af Chapman vor dem Königspalast in Stockholm</bu>
+              <copyright py:pytype="str">© Fredrik Persson/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d05ba921-20b8-4d52-ac78-7ea985510876">
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-rathaus" year="2013" issue="25" ressort="Reisen" contenttype="article" publication-date="2013-06-20T02:04:28+00:00" expires="" date-last-modified="2013-06-20T13:09:32+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-20T13:10:31.960981+00:00" last-semantic-change="2013-06-20T11:12:15.453845+00:00" serie="City Guide" author="Antje Ravic Strubel">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Das Rathaus ist eine steinerne Illusion</title>
+            <text py:pytype="str">In Stockholm treffen die düsterne Melancholie des Nordens und das sommerliche Glück des Südens aufeinander. Sie vereinigen sich in der Architektur des Rathauses. </text>
+            <description py:pytype="str">In Stockholm treffen die düsterne Melancholie des Nordens und das sommerliche Glück des Südens aufeinander. Sie vereinigen sich in der Architektur des Rathauses. </description>
+            <byline py:pytype="str">von Antje Rávic Strubel</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-rathaus/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das vom Wasser umspielte Rathaus</bu>
+              <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/R/Antje_Ravic-Strubel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Antje Ravic Strubel</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/27/Stockholm-Daecher" year="2011" issue="27" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T22:12:51+00:00" date-first-released="2011-06-30T06:00:00+00:00" date-last-published="2013-12-03T23:14:48+00:00" last-semantic-change="2011-07-16T09:21:30.300463+00:00" author="Elke Michel">
+            <supertitle py:pytype="str">Stockholm</supertitle>
+            <title py:pytype="str">Besuch bei Karlsson auf dem Dach</title>
+            <text py:pytype="str">Stadtrundgang in 40 Meter Höhe: In Stockholm können Touristen den Einheimischen aufs Dach steigen und einen exklusiven Blick auf die schwedische Hauptstadt genießen.</text>
+            <description py:pytype="str">Stadtrundgang in 40 Meter Höhe: In Stockholm können Touristen den Einheimischen aufs Dach steigen und einen exklusiven Blick auf die schwedische Hauptstadt genießen.</description>
+            <byline py:pytype="str">VON ELKE MICHEL</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-06/s64-stockholm/" type="jpg" align="left" publication-date="" expires="2011-09-29T15:23:25+00:00">
+              <bu py:pytype="str">Gut gesichert klettern die Tourteilnehmer über Stege und Leitern.</bu>
+              <copyright py:pytype="str" link="http://www.robschoenbaum.com/">© Rob Schoenbaum</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/M/Elke_Michel/index.xml">
+              <display_name>Elke Michel</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/kultur/musik/2010-04/stockholm-tipps-musiker" year="2010" issue="16" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T06:57:24+00:00" date-first-released="2010-04-29T06:28:41.375801+00:00" date-last-published="2013-09-08T08:59:01+00:00" last-semantic-change="2010-04-28T14:16:30.914148+00:00">
+            <supertitle py:pytype="str">Stockholm</supertitle>
+            <title py:pytype="str">Die schönsten Ecken der Stadt</title>
+            <text py:pytype="str">Wer kennt die Stadt und ihre Szene besser als die Kreativen? Acht schwedische Popmusiker verraten, wo Stockholm am schönsten ist. </text>
+            <description py:pytype="str">Wer kennt die Stadt und ihre Szene besser als die Kreativen? Acht schwedische Popmusiker verraten, wo Stockholm am schönsten ist. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/musik/2010-04/stockholm-af-chapman/" type="jpg" title="Das Hostel-Boot Af Chapman" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Hostel-Boot Af Chapman vor dem Königspalast in Stockholm</bu>
+              <copyright py:pytype="str">© Fredrik Persson/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-6ad9642f-d896-47c9-8052-e30a48fdd6c3">
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-hotel-skeppsholmen" year="2013" issue="25" ressort="Reisen" contenttype="article" publication-date="2013-06-20T02:13:00+00:00" expires="" date-last-modified="2013-06-25T08:57:08+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-25T08:58:07.655001+00:00" last-semantic-change="2013-06-20T11:15:47.377669+00:00" serie="City Guide" author="Martina Bachler">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Unterhosen für die Vergesslichen</title>
+            <text py:pytype="str">Das Hotel Skeppsholmen empfängt seine Gäste mit dezenter Aufmerksamkeit. Dazu gehört auch Ersatzwäsche im Schrank.</text>
+            <description py:pytype="str">Das Hotel Skeppsholmen empfängt seine Gäste mit dezenter Aufmerksamkeit. Dazu gehört auch Ersatzwäsche im Schrank.</description>
+            <byline py:pytype="str">von Martina Bachler</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-hotel-skeppsholmen/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Erst Marinelager, jetzt Hotel: Der Garten des Hotels Skeppsholmen</bu>
+              <copyright py:pytype="str">© Louise Billgert/Hotel Skeppsholmen</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Martina_Bachler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Martina Bachler</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/14/Hoteltest-Stockholm" year="2011" issue="14" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-07T17:32:50+00:00" date-first-released="2011-03-31T06:00:00+00:00" date-last-published="2013-09-07T19:33:05+00:00" last-semantic-change="2011-04-15T09:57:04.043298+00:00" serie="Hoteltest" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">HOTELTEST</supertitle>
+            <title py:pytype="str">Ikea für Reiche in Stockholm</title>
+            <text py:pytype="str">Spiegel, dunkles Holz und ein bisschen Nippes – das Hotel Nobis in Stockholm bemüht sich nach Kräften, ein echtes Designhotel zu sein.</text>
+            <description py:pytype="str">Spiegel, dunkles Holz und ein bisschen Nippes – das Hotel Nobis in Stockholm bemüht sich nach Kräften, ein echtes Designhotel zu sein.</description>
+            <byline py:pytype="str">Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-04/nobis-1/" type="jpg" alt="Die Lobby des Nobis Hotels. " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Lobby des Nobis Hotels. </bu>
+              <copyright py:pytype="str">© Nobis Hotel ©Louise_Billgert</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml">
+              <display_name>Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2009/06/Jumbo-Hotel" year="2009" issue="6" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-09T00:26:17+00:00" date-first-released="2009-01-29T06:00:00+00:00" date-last-published="2013-09-09T02:28:11+00:00" last-semantic-change="2009-02-02T09:18:54.580358+00:00">
+            <supertitle py:pytype="str">Schweden</supertitle>
+            <title py:pytype="str">Ein Bett am Rollfeld</title>
+            <text py:pytype="str">Aus einem alten Jumbo hat ein schwedischer Unternehmer eine Herberge gemacht. Fliegen kann sie zwar nicht, aber die Beinfreiheit ist unübertroffen</text>
+            <description py:pytype="str">Aus einem alten Jumbo hat ein schwedischer Unternehmer eine Herberge gemacht. Fliegen kann sie zwar nicht, aber die Beinfreiheit ist unübertroffen</description>
+            <byline py:pytype="str">Von Andreas Spaeth</byline>
+            <image base-id="http://xml.zeit.de/bilder/2009/06/leben/reisen/58-jumbo-hostel/" type="jpg" title="Jumbo-Hotel" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Doppel- und Mehrbettzimmer gibt es an Bord der ausgemusterten Boeing 747, insgesamt 74 Gäste können zeitgleich beherbergt werden</bu>
+              <copyright py:pytype="str">©  Fredrik Sandberg/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-5b597287-086b-4c6a-b792-18aee6057cc6">
+          <block href="http://xml.zeit.de/2013/25/city-guide-stockholm-tipps" year="2013" issue="25" ressort="Reisen" contenttype="article" publication-date="2013-06-20T02:43:23+00:00" expires="" date-last-modified="2013-06-20T13:08:17+00:00" date-first-released="2013-06-13T06:00:00+00:00" date-last-published="2013-06-20T13:09:16.926809+00:00" last-semantic-change="2013-06-20T10:26:41.493707+00:00" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+            <title py:pytype="str">Picknick ohne Mücken und Reue</title>
+            <text py:pytype="str">Mitternachtssonne genießen ist eine feine Sache, wenn nur die Mücken nicht wären, und die eigene Dummheit nach ein paar Gläsern Wein zuviel. Für beides gibt es Abhilfe. </text>
+            <description py:pytype="str">Mitternachtssonne genießen ist eine feine Sache, wenn nur die Mücken nicht wären, und die eigene Dummheit nach ein paar Gläsern Wein zuviel. Für beides gibt es Abhilfe. </description>
+            <byline py:pytype="str">von</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-06/schweden-see/" type="jpg" title="Mückenparadies" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Schwedische Seen gelten als Mückenparadiese.</bu>
+              <copyright py:pytype="str" link="http://www.flickr.com/photos/carstenseinefotos/">© csf-/flickr</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">City Guide Stockholm</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2013/12/Kopenhagen-Reise-Apps" year="2013" issue="12" ressort="Reisen" contenttype="article" publication-date="2013-03-21T03:11:42+00:00" expires="" date-last-modified="2013-09-02T13:45:23+00:00" date-first-released="2013-03-14T06:00:00+00:00" date-last-published="2013-03-24T15:07:27.481606+00:00" last-semantic-change="2013-03-24T15:05:51.609928+00:00" author="Holger Fröhlich">
+            <supertitle py:pytype="str">Reisen mit dem Internet</supertitle>
+            <title py:pytype="str">So weit der Akku reicht</title>
+            <text py:pytype="str">Kopenhagen für Nerds: Wer muss schon nach dem Weg fragen, wenn er die passenden Apps auf dem Smartphone hat? H. Fröhlich hat sich durch die dänische Metropole navigiert. </text>
+            <description py:pytype="str">Kopenhagen für Nerds: Wer muss schon nach dem Weg fragen, wenn er die passenden Apps auf dem Smartphone hat? H. Fröhlich hat sich durch die dänische Metropole navigiert. </description>
+            <byline py:pytype="str">von Holger Fröhlich</byline>
+            <image base-id="http://xml.zeit.de/reisen/2013-03/kopenhagen-foto-2/" type="jpg" alt="Der Nyhavn in Kopenhagen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Nyhavn in Kopenhagen</bu>
+              <copyright py:pytype="str">© ERIC BARADAT/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Reisen mit dem Internet</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/F/Holger_Froehlich/index" publication-date="" expires="">
+              <display_name py:pytype="str">Holger Fröhlich</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2012/44/Apps-Lebenshilfe" year="2012" issue="44" ressort="Lebensart" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-20T15:05:19+00:00" date-first-released="2012-10-25T06:00:00+00:00" date-last-published="2012-11-01T16:50:05.427670+00:00" last-semantic-change="2012-11-01T16:48:37.729863+00:00" author="Franziska Bulban">
+            <supertitle py:pytype="str">Apps</supertitle>
+            <title py:pytype="str">Wir Selbstoptimierer</title>
+            <text py:pytype="str">Lebenshilfe-Apps sollen uns fitter, gesünder und organisierter machen. Werden wir durch sie zu Kontrollfreaks oder wirklich zu besseren Menschen? Von Franziska Bulban</text>
+            <description py:pytype="str">Lebenshilfe-Apps sollen uns fitter, gesünder und organisierter machen. Werden wir durch sie zu Kontrollfreaks oder wirklich zu besseren Menschen? Von Franziska Bulban</description>
+            <byline py:pytype="str">VON FRANZISKA BULBAN</byline>
+            <image base-id="http://xml.zeit.de/lebensart/2012-11/teaser-apps/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Philippe Desmazes/AFP/GettyImages</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Franziska_Bulban">
+              <display_name>Franziska Bulban</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-aa5f543e-c8ac-4166-a613-c7941fee4367">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-6a3e02d7-34d9-4091-8233-fcede79eea78">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-cc4ddf05-59f9-47e4-b810-2551a425d440" layout="368x110" title="City Guide Madrid">
+          <block type="intern" href="http://xml.zeit.de/themen/reisen/cityguide-madrid/index" year="2013" issue="15" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-04-18T07:00:36+00:00" expires="" date-last-modified="2014-07-17T09:33:22+00:00" date-first-released="2013-04-18T06:59:38.731637+00:00" date-last-published="2014-07-17T09:34:20.937292+00:00" last-semantic-change="2014-07-17T09:30:11.141689+00:00" serie="City Guide">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Madrid</title>
+            <text py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</text>
+            <description py:pytype="str">Erhaben, dörflich und ziemlich bunt – das ist Madrid. Wir trinken mit den Madrilenen auf den Feierabend, entdecken Kunst und genießen den Frühling im Retiro-Park.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-04/madrid-palast/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Königspalast in Madrid</bu>
+              <copyright py:pytype="str">© EyesWideOpen/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2013-04/madrid-palast/madrid-palast-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-65e0d87c-f96d-46b5-82b2-cbad7e6f8811" visible="True">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-stockholm/index#4704478b-d982-4d7d-b1d8-6d13a57920c2" year="2012" issue="26" ressort="Reisen" contenttype="centerpage-2009" publication-date="2012-08-30T08:10:00+00:00" expires="" ns1:href="http://xml.zeit.de/themen/reisen/cityguide-hamburg/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Hamburg</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-stockholm/index#c293310f-9e68-4aef-af49-6a10d8099b72" year="2012" issue="41" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-prag/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Prag</title>
+            <text py:pytype="str">Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</text>
+            <description py:pytype="str">Prag ist schön, alt – und ziemlich schräg. Wir fahren Straßenbahn, essen feinen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/cityguide-prag/" type="jpg" title="Cityguide Prag Teaserbild" alt="Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Zwei Wahrzeichen Prags: Hinter den Statuen der Karlsbrücke ragt die Burg auf.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-9477e153-48ad-4c62-87cc-c835bd552eb7" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-stockholm/index#20d6e9ea-77af-41ca-95b5-05634726e4ea" year="2011" issue="50" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-lissabon/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Lissabon</title>
+            <text py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</text>
+            <description py:pytype="str">Sonnenaufgang über dem Tejo, Fado in der Bar und Schlafen im Palast – Lissabon ist auf schwermütige Weise schön. In unserem City Guide finden Sie Tipps für den Städtetrip</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-12/lissabon-cityguide/" type="jpg" title="Cityguide Lissabon" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LISBON, PORTUGAL - JULY 23:  Tourists visit Belem Tower on July 23, 2008 in Lisbon, Portugal. Portugal is becoming an increasingly popular tourist destination.  (Photo by Sean Gallup/Getty Images)</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-stockholm/index#02075de9-62e8-4d0c-a92a-865863780ad0" year="2011" issue="42" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-barcelona/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Barcelona</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/themenseite-barcelona-city-guide-2/" type="jpg" title="Themenseite Barcelona City Guide 2" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Barcelona, SPAIN:  A view of the front of Catalan architect Antoni Gaudi's unfinished cathedral La Sagrada Familia in Barcelona, 07 June 2006. Religious services will be able to take place in the nave by 2008, the construction committee said Wednesday.   AFP PHOTO/CESAR RANGEL  (Photo credit should read CESAR RANGEL/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Cesar Rangel/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-dfd94e87-df43-40df-985d-64d1e9741501" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-stockholm/index#0af9bfea-f679-4061-bafd-dbd047bdfc13" year="2012" issue="50" ressort="Reisen" contenttype="centerpage-2009" publication-date="2012-12-20T04:33:58+00:00" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-venedig/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Venedig</title>
+            <text py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</text>
+            <description py:pytype="str">Venedig macht viele melancholisch. Uns nicht. Wir besichtigen neue Kunst in alten Palazzi, essen die besten Krebse der Lagune und scheren uns nicht um die Sperrstunde.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-12/city-guide-vendedig/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-stockholm/index#b3c46221-d983-49d5-a557-6aabfde23bca" year="2012" issue="25" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-london/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide London</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatclubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-dde0c9d0-64c5-42d6-9e03-99f4a72f56ae" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://teaser.vivi.zeit.de/http://xml.zeit.de/themen/reisen/cityguide-stockholm/index#3a5960c5-6c56-4306-bce1-113465788c96" year="2013" issue="5" ressort="Reisen" contenttype="centerpage-2009" publication-date="2013-02-21T04:48:19+00:00" expires="" ns0:href="http://xml.zeit.de/themen/reisen/cityguide-wien/index" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Wien</title>
+            <text py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt, essen Schnitzel im Sternelokal und schlafen in einer Luxus-WG.</text>
+            <description py:pytype="str">Wien ist prächtig und abgerockt, schrill und traditionsverliebt. Wir durchstreifen die Leopoldstadt, essen Schnitzel im Sternelokal und schlafen in einer Luxus-WG.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2013-01/cityguide-wien/" type="jpg" title="Cityguide Wien" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mystisch: Wien im Nebel</bu>
+              <copyright py:pytype="str">© Heinz-Peter Bader/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/themen/reisen/cityguide-istanbul/index" year="2011" issue="48" ressort="Reisen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-07-17T09:28:44+00:00" date-first-released="2011-11-30T14:31:47.917129+00:00" date-last-published="2014-07-17T09:29:42.005505+00:00" last-semantic-change="2014-07-17T09:27:02.622385+00:00" serie="City Guide">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">City Guide Istanbul</title>
+            <text py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </text>
+            <description py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/moschee-istanbul-city-guide/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle xsi:nil="true"/>
+    <title>City Guide Stockholm</title>
+    <subtitle>Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, essen süßen Hering und finden die schwedische Seele im Secondhandladen.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2013/25/city-guide-stockholm-tipps" year="2013" issue="25" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-06-20T02:43:23+00:00" expires="">
+      <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+      <title py:pytype="str">Picknick ohne Mücken und Reue</title>
+      <text py:pytype="str">Mitternachtssonne genießen ist eine feine Sache, wenn nur die Mücken nicht wären, und die eigene Dummheit nach ein paar Gläsern Wein zuviel. Für beides gibt es Abhilfe. </text>
+      <description py:pytype="str">Mitternachtssonne genießen ist eine feine Sache, wenn nur die Mücken nicht wären, und die eigene Dummheit nach ein paar Gläsern Wein zuviel. Für beides gibt es Abhilfe. </description>
+      <byline py:pytype="str">von</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-06/schweden-see/" type="jpg" title="Mückenparadies" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Schwedische Seen gelten als Mückenparadiese.</bu>
+        <copyright py:pytype="str" link="http://www.flickr.com/photos/carstenseinefotos/">© csf-/flickr</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/25/city-guide-stockholm-hotel-skeppsholmen" year="2013" issue="25" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-06-20T02:13:00+00:00" expires="" author="Martina Bachler">
+      <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+      <title py:pytype="str">Unterhosen für die Vergesslichen</title>
+      <text py:pytype="str">Das Hotel Skeppsholmen empfängt seine Gäste mit dezenter Aufmerksamkeit. Dazu gehört auch Ersatzwäsche im Schrank.</text>
+      <description py:pytype="str">Das Hotel Skeppsholmen empfängt seine Gäste mit dezenter Aufmerksamkeit. Dazu gehört auch Ersatzwäsche im Schrank.</description>
+      <byline py:pytype="str">von Martina Bachler</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-hotel-skeppsholmen/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Erst Marinelager, jetzt Hotel: Der Garten des Hotels Skeppsholmen</bu>
+        <copyright py:pytype="str">© Louise Billgert/Hotel Skeppsholmen</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Martina_Bachler/index" publication-date="" expires="">
+        <display_name py:pytype="str">Martina Bachler</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/25/city-guide-stockholm-rathaus" year="2013" issue="25" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-06-20T02:04:28+00:00" expires="" author="Antje Ravic Strubel">
+      <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+      <title py:pytype="str">Das Rathaus ist eine steinerne Illusion</title>
+      <text py:pytype="str">In Stockholm treffen die düsterne Melancholie des Nordens und das sommerliche Glück des Südens aufeinander. Sie vereinigen sich in der Architektur des Rathauses. </text>
+      <description py:pytype="str">In Stockholm treffen die düsterne Melancholie des Nordens und das sommerliche Glück des Südens aufeinander. Sie vereinigen sich in der Architektur des Rathauses. </description>
+      <byline py:pytype="str">von Antje Rávic Strubel</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-rathaus/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das vom Wasser umspielte Rathaus</bu>
+        <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/R/Antje_Ravic-Strubel/index" publication-date="" expires="">
+        <display_name py:pytype="str">Antje Ravic Strubel</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/25/city-guide-stockholm-nachtleben-clubs" year="2013" issue="25" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-06-20T02:45:06+00:00" expires="" author="Stefanie Flamm">
+      <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+      <title py:pytype="str">Die besten Partys gibt’s im Wald</title>
+      <text py:pytype="str">Clubbesitzer Jakob Grandin spricht im Interview über harten Techno, strenge Türsteher und den "Lunchbeat", das Tanzen in der Mittagspause.</text>
+      <description py:pytype="str">Clubbesitzer Jakob Grandin spricht im Interview über harten Techno, strenge Türsteher und den "Lunchbeat", das Tanzen in der Mittagspause.</description>
+      <byline py:pytype="str">von Stefanie Flamm</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-nachtleben-club/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Trädgården-Club</bu>
+        <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/F/Stefanie_Flamm/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Stefanie Flamm</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2013-06/stockholm-reise-online-netz-tipps" year="2013" issue="23" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Eike Kühl">
+      <supertitle py:pytype="str">City Guide</supertitle>
+      <title py:pytype="str">Stockholm im Netz</title>
+      <text py:pytype="str">Lust auf fika? So heißt Kaffeepause auf Schwedisch. Apps, nicht nur zum Übersetzen, und andere Tipps zur Vorbereitung eines Schwedentrips hat Eike Kühl gesammelt.</text>
+      <description py:pytype="str">Lust auf fika? So heißt Kaffeepause auf Schwedisch. Apps, nicht nur zum Übersetzen, und andere Tipps zur Vorbereitung eines Schwedentrips hat Eike Kühl gesammelt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-06/schwedische-fika/" type="jpg" title="Schwedische Kaffeepause" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Fika auf Schwedisch. Am besten mit kanelbulle. </bu>
+        <copyright py:pytype="str" link="http://www.flickr.com/photos/gostockholmgoeteborg/">© Jule Müller/flickr/goStockholmGoeteborg </copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Eike_Kuehl/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Eike Kühl</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/25/city-guide-stockholm-arne-dahl-langholmen" year="2013" issue="25" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="2013-06-20T02:36:04+00:00" expires="" author="Arne Dahl">
+      <supertitle py:pytype="str">City Guide Stockholm</supertitle>
+      <title py:pytype="str">Frei sein auf der Gefängnisinsel</title>
+      <text py:pytype="str">Långholmen, ein beliebtes Stockholmer Ausflugsziel, war in den 1970er Jahren ein Gefängnis. Der Schriftsteller Arne Dahl erklärt, warum er sich heute dort so frei fühlt. </text>
+      <description py:pytype="str">Långholmen, ein beliebtes Stockholmer Ausflugsziel, war in den 1970er Jahren ein Gefängnis. Der Schriftsteller Arne Dahl erklärt, warum er sich heute dort so frei fühlt. </description>
+      <byline py:pytype="str">von Arne Dahl</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2013-06/stockholm-langholmen/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Strand von Langholmen. Von hier schaut man, wenn man schaut, nach Kungsholmen.</bu>
+        <copyright py:pytype="str">© Moa Karlberg/Kontinent/laif für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/D/Arne_Dahl/index" publication-date="" expires="">
+        <display_name py:pytype="str">Arne Dahl</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>City Guide Stockholm</title>
+    <text>Stockholm ist innovativ und supermodern – aber auch ganz schön schrullig. Wir tanzen am helllichten Tag unter einer Straßenbrücke, und essen süßen Hering.</text>
+  </teaser>
+</centerpage>

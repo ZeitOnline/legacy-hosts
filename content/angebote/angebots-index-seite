@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-11-06T14:05:41.531690+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-11-06T14:07:00.905841+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2014-11-06T14:06:01.055969+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-11-06T14:07:00.905841+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-11-06T14:05:18.290528+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="push_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f5375c71-2d50-48ab-8130-bc69ca8a04a3}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">46</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="xml" module="xml" cp:__name__="id-d698ab82-7172-4f3c-82bb-8e8e2a6d7b08">
+          <raw>
+
+
+</raw>
+        </container>
+        <container cp:type="teaser" module="text-teaser" cp:__name__="id-52dcf1b8-03c1-43bc-99db-05b8eed8dfe5">
+          <block href="http://xml.zeit.de/angebote/partnersuche/index" uniqueId="http://xml.zeit.de/angebote/partnersuche/index" year="2011" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-11-06T14:04:06+00:00" date-first-released="2011-02-23T13:32:43.325754+00:00" date-last-published="2014-11-06T14:05:04.449852+00:00" last-semantic-change="2014-11-06T13:52:37.281604+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Partnersuche</title>
+            <text py:pytype="str">Partnersuche: ist ein Angebot der Parship GmbH, die für diesen Inhalt verantwortlich ist.</text>
+            <description py:pytype="str">Partnersuche: ist ein Angebot der Parship GmbH, die für diesen Inhalt verantwortlich ist.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-d411f2bc-3603-4d6c-afb2-34e154a9365b">
+          <block href="http://xml.zeit.de/angebote/buchtipp/index" uniqueId="http://xml.zeit.de/angebote/buchtipp/index" year="2011" ressort="Angebote" contenttype="centerpage-2009" publication-date="2013-12-26T07:03:00+00:00" expires="" date-last-modified="2014-11-05T15:37:59+00:00" date-first-released="2011-11-28T17:12:01.546504+00:00" date-last-published="2014-11-05T15:38:58.076384+00:00" last-semantic-change="2014-11-05T15:36:35.559124+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Advertorial Random House</title>
+            <text py:pytype="str">Buchtipp - Leseperlen: ist ein Angebot der Verlagsgruppe Random House GmbH, die für diesen Inhalt verantwortlich ist.</text>
+            <description py:pytype="str">Buchtipp - Leseperlen: ist ein Angebot der Verlagsgruppe Random House GmbH, die für diesen Inhalt verantwortlich ist.</description>
+            <byline py:pytype="str">Buchtipp - Leseperlen: ist ein Angebot der Verlagsgruppe Random House GmbH. Für den Inhalt ist die Verlagsgruppe Random House GmbH verantwortlich.</byline>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-ba785644-b49b-4bd9-8574-4ebfd991508a">
+          <block href="http://xml.zeit.de/angebote/senioren-ratgeber/index" uniqueId="http://xml.zeit.de/angebote/senioren-ratgeber/index" year="2014" issue="13" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-10-08T08:50:41+00:00" date-first-released="2014-03-21T13:57:38.618883+00:00" date-last-published="2014-10-08T08:51:40.191519+00:00" last-semantic-change="2014-10-08T08:50:12.387262+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Senioren-Ratgeber</title>
+            <text py:pytype="str">Senioren-Ratgeber : ist ein Angebot des Privatinstituts für Transparenz im Gesundheitswesen, das für diesen Inhalt verantwortlich ist.</text>
+            <description py:pytype="str">Senioren-Ratgeber : ist ein Angebot des Privatinstituts für Transparenz im Gesundheitswesen, das für diesen Inhalt verantwortlich ist.</description>
+            <byline py:pytype="str">Senioren-Ratgeber : ist ein Angebot des Privatinstituts für Transparenz im Gesundheitswesen, das für diesen Inhalt verantwortlich ist.</byline>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c71afba9-17b3-459b-b60e-02614ad965c9">
+          <block href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/index" uniqueId="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/index" year="2014" issue="43" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-10-29T14:39:46+00:00" date-first-released="2014-10-20T16:37:11.804210+00:00" date-last-published="2014-10-29T14:40:45.492498+00:00" last-semantic-change="2014-10-29T14:38:58.525530+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Advertorial Erdgas und Klimaschutz</title>
+            <text py:pytype="str">Erdgas und Klimaschutz : ist ein Angebot des Zeitverlags in Zusammenarbeit mit Zukunft Erdgas e.V., die für diesen Inhalt verantwortlich sind.</text>
+            <description py:pytype="str">Erdgas und Klimaschutz : ist ein Angebot des Zeitverlags in Zusammenarbeit mit Zukunft Erdgas e.V., die für diesen Inhalt verantwortlich sind.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-eb3b9ffe-8e9d-49f8-9894-550029e2ff6a">
+          <block href="http://xml.zeit.de/angebote/forschungswelten-demografischer-wandel/index" uniqueId="http://xml.zeit.de/angebote/forschungswelten-demografischer-wandel/index" year="2014" issue="21" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-08-06T10:31:03+00:00" date-first-released="2014-05-20T15:00:23.608223+00:00" date-last-published="2014-08-06T10:32:02.872109+00:00" last-semantic-change="2014-08-06T10:30:50.281555+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Spezial: Forschungswelten - Demografischer Wandel</title>
+            <text py:pytype="str">Forschungswelten - Demografischer Wandel : ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</text>
+            <description py:pytype="str">Forschungswelten - Demografischer Wandel : ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3ffae0e9-eaf7-43a2-b7d5-08689e705e12">
+          <block href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/index" uniqueId="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/index" year="2014" issue="9" ressort="Angebote" contenttype="centerpage-2009" publication-date="2014-02-26T22:00:00+00:00" expires="2014-04-09T22:00:00+00:00" date-last-modified="2014-09-02T08:46:22+00:00" date-first-released="2014-02-24T18:06:16.018985+00:00" date-last-published="2014-02-27T11:49:53.482404+00:00" last-semantic-change="2014-05-20T14:55:43.557584+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales</title>
+            <text py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</text>
+            <description py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-b7a30666-9514-4f78-ac3e-fba5c62b029c">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-06961ea1-e650-4817-a945-42de2123903a">
+          <raw>
+
+
+</raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-0a6ddb8b-127f-4dad-a151-4161eff635c5">
+          <raw>
+
+
+</raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-b9263f73-a650-41e8-984e-aa2b643628ba">
+          <raw>
+
+
+</raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline>Angebote : sind Angebote der jeweiligen Absender, die für die jeweiligen inhalte verantwortlich sind.</byline>
+    <title>Angebote : sind Angebote der jeweiligen Absender, die für die jeweiligen inhalte verantwortlich sind.</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit/index" year="2014" issue="9" ressort="Angebote" contenttype="centerpage-2009" publication-date="2014-02-26T22:00:00+00:00" expires="2014-04-09T22:00:00+00:00">
+      <supertitle xsi:nil="true"/>
+      <title py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales</title>
+      <text py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</text>
+      <description py:pytype="str">Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/angebote/forschungswelten-demografischer-wandel/index" year="2014" issue="21" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="">
+      <supertitle xsi:nil="true"/>
+      <title py:pytype="str">Spezial: Forschungswelten - Demografischer Wandel</title>
+      <text py:pytype="str">Forschungswelten - Demografischer Wandel : ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</text>
+      <description py:pytype="str">Forschungswelten - Demografischer Wandel : ist ein Angebot des Zeitverlags. Für diesen Inhalt ist der Zeitverlag verantwortlich.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/index" year="2014" issue="43" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="">
+      <supertitle xsi:nil="true"/>
+      <title py:pytype="str">Advertorial Erdgas und Klimaschutz</title>
+      <text py:pytype="str">Erdgas und Klimaschutz : ist ein Angebot des Zeitverlags in Zusammenarbeit mit Zukunft Erdgas e.V., die für diesen Inhalt verantwortlich sind.</text>
+      <description py:pytype="str">Erdgas und Klimaschutz : ist ein Angebot des Zeitverlags in Zusammenarbeit mit Zukunft Erdgas e.V., die für diesen Inhalt verantwortlich sind.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/angebote/senioren-ratgeber/index" year="2014" issue="13" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="">
+      <supertitle xsi:nil="true"/>
+      <title py:pytype="str">Senioren-Ratgeber</title>
+      <text py:pytype="str">Senioren-Ratgeber : ist ein Angebot des Privatinstituts für Transparenz im Gesundheitswesen, das für diesen Inhalt verantwortlich ist.</text>
+      <description py:pytype="str">Senioren-Ratgeber : ist ein Angebot des Privatinstituts für Transparenz im Gesundheitswesen, das für diesen Inhalt verantwortlich ist.</description>
+      <byline py:pytype="str">Senioren-Ratgeber : ist ein Angebot des Privatinstituts für Transparenz im Gesundheitswesen, das für diesen Inhalt verantwortlich ist.</byline>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/angebote/buchtipp/index" year="2011" ressort="Angebote" contenttype="centerpage-2009" publication-date="2013-12-26T07:03:00+00:00" expires="">
+      <supertitle xsi:nil="true"/>
+      <title py:pytype="str">Advertorial Random House</title>
+      <text py:pytype="str">Buchtipp - Leseperlen: ist ein Angebot der Verlagsgruppe Random House GmbH, die für diesen Inhalt verantwortlich ist.</text>
+      <description py:pytype="str">Buchtipp - Leseperlen: ist ein Angebot der Verlagsgruppe Random House GmbH, die für diesen Inhalt verantwortlich ist.</description>
+      <byline py:pytype="str">Buchtipp - Leseperlen: ist ein Angebot der Verlagsgruppe Random House GmbH. Für den Inhalt ist die Verlagsgruppe Random House GmbH verantwortlich.</byline>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/angebote/partnersuche/index" year="2011" ressort="Angebote" contenttype="centerpage-2009" publication-date="" expires="">
+      <supertitle xsi:nil="true"/>
+      <title py:pytype="str">Partnersuche</title>
+      <text py:pytype="str">Partnersuche: ist ein Angebot der Parship GmbH, die für diesen Inhalt verantwortlich ist.</text>
+      <description py:pytype="str">Partnersuche: ist ein Angebot der Parship GmbH, die für diesen Inhalt verantwortlich ist.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Angebote</title>
+  </teaser>
+</centerpage>

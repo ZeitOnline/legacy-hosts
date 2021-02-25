@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2010-05-11 08:26:09.877256+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-05-11T08:26:10.135417+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-02-22T09:35:01.950678+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-05-11T08:27:09.710728+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-05-07T14:32:33.948186+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schlereth</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADMIN</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:021aea4a-2107-4674-830c-cffa6b99b1bf}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="78a9f633-7773-41d6-bd5c-50d483ee2fec">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="a5395f40-c9de-417a-8d50-706755197479">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/honda/links/zurueck" year="2010" issue="7" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/honda/index" date-last-modified="2010-02-22T09:47:28+00:00" date-first-released="2010-02-22T09:48:28.459689+00:00" date-last-published="2010-02-22T09:48:28.459689+00:00" last-semantic-change="2010-02-15T13:56:44.038429+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersichtsseite</title>
+            <text py:pytype="str">Hier klicken.</text>
+            <description py:pytype="str">Hier klicken.</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="0b00ac3f-c187-46ea-899f-47c399d12424" title="Erfahren Sie mehr zur Honda-Hybridtechnik auf www.honda-cleanmove.de" publisher_url="www.honda-cleanmove.de">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/honda/links/honda" year="2010" issue="8" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.honda-cleanmove.de/">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Honda Cleanmove</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/honda/bilder/cleanmove2/cleanmove2-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="ff8d539a-17d6-4e92-b536-8fadb6a22a50">
+          <block href="http://xml.zeit.de/angebote/honda/zukunft" year="2010" issue="6" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-05-11T08:25:11+00:00" date-first-released="2010-02-22T09:26:49.799897+00:00" date-last-published="2010-05-11T08:26:11.285612+00:00" last-semantic-change="2010-02-26T08:29:07.681852+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Neue Technologien und Umweltschutz</title>
+            <text py:pytype="str">Wagen Sie mit uns einen Blick in die Zukunft der Automobilität und der Energieversorgung - Die offiziellen Zahlen des letzten Jahres belegen deutlich, dass auch die </text>
+            <description py:pytype="str">Wagen Sie mit uns einen Blick in die Zukunft der Automobilität und der Energieversorgung - Die offiziellen Zahlen des letzten Jahres belegen deutlich, dass auch die </description>
+            <byline py:pytype="str">Honda: Dies ist ein Angebot der Honda Motor Europe (North) GmbH. Für den Inhalt ist die Honda Motor Europe (North) GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/honda/bilder/hybrid/" type="jpg" publication-date="" expires="">
+              <bu>Honda</bu>
+              <copyright py:pytype="str">©  Honda Motor Europe (North) GmbH</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="73727983-510f-45e8-98d5-c731b73d1483">
+          <block href="http://xml.zeit.de/angebote/honda/technologie" year="2010" issue="6" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-05-11T08:25:04+00:00" date-first-released="2010-02-22T09:27:01.554682+00:00" date-last-published="2010-05-11T08:26:04.110649+00:00" last-semantic-change="2010-05-07T14:35:37.164496+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Honda setzt auf Hybrid-Technologie</title>
+            <text py:pytype="str">Die effizienteste Antriebstechnologie um den CO2-Ausstoß zu reduzieren ist gegenwärtig der Hybridantrieb. Fahrzeuge mit Hybridantrieb sind, ohne dass Veränderungen in der</text>
+            <description py:pytype="str">Die effizienteste Antriebstechnologie um den CO2-Ausstoß zu reduzieren ist gegenwärtig der Hybridantrieb. Fahrzeuge mit Hybridantrieb sind, ohne dass Veränderungen in der</description>
+            <byline py:pytype="str">Honda: Dies ist ein Angebot der Honda Motor Europe (North) GmbH. Für den Inhalt ist die Honda Motor Europe (North) GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/honda/bilder/schaubild/" type="jpg" publication-date="" expires="">
+              <bu>Anordnung der Hybridkomponenten im Fahrzeug</bu>
+              <copyright py:pytype="str">© Honda Motor Europe (North) GmbH</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="02bfd883-16dc-4f92-9499-c1fca322bcee">
+          <block href="http://xml.zeit.de/angebote/honda/hintergrund" year="2010" issue="6" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-05-11T08:24:50+00:00" date-first-released="2010-02-22T09:27:35.010373+00:00" date-last-published="2010-05-11T08:25:50.383370+00:00" last-semantic-change="2010-05-07T15:07:46.408196+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Globale Erwärmung und steigende CO2-Emissionen </title>
+            <text py:pytype="str">Warum es so wichtig ist Verantwortung für die Umwelt zu übernehmen - das Wohl unserer Erde geht jeden etwas an.</text>
+            <description py:pytype="str">Warum es so wichtig ist Verantwortung für die Umwelt zu übernehmen - das Wohl unserer Erde geht jeden etwas an.</description>
+            <byline py:pytype="str">Honda: Dies ist ein Angebot der Honda Motor Europe (North) GmbH. Für den Inhalt ist die Honda Motor Europe (North) GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/honda/bilder/warming/" type="jpg" publication-date="" expires="">
+              <bu>Sonnenstrahlen dringen in die Atmosphäre ein, gelangen aber nicht wieder
+hinaus.</bu>
+              <copyright py:pytype="str">© Honda Motor Europe (North) GmbH</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="dc780df2-72ea-4a29-835b-7b68f074c6c7">
+          <block href="http://xml.zeit.de/angebote/honda/forschung" year="2010" issue="6" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-05-11T08:24:35+00:00" date-first-released="2010-02-22T09:27:16.294170+00:00" date-last-published="2010-05-11T08:25:35.335212+00:00" last-semantic-change="2010-02-26T08:24:46.530249+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Honda Forschung - Umweltschutz in allen Bereichen</title>
+            <text py:pytype="str">Honda ist längst nicht mehr nur ein reiner Anbieter von Mobilitätsprodukten, sondern vielmehr auch ein Hersteller effizienter Energiespartechnik.</text>
+            <description py:pytype="str">Honda ist längst nicht mehr nur ein reiner Anbieter von Mobilitätsprodukten, sondern vielmehr auch ein Hersteller effizienter Energiespartechnik.</description>
+            <byline py:pytype="str">Honda: Dies ist ein Angebot der Honda Motor Europe (North) GmbH. Für den Inhalt ist die Honda Motor Europe (North) GmbH verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/honda/bilder/solarzellen/" type="jpg" publication-date="" expires="">
+              <bu>Dünnschicht-Solarzellen von Honda Soltec</bu>
+              <copyright py:pytype="str">© Honda Motor Europe (North) GmbH</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="07cd8295-388e-4e81-8c04-f0e9d58c39d4">
+          <video videoID="vid67222190001" player="vid" format="small"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel-Rahmen Honda</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Honda</title>
+  </teaser>
+</centerpage>

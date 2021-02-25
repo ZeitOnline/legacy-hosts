@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-04-08T13:21:50.359491+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-11-13T13:17:33.392601+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-04-08T13:22:58.068956+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-04-08T13:20:49.366803+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-04-08T13:21:47.558104+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">tirol</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:8d955b1c-9f4a-468a-b688-c462e0348e83}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-01679746-ed75-4ec0-a9cf-f804c3a84c6e">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c5418e29-0883-4aa6-bf92-db55ebaea635" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/tirol/context/link_tirol" year="2012" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://bergwinter.tirol.at/bergerlebnis-genuss/cover-bergerlebnis-genuss/article_903502.html?utm_source=Zeit%2BOnline&amp;utm_medium=Inserat&amp;utm_campaign=Zeit%2BOnline" ns0:target="_blank" date-last-modified="2012-11-16T15:27:13+00:00" date-first-released="2012-11-13T11:11:38.831604+00:00" date-last-published="2012-11-16T15:28:13.599680+00:00" last-semantic-change="2012-11-16T15:26:41.511562+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu tirol.at</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/tirol/context/tirol_logo_neu/tirol_logo_neu-368x110.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-47f77033-5ddf-462e-a179-b6d165187e54" layout="368x220" title="Family Tirol Dörfer">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/tirol/familienurlaub/link-family-tirol-doerfer" year="2014" issue="15" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.tirol.at/familienspezialisten?utm_source=zeit_online&amp;utm_medium=Textlink&amp;utm_content=cons&amp;utm_campaign=bergsommer_familie" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-04-08T13:12:38+00:00" date-first-released="2014-04-08T13:13:37.887641+00:00" date-last-published="2014-04-08T13:13:37.887641+00:00" last-semantic-change="2014-04-08T13:12:26.293880+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Family Tirol Dörfer</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/tirol/familienurlaub/family-tirol-doerfer/family-tirol-doerfer-368x220.jpg" align="left" publication-date="" expires="">
+            <bu>Zenzi Ziege: Das diesjährige Maskottchen der Family Tirol Dörfer.</bu>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-9935e59a-1b53-46b5-8279-20336f2ac64c" layout="368x220" title="Geocaching">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/tirol/familienurlaub/link-geocaching" year="2014" issue="15" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.tirol.at/geocaching-in-tirol?utm_source=zeit_online&amp;utm_medium=Textlink&amp;utm_content=cons&amp;utm_campaign=bergsommer_familie&lt;http://www.tirol.at/geocaching-in-tirol?utm_source=zeit_online&amp;utm_medium=Textlink&amp;utm_content=cons&amp;utm_campaign=bergsommer_familie&gt;" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-04-08T13:16:03+00:00" date-first-released="2014-04-08T13:17:03.270463+00:00" date-last-published="2014-04-08T13:17:03.270463+00:00" last-semantic-change="2014-04-08T13:15:49.893839+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Geocaching</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/tirol/familienurlaub/auf-der-suche-nach-dem-schatz/auf-der-suche-nach-dem-schatz-368x220.jpg" align="left" publication-date="" expires="">
+            <bu>Geocaching: Die spannende Suche nach dem Schatz.</bu>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-93b8d380-3ee4-4745-bc39-6f1c38289653" layout="368x220" title="Tiroler Sommerbahnen">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/tirol/familienurlaub/link-sommerbahnen" year="2014" issue="15" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.sommerbahnen.tirol.at/?utm_source=zeit_online&amp;utm_medium=Textlink&amp;utm_content=cons&amp;utm_campaign=bergsommer_familie" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-04-08T13:18:01+00:00" date-first-released="2014-04-08T13:19:01.217279+00:00" date-last-published="2014-04-08T13:19:01.217279+00:00" last-semantic-change="2014-04-08T13:17:44.689671+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Tiroler Sommerbahnen</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/tirol/familienurlaub/hexenwaser_hochsoell_petervonfelbert/hexenwaser_hochsoell_petervonfelbert-368x220.jpg" align="left" publication-date="" expires="">
+            <bu>Tiroler Sommerbahnen: Besondere Erlebnisse am Berg – wie hier im Hexenwasser in der Region Wilder Kaiser.</bu>
+          </image>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Tirol</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Tirol</title>
+  </teaser>
+</centerpage>

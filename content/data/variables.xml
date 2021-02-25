@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<variables>
+  <context type="cp-extra" id="dpa_wahlticker_2014_informatives_eu">
+    <iframe_src>http://live0.zeit.de/wahldiagramme/eu_2014/html/indexSAResults.html</iframe_src>
+    <title>Europawahl 2014</title>
+    <width>320px</width>
+    <height>350px</height>
+    <morelink_path>politik/ausland/2014-05/wahlergebnis-europawahl-2014</morelink_path>
+    <morelink_label><strong>EUROPAWAHL 2014</strong> Alle Ergebnisse aus den EU-Laendern</morelink_label>
+  </context>
+  <context type="cp-extra" id="current-topic-teaserlist-from-cp">
+    <title>Europawahl auf ZEIT ONLINE</title>
+    <cp>politik/ausland/2014-05/europawahl-2014-uebersicht</cp>
+    <teaser_count>8</teaser_count>
+    <teaser_start>1</teaser_start>
+    <morelink_label>zur Themenseite Europawahl 2014</morelink_label>
+    <morelink_icon>http://images.zeit.de/static/img/btw13-wahlkreuz.png?1393245139</morelink_icon>
+  </context>
+  <context type="cp-extra" id="dpa_wm-2014">
+    <div id="title_dpa_wm-2014_informatives" class="title">WM-Ticker auf ZEIT ONLINE</div>
+    <iframe_src>http://interactive.zeit.de/fussball-ticker/wm-2014/html/indexSAScoreboard.html</iframe_src>
+    <iframe_width>320px</iframe_width>
+    <iframe_height>130px</iframe_height>
+    <link>sport/wm-live-ticker</link>
+    <deeplink>#/schedule</deeplink>
+    <raw_bottom>
+      <div id="bottom_dpa_wm-2014-informatives">
+        <ul id="scoreboard_additional_links">
+          <li id="no00" class="top">
+            <a href="http://www.zeit.de/sport/wm-live-ticker">Zum Live-Ticker</a>
+          </li>
+          <li id="no01" class="other">
+            <a href="http://www.zeit.de/sport/wm-live-ticker#/schedule-scheduleFinals">
+              <span>Spielplan</span>
+              <span class="wm-arrow">▸</span>
+            </a>
+          </li>
+          <li id="no02" class="other">
+            <a href="http://www.zeit.de/sport/2014-06/wm-teams-gruppe-a-h">
+              <span>Teams</span>
+              <span class="wm-arrow">▸</span>
+            </a>
+          </li>
+          <li id="no03" class="other">
+            <a href="http://www.zeit.de/sport/wm-live-ticker#/schedule-scheduleAll-G">
+              <span>Tabellen</span>
+              <span class="wm-arrow">▸</span>
+            </a>
+          </li>
+          <li id="no04" class="other">
+            <a href="http://blog.zeit.de/sport-blog/">
+              <span>WM-Blog</span>
+              <span class="wm-arrow">▸</span>
+            </a>
+          </li>
+          <li id="no05" class="other">
+            <a href="http://www.zeit.de/serie/stimmen-brasiliens">
+              <span>Stimmen Brasiliens</span>
+              <span class="wm-arrow">▸</span>
+            </a>
+          </li>
+          <li id="no06" class="other">
+            <a href="http://www.zeit.de/sport/wm-spielplan-twitter-pulskurve-spielzusammenfassung">
+              <span>Twitter-Spielzusammenfassungen</span>
+              <span class="wm-arrow">▸</span>
+            </a>
+          </li>
+        </ul>
+        <hr/>
+      </div>
+    </raw_bottom>
+    <css>
+      <style type="text/css">
+				#title_dpa_wm-2014_informatives {
+					display:block !important;
+					width:100% !important;
+					margin-bottom: 0px
+				}
+				#title_dpa_wm-2014_informatives .title {
+					border: 0px solid white;
+				}
+				#scoreboard_additional_links {
+					padding: 0px !important;
+					margin: 0px !important;
+				}
+				#scoreboard_additional_links li {
+					list-style-type: none;
+					padding: 0px !important;
+					line-height: 15px;
+				}
+				#scoreboard_additional_links .top {
+					border: 1px solid #dddddd;
+					margin-bottom: 10px;
+					padding: 5px;
+				}
+				#scoreboard_additional_links .top a {
+					display: block;
+					text-align: center;
+					font-size: 14px;
+					color: #990000 !important;
+					font-weight: bold;
+					padding: 7px
+				}
+				#scoreboard_additional_links .other span {
+					display: block;
+					float: left;
+				}
+				#scoreboard_additional_links .other a {
+					color: #222 !important;
+				}
+				#scoreboard_additional_links .other:last-child {
+					border-bottom: 0px solid white;
+				}
+				#scoreboard_additional_links .other {
+					border-bottom: 1px dotted #dddddd;
+					font-size: 12px;
+					line-height: 24px;
+					clear:both;
+					height: 24px;
+				}
+				.other a span {
+					display: block;
+					color: #990000;
+				}
+				.other a span:first-child {
+					display: block;
+					width:305px;
+					color: #222;
+					padding-left: 2px;
+				}
+				#bottom_dpa_wm-2014-informatives  hr {
+					visibility: hidden;
+					clear: both;
+					width: 100%;
+				}
+				.wm-arrow {
+					font-size: 14px;
+				}
+			</style>
+    </css>
+  </context>
+  <context type="additional-markup-box" id="sid-news-footer">
+    <!--    
+ <p class="ressortbacklink">Fu&#223;ball live: Mit unserem Ticker zur Champions League bleiben Sie bei allen Spielen auf dem Laufenden. Verfolgen Sie die <a href="http://www.zeit.de/sport/championsleague-ticker">Champions League live</a> bei ZEIT ONLINE.</p>
+-->
+    <!--   
+ <p class="ressortbacklink">Fu&#223;ball live: Mit unserem Ticker zum DFB-Pokal bleiben Sie bei allen Spielen auf dem Laufenden. Verfolgen Sie den <a href="http://www.zeit.de/sport/dfb-pokal-ticker">DFB-Pokal live</a> mit ZEIT ONLINE.</p>
+  -->
+    <p class="ressortbacklink">Fußball live: Bleiben Sie bei allen Spielen auf dem Laufenden. Verfolgen Sie die <a href="http://www.zeit.de/sport/bundesliga-ticker">Bundesliga im Live Ticker</a> mit ZEIT ONLINE.</p>
+    <!--    
+<p class="ressortbacklink">Fu&#223;ball live: Mit unserem Ticker zur Europa League bleiben Sie bei allen Spielen auf dem Laufenden. Verfolgen Sie die <a href="http://www.zeit.de/sport/europa-league-ticker">Europa League live</a> mit ZEIT ONLINE.</p>
+ -->
+    <!--
+			<p class="ressortbacklink">
+				<xsl:text>Mehr zum Thema </xsl:text>
+				<a href="http://www.zeit.de/sport/index" id="hp.article.bottom.themenlink.sid">Sport</a>
+				<xsl:text> erfahren Sie </xsl:text>
+				<a href="http://www.zeit.de/sport/index" id="hp.article.bottom.themenlink.sidhier">hier</a>.
+			</p>
+		-->
+  </context>
+  <!-- :::::::::::::::::::::::::::: Beginn: RAW-CP-Extras :::::::::::::::::::::::::::::::::::::::::::: -->
+  <!-- aktuell: Landtagswahl Hamburg - 15. Februar 2015 (bitte NICHT vor 15.04.14 editieren) editted Holger Wiebe 26.1.15 -->
+  <context type="temp-raw-for-informatives" id="temp-raw-for-informatives-1">
+    <raw>
+      <div>
+        <iframe src="http://www.zeit.de/static/projekte/wahlmodul/wahlmodul-hamburg-mobil.html" width="320" height="505" frameborder="0" scrolling="no"/>
+      </div>
+    </raw>
+  </context>
+  <!-- aktuell: Lebensmittel-Eink&#228;ufe-Z&#228;hler - bitte nicht vor 19.4.15 editieren - code von Julian Stahnke -->
+  <context type="temp-raw-for-informatives" id="temp-raw-for-informatives-2">
+    <raw>
+      <div>
+        <!-- Beginn: eigenes HTML -->
+        <iframe src="http://live0.zeit.de/infografik/longform/kochwoche/gfk/cp.html" width="320" height="320" scrolling="no" marginheight="0" marginwidth="0" frameborder="0"/>
+        <!-- Ende: eigenes HTML -->
+      </div>
+    </raw>
+    <css>
+      <style type="text/css">
+			</style>
+    </css>
+  </context>
+  <!-- aktuell: Grimme Award 29.4. Holger Wiebe -->
+  <context type="temp-raw-for-informatives" id="temp-raw-for-informatives-3">
+    <raw>
+      <div>
+        <!-- Beginn: eigenes HTML -->
+        <iframe src="http://live0.zeit.de/misc_static_files/grimme-award-informatives.html" width="320" height="305" frameborder="0" scrolling="no"/>
+        <!-- Ende: eigenes HTML -->
+      </div>
+    </raw>
+    <css>
+      <style type="text/css">
+			</style>
+    </css>
+  </context>
+  <!-- aktuell: Landtagswahl Hamburg - 15. Februar 2015 (bitte NICHT vor 15.04.14 editieren) editted Holger Wiebe 26.1.15 -->
+  <context type="temp-raw-for-cps" id="temp-raw-for-cps-1">
+    <raw>
+      <div>
+        <iframe src="http://www.zeit.de/static/projekte/wahlmodul/wahlmodul-hamburg.html?v2014-09-01" width="580" height="341" frameborder="0" scrolling="no"/>
+      </div>
+    </raw>
+  </context>
+  <!-- aktuell: Landtagswahl Brandenburg - 14. September 2014 (bitte NICHT vor 15.10.14 editieren) editted Holger Wiebe 3.9. -->
+  <context type="temp-raw-for-cps" id="temp-raw-for-cps-2">
+    <raw>
+      <div>
+        <!-- Beginn: eigenes HTML -->
+        <iframe src="http://www.zeit.de/static/projekte/wahlmodul/wahlmodul-bb.html?v2014-09-02" width="580" height="354" frameborder="0" scrolling="no"/>
+        <!-- Ende: eigenes HTML -->
+      </div>
+    </raw>
+    <css>
+      <style type="text/css">
+			</style>
+    </css>
+  </context>
+  <!-- aktuell: Abo Ma&#223;nahme Banner - editted Holger Wiebe 11.11. -->
+  <context type="temp-raw-for-cps" id="temp-raw-for-cps-3">
+    <raw>
+      <div>
+        <!-- Beginn: eigenes HTML -->
+        <a href="http://services.zeit.de/ausgabenseite/?wt_zmc=fix.int.zonpme.zeitde.hpteaser.ausgseite.bildtext.zeitung.zeitung%26utm_medium=fix%26utm_source=zeitde_zonpme_int%26utm_campaign=hpteaser%26utm_content=ausgseite_bildtext_zeitung_zeitung" title="Die neue ZEIT - jetzt am Kiosk">
+          <img src="http://www.zeit.de/administratives/2014-11/ausgabenbox-rechts-ver2-einzeln-bold.jpg" alt="Die neue ZEIT - jetzt am Kiosk"/>
+        </a>
+        <!-- Ende: eigenes HTML -->
+      </div>
+    </raw>
+    <css>
+      <style type="text/css">
+			</style>
+    </css>
+  </context>
+  <context type="cp-extra" id="studium_box">
+    <iframe_src>http://live0.zeit.de/infografik/misc/studiumbox/studiumBox.html</iframe_src>
+    <title>Studiengangssuche und Uni-Rankings</title>
+    <width>100%</width>
+    <height>350px</height>
+  </context>
+  <!-- :::::::::::::::::::::::::::: Ende: RAW-CP-Extras :::::::::::::::::::::::::::::::::::::::::::: -->
+  <!-- flexible iframe cp-extras (TESTING) -->
+  <context type="cp-extra" id="iframe01" where="/test/test-thomas/test-cp">
+    <iframe_src>http://spiegel.de</iframe_src>
+    <title>This is an iframe CP-Extra</title>
+    <supertitle>This is an iframe CP-Extra</supertitle>
+    <width>320px</width>
+    <height>350px</height>
+    <morelink_path>politik/ausland/2014-05/wahlergebnis-europawahl-2014</morelink_path>
+    <morelink_label><strong>EUROPAWAHL 2014</strong> Alle Ergebnisse aus den EU-Laendern</morelink_label>
+    <css>
+      <style type="text/css">
+				#title_iframe01_informatives {
+					font-size: 1.1em !important;
+					font-weight: bold !important;
+				}
+				#morelink_iframe01_informatives {
+					float: left !important;
+					margin-bottom: 20px;
+				}
+				#morelink_iframe01_informatives a {
+					color: #000000 !important;
+				}
+				#morelink_iframe01_informativeshr {
+					width: 100% !important;
+					visibility: hidden !important;
+					clear:both !important;
+					margin: 0px !important;
+				}
+			</style>
+    </css>
+  </context>
+</variables>

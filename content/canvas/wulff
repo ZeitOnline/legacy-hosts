@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="arena">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">Zeit Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-29T13:18:29.094962+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-12-07T16:19:36.224273+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-03-03T15:02:31.149410+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-03-03T15:03:31.061508+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-12-13T17:56:49.306077+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.brightcove</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">arena</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:90f9c40a-17b2-486d-b251-c2b68d90ba48}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="xml" module="xml" cp:__name__="adcc7a4b-ecfc-429d-9b0d-42ba24db4149">
+          <raw>
+            <ul class="teaserlist">
+              <li class="ranking first">
+                <div class="supertitle">Print-Archiv</div>
+                <ul class="alphasort yearsort clear">
+                  <li class="first">
+                    <a href="http://www.zeit.de/2011/index">2011</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2010/index">2010</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2009/index">2009</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2008/index">2008</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2007/index">2007</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2006/index">2006</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2005/index">2005</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2004/index">2004</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2003/index">2003</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2002/index">2002</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2001/index">2001</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/2000/index">2000</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1999/index">1999</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1998/index">1998</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1997/index">1997</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1996/index">1996</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1995/index">1995</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1994/index">1994</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1993/index">1993</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1992/index">1992</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1991/index">1991</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1990/index">1990</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1989/index">1989</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1988/index">1988</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1987/index">1987</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1986/index">1986</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1985/index">1985</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1984/index">1984</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1983/index">1983</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1982/index">1982</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1981/index">1981</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1980/index">1980</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1979/index">1979</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1978/index">1978</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1977/index">1977</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1976/index">1976</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1975/index">1975</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1974/index">1974</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1973/index">1973</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1972/index">1972</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1971/index">1971</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1970/index">1970</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1969/index">1969</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1968/index">1968</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1967/index">1967</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1966/index">1966</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1965/index">1965</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1964/index">1964</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1963/index">1963</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1962/index">1962</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1961/index">1961</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1960/index">1960</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1959/index">1959</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1958/index">1958</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1957/index">1957</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1956/index">1956</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1955/index">1955</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1954/index">1954</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1953/index">1953</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1952/index">1952</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1951/index">1951</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1950/index">1950</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1949/index">1949</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1948/index">1948</a>
+                  </li>
+                  <li>
+                    <a href="http://www.zeit.de/1947/index">1947</a>
+                  </li>
+                  <li class="last">
+                    <a href="http://www.zeit.de/1946/index">1946</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="ranking">
+                <div class="supertitle">Autoren-Verzeichnis</div>
+                <ul class="alphasort clear">
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/A/index.xml">A</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/B/index.xml">B</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/C/index.xml">C</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/D/index.xml">D</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/E/index.xml">E</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/F/index.xml">F</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/G/index.xml">G</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/H/index.xml">H</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/I/index.xml">I</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/J/index.xml">J</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/K/index.xml">K</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/L/index.xml">L</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/M/index.xml">M</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/N/index.xml">N</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/O/index.xml">O</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/P/index.xml">P</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/Q/index.xml">Q</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/R/index.xml">R</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/S/index.xml">S</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/T/index.xml">T</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/U/index.xml">U</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/V/index.xml">V</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/W/index.xml">W</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/X/index.xml">X</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.zeit.de/autoren/Y/index.xml">Y</a>
+                  </li>
+                  <li class="       last      ">
+                    <a href="http://www.zeit.de/autoren/Z/index.xml">Z</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="8422ff93-4fa6-4715-88e4-705a65ab06fd" visible="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2011-12/spd-parteitag-helmut-schmidt-europa" year="2011" issue="49" ressort="Politik" publication-date="" expires="" date-last-modified="2013-12-03T13:47:24+00:00" date-first-released="2011-12-04T11:11:45.617591+00:00" date-last-published="2013-12-03T14:49:13+00:00" last-semantic-change="2011-12-04T11:10:12.587287+00:00" contenttype="article" uniqueId="http://xml.zeit.de/politik/deutschland/2011-12/spd-parteitag-helmut-schmidt-europa" author="dpa  ;AFP;Reuters  ">
+            <supertitle py:pytype="str">SPD-Parteitag</supertitle>
+            <title py:pytype="str">Schmidt mahnt zu europäischer Solidarität</title>
+            <text py:pytype="str">Erstmals seit 1998 hat Altkanzler Helmut Schmidt wieder auf einem SPD-Parteitag gesprochen. Mit deutlichen Worten kritisierte er die Europapolitik der Bundesregierung.</text>
+            <description py:pytype="str">Erstmals seit 1998 hat Altkanzler Helmut Schmidt wieder auf einem SPD-Parteitag gesprochen. Mit deutlichen Worten kritisierte er die Europapolitik der Bundesregierung.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2011-12/helmut-schmidt-spd-parteitag/" type="jpg" title="Helmut Schmidt während dem SPD-Parteitag in Berlin" alt="Helmut Schmidt während des SPD-Parteitags in Berlin" align="left" publication-date="" expires="2012-03-04T10:55:00+00:00">
+              <bu py:pytype="str">Helmut Schmidt während des SPD-Parteitags in Berlin</bu>
+              <copyright py:pytype="str">© Michael Kappeler/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/dpa">
+              <display_name>dpa</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/afp">
+              <display_name>AFP</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/reuters">
+              <display_name>Reuters</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="d36f4c82-8341-49b0-8d19-c7b24402b4b0" visible="True">
+          <block href="http://xml.zeit.de/2011/33/01-Europa-Wirtschaftskrise-Merkel" year="2011" issue="33" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2014-10-16T19:01:44+00:00" date-first-released="2011-08-11T06:00:00+00:00" date-last-published="2014-07-13T05:01:34+00:00" last-semantic-change="2014-07-29T13:18:15.332603+00:00" contenttype="article" uniqueId="http://xml.zeit.de/2011/33/01-Europa-Wirtschaftskrise-Merkel" author="Josef Joffe">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Euro-Krise</supertitle>
+            <title py:pytype="str">Deutschland muss Europa zusammenhalten</title>
+            <text py:pytype="str">Wer nicht kämpft, kann nur noch kapitulieren. Auch wenn es noch so schwerfällt, Angela Merkel sollte Europa helfen. Es wäre in ihrem eigenen Interesse. Von Josef Joffe</text>
+            <description py:pytype="str">Wer nicht kämpft, kann nur noch kapitulieren. Auch wenn es noch so schwerfällt, Angela Merkel sollte Europa helfen. Es wäre in ihrem eigenen Interesse. Von Josef Joffe</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2011-08/merkel/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Bundeskanzlerin Angela Merkel auf dem Weg zu einer Kabinettssitzung in Berlin - vor der Sommerpause.</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/J/Josef_Joffe/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Josef Joffe</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/49/P-Europa" year="2011" issue="49" ressort="Politik" publication-date="" expires="" date-last-modified="2013-12-03T13:55:39+00:00" date-first-released="2011-12-01T06:00:00+00:00" date-last-published="2013-12-03T14:55:55+00:00" last-semantic-change="2011-12-03T10:59:00.088611+00:00" contenttype="article" uniqueId="http://xml.zeit.de/2011/49/P-Europa" author="Radoslaw Sikorski">
+            <supertitle py:pytype="str">Europakrise</supertitle>
+            <title py:pytype="str">"Ich fürchte die deutsche Untätigkeit"</title>
+            <text py:pytype="str">Europa erlebt gerade seinen beängstigendsten Moment. Nur Berlin kann den Niedergang abwenden: Polens Außenminister RadosŁaw Sikorski über die Europakrise.</text>
+            <description py:pytype="str">Europa erlebt gerade seinen beängstigendsten Moment. Nur Berlin kann den Niedergang abwenden: Polens Außenminister RadosŁaw Sikorski über die Europakrise.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2011-12/sokorski/" type="jpg" title="RadosŁaw Sikorski" alt="RadosŁaw Sikorski" align="left" publication-date="" expires="2012-01-03T11:14:52+00:00">
+              <bu py:pytype="str">RadosŁaw Sikorski</bu>
+              <copyright py:pytype="str">© Reuters</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Radoslaw_Sikorski">
+              <display_name>Radoslaw Sikorski</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="2b7b2e42-bc8f-4311-9d6b-01ee80e4ac00" visible="True">
+          <block href="http://xml.zeit.de/wirtschaft/2011-12/merkel-Regierungserklaerung" year="2011" issue="49" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2014-07-28T15:35:04+00:00" date-first-released="2011-12-02T17:40:48.805833+00:00" date-last-published="2014-07-11T21:38:42+00:00" last-semantic-change="2011-12-02T17:39:31.379666+00:00" contenttype="article" uniqueId="http://xml.zeit.de/wirtschaft/2011-12/merkel-Regierungserklaerung" author="Marcus Gatzke">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Schuldenkrise</supertitle>
+            <title py:pytype="str">Die Kanzlerin der roten Linien</title>
+            <text py:pytype="str">Angela Merkel hat für ihre Krisenpolitik in Europa viel Kritik einstecken müssen. Zu Recht, kommentiert Marcus Gatzke. Es bleibt nur wenig Zeit, die Krise zu beenden.</text>
+            <description py:pytype="str">Angela Merkel hat für ihre Krisenpolitik in Europa viel Kritik einstecken müssen. Zu Recht, kommentiert Marcus Gatzke. Es bleibt nur wenig Zeit, die Krise zu beenden.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wirtschaft/2011-12/merkel/" type="jpg" title="Bundeskanzlerin Angela Merkel" alt="Bundeskanzlerin Angela Merkel" align="left" publication-date="" expires="2012-03-02T16:54:11+00:00">
+              <bu py:pytype="str">Bundeskanzlerin Angela Merkel</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/G/Marcus_Gatzke/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Marcus Gatzke</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="ca3250f6-eaf8-4e7e-820d-3a5a8021c6db" visible="True">
+          <block href="http://xml.zeit.de/2011/46/P-Zeitgeist" year="2011" issue="46" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2014-07-28T15:35:00+00:00" date-first-released="2011-11-10T06:00:00+00:00" date-last-published="2014-07-28T15:35:59.539808+00:00" last-semantic-change="2011-11-14T10:55:49.557421+00:00" serie="Zeitgeist" contenttype="article" uniqueId="http://xml.zeit.de/2011/46/P-Zeitgeist" author="Josef Joffe">
+            <supertitle py:pytype="str">Wirtschaftskrise</supertitle>
+            <title py:pytype="str">Der Niedergang des Westens</title>
+            <text py:pytype="str">Die USA und Europa sind im Unglück vereint, wie 1929. Beide werden von Schulden erdrückt und stecken in der Herrschaftskrise. Keiner kann dem anderen helfen. Von J. Joffe</text>
+            <description py:pytype="str">Die USA und Europa sind im Unglück vereint, wie 1929. Beide werden von Schulden erdrückt und stecken in der Herrschaftskrise. Keiner kann dem anderen helfen. Von J. Joffe</description>
+            <byline py:pytype="str">Von Josef Joffe</byline>
+            <image base-id="http://xml.zeit.de/wirtschaft/2011-11/armut-usa/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Mobile Ausgabe von Nahrungsmitteln in Manhattan</bu>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/J/Josef_Joffe/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Josef Joffe</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="cf9f9355-8109-45d1-9744-e179455d2d68" visible="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2011-07/kommentar-europa-politik" year="2011" issue="29" ressort="Politik" publication-date="" expires="" date-last-modified="2013-12-10T09:05:58+00:00" date-first-released="2011-07-20T11:00:36.008126+00:00" date-last-published="2013-12-03T22:20:14+00:00" last-semantic-change="2011-07-20T10:08:13.855820+00:00" contenttype="article" uniqueId="http://xml.zeit.de/politik/deutschland/2011-07/kommentar-europa-politik" author="Christian Bangel">
+            <supertitle py:pytype="str">Schuldenkrise</supertitle>
+            <title py:pytype="str">Die Europa-Versager</title>
+            <text py:pytype="str">Kaum ein Politiker mag noch die europäische Idee verteidigen. Man kann nur noch auf die nächste Politikergeneration hoffen, kommentiert Christian Bangel.</text>
+            <description py:pytype="str">Kaum ein Politiker mag noch die europäische Idee verteidigen. Man kann nur noch auf die nächste Politikergeneration hoffen, kommentiert Christian Bangel.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2011-07/merkel-westerwelle/" type="jpg" title="Merkel Westerwelle" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Bundeskanzlerin Angela Merkel und Außenminister Guido Westerwelle (Archivbild)</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Christian_Bangel/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Bangel</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="2635bdc9-c6d7-44e7-91cc-0e72db229789" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links_Shopleiste/zs_akademie_drei_blau" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeitakademie.de/?et=l6VVNm&amp;et_cid=19&amp;et_lid=195&amp;et_sub=KW_44_OekoPhiloLit&amp;mc=zeitakademie.Teaser.Zeitakademie_zeitakademie_alleThemen_Teaser_KW44.zeitakademie_de.link" ns0:target="_blank" date-last-modified="2011-11-03T15:45:10+00:00" date-first-released="2011-09-29T13:00:05.462217+00:00" date-last-published="2011-11-03T15:46:10.102504+00:00" last-semantic-change="2011-11-03T15:44:59.389038+00:00" uniqueId="http://xml.zeit.de/angebote/Links_Shopleiste/zs_akademie_drei_blau">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Ihre Exzellenz-Uni für zu Hause</title>
+            <text py:pytype="str">Erleben Sie die besten Professoren in den neuen DVD-Seminaren der ZEIT-Akademie.</text>
+            <description py:pytype="str">Erleben Sie die besten Professoren in den neuen DVD-Seminaren der ZEIT-Akademie.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/Links_Shopleiste/bilder/zs_akademie_drei_blau/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/video/2011-11/1265518048001" type="video" year="2015" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2015-03-03T15:02:30+00:00" date-first-released="2011-11-10T20:19:02+00:00" date-last-published="2015-03-03T15:03:30.661792+00:00" last-semantic-change="2012-09-13T15:35:20+00:00" serie="Zeit-Akademie" contenttype="video" uniqueId="http://xml.zeit.de/video/2011-11/1265518048001">
+            <supertitle py:pytype="str">Ökonomie</supertitle>
+            <title py:pytype="str">ZEIT Akademie: Warum gibt es Lohnunterschiede?</title>
+            <text py:pytype="str">Im Arbeitsalltag ist gleicher Lohn für gleiche Arbeit keine Selbstverständlichkeit. Hintergründe von Rüdiger Pohl, Prof. für Volkswirtschaftslehre.</text>
+            <description py:pytype="str">Im Arbeitsalltag ist gleicher Lohn für gleiche Arbeit keine Selbstverständlichkeit. Hintergründe von Rüdiger Pohl, Prof. für Volkswirtschaftslehre.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1269281802001_ari-origin05-arc-154-1320999826252.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1269281801001_ari-origin05-arc-154-1320999825850.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title> </title>
+    <subtitle>ZEIT Veranstaltungen: Ein Angebot des ZEIT Verlags</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str"> </title>
+    <text py:pytype="str">ZEIT Veranstaltungen: Ein Angebot des ZEIT-Verlags</text>
+  </teaser>
+</centerpage>

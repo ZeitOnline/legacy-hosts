@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-03-06T16:34:58.067779+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-02-11T11:02:10.583951+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-03-06T16:35:57.198744+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-03-06T16:34:31.317355+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">dorint-hotels</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:3544743c-7b44-4559-9a7c-99943b3b349d}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-e3e08806-479e-4912-8ce3-c5792e42efa5">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-daa6ab23-27fd-4a20-80ae-82e6f499b188">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dorint-hotels/context/link_uebersicht" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/dorint-hotels" ns0:target="_blank" date-last-modified="2013-02-11T11:00:35+00:00" date-first-released="2013-02-11T11:01:34.878683+00:00" date-last-published="2013-02-11T11:01:34.878683+00:00" last-semantic-change="2013-02-11T11:00:25.181686+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-964e6375-dba9-48eb-8a21-485423040ea2" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/dorint-hotels/context/link_dorint" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="https://www.etracker.de/rdirect.php?et=F5Etr3&amp;et_cid=78&amp;et_lid=208&amp;et_url=http%3A%2F%2Fwww.dorint.com%2F&amp;et_sub=Logo_Zeit_Advert" ns0:target="_blank" date-last-modified="2013-02-11T14:48:46+00:00" date-first-released="2013-02-11T10:25:54.873187+00:00" date-last-published="2013-02-11T14:49:46.692772+00:00" last-semantic-change="2013-02-11T14:48:38.498553+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Dorint Hotels &amp; Resorts</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/dorint-hotels/context/dorint_logo_neu/dorint_logo_neu-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f2854f46-585d-4cfd-a87f-6b6a297ae9d7">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dorint-hotels/context/linkout_urlaubstraeume-2" year="2013" ressort="Angebote" publication-date="" expires="" ns0:href="https://www.etracker.de/rdirect.php?et=F5Etr3&amp;et_cid=78&amp;et_lid=208&amp;et_sub=UT_Zeit_Advert" ns0:target="_blank" date-last-modified="2013-02-11T10:28:28+00:00" date-first-released="2013-02-11T10:29:27.473980+00:00" date-last-published="2013-02-11T10:29:27.473980+00:00" last-semantic-change="2013-02-11T10:28:15.094452+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Urlaubsträume - bei Dorint werden sie wahr.</title>
+            <text py:pytype="str">Denn Dorint schenkt Ihnen bis zu 25 % Rabatt auf Ihren Urlaubstraum in allen teilnehmenden Dorint Resorts.</text>
+            <description py:pytype="str">Denn Dorint schenkt Ihnen bis zu 25 % Rabatt auf Ihren Urlaubstraum in allen teilnehmenden Dorint Resorts.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dorint-hotels/context/linkout_urlaubstraeume/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f8d455e0-5a6a-42b7-b9f3-7761aa59db77">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dorint-hotels/context/linkout_newsletter-2" year="2013" ressort="Angebote" publication-date="" expires="" ns1:href="https://www.etracker.de/rdirect.php?et=F5Etr3&amp;et_cid=78&amp;et_lid=208&amp;et_url=http%3A%2F%2Fwww.dorint.com%2Fde%2Fnewsletter%2F&amp;et_sub=Newsl_Zeit_Advert" ns1:target="_blank" date-last-modified="2013-02-11T10:32:58+00:00" date-first-released="2013-02-11T10:33:57.868397+00:00" date-last-published="2013-02-11T10:33:57.868397+00:00" last-semantic-change="2013-02-11T10:32:38.824421+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Bleiben Sie auf dem Laufenden</title>
+            <text py:pytype="str">Melden Sie sich zum Newsletter an und erhalten Sie regelmäßig exklusive Angebote und Neuigkeiten aus unseren Destinationen.</text>
+            <description py:pytype="str">Melden Sie sich zum Newsletter an und erhalten Sie regelmäßig exklusive Angebote und Neuigkeiten aus unseren Destinationen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dorint-hotels/context/linkout_newsletter/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-7f40194c-570f-4282-866f-14328a99f072">
+          <block xmlns:ns2="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/dorint-hotels/context/linkout_dorintcard-2" year="2013" ressort="Angebote" publication-date="" expires="" ns2:href="https://www.etracker.de/rdirect.php?et=F5Etr3&amp;et_cid=78&amp;et_lid=208&amp;et_url=http%3A%2F%2Fwww.dorint.com%2Fde%2Fdorint-card%2Fwerden-sie-mitglied%2Fonline-registrierung%2F&amp;et_sub=DoCard_Zeit_Advert" ns2:target="_blank" date-last-modified="2013-02-11T10:36:54+00:00" date-first-released="2013-02-11T10:37:53.936889+00:00" date-last-published="2013-02-11T10:37:53.936889+00:00" last-semantic-change="2013-02-11T10:36:44.272705+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Dorint Card</title>
+            <text py:pytype="str">Informieren Sie sich hier über unsere Prämien, Hotelarrangements und die zahlreichen Vorteile, von denen Dorint Card Inhaber in unseren Hotels &amp; Resorts profitieren.</text>
+            <description py:pytype="str">Informieren Sie sich hier über unsere Prämien, Hotelarrangements und die zahlreichen Vorteile, von denen Dorint Card Inhaber in unseren Hotels &amp; Resorts profitieren.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/dorint-hotels/context/linkout_dorintcard/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-dd7f77a7-404d-4de7-b882-d2a52a300283">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="http://www.youtube-nocookie.com/v/OSY7goQzrQM?version=3&amp;hl=de_DE"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="http://www.youtube-nocookie.com/v/OSY7goQzrQM?version=3&amp;hl=de_DE" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline py:pytype="str">Dorint Hotels &amp; Resorts: ist ein Angebot der Neue Dorint GmbH. Für den Inhalt ist die Neue Dorint GmbH verantwortlich.</byline>
+    <title>Artikel Rahmen Dorint-Hotels</title>
+    <subtitle>Dorint Hotels &amp; Resorts: ist ein Angebot der Neue Dorint GmbH. Für den Inhalt ist die Neue Dorint GmbH verantwortlich.</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Dorint-Hotels</title>
+    <text py:pytype="str">Dorint Hotels &amp; Resorts: ist ein Angebot der Neue Dorint GmbH. Für den Inhalt ist die Neue Dorint GmbH verantwortlich.</text>
+  </teaser>
+</centerpage>

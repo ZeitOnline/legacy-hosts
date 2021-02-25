@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="arena">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <og_meta>
+      <og_title>Der ZEIT ONLINE Twitter-Monitor</og_title>
+      <og_description>Welche Wahlkampfthemen bewegen auf Twitter? Worüber twittern Politiker, Journalisten, Lobbyisten, Wähler? Unser fortlaufend aktualisierter Twitter-Monitor zeigt es.</og_description>
+      <og_image>http://www.zeit.de/politik/deutschland/2013-09/twitter-monitor.jpg/twitter-monitor.jpg-540x304.jpg</og_image>
+    </og_meta>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-09-02T16:53:22.573268+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-09-09T10:05:18.768060+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-09-18T10:14:10.496440+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-09-09T12:56:34.752657+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-09-09T12:56:08.476063+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lavrov</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="mobile_alternative">http://www.zeit.de/politik/deutschland/2013-09/twitter-monitor</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Deutschland</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">arena</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:79b99ad1-09d3-4b65-9c57-e34d4c22c59d}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">36</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="xml" module="xml" cp:__name__="id-c14dd6d4-a700-476c-a14e-3e713d1742ae">
+          <raw>
+            <p>Welche Wahlkampfthemen bewegen die Twitter-Nutzer? Diese Grafik zeigt es. Wir werten dafür die wichtigsten 10.000 deutschsprachigen Twitter-Accounts aus. Berücksichtigt werden dabei Followerzahl, Erwähnungen und Aktivität. Die Grafik dokumentiert, welche Entwicklung bestimmte Themen in den vergangenen 48 Stunden und seit Anfang August genommen haben. Und, wer die Tweets jeweils absetzt: Politiker, Journalisten, Verbände, Wähler. Zu jedem Thema blenden wir zudem die Tweets mit den häufigsten Retweets ein. <a href="http://blog.zeit.de/open-data/2013/09/09/twittermonitor/">Weitere Hintergründe</a></p>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-79018765-2c58-4089-ad6d-3f75464e9483">
+          <raw>
+            <style type="text/css">
+  #frame { border:1px solid #333!important; }
+</style>
+            <iframe id="frame" width="940" scrolling="no" height="580" frameborder="0" src="http://phpscripts.zeit.de/twitter-monitor/index_24.html"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-4e1a9510-9d84-4f37-8de0-7ba59d3b29f0">
+          <raw>
+            <p>Der Twitter-Monitor wurde in einer Kooperation mit dem Forschungsprojekt <a href="http://www.tab4.de" target="_blank">tab4</a> am <a href="http://www.leuphana.de/zentren/cdc.html" target="_blank">Zentrum für digitale Kulturen</a><br/><a href="http://www.leuphana.de/zentren/cdc.html" target="_blank">der Universität Lüneburg</a> und <a href="http://www.tame.it" target="_blank">Tame</a> entwickelt.</p>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-8dc4e44d-6c3f-4623-a01c-552e697c0835">
+          <raw>
+            <iframe frameborder="0" width="940" height="665" id="tame-widget" src="http://tame.it/widgets/embed/F6tsm6aeHRcGsFR1yWes" style="height: 500px">No iframe support.</iframe>
+            <br/>
+            <br/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-2789bf2e-ea7d-40a9-9a2c-12314bf3e4f9">
+          <raw>
+            <p>Das Tame Widget erfasst alle Tweets zum Hashtag #btw13 (das offizielle Hashtag zur Bundestagswahl). Es zeigt in drei Tabs die relevantesten Inhalte (Links), Themen (Hashtags) und Nutzer (Mentions). Das Ranking ist Ergebnis einer algorithmischen Quellenvarianz-Analyse. Mit Klick auf die einzelnen Inhalte wird eine Auswahl passender Tweets angezeigt.<br/><br/></p>
+          </raw>
+        </container>
+      </region>
+      <region area="informatives"/>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-e96a8980-7f71-439c-8c96-31e2604dc02d">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-494b5297-f61d-4e9a-a83c-cab1d60892a4" visible="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2013-08/fs-wahlkantine" year="2013" issue="34" ressort="Politik" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-08-30T07:49:02+00:00" date-first-released="2013-08-29T12:55:49.847729+00:00" date-last-published="2013-08-30T07:50:02.479255+00:00" last-semantic-change="2013-08-29T21:15:57.736640+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Bundestagswahl</supertitle>
+            <title py:pytype="str">Wahlwissen auf der Käsestulle</title>
+            <text py:pytype="str">Mit typisch deutschem Essen bringen wir wichtige Fakten zur Wahl auf den Teller. Heute in der Wahlkantine: das Phänomen Nichtwähler.</text>
+            <description py:pytype="str">Mit typisch deutschem Essen bringen wir wichtige Fakten zur Wahl auf den Teller. Heute in der Wahlkantine: das Phänomen Nichtwähler.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2013-08/wahlkantine_teaser.jpg/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-180ce4d9-e894-4626-8cb1-cfa9444b7000" visible="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2013-07/abgeordnetenbilanz-mdb-datenprojekt-bundestag" year="2013" issue="28" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:24:16+00:00" date-first-released="2013-07-25T08:29:15.123254+00:00" date-last-published="2013-12-02T18:25:40+00:00" last-semantic-change="2013-07-25T08:21:02.345684+00:00" author="Lisa Caspari;Paul Blickle;Martina Schories;Sascha Venohr">
+            <supertitle py:pytype="str">Deutscher Bundestag</supertitle>
+            <title py:pytype="str">Die große Abgeordneten-Bilanz</title>
+            <text py:pytype="str">Wer hielt die meisten Reden, welche Fraktion war am aktivsten? Wir haben 155.965 öffentlich zugängliche Datensätze deutscher Abgeordneter ausgewertet und aufbereitet.</text>
+            <description py:pytype="str">Wer hielt die meisten Reden, welche Fraktion war am aktivsten? Wir haben 155.965 öffentlich zugängliche Datensätze deutscher Abgeordneter ausgewertet und aufbereitet.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2013-07/bundestag-4/" type="jpg" alt="Klicken Sie auf dieses Bild, um zur Abgeordnetengrafik zu gelangen" align="left" href="http://bit.ly/19cNW53" publication-date="" expires="">
+              <bu py:pytype="str">Klicken Sie auf dieses Bild, um zur Abgeordnetengrafik zu gelangen</bu>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Deutscher Bundestag</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Lisa Caspari</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/B/Paul_Blickle" publication-date="" expires="">
+              <display_name py:pytype="str">Paul Blickle</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/S/Martina_Schories/index" publication-date="" expires="">
+              <display_name py:pytype="str">Martina Schories</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/V/Sascha_Venohr/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sascha Venohr</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-2fa87b23-45c8-4d56-b466-84d668c3802a" visible="True">
+          <block href="http://xml.zeit.de/wahlomat/index" year="2013" issue="34" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2014-09-15T09:56:16+00:00" date-first-released="2013-08-29T10:40:03.883479+00:00" date-last-published="2014-09-02T16:54:05.720271+00:00" last-semantic-change="2014-09-02T16:51:30.806439+00:00">
+            <supertitle py:pytype="str">Wahl-O-Mat</supertitle>
+            <title py:pytype="str">Der Wahlhelfer im Internet </title>
+            <text py:pytype="str">Viele Bürger stehen bei jeder Wahl aufs Neue vor der Frage: Wen soll ich nur wählen? Der Wahl-O-Mat hilft bei der Beantwortung.</text>
+            <description py:pytype="str">Viele Bürger stehen bei jeder Wahl aufs Neue vor der Frage: Wen soll ich nur wählen? Der Wahl-O-Mat hilft bei der Beantwortung.</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle py:pytype="str">Wahlomat</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2014-08/wahlomat-thueringen/" type="jpg" title="Wahlomat Thüringen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Screenshot/ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-031ff680-5da9-46cd-854d-f03288fff560" visible="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2013-08/wahlistik-2" year="2013" issue="34" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T17:06:13+00:00" date-first-released="2013-08-15T15:35:31.942137+00:00" date-last-published="2013-12-02T18:06:26+00:00" last-semantic-change="2013-09-19T15:41:41.341751+00:00" serie="Wahlistik">
+            <supertitle py:pytype="str">Bundestagswahl</supertitle>
+            <title py:pytype="str">Welche Koalition ist am wahrscheinlichsten?</title>
+            <text py:pytype="str">Bekommt Schwarz-Gelb wieder eine Mehrheit ? Wie steht es um Rot-Grün? Die ZEIT-ONLINE-Wahlistik berechnet regelmäßig die aktuell möglichen Koalitionen.</text>
+            <description py:pytype="str">Bekommt Schwarz-Gelb wieder eine Mehrheit ? Wie steht es um Rot-Grün? Die ZEIT-ONLINE-Wahlistik berechnet regelmäßig die aktuell möglichen Koalitionen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2013-08/wahlistik_teaser_neu.jpg/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Bundestagswahl</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-82b88eac-f95c-4524-912f-4c557702b483">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-50ce65d1-e91d-4e8b-8b5c-c917a67c32fa" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/deutschland/2012-03/link-regierungsbarometer" year="2012" issue="14" ressort="Politik" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/politik/regierungsbarometer" date-last-modified="2012-03-29T15:55:26+00:00" date-first-released="2012-03-29T13:26:21.274036+00:00" date-last-published="2012-03-29T13:39:46.252585+00:00" last-semantic-change="2012-03-29T13:42:52.341501+00:00">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Interaktive Grafik</supertitle>
+            <title py:pytype="str">Das Regierungsbarometer von ZEIT ONLINE</title>
+            <text py:pytype="str">Wie zufrieden sind die Deutschen mit der Bundesregierung? Wie sehr hängt dies von aktuellen Ereignissen ab? Unser interaktives Regierungsbarometer gibt Antworten.</text>
+            <description py:pytype="str">Wie zufrieden sind die Deutschen mit der Bundesregierung? Wie sehr hängt dies von aktuellen Ereignissen ab? Unser interaktives Regierungsbarometer gibt Antworten.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2012-03/infografik-zufriedenheit/" type="jpg" title="Infografik Zufriedenheit" align="left" href="http://www.zeit.de/politik/regierungsbarometer" publication-date="" expires="">
+              <bu py:pytype="str">Klicken Sie auf das Bild, um zur interaktiven Grafik zu gelangen.</bu>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-e2266463-caba-4a47-b0b4-d2585e2c3fbd" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/sport/2013-08/bundestag-fussball-fans-politiker-bundesliga" year="2013" issue="33" ressort="Sport" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/sport/2013-08/bundestag-fussballfans" date-last-modified="2013-09-10T14:45:56+00:00" date-first-released="2013-08-08T13:12:54.779157+00:00" date-last-published="2013-09-10T14:46:55.974619+00:00" last-semantic-change="2013-09-10T14:41:57.945635+00:00">
+            <supertitle py:pytype="str">Fans im Bundestag</supertitle>
+            <title py:pytype="str">Die Bundesliga-Tabelle der Politiker</title>
+            <text py:pytype="str">Abgeordnete sind Volksvertreter und Fußballfans. Unsere Grafik zeigt, im Bundestag sind die Bayern nicht beliebter als der BVB. Werder Bremen schafft es auf Platz drei.</text>
+            <description py:pytype="str">Abgeordnete sind Volksvertreter und Fußballfans. Unsere Grafik zeigt, im Bundestag sind die Bayern nicht beliebter als der BVB. Werder Bremen schafft es auf Platz drei.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/sport/2013-08/teaser_bundeskicker/" type="jpg" title="Fußballfans im Bundestag" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-a5dd0080-c553-408f-b3b6-73da0579371d" visible="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2013-08/ministerbilanz-ursula-von-der-leyen-arbeitsministerin" year="2013" issue="34" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T16:49:20+00:00" date-first-released="2013-09-05T09:36:58.253411+00:00" date-last-published="2013-12-02T17:50:46+00:00" last-semantic-change="2013-09-05T15:37:55.841357+00:00" serie="Ministerbilanz" author="Lisa Caspari">
+            <supertitle py:pytype="str">Serie Ministerbilanz</supertitle>
+            <title py:pytype="str">Meisterin der unabgesprochenen Vorstöße </title>
+            <text py:pytype="str">Ursula von der Leyen inszeniert sich erfolgreich als Rebellin im Kabinett. Doch die Arbeitsministerin hat keinesfalls nur Erfolge eingefahren.</text>
+            <description py:pytype="str">Ursula von der Leyen inszeniert sich erfolgreich als Rebellin im Kabinett. Doch die Arbeitsministerin hat keinesfalls nur Erfolge eingefahren.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2013-08/von-der-leyen/" type="jpg" alt="Arbeitsministerin Ursula von der Leyen" align="left" publication-date="" expires="2013-12-20T16:53:38+00:00">
+              <bu py:pytype="str">Arbeitsministerin Ursula von der Leyen</bu>
+              <copyright py:pytype="str">© Alexander Körner/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Serie Ministerbilanz</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Lisa Caspari</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-bcb0b8af-f183-4abf-88ae-79fa68fa41a5" visible="True">
+          <block href="http://xml.zeit.de/themen/politik/bundestagswahl-2013/index" year="2013" issue="34" ressort="Politik" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2013-10-25T12:19:32+00:00" date-first-released="2013-08-19T15:27:28.861207+00:00" date-last-published="2013-10-25T12:20:29.899074+00:00" last-semantic-change="2013-09-23T16:55:12.058609+00:00">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <title py:pytype="str">Bundestagswahl 2013</title>
+            <text py:pytype="str">Angela Merkels Union hat die Bundestagswahl gewonnen. Doch mit wem wird sie künftig regieren?  Die Themenseite von ZEIT ONLINE zur Wahl</text>
+            <description py:pytype="str">Angela Merkels Union hat die Bundestagswahl gewonnen. Doch mit wem wird sie künftig regieren?  Die Themenseite von ZEIT ONLINE zur Wahl</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2013-09/raute-2/" type="jpg" title="CDU" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Auf 70 mal 20 Metern sind die Hände der CDU-Chefin und Kanzlerin Angela Merkel zu sehen - geformt zur mittlerweile legendären "Merkel-Raute". Das riesiges Großplakat der CDU zur Bundestagswahl 2013  am Baugerüst des Steigenberger Hotels neben dem Hauptbahnhof in Berlin ist ein Mosaik vieler Einzelfotos mit Händen, aufgenommen am 13.09.2013.Foto: Manfred Krause [ Rechtehinweis: Verwendung weltweit, usage worldwide ]</bu>
+              <copyright py:pytype="str">© Manfred Krause/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Der Twitter-Monitor zur Wahl</title>
+    <supertitle>Bundestagswahl</supertitle>
+    <subtitle/>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Twitter-Monitor</title>
+    <text xsi:nil="true"/>
+  </teaser>
+</centerpage>

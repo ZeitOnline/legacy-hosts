@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article>
+  <head>
+    <!-- Original QPS -->
+    <!-- Additional QPS -->
+    <attribute name="ressort" ns="http://namespaces.zeit.de/CMS/print">Dossier</attribute>
+    <!-- CMS/document -->
+    <attribute name="page-from" ns="http://namespaces.zeit.de/CMS/document">15</attribute>
+    <attribute name="text-length" ns="http://namespaces.zeit.de/CMS/document">32343</attribute>
+    <attribute name="pagelabel" ns="http://namespaces.zeit.de/CMS/document">Dossier</attribute>
+    <attribute name="prio" ns="http://namespaces.zeit.de/CMS/document">500</attribute>
+    <!-- CMS/workflow -->
+    <attribute name="imagecount" ns="http://namespaces.zeit.de/CMS/document">0</attribute>
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">14</attribute>
+    <attribute name="author" ns="http://namespaces.zeit.de/CMS/document">Emanuel Eckardt</attribute>
+    <attribute name="banner" ns="http://namespaces.zeit.de/CMS/document">yes</attribute>
+    <attribute name="comments" ns="http://namespaces.zeit.de/CMS/document">1</attribute>
+    <attribute name="copyrights" ns="http://namespaces.zeit.de/CMS/document">DIE ZEIT 26.01.2006 Nr.5</attribute>
+    <attribute name="date-last-modified" ns="http://namespaces.zeit.de/CMS/document">2006-10-06T12:06Z</attribute>
+    <attribute name="keywords" ns="http://namespaces.zeit.de/CMS/document">arbeit</attribute>
+    <attribute name="mostread" ns="http://namespaces.zeit.de/CMS/document">yes</attribute>
+    <attribute name="page" ns="http://namespaces.zeit.de/CMS/document">15</attribute>
+    <attribute name="paragraphsperpage" ns="http://namespaces.zeit.de/CMS/document">13</attribute>
+    <attribute name="ressort" ns="http://namespaces.zeit.de/CMS/document">Wirtschaft</attribute>
+    <attribute name="topic" ns="http://namespaces.zeit.de/CMS/document">Wirtschaft</attribute>
+    <attribute name="volume" ns="http://namespaces.zeit.de/CMS/document">05</attribute>
+    <attribute name="year" ns="http://namespaces.zeit.de/CMS/document">2006</attribute>
+    <attribute name="DailyNL" ns="http://namespaces.zeit.de/CMS/workflow">no</attribute>
+    <attribute name="status" ns="http://namespaces.zeit.de/CMS/workflow">OK</attribute>
+    <attribute name="title" ns="http://namespaces.zeit.de/CMS/document">Der große Bringer</attribute>
+    <attribute name="last-modified-by" ns="http://namespaces.zeit.de/CMS/workflow">glossner</attribute>
+    <references count="4">
+      <reference href="http://xml.zeit.de/1997/26/hafen.txt.19970620.xml" issue="26" publication="ZEIT" source="auto" type="intern" year="1997">
+        <title>Wie ein Krake hat sich der Hafen in Hamburg ausgebreitet. Jetzt plant die Stadt ihre Rückkehr an die Elbe</title>
+      </reference>
+      <reference href="http://xml.zeit.de/2006/41/Container-Schmuggel-im-Hafen" issue="41" publication="ZEIT" source="auto" type="intern" year="2006">
+        <title>Drogen, Kippen, Tempo-Tücher</title>
+        <description>Der Hamburger Hafen ist ein Einfallstor für Schmuggelware. Zollfahnder haben trotz modernster Technik nur selten Erfolg.</description>
+      </reference>
+      <reference href="http://xml.zeit.de/2006/09/80_Tage_2fSuebach_09" issue="09" publication="ZEIT" source="auto" type="intern" year="2006">
+        <title>Auf dem Preisbrecher</title>
+        <description>Mit dem Containerschiff »Flaminia« von Indien nach China: 22 Männer fahren Rohstoffe und Billigwaren übers Meer. Sie schwimmen mit den Handelsströmen – die Sorgen der Welt liegen irgendwo hinter dem Horizont.</description>
+      </reference>
+      <reference href="http://xml.zeit.de/2007/19/LS-Eisenbahn" issue="19" publication="ZEIT" source="auto" type="intern" year="2007">
+        <title>Gedränge auf dem toten Gleis</title>
+        <description>Eine Kleinstadt in Niedersachsen will eine alte Bahnstrecke stilllegen – und erlebt eine Überraschung. Schienen sind wieder wichtig.</description>
+      </reference>
+    </references>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2006-01-26T12:00:00Z</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2006-10-06T12:06:00+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f1ea0139-f8e6-49c5-8d3b-ee9bbb802fd7}</attribute>
+  <rankedTags><tag url_value="china" uuid="05d1dcb8-0275-4979-9e9e-76c8db37c5c2" score="5" type="Location">China</tag><tag url_value="schiff" uuid="a184bd6b-f790-4de2-920a-d1c63899c43a" score="4" type="free">Schiff</tag><tag url_value="schweiz" uuid="cf450d19-c8a2-4c92-b29a-51bf1f5bbf87" score="4" type="Location">Schweiz</tag><tag url_value="hamburg" uuid="35412dac-1753-47db-aba2-7c86ba4368d3" score="3" type="Location">Hamburg</tag><tag url_value="indien" uuid="64679390-1eec-48e8-a704-f47f9429a8d8" score="3" type="Location">Indien</tag><tag url_value="polen" uuid="9fe39a55-497c-43d1-962f-5b9f7f2ce98a" score="3" type="Location">Polen</tag><tag url_value="suedkorea" uuid="7d7d2ac5-295e-4731-b765-670ff7a2c785" score="3" type="Location">Südkorea</tag><tag url_value="usa" uuid="7d8274b9-2499-460e-a0e1-3d569e365304" score="3" type="Location">USA</tag><tag url_value="europa" uuid="1c8b0c32-1a49-4370-9818-7af636e4b30b" score="2" type="Location">Europa</tag><tag url_value="suedosteuropa" uuid="9b684c02-219a-46e4-9c75-bdb7790a4729" score="1" type="Location">Südosteuropa</tag><tag url_value="wilhelmshaven" uuid="0aac5463-4116-4dce-8b05-d7d17923630d" score="1" type="Location">Wilhelmshaven</tag></rankedTags></head><body><supertitle>Dossier</supertitle>
+    <title>Der große Bringer</title>
+    <subtitle>Logistik ist die Branche der Zukunft, der Container ist ihre Einheit. Der Hamburger Hafen ist der wichtigste Umschlagplatz für Europa - Besuch bei einem Globalisierungsgewinner</subtitle>
+    <byline>Von Emanuel Eckhardt</byline>
+    <division type="page"><p>
+      Ein Wintermorgen am Burchardkai. Auf der Doppelkatzbrücke weht eine eisige Brise. Wir stehen 40 Meter hoch über den Kaianlagen, die Trucks unter uns kurven wie Modellautos um die Containerstapel, eine Kistenstadt mit schmalen Gassen dazwischen, dahinter wachsen die Türme der Stadt aus dem Nebel. »In Hochstellung sind die Kräne höher als der Michel«, erklärt Holger Blocksiepen, Containerbrückenfahrer und Technische Aufsicht über fünf turmhohe blaue Doppelkatzbrücken. Eine Stahltreppe führt zum Fahrstuhl im mächtigen Brückenbein. Sechs Stockwerke sind angezeigt: »7 – Penthouse« hat ein Scherzbold noch drüber geschrieben.
+      <image align="left" expires="2006-02-04" image_id="/cms/work/bilder/2006/05/dossier/1_210.jpg" src="http://xml.zeit.de/bilder/2006/05/dossier/1_210.jpg"><title /><bu>Bilder aus dem Hamburger Hafen von Jörg Fokuhl für DIE ZEIT</bu></image>
+    </p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">
+      Die Arbeitswelt eines Großbrückenfahrers ist gigantisch, nüchtern und bodenlos. Ein bequemer Stuhl, gepolstert, gefedert, 40 Meter über dem Abgrund. Man sitzt breitbeinig und vornübergekrümmt im klimatisierten Glashaus, blickt nach unten durch geputztes Panzerglas. Man fährt die Katzbrücke mit Kanzel vor und zurück, den Kran auf Schienen, der Container aus Schiffen angelt, wenn es gut läuft, 30 in der Stunde. Stahl läuft auf Stahl, tonnenschwer, enorme Kräfte, Riesenkrach, Rütteln, Vibrationen. Auch der Wind packt zu. Die Segelfläche einer Containerbrücke entspricht ungefähr der der
+      <em>Gorch Fock.</em>
+    </p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Zwei Mann wechseln sich ab, vier Stunden auf der Brücke, vier Stunden als Deckseinweiser auf dem Schiff, der weniger komfortable Job, vor allem bei Schietwetter. Der Deckseinweiser zeigt dem Brückenfahrer, wo sein Greifer hinmuss, der Spreader, die zwölf Tonnen schwere Riesenklaue, die einen Container nach dem anderen aus dem Bauch des Schiffes hievt.</p>
+    <intertitle>Der Hafen produziert seit Jahren zweistellige Zuwachsraten</intertitle>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext ohne Einzug">
+      Die
+      <em>Voltaire</em>
+      kommt zu früh. Laut Segelliste, wie es immer noch heißt, sollte sie um elf Uhr hier sein. Sie ist aber 35 Minuten vor der Zeit »eingesegelt«. Die Brückenfahrer haben noch Pause. Punkt elf wird das Schiff bearbeitet, ein Riese der fünften Generation, Postpanama-X-Klasse, mit 40 Meter Breite passt er nicht mehr durch den Panamakanal. Dafür können 15 Container nebeneinander gestapelt werden, 6450 insgesamt. Was die
+      <em>Voltaire</em>
+      bringt, weiß nur der Reeder. Die Container sind fest verschlossen, ein Zollsiegel verhindert unbefugtes Öffnen.
+    </p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Container sind der Treibsatz der Globalisierung, der große Bringer. TEU, Twenty Foot Equivalent Unit, die 20-Fuß-Einheit, ist das Maß aller Dinge, die Weltwährung der Logistik. Logistik boomt. Und in <entity idref="Hamburg" entity_type="Location" url_value="orte/hamburg">Hamburg</entity> fließen die Ströme zusammen, das Elbufer mit seinen Hochlagern aus buntem Stahlblech ist zum Stapelplatz galoppierender Globalisierung geworden, Schnittstelle zwischen dynamischen Zukunftsmärkten. Hamburgs Hafen verbindet Produktionsketten in <entity idref="China" entity_type="Location" url_value="orte/china">China</entity>, Japan und Korea mit <entity idref="S%C3%BCdosteuropa" entity_type="Location" url_value="orte/suedosteuropa">Südosteuropa</entity> und dem Baltikum. Von Hamburg aus fließen Warenströme aus Fernost in die Mitte <entity idref="Europa" entity_type="Location" url_value="orte/europa">Europas</entity>, rauschen Schiffscontainer in die Hohe Tatra.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Deutschland ist Logistikweltmeister. Die Branche setzt rund 165 Milliarden Euro um, beschäftigt 2,5 Millionen Menschen, nach Umsatz liegt sie auf Platz vier, nach Zahl der Beschäftigten auf Platz eins in Deutschland.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext sehr eng">
+      Die große Verlade verändert die Welt. Containerisierung vereinfacht, verbilligt und beschleunigt den Transport. Wo Wirtschaft wächst, rappeln die Kisten. Üblicherweise im Verhältnis eins zu drei. Wächst Chinas Wirtschaft um 10 Prozent, nimmt die Zahl der Container um 30 Prozent zu. In den Industrieländern bilden sich neue Kastengesellschaften. In <entity idref="Polen" entity_type="Location" url_value="orte/polen">Polen</entity> kommen sieben Container auf tausend Einwohner, in Deutschland vierzehn. In Hamburg gibt es, übers Jahr gerechnet, bald fünfmal mehr Container als Einwohner. 96,8 Prozent des Stückgutes im Hamburger Hafen landen im Standardcontainer, acht Millionen im letzten Jahr.
+      <image align="left" expires="2006-02-04" image_id="/cms/work/bilder/2006/05/dossier/3_210.jpg" src="http://xml.zeit.de/bilder/2006/05/dossier/3_210.jpg"><title /><bu>Containerterminal</bu></image>
+    </p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Unter den Häfen Europas liegt Hamburg hinter Rotterdam auf Platz zwei, auf der Weltrangliste der Seehäfen ist die Hansestadt an Los Angeles vorbei auf den achten Platz vorgerückt. Hamburgs Hafen boomt, notiert seit Jahren zweistellige Zuwachsraten, über 15 Prozent im vergangenen Jahr. An den Westwind ist man gewöhnt, der Aufwind kam mit der Wende.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext sehr weit">Speicherstadt, Bei St. Annen 1, ein selbstbewusster Prunkbau der Gründerzeit. Sitz des größten Unternehmens für den Containerumschlag in Europa. 3300 Mitarbeiter sind es derzeit, 200 neue Jobs will man dieses Jahr schaffen. Das ist die HHLA, die Hamburger Hafen und Logistik AG.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">1865 hat alles begonnen, Hamburg baute seinen Hafen und Kaianlagen, einen der ersten Häfen der Welt, in dem Schiffe mit großen Kränen entleert und beladen wurden; Dampfkräne und bald auch die hochmodernen Elektrokräne holten die Ladung aus den Schiffsbäuchen. Schuppen nahmen die Frachten auf, dahinter wurden Gleise gelegt, ein zukunftsweisendes Konzept, wie sich bald herausstellte.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">1882 wurde das Wandrahmviertel, in dem 20.000 Menschen lebten,&#xD;
+abgerissen, Kaufmannshäuser, Handwerker- und Hafenarbeiterquartiere&#xD;
+wurden abgeräumt für den größten geschlossenen Lagerkomplex der Welt,&#xD;
+die Speicherstadt, ein architektonisches Juwel des ausgehenden 19.&#xD;
+Jahrhunderts, Hochwassergotik mit stattlichen Klinkermauern, getragen&#xD;
+von dicken Eichenbalken. Erbaut in nur drei Jahren, so schnell bauen&#xD;
+heute nur noch die Chinesen ihre Häfen.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Das Hamburger Logistikunternehmen entwickelte ein Sicherheitskonzept für saudi-arabische Häfen und hat das Management des Containerhafens von Odessa übernommen. Als Umschlagplatz für Container sieht sich die HHLA noch vor New York auf Platz 15 der Welthäfen.</p>
+    </division><division type="page"><p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Die HHLA hat viele gesunde Töchter. Der Immobiliensparte gehört die gesamte Speicherstadt sowie fast alles, was am Hafenrand zwischen Fischmarkt und Neumühlen gut und teuer ist. Ein Schmuckstück, fürwahr. Aber die HHLA braucht Geld, will in den nächsten sechs Jahren eine Milliarde Euro investieren, davon allein 800 Millionen in die Terminals.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">
+      Der Koloss muss auf der Hut sein. Fast hätte die Deutsche Bahn ihn geschluckt. Hartmut Mehdorn hatte in geheimen Verhandlungen angeboten, im Tausch gegen die HHLA die Konzernzentrale der Deutschen Bahn mit tausend Leuten von Berlin nach Hamburg zu verlegen, und dazu wollte er noch 400 Millionen Euro drauflegen. Die Hansestadt rollte den roten Teppich aus, bot ihm als Morgengabe auch noch die Hochbahn an, Hamburgs überaus effiziente Verkehrsbetriebe. Doch der Deal endete mit einer medienwirksamen Entgleisung, der Bund legte sein Veto ein. Aufatmen in Hamburg.
+      <image align="left" expires="2006-02-04" image_id="/cms/work/bilder/2006/05/dossier/4_210.jpg" src="http://xml.zeit.de/bilder/2006/05/dossier/4_210.jpg"><title /><bu>Hans Dücker, Chef der Hamburg Port Authority</bu></image>
+    </p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Jetzt musste die Stadt nur noch mit Brüssel fertig werden. Am Mittwoch, dem 11. Januar 2006, legten Hafenarbeiter in Hamburg die Arbeit nieder. In vielen europäischen Häfen gab es Proteste gegen die geplante EU-Richtlinie »Port Package II«, die durch die Ausschreibung von Lizenzen mehr Wettbewerb in die Häfen bringen sollte. »Was die EU-Kommission da plant, ist abwegig«, wetterte der Logistikunternehmer Klaus-Michael Kühne und sprach aus, was viele seiner Kollegen dachten: »Die Ausschreibung von Lizenzen ist wirtschaftlicher Unsinn. Wer das will, schießt sich selbst ins Knie. Ich habe Verständnis für die Arbeiter, die dagegen auf die Straße gehen. Das sind, was man nicht übersehen sollte, gut geschulte Leute. Die wird man nicht bekommen, wenn die Kaianlagen an Interessenten aus dem Ausland vergeben werden.« Das ominöse Regelwerk verschwand in den Fluten des Protests. Das Europa-Parlament in Straßburg kassierte den Entwurf, 523 von 677 Abgeordneten stimmten dagegen.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Der König der Spediteure lebt in der <entity idref="Schweiz" entity_type="Location" url_value="orte/schweiz">Schweiz</entity>. Klaus-Michael Kühne hat in Schindellegi im Kanton Schwyz seine Residenz errichtet, einen blau verspiegelten Glaspalast mit herrlichem Blick auf den Zürichsee. Gesteuert wird das Weltreich jedoch von Hamburg aus, eine Riesenveranstaltung, sagt der König. Er hat das Unternehmen von seinem Vater übernommen, machte daraus einen Weltkonzern.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">»Heute sind wir mit 750 Stützpunkten in 103 Ländern vertreten. Wir sind überall, nur nicht in Westafrika und im Jemen. Aber auf dem Weg dahin haben wir öfter mal einen an die Backe gekriegt.« In den Siebzigern war es schwierig. Iran brach weg, die Verbindungen von Beirut in den Irak rissen ab. »Heute sind wir wieder da. Die Amerikaner powern in den Restaurationsprogrammen, und unsere US-Gesellschaft partizipiert daran.«</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Es zahlt sich aus, dass es kaum ein Land gibt, in dem Kühne + Nagel&#xD;
+nicht mit eigenen Firmen vertreten ist. »Weil wir ein Unternehmen in&#xD;
+Hongkong hatten, durften wir als Logistiker nach China. Dort sind wir&#xD;
+ein voll lizenziertes eigenes Unternehmen. Als Logistiker muss man sich&#xD;
+immer anpassen, wir sind lösungsorientiert, unsere Aufgabe ist es, den&#xD;
+Kunden den Rücken freizuhalten. Wir sprechen ihre Sprache, haben&#xD;
+einheimisches Führungspersonal. Alle Vertretungen sind voll vernetzt,&#xD;
+wir haben unsere Kommunikation optimiert, ein Standard – ein System.&#xD;
+Die Ware sucht sich ihren Weg, wir müssen die Verkehrsströme ausbauen.&#xD;
+Es passiert noch viel zu viel auf der Straße. Die Bahn ist weit&#xD;
+zurück.« Tagsüber harren nicht wenige Güterzüge auf Nebengleisen aus,&#xD;
+bis die Personenzüge vorbeigerauscht sind. Güterzüge fahren nachts,&#xD;
+aber die Distanzen sind zu groß, die Strecken zu langsam. Die Länder&#xD;
+Europas haben außerdem unterschiedliche Signale, Stromsysteme und&#xD;
+Betriebsvorschriften. Deutschland, die Schweiz, Österreich, Norwegen&#xD;
+und Schweden fahren mit Wechselstrom. Belgien, Italien, Polen und&#xD;
+Frankreich verwenden Gleichstrom.</p>
+    <intertitle>Die Branche der Fuhrleute wurde zur hochdifferenzierten Dienstleistung</intertitle>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext ohne Einzug">
+      Das Image der Logistik hat sich gewandelt. Die Branche der Fuhrleute und Lagerverwalter ist an ihren Aufgaben gewachsen – vom Holen und Bringen, Laden und Lagern zur hochdifferenzierten globalen Dienstleistung mit satellitengesteuerter Kommunikation. »Früher waren wir der Prügelknabe der Wirtschaft«, sagt Klaus-Michael Kühne, »heute ist sie mehr denn je auf unsere Leistungen angewiesen. Logistik nimmt zu, wächst zu gigantischen Unternehmen. Logistik hat Zukunft. Jeder braucht sie. Logistik spielt sich überall ab. Logistik kann Probleme lösen, weit über die zeitgerechte Belieferung hinaus. Logistik kann die Fertigungstiefe verringern. Immer mehr Fabrikationsleistung wird verlagert auf den Dienstleister, dem Logistiker wird immer mehr aufs Auge gedrückt. Das ist der Trend. Davon leben wir.«
+      <image align="left" expires="2006-02-04" image_id="/cms/work/bilder/2006/05/dossier/5_210.jpg" src="http://xml.zeit.de/bilder/2006/05/dossier/5_210.jpg"><title /><bu>Im Containerhafen</bu></image>
+    </p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Hamburg lebt davon, dass der Seeweg spottbillig ist. Wenn ein Container&#xD;
+von Shanghai nach Potsdam reist, beansprucht die Schiffsreise um die&#xD;
+halbe Welt nur ein Fünftel, der Landweg ab Hamburg vier Fünftel der&#xD;
+Frachtkosten. So kommt es, dass der Transport einer Flasche Rotwein aus&#xD;
+Australien kaum sieben Cent kostet und das Heranholen einer Flasche aus&#xD;
+deutschen Anbaugebieten viermal so teuer ist. Container bringen&#xD;
+Preisgefüge zum Einsturz, knacken Märkte, vernichten Standortvorteile.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext sehr weit">Zwanzig Jahre brauchte Hamburg, um die erste Million zu erreichen. Nach der Wende kam das Geschäft mit dem Warenumschlag auf Touren. Plötzlich hatte Hamburg wieder ein Hinterland, öffneten sich die Märkte im Osten, messbar in der erwähnten Containereinheit TEU. Allein 2005 erhöhte sich der Umschlag im Hafen von sieben auf acht Millionen. Die kühnsten Prognosen wurden vom Sturmwind der Realität weggeblasen. Für das Jahr 2015 hatten sie einen Umschlag von gut fünf Millionen TEU vorausgesagt. Makulatur. Diesen Wert hat Hamburg schon vor vier Jahren erreicht. Die Kurve zeigt steil nach oben. Alle sieben Jahre wird sich der Umschlag verdoppeln.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Viele Container sind nur auf der Durchreise. Dreißig Prozent bleiben in der Metroregion Hamburg, zehn Prozent werden »aufgebrochen«; ihr Inhalt für Endkunden, zum Beispiel Ikea, sortiert, neu verpackt und kommissioniert. Dreißig Prozent reisen weiter ins »European Hinterland«, in die Schweiz, nach Österreich, Zentral- und Südosteuropa bis in den Ural, dreißig Prozent gehen nach Skandinavien, in die baltischen Staaten, nach Osteuropa, nach Russland, meist auf einem Feeder-Schiff.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext sehr eng">Die Ostsee ist nautisch alles andere als ein Spazierweg. Große Schiffe kommen schwer hinein. Den Häfen fehlt das Netz der Hinterlandverbindungen. Sie ist das ideale Gewässer für den Feeder-Verkehr, Schiffe mit einer Kapazität von 300 bis 1000 TEU klappern die Häfen ab, fahren wie Sammeltaxis von Pier zu Pier, laden ab, laden ein. Feeder-Schiffe haben sich als Diebstahlsicherung bewährt. In den Weiten des Ostens verschwinden immer wieder ganze Lkw mit wertvoller Ladung. Es ist nun mal verdammt schwer, einen Container oder einen Truck vom Schiff zu klauen. Auch die Bahn kennt das Problem. Gerade hat sie 2000 Waggons für hochwertige Güter mit GPS ausgerüstet. Temperaturfühler, Drucksensor und ein Türsensor alarmieren die Zentrale.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Im Hansaport liegen die Dinge einfacher. Keiner klaut hier eine Ladung. Der Hansaport ist der größte deutsche Erz- und Kohlehafen. 110 Mitarbeiter bewältigen zehn Prozent des gesamten Hafenumschlags. Zehn Millionen Tonnen. Zum Hansaport gehören ein Bahnhof mit 15 Gleisen und 31 Wasserwerfer, die das Ladegut feucht halten, damit es nicht staubt. Ein Steuerwart überwacht das Geschehen. Im Hansaport verkehren die »Quelle-Ziel-Züge« der HHLA, der Traum jedes Logistikers, eine Ladung, ein Ziel. Stahl für Salzgitter, fahrplanmäßig. Zwei Lokomotiven ziehen die schwersten Güterzüge der Republik, 700 Meter lang und 6000 Tonnen schwer.</p>
+    </division><division type="page"><intertitle>Das Dorf Altenwerder verschwand,  als Nächstes muss Moorburg weichen</intertitle>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext ohne Einzug">
+      Die Faustregel, je größer und moderner der Hafen, desto weniger Arbeiter, widerlegt das Eurogate-Terminal. Seit 2000 hat sich in Hamburgs zweitgrößtem Logistikterminal die Zahl der Jobs um 46 Prozent erhöht. »Wir nehmen Leute bis 35, die eine abgeschlossene Berufsausbildung haben. Koch oder Tischler ist egal. Einzige Bedingung: Sie müssen arbeitslos sein«, berichtet Eurogate-Sprecherin Corinna Romke. Hoch ragen die neuen Containerbrücken aus China, feuerrote Giganten, im Kontrast zu den blauen Brücken der HHLA am Burchardkai gegenüber. Das Spalier ist erst der Anfang. Fünfzehn Brücken zum Stückpreis von fünf Millionen Euro sollen kommen, die Kaimauer auf fast drei Kilometer verlängert werden.
+      <image align="left" expires="2006-02-04" image_id="/cms/work/bilder/2006/05/dossier/6_210.jpg" src="http://xml.zeit.de/bilder/2006/05/dossier/6_210.jpg"><title /><bu>Container am Burchardkai</bu></image>
+    </p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Das Luftfoto des Hafens in Hans Dückers Büro bedeckt die ganze Wand. Man müsste es eigentlich jede Woche auswechseln, weil ständig etwas Neues passiert. Schuppen werden abgeräumt, Hafenbecken zugeschüttet, neue Flächen geschaffen. Das Dorf Altenwerder verschwand, das Dorf Moorburg mit 800 Einwohnern ist bereits als Manövriermasse für die nächste Hafenerweiterung verplant. »Du kannst gar nicht so schnell gucken, wie sich der Hafen verändert. Ich sehe das mit großer Freude und einer Gänsehaut zugleich. Wo geht das hin?« fragt Dücker.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext sehr weit">Hans Dücker hat das Wachstum im Blick. Die Kaimauern, die Hafenbecken,&#xD;
+die Flächen, die Straßen und Gleise, denn das alles untersteht seiner&#xD;
+Autorität. Er ist Direktor der Hamburg Port Authority. Was vorher in&#xD;
+der Wirtschaftsbehörde, in der Finanzbehörde und in der&#xD;
+Liegenschaftsverwaltung verteilt war, ist seit Oktober zu einer Einheit&#xD;
+verschmolzen. »Wir sind nun wie ein Unternehmen organisiert«, meint der&#xD;
+Direktor. Stolz verweist er auf 95 Millionen Euro Erlöse in diesem&#xD;
+Jahr. »Unser Ziel ist es, 2015 18 Millionen Boxen umzuschlagen«, sagt&#xD;
+er zuversichtlich. Die Berliner Beratungsfirma Regionomica, früher ein&#xD;
+Teil des Prognos-Instituts, hat ermittelt, dass der Hafen bis dahin&#xD;
+14.000 Arbeitsplätze schaffen könne und für eine Wertschöpfung von 6,6&#xD;
+Milliarden Euro gut sei.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Wo kommt das her? Wo fließt das hin? Ein Hausbesuch im Kaufmannshaus, Bleichenbrücke 10, in der Hamburger Innenstadt. Claus-Peter Offen, Großreeder in Hamburg. Die Gruppe, die seinen Namen trägt, gehört zu den größten Anbietern von Chartertonnage auf dem Weltmarkt. »Wir gehören zu den ersten drei. Aber ich glaube nicht, dass wir der Dritte sind«, formuliert er mit hanseatischer Zurückhaltung.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">
+      1971 hat er das erste Containerschiff erworben, in einer Auktion beim&#xD;
+Hamburger Amtsgericht. So fing er an. »Mein Vater war Reeder. Ich bin&#xD;
+das letzte von fünf Kindern, da war nicht viel übrig, und ich musste&#xD;
+selbst was auf die Beine stellen.« Sechs Jahre später hat er das erste&#xD;
+eigene Schiff bestellt. Die
+      <em>Holsten Sailor</em>
+      konnte 600 TEU&#xD;
+transportieren. Nach dem Motto »Üb immer TEU und Redlichkeit« baute&#xD;
+Offen sein Geschäft aus. Ende 2004 liefen bereits 44 Schiffe mit einer&#xD;
+Kapazität von 120.000 TEU unter seinem Namen, eine hochmoderne Flotte.&#xD;
+Das Durchschnittsalter der Schiffe betrug fünf Jahre.
+    </p>
+    <intertitle>»Wenn du einen Menschen überfährst, spürst du gar nichts«</intertitle>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext ohne Einzug">Seit Anfang 2003 läuft ein Neubauprogramm ohne Beispiel. Offen hat weitere 65 Schiffe bei koreanischen Werften geordert, Riesenfrachter mit einem Fassungsvermögen von bis zu 9700 TEU bei einer Gesamtlänge von 350 Metern. Spätestens in drei Jahren sollen die Schiffe abgeliefert sein. Ende 2008 wird Reeder Offen 105 Schiffe mit einer Kapazität von 430000 TEU besitzen. Jetzt sucht er die Kapitäne.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Auch Carrierfahrer werden gesucht. Diese besonderen Leute sind einsam in ihrer Kanzel. Reden erst am Boden. Du musst dich da oben wahnsinnig konzentrieren. Du bist mindestens zehn Meter über der Erde, praktisch im dritten Stock, fährst mit 30 Sachen über das Gelände. Der Carrier ist 70 oder 100 Tonnen schwer. Du hast ein Funkgerät, den Ladeplan aus Papier, damit du weißt, wo dein Container hingehört, welcher Schacht, welche Höhe. Du hast einen kleinen PC mit Bildschirm und Tastatur, die neuen haben schon Touchscreen. Wenn du die Nummer des Containers eintippst, erfährst du, wo er hin soll. In den Kurven musst du mit der Geschwindigkeit runter, sonst kippst du um; eine Anzeige signalisiert die Kippgefahr in den Kurven. Eine Automatik nimmt die Fahrt weg. Du weißt, wo Löcher sind im Asphalt, fährst Slalom, denn jedes Schlagloch haut dir direkt bis in die Nackenwirbel. Unfälle sind eigentlich immer tödlich, egal, ob du über einen VW-Bus fährst oder über einen Pkw.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Carrier kurven mit Dauerblinklicht über die Flächen und Rollbahnen zwischen den Stapeln, hochbeinige Greifer auf Gummirädern, die Container aufnehmen, über die Kaianlagen tragen und abladen. Sie sind hoch genug, um drei oder sogar vier Container übereinander zu stapeln, und fressen 30 Liter Diesel pro Stunde. Jeder Carrier ist per Datenfunk mit der EDV des Terminals verbunden und per GPS-Satelliten-Ortung lokalisierbar. Falls der Satellit mal ausfällt, bringt ein redundantes System mit Radar-Laser-Kennung den Container auf den Schirm. Der Fuhrpark der Ungetüme ist auf 115 Stück angewachsen.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Das Schlimme sei, sagt einer der Fahrer, »wenn du einen Menschen überfährst, spürst du gar nichts. Der Lkw-Fahrer, der zum Pinkeln in die Gassen geht, hat keine Chance. Du siehst ihn nicht, und er hört dich nicht mal kommen. Wir mussten einem Kollegen nach der Schicht sagen, dass er einen Menschen totgefahren hat. Der wollte es nicht glauben, war völlig fertig.«</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext sehr eng">»Brückenfahrer reden mit ihren Hebeln«, weiß Peter Wagner, zuständig für Sozialdienst und Suchtberatung der Hafenarbeiter bei der Gesamthafenbetriebsgesellschaft, der Arbeitsvermittlung des Hamburger Hafens. Er hat vor 40 Jahren als Quartiersmann angefangen. »Früher arbeiteten wir zusammen, wir haben miteinander geredet, man wusste, was in den Familien los war. Du konntest deine Probleme absabbeln. Heute bist du allein.« Seelische Krankheiten und psychische Störungen nehmen deutlich zu, machen bereits 10,7 Prozent der Krankmeldungen aus.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">AGVs werden nicht krank. »Automated Guided Vehicles« brauchen keine Pinkelpause, keinen Urlaub, arbeiten 24 Stunden nonstop. In Altenwerder, dem modernsten Frachtterminal der Welt, verkehren 60 dieser automatisch gesteuerten Plattformen, zwischen 22 Stapelblöcken, fahrerlos, über Induktionsschleifen im Boden gesteuert. Die Software weiß, wohin ein Container will. Und sie wird immer schlauer. Bald werden die AGVs elektronisch miteinander reden, sich untereinander einigen, wer die jeweils kürzeste Strecke nimmt, was sie noch wesentlich effektiver machen und außerdem Energie und Zeit sparen wird. Ein Projekt der TU Berlin.</p>
+    </division><division type="page"><p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Hohe Sicherheitszäune verhindern, dass Menschen dazwischenkommen. Die Roboter machen Altenwerder doppelt so produktiv wie den Burchardkai und brauchen nur die halbe Fläche. Trotzdem werden auch hier immer noch Menschen gebraucht. Auf dem Roboterterminal Altenwerder wurden 150 neue Arbeitsplätze geschaffen, bei einem Investitionsvolumen von 20 Millionen Euro, am Burchardkai sind es 500 neue Stellen. Auch im vollelektronischen Altenwerder gibt es immer noch Einweiser und Lascher, die das Schiff vertäuen und die Ladung auf dem Schiff festmachen.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Wie bringt man einen Zeppelin von Ottobrunn nach Südafrika, eine U-Bahn von Hamburg nach Shanghai, einen lebenden Wal von Seattle nach Chile? Der Zeppelin kam bis Amsterdam durch die Luft gefahren und reiste dann auf einem Schwergutfrachter, mit leeren Containern auf beiden Seiten als Windschutz, nach Kapstadt. Die U-Bahn fuhr oben auf Containerstapeln nach China. Der Wal wurde geflogen und vom Kabinenpersonal schön feucht gehalten.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext sehr eng">In Hamburg ist Luftfracht kein Thema. In einer Umfrage der&#xD;
+Handelskammer schnitten die Cargo-Anlagen in Fuhlsbüttel mit Mangelhaft&#xD;
+ab. Weil das Nachtflugverbot die Flieger ausbremst, geht ohnehin ein&#xD;
+großer Teil der Fracht, die Luftfracht hätte sein können, nachts über&#xD;
+die Straße. Aber Luftfahrt-Logistik kommt ganz groß raus, und als&#xD;
+Zentrum für zivilen Flugzeugbau liegt Hamburg weltweit an dritter&#xD;
+Stelle. Die Hamburger Luftfahrtindustrie beschäftigt heute über 30.000&#xD;
+Menschen. Sie arbeiten vor allem bei Airbus und Lufthansa Technik.&#xD;
+Einige hundert Zulieferer haben sich um Hamburg angesiedelt.</p>
+    <intertitle>»Keiner will mehr ein Lager, keiner riskiert mehr hohe Stückzahlen«</intertitle>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext ohne Einzug">Service ist alles, und er wächst mit den Ansprüchen der Kunden. »Keiner will mehr ein Lager. Keiner riskiert mehr hohe Stückzahlen, aus Angst, er könnte darauf sitzen bleiben. Das Tempo ist rasant. Keiner hat mehr Zeit.« Bernhard Stade, Seefrachtdirektor bei Exel in Hamburg, arbeitet in einer Firma, die nichts besitzt, keine Flotte, keinen Fuhrpark, kein Lager. Das ist die Philosophie des Londoner Logistikkonzerns, weltweit Nummer eins in der so genannten Kontrakt-Logistik. Die noble Sparte steuert Transporte und Prozesse, ein Markt, der nach Ansicht von Analysten noch lange nicht ausgeschöpft ist. »Unser Kapital sind die 120000 Menschen, die weltweit für uns arbeiten. Wir investieren in Weiterbildung, haben einen eigenen Campus im Internet, in dem wir uns ständig weiterqualifizieren und fortbilden!«</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Und dieses prächtig gedeihende Unternehmen wurde soeben von der DHL übernommen, also der Deutschen Post, die damit als größter Logistikkonzern der Welt auf 52 Milliarden Euro Umsatz kommen dürfte und nun rund eine halbe Million Menschen beschäftigt.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Eine andere Unternehmenskultur kündigt sich an. Wer wird gehen müssen bei Exel, welche Stellen sind demnächst doppelt besetzt? Bernhard Stade hat nicht die Zeit, um sich wegen seiner beruflichen Zukunft Gedanken zu machen. Eine große Airline will den Passagieren der Economy-Klasse auf Langstreckenflügen Sets mit Toilettenartikeln in die Hand drücken, die ein Importeur bei verschiedenen Lieferanten in China, Brasilien und <entity idref="S%C3%BCdkorea" entity_type="Location" url_value="orte/suedkorea">Südkorea</entity> bestellt hat. Jetzt muss er dafür sorgen, dass die Zahnpasta aus Brasilien, die Schlafmaske aus <entity idref="Indien" entity_type="Location" url_value="orte/indien">Indien</entity>, die Zahnbürsten aus Shenzen und die Kämme aus Südkorea zum Liefertermin beim Kunden sind. Er muss klären, was nach dem Löschen geschieht, ob die Ware konfektioniert, umgepackt oder kommissioniert wird. »Die Liefertermine sind eng. Es ist meist kaum Luft dazwischen. Wenn es kneift, switchen wir um auf Luftfracht, und wenn es gewünscht wird, liefern wir auch direkt ans Fließband oder kümmern uns um die Entsorgung.«</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Die Arbeit ist da, nur der Nachwuchs fehlt. Das große Thema ist Qualifikation. Längst hat die Logistik die Hochschulen erobert. Der König der Spediteure, Klaus-Michael Kühne, hat sein Firmenvermögen einer Stiftung vermacht, die sich neben kulturellen und sozialen Projekten vor allem für Bildung und Ausbildung einsetzt. Die Kühne-Stiftung betreibt in St. Gallen ein Institut für Logistik und unterstützt einen Studiengang an der TU Hamburg-Harburg als einjähriges Elitestudium mit Master-Abschluss. Unterrichtet wird in Englisch, auch in Fächern wie »Humanities« und »soziale Kompetenz«.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Das Problem sind die nachwachsenden Generationen; diejenigen, auf die es ankommt, wissen nicht, was Logistik ist. »Unter Schulabgängern haben Logistikberufe immer noch das Image der grauen Kittel«, registriert Henning Scharringhaus, Leiter des Fortbildungszentrums Hafen Hamburg. »Die Schüler sagen: Lagerarbeiter will ich nicht werden. Mach leer, mach voll. Ist doch öde. Aber die Zeiten sind vorbei. Der Beruf duldet keine Ungelernten, weil Facharbeiter immer mehr in die Prozesse und Vorgänge des Kunden integriert sind. Logistikberufe sind spannend!«</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Das Fortbildungszentrum Hafen Hamburg (FZH) duckt sich unter dem weitschweifigen Geniestreich der Köhlbrandbrücke; ein nüchterner Bau, der die Weiterentwicklung eines Containerstapels sein könnte, legogelb. Das Schulungszentrum arbeitet im Auftrag von Firmen, die dafür bezahlen, beschäftigt regelmäßig 50 Dozenten und wird von der Europäischen Union gefördert. Das FZH hat gut zu tun. 75 Prozent der Beschäftigten im Hafen qualifizieren sich weiter, in Lager, Distribution, Logistik.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Das FZH wendet sich unter dem Motto »Reife Leistung« auch an über 50-Jährige. Immerhin: 270 Arbeitslose haben 2004 über Einführungskurse der FZH eine Arbeit gefunden. Besonders gefragt ist die Weiterbildung auf See mit computergestützten Lernprogrammen im Antiterrorkampf, vor allem die Themen Security und Gefahrgut.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Wie gefährlich sind Container? Seit dem 11.September 2001 haben die <entity idref="USA" entity_type="Location" url_value="orte/usa">USA</entity> neue Sicherheitsstandards eingeführt. Container, die in die USA reisen, werden vorher durchleuchtet, was ihren Transport um acht Euro verteuert. Doch von den sieben Millionen Containern, die in Hamburg landen, wird nur ein Bruchteil geröntgt oder vom Zoll geprüft. Jeder zehnte Container enthält gefährliche Güter.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">
+      Wo Abend für Abend die rote Sonne Afrikas erglüht, gleich hinter Disneys
+      <em>König der Löwen,</em>
+      duftet es nach Kampfer. Synthetischer Kampfer aus China zählt zu den brennbaren Feststoffen, die im Gefahrgutlager der Buss Logistik Terminal GmbH &amp; Co KG verwahrt werden. Am anderen Elbufer sind die Landungsbrücken zu sehen, der Michel, die Stadt. Ein gewisser Sicherheitsabstand muss sein. Im Buss-Gefahrgutlager arbeiten 43 Leute, verladen, stapeln und bewahren Zehntausende Behälter, Kisten und Kanister, Flaschen und Gebinde mit Gefahrgut aller Klassen, ausgenommen radioaktive Stoffe und Krankenhausabfälle. Warnhinweise auf Türen, Kisten und Behältern zählen die Risikogruppen auf.
+    </p>
+    </division><division type="page"><p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Insektizide aus Indien, Desinfektionsmittel, Zusätze für Pflanzenschutzmittel, Farben, Arzneien und Sekundenkleber warten auf den Abtransport. Das Lager ist in verschiedene Brandabschnitte unterteilt. Sprinkleranlagen sichern die Hochregale, einige lassen im Ernstfall Wasser herabrauschen, andere schäumen die Waren ein, andere löschen mit Kohlendioxyd.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">»Wir stehen hier auf 800.000 Liter Löschwasser«, erklärt Erik Theurer,&#xD;
+Geschäftsführer des Chemie- und Pharma-Logistikdienstes. Auch&#xD;
+explosionsartig verbrennende Stoffe werden bei Buss umgeschlagen, zum&#xD;
+Beispiel organische Peroxyde, die als Härter in Spachtelmasse verwendet&#xD;
+werden können. Von September an kommen die Paletten mit&#xD;
+Silvesterfeuerwerk aus China. »Wir besorgen die Lagerung,&#xD;
+Kommissionierung und Verteilung. Das bedeutet für uns: 40.000 Kartons&#xD;
+und 100 Lkw-Abfahrten in zwei Wochen.« Das Dach der Spezialhalle liegt&#xD;
+nur lose auf. Falls es trotz aller Sicherheitsvorkehrungen doch einmal&#xD;
+zu einer Explosion kommen sollte, dient die Dachkonstruktion als&#xD;
+Druckentlastungsfläche. Der Rest des Gebäudes bliebe intakt.</p>
+    <intertitle>Der alte Hafen wird umgewandelt  in ein schickes Wohnquartier</intertitle>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext ohne Einzug">Buss ist die Nummer drei im Hamburger Hafen, hat mit seiner Tochter Ixocon gerade ein neues Lager für den Schiffsausrüster HMS gebaut. Zehn Prozent des Geländes mussten begrünt werden. Die Umweltbehörde schickte einen Pflanzenplan in Latein. Ein Gartenbauarchitekt musste die Anforderungen umsetzen. Ein Mitarbeitergarten ist so entstanden, mit Grillplatz, gleich hinter dem Fahrradständer. Viele Arbeiter kommen immer noch mit dem Fahrrad durch den alten Elbtunnel.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Von seinem Dienstraum an der Dalmannstraße 1 sieht Heinz-Walter Fuchs, wie der Hafen verschwindet. Wo das alte Gaswerk stand, wurde Sand aufgefüllt, 7,50 Meter über Normalnull wegen drohender Fluten. Schuppen 22 wird bald abgeräumt. Die neue Hafen City verdrängt die alten Strukturen, eine Million Quadratmeter Hafen werden umgewandelt in ein schickes Wohnquartier und Büros in Toplage, machen Platz für Marina, Marinemuseum und Elbphilharmonie. Wenn der Eisenbahnbetriebsleiter der Hafenbahn zu seinen Zügen will, fährt er einen weiten Bogen. Der Haupthafenbahnhof Alte Süderelbe liegt hinter den großen Terminals. Wie ein futuristischer Pilz wacht die Dispositionszentrale mit den großen Glasfenstern über das Rangierwesen, »Herz und Kopf der Hafenbahn«, sagt Heinz-Walter Fuchs.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Auf den Bildschirmen der Disponenten sind die Gleisbesetzungsspiegel zu sehen. Die Lokführer sind mit den Disponenten im Tower über Sprechfunk verbunden, zerlegen die Züge, setzen sie neu zusammen. Alles läuft über den Berg, die künstliche Anhöhe, auf der die Züge getrennt werden. Lokführer Tuncay Mat bekommt vom Tower die Geschwindigkeit durchgesagt, mit der die Waggons auf den Berg geschoben werden sollen. 6 km/h. Er zieht das Tempo zurück und schaltet den Tempomaten ein.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Abkoppeln ist Handarbeit. Der Bergwärter, auch Abhänger genannt, tritt aus seinem Häuschen, wuchtet die Öse der Kupplung eines Waggons heraus, nach alter Väter Sitte mit der Aushebelstange, einem Knüppel aus Fichtenholz, etwa dreimal so dick und dreimal so lang wie ein Besenstiel. Tuncay Mat schiebt den Zug weiter. Auf dem Scheitel des Berges macht sich der entkoppelte Waggon selbstständig und rollt bis an das Ende des für ihn bestimmten Zuges. Weiter hinten fuhrwerkt der Abhänger mit der Stange. Ein Zug rauscht vorbei. Tuncay hebt die Hand zum Gruß. Manchmal zieht er auch einen Zug aus dem Hafen. Bis zum Rangierbahnhof Maschen, zehn Kilometer weiter südlich. Dort endet seine Welt.</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Die Weltstadt Hamburg wendet sich einer neuen Baustelle zu. Damit auch die siebte Dimension der Containerschiffe, die der Superpostpanama-X-Klasse, nicht nur bei Hochwasser den Hamburger Hafen anlaufen kann, soll die Fahrrinne der Unterelbe bis 2009 einen Meter tiefer werden. BUND und WWF warnen vor den ökologischen Folgen. Die Fluten laufen höher auf, die Gefahr einer Sturmflut steigt. Warum reicht es nicht, wenn die großen Schiffe in <entity idref="Wilhelmshaven" entity_type="Location" url_value="orte/wilhelmshaven">Wilhelmshaven</entity> festmachen? Dort soll ein großer Seehafen entstehen, für Hamburgs Hafenmanager bisher kein Grund zur Unruhe, aber ein grandioser ökologischer Fehltritt, weil Tausende und Abertausende Container dann auf dem Landweg dorthin transportiert werden müssten, wohin sie heute mit dem Schiff gebracht werden.</p>
+    <intertitle>Für die Ladung eines Containerschiffs sind 100 Güterzüge erforderlich</intertitle>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext ohne Einzug">»Der Ausbau von Wilhelmshaven ist für die Natur schädlich und ökologisch fragwürdig«, warnt auch Reeder Offen. »Was muss da alles zerstört werden! Da ist doch noch alles grün. Ökologisch sinnvoll ist es, einen Seehafen so tief wie möglich ins Land zu legen, um Lkw-Verkehr zu vermeiden.«</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Um die Ladung eines Postpanama-X-Schiffes aufzunehmen, sind 100 Züge erforderlich. Würden die Container vollständig auf Lkw verladen, gingen 4000 Vierzigtonner oder 8000 Zwanzigtonner damit auf die Reise, jeder Container brauchte exklusiv einen Dieselmotor mit 400 PS. Der Verkehr bräche zusammen. Eine deutsche Autobahn verkraftet 5000 bis 9000 Lkw am Tag. Ein einziges Schiff genügt also, um die 24-Stunden-Leistung einer Autobahn zu füllen. »Die Elbvertiefung spart Tausende von Lkw-Transporten, entlastet die Straßen und hilft Deutschland, das Kyoto-Protokoll zu erfüllen«, sagt Klaus-Dieter Peters, Vorstandsvorsitzender der HHLA. »Schiffe sind umweltfreundlich und bringen mehr Verkehr auf die Schiene.«</p>
+    <p font-size="10.5" qstyle="@&gt;  Grundtext mit Einzug">Der Aushub, der beim Baggern entsteht, soll, in Plastiksäcke verpackt, in der Deutschen Bucht versenkt werden, quer zur Elbmündung. Dort wirken die sandgefüllten Plastikkissen wie eine Flutbremse. Als ökologischen Ausgleich sollen Flachwasserzonen geschaffen werden, wo Sauerstoff und Licht hineinkommen. Mehr Tiefe, mehr Licht, alles letztlich nur eine Frage der Logistik.</p>
+  </division></body>
+  <teaser>
+    <title>Der große Bringer</title>
+    <text>Logistik ist die Branche der Zukunft, der Container ist ihre Einheit. Der Hamburger Hafen ist der wichtigste Umschlagplatz für Europa - Besuch bei einem Globalisierungsgewinner</text>
+  </teaser>
+  <indexteaser>
+    <title>Hafen-Logistik</title>
+    <text>Besuch bei einem Globalisierungsgewinner</text>
+    <text_length>40</text_length>
+    <title_length>14</title_length>
+  </indexteaser>
+</article>

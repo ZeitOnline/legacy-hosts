@@ -1,0 +1,1795 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <keywordset>
+      <keyword py:pytype="str" source="manual">Musik</keyword>
+      <keyword py:pytype="str" source="manual">musikrichtung</keyword>
+      <keyword py:pytype="str" source="manual">familie</keyword>
+      <keyword py:pytype="str" source="manual">musikdownloads</keyword>
+      <keyword py:pytype="str" source="manual">Kultur</keyword>
+    </keywordset>
+    <header_image align="left" title="Themenheader Volkslieder" src="http://xml.zeit.de/themen/kultur/volkslieder/themenheader-volkslieder.jpg" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image align="left" title="Bildergruppe Themseite Volkslieder" base-id="http://xml.zeit.de/themen/kultur/volkslieder/bildergruppe-themenseite-volkslieder/" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© Christoph Mett</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="corrected">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-09-29T10:11:59.636417+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-10-01T13:09:16.899255+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-09-29T10:12:59.297900+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="edited">no</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2010-10-02</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Jede Woche ein neues Volkslied zum freien Download. Eine Aktion von SWR2, Carus, Reclam und ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Volkslieder | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="images_added">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-09-29T10:03:35.895638+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2011-05-22</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.weihser</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">552949738</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="refined">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Kultur</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Musik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">52971</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="urgent">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:65419b70-4a4c-4763-9bcb-18668b2af308}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">39</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="31269b96-af5e-41ad-a152-58d428db5a9f">
+          <block href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-52" year="2011" issue="34" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:54+00:00" date-first-released="2011-09-16T13:01:48.685703+00:00" date-last-published="2011-09-16T13:01:48.685703+00:00" last-semantic-change="2011-09-16T13:00:31.127448+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (52)</supertitle>
+            <title py:pytype="str">"Bunt sind schon die Wälder"</title>
+            <text py:pytype="str">Mit dieser stimmungsvollen Herbstweise beenden wir unsere Volkslieder-Serie. Im Oktober geht es weiter mit einer neuen Kinderlieder-Reihe. </text>
+            <description py:pytype="str">Mit dieser stimmungsvollen Herbstweise beenden wir unsere Volkslieder-Serie. Im Oktober geht es weiter mit einer neuen Kinderlieder-Reihe. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-bunt-sind-schon.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="8b95b659-c7f8-41c0-b163-bf1491f7c387">
+          <block href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-51" year="2011" issue="34" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:53+00:00" date-first-released="2011-09-09T13:09:38.238235+00:00" date-last-published="2011-09-16T13:01:49.619351+00:00" last-semantic-change="2011-09-09T07:35:15.704444+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (51)</supertitle>
+            <title py:pytype="str">"Ein Jäger aus Kurpfalz"</title>
+            <text py:pytype="str">Er schießt das Wild daher, gleich wie es ihm gefällt: Die vorletzte Folge unserer Volkslieder-Serie samt Noten und MP3 zum kostenlosen Download.</text>
+            <description py:pytype="str">Er schießt das Wild daher, gleich wie es ihm gefällt: Die vorletzte Folge unserer Volkslieder-Serie samt Noten und MP3 zum kostenlosen Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-ein-jaeger-aus-kurpfalz.jpg/" type="jpg" publication-date="2011-09-09T00:39:49+00:00" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="c50822a1-3a38-4cc7-82d8-5434f48e2f28">
+          <block href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-50" year="2011" issue="34" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:52+00:00" date-first-released="2011-09-02T13:29:31.450961+00:00" date-last-published="2011-09-16T13:01:50.463215+00:00" last-semantic-change="2011-09-02T13:27:59.982647+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (50)</supertitle>
+            <title py:pytype="str">"Heut kommt der Hans zu mir"</title>
+            <text py:pytype="str">Ob aber über Oberammergau oder aber über Unterammergau, wer weiß es? Der mündlich tradierte Kanon zum kostenlosen Download in unserer Volkslieder-Serie.</text>
+            <description py:pytype="str">Ob aber über Oberammergau oder aber über Unterammergau, wer weiß es? Der mündlich tradierte Kanon zum kostenlosen Download in unserer Volkslieder-Serie.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-heut-kommt-der-hans-zu-mir.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="460854e8-b284-4cfa-bff1-4fe096d4fa49">
+          <block href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-49-wem-gott-will" year="2011" issue="31" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:51+00:00" date-first-released="2011-08-26T13:27:15.163233+00:00" date-last-published="2011-09-16T13:01:51.549375+00:00" last-semantic-change="2011-08-26T13:25:31.886898+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (49)</supertitle>
+            <title py:pytype="str">"Wem Gott will rechte Gunst erweisen"</title>
+            <text py:pytype="str">Sehnsüchtig, wunderschön: Joseph von Eichendorffs Volkslied von Heim- und Fernweh, vertont von Friedrich Theodor Fröhlich. Noten und MP3 zum Anhören und Mitsingen.</text>
+            <description py:pytype="str">Sehnsüchtig, wunderschön: Joseph von Eichendorffs Volkslied von Heim- und Fernweh, vertont von Friedrich Theodor Fröhlich. Noten und MP3 zum Anhören und Mitsingen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-wem-gott-will.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="e80d8167-d0c2-4218-b2de-ca515c5d3efb">
+          <block href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-48-feinsliebchen" year="2011" issue="31" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:50+00:00" date-first-released="2011-08-19T13:03:40.908859+00:00" date-last-published="2011-09-16T13:01:53.442477+00:00" last-semantic-change="2011-08-19T13:02:27.710059+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (48)</supertitle>
+            <title py:pytype="str">"Feinsliebchen, du sollst mir nicht barfuß gehn"</title>
+            <text py:pytype="str">"Und Ehr und Treu ist besser wie Geld" besagt dieses ursprünglich aus Mähren stammende Lied. Die 48. Folge der Volkslieder-Serie, mit Audio und Notenblatt zum Download.</text>
+            <description py:pytype="str">"Und Ehr und Treu ist besser wie Geld" besagt dieses ursprünglich aus Mähren stammende Lied. Die 48. Folge der Volkslieder-Serie, mit Audio und Notenblatt zum Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-feinsliebchen.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ab0da162-a8be-4a1b-994d-9c49f7a79e39">
+          <block href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-47" year="2011" issue="30" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:49+00:00" date-first-released="2011-08-12T13:48:32.331440+00:00" date-last-published="2011-09-16T13:01:54.593196+00:00" last-semantic-change="2011-08-12T07:51:50.317689+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (47)</supertitle>
+            <title py:pytype="str">"Bolle reiste jüngst zu Pfingsten"</title>
+            <text py:pytype="str">Zwar ist Pfingsten vorüber, aber eine Fahrt mit Bolle nach Berlin lohnt sich anlässlich des Mauerjubiläums trotzdem. Die 47. Folge unserer Volkslieder-Serie zum Download.</text>
+            <description py:pytype="str">Zwar ist Pfingsten vorüber, aber eine Fahrt mit Bolle nach Berlin lohnt sich anlässlich des Mauerjubiläums trotzdem. Die 47. Folge unserer Volkslieder-Serie zum Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslied-bolle-bild-2.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ad64347d-7096-48c4-9403-3cb171015635">
+          <block href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-46" year="2011" issue="29" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:49+00:00" date-first-released="2011-08-05T13:11:12.213964+00:00" date-last-published="2011-09-16T13:01:55.528344+00:00" last-semantic-change="2011-08-05T13:09:47.672962+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (46)</supertitle>
+            <title py:pytype="str">"Sah ein Knab ein Röslein stehn"</title>
+            <text py:pytype="str">Ach, das Heidenröslein. Wer kennt es nicht, wen hat es nicht schon gestochen! Zur 46. Folge unserer Volkslieder-Serie stehen Audio und Noten zum Download bereit.</text>
+            <description py:pytype="str">Ach, das Heidenröslein. Wer kennt es nicht, wen hat es nicht schon gestochen! Zur 46. Folge unserer Volkslieder-Serie stehen Audio und Noten zum Download bereit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/bild-sah-ein-knab.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="2af09013-44dd-4f21-9e8e-024145d2ad97">
+          <block href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-45-roemer" year="2011" issue="29" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:48+00:00" date-first-released="2011-07-29T13:31:22.033827+00:00" date-last-published="2011-07-29T13:32:07.115499+00:00" last-semantic-change="2011-07-29T13:32:42.028750+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (45)</supertitle>
+            <title py:pytype="str">"Als die Römer frech geworden"</title>
+            <text py:pytype="str">Plötzlich aus des Waldes Duster brachen kampfhaft die Cherusker: Die 45. Folge unserer Volkslieder-Serie erzählt von der Schlacht im Teutoburger Wald.</text>
+            <description py:pytype="str">Plötzlich aus des Waldes Duster brachen kampfhaft die Cherusker: Die 45. Folge unserer Volkslieder-Serie erzählt von der Schlacht im Teutoburger Wald.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/bild-als-die-roemer-frech-geworden.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="5ef47379-63f0-48d2-af83-0d13b82d357c">
+          <block href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-44" year="2011" issue="27" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:47+00:00" date-first-released="2011-07-22T13:01:40.949052+00:00" date-last-published="2011-07-29T13:31:23.916559+00:00" last-semantic-change="2011-07-22T12:59:56.772729+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (44)</supertitle>
+            <title py:pytype="str">"Ward ein Blümchen mir geschenket"</title>
+            <text py:pytype="str">Hab's gepflanzt und hab's getränket: Hoffmann von Fallersleben schrieb im 18. Jahrhundert das Volkslied zum "Urban Gardening". Viel Spaß beim Singen und Jäten.</text>
+            <description py:pytype="str">Hab's gepflanzt und hab's getränket: Hoffmann von Fallersleben schrieb im 18. Jahrhundert das Volkslied zum "Urban Gardening". Viel Spaß beim Singen und Jäten.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-bluemchen-bild.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="9578e6a1-541e-47ec-a8f3-a1661c903e32">
+          <block href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-43" year="2011" issue="27" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:46+00:00" date-first-released="2011-07-15T13:49:45.265630+00:00" date-last-published="2011-07-29T13:31:36.969947+00:00" last-semantic-change="2011-07-15T13:48:08.160135+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (43)</supertitle>
+            <title py:pytype="str">"Papir is doch waiß"</title>
+            <text py:pytype="str">Und Tinte ist doch schwarz: Diese Woche stellen wir ein jiddisches Volkslied von 1874 vor. Noten und Tonbeispiel stehen zum Download bereit.</text>
+            <description py:pytype="str">Und Tinte ist doch schwarz: Diese Woche stellen wir ein jiddisches Volkslied von 1874 vor. Noten und Tonbeispiel stehen zum Download bereit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-43-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ff3e916d-0b80-40d8-bb0c-e584f2838aa8">
+          <block href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-42" year="2011" issue="27" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:45+00:00" date-first-released="2011-07-08T13:09:14.152078+00:00" date-last-published="2011-07-29T13:31:39.386435+00:00" last-semantic-change="2011-07-08T13:07:55.345318+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (42)</supertitle>
+            <title py:pytype="str">"Gaudeamus igitur"</title>
+            <text py:pytype="str">Lasst uns also fröhlich sein – und mal ein Volkslied auf Latein singen! Die 42. Folge unserer Serie mit Noten und Audio zum kostenlosen Download.</text>
+            <description py:pytype="str">Lasst uns also fröhlich sein – und mal ein Volkslied auf Latein singen! Die 42. Folge unserer Serie mit Noten und Audio zum kostenlosen Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-gaudeamus-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="c45e2c99-1749-4fe0-80d7-55b9ea92bf42">
+          <block href="http://xml.zeit.de/kultur/musik/2011-06/volkslieder-41" year="2011" issue="25" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:44+00:00" date-first-released="2011-07-01T13:50:51.326975+00:00" date-last-published="2011-07-29T13:31:40.229212+00:00" last-semantic-change="2011-07-01T10:04:59.411414+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (41)</supertitle>
+            <title py:pytype="str">"Da unten im Tale"</title>
+            <text py:pytype="str">Lieb, Treu und a bisserl Falschheit ist wohl auch dabei: Die nächste Folge unserer Volkslieder-Serie steht als Audio und Notenblatt zum kostenlosen Download bereit.</text>
+            <description py:pytype="str">Lieb, Treu und a bisserl Falschheit ist wohl auch dabei: Die nächste Folge unserer Volkslieder-Serie steht als Audio und Notenblatt zum kostenlosen Download bereit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-06/bild-volkslieder-41/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="12ffc623-5c22-4cbb-abf7-65e19833519d">
+          <block href="http://xml.zeit.de/kultur/musik/2011-06/volkslieder-40" year="2011" issue="23" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:43+00:00" date-first-released="2011-06-24T13:01:38.550205+00:00" date-last-published="2011-07-29T13:31:41.089419+00:00" last-semantic-change="2011-06-24T13:00:14.717911+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (40)</supertitle>
+            <title py:pytype="str">"Innsbruck, ich muss dich lassen"</title>
+            <text py:pytype="str">"Dein tu ich ewig bleiben, stet, treu, der Ehren fromm": das Lied eines liebeskranken Wandersmanns. Noten und Musik der 40. Folge gibt es zum freien Download.</text>
+            <description py:pytype="str">"Dein tu ich ewig bleiben, stet, treu, der Ehren fromm": das Lied eines liebeskranken Wandersmanns. Noten und Musik der 40. Folge gibt es zum freien Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-06/volkslieder-40-bild/" type="jpg" publication-date="2011-06-23T12:33:28+00:00" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="1e65a141-2a4a-45b3-80d3-3442a7eaa454">
+          <block href="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-39" year="2011" issue="22" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:41+00:00" date-first-released="2011-06-17T13:13:46.446126+00:00" date-last-published="2011-07-29T13:31:42.323513+00:00" last-semantic-change="2011-06-14T09:44:01.326752+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (39)</supertitle>
+            <title py:pytype="str">"Vöglein im hohen Baum"</title>
+            <text py:pytype="str">Machen Sie es wie das Vöglein: Singen Sie so schön, dass die Leute "gern horchen und stehn". Noten und Musik der 39. Folge gibt es zum freien Download.</text>
+            <description py:pytype="str">Machen Sie es wie das Vöglein: Singen Sie so schön, dass die Leute "gern horchen und stehn". Noten und Musik der 39. Folge gibt es zum freien Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-39-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ecff5e86-1a8c-4400-958b-7a19a9a1ecf1">
+          <block href="http://xml.zeit.de/kultur/musik/2011-05/volkslied-folge-38" year="2011" issue="19" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:40+00:00" date-first-released="2011-06-10T13:56:26.884948+00:00" date-last-published="2011-07-29T13:31:43.331842+00:00" last-semantic-change="2011-06-10T13:55:28.672369+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (38)</supertitle>
+            <title py:pytype="str">"All meine Gedanken, die ich hab"</title>
+            <text py:pytype="str">Eine alte Weise aus dem 15. Jahrhundert in unserer Volkslieder-Serie. Noten und Musik der 38. Folge gibt es zum freien Download.</text>
+            <description py:pytype="str">Eine alte Weise aus dem 15. Jahrhundert in unserer Volkslieder-Serie. Noten und Musik der 38. Folge gibt es zum freien Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/Bild_All_mein_Gedanken.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="4a7b895c-37ed-4b79-a73a-7877cd6f67cd">
+          <block href="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-folge-37" year="2011" issue="19" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:42+00:00" date-first-released="2011-06-03T13:57:32.087658+00:00" date-last-published="2011-07-29T13:31:44.141788+00:00" last-semantic-change="2011-05-26T16:21:07.882065+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (37)</supertitle>
+            <title py:pytype="str">"Im schönsten Wiesengrunde"</title>
+            <text py:pytype="str">Ein rührender Abschied des Wanderers: Die neuste Folge unserer Volkslieder-Serie steht zum kostenlosen Donwload bereit. Singen Sie mit!</text>
+            <description py:pytype="str">Ein rührender Abschied des Wanderers: Die neuste Folge unserer Volkslieder-Serie steht zum kostenlosen Donwload bereit. Singen Sie mit!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/Bild_Im_schoensten_Wiesengrunde.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="aa12c281-690d-40e4-8ada-4d70df0ded9c">
+          <block href="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-folge-36" year="2011" issue="19" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:42+00:00" date-first-released="2011-05-27T13:35:56.917047+00:00" date-last-published="2011-07-29T13:31:44.920915+00:00" last-semantic-change="2011-05-24T16:21:23.549973+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (36)</supertitle>
+            <title py:pytype="str">"Komm lieber Mai"</title>
+            <text py:pytype="str">Wenn die Vöglein singen und wir auf grünen Rasen springen: Laden Sie sich die 36. Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+            <description py:pytype="str">Wenn die Vöglein singen und wir auf grünen Rasen springen: Laden Sie sich die 36. Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/Bild_Komm_lieber_Mai.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="540f923b-10ec-40e3-bd8b-dddbe3e4f984">
+          <block href="http://xml.zeit.de/kultur/musik/2011-04/volkslieder-folge-35" year="2011" issue="17" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:39+00:00" date-first-released="2011-05-20T13:25:52.431484+00:00" date-last-published="2011-07-29T13:31:45.769488+00:00" last-semantic-change="2011-05-18T14:48:43.691449+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (35)</supertitle>
+            <title py:pytype="str">"Der Mai ist gekommen"</title>
+            <text py:pytype="str">Ja, die Bäume schlagen aus. Aber kennen Sie die anderen Strophen? Die nächste Folge unserer Volkslieder-Serie zum kostenlosen Download als Notenblatt und Musikdatei.</text>
+            <description py:pytype="str">Ja, die Bäume schlagen aus. Aber kennen Sie die anderen Strophen? Die nächste Folge unserer Volkslieder-Serie zum kostenlosen Download als Notenblatt und Musikdatei.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-04/volkslieder-35-mai.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="49f2eb33-0e9e-4ff5-8fc2-ed02c6f4e51e">
+          <block href="http://xml.zeit.de/kultur/musik/2011-04/volkslieder-folge-34" year="2011" issue="15" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:38+00:00" date-first-released="2011-05-13T12:58:56.938665+00:00" date-last-published="2011-07-29T13:31:46.765352+00:00" last-semantic-change="2011-05-13T12:42:29.767219+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (34)</supertitle>
+            <title py:pytype="str">"Wenn ich ein Vöglein wär"</title>
+            <text py:pytype="str">Johann Gottfried Herder schrieb den Text zu diesem bekannten Volkslied. Die 34. Folge unserer Serie steht als Notenblatt und Audiodatei zum freien Download bereit.</text>
+            <description py:pytype="str">Johann Gottfried Herder schrieb den Text zu diesem bekannten Volkslied. Die 34. Folge unserer Serie steht als Notenblatt und Audiodatei zum freien Download bereit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-04/volkslied-34-bild.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="3d6504ca-73b7-4bc3-ac24-3b8bb3b31a17">
+          <block href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-33" year="2011" issue="13" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:37+00:00" date-first-released="2011-05-06T13:32:21.002441+00:00" date-last-published="2011-07-29T13:31:47.748361+00:00" last-semantic-change="2011-05-06T08:12:28.252606+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (33)</supertitle>
+            <title py:pytype="str">"Es fiel ein Reif in der Frühlingsnacht"</title>
+            <text py:pytype="str">Veilchen, Männertreu, Vergissmeinnicht – welche Blaublümelein wohl hier gemeint sind? Die nächste Folge unserer Volkslieder-Serie steht zum freien Download bereit.</text>
+            <description py:pytype="str">Veilchen, Männertreu, Vergissmeinnicht – welche Blaublümelein wohl hier gemeint sind? Die nächste Folge unserer Volkslieder-Serie steht zum freien Download bereit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslied-33-bild.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ee848909-95d2-4b31-8c24-35627cee4419">
+          <block href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-32" year="2011" issue="13" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:36+00:00" date-first-released="2011-04-29T13:41:05.367862+00:00" date-last-published="2011-07-29T13:31:48.572834+00:00" last-semantic-change="2011-04-29T13:39:23.456844+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (32)</supertitle>
+            <title py:pytype="str">"Leise zieht durch mein Gemüt"</title>
+            <text py:pytype="str">Ein Frühlingsgruß von Felix Mendelssohn Bartholdy und Heinrich Heine: Laden Sie sich die 32. Folge unserer Volkslieder-Serie kostenlos herunter!</text>
+            <description py:pytype="str">Ein Frühlingsgruß von Felix Mendelssohn Bartholdy und Heinrich Heine: Laden Sie sich die 32. Folge unserer Volkslieder-Serie kostenlos herunter!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslied-32-bild.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="8af3e36c-17d3-4769-a7c5-f4ce258eb444">
+          <block href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-31" year="2011" issue="12" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:35+00:00" date-first-released="2011-04-22T12:58:10.653456+00:00" date-last-published="2011-07-29T13:31:49.390407+00:00" last-semantic-change="2011-04-22T12:56:49.175978+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (31)</supertitle>
+            <title py:pytype="str">"Ännchen von Tharau"</title>
+            <text py:pytype="str">Singen Sie von schmerzhafter Liebe! Die 31. Folge unserer Volkslieder-Serie, mit Audio und Notenblatt zum kostenlosen Download.</text>
+            <description py:pytype="str">Singen Sie von schmerzhafter Liebe! Die 31. Folge unserer Volkslieder-Serie, mit Audio und Notenblatt zum kostenlosen Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslied-folge-31-bild.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ebc89feb-01f5-4124-b11c-abaa2697f45a">
+          <block href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-30" year="2011" issue="12" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:34+00:00" date-first-released="2011-04-15T12:52:30.158914+00:00" date-last-published="2011-07-29T13:31:50.225834+00:00" last-semantic-change="2011-04-15T12:51:03.371353+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (30)</supertitle>
+            <title py:pytype="str">"Es waren zwei Königskinder"</title>
+            <text py:pytype="str">Die tragische Geschichte des liebenden Geschwisterpaares kennt so mancher aus seiner Jugend. Singen Sie die nächste Folge unserer Volkslieder-Serie mit Ihren Kindern!</text>
+            <description py:pytype="str">Die tragische Geschichte des liebenden Geschwisterpaares kennt so mancher aus seiner Jugend. Singen Sie die nächste Folge unserer Volkslieder-Serie mit Ihren Kindern!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/bild-volkslied-30/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="430a0f14-aa31-4e70-912b-d59259338f4d">
+          <block href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-29" year="2011" issue="12" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:33+00:00" date-first-released="2011-04-08T12:50:44.842948+00:00" date-last-published="2011-07-29T13:31:51.581189+00:00" last-semantic-change="2011-04-08T12:49:20.195766+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (29)</supertitle>
+            <title py:pytype="str">"Kein schöner Land"</title>
+            <text py:pytype="str">Wo wir uns finden wohl untern Linden: eines der bekanntesten deutschen Volkslieder und die 29. Folge unserer Serie. Mitsingmaterial steht zum freien Download bereit.</text>
+            <description py:pytype="str">Wo wir uns finden wohl untern Linden: eines der bekanntesten deutschen Volkslieder und die 29. Folge unserer Serie. Mitsingmaterial steht zum freien Download bereit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-29-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="e5ad8c7f-9c5c-4887-bebb-40738fb0a859">
+          <block href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-28" year="2011" issue="9" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:32+00:00" date-first-released="2011-04-01T13:17:51.586511+00:00" date-last-published="2011-07-29T13:31:52.413188+00:00" last-semantic-change="2011-03-31T14:36:42.052925+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (28)</supertitle>
+            <title py:pytype="str">"Es geht eine dunkle Wolke herein"</title>
+            <text py:pytype="str">Mich deucht, es wird ein Regen sein. Die 28. Folge unserer Volkslieder-Serie, passend zum Aprilwetter. Die Dateien gibt's zum freien Download.</text>
+            <description py:pytype="str">Mich deucht, es wird ein Regen sein. Die 28. Folge unserer Volkslieder-Serie, passend zum Aprilwetter. Die Dateien gibt's zum freien Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-28-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="b2d0ce2c-86e4-4033-b480-c46376a45eb7">
+          <block href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-27" year="2011" issue="9" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:31+00:00" date-first-released="2011-03-25T14:08:12.757638+00:00" date-last-published="2011-07-29T13:31:53.167009+00:00" last-semantic-change="2011-03-25T14:06:51.133764+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (27)</supertitle>
+            <title py:pytype="str">"Im Märzen der Bauer"</title>
+            <text py:pytype="str">Jetzt kommt die Zeit zum Säen und Pflanzen! Die neue Folge unserer Volkslieder-Serie gibt es nun, passend zum Frühjahr, als kostenlosen Download.</text>
+            <description py:pytype="str">Jetzt kommt die Zeit zum Säen und Pflanzen! Die neue Folge unserer Volkslieder-Serie gibt es nun, passend zum Frühjahr, als kostenlosen Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-27-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="9d2cf271-1941-4a6c-a5e1-6f80bbbac268">
+          <block href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-26" year="2011" issue="9" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:30+00:00" date-first-released="2011-03-18T14:01:08.890699+00:00" date-last-published="2011-07-29T13:31:53.926264+00:00" last-semantic-change="2011-03-17T11:04:42.511514+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (26)</supertitle>
+            <title py:pytype="str">"Es, es, es und es"</title>
+            <text py:pytype="str">Es ist ein harter Schluss, weil ich aus Frankfurt muss: ein Handwerker auf der Walz. Laden Sie sich die 26. Folge unserer Volkslieder-Serie kostenlos herunter!</text>
+            <description py:pytype="str">Es ist ein harter Schluss, weil ich aus Frankfurt muss: ein Handwerker auf der Walz. Laden Sie sich die 26. Folge unserer Volkslieder-Serie kostenlos herunter!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-26-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="c5afbe5b-e8a5-487a-b977-83f7ea355ed6">
+          <block href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-25" year="2011" issue="9" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:30+00:00" date-first-released="2011-03-11T14:34:44.226137+00:00" date-last-published="2011-07-29T13:31:54.752536+00:00" last-semantic-change="2011-03-11T14:33:05.468024+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (25)</supertitle>
+            <title py:pytype="str">"In einem kühlen Grunde"</title>
+            <text py:pytype="str">"Hör ich das Mühlrad gehen, ich weiß nicht, was ich will": Joseph von Eichendorff schrieb den Text zu dieser beliebten Weise. Eine neue Volkslieder-Folge zum Download.</text>
+            <description py:pytype="str">"Hör ich das Mühlrad gehen, ich weiß nicht, was ich will": Joseph von Eichendorff schrieb den Text zu dieser beliebten Weise. Eine neue Volkslieder-Folge zum Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-25-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="d6827c88-70e1-4fac-bc11-ecec75036486">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-24" year="2011" issue="5" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:29+00:00" date-first-released="2011-03-04T14:38:02.872588+00:00" date-last-published="2011-07-29T13:31:55.621562+00:00" last-semantic-change="2011-03-04T08:33:38.762716+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (24)</supertitle>
+            <title py:pytype="str">"Dat du min Leevsten büst"</title>
+            <text py:pytype="str">Ein plattdeutscher Klassiker: Wer schon immer mal Nordisch üben wollte, hat jetzt Gelegenheit dazu. Folge 24 unserer Serie mit Noten und Audiofile zum freien Download. </text>
+            <description py:pytype="str">Ein plattdeutscher Klassiker: Wer schon immer mal Nordisch üben wollte, hat jetzt Gelegenheit dazu. Folge 24 unserer Serie mit Noten und Audiofile zum freien Download. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="volkslieder-24-bild" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-24-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="46b7c4e0-94d1-4617-b64a-17c59fdb9fd0">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-23" year="2011" issue="5" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:27+00:00" date-first-released="2011-02-25T16:46:39.120668+00:00" date-last-published="2011-07-29T13:31:56.460694+00:00" last-semantic-change="2011-02-25T11:12:26.361329+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (23)</supertitle>
+            <title py:pytype="str">"Am Brunnen vor dem Tore"</title>
+            <text py:pytype="str">Ein romantisches Kunstlied wird zum Volkslied: Franz Schubert komponierte diese bekannte Weise in seiner "Winterreise". Die 23. Folge unserer Serie zum Download.</text>
+            <description py:pytype="str">Ein romantisches Kunstlied wird zum Volkslied: Franz Schubert komponierte diese bekannte Weise in seiner "Winterreise". Die 23. Folge unserer Serie zum Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="volkslieder-23-bild" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-23-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="35d363da-b695-478c-9441-5fb7d4af69e0">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-22" year="2011" issue="5" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-05-27T13:35:22+00:00" date-first-released="2011-02-18T14:30:05.843241+00:00" date-last-published="2011-05-27T13:36:22.450799+00:00" last-semantic-change="2011-02-18T11:07:44.422849+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (22)</supertitle>
+            <title py:pytype="str">"Schwesterlein, wann gehn wir nach Haus?"</title>
+            <text py:pytype="str">Feiern, bis der Arzt kommt, um 1840: Die 22. Weise in unserer Volkslieder-Serie stammt aus Berlin. Laden Sie sich das Material zum Mitsingen herunter.</text>
+            <description py:pytype="str">Feiern, bis der Arzt kommt, um 1840: Die 22. Weise in unserer Volkslieder-Serie stammt aus Berlin. Laden Sie sich das Material zum Mitsingen herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="volkslieder-22-bild" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-22-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f613a527-c59e-46ab-b46a-7fcfb1ceba76">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-21" year="2011" issue="4" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:27+00:00" date-first-released="2011-02-11T13:59:06.572833+00:00" date-last-published="2011-05-15T08:31:57.698929+00:00" last-semantic-change="2011-02-10T10:22:22.381493+00:00">
+            <supertitle py:pytype="str">Volkslieder (21)</supertitle>
+            <title py:pytype="str">"Widele, Wedele"</title>
+            <text py:pytype="str">Alle Tiere, die Wedele haben, sollen zur Hochzeit kommen! Singen Sie mit dem Bettelmann und laden Sie sich die nächste Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+            <description py:pytype="str">Alle Tiere, die Wedele haben, sollen zur Hochzeit kommen! Singen Sie mit dem Bettelmann und laden Sie sich die nächste Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-21/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ff170431-20ab-41c1-bbb0-d946eb990a53">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-20" year="2011" issue="4" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:26+00:00" date-first-released="2011-02-04T14:00:39.878095+00:00" date-last-published="2011-05-15T08:31:58.469868+00:00" last-semantic-change="2011-02-02T18:04:08.697092+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (20)</supertitle>
+            <title py:pytype="str">"Es klappert die Mühle"</title>
+            <text py:pytype="str">Ein Lobgesang auf das ehrliche Bäckerhandwerk! Laden Sie sich die 20. Folge unserer Volkslieder-Serie samt Noten und Musik kostenlos herunter.</text>
+            <description py:pytype="str">Ein Lobgesang auf das ehrliche Bäckerhandwerk! Laden Sie sich die 20. Folge unserer Volkslieder-Serie samt Noten und Musik kostenlos herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-20/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="26a11fe9-7d3e-4d86-8db4-5621e6ef819b">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-19" year="2011" issue="4" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:24+00:00" date-first-released="2011-01-28T15:44:18.334397+00:00" date-last-published="2011-05-15T08:31:59.240699+00:00" last-semantic-change="2011-01-27T16:17:59.700905+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (19)</supertitle>
+            <title py:pytype="str">"Ich hatt einen Kameraden"</title>
+            <text py:pytype="str">Dieses Soldatenlied von 1825 ist noch heute Teil der Trauerzeremonien der Bundeswehr. Laden Sie sich die 19. Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+            <description py:pytype="str">Dieses Soldatenlied von 1825 ist noch heute Teil der Trauerzeremonien der Bundeswehr. Laden Sie sich die 19. Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-19-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="161629ef-6c5e-4d7b-b0be-0b80003d535f">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-18" year="2011" issue="3" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:23+00:00" date-first-released="2011-01-21T14:18:50.734113+00:00" date-last-published="2011-01-21T14:18:50.734113+00:00" last-semantic-change="2011-01-21T14:20:37.521370+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (18)</supertitle>
+            <title py:pytype="str">"Hab oft im Kreise der Lieben"</title>
+            <text py:pytype="str">Nur frisch gesungen, und alles wird wieder gut: Laden Sie sich die 18. Folge unserer Volkslieder-Serie samt Noten kostenlos herunter.
+</text>
+            <description py:pytype="str">Nur frisch gesungen, und alles wird wieder gut: Laden Sie sich die 18. Folge unserer Volkslieder-Serie samt Noten kostenlos herunter.
+</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="volkslied-hab-oft-im-kreise" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslied-hab-oft-im-kreise/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="8937df14-bb30-4f00-9891-281a74bedbf5">
+          <block href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-17" year="2011" issue="2" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:23+00:00" date-first-released="2011-01-14T14:27:03.609033+00:00" date-last-published="2011-01-21T14:18:51.741709+00:00" last-semantic-change="2011-01-14T14:25:32.468971+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (17)</supertitle>
+            <title py:pytype="str">"Es war ein König in Thule"</title>
+            <text py:pytype="str">Dort stand der alte Zecher, trank letzte Lebensglut: Singen Sie Goethes Zeilen zur 17. Folge unserer Volkslieder-Serie. Noten und Musik gibt's zum freien Download.</text>
+            <description py:pytype="str">Dort stand der alte Zecher, trank letzte Lebensglut: Singen Sie Goethes Zeilen zur 17. Folge unserer Volkslieder-Serie. Noten und Musik gibt's zum freien Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslied 17" base-id="http://xml.zeit.de/kultur/musik/2011-01/es-war-ein-koenig-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="773719b9-174b-4f88-84b3-c8dc7584f9b7">
+          <block href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-16" year="2010" issue="52" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:22+00:00" date-first-released="2011-01-07T14:11:08.228741+00:00" date-last-published="2011-01-18T12:47:24.263426+00:00" last-semantic-change="2011-01-07T14:09:53.702768+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (16)</supertitle>
+            <title py:pytype="str">"O Täler weit, o Höhen"</title>
+            <text py:pytype="str">Felix Mendelssohn Bartholdy komponierte dieses Volkslied auf einen Text von Joseph von Eichendorff. Die 16. Folge unserer Serie zum kostenlosen Download.</text>
+            <description py:pytype="str">Felix Mendelssohn Bartholdy komponierte dieses Volkslied auf einen Text von Joseph von Eichendorff. Die 16. Folge unserer Serie zum kostenlosen Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslied O Täler, o Höhen" base-id="http://xml.zeit.de/kultur/musik/2010-12/o-taeler-o-hoehen-bilder/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="fc05ad32-fe16-4dbe-8001-86d7d52870db">
+          <block href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-15" year="2010" issue="52" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:20+00:00" date-first-released="2010-12-25T17:04:08.111098+00:00" date-last-published="2011-01-18T12:47:39.924470+00:00" last-semantic-change="2010-12-25T17:02:47.874359+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (15)</supertitle>
+            <title py:pytype="str">"Ich steh an Deiner Krippen hier"</title>
+            <text py:pytype="str">Ein festlicher Gruß in unserer Volkslieder-Serie: Johann Sebastian Bachs Weihnachtslied mit Noten zum freien Download, gesungen von Sarah Wegener.</text>
+            <description py:pytype="str">Ein festlicher Gruß in unserer Volkslieder-Serie: Johann Sebastian Bachs Weihnachtslied mit Noten zum freien Download, gesungen von Sarah Wegener.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Krippen " base-id="http://xml.zeit.de/kultur/musik/2010-12/krippen-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Frank Walka</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="b9b6dfdc-8045-41cc-a294-67e68c9396ef">
+          <block href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-14" year="2010" issue="51" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:20+00:00" date-first-released="2010-12-24T15:56:04.723248+00:00" date-last-published="2011-01-18T12:48:46.803655+00:00" last-semantic-change="2010-12-23T15:39:11.761916+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (14)</supertitle>
+            <title py:pytype="str">"Ich weiß nicht, was soll es bedeuten"</title>
+            <text py:pytype="str">Die Loreley ist der Popstar im volkstümlichen Personal. Laden Sie sich die vierzehnte Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+            <description py:pytype="str">Die Loreley ist der Popstar im volkstümlichen Personal. Laden Sie sich die vierzehnte Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Ich weiß nicht, was soll es bedeuten" base-id="http://xml.zeit.de/kultur/musik/2010-12/Ich-weiss-nicht-was-soll-es-bedeuten-Bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="754b3fa6-166c-4c4a-b171-fad2536fa4ce">
+          <block href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-13" year="2010" issue="50" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:19+00:00" date-first-released="2010-12-17T14:34:26.211778+00:00" date-last-published="2011-01-18T12:49:49.175982+00:00" last-semantic-change="2010-12-14T14:08:51.098156+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (13)</supertitle>
+            <title py:pytype="str">"Wach auf, meins Herzens Schöne"</title>
+            <text py:pytype="str">Ich hör ein süß' Getöne von kleinen Waldvöglein: die dreizehnte Folge unserer Volkslieder-Serie. Noten und Musik stehen zum kostenlosen Download bereit.</text>
+            <description py:pytype="str">Ich hör ein süß' Getöne von kleinen Waldvöglein: die dreizehnte Folge unserer Volkslieder-Serie. Noten und Musik stehen zum kostenlosen Download bereit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Wach auf mein Herzens Schöne" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-wach-auf-meins-herzens-schoene/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="57d46056-aa71-4a64-95b9-b965309468c7">
+          <block href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-12" year="2010" issue="49" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:18+00:00" date-first-released="2010-12-10T15:01:53.186262+00:00" date-last-published="2011-01-18T12:23:34.505426+00:00" last-semantic-change="2010-12-10T10:49:52.993232+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (12)</supertitle>
+            <title py:pytype="str">"An der Saale hellem Strande"</title>
+            <text py:pytype="str">Die Landschaftsbetrachtung im Volkslied: Philip Niederberger singt die zwölfte Folge unserer Serie. Musik und Noten gibt's zum kostenlosen Download.</text>
+            <description py:pytype="str">Die Landschaftsbetrachtung im Volkslied: Philip Niederberger singt die zwölfte Folge unserer Serie. Musik und Noten gibt's zum kostenlosen Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslied An der Saale hellem Strande" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-an-der-saale-hellem-strande/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="8694bc65-abf1-4208-aa87-d423ccce18ec">
+          <block href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-11" year="2010" issue="48" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:13+00:00" date-first-released="2010-12-03T18:11:48.257470+00:00" date-last-published="2011-01-18T12:56:17.743021+00:00" last-semantic-change="2010-11-26T14:48:49.991146+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (11)</supertitle>
+            <title py:pytype="str">"Die Gedanken sind frei"</title>
+            <text py:pytype="str">Der Tenor Jonas Kaufmann singt eines der berühmtesten deutschen Volkslieder. Musik und Noten unserer elften Lieder-Folge gibt es zum kostenlosen Download.</text>
+            <description py:pytype="str">Der Tenor Jonas Kaufmann singt eines der berühmtesten deutschen Volkslieder. Musik und Noten unserer elften Lieder-Folge gibt es zum kostenlosen Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslied Die Gedanken sind frei" base-id="http://xml.zeit.de/kultur/musik/2010-11/volkslied-die-gedanken-sind-frei/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="9bdaada8-1f88-44c5-aead-1fadb5f5ccf6">
+          <block href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-10" year="2010" issue="48" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:11+00:00" date-first-released="2010-11-26T14:15:09.705897+00:00" date-last-published="2011-01-18T12:56:59.745904+00:00" last-semantic-change="2010-11-26T13:54:48.311664+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (10)</supertitle>
+            <title py:pytype="str">"Ich fahr dahin"</title>
+            <text py:pytype="str">Ach, wie traurig: Wer in die Ferne schweift, lässt mitunter seine Liebe zurück. Laden Sie sich die zehnte Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+            <description py:pytype="str">Ach, wie traurig: Wer in die Ferne schweift, lässt mitunter seine Liebe zurück. Laden Sie sich die zehnte Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslieder Ich fahr dahin" base-id="http://xml.zeit.de/kultur/musik/2010-11/volkslied-ich-fahr-dahin/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="68be8215-0a7a-4c80-8367-8a36b3426f4e">
+          <block href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-9" year="2010" issue="47" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:15+00:00" date-first-released="2010-11-19T13:59:50.448671+00:00" date-last-published="2011-01-18T12:23:37.402539+00:00" last-semantic-change="2010-11-19T10:14:10.195179+00:00">
+            <supertitle py:pytype="str">Volkslieder (9)</supertitle>
+            <title py:pytype="str">"O Du lieber Augustin"</title>
+            <text py:pytype="str">"Alles ist hin", heißt es in dem Volkslied, das vom Grauen der Pestzeit erzählt. Kurt Moll singt das traurige Lied. Laden Sie sich Audio und Noten herunter!</text>
+            <description py:pytype="str">"Alles ist hin", heißt es in dem Volkslied, das vom Grauen der Pestzeit erzählt. Kurt Moll singt das traurige Lied. Laden Sie sich Audio und Noten herunter!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="O Du lieber Augustin" base-id="http://xml.zeit.de/kultur/musik/2010-11/o-du-lieber-augustin/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="1265eca8-19e3-4198-91d3-91be2cc19d72">
+          <block href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-8" year="2010" issue="45" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:14+00:00" date-first-released="2010-11-12T14:45:38.970039+00:00" date-last-published="2011-08-17T16:00:16.932346+00:00" last-semantic-change="2010-11-12T14:56:51.152190+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (8)</supertitle>
+            <title py:pytype="str">"Horch, was kommt von draußen rein"</title>
+            <text py:pytype="str">Die Sopranistin Dorothee Mields singt dieses bekannte Volkslied in unserer Serie. Laden Sie sich Musik und Noten herunter und machen Sie mit!</text>
+            <description py:pytype="str">Die Sopranistin Dorothee Mields singt dieses bekannte Volkslied in unserer Serie. Laden Sie sich Musik und Noten herunter und machen Sie mit!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-11/horch/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="db1e58ba-f3f7-4b09-b458-5c09e36950e5">
+          <block href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-7" year="2010" issue="45" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:13+00:00" date-first-released="2010-11-05T16:05:34.010332+00:00" date-last-published="2011-08-17T15:59:54.931077+00:00" last-semantic-change="2010-11-05T16:03:47.165658+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (7)</supertitle>
+            <title py:pytype="str">"Verstohlen geht der Mond auf"</title>
+            <text py:pytype="str">Durch Silberwölkchen führt sein Lauf: Angelika Kirchschlager singt die siebte Folge unserer Volksliederserie. Laden Sie sich Musik und Noten kostenlos herunter!</text>
+            <description py:pytype="str">Durch Silberwölkchen führt sein Lauf: Angelika Kirchschlager singt die siebte Folge unserer Volksliederserie. Laden Sie sich Musik und Noten kostenlos herunter!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-11/verstohlen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="eb2eaba7-d068-4329-b11f-95ac9fa67ec4">
+          <block href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-folge-6" year="2010" issue="44" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:05+00:00" date-first-released="2010-10-29T14:14:57.595858+00:00" date-last-published="2011-08-17T15:59:57.832502+00:00" last-semantic-change="2010-10-29T13:18:04.530487+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (6)</supertitle>
+            <title py:pytype="str">"Wenn alle Brünnlein fließen"</title>
+            <text py:pytype="str">Sie hat zwei blaue Äugelein, die glänzen wie die Stern: Franz-Josef Selig singt die sechste Folge unserer Volksliederserie. Laden Sie sich Audio und Noten herunter!</text>
+            <description py:pytype="str">Sie hat zwei blaue Äugelein, die glänzen wie die Stern: Franz-Josef Selig singt die sechste Folge unserer Volksliederserie. Laden Sie sich Audio und Noten herunter!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-10/bruennlein/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="947d7f66-a653-49d5-89f1-38b6acaa096b">
+          <block href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-folge-5" year="2010" issue="41" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:04+00:00" date-first-released="2010-10-22T11:58:20.413775+00:00" date-last-published="2011-08-17T15:59:58.805147+00:00" last-semantic-change="2010-10-22T09:38:35.357739+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (5)</supertitle>
+            <title py:pytype="str">"Geh aus, mein Herz, und suche Freud"</title>
+            <text py:pytype="str">Erinnert Sie das an Ihre Schulzeit? Laden Sie sich die nächste Folge unserer Volkslieder-Serie herunter und singen Sie mit! Jeden Freitagnachmittag.</text>
+            <description py:pytype="str">Erinnert Sie das an Ihre Schulzeit? Laden Sie sich die nächste Folge unserer Volkslieder-Serie herunter und singen Sie mit! Jeden Freitagnachmittag.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslied 4 Geh aus, mein Herz, und suche Freund" base-id="http://xml.zeit.de/kultur/musik/2010-10/volkslied-geh-aus-mein-herz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="bc237087-651e-4d99-a15a-9cdec34f945c">
+          <block href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-folge-4" year="2010" issue="41" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:04+00:00" date-first-released="2010-10-11T13:07:38.784390+00:00" date-last-published="2011-08-17T16:00:00.043793+00:00" last-semantic-change="2010-10-11T13:06:17.148681+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (4)</supertitle>
+            <title py:pytype="str">"Muss i denn zum Städtele hinaus"</title>
+            <text py:pytype="str">Die vierte Folge unserer neuen Volkslieder-Serie: Das 1827 entstandene Lied erzählt von Sehnsucht und Treue. Singen Sie mit! Musik und Noten gibt's zum freien Download.</text>
+            <description py:pytype="str">Die vierte Folge unserer neuen Volkslieder-Serie: Das 1827 entstandene Lied erzählt von Sehnsucht und Treue. Singen Sie mit! Musik und Noten gibt's zum freien Download.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Muss i denn" base-id="http://xml.zeit.de/kultur/musik/2010-10/volkslied-muss-i-denn/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="2a93a016-9ea1-499f-8c2c-55a83c997dac">
+          <block href="http://xml.zeit.de/kultur/musik/2010-09/volkslieder-folge-3" year="2010" issue="40" ressort="Kultur" publication-date="2010-10-01T15:50:00+00:00" expires="" date-last-modified="2011-09-09T07:37:52+00:00" date-first-released="2010-10-01T15:51:04.080268+00:00" date-last-published="2011-08-17T16:00:01.102650+00:00" last-semantic-change="2010-10-01T14:37:34.898645+00:00">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+            <supertitle py:pytype="str">Volkslieder (3)</supertitle>
+            <title py:pytype="str">"Das Wandern ist des Müllers Lust"</title>
+            <text py:pytype="str">Zu dem bekannten Text von Wilhelm Müller komponierte Franz Schubert ein romantisches Kunstlied. Laden Sie sich die dritte Folge unserer Serie herunter.</text>
+            <description py:pytype="str">Zu dem bekannten Text von Wilhelm Müller komponierte Franz Schubert ein romantisches Kunstlied. Laden Sie sich die dritte Folge unserer Serie herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-10/wandern/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7495eae2-98c9-46f9-9275-2371bca15d82">
+          <block href="http://xml.zeit.de/kultur/musik/2010-09/volkslieder-folge-2" year="2010" issue="40" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:01+00:00" date-first-released="2010-10-01T09:02:58.596467+00:00" date-last-published="2011-08-17T16:00:05.770729+00:00" last-semantic-change="2010-10-01T15:29:08.471534+00:00">
+            <supertitle py:pytype="str">Volkslieder (2)</supertitle>
+            <title py:pytype="str">"Das Wandern ist des Müllers Lust"</title>
+            <text py:pytype="str">Jeder kennt dieses Volkslied. Aber wie geht eigentlich die zweite Strophe? Laden Sie sich Noten und Musik kostenlos herunter.</text>
+            <description py:pytype="str">Jeder kennt dieses Volkslied. Aber wie geht eigentlich die zweite Strophe? Laden Sie sich Noten und Musik kostenlos herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volksliesd Das Wandern" base-id="http://xml.zeit.de/kultur/musik/2010-09/volkslied-das-wandern-volkst/" type="jpg" publication-date="2010-10-01T09:00:00+00:00" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f1349bba-1570-4d5b-9175-9600b6446dae">
+          <block href="http://xml.zeit.de/kultur/musik/2010-09/volkslieder-folge-1" year="2010" issue="39" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:00+00:00" date-first-released="2010-10-01T13:08:04.294230+00:00" date-last-published="2011-08-17T16:00:04.536970+00:00" last-semantic-change="2010-10-01T13:06:49.488339+00:00">
+            <supertitle py:pytype="str">Volkslieder (1)</supertitle>
+            <title py:pytype="str">"Zum Tanze, da geht ein Mädel"</title>
+            <text py:pytype="str">Erst war es ein schwedisches Tanzlied, dann wurde es zum deutschen Volkslied. Laden Sie sich die erste Folge unserer neuen Serie herunter!</text>
+            <description py:pytype="str">Erst war es ein schwedisches Tanzlied, dann wurde es zum deutschen Volkslied. Laden Sie sich die erste Folge unserer neuen Serie herunter!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslied Zum Tanze" base-id="http://xml.zeit.de/kultur/musik/2010-09/volkslied-zum-tanze/" type="jpg" publication-date="2010-10-01T09:00:00+00:00" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">audio</badge>
+            </badges>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="132f738e-1e4d-43c3-b132-a1a048b85125">
+          <block href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-ns-zeit" year="2011" issue="11" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:38+00:00" date-first-released="2011-03-10T12:57:05.603756+00:00" date-last-published="2011-09-11T06:32:04.513718+00:00" last-semantic-change="2011-03-10T12:55:17.163040+00:00">
+            <supertitle py:pytype="str">Volkslieder in der NS-Zeit</supertitle>
+            <title py:pytype="str">Herzilein, Du darfst ruhig traurig sein</title>
+            <text py:pytype="str">Wann immer heute Volksweisen gesungen werden, klingt ein bisschen braune Vergangenheit mit. Wie die Nazis das deutsche Liedgut missbrauchten, beschreibt Volker Schmidt. </text>
+            <description py:pytype="str">Wann immer heute Volksweisen gesungen werden, klingt ein bisschen braune Vergangenheit mit. Wie die Nazis das deutsche Liedgut missbrauchten, beschreibt Volker Schmidt. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Hitlerjugend 1937" base-id="http://xml.zeit.de/kultur/musik/2011-03/nazi-volkslieder/" type="jpg" publication-date="" expires="">
+              <bu>Trommelnde Mitglieder der Hitlerjugend, 1937</bu>
+              <copyright py:pytype="str">© Keystone/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="613fd8c9-99ce-4907-a257-0b0ec26152ce">
+          <block href="http://xml.zeit.de/2010/50/Volkslied-Kein-schoener-Land" year="2010" issue="50" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:48:54+00:00" date-first-released="2010-12-09T06:00:00+00:00" date-last-published="2011-09-11T06:32:05.424853+00:00" last-semantic-change="2010-12-23T16:29:38.385911+00:00">
+            <supertitle py:pytype="str">Volkslieder-Boom</supertitle>
+            <title py:pytype="str">Kein schöner Lied in diesem Land</title>
+            <text py:pytype="str">Selige Kindheitserinnerungen: In "Kein schöner Land" verbinden sich Kunstcharakter und Popularität. Warum uns das alte Volkslied noch immer zu Herzen geht.</text>
+            <description py:pytype="str">Selige Kindheitserinnerungen: In "Kein schöner Land" verbinden sich Kunstcharakter und Popularität. Warum uns das alte Volkslied noch immer zu Herzen geht.</description>
+            <byline py:pytype="str">Von Wolfram Goertz</byline>
+            <image align="left" title="&quot;Zwei Männer in Betrachtung des Mondes&quot; von Caspar David Friedrich" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-friedrich/" type="jpg" publication-date="" expires="">
+              <bu>"Zwei Männer in Betrachtung des Mondes" von Caspar David Friedrich, um 1830 entstanden</bu>
+              <copyright py:pytype="str">© Caspar David Friedrich/Wikimedia Commons</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="d9f9685a-8b32-45f5-8b6f-bb145e260d18">
+          <block href="http://xml.zeit.de/2010/50/Volkslieder" year="2010" issue="50" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:48:55+00:00" date-first-released="2010-12-09T06:00:00+00:00" date-last-published="2011-09-11T06:32:06.941683+00:00" last-semantic-change="2010-12-14T15:11:00.324255+00:00">
+            <supertitle py:pytype="str">Liedkultur</supertitle>
+            <title py:pytype="str">Das Volk singt wieder</title>
+            <text py:pytype="str">Es ist gar nicht mehr peinlich, alte Lieder zu singen. Nein, vielmehr gehört es zur neuen Bürgerlichkeit wie das Biobrot. Was bedeutet der Volkslied-Boom?</text>
+            <description py:pytype="str">Es ist gar nicht mehr peinlich, alte Lieder zu singen. Nein, vielmehr gehört es zur neuen Bürgerlichkeit wie das Biobrot. Was bedeutet der Volkslied-Boom?</description>
+            <byline py:pytype="str">Von Christof Siemes</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-singen/" type="jpg" publication-date="" expires="">
+              <bu>Beim Abschlusskonzert des "Day of Song" in Gelsenkirchen</bu>
+              <copyright py:pytype="str">© Bernd Thissen/dpa/lnw</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="53d75c7f-ed9d-43c6-863c-57b86d54e489">
+          <block href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-geschichte" year="2010" issue="41" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-09-16T13:49:06+00:00" date-first-released="2010-10-13T09:06:06.709045+00:00" date-last-published="2011-09-11T06:32:09.464473+00:00" last-semantic-change="2010-10-13T09:04:50.581216+00:00">
+            <supertitle py:pytype="str">Volkslieder</supertitle>
+            <title py:pytype="str">Ausdruck einer Modernisierungskrise</title>
+            <text py:pytype="str">Schon im 19. Jahrhundert war die Hinwendung zum Volkslied Spiegel eines gesellschaftlichen Wandels: Gebildete Bürger warfen einen Blick zurück auf die gute alte Zeit.</text>
+            <description py:pytype="str">Schon im 19. Jahrhundert war die Hinwendung zum Volkslied Spiegel eines gesellschaftlichen Wandels: Gebildete Bürger warfen einen Blick zurück auf die gute alte Zeit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Volkslied Hausmusik" base-id="http://xml.zeit.de/kultur/musik/2010-10/hausmusik/" type="jpg" publication-date="" expires="">
+              <bu>Das Volkslied hielt eroberte auch die Hausmusikzirkel. Hier ein historischer Stich von 1800</bu>
+              <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="ad2aa080-1968-4a27-b3fc-cccd232570f4">
+          <block href="http://xml.zeit.de/kultur/musik/2010-09/volkslied-einfuehrung" year="2010" issue="40" ressort="Kultur" publication-date="2010-10-01T08:57:24+00:00" expires="" date-last-modified="2011-09-16T13:48:59+00:00" date-first-released="2010-10-01T08:58:28.697200+00:00" date-last-published="2011-09-11T06:32:07.952165+00:00" last-semantic-change="2010-09-30T14:56:53.650699+00:00">
+            <supertitle py:pytype="str">Einführung</supertitle>
+            <title py:pytype="str">Was ist ein Volkslied?</title>
+            <text py:pytype="str">Johann Gottfried Herder schuf 1770 den Begriff, doch was bezeichnet der eigentlich? Eine Annäherung an ein bedeutsames und mittlerweile pflegebedürftiges Genre.</text>
+            <description py:pytype="str">Johann Gottfried Herder schuf 1770 den Begriff, doch was bezeichnet der eigentlich? Eine Annäherung an ein bedeutsames und mittlerweile pflegebedürftiges Genre.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-09/herder/" type="jpg" publication-date="" expires="">
+              <bu>Johann Gottfried von Herder (1744-1803) auf einer zeitgenössischen Lithografie</bu>
+              <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f6c534ec-0925-4cfc-be68-63d0d174aa23">
+          <block href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-projekt" year="2010" issue="40" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-03-10T12:56:13+00:00" date-first-released="2010-10-01T13:08:42.869509+00:00" date-last-published="2011-03-10T12:57:13.260297+00:00" last-semantic-change="2010-10-01T16:02:21.336673+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">In eigener Sache</supertitle>
+            <title py:pytype="str">Neues Volkslieder-Projekt auf ZEIT ONLINE</title>
+            <text py:pytype="str">Singen tut Kindern gut. Warum nicht ein Volkslied anstimmen? Ab sofort gibt es jede Woche eine Weise zum freien Download, in Zusammenarbeit mit dem Carus-Verlag und SWR2.</text>
+            <description py:pytype="str">Singen tut Kindern gut. Warum nicht ein Volkslied anstimmen? Ab sofort gibt es jede Woche eine Weise zum freien Download, in Zusammenarbeit mit dem Carus-Verlag und SWR2.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Bildergruppe Themseite Volkslieder" base-id="http://xml.zeit.de/themen/kultur/volkslieder/bildergruppe-themenseite-volkslieder/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Christoph Mett</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="83553324-c251-470e-8e3f-547dd51fa347">
+          <block href="http://xml.zeit.de/kultur/musik/2009-11/hans-baessler-wiegenlieder" year="2009" issue="49" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-08-17T15:57:30+00:00" date-first-released="2009-11-28T15:56:46.416960+00:00" date-last-published="2011-08-17T15:58:29.756367+00:00" last-semantic-change="2009-11-27T12:42:25.653831+00:00">
+            <supertitle py:pytype="str">Singen mit Kindern</supertitle>
+            <title py:pytype="str">"Erziehung beginnt mit dem Abendritual"</title>
+            <text py:pytype="str">Hans Bäßler, Vizepräsident des Deutschen Musikrats, unterstützt das Liederprojekt auf ZEIT ONLINE. Im Interview erklärt er, warum Kinder mehr singen sollten.</text>
+            <description py:pytype="str">Hans Bäßler, Vizepräsident des Deutschen Musikrats, unterstützt das Liederprojekt auf ZEIT ONLINE. Im Interview erklärt er, warum Kinder mehr singen sollten.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-11/hans-baessler-2/" type="jpg" publication-date="" expires="">
+              <bu>"Wer singt, fühlt sich stärker", sagt Hans Bäßler</bu>
+              <copyright py:pytype="str">© privat</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="2b9c6e00-89fd-42ed-8beb-144b51ecc1ff">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="55715e2a-6c1c-4fa6-8845-08b45a2e0b01">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="0e27e67a-7580-42ae-b149-beaf439b0a48">
+          <video videoID="621889644001" player="vid" format="small"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="a5ca6802-0823-4c0c-ae5a-98be7db7017f" title="Wiegenlieder: Kinder sollen singen!">
+          <block type="intern" href="http://xml.zeit.de/themen/kultur/wiegenlieder/index" year="2009" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-07-01T13:50:59+00:00" date-first-released="2009-11-28T18:10:26.966796+00:00" date-last-published="2011-06-17T13:22:43.426571+00:00" last-semantic-change="2011-07-01T13:49:19.727254+00:00">
+            <supertitle py:pytype="str">Musikerziehung</supertitle>
+            <title py:pytype="str">Wiegenlieder. Die Folgen der Serie</title>
+            <text py:pytype="str">Kinder sollen singen! Jede Woche ein neues Wiegenlied, ein Jahr lang, zum freien Download. Eine Aktion von SWR2, dem Carus Verlag und ZEIT ONLINE</text>
+            <description py:pytype="str">Kinder sollen singen! Jede Woche ein neues Wiegenlied, ein Jahr lang, zum freien Download. Eine Aktion von SWR2, dem Carus Verlag und ZEIT ONLINE</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/kultur/musik/2009-12/wiegenlieder-teaser/wiegenlieder-teaser-368x220.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle py:pytype="str">Musikerziehung</supertitle>
+    <title>Volkslieder. Alle Folgen der Serie</title>
+    <subtitle>Jede Woche ein neues Volkslied zum freien Download. Eine Aktion von SWR2, Carus, Reclam und ZEIT ONLINE</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-52" year="2011" issue="34" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (52)</supertitle>
+      <title py:pytype="str">"Bunt sind schon die Wälder"</title>
+      <text py:pytype="str">Mit dieser stimmungsvollen Herbstweise beenden wir unsere Volkslieder-Serie. Im Oktober geht es weiter mit einer neuen Kinderlieder-Reihe. </text>
+      <description py:pytype="str">Mit dieser stimmungsvollen Herbstweise beenden wir unsere Volkslieder-Serie. Im Oktober geht es weiter mit einer neuen Kinderlieder-Reihe. </description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-bunt-sind-schon.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-51" year="2011" issue="34" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (51)</supertitle>
+      <title py:pytype="str">"Ein Jäger aus Kurpfalz"</title>
+      <text py:pytype="str">Er schießt das Wild daher, gleich wie es ihm gefällt: Die vorletzte Folge unserer Volkslieder-Serie samt Noten und MP3 zum kostenlosen Download.</text>
+      <description py:pytype="str">Er schießt das Wild daher, gleich wie es ihm gefällt: Die vorletzte Folge unserer Volkslieder-Serie samt Noten und MP3 zum kostenlosen Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-ein-jaeger-aus-kurpfalz.jpg/" type="jpg" publication-date="2011-09-09T00:39:49+00:00" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-48-feinsliebchen" year="2011" issue="31" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (48)</supertitle>
+      <title py:pytype="str">"Feinsliebchen, du sollst mir nicht barfuß gehn"</title>
+      <text py:pytype="str">"Und Ehr und Treu ist besser wie Geld" besagt dieses ursprünglich aus Mähren stammende Lied. Die 48. Folge der Volkslieder-Serie, mit Audio und Notenblatt zum Download.</text>
+      <description py:pytype="str">"Und Ehr und Treu ist besser wie Geld" besagt dieses ursprünglich aus Mähren stammende Lied. Die 48. Folge der Volkslieder-Serie, mit Audio und Notenblatt zum Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-feinsliebchen.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-50" year="2011" issue="34" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (50)</supertitle>
+      <title py:pytype="str">"Heut kommt der Hans zu mir"</title>
+      <text py:pytype="str">Ob aber über Oberammergau oder aber über Unterammergau, wer weiß es? Der mündlich tradierte Kanon zum kostenlosen Download in unserer Volkslieder-Serie.</text>
+      <description py:pytype="str">Ob aber über Oberammergau oder aber über Unterammergau, wer weiß es? Der mündlich tradierte Kanon zum kostenlosen Download in unserer Volkslieder-Serie.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-heut-kommt-der-hans-zu-mir.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-08/volkslieder-49-wem-gott-will" year="2011" issue="31" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (49)</supertitle>
+      <title py:pytype="str">"Wem Gott will rechte Gunst erweisen"</title>
+      <text py:pytype="str">Sehnsüchtig, wunderschön: Joseph von Eichendorffs Volkslied von Heim- und Fernweh, vertont von Friedrich Theodor Fröhlich. Noten und MP3 zum Anhören und Mitsingen.</text>
+      <description py:pytype="str">Sehnsüchtig, wunderschön: Joseph von Eichendorffs Volkslied von Heim- und Fernweh, vertont von Friedrich Theodor Fröhlich. Noten und MP3 zum Anhören und Mitsingen.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-08/bild-wem-gott-will.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-47" year="2011" issue="30" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (47)</supertitle>
+      <title py:pytype="str">"Bolle reiste jüngst zu Pfingsten"</title>
+      <text py:pytype="str">Zwar ist Pfingsten vorüber, aber eine Fahrt mit Bolle nach Berlin lohnt sich anlässlich des Mauerjubiläums trotzdem. Die 47. Folge unserer Volkslieder-Serie zum Download.</text>
+      <description py:pytype="str">Zwar ist Pfingsten vorüber, aber eine Fahrt mit Bolle nach Berlin lohnt sich anlässlich des Mauerjubiläums trotzdem. Die 47. Folge unserer Volkslieder-Serie zum Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslied-bolle-bild-2.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-46" year="2011" issue="29" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (46)</supertitle>
+      <title py:pytype="str">"Sah ein Knab ein Röslein stehn"</title>
+      <text py:pytype="str">Ach, das Heidenröslein. Wer kennt es nicht, wen hat es nicht schon gestochen! Zur 46. Folge unserer Volkslieder-Serie stehen Audio und Noten zum Download bereit.</text>
+      <description py:pytype="str">Ach, das Heidenröslein. Wer kennt es nicht, wen hat es nicht schon gestochen! Zur 46. Folge unserer Volkslieder-Serie stehen Audio und Noten zum Download bereit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/bild-sah-ein-knab.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-45-roemer" year="2011" issue="29" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (45)</supertitle>
+      <title py:pytype="str">"Als die Römer frech geworden"</title>
+      <text py:pytype="str">Plötzlich aus des Waldes Duster brachen kampfhaft die Cherusker: Die 45. Folge unserer Volkslieder-Serie erzählt von der Schlacht im Teutoburger Wald.</text>
+      <description py:pytype="str">Plötzlich aus des Waldes Duster brachen kampfhaft die Cherusker: Die 45. Folge unserer Volkslieder-Serie erzählt von der Schlacht im Teutoburger Wald.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/bild-als-die-roemer-frech-geworden.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-44" year="2011" issue="27" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (44)</supertitle>
+      <title py:pytype="str">"Ward ein Blümchen mir geschenket"</title>
+      <text py:pytype="str">Hab's gepflanzt und hab's getränket: Hoffmann von Fallersleben schrieb im 18. Jahrhundert das Volkslied zum "Urban Gardening". Viel Spaß beim Singen und Jäten.</text>
+      <description py:pytype="str">Hab's gepflanzt und hab's getränket: Hoffmann von Fallersleben schrieb im 18. Jahrhundert das Volkslied zum "Urban Gardening". Viel Spaß beim Singen und Jäten.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-bluemchen-bild.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-43" year="2011" issue="27" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (43)</supertitle>
+      <title py:pytype="str">"Papir is doch waiß"</title>
+      <text py:pytype="str">Und Tinte ist doch schwarz: Diese Woche stellen wir ein jiddisches Volkslied von 1874 vor. Noten und Tonbeispiel stehen zum Download bereit.</text>
+      <description py:pytype="str">Und Tinte ist doch schwarz: Diese Woche stellen wir ein jiddisches Volkslied von 1874 vor. Noten und Tonbeispiel stehen zum Download bereit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-43-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-42" year="2011" issue="27" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (42)</supertitle>
+      <title py:pytype="str">"Gaudeamus igitur"</title>
+      <text py:pytype="str">Lasst uns also fröhlich sein – und mal ein Volkslied auf Latein singen! Die 42. Folge unserer Serie mit Noten und Audio zum kostenlosen Download.</text>
+      <description py:pytype="str">Lasst uns also fröhlich sein – und mal ein Volkslied auf Latein singen! Die 42. Folge unserer Serie mit Noten und Audio zum kostenlosen Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-07/volkslieder-gaudeamus-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-06/volkslieder-41" year="2011" issue="25" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (41)</supertitle>
+      <title py:pytype="str">"Da unten im Tale"</title>
+      <text py:pytype="str">Lieb, Treu und a bisserl Falschheit ist wohl auch dabei: Die nächste Folge unserer Volkslieder-Serie steht als Audio und Notenblatt zum kostenlosen Download bereit.</text>
+      <description py:pytype="str">Lieb, Treu und a bisserl Falschheit ist wohl auch dabei: Die nächste Folge unserer Volkslieder-Serie steht als Audio und Notenblatt zum kostenlosen Download bereit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-06/bild-volkslieder-41/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-06/volkslieder-40" year="2011" issue="23" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (40)</supertitle>
+      <title py:pytype="str">"Innsbruck, ich muss dich lassen"</title>
+      <text py:pytype="str">"Dein tu ich ewig bleiben, stet, treu, der Ehren fromm": das Lied eines liebeskranken Wandersmanns. Noten und Musik der 40. Folge gibt es zum freien Download.</text>
+      <description py:pytype="str">"Dein tu ich ewig bleiben, stet, treu, der Ehren fromm": das Lied eines liebeskranken Wandersmanns. Noten und Musik der 40. Folge gibt es zum freien Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-06/volkslieder-40-bild/" type="jpg" publication-date="2011-06-23T12:33:28+00:00" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-05/volkslied-folge-38" year="2011" issue="19" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (38)</supertitle>
+      <title py:pytype="str">"All meine Gedanken, die ich hab"</title>
+      <text py:pytype="str">Eine alte Weise aus dem 15. Jahrhundert in unserer Volkslieder-Serie. Noten und Musik der 38. Folge gibt es zum freien Download.</text>
+      <description py:pytype="str">Eine alte Weise aus dem 15. Jahrhundert in unserer Volkslieder-Serie. Noten und Musik der 38. Folge gibt es zum freien Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/Bild_All_mein_Gedanken.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-39" year="2011" issue="22" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (39)</supertitle>
+      <title py:pytype="str">"Vöglein im hohen Baum"</title>
+      <text py:pytype="str">Machen Sie es wie das Vöglein: Singen Sie so schön, dass die Leute "gern horchen und stehn". Noten und Musik der 39. Folge gibt es zum freien Download.</text>
+      <description py:pytype="str">Machen Sie es wie das Vöglein: Singen Sie so schön, dass die Leute "gern horchen und stehn". Noten und Musik der 39. Folge gibt es zum freien Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-39-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-folge-37" year="2011" issue="19" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (37)</supertitle>
+      <title py:pytype="str">"Im schönsten Wiesengrunde"</title>
+      <text py:pytype="str">Ein rührender Abschied des Wanderers: Die neuste Folge unserer Volkslieder-Serie steht zum kostenlosen Donwload bereit. Singen Sie mit!</text>
+      <description py:pytype="str">Ein rührender Abschied des Wanderers: Die neuste Folge unserer Volkslieder-Serie steht zum kostenlosen Donwload bereit. Singen Sie mit!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/Bild_Im_schoensten_Wiesengrunde.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-05/volkslieder-folge-36" year="2011" issue="19" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (36)</supertitle>
+      <title py:pytype="str">"Komm lieber Mai"</title>
+      <text py:pytype="str">Wenn die Vöglein singen und wir auf grünen Rasen springen: Laden Sie sich die 36. Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+      <description py:pytype="str">Wenn die Vöglein singen und wir auf grünen Rasen springen: Laden Sie sich die 36. Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-05/Bild_Komm_lieber_Mai.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-04/volkslieder-folge-35" year="2011" issue="17" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (35)</supertitle>
+      <title py:pytype="str">"Der Mai ist gekommen"</title>
+      <text py:pytype="str">Ja, die Bäume schlagen aus. Aber kennen Sie die anderen Strophen? Die nächste Folge unserer Volkslieder-Serie zum kostenlosen Download als Notenblatt und Musikdatei.</text>
+      <description py:pytype="str">Ja, die Bäume schlagen aus. Aber kennen Sie die anderen Strophen? Die nächste Folge unserer Volkslieder-Serie zum kostenlosen Download als Notenblatt und Musikdatei.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-04/volkslieder-35-mai.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-04/volkslieder-folge-34" year="2011" issue="15" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (34)</supertitle>
+      <title py:pytype="str">"Wenn ich ein Vöglein wär"</title>
+      <text py:pytype="str">Johann Gottfried Herder schrieb den Text zu diesem bekannten Volkslied. Die 34. Folge unserer Serie steht als Notenblatt und Audiodatei zum freien Download bereit.</text>
+      <description py:pytype="str">Johann Gottfried Herder schrieb den Text zu diesem bekannten Volkslied. Die 34. Folge unserer Serie steht als Notenblatt und Audiodatei zum freien Download bereit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-04/volkslied-34-bild.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-33" year="2011" issue="13" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (33)</supertitle>
+      <title py:pytype="str">"Es fiel ein Reif in der Frühlingsnacht"</title>
+      <text py:pytype="str">Veilchen, Männertreu, Vergissmeinnicht – welche Blaublümelein wohl hier gemeint sind? Die nächste Folge unserer Volkslieder-Serie steht zum freien Download bereit.</text>
+      <description py:pytype="str">Veilchen, Männertreu, Vergissmeinnicht – welche Blaublümelein wohl hier gemeint sind? Die nächste Folge unserer Volkslieder-Serie steht zum freien Download bereit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslied-33-bild.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-32" year="2011" issue="13" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (32)</supertitle>
+      <title py:pytype="str">"Leise zieht durch mein Gemüt"</title>
+      <text py:pytype="str">Ein Frühlingsgruß von Felix Mendelssohn Bartholdy und Heinrich Heine: Laden Sie sich die 32. Folge unserer Volkslieder-Serie kostenlos herunter!</text>
+      <description py:pytype="str">Ein Frühlingsgruß von Felix Mendelssohn Bartholdy und Heinrich Heine: Laden Sie sich die 32. Folge unserer Volkslieder-Serie kostenlos herunter!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslied-32-bild.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-31" year="2011" issue="12" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (31)</supertitle>
+      <title py:pytype="str">"Ännchen von Tharau"</title>
+      <text py:pytype="str">Singen Sie von schmerzhafter Liebe! Die 31. Folge unserer Volkslieder-Serie, mit Audio und Notenblatt zum kostenlosen Download.</text>
+      <description py:pytype="str">Singen Sie von schmerzhafter Liebe! Die 31. Folge unserer Volkslieder-Serie, mit Audio und Notenblatt zum kostenlosen Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslied-folge-31-bild.jpg/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-30" year="2011" issue="12" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (30)</supertitle>
+      <title py:pytype="str">"Es waren zwei Königskinder"</title>
+      <text py:pytype="str">Die tragische Geschichte des liebenden Geschwisterpaares kennt so mancher aus seiner Jugend. Singen Sie die nächste Folge unserer Volkslieder-Serie mit Ihren Kindern!</text>
+      <description py:pytype="str">Die tragische Geschichte des liebenden Geschwisterpaares kennt so mancher aus seiner Jugend. Singen Sie die nächste Folge unserer Volkslieder-Serie mit Ihren Kindern!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/bild-volkslied-30/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-folge-29" year="2011" issue="12" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (29)</supertitle>
+      <title py:pytype="str">"Kein schöner Land"</title>
+      <text py:pytype="str">Wo wir uns finden wohl untern Linden: eines der bekanntesten deutschen Volkslieder und die 29. Folge unserer Serie. Mitsingmaterial steht zum freien Download bereit.</text>
+      <description py:pytype="str">Wo wir uns finden wohl untern Linden: eines der bekanntesten deutschen Volkslieder und die 29. Folge unserer Serie. Mitsingmaterial steht zum freien Download bereit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-29-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-28" year="2011" issue="9" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (28)</supertitle>
+      <title py:pytype="str">"Es geht eine dunkle Wolke herein"</title>
+      <text py:pytype="str">Mich deucht, es wird ein Regen sein. Die 28. Folge unserer Volkslieder-Serie, passend zum Aprilwetter. Die Dateien gibt's zum freien Download.</text>
+      <description py:pytype="str">Mich deucht, es wird ein Regen sein. Die 28. Folge unserer Volkslieder-Serie, passend zum Aprilwetter. Die Dateien gibt's zum freien Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-28-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-27" year="2011" issue="9" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (27)</supertitle>
+      <title py:pytype="str">"Im Märzen der Bauer"</title>
+      <text py:pytype="str">Jetzt kommt die Zeit zum Säen und Pflanzen! Die neue Folge unserer Volkslieder-Serie gibt es nun, passend zum Frühjahr, als kostenlosen Download.</text>
+      <description py:pytype="str">Jetzt kommt die Zeit zum Säen und Pflanzen! Die neue Folge unserer Volkslieder-Serie gibt es nun, passend zum Frühjahr, als kostenlosen Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-27-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-26" year="2011" issue="9" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (26)</supertitle>
+      <title py:pytype="str">"Es, es, es und es"</title>
+      <text py:pytype="str">Es ist ein harter Schluss, weil ich aus Frankfurt muss: ein Handwerker auf der Walz. Laden Sie sich die 26. Folge unserer Volkslieder-Serie kostenlos herunter!</text>
+      <description py:pytype="str">Es ist ein harter Schluss, weil ich aus Frankfurt muss: ein Handwerker auf der Walz. Laden Sie sich die 26. Folge unserer Volkslieder-Serie kostenlos herunter!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-26-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-03/volkslieder-ns-zeit" year="2011" issue="11" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Volkslieder in der NS-Zeit</supertitle>
+      <title py:pytype="str">Herzilein, Du darfst ruhig traurig sein</title>
+      <text py:pytype="str">Wann immer heute Volksweisen gesungen werden, klingt ein bisschen braune Vergangenheit mit. Wie die Nazis das deutsche Liedgut missbrauchten, beschreibt Volker Schmidt. </text>
+      <description py:pytype="str">Wann immer heute Volksweisen gesungen werden, klingt ein bisschen braune Vergangenheit mit. Wie die Nazis das deutsche Liedgut missbrauchten, beschreibt Volker Schmidt. </description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Hitlerjugend 1937" base-id="http://xml.zeit.de/kultur/musik/2011-03/nazi-volkslieder/" type="jpg" publication-date="" expires="">
+        <bu>Trommelnde Mitglieder der Hitlerjugend, 1937</bu>
+        <copyright py:pytype="str">© Keystone/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-folge-25" year="2011" issue="9" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (25)</supertitle>
+      <title py:pytype="str">"In einem kühlen Grunde"</title>
+      <text py:pytype="str">"Hör ich das Mühlrad gehen, ich weiß nicht, was ich will": Joseph von Eichendorff schrieb den Text zu dieser beliebten Weise. Eine neue Volkslieder-Folge zum Download.</text>
+      <description py:pytype="str">"Hör ich das Mühlrad gehen, ich weiß nicht, was ich will": Joseph von Eichendorff schrieb den Text zu dieser beliebten Weise. Eine neue Volkslieder-Folge zum Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-02/volkslieder-25-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-24" year="2011" issue="5" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (24)</supertitle>
+      <title py:pytype="str">"Dat du min Leevsten büst"</title>
+      <text py:pytype="str">Ein plattdeutscher Klassiker: Wer schon immer mal Nordisch üben wollte, hat jetzt Gelegenheit dazu. Folge 24 unserer Serie mit Noten und Audiofile zum freien Download. </text>
+      <description py:pytype="str">Ein plattdeutscher Klassiker: Wer schon immer mal Nordisch üben wollte, hat jetzt Gelegenheit dazu. Folge 24 unserer Serie mit Noten und Audiofile zum freien Download. </description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="volkslieder-24-bild" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-24-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2009-11/hans-baessler-wiegenlieder" year="2009" issue="49" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Singen mit Kindern</supertitle>
+      <title py:pytype="str">"Erziehung beginnt mit dem Abendritual"</title>
+      <text py:pytype="str">Hans Bäßler, Vizepräsident des Deutschen Musikrats, unterstützt das Liederprojekt auf ZEIT ONLINE. Im Interview erklärt er, warum Kinder mehr singen sollten.</text>
+      <description py:pytype="str">Hans Bäßler, Vizepräsident des Deutschen Musikrats, unterstützt das Liederprojekt auf ZEIT ONLINE. Im Interview erklärt er, warum Kinder mehr singen sollten.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-11/hans-baessler-2/" type="jpg" publication-date="" expires="">
+        <bu>"Wer singt, fühlt sich stärker", sagt Hans Bäßler</bu>
+        <copyright py:pytype="str">© privat</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-projekt" publication-date="" expires=""/>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-09/volkslied-einfuehrung" year="2010" issue="40" ressort="Kultur" publication-date="2010-10-01T08:57:24+00:00" expires="">
+      <supertitle py:pytype="str">Einführung</supertitle>
+      <title py:pytype="str">Was ist ein Volkslied?</title>
+      <text py:pytype="str">Johann Gottfried Herder schuf 1770 den Begriff, doch was bezeichnet der eigentlich? Eine Annäherung an ein bedeutsames und mittlerweile pflegebedürftiges Genre.</text>
+      <description py:pytype="str">Johann Gottfried Herder schuf 1770 den Begriff, doch was bezeichnet der eigentlich? Eine Annäherung an ein bedeutsames und mittlerweile pflegebedürftiges Genre.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-09/herder/" type="jpg" publication-date="" expires="">
+        <bu>Johann Gottfried von Herder (1744-1803) auf einer zeitgenössischen Lithografie</bu>
+        <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-09/volkslieder-folge-1" year="2010" issue="39" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (1)</supertitle>
+      <title py:pytype="str">"Zum Tanze, da geht ein Mädel"</title>
+      <text py:pytype="str">Erst war es ein schwedisches Tanzlied, dann wurde es zum deutschen Volkslied. Laden Sie sich die erste Folge unserer neuen Serie herunter!</text>
+      <description py:pytype="str">Erst war es ein schwedisches Tanzlied, dann wurde es zum deutschen Volkslied. Laden Sie sich die erste Folge unserer neuen Serie herunter!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslied Zum Tanze" base-id="http://xml.zeit.de/kultur/musik/2010-09/volkslied-zum-tanze/" type="jpg" publication-date="2010-10-01T09:00:00+00:00" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-09/volkslieder-folge-2" year="2010" issue="40" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (2)</supertitle>
+      <title py:pytype="str">"Das Wandern ist des Müllers Lust"</title>
+      <text py:pytype="str">Jeder kennt dieses Volkslied. Aber wie geht eigentlich die zweite Strophe? Laden Sie sich Noten und Musik kostenlos herunter.</text>
+      <description py:pytype="str">Jeder kennt dieses Volkslied. Aber wie geht eigentlich die zweite Strophe? Laden Sie sich Noten und Musik kostenlos herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volksliesd Das Wandern" base-id="http://xml.zeit.de/kultur/musik/2010-09/volkslied-das-wandern-volkst/" type="jpg" publication-date="2010-10-01T09:00:00+00:00" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-23" year="2011" issue="5" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (23)</supertitle>
+      <title py:pytype="str">"Am Brunnen vor dem Tore"</title>
+      <text py:pytype="str">Ein romantisches Kunstlied wird zum Volkslied: Franz Schubert komponierte diese bekannte Weise in seiner "Winterreise". Die 23. Folge unserer Serie zum Download.</text>
+      <description py:pytype="str">Ein romantisches Kunstlied wird zum Volkslied: Franz Schubert komponierte diese bekannte Weise in seiner "Winterreise". Die 23. Folge unserer Serie zum Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="volkslieder-23-bild" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-23-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-21" year="2011" issue="4" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Volkslieder (21)</supertitle>
+      <title py:pytype="str">"Widele, Wedele"</title>
+      <text py:pytype="str">Alle Tiere, die Wedele haben, sollen zur Hochzeit kommen! Singen Sie mit dem Bettelmann und laden Sie sich die nächste Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+      <description py:pytype="str">Alle Tiere, die Wedele haben, sollen zur Hochzeit kommen! Singen Sie mit dem Bettelmann und laden Sie sich die nächste Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-21/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-22" publication-date="" expires=""/>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-20" year="2011" issue="4" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (20)</supertitle>
+      <title py:pytype="str">"Es klappert die Mühle"</title>
+      <text py:pytype="str">Ein Lobgesang auf das ehrliche Bäckerhandwerk! Laden Sie sich die 20. Folge unserer Volkslieder-Serie samt Noten und Musik kostenlos herunter.</text>
+      <description py:pytype="str">Ein Lobgesang auf das ehrliche Bäckerhandwerk! Laden Sie sich die 20. Folge unserer Volkslieder-Serie samt Noten und Musik kostenlos herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-20/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-19" year="2011" issue="4" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (19)</supertitle>
+      <title py:pytype="str">"Ich hatt einen Kameraden"</title>
+      <text py:pytype="str">Dieses Soldatenlied von 1825 ist noch heute Teil der Trauerzeremonien der Bundeswehr. Laden Sie sich die 19. Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+      <description py:pytype="str">Dieses Soldatenlied von 1825 ist noch heute Teil der Trauerzeremonien der Bundeswehr. Laden Sie sich die 19. Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-19-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-18" year="2011" issue="3" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (18)</supertitle>
+      <title py:pytype="str">"Hab oft im Kreise der Lieben"</title>
+      <text py:pytype="str">Nur frisch gesungen, und alles wird wieder gut: Laden Sie sich die 18. Folge unserer Volkslieder-Serie samt Noten kostenlos herunter.
+</text>
+      <description py:pytype="str">Nur frisch gesungen, und alles wird wieder gut: Laden Sie sich die 18. Folge unserer Volkslieder-Serie samt Noten kostenlos herunter.
+</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="volkslied-hab-oft-im-kreise" base-id="http://xml.zeit.de/kultur/musik/2011-01/volkslied-hab-oft-im-kreise/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2011-01/volkslieder-folge-17" year="2011" issue="2" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (17)</supertitle>
+      <title py:pytype="str">"Es war ein König in Thule"</title>
+      <text py:pytype="str">Dort stand der alte Zecher, trank letzte Lebensglut: Singen Sie Goethes Zeilen zur 17. Folge unserer Volkslieder-Serie. Noten und Musik gibt's zum freien Download.</text>
+      <description py:pytype="str">Dort stand der alte Zecher, trank letzte Lebensglut: Singen Sie Goethes Zeilen zur 17. Folge unserer Volkslieder-Serie. Noten und Musik gibt's zum freien Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslied 17" base-id="http://xml.zeit.de/kultur/musik/2011-01/es-war-ein-koenig-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-16" year="2010" issue="52" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (16)</supertitle>
+      <title py:pytype="str">"O Täler weit, o Höhen"</title>
+      <text py:pytype="str">Felix Mendelssohn Bartholdy komponierte dieses Volkslied auf einen Text von Joseph von Eichendorff. Die 16. Folge unserer Serie zum kostenlosen Download.</text>
+      <description py:pytype="str">Felix Mendelssohn Bartholdy komponierte dieses Volkslied auf einen Text von Joseph von Eichendorff. Die 16. Folge unserer Serie zum kostenlosen Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslied O Täler, o Höhen" base-id="http://xml.zeit.de/kultur/musik/2010-12/o-taeler-o-hoehen-bilder/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-15" year="2010" issue="52" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (15)</supertitle>
+      <title py:pytype="str">"Ich steh an Deiner Krippen hier"</title>
+      <text py:pytype="str">Ein festlicher Gruß in unserer Volkslieder-Serie: Johann Sebastian Bachs Weihnachtslied mit Noten zum freien Download, gesungen von Sarah Wegener.</text>
+      <description py:pytype="str">Ein festlicher Gruß in unserer Volkslieder-Serie: Johann Sebastian Bachs Weihnachtslied mit Noten zum freien Download, gesungen von Sarah Wegener.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Krippen " base-id="http://xml.zeit.de/kultur/musik/2010-12/krippen-bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Frank Walka</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-14" year="2010" issue="51" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (14)</supertitle>
+      <title py:pytype="str">"Ich weiß nicht, was soll es bedeuten"</title>
+      <text py:pytype="str">Die Loreley ist der Popstar im volkstümlichen Personal. Laden Sie sich die vierzehnte Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+      <description py:pytype="str">Die Loreley ist der Popstar im volkstümlichen Personal. Laden Sie sich die vierzehnte Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Ich weiß nicht, was soll es bedeuten" base-id="http://xml.zeit.de/kultur/musik/2010-12/Ich-weiss-nicht-was-soll-es-bedeuten-Bild/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/50/Volkslied-Kein-schoener-Land" year="2010" issue="50" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Volkslieder-Boom</supertitle>
+      <title py:pytype="str">Kein schöner Lied in diesem Land</title>
+      <text py:pytype="str">Selige Kindheitserinnerungen: In "Kein schöner Land" verbinden sich Kunstcharakter und Popularität. Warum uns das alte Volkslied noch immer zu Herzen geht.</text>
+      <description py:pytype="str">Selige Kindheitserinnerungen: In "Kein schöner Land" verbinden sich Kunstcharakter und Popularität. Warum uns das alte Volkslied noch immer zu Herzen geht.</description>
+      <byline py:pytype="str">Von Wolfram Goertz</byline>
+      <image align="left" title="&quot;Zwei Männer in Betrachtung des Mondes&quot; von Caspar David Friedrich" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-friedrich/" type="jpg" publication-date="" expires="">
+        <bu>"Zwei Männer in Betrachtung des Mondes" von Caspar David Friedrich, um 1830 entstanden</bu>
+        <copyright py:pytype="str">© Caspar David Friedrich/Wikimedia Commons</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2010/50/Volkslieder" year="2010" issue="50" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Liedkultur</supertitle>
+      <title py:pytype="str">Das Volk singt wieder</title>
+      <text py:pytype="str">Es ist gar nicht mehr peinlich, alte Lieder zu singen. Nein, vielmehr gehört es zur neuen Bürgerlichkeit wie das Biobrot. Was bedeutet der Volkslied-Boom?</text>
+      <description py:pytype="str">Es ist gar nicht mehr peinlich, alte Lieder zu singen. Nein, vielmehr gehört es zur neuen Bürgerlichkeit wie das Biobrot. Was bedeutet der Volkslied-Boom?</description>
+      <byline py:pytype="str">Von Christof Siemes</byline>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-singen/" type="jpg" publication-date="" expires="">
+        <bu>Beim Abschlusskonzert des "Day of Song" in Gelsenkirchen</bu>
+        <copyright py:pytype="str">© Bernd Thissen/dpa/lnw</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-13" year="2010" issue="50" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (13)</supertitle>
+      <title py:pytype="str">"Wach auf, meins Herzens Schöne"</title>
+      <text py:pytype="str">Ich hör ein süß' Getöne von kleinen Waldvöglein: die dreizehnte Folge unserer Volkslieder-Serie. Noten und Musik stehen zum kostenlosen Download bereit.</text>
+      <description py:pytype="str">Ich hör ein süß' Getöne von kleinen Waldvöglein: die dreizehnte Folge unserer Volkslieder-Serie. Noten und Musik stehen zum kostenlosen Download bereit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Wach auf mein Herzens Schöne" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-wach-auf-meins-herzens-schoene/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-12/volkslieder-folge-12" year="2010" issue="49" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (12)</supertitle>
+      <title py:pytype="str">"An der Saale hellem Strande"</title>
+      <text py:pytype="str">Die Landschaftsbetrachtung im Volkslied: Philip Niederberger singt die zwölfte Folge unserer Serie. Musik und Noten gibt's zum kostenlosen Download.</text>
+      <description py:pytype="str">Die Landschaftsbetrachtung im Volkslied: Philip Niederberger singt die zwölfte Folge unserer Serie. Musik und Noten gibt's zum kostenlosen Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslied An der Saale hellem Strande" base-id="http://xml.zeit.de/kultur/musik/2010-12/volkslied-an-der-saale-hellem-strande/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-11" year="2010" issue="48" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (11)</supertitle>
+      <title py:pytype="str">"Die Gedanken sind frei"</title>
+      <text py:pytype="str">Der Tenor Jonas Kaufmann singt eines der berühmtesten deutschen Volkslieder. Musik und Noten unserer elften Lieder-Folge gibt es zum kostenlosen Download.</text>
+      <description py:pytype="str">Der Tenor Jonas Kaufmann singt eines der berühmtesten deutschen Volkslieder. Musik und Noten unserer elften Lieder-Folge gibt es zum kostenlosen Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslied Die Gedanken sind frei" base-id="http://xml.zeit.de/kultur/musik/2010-11/volkslied-die-gedanken-sind-frei/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-10" year="2010" issue="48" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (10)</supertitle>
+      <title py:pytype="str">"Ich fahr dahin"</title>
+      <text py:pytype="str">Ach, wie traurig: Wer in die Ferne schweift, lässt mitunter seine Liebe zurück. Laden Sie sich die zehnte Folge unserer Volkslieder-Serie kostenlos herunter.</text>
+      <description py:pytype="str">Ach, wie traurig: Wer in die Ferne schweift, lässt mitunter seine Liebe zurück. Laden Sie sich die zehnte Folge unserer Volkslieder-Serie kostenlos herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslieder Ich fahr dahin" base-id="http://xml.zeit.de/kultur/musik/2010-11/volkslied-ich-fahr-dahin/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-9" year="2010" issue="47" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Volkslieder (9)</supertitle>
+      <title py:pytype="str">"O Du lieber Augustin"</title>
+      <text py:pytype="str">"Alles ist hin", heißt es in dem Volkslied, das vom Grauen der Pestzeit erzählt. Kurt Moll singt das traurige Lied. Laden Sie sich Audio und Noten herunter!</text>
+      <description py:pytype="str">"Alles ist hin", heißt es in dem Volkslied, das vom Grauen der Pestzeit erzählt. Kurt Moll singt das traurige Lied. Laden Sie sich Audio und Noten herunter!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="O Du lieber Augustin" base-id="http://xml.zeit.de/kultur/musik/2010-11/o-du-lieber-augustin/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-8" year="2010" issue="45" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (8)</supertitle>
+      <title py:pytype="str">"Horch, was kommt von draußen rein"</title>
+      <text py:pytype="str">Die Sopranistin Dorothee Mields singt dieses bekannte Volkslied in unserer Serie. Laden Sie sich Musik und Noten herunter und machen Sie mit!</text>
+      <description py:pytype="str">Die Sopranistin Dorothee Mields singt dieses bekannte Volkslied in unserer Serie. Laden Sie sich Musik und Noten herunter und machen Sie mit!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-11/horch/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-11/volkslieder-folge-7" year="2010" issue="45" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (7)</supertitle>
+      <title py:pytype="str">"Verstohlen geht der Mond auf"</title>
+      <text py:pytype="str">Durch Silberwölkchen führt sein Lauf: Angelika Kirchschlager singt die siebte Folge unserer Volksliederserie. Laden Sie sich Musik und Noten kostenlos herunter!</text>
+      <description py:pytype="str">Durch Silberwölkchen führt sein Lauf: Angelika Kirchschlager singt die siebte Folge unserer Volksliederserie. Laden Sie sich Musik und Noten kostenlos herunter!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-11/verstohlen/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-folge-6" year="2010" issue="44" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (6)</supertitle>
+      <title py:pytype="str">"Wenn alle Brünnlein fließen"</title>
+      <text py:pytype="str">Sie hat zwei blaue Äugelein, die glänzen wie die Stern: Franz-Josef Selig singt die sechste Folge unserer Volksliederserie. Laden Sie sich Audio und Noten herunter!</text>
+      <description py:pytype="str">Sie hat zwei blaue Äugelein, die glänzen wie die Stern: Franz-Josef Selig singt die sechste Folge unserer Volksliederserie. Laden Sie sich Audio und Noten herunter!</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-10/bruennlein/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-folge-5" year="2010" issue="41" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (5)</supertitle>
+      <title py:pytype="str">"Geh aus, mein Herz, und suche Freud"</title>
+      <text py:pytype="str">Erinnert Sie das an Ihre Schulzeit? Laden Sie sich die nächste Folge unserer Volkslieder-Serie herunter und singen Sie mit! Jeden Freitagnachmittag.</text>
+      <description py:pytype="str">Erinnert Sie das an Ihre Schulzeit? Laden Sie sich die nächste Folge unserer Volkslieder-Serie herunter und singen Sie mit! Jeden Freitagnachmittag.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslied 4 Geh aus, mein Herz, und suche Freund" base-id="http://xml.zeit.de/kultur/musik/2010-10/volkslied-geh-aus-mein-herz/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-geschichte" year="2010" issue="41" ressort="Kultur" publication-date="" expires="">
+      <supertitle py:pytype="str">Volkslieder</supertitle>
+      <title py:pytype="str">Ausdruck einer Modernisierungskrise</title>
+      <text py:pytype="str">Schon im 19. Jahrhundert war die Hinwendung zum Volkslied Spiegel eines gesellschaftlichen Wandels: Gebildete Bürger warfen einen Blick zurück auf die gute alte Zeit.</text>
+      <description py:pytype="str">Schon im 19. Jahrhundert war die Hinwendung zum Volkslied Spiegel eines gesellschaftlichen Wandels: Gebildete Bürger warfen einen Blick zurück auf die gute alte Zeit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Volkslied Hausmusik" base-id="http://xml.zeit.de/kultur/musik/2010-10/hausmusik/" type="jpg" publication-date="" expires="">
+        <bu>Das Volkslied hielt eroberte auch die Hausmusikzirkel. Hier ein historischer Stich von 1800</bu>
+        <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-10/volkslieder-folge-4" year="2010" issue="41" ressort="Kultur" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (4)</supertitle>
+      <title py:pytype="str">"Muss i denn zum Städtele hinaus"</title>
+      <text py:pytype="str">Die vierte Folge unserer neuen Volkslieder-Serie: Das 1827 entstandene Lied erzählt von Sehnsucht und Treue. Singen Sie mit! Musik und Noten gibt's zum freien Download.</text>
+      <description py:pytype="str">Die vierte Folge unserer neuen Volkslieder-Serie: Das 1827 entstandene Lied erzählt von Sehnsucht und Treue. Singen Sie mit! Musik und Noten gibt's zum freien Download.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Muss i denn" base-id="http://xml.zeit.de/kultur/musik/2010-10/volkslied-muss-i-denn/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2010-09/volkslieder-folge-3" year="2010" issue="40" ressort="Kultur" publication-date="2010-10-01T15:50:00+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">audio</badge>
+      </badges>
+      <supertitle py:pytype="str">Volkslieder (3)</supertitle>
+      <title py:pytype="str">"Das Wandern ist des Müllers Lust"</title>
+      <text py:pytype="str">Zu dem bekannten Text von Wilhelm Müller komponierte Franz Schubert ein romantisches Kunstlied. Laden Sie sich die dritte Folge unserer Serie herunter.</text>
+      <description py:pytype="str">Zu dem bekannten Text von Wilhelm Müller komponierte Franz Schubert ein romantisches Kunstlied. Laden Sie sich die dritte Folge unserer Serie herunter.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2010-10/wandern/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Christoph Mett</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">Volkslieder. Alle Folgen der Serie</title>
+    <text py:pytype="str">Jede Woche ein neues Volkslied zum freien Download. Eine Aktion von SWR2, Carus, Reclam und ZEIT ONLINE</text>
+  </teaser>
+</centerpage>

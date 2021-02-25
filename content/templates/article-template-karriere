@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-09-10T09:15:23.172940+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-15T15:54:34.036690+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-09-10T09:15:44.961521+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-09-10T09:16:44.806854+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-08-27T08:07:24.554701+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-09-09T08:18:01.939207+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-10-06</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-08-27T08:06:46.538335+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-10-06</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.groll</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Karriere</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">12</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:8e7a8b72-1812-4c32-a39d-83c31226f872}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="393acc48-f82b-402b-be9c-eea28712f36d">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="426c28d1-64bb-4030-b4bf-8e04ff3d9680" title="Neu im Ressort Karriere">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="newsletter_jobbrief" cp:__name__="id-dec59135-4558-4ffc-aedc-d0f8eaa0bebe">
+          <cp_extra id="newsletter_jobbrief"/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="cd00388c-5266-469a-8320-1f21743f9196">
+          <cp_extra id="linkatory"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="049682a0-abbc-4418-b92b-a2207eacf485">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-ee20314e-33de-4ed9-b063-8d7e595f572a">
+          <block href="http://xml.zeit.de/karriere/2015-08/ironman-behinderung-motivation" uniqueId="http://xml.zeit.de/karriere/2015-08/ironman-behinderung-motivation" year="2015" issue="35" ressort="Karriere" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-09-04T12:39:00+00:00" date-first-released="2015-09-04T12:39:59.877386+00:00" date-last-published="2015-09-04T12:39:59.877386+00:00" last-semantic-change="2015-09-04T12:38:56.948627+00:00" author="Tina Groll">
+            <supertitle py:pytype="str">Motivation</supertitle>
+            <title py:pytype="str">"Ein Traum ist kein Ziel"</title>
+            <text py:pytype="str">Christian Troger wurde ohne linkes Bein und linke Hüftpfanne geboren. Heute läuft er den Ironman und hält Vorträge vor Führungskräften. Was können Chefs von ihm lernen?</text>
+            <description py:pytype="str">Christian Troger wurde ohne linkes Bein und linke Hüftpfanne geboren. Heute läuft er den Ironman und hält Vorträge vor Führungskräften. Was können Chefs von ihm lernen?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/2015-08/troger/" type="jpg" title="Christian Troger" alt="Will den dritten Ironman in unter 12 Stunden schaffen: Christian Troger wurde nur mit einem Bein geboren." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Will den dritten Ironman in unter 12 Stunden schaffen: Christian Troger wurde nur mit einem Bein geboren.</bu>
+              <copyright py:pytype="str">© photo-baurecht</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Tina_Groll/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tina Groll</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/teilchen-blog/links/teilchen-urlaub-entspannung" uniqueId="http://xml.zeit.de/teilchen-blog/links/teilchen-urlaub-entspannung" year="2015" issue="36" ressort="Karriere" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/teilchen/2015/09/08/urlaub-herzerkrankung-depressionen/" date-last-modified="2015-09-09T12:38:30+00:00" date-first-released="2015-09-09T06:53:18.220868+00:00" date-last-published="2015-09-09T12:39:30.570886+00:00" last-semantic-change="2015-09-08T10:13:14.580943+00:00" author="Tina Groll">
+            <supertitle py:pytype="str">Studie</supertitle>
+            <title py:pytype="str">Bloß nicht auf Urlaub verzichten!</title>
+            <text py:pytype="str">In Japan gibt es nur fünf gesetzliche Urlaubstage, 70 Prozent der Amerikaner haben nicht mehr als 15 Tage frei. Dabei zeigen Studien, wie wichtig genug Erholung ist.</text>
+            <description py:pytype="str">In Japan gibt es nur fünf gesetzliche Urlaubstage, 70 Prozent der Amerikaner haben nicht mehr als 15 Tage frei. Dabei zeigen Studien, wie wichtig genug Erholung ist.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/2015-09/urlaub/" type="jpg" title="urlaub" alt="Nicht einmal ein Prozent der US-Amerikaner nimmt mehr als 25 Tage Urlaub im Jahr." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Nicht einmal ein Prozent der US-Amerikaner nimmt mehr als 25 Tage Urlaub im Jahr.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/photo/446793-stock-photo-human-being-sky-youth-young-adults-man-blue-beautiful">© David-W- / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Tina_Groll/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tina Groll</display_name>
+            </author>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-e98f466d-b799-4738-8546-283cfe2e9bbf">
+          <raw>
+            <a width="315" class="twitter-timeline" href="https://twitter.com/zeitonline_kar" data-widget-id="306742816212647936">Tweets von @zeitonline_kar</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="31e5d158-7dbb-48dc-82cf-986c7aec0873">
+        <container cp:type="teaser" module="ressort" cp:__name__="41d87643-3740-4dc4-9846-b0b1daf6dd96" hide-dupes="True" title="Bewerbung" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/karriere/bewerbung/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/karriere/bewerbung/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/karriere/bewerbung/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="d1b2e341-53c5-4031-974c-adf9ea3bc1ba" hide-dupes="True" title="Beruf" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/karriere/beruf/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/karriere/beruf/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/karriere/beruf/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-66d7958f-6edc-46cc-8fae-994035b88334" title="Serie: Chefsache" read_more_url="http://www.zeit.de/serie/chefsache" visible="True">
+          <block href="http://xml.zeit.de/karriere/bewerbung/2015-09/fuehrungsposition-teilzeit" uniqueId="http://xml.zeit.de/karriere/bewerbung/2015-09/fuehrungsposition-teilzeit" year="2015" issue="35" ressort="Karriere" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-09-07T11:20:43+00:00" date-first-released="2015-09-07T11:21:42.652078+00:00" date-last-published="2015-09-07T11:21:42.652078+00:00" last-semantic-change="2015-09-07T11:20:34.139678+00:00" author="Sabine Hockling">
+            <supertitle py:pytype="str">Führung in Teilzeit</supertitle>
+            <title py:pytype="str">"Jeden Job kann man in Teilzeit ausüben"</title>
+            <text py:pytype="str">Immer mehr Führungskräfte würden gern ihre Arbeitszeit reduzieren. Aber Chefposten in Teilzeit gibt es kaum. Den Unternehmen fehlt der Mut dazu, sagt Brigitte Abrell.</text>
+            <description py:pytype="str">Immer mehr Führungskräfte würden gern ihre Arbeitszeit reduzieren. Aber Chefposten in Teilzeit gibt es kaum. Den Unternehmen fehlt der Mut dazu, sagt Brigitte Abrell.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/beruf/2015-09/fuehrungsposition/" type="jpg" title="Führungsposition Teilzeit" alt="1,2 Prozent der männlichen und 14,6 Prozent der weiblichen Führungskräfte arbeiten in Deutschland in Teilzeit." align="left" publication-date="" expires="">
+              <bu py:pytype="str">1,2 Prozent der männlichen und 14,6 Prozent der weiblichen Führungskräfte arbeiten in Deutschland in Teilzeit.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/photo/1088245-stock-photo-human-being-woman-youth-young-adults-colour-hand-18---30-years">© a_sto / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Sabine_Hockling/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sabine Hockling</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2015-08/fuehrungskraft-effizient-fuehren" uniqueId="http://xml.zeit.de/karriere/beruf/2015-08/fuehrungskraft-effizient-fuehren" year="2015" issue="34" ressort="Karriere" serie="Chefsache" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-08-31T17:03:02+00:00" date-first-released="2015-08-31T17:04:01.465560+00:00" date-last-published="2015-08-31T17:04:01.465560+00:00" last-semantic-change="2015-08-31T17:02:56.693937+00:00" author="Sabine Hockling">
+            <supertitle py:pytype="str">Führungskraft</supertitle>
+            <title py:pytype="str">"Mitarbeiter sollten Geduld mit dem Chef haben"</title>
+            <text py:pytype="str">Viele Führungskräfte könnten effektiver sein, sagt die Psychologin Marion Lemper-Pychlau. Aber sie verschwenden ihre Energie mit der Ausübung von Macht. </text>
+            <description py:pytype="str">Viele Führungskräfte könnten effektiver sein, sagt die Psychologin Marion Lemper-Pychlau. Aber sie verschwenden ihre Energie mit der Ausübung von Macht. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/2015-08/fuehrungskraft-effizient/" type="jpg" title="Führungskraft effizient führen" alt="Effiziente Führung setzt Selbstvertrauen voraus, sagt die Psychologin Marion Lemper-Pychlau." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Effiziente Führung setzt Selbstvertrauen voraus, sagt die Psychologin Marion Lemper-Pychlau.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/photo/1296918-stock-photo-human-being-youth-young-adults-man-beautiful-young-man-18---30-years">© David-W- / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Sabine_Hockling/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sabine Hockling</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2015-08/fuehrungskraft-dominanz-macht-alpha-tier" uniqueId="http://xml.zeit.de/karriere/beruf/2015-08/fuehrungskraft-dominanz-macht-alpha-tier" year="2015" issue="33" ressort="Karriere" serie="Chefsache" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-08-22T06:35:18+00:00" date-first-released="2015-08-22T06:36:18.267681+00:00" date-last-published="2015-08-22T06:36:18.267681+00:00" last-semantic-change="2015-08-22T06:35:14.995455+00:00" author="Sabine Hockling">
+            <supertitle py:pytype="str">Führungskraft</supertitle>
+            <title py:pytype="str">"Die Wirtschaft braucht Alphatiere"</title>
+            <text py:pytype="str">Chefs müssen ihre Dominanz zeigen, sagt die Beraterin Marina Frieß. Allerdings sollten sie mit Statusgesten sparsam umgehen.</text>
+            <description py:pytype="str">Chefs müssen ihre Dominanz zeigen, sagt die Beraterin Marina Frieß. Allerdings sollten sie mit Statusgesten sparsam umgehen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/beruf/2015-08/macht/" type="jpg" title="Macht" alt="Auch dominante Führungskräfte sollten mit Macht- und Unterwerfungsgesten gegenüber ihren Mitarbeitern vorsichtig sein, sagt die Beraterin Marina Frieß." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Führungskräfte sollten mit Macht- und Unterwerfungsgesten gegenüber ihren Mitarbeitern vorsichtig sein, sagt die Beraterin Marina Frieß.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/photo/1203164-stock-photo-human-being-man-adults-to-talk-style-work-employment">© David-W- / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Sabine_Hockling/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sabine Hockling</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/karriere/beruf/2011-07/link-chefsache" year="2011" issue="29" ressort="Karriere" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/chefsache" date-last-modified="2015-08-18T14:57:35+00:00" date-first-released="2011-07-21T14:08:07.323207+00:00" date-last-published="2015-08-18T14:58:34.706552+00:00" last-semantic-change="2015-08-18T14:57:03.418236+00:00" contenttype="link" serie="Chefsache" uniqueId="http://xml.zeit.de/karriere/beruf/2011-07/link-chefsache">
+            <supertitle py:pytype="str">Chefsache</supertitle>
+            <title py:pytype="str">Tipps für Führungskräfte</title>
+            <text py:pytype="str">Um Mitarbeiter erfolgreich zu führen, braucht es mehr als nur Sachkenntnisse. Worauf es ankommt, erklärt Sabine Hockling in der Kolumne "Chefsache".</text>
+            <description py:pytype="str">Um Mitarbeiter erfolgreich zu führen, braucht es mehr als nur Sachkenntnisse. Worauf es ankommt, erklärt Sabine Hockling in der Kolumne "Chefsache".</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/2015-08/chefsache/" type="jpg" title="chefsache" alt="Chefsache: Wie geht gute Führung?" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Chefsache: Wie geht gute Führung?</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/photo/1188952-stock-photo-human-being-white-movement-to-talk-bright-business">© a_sto / photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-0f571c5b-b8c1-49b2-b8b6-1675226061a3" title="Serie: Arbeitsrechtskolumne" read_more_url="http://www.zeit.de/serie/da-staunt-der-chef" visible="True">
+          <block href="http://xml.zeit.de/karriere/beruf/2015-09/arbeitsrecht-streikrecht-kirchen-mitarbeiter" uniqueId="http://xml.zeit.de/karriere/beruf/2015-09/arbeitsrecht-streikrecht-kirchen-mitarbeiter" year="2015" issue="36" ressort="Karriere" serie="Fragen zum Arbeitsrecht" contenttype="article" publication-date="" expires="" date-last-modified="2015-09-09T08:11:00+00:00" date-first-released="2015-09-09T07:31:23.518142+00:00" date-last-published="2015-09-09T08:11:59.531685+00:00" last-semantic-change="2015-09-08T13:00:03.698506+00:00" author="Ulf Weigelt">
+            <supertitle py:pytype="str">Streikrecht</supertitle>
+            <title py:pytype="str">Warum dürfen Kirchenmitarbeiter nicht streiken?</title>
+            <text py:pytype="str">Kürzlich scheiterte die Gewerkschaft ver.di mit einer Beschwerde beim Bundesverfassungsgericht: Viele Mitarbeiter in kirchlichen Einrichtungen dürfen nicht streiken.</text>
+            <description py:pytype="str">Kürzlich scheiterte die Gewerkschaft ver.di mit einer Beschwerde beim Bundesverfassungsgericht: Viele Mitarbeiter in kirchlichen Einrichtungen dürfen nicht streiken.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/beruf/2015-09/kita/" type="jpg" title="kita" alt="Erzieherinnen in christlichen Einrichtungen üben eine sogenannte &quot;verkündungsnahe Tätigkeit&quot; aus – für sie gilt daher kein Streikrecht." align="left" publication-date="2015-09-08T17:13:29+00:00" expires="2015-12-08T18:13:31+00:00">
+              <bu py:pytype="str">Erzieherinnen in christlichen Einrichtungen üben eine sogenannte verkündungsnahe Tätigkeit aus – für sie gilt daher kein Streikrecht.</bu>
+              <copyright py:pytype="str">© Arno Burgi/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Ulf_Weigelt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulf Weigelt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2015-08/arbeitsrecht-haftung-schaden-auto" uniqueId="http://xml.zeit.de/karriere/beruf/2015-08/arbeitsrecht-haftung-schaden-auto" year="2015" issue="34" ressort="Karriere" serie="Fragen zum Arbeitsrecht" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-26T06:46:19+00:00" date-first-released="2015-08-26T06:44:44.498384+00:00" date-last-published="2015-08-26T06:47:19.483818+00:00" last-semantic-change="2015-08-26T06:43:41.395762+00:00" author="Ulf Weigelt">
+            <supertitle py:pytype="str">Arbeitsrecht</supertitle>
+            <title py:pytype="str">Wer zahlt den Schaden am Auto?</title>
+            <text py:pytype="str">Der Chef schickt die Mitarbeiterin mit ihrem Pkw auf einen Botengang. Sie hat einen Unfall, ihr Auto ist beschädigt. Das ist ihr Pech, sagt der Arbeitgeber. Stimmt das?</text>
+            <description py:pytype="str">Der Chef schickt die Mitarbeiterin mit ihrem Pkw auf einen Botengang. Sie hat einen Unfall, ihr Auto ist beschädigt. Das ist ihr Pech, sagt der Arbeitgeber. Stimmt das?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/beruf/2015-08/autounfall/" type="jpg" title="Autounfall" alt="Zwei Autos stehen am 17.07.2013 in Fürstenfeldbruck (Bayern) nach einem Unfall auf einer Straße." align="left" publication-date="2015-08-25T16:22:00+00:00" expires="2015-11-25T17:22:38+00:00">
+              <bu py:pytype="str">Zwei Autos stehen am 17.07.2013 in Fürstenfeldbruck (Bayern) nach einem Unfall auf einer Straße.</bu>
+              <copyright py:pytype="str">©  Marc Müller/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Ulf_Weigelt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulf Weigelt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2015-08/arbeitsrecht-kuendigung-zuruecknehmen" uniqueId="http://xml.zeit.de/karriere/beruf/2015-08/arbeitsrecht-kuendigung-zuruecknehmen" year="2015" issue="34" ressort="Karriere" serie="Fragen zum Arbeitsrecht" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-24T16:12:28+00:00" date-first-released="2015-08-24T16:05:03.409674+00:00" date-last-published="2015-08-24T16:13:27.890431+00:00" last-semantic-change="2015-08-24T16:04:00.257778+00:00" author="Ulf Weigelt">
+            <supertitle py:pytype="str">Arbeitsrecht</supertitle>
+            <title py:pytype="str">Eine ausgesprochene Kündigung wieder zurücknehmen?</title>
+            <text py:pytype="str">Der Chef ärgert sich über seinen Mitarbeiter und spricht im Affekt eine Kündigung aus. Später bereut er dies. Kann er die Trennung zurücknehmen?</text>
+            <description py:pytype="str">Der Chef ärgert sich über seinen Mitarbeiter und spricht im Affekt eine Kündigung aus. Später bereut er dies. Kann er die Trennung zurücknehmen?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/beruf/2015-08/kuendigung/" type="jpg" title="Arbeitsrecht Kündigung zurücknehmen" alt="Ist eine Kündigung ausgesprochen und wurde sie zugestellt, dann kann sie nicht mehr einfach so zurückgenommen werden. " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ist eine Kündigung ausgesprochen und wurde sie zugestellt, dann kann sie nicht mehr einfach so zurückgenommen werden. </bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/photo/1064163-stock-photo-human-being-adults-to-talk-business-work-employment-masculine">© David-W- / photocase.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Ulf_Weigelt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ulf Weigelt</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/karriere/2009-09/da-staunt-der-chef-link" year="2009" issue="37" ressort="Karriere" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/da-staunt-der-chef" date-last-modified="2015-08-18T15:07:26+00:00" date-first-released="2009-09-05T16:10:45.798636+00:00" date-last-published="2015-08-18T15:08:25.998897+00:00" last-semantic-change="2015-08-18T15:07:04.085664+00:00" serie="Fragen zum Arbeitsrecht" uniqueId="http://xml.zeit.de/karriere/2009-09/da-staunt-der-chef-link">
+            <supertitle py:pytype="str">Arbeitsrechtskolumne</supertitle>
+            <title py:pytype="str">Da staunt der Chef</title>
+            <text py:pytype="str">Was darf der Chef? Jede Woche immer mittwochs beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Leserfragen zum Arbeitsrecht auf ZEIT ONLINE.</text>
+            <description py:pytype="str">Was darf der Chef? Jede Woche immer mittwochs beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Leserfragen zum Arbeitsrecht auf ZEIT ONLINE.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/karriere/2015-08/arbeitsrecht/" type="jpg" title="arbeitsrecht" alt="Was darf der Chef? Ulf Weigelt beantwortet in unserer Serie Fragen zum Arbeitsrecht." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Was darf der Chef? Ulf Weigelt beantwortet in unserer Serie Fragen zum Arbeitsrecht.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/photo/821809-stock-photo-human-being-joy-feminine-to-talk-business-office">© simonthon.com / photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Karriere</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Karriere</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Karriere</text>
+  </indexteaser>
+</centerpage>

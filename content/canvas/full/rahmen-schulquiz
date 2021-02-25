@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="iframe">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">tp</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-09-02T08:38:30.183138+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-08-28T14:13:21.258517+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-09-02T08:39:43.434128+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-08-28T14:12:28.909425+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-09-02T08:38:26.274005+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.Rosanowitsch</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">iframe</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e5373cc4-e061-4b84-95f2-af34580ab017}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">36</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="xml" module="xml" cp:__name__="id-2d9618f3-de19-4236-85ae-2f339d28eef4">
+          <raw>
+            <li class="inf-doubleteaser">
+              <ul class="clear">
+                <li class="inf-doubleteaser-article">
+                  <a title="Studiengangsuche - Die Suchmaschine für Studiengänge" href="http://studiengaenge.zeit.de/?wt_mc=zeit_de.intern.teaser.schulquiz.suma_teaser1.suma_startseite.textlink.bild_text">
+                    <img class="left" width="150" height="85" alt="" src="http://www.zeit.de/angebote/studium/sit/suma1.jpg"/>
+                  </a>
+                  <h2>
+                    <a title="Studiengangsuche - Die Suchmaschine für Studiengänge" href="http://studiengaenge.zeit.de/?wt_mc=zeit_de.intern.teaser.schulquiz.suma_teaser1.suma_startseite.textlink.bild_text">
+                      <span class="inf-doubleteaser-supertitle">Studiengangsuche</span>
+                      <span class="inf-doubleteaser-title">Die Suchmaschine für Studiengänge</span>
+                    </a>
+                  </h2>
+                  <p class="inf-doubleteaser-teaser">Was kann man wo studieren? In der Suchmaschine für Studiengänge finden Sie es heraus. Hier erhalten Sie einen Überblick über alle Studiengänge und Hochschulen in Deutschland.</p>
+                </li>
+                <li class="inf-doubleteaser-article">
+                  <a title="Uni-Rankings - Hochschulen im deutschlandweiten Vergleich" href="http://ranking.zeit.de/che2014/de/?wt_mc=zeit_de.intern.teaser.schulquiz.che_teaser.che_startseite.textlink.bild_text">
+                    <img class="left" width="150" height="85" alt="" src="http://www.zeit.de/studium/hochschule/2014-05/hochschulranking-che-2014/hochschulranking-che-2014-220x124.jpg"/>
+                  </a>
+                  <h2>
+                    <a title="Uni-Rankings - Hochschulen im deutschlandweiten Vergleich" href="http://ranking.zeit.de/che2014/de/?wt_mc=zeit_de.intern.teaser.schulquiz.che_teaser.che_startseite.textlink.bild_text">
+                      <span class="inf-doubleteaser-supertitle">Uni-Rankings</span>
+                      <span class="inf-doubleteaser-title">Hochschulen im deutschlandweiten Vergleich</span>
+                    </a>
+                  </h2>
+                  <p class="inf-doubleteaser-teaser"> Über 300 Hochschulen wurden im größten Hochschulranking Deutschlands analysiert und verglichen. Hier erhalten Sie alle Ergebnisse des aktuellen CHE-Rankings. </p>
+                </li>
+              </ul>
+            </li>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-86b10485-6989-4e5f-b001-9693d7551285"/>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title> </title>
+    <subtitle>QUIZ: Ein Angebot des ZEIT Verlags</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title> </title>
+    <text>QUIZ: Ein Angebot des ZEIT Verlags</text>
+  </teaser>
+</centerpage>

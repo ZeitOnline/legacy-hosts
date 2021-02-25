@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <keywordset>
+      <keyword py:pytype="str" source="manual">staedtereise</keyword>
+      <keyword py:pytype="str" source="manual">stadt</keyword>
+      <keyword py:pytype="str" source="manual">tuerkei</keyword>
+    </keywordset>
+    <header_image src="http://xml.zeit.de/themen/reisen/cityguide-istanbul/istanbul-197x74.jpg" type="jpg" title="Cityguide Istanbul" align="left" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image align="left" base-id="http://xml.zeit.de/reisen/2011-11/moschee-istanbul-city-guide/" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-17T09:27:11.256388+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-11-30T14:31:47.917129+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-07-17T09:29:42.005505+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-08-21T07:44:12.279977+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2013-10-15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">City Guide Istanbul | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-07-17T09:27:02.622385+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2013-12-28</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="serie">City Guide</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">60</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b6d0e3d2-005d-4526-92fa-e47af3d23edc}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">48</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="ec4ad444-542c-4aa9-9059-5bec3bdc8a46">
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Sueleymaniye" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:15:03+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2011-12-01T11:06:29.737070+00:00" contenttype="article" serie="City Guide" author="Michael Thumann">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Kühe, Kultur, Copyshops</title>
+            <text py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</text>
+            <description py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</description>
+            <byline py:pytype="str">Von Michael Thumann</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-spaziergang/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">In der Nachbarschaft der berühmten Süleymaniye-Moschee trifft man viele Studenten.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Michael_Thumann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Thumann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Basar" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:14:53+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2013-09-09T11:53:01.237466+00:00" contenttype="article" serie="City Guide" author="Elif Shafak">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Schriftstellerin Elif Shafak</supertitle>
+            <title py:pytype="str">"Der Große Basar gibt mir Energie"</title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</description>
+            <byline py:pytype="str">von Elif Shafak</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/elif-shafak/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Schriftstellerin Elif Shafak</bu>
+              <copyright py:pytype="str">© AFP/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Elif_Shafak" publication-date="" expires="">
+              <display_name py:pytype="str">Elif Shafak</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Galata" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:16:04+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:28:24.097705+00:00" contenttype="article" serie="City Guide" author="Christian Schüle">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Logenplatz auf der Galata-Brücke</title>
+            <text py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</text>
+            <description py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</description>
+            <byline py:pytype="str">Von Christian Schüle</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-galata/" type="jpg" alt="Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Schüle</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="4235cfa9-e52a-479a-8923-b17e81ab1579">
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Basar" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:14:53+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2013-09-09T11:53:01.237466+00:00" contenttype="article" serie="City Guide" author="Elif Shafak">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Schriftstellerin Elif Shafak</supertitle>
+            <title py:pytype="str">"Der Große Basar gibt mir Energie"</title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</description>
+            <byline py:pytype="str">von Elif Shafak</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/elif-shafak/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Schriftstellerin Elif Shafak</bu>
+              <copyright py:pytype="str">© AFP/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Elif_Shafak" publication-date="" expires="">
+              <display_name py:pytype="str">Elif Shafak</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Sueleymaniye" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:15:03+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2011-12-01T11:06:29.737070+00:00" contenttype="article" serie="City Guide" author="Michael Thumann">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Kühe, Kultur, Copyshops</title>
+            <text py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</text>
+            <description py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</description>
+            <byline py:pytype="str">Von Michael Thumann</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-spaziergang/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">In der Nachbarschaft der berühmten Süleymaniye-Moschee trifft man viele Studenten.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Michael_Thumann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Thumann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Hotel-Empress-Zoe" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:15:57+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:23:30.202267+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Ein Hotel wie eine Hommage an die Geschichte</title>
+            <text py:pytype="str">Herzliche Angestellte und spielerische Details geben dem Empress Zoe in Sultanahmet sein Gesicht. Im Garten des Hotels treffen sich die Gäste beim Tee.</text>
+            <description py:pytype="str">Herzliche Angestellte und spielerische Details geben dem Empress Zoe in Sultanahmet sein Gesicht. Im Garten des Hotels treffen sich die Gäste beim Tee.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-hotel/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Konstantinopel überm Bett, ein Garten hinterm Fenster</bu>
+              <copyright py:pytype="str">© Cyrus Saedi für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Restaurant-Maya" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:14:50+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2011-12-13T18:16:03.360441+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Noch einmal mit Gefüll</title>
+            <text py:pytype="str">Wenn es kalt wird, essen die Istanbuler kleine Fische. Michael Allmaier hat ihr Stammgericht probiert: Sardellen mit Gewürzreis im Bauch, in Didem Şenols Restaurant Maya.</text>
+            <description py:pytype="str">Wenn es kalt wird, essen die Istanbuler kleine Fische. Michael Allmaier hat ihr Stammgericht probiert: Sardellen mit Gewürzreis im Bauch, in Didem Şenols Restaurant Maya.</description>
+            <byline py:pytype="str">Von Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-stammgericht-aufmacher-4/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Restaurant Maya im Stadtteil Karaköy</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="0d48affa-c02a-410e-be27-285cf07b244d">
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Galata" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:16:04+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:28:24.097705+00:00" contenttype="article" serie="City Guide" author="Christian Schüle">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Logenplatz auf der Galata-Brücke</title>
+            <text py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</text>
+            <description py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</description>
+            <byline py:pytype="str">Von Christian Schüle</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-galata/" type="jpg" alt="Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Schüle</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Sueleymaniye" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:15:03+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2011-12-01T11:06:29.737070+00:00" contenttype="article" serie="City Guide" author="Michael Thumann">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Kühe, Kultur, Copyshops</title>
+            <text py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</text>
+            <description py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</description>
+            <byline py:pytype="str">Von Michael Thumann</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-spaziergang/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">In der Nachbarschaft der berühmten Süleymaniye-Moschee trifft man viele Studenten.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Michael_Thumann/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Thumann</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Nachtleben" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:16:02+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:30:02.639538+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Feiern verändert die Realität</title>
+            <text py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</text>
+            <description py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-nachtleben/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Murat Ertel im "Ghetto". Das Trio Baba Zula mischt Rockmusik mit orientalischen Melodien.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Basar" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:14:53+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2013-09-09T11:53:01.237466+00:00" contenttype="article" serie="City Guide" author="Elif Shafak">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Schriftstellerin Elif Shafak</supertitle>
+            <title py:pytype="str">"Der Große Basar gibt mir Energie"</title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</description>
+            <byline py:pytype="str">von Elif Shafak</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/elif-shafak/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Schriftstellerin Elif Shafak</bu>
+              <copyright py:pytype="str">© AFP/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Elif_Shafak" publication-date="" expires="">
+              <display_name py:pytype="str">Elif Shafak</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="5682eec4-0503-48cb-94d1-06ba61088c14">
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Nachtleben" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:16:02+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:30:02.639538+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Feiern verändert die Realität</title>
+            <text py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</text>
+            <description py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-nachtleben/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Murat Ertel im "Ghetto". Das Trio Baba Zula mischt Rockmusik mit orientalischen Melodien.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/38/KS-Babazula" year="2011" issue="38" ressort="Kultur" publication-date="" expires="" date-last-modified="2013-12-03T18:12:34+00:00" date-first-released="2011-09-15T06:00:00+00:00" date-last-published="2013-12-03T19:13:32+00:00" last-semantic-change="2011-10-03T12:21:40.172849+00:00" contenttype="article" author="Daniel Bax">
+            <supertitle py:pytype="str">Türkischer Pop</supertitle>
+            <title py:pytype="str">Schamanen vom Bosporus</title>
+            <text py:pytype="str">Die Band Baba Zula macht die Musik für das moderne Istanbul. Ihr "Oriental Dub" schöpft aus den vielfältigen Traditionen Kleinasiens. Von Daniel Bax</text>
+            <description py:pytype="str">Die Band Baba Zula macht die Musik für das moderne Istanbul. Ihr "Oriental Dub" schöpft aus den vielfältigen Traditionen Kleinasiens. Von Daniel Bax</description>
+            <byline py:pytype="str">VON DANIEL BAX</byline>
+            <image base-id="http://xml.zeit.de/kultur/musik/2011-09/babazula/" type="jpg" title="Baba Zula" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Band BaBa ZuLa in typischer Gypsy-Kleidung</bu>
+              <copyright py:pytype="str">© Alper Ertuğ/Essay Recordings</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/B/Daniel_Bax/index.xml">
+              <display_name>Daniel Bax</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Galata" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:16:04+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:28:24.097705+00:00" contenttype="article" serie="City Guide" author="Christian Schüle">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Logenplatz auf der Galata-Brücke</title>
+            <text py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</text>
+            <description py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</description>
+            <byline py:pytype="str">Von Christian Schüle</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-galata/" type="jpg" alt="Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Schüle</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Basar" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:14:53+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2013-09-09T11:53:01.237466+00:00" contenttype="article" serie="City Guide" author="Elif Shafak">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Schriftstellerin Elif Shafak</supertitle>
+            <title py:pytype="str">"Der Große Basar gibt mir Energie"</title>
+            <text py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</text>
+            <description py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</description>
+            <byline py:pytype="str">von Elif Shafak</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/elif-shafak/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Schriftstellerin Elif Shafak</bu>
+              <copyright py:pytype="str">© AFP/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Elif_Shafak" publication-date="" expires="">
+              <display_name py:pytype="str">Elif Shafak</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="a8b17768-680c-4e3b-aff7-95e66ac4e991">
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Restaurant-Maya" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:14:50+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:15:51+00:00" last-semantic-change="2011-12-13T18:16:03.360441+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Noch einmal mit Gefüll</title>
+            <text py:pytype="str">Wenn es kalt wird, essen die Istanbuler kleine Fische. Michael Allmaier hat ihr Stammgericht probiert: Sardellen mit Gewürzreis im Bauch, in Didem Şenols Restaurant Maya.</text>
+            <description py:pytype="str">Wenn es kalt wird, essen die Istanbuler kleine Fische. Michael Allmaier hat ihr Stammgericht probiert: Sardellen mit Gewürzreis im Bauch, in Didem Şenols Restaurant Maya.</description>
+            <byline py:pytype="str">Von Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-stammgericht-aufmacher-4/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Restaurant Maya im Stadtteil Karaköy</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2009/21/Istanbul-Streetfood" year="2009" issue="21" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-09-08T20:37:01+00:00" date-first-released="2009-05-14T06:00:00+00:00" date-last-published="2013-09-08T22:37:15+00:00" last-semantic-change="2009-05-13T14:49:28.794149+00:00" contenttype="article">
+            <supertitle py:pytype="str">Türkei</supertitle>
+            <title py:pytype="str">Tausendundein Gericht</title>
+            <text py:pytype="str">Auf den Straßen von Istanbul isst man vorzüglich. Eine Tour zu den herzhaftesten Teigtaschen und knackigsten Artischocken.</text>
+            <description py:pytype="str">Auf den Straßen von Istanbul isst man vorzüglich. Eine Tour zu den herzhaftesten Teigtaschen und knackigsten Artischocken.</description>
+            <byline py:pytype="str">Von Kristina Maroldt</byline>
+            <image base-id="http://xml.zeit.de/bilder/2009/21/lebensart/istanbul/" type="jpg" title="Istanbul" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Essen an den Straßenständen Istanbuls ist vielfältig - und meistens lecker</bu>
+              <copyright py:pytype="str">© Kerim Okten/dpa</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Nachtleben" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:16:02+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:30:02.639538+00:00" contenttype="article" serie="City Guide" author="Karin Ceballos Betancur">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Feiern verändert die Realität</title>
+            <text py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</text>
+            <description py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</description>
+            <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-nachtleben/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Murat Ertel im "Ghetto". Das Trio Baba Zula mischt Rockmusik mit orientalischen Melodien.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+              <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Galata" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:16:04+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:28:24.097705+00:00" contenttype="article" serie="City Guide" author="Christian Schüle">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Logenplatz auf der Galata-Brücke</title>
+            <text py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</text>
+            <description py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</description>
+            <byline py:pytype="str">Von Christian Schüle</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-galata/" type="jpg" alt="Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt.</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Schüle</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="5e66a769-5a7d-4c55-9ccd-ff7d20f1f59f">
+          <block href="http://xml.zeit.de/reisen/2011-11/city-guide-istanbul-restauranttipps" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:02:33+00:00" date-first-released="2011-11-30T14:30:05.746887+00:00" date-last-published="2013-12-03T15:03:46+00:00" last-semantic-change="2013-08-21T07:50:39.042388+00:00" contenttype="article" serie="City Guide" author="Michael Allmaier">
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Wo man am Bosporus gut essen geht</title>
+            <text py:pytype="str">Tiefgründige Küche und spektakuläre Ausblicke: Diese vier Restaurants empfiehlt unser Restauranttester Michael Allmaier in Istanbul.</text>
+            <description py:pytype="str">Tiefgründige Küche und spektakuläre Ausblicke: Diese vier Restaurants empfiehlt unser Restauranttester Michael Allmaier in Istanbul.</description>
+            <byline py:pytype="str">Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-istanbul-restauranttipps-foto-1/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Kantin in Nişantaşı</bu>
+              <copyright py:pytype="str">© Tuba Şatana/Kantin Restaurant</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Michael Allmaier</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2011-10/city-guide-barcelona-restauranttipps" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T16:31:31+00:00" date-first-released="2011-10-18T15:04:30.319726+00:00" date-last-published="2013-12-03T17:33:32+00:00" last-semantic-change="2013-09-11T09:47:47.716069+00:00" contenttype="article" serie="City Guide">
+            <supertitle py:pytype="str">City Guide Barcelona</supertitle>
+            <title py:pytype="str">Restaurant-Tipps der Redaktion</title>
+            <text py:pytype="str">Katalanische Klassik und aufgeregtes Szenepublikum: Diese vier Restaurants empfiehlt unser Restauranttester Michael Allmeier in Barcelona.</text>
+            <description py:pytype="str">Katalanische Klassik und aufgeregtes Szenepublikum: Diese vier Restaurants empfiehlt unser Restauranttester Michael Allmeier in Barcelona.</description>
+            <byline py:pytype="str">Michael Allmaier</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/cg-barcelona-resto-alkimia/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Spanische Aromen in verblüffender Klarheit gibt es im Alkimia.</bu>
+              <copyright py:pytype="str">© Alkimia</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2011-11/sternekoch-ali-guengoermues" year="2011" issue="45" ressort="Lebensart" publication-date="" expires="" date-last-modified="2013-12-03T15:18:17+00:00" date-first-released="2011-11-08T12:16:38.188685+00:00" date-last-published="2013-12-03T16:19:37+00:00" last-semantic-change="2011-11-08T12:15:21.468158+00:00" contenttype="article" author="Jan Spielhagen">
+            <supertitle py:pytype="str">Sternekoch</supertitle>
+            <title py:pytype="str">Frischer Estragon im Handgepäck von Ali Güngörmüs</title>
+            <text py:pytype="str">Ali Güngörmüs ist der einzige türkische Koch mit einem Michelin-Stern. Die Inspiration für seine Gerichte im Hamburger Le Canard findet er nicht selten in Istanbul.</text>
+            <description py:pytype="str">Ali Güngörmüs ist der einzige türkische Koch mit einem Michelin-Stern. Die Inspiration für seine Gerichte im Hamburger Le Canard findet er nicht selten in Istanbul.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-11/teaser-istanbul-ali-sternekoch/" type="jpg" alt="Stand auf einem Lebensmittelmarkt in Istanbul" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Stand auf einem Lebensmittelmarkt in Istanbul</bu>
+              <copyright py:pytype="str">© Frank Bauer/Beef!</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Jan_Spielhagen" publication-date="" expires="">
+              <display_name py:pytype="str">Jan Spielhagen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/24/Buch-Istanbul" year="2011" issue="24" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T23:21:14+00:00" date-first-released="2011-06-09T06:00:00+00:00" date-last-published="2013-12-04T00:23:03+00:00" last-semantic-change="2011-06-27T15:02:57.524752+00:00" contenttype="article" author="Michael Thumann">
+            <supertitle py:pytype="str">Istanbul Reiseführer</supertitle>
+            <title py:pytype="str">In der Hitze des Bades</title>
+            <text py:pytype="str">Geplauder im Dampfbad und Makrelenbrötchen auf die Hand: Zwei neue Bücher über Istanbul erkunden die Seele der Stadt, machen neugierig und manchmal sogar hungrig.</text>
+            <description py:pytype="str">Geplauder im Dampfbad und Makrelenbrötchen auf die Hand: Zwei neue Bücher über Istanbul erkunden die Seele der Stadt, machen neugierig und manchmal sogar hungrig.</description>
+            <byline py:pytype="str">Michael Thumann</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-06/hamam-instabul/" type="jpg" align="left" publication-date="" expires="2011-07-27T15:12:00+00:00">
+              <bu py:pytype="str">Ein Mitarbeiter eines Hamams in Istanbul gibt einem Besucher eine Seifenschaum-Massage.</bu>
+              <copyright py:pytype="str">© Reuters/Osman Orsal</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/T/Michael_Thumann/index.xml">
+              <display_name>Michael Thumann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="f2212a97-a383-401c-8506-c5dfc7864dd4">
+          <block href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Hotel-Empress-Zoe" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:15:57+00:00" date-first-released="2011-11-24T06:00:00+00:00" date-last-published="2013-12-03T15:19:10+00:00" last-semantic-change="2013-08-21T08:23:30.202267+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Ein Hotel wie eine Hommage an die Geschichte</title>
+            <text py:pytype="str">Herzliche Angestellte und spielerische Details geben dem Empress Zoe in Sultanahmet sein Gesicht. Im Garten des Hotels treffen sich die Gäste beim Tee.</text>
+            <description py:pytype="str">Herzliche Angestellte und spielerische Details geben dem Empress Zoe in Sultanahmet sein Gesicht. Im Garten des Hotels treffen sich die Gäste beim Tee.</description>
+            <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-hotel/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Konstantinopel überm Bett, ein Garten hinterm Fenster</bu>
+              <copyright py:pytype="str">© Cyrus Saedi für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2010/43/Hoteltest-Pera-Palace" year="2010" issue="43" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-02T15:48:52+00:00" date-first-released="2010-10-21T06:00:00+00:00" date-last-published="2013-09-08T01:56:28+00:00" last-semantic-change="2010-11-04T13:21:48.073559+00:00" contenttype="article" serie="Hoteltest">
+            <supertitle py:pytype="str">HOTELTEST</supertitle>
+            <title py:pytype="str">Ein Hauch von Konstantinopel</title>
+            <text py:pytype="str">Luxushotel oder Museum? Einst stiegen im Pera Palace Hotel in Istanbul Greta Garbo und Ernest Hemingway ab. Heute lebt das wieder eröffnete Haus nur vom vergangenen Ruhm.</text>
+            <description py:pytype="str">Luxushotel oder Museum? Einst stiegen im Pera Palace Hotel in Istanbul Greta Garbo und Ernest Hemingway ab. Heute lebt das wieder eröffnete Haus nur vom vergangenen Ruhm.</description>
+            <byline py:pytype="str">Wolfgang Lechner</byline>
+            <image base-id="http://xml.zeit.de/reisen/2010-10/pera-palace-hotellobby/" type="jpg" alt="Durch sechs Kuppeln fällt Tageslicht in die Hotellobby" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Durch sechs Kuppeln fällt Tageslicht in die Hotellobby</bu>
+              <copyright py:pytype="str">© Pera Palace Istanbul</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2010/42/Kybele-Istanbul" year="2010" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-07-16T09:45:50+00:00" date-first-released="2010-10-14T06:00:00+00:00" date-last-published="2014-07-16T12:19:33+00:00" last-semantic-change="2010-10-18T16:25:06.263774+00:00" contenttype="article" author="Wolfgang Lechner">
+            <supertitle py:pytype="str">Hotels unter 100 Euro</supertitle>
+            <title py:pytype="str">Im Orient-Salon in Istanbul</title>
+            <text py:pytype="str">Er sammelt turkmenische Fransenbordüren und lädt Gäste auf einen Joint in seine Wohnhöhle: Im Hotel Kybele in Istanbul ist nicht nur der Chef Mike Akbayrak ein Unikat.</text>
+            <description py:pytype="str">Er sammelt turkmenische Fransenbordüren und lädt Gäste auf einen Joint in seine Wohnhöhle: Im Hotel Kybele in Istanbul ist nicht nur der Chef Mike Akbayrak ein Unikat.</description>
+            <byline py:pytype="str">Wolfgang Lechner</byline>
+            <image base-id="http://xml.zeit.de/reisen/2010-10/kybele-hotel-lounge/" type="jpg" alt="Die Lounge des Kybele Hotels." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Wie hier in der Lounge hängen überall im Kybele Hotel bunte Lampen - 4000 ingesamt</bu>
+              <copyright py:pytype="str">© Kybele Hotel</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Wolfgang_Lechner/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Wolfgang Lechner</display_name>
+            </author>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2010-04/link-serie-hoteltest" year="2010" issue="15" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=hoteltest" date-last-modified="2013-12-02T15:46:36+00:00" date-first-released="2010-04-14T14:18:50.974205+00:00" date-last-published="2010-04-28T08:14:47.384324+00:00" last-semantic-change="2013-12-02T15:46:08.301720+00:00" contenttype="link">
+            <supertitle py:pytype="str">Hotelbewertungen</supertitle>
+            <title py:pytype="str">Zimmer frei</title>
+            <text py:pytype="str">Die schönsten Hotels der Welt, getestet von ZEIT-Autoren. In unserer Serie lesen Sie, wo man wirklich gut schläft und wo man besser nicht einchecken sollte.</text>
+            <description py:pytype="str">Die schönsten Hotels der Welt, getestet von ZEIT-Autoren. In unserer Serie lesen Sie, wo man wirklich gut schläft und wo man besser nicht einchecken sollte.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2010-05/bg-cannes-hotel/" type="jpg" title="Majestic Barrière" alt="Blick von der Dachterrasse des Penthouse über den Pool auf die Riviera" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick von der Dachterrasse des Penthouse über den Pool auf die Riviera</bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="cf218b98-a4fb-41b8-b4f7-897877d32b16">
+          <block href="http://xml.zeit.de/reisen/2011-11/hotels-istanbul-empfehlungen" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T14:02:36+00:00" date-first-released="2011-11-30T14:30:26.230745+00:00" date-last-published="2013-12-03T15:03:46+00:00" last-semantic-change="2011-12-17T10:43:05.680152+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+            <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+            <text py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Istanbul nach Hotels mit Charme und Charakter gesucht. Diese vier kann er empfehlen.</text>
+            <description py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Istanbul nach Hotels mit Charme und Charakter gesucht. Diese vier kann er empfehlen.</description>
+            <byline py:pytype="str">Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/galataantique-bild/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Galata Antique-Hotel</bu>
+              <copyright py:pytype="str" link="http://cyrus-saedi.com/">© Cyrus Saedi</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2011-10/city-guide-barcelona-hoteltipps" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-01-11T18:11:05+00:00" date-first-released="2011-10-18T15:03:25.986759+00:00" date-last-published="2014-01-11T18:12:04.962332+00:00" last-semantic-change="2011-10-17T18:07:29.010418+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Barcelona</supertitle>
+            <title py:pytype="str">Hotel-Tipps der Redaktion</title>
+            <text py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Barcelona nach den besten Designhotels gesucht. Seine Empfehlungen für El Raval, El Born und Eixample</text>
+            <description py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Barcelona nach den besten Designhotels gesucht. Seine Empfehlungen für El Raval, El Born und Eixample</description>
+            <byline py:pytype="str">Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/cg-barcelona-hotel-omm/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Im Hotel Omm trifft man die am besten gekleideten Gäste der Stadt.</bu>
+              <copyright py:pytype="str">© Hotel Omm</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2011/36/CG-Hidden-Hotel-box-2" year="2011" issue="36" ressort="Reisen" publication-date="" expires="" date-last-modified="2014-01-11T18:21:51+00:00" date-first-released="2011-09-01T06:00:00+00:00" date-last-published="2014-01-11T18:22:50.893801+00:00" last-semantic-change="2011-10-14T13:50:54.366799+00:00" contenttype="article" serie="City Guide" author="Tomas Niederberghaus">
+            <supertitle py:pytype="str">City Guide Paris</supertitle>
+            <title py:pytype="str">Hotel-Tipps der Redaktion</title>
+            <text py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Paris nach romantischen Hotels gesucht. Seine Empfehlungen für Pigalle, Saint-Germain-des-Prés und das Quartier Latin.</text>
+            <description py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Paris nach romantischen Hotels gesucht. Seine Empfehlungen für Pigalle, Saint-Germain-des-Prés und das Quartier Latin.</description>
+            <byline py:pytype="str">Tomas Niederberghaus</byline>
+            <image base-id="http://xml.zeit.de/reisen/2011-09/pigalle/" type="jpg" alt="Das Hôtel Amour ist mit Liebe eingerichtet - sprichwörtlich. " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Hôtel Amour ist mit Liebe eingerichtet - sprichwörtlich. </bu>
+              <copyright py:pytype="str">© PR</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="1378f6b5-19c0-4009-a84d-d0de03686488">
+          <block href="http://xml.zeit.de/reisen/2011-11/city-guide-istanbul-im-netz" year="2011" issue="48" ressort="Reisen" publication-date="" expires="" date-last-modified="2013-12-03T13:50:49+00:00" date-first-released="2011-12-02T09:27:40.236271+00:00" date-last-published="2013-12-03T14:52:04+00:00" last-semantic-change="2011-12-02T09:19:11.624641+00:00" contenttype="article" serie="City Guide" author="Mareike Nieberding">
+            <badges>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide</supertitle>
+            <title py:pytype="str">Istanbul im Netz</title>
+            <text py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Istanbul. Wir stellen die Besten vor.</text>
+            <description py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Istanbul. Wir stellen die Besten vor.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-netz/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick von der Süleymaniye-Moschee auf die historische Halbinsel von Konstantinopel</bu>
+              <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/N/Mareike_Nieberding" publication-date="" expires="">
+              <display_name py:pytype="str">Mareike Nieberding</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="308e451e-b590-4e9d-8535-b6e783b355b8">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="81884597-e572-4347-b654-d5772878dc79">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-774ee3ae-3e30-4d31-8982-0f07e3d8cea5" layout="368x110" title="City Guide London: Hier möchte man wohnen">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/reisen/2012-07/link-themenseite-city-guide-london" year="2012" issue="27" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-london" date-last-modified="2012-07-02T11:54:34+00:00" date-first-released="2012-07-02T11:11:05.484423+00:00" date-last-published="2012-07-02T11:11:05.484423+00:00" last-semantic-change="2012-07-02T11:54:27.487955+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide London</supertitle>
+            <title py:pytype="str">Mit London möchte man sein Leben verbringen</title>
+            <text py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatklubs sind längst Hotels.</text>
+            <description py:pytype="str">Weltoffen, cool und unfertig: London überrascht. Denn das britischste Gericht ist indisch, am Piccadilly Circus warten die Engel und Privatklubs sind längst Hotels.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-06/cityguide-london/" type="jpg" title="Cityguide London" align="left" publication-date="" expires="">
+              <bu py:pytype="str">LONDON, ENGLAND - MARCH 27: A double decker bus makes its way past the Houses of Parliament on March 27, 2012 in London, England. (Photo by Dan Kitwood/Getty Images) </bu>
+              <copyright py:pytype="str">© Dan Kitwood/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2012-06/cityguide-london/cityguide-london-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="7c4fe125-8481-4ad7-b15d-b3f1b7408b58" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2011-10/link-barcelona" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-barcelona/index" date-last-modified="2013-02-08T16:15:14+00:00" date-first-released="2011-10-18T14:52:11.387695+00:00" date-last-published="2013-02-08T16:16:13.966291+00:00" last-semantic-change="2011-10-18T14:50:45.341919+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide Barcelona</supertitle>
+            <title py:pytype="str">Design und heitere Leichtigkeit</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Wir führen Sie auf die schönste Hotelterrasse, werfen Huhn und Gambas in einen Topf und suchen im Park Güell das Glück.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/barcelona-3/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Gunnar Knechtel für DIE ZEIT</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2011-09/paris" year="2011" issue="37" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-paris/index" date-last-modified="2011-12-01T17:40:47+00:00" date-first-released="2011-09-09T08:54:06.553858+00:00" date-last-published="2011-12-01T17:41:47.076730+00:00" last-semantic-change="2011-09-09T08:52:42.723530+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide Paris</supertitle>
+            <title py:pytype="str">Auf Entdeckungstour in der Stadt an der Seine</title>
+            <text py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel.  </text>
+            <description py:pytype="str">Empfehlungen von unserem Restauranttester, Ausgehtipps von DJ David Guetta, unser Hoteltester schreibt über romantische Hotels und Oda Jaune über ihr Lieblingsviertel.  </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-09/paris-link/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Bruce Bennett/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="4ac6902c-91ce-4719-b9d3-9fef60cf9a6f" title="Urban und bezahlbar: City Guide Zürich" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/reisen/2012-02/link-city-guide-zuerich" year="2012" issue="7" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-zuerich" date-last-modified="2012-07-02T11:25:49+00:00" date-first-released="2012-02-15T09:34:09.289939+00:00" date-last-published="2012-02-15T09:34:09.289939+00:00" last-semantic-change="2012-02-13T15:44:56.841574+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide Zürich</supertitle>
+            <title py:pytype="str">Eine Stadt wächst über sich hinaus</title>
+            <text py:pytype="str">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </text>
+            <description py:pytype="str">Urban, raffiniert, gemütlich, weltoffen und, ja, manchmal sogar bezahlbar, so ist Zürich. In unserem City Guide finden Sie alle Tipps für Ihren Städtetrip. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-02/zuerich-bild/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Mike Hewitt/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2012-02/zuerich-bild/zuerich-bild-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-6fb4bc03-daef-4a64-91b4-8f82eb9ac1d9" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-10/city-guide-prag-link" year="2012" issue="43" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-prag/index" date-last-modified="2012-10-24T08:12:59+00:00" date-first-released="2012-10-23T14:42:05.719589+00:00" date-last-published="2012-10-24T08:13:59.347590+00:00" last-semantic-change="2012-10-24T07:41:19.887580+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide </supertitle>
+            <title py:pytype="str">Prag – schön, alt und ziemlich schräg</title>
+            <text py:pytype="str">Im City Guide fahren wir Tram mit dem Schriftsteller Jaroslav Rudiš, essen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</text>
+            <description py:pytype="str">Im City Guide fahren wir Tram mit dem Schriftsteller Jaroslav Rudiš, essen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-10/kampa-prag/" type="jpg" alt="Ein Herbsttag auf der Halbinsel Kampa" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Herbsttag auf der Halbinsel Kampa</bu>
+              <copyright py:pytype="str">© Reuters / Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg-link" year="2012" issue="36" ressort="Reisen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/reisen/cityguide-hamburg/index" date-last-modified="2012-08-31T16:16:38+00:00" date-first-released="2012-08-31T16:17:38.612593+00:00" date-last-published="2012-08-31T16:17:38.612593+00:00" last-semantic-change="2012-08-31T16:16:17.757348+00:00" contenttype="link">
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburg dreht sich ums Wasser</title>
+            <text py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</text>
+            <description py:pytype="str">Von wegen hanseatisch kühl! Hamburg ist auch laut und lustig. Wir gehen zum Tanztee ins Abrisshaus, essen Brei mit Ei, schauen Schiffen hinterher und finden blaue Mode.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/cityguide-hamburg/" type="jpg" title="Cityguide Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">HAMBURG, GERMANY - SEPTEMBER 08:  HOLSTEN CITY MAN 2002, Hamburg; ELITE/MAENNER; UEBERSICHT/SCHWIMMEN  (Photo by Lutz Bongarts/Bongarts/Getty Images)</bu>
+              <copyright py:pytype="str">© Lutz Bongarts/Bongarts/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="ba006fcc-5d06-4bbf-bd45-5e73b523b3c0" title="Fotos aus der Design-Metropole Barcelona">
+          <block type="intern" href="http://xml.zeit.de/reisen/2011-10/fs-barcelona-2" year="2011" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2012-07-02T11:25:48+00:00" date-first-released="2011-10-19T15:09:50.930303+00:00" date-last-published="2011-10-19T15:09:50.930303+00:00" last-semantic-change="2011-10-19T13:43:54.672333+00:00" contenttype="gallery" serie="City Guide">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Barcelona</supertitle>
+            <title py:pytype="str">Streifzüge durch die Design-Metropole</title>
+            <text py:pytype="str">Barcelona ist heiter und avantgardistisch. Der Fotograf Gunnar Knechtel lebt seit zehn Jahren in der Stadt und hat sie mit ganz persönlichem Blick porträtiert.</text>
+            <description py:pytype="str">Barcelona ist heiter und avantgardistisch. Der Fotograf Gunnar Knechtel lebt seit zehn Jahren in der Stadt und hat sie mit ganz persönlichem Blick porträtiert.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2011-10/fs-barcelona-teaser-2/" type="jpg" title="Barcelona Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Gunnar Knechtel</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/reisen/2011-10/fs-barcelona-teaser-2/fs-barcelona-teaser-2-368x110.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>City Guide Istanbul</title>
+    <subtitle>Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2011-11/city-guide-istanbul-im-netz" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Mareike Nieberding">
+      <badges>
+        <badge py:pytype="str">map</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide</supertitle>
+      <title py:pytype="str">Istanbul im Netz</title>
+      <text py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Istanbul. Wir stellen die Besten vor.</text>
+      <description py:pytype="str">Erst durchklicken, dann durchreisen: Das Netz bietet zahllose Reise- und Veranstaltungstipps für Istanbul. Wir stellen die Besten vor.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-netz/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Blick von der Süleymaniye-Moschee auf die historische Halbinsel von Konstantinopel</bu>
+        <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Mareike_Nieberding" publication-date="" expires="">
+        <display_name py:pytype="str">Mareike Nieberding</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2011-11/hotels-istanbul-empfehlungen" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Tomas Niederberghaus">
+      <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+      <title py:pytype="str">Die Hoteltipps der Redaktion</title>
+      <text py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Istanbul nach Hotels mit Charme und Charakter gesucht. Diese vier kann er empfehlen.</text>
+      <description py:pytype="str">Unser Hoteltester Tomas Niederberghaus hat in Istanbul nach Hotels mit Charme und Charakter gesucht. Diese vier kann er empfehlen.</description>
+      <byline py:pytype="str">Tomas Niederberghaus</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/galataantique-bild/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Galata Antique-Hotel</bu>
+        <copyright py:pytype="str" link="http://cyrus-saedi.com/">© Cyrus Saedi</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Hotel-Empress-Zoe" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Tomas Niederberghaus">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+      <title py:pytype="str">Ein Hotel wie eine Hommage an die Geschichte</title>
+      <text py:pytype="str">Herzliche Angestellte und spielerische Details geben dem Empress Zoe in Sultanahmet sein Gesicht. Im Garten des Hotels treffen sich die Gäste beim Tee.</text>
+      <description py:pytype="str">Herzliche Angestellte und spielerische Details geben dem Empress Zoe in Sultanahmet sein Gesicht. Im Garten des Hotels treffen sich die Gäste beim Tee.</description>
+      <byline py:pytype="str">Von Tomas Niederberghaus</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-hotel/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Konstantinopel überm Bett, ein Garten hinterm Fenster</bu>
+        <copyright py:pytype="str">© Cyrus Saedi für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/N/Tomas_Niederberghaus/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Tomas Niederberghaus</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/reisen/2011-11/city-guide-istanbul-restauranttipps" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Michael Allmaier">
+      <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+      <title py:pytype="str">Wo man am Bosporus gut essen geht</title>
+      <text py:pytype="str">Tiefgründige Küche und spektakuläre Ausblicke: Diese vier Restaurants empfiehlt unser Restauranttester Michael Allmaier in Istanbul.</text>
+      <description py:pytype="str">Tiefgründige Küche und spektakuläre Ausblicke: Diese vier Restaurants empfiehlt unser Restauranttester Michael Allmaier in Istanbul.</description>
+      <byline py:pytype="str">Michael Allmaier</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-istanbul-restauranttipps-foto-1/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Kantin in Nişantaşı</bu>
+        <copyright py:pytype="str">© Tuba Şatana/Kantin Restaurant</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Restaurant-Maya" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Michael Allmaier">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+      <title py:pytype="str">Noch einmal mit Gefüll</title>
+      <text py:pytype="str">Wenn es kalt wird, essen die Istanbuler kleine Fische. Michael Allmaier hat ihr Stammgericht probiert: Sardellen mit Gewürzreis im Bauch, in Didem Şenols Restaurant Maya.</text>
+      <description py:pytype="str">Wenn es kalt wird, essen die Istanbuler kleine Fische. Michael Allmaier hat ihr Stammgericht probiert: Sardellen mit Gewürzreis im Bauch, in Didem Şenols Restaurant Maya.</description>
+      <byline py:pytype="str">Von Michael Allmaier</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-stammgericht-aufmacher-4/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Das Restaurant Maya im Stadtteil Karaköy</bu>
+        <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Michael_Allmaier/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Allmaier</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Nachtleben" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Karin Ceballos Betancur">
+      <badges>
+        <badge py:pytype="str">map</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+      <title py:pytype="str">Feiern verändert die Realität</title>
+      <text py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</text>
+      <description py:pytype="str">Nachts kann der Mensch leben, wie er will: Ein Gespräch mit Murat Ertel, Sänger von Baba Zula, über Istanbuls Vorzüge in der Dunkelheit.</description>
+      <byline py:pytype="str">Das Gespräch führte Karin Ceballos Betancur</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-nachtleben/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Murat Ertel im "Ghetto". Das Trio Baba Zula mischt Rockmusik mit orientalischen Melodien.</bu>
+        <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/C/Karin_Ceballos_Betancur/index" publication-date="" expires="">
+        <display_name py:pytype="str">Karin Ceballos Betancur</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Galata" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Christian Schüle">
+      <badges>
+        <badge py:pytype="str">map</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+      <title py:pytype="str">Logenplatz auf der Galata-Brücke</title>
+      <text py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</text>
+      <description py:pytype="str">Überall stehen Hobbyangler. Es riecht nach gegrilltem Fisch. Die Galata-Brücke ist die große Bühne der Oper Istanbul. Auf ihr stehend, eröffnet sich die Pracht der Stadt.</description>
+      <byline py:pytype="str">Von Christian Schüle</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-galata/" type="jpg" alt="Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt." align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Galata-Brücke verbindet das alte Istanbul mit der Neustadt.</bu>
+        <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Christian_Schuele/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Christian Schüle</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Basar" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Elif Shafak">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">Schriftstellerin Elif Shafak</supertitle>
+      <title py:pytype="str">"Der Große Basar gibt mir Energie"</title>
+      <text py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</text>
+      <description py:pytype="str">Mein Wohnzimmer: Die Schriftstellerin Elif Shafak ist kein geduldiger Mensch. Doch in den Seitenstraßen des Basars findet sie Inseln der Ruhe inmitten des Lärms.</description>
+      <byline py:pytype="str">von Elif Shafak</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/elif-shafak/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Die Schriftstellerin Elif Shafak</bu>
+        <copyright py:pytype="str">© AFP/Getty Images</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/S/Elif_Shafak" publication-date="" expires="">
+        <display_name py:pytype="str">Elif Shafak</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2011/48/City-Guide-Istanbul-Sueleymaniye" year="2011" issue="48" ressort="Reisen" serie="City Guide" contenttype="article" publication-date="" expires="" author="Michael Thumann">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Istanbul</supertitle>
+      <title py:pytype="str">Kühe, Kultur, Copyshops</title>
+      <text py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</text>
+      <description py:pytype="str">Im Süleymaniye-Viertel reicht ein Kilometer Weg für eine Achterbahnfahrt durch sämtliche Epochen. Dort mischen sich Fleischduft mit Tonerschwaden und der Meeresbrise.</description>
+      <byline py:pytype="str">Von Michael Thumann</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2011-11/city-guide-spaziergang/" type="jpg" align="left" publication-date="" expires="">
+        <bu py:pytype="str">In der Nachbarschaft der berühmten Süleymaniye-Moschee trifft man viele Studenten.</bu>
+        <copyright py:pytype="str">© Agata Skowronek für DIE ZEIT</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/T/Michael_Thumann/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Michael Thumann</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">City Guide Istanbul</title>
+    <text py:pytype="str">Istanbul ist immer in Bewegung. In unserem City Guide zeigen uns Künstler ihre Stadt, verraten unsere Redakteure, wo man gut isst und stilvoll übernachtet. </text>
+  </teaser>
+</centerpage>

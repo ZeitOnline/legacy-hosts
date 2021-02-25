@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<container style="homepage_01_06">
+  <row layout="headline">
+    <container layout="" id="" label="" priority="">
+      <block href="cms:/cms/work/online/2007/07/Vaterschaftstests-Kommentar" id="" layout="aufmachervideo" priority="">
+        <raw>
+          <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="220" height="218" id="sparen3" align="middle">
+            <param name="wmode" value="transparent"/>
+            <param name="allowScriptAccess" value="sameDomain"/>
+            <param name="movie" value="http://medien.zeit.de/medialinks/sparen3-hp.swf"/>
+            <param name="quality" value="high"/>
+            <embed src="http://medien.zeit.de/medialinks/sparen3-hp.swf" quality="high" width="220" height="218" name="sparen3" wmode="transparent" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"/>
+          </object>
+        </raw>
+      </block>
+    </container>
+    <container id="aufmacher" label="" priority="">
+      <block layout="aufmacher" priority="" href="cms:/cms/work/online/2007/07/Vaterschaftstests-Kommentar" id="">
+        <title>Salomonisches Urteil</title>
+        <text>Zweifelnden Männern soll es leichter gemacht werden, eine Vaterschaft&#13;
+anzufechten. Heimliche Tests aber bleiben verboten. Gut so,&#13;
+kommentiert <em>Ludwig Greven</em></text>
+        <byline/>
+        <related>
+          <block layout="aufmacher" priority="" href="cms:/cms/work/online/2007/07/Vaterschaftstests-Urteil" id="">
+            <title>Urteil</title>
+            <text>Heimliche Tests nicht rechtens</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container priority="1" id="LetzteMeldung" label="LetzteMeldungen">
+      <block>
+        <feed id="ts-feed">
+          <rss_feed id="meldungen" max_items="5" mode="news"/>
+        </feed>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="knopf-links" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2007/07/vw-gesetz-eugh">
+        <supertitle>Auto</supertitle>
+        <title>Fällt das VW-Gesetz?</title>
+        <text>Nach Ansicht des Generalanwalts am Europäischen Gerichtshof verstößt&#13;
+die Schutzregel bei Volkswagen gegen EU-Recht. In Wolfsburg nimmt man's  gelassen</text>
+        <byline/>
+        <related>
+          <block priority="" href="cms:/cms/work/2007/04/System-Piech">
+            <title>Das System</title>
+            <text>Wie Ferdinand Piëch sein Imperium lenkt</text>
+          </block>
+        </related>
+        <image expires="2007-02-21" src="/cms/work/bilder/2007/07/aktuell/knoepfe/vw-eu-72.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-mitte" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2007/07/nordkorea-iran" id="">
+        <supertitle>Atomwaffen</supertitle>
+        <title>Der Nordkorea-Deal</title>
+        <text>Aufatmen - Abmachung in Sicht! Wieso auf einmal? Da gibt es einen Zusammenhang: Iran. Eine Presseschau</text>
+        <byline>von Gero von Randow</byline>
+        <related>
+          <block priority="" href="http://blog.zeit.de/kosmoblog/" layout="weblog">
+            <title>Kosmoblog</title>
+            <text>Anmerkungen zur Außenpolitik <em>von Ulrich Speck</em></text>
+          </block>
+          <block priority="" href="cms:/cms/work/politik/iran/index">
+            <title>Iran</title>
+            <text>Wohin steuert Teheran?</text>
+          </block>
+        </related>
+        <image expires="2007-02-21" src="/cms/work/bilder/2007/standards/knoepfe/presse_international_72x72.gif" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-rechts" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/2007/07/LS-Neukoelln">
+        <supertitle>Integration</supertitle>
+        <title>Zu gut für den Job </title>
+        <text>Ein erfolgreicher Stadtteilbetreuer in Berlins Problemkiez Neukölln wollte nicht in die SPD eintreten. Jetzt ist er arbeitslos. </text>
+        <byline>Von Jörg Lau</byline>
+        <related>
+          <block priority="" layout="gallery" href="cms:/cms/work/online/2007/07/bildergalerie-neukoelln">
+            <title>Berlin</title>
+            <text>Abgebrochene Hoffnung. Eine Bildergalerie</text>
+          </block>
+          <block priority="" href="cms:/cms/work/politik/zuwanderung/index">
+            <title>Integration</title>
+            <text>Ein Schwerpunkt</text>
+          </block>
+        </related>
+        <image expires="2007-02-21" src="/cms/work/bilder/2007/07/politik/galerie-neukoelln-72.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+  <row layout="onecol">
+    <container>
+      <ad place="3"/>
+    </container>
+    <container>
+      <ad place="5"/>
+    </container>
+  </row>
+<!-- 
+  <row layout="onecol">
+    <container>
+      <ad place="13"/>
+      <ad place="14"/>
+      <ad place="15"/>
+    </container>
+  </row>
+-->
+  <row layout="threecol">
+    <container id="tagesbild">
+      <block href="javascript:void(window.open('http://www.zeit.de/bild_des_tages','bilddestages','height=700,width=511,directories=no,location=no,menubar=no,resizable=yes,status=no,toolbar=no,scrollbars=yes'));" priority="1" layout="tagesbild">
+        <text><br/><strong>Was ist das?</strong> Pure Konzentration?
+</text>
+        <image expires="2007-05-13" src="/cms/work/bilder/2007/07/aktuell/tagesbilder/tabi-di-210.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-mitte" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2007/07/bildergalerie-ausgerechnet">
+        <supertitle>Ausstellung</supertitle>
+        <title>Ausgerechnet!</title>
+        <text>Mathematik und Kunst müssen kein Widerspruch sein. Eine Ausstellung tritt jetzt den Beweis an. Eine Bildergalerie von</text>
+        <byline>Maike Pollmann </byline>
+        <related>
+          <block priority="" href="http://www.zeit.de/archiv/1998/36/199836.mathematik_.xml">
+            <title>Mathematik</title>
+            <text>Kunst oder Wissenschaft? Von <em>Thomas von Randow</em> (ZEIT-Archiv)</text>
+          </block>
+        </related>
+        <image expires="2007-02-20" src="/cms/work/bilder/2007/07/aktuell/knoepfe/ausgerechnet-72.gif" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-rechts" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="http://www.zeit.de/erinneredich" id="">
+        <supertitle>Spielen</supertitle>
+        <title>Schön, schnell, sexy</title>
+        <text>Die schönsten Autos sind häufig die größten Dreckschleudern - doch hier können Sie völlig reinen Gewissens mit ihnen spielen. Finden Sie die schnittigsten Paare?  </text>
+        <related>
+          <block layout="" priority="" href="http://apollo.zeit.de/bluemchenspiel/index.php" id="">
+            <supertitle>Spielen</supertitle>
+            <title>Das Blümchenspiel</title>
+            <text>Begriffe raten</text>
+          </block>
+          <block priority="" href="cms:/cms/work/leben/spielen/index" id="" layout="">
+            <title>Weitere Spiele</title>
+            <text>finden Sie hier!</text>
+          </block>
+        </related>
+        <image expires="2007-02-14" src="/cms/work/bilder/2007/standards/knoepfe/auto-memory-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="3knopf-links" label="" priority="">
+      <block priority="" href="http://blog.zeit.de/herdentrieb/?p=124" id="" layout="knopf">
+        <supertitle>Konjunktur</supertitle>
+        <title>Europa vorne</title>
+        <text>Euroland wächst, die USA schwächeln: Während die Produktivität in &#13;
+Europa weiter steigt, nehmen in Amerika die Lohnstückkosten &#13;
+zu. Ein &#13;
+Trendbericht im Weblog <em>Herdentrieb</em></text>
+        <related>
+          <block href="http://blog.zeit.de/herdentrieb/" layout="weblog">
+            <title>Herdentrieb</title>
+            <text>Kapitalismus-Blog</text>
+          </block>
+        </related>
+        <image expires="2100-01-01" src="/cms/work/bilder/2007/weblogs/herdentrieb/herdentrieb-grafiken-72.gif" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="3knopf-mitte" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2007/07/bildergalerie-olowu" id="">
+        <supertitle>Mode</supertitle>
+        <title>Farbenfrohes Update</title>
+        <text>Duro Olowu war Rechtsanwalt, bevor er sich seiner&#13;
+Leidenschaft Mode hingab. Sein Laufsteg-Debüt setzte bei der &#8222;London&#13;
+Fashion Week&#8220; den ersten Höhepunkt. Eine Bildergalerie von</text>
+        <byline>Henning Hoff</byline>
+        <image expires="2007-02-20" src="/cms/work/bilder/2007/07/aktuell/knoepfe/galerie-olowu-72.jpg" align="right"><copyright>©</copyright> BILD </image>
+        <related>
+          <block priority="" href="http://www.zeit.de/mode">
+            <title>Mode</title>
+            <text>auf ZEIT online</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container id="3knopf-rechts" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2007/07/ZEIT-Forum-Kultur" id="">
+        <supertitle>ZEIT Forum Kultur</supertitle>
+        <title>Ohne Gott?!</title>
+        <text>Religion ist wieder in. Doch was soll man glauben? Friedrich Wilhelm&#13;
+Graf, Henryk M. Broder, Martin Mosebach, Daniel Cohn-Bendit und Navid Kermani diskutieren. Zum Anhören</text>
+        <byline/>
+        <related>
+          <block priority="" href="cms:/cms/work/leben/religionen">
+            <title>Religion</title>
+            <text>Was soll ich glauben?</text>
+          </block>
+        </related>
+        <image expires="2100-01-01" src="/cms/work/bilder/2007/07/aktuell/knoepfe/zeit-gespraech-72.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+</container>

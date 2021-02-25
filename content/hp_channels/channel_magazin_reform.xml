@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<centerpage>
+  <head>
+<!-- Angaben zum Dokument -->
+    <id>
+<!-- die eineindeutige ID des Dokuments -->
+      <uniqueid>cms:/cms/work/index</uniqueid>
+    </id>
+    <attribute name="supertitle" ns="http://namespaces.zeit.de/CMS/document">News Channel</attribute>
+<!-- Dachzeile/Spitzmarke -->
+<!-- ggF. mehrere -->
+<!-- Schlagworte -->
+<!-- manuell vergeben Schlagworte -->
+<!-- Statusauskünfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">6511</attribute>
+<!-- die Anzahl der erfolgten Änderungen, wird derzeit benutzt um Resourcenkonflikte zu verhindern - bei jedem Schreiben wird eins hochgesetzt - will einer eine alte Version schreiben, wird das unterbunden -->
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT online</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT online 2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">11.1.2008 - 07:36</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords">DIE ZEIT; ZEIT online;Nachrichten;Kommentare;Analysen;Themen; Politik;Wirtschaft;Kultur;Wissensschaft</attribute>
+    <keywordset>
+      <keyword source="manual">DIE ZEIT</keyword>
+      <keyword source="manual">ZEIT online</keyword>
+      <keyword source="manual">Nachrichten</keyword>
+      <keyword source="manual">Kommentare</keyword>
+      <keyword source="manual">Analysen</keyword>
+      <keyword source="manual">Themen</keyword>
+      <keyword source="manual">Politik</keyword>
+      <keyword source="manual">Wirtschaft</keyword>
+      <keyword source="manual">Kultur</keyword>
+      <keyword source="manual">Wissensschaft</keyword>
+    </keywordset>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="type">centerpage</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume">06</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">greven</attribute>
+  </head>
+  <body>
+    <container id="channel_drehscheibe" label="" layout="channel" priority="">
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-stilbrueche">
+        <image base-id="/cms/work/bilder/site07/test/magazin_1" type="jpg" expires="2008-01-16" src="/cms/work/bilder/site07/test/magazin_1-140x140.jpg" align="right">
+          <copyright>© Konrad M. Müller</copyright>
+        </image>
+        <supertitle>Mode</supertitle>
+        <title>Macht mit kleinen Macken</title>
+        <text>Stilbrüche sind das neue Statussymbol der Erfolgreichen. Je nachlässiger desto mächtiger. Eine Bildergalerie.</text>
+        <byline>Fotos von Konrad R. Müller </byline>
+        <short>
+          <title>Mode-Fotografie</title>
+          <text>Der neue Stil der Macht</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/2008/03/Businesswear" pos="1">
+            <title>Mode</title>
+            <text>Stillosigkeit als neues Statussymbol</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-control">
+        <image base-id="/cms/work/bilder/site07/test/magazin_2" type="jpg" expires="2008-02-14" src="/cms/work/bilder/site07/test/magazin_2-140x140.jpg" align="right">
+          <copyright>© capelight pictures/ dean rogers</copyright>
+        </image>
+        <supertitle>Rock</supertitle>
+        <title>Was Joy Division ausmachte</title>
+        <text>Der Sänger Ian Curtis wird posthum zum Helden eines neuen Kinofilms. Welche popkulturelle Bedeutung hat seine Band eigentlich? Ein Überblick in Bildern, Musik und Texten</text>
+        <byline>Von Jan Kühnemund</byline>
+        <short>
+          <title>Rock</title>
+          <text>Was Joy Division ausmachte – in Text, Bild und Ton</text>
+        </short>
+        <related>
+          <block href="http://www.zeit.de/2008/03/Control" pos="1">
+            <title>Held aus der Wohnküche</title>
+            <text>Control: die Filmrezension von Thomas Groß</text>
+          </block>
+          <block href="cms:/cms/work/online/2008/02/bg-ruge" pos="1">
+            <title>Geist im Blitzlicht</title>
+            <text>Auf den Spuren Ian Curtis'. Eine Fotoreportage </text>
+          </block>
+          <block href="cms:/cms/work/online/2008/02/filmpremiere-control">
+            <title>Control</title>
+            <text>Eindrücke von der Filmpremiere</text>
+          </block>
+          <block href="cms:/cms/work/2007/47/D-Musikklassiker" pos="1">
+            <title>Klassiker der Moderne</title>
+            <text>Joy Divisions "Unknown Pleasures"</text>
+          </block>
+          <block href="http://www.zeit.de/musik/genreuebersichten/indierock" pos="1" id="" layout="" priority="" sticky="">
+            <title>Independent Rock</title>
+            <text>Mächtiger Nebenstrom. Eine Genreübersicht</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/03/doping-reaktion-gesellschaft" id="" sticky="">
+        <image base-id="/cms/work/bilder/site07/test/magazin_3" type="gif" expires="2100-01-01" src="/cms/work/bilder/site07/test/magazin_3-140x140.jpg" align="right">
+          <copyright>© foto: getty images, Grafik: ZEIT online</copyright>
+        </image>
+        <supertitle>Sport</supertitle>
+        <title>Doping &#8211; na und? </title>
+        <text>Der Dopingskandal im US-Baseball hatte keine großen Folgen. Das wäre in Deutschland vermutlich nicht anders, wenn sich herausstellte, dass auch im Fußball gedopt wird.</text>
+        <byline>Von Heiko Oldörp</byline>
+        <short>
+          <title>Doping </title>
+          <text>Spielt es eine Rolle, ob Klose und Co. dopen?</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/51/doping-baseball" pos="1">
+            <title>Baseball</title>
+            <text>Jeder Verein hat gedopt</text>
+          </block>
+          <block href="cms:/cms/work/online/2007/48/Telekom-Radsport-Aufgabe" pos="2">
+            <title>Radsport</title>
+            <text>Telekom steigt aus</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-modetrends" id="" sticky="">
+        <image base-id="/cms/work/bilder/site07/test/magazin_4" type="jpg" expires="2100-01-01" src="/cms/work/bilder/site07/test/magazin_4-140x140.jpg" align="right">
+          <copyright>© Getty Images</copyright>
+        </image>
+        <supertitle>Mode</supertitle>
+        <title>Vorschläge fürs Diktat</title>
+        <text>Die tonangebenden Designer haben sich längst festgelegt, was 2008 zu tragen sei. Wir stellen Ihnen die schönsten Trends vor.</text>
+        <byline>Von Corina Kolbe</byline>
+        <short>
+          <title>Mode</title>
+          <text>Die Trends der Designer für 2008. Eine Galerie</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2008/02/mode-ethik-oeko" pos="1">
+            <title>Ökomode</title>
+            <text>Sind die Modelabels jetzt politisch korrekt?</text>
+          </block>
+          <block href="cms:/cms/work/themen/leben/gesellschaft/mode/index" pos="2">
+            <title>Mode-Spezial</title>
+            <text>Kleider als Spiegel unserer zeitgenössischen Kultur</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="http://spiele.zeit.de/rechtschreibquiz/rechtschreibquiz.php" id="" sticky="">
+        <supertitle>Spiel</supertitle>
+        <title>Rechtschreibung</title>
+        <text>Eine Geldbörse ist ein Portmonee? Oder doch eher ein Portemonee? Ein Sprach-Quiz</text>
+        <short>
+          <title>Rechtschreibung</title>
+          <text>50 Fragen zur deutschen Sprache. Ein Quiz</text>
+        </short>
+        <image base-id="/cms/work/bilder/site07/test/magazin_5" type="jpg" expires="2100-01-01" src="/cms/work/bilder/site07/test/magazin_5-140x140.jpg" align="right"><copyright>© photocase</copyright> BILD </image>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-wow-03">
+        <image base-id="/cms/work/bilder/site07/test/magazin_6" type="jpg" expires="2100-01-01" src="/cms/work/bilder/site07/test/magazin_6-140x140.jpg" align="right">
+          <copyright>©</copyright>
+        </image>
+        <supertitle>Unausgesprochen</supertitle>
+        <title>Worte der Woche</title>
+        <text>... die leider nicht gesagt wurden. Von Roland Koch bis Carla Bruni. Eine Bildergalerie</text>
+        <byline/>
+        <short>
+          <title>Worte der Woche</title>
+          <text>... die leider nicht gesagt wurden</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/50/bg-wow-51" pos="1">
+            <title>Worte des Jahres</title>
+            <text>die 2008 wahrscheinlich leider nicht gesagt werden</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-weltraetsel" id="" sticky="">
+        <image base-id="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-weltraetsel/bg-weltraetsel" type="gif" expires="2100-01-01" src="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-weltraetsel/bg-weltraetsel-120x120.gif" align="right">
+          <copyright>© Getty Images, Wikipedia/ Montage: ZEIT-Grafik</copyright>
+        </image>
+        <supertitle>Weltprojekte</supertitle>
+        <title>Forschung für Milliarden</title>
+        <text>Die großen Welträtsel lösen Forscher nur noch in internationaler Zusammenarbeit. 20 wissenschaftliche Mammutprojekte und ihr Nutzen für die Menschheit im Porträt</text>
+        <byline/>
+        <short>
+          <title>Großforschung</title>
+          <text>20 wissenschaftliche Mammutprojekte. Eine Galerie</text>
+        </short>
+        <related>
+          <block href="http://kommentare.zeit.de/commentsection/url/online/2008/02/bg-weltraetsel" pos="1">
+            <title>Diskutieren Sie mit:</title>
+            <text>Ist Großforschung Geldverschwendung?</text>
+          </block>
+          <block href="cms:/cms/work/2008/01/WP-Editorial" pos="2">
+            <title>Forschungswelt</title>
+            <text>Vorbildliche Internationalität</text>
+          </block>
+          <block layout="" priority="" href="cms:/cms/work/online/2007/52/teilchenbeschleuniger-cern">
+            <title>Teilchenphysik</title>
+            <text>Suche nach dem "Gottesteilchen"</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-beauvoir">
+        <image base-id="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-beauvoir/bg-beauvoir" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-beauvoir/bg-beauvoir-120x120.jpg" align="right">
+          <copyright>© Getty Images</copyright>
+        </image>
+        <supertitle>Geburtstag</supertitle>
+        <title>Was ist eine Frau?</title>
+        <text>Die Philosophin Simone de Beauvoir wäre am 9. Januar 100 Jahre alt geworden. Ihr unkonventionelles Leben ist immer noch faszinierend. Ein Porträt in Text und Bild</text>
+        <short>
+          <title>Simone de Beauvoir</title>
+          <text>Galerie zum 100. Geburtstag der Frauenvorkämpferin</text>
+        </short>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-volksfeste">
+        <image base-id="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-volksfeste/bg-volksfeste" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-volksfeste/bg-volksfeste-120x120.jpg" align="right"/>
+        <supertitle>Kalender</supertitle>
+        <title>Schöne Sitten</title>
+        <text>Schreien, buhlen, bimmeln &#8211; zehn europäische Volksfeste, wie sie nicht jeder kennt.</text>
+        <byline>Von Günter Schenk</byline>
+        <short>
+          <title>Volksfest-Kalender</title>
+          <text>Wir zeigen Ihnen, wo Sie was erleben können</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-bayerntrainer" id="" sticky="">
+        <image base-id="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-bayerntrainer/bg-bayerntrainer" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-bayerntrainer/bg-bayerntrainer-120x120.jpg" align="right">
+          <copyright>© Foto: Getty Images; Montage: ZEIT online Grafik</copyright>
+        </image>
+        <supertitle>FC Bayern </supertitle>
+        <title>Daum nach München?&#13;
+</title>
+        <text>Wer wird Nachfolger von Ottmar Hitzfeld beim FC Bayern? Wir hätten da ein paar Vorschläge, auf die Sie wahrscheinlich noch nicht gekommen sind</text>
+        <byline/>
+        <short>
+          <title>FC Bayern </title>
+          <text>Wer wird neuer Trainer? Einige Vorschläge</text>
+        </short>
+        <related>
+          <block href="http://kommentare.zeit.de/commentsection/url/online/2008/02/bg-bayerntrainer">
+            <title>Spekulieren Sie mit!</title>
+            <text>Wer beerbt Hitzfeld?</text>
+          </block>
+          <block href="cms:/cms/work/online/2007/24/bg-fc-bayern" pos="1">
+            <title>Die neuen Bayern</title>
+            <text>Eine Bildergalerie der neuen Bayern</text>
+          </block>
+        </related>
+      </block>
+      <block href="http://zuender.zeit.de/2008/01/interview-velvet-damour-model">
+        <supertitle>Übergröße</supertitle>
+        <title>150 Kilo Selbstbewusstsein</title>
+        <text>Das Model Velvet d’Amour ist dick und gerade deswegen erfolgreich. Ein Interview über Hintern, Diäten und die Schönheit von Zwergen</text>
+        <short>
+          <title>150 pralle Kilo</title>
+          <text>Interview mit dem Model Velvet d’Amour</text>
+        </short>
+        <image base-id="/cms/work/bilder/zuender/2008/01/plus-size-model/plus-size-model" type="jpg" expires="2008-01-15" src="/cms/work/bilder/zuender/2008/01/plus-size-model/plus-size-model-120x120.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+      <block layout="" priority="" href="http://hermes.zeit.de/spiele/ed/index_gates.php">
+        <title>Spiel</title>
+        <text>Bill Gates wird Privatier: Erinneren Sie sich mit uns an seine wegweisenden Momente </text>
+        <short>
+          <title>Bill Gates</title>
+          <text>Der Microsoft-Gründer tritt ab. Ein Erinnere Dich-Spiel</text>
+        </short>
+        <image expires="2100-01-01" src="/cms/work/bilder/2008/standards/leben/spiele/erinnere-dich/ed-gates/ed-gates-120x120.jpg" align="right"><copyright>©</copyright> Getty </image>
+      </block>
+      <block href="http://blog.zeit.de/clara/">
+        <supertitle>Liebesdinge</supertitle>
+        <title>Moderner Napoleon</title>
+        <text>Frankreichs frisch geschiedener Präsident Sarkozy hat die hübesche Carla Bruni im Sturm erobert und möchte sie nun im Blitztempo ehelichen</text>
+        <short>
+          <title>Moderner Napoleon</title>
+          <text>Sarkozy möchte Carla Bruni blitzheiraten</text>
+        </short>
+        <image base-id="/cms/work/bilder/2007/weblogs-neu/clarasloft/clarasloft" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/weblogs-neu/clarasloft/clarasloft-120x120.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/02/bg-unterwasser">
+        <image base-id="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-unterwasser/bg-unterwasser" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/02/bildergalerien/teaser/bg-unterwasser/bg-unterwasser-120x120.jpg" align="right">
+          <copyright>© Jeffrey L. Rotman / Knesebeck Verlag</copyright>
+        </image>
+        <supertitle>Bildband</supertitle>
+        <title>Ganz nah dran</title>
+        <text>Die Unterwasserparadiese des Fotografen Jeffrey L. Rotman lösen Begeisterung für die geheimnisvolle Welt unter dem Meeresspiegel aus. Wir zeigen eine Auswahl der Bilder</text>
+        <byline/>
+        <short>
+          <title>Ganz nah dran</title>
+          <text>Unterwasserparadiese weltweit</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/01/bg-birkin">
+        <image base-id="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-birkin/bg-birkin" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-birkin/bg-birkin-120x120.jpg" align="right">
+          <bu>10th March 1966:  Model and actress Jane Birkin.  (Photo by Stephan C. Archetti/Keystone Features/Getty Images)</bu>
+          <copyright>© Stephan C. Archetti/Keystone Features/Getty Images</copyright>
+        </image>
+        <supertitle>Film</supertitle>
+        <title>Jane Birkin </title>
+        <text>Die Schauspielerin und Sängerin Jane Birkin war ein Sexsymbol der 68er. Ihr Leben in Bildern und Zitaten.</text>
+        <short>
+          <title>Jane Birkin </title>
+          <text>Das Leben der 68er-Ikone in Bildern</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/2008/02/Jane-Birkin-02" pos="1">
+            <title>Sexsymbol</title>
+            <text>Hausbesuch bei Jane Birkin</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="http://hermes.zeit.de/spiele/ed/index_rauchen.php">
+        <image type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/standards/leben/spiele/erinnere-dich/ed-rauchen/ed-rauchen-120x120.jpg" align="right">
+          <copyright>© Getty Images</copyright>
+        </image>
+        <supertitle>Spiel </supertitle>
+        <title>Da raucht der Kopf</title>
+        <text>Deutschland wird rauchfrei. Merken Sie sich die Gesichter und erinneren Sie sich an verqualmte Zeiten. Ein Spiel</text>
+        <byline/>
+        <short>
+          <title>Qualmende Köpfe</title>
+          <text>Merken Sie sich diese Gesichter. Ein Spiel </text>
+        </short>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/01/bg-blogger" id="" sticky="">
+        <image base-id="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-blogger/bg-blogger" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-blogger/bg-blogger-120x120.jpg" align="right">
+          <copyright>© Andreas Chudowski</copyright>
+        </image>
+        <supertitle>Weblogs</supertitle>
+        <title>Guck mal, wer da schreibt</title>
+        <text>Wer im Netz bloggt, muss keineswegs exzentrisch sein. Ein Blick auf einige von Deutschlands bekanntesten Bloggern als Text-Bild-Galerie. </text>
+        <byline/>
+        <short>
+          <title>Weblogs</title>
+          <text>Ein Blick auf die bekanntesten deutschen Blogger</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/01/bg-diego">
+        <image base-id="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-diego/bg-diego" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-diego/bg-diego-120x120.jpg" align="right">
+          <copyright>© Getty Images</copyright>
+        </image>
+        <supertitle>Diego Maradona</supertitle>
+        <title>Goldjunge, Mythos und Gott</title>
+        <text>Diego Maradona ist der Fußballheld Argentiniens. Die Bilder seines Lebens sprechen vom Siegen und Scheitern. Eine Galerie</text>
+        <byline/>
+        <short>
+          <title>Diego Maradona</title>
+          <text>Bilder eines Fußballhelden</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="http://spiele.zeit.de/rechtschreibquiz/rechtschreibquiz.php" id="" sticky="">
+        <supertitle>Spiel</supertitle>
+        <title>Rechtschreibung</title>
+        <text>Eine Geldbörse ist ein Portmonee? Oder doch eher ein Portemonee? Ein Sprach-Quiz</text>
+        <short>
+          <title>Rechtschreibung</title>
+          <text>50 Fragen zur deutschen Sprache. Ein Quiz</text>
+        </short>
+        <image base-id="/cms/work/bilder/2007/standards-neu/leben/spiele/rechtschreibquiz/rechtschreibquiz" type="jpg" expires="2008-01-08" src="/cms/work/bilder/2007/standards-neu/leben/spiele/rechtschreibquiz/rechtschreibquiz-120x120.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/01/bg-devotionalien" id="" sticky="">
+        <image base-id="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-devotionalien/bg-devotionalien" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/01/bildergalerien/teaser/bg-devotionalien/bg-devotionalien-120x120.jpg" align="right">
+          <copyright>© Jutta Schein</copyright>
+        </image>
+        <supertitle>Polit-Devotionalien</supertitle>
+        <title>Die Welt als Mitbringsel</title>
+        <text>Erinnerungsstücke von Reisen wirken daheim oft deplatziert. Diese hier aus dem Fundus der ZEIT-Redaktion sind von bleibender Skurilität. Eine Bildergalerie</text>
+        <byline/>
+        <short>
+          <title>Polit-Devotionalien</title>
+          <text>Die Welt als Mitbringsel. Bildergalerie</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/50/bg-rueckblick-aussen" pos="1">
+            <title>Jahresrückblick</title>
+            <text>auf die internationalen Ereignisse</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/01/bg-brasilien">
+        <image base-id="/cms/work/bilder/2007/49/bildergalerien/teaser/bg-brasilien/bg-brasilien" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/49/bildergalerien/teaser/bg-brasilien/bg-brasilien-120x120.jpg" align="right">
+          <copyright>© Christine Wollowski</copyright>
+        </image>
+        <supertitle>Brasilien</supertitle>
+        <title>Wo Mensch und Eidechse sich Gute Nacht sagen</title>
+        <text>Auf der kleinen brasilianischen Insel Fernando de Noronha lebt es sich noch fast wie im Paradies. Christine Wollowski berichtet in Wort und Bild vom süßen Leben dort</text>
+        <byline>Von Christine Wollowski</byline>
+        <short>
+          <title>Brasilien</title>
+          <text>Süßes Leben auf Fernando de Noronha</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-lieblingslieder" id="" sticky="">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-lieblingslieder/bg-lieblingslieder" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-lieblingslieder/bg-lieblingslieder-120x120.jpg" align="right">
+          <copyright>©</copyright>
+        </image>
+        <supertitle>Jahresrückblick</supertitle>
+        <title>Lieblingslieder 2007</title>
+        <text>Innerhalb eines Jahres kommen und gehen viele Melodien, nur wenige bleiben. Unsere Musikredaktion stellt ihre persönlichen Herzstücke vor. Eine Galerie in Bild, Ton und Text</text>
+        <byline/>
+        <short>
+          <title>Lieblingslieder 2007</title>
+          <text>Die 10 Herzstücke unserer Musikredaktion</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/52/jahresrueckblick-matzke" pos="1">
+            <title>Kritikerpapst 2007</title>
+            <text>Unterhosenlos &#8211; ein Rückblick mit Volker Matzke</text>
+          </block>
+          <block href="cms:/cms/work/online/2007/52/jahresrueckblick-tontraeger" pos="2">
+            <title>Musik 2007</title>
+            <text>Die Platten des Jahres &#8211; 150 Kritiken im Rückblick</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-film-happyend" id="" sticky="">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-film-happyend/bg-film-happyend" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-film-happyend/bg-film-happyend-120x120.jpg" align="right">
+          <copyright>©</copyright>
+        </image>
+        <supertitle>Silvester</supertitle>
+        <title>Kiss Off</title>
+        <text>So nennt man in Hollywood den Kuss am Schluss. Feiern Sie Ihre guten Vorsätze für das neue Jahr mit sehnsüchtigen Blicken und innigen Umarmungen. Ein paar Beispiele</text>
+        <byline>Von Parvin Sadigh</byline>
+        <short>
+          <title>Silvester</title>
+          <text>Hollywood-Küsse als Vorbild für Ihren Start ins neue Jahr</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/themen/leben/gesellschaft/liebe/index" pos="1">
+            <title>Texte zur Liebe</title>
+            <text>Mit einem Schwerpunkt zur Partnersuche im Netz</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-zl-interviews">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-zl-interviews/bg-zl-interviews" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-zl-interviews/bg-zl-interviews-120x120.jpg" align="right">
+          <copyright>© Getty Images</copyright>
+        </image>
+        <supertitle>Jahresrückblick</supertitle>
+        <title>Wie ging es weiter für...</title>
+        <text>... die Fußballnationalspielerin Simone Laudehr, den Hersteller des G8-Strandkorbs und andere prominente Menschen des Jahres? Eine Bild-Text-Galerie </text>
+        <byline/>
+        <short>
+          <title>Jahresrückblick</title>
+          <text>Wie ging es weiter für...? Eine Galerie in Bildern und Texten</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-partykracher">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-partykracher/bg-partykracher" type="jpg" expires="2008-02-18" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-partykracher/bg-partykracher-120x120.jpg" align="right">
+          <copyright>©</copyright>
+        </image>
+        <supertitle>Silvesterexperimente</supertitle>
+        <title>Partykracher</title>
+        <text>Die ersten Gäste gähnen schon. Aufbruchstimmung macht sich breit? Bringen Sie mit wissenschaftlichen Experimenten Schwung in die Feier. Auf eigene Gefahr!</text>
+        <byline>Von Sigrid Neudecker (Text) und Gerald Bucher (Fotografie)</byline>
+        <short>
+          <title>Partykracher</title>
+          <text>Experimente für die Silvesterparty - auf eigene Gefahr!</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2008/01/roma-muenchen">
+        <image base-id="/cms/work/bilder/2008/01/leben/allgemein/muenchen/muenchen" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/01/leben/allgemein/muenchen/muenchen-120x120.jpg" align="left" alt="" border="" layout="" vspace="" width="">
+          <bu>Egal, ob Maximilianstraße oder der Odeonsplatz: Acuh in München steht die <strong>Innenstadt vor dem Ausverkauf</strong></bu>
+          <copyright>© Johannes Simon/Getty Images</copyright>
+        </image>
+        <supertitle>Schickeria</supertitle>
+        <title>Ciao Roma</title>
+        <text>Das Ende des Münchner Promicafés "Roma" steht für den Ausverkauf der Maximilianstraße - und ist damit nur ein Beispiel für die Verödung der Innenstädte.</text>
+        <byline>Von Georg Etscheit</byline>
+        <short>
+          <title>Schickeria</title>
+          <text>Auch die Münchner Maximilianstraße vor dem Ausverkauf</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/2006/44/Innenstadt_zu_verkaufen" pos="1">
+            <title>Innenstadt zu verkaufen</title>
+            <text>Die Firma ECE darf immer neue Einkaufscenter in die Citys klotzen. Die Kommunalpolitik gibt damit ihren Einfluss preis</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="http://hermes.zeit.de/spiele/ed/index_sekt.php">
+        <supertitle>Spiele</supertitle>
+        <title>Zwei Sekt, bitte!</title>
+        <text>Finden Sie die Kartenpaare in unserem Erinnere Dich zum Jahreswechsel </text>
+        <byline>von Nadine Querfurth</byline>
+        <short>
+          <title>Zwei Sekt, bitte!</title>
+          <text>Stoßen Sie schon mal an - in unserem Erinnere Dich</text>
+        </short>
+        <related/>
+        <image base-id="/cms/work/bilder/2008/standards/leben/spiele/erinnere-dich/ed-sekt/ed-sekt/ed-sekt" type="jpg" expires="2008-01-05" src="/cms/work/bilder/2008/standards/leben/spiele/erinnere-dich/ed-sekt/ed-sekt/ed-sekt-120x120.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/2008/01/Gstaad">
+        <image base-id="/cms/work/bilder/2008/01/leben/reisen/gstaad/gstaad" type="jpg" expires="2008-01-04" src="/cms/work/bilder/2008/01/leben/reisen/gstaad/gstaad-120x120.jpg" align="right">
+          <bu>Das Palace ist das Wahrzeichen von Gstaad. Da ist die gründliche Vorbereitung auf die Saison besonders wichtig</bu>
+          <copyright>© Pierre-Yves Massot für DIE ZEIT</copyright>
+        </image>
+        <supertitle>Schweiz</supertitle>
+        <title>Der Palastputz </title>
+        <text>Im Dezember eröffnet das Palace-Hotel im Schweizer Gstaad die Wintersaison. In den Tagen davor werden Teppiche ausgerollt, Uniformen anprobiert, Blinis gebacken. Und das Personal sieht den Direktor zum  letzten Mal in Jeans.</text>
+        <byline>Von Johannes Schweikle</byline>
+        <short>
+          <title>Der Palastputz </title>
+          <text>Die Wintersaison beginnt - auch in Gstaad</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/51/video-rueckblick-galerie">
+        <supertitle>Videos des Jahres</supertitle>
+        <title>Zurückgespult</title>
+        <text>Von Adorno, dem Hauptstadtwahnsinn und der Rauch-Prohibition: die schönsten und beliebtesten Videos von ZEIT online dieses Jahres. Eine Video-Galerie</text>
+        <byline/>
+        <short>
+          <title>Zurückgespult</title>
+          <text>Vom Rauchen bis zu Adorno: Die Videos des Jahres</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/50/jahresrueckblicke" pos="1">
+            <title>Jahresrückblicke</title>
+            <text>Was uns 2007 bewegte</text>
+          </block>
+        </related>
+        <image base-id="/cms/work/bilder/2007/standards-neu/video/allgemein/videorueckblick/videorueckblick" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/standards-neu/video/allgemein/videorueckblick/videorueckblick-120x120.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/30-jahre-magazin-4">
+        <image base-id="/cms/work/bilder/2008/standards/magazine/zeit-magazin-leben/vor-30-jahren/ZM-01-1978/ZM-01-1978" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2008/standards/magazine/zeit-magazin-leben/vor-30-jahren/ZM-01-1978/ZM-01-1978-120x120.jpg" align="right">
+          <bu>Senta Berger auf der Titelseite des ZEIT-Magazins vom 30. Dezember 1977</bu>
+          <copyright>© DIE ZEIT</copyright>
+        </image>
+        <supertitle>Zurückgeblättert</supertitle>
+        <title>ZEIT-Magazin vor 30 Jahren</title>
+        <text>In einer neuen Serie zeigen wir ehemalige Titelgeschichten aus dem ZEIT-Magazin. Am 30. Dezember 1977 ging es um die Frage der Sympathie: Wer steht auf wen?</text>
+        <byline/>
+        <short>
+          <title>Zurückgeblättert</title>
+          <text>Sympathie und Senta: ZEIT-Magazin vor 30 Jahren</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/48/30-jahre-magazin-1" pos="1">
+            <title>Zurückgeblättert</title>
+            <text>9. Dezember 1977: Frauen in Männerrollen</text>
+          </block>
+          <block href="cms:/cms/work/online/2007/50/30-jahre-magazin-2" pos="2">
+            <title>Rückblick</title>
+            <text>ZEIT-Magazin vor 30 Jahren</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/51/bg-rueckblick-tote" id="" sticky="">
+        <image base-id="/cms/work/bilder/2007/51/bildergalerien/teaser/bg-rueckblick-tote/bg-rueckblick-tote" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/51/bildergalerien/teaser/bg-rueckblick-tote/bg-rueckblick-tote-120x120.jpg" align="right">
+          <copyright>© Getty Images</copyright>
+        </image>
+        <supertitle>Jahresrückblick</supertitle>
+        <title>Für immer gegangen</title>
+        <text>Berühmte, wichtige und interessante Menschen, die im Jahr 2007 gestorben sind. </text>
+        <byline/>
+        <short>
+          <title>Im Gedenken an...</title>
+          <text>Wer 2007 für immer von uns ging</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/50/jahresrueckblicke" pos="1">
+            <title>Jahresrückblicke</title>
+            <text>Was uns 2007 bewegte</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/leben/geschmacksfragen/071228_randow" hide-hp="on" id="" sticky="">
+        <image base-id="/cms/work/bilder/2007/standards-neu/leben/geniessen/geschmacksfragen/geschmacksfragen" type="gif" expires="2100-01-01" src="/cms/work/bilder/2007/standards-neu/leben/geniessen/geschmacksfragen/geschmacksfragen-120x120.gif" align="right">
+          <copyright>© ZEIT online Grafik</copyright>
+        </image>
+        <supertitle>Geschmacksfrage</supertitle>
+        <title>Von der Gans in den Mund</title>
+        <text>Gänsestopfleber wächst nicht auf Bäumen, die Herstellung ist fragwürdig. Darf man seinen Gästen die Delikatesse trotzdem servieren? Eine logische Fallanalyse.</text>
+        <byline>Von Gero von Randow</byline>
+        <short>
+          <title>Geschmacksfrage</title>
+          <text>Darf man Gänsestopfleber essen?</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/leben/geschmacksfragen/index" pos="1">
+            <title>Geschmacksfragen</title>
+            <text>Alle Geschmacksfragen im Überblick</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-wirtschaft" id="" sticky="">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-wirtschaft/bg-wirtschaft" type="jpg" expires="2008-12-28" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-wirtschaft/bg-wirtschaft-120x120.jpg" align="right" alt="" border="" href="" layout="" vspace="" width=""/>
+        <supertitle>Wirtschaft 2007</supertitle>
+        <title>Ein bisschen Unbehagen</title>
+        <text>Aktienkurse rauf, Arbeitslosenzahl runter; eigentlich verlief das Jahr 2007 ganz gut. Leise Zweifel halten sich trotzdem. Ein ökonomischer Rückblick, besser: Eine Bilanz</text>
+        <byline/>
+        <short>
+          <title>2007 - Das war's</title>
+          <text>Eine ökonomische Bilanz des Jahres 2007</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/50/jahresrueckblicke" pos="1">
+            <title>Jahresrückblicke</title>
+            <text>Was uns 2007 bewegte</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-tv-jahr">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-tv-jahr/bg-tv-jahr" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-tv-jahr/bg-tv-jahr-120x120.jpg" align="right">
+          <copyright>©</copyright>
+        </image>
+        <supertitle>TV-Rückblick</supertitle>
+        <title>Alles andere als televisionär</title>
+        <text>Ein Rückblick auf das TV-Jahr 2007.</text>
+        <byline>Von Karin Geil</byline>
+        <short>
+          <title>TV-Rückblick</title>
+          <text>2007 war alles andere als televisionär</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/50/jahresrueckblicke" pos="1">
+            <title>Jahresrückblicke</title>
+            <text>Was uns 2007 bewegte</text>
+          </block>
+          <block href="cms:/cms/work/online/2007/38/bg-polit-talk" pos="2">
+            <title>Polit-Talkshows</title>
+            <text>Debattierclubs der Nation. Eine Galerie</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-bildbaende">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-bildbaende/bg-bildbaende" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-bildbaende/bg-bildbaende-120x120.jpg" align="right"/>
+        <supertitle>Bildbände</supertitle>
+        <title>Hildesheims Wilder Westen</title>
+        <text>Zwei Jahre Donau, 23 Stunden Rockerleben und ein Sommer auf dem Campingplatz - in den Fotobänden dieses Jahres war eine Menge los. Eine Auswahl</text>
+        <byline>von Simone Miesner</byline>
+        <short>
+          <title>  	Tibet, Donau, Hildesheim</title>
+          <text>Die schönsten Bildbände </text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/online/2007/48/bg-weiler" pos="1">
+            <title>Deutschlandreise</title>
+            <text>Der zauberhafte Bildband "Land in Sicht"</text>
+          </block>
+          <block href="cms:/cms/work/online/2007/45/bg-real-fun" pos="2">
+            <title>Polaroids</title>
+            <text>Was treiben Musiker abseits der Bühne?</text>
+          </block>
+        </related>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-neuseeland">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-neuseeland/bg-neuseeland" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-neuseeland/bg-neuseeland-120x120.jpg" align="right">
+          <copyright>© Nadine Querfurth</copyright>
+        </image>
+        <supertitle>Neuseeland</supertitle>
+        <title>Farbenspiele in Mittelerde</title>
+        <text>Es ist nicht grün, und Schafe gibt es auch keine. Trotzdem ist eine Wanderung durch Neuseelands Tongariro-Nationalpark ein ganz besonderes Erlebnis. Eine Bildergalerie</text>
+        <byline>von Nadine Querfurth</byline>
+        <short>
+          <title>Neuseeland</title>
+          <text>Farbenspiele in Mittelerde</text>
+        </short>
+        <related/>
+      </block>
+      <block layout="" priority="" href="cms:/cms/work/online/2007/52/bg-dresden" id="" sticky="">
+        <image base-id="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-dresden/bg-dresden" type="jpg" expires="2100-01-01" src="/cms/work/bilder/2007/52/bildergalerien/teaser/bg-dresden/bg-dresden-120x120.jpg" align="right">
+          <copyright/>
+        </image>
+        <supertitle>Weltkulturerbe</supertitle>
+        <title>Das grobe Klotzen</title>
+        <text>Der Bau der Waldschlösschenbrücke hat begonnen, das Elbtal ist verloren: Dresden stürzt in seine Vergangenheit totalitärer Landschaftsschändung zurück. Bilderchronik einer Zerstörung.</text>
+        <byline>Von Evelyn Finger</byline>
+        <short>
+          <title>Welterbe Elbtal</title>
+          <text>Bilderchronik einer Zerstörung</text>
+        </short>
+        <related>
+          <block href="cms:/cms/work/2007/12/Spitze-Dresden" pos="1">
+            <title>Deutsche Blamage</title>
+            <text>Elbtalbrücke schwächt unser weltweites Ansehen</text>
+          </block>
+          <block href="cms:/cms/work/2007/48/Dresden-Waldschloesschenbruecke" pos="2">
+            <title>Dumm baut gut</title>
+            <text>Dresdens Behörden behindern Tunnelalternative</text>
+          </block>
+        </related>
+      </block>
+    </container>
+  </body>
+</centerpage>

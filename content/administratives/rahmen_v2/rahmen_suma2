@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="frame">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">STUDIENGÄNGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2016-04-11T08:03:46.201859+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-06-25T14:18:36.344778+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2016-04-11T08:04:05.873365+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2016-04-11T08:04:05.778978+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-07-24T09:20:34.994598+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-07-24T09:32:43.915468+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-07-24T09:16:21.052449+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.pannen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Studium</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Studiengaenge</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">frame</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b36c67bd-39bf-44d2-9ab6-6dc2aba347df}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">24</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead" automatic="False"/>
+      <region area="informatives">
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-5272e1fe-2d4f-4251-9cf4-8924e03ea400" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/studium/sit-teaserlink" year="2014" ressort="Studium" contenttype="link" publication-date="" expires="" ns0:href="http://studiengaenge.zeit.de/sit?wt_mc=zeit_de.intern.teaser.suma.sit_logo.studiengaenge.zeit.de/sit.textlink.bild_text" ns0:target="_blank" date-last-modified="2014-05-16T10:04:27+00:00" date-first-released="2014-01-07T16:12:47.317624+00:00" date-last-published="2014-05-16T10:05:27.170374+00:00" last-semantic-change="2014-05-16T10:04:06.057932+00:00" uniqueId="http://xml.zeit.de/studium/sit-teaserlink">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str"> </title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/sit/sit_startseite_studiengaenge.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-1d82f28c-498a-4c2e-9286-d10b9f57fbbb">
+          <raw>
+            <iframe scrolling="no" frameborder="0" style="margin:0; padding:0 0 10px; border:none; overflow:hidden; width:100%; height:100%;" src="http://ranking.zeit.de/che2015/de/sumaTeaser?selected=2"/>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-2d9618f3-de19-4236-85ae-2f339d28eef4">
+          <raw>
+            <li class="inf-doubleteaser">
+              <ul class="clear">
+                <li class="inf-doubleteaser-article">
+                  <a title="SIT - Studium-Interessentest" href="http://studiengaenge.zeit.de/sit?wt_zmc=fix.int.zonpmr.suma_startseite.sit_teaser.sit_startseite.teaser.fragezeichen.x&amp;utm_medium=fix&amp;utm_source=suma_startseite_zonpmr_int&amp;utm_campaign=sit_teaser&amp;utm_content=sit_startseite_teaser_fragezeichen_x">
+                    <img class="left" width="150" height="85" alt="" src="http://ranking.zeit.de/che2015/images/2014/sit2.jpg"/>
+                  </a>
+                  <h2>
+                    <a title="SIT - Studium-Interessentest" href="http://studiengaenge.zeit.de/sit?wt_zmc=fix.int.zonpmr.suma_startseite.sit_teaser.sit_startseite.teaser.fragezeichen.x&amp;utm_medium=fix&amp;utm_source=suma_startseite_zonpmr_int&amp;utm_campaign=sit_teaser&amp;utm_content=sit_startseite_teaser_fragezeichen_x">
+                      <span class="inf-doubleteaser-supertitle">Studium-Interessentest</span>
+                      <span class="inf-doubleteaser-title">SIT hilft bei der Studienwahl</span>
+                    </a>
+                  </h2>
+                  <p class="inf-doubleteaser-teaser">Welcher Studiengang passt zu mir? Finden Sie es heraus - mit SIT, dem neuen Studium-Interessentest von ZEIT ONLINE und der HRK.</p>
+                </li>
+                <li class="inf-doubleteaser-article">
+                  <a title="Uni-Rankings - CHE Hochschulranking mit neuen Ergebnissen" href="http://ranking.zeit.de/che2015/de/?wt_zmc=dis.int.zonpmr.sit/suma.ranking.ranking.teaser.ranking.x&amp;utm_medium=dis&amp;utm_source=sit/suma_zonpmr_int&amp;utm_campaign=ranking&amp;utm_content=ranking_teaser_ranking_x">
+                    <img class="left" width="150" height="85" alt="" src="http://www.zeit.de/studium/2015-05/che-hochschulranking-2015/che-hochschulranking-2015-148x84.jpg"/>
+                  </a>
+                  <h2>
+                    <a title="Uni-Rankings - CHE Hochschulranking mit neuen Ergebnissen" href="http://ranking.zeit.de/che2015/de/?wt_zmc=dis.int.zonpmr.sit/suma.ranking.ranking.teaser.ranking.x&amp;utm_medium=dis&amp;utm_source=sit/suma_zonpmr_int&amp;utm_campaign=ranking&amp;utm_content=ranking_teaser_ranking_x">
+                      <span class="inf-doubleteaser-supertitle">Uni-Rankings</span>
+                      <span class="inf-doubleteaser-title">CHE Hochschulranking mit neuen Ergebnissen</span>
+                    </a>
+                  </h2>
+                  <p class="inf-doubleteaser-teaser">Deutschlands größtes Hochschulranking ist jetzt mit neuen Ergebnissen online. Hier finden Sie heraus, was die umfangreiche Befragung von Hochschulen, Professoren und Studenten ergeben hat.</p>
+                </li>
+              </ul>
+            </li>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="39c0da06-4f19-4bd4-b72d-e7111688250f" title="Serviceangebote des ZEIT-Verlags">
+          <raw>
+            <ul class="clear">
+              <li class="narrow">
+                <ul>
+                  <li>
+                    <a href="http://marktplatz.zeit.de/advertorial/maastricht-university" rel="follow">Universität Maastricht</a>
+                  </li>
+                  <li>
+                    <a href="http://studiengaenge.zeit.de/sit?wt_zmc=fix.int.zonpmr.zeitde.servicelinks.sit_interessentest.servicelink.link.x&amp;utm_medium=fix&amp;utm_source=zeitde_zonpmr_int&amp;utm_campaign=servicelinks&amp;utm_content=sit_interessentest_servicelink_link_x" rel="follow">Studium-Interessentest</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="narrow nomargin">
+                <ul>
+                  <li>
+                    <a href="https://premium.zeit.de/?wt_zmc=cross.int.zonpme.zeitde.serviceangebote.premium.text.zeitdigitalpaket.zeitdigitalpaket&amp;utm_medium=cross&amp;utm_source=zeitde_zonpme_int&amp;utm_campaign=serviceangebote&amp;utm_content=premium_text_zeitdigitalpaket_zeitdigitalpaket" rel="nofollow">ZEIT Digital-Paket</a>
+                  </li>
+                  <li>
+                    <a href="http://jobs.zeit.de/?wt_zmc=fix.int.zonpmr.zeitde.servicelinks.stellenmarkt.servicelink.link.x&amp;utm_medium=fix&amp;utm_source=zeitde_zonpmr_int&amp;utm_campaign=servicelinks&amp;utm_content=stellenmarkt_servicelink_link_x" rel="nofollow">Stellenmarkt</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-ca9f2851-ae21-4374-a140-381f5c22e13c">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/studium/2014-07/digital-abo-studenten" uniqueId="http://xml.zeit.de/studium/2014-07/digital-abo-studenten" year="2014" issue="30" ressort="Studium" contenttype="link" publication-date="" expires="" ns0:href="https://premium.zeit.de/backbone/subscribe.html?wt_mc=pm.intern.fix.suma.launch.digipak.teaser.studi#order/1182865" date-last-modified="2014-07-21T13:14:22+00:00" date-first-released="2014-07-21T13:10:24.938881+00:00" date-last-published="2014-07-21T13:15:22.569308+00:00" last-semantic-change="2014-07-21T13:14:03.737668+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">NEU: Die digitale ZEIT für Studenten</title>
+            <text py:pytype="str">Holen Sie sich die digitale ZEIT für nur 2,65 € pro Ausgabe und ZEIT CAMPUS als E-Paper gratis dazu. Jetzt sichern!</text>
+            <description py:pytype="str">Holen Sie sich die digitale ZEIT für nur 2,65 € pro Ausgabe und ZEIT CAMPUS als E-Paper gratis dazu. Jetzt sichern!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/2014-07/digital-abo-studenten-1/" type="jpg" title="Die digitale Zeit für Studenten" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-561de2f5-eff5-48d5-b289-48904bfeb749">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-c63a4123-f80c-47d4-8245-15ef0f7818e5">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/studium/2015-05/che-ranking-2015" uniqueId="http://xml.zeit.de/studium/2015-05/che-ranking-2015" year="2015" issue="18" ressort="Studium" contenttype="link" publication-date="" expires="" ns0:href="http://ranking.zeit.de/che2015/de/?wt_zmc=dis.int.zonpmr.sit/suma.ranking.ranking.teaser.ranking.x&amp;utm_medium=dis&amp;utm_source=sit/suma_zonpmr_int&amp;utm_campaign=ranking&amp;utm_content=ranking_teaser_ranking_x" date-last-modified="2015-09-01T14:01:30+00:00" date-first-released="2015-05-04T12:35:13.470209+00:00" date-last-published="2015-06-18T13:17:42.781255+00:00" last-semantic-change="2015-06-18T13:02:05.277908+00:00">
+            <supertitle py:pytype="str">Uni-Ranking</supertitle>
+            <title py:pytype="str">CHE Hochschulranking – mit neuen Ergebnissen</title>
+            <text py:pytype="str">Deutschlands größtes Hochschulranking ist mit neuen Ergebnissen online. Finden Sie heraus, was die Befragung von Hochschulen, Professoren und Studenten ergeben hat.</text>
+            <description py:pytype="str">Deutschlands größtes Hochschulranking ist mit neuen Ergebnissen online. Finden Sie heraus, was die Befragung von Hochschulen, Professoren und Studenten ergeben hat.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/2015-05/che-hochschulranking-2015/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://deutsch.istockphoto.com/stock-photo-47425118-group-of-diverse-people-listening-to-the-speaker.php?st=19f9cbb">© Rawpixel Ltd</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-431b5fba-2379-4739-a0f3-94e799c463bb">
+          <block href="http://xml.zeit.de/studium/uni-leben/2015-03/zu-hause-ausziehen-studium-scheitern" uniqueId="http://xml.zeit.de/studium/uni-leben/2015-03/zu-hause-ausziehen-studium-scheitern" year="2015" issue="12" ressort="Studium" serie="Studenten und Eltern" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-03-31T07:50:00+00:00" date-first-released="2015-03-31T05:08:53.328840+00:00" date-last-published="2015-03-31T07:51:00.490647+00:00" last-semantic-change="2015-03-31T05:07:34.937536+00:00" author="Luanna Höferer">
+            <supertitle py:pytype="str">Zu Hause ausziehen</supertitle>
+            <title py:pytype="str">An der Uni sah ich lauter perfekte Lebewesen</title>
+            <text py:pytype="str">Unsere Autorin machte ihren Selbstwert lange nur an Leistungen fest. Gescheitert kehrte sie ins Hotel Mama zurück. Und wurde an einer Massenuni ohne Prestige glücklich. </text>
+            <description py:pytype="str">Unsere Autorin machte ihren Selbstwert lange nur an Leistungen fest. Gescheitert kehrte sie ins Hotel Mama zurück. Und wurde an einer Massenuni ohne Prestige glücklich. </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2015-03/umzug-moebel/" type="jpg" title="Umzugskisten und Möbel" alt="Umzugskisten und Möbel auf einem Gehsteig" publication-date="" expires="">
+              <bu py:pytype="str">Kein Zeichen von Größenwahn zu sehen</bu>
+              <copyright py:pytype="str">© Dominic/Photocase</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Luanna_Hoeferer/index" publication-date="" expires="">
+              <display_name py:pytype="str">Luanna Höferer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-64bd0e2c-20e6-4027-b95d-ea776d1b86f7">
+          <block href="http://xml.zeit.de/studium/2015-02/anwesenheitspflicht-studenten-universitaeten" uniqueId="http://xml.zeit.de/studium/2015-02/anwesenheitspflicht-studenten-universitaeten" year="2015" issue="5" ressort="Studium" contenttype="article" publication-date="" expires="" genre="gastbeitrag" date-last-modified="2016-03-21T13:01:13+00:00" date-first-released="2015-02-05T14:15:53.489101+00:00" date-last-published="2015-12-10T02:35:30.290410+00:00" last-semantic-change="2015-02-05T14:14:49.984388+00:00" author="Danae Ankel;Stephan Liedtke">
+            <supertitle py:pytype="str">Anwesenheitspflicht</supertitle>
+            <title py:pytype="str">Wir Dozenten sind nicht eure Vorturner!</title>
+            <text py:pytype="str">"Studenten, bleibt zu Hause", fordert eine ZEIT-ONLINE-Redakteurin. Eine Replik: Die Uni ist kein Kindergarten für Faule. Vier Gründe für die Anwesenheitspflicht.</text>
+            <description py:pytype="str">"Studenten, bleibt zu Hause", fordert eine ZEIT-ONLINE-Redakteurin. Eine Replik: Die Uni ist kein Kindergarten für Faule. Vier Gründe für die Anwesenheitspflicht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/2015-02/hoersaal-uni-bochum/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Diese Studenten sind gekommen. Freiwillig oder mit Anwesenheitsliste?</bu>
+              <copyright py:pytype="str">© Daniel Naupold/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Danae_Ankel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Danae Ankel</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/L/Stephan_Liedtke/index" publication-date="" expires="">
+              <display_name py:pytype="str">Stephan Liedtke</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-f3c7a128-3072-4897-9a80-f4bae8389efd">
+          <block href="http://xml.zeit.de/campus/2015/01/masterstudium-bewerbung-gutachten-ausland-ratgeber" uniqueId="http://xml.zeit.de/campus/2015/01/masterstudium-bewerbung-gutachten-ausland-ratgeber" year="2015" issue="1" ressort="Studium" contenttype="article" publication-date="" expires="" date-last-modified="2016-01-10T14:30:22+00:00" date-first-released="2015-01-22T10:46:44.419826+00:00" date-last-published="2015-01-22T11:47:05.207099+00:00" last-semantic-change="2015-01-22T10:45:37.744661+00:00" author="Selina Thaler">
+            <supertitle py:pytype="str">Ratgeber</supertitle>
+            <title py:pytype="str">Fast alle Antworten zum Master</title>
+            <text py:pytype="str">Wann muss ich mich kümmern? Kann ich ohne Master Chef werden? Welches Fach ist seriös? Sind meine Noten zu schlecht? 23 Antworten für Unentschlossene</text>
+            <description py:pytype="str">Wann muss ich mich kümmern? Kann ich ohne Master Chef werden? Welches Fach ist seriös? Sind meine Noten zu schlecht? 23 Antworten für Unentschlossene</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/2015-01/masterstudium-bewerbung-gutachten/" type="jpg" title="Ratgeber: Masterstudium " alt="Ratgeber: Masterstudium " publication-date="" expires="">
+              <bu py:pytype="str">Master machen oder arbeiten?</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/212673-stock-photo-natur-blau-rot-liebe-gefuehle-park">© misterQM/photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/T/Selina_Thaler/index" publication-date="" expires="">
+              <display_name py:pytype="str">Selina Thaler</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-a13169c3-d0b9-4555-a5c9-b87f71d95bbe">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-155af016-38f7-4c23-84df-b59e8514e3cf">
+          <block href="http://xml.zeit.de/studium/uni-leben/2015-03/duales-studium-bologna-enttaeuschung" uniqueId="http://xml.zeit.de/studium/uni-leben/2015-03/duales-studium-bologna-enttaeuschung" year="2015" issue="12" ressort="Studium" serie="Studenten und Eltern" contenttype="article" publication-date="" expires="" genre="leserartikel" date-last-modified="2015-04-03T17:11:57+00:00" date-first-released="2015-04-03T17:12:31.189455+00:00" date-last-published="2015-04-03T17:12:56.861343+00:00" last-semantic-change="2015-04-03T17:11:27.151345+00:00" author="Tobias Joeres">
+            <supertitle py:pytype="str">Duales Studium</supertitle>
+            <title py:pytype="str">Wilde Partys? Vergiss es!</title>
+            <text py:pytype="str">Nach dem Abi nervte mein Lotterleben meine Eltern. Ich wollte nur raus und studieren, hoffte auf hitzige Diskussionen und verrückte Partys. Dann kam die Ernüchterung.</text>
+            <description py:pytype="str">Nach dem Abi nervte mein Lotterleben meine Eltern. Ich wollte nur raus und studieren, hoffte auf hitzige Diskussionen und verrückte Partys. Dann kam die Ernüchterung.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2015-03/duales-studium-party/" type="jpg" title="Duales Studium: Wilde Partys? Vergiss es!" alt="Duales Studium: Wilde Partys? Vergiss es!" publication-date="" expires="">
+              <bu py:pytype="str">Studenten feiern ständig? Nicht alle. </bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/23129-stock-photo-rot-party-feste-feiern-menschengruppe-tanzen-disco">© Carlos G./photocase.de</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/J/Tobias_Joeres/index" publication-date="" expires="">
+              <display_name py:pytype="str">Tobias Joeres</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-414fb114-cc76-4a5f-9a3f-e1902783487f">
+          <block href="http://xml.zeit.de/studium/uni-leben/2014-09/quiz-studium-generale-statistik-2" uniqueId="http://xml.zeit.de/studium/uni-leben/2014-09/quiz-studium-generale-statistik-2" year="2014" issue="37" ressort="Studium" serie="Studium Generale" contenttype="quiz" publication-date="" expires="" date-last-modified="2015-03-15T17:05:31+00:00" date-first-released="2014-09-08T04:25:56.615392+00:00" date-last-published="2014-09-08T04:26:28.040399+00:00" last-semantic-change="2014-09-08T04:24:17.657630+00:00">
+            <supertitle py:pytype="str">Was studieren?</supertitle>
+            <title py:pytype="str">Einführung in die Statistik</title>
+            <text py:pytype="str">Für die einen ist Statistik eine ausgefeilte Form der Wahrheitsverdrehung, für die anderen Poesie in Zahlen und Daten. Testen Sie Ihr Wissen in unserem Quiz! </text>
+            <description py:pytype="str">Für die einen ist Statistik eine ausgefeilte Form der Wahrheitsverdrehung, für die anderen Poesie in Zahlen und Daten. Testen Sie Ihr Wissen in unserem Quiz! </description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2014-09/quiz-studium-generale-statistik-2-2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Yasuyoshi Chiba/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-a1a20534-39b2-4849-a34a-3eb4e8ea0697">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/studium/studiengaenge/2015-04/jetztStudienfuehrer" uniqueId="http://xml.zeit.de/studium/studiengaenge/2015-04/jetztStudienfuehrer" year="2015" issue="18" ressort="Studium" contenttype="link" publication-date="" expires="" ns0:href="http://premium.zeit.de/studienfuehrer" ns0:target="_blank" date-last-modified="2015-05-12T12:14:01+00:00" date-first-released="2015-04-30T12:09:06.197285+00:00" date-last-published="2015-05-12T11:10:27.682994+00:00" last-semantic-change="2015-05-12T12:13:24.541891+00:00">
+            <supertitle py:pytype="str">ZEIT Studienführer 2015/16</supertitle>
+            <title py:pytype="str">Studienwahl leicht gemacht</title>
+            <text py:pytype="str">Schnell und einfach das passende Studium finden. Erfahren Sie alles zu den Themen Studienwahl, Studienorte und Finanzierung. Jetzt bestellen!</text>
+            <description py:pytype="str">Schnell und einfach das passende Studium finden. Erfahren Sie alles zu den Themen Studienwahl, Studienorte und Finanzierung. Jetzt bestellen!</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/studiengaenge/2015-04/grossteaserstudienfuehrer-220x124/" type="jpg" title="teaserstudienführer-220x124" href="https://premium.zeit.de/studienfuehrer" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">(no value available)</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-ad48008c-4405-4b28-a40c-6e095edc8a61">
+          <block href="http://xml.zeit.de/campus/2015/s2/studienwahl-entscheidung-impuls-psychologie" uniqueId="http://xml.zeit.de/campus/2015/s2/studienwahl-entscheidung-impuls-psychologie" year="2015" ressort="Studium" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2015-04-02T07:40:47+00:00" date-first-released="2015-03-22T16:10:57.450641+00:00" date-last-published="2015-04-02T07:41:46.912388+00:00" last-semantic-change="2015-03-22T16:09:54.527645+00:00" author="Magdalena Hamm">
+            <supertitle py:pytype="str">Studienwahl</supertitle>
+            <title py:pytype="str">"Ich muss mein eigener Anwalt des Teufels sein"</title>
+            <text py:pytype="str">Die Suche nach dem perfekten Master beginnt. Kopf oder Bauch? Die Entscheidungspsychologin Katrin Fischer erklärt, warum der erste Impuls nicht immer der beste ist.</text>
+            <description py:pytype="str">Die Suche nach dem perfekten Master beginnt. Kopf oder Bauch? Die Entscheidungspsychologin Katrin Fischer erklärt, warum der erste Impuls nicht immer der beste ist.</description>
+            <byline py:pytype="str">von Magdalena Hamm</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/uni-leben/2015-03/studienwahl-was-will-ich-wirklich/" type="jpg" title="Studienwahl: Was will ich wirklich?" alt="Studienwahl: Was will ich wirklich?" publication-date="" expires="">
+              <bu py:pytype="str">Soll ich lieber auf den Bauch oder Kopf hören?</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/330507-stock-photo-mensch-jugendliche-junge-frau-erwachsene-feminin-18-30-jahre">© Ballonkistenmann/photocase</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Magdalena_Hamm/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Magdalena Hamm</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title> Rahmen Studiengänge 2014</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title> </title>
+  </teaser>
+</centerpage>

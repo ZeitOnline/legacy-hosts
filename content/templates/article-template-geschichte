@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-05-04T12:36:31.748763+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-11-12T16:52:54.862599+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-05-04T12:36:37.853099+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-05-04T12:37:37.787224+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-01-14T09:37:56.539808+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-05-04T12:36:15.642035+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.stockrahm</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">718320392</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2010-08-24T00:04:04+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Geschichte</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b5139a5a-170f-4d3a-ac1d-757ffa2574fd}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="588be2fc-c627-4cc3-9a57-1f4abe2ef230">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="97c7eb20-f1a3-485a-baa4-61f512ba3f96">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-5eb60c5f-5ab4-404d-a1aa-17a942be2444">
+          <block href="http://xml.zeit.de/themen/1945" uniqueId="http://xml.zeit.de/themen/1945" year="2015" issue="17" ressort="Wissen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2015-05-04T12:31:54+00:00" date-first-released="2015-05-04T09:15:02.667007+00:00" date-last-published="2015-05-04T12:32:53.446675+00:00" last-semantic-change="2015-05-04T12:31:41.805050+00:00">
+            <supertitle py:pytype="str">1945</supertitle>
+            <title py:pytype="str">Ein Jahr zwischen Krieg und Frieden</title>
+            <text py:pytype="str">8. Mai 1945: Kriegsende in Europa, Tag der Befreiung. Mit der Kapitulation der verbrecherischen Nazi-Diktatur beginnt auch der Traum von einer neuen Welt. Ein Schwerpunkt</text>
+            <description py:pytype="str">8. Mai 1945: Kriegsende in Europa, Tag der Befreiung. Mit der Kapitulation der verbrecherischen Nazi-Diktatur beginnt auch der Traum von einer neuen Welt. Ein Schwerpunkt</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2015-04/1945-zweiter-weltkrieg-ende-header/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">US troops of the 69th Infantry Division (left), shake hands with Russian troops in a staged photo on the wrecked bridge over the Elbe at Torgau, Germany, to mark the previous day's link-up between American and Soviet forces, 26th April 1945. Among the Americans are Bernard E. Kirschenbaum and Richard Johnson (second and third from left, respectively). </bu>
+              <copyright py:pytype="str">© Allan Jackson/Hulton Archive/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2015-05/tagebuch-soldat-zweiter-weltkrieg-ende" uniqueId="http://xml.zeit.de/wissen/geschichte/2015-05/tagebuch-soldat-zweiter-weltkrieg-ende" year="2015" issue="18" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-04T12:31:54+00:00" date-first-released="2015-05-04T11:55:11.892127+00:00" date-last-published="2015-05-04T11:55:11.892127+00:00" last-semantic-change="2015-05-04T11:54:04.149618+00:00" author="Frank Schlößer">
+            <supertitle py:pytype="str">Tagebuch eines Soldaten</supertitle>
+            <title py:pytype="str">"Ich schoss mit der Pistole in seinen dicken Bauch"</title>
+            <text py:pytype="str">Er hasst nicht, er jammert nicht: Was der Sowjetsoldat Panarin 1945 in Deutschland erlebte, hielt er als Tagebuch fest. Ein seltener Einblick in den Alltag an der Front</text>
+            <description py:pytype="str">Er hasst nicht, er jammert nicht: Was der Sowjetsoldat Panarin 1945 in Deutschland erlebte, hielt er als Tagebuch fest. Ein seltener Einblick in den Alltag an der Front</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2015-04/tagebuch-soldat-zweiter-weltkrieg-ende-portraet/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Iwan Panarin (2. v. r.) und Kameraden.</bu>
+              <copyright py:pytype="str">© Kulturhistorisches Museum Rostock</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Frank_Schloesser/index" publication-date="" expires="">
+              <display_name py:pytype="str">Frank Schlößer</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="bd6a6c31-912e-47bc-9582-d92af45dc910">
+          <video videoID="2399721950001" player="pls" format="small"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-ca6c8abf-33df-441c-9d1e-77941aec2d2b" layout="368x220" title="Multimedialer Rückblick: Erster Weltkrieg">
+          <block type="intern" href="http://xml.zeit.de/wissen/geschichte/2014-01/erster-weltkrieg-1914-tagebuch" year="2014" issue="2" ressort="Wissen" contenttype="centerpage-2009" publication-date="" expires="" date-last-modified="2014-11-17T05:59:57+00:00" date-first-released="2014-01-13T14:38:26.666576+00:00" date-last-published="2014-11-17T06:00:57.609894+00:00" last-semantic-change="2014-07-01T06:08:21.505627+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2014-01/erster-weltkrieg-1914-tagebuch">
+            <badges>
+              <badge py:pytype="str">audio</badge>
+              <badge py:pytype="str">infographic</badge>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Multimedialer Rückblick</supertitle>
+            <title py:pytype="str">1914 - Tag für Tag in den Ersten Weltkrieg</title>
+            <text py:pytype="str">Immer heute vor 100 Jahren: Wie war der Alltag am Vorabend der Katastrophe? Mit dem TV-Sender Arte dokumentiert ZEIT ONLINE multimedial den Weg in den Ersten Weltkrieg.</text>
+            <description py:pytype="str">Immer heute vor 100 Jahren: Wie war der Alltag am Vorabend der Katastrophe? Mit dem TV-Sender Arte dokumentiert ZEIT ONLINE multimedial den Weg in den Ersten Weltkrieg.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2014-01/erster-weltkrieg/" type="jpg" title="Erster Weltkrieg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">1914:  Soldiers accompanied by their wives and girlfriends on the march during the mobilization of German forces.</bu>
+              <copyright py:pytype="str">© Picture Post/Hulton Archive/GettyImages</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title py:pytype="str">Multimedialer Rückblick: Erster Weltkrieg – Tag für Tag</breadcrumb_title>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/wissen/geschichte/2014-01/erster-weltkrieg-1914-arte-logo/erster-weltkrieg-1914-arte-logo-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="solr-month" cp:__name__="4eb2152f-6f87-4ce8-8e74-88c38f280744">
+          <cp_extra id="solr-month"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="b3770c2a-127c-44c9-8274-9c7c0a46a0df">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="331dc842-b3fb-4093-93e7-e35bd80f7b9b" title="Thema: Nationalsozialismus" visible="True">
+          <block href="http://xml.zeit.de/zeit-geschichte/2013/03/brueder-im-geiste-mussolini-hitler" year="2013" issue="3" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-08-30T08:42:48+00:00" date-first-released="2013-08-27T06:00:00+00:00" date-last-published="2013-08-30T08:43:47.256950+00:00" last-semantic-change="2013-08-30T05:17:01.613587+00:00" uniqueId="http://xml.zeit.de/zeit-geschichte/2013/03/brueder-im-geiste-mussolini-hitler" author="Volker Weiß">
+            <supertitle py:pytype="str">Diktatoren Europas</supertitle>
+            <title py:pytype="str">Mussolini und Hitler, die Faschisten-Freunde</title>
+            <text py:pytype="str">Nicht nur Adolf Hitler, sondern auch viele national gesinnte Intellektuelle begeisterten sich für den italienischen Faschistenführer Benito Mussolini.</text>
+            <description py:pytype="str">Nicht nur Adolf Hitler, sondern auch viele national gesinnte Intellektuelle begeisterten sich für den italienischen Faschistenführer Benito Mussolini.</description>
+            <byline py:pytype="str">von Volker Weiß</byline>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-08/hitler-mussolini-muenchen/" type="jpg" title="Hitler Mussolini Faschismus Diktator Nationalsozialismus" alt="Hitler Mussolini Faschismus Diktator Nationalsozialismus" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der italienische Diktator Benito Mussolini und Adolf Hitler am 1. September 1937 in München</bu>
+              <copyright py:pytype="str">© Fox Photos/Getty Images</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Diktatoren Europas</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/W/Volker_Weiss/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Volker Weiß</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/politik/2013-09/ns-verbrechen-prozess-bruins" year="2013" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-28T19:05:28+00:00" date-first-released="2013-08-31T22:00:00+00:00" date-last-published="2013-09-02T15:03:11.004884+00:00" last-semantic-change="2013-09-02T11:33:56.041565+00:00" uniqueId="http://xml.zeit.de/politik/2013-09/ns-verbrechen-prozess-bruins" author="Claudia von Salzen">
+            <supertitle py:pytype="str">Siert Bruins </supertitle>
+            <title py:pytype="str">Niederländer wegen NS-Verbrechen vor Gericht</title>
+            <text py:pytype="str">Vor dem Landgericht Hagen muss sich der 92-jährige Siert Bruins wegen Mordes verantworten. Er soll 1944 in den Niederlanden einen Widerstandskämpfer erschossen haben.</text>
+            <description py:pytype="str">Vor dem Landgericht Hagen muss sich der 92-jährige Siert Bruins wegen Mordes verantworten. Er soll 1944 in den Niederlanden einen Widerstandskämpfer erschossen haben.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-09/Siert-Bruins/" type="jpg" title="Siert Bruins Ns-Verbrechen Prozess" alt="Siert Bruins Ns-Verbrechen Prozess" align="left" publication-date="" expires="2014-01-02T12:27:22+00:00">
+              <bu py:pytype="str">2. September 2013: Siert Bruins, ehemals Mitglied der Waffen-SS, im Gerichtssaal in Hagen. Dem gebürtigen Niederländer wird der Mord an dem Widerstandskämpfer Aldert Klaas Dijkema vor 69 Jahren zur Last gelegt.</bu>
+              <copyright py:pytype="str">© Frank Augstein/AP/picture alliance</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <teaser_supertitle py:pytype="str">Siert Bruins </teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Claudia_von_Salzen" publication-date="" expires="">
+              <display_name py:pytype="str">Claudia von Salzen</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-06/nationalsozialismus-nsdap-hitler-rosenberg-tagebuch" year="2013" issue="23" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-29T13:40:47+00:00" date-first-released="2013-06-13T16:36:16.907660+00:00" date-last-published="2014-07-06T23:54:10+00:00" last-semantic-change="2013-06-13T14:01:30.886337+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-06/nationalsozialismus-nsdap-hitler-rosenberg-tagebuch" author="dpa  ">
+            <supertitle py:pytype="str">Alfred Rosenberg</supertitle>
+            <title py:pytype="str">Tagebücher von Hitlers Chefideologen aufgetaucht</title>
+            <text py:pytype="str">Die Notizen der Jahre 1934 bis 1944 galten als verschollen. Die Aufzeichnungen von Alfred Rosenberg könnten neue Erkenntnisse zur Judenvernichtung liefern.</text>
+            <description py:pytype="str">Die Notizen der Jahre 1934 bis 1944 galten als verschollen. Die Aufzeichnungen von Alfred Rosenberg könnten neue Erkenntnisse zur Judenvernichtung liefern.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-06/rosenberg/" type="jpg" title="Alfred Rosenberg " align="left" publication-date="" expires="">
+              <bu py:pytype="str">Alfred Rosenberg (1893 bis 1946), führender Ideologe der NSDAP, Porträtaufnahme aus der Zeit von 1933 bis 1945
+</bu>
+              <copyright py:pytype="str">© United States Holocaust Memorial Museum, courtesy of William Gallagher/Reuters</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Alfred Rosenberg</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/dpa">
+              <display_name>dpa</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-06/juden-reichsfinanzministerium-historikerkommission" year="2013" issue="23" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T18:14:23+00:00" date-first-released="2013-06-03T12:50:51.821998+00:00" date-last-published="2013-12-02T19:15:02+00:00" last-semantic-change="2013-06-03T12:49:13.738327+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-06/juden-reichsfinanzministerium-historikerkommission" author="Zacharias Zacharakis">
+            <supertitle py:pytype="str">Reichsfinanzministerium</supertitle>
+            <title py:pytype="str">Die braunen Plünderer jüdischer Vermögen</title>
+            <text py:pytype="str">Nicht nur der NS-Fiskus profitierte: Eine Studie zeigt erstmals, wie einzelne Finanzbeamte aus der Enteigung von Juden ihren Nutzen zogen. Von Zacharias Zacharakis</text>
+            <description py:pytype="str">Nicht nur der NS-Fiskus profitierte: Eine Studie zeigt erstmals, wie einzelne Finanzbeamte aus der Enteigung von Juden ihren Nutzen zogen. Von Zacharias Zacharakis</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/literatur/2013-06/stolpersteine/" type="jpg" title="Stolpersteine" alt="In der Regensburger Innenstadt erinnern Stolpersteine des Künstlers Gunter Demnig an die Opfer der Nazi-Diktatur." align="left" publication-date="" expires="2013-09-03T09:12:06+00:00">
+              <bu py:pytype="str">In der Regensburger Innenstadt erinnern Stolpersteine des Künstlers Gunter Demnig an die Opfer der Nazi-Diktatur.</bu>
+              <copyright py:pytype="str">© Armin Weigel/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Reichsfinanzministerium</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/Z/Zacharias_Zacharakis/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Zacharias Zacharakis</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/22/gewerkschaft-nationalsozialismus-dhv" year="2013" issue="22" ressort="Wissen" contenttype="article" publication-date="2013-05-30T01:59:11+00:00" expires="" date-last-modified="2013-06-03T06:45:06+00:00" date-first-released="2013-05-23T06:00:00+00:00" date-last-published="2013-06-02T17:15:28.537682+00:00" last-semantic-change="2013-06-02T14:59:48.442332+00:00" uniqueId="http://xml.zeit.de/2013/22/gewerkschaft-nationalsozialismus-dhv" author="Gunter Lange">
+            <supertitle py:pytype="str">Nationalsozialismus</supertitle>
+            <title py:pytype="str">Die Hitler-getreue Gewerkschaft der Angestellten</title>
+            <text py:pytype="str">Jedes Jahr gedenken Gewerkschaften ihrer von den Nazis ermordeten Mitglieder. Doch es gab eine, die schon früh mit Hitler sympathisierte: die machtvolle DHV. Von G. Lange</text>
+            <description py:pytype="str">Jedes Jahr gedenken Gewerkschaften ihrer von den Nazis ermordeten Mitglieder. Doch es gab eine, die schon früh mit Hitler sympathisierte: die machtvolle DHV. Von G. Lange</description>
+            <byline py:pytype="str">von Gunter Lange</byline>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-05/s17-brahms-kontor-hamburg/" type="jpg" title=" Brahms Kontor Hamburg DHV" alt="Der 1931 vollendete, kolossale Verbandssitz des DHV am heutigen Johannes-Brahms-Platz in Hamburg, damals das höchste Haus der Hansestadt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der 1931 vollendete, kolossale Verbandssitz des DHV am heutigen Johannes-Brahms-Platz in Hamburg, damals das höchste Haus der Hansestadt</bu>
+              <copyright py:pytype="str" link="http://commons.wikimedia.org/wiki/File:Hamburg.Brahms-Kontor.gesamt.wmt.jpg">GNU-FDL: Wmeinhart/Wikipedia</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Nationalsozialismus</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/L/Gunter_Lange/index" publication-date="" expires="">
+              <display_name py:pytype="str">Gunter Lange</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-04/kz-aufseher-ermittlung" year="2013" issue="15" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-09T12:49:23+00:00" date-first-released="2013-04-06T10:51:57.063977+00:00" date-last-published="2014-07-07T13:34:24+00:00" last-semantic-change="2013-04-06T10:50:30.702367+00:00" uniqueId="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-04/kz-aufseher-ermittlung" author="AFP;dpa  ">
+            <supertitle py:pytype="str">NS-Verbrechen</supertitle>
+            <title py:pytype="str">Fahnder wollen gegen 50 KZ-Aufseher ermitteln</title>
+            <text py:pytype="str">Das Demjanjuk-Urteil hat Prozesse gegen KZ-Aufseher aussichtsreicher gemacht. In Deutschland soll nun gegen 50 von ihnen ermittelt werden wegen Beihilfe zum Mord.</text>
+            <description py:pytype="str">Das Demjanjuk-Urteil hat Prozesse gegen KZ-Aufseher aussichtsreicher gemacht. In Deutschland soll nun gegen 50 von ihnen ermittelt werden wegen Beihilfe zum Mord.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2013-04/auschwitz-birkenau/" type="jpg" title="Auschwitz" alt="Das Konzentrationslager Auschwitz-Birkenau" align="left" publication-date="" expires="2013-07-06T10:26:50+00:00">
+              <bu py:pytype="str">Das Konzentrationslager Auschwitz-Birkenau</bu>
+              <copyright py:pytype="str">© EPA/Leszek Szymanski/POLAND OUT/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/afp">
+              <display_name>afp</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/dpa">
+              <display_name>dpa</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-03/holocaust-studie-ghetto" year="2013" issue="10" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T20:52:05+00:00" date-first-released="2013-03-02T18:04:42.302839+00:00" date-last-published="2013-12-02T21:53:32+00:00" last-semantic-change="2013-03-02T18:03:10.009888+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-03/holocaust-studie-ghetto">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Holocaust-Studie</supertitle>
+            <title py:pytype="str">Mehr als 40.000 Nazi-Zwangslager in Europa</title>
+            <text py:pytype="str">Bisher war bekannt, dass die Nazis im Dritten Reich etwa 7.000 Lager und Ghettos errichtet hatten. Eine amerikanische Studie zeigt nun ganz neue Dimensionen auf.</text>
+            <description py:pytype="str">Bisher war bekannt, dass die Nazis im Dritten Reich etwa 7.000 Lager und Ghettos errichtet hatten. Eine amerikanische Studie zeigt nun ganz neue Dimensionen auf.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-03/warschau-ghetto/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Deutsche Soldaten verhaften einen Juden nach dem Aufstand 1943 im Warschauer Ghetto.</bu>
+              <copyright py:pytype="str">© STF/AFP/Getty Images</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-03/interview-holocaust-studie" year="2013" issue="10" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T20:50:58+00:00" date-first-released="2013-03-04T10:07:07.499413+00:00" date-last-published="2013-12-02T21:51:47+00:00" last-semantic-change="2013-03-05T16:44:22.432935+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-03/interview-holocaust-studie">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Holocaust-Studie</supertitle>
+            <title py:pytype="str">"Wir haben nicht einmal alle Nazi-Lager erfasst"</title>
+            <text py:pytype="str">42.500 Orte des Naziterrors – waren Tausende davon bisher unentdeckt? Nein, sagt Historiker Geoffrey Megargee im Interview. Nur habe niemand das Puzzle zusammengefügt.</text>
+            <description py:pytype="str">42.500 Orte des Naziterrors – waren Tausende davon bisher unentdeckt? Nein, sagt Historiker Geoffrey Megargee im Interview. Nur habe niemand das Puzzle zusammengefügt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-03/stolpersteine/" type="jpg" title="stolpersteine" alt="Aus nahezu jeder Straße in Deutschland wurden im Nationalsozialismus Menschen verschleppt. Das Projekt &quot;Stolpersteine&quot; will das sichtbar machen." align="left" publication-date="" expires="2013-07-04T09:09:29+00:00">
+              <bu py:pytype="str">Aus ganz Deutschland wurden im Nationalsozialismus Menschen verschleppt. Das Projekt &amp;quot;Stolpersteine&amp;quot; will das sichtbar machen.</bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="e19bcfdd-fd28-4506-a592-4db080167389" hide-dupes="True" visible="True">
+          <block href="http://xml.zeit.de/wissen/2013-08/fs-audio-kassette" year="2013" issue="34" ressort="Wissen" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-09-09T13:01:06+00:00" date-first-released="2013-08-28T16:25:06.719018+00:00" date-last-published="2013-09-09T13:02:06.372024+00:00" last-semantic-change="2013-08-28T16:23:11.745678+00:00" uniqueId="http://xml.zeit.de/wissen/2013-08/fs-audio-kassette">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">50 Jahre Audiokassette</supertitle>
+            <title py:pytype="str">Geheime Mixtapes enthüllt</title>
+            <text py:pytype="str">Verstaubt und vergessen lagen diese Magnetbandschätze in Kisten und Kofferräumen der Mitarbeiter von ZEIT ONLINE. Zum Ehrentag der Audiokassette haben wir sie rausgeholt.</text>
+            <description py:pytype="str">Verstaubt und vergessen lagen diese Magnetbandschätze in Kisten und Kofferräumen der Mitarbeiter von ZEIT ONLINE. Zum Ehrentag der Audiokassette haben wir sie rausgeholt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-08/fs-audio-kassette-teaser/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-07/audiokassette-entwickler-lou-ottens-philips" year="2013" issue="30" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T16:56:42+00:00" date-first-released="2013-08-28T11:15:09.519515+00:00" date-last-published="2013-12-02T17:58:20+00:00" last-semantic-change="2013-08-28T10:53:47.575589+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-07/audiokassette-entwickler-lou-ottens-philips" author="Wierd Duk">
+            <supertitle py:pytype="str">Erfindung der Musikkassette</supertitle>
+            <title py:pytype="str">Bandsalat, der die Welt veränderte</title>
+            <text py:pytype="str">Der niederländische Philips-Ingenieur Lou Ottens entwickelte genau vor 50 Jahren die Audiokassette. 20 Jahre später erfand er die Compact Disc.</text>
+            <description py:pytype="str">Der niederländische Philips-Ingenieur Lou Ottens entwickelte genau vor 50 Jahren die Audiokassette. 20 Jahre später erfand er die Compact Disc.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-07/audiokassette/" type="jpg" title="Audikassette Magnetband Kassette Bandsalat" alt="Audikassette Magnetband Kassette Bandsalat" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Bandsalat. 1963 kamen die ersten kompakten Audiokassetten auf den Markt und lösten sperrige Tonbänder ab.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/foto/296895-stock-photo-alt-lustig-grau-stil-braun-musik">© suze/photocase.com</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Erfindung der Musikkassette</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/D/Wierd_Duk/index" publication-date="" expires="">
+              <display_name py:pytype="str">Wierd Duk</display_name>
+            </author>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="6108d7e0-e4fc-494f-82eb-9e7af4adcb44" hide-dupes="True" visible="True">
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-08/fs-martin-luther-king-2" year="2013" issue="34" ressort="Wissen" contenttype="gallery" publication-date="" expires="" date-last-modified="2014-08-27T17:31:12+00:00" date-first-released="2013-08-28T08:15:25.393886+00:00" date-last-published="2014-08-27T17:32:11.478942+00:00" last-semantic-change="2013-08-28T14:47:52.289824+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-08/fs-martin-luther-king-2">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Martin Luther King</supertitle>
+            <title py:pytype="str">Gefeiert, gejagt, getötet</title>
+            <text py:pytype="str">Er war ein gläubiger Familienmensch, der ahnte, dass er den Kampf für Millionen Schwarze in Amerika nicht überleben würde. Stationen des Lebens von Martin Luther King</text>
+            <description py:pytype="str">Er war ein gläubiger Familienmensch, der ahnte, dass er den Kampf für Millionen Schwarze in Amerika nicht überleben würde. Stationen des Lebens von Martin Luther King</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-08/fs-martin-luther-king-teaser-4/" type="jpg" title="Martin Luther King Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Ed Jones/dpa</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2013/35/martin-luther-king-i-have-a-dream" year="2013" issue="35" ressort="Wissen" contenttype="article" publication-date="2013-08-29T01:29:24+00:00" expires="" date-last-modified="2014-08-27T09:59:50+00:00" date-first-released="2013-08-22T06:00:00+00:00" date-last-published="2014-08-27T10:00:50.291025+00:00" last-semantic-change="2013-08-28T06:50:03.221709+00:00" uniqueId="http://xml.zeit.de/2013/35/martin-luther-king-i-have-a-dream" author="Christian Staas">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Martin Luther King</supertitle>
+            <title py:pytype="str">Ein Traum von Gleichheit, der sich nie ganz erfüllte</title>
+            <text py:pytype="str">Am 28. August 1963 predigte Martin Luther King in Washington für gleiche Rechte von Schwarzen und Weißen. Er erreichte viel, doch Rassismus spaltet die USA bis heute.</text>
+            <description py:pytype="str">Am 28. August 1963 predigte Martin Luther King in Washington für gleiche Rechte von Schwarzen und Weißen. Er erreichte viel, doch Rassismus spaltet die USA bis heute.</description>
+            <byline py:pytype="str">von Christian Staas</byline>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-08/fs-martin-luther-king-teaser/" type="jpg" title="Martin Luther King Teaser" alt="Für die Rechte von 23 Millionen schwarzen Amerikanern: Martin Luther King während seiner berühmten Rede vor 50 Jahren" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Für die Rechte von 23 Millionen schwarzen Amerikanern: Martin Luther King während seiner berühmten Rede vor 50 Jahren</bu>
+              <copyright py:pytype="str">© AFP/dpa</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Martin Luther King</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Christian_Staas/index" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Staas</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/politik/ausland/2013-08/obama-martin-luther-king" year="2013" issue="34" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2014-08-27T17:31:11+00:00" date-first-released="2013-08-28T20:45:36.931842+00:00" date-last-published="2014-08-27T17:32:10.523954+00:00" last-semantic-change="2013-08-28T20:44:30.377595+00:00" uniqueId="http://xml.zeit.de/politik/ausland/2013-08/obama-martin-luther-king">
+            <supertitle py:pytype="str">Gedenktag</supertitle>
+            <title py:pytype="str">Obama will Martin Luther Kings Traum wiederbeleben</title>
+            <text py:pytype="str">Wirtschaftliche Chancengleichheit gibt es in den USA nicht, beklagt US-Präsident Obama. Dieses Ziel der Bürgerrechtsbewegung von 1963 sei unvollendet geblieben. </text>
+            <description py:pytype="str">Wirtschaftliche Chancengleichheit gibt es in den USA nicht, beklagt US-Präsident Obama. Dieses Ziel der Bürgerrechtsbewegung von 1963 sei unvollendet geblieben. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2013-08/obama-king/" type="jpg" align="left" publication-date="" expires="2013-11-28T21:23:26+00:00">
+              <bu py:pytype="str">US-Präsident Barack Obama bei seiner Rede am Lincoln Memorial in Washington D.C.</bu>
+              <copyright py:pytype="str">© Shawn Thew/EPA</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Gedenktag</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2013-08/2633134654001" type="video" year="2013" ressort="Gesellschaft" contenttype="video" publication-date="" expires="" date-last-modified="2013-08-28T08:17:45+00:00" date-first-released="2013-08-28T06:47:29+00:00" date-last-published="2013-08-28T08:18:45.580271+00:00" last-semantic-change="2013-08-28T08:14:23+00:00" uniqueId="http://xml.zeit.de/video/2013-08/2633134654001">
+            <supertitle py:pytype="str">"I have a dream"</supertitle>
+            <title py:pytype="str">Bürgerrechtler erinnern an historische Rede von Martin Luther King</title>
+            <text py:pytype="str">Mit den Worten "I Have a Dream" hat Martin Luther King vor 50 Jahren seine Vision von den USA ohne Rassentrennung formuliert. Vieles hat sich seitdem bewegt  – benachteiligt werden Schwarze aber weiterhin.</text>
+            <description py:pytype="str">Mit den Worten "I Have a Dream" hat Martin Luther King vor 50 Jahren seine Vision von den USA ohne Rassentrennung formuliert. Vieles hat sich seitdem bewegt  – benachteiligt werden Schwarze aber weiterhin.</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_2633137426001_video-still-for-video-2633134654001.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_2633137425001_thumbnail-for-video-2633134654001.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2013-08/2635245278001" type="video" year="2013" ressort="Politik" contenttype="video" publication-date="" expires="" date-last-modified="2013-08-29T07:00:54+00:00" date-first-released="2013-08-29T06:56:14+00:00" date-last-published="2013-08-29T07:01:42.612660+00:00" last-semantic-change="2013-08-29T07:00:42+00:00" uniqueId="http://xml.zeit.de/video/2013-08/2635245278001">
+            <supertitle py:pytype="str">Historische Rede</supertitle>
+            <title py:pytype="str">Obama wirbt für Martin Luther Kings Traum</title>
+            <text py:pytype="str">Zum 50. Jahrestag der "Traum"-Rede von Martin Luther King Jr. hat US-Präsident Barack Obama seine Landsleute aufrufen, die Vision des Bürgerrechtlers zu verwirklichen.</text>
+            <description py:pytype="str">Zum 50. Jahrestag der "Traum"-Rede von Martin Luther King Jr. hat US-Präsident Barack Obama seine Landsleute aufrufen, die Vision des Bürgerrechtlers zu verwirklichen.</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_2635251552001_video-still-for-video-2635245278001.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_2635251551001_thumbnail-for-video-2635245278001.jpg?pubId=18140073001"/>
+          </block>
+          <referenced_cp xsi:nil="true"/>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="3b550cc1-ec41-4def-b4e7-a44688469d8d" hide-dupes="False" visible="True">
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-08/serienkiller-jack-the-ripper" year="2013" issue="36" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-06T06:00:18+00:00" date-first-released="2013-08-31T07:42:53.227499+00:00" date-last-published="2014-07-06T08:33:05+00:00" last-semantic-change="2013-08-31T08:32:35.933577+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-08/serienkiller-jack-the-ripper" author="Volker Schmidt">
+            <supertitle py:pytype="str">London 1888</supertitle>
+            <title py:pytype="str">Jack the Ripper, Prototyp eines Serienkillers</title>
+            <text py:pytype="str">Vor 125 Jahren fand man in nur einem Herbst fünf aufgeschlitzte Frauenleichen im Londoner Armenviertel Whitechapel. Der Täter: Jack the Ripper. Nur, wer war das?</text>
+            <description py:pytype="str">Vor 125 Jahren fand man in nur einem Herbst fünf aufgeschlitzte Frauenleichen im Londoner Armenviertel Whitechapel. Der Täter: Jack the Ripper. Nur, wer war das?</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-08/opfer-eddowes/" type="jpg" title="Jack the Ripper Opfer" alt="Jack the Ripper Opfer" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Diese Zeichnung zeigt die Situation, wie die Polizei in London eine Frauenleiche findet – ermordet von Jack the Ripper.</bu>
+              <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">London 1888</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Volker_Schmidt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Volker Schmidt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/2013/20/spd-gruendung-jubilaeum" year="2013" issue="20" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-07T04:01:57+00:00" date-first-released="2013-05-08T06:00:00+00:00" date-last-published="2014-07-07T06:15:24+00:00" last-semantic-change="2013-05-08T14:25:24.872714+00:00" uniqueId="http://xml.zeit.de/2013/20/spd-gruendung-jubilaeum" author="Arno Herzig">
+            <supertitle py:pytype="str">150 Jahre SPD</supertitle>
+            <title py:pytype="str">Ein Salonlöwe ruft die Ur-SPD ins Leben</title>
+            <text py:pytype="str">1863 gründet Ferdinand Lassalle den Allgemeinen Deutschen Arbeiterverein. Als er nach einem Pistolenduell stirbt, folgt ein pompöser Kult um seine Person. Von A. Herzig</text>
+            <description py:pytype="str">1863 gründet Ferdinand Lassalle den Allgemeinen Deutschen Arbeiterverein. Als er nach einem Pistolenduell stirbt, folgt ein pompöser Kult um seine Person. Von A. Herzig</description>
+            <byline py:pytype="str">von Arno Herzig</byline>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-05/ferdinand-lassalle/" type="jpg" title="Ferdinand Lassalle SPD 15 Jahre" alt="Salonlöwe, Preuße, Sozialist: Ferdinand Lassalle (1825 bis 1864)" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Salonlöwe, Preuße, Sozialist: Ferdinand Lassalle (1825 bis 1864)</bu>
+              <copyright py:pytype="str">© Hulton Archive/Getty Images</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">150 Jahre SPD</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/H/Arno_Herzig/index" publication-date="" expires="">
+              <display_name py:pytype="str">Arno Herzig</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-04/verleger-william-randolph-hearst" year="2013" issue="17" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-07T05:42:25+00:00" date-first-released="2013-04-29T14:29:30.187189+00:00" date-last-published="2014-07-07T07:46:11+00:00" last-semantic-change="2013-04-29T14:27:51.749531+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-04/verleger-william-randolph-hearst" author="Hellmuth Vensky">
+            <supertitle py:pytype="str">William Randolph Hearst</supertitle>
+            <title py:pytype="str">Ein Schlossherr jagt nach Sensationen</title>
+            <text py:pytype="str">Lügen, Intrigen und Affären waren sein Geschäft: William R. Hearst stieg zur Jahrhundertwende zum Großverleger auf. Die Auflage war ihm stets wichtiger als die Wahrheit.</text>
+            <description py:pytype="str">Lügen, Intrigen und Affären waren sein Geschäft: William R. Hearst stieg zur Jahrhundertwende zum Großverleger auf. Die Auflage war ihm stets wichtiger als die Wahrheit.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-04/william-randolph-hearst/" type="jpg" title="William Randalph Hearst" alt="William Randalph Hearst" align="left" publication-date="" expires="2013-08-25T09:06:10+00:00">
+              <bu py:pytype="str">Aufgenommen um 1905: William Randalph Hearst</bu>
+              <copyright py:pytype="str">Public Domain</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">William Randolph Hearst</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/V/Hellmuth_Vensky/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Hellmuth Vensky</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/2013-06/seekabel-glasfaser-spionage" year="2013" issue="23" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-06T18:44:27+00:00" date-first-released="2013-06-28T07:43:37.685073+00:00" date-last-published="2014-07-06T21:04:24+00:00" last-semantic-change="2013-06-27T17:53:51.275775+00:00" uniqueId="http://xml.zeit.de/wissen/2013-06/seekabel-glasfaser-spionage" author="Volker Schmidt">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">Datenspionage</supertitle>
+            <title py:pytype="str">Die Kabel-Krake, die alles weiß</title>
+            <text py:pytype="str">Seit jeher herrschen die Briten über unsere Kommunikation. Die Masse des Datenverkehrs läuft auch heute an ihnen vorbei – durch transatlantische Seekabel. Von V. Schmidt</text>
+            <description py:pytype="str">Seit jeher herrschen die Briten über unsere Kommunikation. Die Masse des Datenverkehrs läuft auch heute an ihnen vorbei – durch transatlantische Seekabel. Von V. Schmidt</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/2013-06/glasfaserkabel/" type="jpg" title="Seekabel" align="left" publication-date="" expires="2013-09-28T12:08:00+00:00">
+              <bu py:pytype="str">Querschnitt eines Seekabels</bu>
+              <copyright py:pytype="str">© Ingo Wagner/dpa </copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Datenspionage</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Volker_Schmidt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Volker Schmidt</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/wissen/geschichte/2013-07/astor-waldorf-usa" year="2013" issue="29" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2014-07-06T15:11:45+00:00" date-first-released="2013-07-17T13:01:01.032842+00:00" date-last-published="2014-07-06T17:46:40+00:00" last-semantic-change="2013-07-17T10:16:46.225547+00:00" uniqueId="http://xml.zeit.de/wissen/geschichte/2013-07/astor-waldorf-usa" author="Volker Schmidt">
+            <supertitle py:pytype="str">Johann Jakob Astor</supertitle>
+            <title py:pytype="str">Ohne ihn gäbe es keinen Waldorfsalat</title>
+            <text py:pytype="str">Der erste Millionär Amerikas war ein badischer Metzgerssohn: Johann Jakob Astor, vor 250 Jahren geboren, wurde mit Pelzen, Tee und Immobilien reich. Von Volker Schmidt</text>
+            <description py:pytype="str">Der erste Millionär Amerikas war ein badischer Metzgerssohn: Johann Jakob Astor, vor 250 Jahren geboren, wurde mit Pelzen, Tee und Immobilien reich. Von Volker Schmidt</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/geschichte/2013-07/johann-jakob-Astor/" type="jpg" title="Johann Jakob Astor" alt="Johann Jakob Astor Amerika Walldorf Waldorf-Astoria" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Ein Ölgemälde des Malers Gilbert Stuart aus dem Jahr 1794 zeigt den Unternehmer Johann Jakob Astor alias John Jacob Astor in New York.</bu>
+              <copyright py:pytype="str" link="http://creativecommons.org/publicdomain/mark/1.0/deed.en">© Wikimedia/Public Domain</copyright>
+            </image>
+            <teaser_supertitle py:pytype="str">Johann Jakob Astor</teaser_supertitle>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/S/Volker_Schmidt/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Volker Schmidt</display_name>
+            </author>
+          </block>
+          <referenced_cp xsi:nil="true"/>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Geschichte</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Geschichte</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Geschichte</text>
+  </indexteaser>
+</centerpage>

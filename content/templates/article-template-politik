@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-07-23T11:55:45.902753+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-12-03T12:10:10.624425+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-07-23T11:56:12.379259+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-07-23T11:57:12.169212+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-01-27T18:59:36.811630+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-07-23T11:55:39.612539+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.horeld</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e0922986-8c97-4898-9957-b0abaa66c642}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="id-14956cd3-592c-4aa4-a907-9b558bebb3a0">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="id-4493dbc5-c8b9-45bd-816b-c3e806b75bf9">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-b90f7399-4572-454d-b839-ea037e2a266c" layout="368x110" title="Fischer im Recht: Alle Folgen der Kolumne">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/gesellschaft/2015-01/link-fischer-im-recht" year="2015" issue="4" ressort="Gesellschaft" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/fischer-im-recht" uniqueId="http://xml.zeit.de/gesellschaft/2015-01/link-fischer-im-recht" date-last-modified="2015-01-27T09:23:36+00:00" date-first-released="2015-01-27T09:18:33.067107+00:00" date-last-published="2015-01-27T09:18:33.067107+00:00" last-semantic-change="2015-01-27T09:23:14.421747+00:00">
+            <supertitle py:pytype="str">Kolumne</supertitle>
+            <title py:pytype="str">Fischer im Recht</title>
+            <text py:pytype="str">Die wöchentliche Kolumne von Bundesrichter Thomas Fischer über Recht und Gerechtigkeit.</text>
+            <description py:pytype="str">Die wöchentliche Kolumne von Bundesrichter Thomas Fischer über Recht und Gerechtigkeit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2014-12/fischer-im-recht/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Michael Herdlein</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/politik/2014-12/fischer-im-recht/fischer-im-recht-368x110.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© Michael Herdlein</copyright>
+          </image>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="ba688561-421a-4fde-a545-f526307ad786">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-dd94f13a-51b9-4e8b-a83d-ecf82f78f03e" layout="368x110" title="Kandidaten für US-Wahl: Wer wird No. 45?">
+          <block type="intern" href="http://xml.zeit.de/politik/ausland/2015-06/kandidaten-us-praesidentschaftswahl-2016" year="2015" issue="25" ressort="Politik" contenttype="centerpage-2009" publication-date="" expires="" uniqueId="http://xml.zeit.de/politik/ausland/2015-06/kandidaten-us-praesidentschaftswahl-2016" date-last-modified="2015-07-03T10:56:25+00:00" date-first-released="2015-07-03T08:14:00.927032+00:00" date-last-published="2015-07-03T10:57:23.827933+00:00" last-semantic-change="2015-07-03T10:55:45.813020+00:00" author="Thorsten Schröder;Kim Bode;Jörg Wimalasena;Carsten Luther">
+            <supertitle py:pytype="str">Kandidaten US-Präsidentschaftswahl</supertitle>
+            <title py:pytype="str">Wer wird No. 45?</title>
+            <text py:pytype="str">Die Kandidaten für die US-Wahl bringen sich in Stellung. Wen nominieren Republikaner und Demokraten? Der große Überblick mit Umfragen und allen Infos zu den Bewerbern</text>
+            <description py:pytype="str">Die Kandidaten für die US-Wahl bringen sich in Stellung. Wen nominieren Republikaner und Demokraten? Der große Überblick mit Umfragen und allen Infos zu den Bewerbern</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2015-06/us-wahl-kandidaten-teaser/" type="jpg" title="US Wahl Kandidaten" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Thorsten_Schroeder/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Thorsten Schröder</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/B/Kim_Bode" publication-date="" expires="">
+              <display_name py:pytype="str">Kim Bode</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/W/Joerg_Wimalasena/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jörg Wimalasena</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/L/Carsten_Luther/index" publication-date="" expires="">
+              <display_name py:pytype="str">Carsten Luther</display_name>
+            </author>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/politik/ausland/2015-06/us-wahl-kandidaten-teaser/us-wahl-kandidaten-teaser-368x110.jpg" title="US Wahl Kandidaten" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright>© ZEIT ONLINE</copyright>
+          </image>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="0469eb8f-a0a7-4c3c-bdef-7537aeba708d">
+          <video videoID="36516804001" player="pls" format="small"/>
+        </container>
+        <container cp:type="cpextra" module="newsletter_taeglich" cp:__name__="1540d2bd-c3dd-40be-855b-5c0ebc664fba">
+          <cp_extra id="newsletter_taeglich"/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="d6b884d0-89f5-4410-95e2-b58da4c778a4">
+          <cp_extra id="linkatory"/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-02ce101f-d547-4247-a273-f7f03de35d44">
+          <raw>
+            <a width="319" class="twitter-timeline" href="https://twitter.com/zeitonline_pol" data-widget-id="306740971289321472">Tweets von @zeitonline_pol</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="07560160-1230-4782-a8b8-b788cc6d5f67">
+        <container cp:type="teaser" module="ressort" cp:__name__="3a5b9cfb-4d53-4a8d-a689-f03f3cc40f28" hide-dupes="True" title="Deutschland" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/politik/deutschland/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/politik/deutschland/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/politik/deutschland/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="b6fc61a0-fce3-44dd-bd78-09c76d36e4d6" hide-dupes="True" title="Ausland" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/politik/ausland/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/politik/ausland/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/politik/ausland/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="551e6af9-c9b8-45c0-83a8-98a57baeee81" hide-dupes="True" title="Gesellschaft" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/gesellschaft/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/gesellschaft/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/gesellschaft/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <topiclinks>
+            <topiclink href="http://www.zeit.de/schlagworte/themen/fluechtling/index" py:pytype="str">Flüchtlinge</topiclink>
+            <topiclink href="http://blog.zeit.de/nsu-prozess-blog/" py:pytype="str">NSU-Prozess</topiclink>
+            <topiclink href="http://www.zeit.de/schlagworte/themen/eltern/index" py:pytype="str">Eltern</topiclink>
+          </topiclinks>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-ac660fa0-73e3-4d2a-bea5-d1edb2c1d95c" title="Hamburg" read_more="mehr Hamburg" read_more_url="http://www.zeit.de/hamburg/index">
+          <referenced_cp>http://xml.zeit.de/hamburg/index</referenced_cp>
+          <autopilot>true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" href="/var/cms/work/hamburg/index.lead" parse="xml" xpointer="xpointer(/channel/container/block)">
+            <xi:fallback>Ziel http://xml.zeit.de/hamburg/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <topiclinks>
+            <topiclink href="http://blog.zeit.de/hamburg-veranstaltungen/" py:pytype="str">Veranstaltungskalender</topiclink>
+            <topiclink href="http://blog.zeit.de/hamburg/" py:pytype="str">Hamburg-Blog</topiclink>
+          </topiclinks>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Politik</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Rahmen Politik</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Rahmen Politik</text>
+  </indexteaser>
+</centerpage>

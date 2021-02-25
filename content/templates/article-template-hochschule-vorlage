@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-07-25T10:05:46.028586+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-16T09:36:00.020089+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-07-25T10:06:45.775659+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-07-25T10:05:34.330520+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-10-19</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.pohr</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Studium</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Hochschule</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">36</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:5d046802-1b3c-4148-9513-8bfb7ede70f2}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="e004cf5f-5af3-46d0-99c5-f76ab4b6b2a9">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="67af3fd5-7557-4979-b55a-12472831bb44">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" cp:__name__="83ccf596-9113-4ef8-9261-62a8d27eb6fa" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/studium/2010-10/link-excellence-ranking-2" year="2010" issue="43" ressort="Studium" ns0:href="http://xml.zeit.de/studium/2010-10/link-excellence-ranking" date-last-modified="2011-05-05T15:58:00+00:00" date-first-released="" date-last-published="" last-semantic-change="">
+            <supertitle py:pytype="str">Naturwissenschaften</supertitle>
+            <title py:pytype="str">ExcellenceRanking 2010</title>
+            <text py:pytype="str">Das ExcellenceRanking 2010 ist online: Welche Universitäten in Europa bieten die besten Masterstudiengänge in Biologie, Chemie, Mathematik und Physik?</text>
+            <description py:pytype="str">Das ExcellenceRanking 2010 ist online: Welche Universitäten in Europa bieten die besten Masterstudiengänge in Biologie, Chemie, Mathematik und Physik?</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Studenten Hochschule Studium" base-id="http://xml.zeit.de/studium/hochschule/2010-10/ranking-hochschule-naturwissenschaften/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© fotolia/deanm1974</copyright>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/studium/link-bologna-prozess" year="2009" publication-date="" expires="" ns0:href="http://www.zeit.de/campus/schwerpunkt/bologna-prozess" date-last-modified="2010-02-22T10:23:53+00:00" date-first-released="2009-09-05T17:14:21.087196+00:00" date-last-published="2010-02-22T10:24:52.818144+00:00" last-semantic-change="2009-09-16T09:50:20.323080+00:00" ressort="Studium">
+            <supertitle py:pytype="str">Alles zum Thema</supertitle>
+            <title py:pytype="str">Bologna-Prozess</title>
+            <text py:pytype="str">Die ersten Bachelor- und Masterstudenten machen ihre Abschlüsse - und ziehen eine Bilanz dieser neuen Studiengänge. Ein Schwerpunkt</text>
+            <description py:pytype="str">Die ersten Bachelor- und Masterstudenten machen ihre Abschlüsse - und ziehen eine Bilanz dieser neuen Studiengänge. Ein Schwerpunkt</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/standards/wissen/bologna/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©      </copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="5247bf4b-2b5e-48e9-a519-ab25351627fe" title="Zeit Campus 02/2011 - jetzt am Kiosk!">
+          <block type="intern" href="http://xml.zeit.de/campus/2011/02/inhaltsverzeichnis" year="2011" issue="2" ressort="Studium" publication-date="" expires="">
+            <supertitle py:pytype="str">ZEIT Campus</supertitle>
+            <title py:pytype="str">Inhaltsverzeichnis ZEIT Campus 2/2011</title>
+            <text py:pytype="str"> </text>
+            <description py:pytype="str"> </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/campus/2011/02/cover/" type="jpg" publication-date="" expires="">
+              <bu>Jetzt am Kiosk!</bu>
+              <copyright py:pytype="str">© ZEIT CAMPUS</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/campus/2011/02/cover/zc-0111-Teaser.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="3294f9a3-fae9-46d3-927a-9757e27b8d2e" title="Kunststudium">
+          <block type="intern" href="http://xml.zeit.de/campus/2011/01/arbeiten-museum" year="2011" issue="1" ressort="Studium" publication-date="" expires="">
+            <supertitle py:pytype="str">Kunst als Beruf</supertitle>
+            <title py:pytype="str">Reif fürs Museum</title>
+            <text py:pytype="str">Die Frankfurter Schirn ist Deutschlands spannendstes Ausstellungshaus, dort zu arbeiten ist für viele Studenten ein Traum. Ein Besuch bei denen, die es geschafft haben.</text>
+            <description py:pytype="str">Die Frankfurter Schirn ist Deutschlands spannendstes Ausstellungshaus, dort zu arbeiten ist für viele Studenten ein Traum. Ein Besuch bei denen, die es geschafft haben.</description>
+            <byline py:pytype="str">Text: Inge Kutter</byline>
+            <image align="left" title="Museum Schirn Kunsthalle Frankfurt " base-id="http://xml.zeit.de/studium/2010-12/s44-museum/" type="jpg" publication-date="" expires="2011-06-28T12:07:21+00:00">
+              <bu>Arbeiten sonst hinter den Kulissen (von links nach rechts): Maximilian Engelmann (Marketing), Lisa Beißwanger (kuratorische Assistenz), Elisabeth Häring (Veranstaltungen und Sponsoring) und Katharina Bühler (Bildung und Vermittlung) mit einem Modell der Ausstellungshalle</bu>
+              <copyright py:pytype="str" link="http://www.gianni-occhipinti.de/">© Gianni Occhipinti</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/studium/2010-12/s44-museum/s44-museum-368x220.jpg" publication-date="" expires="2011-06-28T12:07:21+00:00"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="01514afd-7bc7-4fe9-8976-eec402aa048f">
+          <video videoID="36516804001" player="pls" format="large"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="59615ec4-1262-44c6-94c6-b242bcdd1354">
+        <container cp:type="teaser" module="ressort" cp:__name__="c1a4b05e-2f83-4ef2-9d30-fb6d2926dbfd" title="Psychologie" hide-dupes="True">
+          <block href="http://xml.zeit.de/campus/2011/01/das-erste-mal" year="2011" issue="1" ressort="Studium" publication-date="" expires="" date-last-modified="2011-06-28T16:01:12+00:00" date-first-released="2010-12-14T06:00:00+00:00" date-last-published="2011-01-10T08:59:52.261797+00:00" last-semantic-change="2011-01-10T08:58:40.124408+00:00">
+            <supertitle py:pytype="str">Psychologiestudium</supertitle>
+            <title py:pytype="str">Zum ersten Mal einer Depressiven helfen</title>
+            <text py:pytype="str">Caroline Prochnow, 28, ist Psychologin. Ihre erste Patientin macht sie ziemlich ratlos: Sie hat große Angst vor ihrem Job und will nicht darüber reden.</text>
+            <description py:pytype="str">Caroline Prochnow, 28, ist Psychologin. Ihre erste Patientin macht sie ziemlich ratlos: Sie hat große Angst vor ihrem Job und will nicht darüber reden.</description>
+            <byline py:pytype="str">Protokoll: Johanna Schoener</byline>
+            <image align="left" title="Caroline Prochnow Psychologin" base-id="http://xml.zeit.de/studium/2010-12/s54-psychologin-prochnow-2/" type="jpg" publication-date="" expires="2011-03-28T12:20:31+00:00">
+              <bu>"Warum lässt mich Frau B. nicht an sich heran?" Der Anfang der Therapie ist für Caroline Prochnow schwierig</bu>
+              <copyright py:pytype="str" link="http://www.veratammen.com/">© Vera Tammen</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/44/C-Juristeninterview" year="2010" issue="44" ressort="Studium" publication-date="" expires="" date-last-modified="2011-06-14T14:48:24+00:00" date-first-released="2010-10-28T06:00:00+00:00" date-last-published="2010-10-30T08:32:23.804481+00:00" last-semantic-change="2010-10-30T08:31:10.324003+00:00">
+            <supertitle py:pytype="str">Jurastudium</supertitle>
+            <title py:pytype="str">"Es gibt gute Argumente für den Bachelor"</title>
+            <text py:pytype="str">Deutsche Juristen fürchten sich vor dem Bachelor, in Georgien ist man stolz darauf. Was für das georgische Modell spricht, sagt Bildungsexperte David Kereselidze.</text>
+            <description py:pytype="str">Deutsche Juristen fürchten sich vor dem Bachelor, in Georgien ist man stolz darauf. Was für das georgische Modell spricht, sagt Bildungsexperte David Kereselidze.</description>
+            <byline py:pytype="str">von Justus Bender</byline>
+            <image align="left" title="Jura-Bachelor Georgien" base-id="http://xml.zeit.de/studium/2010-10/s75-jura/" type="jpg" publication-date="" expires="2011-01-28T14:18:31+00:00">
+              <bu>Studenten verfolgen in einem Hörsaal auf dem neuen Campus der Universität Leipzig eine Juravorlesung</bu>
+              <copyright py:pytype="str">© Peter Endig/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/studium/uni-leben/2010-09/student-job-geld" year="2010" issue="35" ressort="Studium" publication-date="" expires="" date-last-modified="2011-06-14T14:58:39+00:00" date-first-released="2010-09-02T13:32:59.304933+00:00" date-last-published="2010-09-02T14:32:40.109516+00:00" last-semantic-change="2010-09-02T14:00:01.630453+00:00">
+            <supertitle py:pytype="str">Studienfinanzierung</supertitle>
+            <title py:pytype="str">Studentenjobs für Spontane</title>
+            <text py:pytype="str">Die Semesterferien sind fast vorbei und es ist kein Geld mehr auf dem Konto? Wer jetzt noch schnell sein Taschengeld aufbessern will, muss einiges beachten.</text>
+            <description py:pytype="str">Die Semesterferien sind fast vorbei und es ist kein Geld mehr auf dem Konto? Wer jetzt noch schnell sein Taschengeld aufbessern will, muss einiges beachten.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Mann trägt zwei Umzugskartons" align="left" title="Kiste Umzug Student Wohnung" base-id="http://xml.zeit.de/studium/uni-leben/2010-09/student-kiste-umzug/" type="jpg" publication-date="" expires="">
+              <bu>Kisten schleppen: Als Umzugshelfer können Studenten einiges dazu verdienen</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=9345">© luxuz::./photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/campus/2010/04/arbeiten-kreative" year="2010" issue="4" ressort="Studium" publication-date="" expires="" date-last-modified="2010-08-04T15:24:29+00:00" date-first-released="2010-06-15T06:00:00+00:00" date-last-published="2010-08-03T08:39:07.211087+00:00" last-semantic-change="2010-08-02T09:53:12.572975+00:00">
+            <supertitle py:pytype="str">Literaturstudium</supertitle>
+            <title py:pytype="str">Wie man Büchermacher wird</title>
+            <text py:pytype="str">Wer nach dem Studium lieber Leidenschaft leben als das große Geld verdienen will, für den gibt es viele Berufe rund ums Buch: Autor, Lektor oder Verlagsgründer etwa.</text>
+            <description py:pytype="str">Wer nach dem Studium lieber Leidenschaft leben als das große Geld verdienen will, für den gibt es viele Berufe rund ums Buch: Autor, Lektor oder Verlagsgründer etwa.</description>
+            <byline py:pytype="str">Von Inge Kutter</byline>
+            <image align="left" title="Büchermacher Arbeit Leidenschaft Kreativ" base-id="http://xml.zeit.de/studium/2010-07/s48-campus-buechermacher-3/" type="jpg" publication-date="" expires="">
+              <bu>Autorin Lola Arias, 33, inszeniert auch Theaterstücke und schreibt Songs</bu>
+              <copyright py:pytype="str">© Julian Röder/Ostkreuz</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="5c8fa04a-4f6f-4eea-ad5b-a0ed06b08061" title="Wintersemester" hide-dupes="True">
+          <block href="http://xml.zeit.de/studium/hochschule/2011-01/studie-unplugged" year="2011" issue="2" ressort="Studium" publication-date="" expires="" date-last-modified="2011-01-13T16:19:50+00:00" date-first-released="2011-01-07T10:14:21.138365+00:00" date-last-published="2011-01-13T16:20:50.264571+00:00" last-semantic-change="2011-01-07T10:11:22.072579+00:00">
+            <supertitle py:pytype="str">Digitale Askese</supertitle>
+            <title py:pytype="str">Einsam ohne Handy und Internet</title>
+            <text py:pytype="str">Für eine weltweite Studie verzichten Studenten 24 Stunden lang auf Handy, Internet und Fernsehen. Langeweile und Fressattacken sind nur einige der Folgen. Von Meike Fries</text>
+            <description py:pytype="str">Für eine weltweite Studie verzichten Studenten 24 Stunden lang auf Handy, Internet und Fernsehen. Langeweile und Fressattacken sind nur einige der Folgen. Von Meike Fries</description>
+            <byline xsi:nil="true"/>
+            <image alt="Studentin Treppe traurig" align="left" title="Studentin Treppe traurig" base-id="http://xml.zeit.de/studium/uni-leben/2011-01/studentin-einsam/" type="jpg" publication-date="" expires="">
+              <bu>Ohne Facebook und Twitter muss man sich etwas einfallen lassen, haben Studenten in England festgestellt</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=60467">© JoeEsco/photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/studium/hochschule/2010-10/ansturm-hochschulen-studienplatz" year="2010" issue="44" ressort="Studium" publication-date="" expires="" date-last-modified="2010-11-12T09:38:12+00:00" date-first-released="2010-10-29T11:07:13.005736+00:00" date-last-published="2010-11-12T09:39:11.826842+00:00" last-semantic-change="2010-10-29T10:52:31.188567+00:00">
+            <supertitle py:pytype="str">Masterplätze</supertitle>
+            <title py:pytype="str">Wohin mit all den Studierwilligen?</title>
+            <text py:pytype="str">Doppelte Abiturjahrgänge, Ende der Wehrpflicht: Unis müssen sich auf einen starken Anstieg der Studienanfänger einstellen. Dabei sind schon jetzt die Masterplätze knapp.</text>
+            <description py:pytype="str">Doppelte Abiturjahrgänge, Ende der Wehrpflicht: Unis müssen sich auf einen starken Anstieg der Studienanfänger einstellen. Dabei sind schon jetzt die Masterplätze knapp.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Eine Studentin verteilt Plätzchen während einer Demonstration." align="left" title="Master Plätzchen Studenten" base-id="http://xml.zeit.de/studium/hochschule/2010-10/masterplaetzchen/" type="jpg" publication-date="" expires="2011-01-29T11:41:40+00:00">
+              <bu>Masterplätzchen gefällig?</bu>
+              <copyright py:pytype="str">© David Ebener/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2010-09/the-social-network" year="2010" issue="39" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-06-29T17:47:07+00:00" date-first-released="2010-09-29T12:48:54.686750+00:00" date-last-published="2011-06-29T17:48:07.083981+00:00" last-semantic-change="2010-09-29T12:47:20.809515+00:00">
+            <supertitle py:pytype="str">Film "The Social Network"</supertitle>
+            <title py:pytype="str">Facebook, die College-Klamotte</title>
+            <text py:pytype="str">David Finchers "The Social Network" ist weder ein Film über soziale Netzwerke noch eine spannende Aufsteigergeschichte. Er ist nur äußerst öde. Von David Hugendick</text>
+            <description py:pytype="str">David Finchers "The Social Network" ist weder ein Film über soziale Netzwerke noch eine spannende Aufsteigergeschichte. Er ist nur äußerst öde. Von David Hugendick</description>
+            <byline xsi:nil="true"/>
+            <image alt="Filmstill mit Jesse Eisenberg als Mark Zuckerberg" align="left" base-id="http://xml.zeit.de/kultur/film/2010-09/social-network-szene/" type="jpg" publication-date="" expires="2011-01-27T11:21:20+00:00">
+              <bu>Jesse Eisenberg spielt den begabten Programmierer Mark Zuckerberg, der sein Studium in Harvard aufnimmt</bu>
+              <copyright py:pytype="str">© 2010 Sony Pictures Releasing GmbH</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/studium/studienfuehrer-2010/Wohnungsnot" year="2010" issue="1" ressort="Studium" publication-date="" expires="" date-last-modified="2010-08-23T13:35:13+00:00" date-first-released="2010-05-04T06:00:00+00:00" date-last-published="2010-08-23T13:36:12.684134+00:00" last-semantic-change="2010-08-23T09:39:47.241236+00:00">
+            <supertitle py:pytype="str">Studentisches Wohnen</supertitle>
+            <title py:pytype="str">Keiner muss unter die Brücke</title>
+            <text py:pytype="str">In vielen Hochschulstädten wird es eng auf dem Wohnungsmarkt. Wohnung, WG-Zimmer oder Wohnheimplatz: So finden Studenten trotzdem die Bleibe ihrer Wahl. </text>
+            <description py:pytype="str">In vielen Hochschulstädten wird es eng auf dem Wohnungsmarkt. Wohnung, WG-Zimmer oder Wohnheimplatz: So finden Studenten trotzdem die Bleibe ihrer Wahl. </description>
+            <byline py:pytype="str">Text: Julia Kimmerle</byline>
+            <image alt="WG Zimmer" align="left" title="WG Leben" base-id="http://xml.zeit.de/studium/uni-leben/2010-08/wg-zimmer-studentin/" type="jpg" publication-date="" expires="">
+              <bu>Die richtige WG zu finden ist gar nicht so leicht</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=353464">© Klimper.Klimper/photocase</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="d2ef0963-8b59-40da-abd7-fa547a0bd638" title="Zeugnisse" hide-dupes="True">
+          <block href="http://xml.zeit.de/wissen/2011-01/empfehlungsschreiben-hochschulen" year="2011" ressort="Studium" publication-date="" expires="" date-last-modified="2011-01-13T16:11:46+00:00" date-first-released="2011-01-09T23:00:00+00:00" date-last-published="2011-01-13T16:12:46.014120+00:00" last-semantic-change="2011-01-10T11:52:28.512543+00:00">
+            <supertitle py:pytype="str">Gutachten für Studenten</supertitle>
+            <title py:pytype="str">Empfehlungsschreiben aus der Retorte</title>
+            <text py:pytype="str">Mit einer Software sollen Professoren automatisierte Gutachten für ihre Studenten erstellen können. Nicht alle Universitäten sind begeistert. Von Sebastian Kempkens</text>
+            <description py:pytype="str">Mit einer Software sollen Professoren automatisierte Gutachten für ihre Studenten erstellen können. Nicht alle Universitäten sind begeistert. Von Sebastian Kempkens</description>
+            <byline xsi:nil="true"/>
+            <image alt="Zeugnis Gutachten Unterschrift" align="left" title="Zeugnis Gutachten Unterschrift" base-id="http://xml.zeit.de/studium/uni-leben/2011-01/zeugnis-unterschrift/" type="jpg" publication-date="" expires="">
+              <bu>So viel Aufwand braucht es bei dem neuen System nicht mehr: Es reicht eine schnelle Unterschrift</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=108702">© boing/photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/studium/uni-leben/2010-09/katharina-graefe-wasser" year="2010" issue="39" ressort="Studium" publication-date="" expires="" date-last-modified="2011-06-14T14:47:29+00:00" date-first-released="2010-11-02T15:10:27.486399+00:00" date-last-published="2010-11-16T05:56:32.687213+00:00" last-semantic-change="2010-11-02T15:08:56.795616+00:00">
+            <supertitle py:pytype="str">Im Bann der Elemente</supertitle>
+            <title py:pytype="str">"Manchmal hilft nur, alles umzuwerfen"</title>
+            <text py:pytype="str">Wasser ist ihr Element: Bachelor-Studentin Katharina Gräfe trägt zum ersten Mal die Verantwortung für einen eigenen Versuch – und hat oft mit Frustration zu kämpfen.</text>
+            <description py:pytype="str">Wasser ist ihr Element: Bachelor-Studentin Katharina Gräfe trägt zum ersten Mal die Verantwortung für einen eigenen Versuch – und hat oft mit Frustration zu kämpfen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Meer Ozean See Boden Sediment" base-id="http://xml.zeit.de/studium/uni-leben/2010-10/sediment-meer-boden/" type="jpg" publication-date="" expires="">
+              <bu>Katharina Gräfe erforscht, was im Sediment des Meeres vor sich geht</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=263903">© elfefee/photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/studium/uni-leben/2010-09/tanzende-forscher-science" year="2010" issue="38" ressort="Studium" publication-date="" expires="" date-last-modified="2011-06-14T14:55:32+00:00" date-first-released="2010-09-21T08:42:10.762553+00:00" date-last-published="2010-09-21T08:50:03.265184+00:00" last-semantic-change="2010-09-21T08:23:15.738583+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Anschauliche Wissenschaft</supertitle>
+            <title py:pytype="str">Tanze Deine Doktorarbeit!</title>
+            <text py:pytype="str">Tänzelnde Moleküle und Anthraxsporen in Leggings: Für einen amerikanischen Wettbewerb stellen Wissenschaftler ihre Forschung tanzend dar. Von Meike Fries</text>
+            <description py:pytype="str">Tänzelnde Moleküle und Anthraxsporen in Leggings: Für einen amerikanischen Wettbewerb stellen Wissenschaftler ihre Forschung tanzend dar. Von Meike Fries</description>
+            <byline xsi:nil="true"/>
+            <image alt="Tanzende Sozialwissenschaftler in Anne Goldenbergs Video" align="left" title="Tanzende Sozialwissenschaftler in Anne Goldenbergs Video" base-id="http://xml.zeit.de/studium/uni-leben/2010-09/tanz-doktorarbeit-wissenschaftler/" type="jpg" publication-date="" expires="">
+              <bu>Tanzende Sozialwissenschaftler in Anne Goldenbergs Video</bu>
+              <copyright py:pytype="str">© Anne Goldenberg</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/34/C-Seitenhieb" year="2010" issue="34" ressort="Studium" publication-date="" expires="" date-last-modified="2011-06-14T15:01:26+00:00" date-first-released="2010-08-19T06:00:00+00:00" date-last-published="2010-08-19T13:17:57.612227+00:00" last-semantic-change="2010-08-19T13:06:49.196538+00:00">
+            <supertitle py:pytype="str">Akademikersteuer</supertitle>
+            <title py:pytype="str">Englands Akademiker sind not amused</title>
+            <text py:pytype="str">Die Briten diskutieren eine lebenslange Sondersteuer für Akademiker. Klüger wäre, Studiengebühren nach dem Studium zu erheben – in vernünftiger Höhe, meint Meike Fries.</text>
+            <description py:pytype="str">Die Briten diskutieren eine lebenslange Sondersteuer für Akademiker. Klüger wäre, Studiengebühren nach dem Studium zu erheben – in vernünftiger Höhe, meint Meike Fries.</description>
+            <byline py:pytype="str">Von Meike Fries</byline>
+            <image alt="Studenten in Oxford" align="left" title="Studenten in Oxford" base-id="http://xml.zeit.de/studium/uni-leben/2010-08/oxford-studenten/" type="jpg" publication-date="" expires="">
+              <bu>Noch lachen sie: Studenten in Oxford nach ihrer Abschlussprüfung</bu>
+              <copyright py:pytype="str">© Christopher Furlong/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="84b1cff4-7556-4107-9b5a-21f2421cae06" title="Lehre" hide-dupes="True">
+          <block href="http://xml.zeit.de/campus/2011/01/studieren-dwdd" year="2011" issue="1" ressort="Studium" publication-date="" expires="" date-last-modified="2010-12-26T15:15:22+00:00" date-first-released="2010-12-14T06:00:00+00:00" date-last-published="2010-12-26T15:16:21.705547+00:00" last-semantic-change="2010-12-26T15:15:06.475079+00:00">
+            <supertitle py:pytype="str">Bessere Lehre</supertitle>
+            <title py:pytype="str">Quizshow im Hörsaal</title>
+            <text py:pytype="str">Um seine Vorlesungen zu verbessern, wird ein Hamburger Professor zum Showmaster. Studenten geben ihre Antworten wie bei "Wer wird Millionär" per Clicker ab. Von Lina Timm</text>
+            <description py:pytype="str">Um seine Vorlesungen zu verbessern, wird ein Hamburger Professor zum Showmaster. Studenten geben ihre Antworten wie bei "Wer wird Millionär" per Clicker ab. Von Lina Timm</description>
+            <byline py:pytype="str">von Lina Timm</byline>
+            <image align="left" title="wuerfel-studium" base-id="http://xml.zeit.de/studium/2010-12/wuerfel-studium/" type="jpg" publication-date="" expires="">
+              <bu>Glück soll in der Vorlesung eigentlich keine Rolle spielen. Die Studenten sollen durch das Quizshow-Prinzip Gelerntes besser behalten</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=112234">© complize/photocase </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/campus/2010/06/Universitaet-Flachbildschirme" year="2010" issue="6" ressort="Studium" publication-date="" expires="" date-last-modified="2011-06-28T16:01:28+00:00" date-first-released="2010-10-19T06:00:00+00:00" date-last-published="2011-04-04T15:01:33.602746+00:00" last-semantic-change="2010-10-19T06:52:11.216498+00:00">
+            <supertitle py:pytype="str">Technik an Hochschulen</supertitle>
+            <title py:pytype="str">Schauen und klauen</title>
+            <text py:pytype="str">Teure Flachbildschirme sind angesagt bei Hochschulen – und bei Dieben. Um des Problems Herr zu werden, hat die Ruhr-Universität Bochum eine Projektgruppe gegründet.</text>
+            <description py:pytype="str">Teure Flachbildschirme sind angesagt bei Hochschulen – und bei Dieben. Um des Problems Herr zu werden, hat die Ruhr-Universität Bochum eine Projektgruppe gegründet.</description>
+            <byline py:pytype="str">von Marvin Oppong</byline>
+            <image alt="Flachbildschirm TV Technik Fernsehen" align="left" title="Flachbildschirm TV Technik Fernsehen" base-id="http://xml.zeit.de/studium/uni-leben/2010-10/tv-flachbildschirm-technik/" type="jpg" publication-date="" expires="">
+              <bu>Die Uni Essen-Duisburg plant, 12.500 Euro für immerhin acht 52-Zoll-Flachbildschirme auszugeben</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/campus/2010/s1/finanzen-glosse" year="2010" ressort="Studium" publication-date="" expires="" date-last-modified="2010-09-19T12:25:44+00:00" date-first-released="2010-03-23T06:00:00+00:00" date-last-published="2010-09-19T12:26:43.984138+00:00" last-semantic-change="2010-09-16T09:41:11.691592+00:00">
+            <supertitle py:pytype="str">Studentenbudget</supertitle>
+            <title py:pytype="str">Wer nur Spaghetti isst,  bekommt Eisenmangel</title>
+            <text py:pytype="str">Manchmal ist im Studium das Geld furchtbar knapp. Aber beim Essen sollte man nur vorsichtig sparen. Überdruss und Mangelerscheinungen drohen, weiß Inge Kutter.</text>
+            <description py:pytype="str">Manchmal ist im Studium das Geld furchtbar knapp. Aber beim Essen sollte man nur vorsichtig sparen. Überdruss und Mangelerscheinungen drohen, weiß Inge Kutter.</description>
+            <byline py:pytype="str">von Inge Kutter</byline>
+            <image alt="Spaghetti" align="left" title="Spaghetti" base-id="http://xml.zeit.de/studium/uni-leben/2010-09/spaghetti-kolumne-2/" type="jpg" publication-date="" expires="">
+              <bu>Spaghetti sind lecker, aber auf Dauer nicht sehr nahrhaft</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=11936">© na/photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/mode/2010-09/mietpreis-berlin-protest" year="2010" issue="36" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-06-04T11:24:27+00:00" date-first-released="2010-09-06T13:51:00.821399+00:00" date-last-published="2011-06-04T11:25:27.054623+00:00" last-semantic-change="2010-09-06T13:49:21.891247+00:00">
+            <supertitle py:pytype="str">Protest gegen Mieterhöhung</supertitle>
+            <title py:pytype="str">Nackt unter Maklern</title>
+            <text py:pytype="str">In vielen Großstädten steigen die Mieten drastisch. In Berlin protestiert die "Hedonistische Internationale" dagegen – mit spontanen Partys und viel nackter Haut.</text>
+            <description py:pytype="str">In vielen Großstädten steigen die Mieten drastisch. In Berlin protestiert die "Hedonistische Internationale" dagegen – mit spontanen Partys und viel nackter Haut.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/2010-09/mietpreis-berlin-protest_bild/" type="jpg" publication-date="" expires="">
+              <bu>Sie tanzen, nackt, und fordern billigere Mieten: die Aktivisten der Hedonistischen Internationalen</bu>
+              <copyright py:pytype="str">© Veronica Frenzel</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Hochschule</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Hochschule</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Hochschule</text>
+  </indexteaser>
+</centerpage>

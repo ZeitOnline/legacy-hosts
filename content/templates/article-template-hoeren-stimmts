@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2010-04-27 11:14:54.705599+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-04-27T11:14:54.757715+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-03-22T10:44:52.219713+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-04-27T11:15:54.538577+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-04-27T11:13:37.042156+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.cruz</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:0cd2d86c-15d2-4bf1-88d9-ee141e9e13fe}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">12</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="b8c7aecb-e00d-4c49-bcb6-910ddb4aa8b6">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="698f4e23-ea56-4801-92ed-e9228d2ff663">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="61cebc50-afcf-4f7e-b8ac-a37212380c68" title="Serie: Stimmt's? ">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/stimmts/stimmts-kolumne-link" year="2009" issue="36" ressort="Wissen" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=stimmts">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Stimmt's?</title>
+            <text py:pytype="str">Seit 1997 beantwortet Christoph Drösser in der ZEIT Fragen nach Legenden des Alltags. Stöbern Sie hier in den Folgen der Kolumne</text>
+            <description py:pytype="str">Seit 1997 beantwortet Christoph Drösser in der ZEIT Fragen nach Legenden des Alltags. Stöbern Sie hier in den Folgen der Kolumne</description>
+            <byline xsi:nil="true"/>
+            <image alt="Stimmt's?" align="left" base-id="http://xml.zeit.de/bilder/2009/standards/wissen/stimmts/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jeff J. Mitchell/Getty Images</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/2009/standards/wissen/stimmts/stimmts-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="09af5f51-435a-4f83-add6-91d26cca7c75" title="ZEIT ONLINE Talk bei DRadio Wissen">
+          <block type="intern" href="http://xml.zeit.de/hoeren/dradio/zeit-online-talk" year="2010" issue="12" ressort="Digital" publication-date="" expires="">
+            <supertitle py:pytype="str">Technologie und Trends</supertitle>
+            <title py:pytype="str">ZEIT ONLINE Talk</title>
+            <text py:pytype="str">ZEIT ONLINE-Talk beschäftigt sich jede Woche mit den Auswirkungen des technologischen Wandels auf unser Leben. Bereits gesendete Folgen können Sie hier nachhören</text>
+            <description py:pytype="str">ZEIT ONLINE-Talk beschäftigt sich jede Woche mit den Auswirkungen des technologischen Wandels auf unser Leben. Bereits gesendete Folgen können Sie hier nachhören</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/hoeren/dradio/teaser-dradio-wissen-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="4c0e47d1-56de-46c0-92c4-6a4f4dfce342">
+          <video videoID="72908007001" player="pls" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="a1cf2aae-27be-437c-b616-2c13ab0e242d" title="ZEITRADIO: Eine Stunde Zeit">
+          <block type="intern" href="http://xml.zeit.de/zeitradio/zeitradio-programm" year="2009" issue="47" ressort="ZEIT-Verlag" publication-date="" expires="">
+            <supertitle py:pytype="str">ZEIT Radio</supertitle>
+            <title py:pytype="str">Eine Stunde Zeit</title>
+            <text py:pytype="str">Das Radioformat der ZEIT in Kooperation mit radioeins vom rbb und Nordwestradio</text>
+            <description py:pytype="str">Das Radioformat der ZEIT in Kooperation mit radioeins vom rbb und Nordwestradio</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="zeit radio" base-id="http://xml.zeit.de/zeit-verlag/2009-09/zeit-radio/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT Grafik</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/zeit-verlag/2009-09/zeit-radio/zeit-radio-368x110.jpg" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel-Rahmen Stimmt's zum Hören</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Stimmt's zum Hören</title>
+  </teaser>
+</centerpage>

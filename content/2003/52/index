@@ -1,0 +1,945 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="volume">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2017-05-17T13:10:01.670515+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-09-01T16:35:02+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2017-06-30T12:55:29.335844+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2017-06-30T12:55:29.299289+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2017-05-17T13:10:01.423961+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2017-05-17T13:10:40.645070+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-10-15</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Lesen Sie alle Artikel der Wochenzeitung DIE ZEIT aus der Ausgabe 52 des Jahres 2003 online.</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-09-01T16:35:02+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2010-05-26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.manager</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEI</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">DIE ZEIT</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">156</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">volume</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:adbd9db5-b839-4327-8c85-a61cf91f3074}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">52</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2003</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>DIE ZEIT: Ausgabe 52 / 2003 | Archiv | ZEIT ONLINE</title>
+    <cluster visible="True" visible_mobile="True" area="id-7a3c7efa-f4a5-4743-aefa-194f6f63f630" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-7997d7e8-a1ed-4c3b-b7f9-d4a7c2797671" kind="volume-header"/>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-460bf0a3-9cf0-49a0-b491-5457f6a5538b" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-669e5ee8-36ec-4d72-b6a1-d62354685067" kind="print-ressort" title="Politik" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-beee2e03-a9a9-420a-8b2d-10f9fd462caf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ffde381c-8e68-469a-b755-3052d0fe4253"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b5205563-0945-43f5-ae63-e1c64fd2b896"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-63275ae1-d6c5-4f0e-bd06-1a3ab911ae96"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6e85292b-41fb-45ac-86fe-0fc4e0dab419"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f6d39418-1f72-4a92-9b72-cf7fce3c56fd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a05b34ea-b8bf-4d00-971c-c7afbf572d21"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ea235965-26fc-4953-a19e-248259cb00ff"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fecea6d9-b0ad-4855-a791-d68654efdc21"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-efdd8ac9-a9a3-4d6b-aaec-5d12aa279e8c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7e3df6f1-7d2a-4e5f-b8d6-ac5ca854a290"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c60e7ef7-a232-40b4-9978-5fd8e4948a8e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d3ce94ec-3213-4a52-b45c-d2fe63241384"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3bf5373a-b2aa-4829-86a8-cae17d991574"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-11f7ec68-dacd-4e5c-9a8a-a21568ae4aa3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b64ad1cb-f8c0-42a8-ab31-c64e80676554"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f30d7a1e-bab1-4252-bc42-54d48afc70fb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3f9b132f-abd1-4a8a-afed-ad6fb647b9d6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7aebd7d9-d169-4947-8c6e-a01bb819de94"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-83e34ad4-6735-44ea-be46-271bbf3e9b99"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-011f1dbe-f2b3-4de0-bf8d-04312082facb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f992f267-3e1c-47a8-a336-91a1010b97ed"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a8a15bd6-a961-4397-95ec-360670d3c5df"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-44bd6aa1-265b-49b3-a35f-86abfce3600f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ba407445-69ef-47e5-9af5-1a638fbe3978"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d6f2de47-a310-4008-bdb0-7afad86f314e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b6f01a17-6135-4a81-b5fe-64d53941ba8a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1c383d89-2581-4384-ade4-129e33fe7c1b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c4c4e954-496a-4820-b9c1-7b042637f524"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d140c96b-d992-4d4f-b1f7-acdea2af12ca"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c13909e0-a9a4-4304-99e4-95ff1e9839bd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e2e487b6-fa9a-46e4-a670-a44ce18fc7fb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-291ef05f-ce4e-4f00-9682-5c8501c75239"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1995ccca-2f57-485d-b725-0c6dc1d6ba13"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d65432d4-d529-4c0f-9211-0b44850910bc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-852a8f7e-c311-4faf-832a-2c71d2b9757c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a6515138-a1c0-4587-aac3-e2b8538263cc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cbfcf652-f6da-44e3-b971-be4e4eaf9f62"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cb0c46a6-8425-4d27-a7a6-919c5a5107ec"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ed11070a-3e03-42ae-936b-e9a5703e676c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b22a5e07-9dbe-416d-b1b1-cf04f356230d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7b2d6d7d-de18-4493-885c-9aa72cbe2cfd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e55e7811-5f10-4bb2-986e-68771a83b7be"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-24ec3764-0024-4af5-82e0-f780c22ad97c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c898aafd-7f82-4c6a-996a-75d676a51c4c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c071d59a-febb-49cc-96c3-fe706357f936"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7090cfb8-df87-42bc-8c4d-691c160eccb7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-153bd14f-7dfb-451a-b311-329954c2f687"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-90fc6eee-89dd-4c60-a8a6-d933235028f8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1880340f-cebf-4a74-a742-1ef53cf39dfa"/>
+        <raw_query>ns-print-ressort:"Politik" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-b1783228-e73f-4701-8cf6-6c8f9b3876c9" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-d084e42d-2aa8-4f6e-8097-6d9b7c3f5a06" kind="print-ressort" title="Recht und Unrecht" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4b735e72-d9c6-4dd6-9659-e0808a688eac"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8c0bced6-adc6-485d-babb-8aee24eaf096"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-89217284-fabb-4f61-af0b-1edd38e3024d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e3c2e8ab-bde2-42bd-a590-d5239bf914ed"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4a30b4c8-13ca-41fe-a158-a094bff07fc0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-580d04b4-31f7-461b-b146-1d8215d1fc01"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3ba053b3-8c46-4ed8-9b40-0e608f873488"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4f9787bf-5ad1-4990-a3ba-36a98f0a0b03"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-25a8c778-35c7-4508-b2ef-3f71f4296108"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1858e4ff-ceea-42da-921b-0d36a8c7d78f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bf25c028-0122-4326-9517-a53815263698"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-001e5089-8044-4d09-a362-e20665dea657"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-de5b0465-c1ce-450c-be09-709dfe6fe7be"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e615b622-c7c3-47be-aa30-ac5ec17eb0e8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-240c075a-903b-46ed-bb1f-126edec6872f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9de74d38-ccd8-46e8-853e-a9a039b1db14"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e1f1e4e9-e6b2-4453-b7d6-55bfcaaf728e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ab18a38d-9226-446a-806e-fac45ab1e737"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9a9f974c-ac8d-46e5-bb24-f7f11509f38f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e5171604-c730-498e-a33c-0840a70c8067"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-97a706f5-b39e-429b-9cd1-1dfcbf79cefd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a10757c3-f232-46cb-b139-b3e3425ca387"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bcd48259-2b54-4b07-9122-9a2a7b930513"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8703573b-ef2b-4ff6-9e66-2e66b91812fa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e5c04318-f6e3-474f-94fa-06039257413f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7f7bce0d-59d6-42fd-a261-ee0db7bdf501"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f543de3e-e277-4c6d-9b1e-bfe57c98a009"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8c24e77e-61b4-465d-8bd1-8ca2cc2b8a05"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cc0b065d-cd09-450d-9a2d-87915a3b92ae"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2dadf84e-4b14-455b-a472-a7c655799814"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3313da80-c612-415d-ac22-ef70326d3ac5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4e3e6399-a291-4155-98f5-fb5650595de4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dd176c0d-8ee2-412e-af9f-901400783376"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9712111c-b7e5-422d-ae4b-ee688674b6a1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cf823951-34f7-49e2-aba8-4a053bca1c4b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-733404cd-3b3b-4939-8336-9c8f77e9c371"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ab594628-1f0e-4bf4-9bd9-4448fb08197f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-857c0ceb-a4c8-49ff-bdf7-c43d932bcd9d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e0d7b435-780d-4920-8738-17f224d35835"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-175c0baa-4844-4477-8017-5259485e1b81"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-74bd6991-4989-48ec-9150-6419d7068ed0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-add32559-b7b0-4125-9d9f-22977ff09df0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e76b708f-e3a9-42a9-a8e0-e7697479aae3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2048973c-9e8c-4341-aa24-3f88363fa4b5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4ac784ba-4acc-4783-8b9d-6897a97b4ecf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2b007c60-6890-468e-a848-e5d47501a332"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5f11e034-dcc5-492d-802e-8bc2c68b647e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d295dc59-caeb-4680-8e21-5503fee892c0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0b4ef72b-d901-469b-898e-b6d8b52705bb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5adfeda2-50eb-4ee3-98bf-1907cae494ef"/>
+        <raw_query>ns-print-ressort:"Recht und Unrecht" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-a862c801-6370-4bef-b2a1-fd80c9d4439f" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-bccca39b-37e9-4d65-9d2f-750d52df5cc6" kind="print-ressort" title="Dossier" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7a0b5827-159e-4637-99a7-a2ca85601ec2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7896eb17-be80-402b-b81d-efe318889825"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-eee40792-0a9e-4497-b286-5cd1188caeb3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c67269ff-752d-4266-b745-e9a3bcdef3b6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d5e4258b-e6a9-4f65-93a9-d86c7c1345c0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-556f5061-6381-430b-802f-a4f679682620"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6d55b05d-cb74-4f01-9c60-b882b5bca631"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-33825917-2222-4a98-9ccf-97dd5b389f69"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cc723535-2996-449e-8fa5-a9620bef462e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a9c206e0-b519-43df-859e-9c7fc95196d9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-98b79e5d-9f9d-4579-a1ac-7a578a7037ad"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-43af38a0-342f-4569-bc00-5dfe34fd5f58"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1407aab9-7071-4ab5-8217-40008b5b01f8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-10f3ca0d-1458-4129-a041-4906f7e54ccb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3ff5f407-f7cc-4229-b11f-51ce366b99ff"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ba7c6d12-10bb-45c4-849b-bb2ab8e15898"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-001b5a0c-083f-40ce-8b7d-8d65bdde3fc9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-58ac34ec-a9c8-455e-8d2e-fc04d5d04662"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-46dbd3d3-d160-4d73-89bd-73f8e8300efc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4d4236bf-2043-41bd-841e-fbb829b540d2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-38d81696-59d7-4d13-903a-2c3d02abb2aa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-923e0abe-6ded-4c2b-aa53-191df2558160"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1209afbe-b083-43ba-9e35-6792d66717ba"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6e2d3b65-f56e-4b25-a3e5-3de7fe237fed"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0db5a378-d3e7-4fc6-a2bb-787d94c23b4a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dc93900c-672c-42f3-8e65-5ed2f3905bfb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1fe2a9ef-4d7f-4310-9111-17fa4059a2aa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-31447025-dfb9-45d2-894f-e4bc46c4071e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ed743d80-d56b-4972-899f-89951039b0d2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e3cd43d9-4607-46c6-810a-edae88cc0989"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0fef2b15-cf1e-4b7a-a821-70fcb625b29f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9209c457-7df1-4897-8963-5f8f905d026f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-baa52d67-a276-4972-86e8-7ce5be2bcf04"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-721c3706-514a-4a44-9546-2f88eb498688"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a2ba1e66-f808-4a70-a139-d8a32cf79ead"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-96971def-6687-4647-9952-2b9314cb0610"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-52329aad-3ab0-46dd-ae03-3fb85d7d2905"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-65e74996-45b7-4386-9455-519d823d528b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8d9f3c17-e9d8-4a49-beb0-cc0eb9173de6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-47840125-d568-4a34-b7f2-480081b03dd2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3cba7017-0b13-431b-8fe3-479fb869ff75"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9692a023-ee20-42a5-bd1b-06539a8ca115"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-58dee263-8710-4a40-bccd-5c99f8545d3a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-72513d43-b203-48b2-b7bc-1abfc4a38d69"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a1d7f526-aee9-4a87-a494-104280b252e1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c84a5785-6d17-4324-9d1e-bd44777a7123"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-22dc6b23-bfe1-44e3-8778-ee9e4759a907"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-40b78f0f-c66e-4db6-a3f7-a4381450f9dd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4b7cdd37-e268-47ed-8207-521f8f7b8c02"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1f11e3f2-a3ba-411a-a95b-77f8707cd5f2"/>
+        <raw_query>ns-print-ressort:"Dossier" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-2056341f-09b9-4fc1-b700-9dc353d795b8" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-80904f9e-b4f5-4656-97be-5e0fca84d4fa" kind="print-ressort" title="Geschichte" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-26602470-3a73-4f6e-a608-d2accbbf46d9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-317b8f66-e5bf-40ad-9384-bd2dfe6a7757"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a5e227a7-a677-4c5b-a610-2caa00b5c89e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d588a0e5-c09d-40ae-9c13-0489f2b24a8e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f18d2453-e688-43e6-9056-1e174403160c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5bc9579d-9b62-4d9b-b03b-663729ad3f04"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7d99f43d-a7df-4f5f-98d6-20a92fb2006a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2f50e552-4804-49b0-9d58-89ec2a0c5a0e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-82ec50c5-580c-416e-be53-e3446748e597"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-89041f2b-fd09-4c09-b30b-6138cf12abbd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0d019add-67e0-4a68-97b9-c41da609dd1e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f1558b0a-49f9-48f9-93b1-43bdaf11dd87"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fac419d2-da0f-4140-b75f-011c2f725d58"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a1754a9a-4268-4d42-926b-e8a5b0543643"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7b7c37fa-a140-47ab-8715-1935abc843c0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-06007c00-a78e-4c9c-a101-b0f70478b070"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-275a95ba-cd71-480e-8218-4414aac85648"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-72c34fa2-39de-4f3f-bb48-8b8dbdae6528"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a6483065-5fe4-42d1-bf2a-e9ed37f5b7a7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f7c82274-6ce5-439e-9913-5197e1e1a1a3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a9147afd-5fbb-40e3-8ad4-85944a4e70d8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-296981a1-bf2a-4e15-9085-0a5ca691f155"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c6a7e637-a8a3-491c-bcca-c39405ed2939"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-155110ec-9858-4273-942f-f76681a01f31"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-23476062-1612-4802-856a-6afe66274c20"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-42375dd2-0a18-4d20-8a48-5ea09f7a24d5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-72ca6747-ca42-4b6d-9af7-8b65caf4a47d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c3d4552b-cdf4-4b79-a21d-c3bf5ad97a43"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d6014f44-0941-46eb-9aaa-66ea082668f4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cb5f75b4-337f-4b9f-a928-ff42a5fdb75b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-22fd94ad-bbd2-4f5e-814b-a4e2209280de"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dc88baca-0d29-4cbb-8a45-61ad50fda528"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7cb12834-0965-4014-84ee-541e6ea70448"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d83e38f8-8861-49df-82d3-1efc968bdc76"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e1606995-d027-41f7-a44c-e1a4f23fc088"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-97e0660f-64ac-4453-9726-e8d84c01b1a2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bebb85d8-d41c-40df-8836-4a56b269bd4b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b25bdbb8-3edc-4b34-9afd-d0c92ac7f64b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-12698373-be63-466b-adde-13bfd4b2a317"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-85c2e338-27fc-4739-bce3-aaf7663ffb44"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a93b8682-315b-4849-ac47-a1741899f40b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-451da95c-15a7-4871-83bd-891f5699af54"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8c3cce48-fe1d-4cd6-83a3-00f9ac8ddaf1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9353513b-9488-4af7-bc8d-3b5f1b22e087"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b17996d1-85d6-4a3c-adcd-bb9ce139452d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b0e620a3-7ef8-480c-8ea0-d471c13ed0cd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ef3d6ab0-e1ed-42e1-928f-0ef9ac31061f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-38fca929-528a-4b38-b137-1de27c3aa2ac"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e06c6b22-9cd1-459e-82e8-2ff6872e7dd3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ace9be35-e316-4273-b737-910f5682147e"/>
+        <raw_query>ns-print-ressort:"Geschichte" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-e855cbb8-e0ff-43c6-8555-7883c8c62002" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-db027115-7aaf-45df-81c4-fd79356d85ff" kind="print-ressort" title="Fussball" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8136e9d2-a365-4c9a-b9df-99009731ad48"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-046c35b0-4997-4762-8f6c-3889a0e80d78"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-beded4c4-8f64-4b07-8cd1-18c6a9035bee"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e93f8cc2-80c5-4986-8dfc-26e0cd31fee5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-653c6418-bfee-4444-9555-5977f29aa433"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-15d54c9f-f1c5-4a8d-97a9-dc80b9e5e1c0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-671c6b50-8138-4d10-bc3e-8f87643b334a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1b39173a-713b-4c4d-9402-9db1464ad479"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8f3f25da-f80c-4b4c-8358-3908e3fcd410"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-01973f3a-2492-4225-9e77-955bd39e228a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1447eda2-d331-4a8a-bf35-41e2c91cc7b0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fd1e20f6-a98b-45ff-8c5f-3e85ef25343a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3d29e2e4-e4c1-4938-b222-8740893d2d26"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1a87aef8-633e-4da4-8477-e4aec8379afe"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b1ec0d38-2bc4-45ce-b7ee-dc3d3a1f7941"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fe908843-c1c9-4ea3-b221-4f1d52ab8342"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-565f28f8-1cea-44d4-a864-5f948234cc08"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ff91de11-c619-4a2a-800b-db0057f40bf6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4e539b77-5121-45c3-9010-b90e51493c4b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-69966168-357d-49ad-bfba-f2085336bff7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3004e8c0-2267-4cc0-a78b-a70c211325bf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9b2e8dd7-5164-4fce-b816-88a96f269484"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c338013d-b14e-4e2e-b83d-c88831453593"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8856a69b-1bad-4135-80e9-b710b4a51aba"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3856f502-d522-437b-91d8-31c1a22c1bb1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-afa75452-d3a8-45ea-b2b6-c2405f58942c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4487e6d9-04c5-4cac-ab92-0063ce883210"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4984544a-fa46-418f-a45a-ecccf594af19"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ee23508b-8de1-40fa-8908-4bbde5fe5b23"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ac2ba13d-4d5d-42fb-89d6-0bc4ba0e3f34"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0f56c040-6dd7-464a-886c-8cfceef99e78"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-13c03e5d-68ef-449f-82c0-6b639bb084b7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1cd0aebb-dcee-4cc1-ab93-436189da9f73"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e34df89e-3310-406b-83a1-48d646a4bb3b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b79ee8be-73ef-4f35-89f1-afd0f30f1184"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c589a330-79f2-47e6-87b4-c3a77a346071"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a6656306-97a8-4d11-82a4-24f4a7eacc06"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e933b9ee-5bd2-4402-95ef-88367943917c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-272502b6-d20b-4914-83ca-b3ec775b8d32"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3821ea6d-5bc2-4e91-9779-1357b525f8ce"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4cbaaed9-2b5c-48db-81f7-5f4a3e971603"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4011429d-1dfc-4827-8613-efd2cbff2616"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fedcb73b-a384-44d2-b0d3-3b6b56b17f2d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a76be41b-1aa6-4ef5-8e26-097edc22f32d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cd90ae34-2613-4bc3-bb35-1f48eefcaee9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-046089bb-3c4d-4675-966c-8429975d17e4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-24fe8318-2e3b-4094-8a1b-29fa2ff8730a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-94231f0e-78c3-49fb-8367-c04ae9499e0c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c87afb30-3500-4cfa-a289-5ca784bb2f8c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b64ab7dc-dd79-4674-8eb8-ee5d103ac182"/>
+        <raw_query>ns-print-ressort:"Fussball" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-dfc6a3c6-c7f8-4e55-b0ec-20035182c859" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-2fde5cbe-365e-4454-80e8-4670f87f9e1d" kind="print-ressort" title="Wirtschaft" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cfea8954-358d-4704-b17a-63f37ac96a43"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-96b1b7e2-5494-4742-9314-33ae963cc589"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0bb88923-8ef9-4330-b017-8ee53df7f6a0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-58c83198-4753-400f-9361-658b9151b23e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e1328281-8979-4e55-94d7-756ac2abcefe"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-155302ff-e698-44fa-805d-699e8beb317a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-64eaba6a-e5eb-4e3d-860e-bf69f46c53cf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-011d9d3b-ae35-455b-82ba-382d723d6528"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-420fa428-c564-46e0-b699-2678bf800824"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0be1d875-947b-4224-8225-14e43fc54d5b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bf2b85c1-98c4-4a6c-849e-a535a72113c4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-29899eb4-c8e9-4308-bd84-c311d73cb3fc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-59802186-0b19-4b3d-be9a-5ca7740867cc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0bc14132-2c22-4a2c-a869-4d7089fc7dd1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7ae2e0c9-3b4e-4ee7-bbf2-a60bb4db53cf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8ec53195-7771-4f78-b1ed-fdbc1b2dfd24"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-784258fd-6a0d-43df-92a9-bd5e99cd2dbf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-aad76535-1d3c-48d7-8f0c-fec3067e7967"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bb77fb04-74a0-463e-b2b7-68b90a10093f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-19890163-e1cc-4535-9549-87c7968455ee"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8603a2b0-1ab1-48a1-93bb-0223728b4984"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d474ed46-0f0f-423d-a17e-6796760eafa2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-82fa9b48-6439-46fe-8483-1894b829911d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-76ac1d7c-42b1-43aa-a3da-027c36a2233f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-23498b74-c126-41df-9ee5-06df8a823473"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9516ad91-9b3b-40da-b075-96d560a82793"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ab8d191e-2c29-4ae4-b936-cfb4c003321c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6a814036-04c5-42b1-b7ec-1e39e2a50fa4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8ca76219-5a69-4f22-bb53-26e27c93200c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d4a3bdaa-c5b4-4ea4-ba0e-f9e600a03c9e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bd192ff0-80ee-4f79-871c-859f6106ba5c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2b541414-8ba3-4a98-97a3-e38a47537985"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ccccf137-7a1f-4307-80f3-9935fee13052"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0504f822-f82d-4d0f-b825-1cde9f7a0b26"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f601b545-44ed-4473-85e4-c1e0c6fa539f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6bdf1274-1247-4db4-97b8-813ff82a45eb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f8dab3b9-1d36-45bf-b771-5b1316ec6edc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e14a6be9-5515-4f11-b4c1-7f00f504d42e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-eb7bb5f3-7c3b-4e2f-aca8-ec420957b420"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-71acf578-8b9a-4df5-8e03-29c664b42072"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6bf81147-40ef-4823-b1da-ef86e2443d08"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4bdaba59-5c50-4528-ad80-57b8d7547239"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7f51be15-7ec1-4388-b090-0f840c17033e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d31d1e8b-882d-4339-8ccf-a2c2832dd49b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3509ffe2-c9de-431b-884f-6698a9bde65a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-20997ebe-39fe-44f5-b6e7-7e34f2004e25"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b259a511-4996-4224-84d6-b8bbeb0f0b63"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-185c11d2-6491-41c6-a49b-c9d9421faf8a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-026dc06c-493e-4afe-a3e0-1aca66260a17"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a2342217-9c0f-45d7-b110-9edb4702e731"/>
+        <raw_query>ns-print-ressort:"Wirtschaft" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-a1ba9045-88eb-43ad-8959-64c3bac6e00c" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-e19764cc-31db-4e62-8f58-49c38907b7fa" kind="print-ressort" title="Wissen" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-46e9370c-5cf0-455f-93f5-6e08d0401aa9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-aa492e07-6db8-449a-882b-beb4a0b1c31b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-13bca7fa-d9c6-4523-b8d7-78a0c0d15894"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9d3767f1-b861-4f6d-90c4-eec1b5a16581"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7ea92709-939f-41d6-8655-63834a2f8c63"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1adf7799-2853-4bb5-bf58-0d3798623fe4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-582f8507-4614-4202-8216-8c34124a8cee"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9ab5c388-998f-409f-96cf-5219cce11767"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e8a28433-1fdc-42b7-8814-8de36774cc77"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6cb8f6d3-9fc9-48a5-83e0-e60fd58c6b2e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4a1b01c1-e481-430f-9029-4739f0b534b9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2ac5e1a2-0e3a-4b01-b299-05ad0fd73934"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-18677624-7314-430f-a862-04a54edec6d9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-17d38d3f-be2c-4f4d-af2a-ebbbf95596e3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f129045a-ddbd-49cd-970e-8495d1fe2683"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-01c53cd7-7987-4909-97b5-72a426bdb238"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7559b16b-3080-425f-a302-bc14f3dfcfaa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1fb8464b-6096-4167-b528-f8e4155a9fbd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bdb74004-7bf2-4312-bd86-063ee8d4c259"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6cc228d6-ca17-4936-8880-43e5390924f7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-491f989e-c89b-4c0d-8ed9-a491fefbfa5e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a825c338-7b4a-495c-be1c-01c2747d29fe"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-15350fe6-cd5b-480b-99f7-708dc0edb141"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a732f983-aa65-425e-a861-9c7d204d44a0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3a954160-ec35-421e-89ba-0e390bb854f5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bf19a724-2ee0-469c-90f5-124ac7ce887c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c5141844-52d8-455f-ba8d-47359f4b22c2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b16f273f-c603-4414-a8f9-931306277e64"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d479d42c-740f-436b-b8d8-6bef89f91414"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-db7a3fe3-09e6-4dcb-830c-cddad1a86d36"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-657873ae-fdd9-4c5c-9f03-afe216fe279d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f3e37453-a7b0-4da8-9a57-f3c84fc2012b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e9ea43f7-289f-4428-9b6f-277423b9c8ae"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1506b608-5dda-4561-a239-d2801e86eb32"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-64ad4f96-6d83-47b7-bba6-a928f114e614"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8ff8bf0d-6bd1-4041-b281-c42292ad2f5c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4a91fac1-05f1-4130-b062-9abc0174bf7e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3179e9c4-fe32-4acd-b25c-83a89ddf9db4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fab9c434-e022-4a1e-b9b1-1a138dd86513"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-29642eed-07f8-425a-abc9-5d0292a0f9b8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f192e18d-2f35-4d43-be8b-f3caa52f11ba"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fabbde89-f422-4d6f-96f5-0f2ade1c7dfe"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ec16b14e-08b3-4db6-a52d-11a58bd1581b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-db901bb3-01b3-44ce-81f7-ba5a758acedf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f1bfa771-49e3-4d46-b8d1-ec17f206a5f9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f547ddc4-89ba-49de-a3b3-e916a51398ef"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e08b05d6-2f4d-4b2d-a683-b56e7de49a40"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7be69850-c66b-43ba-8c5d-20787a6a23f1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2de87eba-ed51-4db1-a1b8-e7cd0697e0de"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9d0770e5-f447-4260-81ec-f90c68b350e8"/>
+        <raw_query>ns-print-ressort:"Wissen" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-09065b82-d652-4482-b039-ddaaf22f0e9f" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-986ea7e4-da48-471d-98cd-fa4af2ad88fa" kind="print-ressort" title="Feuilleton" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-49db14a7-79cc-4a4c-9b27-70d2988bd263"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-03022a7c-9155-4407-87dc-6fa5e53ac345"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-83d797a7-8343-4460-a640-689f1b0fd04c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a3724154-f6e0-404b-b22b-7973aedb5a43"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2e4ef893-d5f5-448f-8dd8-f8ccbc6ee038"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-17d36dfb-b3c2-4cca-b664-aed6b818e0ed"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1a91d6b8-a480-43ad-9aec-76a338980770"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f8ba95e4-b8ff-4627-8bed-9fc84de34a1a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f0af6ffc-741a-45ed-95dc-996d898ed312"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bea6edce-feb8-449a-9eff-37d8801271ab"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-faf892b8-1ceb-47f7-8bb4-6a2a55f3867e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6c6f03ee-7dc8-4bf5-9831-097ca9c330db"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f1f8c83d-3bba-4ec5-a10b-6bf2ca54ade4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-764236f9-6966-4eb6-9ac0-faffeaec70a3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f3181fb1-2472-4c28-bdb6-1f26498b9085"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7fd331c7-e756-4762-b386-6933f796dafb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ec8ce547-7dbd-4177-9802-78e767239dfa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a536e032-6d5d-40a7-9a91-567162933f92"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c88c8ad4-1584-4507-ae00-13eae86d7cad"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2be7e3bd-83b8-4e84-8cc5-9ff139b02a97"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7960a6a6-d5fc-4733-ab6a-4755e36d3a72"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f5f2baf0-84b9-47c4-b866-068c288126fa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1c144e62-3092-49f5-a50c-5a394fa3f58f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-555f33db-bf5c-47f1-a3dd-795b26bedfdc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cfca75e7-4d26-420e-a586-f663c079b605"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7a9c8e28-8baa-4fff-8a84-8c2e5d2ae4d3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-950a6da5-23ae-49f5-8e65-51e58e3ae991"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3645ee38-d48a-4003-b17f-f78e76ab4ea9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-26b14bb4-378a-4fb3-9465-67421e2f6771"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-60c7907c-3e57-48c7-87ec-f23b8e2471c3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ded7d482-d892-430c-96e0-3ec0f8c8052f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9c7c6eba-68fb-4e0b-9ccd-e5bba7283168"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b67b1a76-76f7-43eb-ba0d-280aa0401cda"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-96bacad3-2ddc-4cd0-96cd-16fd45cd1e26"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f8dc55c0-12bd-4fac-beb7-0eba96d8fea3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b64370cc-fc33-429d-a000-380f290923c2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-79209c2f-2e0b-4733-a16f-34e85f65eea0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ede86c81-4c74-441d-8133-7cfb26177149"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bc403e14-075a-4ec7-9ee5-6f56c6e45825"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5de711c8-65a8-447b-9f6b-a7390c6a2c94"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5884d61d-ad98-4e02-93b9-1bdd0c92082c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-621531ff-8099-4d35-93a4-0191b5197c1c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0fddfc53-04dd-4efe-9d42-9f3986a44bd0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2b9e477c-4ad7-4de2-ad15-d8412b86b367"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-23357a00-cb91-4213-9b88-d786618e0483"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f9e7dc29-0578-4904-8c71-dbe89e22b9fb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b457a4df-ffa1-4086-b158-c73c26a500aa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-50e3d073-40b4-46f9-b3ba-1a025ca8dc21"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f9ec4e26-e1cc-495f-b2fa-34777a36272e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-686a483b-2ba9-4352-88bc-3b04537c0ac2"/>
+        <raw_query>ns-print-ressort:"Feuilleton" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-6d6bb3c3-bfb7-403a-844a-29225e795d35" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-d96148fd-4197-4cf6-af41-78d0e6beb821" kind="print-ressort" title="Glauben und Zweifeln" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0070c6b4-2de6-495e-80c0-7022a4e7e722"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c82b2cbe-f2f8-4b21-af79-89393b1b6b14"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0363f127-e66c-4286-9f64-e7f391d969c7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d0404911-381d-4bd2-be9d-99d63b8d7232"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-80ec38a2-e309-40ae-8783-a1166a4dd4d4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-38331a77-dc77-49fa-a24d-17f9b7308136"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cb6baced-c8e9-4aee-b04e-94abce57da96"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-04ff0041-94e5-4cc8-a231-4aa75838b98b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-44789389-a66a-4158-a6b8-e7f8ad04c37d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0e27410f-9280-4f6f-89ff-dcd218cd9fbf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c45642bd-c4b7-4597-83be-4d0e4790d8ce"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4f0b082b-8aec-411d-a809-fe6e09de916f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-df77cbd8-522a-45d0-a682-3cadda829e18"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dcc2250c-4ae4-469a-888b-c785ebbfd08e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4f20b579-6e94-4ebd-81fc-fb22ae173bd9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-842782c1-1235-4df4-8d5a-63c0e3618f94"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-804259db-3213-46c3-b655-095330c426f3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b94068de-04c9-4bbf-ab2c-eb0408e16d99"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e8fbb314-7147-4913-8c11-029043640e05"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dfb5e8cf-7a3b-40a1-958c-d3062201eed6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b41ce07f-97a5-4417-9f4e-fddf9c98546d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8ddbd349-2a6d-4dfe-9d7d-b771a1f2b967"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-225f1564-d113-4940-a643-10edcf7a44c1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9fd46dcf-b2a4-4efc-a3d3-f09283439644"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b88ba146-4179-4fe0-8a04-2aaba011397b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-aad5fff6-0a94-4298-8af9-11ba32a2331c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ce951045-38f0-4495-9d49-465322142293"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1f85b596-cbe5-47c9-9a71-808b7527189e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-18e7db74-e652-4489-8dcd-31062cd7560a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-38833ef5-8ad1-4e04-8210-771dd3699ffe"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a3ff5179-d0c2-4456-be9b-500af09eb9e9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ecc434fc-f938-447d-9dea-86c9f4ce04ba"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-94f49b6c-7a7f-4f62-bb8b-6287f155e224"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dc138fdc-20b1-42ad-bae6-c5a0d6b656f4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-90345ecb-b81a-4794-8bb8-0717a60fc8d4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-91553c16-2466-4c71-8f88-4288c10ccaa6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0fd717c0-888b-441f-8754-1785943988db"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7cd9ccab-a62d-45c2-b9c9-f5b6b1e25b72"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e8b729c8-43a7-4e6a-923e-0fe86e179ac9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-176a4fde-fe8c-478b-8be7-903ab6099d97"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e331225d-d3f3-4715-88f5-96abff8b7c16"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-27c40db6-fad1-474f-b273-adbada2976a0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fb6cf008-8eb2-48c5-88c7-5726bfbcbf36"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-931f76cc-bb31-4249-8707-85e9199ffb55"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-95a06540-cedf-4111-afe2-b6d5584a5dbd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cbdd09f4-88b6-4e30-af95-e3e293c64435"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e43366d9-f439-40ec-8899-f48becc95640"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-36f16e7b-e72c-40fe-be89-df01a845633b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6abaa407-e4f7-43d2-b17a-ac8b058f5c44"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a109d54c-37ed-4565-abf5-24a4588d42c6"/>
+        <raw_query>ns-print-ressort:"Glauben und Zweifeln" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-5e1bc187-65e6-4e63-b2d3-1a8752f80c6e" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-871e29cb-d759-4e1c-95d5-62ecba785e0f" kind="print-ressort" title="ZEIT LEO" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-987ef21b-a309-4866-a47d-7119d68d6cd7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f47e2f4d-d2bd-483f-b7c7-4e2be934172d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-67771f05-a57d-4842-b9e6-95e954cdb1c5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-95d66f86-fb28-47d2-8c21-3534ffc77f27"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0abf9371-380d-4a5e-a01e-964a40d55178"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f5ffa3c3-febe-48dc-9b05-c5048520a87a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-847daf8c-426e-4338-b33f-b0ae957c5a90"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cf522a0c-76d7-4138-86d9-df5221093a62"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-49612ea0-78b0-4c48-9642-6bb7b46da773"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b0d48932-2d45-4c68-83b8-5e67e719ac8c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6fd37c76-669d-4a47-9c36-b37409d0fe4c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-da9c2eab-3975-412a-9a04-88c2cd46016b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1d64ffa3-a190-4847-bd7f-ceb1587f58ea"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8baf13f8-c32c-4916-8ccf-d00c8f5d79fd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5fbaa534-5cb7-42e3-ae44-aa75d9decbbb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6de1e421-fa01-49b6-8050-80857d4b0731"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c622a3fa-cd4f-479d-b414-3e2cb3cfc85f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c38071ea-df57-4b02-bb30-bf63b0c46b50"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fda7b67a-04fb-435e-a901-88cd1fb18952"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-86315aeb-872f-40da-af12-b26aa14b36a0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0362ef7b-9e9e-4ec1-8edd-13b3fdf528fa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9945e1b9-5c70-4a48-bf95-d5b745425a2e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2029fedb-c97c-4d9a-a467-5a5b363b4fc4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7e7d0512-2311-4887-8dc6-54647a281305"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e04af89b-e3b8-4cfb-ac1b-7fa7c82881bb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f12bbea7-1518-4581-a7ac-4dad4bded9d9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7f9dce13-1578-4c23-b25c-293bdbcbe379"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3c4277b7-dc2e-435d-8e81-b476ad3e9f09"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-16da652c-fdfb-408f-b539-5250cd3302db"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-36059a3b-d988-4021-8265-4e592608ffff"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-05d598da-6cd7-4f2c-bfad-a7abed6e3d2b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1ca51ac9-4d69-4fbe-a415-20719e69e551"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-01a58f36-9aeb-4e12-a3f4-3405055def1d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ae01fc19-95f5-41a7-b823-2a431e69ab0b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4d3f18dd-069a-4a5e-bc86-8d233be0095e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ed48dc3e-8513-402c-a4dc-0ca5aae0a3bc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6a707632-ab5c-4f9a-9447-12f0a3eb740a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f0078a39-3d33-44ab-b32c-657fa8e388ed"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-23ea6fb1-2e41-472a-acc3-eb6a812a79a0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1a1a102e-1abe-4f59-89ec-53367284629d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-54044f83-5d43-406b-ba7c-5c58c6b01b87"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-62b93a5c-8c4b-4310-b994-da2c691171cd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-615a6514-6eba-4541-a1a2-6cacaa2bab49"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a922b099-5c8d-4f69-9905-2ff5edb2c6f6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7592f67a-88ee-4664-b3c2-b4898a9d593b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-eb43614a-c161-41ea-ba62-f6b13871af60"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ba05e796-f3a2-4b34-9ed0-95560e55afa7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2b62cf4a-85fb-4124-beba-0d3344afd332"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7f74bc17-7164-473c-943b-031ee5d42fcd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-32f3d584-abb7-4bf5-a119-5fe3d95199f9"/>
+        <raw_query>ns-print-ressort:"KinderZEIT" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-d60335bd-7995-4041-aaf4-27483453c2b3" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-98ba00e1-2350-4403-a71b-81e7b10332ee" kind="print-ressort" title="Entdecken" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e1db42fa-8528-483d-8adb-f690f3e2ebdd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-96795dfd-6722-46b3-b4ac-9b418a31f6e9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cee66874-49f3-4bcc-bca7-c52a29a17291"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-729cdf26-e270-46c1-be6e-8b0ea9f523b9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6b30bfd3-284b-4121-9a09-de7b4fc5f0be"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-08172f64-b7e2-4421-8fd5-1c8347ef2939"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8f1f71f5-2f7f-46a3-8baa-cdef2711df2d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c59c5b9f-8bb6-48cc-acb7-570c01c694fc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ed4e5218-d89c-4115-82e5-fdee747df2be"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c6df1f4a-262f-4256-a2c5-4c38f41e3a39"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b0d9e326-f38f-4375-abef-07640ace1fba"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bfed11cb-fe51-4cfc-87a7-dbd70f152126"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-81845e92-a296-42f7-9db2-572f16c98bc4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ba2ceea0-34c8-4d2d-b87c-99ccdc964bdd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ecf52d1d-561f-4f80-b7d2-262d19bb84b5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a88cc14a-1565-4fb4-8178-b88d4cc8c736"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6cf2aace-e056-4fef-b56b-94677189d65b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0527faf4-5d5b-470f-9905-bff0e794194b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0dcf7b61-24b4-4d76-a4cb-09dc5839860b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fd8e9782-433d-4b48-9ae6-4a7f8ecc6245"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-004a1002-88a1-4517-ab4e-a5e41a453fcb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d77c923e-5dd1-4603-aa1a-3a069dcb8951"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d621346a-40f9-45bf-9bd5-8434770aa3d9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f46c8ddc-b149-477a-9616-1312a27659bf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5e1ad859-b8bf-4a4d-b987-f7a4266b9be9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bbbf3707-389d-4bab-8577-13a53de947f6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b895c176-78a3-4660-ad3c-7b13f634449f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dd6a0159-2496-4036-ab92-13048050b532"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-59003b59-fac3-43ea-960e-16491c6081fb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bb5dd4bd-1430-444d-a0b2-7416c5309ebf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-34fdd37e-e5d6-4ad4-828d-5e0b783c29c5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6ca1a82a-f319-4d32-aa72-b8ad52c2ef45"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4410d414-d3d8-48cc-bb16-fbd6d7e3f303"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-42eedb98-e172-4d78-8f94-f1798e5db554"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-db5f96b2-3be9-4bca-a84a-ba39b76b684b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-95979451-7061-4499-96fb-17c2e062c692"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3462c29c-8b4d-41aa-8526-807675454e8f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-df8ec4df-5657-4f85-8c7b-10e1ab3d0187"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a4ab45f8-b30f-4b36-9de6-adf7dd63a4ad"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c18144d5-0954-499c-92a6-aeb5a76dd9b1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cf0fccda-cbc1-47a0-be25-d3a8ec0cac10"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8165a947-5331-40c8-82c4-d4be819f1ea8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e8135ee9-65d4-4e55-9d3e-2de71b74267b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b06eff26-865d-4538-9298-17c46772f400"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1dc82f23-b1a1-4ad3-9460-4cb266b47023"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4fd0509b-1181-4155-a621-a6b60f4350e4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-40b580a0-43f1-4321-a409-003de46a6743"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-28b72dac-6ede-4e54-abab-237dd879dc2c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0eeadb45-bf83-4af8-9581-fc9f2ca4ddaf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9cecf22e-672d-4d09-94ad-a236cff49057"/>
+        <raw_query>ns-print-ressort:"Entdecken" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-880c99ee-8d12-429a-abb8-8d17a395ac8d" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-7599d465-96fb-4630-91af-0741b29ac8ec" kind="print-ressort" title="Chancen" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f94c8994-60bc-413b-a784-d199d9d477d1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-de4c9ba2-f67e-4667-b1d6-2f09a12fd82a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b73d418b-7325-4e71-90a5-15808b8ca5ad"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b1c6b5ee-acc1-4793-bbc6-184938026ccc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-de639e12-550e-4b11-9394-ccd10a72fd5c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-111290de-f36c-4b58-8c97-ecca8cae2ac8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-574a6b9f-e706-449d-afd8-040bc82a045c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-13d49592-d96e-4697-8ffb-db857716b7c4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5b933ab3-694c-4b45-aed7-088f8a7cfe4b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c4b3fc71-d034-4276-aec1-4636a523f93d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ad465f0d-f8c1-4465-ab15-87a9af164174"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-677d6b67-4db4-4861-8308-1d702e6c9a1f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-431ce79e-2ff1-4a89-ad50-b7fa057c63f6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bb3a9a59-0427-47ad-b001-e0c03832966b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-790cc9e4-266c-4b5e-84a9-bc2c295ea8c7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a8da6ebf-39a9-4221-8721-c94643a45318"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0302b74c-5f2e-4e42-adf9-a9f602d10888"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5c96ee5e-2452-499d-870d-3f49f6b86ac8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-340fb48c-14ab-4b06-a615-f7e8a2952cbd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-85ec0715-80a7-480c-b5fc-89ad6a98e5e0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d080428d-9504-4e1a-953f-8abfc37bfc2e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a5f997a8-3897-4b96-87d0-7b1ab66692a3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-de793dd4-0d8b-4d92-b8dc-cb288f8f0418"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-36d61c4d-126b-44c0-8c91-10606aeaa326"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-078ef26b-1963-484d-a0f7-2ef1710e502f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fee70edc-cea7-48dc-95a1-7e9d62e0f42f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c6059618-59f2-4034-81f0-a617d163a24c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1fb8f33e-b9f4-4802-80cc-628a46a70cfc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ed381ab7-bfbb-4364-815c-0919d1798880"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0206725b-3d6c-422a-bded-3e6ea81bd87e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-233ae79d-3ced-48ff-ba7b-7ac7831679b2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a13af2bc-ba93-411c-bcab-5738a0410e81"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-11234b7d-1019-4a94-b96a-f080049f7c40"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5c492488-6f96-4b2d-9727-6bcf7ecd9181"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c9a0d233-7e07-4519-9347-b0f3dbe997b4"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9ccef954-f726-4d9d-a130-d0eba3bcea82"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d26bdc57-e779-4d54-8c8c-051a03d6e589"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-17c7d519-38bc-4bd5-b193-93dd99d9464f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-2964eaff-53e9-405b-ab89-359048b1e957"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ae8e955c-74da-4ede-9356-b95d976d52e3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e8646e5c-e79e-4628-b178-260e1d609702"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1e90bd87-7e4f-4f0c-be40-db335a232ad0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-492ee358-d246-498d-8fbe-ccb2e1048d2e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c877b9f9-03b9-4464-bf83-618365ba3346"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-533132af-cc54-41f5-b3ab-6c62115676a2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f99c6755-7f08-4ee3-89c9-f9f2a4152c81"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bb2cdb2b-3ef5-4832-9a44-a816bb4b6d64"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cc7a0d33-164f-491b-bcee-040d2b1054ee"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a9a51639-6fdf-4af3-885e-4f8bcd4dfe82"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8694db3d-a057-4818-ba32-69f19184f2b0"/>
+        <raw_query>ns-print-ressort:"Chancen" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-689ba211-6d88-4ebf-bba6-223787456b49" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-105102f1-1ab4-4fa3-8a38-aab121269d48" kind="print-ressort" title="Hamburg" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6f522d86-967c-4777-8402-30f26e4e8fd2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-da524caf-129f-4a08-a23e-4ab2ff0fbe88"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c5199dce-7a00-42f2-8e63-23a8e0c2f5c5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-397f02a9-3a34-4b9e-8483-7a1926cc48b1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5d1b2948-a136-4ee1-9a35-3d6a7c028339"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-50038b0f-d313-4fdd-b3a3-477a12fdb3b3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-01d84773-f74d-4261-8c4a-805c49fd2baa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-db43ab61-3abd-425c-9307-ed245f7a98a0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e9e09162-d5ae-4922-bc12-428508e8ed53"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-33b140d6-b004-4bbd-be8a-d01fd4225dbc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1e1ab3c9-902d-4285-a4ed-756d7ed76e4f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d6ca1467-2775-4beb-8874-eb539395d25a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9134a3fb-4cab-4f2b-a14d-cb73857ed986"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-125e8f12-77d0-41cd-bf7f-055807e25ecc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3ae5b7fc-2537-47a2-8b4c-c2987e6b6a83"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-750c0751-3219-4e23-8071-6800ef14a3ef"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-af42f5a1-1079-4dc4-9b49-8782731b222e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a9b9cb00-8fa2-4356-bcd7-251cede395ca"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fbfa978a-5453-4cf2-988d-29800f3cb4c6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-114df0b6-5623-4881-98c7-ccfe90818133"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8575c459-32fc-45e2-9c48-0e65b2fcb688"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-52dcaf1f-61d7-4e89-8224-54ee66ae82ff"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8bd192c0-9e67-49fe-a653-f9ae2994a402"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c99d7f9b-e59d-4d06-81b2-cbee5bba5ea0"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-303f54a3-6e9f-4409-b2cc-138c54942be5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f0d1a2bb-c8c1-418a-b777-ab9f7d620d28"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7f44d926-56a4-42da-ba89-9b8bc969a832"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cbc8e2c7-0a2b-4299-ac8a-9d1612aee64d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c845d458-df1a-4ddc-b666-a0ba4e764fca"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-231ebdfd-faa4-4d6c-a2c9-e15c24b2bd78"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0e4c1897-03d5-47b7-bb03-ad4d13ff677d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-30948dd2-fb92-428c-9b6c-7409b970d713"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c03c8379-3f1b-4fd6-a39b-0db8081487ef"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-79aa934a-c3e3-476d-ac4e-4635ef8b0b79"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-89f4a5fe-f52d-41e1-b99a-3a8ea56c1c0e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4e35fc73-d8ae-43bf-896c-4ebb96b59209"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a9c47c73-e7ad-4a76-bbd5-97ea033e8e82"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5db79d76-eb19-412f-94cd-9afab1b10025"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b3eb7e4d-07a1-46fa-8a4a-b3d78195396e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5f705e8e-40cd-488c-b457-8281540c5457"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7c18fd3d-6a0d-478f-8671-38aafa9dcb05"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-00daddee-f3d7-4080-ae5f-0275ccaf6378"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-490d6c2d-5775-4e9f-acfe-d85dcf95c718"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8dcbbf71-d728-465c-a507-4ced58744048"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a1e45b19-567f-47f3-96b3-fd00367e4cfc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3a886461-2258-472f-864c-91bc7bd6ecb5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-da2834d0-d9b8-4442-b8e8-983ef6f451b1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-91bc93ed-2dfd-4ea8-a607-5ca7c213ec85"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cf346f7e-2556-4354-861c-e4ac4cb3aa4d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-296a4fdc-43a6-47f5-ab38-7b2c23886a85"/>
+        <raw_query>ns-print-ressort:"Hamburg" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-baeab578-6e23-4746-9d19-b110d4204811" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-13ad902e-2533-45b4-ae0e-99e78c60ef35" kind="print-ressort" title="Christ &amp; Welt" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-499d86f6-09b5-4519-a518-1cb38890da12"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-46bbcedb-8091-44fe-a80e-23017758da0b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-820e3291-b3d4-4a6f-866d-a09bdedcf2bf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a946d695-4950-4002-a5a3-241f8df53705"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-778fd1c1-7086-4d5b-b58c-a30bab0f40a1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-61dcb0df-eb6b-43c8-9037-3925e87a1ce6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-92d08aad-3f46-4d4a-9676-eb5e80b9c9ee"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-17b97b5e-7fa4-41f5-8265-fb05b1a80ff3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ddb6c0d8-ffa4-4921-a026-6ec9a9f12813"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6e6ad304-06bc-49ee-aaee-09be099c344d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c6afbe57-4d0f-4c57-9e65-e7731c5d753e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ac650e4b-c25a-4b9a-82cd-02ae9adeba0f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f1a6d0db-1ecd-49f4-8c7e-7973a5bee7bc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-46fbb0ee-2954-4d5e-a973-3c30a59787a2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dfbe0a2f-3d92-4b94-9bcc-4cab8bb5054e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5ca5c49f-aba7-4a7c-8a39-410fa7b6b2b7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-eb916b77-054d-4f2b-9b9e-11fa03a420fa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f1af8560-e488-48d7-b7c3-b16eead24503"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e0b06c54-20f9-441e-a26b-3da068fdec3f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d40bde20-5a9c-47e1-a220-f7791a30641b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-44d23b16-a408-4436-8919-6e6557527804"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c5964b33-7ab9-4318-9134-1f401dd726a7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-52f045b3-8763-416a-b523-3e1ee7cba420"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d3f6ee2c-f9e3-4c31-a607-0d3992707870"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-95695f33-9ce5-47b8-ba00-d9566bb07fa9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-14b7d25e-d97f-4b40-960e-f126d13b2039"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-88dcc9ff-646e-446e-ad3d-ba1e030ef3a1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-96cf9206-48fc-4a1b-b905-3205b2b0feaf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3d99d36a-e447-45eb-9427-569dda5b70f7"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-be4edfa9-4d81-40a1-97ad-b88c912a90fa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-98ef4ff9-1158-45fa-b967-3b14a533dccf"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5faad45c-5605-4d3b-b8cd-943ffadc9f84"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b02023e8-9368-4d64-9f8a-94f859281057"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-df16d0ae-3c2f-4f0d-af00-c19ad2f28d05"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-52b3f10b-a4fc-4044-81a2-64b14ce99fe5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e8f54cb7-c7ef-49cb-a909-19b096c8787f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8392796e-269e-40aa-9ba1-f5a49a67ff94"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-fdbc7e23-36c8-4936-9ef0-2789a8425290"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bf96726d-7a20-4358-acee-b21af6d9c2aa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d4482353-eb85-4dcf-b9c7-a06f7f25760c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-765f0648-1140-40f3-9dda-4aa3aa0ca3e2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-eeff0f92-1c3e-440e-bc6f-bb89368c4436"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5af4d88f-f08c-4710-bda7-c0e05d1472ec"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ea2e41d3-2839-4906-a8ab-9b890e9916d1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-64fae4e4-7fbe-49e6-8aea-07ca109243fc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-207534d6-712e-49ff-8b2a-6b91dfa1f35b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-23b1065c-1aea-4370-a04f-1e184fda66af"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-877b4a9d-633b-421a-a59c-bb67039866c1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7ff2c414-0de3-4d68-8a17-e7b54a0de06e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-05e01e72-c168-414b-a73d-60e6bdc17365"/>
+        <raw_query>ns-print-ressort:"Christ &amp; Welt" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-42dffc66-a537-4597-9c87-7bac4f414238" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-d0dcf1ff-bf59-4964-8572-a6ee6e0ea9db" kind="print-ressort" title="ZEITmagazin" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a90bfdaa-67dd-47ba-a113-4fe6ac51a6bd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9fecf756-023e-480c-8868-b2da3d3ce412"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-29a7d636-e1de-499e-bcf2-401e39e2539f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-547672c9-aa1e-4491-a3eb-f68a22e747a8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c6b394de-f3f1-4b3d-ae15-56ca934eadac"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d9934331-2194-43ae-b199-b740b72a1faa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-be8598e5-1f78-4220-85ed-9f4c7f7dbd44"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-afe071a0-126c-42f3-89d6-4707cc49c37b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-17878435-c489-4419-b96c-07789989aa6f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cbef647a-5bf2-4b03-84bf-63bc62a9e8ea"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8673b803-4a45-4b6a-957c-4d821b726398"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-446c7bec-581a-441b-b486-62a6f8c62558"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1baf4df1-69c7-458a-a25d-a9dc8f101c79"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-42ad3e33-283e-4011-b69b-1cd71eacfc46"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1273c7e1-8692-4822-8e9b-837c25a25724"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7b7fe6a8-9f8c-40d2-8e3d-b1a6037ceed2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9d46c2c7-f713-438e-9c2a-3e6705a79cac"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8aa5a833-a4c7-4c87-8b85-7c52dd40a98b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-aaf89f6f-5730-4eb1-a6f6-a7c34eae946a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c282865f-8c0c-4894-992e-cbd9aed34163"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d3c24291-2176-4eee-931d-5829bc455fec"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8fcd41cc-c010-45e0-bc35-a6ee0d1065cd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a7669b8e-2b0d-481d-82f4-2cba7ffe1344"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3b2b01fd-ffa6-4d92-8fb0-d0bc7039648c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-df5f277e-c7a3-47cb-8e76-0a971789b86d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a3d878a6-9534-4fa5-ac52-5d13bf724112"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4c57b786-749d-4d6a-9b2f-240cdb66bcd3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6b9f99dc-77ab-4186-ac2d-68829fcab380"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-db7959ec-5243-49e5-a00a-497ff66ade72"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f9e87ccb-b424-452a-84b3-59052fdebf6a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-de7895d3-d263-44e2-85c4-f4d6d5c9d689"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-87dcbed8-924c-463d-964c-04eda5c24fbb"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ce4971a3-e77e-46dc-8016-6b34f123286a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-74dfe075-22e1-4264-aca2-0b503a7217e6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-aec76dce-00fe-43ea-b73b-4e67c46f0967"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5ff5958b-c5bf-4e59-bf36-88f3793c80e5"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-33a56f68-5b32-495f-a8bf-1b555d2186fa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-305dfc7e-b75d-464b-971e-b6beabfc5ea3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-79685c2a-3f6b-44ac-b79c-dfa16d25af06"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c41c0667-8575-4489-87af-1039029e4648"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-37cdcf89-6163-4825-8a1f-e2c1bdefb0f2"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b2acf97c-79eb-4566-8da3-493d6caae5f3"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-94758a31-1e19-4e68-a144-aea6cdcc7bcc"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-65d7bc6d-de9c-4113-82cc-29ea1819528b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-aba88832-a687-434a-8388-e89c140c0753"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0e73cdf0-d5eb-45e0-942e-fd3a08ee4f69"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3a02716d-a3d5-4187-bdc2-11a60e4e64b6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5191732f-092a-4bcd-b266-4ea7f0119d7a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e85a2e1d-0dd3-4ce1-bbf5-1a214804e97c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-14f32986-7dd6-4187-8335-c26aaae09003"/>
+        <raw_query>ns-print-ressort:"zeitmagazin" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+    <cluster visible="True" visible_mobile="True" area="id-b5abdd98-4679-4bde-8488-ae9d3ab916fb" kind="solo">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-98984741-e02a-4c1b-b2e7-43a385673c6c" kind="print-ressort" title="DIE ZEIT" automatic_type="query" count="50" automatic="True" require_lead_candidates="False">
+        <container cp:type="auto-teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6f5593c2-e199-4ed7-82e7-7cacc4dfbc4b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0fd98bdd-eb3d-438a-ab8b-2228c1e291ce"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-dc81cb79-d8ca-4b31-8312-03c065c6aa6b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a406a1b6-8217-4a05-90ed-24efd405a74d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-82f8f2da-f25b-4131-a5e9-f70710496199"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d45a6fd6-932c-4548-97bd-b93747c0f3dd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7fe81e37-fab9-42e5-9e9f-dffe1220c43e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e2eb3f37-2cd7-4c7a-a6a5-381a80b07e4f"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e35d9ffa-5f3a-4f57-a7b7-8b8101aa00c1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-999468d0-6fef-4858-81ec-6b12b37164bd"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-146f7b73-7dcf-436b-aef9-681138aff67c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-ba8863f8-4be6-46b7-9b24-ed895347698d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a001e167-5fc5-4a84-9c48-ac0735a94aad"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-19db2b89-e624-4173-8758-ea5d2a1e218c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cdc0e22e-b341-46eb-8400-1b46c3a308f6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8a281b53-8ea3-42be-a9df-b118d8814792"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-73e93ab5-56d3-4505-b204-96bd17072f49"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a902247f-d055-4ca7-bf7a-33c8c6e167aa"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5b12eb2b-fbd1-45e9-9c35-ef34c97ed0c9"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6831891d-0a96-4b7a-9b7f-7bac7fdf944c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9a52f0eb-52d7-4e99-99d4-a80f966c0105"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cff85a0b-ea6d-4711-b1da-184d94aaf245"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c0146923-94cb-4c78-bb7e-010f2a9a8749"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7d9abf41-6ef0-4179-b360-6ecd3a3e5633"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7834abcb-0c23-46ef-b236-a61b503f66f6"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6807c722-cebd-45c0-995d-20c857eef47e"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-52be7029-2ecc-4072-8f31-9d56d78a4620"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-acbade9b-96d3-48e7-99f3-45e71a3f72e1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4da71c60-a64a-42c2-821c-0088a4454f73"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-74c9a491-fbc5-4356-abb9-0ebf16832c6c"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5c16172f-cd01-4c79-8455-a65026890b4b"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5531acc9-d487-4c4a-b9c0-0b6671535d98"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-20bab328-f0c7-44e9-810f-5e32b6a2d542"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-30377269-e0e1-4226-acf7-003b39c139d1"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0a61db3f-ad39-416a-aa66-83846cb00c3a"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-92f02e1a-fcc1-4594-acfa-b1df303f1802"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a68aa3e2-a2aa-4044-986d-9a4de8ca54b8"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-da1e2509-dd1c-48bf-b001-972ed3403994"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7826abe8-834c-4fbf-8a78-056731895719"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-4c4340d0-5e26-41e8-837b-1689f1b62d67"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f2f3f8c9-ece4-4d82-9905-660804592679"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-7b122a9b-bc66-4dde-b160-3aaf30d0e459"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-393bbd52-3f7b-4761-9c01-b4daf9f12208"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c619df62-b81a-440c-8920-ccab1c76660d"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d4abdd5d-d18d-4383-8a99-ae10c9ed4a62"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-db907f86-d484-4b02-a147-a8c4d28ade09"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-6071267b-70c3-446a-a1f5-b430bdb070be"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-75ea2893-9bb9-4764-9187-6b9a03b0e381"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cfe5ffea-1f6b-4a62-8a88-be012e4a7425"/>
+        <container cp:type="auto-teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3604798a-5c44-4b12-be58-41f950d14645"/>
+        <raw_query>ns-print-ressort:"DIE ZEIT" published:"published" year:2003 volume:52 (product_id:(ZEI) OR product_id:(ZMLB) OR product_id:(ZECH) OR product_id:(ZEOE) OR product_id:(ZESA) OR product_id:(ZEIH) OR product_id:(ZBGE) OR product_id:(ZBGO) OR product_id:(ZBL) OR product_id:(ZBKS) OR product_id:(ZBR) OR product_id:(ZBC) OR product_id:(ZBD) OR product_id:(ZMHH) OR product_id:(ZMMU) OR product_id:(ZECW) OR product_id:(ZEAR)) (image-reference:[* TO *])^100 OR (-image-reference:[* TO *])</raw_query>
+        <raw_order>score desc, page asc</raw_order>
+      </region>
+    </cluster>
+  </body>
+</centerpage>

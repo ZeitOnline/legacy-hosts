@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-02-25T16:40:34.475514+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2015-02-25T16:11:39.618736+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-02-25T16:40:47.560349+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-02-25T16:41:47.487840+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-02-25T16:10:58.403974+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-02-25T16:40:21.535323+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">beste-arbeitgeber-gesundheit-2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:697e4d22-61a3-4895-bfb8-576dea3f309f}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">8</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2015</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-3f3e7d4d-2a84-4513-b5bb-66fde2e154cf">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-6657583e-ddeb-49ca-92db-1b39246e9140">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/link-gptw2015-uebersicht" uniqueId="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/link-gptw2015-uebersicht" year="2015" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/" ns0:target="_blank" date-last-modified="2015-02-25T16:39:49+00:00" date-first-released="2015-02-25T16:40:49.701475+00:00" date-last-published="2015-02-25T16:40:49.701475+00:00" last-semantic-change="2015-02-25T16:39:36.149608+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-9b508a40-5021-4a2e-a188-51c2c44d5131" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/link-gptw-2015" year="2015" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.greatplacetowork.de/siegerliste-bags-2015" ns0:target="_blank" ns0:rel="nofollow" uniqueId="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/link-gptw-2015" date-last-modified="2015-02-25T16:09:35+00:00" date-first-released="2015-02-25T16:10:35.238342+00:00" date-last-published="2015-02-25T16:10:35.238342+00:00" last-semantic-change="2015-02-25T16:09:22.869650+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link GPtW 2015</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image src="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/gptw2015-logo/gptw2015-logo-368x220.jpg" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/gptw2015-logo/gptw2015-logo-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-08bbf0e0-b169-41ea-8e1d-f109c7ff89aa">
+          <raw>
+            <span class="anzeige">Anzeige</span>
+            <div class="innerad">
+              <div class="inner">
+                <iframe src="http://jobs.zeit.de/stellenmarkt/panelframe_medizin_55983.html" width="300px" height="250px" name="jobticker"/>
+              </div>
+            </div>
+          </raw>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-93b175bc-eaa6-4bbd-9631-fcbfb87162b1">
+          <block href="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/steinhoering" uniqueId="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/steinhoering" year="2015" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2015-02-25T14:24:43+00:00" date-first-released="2015-02-25T14:24:03.394132+00:00" date-last-published="2015-02-25T14:25:43.439296+00:00" last-semantic-change="2015-02-25T14:12:45.976725+00:00">
+            <supertitle py:pytype="str">Ein Beitrag des Einrichtungsverbunds Steinhöring</supertitle>
+            <title py:pytype="str">Selbstverständlich miteinander</title>
+            <text py:pytype="str">Der Einrichtungsverbund Steinhöring (EVS) hat ein Ziel: Menschen mit Behinderungen ein möglichst selbstbestimmtes Leben zu ermöglichen. </text>
+            <description py:pytype="str">Der Einrichtungsverbund Steinhöring (EVS) hat ein Ziel: Menschen mit Behinderungen ein möglichst selbstbestimmtes Leben zu ermöglichen. </description>
+            <byline py:pytype="str"> Beste Arbeitgeber Gesundheit und Soziales : Ein Spezial des Zeitverlages in Kooperation mit Great Place to Work</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/beste-arbeitgeber-gesundheit-2015/steinhoering-2/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Einrichtungsverbund Steinhöring (EVS) wurde 1971 gegründet.</bu>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen GPtW 2015</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen GPtW 2015</title>
+  </teaser>
+</centerpage>

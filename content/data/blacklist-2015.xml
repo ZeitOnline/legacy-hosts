@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<blacklist>
+  <!-- List of routes that friedbert should not try to render.
+  Please read about pyramid route patterns and make sure you know what you are doing!
+  http://bit.ly/1HnhaiS -->
+  <!-- Sitemaps -->
+  <!-- appconsitemap.xml, video.xml, tehmen.xml und index.xml kommt schon via Friedbert -->
+  <!-- Blogs -->
+  <route>/teilchen-blog/index</route>
+  <!-- Digital -->
+  <route>/digital/ifg-anfragen</route>
+  <!-- Druckansicht -->
+  <route>/{foobar:.*}?print=true</route>
+  <!-- Gesellschaft -->
+  <route>/gesellschaft/2014-04/demos-berlin</route>
+  <route>/gesellschaft/2013-03/katholiken</route>
+  <route>/gesellschaft/2013-03/katholikenkarte.html</route>
+  <route>/gesellschaft/zeitgeschehen/todesopfer-rechter-gewalt</route>
+  <route>/gesellschaft/zeitgeschehen/2015-05/tuerkei-soziale-ungleichheit-recep-tayyip-erdogan-akp-reichtum</route>
+  <!-- Hamburg -->
+  <route>/hamburg/aktuell/index</route>
+  <!-- Investigativ -->
+  <route>/briefkasten/*path</route>
+  <!-- Kultur -->
+  <route>/kultur/musik/2015-05/eurovision-song-contest-punkte-vergabe</route>
+  <route>/kultur/musik/2015-05/eurovision-song-contest-points-award</route>
+  <!-- Lebensart -->
+  <route>/lebensart/mode/2013-09/fair-trade-oder-ausbeutung-modemarken-check-h-m</route>
+  <route>/lebensart/politikerinnen-portraets</route>
+  <route>/lebensart/politikerinnen-portraets/*path</route>
+  <route>/lebensart/politikerinnen-portraets/{name}.{ext}</route>
+  <!-- Leserautorenseiten - bitte auch nach 19.2.2015 noch hier belassen, da die Verbindungen zu deren Community-Profilen noch nicht hergestellt wurden -->
+  <route>/leserautoren/*path</route>
+  <!-- Mobilit&#228;t -->
+  <route>/mobilitaet/2014-09/eisenbahnbruecken-deutsche-bahn</route>
+  <route>/mobilitaet/2013-11/auto-der-zukunft-umfrage-ergebnisse-carsharing-tempolimit-elektroauto</route>
+  <!-- Politik -->
+  <route>/politik/2014-05/vorurteile-eu-laender</route>
+  <route>/politik/2013-11/kirche-staat-kirchensteuer-bistum-landeskirche</route>
+  <route>/politik/ausland/2014-06/isis-terror-irak-syrien</route>
+  <route>/politik/ausland/2014-05/putin-machtzirkel-russland</route>
+  <route>/politik/ausland/2015-04/fluechtlinge-opfer-mittelmeer</route>
+  <route>/politik/ausland/2015-04/fluechtlinge-mittelmeer-herkunftslaender</route>
+  <route>/politik/deutschland/2013-09/waehlerwanderung-bundestagswahl-2013</route>
+  <route>/politik/deutschland/wahlland-2013</route>
+  <route>/politik/deutschland/2013-10/GroKo-Meter</route>
+  <route>/politik/deutschland/abgeordnetenbilanz</route>
+  <route>/politik/deutschland/2013-09/twitter-monitor</route>
+  <route>/politik/regierungsbarometer</route>
+  <!-- Rahmen -->
+  <route>/rahmen/*path</route>
+  <route>/canvas/*path</route>
+  <route>/administratives/rahmen_v2/*path</route>
+  <!-- Reisen -->
+  <route>/reisen/2015-03/itb-berlin-togo-kongo-andorra</route>
+  <route>/reisen/2014-09/oktoberfest-in-zahlen</route>
+  <!-- Specials -->
+  <route>/hoeren/dradio/zeit-online-talk</route>
+  <route>/2013-12/personen-top200-2013</route>
+  <route>/2014-12/infografik-jahresrueckblick-2014</route>
+  <!-- Sport -->
+  <route>/sport/2014-02/doping-olympische-spiele</route>
+  <route>/sport/2014-02/alternativer-medaillenspiegel-nationenwertung</route>
+  <route>/sport/2014-09/bayern-paderborn</route>
+  <route>/sport/2013-08/bundestag-fussballfans</route>
+  <route>/sport/2013-09/100mio</route>
+  <route>/sport/basketball-em-live</route>
+  <route>/sport/fussball-kosten</route>
+  <route>/sport/fussball-em-2012/emtweet</route>
+  <route>/sport/olympia-medaillen-deutschland</route>
+  <route>/sport/wm-spielplan-twitter-pulskurve-spielzusammenfassung</route>
+  <route>/sport/2014-06/fussball-wm-2014-kommentatoren</route>
+  <!-- Studium -->
+  <route>/studium/uni-leben/2015-01/generation-y-politik-studenten</route>
+  <!-- Themen -->
+  <route>/themen/*path</route>
+  <!-- Wirtschaft -->
+  <route>/wirtschaft/streubomben</route>
+  <route>/wirtschaft/2013-03/unemployment</route>
+  <route>/wirtschaft/2014-02/steuerhinterziehung-prominente-steuersuender</route>
+  <route>/wirtschaft/2014-07/russland-handel-importe-exporte</route>
+  <route>/wirtschaft/2015-05/mietpreisbremse-mietspiegel-mieten-deutsche-staedte</route>
+  <route>/wirtschaft/arbeitslosigkeit</route>
+</blacklist>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-08-05T10:12:27.904455+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-07-15T13:14:22.523260+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-08-05T10:13:27.701572+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-08-05T10:10:59.539645+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schlereth</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">cs</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:49b1fe39-b352-4542-9810-eaecb7f8f731}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">28</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="be65a105-a853-43b2-b283-7daac79c90f0">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="c508301f-f683-4613-843b-fa60b88ece63" title="Young Singers Project 2010, gefördert von:">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/credit-suisse/links/link-credit-suisse" year="2010" issue="28" ressort="Angebote" publication-date="" expires="" ns0:href="http://emagazine.credit-suisse.com/app/article/index.cfm?fuseaction=OpenArticle&amp;aoid=215290&amp;lang=DE">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Credit Suisse</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/credit-suisse/bilder/cs-logo" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="eed538e9-8ae3-4ff6-8997-ff7388390a97" title="Mehr zum Thema auf ZEIT ONLINE">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/credit-suisse/links/festspiele-gedeck" year="2010" issue="28" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/2008/36/Harper-Regan" date-last-modified="2010-07-14T14:36:50+00:00" date-first-released="" date-last-published="" last-semantic-change="2010-07-14T14:36:44.687689+00:00">
+            <supertitle py:pytype="str">Salzburger Festspiele</supertitle>
+            <title py:pytype="str">Am Rand der großen weiten Welt</title>
+            <text py:pytype="str">Bei den Salzburger Festspielen spielt Martina Gedeck die Titelrolle in Simon Stephens’ neuem Stück »Harper Regan«.</text>
+            <description py:pytype="str">Bei den Salzburger Festspielen spielt Martina Gedeck die Titelrolle in Simon Stephens’ neuem Stück »Harper Regan«.</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/credit-suisse/links/festspiele-pereira" year="2010" issue="28" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/online/2009/30/salzburger-festspiele-pereira" date-last-modified="2010-07-14T15:54:18+00:00" date-first-released="" date-last-published="" last-semantic-change="2010-07-14T15:54:15.747763+00:00">
+            <supertitle py:pytype="str">Salzburger Festspiele</supertitle>
+            <title py:pytype="str">Erklärt Pereira</title>
+            <text py:pytype="str">Der neue Intendant Alexander Pereira führt die Salzburger Festspiele zum gefälligen, wenig fantasievollen Programm. Wenn das keine Zeitenwende ist.</text>
+            <description py:pytype="str">Der neue Intendant Alexander Pereira führt die Salzburger Festspiele zum gefälligen, wenig fantasievollen Programm. Wenn das keine Zeitenwende ist.</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/credit-suisse/links/festspiele-dirigent" year="2010" issue="28" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/2010/07/Portraet-Nezet-Seduin" date-last-modified="2010-07-14T14:38:59+00:00" date-first-released="" date-last-published="" last-semantic-change="2010-07-14T14:38:56.873973+00:00">
+            <supertitle py:pytype="str">Dirigent Yannick Nézet-Séguin</supertitle>
+            <title py:pytype="str">Der Gummiball im Feengarten</title>
+            <text py:pytype="str">Der 35-jährige Kanadier Yannick Nézet-Séguin ist der Star der Stunde unter den jungen aufstrebenden Dirigenten.</text>
+            <description py:pytype="str">Der 35-jährige Kanadier Yannick Nézet-Séguin ist der Star der Stunde unter den jungen aufstrebenden Dirigenten.</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="dfbaaf0f-f829-470f-bb35-6b30559242fc">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/credit-suisse/links/festspiele-theater" year="2010" issue="32" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/2010/31/Salzburger-Festspiele" date-last-modified="2010-08-05T10:03:32+00:00" date-first-released="2010-08-05T10:04:32.523662+00:00" date-last-published="2010-08-05T10:04:32.523662+00:00" last-semantic-change="2010-08-05T10:03:18.922475+00:00">
+            <supertitle py:pytype="str">Salzburger Festspiele</supertitle>
+            <title py:pytype="str">Lasst uns sterben!</title>
+            <text py:pytype="str">Theater als Schule des Todes: Ein neuer "Jedermann" von Christian Stückl und ein neuer "Ödipus" von Peter Stein bei den Salzburger Festspielen.</text>
+            <description py:pytype="str">Theater als Schule des Todes: Ein neuer "Jedermann" von Christian Stückl und ein neuer "Ödipus" von Peter Stein bei den Salzburger Festspielen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/credit-suisse/bilder/oedipus/" type="jpg" publication-date="" expires="">
+              <bu>Katharina Susewind als Antigone und Klaus Maria Brandauer als Ödipus in Peter Steins Inszenierung von Sophokles' "Ödipus auf Kolonos" bei den Salzburger Festspielen.</bu>
+              <copyright py:pytype="str">© Franz Neumayr/dpa</copyright>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/credit-suisse/links/festspiele-unterwelt" year="2010" issue="32" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/kultur/2010-08/salzburger-festspiele-lulu" date-last-modified="2010-08-05T10:08:51+00:00" date-first-released="2010-08-05T10:09:51.444441+00:00" date-last-published="2010-08-05T10:09:51.444441+00:00" last-semantic-change="2010-08-05T10:08:35.315006+00:00">
+            <supertitle py:pytype="str">Salzburger Festspiele</supertitle>
+            <title py:pytype="str">Liebe in der Unterwelt</title>
+            <text py:pytype="str">Bei den Salzburger Festspielen inszeniert Vera Nemirowa die "Lulu" mit Daniel Richters Hilfe. Und Riccardo Muti dirigiert Glucks "Orfeo ed Euridice" in Hypnose.</text>
+            <description py:pytype="str">Bei den Salzburger Festspielen inszeniert Vera Nemirowa die "Lulu" mit Daniel Richters Hilfe. Und Riccardo Muti dirigiert Glucks "Orfeo ed Euridice" in Hypnose.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/credit-suisse/bilder/lulu/" type="jpg" publication-date="" expires="">
+              <bu>Auf Daniel Richters Bühne: Thomas Piffka als Alwa, Michael Volle als Dr. Schön, Patricia Petibon als Lulu und Pavol Breslik als Der Maler (von links).</bu>
+              <copyright py:pytype="str">© EPA/Barbara Gindl/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="813e3fbc-6187-4563-aa19-9e617fc22af7">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/credit-suisse/links/festspiele-nonos" year="2010" issue="28" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/2009/33/Salzburger-Premieren" date-last-modified="2010-07-14T15:38:39+00:00" date-first-released="" date-last-published="" last-semantic-change="2010-07-14T15:38:36.828268+00:00">
+            <supertitle py:pytype="str">Salzburger Festspiele</supertitle>
+            <title py:pytype="str">Schönheit der Revolution</title>
+            <text py:pytype="str">Eine Sensation: Luigi Nonos »Al gran sole carico d’amore« bei den Salzburger Festspielen.</text>
+            <description py:pytype="str">Eine Sensation: Luigi Nonos »Al gran sole carico d’amore« bei den Salzburger Festspielen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/credit-suisse/bilder/salzburg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Johannes Simon/Getty Images</copyright>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/credit-suisse/links/festspiele-2009" year="2010" issue="28" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/2009/32/Salzburg-Theater" date-last-modified="2010-07-14T15:56:06+00:00" date-first-released="" date-last-published="" last-semantic-change="2010-07-14T15:56:03.775757+00:00">
+            <supertitle py:pytype="str">Salzburger Festspiele</supertitle>
+            <title py:pytype="str">Hier wird ums Leben gesungen</title>
+            <text py:pytype="str">Eindrücke von den Festspielen aus dem Jahr 2009.</text>
+            <description py:pytype="str">Eindrücke von den Festspielen aus dem Jahr 2009.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/credit-suisse/bilder/salzburg2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© AFP</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Credit Suisse</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Credit Suisse</title>
+  </teaser>
+</centerpage>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-04-11T15:11:19.144954+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-03-30T16:01:24.103214+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-04-11T15:12:18.986885+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-04-11T15:10:47.881034+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">australien</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:fa4b35f0-516c-4e95-95b8-707ca4b3ccb7}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="" cp:__name__="7ffd7cdd-5a86-4cd5-8819-c6ca28f2dcdf"/>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="28efb62a-4cb1-46da-b41e-e0e9b0d45efe" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/australien/link_australia" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad.doubleclick.net/clk;255849964;38866053;e?http://ad-emea.doubleclick.net/clk;254445705;78209096;q" date-last-modified="2012-04-05T12:21:20+00:00" date-first-released="2012-03-28T13:19:02.352805+00:00" date-last-published="2012-04-05T12:22:20.360266+00:00" last-semantic-change="2012-04-05T12:21:08.902626+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu australia.com</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/australien/logo_australia_neu_font/logo_australia_neu_font-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="66d093db-ac2f-4461-a55f-66f8ebfb1187">
+          <block href="http://xml.zeit.de/angebote/australien/faszinierende-exoten/index" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-04-05T08:36:46+00:00" date-first-released="2012-03-29T12:33:12.398257+00:00" date-last-published="2012-04-05T08:37:46.653500+00:00" last-semantic-change="2012-04-05T08:36:34.878560+00:00">
+            <supertitle py:pytype="str">Australiens Tierwelt</supertitle>
+            <title py:pytype="str">Faszinierende Exoten</title>
+            <text py:pytype="str">Vögel, die lachen, Säuger, die Eier legen, walgroße Haie und echte Teufel: Die Tierwelt des fünften Kontinents ist einzigartig.</text>
+            <description py:pytype="str">Vögel, die lachen, Säuger, die Eier legen, walgroße Haie und echte Teufel: Die Tierwelt des fünften Kontinents ist einzigartig.</description>
+            <byline py:pytype="str">Reiseziel Australien: ist ein Angebot der Destination Australien für ZEIT ONLINE Leser. Für den Inhalt ist Tourism Australia verantwortlich.</byline>
+            <image align="left" title="TIER_111646-575" base-id="http://xml.zeit.de/angebote/australien/faszinierende-exoten/TIER_111646-575/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="1d5d85df-685d-4d8f-aecb-83acc5013d13">
+          <block href="http://xml.zeit.de/angebote/australien/kulturelle-highlights/index" year="2012" ressort="Angebote" publication-date="" expires="" date-last-modified="2012-04-05T08:37:55+00:00" date-first-released="2012-03-29T15:00:05.285792+00:00" date-last-published="2012-04-05T08:38:55.418453+00:00" last-semantic-change="2012-04-05T08:37:45.799777+00:00">
+            <supertitle py:pytype="str">Von den Aborigines bis zur Avantgarde</supertitle>
+            <title py:pytype="str">Kulturelle Highlights</title>
+            <text py:pytype="str">Vielfältig wie die Landschaft ist Australiens Kultur. Tief verwurzelt im Land und seiner Geschichte, ist sie Ausdruck von Vergangenheit und Visionen.</text>
+            <description py:pytype="str">Vielfältig wie die Landschaft ist Australiens Kultur. Tief verwurzelt im Land und seiner Geschichte, ist sie Ausdruck von Vergangenheit und Visionen.</description>
+            <byline py:pytype="str">Reiseziel Australien: ist ein Angebot der Destination Australien für ZEIT ONLINE Leser. Für den Inhalt ist Tourism Australia verantwortlich.</byline>
+            <image align="left" title="Aufmacher_111348-574" base-id="http://xml.zeit.de/angebote/australien/kulturelle-highlights/Aufmacher_111348-574/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="f478e52e-9148-4f90-9ab7-5a50fd4fbfae">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australien/geheimtipps_australien-2" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.australia.com/campaigns/nothinglikeaustralia/DE/advocacyvideos/" ns0:target="_blank" date-last-modified="2012-04-11T15:09:03+00:00" date-first-released="2012-04-11T15:10:02.994467+00:00" date-last-published="2012-04-11T15:10:02.994467+00:00" last-semantic-change="2012-04-11T14:55:08.389756+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Was macht Australien unvergleichlich?</title>
+            <text py:pytype="str">Hier verraten Ihnen vielgereiste Australienkenner ihre Geheimtipps in Videoclips.</text>
+            <description py:pytype="str">Hier verraten Ihnen vielgereiste Australienkenner ihre Geheimtipps in Videoclips.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/australien/geheimtipps_australien/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="9e2161ca-a8e6-4154-9e0c-f40d0d23bc33">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australien/link_insidertipps" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.nothinglikeaustralia.com/de/index.htm" ns0:target="_blank" date-last-modified="2012-04-04T12:53:37+00:00" date-first-released="2012-03-30T15:20:53.491241+00:00" date-last-published="2012-04-04T12:54:37.468325+00:00" last-semantic-change="2012-04-04T12:53:22.189597+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Australien... einfach unvergleichlich</title>
+            <text py:pytype="str">Einfach unvergleichlich... 4.680 Insider-Tipps von Australien-Reisenden. Lassen Sie sich inspirieren.</text>
+            <description py:pytype="str">Einfach unvergleichlich... 4.680 Insider-Tipps von Australien-Reisenden. Lassen Sie sich inspirieren.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/australien/insider_tipps_neu-2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australien/link_walkaboutplanner" year="2012" ressort="Angebote" publication-date="" expires="" ns1:href="http://walkaboutplanner.australia.com/#/?lang=de" ns1:target="_blank" date-last-modified="2012-03-30T15:31:52+00:00" date-first-released="2012-03-30T15:30:03.645492+00:00" date-last-published="2012-03-30T15:32:52.589718+00:00" last-semantic-change="2012-03-30T15:31:45.207755+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Australien: Planen Sie Ihre Reise</title>
+            <text py:pytype="str">Mit dem "Walkabout Planner" entdecken Sie Australien auf vorgeschlagenen Reiserouten. Hier erfahren Sie mehr.</text>
+            <description py:pytype="str">Mit dem "Walkabout Planner" entdecken Sie Australien auf vorgeschlagenen Reiserouten. Hier erfahren Sie mehr.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/australien/walkabout_planner_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="a6dbdcb6-f246-4691-99ff-443bd27c0ba2">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/australien/link_uebersicht" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/australien" ns0:target="_blank" date-last-modified="2012-03-30T15:59:10+00:00" date-first-released="2012-03-30T16:00:09.750407+00:00" date-last-published="2012-03-30T16:00:09.750407+00:00" last-semantic-change="2012-03-30T15:58:59.041019+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Australien</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Australien</title>
+  </teaser>
+</centerpage>

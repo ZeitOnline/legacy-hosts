@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage>
+  <head>
+    <!-- Statusauskünfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">4</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="topic"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2008</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">20.5.2008 - 11:36</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="erscheint"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="keywords"/>
+    <keywordset/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="page"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="ressort">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="serie">-</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="volume"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="year"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="status">new</attribute>
+    <attribute ns="http://namespaces.zeit.de/CMS/document" name="title"/>
+    <attribute ns="http://namespaces.zeit.de/CMS/workflow" name="last-modified-by">cruz</attribute>
+  </head>
+  <body>
+    <container layout="channel" label="" id="selbstmachen" priority="">
+      <block layout="" priority="" href="http://xml.zeit.de/2008/14/Gasmarkt" publication-date="" expires="" year="2008" issue="14">
+        <supertitle xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Energie</supertitle>
+        <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Ein  lohnender Sonderweg</title>
+        <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Überall in Deutschland wird Gas teurer, nicht jedoch in Ahrensburg. Warum das so ist: Die Geschichte einer Rebellion gegen die Energiekonzerne.</text>
+        <byline xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Von Birgit Wetzel</byline>
+        <description xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Überall in Deutschland wird Gas teurer, nicht jedoch in Ahrensburg. Warum das so ist: Die Geschichte einer Rebellion gegen die Energiekonzerne.</description>
+        <short>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Ein  lohnender Sonderweg</title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Warum das Erdgas in Ahrensburg  billiger geworden ist</text>
+        </short>
+        <homepage>
+          <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+          <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </homepage>
+        <references>
+          <reference xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="intern" href="http://xml.zeit.de/themen/wirtschaft/maerkte/energiemaerkte/index" publication-date="" expires="" year="2008" issue="28">
+            <supertitle py:pytype="str">Energie</supertitle>
+            <title py:pytype="str">Die Sucht nach Öl und Strom</title>
+            <text py:pytype="str">Um die Energieversorgung zu sichern, begeben sich Industriestaaten in Abhängigkeiten und suchen nach Alternativen. Ein Schwerpunkt zur Energie</text>
+            <description py:pytype="str">Um die Energieversorgung zu sichern, begeben sich Industriestaaten in Abhängigkeiten und suchen nach Alternativen. Ein Schwerpunkt zur Energie</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Energie</title>
+              <text py:pytype="str">Wir brauchen sie, und das hat Folgen. Ein Spezial</text>
+            </short>
+            <homepage>
+              <title py:pytype="str">Sucht nach Öl und Strom</title>
+              <text py:pytype="str">Lebensnotwendige Energie und die Folgen</text>
+            </homepage>
+            <image base-id="http://xml.zeit.de/bilder/2008/standards/wirtschaft/energie/energie/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </reference>
+          <reference xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="intern" href="http://xml.zeit.de/online/2008/13/energie-fdp" publication-date="" expires="" year="2008" issue="13">
+            <supertitle py:pytype="str">Preise</supertitle>
+            <title py:pytype="str">FDP fordert niedrigere Mehrwertsteuer auf Energie</title>
+            <text py:pytype="str">Nur noch sieben statt 19 Prozent auf Gas, Strom und Öl verlangt Parteichef Westerwelle – wegen der ständig steigenden Energiepreise</text>
+            <description py:pytype="str">Nur noch sieben statt 19 Prozent auf Gas, Strom und Öl verlangt Parteichef Westerwelle – wegen der ständig steigenden Energiepreise</description>
+            <byline py:pytype="str"/>
+            <short>
+              <title py:pytype="str">Energiepreise</title>
+              <text py:pytype="str">FDP fordert niedrigere Mehrwertsteuer</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+          </reference>
+        </references>
+        <image xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" align="left" base-id="http://xml.zeit.de/bilder/2008/14/wirtschaft/p-ahrensburg/" type="jpg" publication-date="" expires="">
+          <bu xsi:nil="true"/>
+          <copyright py:pytype="str">©</copyright>
+        </image>
+      </block>
+      <block layout="" priority="" href="http://xml.zeit.de/online/2007/45/blockheizkraftwerk">
+        <supertitle>Energie</supertitle>
+        <title>Die Sonne im Keller</title>
+        <text>Öl und Strom werden immer teurer. Doch bald sollen Privatleute Wärme und Elektrizität selbst erzeugen können: mit dem eigenen Kraftwerk im Keller.</text>
+        <byline>Von Harald Czycholl</byline>
+        <image base-id="http://xml.zeit.de/bilder/2007/45/wirtschaft/allgemein/bhkw/" type="jpg" expires="2100-01-01" src="http://xml.zeit.de/bilder/2007/45/wirtschaft/allgemein/bhkw/bhkw-120x120.jpg" align="right"><copyright>Quelle: wikipedia</copyright>
+          BILD
+        </image>
+      </block>
+      <block layout="" priority="" href="http://xml.zeit.de/online/2007/44/Dardesheim">
+        <supertitle>Erneuerbare Energien</supertitle>
+        <title>Die Harzer Stromrebellen</title>
+        <text>Immer mehr Kommunen produzieren ihre Energie lieber selbst. Das 1000-Einwohnerstädtchen Dardesheim will jetzt den gesamten Harz für seinen Ökostrom begeistern.</text>
+        <byline>Von Marlies Uken</byline>
+        <image base-id="http://xml.zeit.de/bilder/2007/43/wirtschaft/allgemein/dardesheim/" type="jpg" expires="2100-01-01" src="http://xml.zeit.de/bilder/2007/43/wirtschaft/allgemein/dardesheim/dardesheim-120x120.jpg" align="right"><copyright>© BARBARA SAX/AFP/Getty Images</copyright>
+          BILD
+        </image>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+</centerpage>

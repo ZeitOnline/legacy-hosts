@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-09-21T16:13:04.976493+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-09-21T10:10:51.617107+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-09-21T16:14:04.735937+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-09-21T16:12:55.573356+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">bergeundmeer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:d44f206b-53ad-446a-b62c-5e57284226ab}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">38</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="f8644cea-5929-4a9c-ac56-cb48883e81ef">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="dcb63852-579e-4a90-a4c7-c9ea46e923a1">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/bergeundmeer/verlinkung_bergeundmeer" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad3.adfarm1.adition.com/redi?sid=314751&amp;kid=144569&amp;bid=455470" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Berge und Meer Homepage</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/bergeundmeer/bilder/Logo_bm/Logo_bm-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="d3c8bb14-66bd-41be-87eb-decbb2e2237f">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/bergeundmeer/newsletter" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad3.adfarm1.adition.com/redi?sid=314751&amp;kid=144569&amp;bid=455472" date-last-modified="2010-09-21T15:50:55+00:00" date-first-released="2010-09-21T09:16:48.536239+00:00" date-last-published="2010-09-21T15:51:55.419788+00:00" last-semantic-change="2010-09-21T15:50:44.691464+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Newsletteranmeldung</title>
+            <text py:pytype="str">Mit unserem Reise-Newsletter verpassen Sie keine tollen Angebote und Aktionen mehr aus unserer Reisewelt. </text>
+            <description py:pytype="str">Mit unserem Reise-Newsletter verpassen Sie keine tollen Angebote und Aktionen mehr aus unserer Reisewelt. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.berge-meer.de/newsletteranmeldung" title="nlteaser" base-id="http://xml.zeit.de/angebote/bergeundmeer/bilder/nlteaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="93771950-4f8c-426d-b579-71afa3a54de8">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/bergeundmeer/information" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad3.adfarm1.adition.com/redi?sid=314751&amp;kid=144569&amp;bid=455477" date-last-modified="2010-09-21T15:49:04+00:00" date-first-released="2010-09-21T09:23:45.937506+00:00" date-last-published="2010-09-21T15:50:04.137761+00:00" last-semantic-change="2010-09-21T15:48:52.896798+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Information &amp; Service</title>
+            <text py:pytype="str">Nutzen Sie unser Serviceangebot. Für alle unsere Reiseziele können Sie sich hier umfassend informieren. </text>
+            <description py:pytype="str">Nutzen Sie unser Serviceangebot. Für alle unsere Reiseziele können Sie sich hier umfassend informieren. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.berge-meer.de/page/informationen/103" title="info_kalender" base-id="http://xml.zeit.de/angebote/bergeundmeer/bilder/info_kalender/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="f1915b56-8d32-4fc2-992c-c005d386e551">
+          <block href="http://xml.zeit.de/angebote/bergeundmeer/suedafrika" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-09-21T15:42:21+00:00" date-first-released="2010-09-21T08:28:11.002399+00:00" date-last-published="2010-09-21T15:43:20.982728+00:00" last-semantic-change="2010-09-21T15:41:57.134615+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Südafrika-Rundreise</title>
+            <text py:pytype="str">Gehen Sie mit uns auf eine unvergessliche 17-tägige Rundreise und lassen Sie sich von den Schönheiten Südafrikas hinreißen.</text>
+            <description py:pytype="str">Gehen Sie mit uns auf eine unvergessliche 17-tägige Rundreise und lassen Sie sich von den Schönheiten Südafrikas hinreißen.</description>
+            <byline py:pytype="str">Berge &amp; Meer: Dies ist ein Angebot von Berge &amp; Meer Touristik GmbH. Für den Inhalt ist ausschließlich Berge &amp; Meer Touristik GmbH verantwortlich.</byline>
+            <image align="left" href="http://www.zeit.de/angebote/bergeundmeer/suedafrika" title="Südafrika" base-id="http://xml.zeit.de/angebote/bergeundmeer/bilder/Suedafrika_Giraffe/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/bergeundmeer/usa-westen" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-09-21T15:44:13+00:00" date-first-released="2010-09-21T08:37:59.448935+00:00" date-last-published="2010-09-21T15:45:12.173905+00:00" last-semantic-change="2010-09-21T15:43:40.396897+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">USA-Westen-Rundreise</title>
+            <text py:pytype="str">Die aufregendsten Städte sowie atemberaubende Naturlandschaften stehen für den Westen der USA. Eine 14-tägige kalifornische Traumreise erwartet Sie!</text>
+            <description py:pytype="str">Die aufregendsten Städte sowie atemberaubende Naturlandschaften stehen für den Westen der USA. Eine 14-tägige kalifornische Traumreise erwartet Sie!</description>
+            <byline py:pytype="str">Berge &amp; Meer: Dies ist ein Angebot von Berge &amp; Meer Touristik GmbH. Für den Inhalt ist ausschließlich Berge &amp; Meer Touristik GmbH verantwortlich.</byline>
+            <image align="left" href="http://www.zeit.de/angebote/bergeundmeer/usa-westen" title="USA - Golden Gate Bridge" base-id="http://xml.zeit.de/angebote/bergeundmeer/bilder/USA_Golden_Gate_Bridge/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="9a1a38b9-7548-4352-8bff-0ff11f399d8b">
+          <block href="http://xml.zeit.de/angebote/bergeundmeer/thailand" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-09-21T15:45:23+00:00" date-first-released="2010-09-21T08:18:50.357286+00:00" date-last-published="2010-09-21T15:46:23.090255+00:00" last-semantic-change="2010-09-21T15:44:56.109936+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Thailand-Rundreise</title>
+            <text py:pytype="str">Begleiten Sie uns in das Land des Lächelns, ein Reiseziel voller Kontraste und einer unglaublich reichen Kultur. </text>
+            <description py:pytype="str">Begleiten Sie uns in das Land des Lächelns, ein Reiseziel voller Kontraste und einer unglaublich reichen Kultur. </description>
+            <byline py:pytype="str">Berge &amp; Meer: Dies ist ein Angebot von Berge &amp; Meer Touristik GmbH. Für den Inhalt ist ausschließlich Berge &amp; Meer Touristik GmbH verantwortlich.</byline>
+            <image align="left" href="http://www.zeit.de/angebote/bergeundmeer/thailand" title="Thailand" base-id="http://xml.zeit.de/angebote/bergeundmeer/bilder/Thailand_Boot/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/bergeundmeer/china" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" date-last-modified="2010-09-21T15:47:07+00:00" date-first-released="2010-09-21T08:16:57.044040+00:00" date-last-published="2010-09-21T15:48:06.831673+00:00" last-semantic-change="2010-09-21T15:46:29.355611+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">China-Rundreise</title>
+            <text py:pytype="str">Machen Sie mit uns eine einzigartige Reise in das Land der ältesten, noch heute lebendigen Kultur der Welt: China. Hier treffen Tradition und Moderne aufeinander.</text>
+            <description py:pytype="str">Machen Sie mit uns eine einzigartige Reise in das Land der ältesten, noch heute lebendigen Kultur der Welt: China. Hier treffen Tradition und Moderne aufeinander.</description>
+            <byline py:pytype="str">Berge &amp; Meer: Dies ist ein Angebot von Berge &amp; Meer Touristik GmbH. Für den Inhalt ist ausschließlich Berge &amp; Meer Touristik GmbH verantwortlich.</byline>
+            <image align="left" href="http://www.zeit.de/angebote/bergeundmeer/china" title="China- Grosse Mauer" base-id="http://xml.zeit.de/angebote/bergeundmeer/bilder/China_Grosse_Mauer/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="0be119c6-7aa8-4d8c-80e6-1767d02f4365">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/bergeundmeer/zurueck" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/bergeundmeer/index" date-last-modified="2010-09-21T10:08:54+00:00" date-first-released="2010-09-21T10:09:54.474692+00:00" date-last-published="2010-09-21T10:09:54.474692+00:00" last-semantic-change="2010-09-21T10:08:38.105630+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Berge und Meer</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Berge und Meer</title>
+  </teaser>
+</centerpage>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2010-02-25 09:28:02.138107+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-02-25T09:28:02.214868+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-05T15:50:48.805466+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-02-25T09:29:01.947840+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-07</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-09-04T21:57:45.672421+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-09-08</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.hegenscheidt</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Geschichte</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">30</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:2f771c34-1500-4ef9-bc14-31eef9c36663}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="homepage_news" module="homepage_news" cp:__name__="3846ee6b-aa0c-47c9-9065-e3374b6fa969">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="b16814f9-7958-4ec5-af3e-0e4ddbeeeaad" title="ZEITGeschichte aktuell">
+          <block type="intern" href="http://xml.zeit.de/zeit-geschichte/index" year="2009" date-last-modified="2009-08-28T09:11:44+00:00" last-semantic-change="2009-08-28T09:11:34.166236+00:00" date-first-released="2008-08-28T13:27:37.311321+00:00" date-last-published="2009-08-28T09:12:43.641032+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">ZEIT-Geschichte</supertitle>
+            <title py:pytype="str">ZEIT-Geschichte 3/09</title>
+            <text py:pytype="str">Karl Marx - Der Prophet der Krise</text>
+            <description py:pytype="str">Karl Marx - Der Prophet der Krise</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">ZEIT-Geschichte 3/09</title>
+              <text py:pytype="str">Karl Marx - Der Prophet der Krise</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" title="ZEIT Geschichte 3/09" base-id="http://xml.zeit.de/bilder/2009/zeit-geschichte/03/zeit-geschichte-cover-03/" type="jpg" date-last-modified="2009-09-03T12:17:01+00:00" last-semantic-change="2009-08-31T10:35:20.884774+00:00" date-first-released="2009-08-24T09:24:41.319011+00:00" date-last-published="2009-08-31T10:36:31.252425+00:00" publication-date="" expires="">
+              <bu>ZEIT Geschichte 3/09: Karl Marx - Der Prophet der Krise</bu>
+              <copyright py:pytype="str">© ZEIT Geschichte</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/2009/zeit-geschichte/03/zeit-geschichte-cover-03/zeit-geschichte-cover-03-368x110.jpg" date-last-modified="2009-09-03T12:18:25+00:00" last-semantic-change="2009-09-03T12:18:24.907413+00:00" date-first-released="" date-last-published="" publication-date="" expires=""/>
+        </container>
+        <container cp:type="ressort_news" module="ressort_news" cp:__name__="d562db18-e13f-4692-bbd4-f3b6bf327b81" title="Neu auf Geschichte">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" cp:__name__="8a63f429-22a0-4db6-a90f-fde76646d315" title="ZEITläufte" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/themen/deutschland/60jahre-brd/60-jahre-brd-link-2" year="2009" issue="36" date-last-modified="2010-01-04T15:37:03+00:00" last-semantic-change="2009-12-16T13:50:04.451632+00:00" date-first-released="2009-09-02T21:57:52.872688+00:00" date-last-published="2010-01-04T15:38:03.625972+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/deutschland/60jahre-brd/index" ressort="Politik">
+            <supertitle py:pytype="str">Thema</supertitle>
+            <title py:pytype="str">Schwarz-Rot-Golden</title>
+            <text py:pytype="str">Die Bundesrepublik feierte 2009 ihr 60-jähriges Bestehen. Ein Rückblick</text>
+            <description py:pytype="str">Die Bundesrepublik feierte 2009 ihr 60-jähriges Bestehen. Ein Rückblick</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Thema</title>
+              <text py:pytype="str">60 Jahre Schwarz-Rot-Golden</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image alt="60 Jahre BRD - ein Themenschwerpunkt" align="left" base-id="http://xml.zeit.de/bilder/2009/standards/deutschland/60-jahre-brd/" type="jpg" publication-date="" expires="">
+              <bu>60 Jahre BRD - ein Themenschwerpunkt</bu>
+              <copyright py:pytype="str">© Getty Images</copyright>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/zeitlaeufte/zeitlaeufte-serie-link" year="2009" issue="36" date-last-modified="2009-12-02T16:43:25+00:00" last-semantic-change="2009-09-04T15:14:23.470415+00:00" date-first-released="2009-09-02T17:24:11.686219+00:00" date-last-published="2009-09-03T15:28:55.325268+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=zeitlaeufte" ressort="Wissen">
+            <supertitle py:pytype="str">Geschichte</supertitle>
+            <title py:pytype="str">ZEITläufte</title>
+            <text py:pytype="str">Historische Ereignisse und ihre Hintergründe. Stöbern Sie in den aktuellen Stücken aus dem ZEIT-Ressort</text>
+            <description py:pytype="str">Historische Ereignisse und ihre Hintergründe. Stöbern Sie in den aktuellen Stücken aus dem ZEIT-Ressort</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">ZEITläufte</title>
+              <text py:pytype="str">Historische Ereignisse und ihre Hintergründe</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/standards/wissen/elysee-vertrag/" type="jpg" publication-date="" expires="">
+              <bu>Das Original des Elysee-Vertrags. 1963 wurde der über die deutsch-französische Zusammenarbeit unterzeichnet</bu>
+              <copyright py:pytype="str">© Michael Urban/ddp </copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="7cf87783-6003-493d-b2d5-6262ebb9851e">
+        <container cp:type="teaser" module="ressort" cp:__name__="b4fbcc18-f5e7-4f01-ad81-e7e4be643123" title="Serie: Alltagsfragen" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/stimmts/stimmts-kolumne-link" year="2009" issue="36" date-last-modified="2009-09-05T15:49:59+00:00" last-semantic-change="2009-09-03T15:25:37.426782+00:00" date-first-released="2009-09-02T17:09:10.222084+00:00" date-last-published="2009-09-05T15:50:58.913492+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=stimmts" ressort="Wissen">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Stimmt's?</title>
+            <text py:pytype="str">Seit 1997 beantwortet Christoph Drösser in der ZEIT Fragen nach Legenden des Alltags. Stöbern Sie hier in den Folgen der Kolumne</text>
+            <description py:pytype="str">Seit 1997 beantwortet Christoph Drösser in der ZEIT Fragen nach Legenden des Alltags. Stöbern Sie hier in den Folgen der Kolumne</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Stimmt's?</title>
+              <text py:pytype="str">Christoph Drösser lüftet Legenden des Alltags</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image alt="Stimmt's?" align="left" base-id="http://xml.zeit.de/bilder/2009/standards/wissen/stimmts/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Jeff J. Mitchell/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="1334cda8-01e9-4a9a-95bf-fdfd0a9e8e5c">
+          <block type="intern" href="http://xml.zeit.de/online/2009/19/quiz-piraten" year="2009" issue="19" date-last-modified="2009-09-07T10:57:07+00:00" last-semantic-change="2009-08-27T10:26:19.630120+00:00" date-first-released="2009-05-06T05:21:53.158235+00:00" date-last-published="2009-07-19T14:34:52.908393+00:00" publication-date="" expires="" ressort="Politik">
+            <supertitle py:pytype="str">Piraten-Quiz</supertitle>
+            <title py:pytype="str">Der Schrecken der Meere</title>
+            <text py:pytype="str">Was ist ein Dadao, wie lautet der Kampfname von Edward Teach und wann soll Störtebeker enthauptet worden sein? Testen Sie Ihr Seeräuber-Wissen</text>
+            <description py:pytype="str">Was ist ein Dadao, wie lautet der Kampfname von Edward Teach und wann soll Störtebeker enthauptet worden sein? Testen Sie Ihr Seeräuber-Wissen</description>
+            <byline py:pytype="str">Von Hauke Friederichs</byline>
+            <short>
+              <title py:pytype="str">Piraten-Quiz</title>
+              <text py:pytype="str">Was wissen Sie über den Schrecken der Meere?</text>
+            </short>
+            <homepage>
+              <title py:pytype="str">Piraten-Quiz</title>
+              <text py:pytype="str">Was wissen Sie über den Schrecken der Meere?</text>
+            </homepage>
+            <image alt="Störtebekers Hinrichtung" align="left" title="quiz-piraten1" base-id="http://xml.zeit.de/bilder/2009/19/politik/Ausland/quiz-piraten/quiz-piraten1/" type="jpg" publication-date="" expires="">
+              <bu>Störtebeker soll in Hamburg auf dem Grasbrook hingerichtet worden sein</bu>
+              <copyright py:pytype="str">© Henry Guttmann/Gety Images</copyright>
+            </image>
+            <gallery type="intern" href="http://xml.zeit.de/online/2008/49/bg-piraten" year="2008" issue="49" ressort="Kultur" publication-date="" expires="">
+              <supertitle py:pytype="str">Piraten in der Geschichte</supertitle>
+              <title py:pytype="str">Schurken und Helden der Weltmeere</title>
+              <text py:pytype="str">Piraten haben schon im Mittelalter ihr Unwesen getrieben – mit ähnlichen Methoden wie heute und oft im Auftrag höherer Mächte. 15 Porträts berüchtigter Seeräuber.</text>
+              <description py:pytype="str">Piraten haben schon im Mittelalter ihr Unwesen getrieben – mit ähnlichen Methoden wie heute und oft im Auftrag höherer Mächte. 15 Porträts berüchtigter Seeräuber.</description>
+              <byline py:pytype="str">Von Hauke Friederichs</byline>
+              <image base-id="http://xml.zeit.de/bilder/2008/49/bildergalerien/teaser/bg-piraten/" type="jpg" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">©</copyright>
+              </image>
+            </gallery>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="499b2056-2240-4771-bb53-91ad2644d629" title="Thema: Zukunftsforschung">
+          <block type="intern" href="http://xml.zeit.de/themen/wissen/erde-der-zukunft/index_r09" year="2009" date-last-modified="2009-09-04T18:51:54+00:00" last-semantic-change="2009-09-04T18:51:51.940894+00:00" date-first-released="" date-last-published="" publication-date="" expires="">
+            <supertitle py:pytype="str">Zukunftsforschung</supertitle>
+            <title py:pytype="str">Erde 3.0</title>
+            <text py:pytype="str">Wie könnte unser Leben aussehen – in der Welt von morgen? Ein Schwerpunkt von ZEIT ONLINE, zusammen mit "spektrumdirekt.de" und "Spektrum der Wissenschaft"</text>
+            <description py:pytype="str">Wie könnte unser Leben aussehen – in der Welt von morgen? Ein Schwerpunkt von ZEIT ONLINE, zusammen mit "spektrumdirekt.de" und "Spektrum der Wissenschaft"</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Zukunftsforschung</title>
+              <text py:pytype="str">Erde 3.0</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/2009/standards/wissen/erde-3.0/2-erde-3.0/2-erde-3.0-220x268.jpg" date-last-modified="2009-08-31T17:30:27+00:00" last-semantic-change="" date-first-released="2009-08-27T15:25:20.994246+00:00" date-last-published="2009-08-31T17:31:27.539421+00:00" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="73c5df55-dc47-4c7f-b2c3-74cc7efcfc07" title="Serie: Wissensfragen" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/themen/wissen/wissenschaft/fragen-der-wissenschaft/fragen-der-wissenschaft-link" year="2009" issue="36" date-last-modified="2009-09-07T14:54:10+00:00" last-semantic-change="2009-09-03T15:26:58.278557+00:00" date-first-released="2009-09-02T17:17:55.587983+00:00" date-last-published="2009-09-05T15:51:01.308952+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=fragen-der-wissenschaft" ressort="Wissen">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Die 12 großen Fragen der Wissenschaft</title>
+            <text py:pytype="str">Wo stoßen Forscher heute an ihre Grenzen? ZEIT Wissen stellt die wichtigsten Fragen aus Physik, Biologie, Medizin, Mathematik und Geologie vor. Ein Überblick</text>
+            <description py:pytype="str">Wo stoßen Forscher heute an ihre Grenzen? ZEIT Wissen stellt die wichtigsten Fragen aus Physik, Biologie, Medizin, Mathematik und Geologie vor. Ein Überblick</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Serie</title>
+              <text py:pytype="str">Die 12 großen Fragen der Wissenschaft</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image alt="12 Fragen Wissenschaft Menschheit" align="left" base-id="http://xml.zeit.de/bilder/2008/52/wissen/wissenschaft/wissens-fragen/" type="jpg" publication-date="" expires="">
+              <bu>Geheimnisvoll schlängeln sich leuchtende Streifen und Blitze durch die Plasmalampe.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=36845">© Shadowforce/photocase.de</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Zeitgeschichte</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Zeitgeschichte</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Zeitgeschichte</text>
+  </indexteaser>
+</centerpage>

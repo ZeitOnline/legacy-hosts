@@ -1,0 +1,1113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <rankedTags xmlns:ns4="http://namespaces.zeit.de/CMS/tagging">
+      <tag py:pytype="str" uuid="4c45b9d9-fe1d-4d3a-b532-045d6b08e385" type="free">Fußball</tag>
+      <tag py:pytype="str" uuid="a47fd3c5-1553-421a-82ab-bb40944d6d38" type="Person">Thomas Hitzlsperger</tag>
+    </rankedTags>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <image align="left" alt="Der Fußballer Thomas Hitzlsperger (Archiv)" base-id="http://xml.zeit.de/sport/2014-01/hitzlsperger-4/" type="jpg" publication-date="" expires="">
+      <bu py:pytype="str">Der Fußballer Thomas Hitzlsperger (Archiv)</bu>
+      <copyright py:pytype="str">© Jörg Koopmann</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-01-08T13:31:28.322786+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-01-08T10:54:27.484267+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-01-08T14:36:41.033835+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-01-08T11:08:05.075522+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-01-08T13:31:23.185623+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.spiller</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Sport</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:2bc196cd-324f-48e9-b8bb-6ed975f8bd1a}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">2</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-72576667-1e17-4e7b-a91c-d497b32d533a">
+          <block href="http://xml.zeit.de/sport/2013-10/thomas-hitzlsperger-karriereende-loew" year="2013" issue="41" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" genre="interview" date-last-modified="2014-01-08T12:05:30+00:00" date-first-released="2013-10-09T10:37:31.361598+00:00" date-last-published="2014-01-08T12:06:29.878189+00:00" last-semantic-change="2013-10-09T14:35:15.433609+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Ich habe mich für einen Italienischkurs angemeldet"</title>
+            <text py:pytype="str">Fußballer haben fast keine Bedeutung, sagt Thomas Hitzlsperger nach dem Karriereende. Nach vier Jahren "Alles-außer-Fußball"-Gesprächen hört er auch als Kolumnist auf.</text>
+            <description py:pytype="str">Fußballer haben fast keine Bedeutung, sagt Thomas Hitzlsperger nach dem Karriereende. Nach vier Jahren "Alles-außer-Fußball"-Gesprächen hört er auch als Kolumnist auf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2013-10/thomas-hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger im Jahr 2009</bu>
+              <copyright py:pytype="str">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2013-03/hitzlsperger-geld-gehalt-fussball" year="2013" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T20:24:01+00:00" date-first-released="2013-03-20T16:17:03.012895+00:00" date-last-published="2013-12-02T21:25:14+00:00" last-semantic-change="2013-03-20T13:24:55.105087+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Nicht alle Exfußballer kommen mit dem Bedeutungsverlust zurecht"</title>
+            <text py:pytype="str">Fußballer-Gehälter offen legen? Wozu, es weiß doch eh schon fast jeder Fan, wie viel wir verdienen, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Interview.</text>
+            <description py:pytype="str">Fußballer-Gehälter offen legen? Wozu, es weiß doch eh schon fast jeder Fan, wie viel wir verdienen, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Interview.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger im Trikot von West Ham United im Mai 2011" base-id="http://xml.zeit.de/sport/2013-03/hitzlsperger-geld/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger im Trikot von West Ham United im Mai 2011</bu>
+              <copyright py:pytype="str">© Glyn Kirk/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/11/hitzlsperger-bild-medien-zeitung-alles-ausser-fussball" year="2009" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T23:49:15+00:00" date-first-released="2009-03-10T10:38:15.132794+00:00" date-last-published="2013-12-07T23:50:15.112108+00:00" last-semantic-change="2009-09-30T15:14:25.945326+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Jetzt stelle ich die Fragen"</title>
+            <text py:pytype="str">Thomas Hitzlsperger übernimmt angesichts der Journalismuskrise die Initiative: "Alles außer Fußball" - unser Kolumnengespräch über Medien, diesmal mit vertauschten Rollen</text>
+            <description py:pytype="str">Thomas Hitzlsperger übernimmt angesichts der Journalismuskrise die Initiative: "Alles außer Fußball" - unser Kolumnengespräch über Medien, diesmal mit vertauschten Rollen</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="&quot;Jetzt stelle ich die Fragen.&quot; Thomas Hitzlsperger übernimmt die Rolle des Journalisten" title="Thomas Hitzlsperger" base-id="http://xml.zeit.de/sport/fussball/2009-09/thomas-hitzlsperger-presse/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Jetzt stelle ich die Fragen.&amp;quot; Thomas Hitzlsperger übernimmt die Rolle des Journalisten</bu>
+              <copyright py:pytype="str">© Vladimir Rys/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/08/alles-ausser-fussball-thomashitzlsperger-portraet" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:44:32+00:00" date-first-released="2009-02-13T13:11:08.083833+00:00" date-last-published="2013-09-09T01:45:53+00:00" last-semantic-change="2009-09-02T15:15:34.239096+00:00">
+            <supertitle py:pytype="str">Porträt Thomas Hitzlspergers</supertitle>
+            <title py:pytype="str">Hoeneß ließ er schreien</title>
+            <text py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</text>
+            <description py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger an der frischen Luft" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger an der frischen Luft: In seiner Jugend machten sich einige Mitspieler darüber lustig, dass er am Wochenende nicht mit dem Gameboy spielte, sondern im Kuhstall ausmisten half </bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-739473eb-37c4-467a-9aad-c14f26731b62">
+          <block href="http://xml.zeit.de/sport/2013-03/hitzlsperger-geld-gehalt-fussball" year="2013" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T20:24:01+00:00" date-first-released="2013-03-20T16:17:03.012895+00:00" date-last-published="2013-12-02T21:25:14+00:00" last-semantic-change="2013-03-20T13:24:55.105087+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Nicht alle Exfußballer kommen mit dem Bedeutungsverlust zurecht"</title>
+            <text py:pytype="str">Fußballer-Gehälter offen legen? Wozu, es weiß doch eh schon fast jeder Fan, wie viel wir verdienen, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Interview.</text>
+            <description py:pytype="str">Fußballer-Gehälter offen legen? Wozu, es weiß doch eh schon fast jeder Fan, wie viel wir verdienen, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Interview.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger im Trikot von West Ham United im Mai 2011" base-id="http://xml.zeit.de/sport/2013-03/hitzlsperger-geld/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger im Trikot von West Ham United im Mai 2011</bu>
+              <copyright py:pytype="str">© Glyn Kirk/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2013-03/fussball-fans-intellektuelle-hipster" year="2013" issue="11" ressort="Sport" author="Christian Spiller" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T20:25:20+00:00" date-first-released="2013-03-20T06:41:04.691409+00:00" date-last-published="2013-12-02T21:26:50+00:00" last-semantic-change="2013-03-20T06:39:50.626233+00:00">
+            <supertitle py:pytype="str">Fankultur</supertitle>
+            <title py:pytype="str">Rettet den Fußball vor den Hipstern</title>
+            <text py:pytype="str">Nostalgisch, selbstironisch und so intelligent – in den vergangenen Jahren entwickelte sich ein neuer Typus Fußballfan. Helfen wird er dem Spiel kaum. Von C. Spiller</text>
+            <description py:pytype="str">Nostalgisch, selbstironisch und so intelligent – in den vergangenen Jahren entwickelte sich ein neuer Typus Fußballfan. Helfen wird er dem Spiel kaum. Von C. Spiller</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Der Fußballfan hat sich irgendwie verändert." title="Fan" base-id="http://xml.zeit.de/sport/2013-03/teaser-fankultur/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Fußballfan hat sich irgendwie verändert.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/spacejunkie">© photocase.de</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2013-02/hitzlsperger-doping-armstrong-fuentes" year="2013" issue="6" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T21:35:01+00:00" date-first-released="2013-02-06T09:44:29.351313+00:00" date-last-published="2013-12-02T22:35:14+00:00" last-semantic-change="2013-02-06T09:25:18.579597+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Vielleicht werde ich ja irgendwann Europameister 2008"</title>
+            <text py:pytype="str">Armstrong, Doping-Vorwürfe gegen spanische Fußballer und Kinder, die Ritalin nehmen: Doping hat Konjunktur. Doch Thomas Hitzlsperger verteidigt dopingfreien Sport.</text>
+            <description py:pytype="str">Armstrong, Doping-Vorwürfe gegen spanische Fußballer und Kinder, die Ritalin nehmen: Doping hat Konjunktur. Doch Thomas Hitzlsperger verteidigt dopingfreien Sport.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2013-02/thomas-hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger im Einsatz für den FC Everton</bu>
+              <copyright py:pytype="str">© Jan Kruger/Getty Images Sport</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2013-03/gehaelter-profifussball-transparenz-obergrenze" year="2013" ressort="Sport" author="Christian Hönicke" contenttype="article" publication-date="" expires="" date-last-modified="2013-03-11T14:47:19+00:00" date-first-released="2013-03-09T23:00:00+00:00" date-last-published="2013-03-11T14:48:19.056468+00:00" last-semantic-change="2013-03-11T13:06:29.028898+00:00">
+            <supertitle py:pytype="str">Profi-Fußball</supertitle>
+            <title py:pytype="str">Legt die Gehälter offen!</title>
+            <text py:pytype="str">Trotz Subventionen ist Europas Fußball verschuldet, die Klubs wirtschaften im Dunklen, doch Spieler kassieren Millionen. Da hilft nur Transparenz, kommentiert C. Hönicke.</text>
+            <description py:pytype="str">Trotz Subventionen ist Europas Fußball verschuldet, die Klubs wirtschaften im Dunklen, doch Spieler kassieren Millionen. Da hilft nur Transparenz, kommentiert C. Hönicke.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2013-03/diego/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Wolfsburger Diego verdient angeblich über acht Millionen Euro im Jahr.</bu>
+              <copyright py:pytype="str">© Jörn Pollex/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-7b350139-39da-47ae-b938-4cea171b7273">
+          <block href="http://xml.zeit.de/sport/2012-11/hitzlsperger-movember-charity-schnorres" year="2012" issue="47" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T23:32:31+00:00" date-first-released="2012-11-27T14:19:25.758101+00:00" date-last-published="2013-12-03T00:32:46+00:00" last-semantic-change="2012-11-27T14:17:53.292384+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Ich trage einen Monat lang eine Rotzbremse"</title>
+            <text py:pytype="str">Unser Kolumnist trägt Schnurrbart, wie seine Mannschaftskollegen, für einen guten Zweck. Ein Alles-außer-Fußball-Gespräch über Movember, Spenden, Beckmann und Moral.</text>
+            <description py:pytype="str">Unser Kolumnist trägt Schnurrbart, wie seine Mannschaftskollegen, für einen guten Zweck. Ein Alles-außer-Fußball-Gespräch über Movember, Spenden, Beckmann und Moral.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzslperger mit Rotzbremse" base-id="http://xml.zeit.de/sport/2012-11/hitzlsperger-schnurrbart/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzslperger mit Rotzbremse</bu>
+              <copyright py:pytype="str">© privat</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-09/hitzlsperger-homosexualitaet-schwul-everton" year="2012" issue="39" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2014-01-08T11:18:03+00:00" date-first-released="2012-09-24T13:52:39.731101+00:00" date-last-published="2014-01-08T11:19:02.915007+00:00" last-semantic-change="2012-09-24T15:19:50.378126+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Auch in der Kabine wird über schwule Fußballer gesprochen"</title>
+            <text py:pytype="str">Wer ist schwul? Das fragen sich auch Fußballer, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Gespräch. Ein Profi könnte nach seinem Coming-out zum großen Idol werden.</text>
+            <description py:pytype="str">Wer ist schwul? Das fragen sich auch Fußballer, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Gespräch. Ein Profi könnte nach seinem Coming-out zum großen Idol werden.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-09/hitzlsperger-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Für Fußballer kann ein Coming-out das Karriereende bedeuten.&amp;quot;</bu>
+              <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-03/hitzlsperger-bahn-wolfsburg-bahncard" year="2012" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T08:43:20+00:00" date-first-released="2012-03-12T14:56:36.646085+00:00" date-last-published="2013-12-03T09:44:58+00:00" last-semantic-change="2012-03-12T14:55:26.468944+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Im Speisewagen kann die Stimmung kippen"</title>
+            <text py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</text>
+            <description py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-03/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Ich habe nicht die Nerven fürs Schwarzfahren.&amp;quot;</bu>
+              <copyright py:pytype="str">© Jörn Pollex/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-11/rene-adler-ossi-nationalmannschaft" year="2012" issue="46" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-02T23:55:53+00:00" date-first-released="2012-11-13T15:52:06.213546+00:00" date-last-published="2013-12-03T00:56:30+00:00" last-semantic-change="2012-11-13T14:31:05.696643+00:00">
+            <supertitle py:pytype="str">René Adler</supertitle>
+            <title py:pytype="str">"Meine Muttermilch ist aus dem Osten"</title>
+            <text py:pytype="str">René Adler ist 1985 geboren, doch fühlt er sich durch seine DDR-Herkunft geprägt. Ein Alles-außer-Fußball-Gespräch über Ost-Identität und wie sie sich im Sport äußert.</text>
+            <description py:pytype="str">René Adler ist 1985 geboren, doch fühlt er sich durch seine DDR-Herkunft geprägt. Ein Alles-außer-Fußball-Gespräch über Ost-Identität und wie sie sich im Sport äußert.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-11/rene-adler/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">René Adler: &amp;quot;Seine ostdeutsche Geschichte schüttelt man nicht einfach so ab.&amp;quot;</bu>
+              <copyright py:pytype="str">© Jörn Pollex/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-ba52081e-1f98-4eef-ad0b-e5c90c49c826">
+          <block href="http://xml.zeit.de/sport/2012-09/hitzlsperger-homosexualitaet-schwul-everton" year="2012" issue="39" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2014-01-08T11:18:03+00:00" date-first-released="2012-09-24T13:52:39.731101+00:00" date-last-published="2014-01-08T11:19:02.915007+00:00" last-semantic-change="2012-09-24T15:19:50.378126+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Auch in der Kabine wird über schwule Fußballer gesprochen"</title>
+            <text py:pytype="str">Wer ist schwul? Das fragen sich auch Fußballer, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Gespräch. Ein Profi könnte nach seinem Coming-out zum großen Idol werden.</text>
+            <description py:pytype="str">Wer ist schwul? Das fragen sich auch Fußballer, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Gespräch. Ein Profi könnte nach seinem Coming-out zum großen Idol werden.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-09/hitzlsperger-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Für Fußballer kann ein Coming-out das Karriereende bedeuten.&amp;quot;</bu>
+              <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-09/schwul-stadion-fussball-hsv-bvb-outing-bundesliga" year="2012" issue="39" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2014-01-08T11:18:04+00:00" date-first-released="2012-09-23T08:09:10.313963+00:00" date-last-published="2014-01-08T11:19:03.879824+00:00" last-semantic-change="2012-09-23T08:07:25.708864+00:00">
+            <supertitle py:pytype="str">Bundesliga</supertitle>
+            <title py:pytype="str">"Schwul? Na soll’n sie doch!"</title>
+            <text py:pytype="str">Die Volksparkjunxx sind der einzige Fanclub des Hamburger SV für Schwule. Ein Stadionbesuch mit fünf Toren, vielen Umarmungen und sehr viel Bier. Von Steffen Dobbert</text>
+            <description py:pytype="str">Die Volksparkjunxx sind der einzige Fanclub des Hamburger SV für Schwule. Ein Stadionbesuch mit fünf Toren, vielen Umarmungen und sehr viel Bier. Von Steffen Dobbert</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-09/hsv-volksparkjunxx/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Jens und Thorsten von den Volksparkjunxx</bu>
+              <copyright py:pytype="str">© Steffen Dobbert</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-09/schwul-fussball-interview-bundesliga-outing" year="2012" issue="37" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2014-01-08T10:48:52+00:00" date-first-released="2012-09-13T08:37:45.369877+00:00" date-last-published="2014-01-08T10:49:52.525813+00:00" last-semantic-change="2012-09-13T08:35:57.032677+00:00">
+            <supertitle py:pytype="str">Schwule Fußballer</supertitle>
+            <title py:pytype="str">Das Fußballer-Outing rückt näher</title>
+            <text py:pytype="str">Erstmals spricht ein schwuler Bundesligaprofi über seine Ängste. Anonym, wegen seiner Furcht bloßgestellt zu werden. Doch die Enttabuisierung hat begonnen. Von S. Dobbert</text>
+            <description py:pytype="str">Erstmals spricht ein schwuler Bundesligaprofi über seine Ängste. Anonym, wegen seiner Furcht bloßgestellt zu werden. Doch die Enttabuisierung hat begonnen. Von S. Dobbert</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-09/fussball-symbol/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=173522">© derfabse / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-09/john-terry-ruecktritt-nationalmannschaft" year="2012" issue="39" ressort="Sport" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T01:40:05+00:00" date-first-released="2012-09-24T07:39:24.287600+00:00" date-last-published="2013-12-03T02:41:21+00:00" last-semantic-change="2012-09-24T07:38:05.202038+00:00">
+            <supertitle py:pytype="str">Rassismus-Verdacht</supertitle>
+            <title py:pytype="str">John Terry tritt aus englischer Nationalelf zurück</title>
+            <text py:pytype="str">Aus Verärgerung über den nationalen Fußballverband kehrt John Terry der Nationalmannschaft den Rücken. Die FA ermittelt weiter wegen Rassismus gegen ihn.</text>
+            <description py:pytype="str">Aus Verärgerung über den nationalen Fußballverband kehrt John Terry der Nationalmannschaft den Rücken. Die FA ermittelt weiter wegen Rassismus gegen ihn.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="John Terry" base-id="http://xml.zeit.de/sport/2012-09/john-terry/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">John Terry während der Europameisterschaft 2012 in Polen und der Ukraine</bu>
+              <copyright py:pytype="str">© Nigel Treblin/dapd</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f967cb6b-a5ce-4b66-a7b4-050119733f2e">
+          <block href="http://xml.zeit.de/sport/2012-06/em-schnack-interview-italien-deutschland-thomas-hitzlsperger" year="2012" issue="27" ressort="Sport" author="Tobias Jochheim" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T04:10:18+00:00" date-first-released="2012-06-29T15:20:09.727978+00:00" date-last-published="2013-12-03T05:10:30+00:00" last-semantic-change="2012-06-29T13:57:14.241997+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Abhaken und einfach weitermachen"</title>
+            <text py:pytype="str">Es wäre falsch, jetzt alles infrage zu stellen, sagt Thomas Hitzlsperger nach dem EM-Aus der deutschen Mannschaft. 2014 wird das DFB-Team noch besser sein.</text>
+            <description py:pytype="str">Es wäre falsch, jetzt alles infrage zu stellen, sagt Thomas Hitzlsperger nach dem EM-Aus der deutschen Mannschaft. 2014 wird das DFB-Team noch besser sein.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Die Gesichter der deutschen Spieler nach dem Abpfiff sagten alles" base-id="http://xml.zeit.de/sport/2012-06/deutschland-italien-allesaus/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Gesichter der deutschen Spieler nach dem Abpfiff sagten alles</bu>
+              <copyright py:pytype="str">© Patrik Stollarz/AFP/getty images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-06/halbfinal-aus-reaktionen-spieler-balotelli-gomez" year="2012" issue="27" ressort="Sport" author="Anna Kemper" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T04:11:22+00:00" date-first-released="2012-06-29T10:10:08.768683+00:00" date-last-published="2013-12-03T05:12:19+00:00" last-semantic-change="2012-06-29T08:45:28.106257+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">EM-Aus</supertitle>
+            <title py:pytype="str">Die deutsche Endlosschleife</title>
+            <text py:pytype="str">2006, 2008, 2010, 2012 – immer wurde das Potenzial der DFB-Elf beschworen, ihre Jugend, ihre Zukunft. Doch einigen Spielern läuft die Zeit davon. Von A. Kemper, Warschau</text>
+            <description py:pytype="str">2006, 2008, 2010, 2012 – immer wurde das Potenzial der DFB-Elf beschworen, ihre Jugend, ihre Zukunft. Doch einigen Spielern läuft die Zeit davon. Von A. Kemper, Warschau</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Klose, Schweinsteiger, Lahm: Karrieren ohne Titel mit Deutschland?" base-id="http://xml.zeit.de/sport/2012-06/dfb-team-em-aus-klose/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Klose, Schweinsteiger, Lahm: Karrieren ohne Titel mit Deutschland?</bu>
+              <copyright py:pytype="str">© Patrik Stollarz/AFP/getty images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-06/deutschland-italien-halbfinale-loew-taktik" year="2012" issue="27" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2014-01-08T11:12:28+00:00" date-first-released="2012-06-29T06:57:05.621374+00:00" date-last-published="2013-12-03T05:12:19+00:00" last-semantic-change="2012-06-29T06:24:46.061404+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Deutschland - Italien</supertitle>
+            <title py:pytype="str">Joachim Löw verzockt sich</title>
+            <text py:pytype="str">Wieder gepokert, wieder gewechselt und wieder gegen Italien verloren. Am Ende wirkt der Bundestrainer betroffener als es seine Worte nahelegten. Von O. Fritsch, Warschau</text>
+            <description py:pytype="str">Wieder gepokert, wieder gewechselt und wieder gegen Italien verloren. Am Ende wirkt der Bundestrainer betroffener als es seine Worte nahelegten. Von O. Fritsch, Warschau</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-06/lowe/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Joachim Löw vor dem Spiel gegen Italien</bu>
+              <copyright py:pytype="str">© Kai Pfaffenbach/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-06/italien-deutschland-halbfinale" year="2012" issue="27" ressort="Sport" author="Michael Rosentritt" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T04:11:59+00:00" date-first-released="2012-06-28T21:11:41.265696+00:00" date-last-published="2013-12-03T05:12:19+00:00" last-semantic-change="2012-06-28T21:15:35.063820+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Fußball-EM</supertitle>
+            <title py:pytype="str">Deutschlands Traum vom Finale ist geplatzt</title>
+            <text py:pytype="str">Deutschland hat das EM-Halbfinale verloren. Italien siegt dank zweier Tore von Balotelli. Özils Anschlusstreffer in der Nachspielzeit kam zu spät. Der Spielbericht</text>
+            <description py:pytype="str">Deutschland hat das EM-Halbfinale verloren. Italien siegt dank zweier Tore von Balotelli. Özils Anschlusstreffer in der Nachspielzeit kam zu spät. Der Spielbericht</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Mesut Özil nach der Niederlage gegen Italien " title="oezil" base-id="http://xml.zeit.de/sport/2012-06/deutschland-italien-em/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Mesut Özil nach der Niederlage gegen Italien </bu>
+              <copyright py:pytype="str">© Christof Stache/AFP/GettyImages</copyright>
+            </image>
+            <video href="http://xml.zeit.de/video/2012-06/1711372107001" href2="" expires="2012-07-29T07:00:00+00:00" video_id="vid1711372107001" video_id_2=""/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-553393ff-ed28-416a-83fe-8c0d7c3667ee">
+          <block href="http://xml.zeit.de/sport/2012-05/friedrich-hitzlsperger-littmann-magath" year="2012" issue="19" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T05:48:28+00:00" date-first-released="2012-05-08T16:54:29.174038+00:00" date-last-published="2013-12-03T06:49:20+00:00" last-semantic-change="2012-05-08T16:53:13.775113+00:00">
+            <supertitle py:pytype="str">Alles außer Fußball</supertitle>
+            <title py:pytype="str">Herr Friedrich, Herr Hitzlsperger, wie fühlt man sich als Spekulationsobjekt?</title>
+            <text py:pytype="str">Die ZEIT-ONLINE-Kolumnisten im Gespräch: Arne Friedrich, Thomas Hitzlsperger und Corny Littmann streiten über die Qualität der Liga, den BVB und Fußballkapitalismus.</text>
+            <description py:pytype="str">Die ZEIT-ONLINE-Kolumnisten im Gespräch: Arne Friedrich, Thomas Hitzlsperger und Corny Littmann streiten über die Qualität der Liga, den BVB und Fußballkapitalismus.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-05/hitzlsperger-friedrich/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger (links) und Arne Friedrich in gemeinsamen Tagen in der Nationalelf</bu>
+              <copyright py:pytype="str">© Torsten Silz/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-05/bundesliga-finale-bayern-muenchen" year="2012" issue="19" ressort="Sport" author="Oliver Fritsch;Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T05:54:08+00:00" date-first-released="2012-05-04T11:48:50.606895+00:00" date-last-published="2013-12-03T06:54:25+00:00" last-semantic-change="2012-05-04T09:11:07.691605+00:00">
+            <supertitle py:pytype="str">Saison-Rückschau</supertitle>
+            <title py:pytype="str">Die Bayern waren Langweiler</title>
+            <text py:pytype="str">Die Bundesliga-Saison geht, was bleibt? Ein Rückblick auf Ballack und Burnouts, auf die unterschätztesten Spieler und das schönste Spiel. Von Oliver Fritsch</text>
+            <description py:pytype="str">Die Bundesliga-Saison geht, was bleibt? Ein Rückblick auf Ballack und Burnouts, auf die unterschätztesten Spieler und das schönste Spiel. Von Oliver Fritsch</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Müdes Bayern-Dreigestirn: Karl Hopfner, Uli Hoeneß und Karl-Heinz Rummenigge (v.l.) " title="bayern" base-id="http://xml.zeit.de/sport/2012-05/bayern/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Müdes Bayern-Dreigestirn: Karl Hopfner, Uli Hoeneß und Karl-Heinz Rummenigge (v.l.) </bu>
+              <copyright py:pytype="str">© Kai Pfaffenbach/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-04/usa-amerika-vorurteil-deutschland" year="2012" issue="17" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T06:13:28+00:00" date-first-released="2012-04-25T08:47:44.419069+00:00" date-last-published="2013-12-03T07:13:58+00:00" last-semantic-change="2012-04-25T06:13:52.160066+00:00">
+            <supertitle py:pytype="str">Arne Friedrich</supertitle>
+            <title py:pytype="str">"In Deutschland war ich ein Morgenmuffel"</title>
+            <text py:pytype="str">Oberflächliche Amerikaner und steife Deutsche? Von wegen! Im Alles-außer-Fußball-Gespräch räumt unser Kolumnist aus Chicago mit allen Vorurteilen auf. Mit fast allen.</text>
+            <description py:pytype="str">Oberflächliche Amerikaner und steife Deutsche? Von wegen! Im Alles-außer-Fußball-Gespräch räumt unser Kolumnist aus Chicago mit allen Vorurteilen auf. Mit fast allen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-04/arne-friedrich/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Arne Friedrich: &amp;quot;In Chicago gibt es viele hervorragende Restaurants und Organic Stores.&amp;quot;</bu>
+              <copyright py:pytype="str">© Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-03/hitzlsperger-bahn-wolfsburg-bahncard" year="2012" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T08:43:20+00:00" date-first-released="2012-03-12T14:56:36.646085+00:00" date-last-published="2013-12-03T09:44:58+00:00" last-semantic-change="2012-03-12T14:55:26.468944+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Im Speisewagen kann die Stimmung kippen"</title>
+            <text py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</text>
+            <description py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-03/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Ich habe nicht die Nerven fürs Schwarzfahren.&amp;quot;</bu>
+              <copyright py:pytype="str">© Jörn Pollex/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c54b93ca-f856-4a71-b37a-4d80945d084d">
+          <block href="http://xml.zeit.de/sport/2012-03/hitzlsperger-bahn-wolfsburg-bahncard" year="2012" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T08:43:20+00:00" date-first-released="2012-03-12T14:56:36.646085+00:00" date-last-published="2013-12-03T09:44:58+00:00" last-semantic-change="2012-03-12T14:55:26.468944+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Im Speisewagen kann die Stimmung kippen"</title>
+            <text py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</text>
+            <description py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-03/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Ich habe nicht die Nerven fürs Schwarzfahren.&amp;quot;</bu>
+              <copyright py:pytype="str">© Jörn Pollex/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/reisen/2012-02/bahn-verspaetung-mail" year="2012" issue="8" ressort="Reisen" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T09:37:27+00:00" date-first-released="2012-02-20T08:59:37.422703+00:00" date-last-published="2013-12-03T10:38:28+00:00" last-semantic-change="2012-02-20T08:58:29.128453+00:00">
+            <supertitle py:pytype="str">Neuer Service</supertitle>
+            <title py:pytype="str">Bahn verschickt künftig Verspätungsmails</title>
+            <text py:pytype="str">Die Deutsche Bahn will Reisende ab sofort per Mail über Verspätungen informieren, alternative Verbindung sollen dazu angeboten werden. Verbraucherschützer begrüßen das.</text>
+            <description py:pytype="str">Die Deutsche Bahn will Reisende ab sofort per Mail über Verspätungen informieren, alternative Verbindung sollen dazu angeboten werden. Verbraucherschützer begrüßen das.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Reisende warten am Bahnhof auf ihren Zug." title="bahn" base-id="http://xml.zeit.de/wirtschaft/2012-02/bahn/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Reisende warten am Bahnhof auf ihren Zug.</bu>
+              <copyright py:pytype="str">© Patrik Stollarz/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/05/DOS-Deutsche-Bahn" year="2011" issue="5" ressort="Wirtschaft" author="Roland Kirbach" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-12T10:10:12+00:00" date-first-released="2011-01-27T06:00:00+00:00" date-last-published="2013-12-12T10:11:12.132278+00:00" last-semantic-change="2011-01-31T06:33:59.031884+00:00">
+            <supertitle py:pytype="str">Deutsche Bahn</supertitle>
+            <title py:pytype="str">Die Wahn AG</title>
+            <text py:pytype="str">Je teurer, desto lieber: Warum die Bahn sinnlose kostspielige Zugstrecken baut, Brücken, die ohne Funktion herumstehen und die Menschen zur Verzweiflung treibt.</text>
+            <description py:pytype="str">Je teurer, desto lieber: Warum die Bahn sinnlose kostspielige Zugstrecken baut, Brücken, die ohne Funktion herumstehen und die Menschen zur Verzweiflung treibt.</description>
+            <byline py:pytype="str">Von Roland Kirbach</byline>
+            <image align="left" alt="ICE-Baustelle der Deutschen Bahn" title="ice-bruecke" base-id="http://xml.zeit.de/wirtschaft/unternehmen/2011-01/ice-bruecke/" type="jpg" publication-date="2011-01-28T15:49:44+00:00" expires="2011-04-28T14:49:47+00:00">
+              <bu py:pytype="str">ICE-Baustelle der Deutschen Bahn</bu>
+              <copyright py:pytype="str">© Martin Schutt/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-01/hitzlsperger-sportschau-internet-sky" year="2012" issue="4" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T11:07:42+00:00" date-first-released="2012-01-24T11:05:02.700650+00:00" date-last-published="2013-12-03T12:08:42+00:00" last-semantic-change="2012-01-24T11:03:47.368027+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Die Sportschau ist deutsches Kulturgut"</title>
+            <text py:pytype="str">Die DFL wird nicht auf die Sportschau verzichten, sagt unser Kolumnist Thomas Hitzlsperger. Er rechnet dennoch damit, dass der Bundesliga-Fußball bald ins Internet zieht.</text>
+            <description py:pytype="str">Die DFL wird nicht auf die Sportschau verzichten, sagt unser Kolumnist Thomas Hitzlsperger. Er rechnet dennoch damit, dass der Bundesliga-Fußball bald ins Internet zieht.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-01/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Wir können nichts ausschließen.&amp;quot;</bu>
+              <copyright py:pytype="str">© Christof Köpsel/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-47f2b369-4fcd-458b-93a6-1d274109a41e">
+          <block href="http://xml.zeit.de/sport/2012-01/hitzlsperger-sportschau-internet-sky" year="2012" issue="4" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T11:07:42+00:00" date-first-released="2012-01-24T11:05:02.700650+00:00" date-last-published="2013-12-03T12:08:42+00:00" last-semantic-change="2012-01-24T11:03:47.368027+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Die Sportschau ist deutsches Kulturgut"</title>
+            <text py:pytype="str">Die DFL wird nicht auf die Sportschau verzichten, sagt unser Kolumnist Thomas Hitzlsperger. Er rechnet dennoch damit, dass der Bundesliga-Fußball bald ins Internet zieht.</text>
+            <description py:pytype="str">Die DFL wird nicht auf die Sportschau verzichten, sagt unser Kolumnist Thomas Hitzlsperger. Er rechnet dennoch damit, dass der Bundesliga-Fußball bald ins Internet zieht.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2012-01/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Wir können nichts ausschließen.&amp;quot;</bu>
+              <copyright py:pytype="str">© Christof Köpsel/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2012-01/bundesliga-bayern-gladbach-dortmund-rueckschau" year="2012" issue="4" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T11:10:39+00:00" date-first-released="2012-01-23T10:03:11.482891+00:00" date-last-published="2013-12-03T12:11:12+00:00" last-semantic-change="2012-01-23T10:01:31.712743+00:00">
+            <supertitle py:pytype="str">Bundesliga-Rückschau</supertitle>
+            <title py:pytype="str">Die Erlösung für Taktik-Füchse und Bayern-Hasser</title>
+            <text py:pytype="str">Niemand lobt Jupp Heynckes, Freiburgs Coach überrascht mit Jugendfußball und der BVB stiehlt seinen Fans die Schau. S. Dobberts Rückschau auf das Bundesliga-Wochenende</text>
+            <description py:pytype="str">Niemand lobt Jupp Heynckes, Freiburgs Coach überrascht mit Jugendfußball und der BVB stiehlt seinen Fans die Schau. S. Dobberts Rückschau auf das Bundesliga-Wochenende</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Borussia Mönchengladbachs Coach Lucien Favre" base-id="http://xml.zeit.de/sport/2012-01/Lucien-Favre/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Borussia Mönchengladbachs Coach Lucien Favre</bu>
+              <copyright py:pytype="str">© P. Stollarz/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-12/weihnachten-hitzlsperger-ipad-gans" year="2011" issue="50" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T13:16:44+00:00" date-first-released="2011-12-13T09:59:17.889598+00:00" date-last-published="2013-12-03T14:18:04+00:00" last-semantic-change="2011-12-13T08:32:31.020870+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Last Christmas gehört irgendwie zu Weihnachten"</title>
+            <text py:pytype="str">Spielt das Radio den Klassiker von Wham, singt unser Kolumnist mit. Die Festtage verbringt er mit Memory-Niederlagen gegen seinen Neffen. Das Alles-außer-Fußball-Gespräch</text>
+            <description py:pytype="str">Spielt das Radio den Klassiker von Wham, singt unser Kolumnist mit. Die Festtage verbringt er mit Memory-Niederlagen gegen seinen Neffen. Das Alles-außer-Fußball-Gespräch</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-12/hitzlsperger-hirsch/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger mit dem Julius-Hirsch-Preis</bu>
+              <copyright py:pytype="str">© Christof Köpsel/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/08/alles-ausser-fussball-thomashitzlsperger-portraet" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:44:32+00:00" date-first-released="2009-02-13T13:11:08.083833+00:00" date-last-published="2013-09-09T01:45:53+00:00" last-semantic-change="2009-09-02T15:15:34.239096+00:00">
+            <supertitle py:pytype="str">Porträt Thomas Hitzlspergers</supertitle>
+            <title py:pytype="str">Hoeneß ließ er schreien</title>
+            <text py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</text>
+            <description py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger an der frischen Luft" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger an der frischen Luft: In seiner Jugend machten sich einige Mitspieler darüber lustig, dass er am Wochenende nicht mit dem Gameboy spielte, sondern im Kuhstall ausmisten half </bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-75e786c2-caeb-44df-b1d7-ebccc15acf90">
+          <block href="http://xml.zeit.de/sport/2011-12/weihnachten-hitzlsperger-ipad-gans" year="2011" issue="50" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T13:16:44+00:00" date-first-released="2011-12-13T09:59:17.889598+00:00" date-last-published="2013-12-03T14:18:04+00:00" last-semantic-change="2011-12-13T08:32:31.020870+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Last Christmas gehört irgendwie zu Weihnachten"</title>
+            <text py:pytype="str">Spielt das Radio den Klassiker von Wham, singt unser Kolumnist mit. Die Festtage verbringt er mit Memory-Niederlagen gegen seinen Neffen. Das Alles-außer-Fußball-Gespräch</text>
+            <description py:pytype="str">Spielt das Radio den Klassiker von Wham, singt unser Kolumnist mit. Die Festtage verbringt er mit Memory-Niederlagen gegen seinen Neffen. Das Alles-außer-Fußball-Gespräch</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-12/hitzlsperger-hirsch/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger mit dem Julius-Hirsch-Preis</bu>
+              <copyright py:pytype="str">© Christof Köpsel/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/49/Siebecks-Weihnachtsmenue" year="2011" issue="49" ressort="Lebensart" author="Wolfram Siebeck" contenttype="article" publication-date="2011-12-01T06:46:00+00:00" expires="" date-last-modified="2012-07-18T17:28:27+00:00" date-first-released="2011-12-01T06:00:00+00:00" date-last-published="2012-07-18T19:28:56+00:00" last-semantic-change="2011-12-12T16:06:39.659544+00:00">
+            <supertitle py:pytype="str">Weihnachtsmenü</supertitle>
+            <title py:pytype="str">Morgen, Kinder, wird’s was geben</title>
+            <text py:pytype="str">Wolfram Siebeck kennt das Geheimnis eines friedlichen Festes: Sein Weihnachtsmenü mit konfiertem Saiblingsfilet und gefüllter Kalbsbrust lässt sich entspannt vorbereiten.</text>
+            <description py:pytype="str">Wolfram Siebeck kennt das Geheimnis eines friedlichen Festes: Sein Weihnachtsmenü mit konfiertem Saiblingsfilet und gefüllter Kalbsbrust lässt sich entspannt vorbereiten.</description>
+            <byline py:pytype="str">Von Wolfram Siebeck</byline>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2011-11/weihnachtsmenue-aufmacher/" type="jpg" publication-date="" expires="2012-01-01T22:53:11+00:00">
+              <bu py:pytype="str">Zutaten für Siebecks Weihnachtsmenü</bu>
+              <copyright py:pytype="str">© Himmel &amp; Burwick</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2011-11/quiz-knigge-weihnachtsfeier" year="2011" issue="48" ressort="Karriere" author="Tina Groll" contenttype="quiz" publication-date="" expires="" date-last-modified="2012-06-13T04:54:20+00:00" date-first-released="2011-12-12T05:34:16.406663+00:00" date-last-published="2012-06-13T04:55:20.645196+00:00" last-semantic-change="2011-12-12T05:32:47.209943+00:00">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Überstehen Sie die Weihnachtsfeier?</title>
+            <text py:pytype="str">Darf man den Tischnachbarn tauschen, während der Chef noch seine Rede hält? Darf man sich am Buffet so richtig sattessen? Testen Sie Ihr Knigge-Wissen für Firmenfeiern!</text>
+            <description py:pytype="str">Darf man den Tischnachbarn tauschen, während der Chef noch seine Rede hält? Darf man sich am Buffet so richtig sattessen? Testen Sie Ihr Knigge-Wissen für Firmenfeiern!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Mitarbeiter tanzen ausgelassen bei einer Weihnachtsfeier." title="feier" base-id="http://xml.zeit.de/karriere/beruf/2011-11/feier/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Mitarbeiter tanzen ausgelassen bei einer Weihnachtsfeier.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/user.asp?u=22764">© neo.n / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-11/hitzlsperger-trikot-dfb-innenhose" year="2011" issue="46" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T14:55:46+00:00" date-first-released="2011-11-15T09:31:20.828839+00:00" date-last-published="2013-12-03T15:57:41+00:00" last-semantic-change="2011-11-15T08:41:45.747184+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Die Innenhose lasse ich drin"</title>
+            <text py:pytype="str">Der Kragen darf stehen, wie's gefällt, aber das Hosenbändel nicht raushängen. Thomas Hitzlsperger urteilt im Kolumnengespräch über Fußballmode und das neue EM-Trikot.</text>
+            <description py:pytype="str">Der Kragen darf stehen, wie's gefällt, aber das Hosenbändel nicht raushängen. Thomas Hitzlsperger urteilt im Kolumnengespräch über Fußballmode und das neue EM-Trikot.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-11/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger lässt die Innenhose drin.</bu>
+              <copyright py:pytype="str">© AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-21c900b9-2e4a-41c8-aa6e-50ebb9afb1d1">
+          <block href="http://xml.zeit.de/sport/2011-11/hitzlsperger-trikot-dfb-innenhose" year="2011" issue="46" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T14:55:46+00:00" date-first-released="2011-11-15T09:31:20.828839+00:00" date-last-published="2013-12-03T15:57:41+00:00" last-semantic-change="2011-11-15T08:41:45.747184+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Die Innenhose lasse ich drin"</title>
+            <text py:pytype="str">Der Kragen darf stehen, wie's gefällt, aber das Hosenbändel nicht raushängen. Thomas Hitzlsperger urteilt im Kolumnengespräch über Fußballmode und das neue EM-Trikot.</text>
+            <description py:pytype="str">Der Kragen darf stehen, wie's gefällt, aber das Hosenbändel nicht raushängen. Thomas Hitzlsperger urteilt im Kolumnengespräch über Fußballmode und das neue EM-Trikot.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-11/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger lässt die Innenhose drin.</bu>
+              <copyright py:pytype="str">© AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-09/hitzlsperger-autos-geschwindigkeit-mini" year="2011" issue="38" ressort="Sport" author="Christian Spiller" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T18:05:47+00:00" date-first-released="2011-09-19T14:19:46.814191+00:00" date-last-published="2013-12-03T19:07:50+00:00" last-semantic-change="2011-09-19T14:17:42.269633+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Bei Tempo 300 bekam ich feuchte Hände"</title>
+            <text py:pytype="str">Alles außer Fußball: Als Kind träumte er von einem roten Ferrari. Thomas Hitzlsperger erzählt, warum er nun ein anderes Auto fährt und wieso er den Verkehr in Rom liebt.</text>
+            <description py:pytype="str">Alles außer Fußball: Als Kind träumte er von einem roten Ferrari. Thomas Hitzlsperger erzählt, warum er nun ein anderes Auto fährt und wieso er den Verkehr in Rom liebt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="&quot;Ich wäre ein Aston Martin&quot;: Thomas Hitzlsperger" title="Hitzlsperger" base-id="http://xml.zeit.de/sport/2011-09/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Ich wäre ein Aston Martin&amp;quot;: Thomas Hitzlsperger</bu>
+              <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/45/Stilkolumne-Cord" year="2011" issue="45" ressort="Lebensart" author="Tillmann Prüfer" contenttype="article" publication-date="2011-11-03T06:38:00+00:00" expires="" date-last-modified="2013-12-03T15:28:45+00:00" date-first-released="2011-11-03T06:00:00+00:00" date-last-published="2013-12-03T16:31:05+00:00" last-semantic-change="2011-11-07T08:35:18.935590+00:00">
+            <supertitle py:pytype="str">Stilkolumne</supertitle>
+            <title py:pytype="str">Der Stoff der Arbeiterklasse</title>
+            <text py:pytype="str">Ein Cord-Jackett ist nie eine Fehlinvestition, denn Cord kommt immer wieder. Gerade jetzt ist es mal wieder soweit, beobachtet Tillmann Prüfer</text>
+            <description py:pytype="str">Ein Cord-Jackett ist nie eine Fehlinvestition, denn Cord kommt immer wieder. Gerade jetzt ist es mal wieder soweit, beobachtet Tillmann Prüfer</description>
+            <byline py:pytype="str">von Tillmann Prüfer</byline>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/mode/2011-10/stilkolumne-cord/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Cordjacke von Ralph Lauren, circa. 399 Euro</bu>
+              <copyright py:pytype="str">© Peter Langer</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-11/wetten-dass-kerkeling-schoeneberger" year="2011" issue="45" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T15:20:10+00:00" date-first-released="2011-11-07T16:19:01.516209+00:00" date-last-published="2013-12-03T16:21:57+00:00" last-semantic-change="2011-11-07T14:59:46.215539+00:00">
+            <supertitle py:pytype="str">Katja Kraus</supertitle>
+            <title py:pytype="str">Barbara Schöneberger sollte "Wetten, dass...?" moderieren</title>
+            <text py:pytype="str">Im Alles-außer-Fußball-Gespräch betont Katja Kraus die Qualität ihrer Favoritin für die Gottschalk-Nachfolge und spricht über die Sportschau als Teil ihrer Kindheit.</text>
+            <description py:pytype="str">Im Alles-außer-Fußball-Gespräch betont Katja Kraus die Qualität ihrer Favoritin für die Gottschalk-Nachfolge und spricht über die Sportschau als Teil ihrer Kindheit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-11/schoeneberger-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Top die Wette gilt? Barbara Schöneberger wird als Nachfolgerin von Thomas Gottschalk gehandelt.</bu>
+              <copyright py:pytype="str">© Andreas Rentz/Getty Images Entertainment</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f1bee95a-4b29-4b9d-9dcf-57410d3b288f">
+          <block href="http://xml.zeit.de/sport/2011-09/hitzlsperger-autos-geschwindigkeit-mini" year="2011" issue="38" ressort="Sport" author="Christian Spiller" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T18:05:47+00:00" date-first-released="2011-09-19T14:19:46.814191+00:00" date-last-published="2013-12-03T19:07:50+00:00" last-semantic-change="2011-09-19T14:17:42.269633+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Bei Tempo 300 bekam ich feuchte Hände"</title>
+            <text py:pytype="str">Alles außer Fußball: Als Kind träumte er von einem roten Ferrari. Thomas Hitzlsperger erzählt, warum er nun ein anderes Auto fährt und wieso er den Verkehr in Rom liebt.</text>
+            <description py:pytype="str">Alles außer Fußball: Als Kind träumte er von einem roten Ferrari. Thomas Hitzlsperger erzählt, warum er nun ein anderes Auto fährt und wieso er den Verkehr in Rom liebt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="&quot;Ich wäre ein Aston Martin&quot;: Thomas Hitzlsperger" title="Hitzlsperger" base-id="http://xml.zeit.de/sport/2011-09/hitzlsperger/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Ich wäre ein Aston Martin&amp;quot;: Thomas Hitzlsperger</bu>
+              <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-08/littmann-london-gadhafi-paris" year="2011" issue="34" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T19:17:42+00:00" date-first-released="2011-08-26T11:56:12.815738+00:00" date-last-published="2013-12-03T20:18:15+00:00" last-semantic-change="2011-08-26T12:55:10.214649+00:00">
+            <supertitle py:pytype="str">Corny Littmann</supertitle>
+            <title py:pytype="str">"Eine Gehälterdebatte im Fußball ist überfällig"</title>
+            <text py:pytype="str">Das Geschäft um den Fußball hat astronomische Ausmaße angenommen. Der Fußball solle sich mäßigen, sagt unser Kolumnist Corny Littmann im Alles-außer-Fußball-Gespräch.</text>
+            <description py:pytype="str">Das Geschäft um den Fußball hat astronomische Ausmaße angenommen. Der Fußball solle sich mäßigen, sagt unser Kolumnist Corny Littmann im Alles-außer-Fußball-Gespräch.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Der ehemalige Präsident des FC St. Pauli, Corny Littmann" base-id="http://xml.zeit.de/sport/2011-08/littmann-st-pauli/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der ehemalige Präsident des FC St. Pauli, Corny Littmann</bu>
+              <copyright py:pytype="str">© Andreas Rentz/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-08/kraus-katja-kolumne-hsv" year="2011" issue="35" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T19:04:41+00:00" date-first-released="2011-09-01T14:31:02.323365+00:00" date-last-published="2013-12-03T20:06:01+00:00" last-semantic-change="2011-09-06T12:57:13.683622+00:00">
+            <supertitle py:pytype="str">Katja Kraus</supertitle>
+            <title py:pytype="str">Die unscheinbare Nummer Zehn</title>
+            <text py:pytype="str">Mit 17 zog Katja Kraus zu Hause aus, der Fußball war ihre Familie. Als HSV-Vorstand bewies sie Spielmacherqualität, das Profigeschäft jedoch befremdet sie. Von O. Fritsch</text>
+            <description py:pytype="str">Mit 17 zog Katja Kraus zu Hause aus, der Fußball war ihre Familie. Als HSV-Vorstand bewies sie Spielmacherqualität, das Profigeschäft jedoch befremdet sie. Von O. Fritsch</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-08/katja-kraus/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Katja Kraus</bu>
+              <copyright py:pytype="str">© Friedemann Vogel/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-08/london-riots-gewalt-krawalle" year="2011" issue="31" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T20:17:59+00:00" date-first-released="2011-08-09T15:37:35.488885+00:00" date-last-published="2013-12-03T21:19:54+00:00" last-semantic-change="2011-08-09T14:25:52.932051+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Alles außer Fußball</supertitle>
+            <title py:pytype="str">Wie Thomas Hitzlsperger die Krawalle in London erlebt</title>
+            <text py:pytype="str">Unser Kolumnist lebt in London, die Krawalle finden in seiner Nähe statt. Im Gespräch erzählt er, welche Ursachen er vermutet und wie besorgt seine Nachbarn sind.</text>
+            <description py:pytype="str">Unser Kolumnist lebt in London, die Krawalle finden in seiner Nähe statt. Im Gespräch erzählt er, welche Ursachen er vermutet und wie besorgt seine Nachbarn sind.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-08/hitzlsperger-london/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger, Bürger Londons</bu>
+              <copyright py:pytype="str">© Scott Heavey/Getty Images Sport</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-20bddd9e-1b96-4369-8814-c1c1b93e4ccd">
+          <block href="http://xml.zeit.de/sport/2011-08/london-riots-gewalt-krawalle" year="2011" issue="31" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T20:17:59+00:00" date-first-released="2011-08-09T15:37:35.488885+00:00" date-last-published="2013-12-03T21:19:54+00:00" last-semantic-change="2011-08-09T14:25:52.932051+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Alles außer Fußball</supertitle>
+            <title py:pytype="str">Wie Thomas Hitzlsperger die Krawalle in London erlebt</title>
+            <text py:pytype="str">Unser Kolumnist lebt in London, die Krawalle finden in seiner Nähe statt. Im Gespräch erzählt er, welche Ursachen er vermutet und wie besorgt seine Nachbarn sind.</text>
+            <description py:pytype="str">Unser Kolumnist lebt in London, die Krawalle finden in seiner Nähe statt. Im Gespräch erzählt er, welche Ursachen er vermutet und wie besorgt seine Nachbarn sind.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-08/hitzlsperger-london/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger, Bürger Londons</bu>
+              <copyright py:pytype="str">© Scott Heavey/Getty Images Sport</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/sport/2011-02/hitzlsperger-lierhaus-matthaeus-hellgardt" year="2011" issue="7" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-10-09T10:47:54+00:00" date-first-released="2011-02-14T15:31:15.622303+00:00" date-last-published="2013-09-07T21:27:00+00:00" last-semantic-change="2011-02-14T14:25:28.197675+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Monica Lierhaus wird schon wissen, worauf sie sich eingelassen hat"</title>
+            <text py:pytype="str">Monica Lierhaus' Krankheit, Ehebrüche von Fußballtrainern, das Liebesleben Lothar Matthäus': Unser Kolumnist über die Frage, wie viel Privates an die Öffentlichkeit darf.</text>
+            <description py:pytype="str">Monica Lierhaus' Krankheit, Ehebrüche von Fußballtrainern, das Liebesleben Lothar Matthäus': Unser Kolumnist über die Frage, wie viel Privates an die Öffentlichkeit darf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-02/lierhaus-hellgardt/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Monica Lierhaus macht ihrem Partner Rolf Hellgardt im ZDF einen Heiratsantrag</bu>
+              <copyright py:pytype="str">© Tobias Schwarz/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2011-08/grossbritannien-london-krawalle" year="2011" issue="31" ressort="Gesellschaft" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T20:19:24+00:00" date-first-released="2011-08-08T21:53:16.380263+00:00" date-last-published="2013-12-03T21:19:54+00:00" last-semantic-change="2011-08-09T09:10:25.537166+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Großbritannien</supertitle>
+            <title py:pytype="str">Krawalle greifen auf Liverpool und Birmingham über </title>
+            <text py:pytype="str">Häuser brennen, Randalierer plündern: Am dritten Tag haben die Unruhen von London aus auf andere Städte übergegriffen. Premierminister Cameron rief zur Krisensitzung.</text>
+            <description py:pytype="str">Häuser brennen, Randalierer plündern: Am dritten Tag haben die Unruhen von London aus auf andere Städte übergegriffen. Premierminister Cameron rief zur Krisensitzung.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="UK Unruhen" base-id="http://xml.zeit.de/gesellschaft/2011-08/uk-unruhen/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">British riot policemen stand guard in front of a burning building in Croydon, South London on August 8, 2011. Now in it's third night of unrest, London has seen sporadic outbreaks of looting and clashes both north and south of the river Thames. Numerous buildings were set on fire in Croydon including a 140 year old furniture store as hundreds of looters plundered high street shops of their goods. AFP PHOTO/Carl de Souza (Photo credit should read CARL DE SOUZA/AFP/Getty Images)</bu>
+              <copyright py:pytype="str">© Carl de Souza/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2011-08/eurokrise-bundestag-sitzung" year="2011" ressort="Politik" author="Hans Monath;Antje Sirleschtov" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-03T20:21:56+00:00" date-first-released="2011-08-07T22:00:00+00:00" date-last-published="2013-12-03T21:22:22+00:00" last-semantic-change="2011-08-09T08:11:15.532804+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Euro-Krise</supertitle>
+            <title py:pytype="str">Bloß keine Hektik</title>
+            <text py:pytype="str">Schwarz-Gelb und die SPD sind gegen eine Sondersitzung des Bundestages zur Euro-Krise. Das weitere Vorgehen soll erst im September im Parlament diskutiert werden.</text>
+            <description py:pytype="str">Schwarz-Gelb und die SPD sind gegen eine Sondersitzung des Bundestages zur Euro-Krise. Das weitere Vorgehen soll erst im September im Parlament diskutiert werden.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/politik/deutschland/2011-08/bundestag-berlin/" type="jpg" publication-date="" expires="2011-11-09T08:50:27+00:00">
+              <bu py:pytype="str">Der Bundestag in Berlin</bu>
+              <copyright py:pytype="str">© Michael Kappeler/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-58a9418f-285b-4c88-aaf5-687d5db2f75b">
+          <block href="http://xml.zeit.de/sport/2011-02/hitzlsperger-lierhaus-matthaeus-hellgardt" year="2011" issue="7" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-10-09T10:47:54+00:00" date-first-released="2011-02-14T15:31:15.622303+00:00" date-last-published="2013-09-07T21:27:00+00:00" last-semantic-change="2011-02-14T14:25:28.197675+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Monica Lierhaus wird schon wissen, worauf sie sich eingelassen hat"</title>
+            <text py:pytype="str">Monica Lierhaus' Krankheit, Ehebrüche von Fußballtrainern, das Liebesleben Lothar Matthäus': Unser Kolumnist über die Frage, wie viel Privates an die Öffentlichkeit darf.</text>
+            <description py:pytype="str">Monica Lierhaus' Krankheit, Ehebrüche von Fußballtrainern, das Liebesleben Lothar Matthäus': Unser Kolumnist über die Frage, wie viel Privates an die Öffentlichkeit darf.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/sport/2011-02/lierhaus-hellgardt/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Monica Lierhaus macht ihrem Partner Rolf Hellgardt im ZDF einen Heiratsantrag</bu>
+              <copyright py:pytype="str">© Tobias Schwarz/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/07/WOS-Lierhaus" year="2011" issue="7" ressort="Gesellschaft" author="Christoph Amend" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-07T19:35:02+00:00" date-first-released="2011-02-10T06:00:00+00:00" date-last-published="2013-09-07T21:35:21+00:00" last-semantic-change="2011-02-11T09:17:47.842554+00:00">
+            <supertitle py:pytype="str">Monika Lierhaus</supertitle>
+            <title py:pytype="str">Reha vor der Kamera</title>
+            <text py:pytype="str">Die Fernsehmoderatorin Monica Lierhaus ist  auf die Bühne zurückgekehrt. Dieser Auftritt muss eine Befreiung gewesen sein. Von Christoph Amend</text>
+            <description py:pytype="str">Die Fernsehmoderatorin Monica Lierhaus ist  auf die Bühne zurückgekehrt. Dieser Auftritt muss eine Befreiung gewesen sein. Von Christoph Amend</description>
+            <byline py:pytype="str">Von Christoph Amend</byline>
+            <image align="left" alt="Monika Lierhaus bei der Verleihung der Goldenen Kamera in Berlin" title="monika lierhaus" base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2011-02/monika-lierhaus/" type="jpg" publication-date="" expires="2011-03-10T10:29:24+00:00">
+              <bu py:pytype="str">Monika Lierhaus bei der Verleihung der Goldenen Kamera in Berlin</bu>
+              <copyright py:pytype="str">© picture alliance / dpa  </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/film/2011-02/kurzkommentar-lierhaus" year="2011" issue="6" ressort="Gesellschaft" author="Wenke Husmann" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-07T19:44:15+00:00" date-first-released="2011-02-07T16:28:02.077543+00:00" date-last-published="2013-09-07T21:44:36+00:00" last-semantic-change="2011-02-07T16:50:39.032376+00:00">
+            <supertitle py:pytype="str">Fernsehen</supertitle>
+            <title py:pytype="str">Galaauftritt des Unperfekten</title>
+            <text py:pytype="str">Monica Lierhaus hat einen Fernsehpreis erhalten. Das zeugt von zunehmender Offenheit, das Private nicht streng vom Beruflichen zu trennen, kommentiert W. Husmann.</text>
+            <description py:pytype="str">Monica Lierhaus hat einen Fernsehpreis erhalten. Das zeugt von zunehmender Offenheit, das Private nicht streng vom Beruflichen zu trennen, kommentiert W. Husmann.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Ehrenpreis für Monica Lierhaus während der Goldenen Kamera-Gala" title="Monica Lierhaus" base-id="http://xml.zeit.de/kultur/film/2011-02/monica-lierhaus/" type="jpg" publication-date="" expires="2011-05-07T15:47:51+00:00">
+              <bu py:pytype="str">Monica Lierhaus wird bei der Verleihung der Goldenen Kamera in Berlin von Günter Netzer (li.) und ihrem Lebensgefährten Rolf Hellgardt auf dem Weg zum Mikrofon gestützt</bu>
+              <copyright py:pytype="str">© Tobias Schwarz/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/08/alles-ausser-fussball-thomashitzlsperger-portraet" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:44:32+00:00" date-first-released="2009-02-13T13:11:08.083833+00:00" date-last-published="2013-09-09T01:45:53+00:00" last-semantic-change="2009-09-02T15:15:34.239096+00:00">
+            <supertitle py:pytype="str">Porträt Thomas Hitzlspergers</supertitle>
+            <title py:pytype="str">Hoeneß ließ er schreien</title>
+            <text py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</text>
+            <description py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger an der frischen Luft" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger an der frischen Luft: In seiner Jugend machten sich einige Mitspieler darüber lustig, dass er am Wochenende nicht mit dem Gameboy spielte, sondern im Kuhstall ausmisten half </bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-c66dc827-7650-40bd-a5ff-741f7b6f35c0">
+          <block href="http://xml.zeit.de/online/2009/08/hitzlsperger-merkel-seehofer-aller-ausser-fussball" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T17:48:47+00:00" date-first-released="2009-02-17T13:51:37.924162+00:00" date-last-published="2013-12-07T17:49:47.451049+00:00" last-semantic-change="2009-09-30T15:22:47.133659+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Die Kanzlerin braucht Unterstützung"</title>
+            <text py:pytype="str">Thomas Hitzlsperger über den Wandel der CSU, Vertrauen in Politiker und seine Begegnungen mit Angela Merkel: "Alles außer Fußball" - unser Kolumnengespräch über Politik</text>
+            <description py:pytype="str">Thomas Hitzlsperger über den Wandel der CSU, Vertrauen in Politiker und seine Begegnungen mit Angela Merkel: "Alles außer Fußball" - unser Kolumnengespräch über Politik</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger: Fußballer sprechen nicht über Politik, weil es gefährlich ist</bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/08/alles-ausser-fussball-thomashitzlsperger-portraet" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:44:32+00:00" date-first-released="2009-02-13T13:11:08.083833+00:00" date-last-published="2013-09-09T01:45:53+00:00" last-semantic-change="2009-09-02T15:15:34.239096+00:00">
+            <supertitle py:pytype="str">Porträt Thomas Hitzlspergers</supertitle>
+            <title py:pytype="str">Hoeneß ließ er schreien</title>
+            <text py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</text>
+            <description py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger an der frischen Luft" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger an der frischen Luft: In seiner Jugend machten sich einige Mitspieler darüber lustig, dass er am Wochenende nicht mit dem Gameboy spielte, sondern im Kuhstall ausmisten half </bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/07/alles-ausser-fussball-philipplahm-nationalelf" year="2009" issue="7" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T17:48:49+00:00" date-first-released="2009-02-10T12:49:12.730842+00:00" date-last-published="2013-12-07T17:49:49.125545+00:00" last-semantic-change="2009-09-17T10:05:21.375931+00:00">
+            <supertitle py:pytype="str">Philipp Lahm</supertitle>
+            <title py:pytype="str">"Ich spare Wasser"</title>
+            <text py:pytype="str">Fahren Fußballprofis U-Bahn? Ja, sagt Philipp Lahm, obwohl er ein Auto mit 340 PS besitzt. "Alles außer Fußball" – unser Kolumnengespräch über den Schutz der Umwelt</text>
+            <description py:pytype="str">Fahren Fußballprofis U-Bahn? Ja, sagt Philipp Lahm, obwohl er ein Auto mit 340 PS besitzt. "Alles außer Fußball" – unser Kolumnengespräch über den Schutz der Umwelt</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Philipp Lahm fährt ein schnelles Auto" base-id="http://xml.zeit.de/bilder/2009/06/sport/lahm-3/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Wasser wird bald wertvoller als Öl sein&amp;quot;: Philipp Lahm fährt ein schnelles Auto und ist beim Zähneputzen und Duschen sparsam</bu>
+              <copyright py:pytype="str">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/06/andi-beck-internet-google-alles-ausser-fussball" year="2009" issue="6" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T17:48:48+00:00" date-first-released="2009-02-03T11:56:08.249235+00:00" date-last-published="2013-12-07T17:49:48.310857+00:00" last-semantic-change="2009-09-30T15:29:33.373648+00:00">
+            <supertitle py:pytype="str">Alles ausser Fussball</supertitle>
+            <title py:pytype="str">"Mit Google sollten wir vorsichtig sein"</title>
+            <text py:pytype="str">Beck, Lahm und Hitzlsperger: Wir geben regelmäßig drei Fußballern das Wort. Zum Start unserer Kolumne "Alles außer Fußball" erklärt Andi Beck die Generation Internet.</text>
+            <description py:pytype="str">Beck, Lahm und Hitzlsperger: Wir geben regelmäßig drei Fußballern das Wort. Zum Start unserer Kolumne "Alles außer Fußball" erklärt Andi Beck die Generation Internet.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Andreas Beck" base-id="http://xml.zeit.de/bilder/2009/06/sport/andi-beck-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Klettern und surfen: Für Andreas Beck ist das Internet das Medium Nummer eins</bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-1e3ca489-5407-47c9-86fb-34800ef8f21d">
+          <block href="http://xml.zeit.de/online/2009/11/hitzlsperger-bild-medien-zeitung-alles-ausser-fussball" year="2009" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T23:49:15+00:00" date-first-released="2009-03-10T10:38:15.132794+00:00" date-last-published="2013-12-07T23:50:15.112108+00:00" last-semantic-change="2009-09-30T15:14:25.945326+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"Jetzt stelle ich die Fragen"</title>
+            <text py:pytype="str">Thomas Hitzlsperger übernimmt angesichts der Journalismuskrise die Initiative: "Alles außer Fußball" - unser Kolumnengespräch über Medien, diesmal mit vertauschten Rollen</text>
+            <description py:pytype="str">Thomas Hitzlsperger übernimmt angesichts der Journalismuskrise die Initiative: "Alles außer Fußball" - unser Kolumnengespräch über Medien, diesmal mit vertauschten Rollen</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="&quot;Jetzt stelle ich die Fragen.&quot; Thomas Hitzlsperger übernimmt die Rolle des Journalisten" title="Thomas Hitzlsperger" base-id="http://xml.zeit.de/sport/fussball/2009-09/thomas-hitzlsperger-presse/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Jetzt stelle ich die Fragen.&amp;quot; Thomas Hitzlsperger übernimmt die Rolle des Journalisten</bu>
+              <copyright py:pytype="str">© Vladimir Rys/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/08/alles-ausser-fussball-thomashitzlsperger-portraet" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:44:32+00:00" date-first-released="2009-02-13T13:11:08.083833+00:00" date-last-published="2013-09-09T01:45:53+00:00" last-semantic-change="2009-09-02T15:15:34.239096+00:00">
+            <supertitle py:pytype="str">Porträt Thomas Hitzlspergers</supertitle>
+            <title py:pytype="str">Hoeneß ließ er schreien</title>
+            <text py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</text>
+            <description py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger an der frischen Luft" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger an der frischen Luft: In seiner Jugend machten sich einige Mitspieler darüber lustig, dass er am Wochenende nicht mit dem Gameboy spielte, sondern im Kuhstall ausmisten half </bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/10/philipplahm-fcbayern-doping" year="2009" issue="10" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T08:21:24+00:00" date-first-released="2009-03-03T17:05:36.083504+00:00" date-last-published="2013-12-07T08:22:23.449876+00:00" last-semantic-change="2009-09-30T15:18:20.177587+00:00">
+            <supertitle py:pytype="str">Alles ausser Fussball</supertitle>
+            <title py:pytype="str">"Der Bayern-Arzt achtet auf die richtigen Tabletten"</title>
+            <text py:pytype="str">Philipp Lahm schließt nicht aus, dass Fußballer dopen. Ein Gespräch über unangemeldete Dopingkontrollen, den Gang zur Dopingkontrolle und Geheimrezepte gegen Grippe</text>
+            <description py:pytype="str">Philipp Lahm schließt nicht aus, dass Fußballer dopen. Ein Gespräch über unangemeldete Dopingkontrollen, den Gang zur Dopingkontrolle und Geheimrezepte gegen Grippe</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Ein Tipp von Philipp Lahm: Heißes Ingwerwasser gegen Grippe" title="Philipp Lahm" base-id="http://xml.zeit.de/sport/fussball/2009-09/philipp-lahm-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ein Tipp von Philipp Lahm: Heißes Ingwerwasser gegen Grippe</bu>
+              <copyright py:pytype="str">© Patrik Stollarz/Bongarts/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/09/andreasbeck-hoffenheim-russland" year="2009" issue="9" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:23:51+00:00" date-first-released="2009-02-24T16:29:56.968240+00:00" date-last-published="2013-09-09T01:25:00+00:00" last-semantic-change="2009-09-30T15:19:39.275371+00:00">
+            <supertitle py:pytype="str">Alles ausser Fussball</supertitle>
+            <title py:pytype="str">"Ich liebe die Matroschka"</title>
+            <text py:pytype="str">Andreas Beck wurde in Sibirien geboren und spielt für die deutsche Nationalmannschaft. Ein Gespräch über Fußball als Integrationshilfe, Nationalstolz und Fischkuchen  </text>
+            <description py:pytype="str">Andreas Beck wurde in Sibirien geboren und spielt für die deutsche Nationalmannschaft. Ein Gespräch über Fußball als Integrationshilfe, Nationalstolz und Fischkuchen  </description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Bunte Puppen in Moskau" base-id="http://xml.zeit.de/bilder/2009/09/sport/matryoshka/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Bunte Puppen in Moskau: Eine Matroschka ist eine ineinander schachtelbare Holzpuppe</bu>
+              <copyright py:pytype="str">© MLADEN ANTONOV/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3c882331-5b96-454b-b0a7-057409244596">
+          <block href="http://xml.zeit.de/online/2009/20/hitzlsperger-geld" year="2009" issue="20" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T04:42:26+00:00" date-first-released="2009-05-12T15:28:53.324039+00:00" date-last-published="2013-12-07T04:43:25.742766+00:00" last-semantic-change="2009-09-30T14:41:35.496710+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"20-jährige Millionäre – das ist nicht gerecht"</title>
+            <text py:pytype="str">Nationalspieler Thomas Hitzlsperger über die Bezahlung von Fußballern, den Mindestlohn und Geld zur Motivation. Alles außer Fußball – das Kolumnengespräch</text>
+            <description py:pytype="str">Nationalspieler Thomas Hitzlsperger über die Bezahlung von Fußballern, den Mindestlohn und Geld zur Motivation. Alles außer Fußball – das Kolumnengespräch</description>
+            <byline py:pytype="str"></byline>
+            <image align="left" alt="&quot;Geld allein macht nur kurzfristig glücklich.&quot; Auf der Asienreise der Nationalmannschaft signiert Thomas Hitzlsperger Autogramme für Fans in Shanghai" title="Thomas Hitzlsperger" base-id="http://xml.zeit.de/sport/fussball/2009-09/thomas-hitzlsperger-autogramme/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Geld allein macht nur kurzfristig glücklich.&amp;quot; Auf der Asienreise der Nationalmannschaft signiert Thomas Hitzlsperger Autogramme für Fans in Shanghai</bu>
+              <copyright py:pytype="str">© Oliver Lang/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/08/alles-ausser-fussball-thomashitzlsperger-portraet" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:44:32+00:00" date-first-released="2009-02-13T13:11:08.083833+00:00" date-last-published="2013-09-09T01:45:53+00:00" last-semantic-change="2009-09-02T15:15:34.239096+00:00">
+            <supertitle py:pytype="str">Porträt Thomas Hitzlspergers</supertitle>
+            <title py:pytype="str">Hoeneß ließ er schreien</title>
+            <text py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</text>
+            <description py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger an der frischen Luft" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger an der frischen Luft: In seiner Jugend machten sich einige Mitspieler darüber lustig, dass er am Wochenende nicht mit dem Gameboy spielte, sondern im Kuhstall ausmisten half </bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/14/bg-fussball-geld" year="2009" issue="14" ressort="Sport" author="Florian Zerfaß" contenttype="gallery" publication-date="" expires="" date-last-modified="2009-09-16T07:41:42+00:00" date-first-released="2009-04-01T09:01:45.147067+00:00" date-last-published="2009-09-16T07:42:41.147898+00:00" last-semantic-change="2009-04-02T07:25:24.394070+00:00">
+            <supertitle py:pytype="str">Vorbild Bayer Leverkusen</supertitle>
+            <title py:pytype="str">Vom Verein zur AG</title>
+            <text py:pytype="str">Vor zehn Jahren wurde der erste deutsche Fußballklub zur Kapitalgesellschaft. Von Bayer bis SAP: Welche Vereine zu Wirtschaftsunternehmen wurden</text>
+            <description py:pytype="str">Vor zehn Jahren wurde der erste deutsche Fußballklub zur Kapitalgesellschaft. Von Bayer bis SAP: Welche Vereine zu Wirtschaftsunternehmen wurden</description>
+            <byline py:pytype="str">Von Florian Zerfaß</byline>
+            <image base-id="http://xml.zeit.de/bilder/2009/14/bildergalerien/teaser/bg-fussball-geld/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/20/bundesliga-fans-meister" year="2009" issue="20" ressort="Sport" author="Susanne Gough;Matthias Bossaller" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T11:43:43+00:00" date-first-released="2009-05-12T13:56:21.320256+00:00" date-last-published="2013-12-07T11:44:43.648660+00:00" last-semantic-change="2009-05-15T13:40:42.345047+00:00">
+            <supertitle py:pytype="str">Bundesliga</supertitle>
+            <title py:pytype="str">Wer wird Deutscher Meister?</title>
+            <text py:pytype="str">Vier Teams, drei Spiele und zwei Punkte Differenz: Bayerns Fanklub-King, Herthas Maskottchen, ein VfB-Gitarrist und ein Wolfsburg-Fan sagen, wieso ihr Team Meister wird.</text>
+            <description py:pytype="str">Vier Teams, drei Spiele und zwei Punkte Differenz: Bayerns Fanklub-King, Herthas Maskottchen, ein VfB-Gitarrist und ein Wolfsburg-Fan sagen, wieso ihr Team Meister wird.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="herthinho2" base-id="http://xml.zeit.de/bilder/2009/20/sport/herthinho2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Hertha-Maskottchen Herthinho könnte den Meisterkorso der Berliner anführen</bu>
+              <copyright py:pytype="str">© Christian Fischer/Getty Images</copyright>
+            </image>
+            <gallery type="intern" href="http://xml.zeit.de/online/2008/47/bg-fantypologie" year="2008" issue="47" ressort="Sport" author="Oliver Fritsch" contenttype="gallery" publication-date="" expires="">
+              <supertitle py:pytype="str">Typologie Fussballfans</supertitle>
+              <title py:pytype="str">Zeigt her eure Kutten! </title>
+              <text py:pytype="str">Bei jedem Fußballspiel wird das Stadion zur Bühne. Es geht um Macht, Gesang, Kleidung und Politik – eine unvollständige Auswahl deutscher Stadioncharaktere</text>
+              <description py:pytype="str">Bei jedem Fußballspiel wird das Stadion zur Bühne. Es geht um Macht, Gesang, Kleidung und Politik – eine unvollständige Auswahl deutscher Stadioncharaktere</description>
+              <byline py:pytype="str">Von Oliver Fritsch</byline>
+              <image align="left" title="fussballfan" base-id="http://xml.zeit.de/bilder/2008/47/bildergalerien/teaser/bg-fantypologie/" type="jpg" publication-date="" expires="">
+                <bu py:pytype="str">Fan von Borussia Dortmund</bu>
+                <copyright py:pytype="str">© Christof Köpsel/Getty Images </copyright>
+              </image>
+            </gallery>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-94418b89-7505-4298-8123-f4b15c26d532">
+          <block href="http://xml.zeit.de/online/2009/22/hitzlsperger-beck-lahm-bundesliga-nationalmannschaft" year="2009" issue="22" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T04:42:25+00:00" date-first-released="2009-05-26T16:32:03.264531+00:00" date-last-published="2013-12-07T04:43:24.407184+00:00" last-semantic-change="2009-09-30T14:40:19.026139+00:00">
+            <supertitle py:pytype="str">Hitzlsperger, Lahm und Beck</supertitle>
+            <title py:pytype="str">"Philipp mag nicht golfen"</title>
+            <text py:pytype="str">Ein halbes Jahr lang haben die Nationalspieler Kolumnen-Interviews gegeben. Jetzt sprechen sie miteinander – über die Meisterschaft, die Asienreise und Tennis-Duelle.</text>
+            <description py:pytype="str">Ein halbes Jahr lang haben die Nationalspieler Kolumnen-Interviews gegeben. Jetzt sprechen sie miteinander – über die Meisterschaft, die Asienreise und Tennis-Duelle.</description>
+            <byline py:pytype="str"> </byline>
+            <image align="left" title="Thomas Hitzlsperger und Philipp Lahm" base-id="http://xml.zeit.de/bilder/2009/36/sport/hitzlsperger-lahm/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Philipp Lahm und Thomas Hitzlsperger feiern das dritte Tor für die deutsche Nationalmannschaft im Spiel Deutschland – Türkei im Halbfinale der Europameisterschaft 2008</bu>
+              <copyright py:pytype="str">© Fabrice Coffrini/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/22/wolfsburg-magath-meister-klinsmann-bayern" year="2009" issue="22" ressort="Sport" author="Oliver Fritsch;Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T03:16:33+00:00" date-first-released="2009-05-24T08:23:25.779572+00:00" date-last-published="2013-12-07T03:17:33.230453+00:00" last-semantic-change="2009-05-26T10:59:34.793382+00:00">
+            <supertitle py:pytype="str">Die Bundesliga-Saison</supertitle>
+            <title py:pytype="str">Magath, Klinsmann und viel Theater</title>
+            <text py:pytype="str">Diese Fußball-Saison war offensiv, intensiv, unterhaltsam und überraschend wie nie. Dafür sorgten Hoffenheim, Bayern und der neue Meister Wolfsburg. Ein Kommentar </text>
+            <description py:pytype="str">Diese Fußball-Saison war offensiv, intensiv, unterhaltsam und überraschend wie nie. Dafür sorgten Hoffenheim, Bayern und der neue Meister Wolfsburg. Ein Kommentar </description>
+            <byline py:pytype="str">Von Steffen Dobbert und Oliver Fritsch</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/22/sport/wolfsburg-meister/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Gruppenbild mit Schale</bu>
+              <copyright py:pytype="str">© Vladimir Rys/Bongarts/Getty Images</copyright>
+            </image>
+            <gallery type="intern" href="http://xml.zeit.de/online/2009/22/bg-bundesliga34" year="2009" issue="22" ressort="Sport" author="std" contenttype="gallery" publication-date="" expires="">
+              <supertitle py:pytype="str">Bundesliga in Bildern</supertitle>
+              <title py:pytype="str">Fußballer, Küsse und viel Bier</title>
+              <text py:pytype="str">Magath gönnt sich auf den Titel einen großen Schluck, Heynckes verabschiedet sich, und in Karlsruhe trauert selbst das Plüsch-Schwein. Die Bilder des letzten Spieltages</text>
+              <description py:pytype="str">Magath gönnt sich auf den Titel einen großen Schluck, Heynckes verabschiedet sich, und in Karlsruhe trauert selbst das Plüsch-Schwein. Die Bilder des letzten Spieltages</description>
+              <byline xsi:nil="true"/>
+              <image base-id="http://xml.zeit.de/bilder/2009/22/bildergalerien/teaser/bg-bundesliga34/" type="jpg" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">©</copyright>
+              </image>
+            </gallery>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/20/hitzlsperger-geld" year="2009" issue="20" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-12-07T04:42:26+00:00" date-first-released="2009-05-12T15:28:53.324039+00:00" date-last-published="2013-12-07T04:43:25.742766+00:00" last-semantic-change="2009-09-30T14:41:35.496710+00:00">
+            <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+            <title py:pytype="str">"20-jährige Millionäre – das ist nicht gerecht"</title>
+            <text py:pytype="str">Nationalspieler Thomas Hitzlsperger über die Bezahlung von Fußballern, den Mindestlohn und Geld zur Motivation. Alles außer Fußball – das Kolumnengespräch</text>
+            <description py:pytype="str">Nationalspieler Thomas Hitzlsperger über die Bezahlung von Fußballern, den Mindestlohn und Geld zur Motivation. Alles außer Fußball – das Kolumnengespräch</description>
+            <byline py:pytype="str"></byline>
+            <image align="left" alt="&quot;Geld allein macht nur kurzfristig glücklich.&quot; Auf der Asienreise der Nationalmannschaft signiert Thomas Hitzlsperger Autogramme für Fans in Shanghai" title="Thomas Hitzlsperger" base-id="http://xml.zeit.de/sport/fussball/2009-09/thomas-hitzlsperger-autogramme/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">&amp;quot;Geld allein macht nur kurzfristig glücklich.&amp;quot; Auf der Asienreise der Nationalmannschaft signiert Thomas Hitzlsperger Autogramme für Fans in Shanghai</bu>
+              <copyright py:pytype="str">© Oliver Lang/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/06/philipp-lahm-ftgern-fcbayern-portaet" year="2009" issue="6" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-09T00:07:04+00:00" date-first-released="2009-02-05T09:50:38.192139+00:00" date-last-published="2013-09-09T02:07:57+00:00" last-semantic-change="2010-03-30T10:09:46.909438+00:00">
+            <supertitle py:pytype="str">ZEIT-ONLINE-Kolumnist Philipp Lahm</supertitle>
+            <title py:pytype="str">Der Oli Kahn in ihm</title>
+            <text py:pytype="str">Eine Geschichte des Münchner Kreisklassevereins FT Gern oder: Wie Philipp Lahm zu Philipp Lahm wurde. Porträt</text>
+            <description py:pytype="str">Eine Geschichte des Münchner Kreisklassevereins FT Gern oder: Wie Philipp Lahm zu Philipp Lahm wurde. Porträt</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/07/sport/lahm/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Kein Typ fürs P1, seine alten Fußballkumpels besucht er jedoch gern - Philipp Lahm</bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-c1d69289-b0a7-42bf-890f-458e1bd0ed28">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-6ecbc591-a5ed-4dfb-99cf-71914c334511">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-0815e5dd-7448-4710-89a0-4cd1d380f038">
+          <block href="http://xml.zeit.de/online/2009/08/alles-ausser-fussball-thomashitzlsperger-portraet" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-08T23:44:32+00:00" date-first-released="2009-02-13T13:11:08.083833+00:00" date-last-published="2013-09-09T01:45:53+00:00" last-semantic-change="2009-09-02T15:15:34.239096+00:00">
+            <supertitle py:pytype="str">Porträt Thomas Hitzlspergers</supertitle>
+            <title py:pytype="str">Hoeneß ließ er schreien</title>
+            <text py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</text>
+            <description py:pytype="str">Kuhstall, Premier League, ein Hammer und einige Schweigeminuten: "Alles außer Fußball" - ein Porträt unseres Kolumnisten Thomas Hitzlsperger</description>
+            <byline xsi:nil="true"/>
+            <image align="left" alt="Thomas Hitzlsperger an der frischen Luft" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-1/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Thomas Hitzlsperger an der frischen Luft: In seiner Jugend machten sich einige Mitspieler darüber lustig, dass er am Wochenende nicht mit dem Gameboy spielte, sondern im Kuhstall ausmisten half </bu>
+              <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Alle Kolumnengespräche mit Thomas Hitzlsperger</title>
+    <supertitle>Alles außer Fußball</supertitle>
+    <subtitle>Lesen Sie hier alle Alles-außer-Fußball-Interviews mit Thomas Hitzlsperger</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/online/2009/22/hitzlsperger-beck-lahm-bundesliga-nationalmannschaft" year="2009" issue="22" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Hitzlsperger, Lahm und Beck</supertitle>
+      <title py:pytype="str">"Philipp mag nicht golfen"</title>
+      <text py:pytype="str">Ein halbes Jahr lang haben die Nationalspieler Kolumnen-Interviews gegeben. Jetzt sprechen sie miteinander – über die Meisterschaft, die Asienreise und Tennis-Duelle.</text>
+      <description py:pytype="str">Ein halbes Jahr lang haben die Nationalspieler Kolumnen-Interviews gegeben. Jetzt sprechen sie miteinander – über die Meisterschaft, die Asienreise und Tennis-Duelle.</description>
+      <byline py:pytype="str"> </byline>
+      <image align="left" title="Thomas Hitzlsperger und Philipp Lahm" base-id="http://xml.zeit.de/bilder/2009/36/sport/hitzlsperger-lahm/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Philipp Lahm und Thomas Hitzlsperger feiern das dritte Tor für die deutsche Nationalmannschaft im Spiel Deutschland – Türkei im Halbfinale der Europameisterschaft 2008</bu>
+        <copyright py:pytype="str">© Fabrice Coffrini/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/online/2009/20/hitzlsperger-geld" year="2009" issue="20" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"20-jährige Millionäre – das ist nicht gerecht"</title>
+      <text py:pytype="str">Nationalspieler Thomas Hitzlsperger über die Bezahlung von Fußballern, den Mindestlohn und Geld zur Motivation. Alles außer Fußball – das Kolumnengespräch</text>
+      <description py:pytype="str">Nationalspieler Thomas Hitzlsperger über die Bezahlung von Fußballern, den Mindestlohn und Geld zur Motivation. Alles außer Fußball – das Kolumnengespräch</description>
+      <byline py:pytype="str"></byline>
+      <image align="left" alt="&quot;Geld allein macht nur kurzfristig glücklich.&quot; Auf der Asienreise der Nationalmannschaft signiert Thomas Hitzlsperger Autogramme für Fans in Shanghai" title="Thomas Hitzlsperger" base-id="http://xml.zeit.de/sport/fussball/2009-09/thomas-hitzlsperger-autogramme/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">&amp;quot;Geld allein macht nur kurzfristig glücklich.&amp;quot; Auf der Asienreise der Nationalmannschaft signiert Thomas Hitzlsperger Autogramme für Fans in Shanghai</bu>
+        <copyright py:pytype="str">© Oliver Lang/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/online/2009/11/hitzlsperger-bild-medien-zeitung-alles-ausser-fussball" year="2009" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Jetzt stelle ich die Fragen"</title>
+      <text py:pytype="str">Thomas Hitzlsperger übernimmt angesichts der Journalismuskrise die Initiative: "Alles außer Fußball" - unser Kolumnengespräch über Medien, diesmal mit vertauschten Rollen</text>
+      <description py:pytype="str">Thomas Hitzlsperger übernimmt angesichts der Journalismuskrise die Initiative: "Alles außer Fußball" - unser Kolumnengespräch über Medien, diesmal mit vertauschten Rollen</description>
+      <byline xsi:nil="true"/>
+      <image align="left" alt="&quot;Jetzt stelle ich die Fragen.&quot; Thomas Hitzlsperger übernimmt die Rolle des Journalisten" title="Thomas Hitzlsperger" base-id="http://xml.zeit.de/sport/fussball/2009-09/thomas-hitzlsperger-presse/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">&amp;quot;Jetzt stelle ich die Fragen.&amp;quot; Thomas Hitzlsperger übernimmt die Rolle des Journalisten</bu>
+        <copyright py:pytype="str">© Vladimir Rys/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/online/2009/08/hitzlsperger-merkel-seehofer-aller-ausser-fussball" year="2009" issue="8" ressort="Sport" author="Steffen Dobbert" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Die Kanzlerin braucht Unterstützung"</title>
+      <text py:pytype="str">Thomas Hitzlsperger über den Wandel der CSU, Vertrauen in Politiker und seine Begegnungen mit Angela Merkel: "Alles außer Fußball" - unser Kolumnengespräch über Politik</text>
+      <description py:pytype="str">Thomas Hitzlsperger über den Wandel der CSU, Vertrauen in Politiker und seine Begegnungen mit Angela Merkel: "Alles außer Fußball" - unser Kolumnengespräch über Politik</description>
+      <byline xsi:nil="true"/>
+      <image align="left" alt="Thomas Hitzlsperger" base-id="http://xml.zeit.de/bilder/2009/06/sport/hitzelsberger-2/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger: Fußballer sprechen nicht über Politik, weil es gefährlich ist</bu>
+        <copyright py:pytype="str" link="http://www.joergkoopmann.com/">© Jörg Koopmann</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2011-02/hitzlsperger-lierhaus-matthaeus-hellgardt" year="2011" issue="7" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Monica Lierhaus wird schon wissen, worauf sie sich eingelassen hat"</title>
+      <text py:pytype="str">Monica Lierhaus' Krankheit, Ehebrüche von Fußballtrainern, das Liebesleben Lothar Matthäus': Unser Kolumnist über die Frage, wie viel Privates an die Öffentlichkeit darf.</text>
+      <description py:pytype="str">Monica Lierhaus' Krankheit, Ehebrüche von Fußballtrainern, das Liebesleben Lothar Matthäus': Unser Kolumnist über die Frage, wie viel Privates an die Öffentlichkeit darf.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2011-02/lierhaus-hellgardt/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Monica Lierhaus macht ihrem Partner Rolf Hellgardt im ZDF einen Heiratsantrag</bu>
+        <copyright py:pytype="str">© Tobias Schwarz/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2011-08/london-riots-gewalt-krawalle" year="2011" issue="31" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Alles außer Fußball</supertitle>
+      <title py:pytype="str">Wie Thomas Hitzlsperger die Krawalle in London erlebt</title>
+      <text py:pytype="str">Unser Kolumnist lebt in London, die Krawalle finden in seiner Nähe statt. Im Gespräch erzählt er, welche Ursachen er vermutet und wie besorgt seine Nachbarn sind.</text>
+      <description py:pytype="str">Unser Kolumnist lebt in London, die Krawalle finden in seiner Nähe statt. Im Gespräch erzählt er, welche Ursachen er vermutet und wie besorgt seine Nachbarn sind.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2011-08/hitzlsperger-london/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger, Bürger Londons</bu>
+        <copyright py:pytype="str">© Scott Heavey/Getty Images Sport</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2011-09/hitzlsperger-autos-geschwindigkeit-mini" year="2011" issue="38" ressort="Sport" author="Christian Spiller" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Bei Tempo 300 bekam ich feuchte Hände"</title>
+      <text py:pytype="str">Alles außer Fußball: Als Kind träumte er von einem roten Ferrari. Thomas Hitzlsperger erzählt, warum er nun ein anderes Auto fährt und wieso er den Verkehr in Rom liebt.</text>
+      <description py:pytype="str">Alles außer Fußball: Als Kind träumte er von einem roten Ferrari. Thomas Hitzlsperger erzählt, warum er nun ein anderes Auto fährt und wieso er den Verkehr in Rom liebt.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" alt="&quot;Ich wäre ein Aston Martin&quot;: Thomas Hitzlsperger" title="Hitzlsperger" base-id="http://xml.zeit.de/sport/2011-09/hitzlsperger/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">&amp;quot;Ich wäre ein Aston Martin&amp;quot;: Thomas Hitzlsperger</bu>
+        <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2011-11/hitzlsperger-trikot-dfb-innenhose" year="2011" issue="46" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Die Innenhose lasse ich drin"</title>
+      <text py:pytype="str">Der Kragen darf stehen, wie's gefällt, aber das Hosenbändel nicht raushängen. Thomas Hitzlsperger urteilt im Kolumnengespräch über Fußballmode und das neue EM-Trikot.</text>
+      <description py:pytype="str">Der Kragen darf stehen, wie's gefällt, aber das Hosenbändel nicht raushängen. Thomas Hitzlsperger urteilt im Kolumnengespräch über Fußballmode und das neue EM-Trikot.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2011-11/hitzlsperger/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger lässt die Innenhose drin.</bu>
+        <copyright py:pytype="str">© AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2011-12/weihnachten-hitzlsperger-ipad-gans" year="2011" issue="50" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Last Christmas gehört irgendwie zu Weihnachten"</title>
+      <text py:pytype="str">Spielt das Radio den Klassiker von Wham, singt unser Kolumnist mit. Die Festtage verbringt er mit Memory-Niederlagen gegen seinen Neffen. Das Alles-außer-Fußball-Gespräch</text>
+      <description py:pytype="str">Spielt das Radio den Klassiker von Wham, singt unser Kolumnist mit. Die Festtage verbringt er mit Memory-Niederlagen gegen seinen Neffen. Das Alles-außer-Fußball-Gespräch</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2011-12/hitzlsperger-hirsch/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger mit dem Julius-Hirsch-Preis</bu>
+        <copyright py:pytype="str">© Christof Köpsel/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2012-01/hitzlsperger-sportschau-internet-sky" year="2012" issue="4" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Die Sportschau ist deutsches Kulturgut"</title>
+      <text py:pytype="str">Die DFL wird nicht auf die Sportschau verzichten, sagt unser Kolumnist Thomas Hitzlsperger. Er rechnet dennoch damit, dass der Bundesliga-Fußball bald ins Internet zieht.</text>
+      <description py:pytype="str">Die DFL wird nicht auf die Sportschau verzichten, sagt unser Kolumnist Thomas Hitzlsperger. Er rechnet dennoch damit, dass der Bundesliga-Fußball bald ins Internet zieht.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2012-01/hitzlsperger/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Wir können nichts ausschließen.&amp;quot;</bu>
+        <copyright py:pytype="str">© Christof Köpsel/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2012-03/hitzlsperger-bahn-wolfsburg-bahncard" year="2012" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Im Speisewagen kann die Stimmung kippen"</title>
+      <text py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</text>
+      <description py:pytype="str">Unser Kolumnist fährt viel Bahn. Über sie zu schimpfen, ist ihm zu blöd. Ein Alles-außer-Fußball-Gespräch über Handy-Wichtigtuer und Hühnerfrikassee im Bordbistro.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2012-03/hitzlsperger/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Ich habe nicht die Nerven fürs Schwarzfahren.&amp;quot;</bu>
+        <copyright py:pytype="str">© Jörn Pollex/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2012-05/friedrich-hitzlsperger-littmann-magath" year="2012" issue="19" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Alles außer Fußball</supertitle>
+      <title py:pytype="str">Herr Friedrich, Herr Hitzlsperger, wie fühlt man sich als Spekulationsobjekt?</title>
+      <text py:pytype="str">Die ZEIT-ONLINE-Kolumnisten im Gespräch: Arne Friedrich, Thomas Hitzlsperger und Corny Littmann streiten über die Qualität der Liga, den BVB und Fußballkapitalismus.</text>
+      <description py:pytype="str">Die ZEIT-ONLINE-Kolumnisten im Gespräch: Arne Friedrich, Thomas Hitzlsperger und Corny Littmann streiten über die Qualität der Liga, den BVB und Fußballkapitalismus.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2012-05/hitzlsperger-friedrich/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger (links) und Arne Friedrich in gemeinsamen Tagen in der Nationalelf</bu>
+        <copyright py:pytype="str">© Torsten Silz/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2012-06/em-schnack-interview-italien-deutschland-thomas-hitzlsperger" year="2012" issue="27" ressort="Sport" author="Tobias Jochheim" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Abhaken und einfach weitermachen"</title>
+      <text py:pytype="str">Es wäre falsch, jetzt alles infrage zu stellen, sagt Thomas Hitzlsperger nach dem EM-Aus der deutschen Mannschaft. 2014 wird das DFB-Team noch besser sein.</text>
+      <description py:pytype="str">Es wäre falsch, jetzt alles infrage zu stellen, sagt Thomas Hitzlsperger nach dem EM-Aus der deutschen Mannschaft. 2014 wird das DFB-Team noch besser sein.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Die Gesichter der deutschen Spieler nach dem Abpfiff sagten alles" base-id="http://xml.zeit.de/sport/2012-06/deutschland-italien-allesaus/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Die Gesichter der deutschen Spieler nach dem Abpfiff sagten alles</bu>
+        <copyright py:pytype="str">© Patrik Stollarz/AFP/getty images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2012-09/hitzlsperger-homosexualitaet-schwul-everton" year="2012" issue="39" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Auch in der Kabine wird über schwule Fußballer gesprochen"</title>
+      <text py:pytype="str">Wer ist schwul? Das fragen sich auch Fußballer, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Gespräch. Ein Profi könnte nach seinem Coming-out zum großen Idol werden.</text>
+      <description py:pytype="str">Wer ist schwul? Das fragen sich auch Fußballer, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Gespräch. Ein Profi könnte nach seinem Coming-out zum großen Idol werden.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2012-09/hitzlsperger-2/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger: &amp;quot;Für Fußballer kann ein Coming-out das Karriereende bedeuten.&amp;quot;</bu>
+        <copyright py:pytype="str">© Lars Baron/Bongarts/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2012-11/hitzlsperger-movember-charity-schnorres" year="2012" issue="47" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Ich trage einen Monat lang eine Rotzbremse"</title>
+      <text py:pytype="str">Unser Kolumnist trägt Schnurrbart, wie seine Mannschaftskollegen, für einen guten Zweck. Ein Alles-außer-Fußball-Gespräch über Movember, Spenden, Beckmann und Moral.</text>
+      <description py:pytype="str">Unser Kolumnist trägt Schnurrbart, wie seine Mannschaftskollegen, für einen guten Zweck. Ein Alles-außer-Fußball-Gespräch über Movember, Spenden, Beckmann und Moral.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" alt="Thomas Hitzslperger mit Rotzbremse" base-id="http://xml.zeit.de/sport/2012-11/hitzlsperger-schnurrbart/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzslperger mit Rotzbremse</bu>
+        <copyright py:pytype="str">© privat</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2013-03/hitzlsperger-geld-gehalt-fussball" year="2013" issue="11" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Nicht alle Exfußballer kommen mit dem Bedeutungsverlust zurecht"</title>
+      <text py:pytype="str">Fußballer-Gehälter offen legen? Wozu, es weiß doch eh schon fast jeder Fan, wie viel wir verdienen, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Interview.</text>
+      <description py:pytype="str">Fußballer-Gehälter offen legen? Wozu, es weiß doch eh schon fast jeder Fan, wie viel wir verdienen, sagt Thomas Hitzlsperger im Alles-außer-Fußball-Interview.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" alt="Thomas Hitzlsperger im Trikot von West Ham United im Mai 2011" base-id="http://xml.zeit.de/sport/2013-03/hitzlsperger-geld/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger im Trikot von West Ham United im Mai 2011</bu>
+        <copyright py:pytype="str">© Glyn Kirk/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/sport/2013-10/thomas-hitzlsperger-karriereende-loew" year="2013" issue="41" ressort="Sport" author="Oliver Fritsch" contenttype="article" publication-date="" expires="" genre="interview">
+      <supertitle py:pytype="str">Thomas Hitzlsperger</supertitle>
+      <title py:pytype="str">"Ich habe mich für einen Italienischkurs angemeldet"</title>
+      <text py:pytype="str">Fußballer haben fast keine Bedeutung, sagt Thomas Hitzlsperger nach dem Karriereende. Nach vier Jahren "Alles-außer-Fußball"-Gesprächen hört er auch als Kolumnist auf.</text>
+      <description py:pytype="str">Fußballer haben fast keine Bedeutung, sagt Thomas Hitzlsperger nach dem Karriereende. Nach vier Jahren "Alles-außer-Fußball"-Gesprächen hört er auch als Kolumnist auf.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/sport/2013-10/thomas-hitzlsperger/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Thomas Hitzlsperger im Jahr 2009</bu>
+        <copyright py:pytype="str">© Jörg Koopmann</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Alle Kolumnengespräche mit Thomas Hitzlsperger</title>
+    <text>Lesen Sie hier alle Alles-außer-Fußball-Interviews mit Thomas Hitzlsperger</text>
+  </teaser>
+</centerpage>

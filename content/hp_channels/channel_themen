@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centerpage>
+  <head>
+    <!-- Dachzeile/Spitzmarke -->
+    <!-- ggF. mehrere -->
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2008-07-01 10:12:27.140527+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE 2007</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2008-07-01T10:16:43.192381+00:00</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="keywords">DIE ZEIT; ZEIT ONLINE;Nachrichten;Kommentare;Analysen;Themen; Politik;Wirtschaft;Kultur;Wissensschaft</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.Buhr</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">News</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="revision">107</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="supertitle">News Channel</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="title">Nachrichten auf ZEIT ONLINE</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">20</attribute>
+    <attribute xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2007</attribute>
+  </head>
+  <body>
+    <container layout="box" type="box" label="schwerpunkte" id="channel_themen" priority="">
+      <block href="http://xml.zeit.de/wirtschaft/energie/index" id="" layout="" priority="" sticky="">
+        <image expires="2100-01-01" src="http://xml.zeit.de/bilder/2007/standards/teaser_artikel/stromsparen-120.jpg" align="left">BILD</image>
+        <supertitle>Energie</supertitle>
+        <title>Energie</title>
+        <text>Energieressourcen sind begrenzt, ihr Verbrauch schadet dem Klima</text>
+        <byline />
+      </block>
+      <block layout="" priority="" href="http://xml.zeit.de/international/afghanistan" id="" sticky="">
+        <image expires="2100-01-01" src="http://xml.zeit.de/bilder/2007/standards/teaser_artikel/blauhelme-120.jpg" align="left">BILD</image>
+        <supertitle>Afghanistan</supertitle>
+        <title>Afghanistan</title>
+        <text>Der Einsatz der Bundeswehr ist riskant und umstritten</text>
+        <byline />
+      </block>
+      <block layout="" priority="" href="http://xml.zeit.de/politik/ueberwachung" id="" sticky="">
+        <image expires="2007-05-21" src="http://xml.zeit.de/bilder/2007/standards-neu/allgemein/schwerpunkte/ueberwachung/ueberwachung-120x90.jpg" align="right">
+          <copyright>©</copyright>
+          BILD
+        </image>
+        <supertitle>Überwachung</supertitle>
+        <title>Überwachung</title>
+        <text>Wieviel Überwachung verträgt die Demokratie?</text>
+        <byline />
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+  <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str" />
+</centerpage>
+

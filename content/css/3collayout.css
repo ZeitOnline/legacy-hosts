@@ -1,0 +1,145 @@
+/* "Zeit"-logo */
+
+body {
+	background: white;
+}
+
+.logo {
+	font: bolder 48px Georgia, Times New Roman, Times, serif;
+	color: #FF0000;
+}
+
+
+.logo a:link {
+	text-decoration: none;
+	color: red;
+}
+
+.logo a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+.logo a:active {
+	text-decoration: none;
+	color: red;
+}
+
+/*<group=Navigation>*/
+
+.Navigation {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.Navigation a {
+	text-decoration: none;
+}
+
+.Navigation a b {
+	color: red;
+}
+
+.Navigation .CurrentPage {
+	color: red;
+	text-align: center;
+	border: 1px solid black;
+}
+	
+/*</group>*/
+
+/*<group=Article>*/
+
+.TitlePageFrame {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+.TitlePageInnerFrame {
+	border-left: 1px solid black;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+/* frame around article */
+
+.ArticleFrame {
+	border-style: solid;
+	border-width: 1px;
+	border-left-style: none;
+	border-right-style: dotted;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#serie {
+	font-size: 10px;
+	color: white;
+	background: black;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+#title {
+	font-size: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+.artp {
+	margin-bottom: 10px;
+}
+
+/* embedded subtitles */
+
+.imageclass {
+	font-size: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.imageclass img {
+	border: 1px solid black;
+}
+
+.intertitle {
+	font-weight: bold;
+}
+
+/* paragraphs */
+
+.supertitle {
+	font: 32px Georgia, Times New Roman, Times, serif;
+	margin-bottom: 20px;
+}
+
+.title {
+	font-family: 12px Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.subtitle {
+	font-family: 12px Geneva, Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+/* single column */
+
+.artCol {
+	position: absolute; 
+	background-color:#ffffff;
+	width: 250px;
+	overflow: hidden;
+}
+
+#gallerycopyright a {
+	color: red;
+}
+	
+/*</group>*/

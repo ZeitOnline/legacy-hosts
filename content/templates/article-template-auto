@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-06-27T10:42:52.612038+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-11-10T11:41:57.897575+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-06-27T10:43:56.397072+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-06-03T14:33:55.139843+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-12-14</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-06-27T10:42:41.065620+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-12-14</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.breitinger</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Auto</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">18</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:cc2df342-ad26-4469-a8ef-331af8c0b30b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="d337558b-5c58-4b13-8844-b5c2012308d3">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="e0406455-37a2-4329-9a85-cc431fe89d34">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="57f5f78c-3655-413d-8651-b2e53002ab20">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="a77c882f-b3dd-4977-aeb4-4a2f6076f73f">
+          <block href="http://xml.zeit.de/auto/2013-06/elektroauto-brennstoffzelle-marktreife" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-26T14:26:58+00:00" date-first-released="2013-06-26T14:27:58.471776+00:00" date-last-published="2013-06-26T14:27:58.471776+00:00" last-semantic-change="2013-06-26T14:26:37.909646+00:00">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">Deutsche bangen um Führung bei Brennstoffzelle</title>
+            <text py:pytype="str">Die Hersteller kündigen Autos mit Brennstoffzelle an. Hinter den Kulissen hat der Wettlauf begonnen: Sind die Asiaten schneller als die Deutschen? Von C. M. Schwarzer</text>
+            <description py:pytype="str">Die Hersteller kündigen Autos mit Brennstoffzelle an. Hinter den Kulissen hat der Wettlauf begonnen: Sind die Asiaten schneller als die Deutschen? Von C. M. Schwarzer</description>
+            <byline xsi:nil="true"/>
+            <image alt="Toyota hat die Brennstoffzellen-Studie FCV-R entwickelt." align="left" title="Toyota hat die Brennstoffzellen-Studie FCV-R entwickelt." base-id="http://xml.zeit.de/auto/2013-06/toyota-brennstoffzelle-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Toyota hat die Brennstoffzellen-Studie FCV-R entwickelt.</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/schlagloch-strassenbau-schaeden" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-27T06:06:46+00:00" date-first-released="2013-06-27T06:07:46.017907+00:00" date-last-published="2013-06-27T06:07:46.017907+00:00" last-semantic-change="2013-06-27T06:06:40.693648+00:00">
+            <supertitle py:pytype="str">Marode Straßen</supertitle>
+            <title py:pytype="str">Im Zick-Zack um die schwarzen Löcher</title>
+            <text py:pytype="str">Drei Milliarden Euro kostet es, alle Schlaglöcher in den Straßen der Kommunen zu flicken, schätzt der ADAC. Wie allein Essen gegen 10.000 Schäden kämpft, zeigt M. Sommer.</text>
+            <description py:pytype="str">Drei Milliarden Euro kostet es, alle Schlaglöcher in den Straßen der Kommunen zu flicken, schätzt der ADAC. Wie allein Essen gegen 10.000 Schäden kämpft, zeigt M. Sommer.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Schlaglöcher in Stuttgart (Archivbild)" align="left" title="Schlaglöcher" base-id="http://xml.zeit.de/auto/2013-06/schlagloecher/" type="jpg" publication-date="" expires="2013-09-25T13:40:36+00:00">
+              <bu py:pytype="str">Schlaglöcher in Stuttgart (Archivbild)</bu>
+              <copyright py:pytype="str">© Marijan Murat/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/elektroauto-rennwagen-drayson" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-23T06:55:53+00:00" date-first-released="2013-06-01T08:01:24.316755+00:00" date-last-published="2013-06-23T06:56:53.572705+00:00" last-semantic-change="2013-06-01T08:00:44.458001+00:00">
+            <supertitle py:pytype="str">Elektrorennwagen</supertitle>
+            <title py:pytype="str">Ein Lord steht unter Strom</title>
+            <text py:pytype="str">Er trat 2007 als Minister zurück, um Autorennen zu fahren. Inzwischen bereitet sich Lord Paul Drayson mit einem eigenen Rennstall auf die Formel E vor. Von Peter Münder</text>
+            <description py:pytype="str">Er trat 2007 als Minister zurück, um Autorennen zu fahren. Inzwischen bereitet sich Lord Paul Drayson mit einem eigenen Rennstall auf die Formel E vor. Von Peter Münder</description>
+            <byline xsi:nil="true"/>
+            <image alt="Paul Drayson (Archivbild)" align="left" title="Paul Drayson (Archivbild)" base-id="http://xml.zeit.de/auto/2013-05/paul-drayson/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Paul Drayson (Archivbild)</bu>
+              <copyright py:pytype="str">© Jean-Francois Monier/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/benzinverbrauch-studie-abweichungen" year="2013" issue="22" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-03T14:13:19+00:00" date-first-released="2013-05-28T04:29:19.062825+00:00" date-last-published="2013-06-03T14:13:38.243922+00:00" last-semantic-change="2013-05-28T08:43:03.021058+00:00">
+            <supertitle py:pytype="str">Benzinverbrauch</supertitle>
+            <title py:pytype="str">Die Lügen der Autoindustrie</title>
+            <text py:pytype="str">Eine Studie zeigt: Die Verbrauchsangaben der Autohersteller stimmen immer seltener. Dabei wäre das leicht zu ändern. Von Christoph M. Schwarzer</text>
+            <description py:pytype="str">Eine Studie zeigt: Die Verbrauchsangaben der Autohersteller stimmen immer seltener. Dabei wäre das leicht zu ändern. Von Christoph M. Schwarzer</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="VW Golf VII" base-id="http://xml.zeit.de/auto/2013-05/golf-benzinverbrauch/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Golf mit Zylinderabschaltung verbraucht bei zurückhaltender Fahrweise 6,4 Liter Benzin – 36 Prozent mehr als der Normwert von 4,7 Litern.</bu>
+              <copyright py:pytype="str">© Volkswagen AG</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/elektrofahrrad-test-sicherheitsmaengel" year="2013" issue="22" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-28T17:21:20+00:00" date-first-released="2013-05-28T15:37:45.159623+00:00" date-last-published="2013-05-28T17:21:47.535101+00:00" last-semantic-change="2013-05-28T14:11:35.826247+00:00">
+            <supertitle py:pytype="str">Stiftung Warentest</supertitle>
+            <title py:pytype="str">Viele Elektrofahrräder sind lebensgefährlich</title>
+            <text py:pytype="str">Die Stiftung Warentest hat 16 City-Elektroräder auf Reichweite und Sicherheit geprüft. Neun fielen durch, etwa weil ihre Bremsen versagten. Von Andrea Reidl</text>
+            <description py:pytype="str">Die Stiftung Warentest hat 16 City-Elektroräder auf Reichweite und Sicherheit geprüft. Neun fielen durch, etwa weil ihre Bremsen versagten. Von Andrea Reidl</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/auto/2013-05/e-bike-natur/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Im Prüfstand wurde die Reichweite des Akkus getestet.</bu>
+              <copyright py:pytype="str">© Stiftung Warentest</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="d04239eb-493f-4679-ae16-2c905decd90c">
+          <block type="intern" href="http://xml.zeit.de/auto/2013-03/quiz-erste-hilfe" year="2013" issue="11" ressort="Auto" publication-date="" expires="" date-last-modified="2013-05-29T10:05:54+00:00" date-first-released="2013-03-20T13:08:36.328024+00:00" date-last-published="2013-03-20T13:08:36.328024+00:00" last-semantic-change="2013-05-29T09:24:53.066478+00:00" contenttype="quiz">
+            <supertitle py:pytype="str">Wissenstest</supertitle>
+            <title py:pytype="str">Wie gut sind Ihre Erste-Hilfe-Kenntnisse?</title>
+            <text py:pytype="str">Nur jeder dritte Autofahrer kennt alle nötigen Maßnahmen für Erste Hilfe am Unfallort, ergab jetzt eine Umfrage. Gehören Sie dazu? Testen Sie Ihr Wissen!</text>
+            <description py:pytype="str">Nur jeder dritte Autofahrer kennt alle nötigen Maßnahmen für Erste Hilfe am Unfallort, ergab jetzt eine Umfrage. Gehören Sie dazu? Testen Sie Ihr Wissen!</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Feuerwehrmann übt Erste-Hilfe-Maßnahmen an einer Puppe (Archivbild)." align="left" title="Übung erste Hilfe" base-id="http://xml.zeit.de/auto/2013-03/erste-hilfe-uebung/" type="jpg" publication-date="" expires="2013-06-19T18:33:58+00:00">
+              <bu py:pytype="str">Ein Feuerwehrmann übt Erste-Hilfe-Maßnahmen an einer Puppe (Archivbild).</bu>
+              <copyright py:pytype="str">© Peter Steffen/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="aebc7aea-fafb-4625-9777-6214b60109ca" title="ZEITmagazin: Von A nach B" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/auto/link-serie-von-a-nach-b" year="2012" issue="27" ressort="Auto" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/von-a-nach-b" date-last-modified="2012-06-29T07:01:57+00:00" date-first-released="2012-06-29T07:02:57.673718+00:00" date-last-published="2012-06-29T07:02:57.673718+00:00" last-semantic-change="2012-06-29T07:01:42.653150+00:00" contenttype="link">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Von A nach B</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/auto/2012-06/zeitmagazin-von-a-nach-b/serienteaser-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="9bd37732-80c6-4c82-9275-2ea81ba0994a">
+          <cp_extra id="linkatory"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="915652d9-443b-4f1f-896d-ca2df0e9c47c">
+          <video videoID="36516804001" player="pls" format="large"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="b6034856-f35c-413c-a6a1-c7774831c098">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="de835b58-fe22-43b3-b354-54733f20301f" title="Autoklassiker">
+          <block href="http://xml.zeit.de/auto/2013-06/mercedes-oldtimer-roadster-sl" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-22T07:56:57+00:00" date-first-released="2013-06-22T07:57:49.730575+00:00" date-last-published="2013-06-22T07:57:56.797855+00:00" last-semantic-change="2013-06-21T11:37:14.697631+00:00">
+            <supertitle py:pytype="str">Oldtimer 380 SL</supertitle>
+            <title py:pytype="str">Beim Verdeck muss man noch Hand anlegen</title>
+            <text py:pytype="str">Die Mercedes-Baureihe 107 prägte 18 Jahre lang das Segment der Edelroadster. Heute ist sie als Klassiker begehrt. Wie fährt sich ein 30 Jahre alter 380 SL? Von P. Broich</text>
+            <description py:pytype="str">Die Mercedes-Baureihe 107 prägte 18 Jahre lang das Segment der Edelroadster. Heute ist sie als Klassiker begehrt. Wie fährt sich ein 30 Jahre alter 380 SL? Von P. Broich</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Mercedes-Benz 380 SL von 1983" align="left" title="Mercedes-Benz 380 SL" base-id="http://xml.zeit.de/auto/2013-06/mercedes-380sl/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ein Mercedes-Benz 380 SL von 1983</bu>
+              <copyright py:pytype="str">© Patrick Broich/SP-X</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-04/quiz-lamborghini" year="2013" issue="17" ressort="Auto" contenttype="quiz" publication-date="" expires="" date-last-modified="2013-05-11T14:48:14+00:00" date-first-released="2013-05-11T14:49:14.165211+00:00" date-last-published="2013-05-11T14:49:14.165211+00:00" last-semantic-change="2013-05-11T14:47:05.954304+00:00">
+            <supertitle py:pytype="str">Wissenstest</supertitle>
+            <title py:pytype="str">Wie gut kennen Sie Lamborghini?</title>
+            <text py:pytype="str">1963 bekam Ferrari Konkurrenz aus dem eigenen Land: Ferruccio Lamborghini legte seinen ersten Supersportwagen auf. Sind Sie Lamborghini-Experte? Testen Sie Ihr Wissen!</text>
+            <description py:pytype="str">1963 bekam Ferrari Konkurrenz aus dem eigenen Land: Ferruccio Lamborghini legte seinen ersten Supersportwagen auf. Sind Sie Lamborghini-Experte? Testen Sie Ihr Wissen!</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Lamborghini 350 GTV von 1963" align="left" title="Lamborghini 350 GTV" base-id="http://xml.zeit.de/auto/2013-04/lamborghini-oldtimer/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ein Lamborghini 350 GTV von 1963</bu>
+              <copyright py:pytype="str">© Lamborghini</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-04/fs-porsche-2" year="2013" issue="15" ressort="Auto" publication-date="" expires="" contenttype="gallery" date-last-modified="2013-04-12T12:20:23+00:00" date-first-released="2013-04-12T04:32:41.345954+00:00" date-last-published="2013-04-12T12:21:22.554515+00:00" last-semantic-change="2013-04-12T04:31:16.609163+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Porsche 911-Jubiläum</supertitle>
+            <title py:pytype="str">Die Autolegende mit dem Goldenen Schnitt</title>
+            <text py:pytype="str">Vor 50 Jahren feierte der Porsche 911 Weltpremiere. Sein Design gilt als perfekt: Bis heute sind die Konturen des Sportwagens nahezu unverändert. Der Jubilar in Bildern</text>
+            <description py:pytype="str">Vor 50 Jahren feierte der Porsche 911 Weltpremiere. Sein Design gilt als perfekt: Bis heute sind die Konturen des Sportwagens nahezu unverändert. Der Jubilar in Bildern</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Porsche Teaser" base-id="http://xml.zeit.de/auto/2013-04/fs-porsche-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Rainer W. Schlegelmilch/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-04/oldtimer-messe-essen" year="2013" issue="16" ressort="Auto" publication-date="" expires="" contenttype="article" date-last-modified="2013-05-12T00:00:25+00:00" date-first-released="2013-04-12T14:57:51.851484+00:00" date-last-published="2013-05-12T02:01:22+00:00" last-semantic-change="2013-04-12T14:55:30.226131+00:00">
+            <supertitle py:pytype="str">Techno Classica</supertitle>
+            <title py:pytype="str">20 Messehallen voll Garagengold</title>
+            <text py:pytype="str">Die Techno Classica in Essen hat sich zur weltgrößten Oldtimermesse gemausert. Die 25. Auflage feiert einen Ausstellungsrekord – die Zielgruppe wächst. Von J. C. Braun</text>
+            <description py:pytype="str">Die Techno Classica in Essen hat sich zur weltgrößten Oldtimermesse gemausert. Die 25. Auflage feiert einen Ausstellungsrekord – die Zielgruppe wächst. Von J. C. Braun</description>
+            <byline xsi:nil="true"/>
+            <image alt="Oldtimer auf der Techno Classica 2013" align="left" title="Oldtimer-Messe Techno Classica 2013" base-id="http://xml.zeit.de/auto/2013-04/oldtimer-messe/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Oldtimer auf der Techno Classica 2013</bu>
+              <copyright py:pytype="str">© Jürgen C. Braun/SP-X</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-04/wirtschaftswunder-limousine-opel-kapitaen" year="2013" issue="15" ressort="Auto" publication-date="" expires="" date-last-modified="2013-05-08T00:01:09+00:00" date-first-released="2013-04-08T08:09:44.816902+00:00" date-last-published="2013-05-08T02:03:13+00:00" last-semantic-change="2013-04-08T08:04:47.688782+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Autoklassiker</supertitle>
+            <title py:pytype="str">Der Opel Kapitän – große Klasse für kleines Geld</title>
+            <text py:pytype="str">Lange bevor die Mercedes S-Klasse die Vorstandsparkplätze okkupierte, wies der Kapitän den erfolgreichen Unternehmer aus. Vor 65 Jahren begann Opel die Produktion.</text>
+            <description py:pytype="str">Lange bevor die Mercedes S-Klasse die Vorstandsparkplätze okkupierte, wies der Kapitän den erfolgreichen Unternehmer aus. Vor 65 Jahren begann Opel die Produktion.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Opel Kapitän von 1953" align="left" title="Opel Kapitän 1953" base-id="http://xml.zeit.de/auto/2013-04/opel-kapitaen-1953/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ein Opel Kapitän von 1953</bu>
+              <copyright py:pytype="str">© Opel</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2013/08/Alternative-Geldanlagen-Kunst-Gold-Uhren-Energie" year="2013" issue="8" ressort="Wirtschaft" publication-date="2013-02-21T03:52:00+00:00" expires="" date-last-modified="2013-02-25T15:53:29+00:00" date-first-released="2013-02-14T06:00:00+00:00" date-last-published="2013-02-25T15:54:28.562737+00:00" last-semantic-change="2013-02-25T15:44:14.068025+00:00" contenttype="article">
+            <supertitle py:pytype="str">Geldanlage</supertitle>
+            <title py:pytype="str">Mal etwas anderes als Aktien</title>
+            <text py:pytype="str">Es müssen nicht immer Wertpapiere sein: Auch mit Oldtimern und Armbanduhren lässt sich Geld verdienen. Nur: Reich wird man damit nicht unbedingt. Von Nadine Oberhuber</text>
+            <description py:pytype="str">Es müssen nicht immer Wertpapiere sein: Auch mit Oldtimern und Armbanduhren lässt sich Geld verdienen. Nur: Reich wird man damit nicht unbedingt. Von Nadine Oberhuber</description>
+            <byline py:pytype="str">Von Nadine Oberhuber</byline>
+            <image align="left" title="oldtimer" base-id="http://xml.zeit.de/wirtschaft/2013-02/oldtimer-2/" type="jpg" publication-date="" expires="2013-05-25T14:43:55+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-02/oldtimer-kennzeichen" year="2013" issue="7" ressort="Auto" publication-date="" expires="" date-last-modified="2013-05-15T00:02:48+00:00" date-first-released="2013-02-14T16:38:51.958258+00:00" date-last-published="2013-05-15T02:03:05+00:00" last-semantic-change="2013-02-14T16:37:21.141069+00:00" contenttype="article">
+            <supertitle py:pytype="str">Oldtimer</supertitle>
+            <title py:pytype="str">Wie der alte Wagen ans H kommt</title>
+            <text py:pytype="str">Um das Oldtimer-Kennzeichen kursieren Halb- und Unwahrheiten: Der alte Wagen dürfe keinerlei Gebrauchsspuren haben, Tuning sei absolut verboten. Heiko Haupt klärt auf.</text>
+            <description py:pytype="str">Um das Oldtimer-Kennzeichen kursieren Halb- und Unwahrheiten: Der alte Wagen dürfe keinerlei Gebrauchsspuren haben, Tuning sei absolut verboten. Heiko Haupt klärt auf.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Oldtimer mit H-Kennzeichen vor einer Klassik-Rallye (Archivbild)" align="left" title="Oldtimer mit H-Kennzeichen" base-id="http://xml.zeit.de/auto/2013-02/oldtimer-rallye/" type="jpg" publication-date="" expires="2013-05-13T10:15:53+00:00">
+              <bu py:pytype="str">Oldtimer mit H-Kennzeichen vor einer Klassik-Rallye (Archivbild)</bu>
+              <copyright py:pytype="str">© Wolfgang Kumm/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-02/corvette" year="2013" issue="7" ressort="Auto" publication-date="" expires="" date-last-modified="2013-05-09T00:02:45+00:00" date-first-released="2013-02-08T05:39:24.167345+00:00" date-last-published="2013-05-09T02:03:26+00:00" last-semantic-change="2013-02-07T11:58:47.545696+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">60 Jahre Corvette</supertitle>
+            <title py:pytype="str">Ein Deutscher verhilft den USA zu ihrer Auto-Ikone</title>
+            <text py:pytype="str">US-Autobauer hatten Anfang der 1950er Jahre keine Sportwagen im Angebot. Dann kam im Januar 1953 die Corvette. Zum Jubiläum legt Chevrolet die siebte Generation auf.</text>
+            <description py:pytype="str">US-Autobauer hatten Anfang der 1950er Jahre keine Sportwagen im Angebot. Dann kam im Januar 1953 die Corvette. Zum Jubiläum legt Chevrolet die siebte Generation auf.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Die erste Chevrolet Corvette von 1953" align="left" title="Die erste Chevrolet Corvette von 1953" base-id="http://xml.zeit.de/auto/2013-02/corvette-1953/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die erste Chevrolet Corvette von 1953</bu>
+              <copyright py:pytype="str">© press-inform/Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-01/oldtimer-sicherheit" year="2013" issue="5" ressort="Auto" publication-date="" expires="" date-last-modified="2013-05-01T00:05:17+00:00" date-first-released="2013-01-31T09:35:08.335737+00:00" date-last-published="2013-05-01T02:05:24+00:00" last-semantic-change="2013-01-31T09:33:36.636787+00:00" contenttype="article">
+            <supertitle py:pytype="str">Oldtimer</supertitle>
+            <title py:pytype="str">Das Blech ist von vorgestern – der Gurt ebenso</title>
+            <text py:pytype="str">Oldtimer sind schön, aber auch gefährlich. Wer sich einen zulegt, muss bedenken: Die Sicherheit ist kaum vergleichbar mit dem heutigen Standard. Von Heiko Haupt</text>
+            <description py:pytype="str">Oldtimer sind schön, aber auch gefährlich. Wer sich einen zulegt, muss bedenken: Die Sicherheit ist kaum vergleichbar mit dem heutigen Standard. Von Heiko Haupt</description>
+            <byline xsi:nil="true"/>
+            <image alt="Oldtimer einer Rallye im brandenburgischen Kloster Zinna (Archivbild vom 17.05.2012)" align="left" title="Oldtimer" base-id="http://xml.zeit.de/auto/2013-01/oldtimer/" type="jpg" publication-date="" expires="2013-04-28T12:36:14+00:00">
+              <bu py:pytype="str">Oldtimer einer Rallye im brandenburgischen Kloster Zinna (Archivbild vom 17.05.2012)</bu>
+              <copyright py:pytype="str">© Patrick Pleul/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-01/oldtimer-1983" year="2013" issue="3" ressort="Auto" publication-date="" expires="" date-last-modified="2013-04-28T09:14:37+00:00" date-first-released="2013-01-18T07:54:31.615619+00:00" date-last-published="2013-04-28T11:14:47+00:00" last-semantic-change="2013-01-18T07:53:14.312712+00:00" contenttype="article">
+            <supertitle py:pytype="str">Automodelle</supertitle>
+            <title py:pytype="str">Wer in diesem Jahr zum Oldtimer wird</title>
+            <text py:pytype="str">Autos, die 1983 auf den Markt kamen, können jetzt das begehrte H-Kennzeichen beantragen. Es sind Klassiker wie der Baby-Benz und der Golf II. Von Matthias Breitinger</text>
+            <description py:pytype="str">Autos, die 1983 auf den Markt kamen, können jetzt das begehrte H-Kennzeichen beantragen. Es sind Klassiker wie der Baby-Benz und der Golf II. Von Matthias Breitinger</description>
+            <byline xsi:nil="true"/>
+            <image alt="Mercedes-Benz 190" align="left" title="Mercedes-Benz 190" base-id="http://xml.zeit.de/auto/2013-01/benz-190/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Mercedes-Benz 190</bu>
+              <copyright py:pytype="str">© Daimler</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-01/vw-t2-bulli" year="2013" issue="3" ressort="Auto" publication-date="" expires="" date-last-modified="2013-04-28T09:25:45+00:00" date-first-released="2013-01-13T07:51:23.382734+00:00" date-last-published="2013-04-28T11:26:26+00:00" last-semantic-change="2013-01-13T07:50:06.545250+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Klassiker VW T2</supertitle>
+            <title py:pytype="str">Der Bulli lebt – in Brasilien</title>
+            <text py:pytype="str">Der T2, den alle nur Bulli nennen, hat Kultstatus. 1979 lief in Deutschland das letzte Exemplar vom Band – in Brasilien wird er noch gebaut. S. Grundhoff fuhr eine Runde.</text>
+            <description py:pytype="str">Der T2, den alle nur Bulli nennen, hat Kultstatus. 1979 lief in Deutschland das letzte Exemplar vom Band – in Brasilien wird er noch gebaut. S. Grundhoff fuhr eine Runde.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der Klassiker T2, der Bulli, wird in Brasilien nach wie vor hergestellt." align="left" title="VW Bulli Brasilien" base-id="http://xml.zeit.de/auto/2013-01/vw-t2-brasilien/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Klassiker T2, der Bulli, wird in Brasilien nach wie vor hergestellt.</bu>
+              <copyright py:pytype="str">© press-inform</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="ddfc8159-0341-4bcd-ac40-2b98b9014b88" title="Auto der Zukunft">
+          <block href="http://xml.zeit.de/auto/2013-06/elektroauto-ladekabel-stecker-normierung" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-27T04:44:53+00:00" date-first-released="2013-06-25T04:50:34.092144+00:00" date-last-published="2013-06-27T04:45:52.565998+00:00" last-semantic-change="2013-06-24T16:59:16.408207+00:00">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">An einem Kabel ziehen</title>
+            <text py:pytype="str">Elektroautos müssen Strom tanken. Was selbstverständlich klingt, ist ein großes Problem: Die Stecker sind noch nicht normiert. Und wie läuft die Abrechnung? Von H. Haupt</text>
+            <description py:pytype="str">Elektroautos müssen Strom tanken. Was selbstverständlich klingt, ist ein großes Problem: Die Stecker sind noch nicht normiert. Und wie läuft die Abrechnung? Von H. Haupt</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Elektroauto wird in Berlin an einer Ladesäule aufgeladen (Archivbild)." align="left" title="Elektroauto" base-id="http://xml.zeit.de/auto/2013-06/ladekabel-elektroauto/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ein Elektroauto wird in Berlin an einer Ladesäule aufgeladen (Archivbild).</bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/elektroauto-brennstoffzelle-arbeitsmarkt-europa" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-26T08:29:56+00:00" date-first-released="2013-06-24T04:17:50.711739+00:00" date-last-published="2013-06-26T08:30:55.853507+00:00" last-semantic-change="2013-06-24T04:13:25.005640+00:00">
+            <supertitle py:pytype="str">Automobilindustrie</supertitle>
+            <title py:pytype="str">Elektroautos sind Europas Jobmotor</title>
+            <text py:pytype="str">Der konsequente Ausbau der Elektromobilität soll die Wirtschaft in Europa ankurbeln. Eine Studie hält bis 2030 rund 1,1 Millionen neue Jobs für möglich. Von M. Breitinger</text>
+            <description py:pytype="str">Der konsequente Ausbau der Elektromobilität soll die Wirtschaft in Europa ankurbeln. Eine Studie hält bis 2030 rund 1,1 Millionen neue Jobs für möglich. Von M. Breitinger</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Elektroauto wird an einer Strom-Zapfsäule aufgeladen (Archivbild)." align="left" title="Elektroauto" base-id="http://xml.zeit.de/auto/2013-06/elektroauto-ladesaeule/" type="jpg" publication-date="" expires="2013-09-21T17:32:54+00:00">
+              <bu py:pytype="str">Ein Elektroauto wird an einer Strom-Zapfsäule aufgeladen (Archivbild).</bu>
+              <copyright py:pytype="str">© Oliver Berg/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/elektroauto-batterie-forschung" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-19T17:37:30+00:00" date-first-released="2013-06-19T17:38:29.902223+00:00" date-last-published="2013-06-19T17:38:29.902223+00:00" last-semantic-change="2013-06-18T13:34:06.781587+00:00">
+            <supertitle py:pytype="str">Elektroautos</supertitle>
+            <title py:pytype="str">Preis für Batterien soll sich bis 2017 halbieren</title>
+            <text py:pytype="str">Batterien, das Herz jedes Elektroautos, sind noch teuer und zu leistungsschwach für lange Fahrten. Die Hersteller versprechen große Fortschritte. Zu recht? Von H. Haupt</text>
+            <description py:pytype="str">Batterien, das Herz jedes Elektroautos, sind noch teuer und zu leistungsschwach für lange Fahrten. Die Hersteller versprechen große Fortschritte. Zu recht? Von H. Haupt</description>
+            <byline xsi:nil="true"/>
+            <image alt="Das Display in einem Elektroauto zeigt die Reichweite der geladenen Batterie an." align="left" title="Batterie Elektroauto" base-id="http://xml.zeit.de/auto/2013-06/elektroauto-batterie-reichweite/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Das Display in einem Elektroauto zeigt die Reichweite der geladenen Batterie an.</bu>
+              <copyright py:pytype="str">© Regis Duvignau/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/mercedes-kommunikation-autotechnik" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-17T05:02:36+00:00" date-first-released="2013-06-17T05:02:35.951054+00:00" date-last-published="2013-06-17T05:02:35.951054+00:00" last-semantic-change="2013-06-17T05:01:28.414307+00:00">
+            <supertitle py:pytype="str">Verkehrssicherheit</supertitle>
+            <title py:pytype="str">Mercedes lässt Autos miteinander sprechen</title>
+            <text py:pytype="str">Autos, die sich vor Gefahren warnen: Die Car-to-X-Kommunikation gilt als wichtige Zukunftstechnik. Mercedes bietet sie schon ab Herbst an – zumindest fast. Von H. Holzer</text>
+            <description py:pytype="str">Autos, die sich vor Gefahren warnen: Die Car-to-X-Kommunikation gilt als wichtige Zukunftstechnik. Mercedes bietet sie schon ab Herbst an – zumindest fast. Von H. Holzer</description>
+            <byline xsi:nil="true"/>
+            <image alt="Über die Car-to-X-Technik kann ein Mercedes-Fahrer andere vor einer Gefahr warnen." align="left" title="car-to-x Daimler" base-id="http://xml.zeit.de/auto/2013-06/mercedes-car-to-x/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Über die Car-to-X-Technik kann ein Mercedes-Fahrer andere vor einer Gefahr warnen.</bu>
+              <copyright py:pytype="str">© Daimler</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/hyundai-brennstoffzelle-elektrofahrzeug" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-26T14:26:59+00:00" date-first-released="2013-06-11T09:33:27.461036+00:00" date-last-published="2013-06-26T14:27:59.367928+00:00" last-semantic-change="2013-06-11T09:32:01.598284+00:00">
+            <supertitle py:pytype="str">Brennstoffzelle</supertitle>
+            <title py:pytype="str">Der Wasserstoff-Antrieb wagt sich in den Alltag</title>
+            <text py:pytype="str">Hyundai geht bei der Mobilität mit Brennstoffzelle voran: Die ersten ix35 Fuel Cell sind schon ausgeliefert. Noch ist die Technik zu teuer. Aber wie fährt sich der Wagen?</text>
+            <description py:pytype="str">Hyundai geht bei der Mobilität mit Brennstoffzelle voran: Die ersten ix35 Fuel Cell sind schon ausgeliefert. Noch ist die Technik zu teuer. Aber wie fährt sich der Wagen?</description>
+            <byline xsi:nil="true"/>
+            <image alt="Hyundai i35 Fuel Cell" align="left" title="Hyundai i35 Fuel Cell" base-id="http://xml.zeit.de/auto/2013-06/hyundai-i35-fuelcell/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Hyundai i35 Fuel Cell</bu>
+              <copyright py:pytype="str">© press-inform</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/volvo-schwungrad-antrieb" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-04T06:13:46+00:00" date-first-released="2013-06-04T06:14:03.862567+00:00" date-last-published="2013-06-04T06:14:03.862567+00:00" last-semantic-change="2013-06-04T06:12:58.270305+00:00">
+            <supertitle py:pytype="str">Alternativer Antrieb</supertitle>
+            <title py:pytype="str">Volvo bringt das Spritsparen in Schwung </title>
+            <text py:pytype="str">Der Autobauer tüftelt an der aus der Formel 1 bekannten Schwungradtechnik. Sie soll den Kraftstoffverbrauch deutlich senken, läuft im Prototypen aber noch nicht rund.</text>
+            <description py:pytype="str">Der Autobauer tüftelt an der aus der Formel 1 bekannten Schwungradtechnik. Sie soll den Kraftstoffverbrauch deutlich senken, läuft im Prototypen aber noch nicht rund.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der Volvo S60 T5, in den als Versuchsträger die KERS-Technik eingebaut wurde" align="left" title="Volvo S60 KERS" base-id="http://xml.zeit.de/auto/2013-06/kers-volvo/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Volvo S60 T5, in den als Versuchsträger die KERS-Technik eingebaut wurde</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/audi-elektroauto-hybrid" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-30T07:17:49+00:00" date-first-released="2013-05-30T07:18:14.099634+00:00" date-last-published="2013-05-30T07:18:14.099634+00:00" last-semantic-change="2013-05-30T07:17:08.736887+00:00">
+            <supertitle py:pytype="str">Elektromobilität</supertitle>
+            <title py:pytype="str">Audi bremst seine Elektrofahrzeuge aus</title>
+            <text py:pytype="str">Von Audis Offensive für alternative Antriebe ist wenig übrig. Der Autobauer beweist Journalisten zwar, dass er reine Elektroautos bauen kann – gefertigt werden sie nicht.</text>
+            <description py:pytype="str">Von Audis Offensive für alternative Antriebe ist wenig übrig. Der Autobauer beweist Journalisten zwar, dass er reine Elektroautos bauen kann – gefertigt werden sie nicht.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Audi wird seinen A1 e-tron doch nicht in Serie bauen." align="left" title="Audi A1 e-tron" base-id="http://xml.zeit.de/auto/2013-05/audi-a1-elektroantrieb/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Audi wird seinen A1 e-tron doch nicht in Serie bauen.</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/peugeot-citroen-technik-hybrid" year="2013" issue="22" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-25T16:08:53+00:00" date-first-released="2013-05-25T16:09:24.913551+00:00" date-last-published="2013-05-25T16:09:24.913551+00:00" last-semantic-change="2013-05-25T16:08:19.146297+00:00">
+            <supertitle py:pytype="str">Alternativer Antrieb</supertitle>
+            <title py:pytype="str">PSA plant Hybrid mit Druckluft statt Batterien</title>
+            <text py:pytype="str">Peugeot und Citroën wollen mit einem sauberen Abgasstrang und einer neuen Modellplattform aus der Krise kommen. Besonders innovativ ist ihr Hybridkonzept. Von B. Palm</text>
+            <description py:pytype="str">Peugeot und Citroën wollen mit einem sauberen Abgasstrang und einer neuen Modellplattform aus der Krise kommen. Besonders innovativ ist ihr Hybridkonzept. Von B. Palm</description>
+            <byline xsi:nil="true"/>
+            <image alt="Hybrid Air von PSA" align="left" title="Hybrid Air PSA" base-id="http://xml.zeit.de/auto/2013-05/psa-hybrid/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Hybrid Air von PSA</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/smart-elektroauto" year="2013" issue="21" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-23T06:40:28+00:00" date-first-released="2013-05-23T05:43:40.907607+00:00" date-last-published="2013-05-23T06:41:03.680462+00:00" last-semantic-change="2013-05-23T05:42:36.350854+00:00">
+            <supertitle py:pytype="str">Smart electric drive</supertitle>
+            <title py:pytype="str">Stadtkönig mit langer Lieferzeit</title>
+            <text py:pytype="str">Die Jahresproduktion des Smart electric drive ist schon verkauft. Kein Wunder: Er übertrifft sein konventionelles Pendant in den meisten Kriterien. Von C. M. Schwarzer</text>
+            <description py:pytype="str">Die Jahresproduktion des Smart electric drive ist schon verkauft. Kein Wunder: Er übertrifft sein konventionelles Pendant in den meisten Kriterien. Von C. M. Schwarzer</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Smart electric drive" base-id="http://xml.zeit.de/auto/2013-05/smart-electric-drive/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Weil ein Kombi widerrechtlich auf dem eigentlichen Ladeparkplatz stand, musste unser Autor ebenfalls widerrechtlich auf dem Fußweg parken und dort den Smart electric drive aufladen.</bu>
+              <copyright py:pytype="str">© Christoph M. Schwarzer</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="9b30b6c8-df03-42c8-a39a-bcedc27f8d94" title="Mobilität">
+          <block href="http://xml.zeit.de/auto/2013-06/fahrrad-helm-sicherheit-umfrage" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-24T16:28:12+00:00" date-first-released="2013-06-24T16:29:12.235073+00:00" date-last-published="2013-06-24T16:29:12.235073+00:00" last-semantic-change="2013-06-24T16:27:57.544704+00:00">
+            <supertitle py:pytype="str">Verkehrssicherheit</supertitle>
+            <title py:pytype="str">Deutsche Radfahrer sind Helmmuffel</title>
+            <text py:pytype="str">Nur 13 Prozent der Radler tragen immer Kopfschutz. Dies ergab eine ZEIT-ONLINE-Umfrage. Bei der Helmpflicht zeigen sich die Deutschen unentschieden. Von M. Breitinger</text>
+            <description py:pytype="str">Nur 13 Prozent der Radler tragen immer Kopfschutz. Dies ergab eine ZEIT-ONLINE-Umfrage. Bei der Helmpflicht zeigen sich die Deutschen unentschieden. Von M. Breitinger</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Radfahrer in Köln auf einem Radweg zwischen Autos (Archivbild)" align="left" title="Radfahrer Köln" base-id="http://xml.zeit.de/auto/2013-06/radfahrer-koeln/" type="jpg" publication-date="" expires="2013-09-24T11:58:22+00:00">
+              <bu py:pytype="str">Ein Radfahrer in Köln auf einem Radweg zwischen Autos (Archivbild)</bu>
+              <copyright py:pytype="str">© Oliver Berg/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/autos-fehlkonstruktion-unfallgefahr" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-21T14:15:26+00:00" date-first-released="2013-06-21T14:09:32.739014+00:00" date-last-published="2013-06-21T14:16:26.187800+00:00" last-semantic-change="2013-06-21T14:08:25.602329+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Gefährliche Autos</supertitle>
+            <title py:pytype="str">Vier Räder und ein Todesfall</title>
+            <text py:pytype="str">Brennen, abheben, plötzlich ausbrechen: Immer wieder gibt es Autos, deren Konstruktion dem Fahrer nach dem Leben trachtet. Heiko Haupt stellt zehn gefährliche Autos vor.</text>
+            <description py:pytype="str">Brennen, abheben, plötzlich ausbrechen: Immer wieder gibt es Autos, deren Konstruktion dem Fahrer nach dem Leben trachtet. Heiko Haupt stellt zehn gefährliche Autos vor.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Keine Knautschzone in der BMW Isetta" align="left" title="Isetta" base-id="http://xml.zeit.de/auto/2013-06/isetta/" type="jpg" publication-date="" expires="2013-09-20T16:34:12+00:00">
+              <bu py:pytype="str">Keine Knautschzone in der BMW Isetta</bu>
+              <copyright py:pytype="str">© Rainer Jensen/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/verkehr-finanzierung-strassen-schiene" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-27T01:25:55+00:00" date-first-released="2013-06-19T12:18:08.941939+00:00" date-last-published="2013-06-27T01:26:54.733056+00:00" last-semantic-change="2013-06-19T11:14:36.070266+00:00">
+            <supertitle py:pytype="str">Verkehrsinfrastruktur</supertitle>
+            <title py:pytype="str">Ramsauer vergisst die Gleise</title>
+            <text py:pytype="str">Der Verkehrsminister will mehr für den Erhalt von Verkehrswegen ausgeben und beim Neubau kürzen. Für das Schienennetz ist das nicht akzeptabel, kommentiert M. Breitinger.</text>
+            <description py:pytype="str">Der Verkehrsminister will mehr für den Erhalt von Verkehrswegen ausgeben und beim Neubau kürzen. Für das Schienennetz ist das nicht akzeptabel, kommentiert M. Breitinger.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Bauleute arbeiten im Mai 2013 in Erfurt am Ausbau des ICE-Knotens unweit des Hauptbahnhofs." align="left" title="Bahnarbeiten Schiene" base-id="http://xml.zeit.de/auto/2013-06/schiene-baustelle/" type="jpg" publication-date="" expires="2013-09-19T10:34:45+00:00">
+              <bu py:pytype="str">Bauleute arbeiten im Mai 2013 in Erfurt am Ausbau des ICE-Knotens unweit des Hauptbahnhofs.</bu>
+              <copyright py:pytype="str">© Martin Schutt/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/gelaendewagen-suv-schein" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-14T12:29:36+00:00" date-first-released="2013-06-14T12:29:40.013538+00:00" date-last-published="2013-06-14T12:29:40.013538+00:00" last-semantic-change="2013-06-14T12:28:32.656283+00:00">
+            <supertitle py:pytype="str">Autodesign</supertitle>
+            <title py:pytype="str">Die Blender-SUV sind gefragt</title>
+            <text py:pytype="str">SUV, die die Motorkraft nur auf eine Achse übertragen, verkaufen sich immer besser. Die Kernkompetenz eines Geländewagens geht verloren. Wehe, es schneit. Von W. Gomoll</text>
+            <description py:pytype="str">SUV, die die Motorkraft nur auf eine Achse übertragen, verkaufen sich immer besser. Die Kernkompetenz eines Geländewagens geht verloren. Wehe, es schneit. Von W. Gomoll</description>
+            <byline xsi:nil="true"/>
+            <image alt="Fiat 500L Trekking" align="left" title="Fiat 500L Trekking" base-id="http://xml.zeit.de/auto/2013-06/fiat-500l-suv/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Fiat 500L Trekking</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/fahrrad-dienstwagen-faq" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-10T13:07:16+00:00" date-first-released="2013-06-10T12:59:58.414416+00:00" date-last-published="2013-06-10T13:07:25.004998+00:00" last-semantic-change="2013-06-10T13:06:21.257396+00:00">
+            <supertitle py:pytype="str">Dienstfahrrad</supertitle>
+            <title py:pytype="str">Mit dem Firmenvelo ins Büro</title>
+            <text py:pytype="str">Als Dienstfahrzeug wird das Fahrrad kaum genutzt. Dabei ist es dem Dienstwagen inzwischen auch steuerlich gleichgestellt. Adele Moser erklärt, was zu beachten ist.</text>
+            <description py:pytype="str">Als Dienstfahrzeug wird das Fahrrad kaum genutzt. Dabei ist es dem Dienstwagen inzwischen auch steuerlich gleichgestellt. Adele Moser erklärt, was zu beachten ist.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ein Angestellter auf einem Dienstfahrrad" align="left" title="Dienstfahrrad" base-id="http://xml.zeit.de/auto/2013-06/dienstfahrrad/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ein Angestellter auf einem Dienstfahrrad</bu>
+              <copyright py:pytype="str">© pd-f.de</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/verkehr-forschung-neue-techniken-intelligente-strassen" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-07T05:37:24+00:00" date-first-released="2013-06-07T05:37:38.063800+00:00" date-last-published="2013-06-07T05:37:38.063800+00:00" last-semantic-change="2013-06-07T05:36:32.834287+00:00">
+            <supertitle py:pytype="str">Verkehr</supertitle>
+            <title py:pytype="str">Forscher machen unsere Straßen schlau</title>
+            <text py:pytype="str">Straßen, die freie Parkplätze melden und Abgase ungiftig machen: Tüftler haben irre Ideen für smarte Fahrbahnen. Vieles wird schon ausprobiert. Von A. Menn und B. Reuter</text>
+            <description py:pytype="str">Straßen, die freie Parkplätze melden und Abgase ungiftig machen: Tüftler haben irre Ideen für smarte Fahrbahnen. Vieles wird schon ausprobiert. Von A. Menn und B. Reuter</description>
+            <byline xsi:nil="true"/>
+            <image alt="Solarmodule auf einem Parkplatz in Kalifornien (Archivbild)" align="left" base-id="http://xml.zeit.de/auto/2013-06/solarparkplatz/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Solarmodule auf einem Parkplatz in Kalifornien (Archivbild)</bu>
+              <copyright py:pytype="str">© Sandy Huffaker/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/umweltzone-europa-wirkung" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-05T05:05:44+00:00" date-first-released="2013-06-05T05:06:00.069509+00:00" date-last-published="2013-06-05T05:06:00.069509+00:00" last-semantic-change="2013-06-05T05:04:53.830330+00:00">
+            <supertitle py:pytype="str">Luftqualität</supertitle>
+            <title py:pytype="str">Ratlos in der Umweltzone</title>
+            <text py:pytype="str">Nicht nur Deutschland versucht, mit Umweltzonen die Luft in Städten zu verbessern. Der Erfolg ist gering: Die EU droht einer Reihe von Ländern mit Klagen. Von S. Kilimann</text>
+            <description py:pytype="str">Nicht nur Deutschland versucht, mit Umweltzonen die Luft in Städten zu verbessern. Der Erfolg ist gering: Die EU droht einer Reihe von Ländern mit Klagen. Von S. Kilimann</description>
+            <byline xsi:nil="true"/>
+            <image alt="Zwei Arbeiter befestigen in Mainz ein Hinweis-Schild für eine Umweltzone (Archivbild)." align="left" title="Umweltzone Mainz" base-id="http://xml.zeit.de/auto/2013-06/umweltzone/" type="jpg" publication-date="" expires="2013-09-04T09:25:15+00:00">
+              <bu py:pytype="str">Zwei Arbeiter befestigen in Mainz ein Hinweis-Schild für eine Umweltzone (Archivbild).</bu>
+              <copyright py:pytype="str">© Fredrik von Erichsen/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2013/20/assistenzsysteme-aeltere-autofahrer" year="2013" issue="20" ressort="Auto" contenttype="article" publication-date="2013-05-16T02:14:01+00:00" expires="" date-last-modified="2013-06-02T18:33:35+00:00" date-first-released="2013-05-08T06:00:00+00:00" date-last-published="2013-06-02T18:33:55.778987+00:00" last-semantic-change="2013-06-02T18:32:51.654296+00:00">
+            <supertitle py:pytype="str">Assistenzsysteme</supertitle>
+            <title py:pytype="str">Mobil mit Oma-Navi</title>
+            <text py:pytype="str">Wie technische Assistenzsysteme älteren Menschen beim Autofahren helfen, testen britische Forscher. Zu viel Geblinke könnte die Senioren verunsichern. Von D. Asendorpf</text>
+            <description py:pytype="str">Wie technische Assistenzsysteme älteren Menschen beim Autofahren helfen, testen britische Forscher. Zu viel Geblinke könnte die Senioren verunsichern. Von D. Asendorpf</description>
+            <byline py:pytype="str">von Dirk Asendorpf</byline>
+            <image alt="Ein Rentner sitzt auf einer Fahrsicherheitsanlage am Steuer eines Autos (Archivbild)." align="left" title="Rentner im Auto" base-id="http://xml.zeit.de/auto/2013-05/senior-autofahrer/" type="jpg" publication-date="" expires="2013-08-30T08:25:54+00:00">
+              <bu py:pytype="str">Ein Rentner sitzt auf einer Fahrsicherheitsanlage am Steuer eines Autos (Archivbild).</bu>
+              <copyright py:pytype="str">© Anja Sokolow/dpa</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="45df5d4d-f6d1-4af5-a199-6eb83174c820" title="Neue Modelle">
+          <block href="http://xml.zeit.de/auto/2013-06/ford-van-b-max" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-18T17:44:54+00:00" date-first-released="2013-06-18T17:44:51.196426+00:00" date-last-published="2013-06-18T17:44:51.196426+00:00" last-semantic-change="2013-06-17T11:19:24.233768+00:00">
+            <supertitle py:pytype="str">Ford B-Max</supertitle>
+            <title py:pytype="str">Ein Van für Papa, Mama, Kind</title>
+            <text py:pytype="str">Der kleinste Ford-Van eignet sich nur für die Familien-Keimzelle. Zu viert passt man zwar auch in den B-Max, doch dann ist zu wenig Platz fürs Gepäck. Von S. Grundhoff</text>
+            <description py:pytype="str">Der kleinste Ford-Van eignet sich nur für die Familien-Keimzelle. Zu viert passt man zwar auch in den B-Max, doch dann ist zu wenig Platz fürs Gepäck. Von S. Grundhoff</description>
+            <byline xsi:nil="true"/>
+            <image alt="Ford B-Max" align="left" title="Ford B-Max" base-id="http://xml.zeit.de/auto/2013-06/ford-b-max-exterieur/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Ford B-Max</bu>
+              <copyright py:pytype="str">© press-inform</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-06/suv-honda-mazda" year="2013" issue="23" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-06T15:43:46+00:00" date-first-released="2013-06-06T15:44:00.711472+00:00" date-last-published="2013-06-06T15:44:00.711472+00:00" last-semantic-change="2013-06-04T13:49:09.181436+00:00">
+            <supertitle py:pytype="str">CR-V gegen CX-5</supertitle>
+            <title py:pytype="str">Mazda siegt im Test der Japan-SUV</title>
+            <text py:pytype="str">Der Mazda CX-5 überzeugt bei Antrieb und Fahrwerk, der Honda CR-V bietet mehr Platz. Welcher der Nippon-SUV ist letztlich besser? W. Gomoll und S. Grundhoff vergleichen.</text>
+            <description py:pytype="str">Der Mazda CX-5 überzeugt bei Antrieb und Fahrwerk, der Honda CR-V bietet mehr Platz. Welcher der Nippon-SUV ist letztlich besser? W. Gomoll und S. Grundhoff vergleichen.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Honda CR-V (links) und Mazda CX-5" align="left" title="Honda CR-V (links) und Mazda CX-5" base-id="http://xml.zeit.de/auto/2013-06/honda-mazda-suv/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Honda CR-V (links) und Mazda CX-5</bu>
+              <copyright py:pytype="str">© press-inform</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-04/toyota-hybrid-auris" year="2013" issue="17" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-06-03T17:29:31+00:00" date-first-released="2013-06-03T17:17:31.335729+00:00" date-last-published="2013-06-03T17:17:31.335729+00:00" last-semantic-change="2013-06-03T17:28:43.179995+00:00">
+            <supertitle py:pytype="str">Sparsam mit Verbrennungsmotor</supertitle>
+            <title py:pytype="str">Prius in gefälliger Form</title>
+            <text py:pytype="str">Fast die Hälfte der Toyota Auris-Kunden greift zum Hybridantrieb. Fahrwerksschwächen trüben aber das positive Gesamtbild. Von Christoph M. Schwarzer</text>
+            <description py:pytype="str">Fast die Hälfte der Toyota Auris-Kunden greift zum Hybridantrieb. Fahrwerksschwächen trüben aber das positive Gesamtbild. Von Christoph M. Schwarzer</description>
+            <byline xsi:nil="true"/>
+            <image alt="Toyota Auris Hybrid" align="left" title="Toyota Auris Hybrid" base-id="http://xml.zeit.de/auto/2013-05/toyota-auris-hybrid/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Toyota Auris Hybrid</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/opel-suv-mokka" year="2013" issue="21" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-29T06:19:05+00:00" date-first-released="2013-05-29T06:19:31.787393+00:00" date-last-published="2013-05-29T06:19:31.787393+00:00" last-semantic-change="">
+            <supertitle py:pytype="str">Opel-SUV</supertitle>
+            <title py:pytype="str">Der Motor im Mokka ist kalter Kaffee</title>
+            <text py:pytype="str">Opel brachte den Mokka heraus, als es schon einige Kompakt-SUV gab. Seither entwickelt sich der Mokka zum Opel-Erfolgsmodell. Wie schlägt er sich im Alltag? Von W. Gomoll</text>
+            <description py:pytype="str">Opel brachte den Mokka heraus, als es schon einige Kompakt-SUV gab. Seither entwickelt sich der Mokka zum Opel-Erfolgsmodell. Wie schlägt er sich im Alltag? Von W. Gomoll</description>
+            <byline xsi:nil="true"/>
+            <image alt="Opel Mokka" align="left" title="Opel Mokka" base-id="http://xml.zeit.de/auto/2013-05/opel-mokka-aussen/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Opel Mokka</bu>
+              <copyright py:pytype="str">© press-inform</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/lexus-hybrid-mittelklasse" year="2013" issue="22" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-24T06:59:04+00:00" date-first-released="2013-05-24T04:48:41.710657+00:00" date-last-published="2013-05-24T04:48:41.710657+00:00" last-semantic-change="2013-05-24T04:47:36.921510+00:00">
+            <supertitle py:pytype="str">Lexus IS</supertitle>
+            <title py:pytype="str">Als Hybrid eine Klasse für sich</title>
+            <text py:pytype="str">Gegen Audi, Mercedes und BMW in deren Heimat anzutreten, ist schwer. Der Lexus IS versucht es in einer Neuauflage – und hat einen echten Wettbewerbsvorteil. Von Peter Eck</text>
+            <description py:pytype="str">Gegen Audi, Mercedes und BMW in deren Heimat anzutreten, ist schwer. Der Lexus IS versucht es in einer Neuauflage – und hat einen echten Wettbewerbsvorteil. Von Peter Eck</description>
+            <byline xsi:nil="true"/>
+            <image alt="Lexus IS" align="left" title="Lexus IS außen" base-id="http://xml.zeit.de/auto/2013-05/lexus-is-exterieur-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Lexus IS</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/skoda-superb-mittelklasse" year="2013" issue="21" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-22T07:35:47+00:00" date-first-released="2013-05-22T07:36:23.270169+00:00" date-last-published="2013-05-22T07:36:23.270169+00:00" last-semantic-change="2013-05-22T07:35:18.922285+00:00">
+            <supertitle py:pytype="str">Škoda Superb</supertitle>
+            <title py:pytype="str">Ein Hauch von Luxuslimousine ohne Premium-Preis</title>
+            <text py:pytype="str">Der Škoda Superb fährt im Schatten der Konzernkonkurrenten VW Passat und Audi A4. Dabei bietet der jetzt aufgefrischte Tscheche mehr Platz als mancher A6-Wettbewerber.</text>
+            <description py:pytype="str">Der Škoda Superb fährt im Schatten der Konzernkonkurrenten VW Passat und Audi A4. Dabei bietet der jetzt aufgefrischte Tscheche mehr Platz als mancher A6-Wettbewerber.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Škoda Superb" align="left" title="Škoda Superb" base-id="http://xml.zeit.de/auto/2013-05/skoda-superb/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Škoda Superb</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/peugeot-suv-2008" year="2013" issue="21" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-21T14:04:05+00:00" date-first-released="2013-05-21T14:04:42.546720+00:00" date-last-published="2013-05-21T14:04:42.546720+00:00" last-semantic-change="">
+            <supertitle py:pytype="str">Peugeot 2008</supertitle>
+            <title py:pytype="str">Alltag statt Allrad</title>
+            <text py:pytype="str">Peugeot steigt ins Segment der kleinen SUV ein. Ein echter Geländegänger ist der 2008 nicht, da der Allradantrieb fehlt. Dafür ist er alltagstauglich. Von Patrick Broich</text>
+            <description py:pytype="str">Peugeot steigt ins Segment der kleinen SUV ein. Ein echter Geländegänger ist der 2008 nicht, da der Allradantrieb fehlt. Dafür ist er alltagstauglich. Von Patrick Broich</description>
+            <byline xsi:nil="true"/>
+            <image alt="Peugeot 2008" align="left" title="Peugeot 2008" base-id="http://xml.zeit.de/auto/2013-05/peugeot-2008/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Peugeot 2008</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/mercedes-s-klasse-limousine" year="2013" issue="21" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-17T13:51:27+00:00" date-first-released="2013-05-17T13:52:09.608430+00:00" date-last-published="2013-05-17T13:52:09.608430+00:00" last-semantic-change="2013-05-17T13:51:05.991986+00:00">
+            <supertitle py:pytype="str">Mercedes S-Klasse</supertitle>
+            <title py:pytype="str">Ein Auto für Statusbewusste</title>
+            <text py:pytype="str">Mercedes präsentiert die neue S-Klasse als "bestes Automobil der Welt": sparsam, aerodynamisch und luxuriös. Besonderes Extra ist die eingebaute Hot-Stone-Massage.</text>
+            <description py:pytype="str">Mercedes präsentiert die neue S-Klasse als "bestes Automobil der Welt": sparsam, aerodynamisch und luxuriös. Besonderes Extra ist die eingebaute Hot-Stone-Massage.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/wirtschaft/2013-05/mercedes-neue-s-klasse/" type="jpg" publication-date="" expires="2013-06-16T14:59:31+00:00">
+              <bu py:pytype="str">Die Präsentation der neuen S-Klasse in Hamburg</bu>
+              <copyright py:pytype="str">© Fabian Bimmer/Reuters</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-05/bmw-roadster-z4" year="2013" issue="19" ressort="Auto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-12T09:23:22+00:00" date-first-released="2013-05-12T09:24:21.618393+00:00" date-last-published="2013-05-12T09:24:21.618393+00:00" last-semantic-change="2013-05-12T09:23:06.437805+00:00">
+            <supertitle py:pytype="str">Roadster</supertitle>
+            <title py:pytype="str">BMW lässt den Z4 günstiger an die frische Luft</title>
+            <text py:pytype="str">Der BMW Z4 fuhr bei den Verkäufen den Konkurrenten Audi TT und Mercedes SLK hinterher. Jetzt hat BMW den Roadster aufgefrischt – und zugleich den Einstiegspreis gesenkt.</text>
+            <description py:pytype="str">Der BMW Z4 fuhr bei den Verkäufen den Konkurrenten Audi TT und Mercedes SLK hinterher. Jetzt hat BMW den Roadster aufgefrischt – und zugleich den Einstiegspreis gesenkt.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Der überarbeitete Roadster Z4 von BMW" align="left" title="Roadster Z4 von BMW" base-id="http://xml.zeit.de/auto/2013-05/bmw-z4-neu/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der überarbeitete Roadster Z4 von BMW</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/auto/2013-04/renault-van-crossover-captur" year="2013" issue="16" ressort="Auto" publication-date="" expires="" contenttype="article" date-last-modified="2013-04-22T05:36:35+00:00" date-first-released="2013-04-22T05:37:35.372307+00:00" date-last-published="2013-04-22T05:37:35.372307+00:00" last-semantic-change="2013-04-22T05:36:08.513391+00:00">
+            <supertitle py:pytype="str">Renault Captur</supertitle>
+            <title py:pytype="str">Außen SUV, innen Van</title>
+            <text py:pytype="str">Vans sind praktisch, SUV beliebt, Kleinwagen günstig. Renault hat alles zusammengepackt und pfiffige Details ergänzt. Der Clou im Captur: eine Schublade. Von E. Munsch</text>
+            <description py:pytype="str">Vans sind praktisch, SUV beliebt, Kleinwagen günstig. Renault hat alles zusammengepackt und pfiffige Details ergänzt. Der Clou im Captur: eine Schublade. Von E. Munsch</description>
+            <byline xsi:nil="true"/>
+            <image alt="Renault Captur" align="left" title="Renault Captur" base-id="http://xml.zeit.de/auto/2013-04/renault-captur-aussen/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Renault Captur</bu>
+              <copyright py:pytype="str">© Hersteller</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Auto</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Auto</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Auto</text>
+  </indexteaser>
+</centerpage>

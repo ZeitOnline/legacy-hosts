@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-02-19T10:42:24.142558+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-01-30T20:17:04.542851+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-02-19T10:42:51.435153+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-02-19T10:43:22.768106+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-02-14T12:34:58.991175+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-05</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Das Logikspiel Sudoku online spielen oder ausdrucken. Hier können Sie das ZEIT Sudoku für schlaue Köpfe kostenlos in verschiedenen Versionen spielen. Füllen Sie 9x9 Felder!</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Sudoku online spielen | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-02-14T12:34:29.461622+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2010-08-17</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.brightcove</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">1955890407</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2010-08-16T22:05:00+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Spiele</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Sudoku</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">50423841</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:f8f091ec-fbb5-4665-95c4-627772f2f824}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives"/>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="4d50e759-ff6d-47e8-be03-8511cf13abd8">
+        <container cp:type="rss" module="rss" max_items="4" show_supertitle="False" time_format="none" cp:__name__="ef736269-0036-4dd0-9b57-498a4c9ba011" url="http://newsfeed.zeit.de/themen/serie/index?q=tagesquiz" title="Der tägliche Wissenstest">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/feed/rss)" href="/var/cms/work/rss/e322709c2bab820630fcace4ab31e6a4">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/e322709c2bab820630fcace4ab31e6a4 nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <teaser_image align="left" base-id="http://xml.zeit.de/newsletter/links/teaser-serienseite-quiz/" type="jpg" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+            <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=1525">© Photocase/cYx</copyright>
+          </teaser_image>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="7602ac2b-8649-44ec-8bb4-55580b5be6ee" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/newsletter/links/link-quiz-nl" year="2010" ressort="Wissen" publication-date="" expires="" ns0:href="http://community.zeit.de/newsletter-signup?nl=bildungshappen" date-last-modified="2014-06-04T14:26:30+00:00" date-first-released="2010-06-22T11:41:56.695557+00:00" date-last-published="2010-06-22T11:56:57.603896+00:00" last-semantic-change="2010-06-22T11:55:36.994292+00:00" contenttype="link" uniqueId="http://xml.zeit.de/newsletter/links/link-quiz-nl">
+            <supertitle py:pytype="str">Newsletter</supertitle>
+            <title py:pytype="str">Täglicher Wissenstest</title>
+            <text py:pytype="str">Abonnieren Sie unseren täglichen Wissenstest per E-mail.</text>
+            <description py:pytype="str">Abonnieren Sie unseren täglichen Wissenstest per E-mail.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/newsletter/teaser/NL-quiz/" type="jpg" alt="ZEIT ONLINE - täglicher Wissenstest" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="d79936dd-cd86-4f03-915e-1a2bd1336b84" hide-dupes="True" title="Weitere Spiele" visible="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/links/link-sudoku" year="2008" issue="34" ressort="Spiele" publication-date="" expires="" ns0:href="http://sudoku.zeit.de/sudoku/kunden/die_zeit/" date-last-modified="2014-07-22T12:43:14+00:00" date-first-released="2008-08-15T15:13:53.442917+00:00" date-last-published="2014-07-22T12:44:14.141974+00:00" last-semantic-change="2014-07-22T12:43:02.461664+00:00" contenttype="link" uniqueId="http://xml.zeit.de/spiele/links/link-sudoku">
+            <supertitle py:pytype="str">Zahlenrätsel</supertitle>
+            <title py:pytype="str">Sudoku online spielen</title>
+            <text py:pytype="str">Der tägliche Rätselspaß für kluge Köpfe. Stellen Sie Ihre logischen Fähigkeiten unter Beweis! </text>
+            <description py:pytype="str">Der tägliche Rätselspaß für kluge Köpfe. Stellen Sie Ihre logischen Fähigkeiten unter Beweis! </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/spiele/2009-09/Sudoku/" type="jpg" title="Sudoku Aufmacher" alt="Sudoku spielen" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Chris Hondros/Getty Images (m)</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/links/udeg/link-ecke" year="2008" issue="34" ns0:href="http://www.zeit.de/ecke" date-last-modified="2013-09-06T04:35:00+00:00" date-first-released="2008-08-15T15:13:32.444375+00:00" date-last-published="2013-09-06T04:36:00.302285+00:00" last-semantic-change="2010-11-10T14:41:47.984711+00:00" contenttype="link" ressort="Spiele" publication-date="" expires="" uniqueId="http://xml.zeit.de/spiele/links/udeg/link-ecke">
+            <supertitle py:pytype="str">Um die Ecke gedacht</supertitle>
+            <title py:pytype="str">Kreuzworträtsel</title>
+            <text py:pytype="str">Lösen Sie das Kreuzworträtsel aus dem ZEITmagazin online. Jede Woche neu, jede Woche knifflig. </text>
+            <description py:pytype="str">Lösen Sie das Kreuzworträtsel aus dem ZEITmagazin online. Jede Woche neu, jede Woche knifflig. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/spiele/teaser-bilder/um-die-ecke-gedacht-teaser/" type="jpg" title="Spiele Um die Ecke gedacht Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Yuriko Nakao/Reuters</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/links/erinneredich/link-ed-oktoberfest-hp" year="2010" issue="38" ressort="Spiele" publication-date="" expires="" ns0:href="http://spiele.zeit.de/ed/intro_relaunch.php?ed_id=76" date-last-modified="2010-09-17T08:48:05+00:00" date-first-released="2010-09-17T08:49:05.313841+00:00" date-last-published="2010-09-17T08:49:05.313841+00:00" last-semantic-change="2010-09-17T08:47:42.914975+00:00" contenttype="link" uniqueId="http://xml.zeit.de/spiele/links/erinneredich/link-ed-oktoberfest-hp">
+            <supertitle py:pytype="str">O'zapft is!</supertitle>
+            <title py:pytype="str">Ein feucht-fröhliches Erinnere Dich zum Beginn des Oktoberfests</title>
+            <text py:pytype="str">Ein feucht-fröhliches Erinnere Dich zum Beginn des Oktoberfests</text>
+            <description py:pytype="str">Ein feucht-fröhliches Erinnere Dich zum Beginn des Oktoberfests</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/quiz/link-quiz-themenseite" year="2009" ressort="Spiele" ns0:href="http://www.zeit.de/spiele/quiz/index" date-last-modified="2010-11-10T14:37:10+00:00" date-first-released="2009-11-20T09:41:35.005771+00:00" date-last-published="2010-11-10T14:38:10.639805+00:00" last-semantic-change="2010-11-10T14:36:59.382878+00:00" contenttype="link" publication-date="" expires="" uniqueId="http://xml.zeit.de/spiele/quiz/link-quiz-themenseite">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Quiz - Rätsel auf ZEIT ONLINE</title>
+            <text py:pytype="str">Testen Sie Ihr Wissen und lösen Sie Rätsel zu aktuellen Themen. Knifflige Rätsel auf ZEIT ONLINE</text>
+            <description py:pytype="str">Testen Sie Ihr Wissen und lösen Sie Rätsel zu aktuellen Themen. Knifflige Rätsel auf ZEIT ONLINE</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/spiele/teaser-bilder/wissenstest-teaser/" type="jpg" title="Spiele Wissenstest Teaser" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=47678">© lily/photocase.com</copyright>
+            </image>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2010/38/Spiele-Ecke-38" year="2010" issue="38" ressort="Spiele" publication-date="2010-09-16T02:25:00+00:00" expires="" date-last-modified="2015-02-18T14:36:17+00:00" date-first-released="2010-09-16T06:00:00+00:00" date-last-published="2010-09-30T13:12:18.858741+00:00" last-semantic-change="2010-09-16T05:06:03.353714+00:00" contenttype="article" uniqueId="http://xml.zeit.de/2010/38/Spiele-Ecke-38">
+            <supertitle py:pytype="str">Kreuzworträtsel (Druckversion)</supertitle>
+            <title py:pytype="str">Um die Ecke gedacht Nr. 2033</title>
+            <text py:pytype="str">Die Druckversion. Gesucht wird u.a. "Erste Adresse für Monsieur Rousseau"</text>
+            <description py:pytype="str">Die Druckversion. Gesucht wird u.a. "Erste Adresse für Monsieur Rousseau"</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/2010/38/Spiele-Scrabble-38" year="2010" issue="38" ressort="Spiele" publication-date="2010-09-16T02:15:00+00:00" expires="" date-last-modified="2015-02-18T14:36:22+00:00" date-first-released="2010-09-16T06:00:00+00:00" date-last-published="2012-06-20T04:47:29+00:00" last-semantic-change="2010-09-13T15:33:39.153234+00:00" contenttype="article" uniqueId="http://xml.zeit.de/2010/38/Spiele-Scrabble-38" author="Sebastian Herzog">
+            <supertitle py:pytype="str">Brettspiel</supertitle>
+            <title py:pytype="str">Scrabble</title>
+            <text py:pytype="str">Wie lautet das gesuchte Wort mit einem Wert in den 60ern?</text>
+            <description py:pytype="str">Wie lautet das gesuchte Wort mit einem Wert in den 60ern?</description>
+            <byline xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <author href="http://xml.zeit.de/autoren/H/Sebastian_Herzog/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Sebastian Herzog</display_name>
+            </author>
+          </block>
+          <referenced_cp py:pytype="str">http://xml.zeit.de/spiele/index</referenced_cp>
+          <autopilot py:pytype="bool">false</autopilot>
+          <topiclinks>
+            <topiclink href="http://www.zeit.de/spiele/quiz/link-quiz-themenseite" py:pytype="str">Wissenstest</topiclink>
+            <topiclink href="http://spiele.zeit.de/ecke/" py:pytype="str">Kreuzworträtsel online lösen</topiclink>
+            <topiclink href="http://www.zeit.de/leben/kreuzwortraetsel" py:pytype="str">Um die Ecke gedacht</topiclink>
+          </topiclinks>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="a9504e70-e1fa-4fc1-81a3-a238ed508b45" title="Neu auf ZEIT ONLINE" hide-dupes="True" visible="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <topiclinks>
+            <topiclink href="http://www.zeit.de/schlagworte/orte/griechenland/index" py:pytype="str">Griechenland</topiclink>
+            <topiclink href="http://www.zeit.de/schlagworte/themen/islamistischer-terrorismus/index" py:pytype="str">Islamistischer Terrorismus</topiclink>
+            <topiclink href="http://www.zeit.de/schlagworte/orte/ukraine/index" py:pytype="str">Ukraine</topiclink>
+          </topiclinks>
+        </container>
+      </region>
+    </cluster>
+    <title>Rahmen: Spiel: Sudoku</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Sudoku</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Sudoku</text>
+  </indexteaser>
+</centerpage>

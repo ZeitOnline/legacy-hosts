@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2015-07-24T11:56:41.146855+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-10-05T11:49:22.974596+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2015-07-24T11:56:46.555080+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2015-07-24T11:57:46.492283+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-07-24T11:56:44.291616+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-07-24T11:56:44.324286+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-10-10</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-07-24T11:56:32.787647+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-10-25</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.weihser</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">751223826</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Kultur</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Musik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">156</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:e1b1100c-56ca-464c-b2d9-c5f37aedb614}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="1f146e5f-660a-4516-9ef2-b928735faaca">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="b73152f7-5ffe-4e71-b077-aa26db33d2e3">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="19964627-62f5-4ee4-90e6-4745de44001b" title="ZEIT ONLINE REKORDER: EIN LIED FÜR DIE KAMERA">
+          <video videoID="716324869001" player="pls" format="large" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="newsletter_kultur" cp:__name__="bb2f8314-a010-43c4-b2d5-52bf97ee608d">
+          <cp_extra id="newsletter_kultur"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="2c641cfc-0273-43d4-a006-2ac2b6bbc477">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" visible="True" cp:__name__="id-43a74b76-3dbb-4d43-9bce-bf16fbf40991">
+          <block href="http://xml.zeit.de/kultur/musik/2015-07/mocky-sleep-ratatat-author-punisher-tontraeger" uniqueId="http://xml.zeit.de/kultur/musik/2015-07/mocky-sleep-ratatat-author-punisher-tontraeger" year="2015" issue="29" ressort="Kultur" serie="Tonträger" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-24T11:41:36+00:00" date-first-released="2015-07-24T11:42:33.879418+00:00" date-last-published="2015-07-24T11:42:33.879418+00:00" last-semantic-change="2015-07-24T11:41:25.348739+00:00" author="Jan Freitag">
+            <supertitle py:pytype="str">Neue Pop-Alben</supertitle>
+            <title py:pytype="str">Zu schön, um schief zu sein</title>
+            <text py:pytype="str">Symphonie, Kakophonie, Dröhnophonie – alles geht. Die neuen Alben von Ratatat, Mocky, Author &amp; Punisher und Andreas Spechtl alias Sleep erweitern unsere Hörgewohnheiten.</text>
+            <description py:pytype="str">Symphonie, Kakophonie, Dröhnophonie – alles geht. Die neuen Alben von Ratatat, Mocky, Author &amp; Punisher und Andreas Spechtl alias Sleep erweitern unsere Hörgewohnheiten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/musik/2015-07/ratatat/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Timothy Saccenti</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/F/Jan_Freitag/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Jan Freitag</display_name>
+            </author>
+          </block>
+          <block href="http://xml.zeit.de/kultur/musik/2015-07/tame-impala-msmr-iron-wine-conrad-schnitzler" uniqueId="http://xml.zeit.de/kultur/musik/2015-07/tame-impala-msmr-iron-wine-conrad-schnitzler" year="2015" issue="29" ressort="Kultur" serie="Tonträger" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-21T16:44:12+00:00" date-first-released="2015-07-17T09:47:17.474950+00:00" date-last-published="2015-07-21T16:44:42.232836+00:00" last-semantic-change="2015-07-17T09:46:07.540802+00:00" author="Thomas Winkler">
+            <supertitle py:pytype="str">Neue Pop-Alben</supertitle>
+            <title py:pytype="str">Lasst die Erben tanzen</title>
+            <text py:pytype="str">Alle Töne wurden schon einmal gespielt. Aber noch nicht auf diese Weise: Die Alben der Woche von Tame Impala, MS MR, Pyrolator und Iron and Wine &amp; Ben Bridwell.</text>
+            <description py:pytype="str">Alle Töne wurden schon einmal gespielt. Aber noch nicht auf diese Weise: Die Alben der Woche von Tame Impala, MS MR, Pyrolator und Iron and Wine &amp; Ben Bridwell.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/musik/2015-07/tame-impala/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Caroline</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Thomas_Winkler/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Thomas Winkler</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="ef8166bb-ba59-435b-8bf4-e51f4b7120e4" title="WEBRADIO: HÖREN SIE BYTE.FM AUF ZEIT ONLINE">
+          <raw>
+            <a class="bytefm_player" href="http://www.byte.fm/player/player_diezeit.html" target="_blank">
+              <img src="http://images.zeit.de/bilder/2009/standards/kultur/musik/byte.fm/byte.fm-368x110.jpg"/>
+            </a>
+            <a class="bytefm_player" target="_blank" href="http://www.byte.fm/player/player_diezeit.html"/>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="1e57b61f-339f-4e23-b10b-f92eca410e8d">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-5adbda81-fb81-404f-9297-25d247aa388e" visible="True">
+          <block href="http://xml.zeit.de/kultur/musik/2015-07/popfoerderung-band-produktion-plattenfirma" uniqueId="http://xml.zeit.de/kultur/musik/2015-07/popfoerderung-band-produktion-plattenfirma" year="2015" issue="28" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-22T06:32:56+00:00" date-first-released="2015-07-21T14:16:31.036198+00:00" date-last-published="2015-07-21T17:59:23.841057+00:00" last-semantic-change="2015-07-21T14:15:25.835180+00:00" author="Andreas Hartmann">
+            <supertitle py:pytype="str">Popförderung</supertitle>
+            <title py:pytype="str">Von wegen Cool Germania</title>
+            <text py:pytype="str">Kaum eine deutsche Nachwuchsband kommt ohne öffentliche Subventionen aus. Aber wie subversiv kann Popmusik sein, die staatlich gefördert wird?</text>
+            <description py:pytype="str">Kaum eine deutsche Nachwuchsband kommt ohne öffentliche Subventionen aus. Aber wie subversiv kann Popmusik sein, die staatlich gefördert wird?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/musik/2015-07/fraktus/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Subversion kann eine Masche sein: die fiktive Band Fraktus auf dem Höhepunkt ihrer Karriere.</bu>
+              <copyright py:pytype="str">© Staatsakt</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Andreas_Hartmann/index" publication-date="" expires="">
+              <display_name py:pytype="str">Andreas Hartmann</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-91c9f1e6-0f7b-40b5-9565-ece9387226ce">
+          <block href="http://xml.zeit.de/kultur/film/2015-07/amy-winehouse-film-asif-kapadia" uniqueId="http://xml.zeit.de/kultur/film/2015-07/amy-winehouse-film-asif-kapadia" year="2015" issue="28" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-15T07:37:39+00:00" date-first-released="2015-07-15T07:38:18.269127+00:00" date-last-published="2015-07-15T07:38:18.269127+00:00" last-semantic-change="2015-07-15T07:37:05.192211+00:00" author="Rabea Weihser">
+            <supertitle py:pytype="str">Amy Winehouse</supertitle>
+            <title py:pytype="str">Pop wollte sie nie sein</title>
+            <text py:pytype="str">Wer war Amy Winehouse: das zugedröhnte Starlet oder eine große musikalische Begabung? Der Kinofilm "Amy" führt auf die falsche Fährte.</text>
+            <description py:pytype="str">Wer war Amy Winehouse: das zugedröhnte Starlet oder eine große musikalische Begabung? Der Kinofilm "Amy" führt auf die falsche Fährte.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/film/2015-07/amy-winehouse/" type="jpg" title="Amy Winehouse" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Popstar wider Willen: Amy Winehouse fühlte sich nie wohl vor großem Publikum.</bu>
+              <copyright py:pytype="str">© 2015 PROKINO Filmverleih GmbH</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/W/Rabea_Weihser/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Rabea Weihser</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-7a087533-7672-43f4-9ca4-0290ab91a849" visible="True">
+          <block href="http://xml.zeit.de/kultur/musik/2015-06/genius-website-textanalyse-rap" uniqueId="http://xml.zeit.de/kultur/musik/2015-06/genius-website-textanalyse-rap" year="2015" issue="25" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-02T16:03:03+00:00" date-first-released="2015-06-30T09:45:19.639393+00:00" date-last-published="2015-07-02T16:03:54.844612+00:00" last-semantic-change="2015-06-30T09:44:06.062411+00:00" author="Felix Johannes Enzian">
+            <supertitle py:pytype="str">Genius.com</supertitle>
+            <title py:pytype="str">Wer Kanye kapiert, versteht auch Nietzsche</title>
+            <text py:pytype="str">Genius.com ist eine Website für Hobby-Schriftgelehrte. Erst deuteten sie nur Rap-Texte, jetzt kommentieren sie alles. Ein faszinierendes Gestrüpp aus Wissen und Unsinn</text>
+            <description py:pytype="str">Genius.com ist eine Website für Hobby-Schriftgelehrte. Erst deuteten sie nur Rap-Texte, jetzt kommentieren sie alles. Ein faszinierendes Gestrüpp aus Wissen und Unsinn</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/musik/2015-06/genius/" type="jpg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Die ganze Welt mit Anmerkungen versehen: Genius.com</bu>
+              <copyright py:pytype="str">© Screenshot Genius.com</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/E/Felix-Johannes_Enzian/index" publication-date="" expires="">
+              <display_name py:pytype="str">Felix Johannes Enzian</display_name>
+            </author>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-fbb4d263-3703-4c1b-afa0-8c0d0ed6195e" visible="True">
+          <block href="http://xml.zeit.de/2015/30/bass-bariton-thomas-quasthoff-debuet-dirigent" uniqueId="http://xml.zeit.de/2015/30/bass-bariton-thomas-quasthoff-debuet-dirigent" year="2015" issue="30" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-23T17:43:30+00:00" date-first-released="2015-07-23T17:44:28.960014+00:00" date-last-published="2015-07-23T17:44:28.960014+00:00" last-semantic-change="2015-07-23T17:43:23.551079+00:00" author="Christine Lemke-Matwey">
+            <supertitle py:pytype="str">Thomas Quasthoff</supertitle>
+            <title py:pytype="str">Braucht man wirklich Arme zum Dirigieren?</title>
+            <text py:pytype="str">Solange er gesungen hat, war er "die Stimme". Jetzt gibt der Bass-Bariton Thomas Quasthoff sein Debüt als Dirigent. Porträt eines Künstlers von unfassbarer Energie</text>
+            <description py:pytype="str">Solange er gesungen hat, war er "die Stimme". Jetzt gibt der Bass-Bariton Thomas Quasthoff sein Debüt als Dirigent. Porträt eines Künstlers von unfassbarer Energie</description>
+            <byline py:pytype="str">von Christine Lemke-Matwey</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/musik/2015-07/thomas-quasthoff/" type="jpg" title="Thomas Quasthoff" align="left" publication-date="" expires="2015-10-23T12:59:10+00:00">
+              <bu py:pytype="str">Er werde die "Matthäuspassion" nicht neu erfinden, sagt Thomas Quasthoff, aber die Musik solle fließen.</bu>
+              <copyright py:pytype="str">© Herbert Neubauer/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Christine_Lemke-Matwey/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christine Lemke-Matwey</display_name>
+            </author>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Musik</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Musik</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Musik</text>
+  </indexteaser>
+</centerpage>

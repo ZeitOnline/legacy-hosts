@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">angebote/bahngeschichten</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-11-17T10:46:59.276540+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-09-16T15:09:14.301581+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-11-17T10:47:59.049546+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-11-17T10:46:43.459794+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.lfischer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADMIN</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Administratives</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">bahngeschichten</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:b827123c-0791-4994-b940-1181331fd6eb}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="738e744b-3952-4f6e-a920-e613c2343af9"/>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="149fd524-48af-43de-8c12-d1b1ee3e2893" title="Weitere spannende Bahngeschichten finden Sie hier:">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/bahngeschichten/zurueck" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/bahngeschichten" date-last-modified="2011-10-14T13:33:03+00:00" date-first-released="2011-10-14T13:34:03.343256+00:00" date-last-published="2011-10-14T13:34:03.343256+00:00" last-semantic-change="2011-10-14T13:32:51.342047+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="7ef2a809-d000-4232-81c6-402ac013656e" title="Mehr zum Thema auf zeit.de">
+          <block href="http://xml.zeit.de/2011/15/Ps-Treue-Studien" year="2011" issue="15" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-04-11T04:09:43+00:00" date-first-released="2011-04-07T06:00:00+00:00" date-last-published="2011-04-11T04:10:42.670426+00:00" last-semantic-change="2011-04-11T04:04:12.795071+00:00">
+            <supertitle py:pytype="str">Partnerschaft</supertitle>
+            <title py:pytype="str">Das ewige Ideal von der Treue</title>
+            <text py:pytype="str">Die meisten Menschen träumen von einem treuen Partner. In der Natur gibt es kaum Vorbilder für die Monogamie. Um so erstaunlicher, dass es dem Menschen ab und zu gelingt.</text>
+            <description py:pytype="str">Die meisten Menschen träumen von einem treuen Partner. In der Natur gibt es kaum Vorbilder für die Monogamie. Um so erstaunlicher, dass es dem Menschen ab und zu gelingt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/partnerschaft/2011-04/partnerschaft-teaser/" type="jpg" publication-date="" expires="">
+              <bu>Hand in Hand durchs Leben zu gehen, das wünschen sich viele Paare. Selten hält der gemeinsame Weg ein Leben lang.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/PhotoSuse">© PhotoSuse/photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/partnerschaft/2011-01/artikel-paartherapie-fernbeziehung" year="2011" issue="3" ressort="Lebensart" publication-date="" expires="" date-last-modified="2011-01-18T14:17:22+00:00" date-first-released="2011-01-18T14:18:22.214060+00:00" date-last-published="2011-01-18T14:18:22.214060+00:00" last-semantic-change="2011-01-18T14:16:26.084847+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Liebe für Fortgeschrittene</supertitle>
+            <title py:pytype="str">"Eine Fernbeziehung ist eine zerstückelte Liebe"</title>
+            <text py:pytype="str">Kann man über Liebe streiten? Man muss sogar! In Teil 1 unserer Videokolumne sprechen die Journalistin Clara Ott und der Paartherapeut Michael Cöllen über Fernbeziehungen</text>
+            <description py:pytype="str">Kann man über Liebe streiten? Man muss sogar! In Teil 1 unserer Videokolumne sprechen die Journalistin Clara Ott und der Paartherapeut Michael Cöllen über Fernbeziehungen</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/partnerschaft/2011-01/partnerschaft-video/" type="jpg" publication-date="" expires="">
+              <bu>Diskutieren über die Liebe: Clara Ott und Michael Cöllen</bu>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <video href="http://video.zeit.de/video/753196889001" href2="" expires="" video_id="vid753196889001" video_id_2=""/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="333250c1-f01a-488c-83e5-a6e490caca98">
+          <block href="http://xml.zeit.de/2011/10/Liebeskolumne-Beziehungsstart" year="2011" issue="10" ressort="Lebensart" publication-date="2011-03-03T07:45:00+00:00" expires="" date-last-modified="2011-03-03T12:59:11+00:00" date-first-released="2011-03-03T06:00:00+00:00" date-last-published="2011-03-03T13:00:10.890778+00:00" last-semantic-change="2011-03-03T12:58:54.838305+00:00">
+            <supertitle py:pytype="str">Liebeskolumne</supertitle>
+            <title py:pytype="str">Kann sie ihm die andere je verzeihen?</title>
+            <text py:pytype="str">Jede Woche beantwortet der Paartherapeut Wolfgang Schmidbauer eine große Frage der Liebe. Diesmal: Kann sie ihm die andere je verzeihen?</text>
+            <description py:pytype="str">Jede Woche beantwortet der Paartherapeut Wolfgang Schmidbauer eine große Frage der Liebe. Diesmal: Kann sie ihm die andere je verzeihen?</description>
+            <byline py:pytype="str">Wolfgang Schmidbauer</byline>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/partnerschaft/2011-02/paar-kolumne-bild2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="40c2f063-1fd5-4ead-8480-50edf44b1edb">
+          <block href="http://xml.zeit.de/2011/37/Zug-Moskau-Lissabon" year="2011" issue="37" ressort="Reisen" publication-date="" expires="" date-last-modified="2011-09-20T12:58:15+00:00" date-first-released="2011-09-08T06:00:00+00:00" date-last-published="2011-09-20T12:59:14.920223+00:00" last-semantic-change="2011-09-19T16:49:48.249953+00:00">
+            <supertitle py:pytype="str">Bahnfahren in Europa</supertitle>
+            <title py:pytype="str">Unterwegs in vollen Zügen</title>
+            <text py:pytype="str">Hat jedes Land die Bahn, die es verdient? Mark Spörrle ist auf eine Testfahrt quer durch Europa gegangen. Seine Reise führte ihn von Moskau bis nach Lissabon. </text>
+            <description py:pytype="str">Hat jedes Land die Bahn, die es verdient? Mark Spörrle ist auf eine Testfahrt quer durch Europa gegangen. Seine Reise führte ihn von Moskau bis nach Lissabon. </description>
+            <byline py:pytype="str">Mark Spörrle</byline>
+            <image alt="Mit zehn verschiedenen Bahngesellschaften ist unser Autor von Russland bis nach Portugal gereist, mal auf dem Klappbett und mal im Ohrensessel." align="left" base-id="http://xml.zeit.de/reisen/2011-09/zug-2/" type="jpg" publication-date="" expires="">
+              <bu>Mit zehn verschiedenen Bahngesellschaften ist unser Autor von Russland bis nach Portugal gereist, mal auf dem Klappbett und mal im Ohrensessel.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/AlexanderHauck">© Alexander Hauck/photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2010/42/Mosaic-House-Prag" year="2010" issue="42" ressort="Reisen" publication-date="" expires="" date-last-modified="2010-11-01T18:12:17+00:00" date-first-released="2010-10-14T06:00:00+00:00" date-last-published="2010-11-01T17:10:19.331382+00:00" last-semantic-change="2010-11-01T17:09:07.587532+00:00">
+            <supertitle py:pytype="str">Hotels unter 100 Euro</supertitle>
+            <title py:pytype="str">Alterslos in Prag </title>
+            <text py:pytype="str">Eine große Party für alle: Die Gäste im Mosaic House in Prag sind jung und schön und beneidenswert trinkfest. Das sollte einen nicht schrecken, meint Michael Bahnerth. </text>
+            <description py:pytype="str">Eine große Party für alle: Die Gäste im Mosaic House in Prag sind jung und schön und beneidenswert trinkfest. Das sollte einen nicht schrecken, meint Michael Bahnerth. </description>
+            <byline py:pytype="str">Michael Bahnerth</byline>
+            <image alt="Blaue Stunde in Prag " align="left" title="Prag" base-id="http://xml.zeit.de/reisen/2010-10/prag/" type="jpg" publication-date="" expires="">
+              <bu>Blaue Stunde in Prag </bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="d4e6e84b-0b86-4e88-a994-9a07d6b8ffcc">
+          <block href="http://xml.zeit.de/studium/uni-leben/2011-01/interview-bahn-studentin" year="2011" issue="3" ressort="Studium" publication-date="" expires="" date-last-modified="2011-01-17T09:12:20+00:00" date-first-released="2011-01-14T10:03:28.080882+00:00" date-last-published="2011-01-17T09:13:19.860546+00:00" last-semantic-change="2011-01-14T10:00:07.451339+00:00">
+            <supertitle py:pytype="str">Studentenleben</supertitle>
+            <title py:pytype="str">Backpacker im eigenen Land</title>
+            <text py:pytype="str">Kunststudentin Corinna hat ihre Wohnung gegen eine Bahncard 100 getauscht und reist ein Jahr durch Deutschland. Im Interview erzählt sie von ihrem Leben auf Schienen.</text>
+            <description py:pytype="str">Kunststudentin Corinna hat ihre Wohnung gegen eine Bahncard 100 getauscht und reist ein Jahr durch Deutschland. Im Interview erzählt sie von ihrem Leben auf Schienen.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Blick aus Zugscheibe" align="left" title="Blick aus Zugscheibe" base-id="http://xml.zeit.de/studium/uni-leben/2011-01/landschaft-bahn-zugscheibe/" type="jpg" publication-date="" expires="">
+              <bu>Gewohnter Ausblick für Corinna: Die Landschaft hinter der Zugscheibe</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=284441">© aremac/photocase</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="cc686d50-bc7a-4a24-9d45-84be4b80a9a0">
+          <block href="http://xml.zeit.de/karriere/beruf/2011-08/management-fuehrungskraft" year="2011" issue="33" ressort="Karriere" publication-date="" expires="" date-last-modified="2011-10-27T08:07:42+00:00" date-first-released="2011-08-17T04:53:51.540326+00:00" date-last-published="2011-10-27T08:08:42.351709+00:00" last-semantic-change="2011-08-17T04:51:10.592824+00:00">
+            <supertitle py:pytype="str">Führungskräfte</supertitle>
+            <title py:pytype="str">Können Sie Chef?</title>
+            <text py:pytype="str">Führungskräfte können motivieren, inspirieren und instruieren. Brillante Chefs können sogar noch mehr. Wir zeigen zehn Fähigkeiten, die Entscheider haben sollten.</text>
+            <description py:pytype="str">Führungskräfte können motivieren, inspirieren und instruieren. Brillante Chefs können sogar noch mehr. Wir zeigen zehn Fähigkeiten, die Entscheider haben sollten.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Mann läuft die Straße entlang" align="left" title="boss" base-id="http://xml.zeit.de/karriere/beruf/2011-08/boss/" type="jpg" publication-date="" expires="">
+              <bu>Mann läuft die Straße entlang</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/kallejipp">© kallejipp / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2011-01/zen-rotarier" year="2011" issue="4" ressort="Karriere" publication-date="" expires="" date-last-modified="2011-01-27T14:07:44+00:00" date-first-released="2011-01-26T18:32:49.393706+00:00" date-last-published="2011-01-26T18:32:49.393706+00:00" last-semantic-change="2011-01-27T14:01:39.588493+00:00">
+            <supertitle py:pytype="str">Meditation</supertitle>
+            <title py:pytype="str">Manager üben sich im Meditieren</title>
+            <text py:pytype="str">Eine Gruppe von Unternehmern und Führungskräften trifft sich regelmäßig zum Meditieren nach der buddhistischen Zen-Methode. Sie wollen lernen, ohne Druck zu führen. </text>
+            <description py:pytype="str">Eine Gruppe von Unternehmern und Führungskräften trifft sich regelmäßig zum Meditieren nach der buddhistischen Zen-Methode. Sie wollen lernen, ohne Druck zu führen. </description>
+            <byline xsi:nil="true"/>
+            <image alt="Der ehemalige Unternehmensberater Axel Dubinksi beim Meditieren" align="left" title="dubinski" base-id="http://xml.zeit.de/karriere/beruf/2011-01/dubinksi/" type="jpg" publication-date="" expires="">
+              <bu>Der ehemalige Unternehmensberater Axel Dubinksi beim Meditieren</bu>
+              <copyright py:pytype="str">© Enorm</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/karriere/beruf/2011-07/entspannung-pausen-tipps" year="2011" issue="30" ressort="Karriere" publication-date="" expires="" date-last-modified="2011-08-03T16:32:56+00:00" date-first-released="2011-08-02T09:55:33.513143+00:00" date-last-published="2011-08-03T16:33:55.781944+00:00" last-semantic-change="2011-08-02T09:43:43.306987+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Entspannung</supertitle>
+            <title py:pytype="str">Kurze Pausen richtig nutzen</title>
+            <text py:pytype="str">Wer seine Tätigkeit jede Stunde für wenige Minuten unterbricht, ist produktiver. Wir haben fünf Tipps für die effektive Fünf-Minuten-Pause. </text>
+            <description py:pytype="str">Wer seine Tätigkeit jede Stunde für wenige Minuten unterbricht, ist produktiver. Wir haben fünf Tipps für die effektive Fünf-Minuten-Pause. </description>
+            <byline xsi:nil="true"/>
+            <image alt="Eine Frau macht Pause" align="left" title="pause" base-id="http://xml.zeit.de/karriere/beruf/2011-07/pause/" type="jpg" publication-date="" expires="">
+              <bu>Eine Frau macht Pause</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/cydonna">© cydonna / photocase.com</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="b70b1403-2fa0-4db2-8443-5a5d489d03b7">
+          <block href="http://xml.zeit.de/kultur/2011-10/bruessel-oper-des-jahres" year="2011" ressort="Kultur" publication-date="" expires="" date-last-modified="2011-10-05T07:57:41+00:00" date-first-released="2011-10-03T22:00:00+00:00" date-last-published="2011-10-05T07:58:41.175383+00:00" last-semantic-change="2011-10-05T07:57:28.410033+00:00">
+            <supertitle py:pytype="str">Musiktheater</supertitle>
+            <title py:pytype="str">Brüssel hat das "Opernhaus des Jahres"</title>
+            <text py:pytype="str">Zum ersten Mal liegt das beste Opernhaus nicht im deutschsprachigen Raum. Das Théâtre Royal de la Monnaie hat die Kritikerumfrage der Zeitschrift "Opernwelt" gewonnen.</text>
+            <description py:pytype="str">Zum ersten Mal liegt das beste Opernhaus nicht im deutschsprachigen Raum. Das Théâtre Royal de la Monnaie hat die Kritikerumfrage der Zeitschrift "Opernwelt" gewonnen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="La Monnaie" base-id="http://xml.zeit.de/kultur/musik/2011-10/monnaie/" type="jpg" publication-date="" expires="">
+              <bu>Das Théâtre Royal de la Monnaie in Brüssel</bu>
+              <copyright py:pytype="str">© Johan Jacobs</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="e219c611-e455-4111-97d2-1e03ee597a27">
+          <block href="http://xml.zeit.de/2011/36/Berlin-Mobilitaetskarte" year="2011" issue="36" ressort="Auto" publication-date="" expires="" date-last-modified="2011-09-05T15:49:35+00:00" date-first-released="2011-09-01T06:00:00+00:00" date-last-published="2011-09-05T15:50:35.555706+00:00" last-semantic-change="2011-09-05T15:49:22.473608+00:00">
+            <supertitle py:pytype="str">Berlin</supertitle>
+            <title py:pytype="str">Mobil à la carte</title>
+            <text py:pytype="str">Wie werden wir uns künftig durch die Stadt bewegen? Kerstin Bund testete die Mobilitätskarte in Berlin – und stellte fest: Man muss sehr gut organisiert sein.</text>
+            <description py:pytype="str">Wie werden wir uns künftig durch die Stadt bewegen? Kerstin Bund testete die Mobilitätskarte in Berlin – und stellte fest: Man muss sehr gut organisiert sein.</description>
+            <byline py:pytype="str">Von Kerstin Bund</byline>
+            <image alt="Ein Alfa Romeo MiTo von Flinkster, dem Carsharing-Angebot der DB" align="left" title="Carsharing DB Flinkster" base-id="http://xml.zeit.de/auto/2011-09/flinkster-alfa-romeo/" type="jpg" publication-date="" expires="">
+              <bu>Ein Alfa Romeo MiTo von Flinkster, dem Carsharing-Angebot der DB</bu>
+              <copyright py:pytype="str">© Wolfgang Kumm/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="afaeca9b-71fa-4b6c-9824-e002689c9e35">
+          <block href="http://xml.zeit.de/2011/30/Deutschlandkarte-Naturschutzgebiete" year="2011" issue="30" ressort="Wissen" publication-date="2011-07-21T05:02:40+00:00" expires="" date-last-modified="2011-07-21T05:02:43+00:00" date-first-released="2011-07-21T06:00:00+00:00" date-last-published="2011-07-21T05:03:42.565611+00:00" last-semantic-change="2011-07-20T08:09:23.585558+00:00">
+            <supertitle py:pytype="str">Deutschlandkarte</supertitle>
+            <title py:pytype="str">Geschützte Naturgebiete</title>
+            <text py:pytype="str">Zwischen Naturpark und Biosphäre verliert der Naturfreund schnell den Überblick. Dabei gibt es offiziell nur zwei Bezeichnungen für schützenswerte Gebiete.</text>
+            <description py:pytype="str">Zwischen Naturpark und Biosphäre verliert der Naturfreund schnell den Überblick. Dabei gibt es offiziell nur zwei Bezeichnungen für schützenswerte Gebiete.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Deutschlandkarte Naturschutzgebiete" base-id="http://xml.zeit.de/lebensart/2011-07/d-karte-30/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.joergblock.de">© Jörg Block</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2011/36/CH-Naturparks" year="2011" issue="36" ressort="Reisen" publication-date="2011-09-05T06:00:09+00:00" expires="" date-last-modified="2011-09-05T08:55:20+00:00" date-first-released="2011-09-01T06:00:00+00:00" date-last-published="2011-09-05T08:56:19.707723+00:00" last-semantic-change="2011-09-05T08:54:55.679548+00:00">
+            <supertitle py:pytype="str">Schweizer Naturparks</supertitle>
+            <title py:pytype="str">Das Mehr an Grün ist nicht erwünscht</title>
+            <text py:pytype="str">Seit fünf Jahren fördert der Bund strukturschwache Gegenden in der Schweiz mit Naturparks. In manchen Regionen scheitern die Projekte. Und keiner weiß richtig, warum. </text>
+            <description py:pytype="str">Seit fünf Jahren fördert der Bund strukturschwache Gegenden in der Schweiz mit Naturparks. In manchen Regionen scheitern die Projekte. Und keiner weiß richtig, warum. </description>
+            <byline py:pytype="str">Von Christoph Lenz</byline>
+            <image alt="Blick über den Thunersee" align="left" title="Thunersee" base-id="http://xml.zeit.de/reisen/2011-09/thunersee/" type="jpg" publication-date="" expires="">
+              <bu>Blick über den Thunersee</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/user.asp?u=29436">© pixelbude / photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/zeit-wissen/2011/s2/Oekotourismus-Naturerlebnis" year="2011" ressort="Reisen" publication-date="" expires="" date-last-modified="2011-05-10T15:18:47+00:00" date-first-released="2011-03-15T06:00:00+00:00" date-last-published="2011-05-10T15:19:46.906312+00:00" last-semantic-change="2011-05-10T15:18:33.650976+00:00">
+            <supertitle py:pytype="str">Ökotourismus </supertitle>
+            <title py:pytype="str">Urlauben abseits touristischer Trampelpfade</title>
+            <text py:pytype="str">Durch die Wildnis der Alpen wandern oder bedrohte Orang-Utans beobachten – neue Ökotourismus-Angebote machen Naturerlebnisse mit gutem Gewissen möglich.</text>
+            <description py:pytype="str">Durch die Wildnis der Alpen wandern oder bedrohte Orang-Utans beobachten – neue Ökotourismus-Angebote machen Naturerlebnisse mit gutem Gewissen möglich.</description>
+            <byline py:pytype="str">Susanne Schäfer</byline>
+            <image alt="Ein Wanderer blickt hinunter auf den Nebel über Garmisch-Partenkirchen. " align="left" base-id="http://xml.zeit.de/reisen/2011-05/berg/" type="jpg" publication-date="" expires="">
+              <bu>Ein Wanderer blickt hinunter auf den Nebel über Garmisch-Partenkirchen. </bu>
+              <copyright py:pytype="str">© CHRISTOF STACHE/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="0231c164-bfe7-4b31-8edd-0a260ed52559">
+          <block href="http://xml.zeit.de/reisen/2011-09/fs-eyes-on-paris" year="2011" issue="36" ressort="Reisen" publication-date="" expires="2012-01-07T17:24:14+00:00" date-last-modified="2011-10-21T09:08:00+00:00" date-first-released="2011-09-14T12:28:50.258250+00:00" date-last-published="2011-09-14T12:28:50.258250+00:00" last-semantic-change="2011-09-14T12:24:55.948508+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Paris im Bild </supertitle>
+            <title py:pytype="str">Eine Metropole als Muse</title>
+            <text py:pytype="str">Paris ist die wohl am meisten fotografierte Stadt der Welt. Eine Ausstellung in Hamburg zeigt, dass die Stadt für Fotokünstler viel mehr ist als romantische Kulisse.</text>
+            <description py:pytype="str">Paris ist die wohl am meisten fotografierte Stadt der Welt. Eine Ausstellung in Hamburg zeigt, dass die Stadt für Fotokünstler viel mehr ist als romantische Kulisse.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="FS Eyes on Paris Teaser" base-id="http://xml.zeit.de/reisen/2011-09/fs-eyes-on-paris-teaser/" type="jpg" publication-date="" expires="2012-01-07T17:20:27+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Gianni Berengo Gardin</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Bahngeschichten</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Bahngeschichten</title>
+  </teaser>
+</centerpage>

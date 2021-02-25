@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute ns="INTERNAL" name="cached-time">2009-09-04 21:54:53.961414+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-09-04T21:55:30.109527+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-09-04T21:55:29.882524+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.fmohr</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wissen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:870c2c2b-2a4c-49ce-a14e-4bbb89d0cb37}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="homepage_news" module="homepage_news" cp:__name__="57dd77f0-1538-40f8-a463-84eeafd1b53d">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="95404cec-e37d-48ec-b495-1af314e7d733" title="Das Zeit Wissen Magazin abonnieren">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/zeit-wissen/2009/zeit-wissen-abo-link" year="2009" issue="37" date-last-modified="2009-09-04T13:18:00+00:00" last-semantic-change="2009-09-04T13:17:30.370487+00:00" date-first-released="2009-09-04T13:19:00.448956+00:00" date-last-published="2009-09-04T13:19:00.448956+00:00" publication-date="" expires="" ns0:href="http://www.zeitabo.de/magazin-angebote/zeit-wissen/jahres-abo.html">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zeit Wissen Abo</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <short>
+              <title xsi:nil="true"/>
+              <text py:pytype="str">Zeit Wissen Abo</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/2009/zeit-wissen/05/zw-cover-05/zw-cover-05-368x110.jpg" date-last-modified="2009-09-04T14:11:01+00:00" last-semantic-change="" date-first-released="2009-09-04T08:34:47.562378+00:00" date-last-published="2009-09-04T14:12:00.083517+00:00" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" cp:__name__="02e70200-e252-4a8e-b863-379d6188f22c">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/themen/wissen/wissenschaft/fragen-der-wissenschaft/fragen-der-wissenschaft-link" year="2009" issue="36" date-last-modified="2009-09-04T15:48:48+00:00" last-semantic-change="2009-09-03T15:26:58.278557+00:00" date-first-released="2009-09-02T17:17:55.587983+00:00" date-last-published="2009-09-03T15:28:08.105916+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=fragen-der-wissenschaft">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Die 12 großen Fragen der Wissenschaft</title>
+            <text py:pytype="str">Wo stoßen Forscher heute an ihre Grenzen? ZEIT Wissen stellt die wichtigsten Fragen aus Physik, Biologie, Medizin, Mathematik und Geologie vor. Ein Überblick</text>
+            <description py:pytype="str">Wo stoßen Forscher heute an ihre Grenzen? ZEIT Wissen stellt die wichtigsten Fragen aus Physik, Biologie, Medizin, Mathematik und Geologie vor. Ein Überblick</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Serie</title>
+              <text py:pytype="str">Die 12 großen Fragen der Wissenschaft</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <references/>
+            <image alt="12 Fragen Wissenschaft Menschheit" align="left" base-id="http://xml.zeit.de/bilder/2008/52/wissen/wissenschaft/wissens-fragen/" type="jpg" date-last-modified="2009-09-02T10:59:57+00:00" last-semantic-change="2009-09-02T10:58:16.935258+00:00" date-first-released="2008-12-19T07:49:12.262226+00:00" date-last-published="2009-09-04T15:49:46.152603+00:00" publication-date="" expires="">
+              <bu>Geheimnisvoll schlängeln sich leuchtende Streifen und Blitze durch die Plasmalampe.</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=36845">© Shadowforce/photocase.de</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/31/bg-zootier-autopsie" year="2009" issue="31" date-last-modified="2009-09-04T20:43:49+00:00" last-semantic-change="2009-09-04T20:43:48.886914+00:00" date-first-released="2009-08-04T08:54:36.152429+00:00" date-last-published="2009-08-05T07:46:34.375276+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Tier-Autopsie im Fernsehen</supertitle>
+            <title py:pytype="str">Zootiere unterm Messer</title>
+            <text py:pytype="str">Elefant, Giraffe, Krokodil und Wal: Eine britische Dokumentation zeigt, wie riesige Wirbeltiere von Tierärzten seziert werden. Erstaunliche Innenansichten als Galerie.</text>
+            <description py:pytype="str">Elefant, Giraffe, Krokodil und Wal: Eine britische Dokumentation zeigt, wie riesige Wirbeltiere von Tierärzten seziert werden. Erstaunliche Innenansichten als Galerie.</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Tier-Autopsie im TV</title>
+              <text py:pytype="str">Zootiere unterm Messer</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <references>
+              <reference type="intern" href="http://xml.zeit.de/2009/27/bg-tiere-im-dunkeln" year="2009" issue="27" date-last-modified="2009-09-03T12:01:54+00:00" last-semantic-change="2009-06-26T14:16:19.633705+00:00" date-first-released="2009-06-28T15:53:09.756958+00:00" date-last-published="2009-06-28T15:53:09.756958+00:00" publication-date="" expires="">
+                <supertitle py:pytype="str">Tierpark im Dunkeln</supertitle>
+                <title py:pytype="str">Das Nachtleben der Tiere</title>
+                <text py:pytype="str">Was passiert, wenn es dunkel wird im Zoo – und der letzte Pfleger gegangen ist? Unser Fotograf machte Nachtschicht im Münchner Tierpark Hellabrunn.</text>
+                <description py:pytype="str">Was passiert, wenn es dunkel wird im Zoo – und der letzte Pfleger gegangen ist? Unser Fotograf machte Nachtschicht im Münchner Tierpark Hellabrunn.</description>
+                <byline py:pytype="str">Von Christine Meffert</byline>
+                <short>
+                  <title py:pytype="str">Tierpark im Dunkeln</title>
+                  <text py:pytype="str">Das Nachtleben der Tiere. Eine Galerie</text>
+                </short>
+                <homepage>
+                  <title xsi:nil="true"/>
+                  <text xsi:nil="true"/>
+                </homepage>
+                <image base-id="http://xml.zeit.de/bilder/2009/27/bildergalerien/teaser/bg-tiere-im-dunkeln/" type="jpg" date-last-modified="2009-06-25T12:14:37+00:00" last-semantic-change="2009-06-25T14:23:08.391878+00:00" date-first-released="2009-06-25T14:24:21.412515+00:00" date-last-published="2009-06-25T14:24:21.412515+00:00" publication-date="" expires="">
+                  <bu xsi:nil="true"/>
+                  <copyright py:pytype="str">©</copyright>
+                </image>
+              </reference>
+              <reference type="intern" href="http://xml.zeit.de/online/2009/17/bg-tierbabies" year="2009" issue="17" date-last-modified="2009-08-31T13:27:18+00:00" last-semantic-change="2009-04-21T17:02:08.839933+00:00" date-first-released="2009-04-17T15:38:54.235328+00:00" date-last-published="2009-04-20T08:10:36.945524+00:00" publication-date="" expires="">
+                <supertitle py:pytype="str">Tierbabys</supertitle>
+                <title py:pytype="str">Knuts Erben</title>
+                <text py:pytype="str">Der Frühling ließ dieses Jahr lange auf sich warten, in den Zoos kamen trotzdem zahlreiche Jungtiere zur Welt. Bilder der neuen Generation.</text>
+                <description py:pytype="str">Der Frühling ließ dieses Jahr lange auf sich warten, in den Zoos kamen trotzdem zahlreiche Jungtiere zur Welt. Bilder der neuen Generation.</description>
+                <byline py:pytype="str">Von Sven Stockrahm und Marlene Weiss</byline>
+                <short>
+                  <title py:pytype="str">Tierbabys</title>
+                  <text py:pytype="str">Nachwuchs in deutschen Zoos</text>
+                </short>
+                <homepage>
+                  <title xsi:nil="true"/>
+                  <text xsi:nil="true"/>
+                </homepage>
+                <image base-id="http://xml.zeit.de/bilder/2009/17/bildergalerien/teaser/bg-tierbabies/" type="jpg" date-last-modified="2009-04-17T09:44:05+00:00" last-semantic-change="" date-first-released="2009-04-17T10:15:46.674992+00:00" date-last-published="2009-04-17T10:15:46.674992+00:00" publication-date="" expires="">
+                  <bu xsi:nil="true"/>
+                  <copyright py:pytype="str">©</copyright>
+                </image>
+              </reference>
+            </references>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/31/bildergalerien/teaser/bg-zootier-autopsie/" type="jpg" date-last-modified="2009-09-04T08:08:18+00:00" last-semantic-change="2009-09-04T08:06:37.808231+00:00" date-first-released="2009-07-27T11:40:17.967952+00:00" date-last-published="2009-09-04T08:09:25.380992+00:00" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/bilder/2009/31/bildergalerien/teaser/bg-zootier-autopsie/" date-last-modified="2009-09-04T08:08:18+00:00" last-semantic-change="2009-09-04T08:06:37.808231+00:00" date-first-released="2009-07-27T11:40:17.967952+00:00" date-last-published="2009-09-04T08:09:25.380992+00:00" publication-date="" expires=""/>
+        </container>
+        <container cp:type="ressort_news" module="ressort_news" cp:__name__="c96b567a-639b-480d-8a20-807fc43755ca">
+          <cp_extra id="ressort_news"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="258bff02-8420-4efc-a038-241a662f777e">
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="9343ebda-89a1-4e12-b29f-74c78a1472fd" title="Thema: Zukunftsforschung">
+          <block type="intern" href="http://xml.zeit.de/themen/wissen/erde-der-zukunft/index_r09" year="2009" date-last-modified="2009-09-04T18:51:54+00:00" last-semantic-change="2009-09-04T18:51:51.940894+00:00" date-first-released="" date-last-published="" publication-date="" expires="">
+            <supertitle py:pytype="str">Zukunftsforschung</supertitle>
+            <title py:pytype="str">Erde 3.0</title>
+            <text py:pytype="str">Wie könnte unser Leben aussehen – in der Welt von morgen? Ein Schwerpunkt von ZEIT ONLINE, zusammen mit "spektrumdirekt.de" und "Spektrum der Wissenschaft"</text>
+            <description py:pytype="str">Wie könnte unser Leben aussehen – in der Welt von morgen? Ein Schwerpunkt von ZEIT ONLINE, zusammen mit "spektrumdirekt.de" und "Spektrum der Wissenschaft"</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Zukunftsforschung</title>
+              <text py:pytype="str">Erde 3.0</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/2009/standards/wissen/erde-3.0/2-erde-3.0/2-erde-3.0-220x268.jpg" date-last-modified="2009-08-31T17:30:27+00:00" last-semantic-change="" date-first-released="2009-08-27T15:25:20.994246+00:00" date-last-published="2009-08-31T17:31:27.539421+00:00" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="83ea5698-7b30-412b-b77c-3a0f8694f43d" title="Serie: Naturfotografie">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/themen/wissen/wissenschaft/klicken-fuers-klima/klima-galerien-link" year="2009" issue="36" date-last-modified="2009-09-03T15:25:00+00:00" last-semantic-change="2009-09-03T15:24:48.778952+00:00" date-first-released="2009-09-02T14:16:12.206140+00:00" date-last-published="2009-09-03T15:25:59.842047+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=klicken-klima">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">Faszinierende Naturbilder</title>
+            <text py:pytype="str">Für jedes Foto, dass Sie bei "Care &amp; Click" gratis herunterladen, werden neue Bäume gepflanzt. Wir zeigen die schönsten Bilder namhafter Fotografen und Nachwuchstalente</text>
+            <description py:pytype="str">Für jedes Foto, dass Sie bei "Care &amp; Click" gratis herunterladen, werden neue Bäume gepflanzt. Wir zeigen die schönsten Bilder namhafter Fotografen und Nachwuchstalente</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Fotostrecke in Serie</title>
+              <text py:pytype="str">Faszinierende Tier- und Naturbilder</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <references/>
+            <image alt="Klimaschutz Fotografie Tiere Bäume " align="left" base-id="http://xml.zeit.de/bilder/2008/standards/wissen/allgemein/klima-klick/" type="jpg" date-last-modified="2009-08-31T13:19:14+00:00" last-semantic-change="2009-08-31T13:17:20.606358+00:00" date-first-released="2008-12-14T22:36:24.121537+00:00" date-last-published="2009-08-31T13:27:53.480073+00:00" publication-date="" expires="">
+              <bu>Kostenlose Downloads für den Klimaschutz: Laden Sie sich bei "Care &amp; Click" täglich ein Foto herunter und unterstützen Sie damit die Aufforstung deutscher Wälder</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=153947">© photocase, Montage: ZEIT ONLINE Grafik</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="97663c6f-45fb-4ef4-b89b-48a78768b706" title="Quiz">
+          <block type="intern" href="http://xml.zeit.de/online/2009/26/quiz-solarkraft" year="2009" issue="26" date-last-modified="2009-09-02T15:02:52+00:00" last-semantic-change="2009-08-31T13:33:09.491857+00:00" date-first-released="2009-06-27T07:52:55.545738+00:00" date-last-published="2009-08-13T09:49:05.356279+00:00" publication-date="" expires="">
+            <supertitle py:pytype="str">Energie-Quiz</supertitle>
+            <title py:pytype="str">Was wissen Sie über Solarkraft?</title>
+            <text py:pytype="str">Die Sonne könnte den Energiebedarf der Menschheit decken. Aber noch ist die Gewinnung von Sonnenenergie teuer. Testen Sie Ihr Wissen über Methoden zur Energiegewinnung</text>
+            <description py:pytype="str">Die Sonne könnte den Energiebedarf der Menschheit decken. Aber noch ist die Gewinnung von Sonnenenergie teuer. Testen Sie Ihr Wissen über Methoden zur Energiegewinnung</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Energie-Quiz</title>
+              <text py:pytype="str">Was wissen Sie über Solarkraft?</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" src="http://xml.zeit.de/bilder/2009/26/wissen/solarkraft/07/07-540x304.jpg" type="jpg" date-last-modified="2009-09-02T14:44:55+00:00" last-semantic-change="" date-first-released="" date-last-published="" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©  DB Solar Millenium AG/dpa</copyright>
+            </image>
+            <references>
+              <reference type="intern" href="http://xml.zeit.de/themen/wirtschaft/maerkte/energiemaerkte/index" year="2009" date-last-modified="2009-08-31T09:16:48+00:00" last-semantic-change="2009-08-31T09:16:47.627309+00:00" date-first-released="2008-07-24T11:28:49.517559+00:00" date-last-published="2009-08-03T11:22:50.626589+00:00" publication-date="" expires="">
+                <supertitle py:pytype="str">Schwerpunkt</supertitle>
+                <title py:pytype="str">Die Sucht nach Öl und Strom</title>
+                <text py:pytype="str">Ohne Strom, Öl und Benzin können die Industriestaaten nicht sein. Ein Schwerpunkt rund um Energie</text>
+                <description py:pytype="str">Ohne Strom, Öl und Benzin können die Industriestaaten nicht sein. Ein Schwerpunkt rund um Energie</description>
+                <byline xsi:nil="true"/>
+                <short>
+                  <title py:pytype="str">Energie</title>
+                  <text py:pytype="str">Wir brauchen sie, und das hat Folgen. Ein Spezial</text>
+                </short>
+                <homepage>
+                  <title py:pytype="str">Sucht nach Öl und Strom</title>
+                  <text py:pytype="str">Lebensnotwendige Energie und die Folgen</text>
+                </homepage>
+                <image base-id="http://xml.zeit.de/bilder/2008/standards/wirtschaft/energie/energie/" type="jpg" date-last-modified="2008-05-21T14:15:36+00:00" last-semantic-change="" date-first-released="" date-last-published="" publication-date="" expires="">
+                  <bu xsi:nil="true"/>
+                  <copyright py:pytype="str">©</copyright>
+                </image>
+              </reference>
+              <reference type="intern" href="http://xml.zeit.de/leben/spielen/quiz/index" year="2009" issue="12" date-last-modified="2009-08-17T09:48:44+00:00" last-semantic-change="2009-08-17T09:49:12.724591+00:00" date-first-released="2009-03-16T15:24:16.785151+00:00" date-last-published="2009-04-27T09:14:13.952216+00:00" publication-date="" expires="">
+                <supertitle py:pytype="str">Gute Frage</supertitle>
+                <title py:pytype="str">Quiz</title>
+                <text py:pytype="str">Testen Sie Ihr Wissen zu aktuellen Themen auf ZEIT ONLINE</text>
+                <description py:pytype="str">Testen Sie Ihr Wissen zu aktuellen Themen auf ZEIT ONLINE</description>
+                <byline xsi:nil="true"/>
+                <short>
+                  <title py:pytype="str">Spiele</title>
+                  <text py:pytype="str">Alle Quiz auf ZEIT ONLINE</text>
+                </short>
+                <homepage>
+                  <title xsi:nil="true"/>
+                  <text xsi:nil="true"/>
+                </homepage>
+                <image alt="Eine Sammlung aller Quiz auf ZEIT ONLINE" align="left" base-id="http://xml.zeit.de/bilder/2009/standards/spiele/cp-quiz/" type="jpg" date-last-modified="2009-08-11T14:06:11+00:00" last-semantic-change="2009-04-24T12:28:53.022631+00:00" date-first-released="2009-04-24T12:30:06.163983+00:00" date-last-published="2009-04-24T12:30:06.163983+00:00" publication-date="" expires="">
+                  <bu>Eine Sammlung aller Quiz auf ZEIT ONLINE</bu>
+                  <copyright py:pytype="str">© Heiko Meyer/ddp</copyright>
+                </image>
+              </reference>
+              <reference type="intern" href="http://xml.zeit.de/themen/wissen/erde-der-zukunft/index" year="2009" date-last-modified="2009-08-31T17:29:18+00:00" last-semantic-change="2009-08-26T13:51:30.181252+00:00" date-first-released="2009-05-19T14:26:25.212163+00:00" date-last-published="2009-08-28T06:48:08.015136+00:00" publication-date="" expires="">
+                <supertitle py:pytype="str">Zukunftsforschung</supertitle>
+                <title py:pytype="str">Erde 3.0</title>
+                <text py:pytype="str">Wie könnte unser Leben aussehen? Ein Schwerpunkt von ZEIT ONLINE, zusammen mit "spektrumdirekt.de" und "Spektrum der Wissenschaft"</text>
+                <description py:pytype="str">Wie könnte unser Leben aussehen? Ein Schwerpunkt von ZEIT ONLINE, zusammen mit "spektrumdirekt.de" und "Spektrum der Wissenschaft"</description>
+                <byline xsi:nil="true"/>
+                <short>
+                  <title py:pytype="str">Erde 3.0</title>
+                  <text py:pytype="str">Wie leben wir in Zukunft? Ein Schwerpunkt</text>
+                </short>
+                <homepage>
+                  <title xsi:nil="true"/>
+                  <text xsi:nil="true"/>
+                </homepage>
+                <image alt="Erde 3.0 - Wie wird die Forschung unsere Welt verändern? Ein Schwerpunkt" align="left" base-id="http://xml.zeit.de/bilder/2009/standards/wissen/erde-3.0/2-erde-3.0/" type="jpg" date-last-modified="2009-08-28T12:35:35+00:00" last-semantic-change="2009-08-26T13:09:37.177739+00:00" date-first-released="2009-05-18T13:42:39.758859+00:00" date-last-published="2009-08-31T17:30:15.814480+00:00" publication-date="" expires="">
+                  <bu>Erde 3.0 – Wie wird die Forschung unsere Welt verändern? Ein Schwerpunkt</bu>
+                  <copyright py:pytype="str">© ZEIT ONLINE Grafik</copyright>
+                </image>
+              </reference>
+            </references>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="dda7da67-3680-4049-a692-1da57264dac0" title="Serie: Historische Ereignisse">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/zeitlaeufte/zeitlaeufte-serie-link" year="2009" issue="36" date-last-modified="2009-09-04T15:14:24+00:00" last-semantic-change="2009-09-04T15:14:23.470415+00:00" date-first-released="2009-09-02T17:24:11.686219+00:00" date-last-published="2009-09-03T15:28:55.325268+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/serie/index?q=zeitlaeufte">
+            <supertitle py:pytype="str">Serie</supertitle>
+            <title py:pytype="str">ZEITläufte</title>
+            <text py:pytype="str">Historische Ereignisse und ihre Hintergründe. Stöbern Sie in den aktuellen Stücken aus dem ZEIT-Ressort</text>
+            <description py:pytype="str">Historische Ereignisse und ihre Hintergründe. Stöbern Sie in den aktuellen Stücken aus dem ZEIT-Ressort</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">ZEITläufte</title>
+              <text py:pytype="str">Historische Ereignisse und ihre Hintergründe</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <references/>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/standards/wissen/elysee-vertrag/" type="jpg" date-last-modified="2009-09-02T10:52:16+00:00" last-semantic-change="2009-09-02T10:50:35.147449+00:00" date-first-released="2009-06-25T16:12:39.787834+00:00" date-last-published="2009-09-02T10:53:30.843248+00:00" publication-date="" expires="">
+              <bu>Das Original des Elysee-Vertrags. 1963 wurde der über die deutsch-französische Zusammenarbeit unterzeichnet</bu>
+              <copyright py:pytype="str">© Michael Urban/ddp </copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Zeitwissen</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Zeitwissen</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Rahmen Zeitwissen</text>
+  </indexteaser>
+</centerpage>

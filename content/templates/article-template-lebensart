@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-07-23T15:23:00.309669+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-09-15T15:54:19.903823+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2016-08-11T07:21:04.837780+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2016-08-11T07:21:04.733924+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2016-08-11T07:21:04.615977+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="first_count">2009-09-03</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-10-17T18:49:10.025683+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="last_count">2009-09-20</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.schnerring</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_to">2010-12-25T16:16:44+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Lebensart</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="retract_job_id">817988989</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_type">Template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/lifetimecounter" name="total_hits">27</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:121a9090-06a4-4a05-b2ed-11fe3874d562}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature" visible="True" visible_mobile="True">
+      <region area="lead" visible="True" visible_mobile="True" hide-dupes="True"/>
+      <region area="informatives" visible="True" visible_mobile="True" hide-dupes="True">
+        <container cp:type="cpextra" module="homepage_news" cp:__name__="5077f29e-7973-4f4b-90d3-1711a2f61349" visible="True" visible_mobile="True">
+          <cp_extra id="homepage_news"/>
+        </container>
+        <container cp:type="cpextra" module="ressort_news" cp:__name__="5abf5a20-9821-4406-85c9-6a7bb3d7aa62" visible="True" visible_mobile="True">
+          <cp_extra id="ressort_news"/>
+        </container>
+        <container cp:type="cpextra" module="facebook_connect_box" cp:__name__="9222ff41-fff1-4918-8baf-17db17322d5c" visible="True" visible_mobile="True">
+          <cp_extra id="facebook_connect_box"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c4dbed9a-5af8-4786-9cea-c411690bb432" title="Serie: Freunde von Freunden" layout="368x220" visible="True" visible_mobile="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/freunde-von-freunden" year="2012" issue="15" ressort="Lebensart" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/freunde-von-freunden" date-last-modified="2013-06-12T08:33:13+00:00" date-first-released="2012-04-05T10:53:19.968235+00:00" date-last-published="2013-06-12T08:33:19.982483+00:00" last-semantic-change="2013-06-12T08:32:03.438303+00:00" uniqueId="http://xml.zeit.de/freunde-von-freunden">
+            <supertitle py:pytype="str">Wohndesign</supertitle>
+            <title py:pytype="str">Freunde von Freunden</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/2013-03/fs-alejandro-sticotti-mercedes-hernaez-teaser/" type="jpg" title="Alejandro Sticotti und Mercedes Hernaez" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="hhttp://www.freundevonfreunden.com/interviews/alejandro-sticotti-mercedes-hernaez/">© Ana Armendariz für Freunde von Freunden</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/lebensart/2013-03/fs-louise-brody-fvf-teaser/fs-louise-brody-fvf-teaser-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="cpextra" module="linkatory" cp:__name__="11062ef0-972d-4ba3-a466-c0d79d01e6a5" visible="True" visible_mobile="True">
+          <cp_extra id="linkatory"/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="03f21e14-3a82-4154-a356-93b6632c975e" visible="True" visible_mobile="True">
+          <video videoID="36539714001" player="pls" format="large"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic" visible="True" visible_mobile="True">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="3143562d-fa2a-484d-a352-2c1925dada11" visible="True" visible_mobile="True" hide-dupes="True">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-cd2d6208-baae-4d32-9e29-3e79a2da14e3" title="Modewochen" visible="True" visible_mobile="True" text_color="dark" overlay_level="3">
+          <block uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/templates/article-template-lebensart#ea7e439a-738d-4223-90ce-363b51904fab" year="2013" issue="8" ressort="Lebensart" contenttype="link" publication-date="" expires="" href="http://xml.zeit.de/lebensart/mode/2013-02/link-schlagwort-fashion-week" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">Fashion Week</supertitle>
+            <title py:pytype="str">Vom Rand des Laufstegs</title>
+            <text py:pytype="str">Aktuelle Berichte von den Schauen in New York, London, Mailand, Paris und Berlin auf ZEIT ONLINE</text>
+            <description py:pytype="str">Aktuelle Berichte von den Schauen in New York, London, Mailand, Paris und Berlin auf ZEIT ONLINE</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/mode/2013-02/fashion-week/" type="jpg" title="Fashion Week" publication-date="" expires="">
+              <bu py:pytype="str">Models present creations from the Felder &amp;amp; Felder Autumn/Winter 2013 collection during London Fashion Week, February 15, 2013. REUTERS/Olivia Harris (BRITAIN - Tags: FASHION)</bu>
+              <copyright py:pytype="str">© Olivia Harris/Reuters</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="65e0ab98-b12a-435d-9b69-f7f437d46b95" visible="True" visible_mobile="True" text_color="dark" overlay_level="3">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/blogs/link-nachgesalzen" year="2008" ressort="Lebensart" publication-date="" expires="" ns0:href="http://blog.zeit.de/nachgesalzen/" date-last-modified="2013-03-27T12:50:47+00:00" date-first-released="2008-08-20T09:00:51.690085+00:00" date-last-published="2013-03-27T12:51:47.225542+00:00" last-semantic-change="2010-08-30T12:34:36.107752+00:00" contenttype="link" uniqueId="http://xml.zeit.de/blogs/link-nachgesalzen">
+            <supertitle py:pytype="str">Kochblog</supertitle>
+            <title py:pytype="str">Nachgesalzen</title>
+            <text py:pytype="str">Die Meisterköche Karl-Josef Fuchs, Jürgen Koch und Christian Mittermeier verraten ihre Tipps und Tricks</text>
+            <description py:pytype="str">Die Meisterköche Karl-Josef Fuchs, Jürgen Koch und Christian Mittermeier verraten ihre Tipps und Tricks</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/weblogs/2010-05/nachgesalzen/" type="jpg" title="Nachgesalzen Blog Teaser" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Alex Wong/Getty Images</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="43f6b0d9-16e1-4f1d-af15-57944ba564f0" title="Schrebergärten" visible="True" visible_mobile="True" text_color="dark" overlay_level="3">
+          <block uniqueId="http://teaser.vivi.zeit.de/http://xml.zeit.de/templates/article-template-lebensart#ef39ac01-ef28-4543-863a-ece3a930e65d" year="2013" issue="23" ressort="Lebensart" contenttype="link" publication-date="" expires="" href="http://xml.zeit.de/lebensart/2013-06/link-hinter-der-hecke-schrebergarten" cp:free-teaser="True" date-first-released="" date-last-published="">
+            <supertitle py:pytype="str">"Hinter der Hecke"</supertitle>
+            <title py:pytype="str">Hinter der Hecke</title>
+            <text py:pytype="str">Eine Schrebergarten-Kolonie ist ein eigener Kosmos. Unser Kolumnist Ulrich Ladurner erforscht ihn und seine Bewohner mit Demut, Feinsinn und Humor.</text>
+            <description py:pytype="str">Eine Schrebergarten-Kolonie ist ein eigener Kosmos. Unser Kolumnist Ulrich Ladurner erforscht ihn und seine Bewohner mit Demut, Feinsinn und Humor.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/2013-06/schrebergarten-link/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://www.photocase.de/AlexanderHauck">© nurmalso/photocase.com</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="c7898d59-f542-4463-a2d0-72bf5515f230" visible="True" visible_mobile="True" text_color="dark" overlay_level="3">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/lebensart/2010-10/heiter-blog-link" year="2010" issue="44" ressort="Lebensart" publication-date="" expires="" ns0:href="http://blog.zeit.de/zeitmagazin/" date-last-modified="2014-07-23T14:45:30+00:00" date-first-released="2010-10-28T12:34:49.933710+00:00" date-last-published="2014-07-23T14:46:30.584405+00:00" last-semantic-change="2011-03-07T10:59:52.519268+00:00" contenttype="link" uniqueId="http://xml.zeit.de/lebensart/2010-10/heiter-blog-link">
+            <supertitle py:pytype="str">ZEITmagazin</supertitle>
+            <title py:pytype="str">Die persönlichen Entdeckungen der Redaktion</title>
+            <text py:pytype="str">Oft sind es die einfachen Dinge, die uns heiter bis glücklich stimmen. Im "Heiter bis glücklich"-Blog stellt die ZEITmagazin-Redaktion ihre Entdeckungen vor.</text>
+            <description py:pytype="str">Oft sind es die einfachen Dinge, die uns heiter bis glücklich stimmen. Im "Heiter bis glücklich"-Blog stellt die ZEITmagazin-Redaktion ihre Entdeckungen vor.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/lebensart/2010-10/heiter-blog-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEITmagazin</copyright>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel-Rahmen Lebensart</title>
+  </body>
+  <feed>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/lebensart/2010-10/heiter-blog-link" year="2010" issue="44" ressort="Lebensart" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/zeitmagazin/">
+      <supertitle py:pytype="str">ZEITmagazin</supertitle>
+      <title py:pytype="str">Die persönlichen Entdeckungen der Redaktion</title>
+      <text py:pytype="str">Oft sind es die einfachen Dinge, die uns heiter bis glücklich stimmen. Im "Heiter bis glücklich"-Blog stellt die ZEITmagazin-Redaktion ihre Entdeckungen vor.</text>
+      <description py:pytype="str">Oft sind es die einfachen Dinge, die uns heiter bis glücklich stimmen. Im "Heiter bis glücklich"-Blog stellt die ZEITmagazin-Redaktion ihre Entdeckungen vor.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/2010-10/heiter-blog-teaser/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© ZEITmagazin</copyright>
+      </image>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/lebensart/2013-06/link-hinter-der-hecke-schrebergarten" year="2013" issue="23" ressort="Lebensart" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/serie/hinter-der-hecke">
+      <supertitle py:pytype="str">"Hinter der Hecke"</supertitle>
+      <title py:pytype="str">Alle Artikel der Schrebergarten-Kolumne</title>
+      <text py:pytype="str">Eine Schrebergarten-Kolonie ist ein eigener Kosmos. Unser Kolumnist Ulrich Ladurner erforscht ihn und seine Bewohner mit Demut, Feinsinn und Humor.</text>
+      <description py:pytype="str">Eine Schrebergarten-Kolonie ist ein eigener Kosmos. Unser Kolumnist Ulrich Ladurner erforscht ihn und seine Bewohner mit Demut, Feinsinn und Humor.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/2013-06/schrebergarten-link/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://www.photocase.de/AlexanderHauck">© nurmalso/photocase.com</copyright>
+      </image>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/blogs/link-nachgesalzen" year="2008" ressort="Lebensart" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/nachgesalzen/">
+      <supertitle py:pytype="str">Kochblog</supertitle>
+      <title py:pytype="str">Nachgesalzen</title>
+      <text py:pytype="str">Die Meisterköche Karl-Josef Fuchs, Jürgen Koch und Christian Mittermeier verraten ihre Tipps und Tricks</text>
+      <description py:pytype="str">Die Meisterköche Karl-Josef Fuchs, Jürgen Koch und Christian Mittermeier verraten ihre Tipps und Tricks</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/weblogs/2010-05/nachgesalzen/" type="jpg" title="Nachgesalzen Blog Teaser" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Alex Wong/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference xmlns:ns1="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/lebensart/mode/2013-02/link-schlagwort-fashion-week" year="2013" issue="8" ressort="Lebensart" contenttype="link" publication-date="" expires="" ns1:href="http://www.zeit.de/schlagworte/themen/fashion-week/index">
+      <supertitle py:pytype="str">Fashion Week</supertitle>
+      <title py:pytype="str">New York, London, Mailand, Paris: Die Modewochen auf ZEIT ONLINE</title>
+      <text xsi:nil="true"/>
+      <description xsi:nil="true"/>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/lebensart/mode/2013-02/fashion-week/" type="jpg" title="Fashion Week" publication-date="" expires="">
+        <bu py:pytype="str">Models present creations from the Felder &amp;amp; Felder Autumn/Winter 2013 collection during London Fashion Week, February 15, 2013. REUTERS/Olivia Harris (BRITAIN - Tags: FASHION)</bu>
+        <copyright py:pytype="str">© Olivia Harris/Reuters</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">Artikel-Template Lebensart</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Artikel-Template Lebensart</text>
+  </indexteaser>
+</centerpage>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="iframe">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">Zeit Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-04-04T11:47:30.511882+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-01-24T15:55:02.154697+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-04-04T11:48:37.888810+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-04-04T11:47:01.761712+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">iframe</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:5af4e049-8c83-4a89-a2a4-be56eeb65b20}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="3c97962c-3e34-4f7e-bccf-ec39e305b969" visible="True">
+          <block href="http://xml.zeit.de/politik/ausland/2014-03/obama-besuch-papst-franziskus-vatikan" uniqueId="http://xml.zeit.de/politik/ausland/2014-03/obama-besuch-papst-franziskus-vatikan" year="2014" issue="14" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2014-03-27T18:07:32+00:00" date-first-released="2014-03-27T17:37:40.151322+00:00" date-last-published="2014-03-27T18:08:32.261442+00:00" last-semantic-change="2014-03-27T17:36:31.760792+00:00">
+            <supertitle py:pytype="str">Vatikan</supertitle>
+            <teaser_supertitle py:pytype="str">Vatikan</teaser_supertitle>
+            <title py:pytype="str">Ein Geschenk gegen Obamas Frust</title>
+            <text py:pytype="str">Es war ein herzliches erstes Aufeinandertreffen. Der Papst lud US-Präsident Obama zur Privataudienz. Dieser bedankte sich mit Geschenken und offener Bewunderung.</text>
+            <description py:pytype="str">Es war ein herzliches erstes Aufeinandertreffen. Der Papst lud US-Präsident Obama zur Privataudienz. Dieser bedankte sich mit Geschenken und offener Bewunderung.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2014-03/barack-obama-papst-franziskus-4/" type="jpg" title="Barack Obama Papst Franziskus" alt="Barack Obama Papst Franziskus" align="left" publication-date="" expires="">
+              <bu py:pytype="str">US-Präsident Barack Obama bei seiner Audienz bei Papst Franziskus
+</bu>
+              <copyright py:pytype="str">© Vatican Pool/GettyImages</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="b83b4cb1-9011-4f51-b7c1-76efaa0817bd" visible="True">
+          <block href="http://xml.zeit.de/politik/ausland/2014-04/syrien-libanon-fluechtlinge-unhcr" uniqueId="http://xml.zeit.de/politik/ausland/2014-04/syrien-libanon-fluechtlinge-unhcr" year="2014" issue="15" ressort="Politik" contenttype="article" publication-date="" expires="" genre="nachricht" date-last-modified="2014-04-03T10:54:55+00:00" date-first-released="2014-04-03T08:45:36.889255+00:00" date-last-published="2014-04-03T10:55:55.261473+00:00" last-semantic-change="2014-04-03T08:44:34.911882+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Bürgerkriegsflüchtlinge</supertitle>
+            <teaser_supertitle py:pytype="str">Bürgerkriegsflüchtlinge</teaser_supertitle>
+            <title py:pytype="str">Mehr als eine Million Syrer im Libanon</title>
+            <text py:pytype="str">Jeder vierte Bewohner des Libanon ist ein syrischer Flüchtling. Die Nahrungsmittel im Land werden knapp, die UN sprechen von katastrophalen Zuständen.</text>
+            <description py:pytype="str">Jeder vierte Bewohner des Libanon ist ein syrischer Flüchtling. Die Nahrungsmittel im Land werden knapp, die UN sprechen von katastrophalen Zuständen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/ausland/2014-04/syrien-libanon/" type="jpg" title="Syrien Libanon" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Eine Familie aus der belagerten syrischen Stadt Aleppo im Flüchtlingslager im Libanon</bu>
+              <copyright py:pytype="str">© Spencer Platt/Getty Images</copyright>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="36f84bfe-ad31-4088-b5be-5d357efb8bf7" visible="True">
+          <block href="http://xml.zeit.de/wissen/gesundheit/2014-03/ebola-afrika-impfstoff" uniqueId="http://xml.zeit.de/wissen/gesundheit/2014-03/ebola-afrika-impfstoff" year="2014" issue="14" ressort="Wissen" author="Alina Schadwinkel" contenttype="article" publication-date="" expires="" date-last-modified="2014-04-03T15:51:04+00:00" date-first-released="2014-04-03T15:45:31.765088+00:00" date-last-published="2014-04-03T15:52:04.342762+00:00" last-semantic-change="2014-04-03T14:42:36.754970+00:00">
+            <supertitle py:pytype="str">Ebola-Virus</supertitle>
+            <teaser_supertitle py:pytype="str">Ebola-Ausbruch</teaser_supertitle>
+            <title py:pytype="str">Tödlich für Einzelne, harmlos für die Massen</title>
+            <text py:pytype="str">In Guinea häufen sich die Ebola-Fälle. Weltweite Gefahr besteht nicht. Das Virus ist gut kontrollierbar. Vorausgesetzt die Quarantäne-Vorschriften werden eingehalten.</text>
+            <description py:pytype="str">In Guinea häufen sich die Ebola-Fälle. Weltweite Gefahr besteht nicht. Das Virus ist gut kontrollierbar. Vorausgesetzt die Quarantäne-Vorschriften werden eingehalten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/wissen/gesundheit/2014-03/ebola-guinea-zelt-krankenhaus/" type="jpg" title="Ebola Afrika Virus Krankenhaus Zelt" alt="Ebola Afrika Virus Krankenhaus Zelt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Arbeiter bauen ein Zelt für jene, die mit Verdacht auf Ebola in das Donka-Krankenhaus in Guineas Hauptstadt Conakry eingeliefert worden sind.</bu>
+              <copyright py:pytype="str">© Cellou Binani/AFP/Getty Images</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Alina_Schadwinkel/index" publication-date="" expires="">
+              <display_name py:pytype="str">Alina Schadwinkel</display_name>
+            </author>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title> </title>
+    <subtitle>ZEIT Veranstaltungen: Ein Angebot des ZEIT-Verlags</subtitle>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str"> </title>
+    <text py:pytype="str">ZEIT Veranstaltungen: Ein Angebot des ZEIT-Verlags</text>
+  </teaser>
+</centerpage>

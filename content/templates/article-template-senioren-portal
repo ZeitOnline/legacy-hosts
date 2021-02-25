@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner_id">senioren-ratgeber</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2016-04-13T10:59:41.762390+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-03-21T12:14:59.519675+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2016-04-13T10:59:49.191051+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2016-04-13T10:59:49.123987+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2015-05-22T09:00:57.597963+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2015-09-28T11:21:20.619429+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-hide-timestamp">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-robots">"index,follow"</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2015-05-22T08:59:55.271328+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="mobile_alternative">http://www.zeit.de/templates/article-template-senioren-portal</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">senioren-portal</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:7283fc3d-ee98-4c06-b4ef-47ae1ee6efc4}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">13</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2009" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead" automatic="False"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-784abd9c-b571-407c-bcdb-a7a5d26570cf">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-55453076-ba83-4274-ba31-3c22eb32514f">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/senioren-ratgeber/link_senioren-portal_startseite" uniqueId="http://xml.zeit.de/angebote/senioren-ratgeber/link_senioren-portal_startseite" year="2014" issue="14" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/senioren-ratgeber/index" ns0:target="_blank" date-last-modified="2014-04-01T15:44:04+00:00" date-first-released="2014-04-01T15:45:03.855960+00:00" date-last-published="2014-04-01T15:45:03.855960+00:00" last-semantic-change="2014-04-01T15:43:53.705756+00:00">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-3e0d5e7b-67d5-4370-b8e6-761c6ee46bb5" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/senioren-ratgeber/link_senioren-portal" year="2014" issue="13" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.deutsches-seniorenportal.de/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2015-09-28T11:21:41+00:00" date-first-released="2014-03-21T12:26:55.062190+00:00" date-last-published="2014-06-13T14:03:19.908094+00:00" last-semantic-change="2014-06-13T14:10:21.089603+00:00" uniqueId="http://xml.zeit.de/angebote/senioren-ratgeber/link_senioren-portal">
+            <supertitle xsi:nil="true"/>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link Senioren-Portal</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/senioren-ratgeber/bilder/logo-seniorenportal-neu/logo-seniorenportal-neu-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-82f7bd4f-cc60-4b64-a943-893631a6fd5d">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/senioren-ratgeber/link-pflegeheimsuche" uniqueId="http://xml.zeit.de/angebote/senioren-ratgeber/link-pflegeheimsuche" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://senioren.zeit.de/" ns0:target="_blank" date-last-modified="2014-07-21T13:18:15+00:00" date-first-released="2014-07-21T13:19:15.098122+00:00" date-last-published="2014-07-21T13:19:15.098122+00:00" last-semantic-change="2014-07-21T13:17:26.280844+00:00">
+            <supertitle py:pytype="str">Suche</supertitle>
+            <title py:pytype="str">Senioren-einrichtungen und Ambulante Pflegedienste</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/senioren-ratgeber/pflege/pflege/" type="jpg" alt="Pflegeplanung" publication-date="" expires="">
+              <bu py:pytype="str">Von Kurzzeitpflege bis zur stationären Pflege: Bevor ein passendes Modell gewählt wird, müssen zunächst Pflegestufen bestimmt und Pflegevariationen abgewägt werden. 
+</bu>
+              <copyright py:pytype="str">© IFTRA</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-803d0c7a-630d-418d-b6f5-ca2cbf94231e">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/senioren-ratgeber/link-dsl" uniqueId="http://xml.zeit.de/angebote/senioren-ratgeber/link-dsl" year="2014" issue="13" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://senioren.zeit.de/dienstleistungen" ns0:target="_blank" date-last-modified="2014-06-04T07:48:54+00:00" date-first-released="2014-03-21T18:49:05.217367+00:00" date-last-published="2014-06-04T07:49:54.042001+00:00" last-semantic-change="2014-06-04T07:48:38.425604+00:00">
+            <supertitle py:pytype="str">Suche</supertitle>
+            <teaser_supertitle xsi:nil="true"/>
+            <title py:pytype="str">Produkte und Dienstleistungen für Senioren</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/senioren-ratgeber/dsl-bild/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-d3712aec-1b62-4a1b-b16e-f4b0445d7636">
+          <block href="http://xml.zeit.de/angebote/senioren-ratgeber/privatinstitut-fuer-transparenz/index" uniqueId="http://xml.zeit.de/angebote/senioren-ratgeber/privatinstitut-fuer-transparenz/index" year="2014" ressort="Angebote" contenttype="article" publication-date="" expires="" date-last-modified="2015-05-22T08:39:59+00:00" date-first-released="2014-03-13T17:01:16.916951+00:00" date-last-published="2015-05-22T08:40:59.646975+00:00" last-semantic-change="2015-02-24T15:33:48.113849+00:00">
+            <supertitle py:pytype="str">Über uns</supertitle>
+            <teaser_supertitle py:pytype="str">Über uns</teaser_supertitle>
+            <title py:pytype="str">Privatinstitut für Transparenz im Gesundheitswesen GmbH  </title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline py:pytype="str">Senioren-Ratgeber : ist ein Angebot des Privatinstituts für Transparenz im Gesundheitswesen, das für diesen Inhalt verantwortlich ist.</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/senioren-ratgeber/bilder/wir-ueber-uns/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">2013 hat das Privatinstitut expandiert und neue Räumlichkeiten bezogen.</bu>
+              <copyright py:pytype="str">© IFTRA</copyright>
+            </image>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel Rahmen Senioren-Ratgeber</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Senioren-Ratgeber</title>
+  </teaser>
+</centerpage>

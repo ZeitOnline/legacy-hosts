@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="topicpage">
+  <head>
+    <header_image alt="Fotografie " align="left" src="http://xml.zeit.de/themen/kultur/das-ist-fotografie/fotografie" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright>© ZEIT ONLINE</copyright>
+    </header_image>
+    <snapshot xsi:nil="true"/>
+    <image alt="Das ist Fotografie Digital Analog" align="left" base-id="http://xml.zeit.de/themen/kultur/das-ist-fotografie/teaser-themenwoche-fotografie/" type="jpg" publication-date="" expires="">
+      <bu xsi:nil="true"/>
+      <copyright py:pytype="str">© Vincenzo Pinto/AFP/Getty Images</copyright>
+    </image>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-05-10T19:42:53.852521+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-05-06T13:21:54.354075+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-05-10T19:44:07.725750+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-05-10T13:04:55.033311+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-description">Die Fotografie hat in ihrer noch jungen Geschichte einen unglaublichen Wandel erlebt.  Aus einem sehr exklusiven Medium ist spätestens seit Erfindung der Smartphones ein Jedermanns-Werkzeug geworden. ZEIT ONLINE hat in einer Themenwoche acht Thesen aufgestellt, die den aktuellen Stand der Fotografie widerspiegeln.</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">Das ist Fotografie | ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-05-10T19:42:39.718208+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.stroebele</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="publish_job_id">282275095</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="released_from">2013-05-10T09:06:00+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Kultur</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">Kunst</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">topicpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:3aa261e4-11eb-4ca6-9baa-f00c306a3a7c}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">18</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="id-fe9aebfd-cedd-4390-8788-582ecdf2e3ac">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-05/smartphones-pro-und-contra" year="2013" issue="20" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-10T12:41:10+00:00" date-first-released="2013-05-10T11:17:37.113218+00:00" date-last-published="2013-05-10T12:42:10.201438+00:00" last-semantic-change="2013-05-10T11:17:21.973961+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Pro und Contra</supertitle>
+            <title py:pytype="str">"Das Mysterium der Fotografie hat sich vollkommen erledigt"</title>
+            <text py:pytype="str">Sind Smartphones eine Gefahr für anspruchsvolle Fotografie? Ostkreuz-Fotograf Maurice Weiss und Fabian Mohr von ZEIT ONLINE diskutieren im Pro und Contra.</text>
+            <description py:pytype="str">Sind Smartphones eine Gefahr für anspruchsvolle Fotografie? Ostkreuz-Fotograf Maurice Weiss und Fabian Mohr von ZEIT ONLINE diskutieren im Pro und Contra.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/smartphone-foto/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/privatsphaere-fotografie-fotoblog" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-08T14:23:19+00:00" date-first-released="2013-05-08T11:53:15.247349+00:00" date-last-published="2013-05-08T14:24:19.120913+00:00" last-semantic-change="2013-05-08T14:22:47.191486+00:00">
+            <supertitle py:pytype="str">Privatsphäre</supertitle>
+            <title py:pytype="str">Wir fotografieren uns zu Tode </title>
+            <text py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</text>
+            <description py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/privatheit/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Fotografin Nan Goldin war eine der ersten, die ihr Privatleben exzessiv der Außenwelt zugänglich machte. </bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/fotografie-smartphone-iphone" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-06T13:03:16+00:00" date-first-released="2013-05-06T13:03:19.572917+00:00" date-last-published="2013-05-06T13:04:15.848981+00:00" last-semantic-change="2013-05-03T16:02:05.563461+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+            <title py:pytype="str">"Instagram wird die Fotografie nicht auslöschen"</title>
+            <text py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</text>
+            <description py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/koci-hernandez-hund/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Richard Koci Hernandez </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-05/fs-hernandez-iphone-fotografie" year="2013" issue="19" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-05-06T13:05:06+00:00" date-first-released="2013-05-06T13:06:06.417091+00:00" date-last-published="2013-05-06T13:06:06.417091+00:00" last-semantic-change="2013-05-06T07:19:57.188964+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+            <title py:pytype="str">Die Welt durch das Auge eines iPhones</title>
+            <text py:pytype="str">Seit Smartphones erstklassige Kameras haben, macht Straßenfotografie wieder Spaß. Richard Koci Hernandez ist der bekannteste iPhone-Fotograf – wir zeigen seine Bilder.</text>
+            <description py:pytype="str">Seit Smartphones erstklassige Kameras haben, macht Straßenfotografie wieder Spaß. Richard Koci Hernandez ist der bekannteste iPhone-Fotograf – wir zeigen seine Bilder.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/koci-fotostrecke/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Richard Koci Hernandez</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-2cda38d0-94e1-4bec-a808-aaf72cf02180">
+          <block href="http://xml.zeit.de/foto/2013-05/leserartikel-iphonografie-spiegelreflex" year="2013" issue="19" ressort="Foto" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-10T17:40:40+00:00" date-first-released="2013-05-10T17:41:40.090253+00:00" date-last-published="2013-05-10T17:41:40.090253+00:00" last-semantic-change="2013-05-09T13:43:15.429237+00:00">
+            <supertitle py:pytype="str">Fotografie</supertitle>
+            <title py:pytype="str">iPhonografie wird bald zum Klassiker</title>
+            <text py:pytype="str">Smartphone-Fotografie befördert nicht den Niedergang der klassischen Digitalfotografie. Vielmehr sind es Facetten derselben Kunstform, schreibt Leser Frank Wöllnitz.</text>
+            <description py:pytype="str">Smartphone-Fotografie befördert nicht den Niedergang der klassischen Digitalfotografie. Vielmehr sind es Facetten derselben Kunstform, schreibt Leser Frank Wöllnitz.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Smartphonefoto" base-id="http://xml.zeit.de/foto/2013-05/smartphonefoto/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Paula Bronstein/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/privatsphaere-fotografie-fotoblog" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-08T14:23:19+00:00" date-first-released="2013-05-08T11:53:15.247349+00:00" date-last-published="2013-05-08T14:24:19.120913+00:00" last-semantic-change="2013-05-08T14:22:47.191486+00:00">
+            <supertitle py:pytype="str">Privatsphäre</supertitle>
+            <title py:pytype="str">Wir fotografieren uns zu Tode </title>
+            <text py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</text>
+            <description py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/privatheit/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Fotografin Nan Goldin war eine der ersten, die ihr Privatleben exzessiv der Außenwelt zugänglich machte. </bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/fotowoche-editorial-was-ist-fotografie" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-06T10:55:55+00:00" date-first-released="2013-05-06T09:18:01.137271+00:00" date-last-published="2013-05-06T10:56:54.777844+00:00" last-semantic-change="2013-05-06T10:55:36.826311+00:00">
+            <supertitle py:pytype="str">Fotografie</supertitle>
+            <title py:pytype="str">In einem Meer von Bildern</title>
+            <text py:pytype="str">Eine Riesencloud aus Bildern umgibt uns; jeder ist ein Fotograf. Wo es kaum noch exklusive Fotos gibt, wächst die Sehnsucht nach dem Unikat. Von Carolin Ströbele</text>
+            <description py:pytype="str">Eine Riesencloud aus Bildern umgibt uns; jeder ist ein Fotograf. Wo es kaum noch exklusive Fotos gibt, wächst die Sehnsucht nach dem Unikat. Von Carolin Ströbele</description>
+            <byline xsi:nil="true"/>
+            <image alt="Fotografie Lomografie" align="left" base-id="http://xml.zeit.de/kultur/2013-05/im-meer-der-bilder-3/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Inmitten der Bilderflut entsteht die Sehnsucht nach alten Methoden der Fotografie – wie hier in einer Ausstellung über Lomografie in Russland.</bu>
+              <copyright py:pytype="str">© Kai Pfaffenbach</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/fotografie-smartphone-iphone" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-06T13:03:16+00:00" date-first-released="2013-05-06T13:03:19.572917+00:00" date-last-published="2013-05-06T13:04:15.848981+00:00" last-semantic-change="2013-05-03T16:02:05.563461+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+            <title py:pytype="str">"Instagram wird die Fotografie nicht auslöschen"</title>
+            <text py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</text>
+            <description py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/koci-hernandez-hund/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Richard Koci Hernandez </copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-0be6e5ee-bf31-497e-b6d2-e3d81cd4c4c2">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/portraetfotografie-profilbild" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-10T08:36:14+00:00" date-first-released="2013-05-03T12:45:25.569667+00:00" date-last-published="2013-05-10T08:37:14.330287+00:00" last-semantic-change="2013-05-10T08:34:48.596051+00:00">
+            <supertitle py:pytype="str">Profilbild</supertitle>
+            <title py:pytype="str">So siehst du gar nicht aus</title>
+            <text py:pytype="str">Ob Affe oder Schwamm: Das Profilbild in sozialen Netzwerken ist die zeitgenössische Inkarnation des Porträtfotos. Etwas Grundlegendes hat sich geändert. Von D. Müller</text>
+            <description py:pytype="str">Ob Affe oder Schwamm: Das Profilbild in sozialen Netzwerken ist die zeitgenössische Inkarnation des Porträtfotos. Etwas Grundlegendes hat sich geändert. Von D. Müller</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/fs-facebook-friends-teaser-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Kobe Leah aus Portugal inszeniert sich als Engel</bu>
+              <copyright py:pytype="str">© Nicolas Schmidt/Kerber Verlag</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-4a58890e-472e-48d4-b27d-5178eeaf2f37" column_1="2">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/privatsphaere-fotografie-fotoblog" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-08T14:23:19+00:00" date-first-released="2013-05-08T11:53:15.247349+00:00" date-last-published="2013-05-08T14:24:19.120913+00:00" last-semantic-change="2013-05-08T14:22:47.191486+00:00">
+            <supertitle py:pytype="str">Privatsphäre</supertitle>
+            <title py:pytype="str">Wir fotografieren uns zu Tode </title>
+            <text py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</text>
+            <description py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/privatheit/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Fotografin Nan Goldin war eine der ersten, die ihr Privatleben exzessiv der Außenwelt zugänglich machte. </bu>
+              <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2013/19/blog-merendino-krebs-abschied" year="2013" issue="19" ressort="Digital" contenttype="article" publication-date="2013-05-02T07:54:49+00:00" expires="" date-last-modified="2013-05-02T13:34:36+00:00" date-first-released="2013-05-02T06:00:00+00:00" date-last-published="2013-05-02T13:35:35.951518+00:00" last-semantic-change="2013-05-02T13:34:02.159596+00:00">
+            <supertitle py:pytype="str">Krebs</supertitle>
+            <title py:pytype="str">Digitale Chronik eines Abschieds</title>
+            <text py:pytype="str">Angelo Merendinos Frau hat Krebs. Er dokumentiert ihren Kampf mit seiner Kamera, die Fotos stellt er ins Internet. Eine beispiellose Liebeserklärung</text>
+            <description py:pytype="str">Angelo Merendinos Frau hat Krebs. Er dokumentiert ihren Kampf mit seiner Kamera, die Fotos stellt er ins Internet. Eine beispiellose Liebeserklärung</description>
+            <byline py:pytype="str">von Nina Pauer</byline>
+            <image alt="Jennifer Merendino" align="left" title="Jennifer und Angelo Merendino" base-id="http://xml.zeit.de/2013/19/jennifer-merendino-brustkrebs/" type="jpg" publication-date="" expires="2013-05-31T12:39:37+00:00">
+              <bu py:pytype="str">Gezeichnet von der Krankheit, immer noch hübsch: Jennifer Merendino</bu>
+              <copyright py:pytype="str" link="http://mywifesfightwithbreastcancer.com/">© Angelo Merendino</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/46/Kunst-Ausstellung-Schirn-Kunsthalle" year="2012" issue="46" ressort="Kultur" contenttype="article" publication-date="2012-11-15T02:11:00+00:00" expires="" date-last-modified="2012-11-17T09:17:41+00:00" date-first-released="2012-11-08T06:00:00+00:00" date-last-published="2012-11-17T09:18:41.289468+00:00" last-semantic-change="2012-11-17T09:17:13.824211+00:00">
+            <supertitle py:pytype="str">Ausstellung "Privat"</supertitle>
+            <title py:pytype="str">Die Kunst der Intimität</title>
+            <text py:pytype="str">Wie privat ist noch privat? Eine Ausstellung in Frankfurt zeigt den unterschiedlichen Umgang mit dem Persönlichen. Das radikalste Werk ist interessanterweise das älteste.</text>
+            <description py:pytype="str">Wie privat ist noch privat? Eine Ausstellung in Frankfurt zeigt den unterschiedlichen Umgang mit dem Persönlichen. Das radikalste Werk ist interessanterweise das älteste.</description>
+            <byline py:pytype="str">Von Shirin Sojitrawalla</byline>
+            <image align="left" title="Evan Baden" base-id="http://xml.zeit.de/kultur/kunst/2012-11/s59-baden/" type="jpg" publication-date="" expires="2013-02-03T12:11:11+00:00">
+              <bu py:pytype="str">Evan Baden: &amp;quot;Emily, 2010&amp;quot;, aus der Serie &amp;quot;Technically Intimate&amp;quot;, 2010 </bu>
+              <copyright py:pytype="str">© Evan Baden</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-f8456002-2eb7-4f45-b025-d79d4e68a6cb">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/fotografie-interview-martina-weinhart" year="2013" issue="17" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-08T11:14:01+00:00" date-first-released="2013-05-08T09:00:32.646512+00:00" date-last-published="2013-05-08T09:00:32.646512+00:00" last-semantic-change="2013-05-08T08:59:14.347264+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotografie</supertitle>
+            <title py:pytype="str">"Wir leben in einer Epoche der Bilderfänger"</title>
+            <text py:pytype="str">Privat und öffentlich: Gibt es diesen Unterschied in der zeitgenössischen Fotografie noch? Kuratorin Martina Weinhart im Interview: "Er verwischt."</text>
+            <description py:pytype="str">Privat und öffentlich: Gibt es diesen Unterschied in der zeitgenössischen Fotografie noch? Kuratorin Martina Weinhart im Interview: "Er verwischt."</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-04/teaser-privat/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Michael Wolf: "Interface 10"</bu>
+              <copyright py:pytype="str">© Michael Wolf/Courtesy Christophe Guye Galerie, Zurich</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/ai-wei-wei-erlangen" year="2013" issue="16" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-04-12T11:23:32+00:00" date-first-released="2013-04-12T09:50:46.924187+00:00" date-last-published="2013-04-12T11:24:32.345155+00:00" last-semantic-change="2013-04-12T09:49:16.476429+00:00">
+            <supertitle py:pytype="str">Ausstellung "Freiheit"</supertitle>
+            <title py:pytype="str">Ai Weiwei twittert nach Erlangen</title>
+            <text py:pytype="str">Virtuelle Unterstützung vom Dissidenten: Zum Thema Freiheit stellt Ai Weiwei in Erlangen seine Überwachungsvideos aus und kommuniziert mit den Besuchern über Twitter.</text>
+            <description py:pytype="str">Virtuelle Unterstützung vom Dissidenten: Zum Thema Freiheit stellt Ai Weiwei in Erlangen seine Überwachungsvideos aus und kommuniziert mit den Besuchern über Twitter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-04/weiwei-twitter/" type="jpg" publication-date="" expires="2013-07-12T09:01:46+00:00">
+              <bu py:pytype="str">Twitter-Projektion im Kunstpalais in Erlangen</bu>
+              <copyright py:pytype="str">© Daniel Karmann/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/46/Kunst-Ausstellung-Schirn-Kunsthalle" year="2012" issue="46" ressort="Kultur" contenttype="article" publication-date="2012-11-15T02:11:00+00:00" expires="" date-last-modified="2012-11-17T09:17:41+00:00" date-first-released="2012-11-08T06:00:00+00:00" date-last-published="2012-11-17T09:18:41.289468+00:00" last-semantic-change="2012-11-17T09:17:13.824211+00:00">
+            <supertitle py:pytype="str">Ausstellung "Privat"</supertitle>
+            <title py:pytype="str">Die Kunst der Intimität</title>
+            <text py:pytype="str">Wie privat ist noch privat? Eine Ausstellung in Frankfurt zeigt den unterschiedlichen Umgang mit dem Persönlichen. Das radikalste Werk ist interessanterweise das älteste.</text>
+            <description py:pytype="str">Wie privat ist noch privat? Eine Ausstellung in Frankfurt zeigt den unterschiedlichen Umgang mit dem Persönlichen. Das radikalste Werk ist interessanterweise das älteste.</description>
+            <byline py:pytype="str">Von Shirin Sojitrawalla</byline>
+            <image align="left" title="Evan Baden" base-id="http://xml.zeit.de/kultur/kunst/2012-11/s59-baden/" type="jpg" publication-date="" expires="2013-02-03T12:11:11+00:00">
+              <bu py:pytype="str">Evan Baden: &amp;quot;Emily, 2010&amp;quot;, aus der Serie &amp;quot;Technically Intimate&amp;quot;, 2010 </bu>
+              <copyright py:pytype="str">© Evan Baden</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-00e2d2cc-9606-4c0a-baec-3ccec577a677">
+          <block href="http://xml.zeit.de/kultur/2013-04/fs-livemedium-foto" year="2013" issue="18" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-05-09T09:41:45+00:00" date-first-released="2013-05-09T09:38:15.683380+00:00" date-last-published="2013-05-09T09:42:44.959850+00:00" last-semantic-change="2013-05-09T09:40:53.569580+00:00">
+            <supertitle py:pytype="str">Nachrichten</supertitle>
+            <title py:pytype="str">Fotografie wird zum Live-Medium</title>
+            <text py:pytype="str">Der Anschlag von Boston, der Kuss von Barack und Michelle Obama nach dem Wahlsieg, Feuer auf Deep Water Horizon. Wir zeigen Fotos, die Nachrichten transportiert haben.</text>
+            <description py:pytype="str">Der Anschlag von Boston, der Kuss von Barack und Michelle Obama nach dem Wahlsieg, Feuer auf Deep Water Horizon. Wir zeigen Fotos, die Nachrichten transportiert haben.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-04/fs-livemedium-foto-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str" link="http://commons.wikimedia.org/wiki/File:Plane_crash_into_Hudson_River.jpg">CC BY 2.0 Greg L./Wikimedia Commons</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-dbe7f2bb-be11-4135-90c3-7f22dd4aa05a">
+          <block href="http://xml.zeit.de/kultur/2013-04/fs-michael-wolf-interface-2" year="2013" issue="18" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-05-08T18:05:22+00:00" date-first-released="2013-04-30T10:51:09.426170+00:00" date-last-published="2013-05-08T18:06:21.900265+00:00" last-semantic-change="2013-05-08T18:05:01.650547+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotografie</supertitle>
+            <title py:pytype="str">Verloren in Street View</title>
+            <text py:pytype="str">Google Street View soll der Orientierung dienen. Der Fotograf Michael Wolf liest aus den Bildern, die er im Netz gefunden hat, eine große Verlorenheit.</text>
+            <description py:pytype="str">Google Street View soll der Orientierung dienen. Der Fotograf Michael Wolf liest aus den Bildern, die er im Netz gefunden hat, eine große Verlorenheit.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.zeit.de/kultur/2013-04/fs-michael-wolf-interface-2" title="Michael Wolfs Serie &quot;Interface&quot;" base-id="http://xml.zeit.de/kultur/2013-04/fs-michael-wolf-interface-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Um die Fotostrecke zu sehen, klicken Sie hier</bu>
+              <copyright py:pytype="str">© Michael Wolf/Courtesy Christophe Guye Galerie, Zurich</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/digital/2011-01/fs-fy-wolf" year="2011" issue="4" ressort="Digital" contenttype="gallery" publication-date="" expires="" date-last-modified="2011-01-29T11:59:01+00:00" date-first-released="2011-01-28T13:28:02.534815+00:00" date-last-published="2011-01-28T13:28:02.534815+00:00" last-semantic-change="2011-01-29T11:56:10.219337+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Bildband "FY"</supertitle>
+            <title py:pytype="str">Mit dem Stinkefinger gegen Google Street View</title>
+            <text py:pytype="str">Google hat unsere Straßen ins Netz geholt. Die einen finden es gut, andere nicht. Der Fotograf Michael Wolf hat in einem Bildband die Gesten des Protests eingefangen.</text>
+            <description py:pytype="str">Google hat unsere Straßen ins Netz geholt. Die einen finden es gut, andere nicht. Der Fotograf Michael Wolf hat in einem Bildband die Gesten des Protests eingefangen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="FS fy Wolf Teaser" base-id="http://xml.zeit.de/digital/2011-01/fs-fy-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Michael Wolf</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-3e83eb3b-aaa4-4532-b75d-a3ae8ac8e9cb">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/kultur/kunst/2013-05/video-fotolabor-2" year="2013" issue="19" ressort="Kultur" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/video/2013-05/2357789391001/analoge-fotografie-die-analoge-dunkelkammer-schlaegt-jede-foto-app#autoplay" date-last-modified="2013-05-07T14:10:07+00:00" date-first-released="2013-05-06T14:56:17.813085+00:00" date-last-published="2013-05-07T14:11:07.060055+00:00" last-semantic-change="2013-05-07T14:09:26.462368+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Analoge Fotografie</supertitle>
+            <title py:pytype="str">Dunkelkammer schlägt jede App</title>
+            <text py:pytype="str">Können Foto-Apps Bilder genauso gut entwickeln wie eine professionelle Handprinterin? Wir machen den Test – bei einem Besuch im analogen Fotolabor von Kira Enss.</text>
+            <description py:pytype="str">Können Foto-Apps Bilder genauso gut entwickeln wie eine professionelle Handprinterin? Wir machen den Test – bei einem Besuch im analogen Fotolabor von Kira Enss.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/video-fotolabor/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+            <video href="http://xml.zeit.de/video/2013-05/2357789391001" href2="" expires="" video_id="vid2357789391001" video_id_2=""/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-5e08d557-384a-45ca-871d-1195b9413b4c">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/amateur-fotografie-flickr-hipstamatic" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-07T09:57:03+00:00" date-first-released="2013-05-07T08:46:21.479532+00:00" date-last-published="2013-05-07T09:58:02.920203+00:00" last-semantic-change="2013-05-07T08:14:12.106333+00:00">
+            <supertitle py:pytype="str">Flickr</supertitle>
+            <title py:pytype="str">Amateure lernen wieder sehen</title>
+            <text py:pytype="str">Profi-Fotografen und Laien kommen sich immer näher. Das liegt am Internet und an der Technik, aber auch die Sehgewohnheiten haben sich verändert. Von Silke Hohmann</text>
+            <description py:pytype="str">Profi-Fotografen und Laien kommen sich immer näher. Das liegt am Internet und an der Technik, aber auch die Sehgewohnheiten haben sich verändert. Von Silke Hohmann</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/pavel-kasik/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">"Easy boy, easy". Ein iPhone-Foto aus dem Flickr-Stream von Pavel Kasik</bu>
+              <copyright py:pytype="str" link="http://www.flickr.com/photos/pavelsan/8633176468/in/photostream">© Pavel Kasik</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2012-08/entdeckung-insekt-flige-flickr" year="2012" issue="33" ressort="Wissen" contenttype="article" publication-date="" expires="" date-last-modified="2013-04-30T11:14:16+00:00" date-first-released="2012-08-13T17:32:12.741516+00:00" date-last-published="2013-04-28T15:47:45+00:00" last-semantic-change="2013-04-30T11:13:48.867556+00:00">
+            <supertitle py:pytype="str">Biologie</supertitle>
+            <title py:pytype="str">Flickr-Fliege entpuppt sich als neue Art</title>
+            <text py:pytype="str">Insektenforscher haben eine unbekannte Florfliegen-Art bestimmt. Entdeckt wurde das Tier zunächst nicht in der Wildnis, sondern auf einem Flickr-Foto. Von A. Donath</text>
+            <description py:pytype="str">Insektenforscher haben eine unbekannte Florfliegen-Art bestimmt. Entdeckt wurde das Tier zunächst nicht in der Wildnis, sondern auf einem Flickr-Foto. Von A. Donath</description>
+            <byline xsi:nil="true"/>
+            <image alt="Semachrysa jade Flickr Insekten Arten" align="left" title="Semachrysa jade Flickr Insekten Arten" base-id="http://xml.zeit.de/wissen/umwelt/2012-08/flickr-insekten/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Auf einem Foto erkannte ein Forscher die neue Art und nannte sie nach seiner Tocher Jade: &amp;quot;Semachrysa jade&amp;quot;.</bu>
+              <copyright py:pytype="str">© Guek Hock Ping/ZooKeys</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/lebensart/2011-11/markenprodukte-flickr" year="2011" issue="45" ressort="Lebensart" contenttype="article" publication-date="2013-05-07T13:18:00+00:00" expires="" date-last-modified="2013-05-07T13:18:01+00:00" date-first-released="2011-11-03T18:52:03.307944+00:00" date-last-published="2013-05-07T13:19:01.136296+00:00" last-semantic-change="2011-11-03T10:28:27.394588+00:00">
+            <supertitle py:pytype="str">Fotoportal Flickr</supertitle>
+            <title py:pytype="str">Ich und mein Nutella-Glas</title>
+            <text py:pytype="str">Was bedeutet es, wenn sich Tausende Flickr-User mit Markenprodukten im Web präsentieren? Sie wollen den Alltag mit Bedeutung aufladen, sagen Forscher der Uni Karlsruhe.</text>
+            <description py:pytype="str">Was bedeutet es, wenn sich Tausende Flickr-User mit Markenprodukten im Web präsentieren? Sie wollen den Alltag mit Bedeutung aufladen, sagen Forscher der Uni Karlsruhe.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Flickr-User &quot;Pattista&quot; geht ohne sein Nutella-Glas nicht mal in den Park." align="left" base-id="http://xml.zeit.de/lebensart/2011-11/teaser-flickr-markenprodukte/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Flickr-User &amp;quot;Pattista&amp;quot; geht ohne sein Nutella-Glas nicht mal in den Park.</bu>
+              <copyright py:pytype="str" link="http://www.flickr.com/photos/pattista/301649181/">CC BY 2.0 pattista/flickr</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-fd90a6da-6542-4602-a283-fe9dec6149cd">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-05/fragen-an-gundlach-online" year="2013" issue="19" ressort="Kultur" contenttype="article" publication-date="2013-05-08T07:52:00+00:00" expires="" date-last-modified="2013-05-08T07:52:01+00:00" date-first-released="2013-05-08T07:53:01.403031+00:00" date-last-published="2013-05-08T07:53:01.403031+00:00" last-semantic-change="2013-05-08T07:06:22.790344+00:00">
+            <supertitle py:pytype="str">Fragen an F.C. Gundlach</supertitle>
+            <title py:pytype="str">Wie gut ist mein Foto?</title>
+            <text py:pytype="str">Wie unscharf darf ein Bild sein? Sind Brennweiten überflüssig geworden? Erfüllt mein Foto künstlerische Kriterien? Der Fotograf F.C.Gundlach beantwortet Fragen der Leser.</text>
+            <description py:pytype="str">Wie unscharf darf ein Bild sein? Sind Brennweiten überflüssig geworden? Erfüllt mein Foto künstlerische Kriterien? Der Fotograf F.C.Gundlach beantwortet Fragen der Leser.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/gundlach-fragen-jess/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Alexandra Jess: "Alma Lou"</bu>
+              <copyright py:pytype="str">© Alexandra Jess</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-03/fotografie-leseraufruf-gundlach" year="2013" issue="11" ressort="Kultur" contenttype="article" publication-date="2013-03-21T07:26:33+00:00" expires="" date-last-modified="2013-04-19T00:01:06+00:00" date-first-released="2013-03-20T12:21:22.609111+00:00" date-last-published="2013-04-19T02:01:33+00:00" last-semantic-change="2013-03-21T12:28:40.419420+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">F.C. Gundlach</supertitle>
+            <title py:pytype="str">Was ist ein gutes Foto?</title>
+            <text py:pytype="str">Nach welchen Maßstäben werden Fotos beurteilt? Brauchen Sie als Amateurfotograf selbst Rat? Fragen Sie F.C. Gundlach, einen der führenden Modefotografen und Fotosammler.</text>
+            <description py:pytype="str">Nach welchen Maßstäben werden Fotos beurteilt? Brauchen Sie als Amateurfotograf selbst Rat? Fragen Sie F.C. Gundlach, einen der führenden Modefotografen und Fotosammler.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-03/fc-gundlach/" type="jpg" publication-date="" expires="2013-06-19T11:05:27+00:00">
+              <bu py:pytype="str">Der Fotograf und Sammler F.C. Gundlach in seinem Atelier (Archiv)</bu>
+              <copyright py:pytype="str">© Christian Charisius/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2013/03/Fotograf-Gundlach" year="2013" issue="3" ressort="Lebensart" contenttype="article" publication-date="2013-01-17T03:44:00+00:00" expires="" date-last-modified="2013-01-22T10:26:17+00:00" date-first-released="2013-01-10T06:00:00+00:00" date-last-published="2013-01-22T10:27:16.513134+00:00" last-semantic-change="2013-01-22T06:34:01.806722+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">F.C. Gundlach</supertitle>
+            <title py:pytype="str">Als aus Diven elfenhafte Mädchen wurden</title>
+            <text py:pytype="str">Der Fotograf F.C. Gundlach brachte den Nachkriegsdeutschen einst den Glamour nahe. Unserer Reporterin Ingeborg Harms zeigte er in seinem Archiv selten gesehene Aufnahmen.</text>
+            <description py:pytype="str">Der Fotograf F.C. Gundlach brachte den Nachkriegsdeutschen einst den Glamour nahe. Unserer Reporterin Ingeborg Harms zeigte er in seinem Archiv selten gesehene Aufnahmen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/mode/2013-01/teaser-gundlach/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Modefotograf F.C. Gundlach im Jahr 2008 in seiner Ausstellung in den Hamburger Deichtorhallen</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-cab6103b-3fe2-4fc7-b1f1-1a127d36154a" column_1="1">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/fotografie-smartphone-iphone" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-06T13:03:16+00:00" date-first-released="2013-05-06T13:03:19.572917+00:00" date-last-published="2013-05-06T13:04:15.848981+00:00" last-semantic-change="2013-05-03T16:02:05.563461+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+            <title py:pytype="str">"Instagram wird die Fotografie nicht auslöschen"</title>
+            <text py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</text>
+            <description py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/koci-hernandez-hund/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Richard Koci Hernandez </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2013-05/fs-hernandez-iphone-fotografie" year="2013" issue="19" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-05-06T13:05:06+00:00" date-first-released="2013-05-06T13:06:06.417091+00:00" date-last-published="2013-05-06T13:06:06.417091+00:00" last-semantic-change="2013-05-06T07:19:57.188964+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+            <title py:pytype="str">Die Welt durch das Auge eines iPhones</title>
+            <text py:pytype="str">Seit Smartphones erstklassige Kameras haben, macht Straßenfotografie wieder Spaß. Richard Koci Hernandez ist der bekannteste iPhone-Fotograf – wir zeigen seine Bilder.</text>
+            <description py:pytype="str">Seit Smartphones erstklassige Kameras haben, macht Straßenfotografie wieder Spaß. Richard Koci Hernandez ist der bekannteste iPhone-Fotograf – wir zeigen seine Bilder.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/koci-fotostrecke/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Richard Koci Hernandez</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-eb052d92-872e-447a-a500-32a837be5aaa">
+          <block href="http://xml.zeit.de/kultur/kunst/2013-04/fotowoche-editorial-was-ist-fotografie" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2013-05-06T10:55:55+00:00" date-first-released="2013-05-06T09:18:01.137271+00:00" date-last-published="2013-05-06T10:56:54.777844+00:00" last-semantic-change="2013-05-06T10:55:36.826311+00:00">
+            <supertitle py:pytype="str">Fotografie</supertitle>
+            <title py:pytype="str">In einem Meer von Bildern</title>
+            <text py:pytype="str">Eine Riesencloud aus Bildern umgibt uns; jeder ist ein Fotograf. Wo es kaum noch exklusive Fotos gibt, wächst die Sehnsucht nach dem Unikat. Von Carolin Ströbele</text>
+            <description py:pytype="str">Eine Riesencloud aus Bildern umgibt uns; jeder ist ein Fotograf. Wo es kaum noch exklusive Fotos gibt, wächst die Sehnsucht nach dem Unikat. Von Carolin Ströbele</description>
+            <byline xsi:nil="true"/>
+            <image alt="Fotografie Lomografie" align="left" base-id="http://xml.zeit.de/kultur/2013-05/im-meer-der-bilder-3/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Inmitten der Bilderflut entsteht die Sehnsucht nach alten Methoden der Fotografie – wie hier in einer Ausstellung über Lomografie in Russland.</bu>
+              <copyright py:pytype="str">© Kai Pfaffenbach</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/2010-09/fs-photographs" year="2010" issue="39" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2011-08-17T15:47:27+00:00" date-first-released="2010-10-04T09:31:26.813045+00:00" date-last-published="2011-08-17T15:48:27.625621+00:00" last-semantic-change="2010-10-01T16:31:56.892640+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fototechnik</supertitle>
+            <title py:pytype="str">Wenn Fotografie zur Geschichte wird</title>
+            <text py:pytype="str">Seit der Digitalisierung ist die analoge Fotografie fast verschwunden. Martin Zellerhoff hat sich diesem Phänomen gewidmet, mit fotografischen Mitteln. </text>
+            <description py:pytype="str">Seit der Digitalisierung ist die analoge Fotografie fast verschwunden. Martin Zellerhoff hat sich diesem Phänomen gewidmet, mit fotografischen Mitteln. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Photographs" base-id="http://xml.zeit.de/kultur/2010-09/fs-photographs-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Martin Zellerhoff/Adamski Gallery Berlin</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2013/13/Fotografie-Sonderheft-Aufruf" year="2013" issue="13" ressort="Kultur" contenttype="article" publication-date="2013-03-21T08:58:01+00:00" expires="" date-last-modified="2013-04-20T00:00:47+00:00" date-first-released="2013-03-21T06:00:00+00:00" date-last-published="2013-04-20T02:02:22+00:00" last-semantic-change="2013-03-21T06:00:00+00:00">
+            <supertitle py:pytype="str">ZEIT Fotografie</supertitle>
+            <title py:pytype="str">Wie mache ich ein  gutes Foto?</title>
+            <text py:pytype="str">Ein Sonderheft mit  F.C. Gundlach und anderen  Experten gibt Antworten auf große Fragen der Fotografie – gerne auch auf Ihre.</text>
+            <description py:pytype="str">Ein Sonderheft mit  F.C. Gundlach und anderen  Experten gibt Antworten auf große Fragen der Fotografie – gerne auch auf Ihre.</description>
+            <byline py:pytype="str">von Matthias Kalle</byline>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-03/fc-gundlach/" type="jpg" publication-date="" expires="2013-06-19T11:05:27+00:00">
+              <bu py:pytype="str">Der Fotograf und Sammler F.C. Gundlach in seinem Atelier (Archiv)</bu>
+              <copyright py:pytype="str">© Christian Charisius/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-8004446f-9c17-4b8b-8c2f-a3802806ab75">
+          <block href="http://xml.zeit.de/lebensart/2012-12/fs-extended-eye-kiera-2" year="2012" issue="52" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-05-06T13:02:21+00:00" date-first-released="2013-01-06T07:35:29.646177+00:00" date-last-published="2013-05-06T13:03:21.342816+00:00" last-semantic-change="2013-01-06T07:34:13.813973+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+            <title py:pytype="str">Ein Auge in der ganzen Welt</title>
+            <text py:pytype="str">Seine Schwarz-Weiß-Bilder sehen aus wie aus einem Stummfilm. Doch Werner Kiera hat seine Fotos mit seinem iPhone und Webcams auf der ganzen Welt komponiert. </text>
+            <description py:pytype="str">Seine Schwarz-Weiß-Bilder sehen aus wie aus einem Stummfilm. Doch Werner Kiera hat seine Fotos mit seinem iPhone und Webcams auf der ganzen Welt komponiert. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.zeit.de/lebensart/2012-12/fs-extended-eye-kiera-2" title="Extended Eye" base-id="http://xml.zeit.de/lebensart/2012-12/fs-extended-eye-kiera-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Um die Fotostrecke von Werner Kiera zu sehen, klicken Sie bitte hier</bu>
+              <copyright py:pytype="str">© Werner Kiera aka Datenverarbeiter</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2012-12/fs-martin-mlecko-les-choses-de-la-vie" year="2012" issue="50" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2012-12-24T14:26:35+00:00" date-first-released="2012-12-24T14:27:35.119125+00:00" date-last-published="2012-12-24T14:27:35.119125+00:00" last-semantic-change="2012-12-24T14:26:12.851773+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotografie</supertitle>
+            <title py:pytype="str">Schuhe, die die Welt bedeuten</title>
+            <text py:pytype="str">Messer, Socken, Liebesbriefe. Seit fast 20 Jahren dokumentiert der Künstler Martin Mlecko Gegenstände seines Alltags. Für ihn sind sie alles andere als leblose Objekte.</text>
+            <description py:pytype="str">Messer, Socken, Liebesbriefe. Seit fast 20 Jahren dokumentiert der Künstler Martin Mlecko Gegenstände seines Alltags. Für ihn sind sie alles andere als leblose Objekte.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke: Martin Mlecko" base-id="http://xml.zeit.de/kultur/kunst/2012-12/fs-martin-mlecko-choses-vie-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Mit ihnen habe ich die Welt erlaufen. </bu>
+              <copyright py:pytype="str">© Martin Mlecko</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2012-11/fs-biedermeier-fotografie-2" year="2012" issue="47" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-01-02T10:29:09+00:00" date-first-released="2012-11-30T07:46:33.450292+00:00" date-last-published="2013-01-02T10:30:06.005556+00:00" last-semantic-change="2012-11-30T10:02:53.102836+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Historische Fotografie</supertitle>
+            <title py:pytype="str">Milieustudien eines anderen Deutschlands </title>
+            <text py:pytype="str">Der Bau des Kölner Doms, Revolutionäre, ein Kostümball: Die Münchner Ausstellung "Zwischen Biedermeier und Gründerzeit" zeigt Exponate der frühen Fotografie.</text>
+            <description py:pytype="str">Der Bau des Kölner Doms, Revolutionäre, ein Kostümball: Die Münchner Ausstellung "Zwischen Biedermeier und Gründerzeit" zeigt Exponate der frühen Fotografie.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Biedermeier Teaser" base-id="http://xml.zeit.de/kultur/kunst/2012-11/fs-biedermeier-fotografie-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Sammlung Siegert/courtesy Schirmer Mosel</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-b9210d15-c43c-4eef-8641-8c4baf8ec5cb">
+          <block href="http://xml.zeit.de/kultur/2010-09/fs-photographs" year="2010" issue="39" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2011-08-17T15:47:27+00:00" date-first-released="2010-10-04T09:31:26.813045+00:00" date-last-published="2011-08-17T15:48:27.625621+00:00" last-semantic-change="2010-10-01T16:31:56.892640+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fototechnik</supertitle>
+            <title py:pytype="str">Wenn Fotografie zur Geschichte wird</title>
+            <text py:pytype="str">Seit der Digitalisierung ist die analoge Fotografie fast verschwunden. Martin Zellerhoff hat sich diesem Phänomen gewidmet, mit fotografischen Mitteln. </text>
+            <description py:pytype="str">Seit der Digitalisierung ist die analoge Fotografie fast verschwunden. Martin Zellerhoff hat sich diesem Phänomen gewidmet, mit fotografischen Mitteln. </description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Photographs" base-id="http://xml.zeit.de/kultur/2010-09/fs-photographs-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Martin Zellerhoff/Adamski Gallery Berlin</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2010-09/fs-paul-graham" year="2010" issue="38" ressort="Kultur" contenttype="gallery" publication-date="" expires="2011-01-09T06:38:35+00:00" date-last-modified="2011-01-29T12:00:17+00:00" date-first-released="2010-09-26T10:50:20.401130+00:00" date-last-published="2010-09-26T10:50:20.401130+00:00" last-semantic-change="2010-10-21T13:04:20.007136+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotograf Paul Graham</supertitle>
+            <title py:pytype="str">Menschen im Wartezustand</title>
+            <text py:pytype="str">Der britische Fotograf Paul Graham scheint den Betrachter in eine andere Welt zu führen. Dabei zeigt er nur die Realität. Sein Gesamtwerk wird nun in Hamburg ausgestellt.</text>
+            <description py:pytype="str">Der britische Fotograf Paul Graham scheint den Betrachter in eine andere Welt zu führen. Dabei zeigt er nur die Realität. Sein Gesamtwerk wird nun in Hamburg ausgestellt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke Graham Teaser" base-id="http://xml.zeit.de/kultur/kunst/2010-09/fs-graham-teaser/" type="jpg" publication-date="" expires="2011-01-09T06:37:59+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Paul Graham, 2008</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2010-09/fs-f-stop-2" year="2010" issue="37" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2010-09-27T17:02:42+00:00" date-first-released="2010-09-27T17:03:41.919287+00:00" date-last-published="2010-09-27T17:03:41.919287+00:00" last-semantic-change="2010-09-27T08:20:12.197383+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Fotofestival "F/Stop"</supertitle>
+            <title py:pytype="str">Blicke in ferne Welten</title>
+            <text py:pytype="str">Wie hält man Ziellosigkeit, Heimat oder ein ganzes Land in Bildern fest? Mehr als 60 Fotografen zeigen ihre Antworten auf dem Leipziger Fotofestival "F/Stop".</text>
+            <description py:pytype="str">Wie hält man Ziellosigkeit, Heimat oder ein ganzes Land in Bildern fest? Mehr als 60 Fotografen zeigen ihre Antworten auf dem Leipziger Fotofestival "F/Stop".</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke F-Stop Teaser" base-id="http://xml.zeit.de/kultur/kunst/2010-09/fs-f-stop-2-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Tobias Kruse</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2010-09/fs-f-stop-1" year="2010" issue="37" ressort="Kultur" contenttype="gallery" publication-date="" expires="" date-last-modified="2011-01-29T12:00:14+00:00" date-first-released="2010-09-23T06:18:34.708015+00:00" date-last-published="2010-09-23T06:18:34.708015+00:00" last-semantic-change="2010-09-23T06:17:11.351301+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Zeitgenössische Fotografie</supertitle>
+            <title py:pytype="str">Das Blaue und Graue vom Himmel</title>
+            <text py:pytype="str">Wie setzt man Gefühle wie Unbehagen, Angst oder Ohnmacht in fotografische Bilder um? Mehr als 60 Fotografen zeigen ihre Antworten auf dem Leipziger Fotofestival "F/Stop".</text>
+            <description py:pytype="str">Wie setzt man Gefühle wie Unbehagen, Angst oder Ohnmacht in fotografische Bilder um? Mehr als 60 Fotografen zeigen ihre Antworten auf dem Leipziger Fotofestival "F/Stop".</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke F-Stop 1 Teaser" base-id="http://xml.zeit.de/kultur/kunst/2010-09/fs-f-stop-1-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Florian Fischer</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-36541d4b-242c-4ce0-8492-ebf62cdbfc71">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-ac4a07ee-30b8-478d-921c-9dcd2bddf593">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-f4c0dd62-4b2a-4fb4-ad5d-82a423fd8378" layout="368x220" title="Fotostrecke: Ryan McGinley ">
+          <block type="intern" href="http://xml.zeit.de/lebensart/2012-07/fs-ryan-mcginley" year="2012" issue="30" ressort="Lebensart" contenttype="gallery" publication-date="" expires="" date-last-modified="2012-08-02T08:37:07+00:00" date-first-released="2012-08-02T08:38:06.702060+00:00" date-last-published="2012-08-02T08:38:06.702060+00:00" last-semantic-change="2012-08-02T08:36:29.080984+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Ryan McGinley </supertitle>
+            <title py:pytype="str">Sommer ohne Atempause</title>
+            <text py:pytype="str">Der amerikanische Fotograf Ryan McGinley zeigt ausgelassene junge Menschen, die trotz Wirtschaftskrise und Kriegen gegen den Terror nur eines tun: ihr Dasein genießen.</text>
+            <description py:pytype="str">Der amerikanische Fotograf Ryan McGinley zeigt ausgelassene junge Menschen, die trotz Wirtschaftskrise und Kriegen gegen den Terror nur eines tun: ihr Dasein genießen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Fotostrecke: Ryan McGinley" base-id="http://xml.zeit.de/lebensart/2012-07/fs-ryan-mcginley-teaser/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Coco’s Cliff, 2008</bu>
+              <copyright py:pytype="str" link="http://www.schirmer-mosel.de">© Ryan McGinley/ Courtesy Schirmer/Mosel Verlag</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/lebensart/2012-07/fs-ryan-mcginley-teaser/fs-ryan-mcginley-teaser-368x220.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="id-2c8c94c3-c284-4539-8e5c-145a0c7e4a56">
+          <video videoID="2341294078001" player="vid" format="with-links"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <supertitle>Thema</supertitle>
+    <title>Das ist Fotografie</title>
+    <subtitle>Die Fotografie hat in ihrer noch jungen Geschichte einen unglaublichen Wandel erlebt. ZEIT ONLINE widmet sich in einer Themenwoche dem aktuellen Stand der Fotografie.</subtitle>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/foto/2013-05/leserartikel-iphonografie-spiegelreflex" year="2013" issue="19" ressort="Foto" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Fotografie</supertitle>
+      <title py:pytype="str">iPhonografie wird bald zum Klassiker</title>
+      <text py:pytype="str">Smartphone-Fotografie befördert nicht den Niedergang der klassischen Digitalfotografie. Vielmehr sind es Facetten derselben Kunstform, schreibt Leser Frank Wöllnitz.</text>
+      <description py:pytype="str">Smartphone-Fotografie befördert nicht den Niedergang der klassischen Digitalfotografie. Vielmehr sind es Facetten derselben Kunstform, schreibt Leser Frank Wöllnitz.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Smartphonefoto" base-id="http://xml.zeit.de/foto/2013-05/smartphonefoto/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Paula Bronstein/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-05/smartphones-pro-und-contra" year="2013" issue="20" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Pro und Contra</supertitle>
+      <title py:pytype="str">"Das Mysterium der Fotografie hat sich vollkommen erledigt"</title>
+      <text py:pytype="str">Sind Smartphones eine Gefahr für anspruchsvolle Fotografie? Ostkreuz-Fotograf Maurice Weiss und Fabian Mohr von ZEIT ONLINE diskutieren im Pro und Contra.</text>
+      <description py:pytype="str">Sind Smartphones eine Gefahr für anspruchsvolle Fotografie? Ostkreuz-Fotograf Maurice Weiss und Fabian Mohr von ZEIT ONLINE diskutieren im Pro und Contra.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/smartphone-foto/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-04/portraetfotografie-profilbild" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Profilbild</supertitle>
+      <title py:pytype="str">So siehst du gar nicht aus</title>
+      <text py:pytype="str">Ob Affe oder Schwamm: Das Profilbild in sozialen Netzwerken ist die zeitgenössische Inkarnation des Porträtfotos. Etwas Grundlegendes hat sich geändert. Von D. Müller</text>
+      <description py:pytype="str">Ob Affe oder Schwamm: Das Profilbild in sozialen Netzwerken ist die zeitgenössische Inkarnation des Porträtfotos. Etwas Grundlegendes hat sich geändert. Von D. Müller</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/fs-facebook-friends-teaser-2/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Kobe Leah aus Portugal inszeniert sich als Engel</bu>
+        <copyright py:pytype="str">© Nicolas Schmidt/Kerber Verlag</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2013-04/fs-livemedium-foto" year="2013" issue="18" ressort="Kultur" contenttype="gallery" publication-date="" expires="">
+      <supertitle py:pytype="str">Nachrichten</supertitle>
+      <title py:pytype="str">Fotografie wird zum Live-Medium</title>
+      <text py:pytype="str">Der Anschlag von Boston, der Kuss von Barack und Michelle Obama nach dem Wahlsieg, Feuer auf Deep Water Horizon. Wir zeigen Fotos, die Nachrichten transportiert haben.</text>
+      <description py:pytype="str">Der Anschlag von Boston, der Kuss von Barack und Michelle Obama nach dem Wahlsieg, Feuer auf Deep Water Horizon. Wir zeigen Fotos, die Nachrichten transportiert haben.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/2013-04/fs-livemedium-foto-teaser/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str" link="http://commons.wikimedia.org/wiki/File:Plane_crash_into_Hudson_River.jpg">CC BY 2.0 Greg L./Wikimedia Commons</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-05/fragen-an-gundlach-online" year="2013" issue="19" ressort="Kultur" contenttype="article" publication-date="2013-05-08T07:52:00+00:00" expires="">
+      <supertitle py:pytype="str">Fragen an F.C. Gundlach</supertitle>
+      <title py:pytype="str">Wie gut ist mein Foto?</title>
+      <text py:pytype="str">Wie unscharf darf ein Bild sein? Sind Brennweiten überflüssig geworden? Erfüllt mein Foto künstlerische Kriterien? Der Fotograf F.C.Gundlach beantwortet Fragen der Leser.</text>
+      <description py:pytype="str">Wie unscharf darf ein Bild sein? Sind Brennweiten überflüssig geworden? Erfüllt mein Foto künstlerische Kriterien? Der Fotograf F.C.Gundlach beantwortet Fragen der Leser.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/gundlach-fragen-jess/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Alexandra Jess: "Alma Lou"</bu>
+        <copyright py:pytype="str">© Alexandra Jess</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2013-04/fs-michael-wolf-interface-2" year="2013" issue="18" ressort="Kultur" contenttype="gallery" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Fotografie</supertitle>
+      <title py:pytype="str">Verloren in Street View</title>
+      <text py:pytype="str">Google Street View soll der Orientierung dienen. Der Fotograf Michael Wolf liest aus den Bildern, die er im Netz gefunden hat, eine große Verlorenheit.</text>
+      <description py:pytype="str">Google Street View soll der Orientierung dienen. Der Fotograf Michael Wolf liest aus den Bildern, die er im Netz gefunden hat, eine große Verlorenheit.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" href="http://www.zeit.de/kultur/2013-04/fs-michael-wolf-interface-2" title="Michael Wolfs Serie &quot;Interface&quot;" base-id="http://xml.zeit.de/kultur/2013-04/fs-michael-wolf-interface-teaser/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Um die Fotostrecke zu sehen, klicken Sie hier</bu>
+        <copyright py:pytype="str">© Michael Wolf/Courtesy Christophe Guye Galerie, Zurich</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-04/privatsphaere-fotografie-fotoblog" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Privatsphäre</supertitle>
+      <title py:pytype="str">Wir fotografieren uns zu Tode </title>
+      <text py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</text>
+      <description py:pytype="str">Die Fotografie macht das Private heute gnadenlos öffentlich und ruft Voyeurismus ebenso hervor wie Empathie. Ist das noch politisch? Von Carolin Ströbele</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/privatheit/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Die Fotografin Nan Goldin war eine der ersten, die ihr Privatleben exzessiv der Außenwelt zugänglich machte. </bu>
+        <copyright py:pytype="str">© Sean Gallup/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-04/fotografie-interview-martina-weinhart" year="2013" issue="17" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Fotografie</supertitle>
+      <title py:pytype="str">"Wir leben in einer Epoche der Bilderfänger"</title>
+      <text py:pytype="str">Privat und öffentlich: Gibt es diesen Unterschied in der zeitgenössischen Fotografie noch? Kuratorin Martina Weinhart im Interview: "Er verwischt."</text>
+      <description py:pytype="str">Privat und öffentlich: Gibt es diesen Unterschied in der zeitgenössischen Fotografie noch? Kuratorin Martina Weinhart im Interview: "Er verwischt."</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-04/teaser-privat/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Michael Wolf: "Interface 10"</bu>
+        <copyright py:pytype="str">© Michael Wolf/Courtesy Christophe Guye Galerie, Zurich</copyright>
+      </image>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/kultur/kunst/2013-05/video-fotolabor-2" year="2013" issue="19" ressort="Kultur" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/video/2013-05/2357789391001/analoge-fotografie-die-analoge-dunkelkammer-schlaegt-jede-foto-app#autoplay">
+      <video href="http://xml.zeit.de/video/2013-05/2357789391001" href2="" expires="" video_id="vid2357789391001" video_id_2=""/>
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Analoge Fotografie</supertitle>
+      <title py:pytype="str">Dunkelkammer schlägt jede App</title>
+      <text py:pytype="str">Können Foto-Apps Bilder genauso gut entwickeln wie eine professionelle Handprinterin? Wir machen den Test – bei einem Besuch im analogen Fotolabor von Kira Enss.</text>
+      <description py:pytype="str">Können Foto-Apps Bilder genauso gut entwickeln wie eine professionelle Handprinterin? Wir machen den Test – bei einem Besuch im analogen Fotolabor von Kira Enss.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/video-fotolabor/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-04/amateur-fotografie-flickr-hipstamatic" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Flickr</supertitle>
+      <title py:pytype="str">Amateure lernen wieder sehen</title>
+      <text py:pytype="str">Profi-Fotografen und Laien kommen sich immer näher. Das liegt am Internet und an der Technik, aber auch die Sehgewohnheiten haben sich verändert. Von Silke Hohmann</text>
+      <description py:pytype="str">Profi-Fotografen und Laien kommen sich immer näher. Das liegt am Internet und an der Technik, aber auch die Sehgewohnheiten haben sich verändert. Von Silke Hohmann</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-05/pavel-kasik/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">"Easy boy, easy". Ein iPhone-Foto aus dem Flickr-Stream von Pavel Kasik</bu>
+        <copyright py:pytype="str" link="http://www.flickr.com/photos/pavelsan/8633176468/in/photostream">© Pavel Kasik</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2013/13/Fotografie-Sonderheft-Aufruf" year="2013" issue="13" ressort="Kultur" contenttype="article" publication-date="2013-03-21T08:58:01+00:00" expires="">
+      <supertitle py:pytype="str">ZEIT Fotografie</supertitle>
+      <title py:pytype="str">Wie mache ich ein  gutes Foto?</title>
+      <text py:pytype="str">Ein Sonderheft mit  F.C. Gundlach und anderen  Experten gibt Antworten auf große Fragen der Fotografie – gerne auch auf Ihre.</text>
+      <description py:pytype="str">Ein Sonderheft mit  F.C. Gundlach und anderen  Experten gibt Antworten auf große Fragen der Fotografie – gerne auch auf Ihre.</description>
+      <byline py:pytype="str">von Matthias Kalle</byline>
+      <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2013-03/fc-gundlach/" type="jpg" publication-date="" expires="2013-06-19T11:05:27+00:00">
+        <bu py:pytype="str">Der Fotograf und Sammler F.C. Gundlach in seinem Atelier (Archiv)</bu>
+        <copyright py:pytype="str">© Christian Charisius/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2010-09/fs-photographs" year="2010" issue="39" ressort="Kultur" contenttype="gallery" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Fototechnik</supertitle>
+      <title py:pytype="str">Wenn Fotografie zur Geschichte wird</title>
+      <text py:pytype="str">Seit der Digitalisierung ist die analoge Fotografie fast verschwunden. Martin Zellerhoff hat sich diesem Phänomen gewidmet, mit fotografischen Mitteln. </text>
+      <description py:pytype="str">Seit der Digitalisierung ist die analoge Fotografie fast verschwunden. Martin Zellerhoff hat sich diesem Phänomen gewidmet, mit fotografischen Mitteln. </description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Photographs" base-id="http://xml.zeit.de/kultur/2010-09/fs-photographs-teaser/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Martin Zellerhoff/Adamski Gallery Berlin</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/2012-12/fs-extended-eye-kiera-2" year="2012" issue="52" ressort="Kultur" contenttype="gallery" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+      <title py:pytype="str">Ein Auge in der ganzen Welt</title>
+      <text py:pytype="str">Seine Schwarz-Weiß-Bilder sehen aus wie aus einem Stummfilm. Doch Werner Kiera hat seine Fotos mit seinem iPhone und Webcams auf der ganzen Welt komponiert. </text>
+      <description py:pytype="str">Seine Schwarz-Weiß-Bilder sehen aus wie aus einem Stummfilm. Doch Werner Kiera hat seine Fotos mit seinem iPhone und Webcams auf der ganzen Welt komponiert. </description>
+      <byline xsi:nil="true"/>
+      <image align="left" href="http://www.zeit.de/lebensart/2012-12/fs-extended-eye-kiera-2" title="Extended Eye" base-id="http://xml.zeit.de/lebensart/2012-12/fs-extended-eye-kiera-teaser/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Um die Fotostrecke von Werner Kiera zu sehen, klicken Sie bitte hier</bu>
+        <copyright py:pytype="str">© Werner Kiera aka Datenverarbeiter</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-04/fotowoche-editorial-was-ist-fotografie" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Fotografie</supertitle>
+      <title py:pytype="str">In einem Meer von Bildern</title>
+      <text py:pytype="str">Eine Riesencloud aus Bildern umgibt uns; jeder ist ein Fotograf. Wo es kaum noch exklusive Fotos gibt, wächst die Sehnsucht nach dem Unikat. Von Carolin Ströbele</text>
+      <description py:pytype="str">Eine Riesencloud aus Bildern umgibt uns; jeder ist ein Fotograf. Wo es kaum noch exklusive Fotos gibt, wächst die Sehnsucht nach dem Unikat. Von Carolin Ströbele</description>
+      <byline xsi:nil="true"/>
+      <image alt="Fotografie Lomografie" align="left" base-id="http://xml.zeit.de/kultur/2013-05/im-meer-der-bilder-3/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Inmitten der Bilderflut entsteht die Sehnsucht nach alten Methoden der Fotografie – wie hier in einer Ausstellung über Lomografie in Russland.</bu>
+        <copyright py:pytype="str">© Kai Pfaffenbach</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/kunst/2013-04/fotografie-smartphone-iphone" year="2013" issue="18" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">iPhone-Fotografie</supertitle>
+      <title py:pytype="str">"Instagram wird die Fotografie nicht auslöschen"</title>
+      <text py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</text>
+      <description py:pytype="str">Richard Koci Hernandez gilt als bekanntester Vertreter der iPhone-Fotografie. Im Interview erklärt er, warum ein Smartphone für ihn die Kamera der Wahl ist.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/2013-05/koci-hernandez-hund/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© Richard Koci Hernandez </copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Das ist Fotografie</title>
+    <text>ZEIT ONLINE widmet sich in einer Themenwoche dem aktuellen Stand der Fotografie.</text>
+  </teaser>
+</centerpage>

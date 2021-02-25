@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2010-10-01T09:45:38.610573+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2010-09-17T09:27:43.159513+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2010-10-01T09:46:38.118489+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-10-01T09:38:41.972439+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.friemer</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">espresso</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:112c8d6e-9616-4cde-a3b7-49fdce33086e}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">38</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2010</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="15cf45a8-ab33-47df-8a2b-134df5661777">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="0d0fee19-0af8-453f-84d9-b412a38dc8b6" title="Living La Dolce Vita" publisher_url="http://www.philips.de/c/espresso/182449/cat/" supertitle_url="http://www.philips.de/c/espresso/182449/cat/">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/espresso/Links/link-philips-saeco" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.philips.de/c/espresso/182449/cat/">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Philips Saeco</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/espresso/Bilder/philips_saeco_logo/philips_saeco_logo-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="988aa3c0-9c35-48f1-8eaf-7afc55653095">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/espresso/Links/auswahl_maschine" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.philips.de/c/espresso/182449/cat/#/cp_tab3" date-last-modified="2010-09-23T15:01:41+00:00" date-first-released="2010-09-17T08:52:21.768275+00:00" date-last-published="2010-09-17T08:52:21.768275+00:00" last-semantic-change="2010-09-23T14:56:31.781356+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wählen Sie Ihre Maschine aus</title>
+            <text py:pytype="str">Entdecken Sie die für Sie richtige Philips Saeco Maschine. Zur Auswahl stehen Maschinen für ganze Bohnen sowie manuelle Maschinen.</text>
+            <description py:pytype="str">Entdecken Sie die für Sie richtige Philips Saeco Maschine. Zur Auswahl stehen Maschinen für ganze Bohnen sowie manuelle Maschinen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.philips.de/c/espresso/182449/cat/#/cp_tab3" title="Saeco_Range_neu" base-id="http://xml.zeit.de/angebote/espresso/Bilder/Saeco_Range_neu/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="68aa32d6-803f-4091-82c6-4e3119b9b855">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/espresso/Links/espressorezepte" year="2010" issue="38" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.philips.de/c/espresso/182449/cat/#/cp_tab2" ns0:target="_blank" date-last-modified="2010-09-23T15:00:06+00:00" date-first-released="2010-09-17T10:09:16.998840+00:00" date-last-published="2010-09-23T15:01:06.265739+00:00" last-semantic-change="2010-09-23T14:59:38.670235+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Espressorezepte</title>
+            <text py:pytype="str">Echter Espresso eröffnet völlig neue kulinarische Möglichkeiten. Lassen Sie sich inspirieren.</text>
+            <description py:pytype="str">Echter Espresso eröffnet völlig neue kulinarische Möglichkeiten. Lassen Sie sich inspirieren.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" href="http://www.philips.de/c/espresso/182449/cat/#/cp_tab2" title="recipe_baby_latte" base-id="http://xml.zeit.de/angebote/espresso/Bilder/recipe_baby_latte/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="19ee53d1-82b6-4ab1-a383-ec18e14e366f" title="Lesen Sie mehr zum Thema auf ZEIT ONLINE">
+          <block href="http://xml.zeit.de/lebensart/essen-trinken/2010-09/kaffee-trends" year="2010" issue="37" ressort="Lebensart" publication-date="" expires="" date-last-modified="2010-09-17T09:49:47+00:00" date-first-released="2010-09-17T05:29:51.491181+00:00" date-last-published="2010-09-17T05:29:51.491181+00:00" last-semantic-change="2010-09-17T09:49:42.787326+00:00">
+            <supertitle py:pytype="str">Kaffee</supertitle>
+            <title py:pytype="str">Wo man sich für die Bohne interessiert</title>
+            <text py:pytype="str">Seit Latte macchiato und Espresso Alltagsgetränke geworden sind, ist Kaffee mehr als bloß ein Wachmacher. Er ist auch ein Thema für Feinschmecker und Puristen.</text>
+            <description py:pytype="str">Seit Latte macchiato und Espresso Alltagsgetränke geworden sind, ist Kaffee mehr als bloß ein Wachmacher. Er ist auch ein Thema für Feinschmecker und Puristen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/lebensart/essen-trinken/2010-09/kaffee-trends-barista/" type="jpg" publication-date="" expires="">
+              <bu>Ein Barista in London schäumt Milch auf</bu>
+              <copyright py:pytype="str">© Oli Scarff/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/28/kaffee-alzheimer" year="2009" ressort="Wissen" publication-date="" expires="" date-last-modified="2010-10-01T09:32:49+00:00" date-first-released="2009-07-06T22:00:00+00:00" date-last-published="2010-03-11T13:29:37.385175+00:00" last-semantic-change="2010-10-01T09:32:36.376441+00:00">
+            <supertitle py:pytype="str">Demenz</supertitle>
+            <title py:pytype="str">Fünf Tassen Kaffee gegen Alzheimer</title>
+            <text py:pytype="str">Im Tierversuch besserte Koffein das Leiden. Die vorbeugende Wirkung war bereits bekannt – jetzt könnte der Wirkstoff auch zur Demenz-Therapie eingesetzt werden.</text>
+            <description py:pytype="str">Im Tierversuch besserte Koffein das Leiden. Die vorbeugende Wirkung war bereits bekannt – jetzt könnte der Wirkstoff auch zur Demenz-Therapie eingesetzt werden.</description>
+            <byline py:pytype="str">Von Hartmut Wewetzer</byline>
+            <image alt="Kaffee Kaffeetasse Tasse Getränk Koffein Café" align="left" base-id="http://xml.zeit.de/bilder/2009/28/wissen/kaffeetasse-alzheimer/" type="jpg" publication-date="" expires="">
+              <bu>Dass Kaffee entwässert ist ein Mythos – nun schreiben Mediziner dem Heißgetränk sogar heilende Kräfte zu</bu>
+              <copyright py:pytype="str" link="http://www.photocase.com/de/user.asp?u=253417">© steffne/Photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/18/Cafe-Kaffeedeutsch-18" year="2009" issue="18" ressort="Lebensart" publication-date="2009-04-23T04:36:04+00:00" expires="" date-last-modified="2009-04-23T04:36:08+00:00" date-first-released="2009-04-23T06:00:00+00:00" date-last-published="2009-04-23T04:37:11.840387+00:00" last-semantic-change="2009-04-22T15:35:35.564817+00:00">
+            <supertitle py:pytype="str">Psychologie</supertitle>
+            <title py:pytype="str">Kaffee-Sätze</title>
+            <text py:pytype="str">"Ein doppelter Espresso", "eine Latte, bitte": Hinter jeder Kaffeebestellung eines Mannes steht eine Botschaft. Wir haben die wichtigsten entschlüsselt.</text>
+            <description py:pytype="str">"Ein doppelter Espresso", "eine Latte, bitte": Hinter jeder Kaffeebestellung eines Mannes steht eine Botschaft. Wir haben die wichtigsten entschlüsselt.</description>
+            <byline py:pytype="str">Von Tillmann Prüfer</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/18/lebensart/ZEIT-Magazin/p-kaffee-2/" type="jpg" publication-date="" expires="2009-05-28T14:25:00+00:00">
+              <bu>In mir steckt ein Taifun voller Leidenschaft, will der Cortado-Trinken uns bedeuten</bu>
+              <copyright py:pytype="str" link="http://www.shinichimaruyama.com">© Shinichi Maruyama</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/17/kaffee-rezepte" year="2009" issue="17" ressort="Lebensart" publication-date="" expires="" date-last-modified="2009-11-09T13:43:29+00:00" date-first-released="2009-04-21T15:39:45.787978+00:00" date-last-published="2009-04-22T08:18:20.507364+00:00" last-semantic-change="2009-04-22T08:29:25.103426+00:00">
+            <supertitle py:pytype="str">Rezepte </supertitle>
+            <title py:pytype="str">Kaffee-Kreationen</title>
+            <text py:pytype="str">Weißes Kaffee-Eis und Jakobsmuscheln auf Kaffeelack: Vier Spitzenköche zeigen, dass die Bohne keineswegs nur in die Tasse gehört</text>
+            <description py:pytype="str">Weißes Kaffee-Eis und Jakobsmuscheln auf Kaffeelack: Vier Spitzenköche zeigen, dass die Bohne keineswegs nur in die Tasse gehört</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/18/lebensart/kaffee-poletto/" type="jpg" publication-date="" expires="">
+              <bu>Café-Crème-brulée mit Zwetschgenröster von Cornelia Poletto</bu>
+              <copyright py:pytype="str">© Zabert Sandmann Verlag </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2003/17/Starbucks" year="2003" issue="17" ressort="Wirtschaft" publication-date="" expires="" date-last-modified="2009-09-01T05:18:59+00:00" date-first-released="2003-04-16T12:00:00+00:00" date-last-published="" last-semantic-change="2003-04-16T12:00:00+00:00">
+            <supertitle py:pytype="str">momente der entscheidung, folge 8.</supertitle>
+            <title py:pytype="str">Der  Kaffee-König</title>
+            <text py:pytype="str">Wie Howard Schultz aus vier kleinen Läden in Amerika die Starbucks-Kette mit weltweit 6000 Filialen schuf</text>
+            <description py:pytype="str">Wie Howard Schultz aus vier kleinen Läden in Amerika die Starbucks-Kette mit weltweit 6000 Filialen schuf</description>
+            <byline py:pytype="str">Von Deborah Steinborn</byline>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Philips Saeco</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Philips Saeco</title>
+  </teaser>
+</centerpage>

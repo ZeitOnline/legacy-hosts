@@ -1,0 +1,1157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <snapshot align="left" href="http://asdf.com" title="Capri" src="http://xml.zeit.de/test/test-bilder-grafik-tool/capri/capri-540x304.jpg" type="jpg" publication-date="" expires="">
+      <bu>Capri bote bla bla neue bu</bu>
+      <copyright>©cz</copyright>
+    </snapshot>
+    <header_image xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">czcp</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-05-22T20:03:12.450568+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-08-24T08:07:54.732495+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-05-22T20:04:56.666357+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-04-17T16:03:19.870442+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="html-meta-title">sdklfhjskldfjskldjfkalsjdfkl</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2010-06-24T15:43:17.483733+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.brightcove</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Wirtschaft</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="snapshot">http://xml.zeit.de/reisen/2010-04/fs-expo-shanghai-teaser/fs-expo-shanghai-teaser-180xVar.jpg</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:1de152bf-d1c7-4dc1-a88b-f47c87b40ae2}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">26</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="was_automatically_syndicated_into"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2008</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader" cp:__name__="974acf10-758a-4b19-a077-ad48d8f21828">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/test/cz/artikel-2-3" year="2008" issue="26" ressort="Meinung" ns0:href="http://xml.zeit.de/test/cz/artikel" date-last-modified="2010-03-22T13:34:07+00:00" date-first-released="" date-last-published="" last-semantic-change="" publication-date="" expires="">
+            <supertitle py:pytype="str">spitzbube</supertitle>
+            <title py:pytype="str">Blub</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/test/cz/leuchtturm/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Julia Roeser</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7362628c-230c-4ab0-9db5-cd1e12fd28f0">
+          <block href="http://xml.zeit.de/2005/01/Netzk_9fnstler" year="2005" issue="1" publication-date="" expires="" date-last-modified="2009-09-01T07:20:51+00:00" date-first-released="2004-12-31T12:00:00+00:00" date-last-published="" last-semantic-change="2008-05-14T04:55:00+00:00" ressort="Feuilleton" contenttype="article">
+            <supertitle py:pytype="str">Internetkunst</supertitle>
+            <title py:pytype="str">Schläge auf die Grafikkarte</title>
+            <text py:pytype="str">Die Internetkunst emanzipiert sich von ihrem Medium und strebt ins Museum</text>
+            <description py:pytype="str">Die Internetkunst emanzipiert sich von ihrem Medium und strebt ins Museum</description>
+            <byline py:pytype="str">Von Malte Henk</byline>
+          </block>
+          <block href="http://xml.zeit.de/digital/internet/2009-09/Ethan-Zuckermann-Interview" year="2009" issue="37" publication-date="" expires="" date-last-modified="2013-04-30T08:30:28+00:00" date-first-released="2009-09-09T08:20:19.832563+00:00" date-last-published="2013-04-30T10:31:29+00:00" last-semantic-change="2009-09-09T07:28:53.199943+00:00" ressort="Digital" contenttype="article">
+            <supertitle py:pytype="str">Ars Electronica</supertitle>
+            <title py:pytype="str">"Wir müssen eine Revolution starten"</title>
+            <text py:pytype="str">Die Intelligenz der Cloud wird derzeit noch gar nicht richtig genutzt. Global-Voices-Mitbegründer Ethan Zuckerman zeichnet ein Bild der besten aller möglichen Netzwelten.</text>
+            <description py:pytype="str">Die Intelligenz der Cloud wird derzeit noch gar nicht richtig genutzt. Global-Voices-Mitbegründer Ethan Zuckerman zeichnet ein Bild der besten aller möglichen Netzwelten.</description>
+            <byline xsi:nil="true"/>
+            <image alt="cloud" align="left" title="wolken-cloud" base-id="http://xml.zeit.de/digital/internet/2009-09/wolken-cloud/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Cloud Computing, das &amp;quot;Rechnen in der Wolke&amp;quot; bezeichnet den aktuellen Trend, die eigene IT nicht mehr aus dem lokalen PC, sondern aus dem weltweiten Netzwerk zu beziehen</bu>
+              <copyright py:pytype="str">©Jewel Samad/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/37/ars-electronica-eroeffnung" year="2009" issue="37" publication-date="" expires="" date-last-modified="2013-04-30T08:40:17+00:00" date-first-released="2009-09-04T16:31:30.711960+00:00" date-last-published="2013-04-30T10:40:29+00:00" last-semantic-change="2009-09-04T17:47:00.536468+00:00" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Ars Electronica</supertitle>
+            <title py:pytype="str">Linzer Roboterträume</title>
+            <text py:pytype="str">Auf der diesjährigen Ars Electronica steht die menschliche Natur im Mittelpunkt. Aufsehen erregt besonders der künstliche Mensch des Forschers Hiroshi Ishiguro.</text>
+            <description py:pytype="str">Auf der diesjährigen Ars Electronica steht die menschliche Natur im Mittelpunkt. Aufsehen erregt besonders der künstliche Mensch des Forschers Hiroshi Ishiguro.</description>
+            <byline py:pytype="str">Von Markus Zinsmaier, Linz</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/37/kultur/ars-electronica/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Wer ist der Mensch? Hiroshi Ishiguro präsentiert seinen &amp;quot;Gemininoiden&amp;quot; auf der Ars Electronica</bu>
+              <copyright py:pytype="str">© Umbra</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/09/generation-internet" year="2009" issue="9" publication-date="" expires="" date-last-modified="2013-04-30T16:07:09+00:00" date-first-released="2009-02-26T09:04:44.513566+00:00" date-last-published="2013-04-30T18:07:16+00:00" last-semantic-change="2009-10-01T07:41:38.643464+00:00" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Internet und Jugend</supertitle>
+            <title py:pytype="str">Sternzeichen Google</title>
+            <text py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</text>
+            <description py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</description>
+            <byline py:pytype="str">Von David Hugendick</byline>
+            <image alt="Generation Internet Cover" align="left" title="John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten" base-id="http://xml.zeit.de/kultur/literatur/2009-09/generation-internet/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten</bu>
+              <copyright py:pytype="str">© Hanser-Verlag</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2009-09/ars-electronica-stocker" year="2009" issue="37" publication-date="" expires="" date-last-modified="2013-04-30T08:34:52+00:00" date-first-released="2009-09-07T14:47:17.391966+00:00" date-last-published="2013-04-30T10:35:01+00:00" last-semantic-change="2009-09-07T14:48:12.257145+00:00" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Ars Electronica</supertitle>
+            <title py:pytype="str">"Das Festival bleibt Labor"</title>
+            <text py:pytype="str">Seit 30 Jahren widmet sich die Ars Electronica der Medienkunst. Der künstlerische Leiter Gerfried Stocker über Net Art und die kulturelle Bedeutung digitaler Netzwerke</text>
+            <description py:pytype="str">Seit 30 Jahren widmet sich die Ars Electronica der Medienkunst. Der künstlerische Leiter Gerfried Stocker über Net Art und die kulturelle Bedeutung digitaler Netzwerke</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2009-09/gerfried-stocker/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Gerfried Stocker, 45, warnt vor naiver Euphorie gegenüber digitalen Netzwerken</bu>
+              <copyright py:pytype="str">© rubra</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="43d3fa39-46b4-4110-bac5-5ac1ccbc0d55">
+          <block href="http://xml.zeit.de/digital/internet/2009-09/Ethan-Zuckermann-Interview" year="2009" issue="37" publication-date="" expires="" date-last-modified="2013-04-30T08:30:28+00:00" date-first-released="2009-09-09T08:20:19.832563+00:00" date-last-published="2013-04-30T10:31:29+00:00" last-semantic-change="2009-09-09T07:28:53.199943+00:00" ressort="Digital" contenttype="article">
+            <supertitle py:pytype="str">Ars Electronica</supertitle>
+            <title py:pytype="str">"Wir müssen eine Revolution starten"</title>
+            <text py:pytype="str">Die Intelligenz der Cloud wird derzeit noch gar nicht richtig genutzt. Global-Voices-Mitbegründer Ethan Zuckerman zeichnet ein Bild der besten aller möglichen Netzwelten.</text>
+            <description py:pytype="str">Die Intelligenz der Cloud wird derzeit noch gar nicht richtig genutzt. Global-Voices-Mitbegründer Ethan Zuckerman zeichnet ein Bild der besten aller möglichen Netzwelten.</description>
+            <byline xsi:nil="true"/>
+            <image alt="cloud" align="left" title="wolken-cloud" base-id="http://xml.zeit.de/digital/internet/2009-09/wolken-cloud/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Cloud Computing, das &amp;quot;Rechnen in der Wolke&amp;quot; bezeichnet den aktuellen Trend, die eigene IT nicht mehr aus dem lokalen PC, sondern aus dem weltweiten Netzwerk zu beziehen</bu>
+              <copyright py:pytype="str">©Jewel Samad/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="948ec906-34ca-4275-86a5-382736af7b5d">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/deutschland/2009-09/link-schlagwort-spd" year="2009" issue="39" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/tags/index?q=SPD" date-last-modified="2009-09-17T08:29:49+00:00" date-first-released="2009-09-17T08:30:48.690745+00:00" date-last-published="2009-09-17T08:30:48.690745+00:00" last-semantic-change="2009-09-17T08:29:33.307857+00:00" ressort="Politik" contenttype="link">
+            <supertitle py:pytype="str">Schlagwort</supertitle>
+            <title py:pytype="str">SPD</title>
+            <text py:pytype="str">Informationen, Analysenund Kommentare zur Sozialdemokratischen Partei Deutschland</text>
+            <description py:pytype="str">Informationen, Analysenund Kommentare zur Sozialdemokratischen Partei Deutschland</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2009-10/wowereit-linkspartei" year="2009" issue="41" publication-date="" expires="" date-last-modified="2013-04-30T07:25:18+00:00" date-first-released="2009-10-04T07:04:13.706290+00:00" date-last-published="2013-04-30T09:25:31+00:00" last-semantic-change="2009-10-04T07:02:37.304296+00:00" ressort="Politik" contenttype="article">
+            <supertitle py:pytype="str">Klaus Wowereit</supertitle>
+            <title py:pytype="str">"SPD muss sich im Bund vom Linkspartei-Tabu trennen“</title>
+            <text py:pytype="str">Berlins Bürgermeister Wowereit rechnet fest damit, dass die SPD das Koalitionsverbot mit der Linkspartei im Bund bald kippen wird. Ein Interview über die Zukunft der SPD.</text>
+            <description py:pytype="str">Berlins Bürgermeister Wowereit rechnet fest damit, dass die SPD das Koalitionsverbot mit der Linkspartei im Bund bald kippen wird. Ein Interview über die Zukunft der SPD.</description>
+            <byline xsi:nil="true"/>
+            <image alt="wowereit" align="left" title="wowereit" base-id="http://xml.zeit.de/politik/deutschland/2009-10/wowereit/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Erläutert sein Konzept für die SPD: Berlins Bürgermeister Klaus Wowereit </bu>
+              <copyright py:pytype="str">©  Sean Gallup/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2009-10/ypsilanti-spd-praesidium" year="2009" issue="41" publication-date="" expires="" date-last-modified="2013-04-30T07:25:23+00:00" date-first-released="2009-10-03T14:17:46.661558+00:00" date-last-published="2013-04-30T09:25:31+00:00" last-semantic-change="2009-10-05T15:50:05.589125+00:00" ressort="Politik" contenttype="article">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Nach der Bundestagswahl</supertitle>
+            <title py:pytype="str">SPD ringt um ihren Kurs</title>
+            <text py:pytype="str">Nach der Wahl treibt die SPD  nach Links: Ex-Landeschefin Ypsilanti hofft auf ein Comeback, Berlins Bürgermeister Wowereit will das Koalitionsverbot mit den Linken kippen</text>
+            <description py:pytype="str">Nach der Wahl treibt die SPD  nach Links: Ex-Landeschefin Ypsilanti hofft auf ein Comeback, Berlins Bürgermeister Wowereit will das Koalitionsverbot mit den Linken kippen</description>
+            <byline xsi:nil="true"/>
+            <image alt="Andrea Ypsilanti drängt ins SPD-Präsidium" align="left" title="Andrea Ypsilanti drängt ins SPD-Präsidium" base-id="http://xml.zeit.de/politik/deutschland/2009-10/ypsilanti-spd-praesidium-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Andrea Ypsilanti spricht im Februar auf dem Landesparteitag in Darmstadt: Jetzt will sie erneut ins SPD-Präsidium</bu>
+              <copyright py:pytype="str">©  Fredrik von Erichsen/dpa</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="e7a98aa2-05fa-4816-8de4-e27663669d08">
+          <block href="http://xml.zeit.de/online/2009/09/generation-internet" year="2009" issue="9" date-last-modified="2013-04-30T16:07:09+00:00" last-semantic-change="2009-10-01T07:41:38.643464+00:00" date-first-released="2009-02-26T09:04:44.513566+00:00" date-last-published="2013-04-30T18:07:16+00:00" publication-date="" expires="" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Internet und Jugend</supertitle>
+            <title py:pytype="str">Sternzeichen Google</title>
+            <text py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</text>
+            <description py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</description>
+            <byline py:pytype="str">Von David Hugendick</byline>
+            <image alt="Generation Internet Cover" align="left" title="John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten" base-id="http://xml.zeit.de/kultur/literatur/2009-09/generation-internet/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten</bu>
+              <copyright py:pytype="str">© Hanser-Verlag</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2005/01/Netzk_9fnstler" year="2005" issue="1" date-last-modified="2009-09-01T07:20:51+00:00" last-semantic-change="2008-05-14T04:55:00+00:00" date-first-released="2004-12-31T12:00:00+00:00" date-last-published="" publication-date="" expires="" ressort="Feuilleton" contenttype="article">
+            <supertitle py:pytype="str">Internetkunst</supertitle>
+            <title py:pytype="str">Schläge auf die Grafikkarte</title>
+            <text py:pytype="str">Die Internetkunst emanzipiert sich von ihrem Medium und strebt ins Museum</text>
+            <description py:pytype="str">Die Internetkunst emanzipiert sich von ihrem Medium und strebt ins Museum</description>
+            <byline py:pytype="str">Von Malte Henk</byline>
+          </block>
+          <block href="http://xml.zeit.de/kultur/kunst/2009-09/ars-electronica-stocker" year="2009" issue="37" date-last-modified="2013-04-30T08:34:52+00:00" last-semantic-change="2009-09-07T14:48:12.257145+00:00" date-first-released="2009-09-07T14:47:17.391966+00:00" date-last-published="2013-04-30T10:35:01+00:00" publication-date="" expires="" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Ars Electronica</supertitle>
+            <title py:pytype="str">"Das Festival bleibt Labor"</title>
+            <text py:pytype="str">Seit 30 Jahren widmet sich die Ars Electronica der Medienkunst. Der künstlerische Leiter Gerfried Stocker über Net Art und die kulturelle Bedeutung digitaler Netzwerke</text>
+            <description py:pytype="str">Seit 30 Jahren widmet sich die Ars Electronica der Medienkunst. Der künstlerische Leiter Gerfried Stocker über Net Art und die kulturelle Bedeutung digitaler Netzwerke</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/kultur/kunst/2009-09/gerfried-stocker/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Gerfried Stocker, 45, warnt vor naiver Euphorie gegenüber digitalen Netzwerken</bu>
+              <copyright py:pytype="str">© rubra</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="471b15fb-482c-4316-ac98-b74fedc9b17e">
+          <block href="http://xml.zeit.de/wirtschaft/2009-09/maastricht-kriterien-deutschland" year="2009" issue="37" date-last-modified="2013-04-30T08:30:26+00:00" last-semantic-change="2009-09-09T07:43:05.539575+00:00" date-first-released="2009-09-09T05:22:43.519606+00:00" date-last-published="2013-04-30T10:31:29+00:00" publication-date="" expires="" ressort="Wirtschaft" contenttype="article">
+            <supertitle py:pytype="str">Staatsschulden</supertitle>
+            <title py:pytype="str">Deutschland vermeidet EU-Defizitverfahren</title>
+            <text py:pytype="str">Anders als erwartet wird Deutschland 2009 die EU-Höchstgrenze für Staatsschulden wohl einhalten. Laut einer Studie entwickelt sich die Wirtschaft ausreichend gut.</text>
+            <description py:pytype="str">Anders als erwartet wird Deutschland 2009 die EU-Höchstgrenze für Staatsschulden wohl einhalten. Laut einer Studie entwickelt sich die Wirtschaft ausreichend gut.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Guten Nachrichten für Steinbrück: Deutschland reißt die Maastricht-Kriterien nicht zwingend" align="left" title="Staatsverschuldung Steinbrück" base-id="http://xml.zeit.de/bilder/2009/37/politik/deutschland/staatsverschuldung/" type="jpg" publication-date="" expires="2009-12-09T06:08:06+00:00">
+              <bu py:pytype="str">Guten Nachrichten für Steinbrück: Deutschland reißt die Maastricht-Kriterien nicht zwingend</bu>
+              <copyright py:pytype="str">© Rainer Jensen/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/35/wirtschaftskrise-haushalt-minus" year="2009" issue="35" date-last-modified="2013-04-30T09:09:41+00:00" last-semantic-change="2009-08-25T10:55:49.931560+00:00" date-first-released="2009-08-25T07:35:21.086616+00:00" date-last-published="2013-04-30T11:09:54+00:00" publication-date="" expires="" ressort="Politik" contenttype="article">
+            <supertitle py:pytype="str">Staatshaushalt</supertitle>
+            <title py:pytype="str">Wirtschaftskrise stürzt Haushalt ins Minus</title>
+            <text py:pytype="str">Im ersten Halbjahr ist Deutschland ein Haushaltsdefizit von rund 17,3 Milliarden Euro angefallen. Grund sind geringe Steuereinnahmen und hohe Ausgaben</text>
+            <description py:pytype="str">Im ersten Halbjahr ist Deutschland ein Haushaltsdefizit von rund 17,3 Milliarden Euro angefallen. Grund sind geringe Steuereinnahmen und hohe Ausgaben</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="321daf38-8bcc-483a-b3b3-d4a02087b16f">
+          <block href="http://xml.zeit.de/wirtschaft/2009-09/kleinwort-boni-klage" year="2009" issue="37" date-last-modified="2013-04-30T08:30:24+00:00" last-semantic-change="2009-09-09T08:35:29.872780+00:00" date-first-released="2009-09-09T08:05:36.680070+00:00" date-last-published="2013-04-30T10:31:29+00:00" publication-date="" expires="" ressort="Wirtschaft" contenttype="article">
+            <supertitle py:pytype="str">Finanzkrise</supertitle>
+            <title py:pytype="str">Kleinwort-Manager klagen Millionenboni ein</title>
+            <text py:pytype="str">Mitarbeiter der Investmentbank Dresdner Kleinwort wollen in Großbritannien Zusatzeinkünfte vor Gericht durchsetzen. Die Commerzbank als Konzernmutter hatte sie gestrichen</text>
+            <description py:pytype="str">Mitarbeiter der Investmentbank Dresdner Kleinwort wollen in Großbritannien Zusatzeinkünfte vor Gericht durchsetzen. Die Commerzbank als Konzernmutter hatte sie gestrichen</description>
+            <byline xsi:nil="true"/>
+            <image alt="Streitbare Manager: Die Dresdner Kleinwort in London" align="left" title="Dresdner Kleinwort Boni Manager London Commerzbank Bank" base-id="http://xml.zeit.de/bilder/2009/37/wirtschaft/dresdner-kleinwort-090909/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Streitbare Manager: Die Dresdner Kleinwort in London</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wirtschaft/2009-09/interview-green-finanzkrise" year="2009" issue="37" date-last-modified="2013-04-30T08:34:19+00:00" last-semantic-change="2009-09-08T13:36:54.095894+00:00" date-first-released="2009-09-07T14:44:45.155574+00:00" date-last-published="2013-04-30T10:34:28+00:00" publication-date="" expires="" ressort="Wirtschaft" contenttype="article">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">HSBC-Chairman</supertitle>
+            <title py:pytype="str">"Garantie-Boni sind verwerflich"</title>
+            <text py:pytype="str">Das Schlimmste der Krise ist ausgestanden, sagt der Chairman der Bank HSBC, Stephen Green, im Interview - und fordert die Regulierer auf, garantierte Boni zu verbieten.</text>
+            <description py:pytype="str">Das Schlimmste der Krise ist ausgestanden, sagt der Chairman der Bank HSBC, Stephen Green, im Interview - und fordert die Regulierer auf, garantierte Boni zu verbieten.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="stephen-green-finanzkrise" base-id="http://xml.zeit.de/wirtschaft/2009-09/stephen-green-finanzkrise-2/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Stephen Green, Chairman der britischen Bank HSBC sagt: &amp;quot;Die Bankenbranche hat sich nicht mit Ruhm bekleckert&amp;quot;</bu>
+              <copyright py:pytype="str">© Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/politik/ausland/2009-09/boni-regeln" year="2009" issue="36" date-last-modified="2013-04-30T08:48:30+00:00" last-semantic-change="2009-09-02T17:41:02.277112+00:00" date-first-released="2009-09-02T17:38:31.277914+00:00" date-last-published="2013-04-30T10:48:36+00:00" publication-date="" expires="" ressort="Wirtschaft" contenttype="article">
+            <supertitle py:pytype="str">Managervergütung</supertitle>
+            <title py:pytype="str">Scharfe Boni-Regeln durchgesetzt</title>
+            <text py:pytype="str">Exzesse bei der Vergütung von Bankmanagern soll es nach dem Willen der Europäer bald nicht mehr geben. Deutschland und Frankreich setzten restriktive Regeln durch</text>
+            <description py:pytype="str">Exzesse bei der Vergütung von Bankmanagern soll es nach dem Willen der Europäer bald nicht mehr geben. Deutschland und Frankreich setzten restriktive Regeln durch</description>
+            <byline xsi:nil="true"/>
+            <image alt="Angela Merkel und Nicolas Sarkozy" align="left" title="merkel Sarkozy G8" base-id="http://xml.zeit.de/politik/ausland/2009-09/merkel-sarkozy/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Zur Begrenzung entschlossen: Merkel und Sarkozy</bu>
+              <copyright py:pytype="str">© Alexander Nemenov/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/32/Bad-Banker" year="2009" issue="32" date-last-modified="2013-04-30T10:06:47+00:00" last-semantic-change="2009-09-07T14:48:57.973944+00:00" date-first-released="2009-07-30T06:00:00+00:00" date-last-published="2013-04-30T12:07:57+00:00" publication-date="" expires="" ressort="Wirtschaft" contenttype="article">
+            <supertitle py:pytype="str">Abfindungsklage</supertitle>
+            <title py:pytype="str">Der Dresdner Banker, der zu viel wollte</title>
+            <text py:pytype="str">Ein Exbanker erhielt 2008 einen Milliardenbonus. Jetzt klagt er um eine Millionen-Abfindung und wird zum Symbol der Gier. Dabei folgt er nur dem Gesetz der Branche.</text>
+            <description py:pytype="str">Ein Exbanker erhielt 2008 einen Milliardenbonus. Jetzt klagt er um eine Millionen-Abfindung und wird zum Symbol der Gier. Dabei folgt er nur dem Gesetz der Branche.</description>
+            <byline py:pytype="str">Von Kerstin Kohlenberg und Wolfgang Uchatius</byline>
+            <image alt="Die ehemalige Dresdner-Bank-Zentrale in Frankfurt am Main" align="left" base-id="http://xml.zeit.de/bilder/2009/32/wirtschaft/17-bank-boni/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Erdenfern: Die ehemalige Dresdner-Bank-Zentrale in Frankfurt am Main</bu>
+              <copyright py:pytype="str">© Thomas Lohnes/ddp</copyright>
+            </image>
+            <gallery type="intern" href="http://xml.zeit.de/online/2009/24/bg-blase" year="2009" issue="23" ressort="Wirtschaft" contenttype="gallery" publication-date="" expires="">
+              <supertitle py:pytype="str">Finanzkrise</supertitle>
+              <title py:pytype="str">Die Seifenblasen-Bonanza</title>
+              <text py:pytype="str">Massig Kapital, eine riskante Zinspolitik, leichtfertige Banker, unwissende Kunden: Das führte die Finanzmärkte zum Boom - und dann in den Abgrund. Eine Bildergeschichte</text>
+              <description py:pytype="str">Massig Kapital, eine riskante Zinspolitik, leichtfertige Banker, unwissende Kunden: Das führte die Finanzmärkte zum Boom - und dann in den Abgrund. Eine Bildergeschichte</description>
+              <byline py:pytype="str">Von Alexandra Endres</byline>
+              <image alt="Was sind die Ursachen der Krise? Eine Bildergeschichte" align="left" base-id="http://xml.zeit.de/bilder/2009/24/bildergalerien/teaser/bg-blase/" type="jpg" publication-date="" expires="">
+                <bu py:pytype="str">Was sind die Ursachen der Krise? Eine Bildergeschichte</bu>
+                <copyright py:pytype="str">©  ZEIT ONLINE</copyright>
+              </image>
+            </gallery>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7edce37e-f2bc-414c-b761-8c223732bba7">
+          <block href="http://xml.zeit.de/karriere/2009-09/arbeitsrecht-" year="2009" issue="37" date-last-modified="2013-04-30T08:28:59+00:00" last-semantic-change="2009-09-23T07:25:36.138972+00:00" date-first-released="2009-09-09T07:45:02.347091+00:00" date-last-published="2013-04-30T10:29:12+00:00" publication-date="" expires="" ressort="Karriere" contenttype="article">
+            <supertitle py:pytype="str">Da staunt der Chef</supertitle>
+            <title py:pytype="str">Der genehmigte Urlaub ist unwiderruflich</title>
+            <text py:pytype="str">Hat der Chef den freien Tagen erst einmal zugestimmt, darf er diese nicht wieder verbieten. Wie sich Arbeitnehmer verhalten, erklärt die Kolumne zum Arbeitsrecht.</text>
+            <description py:pytype="str">Hat der Chef den freien Tagen erst einmal zugestimmt, darf er diese nicht wieder verbieten. Wie sich Arbeitnehmer verhalten, erklärt die Kolumne zum Arbeitsrecht.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Jeden Mittwoch beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Fragen zum Arbeitsrecht auf ZEIT ONLINE" href="http://www.zeit.de/themen/serie/index?q=da-staunt-der-chef" align="left" title="Da staunt der Chef Teaser" base-id="http://xml.zeit.de/karriere/2010-03/da-staunt-der-chef/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Jeden Mittwoch beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Fragen zum Arbeitsrecht auf ZEIT ONLINE</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=345186">© benice/photocase</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/27/arbeitsrecht-betriebsferien" year="2009" issue="27" date-last-modified="2013-04-30T11:22:31+00:00" last-semantic-change="2009-09-23T15:34:32.417073+00:00" date-first-released="2009-07-01T17:35:31.798681+00:00" date-last-published="2013-04-30T13:22:46+00:00" publication-date="" expires="" ressort="Karriere" contenttype="article">
+            <supertitle py:pytype="str">Arbeitsrecht</supertitle>
+            <title py:pytype="str">Urlaub machen, hopp, hopp!</title>
+            <text py:pytype="str">Jetzt sind Betriebsferien!, verkündet der Chef. Doch was tun, wenn der Urlaub längst und für später gebucht ist? Die Kolumne zum Arbeitsrecht weiß Rat</text>
+            <description py:pytype="str">Jetzt sind Betriebsferien!, verkündet der Chef. Doch was tun, wenn der Urlaub längst und für später gebucht ist? Die Kolumne zum Arbeitsrecht weiß Rat</description>
+            <byline py:pytype="str">Von Ulf Weigelt</byline>
+            <image alt="Jeden Mittwoch beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Fragen zum Arbeitsrecht auf ZEIT ONLINE" href="http://www.zeit.de/themen/serie/index?q=da-staunt-der-chef" align="left" title="Da staunt der Chef Teaser" base-id="http://xml.zeit.de/karriere/2010-03/da-staunt-der-chef/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Jeden Mittwoch beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Fragen zum Arbeitsrecht auf ZEIT ONLINE</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=345186">© benice/photocase</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7ebc59e1-476e-4e46-a612-ea39fedaaf32">
+          <block href="http://xml.zeit.de/gesellschaft/schule/2009-09/oecd-schule-potsdam" year="2009" issue="37" date-last-modified="2013-04-30T08:31:53+00:00" last-semantic-change="2009-09-10T14:52:08.823832+00:00" date-first-released="2009-09-08T12:53:27.892243+00:00" date-last-published="2013-04-30T10:32:00+00:00" publication-date="" expires="" ressort="Gesellschaft" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">OECD-Studie</supertitle>
+            <title py:pytype="str">Kann denn Schule schön sein?  </title>
+            <text py:pytype="str">Deutschland muss mehr in Bildung investieren. Die Schulleiterin Ulrike Kegler hat  ein Buch darüber geschrieben, wie erfolgreich eine Schule wird, wenn sie schön ist.</text>
+            <description py:pytype="str">Deutschland muss mehr in Bildung investieren. Die Schulleiterin Ulrike Kegler hat  ein Buch darüber geschrieben, wie erfolgreich eine Schule wird, wenn sie schön ist.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Montessori Schule" base-id="http://xml.zeit.de/gesellschaft/schule/2009-09/montessori-schule/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Milch trinken in der Maria Montessori Schule in Stralsund</bu>
+              <copyright py:pytype="str">© Jens Koehler/ ddp</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/gesellschaft/2009-09/oecd-studie-bildungsausgaben" year="2009" issue="37" date-last-modified="2013-04-30T08:33:08+00:00" last-semantic-change="2009-09-08T11:23:36.600984+00:00" date-first-released="2009-09-08T07:24:54.056305+00:00" date-last-published="2013-04-30T10:33:18+00:00" publication-date="" expires="" ressort="Gesellschaft" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">OECD-Studie</supertitle>
+            <title py:pytype="str">Deutschland geizt bei Bildungsausgaben</title>
+            <text py:pytype="str">Deutschland gibt im Vergleich der OECD-Länder zu wenig Geld für Bildung aus. Dabei wäre die Wirtschaftskrise genau der Zeitpunkt, um in Bildung zu investieren.</text>
+            <description py:pytype="str">Deutschland gibt im Vergleich der OECD-Länder zu wenig Geld für Bildung aus. Dabei wäre die Wirtschaftskrise genau der Zeitpunkt, um in Bildung zu investieren.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Leerer Hörsaal: Es fehlt an Studienanfängern an Hoch- und Fachschulen" align="left" title="Bildungsausgaben Hörsaal " base-id="http://xml.zeit.de/gesellschaft/2009-09/bildung/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Es fehlt an Studienanfängern an Hoch- und Fachschulen</bu>
+              <copyright py:pytype="str">© Jens-Ulrich Koch/ddp</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/36/oecd-kinderbericht" year="2009" issue="36" date-last-modified="2013-04-30T08:50:30+00:00" last-semantic-change="2009-09-04T18:31:08.971241+00:00" date-first-released="2009-09-01T12:29:21.894715+00:00" date-last-published="2013-04-30T10:51:24+00:00" publication-date="" expires="" ressort="Gesellschaft" contenttype="article">
+            <supertitle py:pytype="str">OECD-Kinderbericht</supertitle>
+            <title py:pytype="str">Fast jedes sechste deutsche Kind ist arm</title>
+            <text py:pytype="str">Im ersten Kinderbericht der OECD schneidet Deutschland in vielen Bereichen nicht gut ab. Obwohl deutsche Familien finanziell vergleichsweise stark unterstützt werden.</text>
+            <description py:pytype="str">Im ersten Kinderbericht der OECD schneidet Deutschland in vielen Bereichen nicht gut ab. Obwohl deutsche Familien finanziell vergleichsweise stark unterstützt werden.</description>
+            <byline py:pytype="str">Von Wiebke Baden</byline>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/36/gesellschaft/kinderarmut/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Ein kleiner Junge hockt zwischen den Passanten auf dem Alexanderplatz in Berlin</bu>
+              <copyright py:pytype="str">© Theo Heimann/ ddp</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="318eeb2d-285a-42e6-8a39-45427ee08554">
+          <block href="http://xml.zeit.de/kultur/2009-9/filmfestspiele-venedig" year="2009" date-last-modified="2013-04-30T08:32:28+00:00" last-semantic-change="2009-09-09T08:28:21.425713+00:00" date-first-released="2009-09-08T22:00:00+00:00" date-last-published="2013-04-30T10:32:48+00:00" publication-date="" expires="" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Filmfestspiele Venedig</supertitle>
+            <title py:pytype="str">George Clooney außer Konkurrenz</title>
+            <text py:pytype="str">In Venedig gehört der europäische Film ganz den Schauspielerinnen. Und die US-Festivalbeiträge wetteifern, welcher Superstar sich hässlicher und dämlicher präsentiert.</text>
+            <description py:pytype="str">In Venedig gehört der europäische Film ganz den Schauspielerinnen. Und die US-Festivalbeiträge wetteifern, welcher Superstar sich hässlicher und dämlicher präsentiert.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="George Clooney bei den Filmfestspielen in Venedig" base-id="http://xml.zeit.de/kultur/film/2009-09/clooney-venedig/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Elegant, trotz Handverletzung: der Schauspieler George Clooney</bu>
+              <copyright py:pytype="str">© Filippo Monteforte/AFP/Getty Images</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+          </block>
+          <block href="http://xml.zeit.de/kultur/2009-9/haende-hoch-und-raus" year="2009" date-last-modified="2013-04-30T08:36:04+00:00" last-semantic-change="2009-09-07T16:12:47.742729+00:00" date-first-released="2009-09-06T22:00:00+00:00" date-last-published="2013-04-30T10:36:17+00:00" publication-date="" expires="" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Filmfestspiele Venedig</supertitle>
+            <title py:pytype="str">Michael Moore sucht die Totschläger des Kapitalismus</title>
+            <text py:pytype="str">In „Capitalism: A Love Story“ nimmt Michael Moore die Wirtschaftskrise aufs Korn. Damit ist in Venedig erstmals ein  Dokumentarfilm zu sehen.</text>
+            <description py:pytype="str">In „Capitalism: A Love Story“ nimmt Michael Moore die Wirtschaftskrise aufs Korn. Damit ist in Venedig erstmals ein  Dokumentarfilm zu sehen.</description>
+            <byline py:pytype="str">Von Christina Tilmann, Venedig</byline>
+            <image alt="Michael Moore auf der Film-Biennale Venedig" align="left" title="Michael Moore auf der Film-Biennale Venedig" base-id="http://xml.zeit.de/kultur/film/2009-09/michael-moore-venedig/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Mit seinem jüngsten Film &amp;quot;Capitalism: A Love Story&amp;quot; bewirbt sich Filmemacher Michael Moore in Venedig um den goldenen Löwen</bu>
+              <copyright py:pytype="str">© DAMIEN MEYER/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/36/filmfest-venedig" year="2009" issue="36" date-last-modified="2013-04-30T08:47:39+00:00" last-semantic-change="2009-09-04T12:42:38.924938+00:00" date-first-released="2009-09-02T15:10:35.200233+00:00" date-last-published="2013-04-30T10:48:05+00:00" publication-date="" expires="" ressort="Kultur" contenttype="article">
+            <supertitle py:pytype="str">Filmfestspiele Venedig</supertitle>
+            <title py:pytype="str">Mit besten Empfehlungen von Berlusconi</title>
+            <text py:pytype="str">Die Filmfestspiele von Venedig beginnen mit Giuseppe Tornatores Dorfkino-Hommage "Baarìa". Silvio Berlusconi hat den Film allen Italienern ans Herz gelegt.</text>
+            <description py:pytype="str">Die Filmfestspiele von Venedig beginnen mit Giuseppe Tornatores Dorfkino-Hommage "Baarìa". Silvio Berlusconi hat den Film allen Italienern ans Herz gelegt.</description>
+            <byline py:pytype="str">Von Christina Tilmann</byline>
+            <image align="left" title="Giuseppe Tornatore Venedig" base-id="http://xml.zeit.de/bilder/2009/36/kultur/venedig-tornatore/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der Regisseur von &amp;quot;Baaria&amp;quot;: Giuseppe Tornatore</bu>
+              <copyright py:pytype="str">© Damien Meyer/AFP</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="7b906355-41bd-425a-9b22-ee593018a790">
+          <block href="http://xml.zeit.de/2009/37/24h-Berlin" year="2009" issue="37" date-last-modified="2013-04-30T08:43:58+00:00" last-semantic-change="2009-09-05T11:20:27.718875+00:00" date-first-released="2009-09-03T06:00:00+00:00" date-last-published="2013-04-30T10:44:17+00:00" publication-date="" expires="" ressort="Kultur" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">"24h Berlin"</supertitle>
+            <title py:pytype="str">Ein Tag Menschheit in Berlin</title>
+            <text py:pytype="str">Die aufwändig produzierte Fernseh-Dokumentation »24h Berlin« zeigt den Alltag der Hauptstadt von Samstag, 6 Uhr, bis Sonntag, 6 Uhr – und ist höchst unterhaltsam.</text>
+            <description py:pytype="str">Die aufwändig produzierte Fernseh-Dokumentation »24h Berlin« zeigt den Alltag der Hauptstadt von Samstag, 6 Uhr, bis Sonntag, 6 Uhr – und ist höchst unterhaltsam.</description>
+            <byline py:pytype="str">Von Ursula März</byline>
+            <image align="left" title="Szenenbild 24 h Berlin" base-id="http://xml.zeit.de/bilder/2009/37/kultur/24-h-berlin/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">An einem Tag in Berlin passiert auch Aufregendes, wie in den Minuten, in denen dieser Climber eine Hochhausfassade hinunterklettert.</bu>
+              <copyright py:pytype="str">© zero one film </copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/online/2009/35/umfrage-berlin-gefuehl" year="2009" issue="35" date-last-modified="2013-04-30T09:02:15+00:00" last-semantic-change="2009-09-03T16:03:12.941266+00:00" date-first-released="2009-08-27T04:15:12.947091+00:00" date-last-published="2013-04-30T11:02:39+00:00" publication-date="2009-08-27T04:14:11+00:00" expires="" ressort="Lebensart" contenttype="article">
+            <supertitle py:pytype="str">Leben</supertitle>
+            <title py:pytype="str">Wie ist Ihr Berlin-Gefühl?</title>
+            <text py:pytype="str">Wie erleben Sie die Hauptstadt? Als Berliner, Neu-Berliner oder Besucher? Mailen Sie uns Ihre Eindrücke und Erlebnisse!</text>
+            <description py:pytype="str">Wie erleben Sie die Hauptstadt? Als Berliner, Neu-Berliner oder Besucher? Mailen Sie uns Ihre Eindrücke und Erlebnisse!</description>
+            <byline xsi:nil="true"/>
+            <image alt="Berlin Fernsehturm" align="left" title="Berlin Fernsehturm" base-id="http://xml.zeit.de/bilder/2009/36/lebensart/ZEIT-magazin/berlin-gefuehl/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Der &amp;quot;Alex&amp;quot;, unverwechselbares Symbol für die Hauptstadt</bu>
+              <copyright py:pytype="str">© Gräfin/Photocase</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="eb09c413-9cbb-49f7-a0ee-f7243cf5d28d">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="rss" module="rss" max_items="5" cp:__name__="0bd083da-c52f-4851-bb06-657db7e0d842" url="http://news.cnet.com/8300-13505_3-16.xml" show_supertitle="True" time_format="none">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/feed/rss)" href="/var/cms/work/rss/f32ed11fe5c668bd40ec373add344154">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/f32ed11fe5c668bd40ec373add344154 nicht erreichbar.</xi:fallback>
+          </xi:include>
+          <teaser_image alt="Regierungschefs von Lateinamerika und EU treffen sich in Madrid" align="left" base-id="http://xml.zeit.de/politik/ausland/2010-05/lateinamerika-2/" type="jpg" publication-date="2010-05-18T11:07:14+00:00" expires="2010-08-18T11:07:23+00:00">
+            <bu>Der brasilianische Präsident da Silva, der spanische Premier Zapatero, die Argentinische Präsidentin Kirchner sowie EU-Präsident Van Rompuy and EU-Kommissionspräsident Barroso posieren für die Fotografen.</bu>
+            <copyright py:pytype="str">© Paco Campos /dpa</copyright>
+          </teaser_image>
+          <feed_icon align="left" base-id="http://xml.zeit.de/wissen/geschichte/2010-05/halley-komet-nasa/" type="jpg" publication-date="" expires="">
+            <bu>Der Halley'sche Komet im März 1986</bu>
+            <copyright py:pytype="str">© Nasa</copyright>
+          </feed_icon>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="8b887d09-15c7-49d4-8aae-ae21ce42776b">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="9607155a-f8b9-4661-a1f0-99e61f9ecfdb">
+          <raw>
+
+schniepel
+</raw>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" cp:__name__="91ea11e2-8997-4fcd-a15a-2cb2d4517dfd" hide-dupes="True">
+          <block href="http://xml.zeit.de/administratives/2009-09/relaunch" year="2009" issue="37" publication-date="" expires="" date-last-modified="2013-04-30T08:37:26+00:00" date-first-released="2009-09-05T15:22:07.680338+00:00" date-last-published="2013-04-30T10:37:31+00:00" last-semantic-change="2009-09-06T13:24:54.661139+00:00" ressort="Politik" contenttype="article">
+            <badges>
+              <badge py:pytype="str">community</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">In eigener Sache</supertitle>
+            <title py:pytype="str">ZEIT ONLINE mit neuem Design</title>
+            <text py:pytype="str">Eine leicht verständliche Navigation, mehr Lesekomfort und viel Platz für opulente Fotostrecken sind die wichtigsten Merkmale der neuen Website.</text>
+            <description py:pytype="str">Eine leicht verständliche Navigation, mehr Lesekomfort und viel Platz für opulente Fotostrecken sind die wichtigsten Merkmale der neuen Website.</description>
+            <byline xsi:nil="true"/>
+            <image alt="zeit online neues design" align="left" title="ZEIT ONLINE neues Design" base-id="http://xml.zeit.de/administratives/2009-09/zeit-online-neues-design/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">ZEIT ONLINE erscheint in neuem Design</bu>
+              <copyright py:pytype="str">© ZEIT ONLINE Grafik</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="7330b611-5e83-4607-8f04-a5891f4ca583">
+          <video videoID="pls36516804001" format="small"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="8d5300fb-77b2-47cb-9876-bb1b27b3d1f0" title="Fotostrecke: Georgischer Frühling">
+          <block type="intern" href="http://xml.zeit.de/kultur/2009-09/bg-georgien-magnum" year="2009" issue="37" date-last-modified="2009-10-20T13:11:10+00:00" last-semantic-change="2009-09-16T08:37:56.899130+00:00" date-first-released="2009-09-08T11:31:11.003914+00:00" date-last-published="2009-09-14T13:33:32.968856+00:00" publication-date="" expires="" ressort="Kultur" contenttype="gallery">
+            <supertitle py:pytype="str">Kaukasus</supertitle>
+            <title py:pytype="str">Georgischer Frühling in Bildern</title>
+            <text py:pytype="str">Im Frühjahr haben zehn Magnum-Fotografen Georgien bereist und ihre Eindrücke in Bildern sowie Tagebuchnotizen dokumentiert - die Ausstellung ist jetzt in Berlin zu sehen.</text>
+            <description py:pytype="str">Im Frühjahr haben zehn Magnum-Fotografen Georgien bereist und ihre Eindrücke in Bildern sowie Tagebuchnotizen dokumentiert - die Ausstellung ist jetzt in Berlin zu sehen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/bilder/2009/37/bildergalerien/teaser/bg-georgien-magnum/" type="jpg" publication-date="" expires="2009-10-08T14:10:58+00:00">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Martin Parr/Magnum Photos/Agentur Focus</copyright>
+            </image>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/bilder/2009/37/bildergalerien/teaser/bg-georgien-magnum/bg-georgien-magnum-368x110.jpg" date-last-modified="2009-09-08T14:11:07+00:00" last-semantic-change="" date-first-released="2009-09-08T14:12:07.194345+00:00" date-last-published="2009-09-08T14:12:07.194345+00:00" publication-date="" expires=""/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="3a6e1d8e-3786-4d49-9790-bd79c321afc5">
+        <container cp:type="teaser" module="ressort" cp:__name__="6b59dff9-eb2b-4080-bb84-f45070b9b2be" title="POLITIK" hide-dupes="False">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/politik/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/politik/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/politik/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="2c8a4948-9424-4b49-8f1f-da3cd0bbc22a" title="MEINUNG" hide-dupes="True">
+          <block href="http://xml.zeit.de/online/2009/36/quiz-spitzenkandidaten" year="2009" issue="36" publication-date="" expires="" date-last-modified="2009-09-27T09:28:08+00:00" date-first-released="2009-09-08T06:13:11.999903+00:00" date-last-published="2009-09-27T09:29:07.957084+00:00" last-semantic-change="2009-09-27T08:36:55.165172+00:00" ressort="Politik" contenttype="quiz">
+            <supertitle py:pytype="str">Quiz zur Bundestagswahl 2009</supertitle>
+            <title py:pytype="str">Wie gut kennen Sie die Spitzenkandidaten?</title>
+            <text py:pytype="str">Am 27. September ist Bundestagswahl und die Top-Kandidaten der Parteien kämpfen um jede Stimme. Testen Sie Ihr Wissen über die Politiker</text>
+            <description py:pytype="str">Am 27. September ist Bundestagswahl und die Top-Kandidaten der Parteien kämpfen um jede Stimme. Testen Sie Ihr Wissen über die Politiker</description>
+            <byline xsi:nil="true"/>
+            <image alt="Angela Merkel und Frank-Walter Steinmeier" align="left" title="merkel-steinmeier" base-id="http://xml.zeit.de/bilder/2009/37/politik/deutschland/merkel-steinmeier-020909/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Angela Merkel und Frank-Walter Steinmeier - wie gut kennen Sie die Kandidaten?</bu>
+              <copyright py:pytype="str">© Rainer Jensen/dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/meinung/2009-10/wachstum" year="2009" issue="43" publication-date="" expires="" date-last-modified="2012-07-21T03:53:31+00:00" date-first-released="2009-10-19T12:46:26.437689+00:00" date-last-published="2012-07-21T05:55:08+00:00" last-semantic-change="2009-12-01T15:42:30.394604+00:00" ressort="Wirtschaft" contenttype="article">
+            <supertitle py:pytype="str">Nachhaltigkeit</supertitle>
+            <title py:pytype="str">Nicht die Armut, das Wachstum muss bekämpft werden</title>
+            <text py:pytype="str">Ungebremstes Wachstum wird nicht mehr nur von Ökoradikalen, sondern auch von Vertretern des Establishments infrage gestellt. Doch das Umdenken bleibt zumeist halbherzig.</text>
+            <description py:pytype="str">Ungebremstes Wachstum wird nicht mehr nur von Ökoradikalen, sondern auch von Vertretern des Establishments infrage gestellt. Doch das Umdenken bleibt zumeist halbherzig.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="nachhaltigkeit" base-id="http://xml.zeit.de/meinung/2009-10/nachhaltigkeit/" type="jpg" publication-date="" expires="2010-01-19T11:29:39+00:00">
+              <bu py:pytype="str">Ausstellung zum Thema Nachhaltigkeit: Der Begriff hat Hochkonjunktur, doch nur selten werden daraus Konsequenzen gezogen</bu>
+              <copyright py:pytype="str">© dpa</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2009-10/cdu-fdp-steuerpolitik-schulden" year="2009" issue="43" publication-date="" expires="" date-last-modified="2013-04-30T06:49:42+00:00" date-first-released="2009-10-18T08:16:03.016888+00:00" date-last-published="2013-04-30T08:49:50+00:00" last-semantic-change="2009-10-18T08:14:46.069683+00:00" ressort="Politik" contenttype="article">
+            <supertitle py:pytype="str">Koalitionspläne</supertitle>
+            <title py:pytype="str">Aufschwung auf Pump</title>
+            <text py:pytype="str">Trotz erschreckender Staatsverschuldung sollte die neue Regierung die Steuern senken. Doch sie sollte auch ein klares Bekenntnis zum Schuldenabbau ablegen. Ein Kommentar</text>
+            <description py:pytype="str">Trotz erschreckender Staatsverschuldung sollte die neue Regierung die Steuern senken. Doch sie sollte auch ein klares Bekenntnis zum Schuldenabbau ablegen. Ein Kommentar</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2009-10/sprache-im-grundgesetz" year="2009" issue="43" publication-date="" expires="" date-last-modified="2013-04-30T06:51:18+00:00" date-first-released="2009-10-16T09:10:33.545219+00:00" date-last-published="2013-04-30T08:51:29+00:00" last-semantic-change="2009-10-16T15:47:55.552813+00:00" ressort="Politik" contenttype="article">
+            <supertitle py:pytype="str">Sprachkultur</supertitle>
+            <title py:pytype="str">Unser täglich Deutsch</title>
+            <text py:pytype="str">Politiker von der CDU und FDP wollen unsere Sprache im Grundgesetz verankern. Welches Deutsch meinen sie eigentlich? Von David Hugendick</text>
+            <description py:pytype="str">Politiker von der CDU und FDP wollen unsere Sprache im Grundgesetz verankern. Welches Deutsch meinen sie eigentlich? Von David Hugendick</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/politik/deutschland/2009-10/deutsche-sprache/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Wer bestimmt, was Deutsch ist?</bu>
+              <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=210440">© photocase.de/ommi</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/politik/deutschland/2009-10/fdp-sicherheit-koalitionsverhandlung" year="2009" issue="43" publication-date="" expires="" date-last-modified="2013-04-30T06:51:29+00:00" date-first-released="2009-10-16T10:13:41.248147+00:00" date-last-published="2013-04-30T08:51:35+00:00" last-semantic-change="2009-10-16T11:28:38.504494+00:00" ressort="Politik" contenttype="article">
+            <supertitle py:pytype="str">Innere Sicherheit</supertitle>
+            <title py:pytype="str">Der Pyrrhussieg der Liberalen</title>
+            <text py:pytype="str">Die FDP wollte die bisherige Unions-Politik der Inneren Sicherheit stoppen und ihr eine neue Richtung geben. Es ist ihr gründlich misslungen. Kai Biermann kommentiert</text>
+            <description py:pytype="str">Die FDP wollte die bisherige Unions-Politik der Inneren Sicherheit stoppen und ihr eine neue Richtung geben. Es ist ihr gründlich misslungen. Kai Biermann kommentiert</description>
+            <byline xsi:nil="true"/>
+            <image alt="Auch über die Datenspeicherung sind sich Union und FDP einig geworden" align="left" title="Datenspeicherung" base-id="http://xml.zeit.de/politik/deutschland/2009-10/datenspeicherung-151009/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Die Liberalen geben nach: Auch über die Datenspeicherung sind sich Union und FDP einig geworden</bu>
+              <copyright py:pytype="str">© Clemens Bilan/ddp</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/politik/ausland/2009-10/regierung-koalition" year="2009" issue="43" publication-date="" expires="" date-last-modified="2013-04-30T06:51:46+00:00" date-first-released="2009-10-16T08:14:03.323808+00:00" date-last-published="2013-04-30T08:51:55+00:00" last-semantic-change="2009-10-16T09:10:41.752792+00:00" ressort="Politik" contenttype="article">
+            <supertitle py:pytype="str">Außenpolitik</supertitle>
+            <title py:pytype="str">Deutschland tritt zu selbstbezogen und selbstgefällig auf</title>
+            <text py:pytype="str">Die neue Regierung wird deutsche Interessen in Brüssel rücksichtsloser vertreten als die alte. Für die EU ist das so schädlich wie für Deutschland. Von Christoph Bertram</text>
+            <description py:pytype="str">Die neue Regierung wird deutsche Interessen in Brüssel rücksichtsloser vertreten als die alte. Für die EU ist das so schädlich wie für Deutschland. Von Christoph Bertram</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Bundesadler" base-id="http://xml.zeit.de/politik/ausland/2009-10/bundesadler-2/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Politikexperten aus dem Ausland befürchten, dass die neue Regierung künftig in der Europapolitik häufiger den Ellenbogen einsetzt</bu>
+              <copyright py:pytype="str">© Magnus Settele/ddp</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/politik/ausland/2009-10/afghanistan-deutschland-japan-abzug" year="2009" issue="43" publication-date="" expires="" date-last-modified="2013-04-30T06:55:53+00:00" date-first-released="2009-10-15T14:57:23.238244+00:00" date-last-published="2013-04-30T08:56:29+00:00" last-semantic-change="2009-10-16T12:18:59.442186+00:00" ressort="Politik" contenttype="article">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Afghanistan</supertitle>
+            <title py:pytype="str">Ein Rückzug wäre kein deutscher Sonderweg</title>
+            <text py:pytype="str">Immer noch ist unklar, welche Strategie Präsident Obama in Afghanistan verfolgt. Derweil schaffen Verbündete Fakten: Holland, Kanada, Japan - alle ziehen Truppen ab.</text>
+            <description py:pytype="str">Immer noch ist unklar, welche Strategie Präsident Obama in Afghanistan verfolgt. Derweil schaffen Verbündete Fakten: Holland, Kanada, Japan - alle ziehen Truppen ab.</description>
+            <byline xsi:nil="true"/>
+            <image alt="Kanadische Soldaten Hubschrauber Kabul Afghanistan" align="left" title="afghanistan-kanada" base-id="http://xml.zeit.de/politik/ausland/2009-10/afghanistan-kanada/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Kanadische Soldaten verlassen in Kabul einen Helikopter. Bald schon will die kanadische Regierung die Truppen vom Hindukusch abziehen</bu>
+              <copyright py:pytype="str">© Massoid Hossaini/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <referenced_cp py:pytype="str">http://xml.zeit.de/meinung/index</referenced_cp>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="79318fe1-bdf8-4814-b21e-ec9ee6e885aa" hide-dupes="True">
+          <block href="http://xml.zeit.de/gesellschaft/zeitgeschehen/2009-10/tuerken-deutschland-tuerkei" year="2009" issue="42" publication-date="" expires="" date-last-modified="2013-04-30T07:02:56+00:00" date-first-released="2009-10-13T10:48:14.688316+00:00" date-last-published="2013-04-30T09:03:09+00:00" last-semantic-change="2009-10-13T10:35:57.483477+00:00" ressort="Gesellschaft" contenttype="article">
+            <supertitle py:pytype="str">Deutsch-Türken fürchten Türkei-Türken</supertitle>
+            <title py:pytype="str">Von Äpfeln und Birnen</title>
+            <text py:pytype="str">Das Türken-Bashing von Thilo Sarrazin ruft unter Deutsch-Türken meist nur ein müdes Lächeln hervor. Weil sie das erstens gewohnt sind und zweitens selbst besser können.</text>
+            <description py:pytype="str">Das Türken-Bashing von Thilo Sarrazin ruft unter Deutsch-Türken meist nur ein müdes Lächeln hervor. Weil sie das erstens gewohnt sind und zweitens selbst besser können.</description>
+            <byline py:pytype="str">Von Deniz Baspinar</byline>
+            <image align="left" title="Türkischer Gemüsehändler" base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2009-10/gemuesehaendler/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Einkaufen beim türkischen Gemüsehändler. Hier auf dem Anadolu-Market in München</bu>
+              <copyright py:pytype="str">© Johannes Simon/ddp</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/42/SPD" year="2009" issue="42" publication-date="" expires="" date-last-modified="2013-04-30T07:11:38+00:00" date-first-released="2009-10-08T06:00:00+00:00" date-last-published="2013-04-30T09:11:43+00:00" last-semantic-change="2009-10-12T08:29:51.402327+00:00" ressort="Politik" contenttype="article">
+            <supertitle py:pytype="str">Zukunft der SPD</supertitle>
+            <title py:pytype="str">Ein Jahrzehnt. Oder zwei</title>
+            <text py:pytype="str">Die SPD hat jetzt viel Zeit, um sich zu erneuern. Nach links kann ihr Weg dabei aber nicht führen. Von Michael Naumann</text>
+            <description py:pytype="str">Die SPD hat jetzt viel Zeit, um sich zu erneuern. Nach links kann ihr Weg dabei aber nicht führen. Von Michael Naumann</description>
+            <byline py:pytype="str">Von Michael Naumann</byline>
+            <image align="left" title="3-spd" base-id="http://xml.zeit.de/politik/deutschland/2009-10/3-spd/" type="" publication-date="" expires="">
+              <bu py:pytype="str">Wohin mit der SPD? Im Willy-Brandt-Haus berät man über Umstrukturierungen der Partei</bu>
+              <copyright py:pytype="str">©  Axel Schmidt/ddp</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wissen/Milberg_01" year="2003" issue="30" publication-date="" expires="" date-last-modified="2009-08-13T10:03:17+00:00" date-first-released="" date-last-published="" last-semantic-change="2003-07-23T11:40:00+00:00" ressort="Wissen" contenttype="article">
+            <supertitle py:pytype="str">Interview</supertitle>
+            <title py:pytype="str">Gespräch mit Joachim Milberg</title>
+            <text py:pytype="str">Joachim Milberg hat nach der mittleren Reife und einer Lehre als Schlosser Maschinenbau studiert. Nach neun Jahren als Manager beim Bielefelder Drehmaschinenhersteller Gildemeister wurde er auf einen Lehrstuhl an der TU München berufen, bevor er 1993 zu BMW wechselte. Heute ist der 60-jährige Leibniz-Preisträger der Präsident von akatech. Der eingetragene Verein will das Innovationsklima in Deutschland verbessern und den Nachwuchs fördern</text>
+            <description py:pytype="str">Joachim Milberg hat nach der mittleren Reife und einer Lehre als Schlosser Maschinenbau studiert. Nach neun Jahren als Manager beim Bielefelder Drehmaschinenhersteller Gildemeister wurde er auf einen Lehrstuhl an der TU München berufen, bevor er 1993 zu BMW wechselte. Heute ist der 60-jährige Leibniz-Preisträger der Präsident von akatech. Der eingetragene Verein will das Innovationsklima in Deutschland verbessern und den Nachwuchs fördern</description>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="b635a9dd-463f-4a6b-92b4-f80bde579535" title="GESELLSCHAFT" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/gesellschaft/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/channel/container/block)" href="/var/cms/work/gesellschaft/index.lead">
+            <xi:fallback>Ziel http://xml.zeit.de/gesellschaft/index.lead nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="mr" area="teaser-row-full" cp:__name__="057ce601-7fa2-4a34-954a-0bf8928e6bd8">
+        <container cp:type="teaser" module="ressort" cp:__name__="055858f0-b3b3-4209-84e8-d7f6c8c8a91a" title="Shop" publisher="Verlagsangebot" publisher_url="http://shop.zeit.de/" supertitle_url="http://shop.zeit.de/" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links/ZEIT_Shop" year="2009" date-last-modified="2010-04-01T10:28:25+00:00" last-semantic-change="2010-04-01T10:28:17.179967+00:00" date-first-released="2009-09-05T15:27:55.507226+00:00" date-last-published="2010-04-01T10:29:25.666084+00:00" publication-date="" expires="" ns0:href="http://shop.zeit.de/product/3392-Zum-200-Geburtstag-ZEIT-Selektion-Fr-d-ric-Chopin?et=l6VVNm&amp;et_cid=59&amp;et_lid=102&amp;et_sub=auto_teasermosaik_4956" ns0:target="_blank" ressort="Angebote" contenttype="link">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">ZEIT Shop</title>
+            <text py:pytype="str">Qualität auf höchstem Niveau! Entdecken Sie die Produktvielfalt unseres ZEIT-Shops und stöbern Sie in unserem umfangreichen Sortiment. </text>
+            <description py:pytype="str">Qualität auf höchstem Niveau! Entdecken Sie die Produktvielfalt unseres ZEIT-Shops und stöbern Sie in unserem umfangreichen Sortiment. </description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title xsi:nil="true"/>
+              <text py:pytype="str">ZEIT Shop</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" src="http://xml.zeit.de/angebote/Links/shop-ressort/Bilder/ze_chopin.jpg" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="791d4c96-39e3-4e1b-8627-2a10ae5ddabe" title="Audio" publisher="Verlagsangebot" publisher_url="http://www.zeit.de/angebote/audio/index" supertitle_url="http://www.zeit.de/angebote/audio/index" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/Links/Audio" year="2009" date-last-modified="2011-05-11T12:47:16+00:00" last-semantic-change="2011-05-11T12:47:04.721279+00:00" date-first-released="2009-09-05T15:27:30.744266+00:00" date-last-published="2010-03-11T13:10:16.638698+00:00" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/audio/index" ns0:target="_blank" ressort="Angebote" contenttype="link">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">ZEIT Audio</title>
+            <text py:pytype="str">Mit ZEIT Audio hören Sie wöchentlich aktuelle vertonte Inhalte aus unseren Printpublikationen. Lernen Sie jetzt unsere Audio-Abonnements kennen.</text>
+            <description py:pytype="str">Mit ZEIT Audio hören Sie wöchentlich aktuelle vertonte Inhalte aus unseren Printpublikationen. Lernen Sie jetzt unsere Audio-Abonnements kennen.</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title xsi:nil="true"/>
+              <text py:pytype="str">ZEIT Audio</text>
+            </short>
+            <homepage>
+              <title xsi:nil="true"/>
+              <text xsi:nil="true"/>
+            </homepage>
+            <image align="left" href="http://www.zeit.de/angebote/audio/audio" title="Audio_1" src="http://xml.zeit.de/angebote/Links/Bilder/audio1.jpg-220x124.jpg" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="052a6550-9434-41cd-a8b3-5c683f49cd7a">
+        <container cp:type="teaser" module="ressort" cp:__name__="74d279a8-1e16-4e82-8034-63bbc49e4ace" title="WISSEN" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/wissen/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/wissen/index">
+            <xi:fallback>Ziel http://xml.zeit.de/wissen/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="390bf586-ed29-4b42-8b91-ac09ce88aeb3" title="KULTUR" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/kultur/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/kultur/index">
+            <xi:fallback>Ziel http://xml.zeit.de/kultur/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="c301062f-b09f-49ce-91a8-1a15c12dfa3a" title="DIGITAL" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/digital/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/digital/index">
+            <xi:fallback>Ziel http://xml.zeit.de/digital/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="b42576b3-4f0e-4cec-978a-cbb7148586ca" title="STUDIUM" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/studium/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/studium/index">
+            <xi:fallback>Ziel http://xml.zeit.de/studium/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="9ddc4374-a064-4a0e-a7ed-80edb9743068">
+        <container cp:type="placeholder" module="placeholder" cp:__name__="4c5e741a-40be-4988-a04e-e7490b4b7f99"/>
+        <container cp:type="cpextra" module="stocks" cp:__name__="fdb4407f-de54-42a8-84ae-b94558fed925">
+          <cp_extra id="stocks"/>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="b3a68e38-841d-4304-8667-29f5f10df16f" hide-dupes="True">
+          <block href="http://xml.zeit.de/digital/2009-09/photoshop-bilder-retouchieren" year="2009" issue="40" publication-date="" expires="" date-last-modified="2009-10-01T08:26:19+00:00" date-first-released="" date-last-published="" last-semantic-change="2009-10-01T08:26:19.133133+00:00">
+            <supertitle py:pytype="str">Schönheitswahn</supertitle>
+            <title py:pytype="str">Zu schön um wahr zu sein</title>
+            <text py:pytype="str">Franzosen und Briten wollen bearbeitete Fotos künftig kenntlich machen. Das hilft auch nicht gegen Schönheitswahn und Magersucht, protestiert die Kreativ-Branche.</text>
+            <description py:pytype="str">Franzosen und Briten wollen bearbeitete Fotos künftig kenntlich machen. Das hilft auch nicht gegen Schönheitswahn und Magersucht, protestiert die Kreativ-Branche.</description>
+            <byline xsi:nil="true"/>
+            <image alt="duenne-modells" align="left" title="Magere-Models" base-id="http://xml.zeit.de/digital/2009-09/duenne-models-schoenheitswahn/" type="jpg" publication-date="" expires="">
+              <bu>Ein Blick hinter die Kulissen: Dünne Models, ganz ohne Bildbearbeitung</bu>
+              <copyright py:pytype="str">© Chris Jackson/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2009/41/Post-Palo-Alto-Twitter" year="2009" issue="41" publication-date="" expires="" date-last-modified="2013-04-30T07:34:22+00:00" date-first-released="2009-10-01T06:00:00+00:00" date-last-published="2013-04-30T09:34:40+00:00" last-semantic-change="2009-10-01T10:01:23.132043+00:00" ressort="Wirtschaft" contenttype="article">
+            <supertitle py:pytype="str">Geschäfte im Netz</supertitle>
+            <title py:pytype="str">Traumpreis für Twitter</title>
+            <text py:pytype="str">Die guten alten Zeiten des Silicon Valley sind wieder da: Twitter findet bereitwillige Investoren und sammelt 100 Millionen Dollar ein. Von Josef Joffe</text>
+            <description py:pytype="str">Die guten alten Zeiten des Silicon Valley sind wieder da: Twitter findet bereitwillige Investoren und sammelt 100 Millionen Dollar ein. Von Josef Joffe</description>
+            <byline py:pytype="str">Von Josef Joffe</byline>
+            <image alt="Twitter-Mitbegründer Biz Stone spricht während der Twitter Conference LA in Los Angeles am 22. September 2009" align="left" title="twitter biz stone" base-id="http://xml.zeit.de/wirtschaft/2009-10/twitter-biz-stone/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Twitter-Mitbegründer Biz Stone spricht während der Twitter Conference LA in Los Angeles am 22. September 2009</bu>
+              <copyright py:pytype="str">© Mark Ralston/AFP/Getty Images</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/wissen/umwelt/2009-10/tsunami-erdbeben-samoa-sumatra" year="2009" issue="41" publication-date="" expires="" date-last-modified="2013-04-30T07:32:05+00:00" date-first-released="2009-10-01T09:26:11.777796+00:00" date-last-published="2013-04-30T09:32:44+00:00" last-semantic-change="2009-10-02T06:31:17.766162+00:00" ressort="Wissen" contenttype="article">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+              <badge py:pytype="str">map</badge>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Tsunami und Erdstöße</supertitle>
+            <title py:pytype="str">Was ist los im Untergrund?</title>
+            <text py:pytype="str">Flutkatastrophe und verheerendes Beben mit hunderten Toten: Ein Tsunami trifft auf Samoa, unter Sumatra bebt es. Gibt es einen Zusammenhang?</text>
+            <description py:pytype="str">Flutkatastrophe und verheerendes Beben mit hunderten Toten: Ein Tsunami trifft auf Samoa, unter Sumatra bebt es. Gibt es einen Zusammenhang?</description>
+            <byline py:pytype="str">Von Ralf Nestler  </byline>
+            <image alt="Tsunami erdeben beben erstoß samoa sumatra naturkatastrophe" align="left" base-id="http://xml.zeit.de/wissen/umwelt/2009-10/samoa-tsunami-truemmer/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Die Südküste von Samoa am Tag danach: Ein Flugzeug der neuseeländischen Luftwaffe überfliegt das Trümmerfeld, das der Tsunami hinterlassen hat. Die Menschen beginnen mit den Aufräumarbeiten</bu>
+              <copyright py:pytype="str">© Torsten Blackwood/AFP/Getty Images</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="5c3a0465-2fe5-44f7-b0a5-362049a3e959" title="Spiele" read_more_url=" " supertitle_url="http://www.zeit.de/spiele/index" hide-dupes="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/links/link-sudoku-3" year="2008" issue="34" date-last-modified="2009-09-09T10:54:39+00:00" last-semantic-change="" date-first-released="2009-09-05T18:17:55.208828+00:00" date-last-published="2009-09-05T18:17:55.208828+00:00" ns0:href="http://xml.zeit.de/spiele/links/link-sudoku" ressort="Politik">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Sudoku online spielen</title>
+            <text py:pytype="str">Der tägliche Rätselspaß für kluge Köpfe. Stellen Sie Ihre logischen Fähigkeiten unter Beweis! Mit großem Sudoku-Archiv.</text>
+            <description py:pytype="str">Der tägliche Rätselspaß für kluge Köpfe. Stellen Sie Ihre logischen Fähigkeiten unter Beweis! Mit großem Sudoku-Archiv.</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Sudoku</title>
+              <text py:pytype="str">Täglich neue Zahlenrätsel</text>
+            </short>
+            <homepage>
+              <title py:pytype="str">Sudoku</title>
+              <text py:pytype="str">Täglich neue Zahlenrätsel</text>
+            </homepage>
+            <image alt="Sudoku spielen" align="left" title="Sudoku Aufmacher" base-id="http://xml.zeit.de/spiele/2009-09/Sudoku/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Chris Hondros/Getty Images (m)</copyright>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/links/udeg/link-ecke-3" year="2008" issue="34" date-last-modified="2010-02-12T10:30:31+00:00" last-semantic-change="" date-first-released="2009-09-05T18:17:56.030739+00:00" date-last-published="2009-09-05T18:17:56.030739+00:00" ns0:href="http://xml.zeit.de/spiele/links/udeg/link-ecke">
+            <supertitle py:pytype="str">Um die Ecke gedacht</supertitle>
+            <title py:pytype="str">Lösen Sie das Kreuzworträtsel online </title>
+            <text py:pytype="str">Lösen Sie das Rätsel aus dem ZEITmagazin online. Jede Woche neu, jede Woche knifflig.</text>
+            <description py:pytype="str">Lösen Sie das Rätsel aus dem ZEITmagazin online. Jede Woche neu, jede Woche knifflig.</description>
+            <byline xsi:nil="true"/>
+            <short>
+              <title py:pytype="str">Kreuzworträtsel</title>
+              <text py:pytype="str">Nur für "Um die Ecke"-Denker!</text>
+            </short>
+            <homepage>
+              <title py:pytype="str">Kreuzworträtsel</title>
+              <text py:pytype="str">Nur für "Um die Ecke"-Denker!</text>
+            </homepage>
+            <image align="left" title="Spiele Um die Ecke gedacht Teaser" base-id="http://xml.zeit.de/spiele/teaser-bilder/um-die-ecke-gedacht-teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Yuriko Nakao/Reuters</copyright>
+            </image>
+          </block>
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/spiele/quiz/index-2" year="2009" date-last-modified="2009-09-06T15:18:29+00:00" last-semantic-change="" date-first-released="" date-last-published="" ns0:href="http://xml.zeit.de/spiele/quiz/index" ressort="Spiele">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Testen Sie Ihr Wissen zu aktuellen Themen auf ZEIT ONLINE</title>
+            <text py:pytype="str">Testen Sie Ihr Wissen zu aktuellen Themen auf ZEIT ONLINE</text>
+            <description py:pytype="str">Testen Sie Ihr Wissen zu aktuellen Themen auf ZEIT ONLINE</description>
+            <byline xsi:nil="true"/>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="0d724dec-f921-44f7-932b-7c852c068ceb">
+        <container cp:type="teaser" module="ressort" cp:__name__="b84d2b75-c82d-4477-8585-cbd0351993c4" title="THEMA: FINANZKRISE" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/themen/wirtschaft/finanzkrise/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/themen/wirtschaft/finanzkrise/index">
+            <xi:fallback>Ziel http://xml.zeit.de/themen/wirtschaft/finanzkrise/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="72734c11-e2bf-4f9b-8aa2-bf7433cad5c8" title="Thema: Schweinegrippe" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/themen/wissen/gesundheit/grippe/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/themen/wissen/gesundheit/grippe/index">
+            <xi:fallback>Ziel http://xml.zeit.de/themen/wissen/gesundheit/grippe/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="22a7b2b2-6922-4423-b4d1-260d544638a7" title="THEMA: AFGHANISTAN" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/themen/international/afghanistan/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/themen/international/afghanistan/index">
+            <xi:fallback>Ziel http://xml.zeit.de/themen/international/afghanistan/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="ressort" cp:__name__="2a643e1a-1241-44e9-9cd6-3156d437a493" title="Thema: 60 Jahre BRD" hide-dupes="True">
+          <referenced_cp py:pytype="str">http://xml.zeit.de/themen/deutschland/60jahre-brd/index</referenced_cp>
+          <autopilot py:pytype="bool">true</autopilot>
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/centerpage/body/cluster[@area='feature']/region[@area='lead']/container/block[1])" href="/var/cms/work/themen/deutschland/60jahre-brd/index">
+            <xi:fallback>Ziel http://xml.zeit.de/themen/deutschland/60jahre-brd/index nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+      </region>
+    </cluster>
+    <title>ZEIT ONLINE Startseite (Testkopie)</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2009/37/24h-Berlin" year="2009" issue="37" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">"24h Berlin"</supertitle>
+      <title py:pytype="str">Ein Tag Menschheit in Berlin</title>
+      <text py:pytype="str">Die aufwändig produzierte Fernseh-Dokumentation »24h Berlin« zeigt den Alltag der Hauptstadt von Samstag, 6 Uhr, bis Sonntag, 6 Uhr – und ist höchst unterhaltsam.</text>
+      <description py:pytype="str">Die aufwändig produzierte Fernseh-Dokumentation »24h Berlin« zeigt den Alltag der Hauptstadt von Samstag, 6 Uhr, bis Sonntag, 6 Uhr – und ist höchst unterhaltsam.</description>
+      <byline py:pytype="str">Von Ursula März</byline>
+      <image align="left" title="Szenenbild 24 h Berlin" base-id="http://xml.zeit.de/bilder/2009/37/kultur/24-h-berlin/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">An einem Tag in Berlin passiert auch Aufregendes, wie in den Minuten, in denen dieser Climber eine Hochhausfassade hinunterklettert.</bu>
+        <copyright py:pytype="str">© zero one film </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/online/2009/09/generation-internet" year="2009" issue="9" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Internet und Jugend</supertitle>
+      <title py:pytype="str">Sternzeichen Google</title>
+      <text py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</text>
+      <description py:pytype="str">Jugendliche verbringen viel Zeit im Internet – und ihre Eltern machen sich Sorgen. Ein Buch will erklären, wie die digitale Generation denkt, lebt und arbeitet.</description>
+      <byline py:pytype="str">Von David Hugendick</byline>
+      <image alt="Generation Internet Cover" align="left" title="John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten" base-id="http://xml.zeit.de/kultur/literatur/2009-09/generation-internet/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">John Palfrey: Generation Internet. Die Digital Natives: Wie sie leben - Was sie denken - Wie sie arbeiten</bu>
+        <copyright py:pytype="str">© Hanser-Verlag</copyright>
+      </image>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/politik/deutschland/2009-09/link-schlagwort-spd" year="2009" issue="39" ressort="Politik" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/themen/tags/index?q=SPD">
+      <supertitle py:pytype="str">Schlagwort</supertitle>
+      <title py:pytype="str">SPD</title>
+      <text py:pytype="str">Informationen, Analysenund Kommentare zur Sozialdemokratischen Partei Deutschland</text>
+      <description py:pytype="str">Informationen, Analysenund Kommentare zur Sozialdemokratischen Partei Deutschland</description>
+      <byline xsi:nil="true"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/test/cz/artikel-2-3" publication-date="" expires=""/>
+    <reference type="intern" href="http://xml.zeit.de/2005/01/Netzk_9fnstler" year="2005" issue="1" ressort="Feuilleton" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Internetkunst</supertitle>
+      <title py:pytype="str">Schläge auf die Grafikkarte</title>
+      <text py:pytype="str">Die Internetkunst emanzipiert sich von ihrem Medium und strebt ins Museum</text>
+      <description py:pytype="str">Die Internetkunst emanzipiert sich von ihrem Medium und strebt ins Museum</description>
+      <byline py:pytype="str">Von Malte Henk</byline>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/online/2009/35/luegendetektor-arbeitsmarkt" year="2009" issue="35" ressort="Wirtschaft" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">ZEIT-ONLINE-Lügendetektor</supertitle>
+      <title py:pytype="str">"Wir haben die Arbeitslosigkeit reduziert"</title>
+      <text py:pytype="str">CDU und SPD loben sich für ihren Kampf gegen die Arbeitslosigkeit. Doch sie sagen nur die halbe Wahrheit. Folge zwei unserer Serie.</text>
+      <description py:pytype="str">CDU und SPD loben sich für ihren Kampf gegen die Arbeitslosigkeit. Doch sie sagen nur die halbe Wahrheit. Folge zwei unserer Serie.</description>
+      <byline py:pytype="str">Von Alexandra Endres</byline>
+      <image alt="Mittagspause: Zwei Gartenarbeiter in Berlin" align="left" base-id="http://xml.zeit.de/bilder/2009/36/wirtschaft/arbeit/" type="" publication-date="" expires="">
+        <bu py:pytype="str">Mittagspause: Zwei Gartenarbeiter in Berlin</bu>
+        <copyright py:pytype="str">© Theo Heimann/ddp</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/internet/2009-09/Ethan-Zuckermann-Interview" year="2009" issue="37" ressort="Digital" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Ars Electronica</supertitle>
+      <title py:pytype="str">"Wir müssen eine Revolution starten"</title>
+      <text py:pytype="str">Die Intelligenz der Cloud wird derzeit noch gar nicht richtig genutzt. Global-Voices-Mitbegründer Ethan Zuckerman zeichnet ein Bild der besten aller möglichen Netzwelten.</text>
+      <description py:pytype="str">Die Intelligenz der Cloud wird derzeit noch gar nicht richtig genutzt. Global-Voices-Mitbegründer Ethan Zuckerman zeichnet ein Bild der besten aller möglichen Netzwelten.</description>
+      <byline xsi:nil="true"/>
+      <image alt="cloud" align="left" title="wolken-cloud" base-id="http://xml.zeit.de/digital/internet/2009-09/wolken-cloud/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Cloud Computing, das &amp;quot;Rechnen in der Wolke&amp;quot; bezeichnet den aktuellen Trend, die eigene IT nicht mehr aus dem lokalen PC, sondern aus dem weltweiten Netzwerk zu beziehen</bu>
+        <copyright py:pytype="str">©Jewel Samad/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/karriere/2009-09/arbeitsrecht-" year="2009" issue="37" ressort="Karriere" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Da staunt der Chef</supertitle>
+      <title py:pytype="str">Der genehmigte Urlaub ist unwiderruflich</title>
+      <text py:pytype="str">Hat der Chef den freien Tagen erst einmal zugestimmt, darf er diese nicht wieder verbieten. Wie sich Arbeitnehmer verhalten, erklärt die Kolumne zum Arbeitsrecht.</text>
+      <description py:pytype="str">Hat der Chef den freien Tagen erst einmal zugestimmt, darf er diese nicht wieder verbieten. Wie sich Arbeitnehmer verhalten, erklärt die Kolumne zum Arbeitsrecht.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Jeden Mittwoch beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Fragen zum Arbeitsrecht auf ZEIT ONLINE" href="http://www.zeit.de/themen/serie/index?q=da-staunt-der-chef" align="left" title="Da staunt der Chef Teaser" base-id="http://xml.zeit.de/karriere/2010-03/da-staunt-der-chef/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Jeden Mittwoch beantwortet der Berliner Arbeitsrechtler Ulf Weigelt Fragen zum Arbeitsrecht auf ZEIT ONLINE</bu>
+        <copyright py:pytype="str" link="http://www.photocase.de/de/user.asp?u=345186">© benice/photocase</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2009-09/kleinwort-boni-klage" year="2009" issue="37" ressort="Wirtschaft" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Finanzkrise</supertitle>
+      <title py:pytype="str">Kleinwort-Manager klagen Millionenboni ein</title>
+      <text py:pytype="str">Mitarbeiter der Investmentbank Dresdner Kleinwort wollen in Großbritannien Zusatzeinkünfte vor Gericht durchsetzen. Die Commerzbank als Konzernmutter hatte sie gestrichen</text>
+      <description py:pytype="str">Mitarbeiter der Investmentbank Dresdner Kleinwort wollen in Großbritannien Zusatzeinkünfte vor Gericht durchsetzen. Die Commerzbank als Konzernmutter hatte sie gestrichen</description>
+      <byline xsi:nil="true"/>
+      <image alt="Streitbare Manager: Die Dresdner Kleinwort in London" align="left" title="Dresdner Kleinwort Boni Manager London Commerzbank Bank" base-id="http://xml.zeit.de/bilder/2009/37/wirtschaft/dresdner-kleinwort-090909/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Streitbare Manager: Die Dresdner Kleinwort in London</bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/gesellschaft/schule/2009-09/oecd-schule-potsdam" year="2009" issue="37" ressort="Gesellschaft" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">OECD-Studie</supertitle>
+      <title py:pytype="str">Kann denn Schule schön sein?  </title>
+      <text py:pytype="str">Deutschland muss mehr in Bildung investieren. Die Schulleiterin Ulrike Kegler hat  ein Buch darüber geschrieben, wie erfolgreich eine Schule wird, wenn sie schön ist.</text>
+      <description py:pytype="str">Deutschland muss mehr in Bildung investieren. Die Schulleiterin Ulrike Kegler hat  ein Buch darüber geschrieben, wie erfolgreich eine Schule wird, wenn sie schön ist.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Montessori Schule" base-id="http://xml.zeit.de/gesellschaft/schule/2009-09/montessori-schule/" type="" publication-date="" expires="">
+        <bu py:pytype="str">Milch trinken in der Maria Montessori Schule in Stralsund</bu>
+        <copyright py:pytype="str">© Jens Koehler/ ddp</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/unternehmen/2009-09/opel-gm-poker" year="2009" issue="37" ressort="Wirtschaft" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Opel-Poker</supertitle>
+      <title py:pytype="str">GM hält sich Entscheidung offen</title>
+      <text py:pytype="str">Der Verwaltungsrat des US-Autobauers berät heute erneut über die Zukunft der Tochter Opel. Für den Zulieferer Magna schwinden die Hoffnungen auf eine Übernahme.</text>
+      <description py:pytype="str">Der Verwaltungsrat des US-Autobauers berät heute erneut über die Zukunft der Tochter Opel. Für den Zulieferer Magna schwinden die Hoffnungen auf eine Übernahme.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Der Poker geht weiter: GM zögert eine Entscheidung über die Zukunft von Opel hinaus" align="left" title="GM-Opel-Entscheidung-vertagt" base-id="http://xml.zeit.de/wirtschaft/unternehmen/2009-09/opel-gm-entscheidung-4/" type="jpg" publication-date="" expires="2009-12-09T06:08:37+00:00">
+        <bu py:pytype="str">Der Poker geht weiter: GM zögert eine Entscheidung über die Zukunft von Opel hinaus</bu>
+        <copyright py:pytype="str">© Bernd Thissen/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2009/37/Schoenefeld" year="2009" issue="37" ressort="Reisen" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Berliner Flughafen</supertitle>
+      <title py:pytype="str">Schön, schöner, Schönefeld</title>
+      <text py:pytype="str">Mit Rundflügen und Nachtfahrten locken die Betreiber des neuen Berliner Flughafens Besucher auf die Baustelle.</text>
+      <description py:pytype="str">Mit Rundflügen und Nachtfahrten locken die Betreiber des neuen Berliner Flughafens Besucher auf die Baustelle.</description>
+      <byline py:pytype="str">Von Andreas Spaeth</byline>
+      <image align="left" base-id="http://xml.zeit.de/reisen/2009-09/bbi-schoenefeld/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© picture-alliance</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2009-9/filmfestspiele-venedig" year="2009" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Filmfestspiele Venedig</supertitle>
+      <title py:pytype="str">George Clooney außer Konkurrenz</title>
+      <text py:pytype="str">In Venedig gehört der europäische Film ganz den Schauspielerinnen. Und die US-Festivalbeiträge wetteifern, welcher Superstar sich hässlicher und dämlicher präsentiert.</text>
+      <description py:pytype="str">In Venedig gehört der europäische Film ganz den Schauspielerinnen. Und die US-Festivalbeiträge wetteifern, welcher Superstar sich hässlicher und dämlicher präsentiert.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="George Clooney bei den Filmfestspielen in Venedig" base-id="http://xml.zeit.de/kultur/film/2009-09/clooney-venedig/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Elegant, trotz Handverletzung: der Schauspieler George Clooney</bu>
+        <copyright py:pytype="str">© Filippo Monteforte/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/2009-09/google-books-bibliotheken" year="2009" issue="37" ressort="Digital" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Google-Books</supertitle>
+      <title py:pytype="str">EU-Kommissarin Reding will Google nicht verteufeln</title>
+      <text py:pytype="str">Die EU-Kommission will die Digitalisierung der Bibliotheken weiter vorantreiben. Sie baut dabei auf die Unterstützung von Google. Und tut gut daran</text>
+      <description py:pytype="str">Die EU-Kommission will die Digitalisierung der Bibliotheken weiter vorantreiben. Sie baut dabei auf die Unterstützung von Google. Und tut gut daran</description>
+      <byline xsi:nil="true"/>
+      <image alt="google-books" align="left" title="stanford-bibliothek-google" base-id="http://xml.zeit.de/digital/internet/2009-09/stanford-bibliothek-google-2/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Die Bibliothek der amerikanischen Stanford University ist schon seit 2004 dabei: Langfristig plant Google 15 Millionen Bücher aus den sieben berühmtesten Bibliotheken der Welt einzuscannen</bu>
+        <copyright py:pytype="str">©Justin Sullivan/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2009-09/luegendetektor-biermann-kinderporno" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Zeit-Online-Lügendetektor</supertitle>
+      <title py:pytype="str">"Wir schließen die Datenautobahn der Kinderpornografie"</title>
+      <text py:pytype="str">Die CDU hat den Kampf gegen Kindesmissbrauch zu ihrem Thema gemacht. Ihr Konzept aber ist ein Placebo.</text>
+      <description py:pytype="str">Die CDU hat den Kampf gegen Kindesmissbrauch zu ihrem Thema gemacht. Ihr Konzept aber ist ein Placebo.</description>
+      <byline py:pytype="str">Von Kai Biermann</byline>
+      <image align="left" title="LEYEN" base-id="http://xml.zeit.de/politik/deutschland/2009-09/leyen/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Familienministerin Ursula von der Leyen </bu>
+        <copyright py:pytype="str">© dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2009-09/buback-geheimakten-sperrung" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">RAF-Terror</supertitle>
+      <title py:pytype="str">Die Geheimakten zum Mordfall Buback bleiben gesperrt</title>
+      <text py:pytype="str">Innenminister Schäuble hat es abgelehnt, Akten zum Mord an Generalbundesanwalt Buback 1977 zu veröffentlichen. Dies erschwert die Beweisführung im Fall Verena Becker</text>
+      <description py:pytype="str">Innenminister Schäuble hat es abgelehnt, Akten zum Mord an Generalbundesanwalt Buback 1977 zu veröffentlichen. Dies erschwert die Beweisführung im Fall Verena Becker</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Buback Becker RAF Akten" base-id="http://xml.zeit.de/politik/deutschland/2009-09/buback-becker/" type="jpg" publication-date="" expires="2009-12-08T17:00:47+00:00">
+        <bu py:pytype="str">Becker 1977 nach dem Urteil gegen sie: Sie steht unter dem dringenden Verdacht, an dem RAF-Mord gegen Buback beteiligt gewesen zu sein</bu>
+        <copyright py:pytype="str">© Norbert Försterling/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2009-09/maastricht-kriterien-deutschland" year="2009" issue="37" ressort="Wirtschaft" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Staatsschulden</supertitle>
+      <title py:pytype="str">Deutschland vermeidet EU-Defizitverfahren</title>
+      <text py:pytype="str">Anders als erwartet wird Deutschland 2009 die EU-Höchstgrenze für Staatsschulden wohl einhalten. Laut einer Studie entwickelt sich die Wirtschaft ausreichend gut.</text>
+      <description py:pytype="str">Anders als erwartet wird Deutschland 2009 die EU-Höchstgrenze für Staatsschulden wohl einhalten. Laut einer Studie entwickelt sich die Wirtschaft ausreichend gut.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Guten Nachrichten für Steinbrück: Deutschland reißt die Maastricht-Kriterien nicht zwingend" align="left" title="Staatsverschuldung Steinbrück" base-id="http://xml.zeit.de/bilder/2009/37/politik/deutschland/staatsverschuldung/" type="jpg" publication-date="" expires="2009-12-09T06:08:06+00:00">
+        <bu py:pytype="str">Guten Nachrichten für Steinbrück: Deutschland reißt die Maastricht-Kriterien nicht zwingend</bu>
+        <copyright py:pytype="str">© Rainer Jensen/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2009-09/umfrage-bundestagswahl-forsa" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Wahlumfrage </supertitle>
+      <title py:pytype="str">Landtagswahlen beflügeln Linkspartei</title>
+      <text py:pytype="str">Die Landtagswahlen und der Streit um den Afghanistan-Einsatz beeinflussen die Stimmung der Wähler. In einer neuen Umfrage gewinnt die Linke, Schwarz-Gelb verliert.
+
+</text>
+      <description py:pytype="str">Die Landtagswahlen und der Streit um den Afghanistan-Einsatz beeinflussen die Stimmung der Wähler. In einer neuen Umfrage gewinnt die Linke, Schwarz-Gelb verliert.
+
+</description>
+      <byline xsi:nil="true"/>
+      <image alt="Gregor Gysi, Linkspartei" align="left" title="Gysi Die Linke Afghanistan Demo Umfrage" base-id="http://xml.zeit.de/2009/37/die-linke-gysi-090909/" type="" publication-date="" expires="">
+        <bu py:pytype="str">Der Parteivorsitzende der Linken, Gregor Gysi. Seine Partei gewinnt an Zustimmung</bu>
+        <copyright py:pytype="str">© Philipp Guelland/ddp</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/2009-9/obama-gesundheitsreform-kongress" year="2009" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Gesundheitsreform</supertitle>
+      <title py:pytype="str">Prüfstein für Obama</title>
+      <text py:pytype="str">Mit einer Rede im Kongress unternimmt US-Präsident Obama einen neuen Versuch, seine umstrittene Gesundheitsreform voranzubringen. Was ist von dem Auftritt zu erwarten?</text>
+      <description py:pytype="str">Mit einer Rede im Kongress unternimmt US-Präsident Obama einen neuen Versuch, seine umstrittene Gesundheitsreform voranzubringen. Was ist von dem Auftritt zu erwarten?</description>
+      <byline py:pytype="str">Von Christoph von Marschall, Washington</byline>
+      <image alt="US-Präsident Barack Obama will die Gesundheitsreform" align="left" title="Obama USA Gesundheitssystem Flagge Rede" base-id="http://xml.zeit.de/bilder/2009/37/politik/ausland/obama-gesundheitsreform-090909/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Kampfentschlossen: US-Präsident Barack Obama</bu>
+        <copyright py:pytype="str">© Mark Lyons/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2009-09/ehrenmal-bundeswehr" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">gallery</badge>
+      </badges>
+      <supertitle py:pytype="str">Bundeswehr</supertitle>
+      <title py:pytype="str">Präsident Köhler will eine Debatte über Auslandseinsätze</title>
+      <text py:pytype="str">Horst Köhler hat in Berlin das umstrittene Ehrenmal der Bundeswehr eingeweiht. Dabei forderte er einen gesellschaftlichen Diskurs über den Militäreinsatz in Afghanistan.</text>
+      <description py:pytype="str">Horst Köhler hat in Berlin das umstrittene Ehrenmal der Bundeswehr eingeweiht. Dabei forderte er einen gesellschaftlichen Diskurs über den Militäreinsatz in Afghanistan.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Ehrenmal Bundeswehr Hors Köhler Bundespräsident" align="left" title="ehrenmal-bundeswehr" base-id="http://xml.zeit.de/politik/ausland/2009-09/ehrenmal-bundeswehr-2/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Eine Ehrenformation der Bundeswehr trägt Kränze in das neue Ehrenmal im Berliner Bendler Block. Bundespräsident Köhler und Bundestagspräsident Lammert (l.) erweisen den Toten ihren Respekt</bu>
+        <copyright py:pytype="str">© Wolfgang Kumm dpa/lbn</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/ausland/2009-09/afghanistan-abzug-debatte" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">community</badge>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Debatte</supertitle>
+      <title py:pytype="str">Soll der Westen aus Afghanistan abziehen? </title>
+      <text py:pytype="str">Streit über den Einsatz der Bundeswehr in Afghanistan: ein Pro und Kontra zum Truppenabzug aus dem Hindukusch von Ulrich Ladurner und Josef Joffe</text>
+      <description py:pytype="str">Streit über den Einsatz der Bundeswehr in Afghanistan: ein Pro und Kontra zum Truppenabzug aus dem Hindukusch von Ulrich Ladurner und Josef Joffe</description>
+      <byline xsi:nil="true"/>
+      <image alt="Bundeswehr in Afghanistan" align="left" title="Bundeswehr in Afghanistan" base-id="http://xml.zeit.de/bilder/2009/35/politik/ausland/bundeswehr-afghanistan/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Bundeswehr-Einheiten nahe Kundus - Rund 3900 deutsche Soldaten sind im Rahmen des Isaf-Einsatzes in Afghanistan stationiert</bu>
+        <copyright py:pytype="str">© Michael Kappeler/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2009-9/haende-hoch-und-raus" year="2009" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Filmfestspiele Venedig</supertitle>
+      <title py:pytype="str">Michael Moore sucht die Totschläger des Kapitalismus</title>
+      <text py:pytype="str">In „Capitalism: A Love Story“ nimmt Michael Moore die Wirtschaftskrise aufs Korn. Damit ist in Venedig erstmals ein  Dokumentarfilm zu sehen.</text>
+      <description py:pytype="str">In „Capitalism: A Love Story“ nimmt Michael Moore die Wirtschaftskrise aufs Korn. Damit ist in Venedig erstmals ein  Dokumentarfilm zu sehen.</description>
+      <byline py:pytype="str">Von Christina Tilmann, Venedig</byline>
+      <image alt="Michael Moore auf der Film-Biennale Venedig" align="left" title="Michael Moore auf der Film-Biennale Venedig" base-id="http://xml.zeit.de/kultur/film/2009-09/michael-moore-venedig/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Mit seinem jüngsten Film &amp;quot;Capitalism: A Love Story&amp;quot; bewirbt sich Filmemacher Michael Moore in Venedig um den goldenen Löwen</bu>
+        <copyright py:pytype="str">© DAMIEN MEYER/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/internet/2009-09/internet-manifest-urheberrecht" year="2009" issue="37" ressort="Digital" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">community</badge>
+      </badges>
+      <supertitle py:pytype="str">Urheberrecht</supertitle>
+      <title py:pytype="str">Die Netzaktivisten schlagen zurück</title>
+      <text py:pytype="str">Verleger wollen Journalismus allein vermarkten. 15 Netzautoren argumentieren mit einem "Internet-Manifest" dagegen. Gute Idee – doch mit fragwürdigen Thesen. Kommentar</text>
+      <description py:pytype="str">Verleger wollen Journalismus allein vermarkten. 15 Netzautoren argumentieren mit einem "Internet-Manifest" dagegen. Gute Idee – doch mit fragwürdigen Thesen. Kommentar</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Internet-Manifest" base-id="http://xml.zeit.de/digital/internet/2009-09/internet-manifest-urheberrecht-2/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Diesen Twitter-Account gibt es nicht, aber er wäre eine passende Möglichkeit, ein solches Manifest zu verbreiten</bu>
+        <copyright py:pytype="str">© Screenshot ZEIT ONLINE</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2009-09/althaus-rueckkehr-kabinett" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Thüringen</supertitle>
+      <title py:pytype="str">Althaus kann's nicht lassen</title>
+      <text py:pytype="str">Rückzug vom Rückzug: Dieter Althaus kehrt in die Staatskanzlei zurück und wird morgen die Kabinettssitzung leiten. Auch im künftigen Landtag will er wieder aktiv sein</text>
+      <description py:pytype="str">Rückzug vom Rückzug: Dieter Althaus kehrt in die Staatskanzlei zurück und wird morgen die Kabinettssitzung leiten. Auch im künftigen Landtag will er wieder aktiv sein</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="Althaus kann's nicht lassen" base-id="http://xml.zeit.de/politik/deutschland/2009-09/althaus-return/" type="jpg" publication-date="2009-09-07T15:07:34+00:00" expires="2009-12-07T16:07:41+00:00">
+        <bu py:pytype="str">Erst Rücktritt &amp;quot;mit sofortiger Wirkung&amp;quot;, jetzt die Rückkehr: Dieter Althaus wieder auf dem Weg in die Staatskanzlei</bu>
+        <copyright py:pytype="str">© Rainer Jensen/dpa </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/wirtschaft/2009-09/interview-green-finanzkrise" year="2009" issue="37" ressort="Wirtschaft" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">HSBC-Chairman</supertitle>
+      <title py:pytype="str">"Garantie-Boni sind verwerflich"</title>
+      <text py:pytype="str">Das Schlimmste der Krise ist ausgestanden, sagt der Chairman der Bank HSBC, Stephen Green, im Interview - und fordert die Regulierer auf, garantierte Boni zu verbieten.</text>
+      <description py:pytype="str">Das Schlimmste der Krise ist ausgestanden, sagt der Chairman der Bank HSBC, Stephen Green, im Interview - und fordert die Regulierer auf, garantierte Boni zu verbieten.</description>
+      <byline xsi:nil="true"/>
+      <image align="left" title="stephen-green-finanzkrise" base-id="http://xml.zeit.de/wirtschaft/2009-09/stephen-green-finanzkrise-2/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Stephen Green, Chairman der britischen Bank HSBC sagt: &amp;quot;Die Bankenbranche hat sich nicht mit Ruhm bekleckert&amp;quot;</bu>
+        <copyright py:pytype="str">© Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2009-09/afghanistan-spd" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">infographic</badge>
+      </badges>
+      <supertitle py:pytype="str">Wahlkampf</supertitle>
+      <title py:pytype="str">Warum die SPD an Afghanistan festhält </title>
+      <text py:pytype="str">Die Sozialdemokraten üben scharfe Kritik an Verteidigungsminister Jung. Den Einsatz in Afghanistan stellen sie aber nicht infrage. Jedenfalls nicht vor der Wahl 
+</text>
+      <description py:pytype="str">Die Sozialdemokraten üben scharfe Kritik an Verteidigungsminister Jung. Den Einsatz in Afghanistan stellen sie aber nicht infrage. Jedenfalls nicht vor der Wahl 
+</description>
+      <byline py:pytype="str">Von Michael Schlieben</byline>
+      <image align="left" title="steinmeier-afghanistan" base-id="http://xml.zeit.de/politik/deutschland/2009-09/steinmeier-afghanistan/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Frank-Walter Steinmeier auf Besuch in Kabul (Archivbild vom 26. Juli 2008) </bu>
+        <copyright py:pytype="str">© gettyimages / </copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/online/2009/37/senkrechtstarter-schmiegelow" year="2009" issue="37" ressort="Karriere" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">video</badge>
+      </badges>
+      <supertitle py:pytype="str">Karrieretipps</supertitle>
+      <title py:pytype="str">Die Krise als Chance</title>
+      <text py:pytype="str">Unternehmer geben Karrieretipps am Flughafen. Diese Woche: Axel Schmiegelow von Sevenload über Gründungsstrategien</text>
+      <description py:pytype="str">Unternehmer geben Karrieretipps am Flughafen. Diese Woche: Axel Schmiegelow von Sevenload über Gründungsstrategien</description>
+      <byline xsi:nil="true"/>
+      <image alt="Karrieretipps, Karriere" align="left" title="senkrechtstarter-schmiegelow" base-id="http://xml.zeit.de/bilder/2009/37/video/senkrechtstarter-schmiegelow/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">© ZEIT OLNINE</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/lebensart/mode/2009-09/arabische-mode" year="2009" issue="37" ressort="Gesellschaft" contenttype="article" publication-date="" expires="">
+      <badges>
+        <badge py:pytype="str">community</badge>
+      </badges>
+      <supertitle py:pytype="str">Gesellschaft</supertitle>
+      <title py:pytype="str">Lady Di des Orients</title>
+      <text py:pytype="str">Die modernen arabischen Herrschergattinnen geben ihren Ländern neuen Glanz – allen voran Asma al-Assad aus Syrien.</text>
+      <description py:pytype="str">Die modernen arabischen Herrschergattinnen geben ihren Ländern neuen Glanz – allen voran Asma al-Assad aus Syrien.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Asma al-Assad" align="left" title="Asma al-Assad" base-id="http://xml.zeit.de/gesellschaft/zeitgeschehen/2009-09/asma-al-assad/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">Asma al-Assad, die syrische First Lady, auf einer Konferenz zum Thema &amp;quot;Die Umgestaltung der Rolle der Frau in der Gesellschaft&amp;quot; in Damaskus</bu>
+        <copyright py:pytype="str">© Louai Beshara/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2009-09/spd-muentefering-wahlkampf" year="2009" issue="37" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Franz Müntefering</supertitle>
+      <title py:pytype="str">Das Unheil des Heiligen</title>
+      <text py:pytype="str">Die Erwartungen waren riesengroß. Franz Müntefering sollte die SPD mit Überzeugungskraft und Elan aus dem Tief führen. Doch selbst einer wie er schafft es nicht.</text>
+      <description py:pytype="str">Die Erwartungen waren riesengroß. Franz Müntefering sollte die SPD mit Überzeugungskraft und Elan aus dem Tief führen. Doch selbst einer wie er schafft es nicht.</description>
+      <byline xsi:nil="true"/>
+      <image alt="Franz Müntefering" align="left" title="Franz Müntefering" base-id="http://xml.zeit.de/politik/deutschland/2009-09/muentefering-3/" type="" publication-date="" expires="">
+        <bu py:pytype="str">Beklemmende Aussichten: SPD-Chef Franz Müntefering versucht, sich seine Verunsicherung nicht anmerken zu lassen</bu>
+        <copyright py:pytype="str">© Axel Schmidt/ ddp</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/musik/2009-09/george-benson" year="2009" issue="37" ressort="Kultur" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">George Benson</supertitle>
+      <title py:pytype="str">"Die Gitarre verstehen nur wenige"</title>
+      <text py:pytype="str">Einst funky, heute smooth: Schon mit 25 galt George Benson als Weltbester auf seinem Instrument. Nun erklärt der 66-Jährige, warum man mit Singen größeren Erfolg hat</text>
+      <description py:pytype="str">Einst funky, heute smooth: Schon mit 25 galt George Benson als Weltbester auf seinem Instrument. Nun erklärt der 66-Jährige, warum man mit Singen größeren Erfolg hat</description>
+      <byline xsi:nil="true"/>
+      <image align="left" base-id="http://xml.zeit.de/kultur/musik/2009-09/benson-interview/" type="jpg" publication-date="" expires="">
+        <bu py:pytype="str">&amp;quot;Niemand ist bis zum Ende seines Lebens die Nr.1&amp;quot;, sagt der große Gitarrist George Benson</bu>
+        <copyright py:pytype="str">© Abdelhak Senna/AFP/Getty Images</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">ZEIT ONLINE Startseite</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Neue Heimat</text>
+  </indexteaser>
+</centerpage>

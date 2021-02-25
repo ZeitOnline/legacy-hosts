@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="arena">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <og_meta>
+      <og_title>Wahlkreise: Deutschland neu sortiert</og_title>
+      <og_image>http://www.zeit.de/politik/deutschland/2013-09/wahlland-2013.jpg/wahlland-2013.jpg-540x304.jpg</og_image>
+      <og_description>Die Fürther kamen dem bundesweiten Wahlergebnis am nächsten. Friedrichshain-Kreuzberg wählt dagegen unorthodox. Wir zeigen die neue politische Landkarte des Wahllands.</og_description>
+    </og_meta>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">Zeit Online</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2013-09-24T14:20:25.986463+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2013-09-23T15:41:25.324692+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2013-09-24T14:21:28.852957+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2013-09-23T16:01:42.312731+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-09-24T14:20:23.049650+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.venohr</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="mobile_alternative">http://www.zeit.de/politik/deutschland/wahlland-2013</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Politik</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">arena</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:0a0f90ca-0189-4be5-8a86-0372f0020a71}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">38</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2013</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="xml" module="xml" cp:__name__="id-61842957-9c3a-4905-9655-bc4c965e4930">
+          <raw>
+            <span id="wahlland">
+              <script type="text/javascript">
+  	
+if(window.is_tablet){
+       	var url = 'http://static.zeit.de/static/projekte/wahlland-2013/index_2013_tablet.html';
+}else{
+    	var url = 'http://static.zeit.de/static/projekte/wahlland-2013/index_2013.html';
+}
+
+  	var hash = window.location.hash;
+
+  	jQuery( '#wahlland' ).append( '&lt;iframe src="' + url + hash + '" width="100%" height="900px" scrolling="no" frameborder="0"/&gt;' );
+
+   </script>
+            </span>
+          </raw>
+        </container>
+      </region>
+      <region area="informatives"/>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-4b664194-19c7-4f7a-a221-18fa4503c8de">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-e4dde30a-f07e-4e72-8360-2d084a1b7182">
+          <block href="http://xml.zeit.de/politik/deutschland/2013-09/fs-wahlkantine-bundestagswahl-2013-ergebnis" year="2013" issue="38" ressort="Politik" contenttype="gallery" publication-date="" expires="" date-last-modified="2013-09-23T13:37:30+00:00" date-first-released="2013-09-22T20:18:20.119707+00:00" date-last-published="2013-09-23T13:38:30.570241+00:00" last-semantic-change="2013-09-23T13:35:25.217747+00:00">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Wahlkantine</supertitle>
+            <title py:pytype="str">Käse-Igel ohne FDP</title>
+            <text py:pytype="str">Nach dem Ausscheiden der Liberalen kamen in der Wahlkantine die Käsehappen nicht mehr zum Einsatz. Wir servieren das Wahlergebnis in seiner kulinarischen Vielfalt.</text>
+            <description py:pytype="str">Nach dem Ausscheiden der Liberalen kamen in der Wahlkantine die Käsehappen nicht mehr zum Einsatz. Wir servieren das Wahlergebnis in seiner kulinarischen Vielfalt.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/politik/deutschland/2013-09/kaeseigel_teaser.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-d46cbbfb-d537-4879-88c2-80e69a6bc272">
+          <block href="http://xml.zeit.de/politik/deutschland/2013-09/waehlerwanderung-bundestagswahl-2013" year="2013" issue="38" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-23T15:07:14+00:00" date-first-released="2013-09-23T09:22:22.311109+00:00" date-last-published="2013-09-23T15:08:13.930465+00:00" last-semantic-change="2013-09-23T09:21:19.401937+00:00">
+            <supertitle py:pytype="str">Bundestagswahl 2013</supertitle>
+            <title py:pytype="str">Die Wählerwanderung im Überblick</title>
+            <text py:pytype="str">Wohin wanderten die FDP-Wähler, wer machte die CDU so stark? Woher kommen die neuen Anhänger der AfD? Unsere interaktive Wahlgrafik zeigt es.</text>
+            <description py:pytype="str">Wohin wanderten die FDP-Wähler, wer machte die CDU so stark? Woher kommen die neuen Anhänger der AfD? Unsere interaktive Wahlgrafik zeigt es.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/politik/deutschland/2013-09/waherlwanderung2013_teaser/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-d6362683-f9b7-46d4-bc8e-fed4d21f76f4">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/deutschland/2013-09/twitter-monitor-bundestagswahl" year="2013" issue="37" ressort="Politik" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/politik/deutschland/2013-09/twitter-monitor" date-last-modified="2013-09-23T16:55:51+00:00" date-first-released="2013-09-09T10:13:22.382333+00:00" date-last-published="2013-09-23T15:08:14.756607+00:00" last-semantic-change="2013-09-09T10:09:23.989519+00:00">
+            <badges>
+              <badge py:pytype="str">infographic</badge>
+            </badges>
+            <supertitle py:pytype="str">Twitter-Monitor</supertitle>
+            <title py:pytype="str">Was zur Wahl getwittert wird</title>
+            <text py:pytype="str">Welche Wahlkampfthemen bewegen auf Twitter? Worüber twittern Politiker, Journalisten, Lobbyisten, Wähler? Unser fortlaufend aktualisierter Twitter-Monitor zeigt es.</text>
+            <description py:pytype="str">Welche Wahlkampfthemen bewegen auf Twitter? Worüber twittern Politiker, Journalisten, Lobbyisten, Wähler? Unser fortlaufend aktualisierter Twitter-Monitor zeigt es.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/politik/deutschland/2013-09/twitter-monitor.jpg/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© ZEIT ONLINE</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-b88d39e6-a5a3-48fb-91e9-473476920436">
+          <block href="http://xml.zeit.de/politik/deutschland/2013-09/bundestag-wahl-merkel-spd-gruene-kommentar" year="2013" issue="38" ressort="Politik" author="Karsten Polke-Majewski" contenttype="article" publication-date="" expires="" date-last-modified="2013-09-23T13:38:14+00:00" date-first-released="2013-09-22T23:14:33.388620+00:00" date-last-published="2013-09-23T13:39:14.348250+00:00" last-semantic-change="2013-09-22T23:08:11.409299+00:00">
+            <badges>
+              <badge py:pytype="str">video</badge>
+            </badges>
+            <supertitle py:pytype="str">Bundestagswahl</supertitle>
+            <title py:pytype="str">Kein Sieg des "Weiter so"</title>
+            <text py:pytype="str">Dieser Wahlsieg ist eine Machtdemonstration Merkels. Einen Partner braucht sie trotzdem. SPD oder Grüne? Beide wollen nicht – und könnten es doch werden. Ein Kommentar</text>
+            <description py:pytype="str">Dieser Wahlsieg ist eine Machtdemonstration Merkels. Einen Partner braucht sie trotzdem. SPD oder Grüne? Beide wollen nicht – und könnten es doch werden. Ein Kommentar</description>
+            <byline xsi:nil="true"/>
+            <image align="left" title="Angela Merkel" base-id="http://xml.zeit.de/politik/deutschland/2013-09/merkel-wahl-2013-4/" type="jpg" publication-date="" expires="">
+              <bu py:pytype="str">Strahlende Siegerin: Angela Merkel</bu>
+              <copyright py:pytype="str">© Michael Kappeler/dpa</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <supertitle>Bundestagswahl 2013</supertitle>
+    <title>Die Karte von Wahlland</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Die Karte von Wahlland 2013</title>
+  </teaser>
+</centerpage>

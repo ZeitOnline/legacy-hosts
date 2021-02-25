@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<variants>
+  <!-- attributes explained:
+    name: unique identifier
+    display_name: used for Vivi CMS user interface
+    focus_x: denotes default focus point position on scale from 0(left) to 1(right) on x-axis
+    focus_y: denotes default focus point position on scale from 0(top) to 1(bottom) on y-axis
+    zoom: denotes default zoom level
+    aspect_ratio: self-explanatory
+    fallback_size: maximum size used by no-JS clients
+    max_size: maximum size the variant is used for on the website
+  -->
+  <variant name="default" focus_x="0.5" focus_y="0.3" zoom="1.0"/>
+  <variant name="wide" display_name="Standard 16:9" aspect_ratio="16:9" fallback_size="822x462">
+    <size id="small" display_name="Standard 16:9 (klein)" max_size="300x169"/>
+    <size id="large" display_name="Standard 16:9 (groß)"/>
+  </variant>
+  <variant name="super" display_name="Klassisch 3:2" aspect_ratio="3:2" fallback_size="620x413"/>
+  <variant name="standard" display_name="Kompakt 4:3" aspect_ratio="4:3" fallback_size="490x368" available="zeit.magazin.interfaces.IZMOContent"/>
+  <variant name="cinema" display_name="Leinwand 7:3" aspect_ratio="7:3" fallback_size="980x420"/>
+  <variant name="square" display_name="Quadrat 1:1" aspect_ratio="1:1" fallback_size="460x460">
+    <size id="micro" display_name="Quadrat 1:1 (Kopf)" max_size="100x100"/>
+    <size id="small" display_name="Quadrat 1:1 (klein)" max_size="300x300"/>
+    <size id="large" display_name="Quadrat 1:1 (groß)" fallback_size="767x767"/>
+  </variant>
+  <variant name="panorama" display_name="Panorama 7:2" aspect_ratio="7:2" fallback_size="980x280"/>
+  <variant name="stripe" display_name="Streifen 49:4" aspect_ratio="49:4" fallback_size="980x80"/>
+  <variant name="tile" display_name="Kachel 4:5" aspect_ratio="4:5" fallback_size="315x394"/>
+  <variant name="portrait" display_name="Porträt 3:4" aspect_ratio="3:4" fallback_size="612x816">
+    <size id="small" display_name="Porträt 3:4 (klein)" max_size="300x400"/>
+    <size id="large" display_name="Porträt 3:4 (groß)"/>
+  </variant>
+  <variant name="narrow" display_name="Hochkant 2:3" aspect_ratio="2:3" fallback_size="300x450"/>
+  <variant name="original" focus_x="0.5" focus_y="0.3" zoom="1.0" aspect_ratio="original"/>
+</variants>

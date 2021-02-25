@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage>
+  <head>
+    <!-- Angaben zum Dokument -->
+    <id>
+      <!-- die eineindeutige ID des Dokuments -->
+      <uniqueid>cms:/cms/work/hp_channels/channel_formate</uniqueid>
+    </id>
+    <attribute name="volume" ns="http://namespaces.zeit.de/CMS/document">20</attribute>
+    <attribute name="year" ns="http://namespaces.zeit.de/CMS/document">2007</attribute>
+    <attribute name="ressort" ns="http://namespaces.zeit.de/CMS/document">News</attribute>
+    <attribute name="supertitle" ns="http://namespaces.zeit.de/CMS/document">News Channel</attribute>
+    <!-- Dachzeile/Spitzmarke -->
+    <attribute name="title" ns="http://namespaces.zeit.de/CMS/document">Nachrichten auf ZEIT ONLINE</attribute>
+    <attribute name="author" ns="http://namespaces.zeit.de/CMS/document">ZEIT ONLINE</attribute>
+    <!-- ggF. mehrere -->
+    <attribute name="copyrights" ns="http://namespaces.zeit.de/CMS/document">ZEIT ONLINE 2007</attribute>
+    <attribute name="date-last-modified" ns="http://namespaces.zeit.de/CMS/document">21.5.2007 - 15:23</attribute>
+    <!-- Schlagworte -->
+    <attribute name="keywords" ns="http://namespaces.zeit.de/CMS/document">DIE ZEIT; ZEIT ONLINE;Nachrichten;Kommentare;Analysen;Themen; Politik;Wirtschaft;Kultur;Wissensschaft</attribute>
+    <!-- manuell vergeben Schlagworte -->
+    <keywordset>
+      <!-- wenn source=='auto', dann automatisch vergebenes Schlagwort -->
+      <keyword intaxo="no" source="auto">DIE ZEIT</keyword>
+      <keyword intaxo="no" source="auto">ZEIT online</keyword>
+      <keyword intaxo="no" source="auto">Nachrichten</keyword>
+      <keyword intaxo="no" source="auto">Politik</keyword>
+      <keyword intaxo="no" source="auto">Wirtschaft</keyword>
+      <keyword intaxo="no" source="auto">Kultur</keyword>
+      <keyword intaxo="no" source="auto">Wissensschaft</keyword>
+    </keywordset>
+    <!-- Statusausk&#252;nfte -->
+    <attribute name="revision" ns="http://namespaces.zeit.de/CMS/document">198</attribute>
+    <!-- die Anzahl der erfolgten &#196;nderungen, wird derzeit benutzt um Resourcenkonflikte zu verhindern - bei jedem Schreiben wird eins hochgesetzt - will einer eine alte Version schreiben, wird das unterbunden -->
+    <attribute name="status" ns="http://namespaces.zeit.de/CMS/workflow">OK</attribute>
+  </head>
+  <body>
+    <container layout="channel" type="box" label="schwerpunkte" id="channel_themen" priority="">
+      <block priority="" href="http://xml.zeit.de/themen/wissen/wissenschaft/klima/index" publication-date="" expires="" year="2009" pinned="false" hp_hide="false" hidden_relateds="true">
+        <supertitle xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Erderwärmung</supertitle>
+        <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Klimadebatte</title>
+        <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Was hilft gegen den Klimawandel, wie reagiert die Politik? Was weiß die Forschung und wie kann Klimaschutz finanziert werden?</text>
+        <byline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <short>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Klimadebatte</title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Was wissen wir und was müssen wir tun?</text>
+        </short>
+        <related/>
+        <description xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Was hilft gegen den Klimawandel, wie reagiert die Politik? Was weiß die Forschung und wie kann Klimaschutz finanziert werden?</description>
+        <homepage>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Globale Erwärmung</title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Was wissen wir wirklich und was ist zu tun?</text>
+        </homepage>
+        <references/>
+        <image xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" align="left" base-id="http://xml.zeit.de/bilder/2009/standards/wissen/klima/" type="jpg" publication-date="" expires="">
+          <bu>LONDON, ENGLAND - JANUARY 26:  A 16 foot high sculpture of a polar bear and cub, afloat on a small iceberg on the River Thames, passes in front of Tower Bridge  on January 26, 2009 in London, England. The sculpture was launched to provide a warning to members of parliament of the dangers of climate change and to launch a new natural history television channel.  (Photo by Oli Scarff/Getty Images)</bu>
+          <copyright py:pytype="str">© Oli Scarff/Getty Images</copyright>
+        </image>
+      </block>
+      <block priority="" href="http://xml.zeit.de/themen/wirtschaft/geld/nachhaltigkeit/index" publication-date="" expires="" pinned="false" hp_hide="false" hidden_relateds="true">
+        <image xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" base-id="http://xml.zeit.de/bilder/2007/standards-neu/allgemein/schwerpunkte/nachhaltigkeit/" type="jpg" publication-date="" expires="">
+          <bu xsi:nil="true"/>
+          <copyright py:pytype="str">©</copyright>
+        </image>
+        <supertitle xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Korrekt sparen</supertitle>
+        <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Korrekt sparen</title>
+        <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Was bedeutet „Nachhaltigkeit“ am Kapitalmarkt? ZEIT ONLINE stellt die wichtigsten Konzepte vor und porträtiert die Menschen, die dahinter stecken</text>
+        <byline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <short>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Korrekt sparen</title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Nachhaltigkeitskonzepte und ihre Macher</text>
+        </short>
+        <related/>
+        <description xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Was bedeutet „Nachhaltigkeit“ am Kapitalmarkt? ZEIT ONLINE stellt die wichtigsten Konzepte vor und porträtiert die Menschen, die dahinter stecken</description>
+        <homepage>
+          <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Konzepte und Macher </title>
+          <text xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Was "Nachhaltigkeit" am Kapitalmarkt bedeutet</text>
+        </homepage>
+        <references/>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/themen/wirtschaft/maerkte/energiemaerkte/index" publication-date="" expires="" year="2009" issue="28" hidden_relateds="true" hp_hide="false" pinned="false">
+        <supertitle py:pytype="str">Energie</supertitle>
+        <title py:pytype="str">Die Sucht nach Öl und Strom</title>
+        <text py:pytype="str">Ohne Strom, Öl und Benzin können die Industriestaaten nicht sein. Ein Schwerpunkt rund um Energie</text>
+        <description py:pytype="str">Ohne Strom, Öl und Benzin können die Industriestaaten nicht sein. Ein Schwerpunkt rund um Energie</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Energie</title>
+          <text py:pytype="str">Wir brauchen sie, und das hat Folgen. Ein Spezial</text>
+        </short>
+        <homepage>
+          <title py:pytype="str">Sucht nach Öl und Strom</title>
+          <text py:pytype="str">Lebensnotwendige Energie und die Folgen</text>
+        </homepage>
+        <references/>
+        <image base-id="http://xml.zeit.de/bilder/2008/standards/wirtschaft/energie/energie/" type="jpg" publication-date="" expires="">
+          <bu xsi:nil="true"/>
+          <copyright py:pytype="str">©</copyright>
+        </image>
+      </block>
+      <block xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" href="http://xml.zeit.de/themen/wissen/wissenschaft/stromsparen/index" publication-date="" expires="" year="2009" hidden_relateds="true" hp_hide="false" pinned="false">
+        <supertitle py:pytype="str">Strom sparen</supertitle>
+        <title py:pytype="str">Stromcheck für Haushalte</title>
+        <text py:pytype="str">Machen Sie unseren Stromcheck! Lassen Sie sich Ihren Verbrauch berechnen, und wo Sie wie viel sparen können.</text>
+        <description py:pytype="str">Machen Sie unseren Stromcheck! Lassen Sie sich Ihren Verbrauch berechnen, und wo Sie wie viel sparen können.</description>
+        <byline xsi:nil="true"/>
+        <short>
+          <title py:pytype="str">Energie sparen</title>
+          <text py:pytype="str">Online-Stromcheck für Haushalte</text>
+        </short>
+        <homepage>
+          <title xsi:nil="true"/>
+          <text xsi:nil="true"/>
+        </homepage>
+        <references/>
+        <image base-id="http://xml.zeit.de/bilder/2007/standards-neu/wissen/allgemein/stromsparen/" type="jpg" publication-date="" expires="">
+          <bu xsi:nil="true"/>
+          <copyright py:pytype="str">©</copyright>
+        </image>
+      </block>
+    </container>
+  </body>
+  <object_limit xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="int">50</object_limit>
+  <title xmlns:py="http://codespeak.net/lxml/objectify/pytype" py:pytype="str">Themen Klima/Energie</title>
+</centerpage>

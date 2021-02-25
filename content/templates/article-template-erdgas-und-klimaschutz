@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-11-26T10:19:09.466691+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-10-20T15:54:21.633361+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2014-11-26T10:19:17.847262+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-11-26T10:20:17.777346+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-10-24T09:15:15.750103+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-11-26T10:19:03.929562+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">erdgas-und-klimaschutz</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:22e3d8de-41af-462c-ac66-6f011b05a1fd}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">43</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-1d881a21-b2fd-4f41-b328-631a732b7e3d">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-240ae452-6c97-46bf-89c4-dc563a8585a9">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-startseite-erdgas-und-klimaschutz" uniqueId="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-startseite-erdgas-und-klimaschutz" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/erdgas-und-klimaschutz/" ns0:target="_blank" date-last-modified="2014-10-20T15:56:02+00:00" date-first-released="2014-10-20T15:57:01.933145+00:00" date-last-published="2014-10-20T15:57:01.933145+00:00" last-semantic-change="2014-10-20T15:55:50.993943+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-e33099f5-d8c5-420f-9dd2-bb4388d44c8d" layout="368x220">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-erdgasev" year="2014" issue="43" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.erdgas.info/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-10-20T15:25:41+00:00" date-first-released="2014-10-20T15:26:41.614656+00:00" date-last-published="2014-10-20T15:26:41.614656+00:00" last-semantic-change="2014-10-20T15:25:22.325847+00:00" uniqueId="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-erdgasev">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link Erdgas.info</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/erdgas-logo/erdgas-logo-368x110.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-b3293844-461b-43e3-a777-be016aa47193" title="ZEIT Konferenz Erdgas &amp; Klimaschutz">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="//www.youtube.com/v/bBOmBWuJMj4?hl=de_DE&amp;version=3"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="//www.youtube.com/v/bBOmBWuJMj4?hl=de_DE&amp;version=3" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-eea2f223-32a7-442b-a686-f478157d3a3b" title="Erdgas: Partner der Erneuerbaren">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="//www.youtube.com/v/0sIICHDmmu0?version=3&amp;hl=de_DE"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="//www.youtube.com/v/0sIICHDmmu0?version=3&amp;hl=de_DE" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-66c7ea78-f141-4c21-9580-7974d6fbb235" title="Sind erneuerbare Energien speicherbar?">
+          <raw>
+            <object width="320" height="180">
+              <param name="movie" value="//www.youtube.com/v/ypQc3OscnhE?hl=de_DE&amp;version=3"/>
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowscriptaccess" value="always"/>
+              <embed src="//www.youtube.com/v/ypQc3OscnhE?hl=de_DE&amp;version=3" type="application/x-shockwave-flash" width="320" height="180" allowscriptaccess="always" allowfullscreen="true"/>
+            </object>
+          </raw>
+        </container>
+        <container cp:type="xml" module="xml" cp:__name__="id-c65a80a5-031e-4a77-8358-18c181a95f32" title="Wie gelingt Energiewende bezahlbar?">
+          <raw>
+            <iframe width="320" height="180" src="//www.youtube.com/embed/QmlklsrDfiI" frameborder="0" allowfullscreen="allowfullscreen"/>
+          </raw>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-a41cae02-544e-41f7-b351-346492ffa075">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-3fb51621-4b61-4b84-ae9d-a4e6585da8c1">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-infografik" uniqueId="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-infografik" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zukunft-erdgas.info/fileadmin/flash/erdgas-netz-der-zukunft-animation-web/index.html" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-10-23T13:21:07+00:00" date-first-released="2014-10-20T16:46:19.366764+00:00" date-last-published="2014-10-20T16:46:19.366764+00:00" last-semantic-change="2014-10-23T13:11:50.265622+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Animierte Infografik</title>
+            <text py:pytype="str">Das Erdgasnetz der Zukunft zum reinklicken: moderne Heiztechnologien, emissionsarme Kraftwerke, zukunftsweisende Innovationen.</text>
+            <description py:pytype="str">Das Erdgasnetz der Zukunft zum reinklicken: moderne Heiztechnologien, emissionsarme Kraftwerke, zukunftsweisende Innovationen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/infografik-erdgas/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-4576f155-abe6-40d6-824b-7bdce3fb254b">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-zahlen" uniqueId="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-zahlen" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zukunft-erdgas.info/fileadmin/Politik_und_Zukunft/Standpunkte/Sanierungsfahrplaene/broschuere-sanierungsfahrplaene-fuer-den-waermemarkt.pdf" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-10-21T08:58:58+00:00" date-first-released="2014-10-21T08:59:58.085675+00:00" date-last-published="2014-10-21T08:59:58.085675+00:00" last-semantic-change="2014-10-21T08:58:42.321629+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zahlen, bitte!</title>
+            <text py:pytype="str">Die Studie „Sanierungsfahrpläne für den Wärmemarkt“ zeigt, was bei der Wärmewende möglich ist. Und: Die Rolle von Erdgas wird weiter wachsen.
+
+</text>
+            <description py:pytype="str">Die Studie „Sanierungsfahrpläne für den Wärmemarkt“ zeigt, was bei der Wärmewende möglich ist. Und: Die Rolle von Erdgas wird weiter wachsen.
+
+</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/erdgas-zahlen/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-fe34a3fe-0db4-4240-aec2-2585ff8d7b38">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-modernisierungskompass" uniqueId="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-modernisierungskompass" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.erdgas.info/fileadmin/user_upload/ERDGAS-Heizung/modernisierungskompass/modernisierungskompass.pdf" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-10-24T09:11:04+00:00" date-first-released="2014-10-24T09:12:04.364574+00:00" date-last-published="2014-10-24T09:12:04.364574+00:00" last-semantic-change="2014-10-24T09:10:34.385586+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Was bringt was?</title>
+            <text py:pytype="str">Rund ums Haus gibt es viele Möglichkeiten, Energie einzusparen. Was bringt am meisten? Was kosten am wenigsten? Antworten liefert der Modernisierungskompass. 
+</text>
+            <description py:pytype="str">Rund ums Haus gibt es viele Möglichkeiten, Energie einzusparen. Was bringt am meisten? Was kosten am wenigsten? Antworten liefert der Modernisierungskompass. 
+</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/modernisierungs-kompass/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-998e78f5-e645-430c-9dc9-bb049dbeccd8">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-noch-mehr-erfahren" uniqueId="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/link-noch-mehr-erfahren" year="2014" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.erdgas.info/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-10-21T08:52:11+00:00" date-first-released="2014-10-21T08:53:11.093586+00:00" date-last-published="2014-10-21T08:53:11.093586+00:00" last-semantic-change="2014-10-21T08:51:47.715847+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Noch mehr erfahren</title>
+            <text py:pytype="str">Alles Wissenswerte rund um den Energieträger Erdgas gibt es auf einer Seite: erdgas.info von Zukunft ERDGAS e.V.
+
+</text>
+            <description py:pytype="str">Alles Wissenswerte rund um den Energieträger Erdgas gibt es auf einer Seite: erdgas.info von Zukunft ERDGAS e.V.
+
+</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/erdgas-und-klimaschutz/erdgas-info/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <title>Artikel Rahmen Erdgas und Klimaschutz</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Erdgas und Klimaschutz</title>
+  </teaser>
+</centerpage>

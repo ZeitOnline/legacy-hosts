@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-01-28T13:01:00.724454+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-09-20T12:39:43.058430+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-01-28T13:04:43.206351+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-01-28T12:55:33.697945+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2013-04-08T08:40:29.684751+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">zope.brightcove</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Reisen</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:35db96ae-2612-4bb0-b3b3-6f3ebd310cec}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">39</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead">
+        <container cp:type="teaser" module="leader-two-columns" cp:__name__="id-1c3477ef-0729-49e8-8411-2bf620effab8" column_1="1">
+          <block href="http://xml.zeit.de/2012/43/Replik-Ranking-Universitaet-Hamburg" year="2012" issue="43" ressort="Gesellschaft" publication-date="2012-10-25T02:33:43+00:00" expires="" date-last-modified="2012-10-29T17:07:25+00:00" date-first-released="2012-10-18T06:00:00+00:00" date-last-published="2012-10-25T02:34:45.277970+00:00" last-semantic-change="2012-10-29T17:01:16.192511+00:00" contenttype="article" author="Margit Osterloh">
+            <supertitle py:pytype="str">Hochschulvergleiche</supertitle>
+            <title py:pytype="str">Schluss mit dem Ranking-Unfug!</title>
+            <text py:pytype="str">Hochschulrankings sind schädlich, schreibt die Professorin Margit Osterloh in einem Gastbeitrag. Wissenschaft dürfe sich nicht an Ranking-Kriterien orientieren. </text>
+            <description py:pytype="str">Hochschulrankings sind schädlich, schreibt die Professorin Margit Osterloh in einem Gastbeitrag. Wissenschaft dürfe sich nicht an Ranking-Kriterien orientieren. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/rankings/2011-10/pyramide-zettel/" type="jpg" title="pyramide-zettel" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Welche Universität steht weltweit an der Spitze aller anderen? Auskunft darüber gibt das Ranking des Magazins Times Higher Education.</bu>
+              <copyright py:pytype="str">© LMDB/photocase.com</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/40/Universitaet-Hamburg-Rankings" year="2012" issue="40" ressort="Studium" publication-date="2012-10-04T02:12:59+00:00" expires="" date-last-modified="2013-06-20T15:05:01+00:00" date-first-released="2012-09-27T06:00:00+00:00" date-last-published="2012-10-06T09:03:01.310186+00:00" last-semantic-change="2012-10-06T09:01:50.816497+00:00" contenttype="article" author="Volker Meyer-Guckel">
+            <supertitle py:pytype="str">Hochschulvergleiche</supertitle>
+            <title py:pytype="str">Der Ranking-Boykott der Uni Hamburg ist empörend!</title>
+            <text py:pytype="str">Die Uni Hamburg will sich nicht mehr an Umfragen und Rankings beteiligen. Ein Eingeständnis der Schwäche, kommentiert Volker Meyer-Guckel.</text>
+            <description py:pytype="str">Die Uni Hamburg will sich nicht mehr an Umfragen und Rankings beteiligen. Ein Eingeständnis der Schwäche, kommentiert Volker Meyer-Guckel.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/studium/hochschule/2011-08/campus-uni/" type="jpg" title="Campus der Universität Hamburg" alt="Campus der Universität Hamburg" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Campus der Universität Hamburg</bu>
+              <copyright py:pytype="str">© UHH/Dichant</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/studium/hochschule/2012-09/che-ranking-universitaet" year="2012" ressort="Studium" publication-date="" expires="" date-last-modified="2013-12-03T01:40:27+00:00" date-first-released="2012-09-23T22:00:00+00:00" date-last-published="2013-12-03T02:41:21+00:00" last-semantic-change="2012-09-24T08:01:26.405223+00:00" contenttype="article" author="George Turner">
+            <supertitle py:pytype="str">Hochschulvergleiche</supertitle>
+            <title py:pytype="str">Rankings ändern, nicht boykottieren</title>
+            <text py:pytype="str">Viele Uni-Rankings liefern unsinnige und widersprüchliche Ergebnisse. Doch wer aus dem CHE-Ranking aussteigt, schadet seiner Universität, kommentiert George Turner.</text>
+            <description py:pytype="str">Viele Uni-Rankings liefern unsinnige und widersprüchliche Ergebnisse. Doch wer aus dem CHE-Ranking aussteigt, schadet seiner Universität, kommentiert George Turner.</description>
+            <byline py:pytype="str">George Turner</byline>
+            <image base-id="http://xml.zeit.de/studium/hochschule/2012-09/uni-freiburg/" type="jpg" align="left" publication-date="" expires="2013-10-01T07:42:28+00:00">
+              <bu py:pytype="str">Studenten am Kollegiengebäude der Universität Freiburg</bu>
+              <copyright py:pytype="str">© Winfried Rothermel/dapd</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="leader" cp:__name__="id-746a552e-27d5-4e5e-9147-e43101444aa3">
+          <block href="http://xml.zeit.de/video/2012-10/1908716360001" type="video" year="2012" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-10-18T08:12:10+00:00" date-first-released="2012-10-18T07:36:47+00:00" date-last-published="2012-10-18T08:13:10.065358+00:00" last-semantic-change="2012-10-18T08:04:07+00:00" contenttype="video">
+            <supertitle py:pytype="str">Videolesung</supertitle>
+            <title py:pytype="str">Jan Hellstern liest aus "Kinder des Bösen"</title>
+            <text py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Jan Hellstern aus seinem Buch "Kinder des Bösen".</text>
+            <description py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Jan Hellstern aus seinem Buch "Kinder des Bösen".</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1908804833001_vs-507fb0af3a3bb0e4deed88b5-1672933296001.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1908804834001_th-507fb0af3a3bb0e4deed88b5-1672933296001.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2012-10/1893429776001" type="video" year="2012" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-10-11T13:04:11+00:00" date-first-released="2012-10-11T13:01:43+00:00" date-last-published="2012-10-11T13:05:11.621693+00:00" last-semantic-change="2012-10-11T13:02:00+00:00" contenttype="video">
+            <supertitle py:pytype="str">Videolesung</supertitle>
+            <title py:pytype="str">Gerhard Henschel liest aus "Abenteuerroman"</title>
+            <text py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Gerhard Henschel aus seinem Buch "Abenteuerroman".</text>
+            <description py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Gerhard Henschel aus seinem Buch "Abenteuerroman".</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1893421562001_ari-origin05-arc-167-1349959859513.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1893421561001_ari-origin05-arc-167-1349959859060.jpg?pubId=18140073001"/>
+          </block>
+          <block href="http://xml.zeit.de/video/2012-10/1876641365001" type="video" year="2012" ressort="Kultur" publication-date="" expires="" date-last-modified="2012-10-04T09:29:17+00:00" date-first-released="2012-10-04T09:14:42+00:00" date-last-published="2012-10-04T09:30:17.411094+00:00" last-semantic-change="2012-10-04T09:17:16+00:00" contenttype="video">
+            <supertitle py:pytype="str">Videolesung</supertitle>
+            <title py:pytype="str">Martin Horváth liest aus "Mohr im Hemd oder Wie ich auszog, die Welt zu retten"</title>
+            <text py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Martin Horváth aus seinem Roman "Mohr im Hemd oder Wie ich auszog, die Welt zu retten".</text>
+            <description py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Martin Horváth aus seinem Roman "Mohr im Hemd oder Wie ich auszog, die Welt zu retten".</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1876608336001_ari-origin05-arc-141-1349340429295.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1876608335001_ari-origin05-arc-141-1349340428873.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-167b87a4-6ebb-4476-bf3a-0bb4cbfecde6" column_1="2">
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:54:00+00:00" expires="" date-last-modified="2013-08-01T02:40:05+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:04.686306+00:00" last-semantic-change="2012-09-08T11:05:36.135561+00:00" contenttype="article" author="Peter Lohmeyer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+            <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+            <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Labskaus" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:56:00+00:00" expires="" date-last-modified="2013-08-01T02:40:04+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:03.852900+00:00" last-semantic-change="2012-09-11T08:36:33.307861+00:00" contenttype="article" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Die Sehnsucht der Matrosen nach Labskaus</title>
+            <text py:pytype="str">Fleischig, pikant und ein wenig süß: Ob Seebär oder Bundeskanzlerin, wer Labskaus isst, schmeckt Hamburgs raue Vergangenheit. Die wichtigste Zutat ist Vertrauen zum Koch.</text>
+            <description py:pytype="str">Fleischig, pikant und ein wenig süß: Ob Seebär oder Bundeskanzlerin, wer Labskaus isst, schmeckt Hamburgs raue Vergangenheit. Die wichtigste Zutat ist Vertrauen zum Koch.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Fischereihafen-Restaurant/" type="jpg" alt="Das Fischereihafen Restaurant an der Großen Elbstraße" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Fischereihafen Restaurant an der Großen Elbstraße</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Alster" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:02:00+00:00" expires="" date-last-modified="2013-08-01T02:39:58+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:40:58.223742+00:00" last-semantic-change="2012-09-19T17:17:30.516705+00:00" contenttype="article" author="Evelyn Finger">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburgs Hauch der Unendlichkeit</title>
+            <text py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</text>
+            <description py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</description>
+            <byline py:pytype="str">VON EVELYN FINGER</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Muehlenkamp-3/" type="jpg" title="Mühlenkamp" alt="Der Anleger Mühlenkamp: Mit der &quot;Saselbek&quot; geht es auf Alsterkreuzfahrt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Anleger Mühlenkamp: Mit der &amp;quot;Saselbek&amp;quot; geht es auf Alsterkreuzfahrt</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Tipps" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:08:00+00:00" expires="" date-last-modified="2013-08-01T02:40:14+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:13.694219+00:00" last-semantic-change="2012-09-29T14:05:51.244778+00:00" contenttype="article">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Vom Hamburger Silbersack ins Heckentheater</title>
+            <text py:pytype="str">Den Kilimanschanzo bezwingen oder im Silbersack in Gedenken an Wirtin Erna Thompson das Glas erheben: in Hamburg gibt es viel zu entdecken. Die ZEIT-Redaktion empfiehlt.</text>
+            <description py:pytype="str">Den Kilimanschanzo bezwingen oder im Silbersack in Gedenken an Wirtin Erna Thompson das Glas erheben: in Hamburg gibt es viel zu entdecken. Die ZEIT-Redaktion empfiehlt.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Hafenmuseum-Hamburg/" type="jpg" title="Hafenmuseum Hamburg" alt="Durch das Hafenmuseum Hamburg führen ehemalige Hafenarbeiter." align="left" publication-date="" expires="">
+              <bu py:pytype="str">Durch das Hafenmuseum Hamburg führen ehemalige Hafenarbeiter.</bu>
+              <copyright py:pytype="str">© Peter Raik/Hafenmuseum Hamburg</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-414af320-7d96-4c1e-a4ea-8fde06f67045">
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Alster" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:02:00+00:00" expires="" date-last-modified="2013-08-01T02:39:58+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:40:58.223742+00:00" last-semantic-change="2012-09-19T17:17:30.516705+00:00" contenttype="article" author="Evelyn Finger">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburgs Hauch der Unendlichkeit</title>
+            <text py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</text>
+            <description py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</description>
+            <byline py:pytype="str">VON EVELYN FINGER</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Muehlenkamp-3/" type="jpg" title="Mühlenkamp" alt="Der Anleger Mühlenkamp: Mit der &quot;Saselbek&quot; geht es auf Alsterkreuzfahrt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Anleger Mühlenkamp: Mit der &amp;quot;Saselbek&amp;quot; geht es auf Alsterkreuzfahrt</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:54:00+00:00" expires="" date-last-modified="2013-08-01T02:40:05+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:04.686306+00:00" last-semantic-change="2012-09-08T11:05:36.135561+00:00" contenttype="article" author="Peter Lohmeyer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+            <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+            <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Labskaus" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:56:00+00:00" expires="" date-last-modified="2013-08-01T02:40:04+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:03.852900+00:00" last-semantic-change="2012-09-11T08:36:33.307861+00:00" contenttype="article" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Die Sehnsucht der Matrosen nach Labskaus</title>
+            <text py:pytype="str">Fleischig, pikant und ein wenig süß: Ob Seebär oder Bundeskanzlerin, wer Labskaus isst, schmeckt Hamburgs raue Vergangenheit. Die wichtigste Zutat ist Vertrauen zum Koch.</text>
+            <description py:pytype="str">Fleischig, pikant und ein wenig süß: Ob Seebär oder Bundeskanzlerin, wer Labskaus isst, schmeckt Hamburgs raue Vergangenheit. Die wichtigste Zutat ist Vertrauen zum Koch.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Fischereihafen-Restaurant/" type="jpg" alt="Das Fischereihafen Restaurant an der Großen Elbstraße" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Fischereihafen Restaurant an der Großen Elbstraße</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Atlantic" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:04:00+00:00" expires="" date-last-modified="2013-08-01T02:40:03+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:03.052259+00:00" last-semantic-change="2012-09-25T16:24:38.757564+00:00" contenttype="article" author="Tomas Niederberghaus">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburger Tatar für reisende Möpse</title>
+            <text py:pytype="str">Außen weiße Pracht, innen der schönste Hof der Stadt: Das Atlantic ist die Grande Dame unter den Hotels – und die perfekte Bühne für die Auftritte des Alltags.</text>
+            <description py:pytype="str">Außen weiße Pracht, innen der schönste Hof der Stadt: Das Atlantic ist die Grande Dame unter den Hotels – und die perfekte Bühne für die Auftritte des Alltags.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Hotel-Atlantic/" type="jpg" title="Hotel Atlantic" alt="Blick vom Dach des Hotels Atlantic auf das Ufer der Außenalster" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Dach des Hotels Atlantic auf das Ufer der Außenalster</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-177e631f-2bac-4a44-b13c-031f011041a7">
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:54:00+00:00" expires="" date-last-modified="2013-08-01T02:40:05+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:04.686306+00:00" last-semantic-change="2012-09-08T11:05:36.135561+00:00" contenttype="article" author="Peter Lohmeyer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+            <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+            <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Labskaus" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:56:00+00:00" expires="" date-last-modified="2013-08-01T02:40:04+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:03.852900+00:00" last-semantic-change="2012-09-11T08:36:33.307861+00:00" contenttype="article" author="Michael Allmaier">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Die Sehnsucht der Matrosen nach Labskaus</title>
+            <text py:pytype="str">Fleischig, pikant und ein wenig süß: Ob Seebär oder Bundeskanzlerin, wer Labskaus isst, schmeckt Hamburgs raue Vergangenheit. Die wichtigste Zutat ist Vertrauen zum Koch.</text>
+            <description py:pytype="str">Fleischig, pikant und ein wenig süß: Ob Seebär oder Bundeskanzlerin, wer Labskaus isst, schmeckt Hamburgs raue Vergangenheit. Die wichtigste Zutat ist Vertrauen zum Koch.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Fischereihafen-Restaurant/" type="jpg" alt="Das Fischereihafen Restaurant an der Großen Elbstraße" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Das Fischereihafen Restaurant an der Großen Elbstraße</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Alster" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:02:00+00:00" expires="" date-last-modified="2013-08-01T02:39:58+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:40:58.223742+00:00" last-semantic-change="2012-09-19T17:17:30.516705+00:00" contenttype="article" author="Evelyn Finger">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburgs Hauch der Unendlichkeit</title>
+            <text py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</text>
+            <description py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</description>
+            <byline py:pytype="str">VON EVELYN FINGER</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Muehlenkamp-3/" type="jpg" title="Mühlenkamp" alt="Der Anleger Mühlenkamp: Mit der &quot;Saselbek&quot; geht es auf Alsterkreuzfahrt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Anleger Mühlenkamp: Mit der &amp;quot;Saselbek&amp;quot; geht es auf Alsterkreuzfahrt</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-5acd8469-8b07-417b-9d15-c2655991b31a">
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:54:00+00:00" expires="" date-last-modified="2013-08-01T02:40:05+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:04.686306+00:00" last-semantic-change="2012-09-08T11:05:36.135561+00:00" contenttype="article" author="Peter Lohmeyer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+            <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+            <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="buttons" cp:__name__="id-179c9c42-64d9-41f2-a6b3-55d2deadbf42">
+          <block href="http://xml.zeit.de/video/2011-11/1295668404001" type="video" year="2011" publication-date="" expires="" date-last-modified="2011-11-25T23:17:00+00:00" date-first-released="2011-11-25T22:42:24+00:00" date-last-published="2011-11-25T23:18:00.119916+00:00" last-semantic-change="2011-11-25T23:09:35+00:00" contenttype="video">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Entdecker-Quiz: Waigatsch</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1295632091001_ari-origin05-arc-158-1322261378673.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1295632090001_ari-origin05-arc-158-1322261378319.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+      </region>
+      <region area="informatives">
+        <container cp:type="cpextra" module="mostread" cp:__name__="id-614cdd5f-bc99-4ebc-903e-87936eacafcd">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="mostcommented" cp:__name__="id-ca527457-487b-4c2d-b242-1b99302db997">
+          <cp_extra id="mostcommented"/>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="id-02e6a0e1-0d7a-402f-bb88-c126ac943c67">
+          <block type="intern" href="http://xml.zeit.de/wissen/2012-09/quiz-20120920" year="2012" issue="38" ressort="Wissen" publication-date="2012-09-19T21:58:10+00:00" expires="" date-last-modified="2012-09-19T21:58:12+00:00" date-first-released="2012-09-19T21:59:12.215866+00:00" date-last-published="2012-09-19T21:59:12.215866+00:00" last-semantic-change="2012-09-19T17:24:21.147877+00:00" contenttype="quiz">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Der Wissenstest vom 20. September 2012</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="cpextra" module="print_archive" cp:__name__="id-437789d1-3ecb-48a7-bcb8-55b265379665">
+          <cp_extra id="print_archive"/>
+        </container>
+        <container cp:type="cpextra" module="live_search" cp:__name__="id-39af14e1-0360-44c2-9cca-d33a8975c1ba">
+          <cp_extra id="live_search"/>
+        </container>
+        <container cp:type="cpextra" module="stocks" cp:__name__="id-39fd0175-ea9c-4769-a9f6-e461d54436fd">
+          <cp_extra id="stocks"/>
+        </container>
+        <container cp:type="cpextra" module="weather" cp:__name__="id-221c5af1-83ed-4725-a753-001cecabab45">
+          <cp_extra id="weather"/>
+        </container>
+        <container cp:type="rss" module="rss" max_items="5" show_supertitle="True" time_format="none" cp:__name__="id-266e86dc-7fe3-4599-8c6c-15ed726e8217" url="http://feeds.guardian.co.uk/theguardian/commentisfree/rss">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/feed/rss)" href="/var/cms/work/rss/d81733e9ec0d73c95e9cc89fc43db095">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/d81733e9ec0d73c95e9cc89fc43db095 nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-02414834-7ef5-48b2-89de-ca208f7eae63" visible="True">
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Alster" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:02:00+00:00" expires="" date-last-modified="2013-08-01T02:39:58+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:40:58.223742+00:00" last-semantic-change="2012-09-19T17:17:30.516705+00:00" contenttype="article" author="Evelyn Finger">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburgs Hauch der Unendlichkeit</title>
+            <text py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</text>
+            <description py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</description>
+            <byline py:pytype="str">VON EVELYN FINGER</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Muehlenkamp-3/" type="jpg" title="Mühlenkamp" alt="Der Anleger Mühlenkamp: Mit der &quot;Saselbek&quot; geht es auf Alsterkreuzfahrt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Anleger Mühlenkamp: Mit der &amp;quot;Saselbek&amp;quot; geht es auf Alsterkreuzfahrt</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-597af2f6-6799-4ae8-92ec-54ddfd003d67" visible="True">
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:54:00+00:00" expires="" date-last-modified="2013-08-01T02:40:05+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:04.686306+00:00" last-semantic-change="2012-09-08T11:05:36.135561+00:00" contenttype="article" author="Peter Lohmeyer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+            <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+            <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Alster" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:02:00+00:00" expires="" date-last-modified="2013-08-01T02:39:58+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:40:58.223742+00:00" last-semantic-change="2012-09-19T17:17:30.516705+00:00" contenttype="article" author="Evelyn Finger">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburgs Hauch der Unendlichkeit</title>
+            <text py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</text>
+            <description py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</description>
+            <byline py:pytype="str">VON EVELYN FINGER</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Muehlenkamp-3/" type="jpg" title="Mühlenkamp" alt="Der Anleger Mühlenkamp: Mit der &quot;Saselbek&quot; geht es auf Alsterkreuzfahrt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Anleger Mühlenkamp: Mit der &amp;quot;Saselbek&amp;quot; geht es auf Alsterkreuzfahrt</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="id-e5307a18-9e34-44aa-b2fc-8c6f3be51d42" visible="True">
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Alster" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T08:02:00+00:00" expires="" date-last-modified="2013-08-01T02:39:58+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:40:58.223742+00:00" last-semantic-change="2012-09-19T17:17:30.516705+00:00" contenttype="article" author="Evelyn Finger">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Hamburgs Hauch der Unendlichkeit</title>
+            <text py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</text>
+            <description py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</description>
+            <byline py:pytype="str">VON EVELYN FINGER</byline>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Muehlenkamp-3/" type="jpg" title="Mühlenkamp" alt="Der Anleger Mühlenkamp: Mit der &quot;Saselbek&quot; geht es auf Alsterkreuzfahrt" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Der Anleger Mühlenkamp: Mit der &amp;quot;Saselbek&amp;quot; geht es auf Alsterkreuzfahrt</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:54:00+00:00" expires="" date-last-modified="2013-08-01T02:40:05+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:04.686306+00:00" last-semantic-change="2012-09-08T11:05:36.135561+00:00" contenttype="article" author="Peter Lohmeyer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+            <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+            <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="video" module="video" cp:__name__="id-062acf01-c31c-41f0-8c9b-280585f063d8">
+          <video videoID="1848285802001" player="vid" format="large"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-e0752479-a8c9-4a1b-a4c8-c30bde4e6276" layout="368x110">
+          <block type="intern" href="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper" year="2012" issue="38" ressort="Kultur" publication-date="" expires="2013-01-14T18:00:25+00:00" date-last-modified="2013-01-14T18:00:34+00:00" date-first-released="2012-09-20T07:43:32.415113+00:00" date-last-published="2012-09-22T09:22:13.398360+00:00" last-semantic-change="2012-09-20T08:44:02.921995+00:00" contenttype="gallery">
+            <supertitle py:pytype="str">Dennis Hopper </supertitle>
+            <title py:pytype="str">Cowboys und Rocker der sechziger Jahre</title>
+            <text py:pytype="str">Verborgen in Kisten lagerten mehr als 400 Fotos, die 1969 den Ruf von Dennis Hopper als Fotograf begründen sollten. Nun zeigt sie eine Berliner Ausstellung. </text>
+            <description py:pytype="str">Verborgen in Kisten lagerten mehr als 400 Fotos, die 1969 den Ruf von Dennis Hopper als Fotograf begründen sollten. Nun zeigt sie eine Berliner Ausstellung. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper-teaser/" type="jpg" title="Fotostrecke: Dennis Hopper" align="left" publication-date="" expires="2013-01-14T18:00:25+00:00">
+              <bu py:pytype="str">Dennis Hopper: &amp;quot;Guy With 5 Hogs&amp;quot;, 1961-67, USA, 6.97 x 9.85 inch</bu>
+              <copyright py:pytype="str">© The Dennis Hopper Art Trust/Courtesy of The Dennis Hopper Art Trust</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper-teaser/fs-dennis-hopper-teaser-368x110.jpg" publication-date="" expires="2013-01-14T18:00:25+00:00"/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-0e92413f-b5bb-4b95-ac34-9792d6ae5a05" layout="368x220">
+          <block type="intern" href="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper" year="2012" issue="38" ressort="Kultur" publication-date="" expires="2013-01-14T18:00:25+00:00" date-last-modified="2013-01-14T18:00:34+00:00" date-first-released="2012-09-20T07:43:32.415113+00:00" date-last-published="2012-09-22T09:22:13.398360+00:00" last-semantic-change="2012-09-20T08:44:02.921995+00:00" contenttype="gallery">
+            <supertitle py:pytype="str">Dennis Hopper </supertitle>
+            <title py:pytype="str">Cowboys und Rocker der sechziger Jahre</title>
+            <text py:pytype="str">Verborgen in Kisten lagerten mehr als 400 Fotos, die 1969 den Ruf von Dennis Hopper als Fotograf begründen sollten. Nun zeigt sie eine Berliner Ausstellung. </text>
+            <description py:pytype="str">Verborgen in Kisten lagerten mehr als 400 Fotos, die 1969 den Ruf von Dennis Hopper als Fotograf begründen sollten. Nun zeigt sie eine Berliner Ausstellung. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper-teaser/" type="jpg" title="Fotostrecke: Dennis Hopper" align="left" publication-date="" expires="2013-01-14T18:00:25+00:00">
+              <bu py:pytype="str">Dennis Hopper: &amp;quot;Guy With 5 Hogs&amp;quot;, 1961-67, USA, 6.97 x 9.85 inch</bu>
+              <copyright py:pytype="str">© The Dennis Hopper Art Trust/Courtesy of The Dennis Hopper Art Trust</copyright>
+            </image>
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper-teaser/fs-dennis-hopper-teaser-368x220.jpg" publication-date="" expires="2013-01-14T18:00:25+00:00"/>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-55e6ace7-8fd2-4bf4-ba55-aa1d5f0333e8">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-7581bfbc-bc19-4a7e-a984-daec1b0e815c" visible="True">
+          <block href="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper" year="2012" issue="38" ressort="Kultur" publication-date="" expires="2013-01-14T18:00:25+00:00" date-last-modified="2013-01-14T18:00:34+00:00" date-first-released="2012-09-20T07:43:32.415113+00:00" date-last-published="2012-09-22T09:22:13.398360+00:00" last-semantic-change="2012-09-20T08:44:02.921995+00:00" contenttype="gallery">
+            <badges>
+              <badge py:pytype="str">gallery</badge>
+            </badges>
+            <supertitle py:pytype="str">Dennis Hopper </supertitle>
+            <title py:pytype="str">Cowboys und Rocker der sechziger Jahre</title>
+            <text py:pytype="str">Verborgen in Kisten lagerten mehr als 400 Fotos, die 1969 den Ruf von Dennis Hopper als Fotograf begründen sollten. Nun zeigt sie eine Berliner Ausstellung. </text>
+            <description py:pytype="str">Verborgen in Kisten lagerten mehr als 400 Fotos, die 1969 den Ruf von Dennis Hopper als Fotograf begründen sollten. Nun zeigt sie eine Berliner Ausstellung. </description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper-teaser/" type="jpg" title="Fotostrecke: Dennis Hopper" align="left" publication-date="" expires="2013-01-14T18:00:25+00:00">
+              <bu py:pytype="str">Dennis Hopper: &amp;quot;Guy With 5 Hogs&amp;quot;, 1961-67, USA, 6.97 x 9.85 inch</bu>
+              <copyright py:pytype="str">© The Dennis Hopper Art Trust/Courtesy of The Dennis Hopper Art Trust</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" publication-date="2012-08-30T07:54:00+00:00" expires="" date-last-modified="2013-08-01T02:40:05+00:00" date-first-released="2012-08-23T06:00:00+00:00" date-last-published="2013-08-01T02:41:04.686306+00:00" last-semantic-change="2012-09-08T11:05:36.135561+00:00" contenttype="article" author="Peter Lohmeyer">
+            <badges>
+              <badge py:pytype="str">map</badge>
+            </badges>
+            <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+            <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+            <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+            <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+              <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+              <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="quiz" module="quiz" cp:__name__="id-6d6405cd-20bf-47bd-af0c-91a2a57862c0">
+          <block type="intern" href="http://xml.zeit.de/wissen/2012-09/quiz-20120920" year="2012" issue="38" ressort="Wissen" publication-date="2012-09-19T21:58:10+00:00" expires="" date-last-modified="2012-09-19T21:58:12+00:00" date-first-released="2012-09-19T21:59:12.215866+00:00" date-last-published="2012-09-19T21:59:12.215866+00:00" last-semantic-change="2012-09-19T17:24:21.147877+00:00" contenttype="quiz">
+            <supertitle py:pytype="str">Quiz</supertitle>
+            <title py:pytype="str">Der Wissenstest vom 20. September 2012</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="rss" module="rss" max_items="5" show_supertitle="True" time_format="none" cp:__name__="id-707521a0-e779-4cc1-9b91-a04c5404883f" url="http://feeds.guardian.co.uk/theguardian/commentisfree/rss" title="guardian">
+          <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" parse="xml" xpointer="xpointer(/feed/rss)" href="/var/cms/work/rss/d81733e9ec0d73c95e9cc89fc43db095">
+            <xi:fallback>Ziel http://xml.zeit.de/rss/d81733e9ec0d73c95e9cc89fc43db095 nicht erreichbar.</xi:fallback>
+          </xi:include>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-c1b334ea-7711-49fd-acbf-e7194963ed72" layout="220x268">
+          <block type="intern" publication-date="" expires="2013-01-14T18:00:25+00:00" date-last-modified="2013-01-14T18:02:03+00:00" date-first-released="2012-09-20T06:43:15.878182+00:00" date-last-published="2012-09-20T06:43:15.878182+00:00" last-semantic-change="" title="Fotostrecke: Dennis Hopper" align="left">
+            <bu py:pytype="str">Dennis Hopper: &amp;quot;Guy With 5 Hogs&amp;quot;, 1961-67, USA, 6.97 x 9.85 inch</bu>
+            <copyright py:pytype="str">© The Dennis Hopper Art Trust/Courtesy of The Dennis Hopper Art Trust</copyright>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/kultur/kunst/2012-09/fs-dennis-hopper-teaser/fs-dennis-hopper-teaser-368x110.jpg" publication-date="" expires="2013-01-14T18:00:25+00:00"/>
+        </container>
+      </region>
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-5c180677-1e6a-4f80-a6a4-ff1711ccb7d4">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" cp:__name__="id-6c01fd98-1de1-4ffd-b9b2-9f04c23828b3" visible="True">
+          <block href="http://xml.zeit.de/video/2012-08/1794372673001" type="video" year="2014" ressort="Wissen" publication-date="" expires="" date-last-modified="2014-01-28T13:03:43+00:00" date-first-released="2014-01-28T12:50:48+00:00" date-last-published="2014-01-28T13:04:42.863583+00:00" last-semantic-change="2014-01-28T13:00:58+00:00" contenttype="video">
+            <supertitle py:pytype="str">Physik</supertitle>
+            <title py:pytype="str">Dr. Max: Die Higgs-Teilchen wären die Ameisen im Teilchenzoo</title>
+            <text py:pytype="str">Das vor kurzem entdeckte Elementarteilchen verleihe allen anderen ihre Masse, sagen Physiker. Aber was heißt das? Und gibt es in der Physik jetzt noch was zu tun? Eine Spurensuche in Hamburgs Unterwelt</text>
+            <description py:pytype="str">Das vor kurzem entdeckte Elementarteilchen verleihe allen anderen ihre Masse, sagen Physiker. Aber was heißt das? Und gibt es in der Physik jetzt noch was zu tun? Eine Spurensuche in Hamburgs Unterwelt</description>
+            <byline xsi:nil="true"/>
+            <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1794378534001_max-desy.jpg?pubId=18140073001"/>
+            <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1794375514001_max-desy.jpg?pubId=18140073001"/>
+          </block>
+        </container>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-393105d0-8224-4c22-8444-2674d2a2312a"/>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-e2e4e408-44c0-43e6-acaa-05a7363599dd"/>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-a27b0279-c900-4342-99aa-626b40d33158"/>
+      </region>
+    </cluster>
+    <supertitle py:pytype="str">Test CP</supertitle>
+    <title>Teaserformate</title>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2012/43/Replik-Ranking-Universitaet-Hamburg" year="2012" issue="43" ressort="Gesellschaft" author="Margit Osterloh" contenttype="article" publication-date="2012-10-25T02:33:43+00:00" expires="">
+      <supertitle py:pytype="str">Hochschulvergleiche</supertitle>
+      <title py:pytype="str">Schluss mit dem Ranking-Unfug!</title>
+      <text py:pytype="str">Hochschulrankings sind schädlich, schreibt die Professorin Margit Osterloh in einem Gastbeitrag. Wissenschaft dürfe sich nicht an Ranking-Kriterien orientieren. </text>
+      <description py:pytype="str">Hochschulrankings sind schädlich, schreibt die Professorin Margit Osterloh in einem Gastbeitrag. Wissenschaft dürfe sich nicht an Ranking-Kriterien orientieren. </description>
+      <byline xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/studium/rankings/2011-10/pyramide-zettel/" type="jpg" title="pyramide-zettel" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Welche Universität steht weltweit an der Spitze aller anderen? Auskunft darüber gibt das Ranking des Magazins Times Higher Education.</bu>
+        <copyright py:pytype="str">© LMDB/photocase.com</copyright>
+      </image>
+    </reference>
+    <reference type="video" href="http://xml.zeit.de/video/2012-10/1908716360001" year="2012" ressort="Kultur" contenttype="video" publication-date="" expires="">
+      <supertitle py:pytype="str">Videolesung</supertitle>
+      <title py:pytype="str">Jan Hellstern liest aus "Kinder des Bösen"</title>
+      <text py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Jan Hellstern aus seinem Buch "Kinder des Bösen".</text>
+      <description py:pytype="str">Jede Woche stellen Autoren auf ZEIT ONLINE ihre Werke vor. Diese Woche liest Jan Hellstern aus seinem Buch "Kinder des Bösen".</description>
+      <byline xsi:nil="true"/>
+      <video-still src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1908804833001_vs-507fb0af3a3bb0e4deed88b5-1672933296001.jpg?pubId=18140073001"/>
+      <thumbnail src="http://brightcove.vo.llnwd.net/d21/unsecured/media/18140073001/18140073001_1908804834001_th-507fb0af3a3bb0e4deed88b5-1672933296001.jpg?pubId=18140073001"/>
+    </reference>
+    <reference type="video" href="http://xml.zeit.de/video/2011-11/1295668404001" year="2011" contenttype="video" publication-date="" expires="">
+      <supertitle xsi:nil="true"/>
+      <title py:pytype="str">Entdecker-Quiz: Waigatsch</title>
+      <text xsi:nil="true"/>
+      <description xsi:nil="true"/>
+      <byline xsi:nil="true"/>
+      <video-still src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1295632091001_ari-origin05-arc-158-1322261378673.jpg?pubId=18140073001"/>
+      <thumbnail src="http://brightcove.vo.llnwd.net/d18/unsecured/media/18140073001/18140073001_1295632090001_ari-origin05-arc-158-1322261378319.jpg?pubId=18140073001"/>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" author="Peter Lohmeyer" contenttype="article" publication-date="2012-08-30T07:54:00+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+      <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+      <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+      <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+      <byline xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+        <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" author="Peter Lohmeyer" contenttype="article" publication-date="2012-08-30T07:54:00+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+      <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+      <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+      <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+      <byline xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+        <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Alster" year="2012" issue="35" ressort="Reisen" author="Evelyn Finger" contenttype="article" publication-date="2012-08-30T08:02:00+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+      <title py:pytype="str">Hamburgs Hauch der Unendlichkeit</title>
+      <text py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</text>
+      <description py:pytype="str">Die Außenalster breitet sich mitten in Hamburg als riesiger See aus. Radelt man ihr morgens entgegen, den Blick ins Blaue, kommt man sich fast vor wie am Meer.</description>
+      <byline py:pytype="str">VON EVELYN FINGER</byline>
+      <image base-id="http://xml.zeit.de/reisen/2012-08/Muehlenkamp-3/" type="jpg" title="Mühlenkamp" alt="Der Anleger Mühlenkamp: Mit der &quot;Saselbek&quot; geht es auf Alsterkreuzfahrt" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Der Anleger Mühlenkamp: Mit der &amp;quot;Saselbek&amp;quot; geht es auf Alsterkreuzfahrt</bu>
+        <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/2012/35/City-Guide-Hamburg-Wohnzimmer" year="2012" issue="35" ressort="Reisen" author="Peter Lohmeyer" contenttype="article" publication-date="2012-08-30T07:54:00+00:00" expires="">
+      <badges>
+        <badge py:pytype="str">map</badge>
+      </badges>
+      <supertitle py:pytype="str">City Guide Hamburg</supertitle>
+      <title py:pytype="str">Urlaub auf Balkonien, direkt an der Elbe</title>
+      <text py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</text>
+      <description py:pytype="str">Auf dem Altonaer Balkon kann Peter Lohmeyer den Wind hören und die Ferne spüren. Er zieht die Parkbank seinem Privatbalkon vor. Denn nirgendwo kann er so gut träumen.</description>
+      <byline xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/reisen/2012-08/Altonaer-Balkon/" type="jpg" title="Altonaer Balkon" alt="Blick vom Altonaer Balkon auf den Containerhafen" align="left" publication-date="" expires="">
+        <bu py:pytype="str">Blick vom Altonaer Balkon auf den Containerhafen</bu>
+        <copyright py:pytype="str" link="http://www.stefanvolk.com">© Stefan Volk für DIE ZEIT</copyright>
+      </image>
+    </reference>
+  </feed>
+  <teaser>
+    <title py:pytype="str">Teaserformate</title>
+  </teaser>
+</centerpage>

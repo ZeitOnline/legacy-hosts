@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<display-modes>
+  <!-- 
+  	* the default value for image modules in the article body is "column-width", which is not configurable in this document
+  	* image modules in the article header use their corresponding display-modes configured in zeit.web
+  -->
+  <display-mode id="large">L</display-mode>
+  <display-mode id="column-width">M</display-mode>
+  <display-mode id="float">S (links)</display-mode>
+  <display-mode id="small-float-right" available="zeit.magazin.interfaces.IZMOContent">S (rechts)</display-mode>
+  <display-mode id="header" available="zeit.web.core.interfaces.IInternalUse">Header</display-mode>
+</display-modes>

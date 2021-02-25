@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2014-02-26T10:30:51.718352+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2014-02-14T11:56:36.523593+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2014-06-10T10:21:29.364501+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2014-02-25T13:39:02.510188+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2014-02-25T13:38:42.753701+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.meyer-hamme</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">visit-britain</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:156c20bf-4892-4ed4-858d-a02171e1e59f}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">8</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2014</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="id-1ec52376-3302-4ac7-a5cb-2343a4415bba">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" visible="True" cp:__name__="id-f21cdda6-518a-40d3-96f7-6b83a21d77f3">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/visitbritain/link_startseite_visitbritain" year="2014" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/visitbritain/index" ns0:target="_blank" date-last-modified="2014-02-14T11:46:57+00:00" date-first-released="2014-02-14T11:47:57.680157+00:00" date-last-published="2014-02-14T11:47:57.680157+00:00" last-semantic-change="2014-02-14T11:46:42.469849+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Startseite</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <autopilot>false</autopilot>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-9d80eadd-b653-4e86-8125-ba2016c617c0" layout="368x220" title="Zur VisitBritain-Homepage">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/visitbritain/link_homepage_visitbritain" year="2014" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.visitbritain.com/de/DE/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-18T14:59:24+00:00" date-first-released="2014-02-14T11:51:37.667866+00:00" date-last-published="2014-02-14T12:26:06.522689+00:00" last-semantic-change="2014-02-14T12:24:53.693562+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zur Homepage: www.visitbritain.com</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/visitbritain/bilder/gb_youreinvited_hg/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/visitbritain/bilder/gb_youreinvited_hg/gb_youreinvited_hg-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-984a3da8-2185-4cb6-8151-edc15c30e90e" layout="368x220" title="Zum VisitBritainShop">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/visitbritain/link_shop_visitbritain" year="2014" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.visitbritainshop.com/deutschland/home.html?utm_medium=online_advertising&amp;utm_source=zeit.de&amp;utm_content=home_page&amp;utm_campaign=rhs_column_banner" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-25T13:37:54+00:00" date-first-released="2014-02-14T14:41:05.320857+00:00" date-last-published="2014-02-25T13:38:53.903540+00:00" last-semantic-change="2014-02-25T13:37:45.725596+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zum VisitBritain-Shop</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/visitbritain/vbshop_logo_portrait_rgb/vbshop_logo_portrait_rgb-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-9a49693b-2592-4571-8ef0-437337ec1b8d" layout="368x220" title="Zum MINI-Gewinnspiel">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/visitbritain/link_gewinnspiel_visitbritain" year="2014" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.mini.de/great_britain_pub_quiz/index.jsp" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-18T14:40:03+00:00" date-first-released="2014-02-14T14:35:46.841242+00:00" date-last-published="2014-02-18T14:41:03.340683+00:00" last-semantic-change="2014-02-18T14:39:47.101614+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zum MINI-Gewinnspiel</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image src="http://xml.zeit.de/angebote/visitbritain/bilder/gewinnspiel-mini/gewinnspiel-mini-368x220.jpg" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/visitbritain/bilder/gewinnspiel-mini/gewinnspiel-mini-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-99f34081-1c01-4b98-9dea-83b6890bc706" layout="368x220" title="Zum Newsletter">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/visitbritain/link_newsletter_visitbritain" year="2014" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://www.visitbritain.com/de/NewsletterFormPage/" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-17T12:44:35+00:00" date-first-released="2014-02-14T14:49:49.634320+00:00" date-last-published="2014-02-17T12:45:34.790562+00:00" last-semantic-change="2014-02-17T12:42:47.706430+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zum Newsletter</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/visitbritain/briefkasten_newsletter/briefkasten_newsletter-368x220.jpg" align="left" publication-date="" expires="">
+            <bu xsi:nil="true"/>
+          </image>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic">
+      <region cp:type="teaser-bar" module="normal" area="teaser-row-full" cp:__name__="id-1a5fff10-1d61-4a72-82ea-a1d1f9c9b3f4">
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-277b6a0f-359c-43c2-b7dc-cbbf25f91e25">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/visitbritain/link_vb-film" year="2014" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns0:href="http://youtu.be/PzZOtbhWSd4" ns0:target="_blank" ns0:rel="nofollow" date-last-modified="2014-02-26T10:36:53+00:00" date-first-released="2014-02-18T10:44:41.322584+00:00" date-last-published="2014-02-26T10:37:53.458729+00:00" last-semantic-change="2014-02-26T10:30:37.421657+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zum VisitBritain-Film</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/visitbritain/vb-film/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="teaser" module="ressort" hide-dupes="True" visible="True" cp:__name__="id-f2f8da11-e585-48ba-bad9-5fba78ea67c1">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/visitbritain/link_vb-magazin" year="2014" issue="8" ressort="Angebote" contenttype="link" publication-date="" expires="" ns1:href="http://www.tempuscorporate.zeitverlag.de/sites/default/files/VB_A4_16pp_ok_final_lowres.pdf" ns1:target="_blank" ns1:rel="nofollow" date-last-modified="2014-02-18T10:38:24+00:00" date-first-released="2014-02-18T10:39:23.904331+00:00" date-last-published="2014-02-18T10:39:23.904331+00:00" last-semantic-change="2014-02-18T10:38:08.749634+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zum VisitBritain-Magazin</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/angebote/visitbritain/vb-magazin-cover/" type="jpg" align="left" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+            <breadcrumb_title xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-13eb2cda-c473-4923-a397-4fd2e7185cb3"/>
+        <container cp:type="placeholder" module="placeholder" cp:__name__="id-3e61fdf8-54a9-4797-a469-4abb927b04cc"/>
+      </region>
+    </cluster>
+    <title>Artikel Rahmen Visit Britain</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title>Artikel Rahmen Visit Britain</title>
+  </teaser>
+</centerpage>

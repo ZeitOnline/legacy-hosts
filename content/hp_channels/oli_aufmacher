@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<container style="homepage_01_06">
+  <row layout="headline">
+    <container layout="" id="" label="" priority="">
+      <block href="cms:/cms/work/online/2006/47/Emsdetten-Betreuung" id="" layout="aufmacherbild" priority="">
+        <image expires="2006-11-30" src="/cms/work/bilder/2006/47/aktuell/aufmacher/betreuung-elmsdetten-220.jpg" width="220" align="right"><copyright>© Friso Gentsch/dpa</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="aufmacher" label="" priority="">
+      <block layout="aufmacher" priority="" href="cms:/cms/work/online/2006/47/Emsdetten-Betreuung" id="">
+        <title>Verletzte Seelen</title>
+        <text>Wie hilft man Kindern und Lehrern, die mit ansehen mussten, wie ein ehemaliger Mitschüler Amok lief, 37 Menschen verletzte und sich dann selbst tötete? </text>
+        <byline>Von Parvin Sadigh</byline>
+        <related>
+          <block layout="knopf" priority="" href="cms:/cms/work/2006/48/Waffen" id="">
+            <title>Waffen</title>
+            <text>Shoppen bei egun.de</text>
+            <byline>Von Florian Klenk</byline>
+          </block>
+          <block layout="" priority="" href="cms:/cms/work/online/2006/47/emstetten-computerspiele" id="">
+            <title>Killerspiele</title>
+            <text>Verbot notwendig? </text>
+          </block>
+          <block priority="" href="cms:/cms/work/online/2006/47/Amoklauf-Taeter" id="">
+            <title>Täterprofil</title>
+            <text>"White Trash"</text>
+          </block>
+        </related>
+      </block>
+    </container>
+    <container priority="1" id="LetzteMeldung" label="LetzteMeldungen">
+      <block>
+        <feed id="ts-feed">
+          <rss_feed id="meldungen" max_items="5" mode="news"/>
+        </feed>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="knopf-links" label="" priority="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/47/siemens-schmiergeld-200-millionen" id="">
+        <supertitle>Siemens</supertitle>
+        <title>200 Millionen Euro weg</title>
+        <text>Die Affäre um schwarze Kassen bei Siemens weitet sich aus: Jetzt ermittelt auch die griechische Polizei. Zwei weitere Verdächtige wurden verhaftet </text>
+        <related>
+          <block layout="aufmacher" priority="" href="cms:/cms/work/2006/48/Siemens-Interview" id="">
+            <title>Interview </title>
+            <text>"Verpfeifen kommt zuletzt", sagt Wirtschaftsethiker Josef Wieland</text>
+            <byline/>
+          </block>
+          <block priority="3" href="cms:/cms/work/wirtschaft/korruption_geldwaesche/index" id="" layout="">
+            <title>Schwerpunkt</title>
+            <text>zur Korruption </text>
+          </block>
+        </related>
+        <image expires="2006-11-30" src="/cms/work/bilder/2006/47/aktuell/knoepfe/siemens-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-mitte" label="" priority="">
+      <block priority="" href="cms:/cms/work/online/2006/47/bildergalerie-von-oben" layout="knopf" id="">
+        <supertitle>Fotografie</supertitle>
+        <title>Kultur von oben</title>
+        <text>Das Britische Museum zeigt Georg Gersters Luftfotografien antiker Stätten und zeichnet die Spuren nach, die Menschen und Natur auf der Erdoberfläche hinterlassen haben. Eine Bildergalerie <em>von Henning Hoff</em></text>
+        <byline/>
+        <related>
+          <block priority="" href="http://www.zeit.de/bildergalerien">
+            <title>Mehr Sehenswertes</title>
+            <text>Die Galerien von ZEIT online</text>
+          </block>
+        </related>
+        <image expires="2006-11-30" src="/cms/work/bilder/2006/47/aktuell/knoepfe/von-oben-galerie-72.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="knopf-rechts">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/47/Bundestag" id="">
+        <supertitle>Große Koalition</supertitle>
+        <title>Bilanz ohne Glanz</title>
+        <text>Ein Jahr nach Regierungsantritt wiederholte die Kanzlerin im Bundestag ihre Glaubenssätze. Visionen suchte man vergeblich.</text>
+        <byline>Von Katharina Schuler</byline>
+        <related>
+          <block layout="knopf" priority="" href="cms:/cms/work/online/2006/47/Presseschau-Merkel" id="">
+            <supertitle>Ein Jahr Merkel</supertitle>
+            <title>Presseschau</title>
+            <text>Durchwachsene Zwischenbilanz</text>
+          </block>
+          <block priority="5" href="cms:/cms/work/online/2006/42/bildergalerie-merkel" id="" layout="gallery">
+            <title>Ein Jahr Merkel</title>
+            <text>...in Bildern</text>
+          </block>
+        </related>
+        <image expires="2100-01-01" src="/cms/work/bilder/2006/47/aktuell/knoepfe/merkel2-22-11-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+  <row layout="onecol">
+    <container>
+      <ad place="3"/>
+    </container>
+    <container>
+      <ad place="5"/>
+    </container>
+  </row>
+<!-- 
+  <row layout="onecol">
+    <container>
+      <ad place="13"/>
+      <ad place="14"/>
+      <ad place="15"/>
+    </container>
+  </row>
+-->
+  <row layout="threecol">
+    <container id="tagesbild">
+      <block href="javascript:void(window.open('http://www.zeit.de/bild_des_tages','bilddestages','height=700,width=511,directories=no,location=no,menubar=no,resizable=yes,status=no,toolbar=no'));" priority="1" layout="tagesbild">
+        <text><br/><strong>Was ist das? </strong>Strandhafer?</text>
+        <image expires="2006-11-29" src="/cms/work/bilder/2006/47/aktuell/tagesbilder/tabi-mi-210.jpg" width="210" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-mitte" label="" priority="" layout="">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/47/Niederlande-vorbericht" id="">
+        <supertitle>Niederlande</supertitle>
+        <title>Gefühlter Sieger</title>
+        <text>Das Nachbarland wählt. Ministerpräsident wird wohl Jan Peter Balkenende bleiben - vermutlich an der Spitze einer Großen Koalition. Über die wahren Probleme aber redet fast niemand.</text>
+        <byline>Von Werner A. Perger</byline>
+        <related>
+          <block priority="" href="cms:/cms/work/2006/47/Wahlen-Niederlande">
+            <title>Niederlande</title>
+            <text>Wahl ohne Kampf</text>
+          </block>
+        </related>
+        <image expires="2006-11-30" src="/cms/work/bilder/2006/47/aktuell/knoepfe/balkenende-72.jpg" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="2knopf-rechts" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="http://www.zeit.de/maennchenspiel" id="">
+        <supertitle>Spielen</supertitle>
+        <title>Galgenmännchen</title>
+        <text>Wie zu Schulzeiten: Erraten Sie Begriffe aus dem Zeitgeschehen, bevor das Männchen hängt</text>
+        <related>
+          <block layout="knopf" href="http://www.zeit.de/erinneredich">
+            <title>Erinnere dich</title>
+            <text>Mein Spiel mit Musik</text>
+          </block>
+          <block priority="" href="http://www.zeit.de/bildungshappen">
+            <title>Das Quiz</title>
+            <text>Täglich neu! </text>
+          </block>
+          <block href="http://www.zeit.de/sudoku" id="" layout="" priority="">
+            <title>Sudoku</title>
+            <text>Neue Zahlenwunder</text>
+          </block>
+        </related>
+        <image expires="2100-01-01" src="/cms/work/bilder/2006/standards/knoepfe/galgenmaennchen2-72.gif" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+  <row layout="threecol">
+    <container id="3knopf-links">
+      <block layout="knopf" priority="" href="cms:/cms/work/campus/2006/47/moskaulogie" id="">
+        <supertitle>Moskau-Diplom</supertitle>
+        <title>Studieren auf die harte Tour</title>
+        <text>Studiengebühren, unfreundliche Einwohner, Behördenschikanen: Ein Studium in Russland ist kein Zuckerschlecken: <em>Johannes Aumüller</em> schreibt, wie man trotzdem zum echten Moskaulogen wird.</text>
+        <byline/>
+        <related>
+          <block priority="" href="cms:/cms/work/2006/42/C-Abi-Auslandsstudium_3">
+            <supertitle/>
+            <title>Auslandsstudium</title>
+            <text>Courage zahlt sich aus</text>
+            <byline>Von Markus Flohr</byline>
+          </block>
+        </related>
+        <image expires="2006-11-30" src="/cms/work/bilder/2006/45/campus/moskau-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="3knopf-mitte" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/47/finanztest-zinsen">
+        <supertitle>Der große Zinstest</supertitle>
+        <title>Mut zum neuen Konto</title>
+        <text>Die Hundejahre für Sparer sind vorbei. FINANZtest hat die Geldangebote der Banken untersucht und etliche Schnäppchen gefunden.</text>
+        <byline/>
+        <related>
+          <block priority="" href="cms:/cms/work/online/2006/47/finanztest-zinsen-tipps">
+            <title>Tipps</title>
+            <text>Wo aus Geld am schnellsten mehr wird</text>
+          </block>
+        </related>
+        <image expires="2006-11-30" src="/cms/work/bilder/2006/standards/logos/finanzen/finanztest-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+    <container id="3knopf-rechts" label="" priority="" layout="knopf">
+      <block layout="knopf" priority="" href="cms:/cms/work/online/2006/47/bildergalerie-zombo-combo">
+        <supertitle>Party</supertitle>
+        <title>Invasion der Zomboter</title>
+        <text>Die Münchner Künstlergruppe Zombocombo gibt Abende, von denen die Republik noch lernen kann. Von <em>S. Reier</em> (Text) und <em>J.-P. Morarescu</em> (Bild)</text>
+        <byline/>
+        <related>
+          <block layout="knopf" priority="" href="http://blog.zeit.de/tontraeger">
+            <supertitle>Party</supertitle>
+            <title>Tonträger</title>
+            <text>Sie wartet am Bauzaun</text>
+            <byline/>
+          </block>
+        </related>
+        <image expires="2100-01-01" src="/cms/work/bilder/2006/47/aktuell/bildergalerien/zombo-combo-galerie/zombo-combo-72.jpg" width="72" align="right"><copyright>©</copyright> BILD </image>
+      </block>
+    </container>
+  </row>
+</container>

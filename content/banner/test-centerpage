@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <head>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author">ben_</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="corrected">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2009-04-08T14:36:39.487954+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2009-04-08T13:42:20.630871+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2009-04-08T13:42:20.630871+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="edited">no</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="images_added">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2009-04-08T14:36:39.464504+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.heise</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="refined">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">bannertestallgemein</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="urgent">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">16</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2009</attribute>
+  </head>
+  <body>
+    <column layout="right">
+      <container style="r07" id="" label="Deutschland" layout="" priority="">
+        <container label="cp_aufmacher" layout="knopf">
+          <xi:include href="/var/cms/work/deutschland/channel_deutschland" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>deutschland aktuell  nicht da</xi:fallback>
+          </xi:include>
+        </container>
+        <container label="knopf" layout="knopf" id="" priority="">
+          <xi:include href="/var/cms/work/deutschland/channel_deutschland" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&gt;1 and position()&lt;=15])">
+            <xi:fallback>Channel Deutschland nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container type="tab" label="magazin" layout="box" id="" priority="">
+          <xi:include href="/var/cms/work/deutschland/channel_magazin" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=6])">
+            <xi:fallback>Magazinbox nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <!--
+  <container layout="knopf" label="Deutsche Zust&#228;nde">
+    <xi:include href="/var/cms/work/deutschland/channel_deutsche_zustaende" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+      <xi:fallback>deutsche zust&#xE4;nde aktuell  nicht da</xi:fallback>
+    </xi:include>
+  </container>
+-->
+      </container>
+    </column>
+    <column layout="left">
+      <container style="r07">
+        <container layout="box_news" label="news">
+          <feed id="ts-feed">
+            <rss_feed id="meldungen" max_items="3" mode="news"/>
+          </feed>
+        </container>
+        <container layout="videobox" label="vidbox_123">
+          <cp_extra id="videobox_cp"/>
+        </container>
+        <container layout="box" type="box" label="themen Kooperation" id="" priority="" href="http://www.zeit.de/kooperation/deutsche-welle/index">
+          <title/>
+          <block layout="" priority="" href="http://www.zeit.de/kooperation/deutsche-welle/index" id="" sticky="">
+            <text>Die Deutsche Welle präsentiert Ihnen aktuellen Kommentar, Kulturtipps und Berichte aus und über Deutschland</text>
+            <byline/>
+            <image src="http://xml.zeit.de/bilder/angebote/deutsche_welle/deutsche_welle_280.gif" align="right"><copyright>© ZEIT ONLINE GRAFIK</copyright>
+              BILD
+            </image>
+          </block>
+        </container>
+        <container layout="box" type="box" label="themen" id="" priority="">
+          <xi:include href="/var/cms/work/deutschland/channel_themen" parse="xml" xpointer="xpointer(/channel/container/block[position()&lt;=8])">
+            <xi:fallback>Channel Themen nicht da</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="box" label="weblogs" type="tab" href="http://www.zeit.de/blogs/index">
+          <xi:include href="/var/cms/work/blogs/r07_box_weblogs" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+            <xi:fallback>Box 'Weblogs' nicht erreichbar</xi:fallback>
+          </xi:include>
+          <title>Alle Weblogs</title>
+        </container>
+        <container layout="box" label="bildungshappen" type="box" href="http://www.zeit.de/bildungshappen">
+          <title>Bildungshappen abonnieren</title>
+          <block>
+            <feed id="bildungshappen-new" mode="deutschland"/>
+          </block>
+        </container>
+        <cp_extra id="kiosk_flash"/>
+        <!--
+        <container layout="box" label="Jetzt am Kiosk" type="tab" href="http://www.zeit.de/magazine/index" id="" priority="">
+          <title>Alle Magazine</title>
+          <xi:include href="/var/cms/work/hp_channels/channel_gedrucktes" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+            <xi:fallback>Box 'Gedrucktes' nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+-->
+        <container layout="box" label="bildergalerien" type="tab" href="http://www.zeit.de/bildergalerien" id="" priority="">
+          <title>Alle Galerien</title>
+          <xi:include href="/var/cms/work/bildergalerien/channel_bigas" parse="xml" xpointer="xpointer(/centerpage/body/container/block[position()&lt;=3])">
+            <xi:fallback>Box 'Bildergalerien' nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <container layout="box" label="spielen" type="box" href="http://www.zeit.de/leben/spielen/index">
+          <title>Alle Spiele</title>
+          <xi:include href="/var/cms/work/deutschland/box_spiele" parse="xml" xpointer="xpointer(/centerpage/body/container/block[1])">
+            <xi:fallback>Box 'Spiele' nicht erreichbar</xi:fallback>
+          </xi:include>
+        </container>
+        <cp_extra id="service_box">
+          <xi:include href="/var/cms/import/wetter/staedte-international">
+            <xi:fallback/>
+          </xi:include>
+          <xi:include href="/var/cms/import/tipp24/lottodaten.xml">
+            <xi:fallback/>
+          </xi:include>
+        </cp_extra>
+        <cp_extra id="tagesspiegel_coop"/>
+      </container>
+    </column>
+    <subtitle>Aktuelles aus den deutschen Bundesländern</subtitle>
+    <supertitle>Deutschland</supertitle>
+    <title>Neues aus Deutschland</title>
+  </body>
+  <teaser>
+    <title py:pytype="str">Testcenterpage</title>
+  </teaser>
+  <indexteaser>
+    <text py:pytype="str">Testcenterpage</text>
+  </indexteaser>
+</centerpage>

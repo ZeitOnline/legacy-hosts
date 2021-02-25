@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2012-11-22T09:38:55.876365+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2012-11-09T11:18:33.624851+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2012-11-22T09:39:55.008005+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2012-11-22T09:38:29.166200+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">panasonic</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:6197cb6b-569e-493a-9db6-4802d6020d4b}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2012</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="" cp:__name__="id-c24e2119-1ae8-47b8-970a-d48abc61aa4f"/>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-ea205424-3acf-443f-a9ac-4e54835377a9" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/panasonic/Link_panasonic" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad-emea.doubleclick.net/clk;265367553;91029914;q" ns0:target="_blank" date-last-modified="2012-11-22T09:32:31+00:00" date-first-released="2012-11-09T10:47:25.209615+00:00" date-last-published="2012-11-22T09:33:31.669488+00:00" last-semantic-change="2012-11-22T09:32:21.724943+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Panasonic</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/panasonic/bilder/logo_panasonic/logo_panasonic-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="id-3078c290-8384-4463-808e-6c7a57f45fa4" layout="368x110">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/panasonic/link_lumix" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad-emea.doubleclick.net/clk;265367803;91029914;o" ns0:target="_blank" date-last-modified="2012-11-22T09:35:20+00:00" date-first-released="2012-11-09T11:21:27.959436+00:00" date-last-published="2012-11-22T09:36:20.169920+00:00" last-semantic-change="2012-11-22T09:35:04.852548+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu LUMIX</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/panasonic/bilder/Changing_Photography_Logo1/Changing_Photography_Logo1-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-3a4fb9d7-f1ee-42c1-b801-99bf16fe7990">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/panasonic/link_lumix_uebersicht" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad-emea.doubleclick.net/clk;265367805;91029914;q" ns0:target="_blank" date-last-modified="2012-11-22T09:29:08+00:00" date-first-released="2012-11-12T11:27:47.582740+00:00" date-last-published="2012-11-22T09:30:08.418065+00:00" last-semantic-change="2012-11-22T09:28:46.117382+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die LUMIX G Familie</title>
+            <text py:pytype="str">Finden Sie hier weitere Informationen zu allen Modellen.</text>
+            <description py:pytype="str">Finden Sie hier weitere Informationen zu allen Modellen.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/panasonic/bilder/panasonic-aufmacher-121112-ver2-mit-rand/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-07abd5d0-784a-44b4-886a-c18e59268932">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/panasonic/link_objektive_im_ueberblick" year="2012" ressort="Angebote" publication-date="" expires="" ns1:href="http://ad-emea.doubleclick.net/clk;265367806;91029914;r" ns1:target="_blank" date-last-modified="2012-11-22T09:36:09+00:00" date-first-released="2012-11-12T11:31:20.085371+00:00" date-last-published="2012-11-22T09:37:09.202830+00:00" last-semantic-change="2012-11-22T09:35:58.161930+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Die LUMIX G Objektive</title>
+            <text py:pytype="str">Alle LUMIX G Objektive im Überblick finden Sie hier.</text>
+            <description py:pytype="str">Alle LUMIX G Objektive im Überblick finden Sie hier.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/panasonic/bilder/panasonic-aufmacher-121112-ver1-mit-rand/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-3fedde01-77a5-4a06-a0e1-3c9ee2516f31">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/panasonic/link_katalog" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad-emea.doubleclick.net/clk;265367807;91029914;s" ns0:target="_blank" date-last-modified="2012-11-22T09:33:41+00:00" date-first-released="2012-11-12T11:07:58.841398+00:00" date-last-published="2012-11-22T09:34:40.639633+00:00" last-semantic-change="2012-11-22T09:33:28.200469+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">LUMIX G Katalogdownload </title>
+            <text py:pytype="str">Laden Sie sich hier den Katalog mit allen Informationen über die LUMIX G herunter.</text>
+            <description py:pytype="str">Laden Sie sich hier den Katalog mit allen Informationen über die LUMIX G herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/panasonic/bilder/Panasonic_Katalog_TSR_286x138_20110415/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-f291ab9d-6a6a-4c8b-b44a-72f54b5fb0d9">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/panasonic/link_facebook" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad-emea.doubleclick.net/clk;265367808;91029914;t" ns0:target="_blank" date-last-modified="2012-11-22T09:31:06+00:00" date-first-released="2012-11-12T10:51:14.724465+00:00" date-last-published="2012-11-22T09:32:06.044655+00:00" last-semantic-change="2012-11-22T09:30:54.995914+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">LUMIX G auf Facebook </title>
+            <text py:pytype="str">Finden Sie mehr Informationen über LUMIX G auf Facebook </text>
+            <description py:pytype="str">Finden Sie mehr Informationen über LUMIX G auf Facebook </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/panasonic/bilder/Facebook-Logo/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-a0afa422-c56a-4ff8-8ad7-1345a8a8f849">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/panasonic/link_youtube" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad-emea.doubleclick.net/clk;265367838;91029914;w" ns0:target="_blank" date-last-modified="2012-11-22T09:37:40+00:00" date-first-released="2012-11-12T10:52:25.075145+00:00" date-last-published="2012-11-22T09:38:39.746459+00:00" last-semantic-change="2012-11-22T09:37:25.640137+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">LUMIX G auf YouTube </title>
+            <text py:pytype="str">Auf YouTube finden Sie weitere Informationen über die LUMIX G Modelle</text>
+            <description py:pytype="str">Auf YouTube finden Sie weitere Informationen über die LUMIX G Modelle</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/panasonic/bilder/youtube-logo/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-8fb8973c-a752-4d3c-a3b7-266ccb5bb0bd">
+          <block xmlns:ns1="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/panasonic/link_flickr" year="2012" ressort="Angebote" publication-date="" expires="" ns1:href="http://ad-emea.doubleclick.net/clk;265367839;91029914;x" ns1:target="_blank" date-last-modified="2012-11-22T09:27:54+00:00" date-first-released="2012-11-12T10:49:57.975942+00:00" date-last-published="2012-11-22T09:28:54.602462+00:00" last-semantic-change="2012-11-22T09:27:44.928066+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">LUMIX G auf Flickr </title>
+            <text py:pytype="str">Hier finden Sie LUMIX G auf Flickr </text>
+            <description py:pytype="str">Hier finden Sie LUMIX G auf Flickr </description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/panasonic/bilder/flickr1/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="id-afec3cbd-9bce-4500-bf6a-aecadf1b5ce2">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/panasonic/link_itunes" year="2012" ressort="Angebote" publication-date="" expires="" ns0:href="http://ad-emea.doubleclick.net/clk;265367840;91029914;p" ns0:target="_blank" date-last-modified="2012-11-22T09:29:59+00:00" date-first-released="2012-11-12T12:57:24.918796+00:00" date-last-published="2012-11-22T09:30:59.196014+00:00" last-semantic-change="2012-11-22T09:29:46.139428+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">LUMIX G iPad App </title>
+            <text py:pytype="str">Laden Sie sich hier die kostenlose LUMIX G App herunter.</text>
+            <description py:pytype="str">Laden Sie sich hier die kostenlose LUMIX G App herunter.</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/panasonic/bilder/icon-aufmacher-mit-rand/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <byline py:pytype="str">Panasonic: Dies ist ein Angebot von Panasonic. Für den Inhalt ist Panasonic verantwortlich.</byline>
+    <title>Artikel Rahmen Panasonic</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel Rahmen Panasonic</title>
+  </teaser>
+</centerpage>

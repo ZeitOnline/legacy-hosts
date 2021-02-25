@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="template">
+  <head>
+    <header_image xsi:nil="true"/>
+    <snapshot xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="cap_title">ANZEIGE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Verlag</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="copyrights">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2011-09-29T09:20:40.427614+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2011-09-27T14:47:59.400595+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2011-09-29T09:21:40.170235+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2011-09-29T09:20:24.487227+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.gudmundsson</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ADV</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">Advertorial</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Angebote</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="sub_ressort">taiwan</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">template</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:3a708a3a-1880-41dc-bbec-2c34a354c980}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2011</attribute>
+  </head>
+  <body>
+    <cluster area="feature">
+      <region area="lead"/>
+      <region area="informatives">
+        <container cp:type="cpextra" module="blindblock" cp:__name__="0feef87d-4b36-40d6-87d8-a64a93b4e38d">
+          <cp_extra id="blindblock"/>
+        </container>
+        <container cp:type="teaser" module="short" hide-dupes="True" cp:__name__="e5a6d5e0-c0fc-4946-95d6-fb3874bff952">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/taiwan/link_zurueck_uebersicht" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.zeit.de/angebote/taiwan/index" ns0:target="_blank" date-last-modified="2011-09-27T14:45:33+00:00" date-first-released="2011-09-27T14:46:32.749688+00:00" date-last-published="2011-09-27T14:46:32.749688+00:00" last-semantic-change="2011-09-27T14:45:19.363077+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Zurück zur Übersicht</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+        </container>
+        <container cp:type="fullgraphical" module="fullgraphical" cp:__name__="d892a4cc-a83c-4434-a519-21e6eca52b64">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/angebote/taiwan/link_taipeh_tourismusbuero" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.taiwantourismus.de/" ns0:target="_blank">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Link zu Tapieh Tourismusbüro</title>
+            <text xsi:nil="true"/>
+            <description xsi:nil="true"/>
+            <byline xsi:nil="true"/>
+          </block>
+          <image type="intern" href="http://xml.zeit.de/angebote/taiwan/bilder/TaiwanLogo_Fond/TaiwanLogo_Fond-368x110.jpg" publication-date="" expires=""/>
+        </container>
+        <container cp:type="teaser" module="large" hide-dupes="True" cp:__name__="ba5b45ac-f336-474a-9b37-02b5ea3cff13">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/angebote/taiwan/link_kontakt" year="2011" ressort="Angebote" publication-date="" expires="" ns0:href="http://www.taiwantourismus.de/de/Service/Kontakt.aspx" ns0:target="_blank" date-last-modified="2011-09-29T09:19:58+00:00" date-first-released="2011-09-27T14:31:05.524991+00:00" date-last-published="2011-09-29T09:20:57.978855+00:00" last-semantic-change="2011-09-29T08:32:27.213723+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Service &amp; Kontakt</title>
+            <text py:pytype="str">In unserem Infocenter können Sie sich mit Infomaterial zur Planung Ihrer Reise eindecken. Eine kostenlose Beratung gibt es selbstverständlich auch!</text>
+            <description py:pytype="str">In unserem Infocenter können Sie sich mit Infomaterial zur Planung Ihrer Reise eindecken. Eine kostenlose Beratung gibt es selbstverständlich auch!</description>
+            <byline xsi:nil="true"/>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/taipeh_tempel/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="9d5f24ca-126b-4769-acbd-43230eb79a82">
+          <block href="http://xml.zeit.de/angebote/taiwan/wunderwelt_der_kontraste" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-28T13:22:46+00:00" date-first-released="2011-09-22T09:39:14.763733+00:00" date-last-published="2011-09-28T13:23:46.130755+00:00" last-semantic-change="2011-09-28T13:22:19.706908+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Wunderwelt der Kontraste</title>
+            <text py:pytype="str">Tiefe Schluchten, hohe Berge, wilde Wasser, heiße Quellen, schneebedeckte Gipfel und feinsandige Tropenstrände: die Insel Taiwan!</text>
+            <description py:pytype="str">Tiefe Schluchten, hohe Berge, wilde Wasser, heiße Quellen, schneebedeckte Gipfel und feinsandige Tropenstrände: die Insel Taiwan!</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/alishan_2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/taiwan/bergwelten" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-28T13:47:34+00:00" date-first-released="2011-09-22T10:14:18.217837+00:00" date-last-published="2011-09-28T13:48:34.459856+00:00" last-semantic-change="2011-09-28T13:47:22.137294+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Faszinierende Bergwelten</title>
+            <text py:pytype="str">Die Vulkane, die die Insel Taiwan einst über die Meeresoberfläche hoben, haben ihr eine beeindruckende Berglandschaft beschert.</text>
+            <description py:pytype="str">Die Vulkane, die die Insel Taiwan einst über die Meeresoberfläche hoben, haben ihr eine beeindruckende Berglandschaft beschert.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/hiking_trails3/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="83a4b331-8d9b-4df0-97d7-4b773cdae8ac">
+          <block href="http://xml.zeit.de/angebote/taiwan/taipeh" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-29T08:52:56+00:00" date-first-released="2011-09-22T10:49:47.354412+00:00" date-last-published="2011-09-29T08:53:56.088768+00:00" last-semantic-change="2011-09-29T08:52:46.229847+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Taipeh: Mehr als ein Stopover</title>
+            <text py:pytype="str">Das enge Netz der beiden in Taiwan beheimateten internationalen Fluglinien China Airlines und EVA Air macht es möglich: Zwischenlandung in Taipeh!</text>
+            <description py:pytype="str">Das enge Netz der beiden in Taiwan beheimateten internationalen Fluglinien China Airlines und EVA Air macht es möglich: Zwischenlandung in Taipeh!</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/taipeh/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/taiwan/asien_in_klein" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-29T08:56:46+00:00" date-first-released="2011-09-22T12:15:44.753476+00:00" date-last-published="2011-09-29T08:57:46.517551+00:00" last-semantic-change="2011-09-29T08:56:36.685216+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Taiwan: Asien in Klein</title>
+            <text py:pytype="str">Ein Kontinent in Inselgröße: Reisende, die wenig Zeit haben, finden hier auf engstem Raum einen Schmelztiegel asiatischer Lebensweisen, Kulturen und Religionen vor.</text>
+            <description py:pytype="str">Ein Kontinent in Inselgröße: Reisende, die wenig Zeit haben, finden hier auf engstem Raum einen Schmelztiegel asiatischer Lebensweisen, Kulturen und Religionen vor.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/sunmoon_lake/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+          <autopilot py:pytype="bool">false</autopilot>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="07de1ec0-2d96-4790-abfc-a45bdac09f90">
+          <block href="http://xml.zeit.de/angebote/taiwan/kueche" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-28T13:53:43+00:00" date-first-released="2011-09-22T12:51:44.262840+00:00" date-last-published="2011-09-28T13:54:43.187122+00:00" last-semantic-change="2011-09-28T13:53:32.148534+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Von Straßenküche bis Gourmettempel</title>
+            <text py:pytype="str">Feinschmecker, die Taiwan besuchen, werden von der kulinarischen Vielfalt des Landes begeistert sein.</text>
+            <description py:pytype="str">Feinschmecker, die Taiwan besuchen, werden von der kulinarischen Vielfalt des Landes begeistert sein.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/taiwanesische_kueche/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/taiwan/schatztruhe" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-29T09:00:56+00:00" date-first-released="2011-09-22T14:32:15.738552+00:00" date-last-published="2011-09-29T09:01:55.790499+00:00" last-semantic-change="2011-09-29T09:00:37.099003+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Des Kaisers Schatztruhe</title>
+            <text py:pytype="str">Die Ureinwohner haben die Kulturlandschaft Taiwans auch mit ihren Künsten bereichert. Für den Besucher spiegelt sich diese Vielfalt in den über 400 Museen des Landes.</text>
+            <description py:pytype="str">Die Ureinwohner haben die Kulturlandschaft Taiwans auch mit ihren Künsten bereichert. Für den Besucher spiegelt sich diese Vielfalt in den über 400 Museen des Landes.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/museen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="f1a34adf-ec28-4a02-b84f-7403b55a5360">
+          <block href="http://xml.zeit.de/angebote/taiwan/tradition_und_moderne" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-29T09:05:33+00:00" date-first-released="2011-09-23T16:57:58.240900+00:00" date-last-published="2011-09-29T09:06:33.544106+00:00" last-semantic-change="2011-09-29T09:05:24.985540+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Land zwischen Tradition und Moderne</title>
+            <text py:pytype="str">Es ist verständlich, dass Europäer an High-Tech “made in Taiwan” denken, wenn sie den Namen des Landes hören. Unbeachtet bleibt dabei aber die Traditionsverbundenheit.</text>
+            <description py:pytype="str">Es ist verständlich, dass Europäer an High-Tech “made in Taiwan” denken, wenn sie den Namen des Landes hören. Unbeachtet bleibt dabei aber die Traditionsverbundenheit.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/taipeh_tempel_2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/taiwan/religionen" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-29T09:09:53+00:00" date-first-released="2011-09-27T09:41:21.440070+00:00" date-last-published="2011-09-29T09:10:52.778188+00:00" last-semantic-change="2011-09-29T09:09:42.122192+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Schmelztiegel der Religionen</title>
+            <text py:pytype="str">Ähnlich wie die ethnischen Gruppen friedlich mit- und nebeneinander leben, so kommen sich auch die drei Hauptreligionen Taiwans kaum in die Quere.</text>
+            <description py:pytype="str">Ähnlich wie die ethnischen Gruppen friedlich mit- und nebeneinander leben, so kommen sich auch die drei Hauptreligionen Taiwans kaum in die Quere.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/sun_moon_lake_2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+        </container>
+        <container cp:type="teaser" module="two-side-by-side" hide-dupes="True" cp:__name__="b94ccfb7-262c-4244-b6eb-2a75d387d96a">
+          <block href="http://xml.zeit.de/angebote/taiwan/vulkane" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-29T09:03:35+00:00" date-first-released="2011-09-27T10:18:59.466669+00:00" date-last-published="2011-09-29T09:04:35.156478+00:00" last-semantic-change="2011-09-29T09:02:18.396214+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Das Bad auf dem Vulkan</title>
+            <text py:pytype="str">Taiwan verdankt seine Entstehung und seine imposante Berglandschaft den Vulkanen – die schon lange kein Feuer mehr speien, dafür aber wohltuende, heilsame Wärme spenden.</text>
+            <description py:pytype="str">Taiwan verdankt seine Entstehung und seine imposante Berglandschaft den Vulkanen – die schon lange kein Feuer mehr speien, dafür aber wohltuende, heilsame Wärme spenden.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/hot_spring_4/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+          <block href="http://xml.zeit.de/angebote/taiwan/tropeninseln" year="2011" ressort="Angebote" publication-date="" expires="" date-last-modified="2011-09-29T09:13:45+00:00" date-first-released="2011-09-27T11:57:40.847517+00:00" date-last-published="2011-09-29T09:14:45.697712+00:00" last-semantic-change="2011-09-29T09:13:35.870760+00:00">
+            <supertitle xsi:nil="true"/>
+            <title py:pytype="str">Tropeninsel im Pazifischen Ozean</title>
+            <text py:pytype="str">Vielleicht sind Strände nicht die erste Assoziation, wenn der Name jener Insel fällt, die schon die Portugiesen einst Formosa tauften – doch die Voraussetzungen sind da.</text>
+            <description py:pytype="str">Vielleicht sind Strände nicht die erste Assoziation, wenn der Name jener Insel fällt, die schon die Portugiesen einst Formosa tauften – doch die Voraussetzungen sind da.</description>
+            <byline py:pytype="str">Taiwan: ist ein Angebot des Taipeh Tourismusbüro. Für den Inhalt ist das Taipeh Tourismusbüro verantwortlich.</byline>
+            <image align="left" base-id="http://xml.zeit.de/angebote/taiwan/bilder/taitung/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">© Taipei Tourism Office</copyright>
+            </image>
+          </block>
+        </container>
+      </region>
+    </cluster>
+    <cluster area="teaser-mosaic"/>
+    <title>Artikel-Rahmen Taiwan</title>
+  </body>
+  <feed/>
+  <teaser>
+    <title py:pytype="str">Artikel-Rahmen Taiwan</title>
+  </teaser>
+</centerpage>

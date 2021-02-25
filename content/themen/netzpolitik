@@ -1,0 +1,1084 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<centerpage xmlns:cp="http://namespaces.zeit.de/CMS/cp" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="centerpage">
+  <head>
+    <header_image xsi:nil="true"/>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="DailyNL">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="author"></attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="banner">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="breaking_news">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="color_scheme">Redaktion</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="comments">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="countings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date-last-modified">2016-03-01T14:17:22.090313+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_first_released">2016-01-13T12:07:13.674493+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="date_last_checkout">2016-03-01T14:17:29.676118+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published">2016-03-01T14:17:29.420453+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_published_semantic">2016-01-13T12:07:13.442333+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="date_last_pushed">2016-01-13T12:07:33.769146+00:00</attribute>
+    <attribute py:pytype="str" ns="http://apache.org/dav/props/" name="executable">F</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="foldable">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="in_rankings">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="is_content">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last-semantic-change">2016-01-13T12:02:04.669070+00:00</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="last_modified_by">ldap.strothjohann</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="lead_candidate">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="minimal_header">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="previous_uniqueIds">http://xml.zeit.de/themen/netzpolitik-neu</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-id">ZEDE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="product-name">ZEIT ONLINE</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="published">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="rebrush_website_content">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="ressort">Digital</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/print" name="ressort">n/a</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="show_commentthread">yes</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/workflow" name="status">OK</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="tldr_milestone">no</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="type">centerpage-2009</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/zeit.content.cp" name="type">centerpage</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="uuid">{urn:uuid:ec2da70f-4c1d-4e70-a42a-9e8a786c5613}</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="volume">2</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/document" name="year">2016</attribute>
+    <attribute py:pytype="str" ns="http://namespaces.zeit.de/CMS/meta" name="provides">&lt;pickle&gt;
+  &lt;initialized_object&gt;
+    &lt;klass&gt;
+      &lt;global name="Provides" module="zope.interface.declarations"/&gt;
+    &lt;/klass&gt;
+    &lt;arguments&gt;
+      &lt;tuple&gt;
+        &lt;global name="CenterPage" module="zeit.content.cp.centerpage"/&gt;
+        &lt;global name="Interface" module="zope.interface"/&gt;
+        &lt;global name="ICP2015" module="zeit.content.cp.interfaces"/&gt;
+        &lt;global name="IZONContent" module="zeit.cms.section.interfaces"/&gt;
+      &lt;/tuple&gt;
+    &lt;/arguments&gt;
+  &lt;/initialized_object&gt;
+&lt;/pickle&gt;</attribute>
+  </head>
+  <body>
+    <title>Alles zum "netzpolitik.org"-Verfahren</title>
+    <cluster visible="True" visible_mobile="True" area="id-168473d3-d1e4-435e-9767-845e9d6e6738" kind="duo" kind_title="Standard-Region">
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-920b7ed4-a775-4417-9eaf-1745dff951c9" kind="major" count="50" automatic="False" automatic_type="centerpage" title="Alles zum &quot;netzpolitik.org&quot;-Verfahren" read_more_url="http://www.zeit.de/themen/netzpolitik">
+        <referenced_cp>http://xml.zeit.de/themen/netzpolitik</referenced_cp>
+        <container cp:type="teaser" module="zon-large" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-661af712-7075-4d14-af54-aab9e6ef523d" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/verfassungsschutz-netzpolitik-strafanzeige-verfahren-faq" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/verfassungsschutz-netzpolitik-strafanzeige-verfahren-faq" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2016-02-19T04:23:07+00:00" date-first-released="2015-08-03T15:00:30.646965+00:00" date-last-published="2015-08-21T18:11:22.778040+00:00" last-semantic-change="2015-08-10T16:38:05.113824+00:00" author="Steffi Dobmeier;Sybille Klormann">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Alles Wichtige zu den Landesverrat-Ermittlungen</title>
+            <text py:pytype="str">Der neue Generalbundesanwalt hat die Ermittlungen gegen "netzpolitik.org" eingestellt. Ist die Affäre damit für alle Beteiligten ausgestanden?</text>
+            <description py:pytype="str">Der neue Generalbundesanwalt hat die Ermittlungen gegen "netzpolitik.org" eingestellt. Ist die Affäre damit für alle Beteiligten ausgestanden?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-4/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/D/Steffi_Dobmeier/index" publication-date="" expires="">
+              <display_name py:pytype="str">Steffi Dobmeier</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/K/Sybille_Klormann" publication-date="" expires="">
+              <display_name py:pytype="str">Sybille Klormann</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-e296884c-81a1-42de-a6e0-d75347922e60" volatile="True">
+          <block href="http://xml.zeit.de/digital/2015-08/generalbundesanwalt-stellt-ermittlungen-gegen-netzpolitik-org-ein" uniqueId="http://xml.zeit.de/digital/2015-08/generalbundesanwalt-stellt-ermittlungen-gegen-netzpolitik-org-ein" year="2015" issue="32" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2015-09-13T07:06:12+00:00" date-first-released="2015-08-10T08:51:09.754165+00:00" date-last-published="2015-09-13T07:07:11.146283+00:00" last-semantic-change="2015-08-10T14:51:49.290207+00:00">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Generalbundesanwalt verweigert die Akteneinsicht</title>
+            <text py:pytype="str">Zwar revidiert der neue Generalbundesanwalt die Entscheidung seines Vorgängers und stellt die Ermittlungen gegen "netzpolitik.org" ein. Erledigt ist das Thema aber nicht.</text>
+            <description py:pytype="str">Zwar revidiert der neue Generalbundesanwalt die Entscheidung seines Vorgängers und stellt die Ermittlungen gegen "netzpolitik.org" ein. Erledigt ist das Thema aber nicht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/internet/2015-09/netzpolitik-generalbundesanwalt-peter-frank/" type="jpg" alt="Generalbundesanwalt Peter Frank Netzpolitik" publication-date="" expires="2015-12-13T08:03:27+00:00">
+              <bu py:pytype="str">Generalbundesanwalt Peter Frank</bu>
+              <copyright py:pytype="str">©  Bayerisches Staatsministerium der Justiz/dpa</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1b9e6640-ddef-4c19-90f7-c72998b4fb68" volatile="True">
+          <block href="http://xml.zeit.de/kultur/2015-08/netzpolitik-pressefreiheit-geheimnisverrat" uniqueId="http://xml.zeit.de/kultur/2015-08/netzpolitik-pressefreiheit-geheimnisverrat" year="2015" issue="32" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2016-01-27T12:28:22+00:00" date-first-released="2015-08-09T08:38:00.968750+00:00" date-last-published="2015-09-11T13:37:50.550135+00:00" last-semantic-change="2015-08-09T06:53:12.504952+00:00" author="Christian Bangel;Milena Hassenkamp">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Sie versuchen es immer wieder</title>
+            <text py:pytype="str">Der Fall "netzpolitik.org" ist kein singuläres Ereignis. Er gehört in die lange Reihe juristischer Kämpfe von Behörden gegen Journalisten. Das Ziel: fast immer dasselbe.</text>
+            <description py:pytype="str">Der Fall "netzpolitik.org" ist kein singuläres Ereignis. Er gehört in die lange Reihe juristischer Kämpfe von Behörden gegen Journalisten. Das Ziel: fast immer dasselbe.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/cicero-durchsuchung/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Christian_Bangel/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Christian Bangel</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/H/Milena_Hassenkamp/index" publication-date="" expires="">
+              <display_name py:pytype="str">Milena Hassenkamp</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-c868570c-2bbb-4692-bf59-8193c31e87ff" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-ueberwachung-landesverrat" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-ueberwachung-landesverrat" year="2015" issue="32" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2016-02-19T02:49:26+00:00" date-first-released="2015-08-07T17:14:16.367696+00:00" date-last-published="2015-09-11T13:37:55.130425+00:00" last-semantic-change="2015-08-07T17:12:55.142066+00:00" author="Patrick Beuth;Lisa Caspari">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">So leicht wird niemand überwacht</title>
+            <text py:pytype="str">Die Journalisten von "netzpolitik.org" fürchten, sie werden überwacht. BKA und Verfassungsschutz dürften das unter Umständen. Doch in diesem Fall spricht einiges dagegen.</text>
+            <description py:pytype="str">Die Journalisten von "netzpolitik.org" fürchten, sie werden überwacht. BKA und Verfassungsschutz dürften das unter Umständen. Doch in diesem Fall spricht einiges dagegen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/andre-meister-netzpolitik/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Patrick_Beuth/index" publication-date="" expires="">
+              <display_name py:pytype="str">Patrick Beuth</display_name>
+            </author>
+            <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Lisa Caspari</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-35eff4ae-e2f3-4305-846b-6f4e9119d4fc" volatile="True">
+          <block href="http://xml.zeit.de/2015/32/netzpolitik-jacob-appelbaum-pressefreiheit" uniqueId="http://xml.zeit.de/2015/32/netzpolitik-jacob-appelbaum-pressefreiheit" year="2015" issue="32" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-11T17:50:52+00:00" date-first-released="2015-08-06T11:59:42.996820+00:00" date-last-published="2015-08-11T17:51:51.015544+00:00" last-semantic-change="2015-08-06T13:07:29.103188+00:00" author="Jacob Appelbaum">
+            <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+            <title py:pytype="str">Sie wollen uns mundtot machen</title>
+            <text py:pytype="str">Der deutsche Geheimdienst etabliert amerikanische Verhältnisse und will Journalisten einschüchtern. Das muss sofort aufhören. Forderungen </text>
+            <description py:pytype="str">Der deutsche Geheimdienst etabliert amerikanische Verhältnisse und will Journalisten einschüchtern. Das muss sofort aufhören. Forderungen </description>
+            <byline py:pytype="str">von Jacob Appelbaum</byline>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2015-08/journalismus-pressefreiheit-repression-geheimdienste/" type="jpg" title="Journalismus" publication-date="" expires="2015-11-05T15:50:40+00:00">
+              <bu py:pytype="str">Der US-amerikanische Internetaktivist Jacob Appelbaum nimmt am 01.08.2015 in Berlin bei der Demonstration von Internetaktivisten für Pressefreiheit im Zusammenhang mit dem Vorwurf des Landesverrats der Journalisten des Bloggs netzpolitik.org teil.</bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/A/Jacob_Appelbaum/index" publication-date="" expires="">
+              <display_name py:pytype="str">Jacob Appelbaum</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-18194b29-1693-4ece-b281-5861ca279431" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-heiko-maas-strafvereitelung" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-heiko-maas-strafvereitelung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="nachricht" date-last-modified="2015-09-11T13:37:21+00:00" date-first-released="2015-08-05T15:23:44.815537+00:00" date-last-published="2015-09-11T13:38:21.036605+00:00" last-semantic-change="2015-08-05T15:22:42.251768+00:00">
+            <supertitle py:pytype="str">"Netzpolitik.org"-Affäre</supertitle>
+            <title py:pytype="str">Berliner Staatsanwaltschaft prüft Anzeigen gegen Maas</title>
+            <text py:pytype="str">Hat das Justizministerium die Ermittlungen gegen "netzpolitik.org" verhindert und damit Strafvereitelung begangen? Der deutsche Richterbund jedenfalls ist empört.</text>
+            <description py:pytype="str">Hat das Justizministerium die Ermittlungen gegen "netzpolitik.org" verhindert und damit Strafvereitelung begangen? Der deutsche Richterbund jedenfalls ist empört.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/heiko-maas-4/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-23883485-8596-4639-ac21-2c551b3ee6f1" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-harald-range-unabhaengigkeit-der-justiz" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-harald-range-unabhaengigkeit-der-justiz" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="gastbeitrag" date-last-modified="2015-08-21T10:57:38+00:00" date-first-released="2015-08-06T04:56:52.626463+00:00" date-last-published="2015-08-06T05:22:21.511679+00:00" last-semantic-change="2015-08-06T04:55:49.471037+00:00" author="Gerhard Strate">
+            <supertitle py:pytype="str">"Netzpolitik.org"-Affäre</supertitle>
+            <title py:pytype="str">Zurück zur Inquisition</title>
+            <text py:pytype="str">Der entlassene Generalbundesanwalt Range fordert die Selbstverwaltung der Justiz. Für den Rechtsstaat wäre dies verheerend. Ranges Presseerklärung hat demagogische Züge.</text>
+            <description py:pytype="str">Der entlassene Generalbundesanwalt Range fordert die Selbstverwaltung der Justiz. Für den Rechtsstaat wäre dies verheerend. Ranges Presseerklärung hat demagogische Züge.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-harald-range-justiz-rechtsstaat/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/S/Gerhard_Strate/index" publication-date="" expires="">
+              <display_name py:pytype="str">Gerhard Strate</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-3de50409-4d54-481c-8cb7-58218ad3dcdd" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-landsverrat-affaere" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-landsverrat-affaere" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:25+00:00" date-first-released="2015-08-05T12:45:16.347295+00:00" date-last-published="2015-08-21T18:11:24.112229+00:00" last-semantic-change="2015-08-05T12:44:10.370091+00:00" author="Jochen Bittner">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Maaßen, Range, Maas – Trio der Untugend</title>
+            <text py:pytype="str">Ein wütender Verfassungsschützer, ein kleinmütiger Bundesanwalt, ein träger Minister: Mit Ranges Entlassung ist Fehlverhalten in der Verratsaffäre nicht geradegerückt.</text>
+            <description py:pytype="str">Ein wütender Verfassungsschützer, ein kleinmütiger Bundesanwalt, ein träger Minister: Mit Ranges Entlassung ist Fehlverhalten in der Verratsaffäre nicht geradegerückt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Jochen_Bittner/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Jochen Bittner</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d47e6dd2-21ce-40be-ad7a-8d02d757186e" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/maas-range-netzpolitik-org-ermittlungen-kommentar" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/maas-range-netzpolitik-org-ermittlungen-kommentar" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2016-02-19T06:47:36+00:00" date-first-released="2015-08-05T09:42:38.058935+00:00" date-last-published="2015-08-05T11:36:36.386667+00:00" last-semantic-change="2015-08-05T10:26:56.717634+00:00" author="Ludwig Greven">
+            <supertitle py:pytype="str">Netzpolitik-Affäre</supertitle>
+            <title py:pytype="str">Zieht das Verfahren durch!</title>
+            <text py:pytype="str">Die Ermittlungen gegen "netzpolitik.org" sollten trotz der Range-Entlassung weitergehen. Dann könnte geklärt werden: Was darf die Presse? Was ist ein Staatsgeheimnis?</text>
+            <description py:pytype="str">Die Ermittlungen gegen "netzpolitik.org" sollten trotz der Range-Entlassung weitergehen. Dann könnte geklärt werden: Was darf die Presse? Was ist ein Staatsgeheimnis?</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/heiko-maas-3/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/G/Ludwig_Greven/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Ludwig Greven</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a6c16e95-73f8-41fd-97cf-35979746b0d6" volatile="True">
+          <block href="http://xml.zeit.de/digital/internet/2015-08/netzpolitik-org-pressefreiheit-offener-brief-appelbaum" uniqueId="http://xml.zeit.de/digital/internet/2015-08/netzpolitik-org-pressefreiheit-offener-brief-appelbaum" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2015-09-11T13:37:36+00:00" date-first-released="2015-08-05T09:07:11.602246+00:00" date-last-published="2015-09-11T13:38:36.261715+00:00" last-semantic-change="2015-08-05T09:06:06.552643+00:00">
+            <supertitle py:pytype="str">"netzpolitik.org" </supertitle>
+            <title py:pytype="str">"Ein Angriff auf die Pressefreiheit"</title>
+            <text py:pytype="str">In einem offenen Brief an die Bundesregierung solidarisieren sich Journalisten, Wissenschaftler und Aktivisten aus mehreren Ländern mit "netzpolitik.org".</text>
+            <description py:pytype="str">In einem offenen Brief an die Bundesregierung solidarisieren sich Journalisten, Wissenschaftler und Aktivisten aus mehreren Ländern mit "netzpolitik.org".</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/internet/2015-08/netzpolitik-org-pressefreiheit-offener-brief-demo-bild/" type="jpg" title="Demo" alt="Demonstration gegen Landesverrat-Ermittlungen" publication-date="" expires="2015-11-05T10:44:26+00:00">
+              <bu py:pytype="str">Demonstration in Berlin gegen die Ermittlungen gegen "netzpolitik.org" wegen des Verdachts auf Landesverrat  </bu>
+              <copyright py:pytype="str">© Britta Pedersen / dpa</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-5c46ec86-d376-4ba0-b08c-74d7dd2d12e2" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-meinungsfreiheit-pressefreiheit" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-meinungsfreiheit-pressefreiheit" year="2015" issue="31" ressort="Politik" serie="Fünf vor acht" contenttype="article" publication-date="" expires="" date-last-modified="2016-02-18T22:55:33+00:00" date-first-released="2015-08-05T05:23:56.772899+00:00" date-last-published="2015-09-11T13:38:22.899852+00:00" last-semantic-change="2015-08-05T05:22:53.028792+00:00" author="Gero von Randow">
+            <supertitle py:pytype="str">netzpolitik.org</supertitle>
+            <title py:pytype="str">Die Pressefreiheit muss wachsen</title>
+            <text py:pytype="str">Es gibt keine klare Grenze zwischen bloggenden Bürgern und Journalisten. Deshalb brauchen wir ein neues Konzept von Pressefreiheit.</text>
+            <description py:pytype="str">Es gibt keine klare Grenze zwischen bloggenden Bürgern und Journalisten. Deshalb brauchen wir ein neues Konzept von Pressefreiheit.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/2014-06/fuenf-vor-acht-gero-von-randow/" type="jpg" title="Fuenf vor Acht Gero von Randow" publication-date="" expires="">
+              <bu py:pytype="str">Gero von Randow ist Politik-Redakteur der ZEIT in Hamburg.</bu>
+              <copyright py:pytype="str">© Nicole Sturz</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/R/Gero_von_Randow/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Gero von Randow</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-af1c3787-d991-40ef-95e2-be9f2b626c88" volatile="True">
+          <block href="http://xml.zeit.de/kultur/2015-08/verrat-geheimnis-netzpolitik-verfassungsschutz" uniqueId="http://xml.zeit.de/kultur/2015-08/verrat-geheimnis-netzpolitik-verfassungsschutz" year="2015" issue="31" ressort="Kultur" contenttype="article" publication-date="" expires="" date-last-modified="2016-01-14T11:39:03+00:00" date-first-released="2015-08-04T18:03:01.485162+00:00" date-last-published="2015-08-21T18:11:28.673592+00:00" last-semantic-change="2015-08-04T18:01:54.274011+00:00" author="Hans Hütt">
+            <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+            <title py:pytype="str">Der eigentliche Verrat</title>
+            <text py:pytype="str">Im Fall von "netzpolitik.org" zeigt sich nicht nur das zivilgesellschaftliche Verständnis der digitalen Gesellschaft. Es geht auch darum, was der Staat wissen muss.</text>
+            <description py:pytype="str">Im Fall von "netzpolitik.org" zeigt sich nicht nur das zivilgesellschaftliche Verständnis der digitalen Gesellschaft. Es geht auch darum, was der Staat wissen muss.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/kultur/2015-08/demo-netzpolitik/" type="jpg" title="Demonstration von Unterstützern des Internetportals Netzpolitik.org" alt="Demonstration von Unterstützern des Internetportals Netzpolitik.org" publication-date="" expires="2015-11-04T15:13:11+00:00">
+              <bu py:pytype="str">Teilnehmer einer Demonstration von Unterstützern des Internetportals Netzpolitik.org halten am 01.08.2015 in Berlin bei der Demonstration ein Schild "Freedom of Press". Internetaktivisten protestierten in Berlin gegen die staatsanwaltlichen Ermittlungen gegen Netzpolitik.org wegen Landesverrats. Foto: Britta Pedersen/dpa</bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/H/Hans_Huett/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hans Hütt</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-1d2b8c72-2d7d-4f09-96e9-c6e1123861c2" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-maas-generalbundesanwalt-range-entlassung-ruhestand" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-maas-generalbundesanwalt-range-entlassung-ruhestand" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-09-11T13:37:35+00:00" date-first-released="2015-08-04T19:42:13.276850+00:00" date-last-published="2015-09-11T13:38:34.921136+00:00" last-semantic-change="2015-08-04T19:41:08.831043+00:00" author="Lisa Caspari">
+            <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+            <title py:pytype="str">Range trägt nicht die alleinige Verantwortung</title>
+            <text py:pytype="str">Der Generalbundesanwalt hat seinen vorzeitigen Ruhestand provoziert. Aber das darf nicht davon ablenken, dass sehr viele Fragen in der Netzpolitik-Affäre offen bleiben.</text>
+            <description py:pytype="str">Der Generalbundesanwalt hat seinen vorzeitigen Ruhestand provoziert. Aber das darf nicht davon ablenken, dass sehr viele Fragen in der Netzpolitik-Affäre offen bleiben.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/range-2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Lisa Caspari</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-72ee1b76-d81e-419b-9379-5104ea53deeb" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/justizminister-maas-versetzt-generalbundesanwalt-range-in-ruhestand" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/justizminister-maas-versetzt-generalbundesanwalt-range-in-ruhestand" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:34+00:00" date-first-released="2015-08-04T16:22:08.960863+00:00" date-last-published="2015-08-21T18:11:33.929551+00:00" last-semantic-change="2015-08-04T18:02:03.043528+00:00">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Maas versetzt Range in den Ruhestand</title>
+            <text py:pytype="str">Der Bundesjustizminister hat kein Vertrauen mehr: Generalbundesanwalt Range verliert wegen der Netzpolitik-Affäre sein Amt. Sein Nachfolger steht bereits fest.</text>
+            <description py:pytype="str">Der Bundesjustizminister hat kein Vertrauen mehr: Generalbundesanwalt Range verliert wegen der Netzpolitik-Affäre sein Amt. Sein Nachfolger steht bereits fest.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/heiko-maas/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-daa4fb29-e3e7-4d84-bcad-e2d29f97c92f" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-harald-range-generalbundesanwalt-kommentar" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-harald-range-generalbundesanwalt-kommentar" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="kommentar" date-last-modified="2015-08-21T18:10:33+00:00" date-first-released="2015-08-04T13:22:03.263522+00:00" date-last-published="2015-08-21T18:11:33.138712+00:00" last-semantic-change="2015-08-04T13:59:39.329900+00:00" author="Lisa Caspari">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Hüter der Verfassung (in Teilzeit)</title>
+            <text py:pytype="str">Im Fall "netzpolitik.org" pocht der Generalbundesanwalt auf die Eigenständigkeit der Justiz. Sein plötzliches Engagement wäre in der NSA-Affäre besser aufgehoben gewesen.</text>
+            <description py:pytype="str">Im Fall "netzpolitik.org" pocht der Generalbundesanwalt auf die Eigenständigkeit der Justiz. Sein plötzliches Engagement wäre in der NSA-Affäre besser aufgehoben gewesen.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/generalbundesanwalt-harald-range/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Lisa Caspari</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-694c7685-a5e6-45a6-abf1-6fa3ed86d39e" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-harald-range-heiko-maas-streit-um-verantwortung" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-harald-range-heiko-maas-streit-um-verantwortung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T10:57:33+00:00" date-first-released="2015-08-04T12:42:09.820378+00:00" date-last-published="2015-08-04T14:03:19.149858+00:00" last-semantic-change="2015-08-04T12:41:03.134769+00:00">
+            <supertitle py:pytype="str">Netzpolitik-Affäre</supertitle>
+            <title py:pytype="str">Opposition macht Druck auf Maas und de Maizière</title>
+            <text py:pytype="str">Welche Rolle spielen der Justiz- und der Innenminister in der Netzpolitik-Affäre? Die Opposition fordert schnelle Aufklärung und erwägt einen Untersuchungsausschuss.</text>
+            <description py:pytype="str">Welche Rolle spielen der Justiz- und der Innenminister in der Netzpolitik-Affäre? Die Opposition fordert schnelle Aufklärung und erwägt einen Untersuchungsausschuss.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/konstantin-von-notz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-8426d003-a51c-4d35-ae36-9f0f9651fd24" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-generalbundesanwalt-harald-range-erklaerung" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-generalbundesanwalt-harald-range-erklaerung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:37+00:00" date-first-released="2015-08-04T08:01:34.065286+00:00" date-last-published="2015-08-21T18:11:36.676584+00:00" last-semantic-change="2015-08-04T08:36:02.265546+00:00">
+            <supertitle py:pytype="str">Netzpolitik-Affäre</supertitle>
+            <title py:pytype="str">Range beklagt "Eingriff in die Unabhängigkeit der Justiz"</title>
+            <text py:pytype="str">Viele hatten seinen Rücktritt erwartet, doch der Generalbundesanwalt ist in die Offensive gegangen. Range wehrt sich gegen die Einflussnahme der Politik.</text>
+            <description py:pytype="str">Viele hatten seinen Rücktritt erwartet, doch der Generalbundesanwalt ist in die Offensive gegangen. Range wehrt sich gegen die Einflussnahme der Politik.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/generalbundesanwalt-range/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-a21638e3-cbc8-458c-8f94-d1a17f99c69d" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-range-stellungnahme-dokumentation" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-range-stellungnahme-dokumentation" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:39+00:00" date-first-released="2015-08-04T08:03:26.826850+00:00" date-last-published="2015-08-21T18:11:38.896981+00:00" last-semantic-change="2015-08-04T08:02:22.163457+00:00">
+            <supertitle py:pytype="str">Dokumentation</supertitle>
+            <title py:pytype="str">Ranges Erklärung zum "netzpolitik.org"-Fall</title>
+            <text py:pytype="str">Der Generalbundesanwalt sieht die Unabhängigkeit der Justiz gefährdet. Das Handeln der Politik nennt er "einen unerträglichen Eingriff". Die Erklärung im Wortlaut</text>
+            <description py:pytype="str">Der Generalbundesanwalt sieht die Unabhängigkeit der Justiz gefährdet. Das Handeln der Politik nennt er "einen unerträglichen Eingriff". Die Erklärung im Wortlaut</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/harald-range-2/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-9b7059fb-1108-4aba-ac50-7d0e291875c2" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-alle-auf-distanz-unterstuetzung" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-alle-auf-distanz-unterstuetzung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:37+00:00" date-first-released="2015-08-04T06:11:20.160270+00:00" date-last-published="2015-08-21T18:11:37.353094+00:00" last-semantic-change="2015-08-04T06:48:17.562765+00:00">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Nichts gehört und nichts gesehen</title>
+            <text py:pytype="str">Von den Ermittlungen gegen Journalisten wegen des Verdachts des Landesverrats will nun niemand gewusst haben – weder Justizminister Maas noch Kanzlerin Merkel.</text>
+            <description py:pytype="str">Von den Ermittlungen gegen Journalisten wegen des Verdachts des Landesverrats will nun niemand gewusst haben – weder Justizminister Maas noch Kanzlerin Merkel.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-demonstration-unterstuetzung/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0bbbf206-cd61-4e37-912c-f5f757f96069" volatile="True">
+          <block xmlns:ns0="http://namespaces.zeit.de/CMS/link" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-blogs-journalismus-verantwortung" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-blogs-journalismus-verantwortung" year="2015" issue="31" ressort="Politik" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/recht-subversiv/2015/08/03/wer-aufklaert-und-wer-versagt/" date-last-modified="2015-08-21T10:57:35+00:00" date-first-released="2015-08-03T20:17:18.851997+00:00" date-last-published="2015-08-04T07:55:28.985128+00:00" last-semantic-change="2015-08-03T20:23:59.877883+00:00" author="Wolfgang Kaleck">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Wer aufklärt und wer versagt</title>
+            <text py:pytype="str">"Netzpolitik.org" steht für eine neue, aktivistischere Form des Journalismus, die uns guttut. Die Politik hingegen hat schon vor Jahren einen Fehler gemacht.</text>
+            <description py:pytype="str">"Netzpolitik.org" steht für eine neue, aktivistischere Form des Journalismus, die uns guttut. Die Politik hingegen hat schon vor Jahren einen Fehler gemacht.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Wolfgang_Kaleck/index" publication-date="" expires="">
+              <display_name py:pytype="str">Wolfgang Kaleck</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-759c4d08-56ae-46ef-bb55-1c4528ebad9f" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-merkel-zweifel-landesverrat" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-merkel-zweifel-landesverrat" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="nachricht" date-last-modified="2015-08-21T18:10:28+00:00" date-first-released="2015-08-03T10:48:12.206477+00:00" date-last-published="2015-08-21T18:11:27.569289+00:00" last-semantic-change="2015-08-03T13:54:07.121819+00:00">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">Merkel zweifelt an Landesverratsverfahren</title>
+            <text py:pytype="str">Die Kanzlerin geht auf Distanz zum Generalbundesanwalt und dessen Ermittlungen gegen "netzpolitik.org". In Bezug auf die Pressefreiheit sei sensibles Abwägen notwendig.</text>
+            <description py:pytype="str">Die Kanzlerin geht auf Distanz zum Generalbundesanwalt und dessen Ermittlungen gegen "netzpolitik.org". In Bezug auf die Pressefreiheit sei sensibles Abwägen notwendig.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/merkel/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d8d21ecb-a24c-44f4-a1d4-14e6a9ccc456" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/landesverrat-range-maasen-maas-ruecktritt-verantwortung" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/landesverrat-range-maasen-maas-ruecktritt-verantwortung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="nachricht" date-last-modified="2015-08-21T18:10:31+00:00" date-first-released="2015-08-03T05:37:46.702118+00:00" date-last-published="2015-08-21T18:11:30.904666+00:00" last-semantic-change="2015-08-03T05:36:37.321903+00:00">
+            <supertitle py:pytype="str">Landesverrat</supertitle>
+            <title py:pytype="str">Offene Widersprüche im "netzpolitik.org"-Verfahren</title>
+            <text py:pytype="str">Sowohl der Generalbundesanwalt als auch der Verfassungsschutz verteidigen ihr Vorgehen im Fall "netzpolitik.org". In Bezug auf die Strafanzeige gibt es Ungereimtheiten.</text>
+            <description py:pytype="str">Sowohl der Generalbundesanwalt als auch der Verfassungsschutz verteidigen ihr Vorgehen im Fall "netzpolitik.org". In Bezug auf die Strafanzeige gibt es Ungereimtheiten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/hans-georg-maassen/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-35bfb18d-864f-4148-9847-306b991492ed" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-landesverrat-harald-range-hans-georg-maassen" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-landesverrat-harald-range-hans-georg-maassen" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:32+00:00" date-first-released="2015-08-02T16:45:50.537039+00:00" date-last-published="2015-08-21T18:11:32.215735+00:00" last-semantic-change="2015-08-02T16:42:51.183878+00:00">
+            <supertitle py:pytype="str">Landesverrat</supertitle>
+            <title py:pytype="str">Maaßen soll Verfahren gezielt initiiert haben</title>
+            <text py:pytype="str">Offenbar brachte der Verfassungsschutzpräsident das Verfahren gegen die Journalisten von "netzpolitik.org" bewusst in Gang. Der Justizminister soll davor gewarnt haben.</text>
+            <description py:pytype="str">Offenbar brachte der Verfassungsschutzpräsident das Verfahren gegen die Journalisten von "netzpolitik.org" bewusst in Gang. Der Justizminister soll davor gewarnt haben.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/maassen-sicherheitskonferenz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-914e9b2c-e138-476f-95ed-06451efd8a45" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-kanzleramtsminister-altmaier-pressefreiheit" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-kanzleramtsminister-altmaier-pressefreiheit" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T10:57:41+00:00" date-first-released="2015-08-02T15:34:19.199678+00:00" date-last-published="2015-08-03T04:26:12.377699+00:00" last-semantic-change="2015-08-02T15:31:53.146065+00:00">
+            <supertitle py:pytype="str">Netzpolitik.org</supertitle>
+            <title py:pytype="str">Altmaier betont die Bedeutung der Pressefreiheit</title>
+            <text py:pytype="str">Im Konflikt um "Netzpolitik.org" hat Kanzleramtsminister Peter Altmaier die Ermittlungspause befürwortet. Die Pressefreiheit habe in vielen Fällen Vorrang.</text>
+            <description py:pytype="str">Im Konflikt um "Netzpolitik.org" hat Kanzleramtsminister Peter Altmaier die Ermittlungspause befürwortet. Die Pressefreiheit habe in vielen Fällen Vorrang.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-demonstration-altmaier/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-b26d4b6f-b32f-4194-819a-d0d1efc3ec82" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-hans-georg-maassen-verteidigt-strafanzeige" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-hans-georg-maassen-verteidigt-strafanzeige" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:31+00:00" date-first-released="2015-08-02T03:24:53.823686+00:00" date-last-published="2015-08-21T18:11:31.575633+00:00" last-semantic-change="2015-08-02T10:08:08.485999+00:00">
+            <supertitle py:pytype="str">Netzpolitik.org</supertitle>
+            <title py:pytype="str">Maaßen nennt Strafanzeigen "notwendig"</title>
+            <text py:pytype="str">Im Kampf gegen Extremismus und Terrorismus seien die Anzeigen notwendig, sagt der Verfassungsschutzchef. Sein Vorgehen führte zu den Ermittlungen gegen "Netzpolitik.org".</text>
+            <description py:pytype="str">Im Kampf gegen Extremismus und Terrorismus seien die Anzeigen notwendig, sagt der Verfassungsschutzchef. Sein Vorgehen führte zu den Ermittlungen gegen "Netzpolitik.org".</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-maassen-verfassungsschutz/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-decda187-b4c8-4f94-a06f-1ef1857e1db7" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-demonstration-berlin" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-demonstration-berlin" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:36+00:00" date-first-released="2015-08-01T17:17:21.918305+00:00" date-last-published="2015-08-21T18:11:35.905598+00:00" last-semantic-change="2015-08-01T17:16:02.641976+00:00" author="Hannes Leitlein">
+            <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+            <title py:pytype="str">2.500 Landesverräter </title>
+            <text py:pytype="str">In Berlin feiern Demonstranten die Blogger von "netzpolitik.org". Sie fordern das Ende der Ermittlungen gegen das Blog und den Rücktritt des Generalbundesanwalts.</text>
+            <description py:pytype="str">In Berlin feiern Demonstranten die Blogger von "netzpolitik.org". Sie fordern das Ende der Ermittlungen gegen das Blog und den Rücktritt des Generalbundesanwalts.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/2015-08/netzpolitik-demonstartion/" type="jpg" title="Netzpolitik Demonstartion" alt="Netzpolitik Demonstartion" publication-date="" expires="2015-11-01T14:50:49+00:00">
+              <bu py:pytype="str">2.500 Menschen protestieren in Berlin gegen die staatsanwaltlichen Ermittlungen gegen das Blog "netzpolitik.org" wegen Landesverrats. </bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa </copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Hannes_Leitlein/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hannes Leitlein</display_name>
+              <location>Berlin</location>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-53cbc41c-1167-4be6-84b3-f5187874eed9" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-forderung-ruecktritt-harald-range-generalbundesanwalt" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-forderung-ruecktritt-harald-range-generalbundesanwalt" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:38+00:00" date-first-released="2015-08-01T14:23:13.278060+00:00" date-last-published="2015-08-21T18:11:38.265947+00:00" last-semantic-change="2015-08-01T14:27:52.877481+00:00">
+            <supertitle py:pytype="str"> "netzpolitik.org"</supertitle>
+            <title py:pytype="str">Der Druck auf den Generalbundesanwalt wächst</title>
+            <text py:pytype="str">Auch SPD-Politiker fordern inzwischen den Rücktritt von Generalbundesanwalt Range. Der Koalitionspartner CDU verteidigt hingegen die Ermittlungen gegen "netzpolitik.org".</text>
+            <description py:pytype="str">Auch SPD-Politiker fordern inzwischen den Rücktritt von Generalbundesanwalt Range. Der Koalitionspartner CDU verteidigt hingegen die Ermittlungen gegen "netzpolitik.org".</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/harald-range/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-d9ed2aac-70ed-4348-911b-03e953c01fe4" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-bernd-riexinger-fordert-harald-runges-ruecktritt" uniqueId="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-bernd-riexinger-fordert-harald-runges-ruecktritt" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-21T18:10:35+00:00" date-first-released="2015-08-01T02:24:25.249701+00:00" date-last-published="2015-08-21T18:11:35.141464+00:00" last-semantic-change="2015-08-01T08:37:54.080159+00:00">
+            <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+            <title py:pytype="str">Politiker fordern Ranges Rücktritt in Blogger-Affäre</title>
+            <text py:pytype="str">Die Ermittlungen gegen kritische Blogger müssen Konsequenzen für Generalbundesanwalt Harald Range haben, finden Linken-Chef Bernd Riexinger und FDP-Vize Wolfgang Kubicki.</text>
+            <description py:pytype="str">Die Ermittlungen gegen kritische Blogger müssen Konsequenzen für Generalbundesanwalt Harald Range haben, finden Linken-Chef Bernd Riexinger und FDP-Vize Wolfgang Kubicki.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/harald-range-ruecktritt/" type="jpg" publication-date="" expires="">
+              <bu xsi:nil="true"/>
+              <copyright py:pytype="str">©</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-cdf7f7e9-1513-4f72-b3e5-d729e468ff5b" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-07/netzpolitik-landesverrat-interview-warken" uniqueId="http://xml.zeit.de/politik/deutschland/2015-07/netzpolitik-landesverrat-interview-warken" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2015-08-01T06:31:25+00:00" date-first-released="2015-08-01T06:32:24.034124+00:00" date-last-published="2015-08-01T06:32:24.034124+00:00" last-semantic-change="2015-08-01T06:30:48.092288+00:00" author="Hannes Leitlein">
+            <supertitle py:pytype="str">Landesverrat</supertitle>
+            <title py:pytype="str">"Mit Einschüchterungsversuchen hat das nichts zu tun"</title>
+            <text py:pytype="str">Die CDU-Politikerin Nina Warken sitzt im NSA-Untersuchungssauschuss. Im Interview verteidigt sie die Ermittlungen im Fall "Netzpolitik.org".</text>
+            <description py:pytype="str">Die CDU-Politikerin Nina Warken sitzt im NSA-Untersuchungssauschuss. Im Interview verteidigt sie die Ermittlungen im Fall "Netzpolitik.org".</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-07/interview-warken-netzpolitik/" type="jpg" title="Nina Warken" publication-date="" expires="">
+              <bu py:pytype="str">Nina Warken im Interview am Rande der Sitzung des Untersuchungsausschusses im April 2015</bu>
+              <copyright py:pytype="str">© Gregor Fischer/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/L/Johannes_Leitlein/index" publication-date="" expires="">
+              <display_name py:pytype="str">Hannes Leitlein</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-f56d8f0e-1df9-4708-8971-dbfbac185309" volatile="True">
+          <block href="http://xml.zeit.de/politik/deutschland/2015-07/netzpolitik-ermittlungen-landesverrat-verfassungsschutz" uniqueId="http://xml.zeit.de/politik/deutschland/2015-07/netzpolitik-ermittlungen-landesverrat-verfassungsschutz" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" date-last-modified="2016-02-19T04:23:06+00:00" date-first-released="2015-07-31T17:12:51.885409+00:00" date-last-published="2015-07-31T18:34:08.128758+00:00" last-semantic-change="2015-07-31T17:11:28.218125+00:00" author="Sybille Klormann">
+            <supertitle py:pytype="str">netzpolitik.org</supertitle>
+            <title py:pytype="str">Ermittlungen mit Hintergedanken</title>
+            <text py:pytype="str">Von einer Justizposse spricht der Journalistenverband und kommt damit der Realität nahe. Die Ermittlungen gegen "netzpolitik.org" haben offensichtlich andere Absichten.</text>
+            <description py:pytype="str">Von einer Justizposse spricht der Journalistenverband und kommt damit der Realität nahe. Die Ermittlungen gegen "netzpolitik.org" haben offensichtlich andere Absichten.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-07/ueberwachung/" type="jpg" title="Überwachung" alt="Landesverrat Generalbundesanwalt Spionage Überwachung NSA US-Geheimdienst " publication-date="" expires="">
+              <bu py:pytype="str">Ein Demonstrant in Frankfurt zeigt seine Unterstützung für den US-Whistleblower Edward Snowden und kritisiert die massenhafte Überwachung von Daten durch den Geheimdienst NSA. </bu>
+              <copyright py:pytype="str">© Kai Pfaffenbach/Reuters</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/K/Sybille_Klormann" publication-date="" expires="">
+              <display_name py:pytype="str">Sybille Klormann</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-0c63a4d8-d82b-4d2d-a67e-0b25afc0ebd0" volatile="True">
+          <block href="http://xml.zeit.de/digital/2015-07/netzpolitik-bundesanwaltschaft-landesverrat-demokratie-geheimdienste-kontrollen" uniqueId="http://xml.zeit.de/digital/2015-07/netzpolitik-bundesanwaltschaft-landesverrat-demokratie-geheimdienste-kontrollen" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2016-02-26T17:08:55+00:00" date-first-released="2015-07-30T19:13:44.620098+00:00" date-last-published="2015-07-31T07:18:21.017877+00:00" last-semantic-change="2015-07-31T07:13:54.991451+00:00" author="Karsten Polke-Majewski">
+            <supertitle py:pytype="str">Pressefreiheit</supertitle>
+            <title py:pytype="str">Landesverrat? Nein, "netzpolitik.org" schützt die Demokratie</title>
+            <text py:pytype="str">Verfassungsschutzpräsident Maaßen zeigt Journalisten an. Doch deren Arbeit ist wichtig – weil die deutschen Geheimdienste vom Staat nicht ausreichend kontrolliert werden.</text>
+            <description py:pytype="str">Verfassungsschutzpräsident Maaßen zeigt Journalisten an. Doch deren Arbeit ist wichtig – weil die deutschen Geheimdienste vom Staat nicht ausreichend kontrolliert werden.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/gesellschaft/2015-07/hans-georg-maassen/" type="jpg" title="Hans-Georg Maassen" alt="Der Präsident des Bundesamts für Verfassungsschutz, Hans-Georg Maaßen" publication-date="" expires="2015-10-30T18:56:00+00:00">
+              <bu py:pytype="str">Der Präsident des Bundesamts für Verfassungsschutz, Hans-Georg Maaßen</bu>
+              <copyright py:pytype="str">© Marijan Murat/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+              <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+              <image base-id="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/karsten-polke-majewski/" type="" align="left" publication-date="" expires="">
+                <bu xsi:nil="true"/>
+                <copyright py:pytype="str">© Jakob Börner</copyright>
+              </image>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-60fb1d0c-1c06-435e-b946-d3905b227a5a" volatile="True">
+          <block href="http://xml.zeit.de/digital/internet/2015-07/netzpolitik-ermittlungen-journalisten-innenministerium-maassen" uniqueId="http://xml.zeit.de/digital/internet/2015-07/netzpolitik-ermittlungen-journalisten-innenministerium-maassen" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-31T16:02:05+00:00" date-first-released="2015-07-31T12:51:40.704172+00:00" date-last-published="2015-07-31T16:03:04.433275+00:00" last-semantic-change="2015-07-31T16:01:57.873713+00:00">
+            <supertitle py:pytype="str">Landesverrat</supertitle>
+            <title py:pytype="str">Maas zweifelt an Verfahren gegen "netzpolitik.org"</title>
+            <text py:pytype="str">Der Justizminister ist auf Distanz zu den Ermittlungen des Generalbundesanwalts gegen Journalisten gegangen. Auch das Kanzleramt nennt das Vorgehen problematisch.</text>
+            <description py:pytype="str">Der Justizminister ist auf Distanz zu den Ermittlungen des Generalbundesanwalts gegen Journalisten gegangen. Auch das Kanzleramt nennt das Vorgehen problematisch.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/politik/deutschland/2015-07/bundesjustizminister-heiko-maas-3/" type="jpg" title="Bundesjustizminister Heiko Maas" publication-date="" expires="2015-10-30T15:56:09+00:00">
+              <bu py:pytype="str">Justizminister Heiko Maas (SPD)</bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-916fc430-9558-4482-b8ea-39e1975a2612" volatile="True">
+          <block href="http://xml.zeit.de/digital/internet/2015-07/landesverrat-netzpolitik-anzeige-verfassungsschutz-generalbundesanwalt-abschreckung" uniqueId="http://xml.zeit.de/digital/internet/2015-07/landesverrat-netzpolitik-anzeige-verfassungsschutz-generalbundesanwalt-abschreckung" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" genre="analyse" date-last-modified="2016-02-19T02:46:05+00:00" date-first-released="2015-07-31T08:34:36.553719+00:00" date-last-published="2015-07-31T09:51:31.176431+00:00" last-semantic-change="2015-07-31T06:58:00.507706+00:00" author="Patrick Beuth">
+            <supertitle py:pytype="str">Landesverrat</supertitle>
+            <title py:pytype="str">Eine Warnung an alle</title>
+            <text py:pytype="str">Geheimdienstchef Maaßen dürfte die Empörung über das Verfahren gegen "netzpolitik.org" nicht stören. Im Gegenteil. Was er am meisten fürchtet, ist ein deutscher Snowden.</text>
+            <description py:pytype="str">Geheimdienstchef Maaßen dürfte die Empörung über das Verfahren gegen "netzpolitik.org" nicht stören. Im Gegenteil. Was er am meisten fürchtet, ist ein deutscher Snowden.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/internet/2015-07/netzpolitik-maassen-3/" type="jpg" title="Netzpolitik Maassen" alt="Hans-Georg Maaßen, Präsident des Bundesamtes für Verfassungsschutz" publication-date="" expires="2015-10-30T08:11:41+00:00">
+              <bu py:pytype="str">Hans-Georg Maaßen, Präsident des Bundesamtes für Verfassungsschutz</bu>
+              <copyright py:pytype="str">© Bernd von Jutrczenka/dpa</copyright>
+            </image>
+            <author href="http://xml.zeit.de/autoren/B/Patrick_Beuth/index" publication-date="" expires="">
+              <display_name py:pytype="str">Patrick Beuth</display_name>
+            </author>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-bdf02fac-8e37-43eb-840e-bb6c9466d291" volatile="True">
+          <block href="http://xml.zeit.de/digital/2015-07/pressefreiheit-ralf-stegner-netzpolitik" uniqueId="http://xml.zeit.de/digital/2015-07/pressefreiheit-ralf-stegner-netzpolitik" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-31T07:14:50+00:00" date-first-released="2015-07-31T03:46:38.075244+00:00" date-last-published="2015-07-31T07:15:50.469794+00:00" last-semantic-change="2015-07-31T05:44:45.927389+00:00">
+            <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+            <title py:pytype="str">Scharfe Kritik an Ermittlungen wegen Landesverrats</title>
+            <text py:pytype="str">Linke und liberale Politiker sehen die Pressefreiheit bedroht. Das sei ein schlechter Scherz, twittert SPD-Vize Stegner. Auch der Datenschutz-Experte Schaar ist entsetzt.</text>
+            <description py:pytype="str">Linke und liberale Politiker sehen die Pressefreiheit bedroht. Das sei ein schlechter Scherz, twittert SPD-Vize Stegner. Auch der Datenschutz-Experte Schaar ist entsetzt.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/2015-07/netzpolitik-beckedahl/" type="jpg" title="Netzpolitik Beckedahl" publication-date="" expires="2015-10-30T06:15:46+00:00">
+              <bu py:pytype="str">Markus Beckedahl, Gründer des Blogs "Netzpolitik.org"</bu>
+              <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+        <container cp:type="teaser" module="zon-small" visible="True" visible_mobile="True" text_color="dark" overlay_level="3" cp:__name__="id-38c114c0-9219-42d4-8f60-f1d64e851053" volatile="True">
+          <block href="http://xml.zeit.de/digital/2015-07/netzpolitik-bundesgeneralanwalt-landesverrat" uniqueId="http://xml.zeit.de/digital/2015-07/netzpolitik-bundesgeneralanwalt-landesverrat" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" date-last-modified="2015-07-31T13:22:30+00:00" date-first-released="2015-07-30T15:37:51.545834+00:00" date-last-published="2015-07-31T13:23:29.239202+00:00" last-semantic-change="2015-07-30T17:34:04.870015+00:00">
+            <supertitle py:pytype="str">Pressefreiheit</supertitle>
+            <title py:pytype="str">Verfahren wegen Landesverrats gegen "netzpolitik.org"</title>
+            <text py:pytype="str">Der Bundesanwalt ermittelt gegen Journalisten des Blogs. Diese wittern eine Vertuschungsabsicht der Regierung. Gegenstand sind zwei Artikel über den Verfassungsschutz.</text>
+            <description py:pytype="str">Der Bundesanwalt ermittelt gegen Journalisten des Blogs. Diese wittern eine Vertuschungsabsicht der Regierung. Gegenstand sind zwei Artikel über den Verfassungsschutz.</description>
+            <byline xsi:nil="true"/>
+            <breadcrumb_title xsi:nil="true"/>
+            <image base-id="http://xml.zeit.de/digital/2015-07/harald-range/" type="jpg" title="Harald Range" publication-date="" expires="2015-10-30T16:24:43+00:00">
+              <bu py:pytype="str">Generalbundesanwalt Harald Range nach dem Treffen der Obleute des NSA-Untersuchungsausschusses in Berlin.</bu>
+              <copyright py:pytype="str">© Rainer Jensen/dpa</copyright>
+            </image>
+          </block>
+          <object_limit>50</object_limit>
+        </container>
+      </region>
+      <region visible="True" visible_mobile="True" hide-dupes="True" area="id-1df5d309-39b7-40f4-92d4-39f11dd34338" kind="minor">
+        <container cp:type="cpextra" module="mostread" visible="True" visible_mobile="True" cp:__name__="id-c82b5831-8bf9-4647-9acb-4006aa737c25">
+          <cp_extra id="mostread"/>
+        </container>
+        <container cp:type="cpextra" module="printbox" visible="True" visible_mobile="True" cp:__name__="id-5e9bf582-573f-4715-a00d-39eedb6b77f7">
+          <cp_extra id="printbox"/>
+        </container>
+      </region>
+    </cluster>
+  </body>
+  <feed>
+    <reference type="intern" href="http://xml.zeit.de/2015/32/netzpolitik-jacob-appelbaum-pressefreiheit" year="2015" issue="32" ressort="Kultur" contenttype="article" publication-date="" expires="" author="Jacob Appelbaum">
+      <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+      <title py:pytype="str">Sie wollen uns mundtot machen</title>
+      <text py:pytype="str">Der deutsche Geheimdienst etabliert amerikanische Verhältnisse und will Journalisten einschüchtern. Das muss sofort aufhören. Forderungen </text>
+      <description py:pytype="str">Der deutsche Geheimdienst etabliert amerikanische Verhältnisse und will Journalisten einschüchtern. Das muss sofort aufhören. Forderungen </description>
+      <byline py:pytype="str">von Jacob Appelbaum</byline>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/2015-08/journalismus-pressefreiheit-repression-geheimdienste/" type="jpg" title="Journalismus" publication-date="" expires="2015-11-05T15:50:40+00:00">
+        <bu py:pytype="str">Der US-amerikanische Internetaktivist Jacob Appelbaum nimmt am 01.08.2015 in Berlin bei der Demonstration von Internetaktivisten für Pressefreiheit im Zusammenhang mit dem Vorwurf des Landesverrats der Journalisten des Bloggs netzpolitik.org teil.</bu>
+        <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/A/Jacob_Appelbaum/index" publication-date="" expires="">
+        <display_name py:pytype="str">Jacob Appelbaum</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-ueberwachung-landesverrat" year="2015" issue="32" ressort="Politik" contenttype="article" publication-date="" expires="" author="Patrick Beuth;Lisa Caspari">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">So leicht wird niemand überwacht</title>
+      <text py:pytype="str">Die Journalisten von "netzpolitik.org" fürchten, sie werden überwacht. BKA und Verfassungsschutz dürften das unter Umständen. Doch in diesem Fall spricht einiges dagegen.</text>
+      <description py:pytype="str">Die Journalisten von "netzpolitik.org" fürchten, sie werden überwacht. BKA und Verfassungsschutz dürften das unter Umständen. Doch in diesem Fall spricht einiges dagegen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/andre-meister-netzpolitik/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Patrick_Beuth/index" publication-date="" expires="">
+        <display_name py:pytype="str">Patrick Beuth</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Lisa Caspari</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2015-08/netzpolitik-pressefreiheit-geheimnisverrat" year="2015" issue="32" ressort="Kultur" contenttype="article" publication-date="" expires="" author="Christian Bangel;Milena Hassenkamp">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Sie versuchen es immer wieder</title>
+      <text py:pytype="str">Der Fall "netzpolitik.org" ist kein singuläres Ereignis. Er gehört in die lange Reihe juristischer Kämpfe von Behörden gegen Journalisten. Das Ziel: fast immer dasselbe.</text>
+      <description py:pytype="str">Der Fall "netzpolitik.org" ist kein singuläres Ereignis. Er gehört in die lange Reihe juristischer Kämpfe von Behörden gegen Journalisten. Das Ziel: fast immer dasselbe.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/cicero-durchsuchung/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Christian_Bangel/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Christian Bangel</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/H/Milena_Hassenkamp/index" publication-date="" expires="">
+        <display_name py:pytype="str">Milena Hassenkamp</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/2015-08/generalbundesanwalt-stellt-ermittlungen-gegen-netzpolitik-org-ein" year="2015" issue="32" ressort="Digital" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Generalbundesanwalt verweigert die Akteneinsicht</title>
+      <text py:pytype="str">Zwar revidiert der neue Generalbundesanwalt die Entscheidung seines Vorgängers und stellt die Ermittlungen gegen "netzpolitik.org" ein. Erledigt ist das Thema aber nicht.</text>
+      <description py:pytype="str">Zwar revidiert der neue Generalbundesanwalt die Entscheidung seines Vorgängers und stellt die Ermittlungen gegen "netzpolitik.org" ein. Erledigt ist das Thema aber nicht.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/digital/internet/2015-09/netzpolitik-generalbundesanwalt-peter-frank/" type="jpg" alt="Generalbundesanwalt Peter Frank Netzpolitik" publication-date="" expires="2015-12-13T08:03:27+00:00">
+        <bu py:pytype="str">Generalbundesanwalt Peter Frank</bu>
+        <copyright py:pytype="str">©  Bayerisches Staatsministerium der Justiz/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/verfassungsschutz-netzpolitik-strafanzeige-verfahren-faq" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" author="Steffi Dobmeier;Sybille Klormann">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Alles Wichtige zu den Landesverrat-Ermittlungen</title>
+      <text py:pytype="str">Der neue Generalbundesanwalt hat die Ermittlungen gegen "netzpolitik.org" eingestellt. Ist die Affäre damit für alle Beteiligten ausgestanden?</text>
+      <description py:pytype="str">Der neue Generalbundesanwalt hat die Ermittlungen gegen "netzpolitik.org" eingestellt. Ist die Affäre damit für alle Beteiligten ausgestanden?</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-4/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/D/Steffi_Dobmeier/index" publication-date="" expires="">
+        <display_name py:pytype="str">Steffi Dobmeier</display_name>
+      </author>
+      <author href="http://xml.zeit.de/autoren/K/Sybille_Klormann" publication-date="" expires="">
+        <display_name py:pytype="str">Sybille Klormann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/2015-07/netzpolitik-bundesgeneralanwalt-landesverrat" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Pressefreiheit</supertitle>
+      <title py:pytype="str">Verfahren wegen Landesverrats gegen "netzpolitik.org"</title>
+      <text py:pytype="str">Der Bundesanwalt ermittelt gegen Journalisten des Blogs. Diese wittern eine Vertuschungsabsicht der Regierung. Gegenstand sind zwei Artikel über den Verfassungsschutz.</text>
+      <description py:pytype="str">Der Bundesanwalt ermittelt gegen Journalisten des Blogs. Diese wittern eine Vertuschungsabsicht der Regierung. Gegenstand sind zwei Artikel über den Verfassungsschutz.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/digital/2015-07/harald-range/" type="jpg" title="Harald Range" publication-date="" expires="2015-10-30T16:24:43+00:00">
+        <bu py:pytype="str">Generalbundesanwalt Harald Range nach dem Treffen der Obleute des NSA-Untersuchungsausschusses in Berlin.</bu>
+        <copyright py:pytype="str">© Rainer Jensen/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/2015-07/pressefreiheit-ralf-stegner-netzpolitik" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+      <title py:pytype="str">Scharfe Kritik an Ermittlungen wegen Landesverrats</title>
+      <text py:pytype="str">Linke und liberale Politiker sehen die Pressefreiheit bedroht. Das sei ein schlechter Scherz, twittert SPD-Vize Stegner. Auch der Datenschutz-Experte Schaar ist entsetzt.</text>
+      <description py:pytype="str">Linke und liberale Politiker sehen die Pressefreiheit bedroht. Das sei ein schlechter Scherz, twittert SPD-Vize Stegner. Auch der Datenschutz-Experte Schaar ist entsetzt.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/digital/2015-07/netzpolitik-beckedahl/" type="jpg" title="Netzpolitik Beckedahl" publication-date="" expires="2015-10-30T06:15:46+00:00">
+        <bu py:pytype="str">Markus Beckedahl, Gründer des Blogs "Netzpolitik.org"</bu>
+        <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/internet/2015-07/landesverrat-netzpolitik-anzeige-verfassungsschutz-generalbundesanwalt-abschreckung" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" genre="analyse" author="Patrick Beuth">
+      <supertitle py:pytype="str">Landesverrat</supertitle>
+      <title py:pytype="str">Eine Warnung an alle</title>
+      <text py:pytype="str">Geheimdienstchef Maaßen dürfte die Empörung über das Verfahren gegen "netzpolitik.org" nicht stören. Im Gegenteil. Was er am meisten fürchtet, ist ein deutscher Snowden.</text>
+      <description py:pytype="str">Geheimdienstchef Maaßen dürfte die Empörung über das Verfahren gegen "netzpolitik.org" nicht stören. Im Gegenteil. Was er am meisten fürchtet, ist ein deutscher Snowden.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/digital/internet/2015-07/netzpolitik-maassen-3/" type="jpg" title="Netzpolitik Maassen" alt="Hans-Georg Maaßen, Präsident des Bundesamtes für Verfassungsschutz" publication-date="" expires="2015-10-30T08:11:41+00:00">
+        <bu py:pytype="str">Hans-Georg Maaßen, Präsident des Bundesamtes für Verfassungsschutz</bu>
+        <copyright py:pytype="str">© Bernd von Jutrczenka/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/B/Patrick_Beuth/index" publication-date="" expires="">
+        <display_name py:pytype="str">Patrick Beuth</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/internet/2015-07/netzpolitik-ermittlungen-journalisten-innenministerium-maassen" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Landesverrat</supertitle>
+      <title py:pytype="str">Maas zweifelt an Verfahren gegen "netzpolitik.org"</title>
+      <text py:pytype="str">Der Justizminister ist auf Distanz zu den Ermittlungen des Generalbundesanwalts gegen Journalisten gegangen. Auch das Kanzleramt nennt das Vorgehen problematisch.</text>
+      <description py:pytype="str">Der Justizminister ist auf Distanz zu den Ermittlungen des Generalbundesanwalts gegen Journalisten gegangen. Auch das Kanzleramt nennt das Vorgehen problematisch.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-07/bundesjustizminister-heiko-maas-3/" type="jpg" title="Bundesjustizminister Heiko Maas" publication-date="" expires="2015-10-30T15:56:09+00:00">
+        <bu py:pytype="str">Justizminister Heiko Maas (SPD)</bu>
+        <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/digital/2015-07/netzpolitik-bundesanwaltschaft-landesverrat-demokratie-geheimdienste-kontrollen" year="2015" issue="31" ressort="Digital" contenttype="article" publication-date="" expires="" author="Karsten Polke-Majewski">
+      <supertitle py:pytype="str">Pressefreiheit</supertitle>
+      <title py:pytype="str">Landesverrat? Nein, "netzpolitik.org" schützt die Demokratie</title>
+      <text py:pytype="str">Verfassungsschutzpräsident Maaßen zeigt Journalisten an. Doch deren Arbeit ist wichtig – weil die deutschen Geheimdienste vom Staat nicht ausreichend kontrolliert werden.</text>
+      <description py:pytype="str">Verfassungsschutzpräsident Maaßen zeigt Journalisten an. Doch deren Arbeit ist wichtig – weil die deutschen Geheimdienste vom Staat nicht ausreichend kontrolliert werden.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/gesellschaft/2015-07/hans-georg-maassen/" type="jpg" title="Hans-Georg Maassen" alt="Der Präsident des Bundesamts für Verfassungsschutz, Hans-Georg Maaßen" publication-date="" expires="2015-10-30T18:56:00+00:00">
+        <bu py:pytype="str">Der Präsident des Bundesamts für Verfassungsschutz, Hans-Georg Maaßen</bu>
+        <copyright py:pytype="str">© Marijan Murat/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Karsten Polke-Majewski</display_name>
+        <image base-id="http://xml.zeit.de/autoren/P/Karsten_Polke-Majewski/karsten-polke-majewski/" type="" align="left" publication-date="" expires="">
+          <bu xsi:nil="true"/>
+          <copyright py:pytype="str">© Jakob Börner</copyright>
+        </image>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-07/netzpolitik-ermittlungen-landesverrat-verfassungsschutz" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" author="Sybille Klormann">
+      <supertitle py:pytype="str">netzpolitik.org</supertitle>
+      <title py:pytype="str">Ermittlungen mit Hintergedanken</title>
+      <text py:pytype="str">Von einer Justizposse spricht der Journalistenverband und kommt damit der Realität nahe. Die Ermittlungen gegen "netzpolitik.org" haben offensichtlich andere Absichten.</text>
+      <description py:pytype="str">Von einer Justizposse spricht der Journalistenverband und kommt damit der Realität nahe. Die Ermittlungen gegen "netzpolitik.org" haben offensichtlich andere Absichten.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-07/ueberwachung/" type="jpg" title="Überwachung" alt="Landesverrat Generalbundesanwalt Spionage Überwachung NSA US-Geheimdienst " publication-date="" expires="">
+        <bu py:pytype="str">Ein Demonstrant in Frankfurt zeigt seine Unterstützung für den US-Whistleblower Edward Snowden und kritisiert die massenhafte Überwachung von Daten durch den Geheimdienst NSA. </bu>
+        <copyright py:pytype="str">© Kai Pfaffenbach/Reuters</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Sybille_Klormann" publication-date="" expires="">
+        <display_name py:pytype="str">Sybille Klormann</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-07/netzpolitik-landesverrat-interview-warken" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" author="Hannes Leitlein">
+      <supertitle py:pytype="str">Landesverrat</supertitle>
+      <title py:pytype="str">"Mit Einschüchterungsversuchen hat das nichts zu tun"</title>
+      <text py:pytype="str">Die CDU-Politikerin Nina Warken sitzt im NSA-Untersuchungssauschuss. Im Interview verteidigt sie die Ermittlungen im Fall "Netzpolitik.org".</text>
+      <description py:pytype="str">Die CDU-Politikerin Nina Warken sitzt im NSA-Untersuchungssauschuss. Im Interview verteidigt sie die Ermittlungen im Fall "Netzpolitik.org".</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-07/interview-warken-netzpolitik/" type="jpg" title="Nina Warken" publication-date="" expires="">
+        <bu py:pytype="str">Nina Warken im Interview am Rande der Sitzung des Untersuchungsausschusses im April 2015</bu>
+        <copyright py:pytype="str">© Gregor Fischer/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Johannes_Leitlein/index" publication-date="" expires="">
+        <display_name py:pytype="str">Hannes Leitlein</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-bernd-riexinger-fordert-harald-runges-ruecktritt" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+      <title py:pytype="str">Politiker fordern Ranges Rücktritt in Blogger-Affäre</title>
+      <text py:pytype="str">Die Ermittlungen gegen kritische Blogger müssen Konsequenzen für Generalbundesanwalt Harald Range haben, finden Linken-Chef Bernd Riexinger und FDP-Vize Wolfgang Kubicki.</text>
+      <description py:pytype="str">Die Ermittlungen gegen kritische Blogger müssen Konsequenzen für Generalbundesanwalt Harald Range haben, finden Linken-Chef Bernd Riexinger und FDP-Vize Wolfgang Kubicki.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/harald-range-ruecktritt/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-forderung-ruecktritt-harald-range-generalbundesanwalt" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str"> "netzpolitik.org"</supertitle>
+      <title py:pytype="str">Der Druck auf den Generalbundesanwalt wächst</title>
+      <text py:pytype="str">Auch SPD-Politiker fordern inzwischen den Rücktritt von Generalbundesanwalt Range. Der Koalitionspartner CDU verteidigt hingegen die Ermittlungen gegen "netzpolitik.org".</text>
+      <description py:pytype="str">Auch SPD-Politiker fordern inzwischen den Rücktritt von Generalbundesanwalt Range. Der Koalitionspartner CDU verteidigt hingegen die Ermittlungen gegen "netzpolitik.org".</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/harald-range/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-demonstration-berlin" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" author="Hannes Leitlein">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">2.500 Landesverräter </title>
+      <text py:pytype="str">In Berlin feiern Demonstranten die Blogger von "netzpolitik.org". Sie fordern das Ende der Ermittlungen gegen das Blog und den Rücktritt des Generalbundesanwalts.</text>
+      <description py:pytype="str">In Berlin feiern Demonstranten die Blogger von "netzpolitik.org". Sie fordern das Ende der Ermittlungen gegen das Blog und den Rücktritt des Generalbundesanwalts.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/digital/2015-08/netzpolitik-demonstartion/" type="jpg" title="Netzpolitik Demonstartion" alt="Netzpolitik Demonstartion" publication-date="" expires="2015-11-01T14:50:49+00:00">
+        <bu py:pytype="str">2.500 Menschen protestieren in Berlin gegen die staatsanwaltlichen Ermittlungen gegen das Blog "netzpolitik.org" wegen Landesverrats. </bu>
+        <copyright py:pytype="str">© Britta Pedersen/dpa </copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/L/Hannes_Leitlein/index" publication-date="" expires="">
+        <display_name py:pytype="str">Hannes Leitlein</display_name>
+        <location>Berlin</location>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-hans-georg-maassen-verteidigt-strafanzeige" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Netzpolitik.org</supertitle>
+      <title py:pytype="str">Maaßen nennt Strafanzeigen "notwendig"</title>
+      <text py:pytype="str">Im Kampf gegen Extremismus und Terrorismus seien die Anzeigen notwendig, sagt der Verfassungsschutzchef. Sein Vorgehen führte zu den Ermittlungen gegen "Netzpolitik.org".</text>
+      <description py:pytype="str">Im Kampf gegen Extremismus und Terrorismus seien die Anzeigen notwendig, sagt der Verfassungsschutzchef. Sein Vorgehen führte zu den Ermittlungen gegen "Netzpolitik.org".</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-maassen-verfassungsschutz/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-kanzleramtsminister-altmaier-pressefreiheit" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Netzpolitik.org</supertitle>
+      <title py:pytype="str">Altmaier betont die Bedeutung der Pressefreiheit</title>
+      <text py:pytype="str">Im Konflikt um "Netzpolitik.org" hat Kanzleramtsminister Peter Altmaier die Ermittlungspause befürwortet. Die Pressefreiheit habe in vielen Fällen Vorrang.</text>
+      <description py:pytype="str">Im Konflikt um "Netzpolitik.org" hat Kanzleramtsminister Peter Altmaier die Ermittlungspause befürwortet. Die Pressefreiheit habe in vielen Fällen Vorrang.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-demonstration-altmaier/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-landesverrat-harald-range-hans-georg-maassen" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Landesverrat</supertitle>
+      <title py:pytype="str">Maaßen soll Verfahren gezielt initiiert haben</title>
+      <text py:pytype="str">Offenbar brachte der Verfassungsschutzpräsident das Verfahren gegen die Journalisten von "netzpolitik.org" bewusst in Gang. Der Justizminister soll davor gewarnt haben.</text>
+      <description py:pytype="str">Offenbar brachte der Verfassungsschutzpräsident das Verfahren gegen die Journalisten von "netzpolitik.org" bewusst in Gang. Der Justizminister soll davor gewarnt haben.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/maassen-sicherheitskonferenz/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/landesverrat-range-maasen-maas-ruecktritt-verantwortung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="nachricht">
+      <supertitle py:pytype="str">Landesverrat</supertitle>
+      <title py:pytype="str">Offene Widersprüche im "netzpolitik.org"-Verfahren</title>
+      <text py:pytype="str">Sowohl der Generalbundesanwalt als auch der Verfassungsschutz verteidigen ihr Vorgehen im Fall "netzpolitik.org". In Bezug auf die Strafanzeige gibt es Ungereimtheiten.</text>
+      <description py:pytype="str">Sowohl der Generalbundesanwalt als auch der Verfassungsschutz verteidigen ihr Vorgehen im Fall "netzpolitik.org". In Bezug auf die Strafanzeige gibt es Ungereimtheiten.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/hans-georg-maassen/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-merkel-zweifel-landesverrat" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="nachricht">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Merkel zweifelt an Landesverratsverfahren</title>
+      <text py:pytype="str">Die Kanzlerin geht auf Distanz zum Generalbundesanwalt und dessen Ermittlungen gegen "netzpolitik.org". In Bezug auf die Pressefreiheit sei sensibles Abwägen notwendig.</text>
+      <description py:pytype="str">Die Kanzlerin geht auf Distanz zum Generalbundesanwalt und dessen Ermittlungen gegen "netzpolitik.org". In Bezug auf die Pressefreiheit sei sensibles Abwägen notwendig.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/merkel/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference xmlns:ns0="http://namespaces.zeit.de/CMS/link" type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-blogs-journalismus-verantwortung" year="2015" issue="31" ressort="Politik" contenttype="link" publication-date="" expires="" ns0:href="http://blog.zeit.de/recht-subversiv/2015/08/03/wer-aufklaert-und-wer-versagt/" author="Wolfgang Kaleck">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Wer aufklärt und wer versagt</title>
+      <text py:pytype="str">"Netzpolitik.org" steht für eine neue, aktivistischere Form des Journalismus, die uns guttut. Die Politik hingegen hat schon vor Jahren einen Fehler gemacht.</text>
+      <description py:pytype="str">"Netzpolitik.org" steht für eine neue, aktivistischere Form des Journalismus, die uns guttut. Die Politik hingegen hat schon vor Jahren einen Fehler gemacht.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/K/Wolfgang_Kaleck/index" publication-date="" expires="">
+        <display_name py:pytype="str">Wolfgang Kaleck</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-alle-auf-distanz-unterstuetzung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Nichts gehört und nichts gesehen</title>
+      <text py:pytype="str">Von den Ermittlungen gegen Journalisten wegen des Verdachts des Landesverrats will nun niemand gewusst haben – weder Justizminister Maas noch Kanzlerin Merkel.</text>
+      <description py:pytype="str">Von den Ermittlungen gegen Journalisten wegen des Verdachts des Landesverrats will nun niemand gewusst haben – weder Justizminister Maas noch Kanzlerin Merkel.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-demonstration-unterstuetzung/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-range-stellungnahme-dokumentation" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Dokumentation</supertitle>
+      <title py:pytype="str">Ranges Erklärung zum "netzpolitik.org"-Fall</title>
+      <text py:pytype="str">Der Generalbundesanwalt sieht die Unabhängigkeit der Justiz gefährdet. Das Handeln der Politik nennt er "einen unerträglichen Eingriff". Die Erklärung im Wortlaut</text>
+      <description py:pytype="str">Der Generalbundesanwalt sieht die Unabhängigkeit der Justiz gefährdet. Das Handeln der Politik nennt er "einen unerträglichen Eingriff". Die Erklärung im Wortlaut</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/harald-range-2/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-generalbundesanwalt-harald-range-erklaerung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Netzpolitik-Affäre</supertitle>
+      <title py:pytype="str">Range beklagt "Eingriff in die Unabhängigkeit der Justiz"</title>
+      <text py:pytype="str">Viele hatten seinen Rücktritt erwartet, doch der Generalbundesanwalt ist in die Offensive gegangen. Range wehrt sich gegen die Einflussnahme der Politik.</text>
+      <description py:pytype="str">Viele hatten seinen Rücktritt erwartet, doch der Generalbundesanwalt ist in die Offensive gegangen. Range wehrt sich gegen die Einflussnahme der Politik.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/generalbundesanwalt-range/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-harald-range-heiko-maas-streit-um-verantwortung" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">Netzpolitik-Affäre</supertitle>
+      <title py:pytype="str">Opposition macht Druck auf Maas und de Maizière</title>
+      <text py:pytype="str">Welche Rolle spielen der Justiz- und der Innenminister in der Netzpolitik-Affäre? Die Opposition fordert schnelle Aufklärung und erwägt einen Untersuchungsausschuss.</text>
+      <description py:pytype="str">Welche Rolle spielen der Justiz- und der Innenminister in der Netzpolitik-Affäre? Die Opposition fordert schnelle Aufklärung und erwägt einen Untersuchungsausschuss.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/konstantin-von-notz/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-harald-range-generalbundesanwalt-kommentar" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" genre="kommentar" author="Lisa Caspari">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Hüter der Verfassung (in Teilzeit)</title>
+      <text py:pytype="str">Im Fall "netzpolitik.org" pocht der Generalbundesanwalt auf die Eigenständigkeit der Justiz. Sein plötzliches Engagement wäre in der NSA-Affäre besser aufgehoben gewesen.</text>
+      <description py:pytype="str">Im Fall "netzpolitik.org" pocht der Generalbundesanwalt auf die Eigenständigkeit der Justiz. Sein plötzliches Engagement wäre in der NSA-Affäre besser aufgehoben gewesen.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/generalbundesanwalt-harald-range/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Lisa Caspari</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/justizminister-maas-versetzt-generalbundesanwalt-range-in-ruhestand" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="">
+      <supertitle py:pytype="str">"netzpolitik.org"</supertitle>
+      <title py:pytype="str">Maas versetzt Range in den Ruhestand</title>
+      <text py:pytype="str">Der Bundesjustizminister hat kein Vertrauen mehr: Generalbundesanwalt Range verliert wegen der Netzpolitik-Affäre sein Amt. Sein Nachfolger steht bereits fest.</text>
+      <description py:pytype="str">Der Bundesjustizminister hat kein Vertrauen mehr: Generalbundesanwalt Range verliert wegen der Netzpolitik-Affäre sein Amt. Sein Nachfolger steht bereits fest.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/heiko-maas/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-affaere-maas-generalbundesanwalt-range-entlassung-ruhestand" year="2015" issue="31" ressort="Politik" contenttype="article" publication-date="" expires="" author="Lisa Caspari">
+      <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+      <title py:pytype="str">Range trägt nicht die alleinige Verantwortung</title>
+      <text py:pytype="str">Der Generalbundesanwalt hat seinen vorzeitigen Ruhestand provoziert. Aber das darf nicht davon ablenken, dass sehr viele Fragen in der Netzpolitik-Affäre offen bleiben.</text>
+      <description py:pytype="str">Der Generalbundesanwalt hat seinen vorzeitigen Ruhestand provoziert. Aber das darf nicht davon ablenken, dass sehr viele Fragen in der Netzpolitik-Affäre offen bleiben.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/deutschland/2015-08/range-2/" type="jpg" publication-date="" expires="">
+        <bu xsi:nil="true"/>
+        <copyright py:pytype="str">©</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/C/Lisa_Caspari/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Lisa Caspari</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/kultur/2015-08/verrat-geheimnis-netzpolitik-verfassungsschutz" year="2015" issue="31" ressort="Kultur" contenttype="article" publication-date="" expires="" author="Hans Hütt">
+      <supertitle py:pytype="str">"Netzpolitik.org"</supertitle>
+      <title py:pytype="str">Der eigentliche Verrat</title>
+      <text py:pytype="str">Im Fall von "netzpolitik.org" zeigt sich nicht nur das zivilgesellschaftliche Verständnis der digitalen Gesellschaft. Es geht auch darum, was der Staat wissen muss.</text>
+      <description py:pytype="str">Im Fall von "netzpolitik.org" zeigt sich nicht nur das zivilgesellschaftliche Verständnis der digitalen Gesellschaft. Es geht auch darum, was der Staat wissen muss.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/kultur/2015-08/demo-netzpolitik/" type="jpg" title="Demonstration von Unterstützern des Internetportals Netzpolitik.org" alt="Demonstration von Unterstützern des Internetportals Netzpolitik.org" publication-date="" expires="2015-11-04T15:13:11+00:00">
+        <bu py:pytype="str">Teilnehmer einer Demonstration von Unterstützern des Internetportals Netzpolitik.org halten am 01.08.2015 in Berlin bei der Demonstration ein Schild "Freedom of Press". Internetaktivisten protestierten in Berlin gegen die staatsanwaltlichen Ermittlungen gegen Netzpolitik.org wegen Landesverrats. Foto: Britta Pedersen/dpa</bu>
+        <copyright py:pytype="str">© Britta Pedersen/dpa</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/H/Hans_Huett/index" publication-date="" expires="">
+        <display_name py:pytype="str">Hans Hütt</display_name>
+      </author>
+    </reference>
+    <reference type="intern" href="http://xml.zeit.de/politik/deutschland/2015-08/netzpolitik-org-meinungsfreiheit-pressefreiheit" year="2015" issue="31" ressort="Politik" serie="Fünf vor acht" contenttype="article" publication-date="" expires="" author="Gero von Randow">
+      <supertitle py:pytype="str">netzpolitik.org</supertitle>
+      <title py:pytype="str">Die Pressefreiheit muss wachsen</title>
+      <text py:pytype="str">Es gibt keine klare Grenze zwischen bloggenden Bürgern und Journalisten. Deshalb brauchen wir ein neues Konzept von Pressefreiheit.</text>
+      <description py:pytype="str">Es gibt keine klare Grenze zwischen bloggenden Bürgern und Journalisten. Deshalb brauchen wir ein neues Konzept von Pressefreiheit.</description>
+      <byline xsi:nil="true"/>
+      <breadcrumb_title xsi:nil="true"/>
+      <image base-id="http://xml.zeit.de/politik/2014-06/fuenf-vor-acht-gero-von-randow/" type="jpg" title="Fuenf vor Acht Gero von Randow" publication-date="" expires="">
+        <bu py:pytype="str">Gero von Randow ist Politik-Redakteur der ZEIT in Hamburg.</bu>
+        <copyright py:pytype="str">© Nicole Sturz</copyright>
+      </image>
+      <author href="http://xml.zeit.de/autoren/R/Gero_von_Randow/index.xml" publication-date="" expires="">
+        <display_name py:pytype="str">Gero von Randow</display_name>
+      </author>
+    </reference>
+  </feed>
+  <teaser>
+    <title>Alles zum "netzpolitik.org"-Verfahren</title>
+  </teaser>
+</centerpage>
