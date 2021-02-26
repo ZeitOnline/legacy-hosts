@@ -6,7 +6,7 @@ RUN pip3 install -i https://devpi.zeit.de/zeit/default/ -r requirements.txt
 COPY setup.py setup.py
 COPY src src
 COPY app.ini app.ini
-COPY content content
+COPY content /content
 
 # --- testing ---
 FROM base AS testing
